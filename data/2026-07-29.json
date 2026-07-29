@@ -1,0 +1,981 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T15:40:53+08:00",
+  "candidate_count": 80,
+  "matched_count": 20,
+  "warnings": [],
+  "software": [
+    {
+      "name": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "homepage": "https://airi.moeru.ai/docs/",
+      "language": "TypeScript",
+      "topics": [
+        "ai-companion",
+        "ai-vtuber",
+        "airi",
+        "digital-life",
+        "grok-companion",
+        "live2d",
+        "neuro-sama",
+        "neurosama",
+        "openclaw",
+        "vrm",
+        "vtuber"
+      ],
+      "stars": 45009,
+      "forks": 4460,
+      "stars_today": 797,
+      "trending_rank": 3,
+      "pushed_at": "2026-07-29T06:46:28Z",
+      "latest_release": {
+        "tag": "v0.11.3",
+        "url": "https://github.com/moeru-ai/airi/releases/tag/v0.11.3",
+        "published_at": "2026-07-18T20:05:58Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: AIRI-0.11.3-darwin-arm64.dmg",
+          "Release: AIRI-0.11.3-darwin-x64.dmg",
+          "README: macOS",
+          "README: DMG 安装包",
+          "README: Homebrew"
+        ],
+        "windows": [
+          "Release: AIRI-0.11.3-windows-x64-setup.exe",
+          "README: Windows",
+          "README: EXE 安装包",
+          "README: WinGet",
+          "README: Scoop"
+        ]
+      },
+      "score": 9833.64,
+      "rank": 1
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "homepage": "https://ecc.tools",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "stars": 235102,
+      "forks": 35816,
+      "stars_today": 636,
+      "trending_rank": 5,
+      "pushed_at": "2026-07-29T01:37:41Z",
+      "latest_release": {
+        "tag": "v2.1.0",
+        "url": "https://github.com/affaan-m/ECC/releases/tag/v2.1.0",
+        "published_at": "2026-07-27T18:10:46Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "README: macOS"
+        ],
+        "windows": [
+          "README: Windows"
+        ]
+      },
+      "score": 9629.14,
+      "rank": 2
+    },
+    {
+      "name": "opengeos/GeoLibre",
+      "url": "https://github.com/opengeos/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "homepage": "https://geolibre.app",
+      "language": "TypeScript",
+      "topics": [
+        "data-science",
+        "duckdb",
+        "geospatial",
+        "maplibre",
+        "maplibre-gl-js",
+        "tauri-app"
+      ],
+      "stars": 3600,
+      "forks": 405,
+      "stars_today": 607,
+      "trending_rank": 9,
+      "pushed_at": "2026-07-29T05:33:02Z",
+      "latest_release": {
+        "tag": "v2.4.0",
+        "url": "https://github.com/opengeos/GeoLibre/releases/tag/v2.4.0",
+        "published_at": "2026-07-29T04:29:55Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: geolibre-desktop_darwin_aarch64",
+          "Release: geolibre-desktop_darwin_x64",
+          "Release: GeoLibre.Desktop_2.4.0_aarch64.dmg",
+          "README: macOS"
+        ],
+        "windows": [
+          "Release: geolibre-desktop-2.4.0-x64.msix",
+          "Release: geolibre-desktop_windows_x64.exe",
+          "Release: GeoLibre.Desktop_2.4.0_x64-setup.exe",
+          "README: Windows"
+        ]
+      },
+      "score": 9228.2,
+      "rank": 3
+    },
+    {
+      "name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "homepage": "https://superfile.dev",
+      "language": "Go",
+      "topics": [
+        "bubbletea",
+        "cli",
+        "file-manager",
+        "filemanager",
+        "filesystem",
+        "golang",
+        "hacktoberfest",
+        "linux-app",
+        "terminal-app",
+        "terminal-based",
+        "tui"
+      ],
+      "stars": 21681,
+      "forks": 708,
+      "stars_today": 662,
+      "trending_rank": 12,
+      "pushed_at": "2026-07-28T09:59:51Z",
+      "latest_release": {
+        "tag": "v1.6.0",
+        "url": "https://github.com/yorukot/superfile/releases/tag/v1.6.0",
+        "published_at": "2026-06-07T17:54:13Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: superfile-darwin-v1.6.0-amd64.tar.gz",
+          "Release: superfile-darwin-v1.6.0-arm64.tar.gz",
+          "README: macOS",
+          "README: Homebrew"
+        ],
+        "windows": [
+          "Release: superfile-windows-v1.6.0-amd64.zip",
+          "Release: superfile-windows-v1.6.0-arm64.zip",
+          "README: Windows",
+          "README: EXE 安装包",
+          "README: WinGet"
+        ]
+      },
+      "score": 8929.94,
+      "rank": 4
+    },
+    {
+      "name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "description": "Visual Studio Code",
+      "homepage": "https://code.visualstudio.com",
+      "language": "TypeScript",
+      "topics": [
+        "editor",
+        "electron",
+        "microsoft",
+        "typescript",
+        "visual-studio-code"
+      ],
+      "stars": 187979,
+      "forks": 41305,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:39:48Z",
+      "latest_release": {
+        "tag": "1.130.0",
+        "url": "https://github.com/microsoft/vscode/releases/tag/1.130.0",
+        "published_at": "2026-07-22T17:39:17Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "README: macOS"
+        ],
+        "windows": [
+          "README: Windows"
+        ]
+      },
+      "score": 627.41,
+      "rank": 5
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "homepage": "https://ccswitch.io",
+      "language": "Rust",
+      "topics": [
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "grok",
+        "grokbuild",
+        "hermes",
+        "hermes-agent",
+        "mcp",
+        "open-source",
+        "openclaw",
+        "openclaw-ui",
+        "opencode",
+        "provider-management",
+        "rust",
+        "skills",
+        "skills-management",
+        "tauri",
+        "typescript",
+        "wsl-support"
+      ],
+      "stars": 122122,
+      "forks": 8237,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T02:27:50Z",
+      "latest_release": {
+        "tag": "v3.18.0",
+        "url": "https://github.com/farion1231/cc-switch/releases/tag/v3.18.0",
+        "published_at": "2026-07-21T15:34:53Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: CC-Switch-v3.18.0-macOS.dmg",
+          "Release: CC-Switch-v3.18.0-macOS.tar.gz",
+          "Release: CC-Switch-v3.18.0-macOS.tar.gz.sig",
+          "README: macOS",
+          "README: DMG 安装包"
+        ],
+        "windows": [
+          "Release: CC-Switch-v3.18.0-Windows-arm64-Portable.zip",
+          "Release: CC-Switch-v3.18.0-Windows-arm64.msi",
+          "Release: CC-Switch-v3.18.0-Windows-arm64.msi.sig",
+          "README: Windows",
+          "README: MSI/MSIX 安装包"
+        ]
+      },
+      "score": 607.81,
+      "rank": 6
+    },
+    {
+      "name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "homepage": "https://rustdesk.com",
+      "language": "Rust",
+      "topics": [
+        "android",
+        "anydesk",
+        "dart",
+        "flatpak",
+        "flutter",
+        "flutter-apps",
+        "ios",
+        "linux",
+        "macos",
+        "p2p",
+        "rdp",
+        "remote-control",
+        "remote-desktop",
+        "rust",
+        "rust-lang",
+        "teamviewer",
+        "vnc",
+        "wayland",
+        "windows"
+      ],
+      "stars": 119137,
+      "forks": 18182,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:32:58Z",
+      "latest_release": {
+        "tag": "1.4.9",
+        "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.4.9",
+        "published_at": "2026-07-06T10:02:30Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: rustdesk-1.4.9-aarch64.dmg",
+          "Release: rustdesk-1.4.9-x86_64.dmg",
+          "README: macOS"
+        ],
+        "windows": [
+          "Release: rustdesk-1.4.9-aarch64.exe",
+          "Release: rustdesk-1.4.9-aarch64.msi",
+          "Release: rustdesk-1.4.9-x86-sciter.exe",
+          "README: Windows"
+        ]
+      },
+      "score": 607.58,
+      "rank": 7
+    },
+    {
+      "name": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
+      "homepage": "https://open-design.ai",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-design",
+        "byok",
+        "claude-code-for-design",
+        "claude-design",
+        "codex-design",
+        "coding-agents",
+        "cursor-design",
+        "design-systems",
+        "design-tools",
+        "desktop-app",
+        "figma-alternative",
+        "generative-ai",
+        "hermes-agent",
+        "local-first",
+        "no-code",
+        "prototyping",
+        "ui-generator",
+        "vibe-coding"
+      ],
+      "stars": 82363,
+      "forks": 9521,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:37:51Z",
+      "latest_release": {
+        "tag": "open-design-v0.16.1",
+        "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.16.1",
+        "published_at": "2026-07-23T16:11:51Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: open-design-0.16.1-mac-arm64.dmg",
+          "Release: open-design-0.16.1-mac-x64.dmg",
+          "README: macOS",
+          "README: Homebrew"
+        ],
+        "windows": [
+          "Release: open-design-0.16.1-win-x64-setup.exe",
+          "README: Windows"
+        ]
+      },
+      "score": 591.56,
+      "rank": 8
+    },
+    {
+      "name": "toeverything/AFFiNE",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+      "homepage": "https://affine.pro",
+      "language": "TypeScript",
+      "topics": [
+        "app",
+        "crdt",
+        "editor",
+        "electron",
+        "knowledge-base",
+        "markdown",
+        "miro",
+        "notes",
+        "notion",
+        "notion-alternative",
+        "rust",
+        "rust-lang",
+        "rust-language",
+        "table",
+        "tableview",
+        "whiteboard",
+        "wiki",
+        "workspace"
+      ],
+      "stars": 70890,
+      "forks": 5090,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T06:19:32Z",
+      "latest_release": {
+        "tag": "v0.27.3",
+        "url": "https://github.com/toeverything/AFFiNE/releases/tag/v0.27.3",
+        "published_at": "2026-07-23T10:32:57Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: affine-0.27.3-stable-macos-arm64.dmg",
+          "Release: affine-0.27.3-stable-macos-arm64.zip",
+          "Release: affine-0.27.3-stable-macos-x64.dmg"
+        ],
+        "windows": [
+          "Release: affine-0.27.3-stable-windows-arm64.exe",
+          "Release: affine-0.27.3-stable-windows-arm64.nsis.exe",
+          "Release: affine-0.27.3-stable-windows-x64.exe"
+        ]
+      },
+      "score": 584.83,
+      "rank": 9
+    },
+    {
+      "name": "laurent22/joplin",
+      "url": "https://github.com/laurent22/joplin",
+      "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
+      "homepage": "https://joplinapp.org",
+      "language": "TypeScript",
+      "topics": [
+        "android",
+        "dropbox",
+        "electron",
+        "enex-files",
+        "evernote",
+        "javascript",
+        "joplin",
+        "nextcloud",
+        "nodejs",
+        "note-taking",
+        "notesnook",
+        "obsidian",
+        "onedrive",
+        "react-native",
+        "standardnotes",
+        "synchronisation",
+        "web-clipper",
+        "webdav"
+      ],
+      "stars": 55765,
+      "forks": 6195,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T05:52:37Z",
+      "latest_release": {
+        "tag": "v3.6.15",
+        "url": "https://github.com/laurent22/joplin/releases/tag/v3.6.15",
+        "published_at": "2026-06-20T11:04:11Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Joplin-3.6.15-arm64.DMG",
+          "Release: Joplin-3.6.15-arm64.pkg",
+          "Release: Joplin-3.6.15.dmg",
+          "README: macOS"
+        ],
+        "windows": [
+          "Release: Joplin-Setup-3.6.15.exe",
+          "Release: JoplinPortable.exe",
+          "README: Windows"
+        ]
+      },
+      "score": 574.34,
+      "rank": 10
+    },
+    {
+      "name": "WerWolv/ImHex",
+      "url": "https://github.com/WerWolv/ImHex",
+      "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+      "homepage": "https://imhex.werwolv.net/",
+      "language": "C++",
+      "topics": [
+        "analyzer",
+        "binary-analysis",
+        "c-plus-plus",
+        "cpp",
+        "cybersecurity",
+        "dark-mode",
+        "dear-imgui",
+        "disassembler",
+        "forensics",
+        "hacking",
+        "hacktoberfest",
+        "hex-editor",
+        "ips",
+        "linux",
+        "macos",
+        "multi-platform",
+        "pattern-language",
+        "reverse-engineering",
+        "static-analysis",
+        "windows"
+      ],
+      "stars": 54314,
+      "forks": 2433,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T00:46:35Z",
+      "latest_release": {
+        "tag": "v1.38.1",
+        "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.38.1",
+        "published_at": "2025-12-21T18:57:18Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: imhex-1.38.1-macOS-arm64.dmg",
+          "Release: imhex-1.38.1-macOS-NoGPU-x86_64.dmg",
+          "Release: imhex-1.38.1-macOS-x86_64.dmg",
+          "README: macOS"
+        ],
+        "windows": [
+          "Release: imhex-1.38.1-Windows-arm64.msi",
+          "Release: imhex-1.38.1-Windows-Portable-arm64.zip",
+          "Release: imhex-1.38.1-Windows-Portable-NoGPU-x86_64.zip",
+          "README: Windows"
+        ]
+      },
+      "score": 572.34,
+      "rank": 11
+    },
+    {
+      "name": "PowerShell/PowerShell",
+      "url": "https://github.com/PowerShell/PowerShell",
+      "description": "PowerShell for every system!",
+      "homepage": "https://microsoft.com/PowerShell",
+      "language": "C#",
+      "topics": [
+        "command-line",
+        "hacktoberfest",
+        "linux",
+        "macos",
+        "netcore",
+        "powershell",
+        "shell",
+        "windows"
+      ],
+      "stars": 54580,
+      "forks": 8408,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T20:54:11Z",
+      "latest_release": {
+        "tag": "v7.6.4",
+        "url": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.4",
+        "published_at": "2026-07-20T21:54:15Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: powershell-7.6.4-osx-arm64.pkg",
+          "Release: powershell-7.6.4-osx-arm64.tar.gz",
+          "Release: powershell-7.6.4-osx-x64.pkg",
+          "README: macOS"
+        ],
+        "windows": [
+          "Release: PowerShell-7.6.4-win-arm64.msi",
+          "Release: PowerShell-7.6.4-win-x64.msi",
+          "Release: PowerShell-7.6.4-win-x86.msi",
+          "README: Windows"
+        ]
+      },
+      "score": 571.91,
+      "rank": 12
+    },
+    {
+      "name": "marktext/marktext",
+      "url": "https://github.com/marktext/marktext",
+      "description": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
+      "homepage": "https://www.marktext.me",
+      "language": "TypeScript",
+      "topics": [
+        "dark-mode",
+        "editor",
+        "electron",
+        "focus-mode",
+        "latex",
+        "linux",
+        "mac",
+        "macos",
+        "markdown",
+        "marktext",
+        "source-code",
+        "typewriter-mode",
+        "vue",
+        "windows"
+      ],
+      "stars": 59271,
+      "forks": 4393,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-27T03:16:54Z",
+      "latest_release": {
+        "tag": "v0.19.1",
+        "url": "https://github.com/marktext/marktext/releases/tag/v0.19.1",
+        "published_at": "2026-06-06T05:05:38Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: marktext-mac-arm64-0.19.1.dmg",
+          "Release: marktext-mac-x64-0.19.1.dmg",
+          "README: macOS",
+          "README: DMG 安装包",
+          "README: Homebrew"
+        ],
+        "windows": [
+          "Release: marktext-win-arm64-0.19.1-setup.exe",
+          "Release: marktext-win-x64-0.19.1-setup.exe",
+          "README: Windows",
+          "README: EXE 安装包",
+          "README: WinGet"
+        ]
+      },
+      "score": 568.55,
+      "rank": 13
+    },
+    {
+      "name": "siyuan-note/siyuan",
+      "url": "https://github.com/siyuan-note/siyuan",
+      "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+      "homepage": "https://b3log.org/siyuan",
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "ai-agent",
+        "digital-garden",
+        "electron",
+        "knowledge-base",
+        "knowledge-graph",
+        "local-first",
+        "markdown",
+        "mcp",
+        "note-taking",
+        "notebook",
+        "notes-app",
+        "pdf",
+        "pkm",
+        "s3",
+        "self-hosted",
+        "siyuan",
+        "webdav",
+        "wiki"
+      ],
+      "stars": 45473,
+      "forks": 2921,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:19:44Z",
+      "latest_release": {
+        "tag": "v3.7.3",
+        "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.7.3",
+        "published_at": "2026-07-21T04:54:43Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: siyuan-3.7.3-mac-arm64.dmg",
+          "Release: siyuan-3.7.3-mac.dmg",
+          "README: macOS"
+        ],
+        "windows": [
+          "Release: siyuan-3.7.3-win-arm64.exe",
+          "Release: siyuan-3.7.3-win.exe",
+          "README: Windows",
+          "README: EXE 安装包"
+        ]
+      },
+      "score": 565.72,
+      "rank": 14
+    },
+    {
+      "name": "tw93/Pake",
+      "url": "https://github.com/tw93/Pake",
+      "description": "🤱🏻 Turn any webpage into a desktop app with one command.",
+      "homepage": null,
+      "language": "Rust",
+      "topics": [
+        "chatgpt",
+        "claude",
+        "desktop",
+        "gemini",
+        "hight-performance",
+        "linux",
+        "macos",
+        "no-electron",
+        "package",
+        "rust",
+        "tauri",
+        "windows",
+        "youtube"
+      ],
+      "stars": 60298,
+      "forks": 12257,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-26T02:12:00Z",
+      "latest_release": {
+        "tag": "V3.15.1",
+        "url": "https://github.com/tw93/Pake/releases/tag/V3.15.1",
+        "published_at": "2026-07-18T10:49:07Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: ChatGPT.dmg",
+          "Release: DeepSeek.dmg",
+          "Release: Excalidraw.dmg",
+          "README: macOS",
+          "README: DMG 安装包"
+        ],
+        "windows": [
+          "Release: ChatGPT_x64.msi",
+          "Release: DeepSeek_x64.msi",
+          "Release: Excalidraw_x64.msi",
+          "README: Windows",
+          "README: MSI/MSIX 安装包"
+        ]
+      },
+      "score": 565.12,
+      "rank": 15
+    },
+    {
+      "name": "janhq/jan",
+      "url": "https://github.com/janhq/jan",
+      "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+      "homepage": "https://jan.ai/",
+      "language": "TypeScript",
+      "topics": [
+        "chatgpt",
+        "gpt",
+        "llamacpp",
+        "llm",
+        "localai",
+        "open-source",
+        "self-hosted",
+        "tauri"
+      ],
+      "stars": 43752,
+      "forks": 2927,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:40:51Z",
+      "latest_release": {
+        "tag": "v0.8.4",
+        "url": "https://github.com/janhq/jan/releases/tag/v0.8.4",
+        "published_at": "2026-07-23T06:29:15Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Jan_0.8.4_universal.dmg",
+          "README: macOS",
+          "README: DMG 安装包"
+        ],
+        "windows": [
+          "Release: Jan_0.8.4_x64-setup.exe",
+          "README: Windows",
+          "README: EXE 安装包"
+        ]
+      },
+      "score": 564.1,
+      "rank": 16
+    },
+    {
+      "name": "sxyazi/yazi",
+      "url": "https://github.com/sxyazi/yazi",
+      "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+      "homepage": "https://yazi-rs.github.io",
+      "language": "Rust",
+      "topics": [
+        "android",
+        "asyncio",
+        "cli",
+        "command-line",
+        "concurrency",
+        "cross-platform",
+        "developer-tools",
+        "file-explorer",
+        "file-manager",
+        "filesystem",
+        "linux",
+        "macos",
+        "neovim",
+        "productivity",
+        "rust",
+        "terminal",
+        "tui",
+        "vim",
+        "windows"
+      ],
+      "stars": 40861,
+      "forks": 958,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T05:23:47Z",
+      "latest_release": {
+        "tag": "v26.5.6",
+        "url": "https://github.com/sxyazi/yazi/releases/tag/v26.5.6",
+        "published_at": "2026-05-05T18:30:21Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: yazi-aarch64-apple-darwin.zip",
+          "Release: yazi-x86_64-apple-darwin.zip",
+          "README: macOS"
+        ],
+        "windows": [
+          "Release: yazi-aarch64-pc-windows-msvc.zip",
+          "Release: yazi-x86_64-pc-windows-msvc.zip",
+          "README: Windows"
+        ]
+      },
+      "score": 560.75,
+      "rank": 17
+    },
+    {
+      "name": "TriliumNext/Trilium",
+      "url": "https://github.com/TriliumNext/Trilium",
+      "description": "Build your personal knowledge base with Trilium Notes",
+      "homepage": "https://triliumnotes.org",
+      "language": "TypeScript",
+      "topics": [
+        "electron",
+        "electron-app",
+        "knowledge-base",
+        "knowledge-graph",
+        "knowledge-management",
+        "knowledge-management-graph",
+        "local-first",
+        "note-managment",
+        "note-taker",
+        "note-taking",
+        "notebook",
+        "notes",
+        "notes-app",
+        "personal-knowledge-base",
+        "personal-wiki",
+        "scriptable",
+        "self-hosted",
+        "self-hosting",
+        "wiki"
+      ],
+      "stars": 37110,
+      "forks": 2479,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T06:00:33Z",
+      "latest_release": {
+        "tag": "v0.104.1",
+        "url": "https://github.com/TriliumNext/Trilium/releases/tag/v0.104.1",
+        "published_at": "2026-07-25T14:07:54Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: TriliumNotes-v0.104.1-macos-arm64.dmg",
+          "Release: TriliumNotes-v0.104.1-macos-arm64.zip",
+          "Release: TriliumNotes-v0.104.1-macos-x64.dmg",
+          "README: macOS"
+        ],
+        "windows": [
+          "Release: TriliumNotes-v0.104.1-windows-arm64.exe",
+          "Release: TriliumNotes-v0.104.1-windows-arm64.zip",
+          "Release: TriliumNotes-v0.104.1-windows-x64.exe",
+          "README: Windows"
+        ]
+      },
+      "score": 556.67,
+      "rank": 18
+    },
+    {
+      "name": "agalwood/Motrix",
+      "url": "https://github.com/agalwood/Motrix",
+      "description": "A full-featured download manager.",
+      "homepage": "https://motrix.app",
+      "language": "JavaScript",
+      "topics": [
+        "aria2",
+        "bittorrent",
+        "bt",
+        "download",
+        "download-manager",
+        "electron",
+        "linux",
+        "mac",
+        "macos",
+        "magnet",
+        "motrix",
+        "torrent",
+        "windows"
+      ],
+      "stars": 52339,
+      "forks": 4900,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-25T04:01:26Z",
+      "latest_release": {
+        "tag": "v1.8.19",
+        "url": "https://github.com/agalwood/Motrix/releases/tag/v1.8.19",
+        "published_at": "2023-05-03T07:13:13Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Motrix-1.8.19-arm64.dmg",
+          "Release: Motrix-1.8.19-universal.dmg",
+          "Release: Motrix-1.8.19.dmg",
+          "README: macOS",
+          "README: Homebrew"
+        ],
+        "windows": [
+          "Release: Motrix-1.8.19-ia32.exe",
+          "Release: Motrix-1.8.19-x64.exe",
+          "Release: Motrix-1.8.19.exe",
+          "README: Windows",
+          "README: EXE 安装包"
+        ]
+      },
+      "score": 555.27,
+      "rank": 19
+    },
+    {
+      "name": "KRTirtho/spotube",
+      "url": "https://github.com/KRTirtho/spotube",
+      "description": "🎧 Open source music streaming app! Available for both desktop & mobile!",
+      "homepage": "https://spotube.cc/",
+      "language": "Dart",
+      "topics": [
+        "android",
+        "android-client",
+        "android-music-player",
+        "desktop-client",
+        "fdroid",
+        "flutter",
+        "flutter-desktop",
+        "linux",
+        "macos",
+        "music",
+        "music-player",
+        "windows",
+        "youtube"
+      ],
+      "stars": 47975,
+      "forks": 2228,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-25T16:26:09Z",
+      "latest_release": {
+        "tag": "v5.1.2",
+        "url": "https://github.com/KRTirtho/spotube/releases/tag/v5.1.2",
+        "published_at": "2026-06-05T05:10:18Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Spotube-macos-universal.dmg",
+          "Release: Spotube-macos-universal.pkg",
+          "README: macOS",
+          "README: Mac OS",
+          "README: OS X"
+        ],
+        "windows": [
+          "Release: Spotube-windows-x86_64-setup.exe",
+          "Release: Spotube-windows-x86_64.nupkg",
+          "README: Windows",
+          "README: EXE 安装包",
+          "README: WinGet"
+        ]
+      },
+      "score": 553.56,
+      "rank": 20
+    }
+  ]
+}

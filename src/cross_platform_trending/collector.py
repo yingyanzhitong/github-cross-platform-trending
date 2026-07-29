@@ -1,0 +1,418 @@
+from __future__ import annotations
+
+import json
+import math
+import os
+import re
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import dataclass
+from datetime import date, datetime, timedelta, timezone
+from html import unescape
+from typing import Any
+from urllib.error import HTTPError, URLError
+from urllib.parse import quote, urlencode
+from urllib.request import Request, urlopen
+
+
+GITHUB_API = "https://api.github.com"
+TRENDING_URL = "https://github.com/trending?since=daily"
+USER_AGENT = "github-cross-platform-trending/0.1"
+
+SEARCH_QUERIES = (
+    "topic:desktop-app archived:false stars:>=100 pushed:>={recent}",
+    "topic:cross-platform archived:false stars:>=100 pushed:>={recent}",
+    "topic:macos topic:windows archived:false stars:>=20 pushed:>={recent}",
+    "topic:electron archived:false stars:>=200 pushed:>={recent}",
+    "topic:tauri archived:false stars:>=100 pushed:>={recent}",
+)
+
+APP_TOPICS = {
+    "app",
+    "cli",
+    "command-line",
+    "desktop",
+    "desktop-app",
+    "developer-tools",
+    "editor",
+    "ide",
+    "music-player",
+    "productivity",
+    "self-hosted",
+    "shell",
+    "software",
+    "terminal",
+    "tool",
+    "tools",
+}
+
+EXCLUDED_TOPICS = {
+    "algorithm",
+    "awesome",
+    "awesome-list",
+    "boilerplate",
+    "component-library",
+    "course",
+    "dataset",
+    "documentation",
+    "framework",
+    "interview",
+    "library",
+    "manual",
+    "template",
+    "tutorial",
+}
+
+MAC_PATTERNS = (
+    (r"\bmacos\b", "README: macOS"),
+    (r"\bmac\s+os\b", "README: Mac OS"),
+    (r"\bos\s+x\b", "README: OS X"),
+    (r"\.dmg\b", "README: DMG 安装包"),
+    (r"\.pkg\b", "README: PKG 安装包"),
+    (r"\bhomebrew\b|\bbrew install\b", "README: Homebrew"),
+)
+
+WINDOWS_PATTERNS = (
+    (r"\bwindows\b", "README: Windows"),
+    (r"\.exe\b", "README: EXE 安装包"),
+    (r"\.msi(?:x)?\b", "README: MSI/MSIX 安装包"),
+    (r"\bwinget\b", "README: WinGet"),
+    (r"\bchocolatey\b|\bchoco install\b", "README: Chocolatey"),
+    (r"\bscoop install\b", "README: Scoop"),
+)
+
+SOFTWARE_PATTERN = re.compile(
+    r"\b(app|application|assistant|client|companion|desktop|editor|ide|"
+    r"manager|player|self-hosted|server|shell|software|terminal|tool)\b|"
+    r"command[- ]line",
+    re.IGNORECASE,
+)
+
+NON_SOFTWARE_PATTERN = re.compile(
+    r"\b(framework|library|sdk|template|boilerplate|cheatsheets?)\b|"
+    r"\bbuild(?:ing)?\b.{0,120}\b(?:apps?|applications?)\b",
+    re.IGNORECASE,
+)
+
+
+@dataclass
+class Candidate:
+    repository: dict[str, Any]
+    trending_rank: int | None = None
+    stars_today: int = 0
+
+
+class GitHubClient:
+    def __init__(self, token: str | None = None, timeout: int = 20):
+        self.token = token or os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN")
+        self.timeout = timeout
+
+    def _request(self, url: str, accept: str) -> bytes | None:
+        headers = {
+            "Accept": accept,
+            "User-Agent": USER_AGENT,
+            "X-GitHub-Api-Version": "2022-11-28",
+        }
+        if self.token:
+            headers["Authorization"] = f"Bearer {self.token}"
+
+        for attempt in range(3):
+            try:
+                request = Request(url, headers=headers)
+                with urlopen(request, timeout=self.timeout) as response:
+                    return response.read()
+            except HTTPError as error:
+                if error.code == 404:
+                    return None
+                if error.code in {429, 500, 502, 503, 504} and attempt < 2:
+                    time.sleep(2**attempt)
+                    continue
+                detail = error.read().decode("utf-8", errors="replace")[:300]
+                raise RuntimeError(f"GitHub 请求失败 ({error.code}): {detail}") from error
+            except URLError as error:
+                if attempt < 2:
+                    time.sleep(2**attempt)
+                    continue
+                raise RuntimeError(f"网络请求失败: {error.reason}") from error
+        return None
+
+    def get_json(self, path: str, params: dict[str, str | int] | None = None) -> Any:
+        query = f"?{urlencode(params)}" if params else ""
+        body = self._request(
+            f"{GITHUB_API}{path}{query}",
+            "application/vnd.github+json",
+        )
+        return json.loads(body) if body else None
+
+    def get_text(self, url: str, *, raw_github: bool = False) -> str:
+        accept = (
+            "application/vnd.github.raw+json"
+            if raw_github
+            else "text/html,application/xhtml+xml"
+        )
+        body = self._request(url, accept)
+        return body.decode("utf-8", errors="replace") if body else ""
+
+    def repository(self, full_name: str) -> dict[str, Any] | None:
+        return self.get_json(f"/repos/{quote(full_name, safe='/')}")
+
+    def readme(self, full_name: str) -> str:
+        return self.get_text(
+            f"{GITHUB_API}/repos/{quote(full_name, safe='/')}/readme",
+            raw_github=True,
+        )
+
+    def latest_release(self, full_name: str) -> dict[str, Any] | None:
+        return self.get_json(
+            f"/repos/{quote(full_name, safe='/')}/releases/latest"
+        )
+
+    def search(self, query: str, per_page: int = 20) -> list[dict[str, Any]]:
+        result = self.get_json(
+            "/search/repositories",
+            {
+                "q": query,
+                "sort": "stars",
+                "order": "desc",
+                "per_page": per_page,
+            },
+        )
+        return result.get("items", []) if result else []
+
+
+def parse_trending(html: str) -> list[tuple[str, int]]:
+    """从 GitHub Trending 页面提取仓库名与今日新增 Star。"""
+    repositories: list[tuple[str, int]] = []
+    articles = re.findall(
+        r'<article[^>]*class="[^"]*\bBox-row\b[^"]*"[^>]*>(.*?)</article>',
+        html,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    for article in articles:
+        heading = re.search(
+            r"<h2\b.*?</h2>",
+            article,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        if not heading:
+            continue
+        match = re.search(
+            r'href="/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)"',
+            heading.group(0),
+        )
+        if not match:
+            continue
+        stars = re.search(
+            r"([\d,]+)\s+stars?\s+today",
+            unescape(re.sub(r"<[^>]+>", " ", article)),
+            flags=re.IGNORECASE,
+        )
+        repositories.append(
+            (match.group(1), int(stars.group(1).replace(",", "")) if stars else 0)
+        )
+    return repositories
+
+
+def _match_evidence(text: str, patterns: tuple[tuple[str, str], ...]) -> list[str]:
+    return [label for pattern, label in patterns if re.search(pattern, text, re.I)]
+
+
+def _release_evidence(release: dict[str, Any] | None) -> tuple[list[str], list[str]]:
+    macos: list[str] = []
+    windows: list[str] = []
+    for asset in (release or {}).get("assets", []):
+        name = str(asset.get("name", ""))
+        lower = name.lower()
+        if re.search(r"(macos|darwin|osx|\.dmg$|\.pkg$)", lower):
+            macos.append(f"Release: {name}")
+        if re.search(r"(windows|win32|win64|\.exe$|\.msi$|\.msix$)", lower):
+            windows.append(f"Release: {name}")
+    return macos[:3], windows[:3]
+
+
+def classify_repository(
+    repository: dict[str, Any],
+    readme: str,
+    release: dict[str, Any] | None,
+    *,
+    is_trending: bool,
+) -> tuple[bool, list[str], list[str]]:
+    """判断仓库是否是同时支持 macOS 与 Windows 的软件。"""
+    searchable = readme[:250_000]
+    macos = _match_evidence(searchable, MAC_PATTERNS)
+    windows = _match_evidence(searchable, WINDOWS_PATTERNS)
+    release_macos, release_windows = _release_evidence(release)
+    macos = (release_macos + macos)[:5]
+    windows = (release_windows + windows)[:5]
+    if not macos or not windows:
+        return False, macos, windows
+
+    topics = {str(topic).lower() for topic in repository.get("topics", [])}
+    name = str(repository.get("name", "")).lower()
+    description = str(repository.get("description") or "")
+    has_release_pair = bool(release_macos and release_windows)
+    excluded = (
+        bool(topics & EXCLUDED_TOPICS)
+        or any(
+            topic.endswith(("-framework", "-library", "-package"))
+            for topic in topics
+        )
+        or name.startswith("awesome-")
+        or bool(NON_SOFTWARE_PATTERN.search(description))
+    )
+    positive = bool(topics & APP_TOPICS) or bool(SOFTWARE_PATTERN.search(description))
+
+    accepted = (
+        not excluded
+        and positive
+        and (has_release_pair or is_trending or bool(topics))
+    )
+    return accepted, macos, windows
+
+
+def _candidate_score(candidate: Candidate) -> float:
+    repository = candidate.repository
+    stars = int(repository.get("stargazers_count") or 0)
+    if candidate.trending_rank is not None:
+        return (
+            10_000
+            - candidate.trending_rank * 100
+            + math.log1p(candidate.stars_today) * 20
+        )
+
+    pushed_at = repository.get("pushed_at")
+    freshness = 0.0
+    if pushed_at:
+        pushed = datetime.fromisoformat(str(pushed_at).replace("Z", "+00:00"))
+        age_days = max(0.0, (datetime.now(timezone.utc) - pushed).total_seconds() / 86400)
+        freshness = max(0.0, 100 - age_days * 4)
+    return math.log10(stars + 1) * 100 + freshness
+
+
+def _analyze_candidate(
+    client: GitHubClient,
+    candidate: Candidate,
+) -> dict[str, Any] | None:
+    repository = candidate.repository
+    full_name = str(repository["full_name"])
+    readme = client.readme(full_name)
+    release = client.latest_release(full_name)
+    accepted, macos, windows = classify_repository(
+        repository,
+        readme,
+        release,
+        is_trending=candidate.trending_rank is not None,
+    )
+    if not accepted:
+        return None
+
+    latest_release = None
+    if release:
+        latest_release = {
+            "tag": release.get("tag_name"),
+            "url": release.get("html_url"),
+            "published_at": release.get("published_at"),
+        }
+
+    return {
+        "name": full_name,
+        "url": repository.get("html_url"),
+        "description": str(repository.get("description") or "").strip() or "暂无项目简介",
+        "homepage": repository.get("homepage") or None,
+        "language": repository.get("language") or "未知",
+        "topics": repository.get("topics", []),
+        "stars": int(repository.get("stargazers_count") or 0),
+        "forks": int(repository.get("forks_count") or 0),
+        "stars_today": candidate.stars_today,
+        "trending_rank": candidate.trending_rank,
+        "pushed_at": repository.get("pushed_at"),
+        "latest_release": latest_release,
+        "platform_evidence": {"macos": macos, "windows": windows},
+        "score": round(_candidate_score(candidate), 2),
+    }
+
+
+def discover_candidates(
+    client: GitHubClient,
+    *,
+    recent_days: int = 30,
+    search_per_query: int = 20,
+) -> tuple[list[Candidate], list[str]]:
+    warnings: list[str] = []
+    candidates: dict[str, Candidate] = {}
+
+    try:
+        trending = parse_trending(client.get_text(TRENDING_URL))
+    except RuntimeError as error:
+        trending = []
+        warnings.append(f"Trending 页面读取失败：{error}")
+
+    def load_trending(item: tuple[int, tuple[str, int]]) -> Candidate | None:
+        rank, (full_name, stars_today) = item
+        repository = client.repository(full_name)
+        return Candidate(repository, rank, stars_today) if repository else None
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = [
+            executor.submit(load_trending, item)
+            for item in enumerate(trending, start=1)
+        ]
+        for future in as_completed(futures):
+            try:
+                candidate = future.result()
+                if candidate:
+                    candidates[str(candidate.repository["full_name"])] = candidate
+            except RuntimeError as error:
+                warnings.append(f"Trending 仓库详情读取失败：{error}")
+
+    recent = (date.today() - timedelta(days=recent_days)).isoformat()
+    for template in SEARCH_QUERIES:
+        query = template.format(recent=recent)
+        try:
+            for repository in client.search(query, search_per_query):
+                full_name = str(repository["full_name"])
+                candidates.setdefault(full_name, Candidate(repository))
+        except RuntimeError as error:
+            warnings.append(f"搜索查询失败（{query}）：{error}")
+
+    return list(candidates.values()), warnings
+
+
+def collect(
+    client: GitHubClient,
+    *,
+    limit: int = 20,
+    max_candidates: int = 100,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    candidates, warnings = discover_candidates(client)
+    candidates.sort(key=_candidate_score, reverse=True)
+    candidates = candidates[:max_candidates]
+
+    software: list[dict[str, Any]] = []
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        future_map = {
+            executor.submit(_analyze_candidate, client, candidate): candidate
+            for candidate in candidates
+        }
+        for future in as_completed(future_map):
+            candidate = future_map[future]
+            try:
+                result = future.result()
+                if result:
+                    software.append(result)
+            except RuntimeError as error:
+                warnings.append(
+                    f"{candidate.repository.get('full_name')} 分析失败：{error}"
+                )
+
+    software.sort(key=lambda item: (-float(item["score"]), item["name"].lower()))
+    software = software[:limit]
+    for rank, item in enumerate(software, start=1):
+        item["rank"] = rank
+
+    metadata = {
+        "candidate_count": len(candidates),
+        "matched_count": len(software),
+        "warnings": warnings,
+    }
+    return software, metadata

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-cross-platform-trending"
+version = "0.1.0"
+description = "每日发现同时支持 macOS 和 Windows 的 GitHub 热门软件"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "masongzhi" }]
+dependencies = []
+
+[project.scripts]
+cross-platform-trending = "cross_platform_trending.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
