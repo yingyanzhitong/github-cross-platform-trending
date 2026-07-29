@@ -1,8 +1,9 @@
 {
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T15:51:32+08:00",
-  "candidate_count": 80,
-  "matched_count": 20,
+  "generated_at": "2026-07-29T16:24:09+08:00",
+  "candidate_count": 600,
+  "discovered_count": 1000,
+  "matched_count": 100,
   "warnings": [],
   "software": [
     {
@@ -24,11 +25,11 @@
         "vrm",
         "vtuber"
       ],
-      "stars": 45023,
-      "forks": 4460,
+      "stars": 45039,
+      "forks": 4462,
       "stars_today": 797,
       "trending_rank": 3,
-      "pushed_at": "2026-07-29T06:46:28Z",
+      "pushed_at": "2026-07-29T07:59:55Z",
       "latest_release": {
         "tag": "v0.11.3",
         "url": "https://github.com/moeru-ai/airi/releases/tag/v0.11.3",
@@ -37,62 +38,16 @@
       "platform_evidence": {
         "macos": [
           "Release: AIRI-0.11.3-darwin-arm64.dmg",
-          "Release: AIRI-0.11.3-darwin-x64.dmg",
-          "README: macOS",
-          "README: DMG 安装包",
-          "README: Homebrew"
+          "Release: AIRI-0.11.3-darwin-x64.dmg"
         ],
         "windows": [
-          "Release: AIRI-0.11.3-windows-x64-setup.exe",
-          "README: Windows",
-          "README: EXE 安装包",
-          "README: WinGet",
-          "README: Scoop"
+          "Release: AIRI-0.11.3-windows-x64-setup.exe"
         ]
       },
       "score": 9833.64,
       "rank": 1,
       "description_en": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "description_zh": "支持实时语音聊天和游戏的自托管智能伴侣。"
-    },
-    {
-      "name": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "homepage": "https://ecc.tools",
-      "language": "JavaScript",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools",
-        "llm",
-        "mcp",
-        "productivity"
-      ],
-      "stars": 235108,
-      "forks": 35816,
-      "stars_today": 636,
-      "trending_rank": 5,
-      "pushed_at": "2026-07-29T01:37:41Z",
-      "latest_release": {
-        "tag": "v2.1.0",
-        "url": "https://github.com/affaan-m/ECC/releases/tag/v2.1.0",
-        "published_at": "2026-07-27T18:10:46Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "README: macOS"
-        ],
-        "windows": [
-          "README: Windows"
-        ]
-      },
-      "score": 9629.14,
-      "rank": 2,
-      "description_en": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "description_zh": "面向多平台的性能优化智能代理系统。"
     },
     {
       "name": "opengeos/GeoLibre",
@@ -108,10 +63,10 @@
         "maplibre-gl-js",
         "tauri-app"
       ],
-      "stars": 3603,
-      "forks": 405,
+      "stars": 3618,
+      "forks": 406,
       "stars_today": 607,
-      "trending_rank": 9,
+      "trending_rank": 8,
       "pushed_at": "2026-07-29T05:33:02Z",
       "latest_release": {
         "tag": "v2.4.0",
@@ -120,107 +75,19 @@
       },
       "platform_evidence": {
         "macos": [
-          "Release: geolibre-desktop_darwin_aarch64",
-          "Release: geolibre-desktop_darwin_x64",
           "Release: GeoLibre.Desktop_2.4.0_aarch64.dmg",
-          "README: macOS"
+          "Release: GeoLibre.Desktop_2.4.0_x64.dmg"
         ],
         "windows": [
           "Release: geolibre-desktop-2.4.0-x64.msix",
           "Release: geolibre-desktop_windows_x64.exe",
-          "Release: GeoLibre.Desktop_2.4.0_x64-setup.exe",
-          "README: Windows"
+          "Release: GeoLibre.Desktop_2.4.0_x64-setup.exe"
         ]
       },
-      "score": 9228.2,
-      "rank": 3,
+      "score": 9328.2,
+      "rank": 2,
       "description_en": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
       "description_zh": "轻量级云原生地理信息系统平台。"
-    },
-    {
-      "name": "yorukot/superfile",
-      "url": "https://github.com/yorukot/superfile",
-      "description": "Pretty fancy and modern terminal file manager",
-      "homepage": "https://superfile.dev",
-      "language": "Go",
-      "topics": [
-        "bubbletea",
-        "cli",
-        "file-manager",
-        "filemanager",
-        "filesystem",
-        "golang",
-        "hacktoberfest",
-        "linux-app",
-        "terminal-app",
-        "terminal-based",
-        "tui"
-      ],
-      "stars": 21684,
-      "forks": 708,
-      "stars_today": 662,
-      "trending_rank": 12,
-      "pushed_at": "2026-07-28T09:59:51Z",
-      "latest_release": {
-        "tag": "v1.6.0",
-        "url": "https://github.com/yorukot/superfile/releases/tag/v1.6.0",
-        "published_at": "2026-06-07T17:54:13Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: superfile-darwin-v1.6.0-amd64.tar.gz",
-          "Release: superfile-darwin-v1.6.0-arm64.tar.gz",
-          "README: macOS",
-          "README: Homebrew"
-        ],
-        "windows": [
-          "Release: superfile-windows-v1.6.0-amd64.zip",
-          "Release: superfile-windows-v1.6.0-arm64.zip",
-          "README: Windows",
-          "README: EXE 安装包",
-          "README: WinGet"
-        ]
-      },
-      "score": 8929.94,
-      "rank": 4,
-      "description_en": "Pretty fancy and modern terminal file manager",
-      "description_zh": "现代化终端文件管理器。"
-    },
-    {
-      "name": "microsoft/vscode",
-      "url": "https://github.com/microsoft/vscode",
-      "description": "Visual Studio Code",
-      "homepage": "https://code.visualstudio.com",
-      "language": "TypeScript",
-      "topics": [
-        "editor",
-        "electron",
-        "microsoft",
-        "typescript",
-        "visual-studio-code"
-      ],
-      "stars": 187979,
-      "forks": 41305,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-29T07:39:48Z",
-      "latest_release": {
-        "tag": "1.130.0",
-        "url": "https://github.com/microsoft/vscode/releases/tag/1.130.0",
-        "published_at": "2026-07-22T17:39:17Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "README: macOS"
-        ],
-        "windows": [
-          "README: Windows"
-        ]
-      },
-      "score": 627.38,
-      "rank": 5,
-      "description_en": "Visual Studio Code",
-      "description_zh": "微软出品的跨平台代码编辑器。"
     },
     {
       "name": "farion1231/cc-switch",
@@ -250,8 +117,8 @@
         "typescript",
         "wsl-support"
       ],
-      "stars": 122125,
-      "forks": 8237,
+      "stars": 122139,
+      "forks": 8238,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-29T02:27:50Z",
@@ -262,22 +129,15 @@
       },
       "platform_evidence": {
         "macos": [
-          "Release: CC-Switch-v3.18.0-macOS.dmg",
-          "Release: CC-Switch-v3.18.0-macOS.tar.gz",
-          "Release: CC-Switch-v3.18.0-macOS.tar.gz.sig",
-          "README: macOS",
-          "README: DMG 安装包"
+          "Release: CC-Switch-v3.18.0-macOS.dmg"
         ],
         "windows": [
-          "Release: CC-Switch-v3.18.0-Windows-arm64-Portable.zip",
           "Release: CC-Switch-v3.18.0-Windows-arm64.msi",
-          "Release: CC-Switch-v3.18.0-Windows-arm64.msi.sig",
-          "README: Windows",
-          "README: MSI/MSIX 安装包"
+          "Release: CC-Switch-v3.18.0-Windows.msi"
         ]
       },
-      "score": 607.78,
-      "rank": 6,
+      "score": 607.69,
+      "rank": 3,
       "description_en": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
       "description_zh": "支持多智能代理的一体化跨平台桌面助手。"
     },
@@ -308,8 +168,8 @@
         "wayland",
         "windows"
       ],
-      "stars": 119138,
-      "forks": 18182,
+      "stars": 119142,
+      "forks": 18185,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-29T07:32:58Z",
@@ -321,18 +181,16 @@
       "platform_evidence": {
         "macos": [
           "Release: rustdesk-1.4.9-aarch64.dmg",
-          "Release: rustdesk-1.4.9-x86_64.dmg",
-          "README: macOS"
+          "Release: rustdesk-1.4.9-x86_64.dmg"
         ],
         "windows": [
           "Release: rustdesk-1.4.9-aarch64.exe",
           "Release: rustdesk-1.4.9-aarch64.msi",
-          "Release: rustdesk-1.4.9-x86-sciter.exe",
-          "README: Windows"
+          "Release: rustdesk-1.4.9-x86-sciter.exe"
         ]
       },
-      "score": 607.55,
-      "rank": 7,
+      "score": 607.46,
+      "rank": 4,
       "description_en": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "description_zh": "开源自托管远程桌面替代方案。"
     },
@@ -364,11 +222,11 @@
         "ui-generator",
         "vibe-coding"
       ],
-      "stars": 82371,
-      "forks": 9523,
+      "stars": 82378,
+      "forks": 9522,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-29T07:37:51Z",
+      "pushed_at": "2026-07-29T08:23:54Z",
       "latest_release": {
         "tag": "open-design-v0.16.1",
         "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.16.1",
@@ -377,19 +235,56 @@
       "platform_evidence": {
         "macos": [
           "Release: open-design-0.16.1-mac-arm64.dmg",
-          "Release: open-design-0.16.1-mac-x64.dmg",
-          "README: macOS",
-          "README: Homebrew"
+          "Release: open-design-0.16.1-mac-x64.dmg"
         ],
         "windows": [
-          "Release: open-design-0.16.1-win-x64-setup.exe",
-          "README: Windows"
+          "Release: open-design-0.16.1-win-x64-setup.exe"
         ]
       },
-      "score": 591.54,
-      "rank": 8,
+      "score": 591.58,
+      "rank": 5,
       "description_en": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "description_zh": "本地优先的开源设计工具，支持多种导出格式。"
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "homepage": "https://openhands.dev",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "artificial-intelligence",
+        "chatgpt",
+        "claude-ai",
+        "cli",
+        "developer-tools",
+        "gpt",
+        "llm",
+        "openai"
+      ],
+      "stars": 82460,
+      "forks": 10580,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:31:49Z",
+      "latest_release": {
+        "tag": "v1.6.1",
+        "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.6.1",
+        "published_at": "2026-07-28T17:16:43Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Agent-Canvas-1.6.1-arm64.dmg"
+        ],
+        "windows": [
+          "Release: Agent-Canvas-Setup-1.6.1.exe"
+        ]
+      },
+      "score": 591.48,
+      "rank": 6,
+      "description_en": "🙌 OpenHands: AI-Driven Development",
+      "description_zh": "基于AI驱动的软件开发平台。"
     },
     {
       "name": "toeverything/AFFiNE",
@@ -417,7 +312,7 @@
         "wiki",
         "workspace"
       ],
-      "stars": 70891,
+      "stars": 70892,
       "forks": 5090,
       "stars_today": 0,
       "trending_rank": null,
@@ -430,7 +325,6 @@
       "platform_evidence": {
         "macos": [
           "Release: affine-0.27.3-stable-macos-arm64.dmg",
-          "Release: affine-0.27.3-stable-macos-arm64.zip",
           "Release: affine-0.27.3-stable-macos-x64.dmg"
         ],
         "windows": [
@@ -439,10 +333,48 @@
           "Release: affine-0.27.3-stable-windows-x64.exe"
         ]
       },
-      "score": 584.8,
-      "rank": 9,
+      "score": 584.71,
+      "rank": 7,
       "description_en": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "description_zh": "隐私优先的开源下一代知识库平台。"
+    },
+    {
+      "name": "Eugeny/tabby",
+      "url": "https://github.com/Eugeny/tabby",
+      "description": "A terminal for a more modern age",
+      "homepage": "https://tabby.sh",
+      "language": "TypeScript",
+      "topics": [
+        "serial",
+        "ssh-client",
+        "telnet-client",
+        "terminal",
+        "terminal-emulators"
+      ],
+      "stars": 73575,
+      "forks": 4185,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T04:03:07Z",
+      "latest_release": {
+        "tag": "v1.0.235",
+        "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.235",
+        "published_at": "2026-07-22T22:48:52Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: tabby-1.0.235-macos-arm64.dmg",
+          "Release: tabby-1.0.235-macos-x86_64.dmg"
+        ],
+        "windows": [
+          "Release: tabby-1.0.235-setup-arm64.exe",
+          "Release: tabby-1.0.235-setup-x64.exe"
+        ]
+      },
+      "score": 581.95,
+      "rank": 8,
+      "description_en": "A terminal for a more modern age",
+      "description_zh": "现代化终端工具。"
     },
     {
       "name": "laurent22/joplin",
@@ -483,18 +415,15 @@
       "platform_evidence": {
         "macos": [
           "Release: Joplin-3.6.15-arm64.DMG",
-          "Release: Joplin-3.6.15-arm64.pkg",
-          "Release: Joplin-3.6.15.dmg",
-          "README: macOS"
+          "Release: Joplin-3.6.15.dmg"
         ],
         "windows": [
           "Release: Joplin-Setup-3.6.15.exe",
-          "Release: JoplinPortable.exe",
-          "README: Windows"
+          "Release: JoplinPortable.exe"
         ]
       },
-      "score": 574.31,
-      "rank": 10,
+      "score": 574.21,
+      "rank": 9,
       "description_en": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
       "description_zh": "支持多平台同步的隐私笔记应用。"
     },
@@ -526,7 +455,7 @@
         "static-analysis",
         "windows"
       ],
-      "stars": 54314,
+      "stars": 54315,
       "forks": 2433,
       "stars_today": 0,
       "trending_rank": null,
@@ -540,18 +469,15 @@
         "macos": [
           "Release: imhex-1.38.1-macOS-arm64.dmg",
           "Release: imhex-1.38.1-macOS-NoGPU-x86_64.dmg",
-          "Release: imhex-1.38.1-macOS-x86_64.dmg",
-          "README: macOS"
+          "Release: imhex-1.38.1-macOS-x86_64.dmg"
         ],
         "windows": [
           "Release: imhex-1.38.1-Windows-arm64.msi",
-          "Release: imhex-1.38.1-Windows-Portable-arm64.zip",
-          "Release: imhex-1.38.1-Windows-Portable-NoGPU-x86_64.zip",
-          "README: Windows"
+          "Release: imhex-1.38.1-Windows-x86_64.msi"
         ]
       },
-      "score": 572.31,
-      "rank": 11,
+      "score": 572.22,
+      "rank": 10,
       "description_en": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
       "description_zh": "适合逆向工程师的十六进制编辑器。"
     },
@@ -571,7 +497,7 @@
         "shell",
         "windows"
       ],
-      "stars": 54581,
+      "stars": 54582,
       "forks": 8408,
       "stars_today": 0,
       "trending_rank": null,
@@ -584,19 +510,17 @@
       "platform_evidence": {
         "macos": [
           "Release: powershell-7.6.4-osx-arm64.pkg",
-          "Release: powershell-7.6.4-osx-arm64.tar.gz",
           "Release: powershell-7.6.4-osx-x64.pkg",
-          "README: macOS"
+          "Release: powershell-lts-7.6.4-osx-arm64.pkg"
         ],
         "windows": [
           "Release: PowerShell-7.6.4-win-arm64.msi",
           "Release: PowerShell-7.6.4-win-x64.msi",
-          "Release: PowerShell-7.6.4-win-x86.msi",
-          "README: Windows"
+          "Release: PowerShell-7.6.4-win-x86.msi"
         ]
       },
-      "score": 571.88,
-      "rank": 12,
+      "score": 571.79,
+      "rank": 11,
       "description_en": "PowerShell for every system!",
       "description_zh": "跨平台的命令行自动化工具。"
     },
@@ -622,7 +546,7 @@
         "vue",
         "windows"
       ],
-      "stars": 59271,
+      "stars": 59274,
       "forks": 4393,
       "stars_today": 0,
       "trending_rank": null,
@@ -635,23 +559,103 @@
       "platform_evidence": {
         "macos": [
           "Release: marktext-mac-arm64-0.19.1.dmg",
-          "Release: marktext-mac-x64-0.19.1.dmg",
-          "README: macOS",
-          "README: DMG 安装包",
-          "README: Homebrew"
+          "Release: marktext-mac-x64-0.19.1.dmg"
         ],
         "windows": [
           "Release: marktext-win-arm64-0.19.1-setup.exe",
-          "Release: marktext-win-x64-0.19.1-setup.exe",
-          "README: Windows",
-          "README: EXE 安装包",
-          "README: WinGet"
+          "Release: marktext-win-x64-0.19.1-setup.exe"
         ]
       },
-      "score": 568.52,
-      "rank": 13,
+      "score": 568.43,
+      "rank": 12,
       "description_en": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
       "description_zh": "简洁优雅的跨平台Markdown编辑器。"
+    },
+    {
+      "name": "usebruno/bruno",
+      "url": "https://github.com/usebruno/bruno",
+      "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "homepage": "https://www.usebruno.com/",
+      "language": "JavaScript",
+      "topics": [
+        "api-client",
+        "api-testing",
+        "automation",
+        "developer-tools",
+        "git",
+        "graphql-client",
+        "http-client",
+        "javascript",
+        "openapi",
+        "openapi3",
+        "opensource",
+        "rest-api",
+        "testing",
+        "testing-tools"
+      ],
+      "stars": 45985,
+      "forks": 2729,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T08:09:12Z",
+      "latest_release": {
+        "tag": "v4.0.0",
+        "url": "https://github.com/usebruno/bruno/releases/tag/v4.0.0",
+        "published_at": "2026-07-23T17:26:41Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: bruno_4.0.0_arm64_mac.dmg",
+          "Release: bruno_4.0.0_arm64_mac.pkg",
+          "Release: bruno_4.0.0_x64_mac.dmg"
+        ],
+        "windows": [
+          "Release: bruno_4.0.0_arm64_win.exe",
+          "Release: bruno_4.0.0_arm64_win.msi",
+          "Release: bruno_4.0.0_x64_win.exe"
+        ]
+      },
+      "score": 566.22,
+      "rank": 13,
+      "description_en": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "description_zh": "开源轻量级API测试和探索IDE。"
+    },
+    {
+      "name": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "homepage": "https://cli.github.com",
+      "language": "Go",
+      "topics": [
+        "cli",
+        "git",
+        "github-api-v4",
+        "golang"
+      ],
+      "stars": 45489,
+      "forks": 8781,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T08:17:17Z",
+      "latest_release": {
+        "tag": "v2.96.0",
+        "url": "https://github.com/cli/cli/releases/tag/v2.96.0",
+        "published_at": "2026-07-02T21:31:04Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: gh_2.96.0_macOS_universal.pkg"
+        ],
+        "windows": [
+          "Release: gh_2.96.0_windows_386.msi",
+          "Release: gh_2.96.0_windows_amd64.msi",
+          "Release: gh_2.96.0_windows_arm64.msi"
+        ]
+      },
+      "score": 565.77,
+      "rank": 14,
+      "description_en": "GitHub’s official command line tool",
+      "description_zh": "GitHub官方命令行工具。"
     },
     {
       "name": "siyuan-note/siyuan",
@@ -680,7 +684,7 @@
         "webdav",
         "wiki"
       ],
-      "stars": 45473,
+      "stars": 45475,
       "forks": 2921,
       "stars_today": 0,
       "trending_rank": null,
@@ -693,18 +697,15 @@
       "platform_evidence": {
         "macos": [
           "Release: siyuan-3.7.3-mac-arm64.dmg",
-          "Release: siyuan-3.7.3-mac.dmg",
-          "README: macOS"
+          "Release: siyuan-3.7.3-mac.dmg"
         ],
         "windows": [
           "Release: siyuan-3.7.3-win-arm64.exe",
-          "Release: siyuan-3.7.3-win.exe",
-          "README: Windows",
-          "README: EXE 安装包"
+          "Release: siyuan-3.7.3-win.exe"
         ]
       },
-      "score": 565.69,
-      "rank": 14,
+      "score": 565.6,
+      "rank": 15,
       "description_en": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
       "description_zh": "自托管的开源个人知识管理软件。"
     },
@@ -729,8 +730,8 @@
         "windows",
         "youtube"
       ],
-      "stars": 60298,
-      "forks": 12257,
+      "stars": 60300,
+      "forks": 12258,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-26T02:12:00Z",
@@ -743,20 +744,16 @@
         "macos": [
           "Release: ChatGPT.dmg",
           "Release: DeepSeek.dmg",
-          "Release: Excalidraw.dmg",
-          "README: macOS",
-          "README: DMG 安装包"
+          "Release: Excalidraw.dmg"
         ],
         "windows": [
           "Release: ChatGPT_x64.msi",
           "Release: DeepSeek_x64.msi",
-          "Release: Excalidraw_x64.msi",
-          "README: Windows",
-          "README: MSI/MSIX 安装包"
+          "Release: Excalidraw_x64.msi"
         ]
       },
-      "score": 565.09,
-      "rank": 15,
+      "score": 565.0,
+      "rank": 16,
       "description_en": "🤱🏻 Turn any webpage into a desktop app with one command.",
       "description_zh": "一键将网页转换为桌面应用。"
     },
@@ -788,74 +785,67 @@
       },
       "platform_evidence": {
         "macos": [
-          "Release: Jan_0.8.4_universal.dmg",
-          "README: macOS",
-          "README: DMG 安装包"
+          "Release: Jan_0.8.4_universal.dmg"
         ],
         "windows": [
-          "Release: Jan_0.8.4_x64-setup.exe",
-          "README: Windows",
-          "README: EXE 安装包"
+          "Release: Jan_0.8.4_x64-setup.exe"
         ]
       },
-      "score": 564.08,
-      "rank": 16,
+      "score": 563.98,
+      "rank": 17,
       "description_en": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
       "description_zh": "完全离线运行的开源ChatGPT替代品。"
     },
     {
-      "name": "sxyazi/yazi",
-      "url": "https://github.com/sxyazi/yazi",
-      "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
-      "homepage": "https://yazi-rs.github.io",
-      "language": "Rust",
+      "name": "LizardByte/Sunshine",
+      "url": "https://github.com/LizardByte/Sunshine",
+      "description": "Self-hosted game stream host for Moonlight.",
+      "homepage": "http://app.lizardbyte.dev/Sunshine/",
+      "language": "C++",
       "topics": [
-        "android",
-        "asyncio",
-        "cli",
-        "command-line",
-        "concurrency",
-        "cross-platform",
-        "developer-tools",
-        "file-explorer",
-        "file-manager",
-        "filesystem",
-        "linux",
-        "macos",
-        "neovim",
-        "productivity",
-        "rust",
-        "terminal",
-        "tui",
-        "vim",
-        "windows"
+        "cpm",
+        "cpp",
+        "docker",
+        "flathub-pkg",
+        "game-stream",
+        "game-streaming",
+        "game-streaming-server",
+        "geforce-experience",
+        "homebrew-pkg",
+        "maintainer-wanted",
+        "moonlight",
+        "pacman-pkg",
+        "remote-desktop",
+        "replicator-custom-issues",
+        "replicator-release-notifications",
+        "rtd",
+        "winget-pkg"
       ],
-      "stars": 40861,
-      "forks": 958,
+      "stars": 39685,
+      "forks": 2149,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-29T05:23:47Z",
+      "pushed_at": "2026-07-29T06:34:37Z",
       "latest_release": {
-        "tag": "v26.5.6",
-        "url": "https://github.com/sxyazi/yazi/releases/tag/v26.5.6",
-        "published_at": "2026-05-05T18:30:21Z"
+        "tag": "v2026.516.143833",
+        "url": "https://github.com/LizardByte/Sunshine/releases/tag/v2026.516.143833",
+        "published_at": "2026-05-16T18:37:51Z"
       },
       "platform_evidence": {
         "macos": [
-          "Release: yazi-aarch64-apple-darwin.zip",
-          "Release: yazi-x86_64-apple-darwin.zip",
-          "README: macOS"
+          "Release: Sunshine-macOS-arm64.dmg",
+          "Release: Sunshine-macOS-x86_64.dmg"
         ],
         "windows": [
-          "Release: yazi-aarch64-pc-windows-msvc.zip",
-          "Release: yazi-x86_64-pc-windows-msvc.zip",
-          "README: Windows"
+          "Release: Sunshine-Windows-AMD64-installer.exe",
+          "Release: Sunshine-Windows-AMD64-installer.msi",
+          "Release: Sunshine-Windows-ARM64-installer.exe"
         ]
       },
-      "score": 560.72,
-      "rank": 17,
-      "description_en": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
-      "description_zh": "基于异步I/O的极速终端文件管理器。"
+      "score": 559.56,
+      "rank": 18,
+      "description_en": "Self-hosted game stream host for Moonlight.",
+      "description_zh": "Moonlight的自托管游戏流媒体服务器。"
     },
     {
       "name": "TriliumNext/Trilium",
@@ -897,19 +887,15 @@
       "platform_evidence": {
         "macos": [
           "Release: TriliumNotes-v0.104.1-macos-arm64.dmg",
-          "Release: TriliumNotes-v0.104.1-macos-arm64.zip",
-          "Release: TriliumNotes-v0.104.1-macos-x64.dmg",
-          "README: macOS"
+          "Release: TriliumNotes-v0.104.1-macos-x64.dmg"
         ],
         "windows": [
           "Release: TriliumNotes-v0.104.1-windows-arm64.exe",
-          "Release: TriliumNotes-v0.104.1-windows-arm64.zip",
-          "Release: TriliumNotes-v0.104.1-windows-x64.exe",
-          "README: Windows"
+          "Release: TriliumNotes-v0.104.1-windows-x64.exe"
         ]
       },
-      "score": 556.64,
-      "rank": 18,
+      "score": 556.55,
+      "rank": 19,
       "description_en": "Build your personal knowledge base with Trilium Notes",
       "description_zh": "构建个人知识库的笔记软件。"
     },
@@ -948,20 +934,16 @@
         "macos": [
           "Release: Motrix-1.8.19-arm64.dmg",
           "Release: Motrix-1.8.19-universal.dmg",
-          "Release: Motrix-1.8.19.dmg",
-          "README: macOS",
-          "README: Homebrew"
+          "Release: Motrix-1.8.19.dmg"
         ],
         "windows": [
           "Release: Motrix-1.8.19-ia32.exe",
           "Release: Motrix-1.8.19-x64.exe",
-          "Release: Motrix-1.8.19.exe",
-          "README: Windows",
-          "README: EXE 安装包"
+          "Release: Motrix-1.8.19.exe"
         ]
       },
-      "score": 555.24,
-      "rank": 19,
+      "score": 555.15,
+      "rank": 20,
       "description_en": "A full-featured download manager.",
       "description_zh": "功能完善的下载管理器。"
     },
@@ -999,23 +981,3583 @@
       "platform_evidence": {
         "macos": [
           "Release: Spotube-macos-universal.dmg",
-          "Release: Spotube-macos-universal.pkg",
-          "README: macOS",
-          "README: Mac OS",
-          "README: OS X"
+          "Release: Spotube-macos-universal.pkg"
         ],
         "windows": [
-          "Release: Spotube-windows-x86_64-setup.exe",
-          "Release: Spotube-windows-x86_64.nupkg",
-          "README: Windows",
-          "README: EXE 安装包",
-          "README: WinGet"
+          "Release: Spotube-windows-x86_64-setup.exe"
         ]
       },
-      "score": 553.53,
-      "rank": 20,
+      "score": 553.44,
+      "rank": 21,
       "description_en": "🎧 Open source music streaming app! Available for both desktop & mobile!",
       "description_zh": "开源跨平台音乐流媒体应用。"
+    },
+    {
+      "name": "DayuanJiang/next-ai-draw-io",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+      "homepage": "https://next-ai-drawio.jiang.jp/",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "diagrams",
+        "productivity"
+      ],
+      "stars": 33940,
+      "forks": 3592,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T23:16:38Z",
+      "latest_release": {
+        "tag": "v0.4.16",
+        "url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/tag/v0.4.16",
+        "published_at": "2026-05-21T00:31:59Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Next-AI-Draw.io-0.4.16-arm64.dmg",
+          "Release: Next-AI-Draw.io-0.4.16.dmg"
+        ],
+        "windows": [
+          "Release: Next.AI.Draw.io.0.4.16.exe",
+          "Release: Next.AI.Draw.io.Setup.0.4.16.exe"
+        ]
+      },
+      "score": 551.55,
+      "rank": 22,
+      "description_en": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+      "description_zh": "基于next.js的AI辅助draw.io图表编辑应用。"
+    },
+    {
+      "name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "homepage": "https://onOrca.dev",
+      "language": "TypeScript",
+      "topics": [
+        "ade",
+        "agent-ide",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "cursor-agent",
+        "devtools",
+        "ghostty",
+        "ide",
+        "mobile-app",
+        "opencode",
+        "orchestration",
+        "parallel-agents",
+        "pi",
+        "terminal",
+        "worktrees",
+        "yc-backed"
+      ],
+      "stars": 32166,
+      "forks": 2270,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T08:18:31Z",
+      "latest_release": {
+        "tag": "v1.4.161",
+        "url": "https://github.com/stablyai/orca/releases/tag/v1.4.161",
+        "published_at": "2026-07-29T08:23:24Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: orca-macos-arm64.dmg",
+          "Release: orca-macos-x64.dmg"
+        ],
+        "windows": [
+          "Release: orca-windows-setup.exe"
+        ]
+      },
+      "score": 550.72,
+      "rank": 23,
+      "description_en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "description_zh": "支持多代理并行的AI开发环境。"
+    },
+    {
+      "name": "pear-devs/pear-desktop",
+      "url": "https://github.com/pear-devs/pear-desktop",
+      "description": "Pear 🍐 is extension for music player",
+      "homepage": null,
+      "language": "TypeScript",
+      "topics": [
+        "desktop-app",
+        "electron",
+        "linux",
+        "mac",
+        "macosx",
+        "music",
+        "music-player",
+        "music-player-application",
+        "music-player-extension",
+        "node",
+        "windows"
+      ],
+      "stars": 32848,
+      "forks": 1926,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T20:02:35Z",
+      "latest_release": {
+        "tag": "v3.12.0",
+        "url": "https://github.com/pear-devs/pear-desktop/releases/tag/v3.12.0",
+        "published_at": "2026-06-28T15:43:30Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: YouTube-Music-3.12.0-arm64.dmg",
+          "Release: YouTube-Music-3.12.0.dmg"
+        ],
+        "windows": [
+          "Release: YouTube-Music-3.12.0.exe",
+          "Release: YouTube-Music-Web-Setup-3.12.0.exe"
+        ]
+      },
+      "score": 549.59,
+      "rank": 24,
+      "description_en": "Pear 🍐 is extension for music player",
+      "description_zh": "Pear：音乐播放器扩展。"
+    },
+    {
+      "name": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your Internet traffic 🕵️‍♂️",
+      "homepage": "https://sniffnet.app",
+      "language": "Rust",
+      "topics": [
+        "application",
+        "gui",
+        "iced",
+        "linux",
+        "macos",
+        "network",
+        "network-analysis",
+        "network-monitoring",
+        "networking",
+        "packet-analyser",
+        "packet-capture",
+        "packet-sniffer",
+        "pcap",
+        "rust",
+        "rust-crate",
+        "security",
+        "tool",
+        "utility",
+        "windows"
+      ],
+      "stars": 40203,
+      "forks": 1830,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-25T21:41:04Z",
+      "latest_release": {
+        "tag": "v1.5.1",
+        "url": "https://github.com/GyulyVGC/sniffnet/releases/tag/v1.5.1",
+        "published_at": "2026-07-22T07:54:30Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Sniffnet_macOS_AppleSilicon.dmg",
+          "Release: Sniffnet_macOS_Intel.dmg"
+        ],
+        "windows": [
+          "Release: Sniffnet_Windows_arm64.msi",
+          "Release: Sniffnet_Windows_x64.msi",
+          "Release: Sniffnet_Windows_x86.msi"
+        ]
+      },
+      "score": 546.64,
+      "rank": 25,
+      "description_en": "Comfortably monitor your Internet traffic 🕵️‍♂️",
+      "description_zh": "便捷的网络流量监控工具。"
+    },
+    {
+      "name": "Wox-launcher/Wox",
+      "url": "https://github.com/Wox-launcher/Wox",
+      "description": "A cross-platform launcher that simply works",
+      "homepage": "http://wox-launcher.github.io/Wox/",
+      "language": "Go",
+      "topics": [
+        "alfred",
+        "launcher",
+        "launchy",
+        "productivity",
+        "productivity-tools",
+        "raycast",
+        "spotlight",
+        "wox",
+        "wox-launcher"
+      ],
+      "stars": 27175,
+      "forks": 2421,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T06:52:13Z",
+      "latest_release": {
+        "tag": "v2.3.0",
+        "url": "https://github.com/Wox-launcher/Wox/releases/tag/v2.3.0",
+        "published_at": "2026-07-04T04:30:49Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: wox-mac-amd64.dmg",
+          "Release: wox-mac-arm64.dmg"
+        ],
+        "windows": [
+          "Release: wox-windows-amd64.exe"
+        ]
+      },
+      "score": 543.16,
+      "rank": 26,
+      "description_en": "A cross-platform launcher that simply works",
+      "description_zh": "跨平台高效启动器。"
+    },
+    {
+      "name": "flameshot-org/flameshot",
+      "url": "https://github.com/flameshot-org/flameshot",
+      "description": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
+      "homepage": "https://flameshot.org",
+      "language": "C++",
+      "topics": [
+        "capture",
+        "cross-platform",
+        "free-software",
+        "gnu-linux",
+        "gui",
+        "hacktoberfest",
+        "image-editing",
+        "qt",
+        "screenshot"
+      ],
+      "stars": 30501,
+      "forks": 1977,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-27T19:17:47Z",
+      "latest_release": {
+        "tag": "v14.0.0",
+        "url": "https://github.com/flameshot-org/flameshot/releases/tag/v14.0.0",
+        "published_at": "2026-06-19T01:20:33Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Flameshot-14.0-macos-arm64.dmg",
+          "Release: Flameshot-14.0-macos-intel.dmg"
+        ],
+        "windows": [
+          "Release: Flameshot-14.0.0-win64.msi"
+        ]
+      },
+      "score": 542.25,
+      "rank": 27,
+      "description_en": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
+      "description_zh": "功能强大且易用的截图软件。"
+    },
+    {
+      "name": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "homepage": "https://handy.computer",
+      "language": "Rust",
+      "topics": [
+        "accessibility",
+        "cross-platform",
+        "speech-to-text",
+        "tauri-v2"
+      ],
+      "stars": 27791,
+      "forks": 2417,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T10:51:53Z",
+      "latest_release": {
+        "tag": "v0.9.4",
+        "url": "https://github.com/cjpais/Handy/releases/tag/v0.9.4",
+        "published_at": "2026-07-21T08:13:47Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Handy_0.9.4_aarch64.dmg",
+          "Release: Handy_0.9.4_x64.dmg"
+        ],
+        "windows": [
+          "Release: Handy_0.9.4_arm64-setup.exe",
+          "Release: Handy_0.9.4_arm64_en-US.msi",
+          "Release: Handy_0.9.4_x64-setup.exe"
+        ]
+      },
+      "score": 540.8,
+      "rank": 28,
+      "description_en": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "description_zh": "完全离线的开源语音转文字应用。"
+    },
+    {
+      "name": "Devolutions/UniGetUI",
+      "url": "https://github.com/Devolutions/UniGetUI",
+      "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
+      "homepage": "https://devolutions.net/unigetui/",
+      "language": "C#",
+      "topics": [
+        "chocolatey",
+        "cli",
+        "npm",
+        "package",
+        "package-manager",
+        "pip",
+        "scoop",
+        "unigetui",
+        "windows",
+        "windows-10",
+        "windows-11",
+        "winget"
+      ],
+      "stars": 25271,
+      "forks": 874,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T19:24:56Z",
+      "latest_release": {
+        "tag": "v2026.2.5",
+        "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.5",
+        "published_at": "2026-07-16T18:36:46Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: UniGetUI.macos-arm64.dmg",
+          "Release: UniGetUI.macos-x64.dmg"
+        ],
+        "windows": [
+          "Release: UniGetUI.Installer.arm64.exe",
+          "Release: UniGetUI.Installer.exe",
+          "Release: UniGetUI.Installer.x64.exe"
+        ]
+      },
+      "score": 538.1,
+      "rank": 29,
+      "description_en": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
+      "description_zh": "图形化包管理器管理工具。"
+    },
+    {
+      "name": "VSCodium/vscodium",
+      "url": "https://github.com/VSCodium/vscodium",
+      "description": "binary releases of VS Code without MS branding/telemetry/licensing",
+      "homepage": "https://vscodium.com",
+      "language": "Shell",
+      "topics": [
+        "editor",
+        "floss",
+        "ide",
+        "open-source-licensing",
+        "vscode"
+      ],
+      "stars": 32555,
+      "forks": 1825,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-25T07:31:38Z",
+      "latest_release": {
+        "tag": "1.126.04524",
+        "url": "https://github.com/VSCodium/vscodium/releases/tag/1.126.04524",
+        "published_at": "2026-07-07T13:01:09Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: VSCodium.arm64.1.126.04524.dmg",
+          "Release: VSCodium.x64.1.126.04524.dmg"
+        ],
+        "windows": [
+          "Release: VSCodium-x64-1.126.04524.msi",
+          "Release: VSCodium-x64-updates-disabled-1.126.04524.msi",
+          "Release: VSCodiumSetup-arm64-1.126.04524.exe"
+        ]
+      },
+      "score": 535.11,
+      "rank": 30,
+      "description_en": "binary releases of VS Code without MS branding/telemetry/licensing",
+      "description_zh": "无微软品牌和遥测的VS Code二进制版。"
+    },
+    {
+      "name": "beekeeper-studio/beekeeper-studio",
+      "url": "https://github.com/beekeeper-studio/beekeeper-studio",
+      "description": "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
+      "homepage": "https://www.beekeeperstudio.io",
+      "language": "TypeScript",
+      "topics": [
+        "bigquery",
+        "cassandra",
+        "cockroachdb",
+        "database",
+        "electron",
+        "firebird",
+        "linux-app",
+        "mac-app",
+        "mariadb",
+        "mssql",
+        "mysql",
+        "postgresql",
+        "sql",
+        "sql-server",
+        "sqlite",
+        "windows-app"
+      ],
+      "stars": 23274,
+      "forks": 1575,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T11:29:29Z",
+      "latest_release": {
+        "tag": "v5.9.2",
+        "url": "https://github.com/beekeeper-studio/beekeeper-studio/releases/tag/v5.9.2",
+        "published_at": "2026-07-10T20:47:06Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Beekeeper-Studio-5.9.2-arm64.dmg",
+          "Release: Beekeeper-Studio-5.9.2.dmg"
+        ],
+        "windows": [
+          "Release: Beekeeper-Studio-5.9.2-portable.exe",
+          "Release: Beekeeper-Studio-Setup-5.9.2.exe"
+        ]
+      },
+      "score": 533.2,
+      "rank": 31,
+      "description_en": "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
+      "description_zh": "Beekeeper Studio：现代易用的多数据库SQL客户端。"
+    },
+    {
+      "name": "wavetermdev/waveterm",
+      "url": "https://github.com/wavetermdev/waveterm",
+      "description": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
+      "homepage": "https://www.waveterm.dev",
+      "language": "Go",
+      "topics": [
+        "command-line",
+        "developer-tools",
+        "linux",
+        "macos",
+        "productivity",
+        "terminal",
+        "terminal-emulators",
+        "windows"
+      ],
+      "stars": 21842,
+      "forks": 1084,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T01:49:22Z",
+      "latest_release": {
+        "tag": "v0.14.5",
+        "url": "https://github.com/wavetermdev/waveterm/releases/tag/v0.14.5",
+        "published_at": "2026-04-16T16:01:54Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Wave-darwin-arm64-0.14.5.dmg",
+          "Release: Wave-darwin-x64-0.14.5.dmg"
+        ],
+        "windows": [
+          "Release: Wave-win32-x64-0.14.5.exe",
+          "Release: Wave-win32-x64-0.14.5.msi"
+        ]
+      },
+      "score": 532.83,
+      "rank": 32,
+      "description_en": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
+      "description_zh": "集成AI的跨平台终端工具。"
+    },
+    {
+      "name": "super-productivity/super-productivity",
+      "url": "https://github.com/super-productivity/super-productivity",
+      "description": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+      "homepage": "http://super-productivity.com?ref=github",
+      "language": "TypeScript",
+      "topics": [
+        "android",
+        "flowmodoro",
+        "flowtime",
+        "habit-tracker",
+        "ios",
+        "issue-tracker",
+        "linux",
+        "local-first",
+        "macos",
+        "open-source",
+        "pomodoro",
+        "pomodoro-timer",
+        "privacy",
+        "productivity",
+        "task-manager",
+        "time-tracker",
+        "time-tracking",
+        "to-do-list",
+        "todo",
+        "windows"
+      ],
+      "stars": 20968,
+      "forks": 1896,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T08:19:14Z",
+      "latest_release": {
+        "tag": "v18.16.0",
+        "url": "https://github.com/super-productivity/super-productivity/releases/tag/v18.16.0",
+        "published_at": "2026-07-25T06:23:34Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: superProductivity-arm64.dmg",
+          "Release: superProductivity-universal.dmg",
+          "Release: superProductivity-x64.dmg"
+        ],
+        "windows": [
+          "Release: Super-Productivity-Setup-arm64.exe",
+          "Release: Super-Productivity-Setup-x64.exe",
+          "Release: Super-Productivity-Setup.exe"
+        ]
+      },
+      "score": 532.14,
+      "rank": 33,
+      "description_en": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+      "description_zh": "Super Productivity：集成时间管理的高级待办事项应用。"
+    },
+    {
+      "name": "GopeedLab/gopeed",
+      "url": "https://github.com/GopeedLab/gopeed",
+      "description": "A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
+      "homepage": "https://gopeed.com",
+      "language": "Go",
+      "topics": [
+        "android",
+        "bittorrent",
+        "cross-platform",
+        "debian",
+        "downloader",
+        "flutter",
+        "golang",
+        "http",
+        "https",
+        "ios",
+        "macos",
+        "magnet",
+        "torrent",
+        "ubuntu",
+        "windows"
+      ],
+      "stars": 25530,
+      "forks": 1673,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-27T03:35:40Z",
+      "latest_release": {
+        "tag": "v1.9.3",
+        "url": "https://github.com/GopeedLab/gopeed/releases/tag/v1.9.3",
+        "published_at": "2026-03-18T12:54:20Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Gopeed-v1.9.3-macos-amd64.dmg",
+          "Release: Gopeed-v1.9.3-macos-arm64.dmg",
+          "Release: Gopeed-v1.9.3-macos.dmg"
+        ],
+        "windows": [
+          "Release: Gopeed-v1.9.3-windows-amd64.exe",
+          "Release: Gopeed-v1.9.3-windows-arm64.exe"
+        ]
+      },
+      "score": 531.9,
+      "rank": 34,
+      "description_en": "A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
+      "description_zh": "支持多协议的高速跨平台下载管理器。"
+    },
+    {
+      "name": "ActivityWatch/activitywatch",
+      "url": "https://github.com/ActivityWatch/activitywatch",
+      "description": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.",
+      "homepage": "https://activitywatch.net/",
+      "language": "Python",
+      "topics": [
+        "activitywatch",
+        "afk",
+        "analytics",
+        "app",
+        "cross-platform",
+        "dashboard",
+        "productivity",
+        "quantified-self",
+        "time-tracker",
+        "time-tracking",
+        "timetracker",
+        "timetracking"
+      ],
+      "stars": 18416,
+      "forks": 973,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T20:48:30Z",
+      "latest_release": {
+        "tag": "v0.13.2",
+        "url": "https://github.com/ActivityWatch/activitywatch/releases/tag/v0.13.2",
+        "published_at": "2024-10-05T13:47:17Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: activitywatch-v0.13.2-macos-x86_64.dmg"
+        ],
+        "windows": [
+          "Release: activitywatch-v0.13.2-windows-x86_64-setup.exe"
+        ]
+      },
+      "score": 524.59,
+      "rank": 35,
+      "description_en": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.",
+      "description_zh": "免费开源的自动化时间追踪器。"
+    },
+    {
+      "name": "nukeop/nuclear",
+      "url": "https://github.com/nukeop/nuclear",
+      "description": "Streaming music player that finds free music for you",
+      "homepage": "https://nuclearplayer.com",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "desktop-app",
+        "linux",
+        "mac",
+        "mcp",
+        "mcp-server",
+        "music",
+        "music-player",
+        "react",
+        "rust",
+        "spotify",
+        "streaming",
+        "tauri",
+        "typescript",
+        "windows"
+      ],
+      "stars": 18138,
+      "forks": 1304,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T23:11:09Z",
+      "latest_release": {
+        "tag": "player@1.43.2",
+        "url": "https://github.com/nukeop/nuclear/releases/tag/player%401.43.2",
+        "published_at": "2026-07-20T13:35:18Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Nuclear_1.43.2_aarch64.dmg",
+          "Release: Nuclear_1.43.2_x64.dmg"
+        ],
+        "windows": [
+          "Release: Nuclear_1.43.2_x64-setup.exe",
+          "Release: Nuclear_1.43.2_x64_en-US.msi"
+        ]
+      },
+      "score": 524.32,
+      "rank": 36,
+      "description_en": "Streaming music player that finds free music for you",
+      "description_zh": "免费音乐流媒体播放器。"
+    },
+    {
+      "name": "audacity/audacity",
+      "url": "https://github.com/audacity/audacity",
+      "description": "Audio Editor",
+      "homepage": "https://wiki.audacityteam.org/wiki/For_Developers",
+      "language": "C++",
+      "topics": [
+        "audio",
+        "cross-platform",
+        "editor",
+        "gplv2",
+        "wxwidgets-applications"
+      ],
+      "stars": 17450,
+      "forks": 2599,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T06:42:08Z",
+      "latest_release": {
+        "tag": "Audacity-3.7.8",
+        "url": "https://github.com/audacity/audacity/releases/tag/Audacity-3.7.8",
+        "published_at": "2026-06-11T14:32:48Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: audacity-macOS-3.7.8-arm64.dmg",
+          "Release: audacity-macOS-3.7.8-universal.dmg",
+          "Release: audacity-macOS-3.7.8-x86_64.dmg"
+        ],
+        "windows": [
+          "Release: audacity-win-3.7.8-32bit.exe",
+          "Release: audacity-win-3.7.8-64bit.exe",
+          "Release: audacity-win-3.7.8-arm64.exe"
+        ]
+      },
+      "score": 523.9,
+      "rank": 37,
+      "description_en": "Audio Editor",
+      "description_zh": "音频编辑器。"
+    },
+    {
+      "name": "mountain-loop/yaak",
+      "url": "https://github.com/mountain-loop/yaak",
+      "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
+      "homepage": "https://yaak.app",
+      "language": "TypeScript",
+      "topics": [
+        "bruno-alternative",
+        "graphql",
+        "grpc",
+        "http",
+        "http-client",
+        "insomnia-alternative",
+        "postman-alternative",
+        "sse",
+        "tauri",
+        "websocket"
+      ],
+      "stars": 18907,
+      "forks": 792,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T07:01:52Z",
+      "latest_release": {
+        "tag": "v2026.5.0",
+        "url": "https://github.com/mountain-loop/yaak/releases/tag/v2026.5.0",
+        "published_at": "2026-07-21T15:52:45Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Yaak_2026.5.0_aarch64.dmg",
+          "Release: Yaak_2026.5.0_x64.dmg"
+        ],
+        "windows": [
+          "Release: Yaak_2026.5.0_arm64-setup-machine.exe",
+          "Release: Yaak_2026.5.0_arm64-setup.exe",
+          "Release: Yaak_2026.5.0_x64-setup-machine.exe"
+        ]
+      },
+      "score": 523.43,
+      "rank": 38,
+      "description_en": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
+      "description_zh": "直观的桌面API客户端，支持多种协议。"
+    },
+    {
+      "name": "rowboatlabs/rowboat",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "description": "Open-source AI coworker, with memory",
+      "homepage": "https://www.rowboatlabs.com",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "agents-sdk",
+        "ai",
+        "ai-agents",
+        "ai-agents-automation",
+        "chatgpt",
+        "claude-code",
+        "claude-cowork",
+        "generative-ai",
+        "llm",
+        "multiagent",
+        "opeani",
+        "open-source",
+        "orchestration",
+        "productivity"
+      ],
+      "stars": 16875,
+      "forks": 1680,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T05:49:18Z",
+      "latest_release": {
+        "tag": "v0.8.3",
+        "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v0.8.3",
+        "published_at": "2026-07-29T04:00:19Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Rowboat-darwin-arm64-0.8.3.dmg",
+          "Release: Rowboat-darwin-x64-0.8.3.dmg"
+        ],
+        "windows": [
+          "Release: Rowboat-win32-x64-0.8.3-setup.exe"
+        ]
+      },
+      "score": 522.29,
+      "rank": 39,
+      "description_en": "Open-source AI coworker, with memory",
+      "description_zh": "具备记忆功能的开源AI助手。"
+    },
+    {
+      "name": "keepassxreboot/keepassxc",
+      "url": "https://github.com/keepassxreboot/keepassxc",
+      "description": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
+      "homepage": "https://keepassxc.org/",
+      "language": "C++",
+      "topics": [
+        "cross-platform",
+        "hacktoberfest",
+        "keepass",
+        "keepassxc",
+        "linux",
+        "macos",
+        "password",
+        "password-manager",
+        "privacy",
+        "security",
+        "windows",
+        "yubikey"
+      ],
+      "stars": 28192,
+      "forks": 1861,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-23T12:45:19Z",
+      "latest_release": {
+        "tag": "2.7.12",
+        "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.12",
+        "published_at": "2026-03-10T01:16:42Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: KeePassXC-2.7.12-arm64.dmg",
+          "Release: KeePassXC-2.7.12-x86_64.dmg"
+        ],
+        "windows": [
+          "Release: KeePassXC-2.7.12-Win64-LegacyWindows.msi",
+          "Release: KeePassXC-2.7.12-Win64.msi"
+        ]
+      },
+      "score": 521.74,
+      "rank": 40,
+      "description_en": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
+      "description_zh": "跨平台的KeePass密码管理器移植版。"
+    },
+    {
+      "name": "alacritty/alacritty",
+      "url": "https://github.com/alacritty/alacritty",
+      "description": "A cross-platform, OpenGL terminal emulator.",
+      "homepage": "https://alacritty.org",
+      "language": "Rust",
+      "topics": [
+        "bsd",
+        "gpu",
+        "linux",
+        "macos",
+        "opengl",
+        "rust",
+        "terminal",
+        "terminal-emulators",
+        "vte",
+        "windows"
+      ],
+      "stars": 65144,
+      "forks": 3529,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-14T03:43:13Z",
+      "latest_release": {
+        "tag": "v0.17.0",
+        "url": "https://github.com/alacritty/alacritty/releases/tag/v0.17.0",
+        "published_at": "2026-04-06T19:24:18Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Alacritty-v0.17.0.dmg"
+        ],
+        "windows": [
+          "Release: Alacritty-v0.17.0-installer.msi",
+          "Release: Alacritty-v0.17.0-portable.exe"
+        ]
+      },
+      "score": 520.6,
+      "rank": 41,
+      "description_en": "A cross-platform, OpenGL terminal emulator.",
+      "description_zh": "跨平台OpenGL终端模拟器。"
+    },
+    {
+      "name": "electerm/electerm",
+      "url": "https://github.com/electerm/electerm",
+      "description": "📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android)",
+      "homepage": "https://electerm.org",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "android",
+        "electerm",
+        "electron",
+        "file-manager",
+        "ftp",
+        "linux-app",
+        "macos-app",
+        "mcp",
+        "open-source",
+        "rdp",
+        "serialport",
+        "sftp",
+        "spice",
+        "ssh",
+        "telnet",
+        "terminal",
+        "vnc",
+        "windows-app",
+        "zmodem"
+      ],
+      "stars": 14601,
+      "forks": 1166,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:12:04Z",
+      "latest_release": {
+        "tag": "v3.15.171",
+        "url": "https://github.com/electerm/electerm/releases/tag/v3.15.171",
+        "published_at": "2026-07-26T23:04:46Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: electerm-3.15.171-mac-arm64.dmg",
+          "Release: electerm-3.15.171-mac-x64.dmg",
+          "Release: electerm-3.15.171-mac10-x64.dmg"
+        ],
+        "windows": [
+          "Release: electerm-3.15.171-win-arm64-installer.exe",
+          "Release: electerm-3.15.171-win-x64-installer.exe"
+        ]
+      },
+      "score": 516.24,
+      "rank": 42,
+      "description_en": "📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android)",
+      "description_zh": "支持多协议的终端和远程连接客户端，跨平台支持多系统。"
+    },
+    {
+      "name": "Termix-SSH/Termix",
+      "url": "https://github.com/Termix-SSH/Termix",
+      "description": "Self-hosted SSH and remote desktop management.",
+      "homepage": "https://termix.site/",
+      "language": "TypeScript",
+      "topics": [
+        "docker",
+        "file-management",
+        "rdp",
+        "self-hosted",
+        "server-stats",
+        "ssh",
+        "ssh-tunnel",
+        "telnet",
+        "terminal",
+        "termix",
+        "vnc"
+      ],
+      "stars": 14517,
+      "forks": 650,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T06:58:04Z",
+      "latest_release": {
+        "tag": "release-2.6.0-tag",
+        "url": "https://github.com/Termix-SSH/Termix/releases/tag/release-2.6.0-tag",
+        "published_at": "2026-07-26T23:56:18Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: termix_macos_arm64_dmg.dmg",
+          "Release: termix_macos_universal_dmg.dmg",
+          "Release: termix_macos_x64_dmg.dmg"
+        ],
+        "windows": [
+          "Release: termix_windows_ia32_msi.msi",
+          "Release: termix_windows_ia32_nsis.exe",
+          "Release: termix_windows_x64_msi.msi"
+        ]
+      },
+      "score": 515.95,
+      "rank": 43,
+      "description_en": "Self-hosted SSH and remote desktop management.",
+      "description_zh": "自托管的SSH和远程桌面管理工具。"
+    },
+    {
+      "name": "streetwriters/notesnook",
+      "url": "https://github.com/streetwriters/notesnook",
+      "description": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
+      "homepage": "https://notesnook.com/",
+      "language": "TypeScript",
+      "topics": [
+        "asp-net-core",
+        "dotnet-core",
+        "electron",
+        "foss",
+        "hacktoberfest",
+        "note-managment",
+        "note-taking",
+        "note-taking-app",
+        "notebook",
+        "notes",
+        "notes-app",
+        "open-source",
+        "opensource",
+        "privacy",
+        "productivity",
+        "react",
+        "react-native",
+        "reactjs",
+        "self-hosted"
+      ],
+      "stars": 14337,
+      "forks": 972,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:51:12Z",
+      "latest_release": {
+        "tag": "v3.4.5",
+        "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.5",
+        "published_at": "2026-07-28T16:19:40Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: notesnook_mac_arm64.dmg",
+          "Release: notesnook_mac_x64.dmg"
+        ],
+        "windows": [
+          "Release: notesnook_win.exe",
+          "Release: notesnook_win_arm64.exe",
+          "Release: notesnook_win_arm64_portable.exe"
+        ]
+      },
+      "score": 515.55,
+      "rank": 44,
+      "description_en": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
+      "description_zh": "完全开源且端到端加密的笔记软件，Evernote替代品。"
+    },
+    {
+      "name": "lyswhut/lx-music-desktop",
+      "url": "https://github.com/lyswhut/lx-music-desktop",
+      "description": "一个基于 Electron 的音乐软件",
+      "homepage": "https://lyswhut.github.io/lx-music-doc/",
+      "language": "TypeScript",
+      "topics": [
+        "electron",
+        "javascript",
+        "music-player",
+        "vue"
+      ],
+      "stars": 52405,
+      "forks": 6933,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-15T01:36:41Z",
+      "latest_release": {
+        "tag": "v2.12.2",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v2.12.2",
+        "published_at": "2026-05-01T05:35:34Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: lx-music-desktop-2.12.2-arm64.dmg",
+          "Release: lx-music-desktop-2.12.2-x64.dmg"
+        ],
+        "windows": [
+          "Release: lx-music-desktop-v2.12.2-arm64-Setup.exe",
+          "Release: lx-music-desktop-v2.12.2-win7_x64-Setup.exe",
+          "Release: lx-music-desktop-v2.12.2-x64-Setup.exe"
+        ]
+      },
+      "score": 514.8,
+      "rank": 45,
+      "description_en": "一个基于 Electron 的音乐软件",
+      "description_zh": "一个基于 Electron 的音乐软件"
+    },
+    {
+      "name": "NanmiCoder/cc-haha",
+      "url": "https://github.com/NanmiCoder/cc-haha",
+      "description": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
+      "homepage": "cchaha.ai",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "coding-agent",
+        "computer-use",
+        "desktop-app",
+        "electron",
+        "llm",
+        "mcp",
+        "react",
+        "typescript"
+      ],
+      "stars": 13694,
+      "forks": 8491,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T06:39:16Z",
+      "latest_release": {
+        "tag": "v0.5.0",
+        "url": "https://github.com/NanmiCoder/cc-haha/releases/tag/v0.5.0",
+        "published_at": "2026-07-27T00:52:03Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Claude-Code-Haha-0.5.0-mac-arm64.dmg",
+          "Release: Claude-Code-Haha-0.5.0-mac-x64.dmg"
+        ],
+        "windows": [
+          "Release: Claude-Code-Haha-0.5.0-win-arm64.exe",
+          "Release: Claude-Code-Haha-0.5.0-win-x64.exe"
+        ]
+      },
+      "score": 513.36,
+      "rank": 46,
+      "description_en": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
+      "description_zh": "本地优先的跨平台桌面工作空间，支持多智能体和多模型。"
+    },
+    {
+      "name": "amir1376/ab-download-manager",
+      "url": "https://github.com/amir1376/ab-download-manager",
+      "description": "A Download Manager that speeds up your downloads",
+      "homepage": "https://abdownloadmanager.com",
+      "language": "Kotlin",
+      "topics": [
+        "chrome",
+        "compose",
+        "compose-desktop",
+        "compose-multiplatform",
+        "desktop",
+        "desktop-app",
+        "download",
+        "download-manager",
+        "downloader",
+        "downloadmanager",
+        "firefox",
+        "kotlin",
+        "kotlin-multiplatform",
+        "linux",
+        "windows"
+      ],
+      "stars": 16912,
+      "forks": 878,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-26T20:47:25Z",
+      "latest_release": {
+        "tag": "v1.10.1",
+        "url": "https://github.com/amir1376/ab-download-manager/releases/tag/v1.10.1",
+        "published_at": "2026-07-24T19:19:16Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: ABDownloadManager_1.10.1_mac_arm64.dmg",
+          "Release: ABDownloadManager_1.10.1_mac_x64.dmg"
+        ],
+        "windows": [
+          "Release: ABDownloadManager_1.10.1_windows_arm64.exe",
+          "Release: ABDownloadManager_1.10.1_windows_x64.exe"
+        ]
+      },
+      "score": 512.88,
+      "rank": 47,
+      "description_en": "A Download Manager that speeds up your downloads",
+      "description_zh": "加速下载的下载管理器。"
+    },
+    {
+      "name": "Zettlr/Zettlr",
+      "url": "https://github.com/Zettlr/Zettlr",
+      "description": "Your One-Stop Publication Workbench",
+      "homepage": "https://www.zettlr.com",
+      "language": "TypeScript",
+      "topics": [
+        "desktop",
+        "docx",
+        "electron",
+        "html",
+        "languages",
+        "libreoffice",
+        "linux",
+        "macos",
+        "markdown",
+        "nodejs",
+        "office",
+        "offline",
+        "pandoc",
+        "pdf",
+        "productivity",
+        "windows",
+        "zettlr"
+      ],
+      "stars": 13309,
+      "forks": 821,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T19:46:30Z",
+      "latest_release": {
+        "tag": "v4.7.0",
+        "url": "https://github.com/Zettlr/Zettlr/releases/tag/v4.7.0",
+        "published_at": "2026-07-26T12:52:29Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Zettlr-4.7.0-arm64.dmg",
+          "Release: Zettlr-4.7.0-x64.dmg"
+        ],
+        "windows": [
+          "Release: Zettlr-4.7.0-x64.exe"
+        ]
+      },
+      "score": 510.31,
+      "rank": 48,
+      "description_en": "Your One-Stop Publication Workbench",
+      "description_zh": "一站式出版工作平台。"
+    },
+    {
+      "name": "codexu/note-gen",
+      "url": "https://github.com/codexu/note-gen",
+      "description": "A cross-platform Markdown AI note-taking software.",
+      "homepage": "https://notegen.top",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "chatbot",
+        "knowledge-base",
+        "llm",
+        "markdown",
+        "mcp",
+        "nextjs",
+        "note-taking",
+        "rag",
+        "tauri",
+        "webdav"
+      ],
+      "stars": 12371,
+      "forks": 933,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T08:15:54Z",
+      "latest_release": {
+        "tag": "note-gen-v0.32.1",
+        "url": "https://github.com/codexu/note-gen/releases/tag/note-gen-v0.32.1",
+        "published_at": "2026-07-21T11:40:00Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: NoteGen_0.32.1_aarch64.dmg",
+          "Release: NoteGen_0.32.1_x64.dmg"
+        ],
+        "windows": [
+          "Release: NoteGen_0.32.1_x64-setup.exe",
+          "Release: NoteGen_0.32.1_x64_en-US.msi"
+        ]
+      },
+      "score": 509.22,
+      "rank": 49,
+      "description_en": "A cross-platform Markdown AI note-taking software.",
+      "description_zh": "跨平台的Markdown AI笔记软件。"
+    },
+    {
+      "name": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "homepage": "https://dbxio.com",
+      "language": "Rust",
+      "topics": [
+        "ai",
+        "cli",
+        "clickhouse",
+        "database",
+        "database-client",
+        "database-management",
+        "docker",
+        "gui",
+        "mcp",
+        "mongodb",
+        "mysql",
+        "postgresql",
+        "redis",
+        "rust",
+        "sql-server",
+        "sqlite",
+        "tauri",
+        "vue"
+      ],
+      "stars": 12316,
+      "forks": 1186,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T08:16:39Z",
+      "latest_release": {
+        "tag": "v0.5.69",
+        "url": "https://github.com/t8y2/dbx/releases/tag/v0.5.69",
+        "published_at": "2026-07-29T05:00:44Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: DBX_0.5.69_aarch64.dmg",
+          "Release: DBX_0.5.69_x64.dmg"
+        ],
+        "windows": [
+          "Release: DBX_0.5.69_arm64-setup.exe",
+          "Release: DBX_0.5.69_arm64-webview2-offline-setup.exe",
+          "Release: DBX_0.5.69_arm64_en-US.msi"
+        ]
+      },
+      "score": 509.03,
+      "rank": 50,
+      "description_en": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "description_zh": "轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。"
+    },
+    {
+      "name": "dail8859/NotepadNext",
+      "url": "https://github.com/dail8859/NotepadNext",
+      "description": "A cross-platform, reimplementation of Notepad++",
+      "homepage": null,
+      "language": "C++",
+      "topics": [
+        "desktop",
+        "editor",
+        "linux",
+        "macos",
+        "notepad",
+        "notepad-plus-plus",
+        "qt",
+        "qt6"
+      ],
+      "stars": 14408,
+      "forks": 899,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-27T09:57:46Z",
+      "latest_release": {
+        "tag": "v0.14",
+        "url": "https://github.com/dail8859/NotepadNext/releases/tag/v0.14",
+        "published_at": "2026-04-27T22:48:45Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: NotepadNext-v0.14.dmg"
+        ],
+        "windows": [
+          "Release: NotepadNext-v0.14-Installer.exe"
+        ]
+      },
+      "score": 508.12,
+      "rank": 51,
+      "description_en": "A cross-platform, reimplementation of Notepad++",
+      "description_zh": "跨平台的Notepad++重实现文本编辑器。"
+    },
+    {
+      "name": "HBAI-Ltd/Toonflow-app",
+      "url": "https://github.com/HBAI-Ltd/Toonflow-app",
+      "description": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation.",
+      "homepage": "https://toonflow.net",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-content-creation",
+        "ai-tool",
+        "ai-video-generation",
+        "automation",
+        "content-generation",
+        "desktop-app",
+        "electron",
+        "generative-ai",
+        "image-generation",
+        "llm",
+        "nodejs",
+        "shorts",
+        "text-to-video",
+        "typescript",
+        "video-generation",
+        "vite",
+        "vue3"
+      ],
+      "stars": 13009,
+      "forks": 2363,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T08:16:41Z",
+      "latest_release": {
+        "tag": "v1.1.8",
+        "url": "https://github.com/HBAI-Ltd/Toonflow-app/releases/tag/v1.1.8",
+        "published_at": "2026-06-08T12:58:02Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: ToonFlow-1.1.8-mac-arm64.dmg",
+          "Release: ToonFlow-1.1.8-mac-x64.dmg"
+        ],
+        "windows": [
+          "Release: ToonFlow-1.1.8-win-arm64-setup.exe",
+          "Release: ToonFlow-1.1.8-win-x64-setup.exe"
+        ]
+      },
+      "score": 507.4,
+      "rank": 52,
+      "description_en": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation.",
+      "description_zh": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation."
+    },
+    {
+      "name": "mltframework/shotcut",
+      "url": "https://github.com/mltframework/shotcut",
+      "description": "cross-platform (Qt), open-source (GPLv3) video editor",
+      "homepage": "https://www.shotcut.org",
+      "language": "C++",
+      "topics": [
+        "cross-platform",
+        "gplv3",
+        "mlt",
+        "shotcut",
+        "video-editor"
+      ],
+      "stars": 14652,
+      "forks": 1449,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-26T23:13:35Z",
+      "latest_release": {
+        "tag": "v26.6.25",
+        "url": "https://github.com/mltframework/shotcut/releases/tag/v26.6.25",
+        "published_at": "2026-06-26T23:27:55Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: shotcut-macos-26.6.25.dmg",
+          "Release: shotcut-macos-unsigned-26.6.25.dmg"
+        ],
+        "windows": [
+          "Release: shotcut-win64-26.6.25.exe",
+          "Release: shotcut-win_ARM-26.6.25.exe"
+        ]
+      },
+      "score": 507.06,
+      "rank": 53,
+      "description_en": "cross-platform (Qt), open-source (GPLv3) video editor",
+      "description_zh": "跨平台开源视频编辑器，基于Qt和GPLv3。"
+    },
+    {
+      "name": "getpaseo/paseo",
+      "url": "https://github.com/getpaseo/paseo",
+      "description": "Orchestrate multiple coding agents from desktop and mobile",
+      "homepage": "https://paseo.sh",
+      "language": "TypeScript",
+      "topics": [
+        "ade",
+        "agents",
+        "android",
+        "claude-code",
+        "codex",
+        "copilot",
+        "developer-tools",
+        "hermes",
+        "ios",
+        "linux",
+        "mobile",
+        "opencode",
+        "orchestration",
+        "pi",
+        "windows"
+      ],
+      "stars": 11610,
+      "forks": 1161,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:40:38Z",
+      "latest_release": {
+        "tag": "v0.2.3",
+        "url": "https://github.com/getpaseo/paseo/releases/tag/v0.2.3",
+        "published_at": "2026-07-27T17:49:36Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Paseo-0.2.3-arm64.dmg",
+          "Release: Paseo-0.2.3-x64.dmg"
+        ],
+        "windows": [
+          "Release: Paseo-Setup-0.2.3-arm64.exe",
+          "Release: Paseo-Setup-0.2.3-x64.exe",
+          "Release: Paseo-Setup-0.2.3.exe"
+        ]
+      },
+      "score": 506.36,
+      "rank": 54,
+      "description_en": "Orchestrate multiple coding agents from desktop and mobile",
+      "description_zh": "桌面和移动端多智能体编程协调工具。"
+    },
+    {
+      "name": "lapce/lapce",
+      "url": "https://github.com/lapce/lapce",
+      "description": "Lightning-fast and Powerful Code Editor written in Rust",
+      "homepage": "https://lap.dev/lapce/",
+      "language": "Rust",
+      "topics": [
+        "code-editor",
+        "developer-tools",
+        "rust",
+        "text-editor",
+        "vim"
+      ],
+      "stars": 38699,
+      "forks": 1311,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-15T11:27:37Z",
+      "latest_release": {
+        "tag": "v0.4.6",
+        "url": "https://github.com/lapce/lapce/releases/tag/v0.4.6",
+        "published_at": "2026-01-21T21:44:37Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Lapce-macos.dmg"
+        ],
+        "windows": [
+          "Release: Lapce-windows.msi"
+        ]
+      },
+      "score": 503.28,
+      "rank": 55,
+      "description_en": "Lightning-fast and Powerful Code Editor written in Rust",
+      "description_zh": "用Rust编写的极速强大代码编辑器。"
+    },
+    {
+      "name": "espanso/espanso",
+      "url": "https://github.com/espanso/espanso",
+      "description": "A Privacy-first, Cross-platform Text Expander written in Rust",
+      "homepage": "https://espanso.org",
+      "language": "Rust",
+      "topics": [
+        "espanso",
+        "linux",
+        "macos",
+        "productivity",
+        "productivity-tools",
+        "rust",
+        "text-expander",
+        "windows"
+      ],
+      "stars": 14199,
+      "forks": 442,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-26T02:22:11Z",
+      "latest_release": {
+        "tag": "v2.4.0",
+        "url": "https://github.com/espanso/espanso/releases/tag/v2.4.0",
+        "published_at": "2026-07-21T15:08:20Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Espanso-Mac-Universal.dmg"
+        ],
+        "windows": [
+          "Release: Espanso-Win-Installer-x86_64.exe"
+        ]
+      },
+      "score": 502.22,
+      "rank": 56,
+      "description_en": "A Privacy-first, Cross-platform Text Expander written in Rust",
+      "description_zh": "注重隐私的跨平台文本扩展工具，Rust开发。"
+    },
+    {
+      "name": "hluk/CopyQ",
+      "url": "https://github.com/hluk/CopyQ",
+      "description": "Clipboard manager with advanced features",
+      "homepage": null,
+      "language": "C++",
+      "topics": [
+        "clipboard",
+        "clipboard-manager",
+        "copyq",
+        "cross-platform",
+        "scripting",
+        "tray"
+      ],
+      "stars": 12050,
+      "forks": 580,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-27T20:10:07Z",
+      "latest_release": {
+        "tag": "v16.0.0",
+        "url": "https://github.com/hluk/CopyQ/releases/tag/v16.0.0",
+        "published_at": "2026-05-30T05:27:11Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: CopyQ-16.0.0-macos-12-m1.dmg",
+          "Release: CopyQ-16.0.0-macos-13.dmg"
+        ],
+        "windows": [
+          "Release: copyq-16.0.0-setup.exe"
+        ]
+      },
+      "score": 502.06,
+      "rank": 57,
+      "description_en": "Clipboard manager with advanced features",
+      "description_zh": "功能丰富的剪贴板管理器。"
+    },
+    {
+      "name": "webtorrent/webtorrent-desktop",
+      "url": "https://github.com/webtorrent/webtorrent-desktop",
+      "description": "❤️ Streaming torrent app for Mac, Windows, and Linux",
+      "homepage": "https://webtorrent.io/desktop",
+      "language": "JavaScript",
+      "topics": [
+        "bittorrent",
+        "electron",
+        "hacktoberfest",
+        "javascript",
+        "linux",
+        "macos",
+        "nodejs",
+        "p2p",
+        "streaming",
+        "webrtc",
+        "webtorrent",
+        "windows"
+      ],
+      "stars": 10095,
+      "forks": 1032,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T21:54:04Z",
+      "latest_release": {
+        "tag": "v0.24.0",
+        "url": "https://github.com/webtorrent/webtorrent-desktop/releases/tag/v0.24.0",
+        "published_at": "2020-08-29T00:28:38Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: WebTorrent-v0.24.0.dmg"
+        ],
+        "windows": [
+          "Release: WebTorrentSetup-v0.24.0.exe"
+        ]
+      },
+      "score": 498.66,
+      "rank": 58,
+      "description_en": "❤️ Streaming torrent app for Mac, Windows, and Linux",
+      "description_zh": "支持Mac、Windows和Linux的流媒体种子客户端。"
+    },
+    {
+      "name": "tonyantony300/dashbeam",
+      "url": "https://github.com/tonyantony300/dashbeam",
+      "description": "Send files and folders anywhere in the world without storing in cloud - any size, any format, no accounts, no restrictions ( previously Altsendme )",
+      "homepage": "https://www.altsendme.com/",
+      "language": "TypeScript",
+      "topics": [
+        "android",
+        "file-transfer",
+        "iroh",
+        "linux",
+        "macos",
+        "p2p",
+        "privacy-tools",
+        "resumable",
+        "self-hosted",
+        "terminal",
+        "web",
+        "windows"
+      ],
+      "stars": 8847,
+      "forks": 553,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T06:30:56Z",
+      "latest_release": {
+        "tag": "v0.6.0",
+        "url": "https://github.com/tonyantony300/dashbeam/releases/tag/v0.6.0",
+        "published_at": "2026-07-15T17:09:40Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: AltSendme_0.6.0_aarch64.dmg",
+          "Release: AltSendme_0.6.0_universal.dmg",
+          "Release: AltSendme_0.6.0_x64.dmg"
+        ],
+        "windows": [
+          "Release: AltSendme_0.6.0_arm64-setup.exe",
+          "Release: AltSendme_0.6.0_x64-setup.exe",
+          "Release: AltSendme_0.6.0_x64_en-US.msi"
+        ]
+      },
+      "score": 494.37,
+      "rank": 59,
+      "description_en": "Send files and folders anywhere in the world without storing in cloud - any size, any format, no accounts, no restrictions ( previously Altsendme )",
+      "description_zh": "无需云存储，全球传输任意大小文件的工具。"
+    },
+    {
+      "name": "jeffvli/feishin",
+      "url": "https://github.com/jeffvli/feishin",
+      "description": "A modern self-hosted music player.",
+      "homepage": "https://feishin.vercel.app",
+      "language": "TypeScript",
+      "topics": [
+        "jellyfin",
+        "music-player",
+        "navidrome",
+        "self-hosted",
+        "subsonic",
+        "subsonic-client"
+      ],
+      "stars": 9283,
+      "forks": 485,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T16:02:07Z",
+      "latest_release": {
+        "tag": "v1.15.1",
+        "url": "https://github.com/jeffvli/feishin/releases/tag/v1.15.1",
+        "published_at": "2026-07-19T23:54:40Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Feishin-1.15.1-mac-arm64.dmg",
+          "Release: Feishin-1.15.1-mac-x64.dmg"
+        ],
+        "windows": [
+          "Release: Feishin-1.15.1-win-arm64.exe",
+          "Release: Feishin-1.15.1-win-x64.exe",
+          "Release: Feishin-1.15.1-win.exe"
+        ]
+      },
+      "score": 494.04,
+      "rank": 60,
+      "description_en": "A modern self-hosted music player.",
+      "description_zh": "现代自托管音乐播放器。"
+    },
+    {
+      "name": "mockoon/mockoon",
+      "url": "https://github.com/mockoon/mockoon",
+      "description": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.",
+      "homepage": "https://mockoon.com",
+      "language": "TypeScript",
+      "topics": [
+        "api",
+        "application",
+        "desktop",
+        "electron",
+        "mock",
+        "mock-api",
+        "mock-data",
+        "mock-server",
+        "mocking",
+        "mocking-server",
+        "mocking-utility",
+        "openapi",
+        "openapi3",
+        "prototyping",
+        "rest",
+        "rest-api",
+        "server",
+        "swagger"
+      ],
+      "stars": 8342,
+      "forks": 461,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:48:35Z",
+      "latest_release": {
+        "tag": "v9.7.0",
+        "url": "https://github.com/mockoon/mockoon/releases/tag/v9.7.0",
+        "published_at": "2026-06-19T07:35:49Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: mockoon.setup.9.7.0.arm64.dmg",
+          "Release: mockoon.setup.9.7.0.universal.dmg",
+          "Release: mockoon.setup.9.7.0.x64.dmg"
+        ],
+        "windows": [
+          "Release: mockoon.portable.9.7.0.exe",
+          "Release: mockoon.setup.9.7.0.exe"
+        ]
+      },
+      "score": 492.03,
+      "rank": 61,
+      "description_en": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.",
+      "description_zh": "本地快速运行模拟API的开源工具，无需账号。"
+    },
+    {
+      "name": "crynta/terax-ai",
+      "url": "https://github.com/crynta/terax-ai",
+      "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+      "homepage": "https://terax.app",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "ai",
+        "code-editor",
+        "linux",
+        "macos",
+        "reactjs",
+        "rust",
+        "tauri",
+        "terminal",
+        "windows",
+        "xterm-js"
+      ],
+      "stars": 8733,
+      "forks": 940,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T19:09:20Z",
+      "latest_release": {
+        "tag": "v0.8.6",
+        "url": "https://github.com/crynta/terax-ai/releases/tag/v0.8.6",
+        "published_at": "2026-07-27T23:32:07Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Terax_0.8.6_aarch64.dmg",
+          "Release: Terax_0.8.6_x64.dmg"
+        ],
+        "windows": [
+          "Release: Terax_0.8.6_x64-setup.exe",
+          "Release: Terax_0.8.6_x64_en-US.msi"
+        ]
+      },
+      "score": 491.91,
+      "rank": 62,
+      "description_en": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+      "description_zh": "轻量级终端优先的AI开发工作空间。"
+    },
+    {
+      "name": "getagentseal/codeburn",
+      "url": "https://github.com/getagentseal/codeburn",
+      "description": "Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+      "homepage": "https://codeburn.app/",
+      "language": "TypeScript",
+      "topics": [
+        "ai-coding",
+        "claude-code",
+        "cli",
+        "codex",
+        "cost-tracking",
+        "cursor-ide",
+        "developer-tools",
+        "menubar",
+        "observability",
+        "terminal-ui",
+        "token-usage",
+        "web-dashboard"
+      ],
+      "stars": 9008,
+      "forks": 709,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T01:52:06Z",
+      "latest_release": {
+        "tag": "desktop-v0.9.19",
+        "url": "https://github.com/getagentseal/codeburn/releases/tag/desktop-v0.9.19",
+        "published_at": "2026-07-20T21:03:03Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: CodeBurn-0.9.19-arm64.dmg",
+          "Release: CodeBurn-0.9.19.dmg"
+        ],
+        "windows": [
+          "Release: CodeBurn-Setup-0.9.19.exe"
+        ]
+      },
+      "score": 490.37,
+      "rank": 63,
+      "description_en": "Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+      "description_zh": "免费本地工具，跟踪31款AI编码工具的令牌使用和费用。"
+    },
+    {
+      "name": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "description": "An AI-boost cross-platform multi-protocol fluent-design concurrent downloader built with Python & Qt.",
+      "homepage": "https://gd.xychr.com/",
+      "language": "Python",
+      "topics": [
+        "async",
+        "asyncio",
+        "bittorent",
+        "bt",
+        "cross-platform",
+        "download-manager",
+        "downloader",
+        "fluent-design",
+        "ftp",
+        "http3",
+        "magnet",
+        "pyqt",
+        "pyside6",
+        "python",
+        "qt",
+        "quic",
+        "react",
+        "software",
+        "streaming"
+      ],
+      "stars": 7587,
+      "forks": 461,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T08:04:15Z",
+      "latest_release": {
+        "tag": "v4.2.0",
+        "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/tag/v4.2.0",
+        "published_at": "2026-07-26T16:47:51Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Ghost-Downloader-v4.2.0-macOS-arm64.dmg",
+          "Release: Ghost-Downloader-v4.2.0-macOS-x86_64.dmg"
+        ],
+        "windows": [
+          "Release: Ghost-Downloader-v4.2.0-Windows-arm64-Setup.exe",
+          "Release: Ghost-Downloader-v4.2.0-Windows-x86_64-Setup.exe"
+        ]
+      },
+      "score": 487.95,
+      "rank": 64,
+      "description_en": "An AI-boost cross-platform multi-protocol fluent-design concurrent downloader built with Python & Qt.",
+      "description_zh": "基于Python和Qt的跨平台多协议并发下载器。"
+    },
+    {
+      "name": "mediago-dev/mediago",
+      "url": "https://github.com/mediago-dev/mediago",
+      "description": "Cross-platform video downloader — sniff and grab m3u8/HLS streams, Bilibili, YouTube and more. Desktop + Docker + 🦞.",
+      "homepage": "https://downloader.caorushizi.cn/guides.html?form=github",
+      "language": "TypeScript",
+      "topics": [
+        "bilibili",
+        "downloader",
+        "electron",
+        "hls",
+        "m3u8",
+        "m3u8-downloader",
+        "m3u8download",
+        "video",
+        "youtube"
+      ],
+      "stars": 9098,
+      "forks": 804,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-27T08:16:27Z",
+      "latest_release": {
+        "tag": "v3.5.0",
+        "url": "https://github.com/mediago-dev/mediago/releases/tag/v3.5.0",
+        "published_at": "2026-04-21T16:38:05Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: mediago-community-setup-darwin-arm64-3.5.0.dmg",
+          "Release: mediago-community-setup-darwin-x64-3.5.0.dmg"
+        ],
+        "windows": [
+          "Release: mediago-community-portable-win32-x64-3.5.0.exe",
+          "Release: mediago-community-setup-win32-x64-3.5.0.exe"
+        ]
+      },
+      "score": 487.87,
+      "rank": 65,
+      "description_en": "Cross-platform video downloader — sniff and grab m3u8/HLS streams, Bilibili, YouTube and more. Desktop + Docker + 🦞.",
+      "description_zh": "跨平台视频下载器，支持m3u8/HLS及主流视频网站。"
+    },
+    {
+      "name": "PixiEditor/PixiEditor",
+      "url": "https://github.com/PixiEditor/PixiEditor",
+      "description": "PixiEditor is a Universal Editor for all your 2D needs",
+      "homepage": "https://pixieditor.net",
+      "language": "C#",
+      "topics": [
+        "2d",
+        "avaloniaui",
+        "csharp",
+        "dotnet-core",
+        "dotnetcore",
+        "editor",
+        "game-development",
+        "graphics",
+        "graphics-editor",
+        "linux-desktop",
+        "painting",
+        "pixel-art",
+        "pixi",
+        "procedural-drawing",
+        "procedural-generation",
+        "raster-graphics",
+        "sprites",
+        "tabs",
+        "vector-graphics"
+      ],
+      "stars": 7909,
+      "forks": 325,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T12:32:20Z",
+      "latest_release": {
+        "tag": "2.1.2.1",
+        "url": "https://github.com/PixiEditor/PixiEditor/releases/tag/2.1.2.1",
+        "published_at": "2026-07-28T12:34:41Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: PixiEditor-2.1.2.1-universal-macos.dmg"
+        ],
+        "windows": [
+          "Release: PixiEditor-2.1.2.1-setup-x64-win.exe"
+        ]
+      },
+      "score": 486.5,
+      "rank": 66,
+      "description_en": "PixiEditor is a Universal Editor for all your 2D needs",
+      "description_zh": "通用2D图像编辑器。"
+    },
+    {
+      "name": "CyberTimon/RapidRAW",
+      "url": "https://github.com/CyberTimon/RapidRAW",
+      "description": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
+      "homepage": null,
+      "language": "TypeScript",
+      "topics": [
+        "color-grading",
+        "editing",
+        "image-processing",
+        "masks",
+        "raw",
+        "react",
+        "rust",
+        "tauri"
+      ],
+      "stars": 9006,
+      "forks": 465,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-26T16:36:11Z",
+      "latest_release": {
+        "tag": "v1.6.0",
+        "url": "https://github.com/CyberTimon/RapidRAW/releases/tag/v1.6.0",
+        "published_at": "2026-07-26T16:36:11Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: 02_RapidRAW_v1.6.0_macos-14_aarch64.dmg",
+          "Release: 02_RapidRAW_v1.6.0_macos-15-intel_x64.dmg"
+        ],
+        "windows": [
+          "Release: 01_RapidRAW_v1.6.0_windows-11-arm_arm64.exe",
+          "Release: 01_RapidRAW_v1.6.0_windows-11-arm_arm64.msi",
+          "Release: 01_RapidRAW_v1.6.0_windows_x64.exe"
+        ]
+      },
+      "score": 484.82,
+      "rank": 67,
+      "description_en": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
+      "description_zh": "高性能GPU加速的非破坏性RAW图像编辑器。"
+    },
+    {
+      "name": "massCodeIO/massCode",
+      "url": "https://github.com/massCodeIO/massCode",
+      "description": "A free, open-source developer workspace. Snippets, notes, HTTP requests, calculations, and dev tools in one local-first app.",
+      "homepage": "https://masscode.io",
+      "language": "TypeScript",
+      "topics": [
+        "api-client",
+        "code-snippets",
+        "developer-tools",
+        "electron",
+        "http-client",
+        "knowledge-base",
+        "linux",
+        "local-first",
+        "macos",
+        "markdown",
+        "note-taking",
+        "notes",
+        "productivity",
+        "snippets",
+        "snippets-manager",
+        "vue",
+        "windows"
+      ],
+      "stars": 6933,
+      "forks": 261,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T08:20:49Z",
+      "latest_release": {
+        "tag": "v5.9.1",
+        "url": "https://github.com/massCodeIO/massCode/releases/tag/v5.9.1",
+        "published_at": "2026-07-18T09:00:51Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: massCode-5.9.1-arm64.dmg",
+          "Release: massCode-5.9.1.dmg"
+        ],
+        "windows": [
+          "Release: massCode-5.9.1-x64-portable.exe",
+          "Release: massCode-5.9.1-x64.exe"
+        ]
+      },
+      "score": 484.09,
+      "rank": 68,
+      "description_en": "A free, open-source developer workspace. Snippets, notes, HTTP requests, calculations, and dev tools in one local-first app.",
+      "description_zh": "免费开源开发者工作空间，集成代码片段、笔记、HTTP请求和开发工具。"
+    },
+    {
+      "name": "rancher-sandbox/rancher-desktop",
+      "url": "https://github.com/rancher-sandbox/rancher-desktop",
+      "description": "Container Management and Kubernetes on the Desktop",
+      "homepage": "https://rancherdesktop.io",
+      "language": "TypeScript",
+      "topics": [
+        "containers",
+        "kubernetes",
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "stars": 7258,
+      "forks": 372,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T19:56:46Z",
+      "latest_release": {
+        "tag": "v1.23.1",
+        "url": "https://github.com/rancher-sandbox/rancher-desktop/releases/tag/v1.23.1",
+        "published_at": "2026-06-29T22:34:42Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Rancher.Desktop-1.23.1.aarch64.dmg",
+          "Release: Rancher.Desktop-1.23.1.x86_64.dmg"
+        ],
+        "windows": [
+          "Release: Rancher.Desktop.Setup.1.23.1.msi"
+        ]
+      },
+      "score": 484.01,
+      "rank": 69,
+      "description_en": "Container Management and Kubernetes on the Desktop",
+      "description_zh": "桌面容器管理和Kubernetes工具。"
+    },
+    {
+      "name": "open-pencil/open-pencil",
+      "url": "https://github.com/open-pencil/open-pencil",
+      "description": "AI-native design editor. Open-source Figma alternative.",
+      "homepage": "https://openpencil.dev",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "collaboration",
+        "design-editor",
+        "figma-alternative",
+        "open-source",
+        "skia",
+        "tauri",
+        "vue",
+        "webgpu"
+      ],
+      "stars": 7464,
+      "forks": 719,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T08:48:33Z",
+      "latest_release": {
+        "tag": "v0.13.2",
+        "url": "https://github.com/open-pencil/open-pencil/releases/tag/v0.13.2",
+        "published_at": "2026-05-30T18:21:01Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: OpenPencil_0.13.2_aarch64.dmg",
+          "Release: OpenPencil_0.13.2_x64.dmg"
+        ],
+        "windows": [
+          "Release: OpenPencil_0.13.2_arm64-setup.exe",
+          "Release: OpenPencil_0.13.2_arm64_en-US.msi",
+          "Release: OpenPencil_0.13.2_x64-setup.exe"
+        ]
+      },
+      "score": 483.37,
+      "rank": 70,
+      "description_en": "AI-native design editor. Open-source Figma alternative.",
+      "description_zh": "开源AI设计编辑器，Figma替代方案。"
+    },
+    {
+      "name": "4gray/iptvnator",
+      "url": "https://github.com/4gray/iptvnator",
+      "description": ":tv: Cross-platform IPTV player application with multiple features, such as support of m3u and m3u8 playlists, favorites, TV guide, TV archive/catchup and more.",
+      "homepage": "https://4gray.github.io/iptvnator/",
+      "language": "TypeScript",
+      "topics": [
+        "chromeos",
+        "electron",
+        "epg",
+        "fair-source",
+        "iptv",
+        "iptv-m3u",
+        "iptv-player",
+        "iptv-player-application",
+        "linux",
+        "m3u",
+        "m3u8",
+        "macos",
+        "player",
+        "player-video",
+        "playlist",
+        "pwa",
+        "snap",
+        "tv",
+        "video",
+        "xtream-codes"
+      ],
+      "stars": 6717,
+      "forks": 865,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:03:43Z",
+      "latest_release": {
+        "tag": "v0.22.0",
+        "url": "https://github.com/4gray/iptvnator/releases/tag/v0.22.0",
+        "published_at": "2026-07-05T14:33:38Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: iptvnator-0.22.0-mac-arm64.dmg",
+          "Release: iptvnator-0.22.0-mac-x64.dmg"
+        ],
+        "windows": [
+          "Release: iptvnator-0.22.0-windows-x64-setup.exe"
+        ]
+      },
+      "score": 482.5,
+      "rank": 71,
+      "description_en": ":tv: Cross-platform IPTV player application with multiple features, such as support of m3u and m3u8 playlists, favorites, TV guide, TV archive/catchup and more.",
+      "description_zh": "跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。"
+    },
+    {
+      "name": "raphamorim/rio",
+      "url": "https://github.com/raphamorim/rio",
+      "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
+      "homepage": "https://rioterm.com",
+      "language": "Rust",
+      "topics": [
+        "gpu-acceleration",
+        "metal",
+        "rio",
+        "rio-terminal",
+        "rust",
+        "rust-lang",
+        "terminal",
+        "terminal-emulator",
+        "terminal-emulators",
+        "terminal-ui",
+        "vte",
+        "vulkan",
+        "wgpu"
+      ],
+      "stars": 7087,
+      "forks": 310,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T15:12:57Z",
+      "latest_release": {
+        "tag": "v0.5.2",
+        "url": "https://github.com/raphamorim/rio/releases/tag/v0.5.2",
+        "published_at": "2026-07-28T08:52:03Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Canario-0.0.1.dmg",
+          "Release: rio.dmg"
+        ],
+        "windows": [
+          "Release: rio-installer-aarch64.msi",
+          "Release: rio-installer-x86_64.msi",
+          "Release: rio-portable-aarch64.exe"
+        ]
+      },
+      "score": 482.18,
+      "rank": 72,
+      "description_en": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
+      "description_zh": "硬件加速GPU终端模拟器，支持桌面和浏览器运行。"
+    },
+    {
+      "name": "ThinkInAIXYZ/deepchat",
+      "url": "https://github.com/ThinkInAIXYZ/deepchat",
+      "description": "🐬DeepChat - A smart assistant that connects powerful AI to your personal world",
+      "homepage": "https://deepchat.thinkinai.xyz/",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "ai",
+        "ai-assistant",
+        "ai-sdk",
+        "chatgpt",
+        "claude",
+        "cross-platform",
+        "deepseek",
+        "electron",
+        "gemini",
+        "harness-design",
+        "hermes-agent",
+        "llm-client",
+        "mcp",
+        "mcp-client",
+        "openai-client",
+        "openclaw"
+      ],
+      "stars": 6172,
+      "forks": 709,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T06:35:25Z",
+      "latest_release": {
+        "tag": "v1.0.9",
+        "url": "https://github.com/ThinkInAIXYZ/deepchat/releases/tag/v1.0.9",
+        "published_at": "2026-07-10T10:01:12Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: DeepChat-1.0.9-mac-arm64.dmg",
+          "Release: DeepChat-1.0.9-mac-x64.dmg"
+        ],
+        "windows": [
+          "Release: DeepChat-1.0.9-windows-arm64.exe",
+          "Release: DeepChat-1.0.9-windows-x64.exe"
+        ]
+      },
+      "score": 478.74,
+      "rank": 73,
+      "description_en": "🐬DeepChat - A smart assistant that connects powerful AI to your personal world",
+      "description_zh": "智能助手DeepChat，连接强大AI服务，助力个人应用。"
+    },
+    {
+      "name": "dbgate/dbgate",
+      "url": "https://github.com/dbgate/dbgate",
+      "description": "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application",
+      "homepage": "https://www.dbgate.io",
+      "language": "Svelte",
+      "topics": [
+        "cassandra",
+        "clickhouse",
+        "cockroachdb",
+        "cosmosdb",
+        "database-gui",
+        "database-manager",
+        "duckdb",
+        "electron",
+        "firebird",
+        "firestore",
+        "libsql",
+        "mariadb",
+        "mongodb",
+        "mysql",
+        "oracle",
+        "postgresql",
+        "redis",
+        "sql",
+        "sql-server",
+        "sqlite"
+      ],
+      "stars": 7175,
+      "forks": 443,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-27T12:56:02Z",
+      "latest_release": {
+        "tag": "v7.2.3",
+        "url": "https://github.com/dbgate/dbgate/releases/tag/v7.2.3",
+        "published_at": "2026-07-20T15:47:11Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: dbgate-7.2.3-mac_arm64.dmg",
+          "Release: dbgate-7.2.3-mac_universal.dmg",
+          "Release: dbgate-7.2.3-mac_x64.dmg"
+        ],
+        "windows": [
+          "Release: dbgate-7.2.3-win.exe",
+          "Release: dbgate-7.2.3-win_arm64.exe",
+          "Release: dbgate-7.2.3-win_x64.exe"
+        ]
+      },
+      "score": 478.34,
+      "rank": 74,
+      "description_en": "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application",
+      "description_zh": "支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。"
+    },
+    {
+      "name": "op7418/CodePilot",
+      "url": "https://github.com/op7418/CodePilot",
+      "description": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
+      "homepage": "https://www.codepilot.sh/",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "desktop-app",
+        "electron",
+        "gui",
+        "nextjs"
+      ],
+      "stars": 6227,
+      "forks": 673,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T14:27:47Z",
+      "latest_release": {
+        "tag": "v0.61.0",
+        "url": "https://github.com/op7418/CodePilot/releases/tag/v0.61.0",
+        "published_at": "2026-07-28T14:38:42Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: CodePilot-0.61.0-arm64.dmg",
+          "Release: CodePilot-0.61.0-x64.dmg"
+        ],
+        "windows": [
+          "Release: CodePilot.Setup.0.61.0.exe"
+        ]
+      },
+      "score": 476.44,
+      "rank": 75,
+      "description_en": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
+      "description_zh": "多模型AI代理桌面客户端，支持多AI服务和手机远程控制。"
+    },
+    {
+      "name": "netease-youdao/LobsterAI",
+      "url": "https://github.com/netease-youdao/LobsterAI",
+      "description": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone via WeChat, Feishu, DingTalk & Telegram.",
+      "homepage": "https://lobsterai.youdao.com",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "ai-assistant",
+        "automation",
+        "autonomous-agents",
+        "chatbot",
+        "copilot",
+        "cross-platform",
+        "desktop-app",
+        "electron",
+        "llm",
+        "mcp",
+        "office-automation",
+        "openclaw",
+        "productivity",
+        "react",
+        "tyepscript"
+      ],
+      "stars": 5715,
+      "forks": 899,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T08:01:21Z",
+      "latest_release": {
+        "tag": "2026.7.23",
+        "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.7.23",
+        "published_at": "2026-07-24T09:05:26Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: LobsterAI--mac-arm64.dmg",
+          "Release: LobsterAI--mac-x64.dmg"
+        ],
+        "windows": [
+          "Release: LobsterAI--win-x64.exe"
+        ]
+      },
+      "score": 475.64,
+      "rank": 76,
+      "description_en": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone via WeChat, Feishu, DingTalk & Telegram.",
+      "description_zh": "开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。"
+    },
+    {
+      "name": "HuLaSpark/HuLa",
+      "url": "https://github.com/HuLaSpark/HuLa",
+      "description": "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）",
+      "homepage": "https://hulaspark.com",
+      "language": "Vue",
+      "topics": [
+        "chatbot",
+        "cross-platform",
+        "cross-platform-app",
+        "macos",
+        "mobile",
+        "rust",
+        "tauri",
+        "tsx",
+        "vue3",
+        "webview",
+        "windows",
+        "windows-10",
+        "windows-11"
+      ],
+      "stars": 7463,
+      "forks": 1011,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-26T09:40:52Z",
+      "latest_release": {
+        "tag": "v3.0.9",
+        "url": "https://github.com/HuLaSpark/HuLa/releases/tag/v3.0.9",
+        "published_at": "2026-01-19T08:39:04Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: HuLa_3.0.9_aarch64.dmg",
+          "Release: HuLa_3.0.9_x64.dmg"
+        ],
+        "windows": [
+          "Release: HuLa_3.0.9_x64-setup.exe",
+          "Release: HuLa_3.0.9_x64_zh-CN.msi"
+        ]
+      },
+      "score": 475.51,
+      "rank": 77,
+      "description_en": "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）",
+      "description_zh": "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）"
+    },
+    {
+      "name": "reqable/reqable-app",
+      "url": "https://github.com/reqable/reqable-app",
+      "description": "Reqable issue track repo",
+      "homepage": "https://reqable.com",
+      "language": "未知",
+      "topics": [
+        "android-app",
+        "capture",
+        "debugging-tool",
+        "desktop-app",
+        "flutter",
+        "http",
+        "http2",
+        "http3",
+        "https",
+        "ios-app",
+        "quic",
+        "rest-api"
+      ],
+      "stars": 6571,
+      "forks": 255,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-27T17:32:30Z",
+      "latest_release": {
+        "tag": "3.2.16",
+        "url": "https://github.com/reqable/reqable-app/releases/tag/3.2.16",
+        "published_at": "2026-07-27T17:32:33Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: reqable-app-macos-arm64.dmg",
+          "Release: reqable-app-macos-x86_64.dmg"
+        ],
+        "windows": [
+          "Release: reqable-app-windows-x86_64.exe"
+        ]
+      },
+      "score": 475.29,
+      "rank": 78,
+      "description_en": "Reqable issue track repo",
+      "description_zh": "Reqable问题跟踪仓库。"
+    },
+    {
+      "name": "rullerzhou-afk/clawd-on-desk",
+      "url": "https://github.com/rullerzhou-afk/clawd-on-desk",
+      "description": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
+      "homepage": null,
+      "language": "JavaScript",
+      "topics": [
+        "claude-code",
+        "codex",
+        "copilot",
+        "cursor",
+        "desktop-pet",
+        "electron",
+        "gemini",
+        "pixel-art",
+        "svg-animation"
+      ],
+      "stars": 5695,
+      "forks": 578,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T06:35:27Z",
+      "latest_release": {
+        "tag": "v0.13.0",
+        "url": "https://github.com/rullerzhou-afk/clawd-on-desk/releases/tag/v0.13.0",
+        "published_at": "2026-07-22T10:59:34Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Clawd-on-Desk-0.13.0-arm64.dmg",
+          "Release: Clawd-on-Desk-0.13.0-x64.dmg"
+        ],
+        "windows": [
+          "Release: Clawd-on-Desk-Setup-0.13.0-arm64.exe",
+          "Release: Clawd-on-Desk-Setup-0.13.0-x64.exe"
+        ]
+      },
+      "score": 475.25,
+      "rank": 79,
+      "description_en": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
+      "description_zh": "像素风桌面宠物，监控多种AI编程助手。"
+    },
+    {
+      "name": "MoeKoeMusic/MoeKoeMusic",
+      "url": "https://github.com/MoeKoeMusic/MoeKoeMusic",
+      "description": "一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:",
+      "homepage": "https://Music.MoeKoe.cn",
+      "language": "Vue",
+      "topics": [
+        "electron",
+        "kugou",
+        "linux",
+        "macos",
+        "moekoe",
+        "music",
+        "vue3",
+        "windows"
+      ],
+      "stars": 6029,
+      "forks": 394,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T09:09:01Z",
+      "latest_release": {
+        "tag": "v1.6.9",
+        "url": "https://github.com/MoeKoeMusic/MoeKoeMusic/releases/tag/v1.6.9",
+        "published_at": "2026-07-21T02:46:57Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: MoeKoe_Music_v1.6.9-arm64.dmg",
+          "Release: MoeKoe_Music_v1.6.9-x64.dmg"
+        ],
+        "windows": [
+          "Release: MoeKoe_Music_Setup_v1.6.9-ia32.exe",
+          "Release: MoeKoe_Music_Setup_v1.6.9-x64.exe",
+          "Release: MoeKoe_Music_Setup_v1.6.9.exe"
+        ]
+      },
+      "score": 474.15,
+      "rank": 80,
+      "description_en": "一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:",
+      "description_zh": "一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:"
+    },
+    {
+      "name": "thewh1teagle/vibe",
+      "url": "https://github.com/thewh1teagle/vibe",
+      "description": "Transcribe on your own!",
+      "homepage": "https://thewh1teagle.github.io/vibe/",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "cross-platform",
+        "desktop",
+        "openai",
+        "rust",
+        "transcribe",
+        "whisper"
+      ],
+      "stars": 6941,
+      "forks": 472,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-26T16:05:31Z",
+      "latest_release": {
+        "tag": "v3.0.23",
+        "url": "https://github.com/thewh1teagle/vibe/releases/tag/v3.0.23",
+        "published_at": "2026-07-15T17:25:22Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: vibe_3.0.23_aarch64.dmg",
+          "Release: vibe_3.0.23_x64.dmg"
+        ],
+        "windows": [
+          "Release: vibe_3.0.23_x64-setup.exe"
+        ]
+      },
+      "score": 473.43,
+      "rank": 81,
+      "description_en": "Transcribe on your own!",
+      "description_zh": "支持本地转录的语音转文字工具。"
+    },
+    {
+      "name": "generalaction/emdash",
+      "url": "https://github.com/generalaction/emdash",
+      "description": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+      "homepage": "https://emdash.ai",
+      "language": "TypeScript",
+      "topics": [
+        "agenticdevelopment",
+        "agenticdevelopmentenvironment",
+        "ai",
+        "claude-code",
+        "cli",
+        "coding-agents",
+        "codingagents",
+        "containerization",
+        "docker",
+        "gitworktrees",
+        "jira",
+        "linear",
+        "llm",
+        "openai",
+        "opensource",
+        "orchestration",
+        "parallel-agents",
+        "parallelexecution",
+        "terminal"
+      ],
+      "stars": 5290,
+      "forks": 543,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T22:47:29Z",
+      "latest_release": {
+        "tag": "v1.1.40",
+        "url": "https://github.com/generalaction/emdash/releases/tag/v1.1.40",
+        "published_at": "2026-07-17T21:35:18Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: emdash-arm64.dmg",
+          "Release: emdash-x64.dmg"
+        ],
+        "windows": [
+          "Release: emdash-x64.exe",
+          "Release: emdash-x64.msi"
+        ]
+      },
+      "score": 470.75,
+      "rank": 82,
+      "description_en": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+      "description_zh": "开源多代理开发环境，支持并行运行多种编码代理。"
+    },
+    {
+      "name": "altair-graphql/altair",
+      "url": "https://github.com/altair-graphql/altair",
+      "description": "✨⚡️ A feature-rich GraphQL Client for all platforms.",
+      "homepage": "https://altairgraphql.dev",
+      "language": "TypeScript",
+      "topics": [
+        "altair",
+        "angular",
+        "chrome-extension",
+        "desktop-apps",
+        "electron",
+        "express-middleware",
+        "fragments",
+        "graphiql",
+        "graphql",
+        "graphql-client",
+        "graphql-editor",
+        "graphql-ide",
+        "graphql-server",
+        "graphql-subscriptions",
+        "hacktoberfest",
+        "ngrx",
+        "opensource"
+      ],
+      "stars": 5425,
+      "forks": 403,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T09:55:31Z",
+      "latest_release": {
+        "tag": "v8.5.7",
+        "url": "https://github.com/altair-graphql/altair/releases/tag/v8.5.7",
+        "published_at": "2026-06-06T09:15:30Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: altair_8.5.7_arm64_mac.dmg",
+          "Release: altair_8.5.7_x64_mac.dmg"
+        ],
+        "windows": [
+          "Release: altair_8.5.7_x64_win.exe"
+        ]
+      },
+      "score": 469.7,
+      "rank": 83,
+      "description_en": "✨⚡️ A feature-rich GraphQL Client for all platforms.",
+      "description_zh": "功能丰富的跨平台GraphQL客户端。"
+    },
+    {
+      "name": "OpenWhispr/openwhispr",
+      "url": "https://github.com/OpenWhispr/openwhispr",
+      "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+      "homepage": "https://openwhispr.com",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "anthropic",
+        "cross-platform",
+        "gemini",
+        "groq",
+        "linux",
+        "macos",
+        "nvidia",
+        "open-source",
+        "openai",
+        "parakeet",
+        "speech-to-text",
+        "transcribe",
+        "whisper",
+        "windows"
+      ],
+      "stars": 4954,
+      "forks": 710,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T06:44:07Z",
+      "latest_release": {
+        "tag": "v1.7.6",
+        "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.7.6",
+        "published_at": "2026-07-18T23:29:36Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: OpenWhispr-1.7.6-arm64.dmg",
+          "Release: OpenWhispr-1.7.6.dmg"
+        ],
+        "windows": [
+          "Release: OpenWhispr-1.7.6.exe",
+          "Release: OpenWhispr-Setup-1.7.6.exe"
+        ]
+      },
+      "score": 469.22,
+      "rank": 84,
+      "description_en": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+      "description_zh": "隐私优先的跨平台语音转文字应用，支持本地和云端模型。"
+    },
+    {
+      "name": "Splode/pomotroid",
+      "url": "https://github.com/Splode/pomotroid",
+      "description": ":tomato: Simple and visually-pleasing Pomodoro timer",
+      "homepage": "https://pomotroid.app",
+      "language": "Rust",
+      "topics": [
+        "pomodoro",
+        "pomodoro-technique",
+        "pomodoro-timer",
+        "productivity",
+        "rust",
+        "svelte",
+        "tauri",
+        "time-management"
+      ],
+      "stars": 5381,
+      "forks": 458,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T06:34:31Z",
+      "latest_release": {
+        "tag": "v1.7.1",
+        "url": "https://github.com/Splode/pomotroid/releases/tag/v1.7.1",
+        "published_at": "2026-05-11T16:59:27Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Pomotroid_1.7.1_universal.dmg"
+        ],
+        "windows": [
+          "Release: pomotroid.exe",
+          "Release: Pomotroid_1.7.1_x64-setup.exe"
+        ]
+      },
+      "score": 468.79,
+      "rank": 85,
+      "description_en": ":tomato: Simple and visually-pleasing Pomodoro timer",
+      "description_zh": "简洁美观的番茄钟计时器。"
+    },
+    {
+      "name": "IsmaelMartinez/teams-for-linux",
+      "url": "https://github.com/IsmaelMartinez/teams-for-linux",
+      "description": "Unofficial Microsoft Teams for Linux client",
+      "homepage": "https://ismaelmartinez.github.io/teams-for-linux/",
+      "language": "JavaScript",
+      "topics": [
+        "electron",
+        "linux",
+        "microsoft",
+        "teams"
+      ],
+      "stars": 4892,
+      "forks": 365,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T04:53:10Z",
+      "latest_release": {
+        "tag": "v2.13.0",
+        "url": "https://github.com/IsmaelMartinez/teams-for-linux/releases/tag/v2.13.0",
+        "published_at": "2026-06-26T06:37:57Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: teams-for-linux-2.13.0.dmg"
+        ],
+        "windows": [
+          "Release: teams-for-linux-Setup-2.13.0.exe"
+        ]
+      },
+      "score": 468.37,
+      "rank": 86,
+      "description_en": "Unofficial Microsoft Teams for Linux client",
+      "description_zh": "非官方Linux版微软Teams客户端。"
+    },
+    {
+      "name": "purocean/yn",
+      "url": "https://github.com/purocean/yn",
+      "description": "A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.",
+      "homepage": "https://yank-note.com",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "chatgpt",
+        "deepseek",
+        "drawio",
+        "editor",
+        "electron",
+        "gemini",
+        "koa2",
+        "markdown",
+        "markdown-editor",
+        "markdown-it",
+        "mermaid",
+        "monaco-editor",
+        "notebook",
+        "openai",
+        "opencode",
+        "plantuml",
+        "reveal-js",
+        "vscode",
+        "vue"
+      ],
+      "stars": 6669,
+      "forks": 926,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-25T10:13:33Z",
+      "latest_release": {
+        "tag": "v3.92.1",
+        "url": "https://github.com/purocean/yn/releases/tag/v3.92.1",
+        "published_at": "2026-07-12T03:12:34Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Yank-Note-mac-arm64-3.92.1.dmg",
+          "Release: Yank-Note-mac-x64-3.92.1.dmg"
+        ],
+        "windows": [
+          "Release: Yank-Note-win-x64-3.92.1.exe"
+        ]
+      },
+      "score": 466.71,
+      "rank": 87,
+      "description_en": "A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.",
+      "description_zh": "高度可扩展的Markdown编辑器，集成版本控制和AI助手。"
+    },
+    {
+      "name": "aandrew-me/ytDownloader",
+      "url": "https://github.com/aandrew-me/ytDownloader",
+      "description": "Desktop App for downloading Videos and Audios from hundreds of sites",
+      "homepage": "https://aandrew-me.github.io/ytDownloader-site/",
+      "language": "JavaScript",
+      "topics": [
+        "appimage",
+        "compressor",
+        "downloader",
+        "electron",
+        "ffmpeg",
+        "flatpak",
+        "javascript",
+        "linux",
+        "linux-app",
+        "macos",
+        "nodejs",
+        "snap",
+        "ubuntu",
+        "video",
+        "windows",
+        "youtube",
+        "youtube-dl",
+        "youtube-downloader",
+        "yt-dlp",
+        "ytdownloader"
+      ],
+      "stars": 10028,
+      "forks": 893,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-20T21:34:33Z",
+      "latest_release": {
+        "tag": "v3.22.0",
+        "url": "https://github.com/aandrew-me/ytDownloader/releases/tag/v3.22.0",
+        "published_at": "2026-07-17T16:18:07Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: YTDownloader_Mac_arm64.dmg",
+          "Release: YTDownloader_Mac_x64.dmg"
+        ],
+        "windows": [
+          "Release: YTDownloader_Win.exe",
+          "Release: YTDownloader_Win.msi"
+        ]
+      },
+      "score": 466.32,
+      "rank": 88,
+      "description_en": "Desktop App for downloading Videos and Audios from hundreds of sites",
+      "description_zh": "支持数百网站视频音频下载的桌面应用。"
+    },
+    {
+      "name": "JannisX11/blockbench",
+      "url": "https://github.com/JannisX11/blockbench",
+      "description": "Blockbench - A low poly 3D model editor",
+      "homepage": "https://www.blockbench.net",
+      "language": "JavaScript",
+      "topics": [
+        "3d",
+        "blockbench",
+        "electron",
+        "hytale",
+        "low-poly",
+        "minecraft",
+        "pixel-art"
+      ],
+      "stars": 5710,
+      "forks": 458,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-26T21:19:05Z",
+      "latest_release": {
+        "tag": "v5.1.6",
+        "url": "https://github.com/JannisX11/blockbench/releases/tag/v5.1.6",
+        "published_at": "2026-07-25T12:33:41Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Blockbench_arm64_5.1.6.dmg",
+          "Release: Blockbench_x64_5.1.6.dmg"
+        ],
+        "windows": [
+          "Release: Blockbench_5.1.6.exe",
+          "Release: Blockbench_5.1.6_portable.exe",
+          "Release: Blockbench_arm64_5.1.6.exe"
+        ]
+      },
+      "score": 465.82,
+      "rank": 89,
+      "description_en": "Blockbench - A low poly 3D model editor",
+      "description_zh": "低多边形3D模型编辑器。"
+    },
+    {
+      "name": "oliverschwendener/ueli",
+      "url": "https://github.com/oliverschwendener/ueli",
+      "description": "Cross-Platform Keystroke Launcher",
+      "homepage": "https://ueli.app",
+      "language": "TypeScript",
+      "topics": [
+        "electron",
+        "fluentui",
+        "keystroke",
+        "launcher",
+        "productivity",
+        "react",
+        "typescript"
+      ],
+      "stars": 4571,
+      "forks": 274,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T04:59:03Z",
+      "latest_release": {
+        "tag": "v9.29.0",
+        "url": "https://github.com/oliverschwendener/ueli/releases/tag/v9.29.0",
+        "published_at": "2026-06-22T06:18:51Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Ueli-9.29.0-arm64.dmg",
+          "Release: Ueli-9.29.0.dmg"
+        ],
+        "windows": [
+          "Release: Ueli-9.29.0.msi",
+          "Release: Ueli-Setup-9.29.0.exe"
+        ]
+      },
+      "score": 465.44,
+      "rank": 90,
+      "description_en": "Cross-Platform Keystroke Launcher",
+      "description_zh": "跨平台键盘快捷启动器。"
+    },
+    {
+      "name": "vercel/hyper",
+      "url": "https://github.com/vercel/hyper",
+      "description": "A terminal built on web technologies",
+      "homepage": "https://hyper.is",
+      "language": "TypeScript",
+      "topics": [
+        "css",
+        "html",
+        "hyper",
+        "javascript",
+        "linux",
+        "macos",
+        "react",
+        "terminal",
+        "terminal-emulators"
+      ],
+      "stars": 44673,
+      "forks": 3571,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-06-29T11:03:02Z",
+      "latest_release": {
+        "tag": "v3.4.1",
+        "url": "https://github.com/vercel/hyper/releases/tag/v3.4.1",
+        "published_at": "2023-01-08T00:56:10Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Hyper-3.4.1-mac-arm64.dmg",
+          "Release: Hyper-3.4.1-mac-x64.dmg"
+        ],
+        "windows": [
+          "Release: Hyper-Setup-3.4.1.exe"
+        ]
+      },
+      "score": 465.01,
+      "rank": 91,
+      "description_en": "A terminal built on web technologies",
+      "description_zh": "基于网页技术的终端模拟器。"
+    },
+    {
+      "name": "EcoPasteHub/EcoPaste",
+      "url": "https://github.com/EcoPasteHub/EcoPaste",
+      "description": "🎉跨平台的剪贴板管理工具 | Cross-platform clipboard management tool",
+      "homepage": "https://ecopaste.cn",
+      "language": "Rust",
+      "topics": [
+        "application",
+        "clipboard",
+        "clipboard-manager",
+        "cross-platform",
+        "desktop-app",
+        "desktop-application",
+        "linux",
+        "macos",
+        "rust",
+        "tauri",
+        "tauri-app",
+        "windows"
+      ],
+      "stars": 7252,
+      "forks": 361,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-24T00:39:46Z",
+      "latest_release": {
+        "tag": "v1.1.0",
+        "url": "https://github.com/EcoPasteHub/EcoPaste/releases/tag/v1.1.0",
+        "published_at": "2026-07-22T03:23:25Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: EcoPaste_1.1.0_aarch64.dmg",
+          "Release: EcoPaste_1.1.0_x64.dmg"
+        ],
+        "windows": [
+          "Release: EcoPaste_1.1.0_arm64-setup.exe",
+          "Release: EcoPaste_1.1.0_x64-setup.exe"
+        ]
+      },
+      "score": 464.76,
+      "rank": 92,
+      "description_en": "🎉跨平台的剪贴板管理工具 | Cross-platform clipboard management tool",
+      "description_zh": "🎉跨平台的剪贴板管理工具"
+    },
+    {
+      "name": "domcyrus/rustnet",
+      "url": "https://github.com/domcyrus/rustnet",
+      "description": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
+      "homepage": "https://github.com/domcyrus/rustnet#quick-start",
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "dpi",
+        "ebpf",
+        "freebsd",
+        "geoip",
+        "landlock",
+        "linux",
+        "macos",
+        "netstat-alternative",
+        "network-monitoring",
+        "packet-capture",
+        "process-monitoring",
+        "ratatui",
+        "rust",
+        "seatbelt",
+        "tui",
+        "windows"
+      ],
+      "stars": 4807,
+      "forks": 223,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T11:15:23Z",
+      "latest_release": {
+        "tag": "v1.5.0",
+        "url": "https://github.com/domcyrus/rustnet/releases/tag/v1.5.0",
+        "published_at": "2026-07-21T18:07:10Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Rustnet_macOS_AppleSilicon.dmg",
+          "Release: Rustnet_macOS_Intel.dmg"
+        ],
+        "windows": [
+          "Release: Rustnet_Windows_32-bit.msi",
+          "Release: Rustnet_Windows_64-bit.msi"
+        ]
+      },
+      "score": 464.67,
+      "rank": 93,
+      "description_en": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
+      "description_zh": "支持深度包检测的跨平台终端网络监控工具。"
+    },
+    {
+      "name": "caamer20/Telegram-Drive",
+      "url": "https://github.com/caamer20/Telegram-Drive",
+      "description": "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.",
+      "homepage": "https://www.cameronamer.com",
+      "language": "TypeScript",
+      "topics": [
+        "open-source",
+        "react",
+        "rust",
+        "tauri",
+        "telegram",
+        "telegramapi",
+        "typescript"
+      ],
+      "stars": 4538,
+      "forks": 676,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T23:06:53Z",
+      "latest_release": {
+        "tag": "v2.1.0",
+        "url": "https://github.com/caamer20/Telegram-Drive/releases/tag/v2.1.0",
+        "published_at": "2026-07-28T23:24:26Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Telegram.Drive_2.1.0_aarch64.dmg",
+          "Release: Telegram.Drive_2.1.0_x64.dmg"
+        ],
+        "windows": [
+          "Release: Telegram.Drive_2.1.0_x64-setup.exe",
+          "Release: Telegram.Drive_2.1.0_x64_en-US.msi"
+        ]
+      },
+      "score": 464.14,
+      "rank": 94,
+      "description_en": "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.",
+      "description_zh": "将Telegram账号变成无限安全云存储的开源桌面应用。"
+    },
+    {
+      "name": "Sylinko/Everywhere",
+      "url": "https://github.com/Sylinko/Everywhere",
+      "description": "On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.",
+      "homepage": "https://everywhere.sylinko.com",
+      "language": "C#",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-assistant",
+        "avalonia",
+        "claude",
+        "deepseek",
+        "desktop-app",
+        "flow-state",
+        "gemini",
+        "hermes-agent",
+        "mcp",
+        "on-screen-awareness",
+        "openai",
+        "openclaw",
+        "personal",
+        "skills"
+      ],
+      "stars": 6196,
+      "forks": 385,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-25T13:20:11Z",
+      "latest_release": {
+        "tag": "v0.8.0",
+        "url": "https://github.com/Sylinko/Everywhere/releases/tag/v0.8.0",
+        "published_at": "2026-06-19T05:23:23Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Everywhere-macOS-arm64-v0.8.0.pkg",
+          "Release: Everywhere-macOS-x64-v0.8.0.pkg"
+        ],
+        "windows": [
+          "Release: Everywhere-Windows-x64-Setup-v0.8.0.exe"
+        ]
+      },
+      "score": 464.04,
+      "rank": 95,
+      "description_en": "On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.",
+      "description_zh": "基于当前应用上下文的桌面AI助手，支持多模型和工具。"
+    },
+    {
+      "name": "binaricat/Netcatty",
+      "url": "https://github.com/binaricat/Netcatty",
+      "description": "SSH workspace, SFTP, and terminals in one",
+      "homepage": "https://netcatty.app",
+      "language": "TypeScript",
+      "topics": [
+        "electron",
+        "electron-app",
+        "radix-ui",
+        "react",
+        "sftp-client",
+        "ssh",
+        "ssh-client",
+        "terminal",
+        "terminal-emulator",
+        "xterm"
+      ],
+      "stars": 4324,
+      "forks": 387,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T07:02:55Z",
+      "latest_release": {
+        "tag": "v1.1.73",
+        "url": "https://github.com/binaricat/Netcatty/releases/tag/v1.1.73",
+        "published_at": "2026-07-26T16:40:27Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Netcatty-1.1.73-mac-arm64.dmg",
+          "Release: Netcatty-1.1.73-mac-x64.dmg"
+        ],
+        "windows": [
+          "Release: Netcatty-1.1.73-portable-win-arm64.exe",
+          "Release: Netcatty-1.1.73-portable-win-x64.exe",
+          "Release: Netcatty-1.1.73-portable-win.exe"
+        ]
+      },
+      "score": 463.37,
+      "rank": 96,
+      "description_en": "SSH workspace, SFTP, and terminals in one",
+      "description_zh": "集成SSH、SFTP和终端的工作空间工具。"
+    },
+    {
+      "name": "graphif/project-graph",
+      "url": "https://github.com/graphif/project-graph",
+      "description": "A node-based visual tool for organizing thoughts and notes in a non-linear way.",
+      "homepage": "https://graphif.dev",
+      "language": "TypeScript",
+      "topics": [
+        "canvas",
+        "canvas2d",
+        "canvasjs",
+        "cross-platform",
+        "graph-algorithms",
+        "project-graph",
+        "reactjs",
+        "reactjs-project",
+        "tailwind",
+        "tailwind-css",
+        "tauri-app",
+        "vite",
+        "vitejs"
+      ],
+      "stars": 4245,
+      "forks": 273,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T02:27:50Z",
+      "latest_release": {
+        "tag": "v4.1.1",
+        "url": "https://github.com/graphif/project-graph/releases/tag/v4.1.1",
+        "published_at": "2026-07-26T18:24:57Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Project.Graph_4.1.1_universal.dmg"
+        ],
+        "windows": [
+          "Release: Project.Graph_4.1.1_x64-setup-gpu.exe"
+        ]
+      },
+      "score": 461.8,
+      "rank": 97,
+      "description_en": "A node-based visual tool for organizing thoughts and notes in a non-linear way.",
+      "description_zh": "是一个基于节点的非线性思维和笔记可视化工具。"
+    },
+    {
+      "name": "doublecmd/doublecmd",
+      "url": "https://github.com/doublecmd/doublecmd",
+      "description": "Double Commander is a free cross platform open source file manager with two panels side by side.",
+      "homepage": "https://doublecmd.sourceforge.io",
+      "language": "Pascal",
+      "topics": [
+        "cross-platform",
+        "double-commander",
+        "file-manager"
+      ],
+      "stars": 4356,
+      "forks": 328,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T09:47:48Z",
+      "latest_release": {
+        "tag": "v1.2.7",
+        "url": "https://github.com/doublecmd/doublecmd/releases/tag/v1.2.7",
+        "published_at": "2026-07-19T15:40:30Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: doublecmd-1.2.7.cocoa.aarch64.dmg",
+          "Release: doublecmd-1.2.7.cocoa.x86_64.dmg"
+        ],
+        "windows": [
+          "Release: doublecmd-1.2.7.i386-win32.exe",
+          "Release: doublecmd-1.2.7.i386-win32.msi",
+          "Release: doublecmd-1.2.7.x86_64-win64.exe"
+        ]
+      },
+      "score": 460.15,
+      "rank": 98,
+      "description_en": "Double Commander is a free cross platform open source file manager with two panels side by side.",
+      "description_zh": "Double Commander是一个免费开源的跨平台双面板文件管理器。"
+    },
+    {
+      "name": "TabularisDB/tabularis",
+      "url": "https://github.com/TabularisDB/tabularis",
+      "description": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
+      "homepage": "https://tabularis.dev",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "ai-assistant",
+        "cross-platform",
+        "database-client",
+        "database-gui",
+        "database-tool",
+        "er-diagram",
+        "mariadb",
+        "mcp",
+        "mcp-server",
+        "mysql",
+        "postgresql",
+        "rust",
+        "sql",
+        "sql-editor",
+        "sql-notebook",
+        "sqlite",
+        "tauri",
+        "typescript",
+        "visual-query-builder"
+      ],
+      "stars": 3953,
+      "forks": 266,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T08:20:51Z",
+      "latest_release": {
+        "tag": "v0.17.0",
+        "url": "https://github.com/TabularisDB/tabularis/releases/tag/v0.17.0",
+        "published_at": "2026-07-27T20:11:08Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: tabularis_0.17.0_aarch64.dmg",
+          "Release: tabularis_0.17.0_x64.dmg"
+        ],
+        "windows": [
+          "Release: tabularis_0.17.0_x64-portable.exe",
+          "Release: tabularis_0.17.0_x64-setup.exe",
+          "Release: tabularis_0.17.0_x64_en-US.msi"
+        ]
+      },
+      "score": 459.69,
+      "rank": 99,
+      "description_en": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
+      "description_zh": "支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。"
+    },
+    {
+      "name": "kunkundi/crossdesk",
+      "url": "https://github.com/kunkundi/crossdesk",
+      "description": "A lightweight, cross-platform remote desktop software with support for Web Client access | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
+      "homepage": "https://www.crossdesk.cn",
+      "language": "C++",
+      "topics": [
+        "audio-streaming",
+        "codec",
+        "cplusplus",
+        "cross-platform",
+        "imgui",
+        "kcp",
+        "libdatachannel",
+        "remote-control",
+        "remote-desktop",
+        "rtc",
+        "rtp",
+        "sdl3",
+        "video-streaming",
+        "web-client",
+        "webrtc",
+        "xmake"
+      ],
+      "stars": 4217,
+      "forks": 399,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T14:15:05Z",
+      "latest_release": {
+        "tag": "v1.4.1-20260728",
+        "url": "https://github.com/kunkundi/crossdesk/releases/tag/v1.4.1-20260728",
+        "published_at": "2026-07-28T14:15:04Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: crossdesk-macos-arm64-v1.4.1-20260728.pkg",
+          "Release: crossdesk-macos-x64-v1.4.1-20260728.pkg"
+        ],
+        "windows": [
+          "Release: crossdesk-win-x64-v1.4.1-20260728.exe"
+        ]
+      },
+      "score": 459.48,
+      "rank": 100,
+      "description_en": "A lightweight, cross-platform remote desktop software with support for Web Client access | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
+      "description_zh": "一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。"
     }
   ]
 }

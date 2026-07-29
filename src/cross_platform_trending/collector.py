@@ -17,7 +17,7 @@ from urllib.request import Request, urlopen
 
 GITHUB_API = "https://api.github.com"
 TRENDING_URL = "https://github.com/trending?since=daily"
-USER_AGENT = "github-cross-platform-trending/0.1"
+USER_AGENT = "github-cross-platform-trending/0.3"
 
 SEARCH_QUERIES = (
     "topic:desktop-app archived:false stars:>=100 pushed:>={recent}",
@@ -25,6 +25,15 @@ SEARCH_QUERIES = (
     "topic:macos topic:windows archived:false stars:>=20 pushed:>={recent}",
     "topic:electron archived:false stars:>=200 pushed:>={recent}",
     "topic:tauri archived:false stars:>=100 pushed:>={recent}",
+    "topic:cli archived:false stars:>=500 pushed:>={recent}",
+    "topic:terminal archived:false stars:>=500 pushed:>={recent}",
+    "topic:productivity archived:false stars:>=500 pushed:>={recent}",
+    "topic:note-taking archived:false stars:>=100 pushed:>={recent}",
+    "topic:music-player archived:false stars:>=100 pushed:>={recent}",
+    "topic:download-manager archived:false stars:>=100 pushed:>={recent}",
+    "topic:editor archived:false stars:>=500 pushed:>={recent}",
+    "topic:developer-tools archived:false stars:>=500 pushed:>={recent}",
+    "topic:remote-desktop archived:false stars:>=100 pushed:>={recent}",
 )
 
 APP_TOPICS = {
@@ -62,24 +71,6 @@ EXCLUDED_TOPICS = {
     "template",
     "tutorial",
 }
-
-MAC_PATTERNS = (
-    (r"\bmacos\b", "README: macOS"),
-    (r"\bmac\s+os\b", "README: Mac OS"),
-    (r"\bos\s+x\b", "README: OS X"),
-    (r"\.dmg\b", "README: DMG 安装包"),
-    (r"\.pkg\b", "README: PKG 安装包"),
-    (r"\bhomebrew\b|\bbrew install\b", "README: Homebrew"),
-)
-
-WINDOWS_PATTERNS = (
-    (r"\bwindows\b", "README: Windows"),
-    (r"\.exe\b", "README: EXE 安装包"),
-    (r"\.msi(?:x)?\b", "README: MSI/MSIX 安装包"),
-    (r"\bwinget\b", "README: WinGet"),
-    (r"\bchocolatey\b|\bchoco install\b", "README: Chocolatey"),
-    (r"\bscoop install\b", "README: Scoop"),
-)
 
 SOFTWARE_PATTERN = re.compile(
     r"\b(app|application|assistant|client|companion|desktop|editor|ide|"
@@ -144,30 +135,19 @@ class GitHubClient:
         )
         return json.loads(body) if body else None
 
-    def get_text(self, url: str, *, raw_github: bool = False) -> str:
-        accept = (
-            "application/vnd.github.raw+json"
-            if raw_github
-            else "text/html,application/xhtml+xml"
-        )
-        body = self._request(url, accept)
+    def get_text(self, url: str) -> str:
+        body = self._request(url, "text/html,application/xhtml+xml")
         return body.decode("utf-8", errors="replace") if body else ""
 
     def repository(self, full_name: str) -> dict[str, Any] | None:
         return self.get_json(f"/repos/{quote(full_name, safe='/')}")
-
-    def readme(self, full_name: str) -> str:
-        return self.get_text(
-            f"{GITHUB_API}/repos/{quote(full_name, safe='/')}/readme",
-            raw_github=True,
-        )
 
     def latest_release(self, full_name: str) -> dict[str, Any] | None:
         return self.get_json(
             f"/repos/{quote(full_name, safe='/')}/releases/latest"
         )
 
-    def search(self, query: str, per_page: int = 20) -> list[dict[str, Any]]:
+    def search(self, query: str, per_page: int = 100) -> list[dict[str, Any]]:
         result = self.get_json(
             "/search/repositories",
             {
@@ -213,37 +193,33 @@ def parse_trending(html: str) -> list[tuple[str, int]]:
     return repositories
 
 
-def _match_evidence(text: str, patterns: tuple[tuple[str, str], ...]) -> list[str]:
-    return [label for pattern, label in patterns if re.search(pattern, text, re.I)]
-
-
 def _release_evidence(release: dict[str, Any] | None) -> tuple[list[str], list[str]]:
     macos: list[str] = []
     windows: list[str] = []
     for asset in (release or {}).get("assets", []):
         name = str(asset.get("name", ""))
         lower = name.lower()
-        if re.search(r"(macos|darwin|osx|\.dmg$|\.pkg$)", lower):
+        is_macos_pkg = lower.endswith(".pkg") and bool(
+            re.search(
+                r"(?:^|[-_.])(?:mac(?:os)?|osx|darwin|apple)(?:[-_.]|$)",
+                lower,
+            )
+        )
+        if lower.endswith(".dmg") or is_macos_pkg:
             macos.append(f"Release: {name}")
-        if re.search(r"(windows|win32|win64|\.exe$|\.msi$|\.msix$)", lower):
+        if re.search(r"\.(?:exe|msi|msix)$", lower):
             windows.append(f"Release: {name}")
     return macos[:3], windows[:3]
 
 
 def classify_repository(
     repository: dict[str, Any],
-    readme: str,
     release: dict[str, Any] | None,
-    *,
-    is_trending: bool,
 ) -> tuple[bool, list[str], list[str]]:
     """判断仓库是否是同时支持 macOS 与 Windows 的软件。"""
-    searchable = readme[:250_000]
-    macos = _match_evidence(searchable, MAC_PATTERNS)
-    windows = _match_evidence(searchable, WINDOWS_PATTERNS)
     release_macos, release_windows = _release_evidence(release)
-    macos = (release_macos + macos)[:5]
-    windows = (release_windows + windows)[:5]
+    macos = release_macos[:5]
+    windows = release_windows[:5]
     if not macos or not windows:
         return False, macos, windows
 
@@ -262,11 +238,7 @@ def classify_repository(
     )
     positive = bool(topics & APP_TOPICS) or bool(SOFTWARE_PATTERN.search(description))
 
-    accepted = (
-        not excluded
-        and positive
-        and (has_release_pair or is_trending or bool(topics))
-    )
+    accepted = has_release_pair and not excluded and positive
     return accepted, macos, windows
 
 
@@ -295,13 +267,13 @@ def _analyze_candidate(
 ) -> dict[str, Any] | None:
     repository = candidate.repository
     full_name = str(repository["full_name"])
-    readme = client.readme(full_name)
     release = client.latest_release(full_name)
+    release_macos, release_windows = _release_evidence(release)
+    if not release_macos or not release_windows:
+        return None
     accepted, macos, windows = classify_repository(
         repository,
-        readme,
         release,
-        is_trending=candidate.trending_rank is not None,
     )
     if not accepted:
         return None
@@ -336,7 +308,7 @@ def discover_candidates(
     client: GitHubClient,
     *,
     recent_days: int = 30,
-    search_per_query: int = 20,
+    search_per_query: int = 100,
 ) -> tuple[list[Candidate], list[str]]:
     warnings: list[str] = []
     candidates: dict[str, Candidate] = {}
@@ -381,29 +353,36 @@ def discover_candidates(
 def collect(
     client: GitHubClient,
     *,
-    limit: int = 20,
-    max_candidates: int = 100,
+    limit: int = 100,
+    max_candidates: int = 1000,
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     candidates, warnings = discover_candidates(client)
     candidates.sort(key=_candidate_score, reverse=True)
     candidates = candidates[:max_candidates]
 
     software: list[dict[str, Any]] = []
-    with ThreadPoolExecutor(max_workers=8) as executor:
-        future_map = {
-            executor.submit(_analyze_candidate, client, candidate): candidate
-            for candidate in candidates
-        }
-        for future in as_completed(future_map):
-            candidate = future_map[future]
-            try:
-                result = future.result()
-                if result:
-                    software.append(result)
-            except RuntimeError as error:
-                warnings.append(
-                    f"{candidate.repository.get('full_name')} 分析失败：{error}"
-                )
+    analyzed_count = 0
+    batch_size = max(100, min(200, limit * 2))
+    for offset in range(0, len(candidates), batch_size):
+        batch = candidates[offset : offset + batch_size]
+        analyzed_count += len(batch)
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            future_map = {
+                executor.submit(_analyze_candidate, client, candidate): candidate
+                for candidate in batch
+            }
+            for future in as_completed(future_map):
+                candidate = future_map[future]
+                try:
+                    result = future.result()
+                    if result:
+                        software.append(result)
+                except RuntimeError as error:
+                    warnings.append(
+                        f"{candidate.repository.get('full_name')} 分析失败：{error}"
+                    )
+        if len(software) >= limit:
+            break
 
     software.sort(key=lambda item: (-float(item["score"]), item["name"].lower()))
     software = software[:limit]
@@ -411,7 +390,8 @@ def collect(
         item["rank"] = rank
 
     metadata = {
-        "candidate_count": len(candidates),
+        "candidate_count": analyzed_count,
+        "discovered_count": len(candidates),
         "matched_count": len(software),
         "warnings": warnings,
     }

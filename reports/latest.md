@@ -1,33 +1,114 @@
 # GitHub 跨平台热门软件日报 · 2026-07-29
 
-> 自动筛选同时支持 macOS 与 Windows 的 GitHub 热门软件。平台支持需有 README 或 Release 安装包证据。
+> 自动筛选同时提供 macOS 与 Windows 安装包的 GitHub 热门软件。Latest Release 必须同时包含两端安装包。
 
-- 生成时间：2026-07-29T15:51:32+08:00
-- 候选仓库：80 个
-- 入榜软件：20 个
+- 生成时间：2026-07-29T16:24:09+08:00
+- 发现候选：1000 个
+- 已分析候选：600 个
+- 入榜软件：100 个
 
 | # | 软件 | 热度 | Stars | 主要语言 | 平台证据 |
 |---:|---|---|---:|---|---|
-| 1 | [moeru-ai/airi](https://github.com/moeru-ai/airi)<br>中文简介：支持实时语音聊天和游戏的自托管智能伴侣。 | Daily Trending #3，今日 +797 Stars | 45,023 | TypeScript | macOS：Release: AIRI-0.11.3-darwin-arm64.dmg、Release: AIRI-0.11.3-darwin-x64.dmg；Windows：Release: AIRI-0.11.3-windows-x64-setup.exe、README: Windows |
-| 2 | [affaan-m/ECC](https://github.com/affaan-m/ECC)<br>中文简介：面向多平台的性能优化智能代理系统。 | Daily Trending #5，今日 +636 Stars | 235,108 | JavaScript | macOS：README: macOS；Windows：README: Windows |
-| 3 | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)<br>中文简介：轻量级云原生地理信息系统平台。 | Daily Trending #9，今日 +607 Stars | 3,603 | TypeScript | macOS：Release: geolibre-desktop_darwin_aarch64、Release: geolibre-desktop_darwin_x64；Windows：Release: geolibre-desktop-2.4.0-x64.msix、Release: geolibre-desktop_windows_x64.exe |
-| 4 | [yorukot/superfile](https://github.com/yorukot/superfile)<br>中文简介：现代化终端文件管理器。 | Daily Trending #12，今日 +662 Stars | 21,684 | Go | macOS：Release: superfile-darwin-v1.6.0-amd64.tar.gz、Release: superfile-darwin-v1.6.0-arm64.tar.gz；Windows：Release: superfile-windows-v1.6.0-amd64.zip、Release: superfile-windows-v1.6.0-arm64.zip |
-| 5 | [microsoft/vscode](https://github.com/microsoft/vscode)<br>中文简介：微软出品的跨平台代码编辑器。 | 近期活跃热门仓库 | 187,979 | TypeScript | macOS：README: macOS；Windows：README: Windows |
-| 6 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch)<br>中文简介：支持多智能代理的一体化跨平台桌面助手。 | 近期活跃热门仓库 | 122,125 | Rust | macOS：Release: CC-Switch-v3.18.0-macOS.dmg、Release: CC-Switch-v3.18.0-macOS.tar.gz；Windows：Release: CC-Switch-v3.18.0-Windows-arm64-Portable.zip、Release: CC-Switch-v3.18.0-Windows-arm64.msi |
-| 7 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)<br>中文简介：开源自托管远程桌面替代方案。 | 近期活跃热门仓库 | 119,138 | Rust | macOS：Release: rustdesk-1.4.9-aarch64.dmg、Release: rustdesk-1.4.9-x86_64.dmg；Windows：Release: rustdesk-1.4.9-aarch64.exe、Release: rustdesk-1.4.9-aarch64.msi |
-| 8 | [nexu-io/open-design](https://github.com/nexu-io/open-design)<br>中文简介：本地优先的开源设计工具，支持多种导出格式。 | 近期活跃热门仓库 | 82,371 | TypeScript | macOS：Release: open-design-0.16.1-mac-arm64.dmg、Release: open-design-0.16.1-mac-x64.dmg；Windows：Release: open-design-0.16.1-win-x64-setup.exe、README: Windows |
-| 9 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)<br>中文简介：隐私优先的开源下一代知识库平台。 | 近期活跃热门仓库 | 70,891 | TypeScript | macOS：Release: affine-0.27.3-stable-macos-arm64.dmg、Release: affine-0.27.3-stable-macos-arm64.zip；Windows：Release: affine-0.27.3-stable-windows-arm64.exe、Release: affine-0.27.3-stable-windows-arm64.nsis.exe |
-| 10 | [laurent22/joplin](https://github.com/laurent22/joplin)<br>中文简介：支持多平台同步的隐私笔记应用。 | 近期活跃热门仓库 | 55,765 | TypeScript | macOS：Release: Joplin-3.6.15-arm64.DMG、Release: Joplin-3.6.15-arm64.pkg；Windows：Release: Joplin-Setup-3.6.15.exe、Release: JoplinPortable.exe |
-| 11 | [WerWolv/ImHex](https://github.com/WerWolv/ImHex)<br>中文简介：适合逆向工程师的十六进制编辑器。 | 近期活跃热门仓库 | 54,314 | C++ | macOS：Release: imhex-1.38.1-macOS-arm64.dmg、Release: imhex-1.38.1-macOS-NoGPU-x86_64.dmg；Windows：Release: imhex-1.38.1-Windows-arm64.msi、Release: imhex-1.38.1-Windows-Portable-arm64.zip |
-| 12 | [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)<br>中文简介：跨平台的命令行自动化工具。 | 近期活跃热门仓库 | 54,581 | C# | macOS：Release: powershell-7.6.4-osx-arm64.pkg、Release: powershell-7.6.4-osx-arm64.tar.gz；Windows：Release: PowerShell-7.6.4-win-arm64.msi、Release: PowerShell-7.6.4-win-x64.msi |
-| 13 | [marktext/marktext](https://github.com/marktext/marktext)<br>中文简介：简洁优雅的跨平台Markdown编辑器。 | 近期活跃热门仓库 | 59,271 | TypeScript | macOS：Release: marktext-mac-arm64-0.19.1.dmg、Release: marktext-mac-x64-0.19.1.dmg；Windows：Release: marktext-win-arm64-0.19.1-setup.exe、Release: marktext-win-x64-0.19.1-setup.exe |
-| 14 | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)<br>中文简介：自托管的开源个人知识管理软件。 | 近期活跃热门仓库 | 45,473 | TypeScript | macOS：Release: siyuan-3.7.3-mac-arm64.dmg、Release: siyuan-3.7.3-mac.dmg；Windows：Release: siyuan-3.7.3-win-arm64.exe、Release: siyuan-3.7.3-win.exe |
-| 15 | [tw93/Pake](https://github.com/tw93/Pake)<br>中文简介：一键将网页转换为桌面应用。 | 近期活跃热门仓库 | 60,298 | Rust | macOS：Release: ChatGPT.dmg、Release: DeepSeek.dmg；Windows：Release: ChatGPT_x64.msi、Release: DeepSeek_x64.msi |
-| 16 | [janhq/jan](https://github.com/janhq/jan)<br>中文简介：完全离线运行的开源ChatGPT替代品。 | 近期活跃热门仓库 | 43,752 | TypeScript | macOS：Release: Jan_0.8.4_universal.dmg、README: macOS；Windows：Release: Jan_0.8.4_x64-setup.exe、README: Windows |
-| 17 | [sxyazi/yazi](https://github.com/sxyazi/yazi)<br>中文简介：基于异步I/O的极速终端文件管理器。 | 近期活跃热门仓库 | 40,861 | Rust | macOS：Release: yazi-aarch64-apple-darwin.zip、Release: yazi-x86_64-apple-darwin.zip；Windows：Release: yazi-aarch64-pc-windows-msvc.zip、Release: yazi-x86_64-pc-windows-msvc.zip |
-| 18 | [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium)<br>中文简介：构建个人知识库的笔记软件。 | 近期活跃热门仓库 | 37,110 | TypeScript | macOS：Release: TriliumNotes-v0.104.1-macos-arm64.dmg、Release: TriliumNotes-v0.104.1-macos-arm64.zip；Windows：Release: TriliumNotes-v0.104.1-windows-arm64.exe、Release: TriliumNotes-v0.104.1-windows-arm64.zip |
-| 19 | [agalwood/Motrix](https://github.com/agalwood/Motrix)<br>中文简介：功能完善的下载管理器。 | 近期活跃热门仓库 | 52,339 | JavaScript | macOS：Release: Motrix-1.8.19-arm64.dmg、Release: Motrix-1.8.19-universal.dmg；Windows：Release: Motrix-1.8.19-ia32.exe、Release: Motrix-1.8.19-x64.exe |
-| 20 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube)<br>中文简介：开源跨平台音乐流媒体应用。 | 近期活跃热门仓库 | 47,975 | Dart | macOS：Release: Spotube-macos-universal.dmg、Release: Spotube-macos-universal.pkg；Windows：Release: Spotube-windows-x86_64-setup.exe、Release: Spotube-windows-x86_64.nupkg |
+| 1 | [moeru-ai/airi](https://github.com/moeru-ai/airi)<br>中文简介：支持实时语音聊天和游戏的自托管智能伴侣。 | Daily Trending #3，今日 +797 Stars | 45,039 | TypeScript | macOS 安装包：Release: AIRI-0.11.3-darwin-arm64.dmg、Release: AIRI-0.11.3-darwin-x64.dmg；Windows 安装包：Release: AIRI-0.11.3-windows-x64-setup.exe |
+| 2 | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)<br>中文简介：轻量级云原生地理信息系统平台。 | Daily Trending #8，今日 +607 Stars | 3,618 | TypeScript | macOS 安装包：Release: GeoLibre.Desktop_2.4.0_aarch64.dmg、Release: GeoLibre.Desktop_2.4.0_x64.dmg；Windows 安装包：Release: geolibre-desktop-2.4.0-x64.msix、Release: geolibre-desktop_windows_x64.exe |
+| 3 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch)<br>中文简介：支持多智能代理的一体化跨平台桌面助手。 | 近期活跃热门仓库 | 122,139 | Rust | macOS 安装包：Release: CC-Switch-v3.18.0-macOS.dmg；Windows 安装包：Release: CC-Switch-v3.18.0-Windows-arm64.msi、Release: CC-Switch-v3.18.0-Windows.msi |
+| 4 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)<br>中文简介：开源自托管远程桌面替代方案。 | 近期活跃热门仓库 | 119,142 | Rust | macOS 安装包：Release: rustdesk-1.4.9-aarch64.dmg、Release: rustdesk-1.4.9-x86_64.dmg；Windows 安装包：Release: rustdesk-1.4.9-aarch64.exe、Release: rustdesk-1.4.9-aarch64.msi |
+| 5 | [nexu-io/open-design](https://github.com/nexu-io/open-design)<br>中文简介：本地优先的开源设计工具，支持多种导出格式。 | 近期活跃热门仓库 | 82,378 | TypeScript | macOS 安装包：Release: open-design-0.16.1-mac-arm64.dmg、Release: open-design-0.16.1-mac-x64.dmg；Windows 安装包：Release: open-design-0.16.1-win-x64-setup.exe |
+| 6 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)<br>中文简介：基于AI驱动的软件开发平台。 | 近期活跃热门仓库 | 82,460 | TypeScript | macOS 安装包：Release: Agent-Canvas-1.6.1-arm64.dmg；Windows 安装包：Release: Agent-Canvas-Setup-1.6.1.exe |
+| 7 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)<br>中文简介：隐私优先的开源下一代知识库平台。 | 近期活跃热门仓库 | 70,892 | TypeScript | macOS 安装包：Release: affine-0.27.3-stable-macos-arm64.dmg、Release: affine-0.27.3-stable-macos-x64.dmg；Windows 安装包：Release: affine-0.27.3-stable-windows-arm64.exe、Release: affine-0.27.3-stable-windows-arm64.nsis.exe |
+| 8 | [Eugeny/tabby](https://github.com/Eugeny/tabby)<br>中文简介：现代化终端工具。 | 近期活跃热门仓库 | 73,575 | TypeScript | macOS 安装包：Release: tabby-1.0.235-macos-arm64.dmg、Release: tabby-1.0.235-macos-x86_64.dmg；Windows 安装包：Release: tabby-1.0.235-setup-arm64.exe、Release: tabby-1.0.235-setup-x64.exe |
+| 9 | [laurent22/joplin](https://github.com/laurent22/joplin)<br>中文简介：支持多平台同步的隐私笔记应用。 | 近期活跃热门仓库 | 55,765 | TypeScript | macOS 安装包：Release: Joplin-3.6.15-arm64.DMG、Release: Joplin-3.6.15.dmg；Windows 安装包：Release: Joplin-Setup-3.6.15.exe、Release: JoplinPortable.exe |
+| 10 | [WerWolv/ImHex](https://github.com/WerWolv/ImHex)<br>中文简介：适合逆向工程师的十六进制编辑器。 | 近期活跃热门仓库 | 54,315 | C++ | macOS 安装包：Release: imhex-1.38.1-macOS-arm64.dmg、Release: imhex-1.38.1-macOS-NoGPU-x86_64.dmg；Windows 安装包：Release: imhex-1.38.1-Windows-arm64.msi、Release: imhex-1.38.1-Windows-x86_64.msi |
+| 11 | [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)<br>中文简介：跨平台的命令行自动化工具。 | 近期活跃热门仓库 | 54,582 | C# | macOS 安装包：Release: powershell-7.6.4-osx-arm64.pkg、Release: powershell-7.6.4-osx-x64.pkg；Windows 安装包：Release: PowerShell-7.6.4-win-arm64.msi、Release: PowerShell-7.6.4-win-x64.msi |
+| 12 | [marktext/marktext](https://github.com/marktext/marktext)<br>中文简介：简洁优雅的跨平台Markdown编辑器。 | 近期活跃热门仓库 | 59,274 | TypeScript | macOS 安装包：Release: marktext-mac-arm64-0.19.1.dmg、Release: marktext-mac-x64-0.19.1.dmg；Windows 安装包：Release: marktext-win-arm64-0.19.1-setup.exe、Release: marktext-win-x64-0.19.1-setup.exe |
+| 13 | [usebruno/bruno](https://github.com/usebruno/bruno)<br>中文简介：开源轻量级API测试和探索IDE。 | 近期活跃热门仓库 | 45,985 | JavaScript | macOS 安装包：Release: bruno_4.0.0_arm64_mac.dmg、Release: bruno_4.0.0_arm64_mac.pkg；Windows 安装包：Release: bruno_4.0.0_arm64_win.exe、Release: bruno_4.0.0_arm64_win.msi |
+| 14 | [cli/cli](https://github.com/cli/cli)<br>中文简介：GitHub官方命令行工具。 | 近期活跃热门仓库 | 45,489 | Go | macOS 安装包：Release: gh_2.96.0_macOS_universal.pkg；Windows 安装包：Release: gh_2.96.0_windows_386.msi、Release: gh_2.96.0_windows_amd64.msi |
+| 15 | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)<br>中文简介：自托管的开源个人知识管理软件。 | 近期活跃热门仓库 | 45,475 | TypeScript | macOS 安装包：Release: siyuan-3.7.3-mac-arm64.dmg、Release: siyuan-3.7.3-mac.dmg；Windows 安装包：Release: siyuan-3.7.3-win-arm64.exe、Release: siyuan-3.7.3-win.exe |
+| 16 | [tw93/Pake](https://github.com/tw93/Pake)<br>中文简介：一键将网页转换为桌面应用。 | 近期活跃热门仓库 | 60,300 | Rust | macOS 安装包：Release: ChatGPT.dmg、Release: DeepSeek.dmg；Windows 安装包：Release: ChatGPT_x64.msi、Release: DeepSeek_x64.msi |
+| 17 | [janhq/jan](https://github.com/janhq/jan)<br>中文简介：完全离线运行的开源ChatGPT替代品。 | 近期活跃热门仓库 | 43,752 | TypeScript | macOS 安装包：Release: Jan_0.8.4_universal.dmg；Windows 安装包：Release: Jan_0.8.4_x64-setup.exe |
+| 18 | [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine)<br>中文简介：Moonlight的自托管游戏流媒体服务器。 | 近期活跃热门仓库 | 39,685 | C++ | macOS 安装包：Release: Sunshine-macOS-arm64.dmg、Release: Sunshine-macOS-x86_64.dmg；Windows 安装包：Release: Sunshine-Windows-AMD64-installer.exe、Release: Sunshine-Windows-AMD64-installer.msi |
+| 19 | [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium)<br>中文简介：构建个人知识库的笔记软件。 | 近期活跃热门仓库 | 37,110 | TypeScript | macOS 安装包：Release: TriliumNotes-v0.104.1-macos-arm64.dmg、Release: TriliumNotes-v0.104.1-macos-x64.dmg；Windows 安装包：Release: TriliumNotes-v0.104.1-windows-arm64.exe、Release: TriliumNotes-v0.104.1-windows-x64.exe |
+| 20 | [agalwood/Motrix](https://github.com/agalwood/Motrix)<br>中文简介：功能完善的下载管理器。 | 近期活跃热门仓库 | 52,339 | JavaScript | macOS 安装包：Release: Motrix-1.8.19-arm64.dmg、Release: Motrix-1.8.19-universal.dmg；Windows 安装包：Release: Motrix-1.8.19-ia32.exe、Release: Motrix-1.8.19-x64.exe |
+| 21 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube)<br>中文简介：开源跨平台音乐流媒体应用。 | 近期活跃热门仓库 | 47,975 | Dart | macOS 安装包：Release: Spotube-macos-universal.dmg、Release: Spotube-macos-universal.pkg；Windows 安装包：Release: Spotube-windows-x86_64-setup.exe |
+| 22 | [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)<br>中文简介：基于next.js的AI辅助draw.io图表编辑应用。 | 近期活跃热门仓库 | 33,940 | TypeScript | macOS 安装包：Release: Next-AI-Draw.io-0.4.16-arm64.dmg、Release: Next-AI-Draw.io-0.4.16.dmg；Windows 安装包：Release: Next.AI.Draw.io.0.4.16.exe、Release: Next.AI.Draw.io.Setup.0.4.16.exe |
+| 23 | [stablyai/orca](https://github.com/stablyai/orca)<br>中文简介：支持多代理并行的AI开发环境。 | 近期活跃热门仓库 | 32,166 | TypeScript | macOS 安装包：Release: orca-macos-arm64.dmg、Release: orca-macos-x64.dmg；Windows 安装包：Release: orca-windows-setup.exe |
+| 24 | [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop)<br>中文简介：Pear：音乐播放器扩展。 | 近期活跃热门仓库 | 32,848 | TypeScript | macOS 安装包：Release: YouTube-Music-3.12.0-arm64.dmg、Release: YouTube-Music-3.12.0.dmg；Windows 安装包：Release: YouTube-Music-3.12.0.exe、Release: YouTube-Music-Web-Setup-3.12.0.exe |
+| 25 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)<br>中文简介：便捷的网络流量监控工具。 | 近期活跃热门仓库 | 40,203 | Rust | macOS 安装包：Release: Sniffnet_macOS_AppleSilicon.dmg、Release: Sniffnet_macOS_Intel.dmg；Windows 安装包：Release: Sniffnet_Windows_arm64.msi、Release: Sniffnet_Windows_x64.msi |
+| 26 | [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)<br>中文简介：跨平台高效启动器。 | 近期活跃热门仓库 | 27,175 | Go | macOS 安装包：Release: wox-mac-amd64.dmg、Release: wox-mac-arm64.dmg；Windows 安装包：Release: wox-windows-amd64.exe |
+| 27 | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot)<br>中文简介：功能强大且易用的截图软件。 | 近期活跃热门仓库 | 30,501 | C++ | macOS 安装包：Release: Flameshot-14.0-macos-arm64.dmg、Release: Flameshot-14.0-macos-intel.dmg；Windows 安装包：Release: Flameshot-14.0.0-win64.msi |
+| 28 | [cjpais/Handy](https://github.com/cjpais/Handy)<br>中文简介：完全离线的开源语音转文字应用。 | 近期活跃热门仓库 | 27,791 | Rust | macOS 安装包：Release: Handy_0.9.4_aarch64.dmg、Release: Handy_0.9.4_x64.dmg；Windows 安装包：Release: Handy_0.9.4_arm64-setup.exe、Release: Handy_0.9.4_arm64_en-US.msi |
+| 29 | [Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI)<br>中文简介：图形化包管理器管理工具。 | 近期活跃热门仓库 | 25,271 | C# | macOS 安装包：Release: UniGetUI.macos-arm64.dmg、Release: UniGetUI.macos-x64.dmg；Windows 安装包：Release: UniGetUI.Installer.arm64.exe、Release: UniGetUI.Installer.exe |
+| 30 | [VSCodium/vscodium](https://github.com/VSCodium/vscodium)<br>中文简介：无微软品牌和遥测的VS Code二进制版。 | 近期活跃热门仓库 | 32,555 | Shell | macOS 安装包：Release: VSCodium.arm64.1.126.04524.dmg、Release: VSCodium.x64.1.126.04524.dmg；Windows 安装包：Release: VSCodium-x64-1.126.04524.msi、Release: VSCodium-x64-updates-disabled-1.126.04524.msi |
+| 31 | [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)<br>中文简介：Beekeeper Studio：现代易用的多数据库SQL客户端。 | 近期活跃热门仓库 | 23,274 | TypeScript | macOS 安装包：Release: Beekeeper-Studio-5.9.2-arm64.dmg、Release: Beekeeper-Studio-5.9.2.dmg；Windows 安装包：Release: Beekeeper-Studio-5.9.2-portable.exe、Release: Beekeeper-Studio-Setup-5.9.2.exe |
+| 32 | [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)<br>中文简介：集成AI的跨平台终端工具。 | 近期活跃热门仓库 | 21,842 | Go | macOS 安装包：Release: Wave-darwin-arm64-0.14.5.dmg、Release: Wave-darwin-x64-0.14.5.dmg；Windows 安装包：Release: Wave-win32-x64-0.14.5.exe、Release: Wave-win32-x64-0.14.5.msi |
+| 33 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity)<br>中文简介：Super Productivity：集成时间管理的高级待办事项应用。 | 近期活跃热门仓库 | 20,968 | TypeScript | macOS 安装包：Release: superProductivity-arm64.dmg、Release: superProductivity-universal.dmg；Windows 安装包：Release: Super-Productivity-Setup-arm64.exe、Release: Super-Productivity-Setup-x64.exe |
+| 34 | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)<br>中文简介：支持多协议的高速跨平台下载管理器。 | 近期活跃热门仓库 | 25,530 | Go | macOS 安装包：Release: Gopeed-v1.9.3-macos-amd64.dmg、Release: Gopeed-v1.9.3-macos-arm64.dmg；Windows 安装包：Release: Gopeed-v1.9.3-windows-amd64.exe、Release: Gopeed-v1.9.3-windows-arm64.exe |
+| 35 | [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch)<br>中文简介：免费开源的自动化时间追踪器。 | 近期活跃热门仓库 | 18,416 | Python | macOS 安装包：Release: activitywatch-v0.13.2-macos-x86_64.dmg；Windows 安装包：Release: activitywatch-v0.13.2-windows-x86_64-setup.exe |
+| 36 | [nukeop/nuclear](https://github.com/nukeop/nuclear)<br>中文简介：免费音乐流媒体播放器。 | 近期活跃热门仓库 | 18,138 | TypeScript | macOS 安装包：Release: Nuclear_1.43.2_aarch64.dmg、Release: Nuclear_1.43.2_x64.dmg；Windows 安装包：Release: Nuclear_1.43.2_x64-setup.exe、Release: Nuclear_1.43.2_x64_en-US.msi |
+| 37 | [audacity/audacity](https://github.com/audacity/audacity)<br>中文简介：音频编辑器。 | 近期活跃热门仓库 | 17,450 | C++ | macOS 安装包：Release: audacity-macOS-3.7.8-arm64.dmg、Release: audacity-macOS-3.7.8-universal.dmg；Windows 安装包：Release: audacity-win-3.7.8-32bit.exe、Release: audacity-win-3.7.8-64bit.exe |
+| 38 | [mountain-loop/yaak](https://github.com/mountain-loop/yaak)<br>中文简介：直观的桌面API客户端，支持多种协议。 | 近期活跃热门仓库 | 18,907 | TypeScript | macOS 安装包：Release: Yaak_2026.5.0_aarch64.dmg、Release: Yaak_2026.5.0_x64.dmg；Windows 安装包：Release: Yaak_2026.5.0_arm64-setup-machine.exe、Release: Yaak_2026.5.0_arm64-setup.exe |
+| 39 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat)<br>中文简介：具备记忆功能的开源AI助手。 | 近期活跃热门仓库 | 16,875 | TypeScript | macOS 安装包：Release: Rowboat-darwin-arm64-0.8.3.dmg、Release: Rowboat-darwin-x64-0.8.3.dmg；Windows 安装包：Release: Rowboat-win32-x64-0.8.3-setup.exe |
+| 40 | [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc)<br>中文简介：跨平台的KeePass密码管理器移植版。 | 近期活跃热门仓库 | 28,192 | C++ | macOS 安装包：Release: KeePassXC-2.7.12-arm64.dmg、Release: KeePassXC-2.7.12-x86_64.dmg；Windows 安装包：Release: KeePassXC-2.7.12-Win64-LegacyWindows.msi、Release: KeePassXC-2.7.12-Win64.msi |
+| 41 | [alacritty/alacritty](https://github.com/alacritty/alacritty)<br>中文简介：跨平台OpenGL终端模拟器。 | 近期活跃热门仓库 | 65,144 | Rust | macOS 安装包：Release: Alacritty-v0.17.0.dmg；Windows 安装包：Release: Alacritty-v0.17.0-installer.msi、Release: Alacritty-v0.17.0-portable.exe |
+| 42 | [electerm/electerm](https://github.com/electerm/electerm)<br>中文简介：支持多协议的终端和远程连接客户端，跨平台支持多系统。 | 近期活跃热门仓库 | 14,601 | JavaScript | macOS 安装包：Release: electerm-3.15.171-mac-arm64.dmg、Release: electerm-3.15.171-mac-x64.dmg；Windows 安装包：Release: electerm-3.15.171-win-arm64-installer.exe、Release: electerm-3.15.171-win-x64-installer.exe |
+| 43 | [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix)<br>中文简介：自托管的SSH和远程桌面管理工具。 | 近期活跃热门仓库 | 14,517 | TypeScript | macOS 安装包：Release: termix_macos_arm64_dmg.dmg、Release: termix_macos_universal_dmg.dmg；Windows 安装包：Release: termix_windows_ia32_msi.msi、Release: termix_windows_ia32_nsis.exe |
+| 44 | [streetwriters/notesnook](https://github.com/streetwriters/notesnook)<br>中文简介：完全开源且端到端加密的笔记软件，Evernote替代品。 | 近期活跃热门仓库 | 14,337 | TypeScript | macOS 安装包：Release: notesnook_mac_arm64.dmg、Release: notesnook_mac_x64.dmg；Windows 安装包：Release: notesnook_win.exe、Release: notesnook_win_arm64.exe |
+| 45 | [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)<br>中文简介：一个基于 Electron 的音乐软件 | 近期活跃热门仓库 | 52,405 | TypeScript | macOS 安装包：Release: lx-music-desktop-2.12.2-arm64.dmg、Release: lx-music-desktop-2.12.2-x64.dmg；Windows 安装包：Release: lx-music-desktop-v2.12.2-arm64-Setup.exe、Release: lx-music-desktop-v2.12.2-win7_x64-Setup.exe |
+| 46 | [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)<br>中文简介：本地优先的跨平台桌面工作空间，支持多智能体和多模型。 | 近期活跃热门仓库 | 13,694 | TypeScript | macOS 安装包：Release: Claude-Code-Haha-0.5.0-mac-arm64.dmg、Release: Claude-Code-Haha-0.5.0-mac-x64.dmg；Windows 安装包：Release: Claude-Code-Haha-0.5.0-win-arm64.exe、Release: Claude-Code-Haha-0.5.0-win-x64.exe |
+| 47 | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager)<br>中文简介：加速下载的下载管理器。 | 近期活跃热门仓库 | 16,912 | Kotlin | macOS 安装包：Release: ABDownloadManager_1.10.1_mac_arm64.dmg、Release: ABDownloadManager_1.10.1_mac_x64.dmg；Windows 安装包：Release: ABDownloadManager_1.10.1_windows_arm64.exe、Release: ABDownloadManager_1.10.1_windows_x64.exe |
+| 48 | [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)<br>中文简介：一站式出版工作平台。 | 近期活跃热门仓库 | 13,309 | TypeScript | macOS 安装包：Release: Zettlr-4.7.0-arm64.dmg、Release: Zettlr-4.7.0-x64.dmg；Windows 安装包：Release: Zettlr-4.7.0-x64.exe |
+| 49 | [codexu/note-gen](https://github.com/codexu/note-gen)<br>中文简介：跨平台的Markdown AI笔记软件。 | 近期活跃热门仓库 | 12,371 | TypeScript | macOS 安装包：Release: NoteGen_0.32.1_aarch64.dmg、Release: NoteGen_0.32.1_x64.dmg；Windows 安装包：Release: NoteGen_0.32.1_x64-setup.exe、Release: NoteGen_0.32.1_x64_en-US.msi |
+| 50 | [t8y2/dbx](https://github.com/t8y2/dbx)<br>中文简介：轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。 | 近期活跃热门仓库 | 12,316 | Rust | macOS 安装包：Release: DBX_0.5.69_aarch64.dmg、Release: DBX_0.5.69_x64.dmg；Windows 安装包：Release: DBX_0.5.69_arm64-setup.exe、Release: DBX_0.5.69_arm64-webview2-offline-setup.exe |
+| 51 | [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext)<br>中文简介：跨平台的Notepad++重实现文本编辑器。 | 近期活跃热门仓库 | 14,408 | C++ | macOS 安装包：Release: NotepadNext-v0.14.dmg；Windows 安装包：Release: NotepadNext-v0.14-Installer.exe |
+| 52 | [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app)<br>中文简介：Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation. | 近期活跃热门仓库 | 13,009 | TypeScript | macOS 安装包：Release: ToonFlow-1.1.8-mac-arm64.dmg、Release: ToonFlow-1.1.8-mac-x64.dmg；Windows 安装包：Release: ToonFlow-1.1.8-win-arm64-setup.exe、Release: ToonFlow-1.1.8-win-x64-setup.exe |
+| 53 | [mltframework/shotcut](https://github.com/mltframework/shotcut)<br>中文简介：跨平台开源视频编辑器，基于Qt和GPLv3。 | 近期活跃热门仓库 | 14,652 | C++ | macOS 安装包：Release: shotcut-macos-26.6.25.dmg、Release: shotcut-macos-unsigned-26.6.25.dmg；Windows 安装包：Release: shotcut-win64-26.6.25.exe、Release: shotcut-win_ARM-26.6.25.exe |
+| 54 | [getpaseo/paseo](https://github.com/getpaseo/paseo)<br>中文简介：桌面和移动端多智能体编程协调工具。 | 近期活跃热门仓库 | 11,610 | TypeScript | macOS 安装包：Release: Paseo-0.2.3-arm64.dmg、Release: Paseo-0.2.3-x64.dmg；Windows 安装包：Release: Paseo-Setup-0.2.3-arm64.exe、Release: Paseo-Setup-0.2.3-x64.exe |
+| 55 | [lapce/lapce](https://github.com/lapce/lapce)<br>中文简介：用Rust编写的极速强大代码编辑器。 | 近期活跃热门仓库 | 38,699 | Rust | macOS 安装包：Release: Lapce-macos.dmg；Windows 安装包：Release: Lapce-windows.msi |
+| 56 | [espanso/espanso](https://github.com/espanso/espanso)<br>中文简介：注重隐私的跨平台文本扩展工具，Rust开发。 | 近期活跃热门仓库 | 14,199 | Rust | macOS 安装包：Release: Espanso-Mac-Universal.dmg；Windows 安装包：Release: Espanso-Win-Installer-x86_64.exe |
+| 57 | [hluk/CopyQ](https://github.com/hluk/CopyQ)<br>中文简介：功能丰富的剪贴板管理器。 | 近期活跃热门仓库 | 12,050 | C++ | macOS 安装包：Release: CopyQ-16.0.0-macos-12-m1.dmg、Release: CopyQ-16.0.0-macos-13.dmg；Windows 安装包：Release: copyq-16.0.0-setup.exe |
+| 58 | [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop)<br>中文简介：支持Mac、Windows和Linux的流媒体种子客户端。 | 近期活跃热门仓库 | 10,095 | JavaScript | macOS 安装包：Release: WebTorrent-v0.24.0.dmg；Windows 安装包：Release: WebTorrentSetup-v0.24.0.exe |
+| 59 | [tonyantony300/dashbeam](https://github.com/tonyantony300/dashbeam)<br>中文简介：无需云存储，全球传输任意大小文件的工具。 | 近期活跃热门仓库 | 8,847 | TypeScript | macOS 安装包：Release: AltSendme_0.6.0_aarch64.dmg、Release: AltSendme_0.6.0_universal.dmg；Windows 安装包：Release: AltSendme_0.6.0_arm64-setup.exe、Release: AltSendme_0.6.0_x64-setup.exe |
+| 60 | [jeffvli/feishin](https://github.com/jeffvli/feishin)<br>中文简介：现代自托管音乐播放器。 | 近期活跃热门仓库 | 9,283 | TypeScript | macOS 安装包：Release: Feishin-1.15.1-mac-arm64.dmg、Release: Feishin-1.15.1-mac-x64.dmg；Windows 安装包：Release: Feishin-1.15.1-win-arm64.exe、Release: Feishin-1.15.1-win-x64.exe |
+| 61 | [mockoon/mockoon](https://github.com/mockoon/mockoon)<br>中文简介：本地快速运行模拟API的开源工具，无需账号。 | 近期活跃热门仓库 | 8,342 | TypeScript | macOS 安装包：Release: mockoon.setup.9.7.0.arm64.dmg、Release: mockoon.setup.9.7.0.universal.dmg；Windows 安装包：Release: mockoon.portable.9.7.0.exe、Release: mockoon.setup.9.7.0.exe |
+| 62 | [crynta/terax-ai](https://github.com/crynta/terax-ai)<br>中文简介：轻量级终端优先的AI开发工作空间。 | 近期活跃热门仓库 | 8,733 | TypeScript | macOS 安装包：Release: Terax_0.8.6_aarch64.dmg、Release: Terax_0.8.6_x64.dmg；Windows 安装包：Release: Terax_0.8.6_x64-setup.exe、Release: Terax_0.8.6_x64_en-US.msi |
+| 63 | [getagentseal/codeburn](https://github.com/getagentseal/codeburn)<br>中文简介：免费本地工具，跟踪31款AI编码工具的令牌使用和费用。 | 近期活跃热门仓库 | 9,008 | TypeScript | macOS 安装包：Release: CodeBurn-0.9.19-arm64.dmg、Release: CodeBurn-0.9.19.dmg；Windows 安装包：Release: CodeBurn-Setup-0.9.19.exe |
+| 64 | [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3)<br>中文简介：基于Python和Qt的跨平台多协议并发下载器。 | 近期活跃热门仓库 | 7,587 | Python | macOS 安装包：Release: Ghost-Downloader-v4.2.0-macOS-arm64.dmg、Release: Ghost-Downloader-v4.2.0-macOS-x86_64.dmg；Windows 安装包：Release: Ghost-Downloader-v4.2.0-Windows-arm64-Setup.exe、Release: Ghost-Downloader-v4.2.0-Windows-x86_64-Setup.exe |
+| 65 | [mediago-dev/mediago](https://github.com/mediago-dev/mediago)<br>中文简介：跨平台视频下载器，支持m3u8/HLS及主流视频网站。 | 近期活跃热门仓库 | 9,098 | TypeScript | macOS 安装包：Release: mediago-community-setup-darwin-arm64-3.5.0.dmg、Release: mediago-community-setup-darwin-x64-3.5.0.dmg；Windows 安装包：Release: mediago-community-portable-win32-x64-3.5.0.exe、Release: mediago-community-setup-win32-x64-3.5.0.exe |
+| 66 | [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor)<br>中文简介：通用2D图像编辑器。 | 近期活跃热门仓库 | 7,909 | C# | macOS 安装包：Release: PixiEditor-2.1.2.1-universal-macos.dmg；Windows 安装包：Release: PixiEditor-2.1.2.1-setup-x64-win.exe |
+| 67 | [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW)<br>中文简介：高性能GPU加速的非破坏性RAW图像编辑器。 | 近期活跃热门仓库 | 9,006 | TypeScript | macOS 安装包：Release: 02_RapidRAW_v1.6.0_macos-14_aarch64.dmg、Release: 02_RapidRAW_v1.6.0_macos-15-intel_x64.dmg；Windows 安装包：Release: 01_RapidRAW_v1.6.0_windows-11-arm_arm64.exe、Release: 01_RapidRAW_v1.6.0_windows-11-arm_arm64.msi |
+| 68 | [massCodeIO/massCode](https://github.com/massCodeIO/massCode)<br>中文简介：免费开源开发者工作空间，集成代码片段、笔记、HTTP请求和开发工具。 | 近期活跃热门仓库 | 6,933 | TypeScript | macOS 安装包：Release: massCode-5.9.1-arm64.dmg、Release: massCode-5.9.1.dmg；Windows 安装包：Release: massCode-5.9.1-x64-portable.exe、Release: massCode-5.9.1-x64.exe |
+| 69 | [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop)<br>中文简介：桌面容器管理和Kubernetes工具。 | 近期活跃热门仓库 | 7,258 | TypeScript | macOS 安装包：Release: Rancher.Desktop-1.23.1.aarch64.dmg、Release: Rancher.Desktop-1.23.1.x86_64.dmg；Windows 安装包：Release: Rancher.Desktop.Setup.1.23.1.msi |
+| 70 | [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil)<br>中文简介：开源AI设计编辑器，Figma替代方案。 | 近期活跃热门仓库 | 7,464 | TypeScript | macOS 安装包：Release: OpenPencil_0.13.2_aarch64.dmg、Release: OpenPencil_0.13.2_x64.dmg；Windows 安装包：Release: OpenPencil_0.13.2_arm64-setup.exe、Release: OpenPencil_0.13.2_arm64_en-US.msi |
+| 71 | [4gray/iptvnator](https://github.com/4gray/iptvnator)<br>中文简介：跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。 | 近期活跃热门仓库 | 6,717 | TypeScript | macOS 安装包：Release: iptvnator-0.22.0-mac-arm64.dmg、Release: iptvnator-0.22.0-mac-x64.dmg；Windows 安装包：Release: iptvnator-0.22.0-windows-x64-setup.exe |
+| 72 | [raphamorim/rio](https://github.com/raphamorim/rio)<br>中文简介：硬件加速GPU终端模拟器，支持桌面和浏览器运行。 | 近期活跃热门仓库 | 7,087 | Rust | macOS 安装包：Release: Canario-0.0.1.dmg、Release: rio.dmg；Windows 安装包：Release: rio-installer-aarch64.msi、Release: rio-installer-x86_64.msi |
+| 73 | [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat)<br>中文简介：智能助手DeepChat，连接强大AI服务，助力个人应用。 | 近期活跃热门仓库 | 6,172 | TypeScript | macOS 安装包：Release: DeepChat-1.0.9-mac-arm64.dmg、Release: DeepChat-1.0.9-mac-x64.dmg；Windows 安装包：Release: DeepChat-1.0.9-windows-arm64.exe、Release: DeepChat-1.0.9-windows-x64.exe |
+| 74 | [dbgate/dbgate](https://github.com/dbgate/dbgate)<br>中文简介：支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。 | 近期活跃热门仓库 | 7,175 | Svelte | macOS 安装包：Release: dbgate-7.2.3-mac_arm64.dmg、Release: dbgate-7.2.3-mac_universal.dmg；Windows 安装包：Release: dbgate-7.2.3-win.exe、Release: dbgate-7.2.3-win_arm64.exe |
+| 75 | [op7418/CodePilot](https://github.com/op7418/CodePilot)<br>中文简介：多模型AI代理桌面客户端，支持多AI服务和手机远程控制。 | 近期活跃热门仓库 | 6,227 | TypeScript | macOS 安装包：Release: CodePilot-0.61.0-arm64.dmg、Release: CodePilot-0.61.0-x64.dmg；Windows 安装包：Release: CodePilot.Setup.0.61.0.exe |
+| 76 | [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI)<br>中文简介：开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。 | 近期活跃热门仓库 | 5,715 | TypeScript | macOS 安装包：Release: LobsterAI--mac-arm64.dmg、Release: LobsterAI--mac-x64.dmg；Windows 安装包：Release: LobsterAI--win-x64.exe |
+| 77 | [HuLaSpark/HuLa](https://github.com/HuLaSpark/HuLa)<br>中文简介：🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS） | 近期活跃热门仓库 | 7,463 | Vue | macOS 安装包：Release: HuLa_3.0.9_aarch64.dmg、Release: HuLa_3.0.9_x64.dmg；Windows 安装包：Release: HuLa_3.0.9_x64-setup.exe、Release: HuLa_3.0.9_x64_zh-CN.msi |
+| 78 | [reqable/reqable-app](https://github.com/reqable/reqable-app)<br>中文简介：Reqable问题跟踪仓库。 | 近期活跃热门仓库 | 6,571 | 未知 | macOS 安装包：Release: reqable-app-macos-arm64.dmg、Release: reqable-app-macos-x86_64.dmg；Windows 安装包：Release: reqable-app-windows-x86_64.exe |
+| 79 | [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk)<br>中文简介：像素风桌面宠物，监控多种AI编程助手。 | 近期活跃热门仓库 | 5,695 | JavaScript | macOS 安装包：Release: Clawd-on-Desk-0.13.0-arm64.dmg、Release: Clawd-on-Desk-0.13.0-x64.dmg；Windows 安装包：Release: Clawd-on-Desk-Setup-0.13.0-arm64.exe、Release: Clawd-on-Desk-Setup-0.13.0-x64.exe |
+| 80 | [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic)<br>中文简介：一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron: | 近期活跃热门仓库 | 6,029 | Vue | macOS 安装包：Release: MoeKoe_Music_v1.6.9-arm64.dmg、Release: MoeKoe_Music_v1.6.9-x64.dmg；Windows 安装包：Release: MoeKoe_Music_Setup_v1.6.9-ia32.exe、Release: MoeKoe_Music_Setup_v1.6.9-x64.exe |
+| 81 | [thewh1teagle/vibe](https://github.com/thewh1teagle/vibe)<br>中文简介：支持本地转录的语音转文字工具。 | 近期活跃热门仓库 | 6,941 | TypeScript | macOS 安装包：Release: vibe_3.0.23_aarch64.dmg、Release: vibe_3.0.23_x64.dmg；Windows 安装包：Release: vibe_3.0.23_x64-setup.exe |
+| 82 | [generalaction/emdash](https://github.com/generalaction/emdash)<br>中文简介：开源多代理开发环境，支持并行运行多种编码代理。 | 近期活跃热门仓库 | 5,290 | TypeScript | macOS 安装包：Release: emdash-arm64.dmg、Release: emdash-x64.dmg；Windows 安装包：Release: emdash-x64.exe、Release: emdash-x64.msi |
+| 83 | [altair-graphql/altair](https://github.com/altair-graphql/altair)<br>中文简介：功能丰富的跨平台GraphQL客户端。 | 近期活跃热门仓库 | 5,425 | TypeScript | macOS 安装包：Release: altair_8.5.7_arm64_mac.dmg、Release: altair_8.5.7_x64_mac.dmg；Windows 安装包：Release: altair_8.5.7_x64_win.exe |
+| 84 | [OpenWhispr/openwhispr](https://github.com/OpenWhispr/openwhispr)<br>中文简介：隐私优先的跨平台语音转文字应用，支持本地和云端模型。 | 近期活跃热门仓库 | 4,954 | JavaScript | macOS 安装包：Release: OpenWhispr-1.7.6-arm64.dmg、Release: OpenWhispr-1.7.6.dmg；Windows 安装包：Release: OpenWhispr-1.7.6.exe、Release: OpenWhispr-Setup-1.7.6.exe |
+| 85 | [Splode/pomotroid](https://github.com/Splode/pomotroid)<br>中文简介：简洁美观的番茄钟计时器。 | 近期活跃热门仓库 | 5,381 | Rust | macOS 安装包：Release: Pomotroid_1.7.1_universal.dmg；Windows 安装包：Release: pomotroid.exe、Release: Pomotroid_1.7.1_x64-setup.exe |
+| 86 | [IsmaelMartinez/teams-for-linux](https://github.com/IsmaelMartinez/teams-for-linux)<br>中文简介：非官方Linux版微软Teams客户端。 | 近期活跃热门仓库 | 4,892 | JavaScript | macOS 安装包：Release: teams-for-linux-2.13.0.dmg；Windows 安装包：Release: teams-for-linux-Setup-2.13.0.exe |
+| 87 | [purocean/yn](https://github.com/purocean/yn)<br>中文简介：高度可扩展的Markdown编辑器，集成版本控制和AI助手。 | 近期活跃热门仓库 | 6,669 | TypeScript | macOS 安装包：Release: Yank-Note-mac-arm64-3.92.1.dmg、Release: Yank-Note-mac-x64-3.92.1.dmg；Windows 安装包：Release: Yank-Note-win-x64-3.92.1.exe |
+| 88 | [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader)<br>中文简介：支持数百网站视频音频下载的桌面应用。 | 近期活跃热门仓库 | 10,028 | JavaScript | macOS 安装包：Release: YTDownloader_Mac_arm64.dmg、Release: YTDownloader_Mac_x64.dmg；Windows 安装包：Release: YTDownloader_Win.exe、Release: YTDownloader_Win.msi |
+| 89 | [JannisX11/blockbench](https://github.com/JannisX11/blockbench)<br>中文简介：低多边形3D模型编辑器。 | 近期活跃热门仓库 | 5,710 | JavaScript | macOS 安装包：Release: Blockbench_arm64_5.1.6.dmg、Release: Blockbench_x64_5.1.6.dmg；Windows 安装包：Release: Blockbench_5.1.6.exe、Release: Blockbench_5.1.6_portable.exe |
+| 90 | [oliverschwendener/ueli](https://github.com/oliverschwendener/ueli)<br>中文简介：跨平台键盘快捷启动器。 | 近期活跃热门仓库 | 4,571 | TypeScript | macOS 安装包：Release: Ueli-9.29.0-arm64.dmg、Release: Ueli-9.29.0.dmg；Windows 安装包：Release: Ueli-9.29.0.msi、Release: Ueli-Setup-9.29.0.exe |
+| 91 | [vercel/hyper](https://github.com/vercel/hyper)<br>中文简介：基于网页技术的终端模拟器。 | 近期活跃热门仓库 | 44,673 | TypeScript | macOS 安装包：Release: Hyper-3.4.1-mac-arm64.dmg、Release: Hyper-3.4.1-mac-x64.dmg；Windows 安装包：Release: Hyper-Setup-3.4.1.exe |
+| 92 | [EcoPasteHub/EcoPaste](https://github.com/EcoPasteHub/EcoPaste)<br>中文简介：🎉跨平台的剪贴板管理工具 | 近期活跃热门仓库 | 7,252 | Rust | macOS 安装包：Release: EcoPaste_1.1.0_aarch64.dmg、Release: EcoPaste_1.1.0_x64.dmg；Windows 安装包：Release: EcoPaste_1.1.0_arm64-setup.exe、Release: EcoPaste_1.1.0_x64-setup.exe |
+| 93 | [domcyrus/rustnet](https://github.com/domcyrus/rustnet)<br>中文简介：支持深度包检测的跨平台终端网络监控工具。 | 近期活跃热门仓库 | 4,807 | Rust | macOS 安装包：Release: Rustnet_macOS_AppleSilicon.dmg、Release: Rustnet_macOS_Intel.dmg；Windows 安装包：Release: Rustnet_Windows_32-bit.msi、Release: Rustnet_Windows_64-bit.msi |
+| 94 | [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive)<br>中文简介：将Telegram账号变成无限安全云存储的开源桌面应用。 | 近期活跃热门仓库 | 4,538 | TypeScript | macOS 安装包：Release: Telegram.Drive_2.1.0_aarch64.dmg、Release: Telegram.Drive_2.1.0_x64.dmg；Windows 安装包：Release: Telegram.Drive_2.1.0_x64-setup.exe、Release: Telegram.Drive_2.1.0_x64_en-US.msi |
+| 95 | [Sylinko/Everywhere](https://github.com/Sylinko/Everywhere)<br>中文简介：基于当前应用上下文的桌面AI助手，支持多模型和工具。 | 近期活跃热门仓库 | 6,196 | C# | macOS 安装包：Release: Everywhere-macOS-arm64-v0.8.0.pkg、Release: Everywhere-macOS-x64-v0.8.0.pkg；Windows 安装包：Release: Everywhere-Windows-x64-Setup-v0.8.0.exe |
+| 96 | [binaricat/Netcatty](https://github.com/binaricat/Netcatty)<br>中文简介：集成SSH、SFTP和终端的工作空间工具。 | 近期活跃热门仓库 | 4,324 | TypeScript | macOS 安装包：Release: Netcatty-1.1.73-mac-arm64.dmg、Release: Netcatty-1.1.73-mac-x64.dmg；Windows 安装包：Release: Netcatty-1.1.73-portable-win-arm64.exe、Release: Netcatty-1.1.73-portable-win-x64.exe |
+| 97 | [graphif/project-graph](https://github.com/graphif/project-graph)<br>中文简介：是一个基于节点的非线性思维和笔记可视化工具。 | 近期活跃热门仓库 | 4,245 | TypeScript | macOS 安装包：Release: Project.Graph_4.1.1_universal.dmg；Windows 安装包：Release: Project.Graph_4.1.1_x64-setup-gpu.exe |
+| 98 | [doublecmd/doublecmd](https://github.com/doublecmd/doublecmd)<br>中文简介：Double Commander是一个免费开源的跨平台双面板文件管理器。 | 近期活跃热门仓库 | 4,356 | Pascal | macOS 安装包：Release: doublecmd-1.2.7.cocoa.aarch64.dmg、Release: doublecmd-1.2.7.cocoa.x86_64.dmg；Windows 安装包：Release: doublecmd-1.2.7.i386-win32.exe、Release: doublecmd-1.2.7.i386-win32.msi |
+| 99 | [TabularisDB/tabularis](https://github.com/TabularisDB/tabularis)<br>中文简介：支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。 | 近期活跃热门仓库 | 3,953 | TypeScript | macOS 安装包：Release: tabularis_0.17.0_aarch64.dmg、Release: tabularis_0.17.0_x64.dmg；Windows 安装包：Release: tabularis_0.17.0_x64-portable.exe、Release: tabularis_0.17.0_x64-setup.exe |
+| 100 | [kunkundi/crossdesk](https://github.com/kunkundi/crossdesk)<br>中文简介：一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。 | 近期活跃热门仓库 | 4,217 | C++ | macOS 安装包：Release: crossdesk-macos-arm64-v1.4.1-20260728.pkg、Release: crossdesk-macos-x64-v1.4.1-20260728.pkg；Windows 安装包：Release: crossdesk-win-x64-v1.4.1-20260728.exe |
 
 ## 项目详情
 
@@ -35,201 +116,1001 @@
 
 支持实时语音聊天和游戏的自托管智能伴侣。
 
-- 热度：Daily Trending #3，今日 +797 Stars；累计 45,023 个星标 / 4,460 次复刻
-- macOS 证据：Release: AIRI-0.11.3-darwin-arm64.dmg；Release: AIRI-0.11.3-darwin-x64.dmg；README: macOS；README: DMG 安装包；README: Homebrew
-- Windows 证据：Release: AIRI-0.11.3-windows-x64-setup.exe；README: Windows；README: EXE 安装包；README: WinGet；README: Scoop
-- 最近推送：2026-07-29T06:46:28Z
+- 热度：Daily Trending #3，今日 +797 Stars；累计 45,039 个星标 / 4,462 次复刻
+- macOS 安装包：Release: AIRI-0.11.3-darwin-arm64.dmg；Release: AIRI-0.11.3-darwin-x64.dmg
+- Windows 安装包：Release: AIRI-0.11.3-windows-x64-setup.exe
+- 最近推送：2026-07-29T07:59:55Z
 - 最新版本：[v0.11.3](https://github.com/moeru-ai/airi/releases/tag/v0.11.3)
 
-### 2. [affaan-m/ECC](https://github.com/affaan-m/ECC)
-
-面向多平台的性能优化智能代理系统。
-
-- 热度：Daily Trending #5，今日 +636 Stars；累计 235,108 个星标 / 35,816 次复刻
-- macOS 证据：README: macOS
-- Windows 证据：README: Windows
-- 最近推送：2026-07-29T01:37:41Z
-- 最新版本：[v2.1.0](https://github.com/affaan-m/ECC/releases/tag/v2.1.0)
-
-### 3. [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)
+### 2. [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)
 
 轻量级云原生地理信息系统平台。
 
-- 热度：Daily Trending #9，今日 +607 Stars；累计 3,603 个星标 / 405 次复刻
-- macOS 证据：Release: geolibre-desktop_darwin_aarch64；Release: geolibre-desktop_darwin_x64；Release: GeoLibre.Desktop_2.4.0_aarch64.dmg；README: macOS
-- Windows 证据：Release: geolibre-desktop-2.4.0-x64.msix；Release: geolibre-desktop_windows_x64.exe；Release: GeoLibre.Desktop_2.4.0_x64-setup.exe；README: Windows
+- 热度：Daily Trending #8，今日 +607 Stars；累计 3,618 个星标 / 406 次复刻
+- macOS 安装包：Release: GeoLibre.Desktop_2.4.0_aarch64.dmg；Release: GeoLibre.Desktop_2.4.0_x64.dmg
+- Windows 安装包：Release: geolibre-desktop-2.4.0-x64.msix；Release: geolibre-desktop_windows_x64.exe；Release: GeoLibre.Desktop_2.4.0_x64-setup.exe
 - 最近推送：2026-07-29T05:33:02Z
 - 最新版本：[v2.4.0](https://github.com/opengeos/GeoLibre/releases/tag/v2.4.0)
 
-### 4. [yorukot/superfile](https://github.com/yorukot/superfile)
-
-现代化终端文件管理器。
-
-- 热度：Daily Trending #12，今日 +662 Stars；累计 21,684 个星标 / 708 次复刻
-- macOS 证据：Release: superfile-darwin-v1.6.0-amd64.tar.gz；Release: superfile-darwin-v1.6.0-arm64.tar.gz；README: macOS；README: Homebrew
-- Windows 证据：Release: superfile-windows-v1.6.0-amd64.zip；Release: superfile-windows-v1.6.0-arm64.zip；README: Windows；README: EXE 安装包；README: WinGet
-- 最近推送：2026-07-28T09:59:51Z
-- 最新版本：[v1.6.0](https://github.com/yorukot/superfile/releases/tag/v1.6.0)
-
-### 5. [microsoft/vscode](https://github.com/microsoft/vscode)
-
-微软出品的跨平台代码编辑器。
-
-- 热度：近期活跃热门仓库；累计 187,979 个星标 / 41,305 次复刻
-- macOS 证据：README: macOS
-- Windows 证据：README: Windows
-- 最近推送：2026-07-29T07:39:48Z
-- 最新版本：[1.130.0](https://github.com/microsoft/vscode/releases/tag/1.130.0)
-
-### 6. [farion1231/cc-switch](https://github.com/farion1231/cc-switch)
+### 3. [farion1231/cc-switch](https://github.com/farion1231/cc-switch)
 
 支持多智能代理的一体化跨平台桌面助手。
 
-- 热度：近期活跃热门仓库；累计 122,125 个星标 / 8,237 次复刻
-- macOS 证据：Release: CC-Switch-v3.18.0-macOS.dmg；Release: CC-Switch-v3.18.0-macOS.tar.gz；Release: CC-Switch-v3.18.0-macOS.tar.gz.sig；README: macOS；README: DMG 安装包
-- Windows 证据：Release: CC-Switch-v3.18.0-Windows-arm64-Portable.zip；Release: CC-Switch-v3.18.0-Windows-arm64.msi；Release: CC-Switch-v3.18.0-Windows-arm64.msi.sig；README: Windows；README: MSI/MSIX 安装包
+- 热度：近期活跃热门仓库；累计 122,139 个星标 / 8,238 次复刻
+- macOS 安装包：Release: CC-Switch-v3.18.0-macOS.dmg
+- Windows 安装包：Release: CC-Switch-v3.18.0-Windows-arm64.msi；Release: CC-Switch-v3.18.0-Windows.msi
 - 最近推送：2026-07-29T02:27:50Z
 - 最新版本：[v3.18.0](https://github.com/farion1231/cc-switch/releases/tag/v3.18.0)
 
-### 7. [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
+### 4. [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
 开源自托管远程桌面替代方案。
 
-- 热度：近期活跃热门仓库；累计 119,138 个星标 / 18,182 次复刻
-- macOS 证据：Release: rustdesk-1.4.9-aarch64.dmg；Release: rustdesk-1.4.9-x86_64.dmg；README: macOS
-- Windows 证据：Release: rustdesk-1.4.9-aarch64.exe；Release: rustdesk-1.4.9-aarch64.msi；Release: rustdesk-1.4.9-x86-sciter.exe；README: Windows
+- 热度：近期活跃热门仓库；累计 119,142 个星标 / 18,185 次复刻
+- macOS 安装包：Release: rustdesk-1.4.9-aarch64.dmg；Release: rustdesk-1.4.9-x86_64.dmg
+- Windows 安装包：Release: rustdesk-1.4.9-aarch64.exe；Release: rustdesk-1.4.9-aarch64.msi；Release: rustdesk-1.4.9-x86-sciter.exe
 - 最近推送：2026-07-29T07:32:58Z
 - 最新版本：[1.4.9](https://github.com/rustdesk/rustdesk/releases/tag/1.4.9)
 
-### 8. [nexu-io/open-design](https://github.com/nexu-io/open-design)
+### 5. [nexu-io/open-design](https://github.com/nexu-io/open-design)
 
 本地优先的开源设计工具，支持多种导出格式。
 
-- 热度：近期活跃热门仓库；累计 82,371 个星标 / 9,523 次复刻
-- macOS 证据：Release: open-design-0.16.1-mac-arm64.dmg；Release: open-design-0.16.1-mac-x64.dmg；README: macOS；README: Homebrew
-- Windows 证据：Release: open-design-0.16.1-win-x64-setup.exe；README: Windows
-- 最近推送：2026-07-29T07:37:51Z
+- 热度：近期活跃热门仓库；累计 82,378 个星标 / 9,522 次复刻
+- macOS 安装包：Release: open-design-0.16.1-mac-arm64.dmg；Release: open-design-0.16.1-mac-x64.dmg
+- Windows 安装包：Release: open-design-0.16.1-win-x64-setup.exe
+- 最近推送：2026-07-29T08:23:54Z
 - 最新版本：[open-design-v0.16.1](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.16.1)
 
-### 9. [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
+### 6. [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)
+
+基于AI驱动的软件开发平台。
+
+- 热度：近期活跃热门仓库；累计 82,460 个星标 / 10,580 次复刻
+- macOS 安装包：Release: Agent-Canvas-1.6.1-arm64.dmg
+- Windows 安装包：Release: Agent-Canvas-Setup-1.6.1.exe
+- 最近推送：2026-07-29T07:31:49Z
+- 最新版本：[v1.6.1](https://github.com/OpenHands/OpenHands/releases/tag/v1.6.1)
+
+### 7. [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
 
 隐私优先的开源下一代知识库平台。
 
-- 热度：近期活跃热门仓库；累计 70,891 个星标 / 5,090 次复刻
-- macOS 证据：Release: affine-0.27.3-stable-macos-arm64.dmg；Release: affine-0.27.3-stable-macos-arm64.zip；Release: affine-0.27.3-stable-macos-x64.dmg
-- Windows 证据：Release: affine-0.27.3-stable-windows-arm64.exe；Release: affine-0.27.3-stable-windows-arm64.nsis.exe；Release: affine-0.27.3-stable-windows-x64.exe
+- 热度：近期活跃热门仓库；累计 70,892 个星标 / 5,090 次复刻
+- macOS 安装包：Release: affine-0.27.3-stable-macos-arm64.dmg；Release: affine-0.27.3-stable-macos-x64.dmg
+- Windows 安装包：Release: affine-0.27.3-stable-windows-arm64.exe；Release: affine-0.27.3-stable-windows-arm64.nsis.exe；Release: affine-0.27.3-stable-windows-x64.exe
 - 最近推送：2026-07-29T06:19:32Z
 - 最新版本：[v0.27.3](https://github.com/toeverything/AFFiNE/releases/tag/v0.27.3)
 
-### 10. [laurent22/joplin](https://github.com/laurent22/joplin)
+### 8. [Eugeny/tabby](https://github.com/Eugeny/tabby)
+
+现代化终端工具。
+
+- 热度：近期活跃热门仓库；累计 73,575 个星标 / 4,185 次复刻
+- macOS 安装包：Release: tabby-1.0.235-macos-arm64.dmg；Release: tabby-1.0.235-macos-x86_64.dmg
+- Windows 安装包：Release: tabby-1.0.235-setup-arm64.exe；Release: tabby-1.0.235-setup-x64.exe
+- 最近推送：2026-07-28T04:03:07Z
+- 最新版本：[v1.0.235](https://github.com/Eugeny/tabby/releases/tag/v1.0.235)
+
+### 9. [laurent22/joplin](https://github.com/laurent22/joplin)
 
 支持多平台同步的隐私笔记应用。
 
 - 热度：近期活跃热门仓库；累计 55,765 个星标 / 6,195 次复刻
-- macOS 证据：Release: Joplin-3.6.15-arm64.DMG；Release: Joplin-3.6.15-arm64.pkg；Release: Joplin-3.6.15.dmg；README: macOS
-- Windows 证据：Release: Joplin-Setup-3.6.15.exe；Release: JoplinPortable.exe；README: Windows
+- macOS 安装包：Release: Joplin-3.6.15-arm64.DMG；Release: Joplin-3.6.15.dmg
+- Windows 安装包：Release: Joplin-Setup-3.6.15.exe；Release: JoplinPortable.exe
 - 最近推送：2026-07-29T05:52:37Z
 - 最新版本：[v3.6.15](https://github.com/laurent22/joplin/releases/tag/v3.6.15)
 
-### 11. [WerWolv/ImHex](https://github.com/WerWolv/ImHex)
+### 10. [WerWolv/ImHex](https://github.com/WerWolv/ImHex)
 
 适合逆向工程师的十六进制编辑器。
 
-- 热度：近期活跃热门仓库；累计 54,314 个星标 / 2,433 次复刻
-- macOS 证据：Release: imhex-1.38.1-macOS-arm64.dmg；Release: imhex-1.38.1-macOS-NoGPU-x86_64.dmg；Release: imhex-1.38.1-macOS-x86_64.dmg；README: macOS
-- Windows 证据：Release: imhex-1.38.1-Windows-arm64.msi；Release: imhex-1.38.1-Windows-Portable-arm64.zip；Release: imhex-1.38.1-Windows-Portable-NoGPU-x86_64.zip；README: Windows
+- 热度：近期活跃热门仓库；累计 54,315 个星标 / 2,433 次复刻
+- macOS 安装包：Release: imhex-1.38.1-macOS-arm64.dmg；Release: imhex-1.38.1-macOS-NoGPU-x86_64.dmg；Release: imhex-1.38.1-macOS-x86_64.dmg
+- Windows 安装包：Release: imhex-1.38.1-Windows-arm64.msi；Release: imhex-1.38.1-Windows-x86_64.msi
 - 最近推送：2026-07-29T00:46:35Z
 - 最新版本：[v1.38.1](https://github.com/WerWolv/ImHex/releases/tag/v1.38.1)
 
-### 12. [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
+### 11. [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
 
 跨平台的命令行自动化工具。
 
-- 热度：近期活跃热门仓库；累计 54,581 个星标 / 8,408 次复刻
-- macOS 证据：Release: powershell-7.6.4-osx-arm64.pkg；Release: powershell-7.6.4-osx-arm64.tar.gz；Release: powershell-7.6.4-osx-x64.pkg；README: macOS
-- Windows 证据：Release: PowerShell-7.6.4-win-arm64.msi；Release: PowerShell-7.6.4-win-x64.msi；Release: PowerShell-7.6.4-win-x86.msi；README: Windows
+- 热度：近期活跃热门仓库；累计 54,582 个星标 / 8,408 次复刻
+- macOS 安装包：Release: powershell-7.6.4-osx-arm64.pkg；Release: powershell-7.6.4-osx-x64.pkg；Release: powershell-lts-7.6.4-osx-arm64.pkg
+- Windows 安装包：Release: PowerShell-7.6.4-win-arm64.msi；Release: PowerShell-7.6.4-win-x64.msi；Release: PowerShell-7.6.4-win-x86.msi
 - 最近推送：2026-07-28T20:54:11Z
 - 最新版本：[v7.6.4](https://github.com/PowerShell/PowerShell/releases/tag/v7.6.4)
 
-### 13. [marktext/marktext](https://github.com/marktext/marktext)
+### 12. [marktext/marktext](https://github.com/marktext/marktext)
 
 简洁优雅的跨平台Markdown编辑器。
 
-- 热度：近期活跃热门仓库；累计 59,271 个星标 / 4,393 次复刻
-- macOS 证据：Release: marktext-mac-arm64-0.19.1.dmg；Release: marktext-mac-x64-0.19.1.dmg；README: macOS；README: DMG 安装包；README: Homebrew
-- Windows 证据：Release: marktext-win-arm64-0.19.1-setup.exe；Release: marktext-win-x64-0.19.1-setup.exe；README: Windows；README: EXE 安装包；README: WinGet
+- 热度：近期活跃热门仓库；累计 59,274 个星标 / 4,393 次复刻
+- macOS 安装包：Release: marktext-mac-arm64-0.19.1.dmg；Release: marktext-mac-x64-0.19.1.dmg
+- Windows 安装包：Release: marktext-win-arm64-0.19.1-setup.exe；Release: marktext-win-x64-0.19.1-setup.exe
 - 最近推送：2026-07-27T03:16:54Z
 - 最新版本：[v0.19.1](https://github.com/marktext/marktext/releases/tag/v0.19.1)
 
-### 14. [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
+### 13. [usebruno/bruno](https://github.com/usebruno/bruno)
+
+开源轻量级API测试和探索IDE。
+
+- 热度：近期活跃热门仓库；累计 45,985 个星标 / 2,729 次复刻
+- macOS 安装包：Release: bruno_4.0.0_arm64_mac.dmg；Release: bruno_4.0.0_arm64_mac.pkg；Release: bruno_4.0.0_x64_mac.dmg
+- Windows 安装包：Release: bruno_4.0.0_arm64_win.exe；Release: bruno_4.0.0_arm64_win.msi；Release: bruno_4.0.0_x64_win.exe
+- 最近推送：2026-07-29T08:09:12Z
+- 最新版本：[v4.0.0](https://github.com/usebruno/bruno/releases/tag/v4.0.0)
+
+### 14. [cli/cli](https://github.com/cli/cli)
+
+GitHub官方命令行工具。
+
+- 热度：近期活跃热门仓库；累计 45,489 个星标 / 8,781 次复刻
+- macOS 安装包：Release: gh_2.96.0_macOS_universal.pkg
+- Windows 安装包：Release: gh_2.96.0_windows_386.msi；Release: gh_2.96.0_windows_amd64.msi；Release: gh_2.96.0_windows_arm64.msi
+- 最近推送：2026-07-29T08:17:17Z
+- 最新版本：[v2.96.0](https://github.com/cli/cli/releases/tag/v2.96.0)
+
+### 15. [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
 
 自托管的开源个人知识管理软件。
 
-- 热度：近期活跃热门仓库；累计 45,473 个星标 / 2,921 次复刻
-- macOS 证据：Release: siyuan-3.7.3-mac-arm64.dmg；Release: siyuan-3.7.3-mac.dmg；README: macOS
-- Windows 证据：Release: siyuan-3.7.3-win-arm64.exe；Release: siyuan-3.7.3-win.exe；README: Windows；README: EXE 安装包
+- 热度：近期活跃热门仓库；累计 45,475 个星标 / 2,921 次复刻
+- macOS 安装包：Release: siyuan-3.7.3-mac-arm64.dmg；Release: siyuan-3.7.3-mac.dmg
+- Windows 安装包：Release: siyuan-3.7.3-win-arm64.exe；Release: siyuan-3.7.3-win.exe
 - 最近推送：2026-07-29T07:19:44Z
 - 最新版本：[v3.7.3](https://github.com/siyuan-note/siyuan/releases/tag/v3.7.3)
 
-### 15. [tw93/Pake](https://github.com/tw93/Pake)
+### 16. [tw93/Pake](https://github.com/tw93/Pake)
 
 一键将网页转换为桌面应用。
 
-- 热度：近期活跃热门仓库；累计 60,298 个星标 / 12,257 次复刻
-- macOS 证据：Release: ChatGPT.dmg；Release: DeepSeek.dmg；Release: Excalidraw.dmg；README: macOS；README: DMG 安装包
-- Windows 证据：Release: ChatGPT_x64.msi；Release: DeepSeek_x64.msi；Release: Excalidraw_x64.msi；README: Windows；README: MSI/MSIX 安装包
+- 热度：近期活跃热门仓库；累计 60,300 个星标 / 12,258 次复刻
+- macOS 安装包：Release: ChatGPT.dmg；Release: DeepSeek.dmg；Release: Excalidraw.dmg
+- Windows 安装包：Release: ChatGPT_x64.msi；Release: DeepSeek_x64.msi；Release: Excalidraw_x64.msi
 - 最近推送：2026-07-26T02:12:00Z
 - 最新版本：[V3.15.1](https://github.com/tw93/Pake/releases/tag/V3.15.1)
 
-### 16. [janhq/jan](https://github.com/janhq/jan)
+### 17. [janhq/jan](https://github.com/janhq/jan)
 
 完全离线运行的开源ChatGPT替代品。
 
 - 热度：近期活跃热门仓库；累计 43,752 个星标 / 2,927 次复刻
-- macOS 证据：Release: Jan_0.8.4_universal.dmg；README: macOS；README: DMG 安装包
-- Windows 证据：Release: Jan_0.8.4_x64-setup.exe；README: Windows；README: EXE 安装包
+- macOS 安装包：Release: Jan_0.8.4_universal.dmg
+- Windows 安装包：Release: Jan_0.8.4_x64-setup.exe
 - 最近推送：2026-07-29T07:43:15Z
 - 最新版本：[v0.8.4](https://github.com/janhq/jan/releases/tag/v0.8.4)
 
-### 17. [sxyazi/yazi](https://github.com/sxyazi/yazi)
+### 18. [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine)
 
-基于异步I/O的极速终端文件管理器。
+Moonlight的自托管游戏流媒体服务器。
 
-- 热度：近期活跃热门仓库；累计 40,861 个星标 / 958 次复刻
-- macOS 证据：Release: yazi-aarch64-apple-darwin.zip；Release: yazi-x86_64-apple-darwin.zip；README: macOS
-- Windows 证据：Release: yazi-aarch64-pc-windows-msvc.zip；Release: yazi-x86_64-pc-windows-msvc.zip；README: Windows
-- 最近推送：2026-07-29T05:23:47Z
-- 最新版本：[v26.5.6](https://github.com/sxyazi/yazi/releases/tag/v26.5.6)
+- 热度：近期活跃热门仓库；累计 39,685 个星标 / 2,149 次复刻
+- macOS 安装包：Release: Sunshine-macOS-arm64.dmg；Release: Sunshine-macOS-x86_64.dmg
+- Windows 安装包：Release: Sunshine-Windows-AMD64-installer.exe；Release: Sunshine-Windows-AMD64-installer.msi；Release: Sunshine-Windows-ARM64-installer.exe
+- 最近推送：2026-07-29T06:34:37Z
+- 最新版本：[v2026.516.143833](https://github.com/LizardByte/Sunshine/releases/tag/v2026.516.143833)
 
-### 18. [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium)
+### 19. [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium)
 
 构建个人知识库的笔记软件。
 
 - 热度：近期活跃热门仓库；累计 37,110 个星标 / 2,479 次复刻
-- macOS 证据：Release: TriliumNotes-v0.104.1-macos-arm64.dmg；Release: TriliumNotes-v0.104.1-macos-arm64.zip；Release: TriliumNotes-v0.104.1-macos-x64.dmg；README: macOS
-- Windows 证据：Release: TriliumNotes-v0.104.1-windows-arm64.exe；Release: TriliumNotes-v0.104.1-windows-arm64.zip；Release: TriliumNotes-v0.104.1-windows-x64.exe；README: Windows
+- macOS 安装包：Release: TriliumNotes-v0.104.1-macos-arm64.dmg；Release: TriliumNotes-v0.104.1-macos-x64.dmg
+- Windows 安装包：Release: TriliumNotes-v0.104.1-windows-arm64.exe；Release: TriliumNotes-v0.104.1-windows-x64.exe
 - 最近推送：2026-07-29T06:00:33Z
 - 最新版本：[v0.104.1](https://github.com/TriliumNext/Trilium/releases/tag/v0.104.1)
 
-### 19. [agalwood/Motrix](https://github.com/agalwood/Motrix)
+### 20. [agalwood/Motrix](https://github.com/agalwood/Motrix)
 
 功能完善的下载管理器。
 
 - 热度：近期活跃热门仓库；累计 52,339 个星标 / 4,900 次复刻
-- macOS 证据：Release: Motrix-1.8.19-arm64.dmg；Release: Motrix-1.8.19-universal.dmg；Release: Motrix-1.8.19.dmg；README: macOS；README: Homebrew
-- Windows 证据：Release: Motrix-1.8.19-ia32.exe；Release: Motrix-1.8.19-x64.exe；Release: Motrix-1.8.19.exe；README: Windows；README: EXE 安装包
+- macOS 安装包：Release: Motrix-1.8.19-arm64.dmg；Release: Motrix-1.8.19-universal.dmg；Release: Motrix-1.8.19.dmg
+- Windows 安装包：Release: Motrix-1.8.19-ia32.exe；Release: Motrix-1.8.19-x64.exe；Release: Motrix-1.8.19.exe
 - 最近推送：2026-07-25T04:01:26Z
 - 最新版本：[v1.8.19](https://github.com/agalwood/Motrix/releases/tag/v1.8.19)
 
-### 20. [KRTirtho/spotube](https://github.com/KRTirtho/spotube)
+### 21. [KRTirtho/spotube](https://github.com/KRTirtho/spotube)
 
 开源跨平台音乐流媒体应用。
 
 - 热度：近期活跃热门仓库；累计 47,975 个星标 / 2,228 次复刻
-- macOS 证据：Release: Spotube-macos-universal.dmg；Release: Spotube-macos-universal.pkg；README: macOS；README: Mac OS；README: OS X
-- Windows 证据：Release: Spotube-windows-x86_64-setup.exe；Release: Spotube-windows-x86_64.nupkg；README: Windows；README: EXE 安装包；README: WinGet
+- macOS 安装包：Release: Spotube-macos-universal.dmg；Release: Spotube-macos-universal.pkg
+- Windows 安装包：Release: Spotube-windows-x86_64-setup.exe
 - 最近推送：2026-07-25T16:26:09Z
 - 最新版本：[v5.1.2](https://github.com/KRTirtho/spotube/releases/tag/v5.1.2)
+
+### 22. [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)
+
+基于next.js的AI辅助draw.io图表编辑应用。
+
+- 热度：近期活跃热门仓库；累计 33,940 个星标 / 3,592 次复刻
+- macOS 安装包：Release: Next-AI-Draw.io-0.4.16-arm64.dmg；Release: Next-AI-Draw.io-0.4.16.dmg
+- Windows 安装包：Release: Next.AI.Draw.io.0.4.16.exe；Release: Next.AI.Draw.io.Setup.0.4.16.exe
+- 最近推送：2026-07-28T23:16:38Z
+- 最新版本：[v0.4.16](https://github.com/DayuanJiang/next-ai-draw-io/releases/tag/v0.4.16)
+
+### 23. [stablyai/orca](https://github.com/stablyai/orca)
+
+支持多代理并行的AI开发环境。
+
+- 热度：近期活跃热门仓库；累计 32,166 个星标 / 2,270 次复刻
+- macOS 安装包：Release: orca-macos-arm64.dmg；Release: orca-macos-x64.dmg
+- Windows 安装包：Release: orca-windows-setup.exe
+- 最近推送：2026-07-29T08:18:31Z
+- 最新版本：[v1.4.161](https://github.com/stablyai/orca/releases/tag/v1.4.161)
+
+### 24. [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop)
+
+Pear：音乐播放器扩展。
+
+- 热度：近期活跃热门仓库；累计 32,848 个星标 / 1,926 次复刻
+- macOS 安装包：Release: YouTube-Music-3.12.0-arm64.dmg；Release: YouTube-Music-3.12.0.dmg
+- Windows 安装包：Release: YouTube-Music-3.12.0.exe；Release: YouTube-Music-Web-Setup-3.12.0.exe
+- 最近推送：2026-07-28T20:02:35Z
+- 最新版本：[v3.12.0](https://github.com/pear-devs/pear-desktop/releases/tag/v3.12.0)
+
+### 25. [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
+
+便捷的网络流量监控工具。
+
+- 热度：近期活跃热门仓库；累计 40,203 个星标 / 1,830 次复刻
+- macOS 安装包：Release: Sniffnet_macOS_AppleSilicon.dmg；Release: Sniffnet_macOS_Intel.dmg
+- Windows 安装包：Release: Sniffnet_Windows_arm64.msi；Release: Sniffnet_Windows_x64.msi；Release: Sniffnet_Windows_x86.msi
+- 最近推送：2026-07-25T21:41:04Z
+- 最新版本：[v1.5.1](https://github.com/GyulyVGC/sniffnet/releases/tag/v1.5.1)
+
+### 26. [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
+
+跨平台高效启动器。
+
+- 热度：近期活跃热门仓库；累计 27,175 个星标 / 2,421 次复刻
+- macOS 安装包：Release: wox-mac-amd64.dmg；Release: wox-mac-arm64.dmg
+- Windows 安装包：Release: wox-windows-amd64.exe
+- 最近推送：2026-07-29T06:52:13Z
+- 最新版本：[v2.3.0](https://github.com/Wox-launcher/Wox/releases/tag/v2.3.0)
+
+### 27. [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot)
+
+功能强大且易用的截图软件。
+
+- 热度：近期活跃热门仓库；累计 30,501 个星标 / 1,977 次复刻
+- macOS 安装包：Release: Flameshot-14.0-macos-arm64.dmg；Release: Flameshot-14.0-macos-intel.dmg
+- Windows 安装包：Release: Flameshot-14.0.0-win64.msi
+- 最近推送：2026-07-27T19:17:47Z
+- 最新版本：[v14.0.0](https://github.com/flameshot-org/flameshot/releases/tag/v14.0.0)
+
+### 28. [cjpais/Handy](https://github.com/cjpais/Handy)
+
+完全离线的开源语音转文字应用。
+
+- 热度：近期活跃热门仓库；累计 27,791 个星标 / 2,417 次复刻
+- macOS 安装包：Release: Handy_0.9.4_aarch64.dmg；Release: Handy_0.9.4_x64.dmg
+- Windows 安装包：Release: Handy_0.9.4_arm64-setup.exe；Release: Handy_0.9.4_arm64_en-US.msi；Release: Handy_0.9.4_x64-setup.exe
+- 最近推送：2026-07-28T10:51:53Z
+- 最新版本：[v0.9.4](https://github.com/cjpais/Handy/releases/tag/v0.9.4)
+
+### 29. [Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI)
+
+图形化包管理器管理工具。
+
+- 热度：近期活跃热门仓库；累计 25,271 个星标 / 874 次复刻
+- macOS 安装包：Release: UniGetUI.macos-arm64.dmg；Release: UniGetUI.macos-x64.dmg
+- Windows 安装包：Release: UniGetUI.Installer.arm64.exe；Release: UniGetUI.Installer.exe；Release: UniGetUI.Installer.x64.exe
+- 最近推送：2026-07-28T19:24:56Z
+- 最新版本：[v2026.2.5](https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.5)
+
+### 30. [VSCodium/vscodium](https://github.com/VSCodium/vscodium)
+
+无微软品牌和遥测的VS Code二进制版。
+
+- 热度：近期活跃热门仓库；累计 32,555 个星标 / 1,825 次复刻
+- macOS 安装包：Release: VSCodium.arm64.1.126.04524.dmg；Release: VSCodium.x64.1.126.04524.dmg
+- Windows 安装包：Release: VSCodium-x64-1.126.04524.msi；Release: VSCodium-x64-updates-disabled-1.126.04524.msi；Release: VSCodiumSetup-arm64-1.126.04524.exe
+- 最近推送：2026-07-25T07:31:38Z
+- 最新版本：[1.126.04524](https://github.com/VSCodium/vscodium/releases/tag/1.126.04524)
+
+### 31. [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
+
+Beekeeper Studio：现代易用的多数据库SQL客户端。
+
+- 热度：近期活跃热门仓库；累计 23,274 个星标 / 1,575 次复刻
+- macOS 安装包：Release: Beekeeper-Studio-5.9.2-arm64.dmg；Release: Beekeeper-Studio-5.9.2.dmg
+- Windows 安装包：Release: Beekeeper-Studio-5.9.2-portable.exe；Release: Beekeeper-Studio-Setup-5.9.2.exe
+- 最近推送：2026-07-28T11:29:29Z
+- 最新版本：[v5.9.2](https://github.com/beekeeper-studio/beekeeper-studio/releases/tag/v5.9.2)
+
+### 32. [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
+
+集成AI的跨平台终端工具。
+
+- 热度：近期活跃热门仓库；累计 21,842 个星标 / 1,084 次复刻
+- macOS 安装包：Release: Wave-darwin-arm64-0.14.5.dmg；Release: Wave-darwin-x64-0.14.5.dmg
+- Windows 安装包：Release: Wave-win32-x64-0.14.5.exe；Release: Wave-win32-x64-0.14.5.msi
+- 最近推送：2026-07-29T01:49:22Z
+- 最新版本：[v0.14.5](https://github.com/wavetermdev/waveterm/releases/tag/v0.14.5)
+
+### 33. [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity)
+
+Super Productivity：集成时间管理的高级待办事项应用。
+
+- 热度：近期活跃热门仓库；累计 20,968 个星标 / 1,896 次复刻
+- macOS 安装包：Release: superProductivity-arm64.dmg；Release: superProductivity-universal.dmg；Release: superProductivity-x64.dmg
+- Windows 安装包：Release: Super-Productivity-Setup-arm64.exe；Release: Super-Productivity-Setup-x64.exe；Release: Super-Productivity-Setup.exe
+- 最近推送：2026-07-29T08:19:14Z
+- 最新版本：[v18.16.0](https://github.com/super-productivity/super-productivity/releases/tag/v18.16.0)
+
+### 34. [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)
+
+支持多协议的高速跨平台下载管理器。
+
+- 热度：近期活跃热门仓库；累计 25,530 个星标 / 1,673 次复刻
+- macOS 安装包：Release: Gopeed-v1.9.3-macos-amd64.dmg；Release: Gopeed-v1.9.3-macos-arm64.dmg；Release: Gopeed-v1.9.3-macos.dmg
+- Windows 安装包：Release: Gopeed-v1.9.3-windows-amd64.exe；Release: Gopeed-v1.9.3-windows-arm64.exe
+- 最近推送：2026-07-27T03:35:40Z
+- 最新版本：[v1.9.3](https://github.com/GopeedLab/gopeed/releases/tag/v1.9.3)
+
+### 35. [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch)
+
+免费开源的自动化时间追踪器。
+
+- 热度：近期活跃热门仓库；累计 18,416 个星标 / 973 次复刻
+- macOS 安装包：Release: activitywatch-v0.13.2-macos-x86_64.dmg
+- Windows 安装包：Release: activitywatch-v0.13.2-windows-x86_64-setup.exe
+- 最近推送：2026-07-28T20:48:30Z
+- 最新版本：[v0.13.2](https://github.com/ActivityWatch/activitywatch/releases/tag/v0.13.2)
+
+### 36. [nukeop/nuclear](https://github.com/nukeop/nuclear)
+
+免费音乐流媒体播放器。
+
+- 热度：近期活跃热门仓库；累计 18,138 个星标 / 1,304 次复刻
+- macOS 安装包：Release: Nuclear_1.43.2_aarch64.dmg；Release: Nuclear_1.43.2_x64.dmg
+- Windows 安装包：Release: Nuclear_1.43.2_x64-setup.exe；Release: Nuclear_1.43.2_x64_en-US.msi
+- 最近推送：2026-07-28T23:11:09Z
+- 最新版本：[player@1.43.2](https://github.com/nukeop/nuclear/releases/tag/player%401.43.2)
+
+### 37. [audacity/audacity](https://github.com/audacity/audacity)
+
+音频编辑器。
+
+- 热度：近期活跃热门仓库；累计 17,450 个星标 / 2,599 次复刻
+- macOS 安装包：Release: audacity-macOS-3.7.8-arm64.dmg；Release: audacity-macOS-3.7.8-universal.dmg；Release: audacity-macOS-3.7.8-x86_64.dmg
+- Windows 安装包：Release: audacity-win-3.7.8-32bit.exe；Release: audacity-win-3.7.8-64bit.exe；Release: audacity-win-3.7.8-arm64.exe
+- 最近推送：2026-07-29T06:42:08Z
+- 最新版本：[Audacity-3.7.8](https://github.com/audacity/audacity/releases/tag/Audacity-3.7.8)
+
+### 38. [mountain-loop/yaak](https://github.com/mountain-loop/yaak)
+
+直观的桌面API客户端，支持多种协议。
+
+- 热度：近期活跃热门仓库；累计 18,907 个星标 / 792 次复刻
+- macOS 安装包：Release: Yaak_2026.5.0_aarch64.dmg；Release: Yaak_2026.5.0_x64.dmg
+- Windows 安装包：Release: Yaak_2026.5.0_arm64-setup-machine.exe；Release: Yaak_2026.5.0_arm64-setup.exe；Release: Yaak_2026.5.0_x64-setup-machine.exe
+- 最近推送：2026-07-28T07:01:52Z
+- 最新版本：[v2026.5.0](https://github.com/mountain-loop/yaak/releases/tag/v2026.5.0)
+
+### 39. [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat)
+
+具备记忆功能的开源AI助手。
+
+- 热度：近期活跃热门仓库；累计 16,875 个星标 / 1,680 次复刻
+- macOS 安装包：Release: Rowboat-darwin-arm64-0.8.3.dmg；Release: Rowboat-darwin-x64-0.8.3.dmg
+- Windows 安装包：Release: Rowboat-win32-x64-0.8.3-setup.exe
+- 最近推送：2026-07-29T05:49:18Z
+- 最新版本：[v0.8.3](https://github.com/rowboatlabs/rowboat/releases/tag/v0.8.3)
+
+### 40. [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc)
+
+跨平台的KeePass密码管理器移植版。
+
+- 热度：近期活跃热门仓库；累计 28,192 个星标 / 1,861 次复刻
+- macOS 安装包：Release: KeePassXC-2.7.12-arm64.dmg；Release: KeePassXC-2.7.12-x86_64.dmg
+- Windows 安装包：Release: KeePassXC-2.7.12-Win64-LegacyWindows.msi；Release: KeePassXC-2.7.12-Win64.msi
+- 最近推送：2026-07-23T12:45:19Z
+- 最新版本：[2.7.12](https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.12)
+
+### 41. [alacritty/alacritty](https://github.com/alacritty/alacritty)
+
+跨平台OpenGL终端模拟器。
+
+- 热度：近期活跃热门仓库；累计 65,144 个星标 / 3,529 次复刻
+- macOS 安装包：Release: Alacritty-v0.17.0.dmg
+- Windows 安装包：Release: Alacritty-v0.17.0-installer.msi；Release: Alacritty-v0.17.0-portable.exe
+- 最近推送：2026-07-14T03:43:13Z
+- 最新版本：[v0.17.0](https://github.com/alacritty/alacritty/releases/tag/v0.17.0)
+
+### 42. [electerm/electerm](https://github.com/electerm/electerm)
+
+支持多协议的终端和远程连接客户端，跨平台支持多系统。
+
+- 热度：近期活跃热门仓库；累计 14,601 个星标 / 1,166 次复刻
+- macOS 安装包：Release: electerm-3.15.171-mac-arm64.dmg；Release: electerm-3.15.171-mac-x64.dmg；Release: electerm-3.15.171-mac10-x64.dmg
+- Windows 安装包：Release: electerm-3.15.171-win-arm64-installer.exe；Release: electerm-3.15.171-win-x64-installer.exe
+- 最近推送：2026-07-29T07:12:04Z
+- 最新版本：[v3.15.171](https://github.com/electerm/electerm/releases/tag/v3.15.171)
+
+### 43. [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix)
+
+自托管的SSH和远程桌面管理工具。
+
+- 热度：近期活跃热门仓库；累计 14,517 个星标 / 650 次复刻
+- macOS 安装包：Release: termix_macos_arm64_dmg.dmg；Release: termix_macos_universal_dmg.dmg；Release: termix_macos_x64_dmg.dmg
+- Windows 安装包：Release: termix_windows_ia32_msi.msi；Release: termix_windows_ia32_nsis.exe；Release: termix_windows_x64_msi.msi
+- 最近推送：2026-07-29T06:58:04Z
+- 最新版本：[release-2.6.0-tag](https://github.com/Termix-SSH/Termix/releases/tag/release-2.6.0-tag)
+
+### 44. [streetwriters/notesnook](https://github.com/streetwriters/notesnook)
+
+完全开源且端到端加密的笔记软件，Evernote替代品。
+
+- 热度：近期活跃热门仓库；累计 14,337 个星标 / 972 次复刻
+- macOS 安装包：Release: notesnook_mac_arm64.dmg；Release: notesnook_mac_x64.dmg
+- Windows 安装包：Release: notesnook_win.exe；Release: notesnook_win_arm64.exe；Release: notesnook_win_arm64_portable.exe
+- 最近推送：2026-07-29T07:51:12Z
+- 最新版本：[v3.4.5](https://github.com/streetwriters/notesnook/releases/tag/v3.4.5)
+
+### 45. [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
+
+一个基于 Electron 的音乐软件
+
+- 热度：近期活跃热门仓库；累计 52,405 个星标 / 6,933 次复刻
+- macOS 安装包：Release: lx-music-desktop-2.12.2-arm64.dmg；Release: lx-music-desktop-2.12.2-x64.dmg
+- Windows 安装包：Release: lx-music-desktop-v2.12.2-arm64-Setup.exe；Release: lx-music-desktop-v2.12.2-win7_x64-Setup.exe；Release: lx-music-desktop-v2.12.2-x64-Setup.exe
+- 最近推送：2026-07-15T01:36:41Z
+- 最新版本：[v2.12.2](https://github.com/lyswhut/lx-music-desktop/releases/tag/v2.12.2)
+
+### 46. [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)
+
+本地优先的跨平台桌面工作空间，支持多智能体和多模型。
+
+- 热度：近期活跃热门仓库；累计 13,694 个星标 / 8,491 次复刻
+- macOS 安装包：Release: Claude-Code-Haha-0.5.0-mac-arm64.dmg；Release: Claude-Code-Haha-0.5.0-mac-x64.dmg
+- Windows 安装包：Release: Claude-Code-Haha-0.5.0-win-arm64.exe；Release: Claude-Code-Haha-0.5.0-win-x64.exe
+- 最近推送：2026-07-29T06:39:16Z
+- 最新版本：[v0.5.0](https://github.com/NanmiCoder/cc-haha/releases/tag/v0.5.0)
+
+### 47. [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager)
+
+加速下载的下载管理器。
+
+- 热度：近期活跃热门仓库；累计 16,912 个星标 / 878 次复刻
+- macOS 安装包：Release: ABDownloadManager_1.10.1_mac_arm64.dmg；Release: ABDownloadManager_1.10.1_mac_x64.dmg
+- Windows 安装包：Release: ABDownloadManager_1.10.1_windows_arm64.exe；Release: ABDownloadManager_1.10.1_windows_x64.exe
+- 最近推送：2026-07-26T20:47:25Z
+- 最新版本：[v1.10.1](https://github.com/amir1376/ab-download-manager/releases/tag/v1.10.1)
+
+### 48. [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
+
+一站式出版工作平台。
+
+- 热度：近期活跃热门仓库；累计 13,309 个星标 / 821 次复刻
+- macOS 安装包：Release: Zettlr-4.7.0-arm64.dmg；Release: Zettlr-4.7.0-x64.dmg
+- Windows 安装包：Release: Zettlr-4.7.0-x64.exe
+- 最近推送：2026-07-28T19:46:30Z
+- 最新版本：[v4.7.0](https://github.com/Zettlr/Zettlr/releases/tag/v4.7.0)
+
+### 49. [codexu/note-gen](https://github.com/codexu/note-gen)
+
+跨平台的Markdown AI笔记软件。
+
+- 热度：近期活跃热门仓库；累计 12,371 个星标 / 933 次复刻
+- macOS 安装包：Release: NoteGen_0.32.1_aarch64.dmg；Release: NoteGen_0.32.1_x64.dmg
+- Windows 安装包：Release: NoteGen_0.32.1_x64-setup.exe；Release: NoteGen_0.32.1_x64_en-US.msi
+- 最近推送：2026-07-29T08:15:54Z
+- 最新版本：[note-gen-v0.32.1](https://github.com/codexu/note-gen/releases/tag/note-gen-v0.32.1)
+
+### 50. [t8y2/dbx](https://github.com/t8y2/dbx)
+
+轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。
+
+- 热度：近期活跃热门仓库；累计 12,316 个星标 / 1,186 次复刻
+- macOS 安装包：Release: DBX_0.5.69_aarch64.dmg；Release: DBX_0.5.69_x64.dmg
+- Windows 安装包：Release: DBX_0.5.69_arm64-setup.exe；Release: DBX_0.5.69_arm64-webview2-offline-setup.exe；Release: DBX_0.5.69_arm64_en-US.msi
+- 最近推送：2026-07-29T08:16:39Z
+- 最新版本：[v0.5.69](https://github.com/t8y2/dbx/releases/tag/v0.5.69)
+
+### 51. [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext)
+
+跨平台的Notepad++重实现文本编辑器。
+
+- 热度：近期活跃热门仓库；累计 14,408 个星标 / 899 次复刻
+- macOS 安装包：Release: NotepadNext-v0.14.dmg
+- Windows 安装包：Release: NotepadNext-v0.14-Installer.exe
+- 最近推送：2026-07-27T09:57:46Z
+- 最新版本：[v0.14](https://github.com/dail8859/NotepadNext/releases/tag/v0.14)
+
+### 52. [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app)
+
+Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation.
+
+- 热度：近期活跃热门仓库；累计 13,009 个星标 / 2,363 次复刻
+- macOS 安装包：Release: ToonFlow-1.1.8-mac-arm64.dmg；Release: ToonFlow-1.1.8-mac-x64.dmg
+- Windows 安装包：Release: ToonFlow-1.1.8-win-arm64-setup.exe；Release: ToonFlow-1.1.8-win-x64-setup.exe
+- 最近推送：2026-07-28T08:16:41Z
+- 最新版本：[v1.1.8](https://github.com/HBAI-Ltd/Toonflow-app/releases/tag/v1.1.8)
+
+### 53. [mltframework/shotcut](https://github.com/mltframework/shotcut)
+
+跨平台开源视频编辑器，基于Qt和GPLv3。
+
+- 热度：近期活跃热门仓库；累计 14,652 个星标 / 1,449 次复刻
+- macOS 安装包：Release: shotcut-macos-26.6.25.dmg；Release: shotcut-macos-unsigned-26.6.25.dmg
+- Windows 安装包：Release: shotcut-win64-26.6.25.exe；Release: shotcut-win_ARM-26.6.25.exe
+- 最近推送：2026-07-26T23:13:35Z
+- 最新版本：[v26.6.25](https://github.com/mltframework/shotcut/releases/tag/v26.6.25)
+
+### 54. [getpaseo/paseo](https://github.com/getpaseo/paseo)
+
+桌面和移动端多智能体编程协调工具。
+
+- 热度：近期活跃热门仓库；累计 11,610 个星标 / 1,161 次复刻
+- macOS 安装包：Release: Paseo-0.2.3-arm64.dmg；Release: Paseo-0.2.3-x64.dmg
+- Windows 安装包：Release: Paseo-Setup-0.2.3-arm64.exe；Release: Paseo-Setup-0.2.3-x64.exe；Release: Paseo-Setup-0.2.3.exe
+- 最近推送：2026-07-29T07:40:38Z
+- 最新版本：[v0.2.3](https://github.com/getpaseo/paseo/releases/tag/v0.2.3)
+
+### 55. [lapce/lapce](https://github.com/lapce/lapce)
+
+用Rust编写的极速强大代码编辑器。
+
+- 热度：近期活跃热门仓库；累计 38,699 个星标 / 1,311 次复刻
+- macOS 安装包：Release: Lapce-macos.dmg
+- Windows 安装包：Release: Lapce-windows.msi
+- 最近推送：2026-07-15T11:27:37Z
+- 最新版本：[v0.4.6](https://github.com/lapce/lapce/releases/tag/v0.4.6)
+
+### 56. [espanso/espanso](https://github.com/espanso/espanso)
+
+注重隐私的跨平台文本扩展工具，Rust开发。
+
+- 热度：近期活跃热门仓库；累计 14,199 个星标 / 442 次复刻
+- macOS 安装包：Release: Espanso-Mac-Universal.dmg
+- Windows 安装包：Release: Espanso-Win-Installer-x86_64.exe
+- 最近推送：2026-07-26T02:22:11Z
+- 最新版本：[v2.4.0](https://github.com/espanso/espanso/releases/tag/v2.4.0)
+
+### 57. [hluk/CopyQ](https://github.com/hluk/CopyQ)
+
+功能丰富的剪贴板管理器。
+
+- 热度：近期活跃热门仓库；累计 12,050 个星标 / 580 次复刻
+- macOS 安装包：Release: CopyQ-16.0.0-macos-12-m1.dmg；Release: CopyQ-16.0.0-macos-13.dmg
+- Windows 安装包：Release: copyq-16.0.0-setup.exe
+- 最近推送：2026-07-27T20:10:07Z
+- 最新版本：[v16.0.0](https://github.com/hluk/CopyQ/releases/tag/v16.0.0)
+
+### 58. [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop)
+
+支持Mac、Windows和Linux的流媒体种子客户端。
+
+- 热度：近期活跃热门仓库；累计 10,095 个星标 / 1,032 次复刻
+- macOS 安装包：Release: WebTorrent-v0.24.0.dmg
+- Windows 安装包：Release: WebTorrentSetup-v0.24.0.exe
+- 最近推送：2026-07-28T21:54:04Z
+- 最新版本：[v0.24.0](https://github.com/webtorrent/webtorrent-desktop/releases/tag/v0.24.0)
+
+### 59. [tonyantony300/dashbeam](https://github.com/tonyantony300/dashbeam)
+
+无需云存储，全球传输任意大小文件的工具。
+
+- 热度：近期活跃热门仓库；累计 8,847 个星标 / 553 次复刻
+- macOS 安装包：Release: AltSendme_0.6.0_aarch64.dmg；Release: AltSendme_0.6.0_universal.dmg；Release: AltSendme_0.6.0_x64.dmg
+- Windows 安装包：Release: AltSendme_0.6.0_arm64-setup.exe；Release: AltSendme_0.6.0_x64-setup.exe；Release: AltSendme_0.6.0_x64_en-US.msi
+- 最近推送：2026-07-29T06:30:56Z
+- 最新版本：[v0.6.0](https://github.com/tonyantony300/dashbeam/releases/tag/v0.6.0)
+
+### 60. [jeffvli/feishin](https://github.com/jeffvli/feishin)
+
+现代自托管音乐播放器。
+
+- 热度：近期活跃热门仓库；累计 9,283 个星标 / 485 次复刻
+- macOS 安装包：Release: Feishin-1.15.1-mac-arm64.dmg；Release: Feishin-1.15.1-mac-x64.dmg
+- Windows 安装包：Release: Feishin-1.15.1-win-arm64.exe；Release: Feishin-1.15.1-win-x64.exe；Release: Feishin-1.15.1-win.exe
+- 最近推送：2026-07-28T16:02:07Z
+- 最新版本：[v1.15.1](https://github.com/jeffvli/feishin/releases/tag/v1.15.1)
+
+### 61. [mockoon/mockoon](https://github.com/mockoon/mockoon)
+
+本地快速运行模拟API的开源工具，无需账号。
+
+- 热度：近期活跃热门仓库；累计 8,342 个星标 / 461 次复刻
+- macOS 安装包：Release: mockoon.setup.9.7.0.arm64.dmg；Release: mockoon.setup.9.7.0.universal.dmg；Release: mockoon.setup.9.7.0.x64.dmg
+- Windows 安装包：Release: mockoon.portable.9.7.0.exe；Release: mockoon.setup.9.7.0.exe
+- 最近推送：2026-07-29T07:48:35Z
+- 最新版本：[v9.7.0](https://github.com/mockoon/mockoon/releases/tag/v9.7.0)
+
+### 62. [crynta/terax-ai](https://github.com/crynta/terax-ai)
+
+轻量级终端优先的AI开发工作空间。
+
+- 热度：近期活跃热门仓库；累计 8,733 个星标 / 940 次复刻
+- macOS 安装包：Release: Terax_0.8.6_aarch64.dmg；Release: Terax_0.8.6_x64.dmg
+- Windows 安装包：Release: Terax_0.8.6_x64-setup.exe；Release: Terax_0.8.6_x64_en-US.msi
+- 最近推送：2026-07-28T19:09:20Z
+- 最新版本：[v0.8.6](https://github.com/crynta/terax-ai/releases/tag/v0.8.6)
+
+### 63. [getagentseal/codeburn](https://github.com/getagentseal/codeburn)
+
+免费本地工具，跟踪31款AI编码工具的令牌使用和费用。
+
+- 热度：近期活跃热门仓库；累计 9,008 个星标 / 709 次复刻
+- macOS 安装包：Release: CodeBurn-0.9.19-arm64.dmg；Release: CodeBurn-0.9.19.dmg
+- Windows 安装包：Release: CodeBurn-Setup-0.9.19.exe
+- 最近推送：2026-07-28T01:52:06Z
+- 最新版本：[desktop-v0.9.19](https://github.com/getagentseal/codeburn/releases/tag/desktop-v0.9.19)
+
+### 64. [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3)
+
+基于Python和Qt的跨平台多协议并发下载器。
+
+- 热度：近期活跃热门仓库；累计 7,587 个星标 / 461 次复刻
+- macOS 安装包：Release: Ghost-Downloader-v4.2.0-macOS-arm64.dmg；Release: Ghost-Downloader-v4.2.0-macOS-x86_64.dmg
+- Windows 安装包：Release: Ghost-Downloader-v4.2.0-Windows-arm64-Setup.exe；Release: Ghost-Downloader-v4.2.0-Windows-x86_64-Setup.exe
+- 最近推送：2026-07-29T08:04:15Z
+- 最新版本：[v4.2.0](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/tag/v4.2.0)
+
+### 65. [mediago-dev/mediago](https://github.com/mediago-dev/mediago)
+
+跨平台视频下载器，支持m3u8/HLS及主流视频网站。
+
+- 热度：近期活跃热门仓库；累计 9,098 个星标 / 804 次复刻
+- macOS 安装包：Release: mediago-community-setup-darwin-arm64-3.5.0.dmg；Release: mediago-community-setup-darwin-x64-3.5.0.dmg
+- Windows 安装包：Release: mediago-community-portable-win32-x64-3.5.0.exe；Release: mediago-community-setup-win32-x64-3.5.0.exe
+- 最近推送：2026-07-27T08:16:27Z
+- 最新版本：[v3.5.0](https://github.com/mediago-dev/mediago/releases/tag/v3.5.0)
+
+### 66. [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor)
+
+通用2D图像编辑器。
+
+- 热度：近期活跃热门仓库；累计 7,909 个星标 / 325 次复刻
+- macOS 安装包：Release: PixiEditor-2.1.2.1-universal-macos.dmg
+- Windows 安装包：Release: PixiEditor-2.1.2.1-setup-x64-win.exe
+- 最近推送：2026-07-28T12:32:20Z
+- 最新版本：[2.1.2.1](https://github.com/PixiEditor/PixiEditor/releases/tag/2.1.2.1)
+
+### 67. [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW)
+
+高性能GPU加速的非破坏性RAW图像编辑器。
+
+- 热度：近期活跃热门仓库；累计 9,006 个星标 / 465 次复刻
+- macOS 安装包：Release: 02_RapidRAW_v1.6.0_macos-14_aarch64.dmg；Release: 02_RapidRAW_v1.6.0_macos-15-intel_x64.dmg
+- Windows 安装包：Release: 01_RapidRAW_v1.6.0_windows-11-arm_arm64.exe；Release: 01_RapidRAW_v1.6.0_windows-11-arm_arm64.msi；Release: 01_RapidRAW_v1.6.0_windows_x64.exe
+- 最近推送：2026-07-26T16:36:11Z
+- 最新版本：[v1.6.0](https://github.com/CyberTimon/RapidRAW/releases/tag/v1.6.0)
+
+### 68. [massCodeIO/massCode](https://github.com/massCodeIO/massCode)
+
+免费开源开发者工作空间，集成代码片段、笔记、HTTP请求和开发工具。
+
+- 热度：近期活跃热门仓库；累计 6,933 个星标 / 261 次复刻
+- macOS 安装包：Release: massCode-5.9.1-arm64.dmg；Release: massCode-5.9.1.dmg
+- Windows 安装包：Release: massCode-5.9.1-x64-portable.exe；Release: massCode-5.9.1-x64.exe
+- 最近推送：2026-07-29T08:20:49Z
+- 最新版本：[v5.9.1](https://github.com/massCodeIO/massCode/releases/tag/v5.9.1)
+
+### 69. [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop)
+
+桌面容器管理和Kubernetes工具。
+
+- 热度：近期活跃热门仓库；累计 7,258 个星标 / 372 次复刻
+- macOS 安装包：Release: Rancher.Desktop-1.23.1.aarch64.dmg；Release: Rancher.Desktop-1.23.1.x86_64.dmg
+- Windows 安装包：Release: Rancher.Desktop.Setup.1.23.1.msi
+- 最近推送：2026-07-28T19:56:46Z
+- 最新版本：[v1.23.1](https://github.com/rancher-sandbox/rancher-desktop/releases/tag/v1.23.1)
+
+### 70. [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil)
+
+开源AI设计编辑器，Figma替代方案。
+
+- 热度：近期活跃热门仓库；累计 7,464 个星标 / 719 次复刻
+- macOS 安装包：Release: OpenPencil_0.13.2_aarch64.dmg；Release: OpenPencil_0.13.2_x64.dmg
+- Windows 安装包：Release: OpenPencil_0.13.2_arm64-setup.exe；Release: OpenPencil_0.13.2_arm64_en-US.msi；Release: OpenPencil_0.13.2_x64-setup.exe
+- 最近推送：2026-07-28T08:48:33Z
+- 最新版本：[v0.13.2](https://github.com/open-pencil/open-pencil/releases/tag/v0.13.2)
+
+### 71. [4gray/iptvnator](https://github.com/4gray/iptvnator)
+
+跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。
+
+- 热度：近期活跃热门仓库；累计 6,717 个星标 / 865 次复刻
+- macOS 安装包：Release: iptvnator-0.22.0-mac-arm64.dmg；Release: iptvnator-0.22.0-mac-x64.dmg
+- Windows 安装包：Release: iptvnator-0.22.0-windows-x64-setup.exe
+- 最近推送：2026-07-29T07:03:43Z
+- 最新版本：[v0.22.0](https://github.com/4gray/iptvnator/releases/tag/v0.22.0)
+
+### 72. [raphamorim/rio](https://github.com/raphamorim/rio)
+
+硬件加速GPU终端模拟器，支持桌面和浏览器运行。
+
+- 热度：近期活跃热门仓库；累计 7,087 个星标 / 310 次复刻
+- macOS 安装包：Release: Canario-0.0.1.dmg；Release: rio.dmg
+- Windows 安装包：Release: rio-installer-aarch64.msi；Release: rio-installer-x86_64.msi；Release: rio-portable-aarch64.exe
+- 最近推送：2026-07-28T15:12:57Z
+- 最新版本：[v0.5.2](https://github.com/raphamorim/rio/releases/tag/v0.5.2)
+
+### 73. [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat)
+
+智能助手DeepChat，连接强大AI服务，助力个人应用。
+
+- 热度：近期活跃热门仓库；累计 6,172 个星标 / 709 次复刻
+- macOS 安装包：Release: DeepChat-1.0.9-mac-arm64.dmg；Release: DeepChat-1.0.9-mac-x64.dmg
+- Windows 安装包：Release: DeepChat-1.0.9-windows-arm64.exe；Release: DeepChat-1.0.9-windows-x64.exe
+- 最近推送：2026-07-29T06:35:25Z
+- 最新版本：[v1.0.9](https://github.com/ThinkInAIXYZ/deepchat/releases/tag/v1.0.9)
+
+### 74. [dbgate/dbgate](https://github.com/dbgate/dbgate)
+
+支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。
+
+- 热度：近期活跃热门仓库；累计 7,175 个星标 / 443 次复刻
+- macOS 安装包：Release: dbgate-7.2.3-mac_arm64.dmg；Release: dbgate-7.2.3-mac_universal.dmg；Release: dbgate-7.2.3-mac_x64.dmg
+- Windows 安装包：Release: dbgate-7.2.3-win.exe；Release: dbgate-7.2.3-win_arm64.exe；Release: dbgate-7.2.3-win_x64.exe
+- 最近推送：2026-07-27T12:56:02Z
+- 最新版本：[v7.2.3](https://github.com/dbgate/dbgate/releases/tag/v7.2.3)
+
+### 75. [op7418/CodePilot](https://github.com/op7418/CodePilot)
+
+多模型AI代理桌面客户端，支持多AI服务和手机远程控制。
+
+- 热度：近期活跃热门仓库；累计 6,227 个星标 / 673 次复刻
+- macOS 安装包：Release: CodePilot-0.61.0-arm64.dmg；Release: CodePilot-0.61.0-x64.dmg
+- Windows 安装包：Release: CodePilot.Setup.0.61.0.exe
+- 最近推送：2026-07-28T14:27:47Z
+- 最新版本：[v0.61.0](https://github.com/op7418/CodePilot/releases/tag/v0.61.0)
+
+### 76. [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI)
+
+开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。
+
+- 热度：近期活跃热门仓库；累计 5,715 个星标 / 899 次复刻
+- macOS 安装包：Release: LobsterAI--mac-arm64.dmg；Release: LobsterAI--mac-x64.dmg
+- Windows 安装包：Release: LobsterAI--win-x64.exe
+- 最近推送：2026-07-29T08:01:21Z
+- 最新版本：[2026.7.23](https://github.com/netease-youdao/LobsterAI/releases/tag/2026.7.23)
+
+### 77. [HuLaSpark/HuLa](https://github.com/HuLaSpark/HuLa)
+
+🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）
+
+- 热度：近期活跃热门仓库；累计 7,463 个星标 / 1,011 次复刻
+- macOS 安装包：Release: HuLa_3.0.9_aarch64.dmg；Release: HuLa_3.0.9_x64.dmg
+- Windows 安装包：Release: HuLa_3.0.9_x64-setup.exe；Release: HuLa_3.0.9_x64_zh-CN.msi
+- 最近推送：2026-07-26T09:40:52Z
+- 最新版本：[v3.0.9](https://github.com/HuLaSpark/HuLa/releases/tag/v3.0.9)
+
+### 78. [reqable/reqable-app](https://github.com/reqable/reqable-app)
+
+Reqable问题跟踪仓库。
+
+- 热度：近期活跃热门仓库；累计 6,571 个星标 / 255 次复刻
+- macOS 安装包：Release: reqable-app-macos-arm64.dmg；Release: reqable-app-macos-x86_64.dmg
+- Windows 安装包：Release: reqable-app-windows-x86_64.exe
+- 最近推送：2026-07-27T17:32:30Z
+- 最新版本：[3.2.16](https://github.com/reqable/reqable-app/releases/tag/3.2.16)
+
+### 79. [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk)
+
+像素风桌面宠物，监控多种AI编程助手。
+
+- 热度：近期活跃热门仓库；累计 5,695 个星标 / 578 次复刻
+- macOS 安装包：Release: Clawd-on-Desk-0.13.0-arm64.dmg；Release: Clawd-on-Desk-0.13.0-x64.dmg
+- Windows 安装包：Release: Clawd-on-Desk-Setup-0.13.0-arm64.exe；Release: Clawd-on-Desk-Setup-0.13.0-x64.exe
+- 最近推送：2026-07-29T06:35:27Z
+- 最新版本：[v0.13.0](https://github.com/rullerzhou-afk/clawd-on-desk/releases/tag/v0.13.0)
+
+### 80. [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic)
+
+一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:
+
+- 热度：近期活跃热门仓库；累计 6,029 个星标 / 394 次复刻
+- macOS 安装包：Release: MoeKoe_Music_v1.6.9-arm64.dmg；Release: MoeKoe_Music_v1.6.9-x64.dmg
+- Windows 安装包：Release: MoeKoe_Music_Setup_v1.6.9-ia32.exe；Release: MoeKoe_Music_Setup_v1.6.9-x64.exe；Release: MoeKoe_Music_Setup_v1.6.9.exe
+- 最近推送：2026-07-28T09:09:01Z
+- 最新版本：[v1.6.9](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/tag/v1.6.9)
+
+### 81. [thewh1teagle/vibe](https://github.com/thewh1teagle/vibe)
+
+支持本地转录的语音转文字工具。
+
+- 热度：近期活跃热门仓库；累计 6,941 个星标 / 472 次复刻
+- macOS 安装包：Release: vibe_3.0.23_aarch64.dmg；Release: vibe_3.0.23_x64.dmg
+- Windows 安装包：Release: vibe_3.0.23_x64-setup.exe
+- 最近推送：2026-07-26T16:05:31Z
+- 最新版本：[v3.0.23](https://github.com/thewh1teagle/vibe/releases/tag/v3.0.23)
+
+### 82. [generalaction/emdash](https://github.com/generalaction/emdash)
+
+开源多代理开发环境，支持并行运行多种编码代理。
+
+- 热度：近期活跃热门仓库；累计 5,290 个星标 / 543 次复刻
+- macOS 安装包：Release: emdash-arm64.dmg；Release: emdash-x64.dmg
+- Windows 安装包：Release: emdash-x64.exe；Release: emdash-x64.msi
+- 最近推送：2026-07-28T22:47:29Z
+- 最新版本：[v1.1.40](https://github.com/generalaction/emdash/releases/tag/v1.1.40)
+
+### 83. [altair-graphql/altair](https://github.com/altair-graphql/altair)
+
+功能丰富的跨平台GraphQL客户端。
+
+- 热度：近期活跃热门仓库；累计 5,425 个星标 / 403 次复刻
+- macOS 安装包：Release: altair_8.5.7_arm64_mac.dmg；Release: altair_8.5.7_x64_mac.dmg
+- Windows 安装包：Release: altair_8.5.7_x64_win.exe
+- 最近推送：2026-07-28T09:55:31Z
+- 最新版本：[v8.5.7](https://github.com/altair-graphql/altair/releases/tag/v8.5.7)
+
+### 84. [OpenWhispr/openwhispr](https://github.com/OpenWhispr/openwhispr)
+
+隐私优先的跨平台语音转文字应用，支持本地和云端模型。
+
+- 热度：近期活跃热门仓库；累计 4,954 个星标 / 710 次复刻
+- macOS 安装包：Release: OpenWhispr-1.7.6-arm64.dmg；Release: OpenWhispr-1.7.6.dmg
+- Windows 安装包：Release: OpenWhispr-1.7.6.exe；Release: OpenWhispr-Setup-1.7.6.exe
+- 最近推送：2026-07-29T06:44:07Z
+- 最新版本：[v1.7.6](https://github.com/OpenWhispr/openwhispr/releases/tag/v1.7.6)
+
+### 85. [Splode/pomotroid](https://github.com/Splode/pomotroid)
+
+简洁美观的番茄钟计时器。
+
+- 热度：近期活跃热门仓库；累计 5,381 个星标 / 458 次复刻
+- macOS 安装包：Release: Pomotroid_1.7.1_universal.dmg
+- Windows 安装包：Release: pomotroid.exe；Release: Pomotroid_1.7.1_x64-setup.exe
+- 最近推送：2026-07-28T06:34:31Z
+- 最新版本：[v1.7.1](https://github.com/Splode/pomotroid/releases/tag/v1.7.1)
+
+### 86. [IsmaelMartinez/teams-for-linux](https://github.com/IsmaelMartinez/teams-for-linux)
+
+非官方Linux版微软Teams客户端。
+
+- 热度：近期活跃热门仓库；累计 4,892 个星标 / 365 次复刻
+- macOS 安装包：Release: teams-for-linux-2.13.0.dmg
+- Windows 安装包：Release: teams-for-linux-Setup-2.13.0.exe
+- 最近推送：2026-07-29T04:53:10Z
+- 最新版本：[v2.13.0](https://github.com/IsmaelMartinez/teams-for-linux/releases/tag/v2.13.0)
+
+### 87. [purocean/yn](https://github.com/purocean/yn)
+
+高度可扩展的Markdown编辑器，集成版本控制和AI助手。
+
+- 热度：近期活跃热门仓库；累计 6,669 个星标 / 926 次复刻
+- macOS 安装包：Release: Yank-Note-mac-arm64-3.92.1.dmg；Release: Yank-Note-mac-x64-3.92.1.dmg
+- Windows 安装包：Release: Yank-Note-win-x64-3.92.1.exe
+- 最近推送：2026-07-25T10:13:33Z
+- 最新版本：[v3.92.1](https://github.com/purocean/yn/releases/tag/v3.92.1)
+
+### 88. [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader)
+
+支持数百网站视频音频下载的桌面应用。
+
+- 热度：近期活跃热门仓库；累计 10,028 个星标 / 893 次复刻
+- macOS 安装包：Release: YTDownloader_Mac_arm64.dmg；Release: YTDownloader_Mac_x64.dmg
+- Windows 安装包：Release: YTDownloader_Win.exe；Release: YTDownloader_Win.msi
+- 最近推送：2026-07-20T21:34:33Z
+- 最新版本：[v3.22.0](https://github.com/aandrew-me/ytDownloader/releases/tag/v3.22.0)
+
+### 89. [JannisX11/blockbench](https://github.com/JannisX11/blockbench)
+
+低多边形3D模型编辑器。
+
+- 热度：近期活跃热门仓库；累计 5,710 个星标 / 458 次复刻
+- macOS 安装包：Release: Blockbench_arm64_5.1.6.dmg；Release: Blockbench_x64_5.1.6.dmg
+- Windows 安装包：Release: Blockbench_5.1.6.exe；Release: Blockbench_5.1.6_portable.exe；Release: Blockbench_arm64_5.1.6.exe
+- 最近推送：2026-07-26T21:19:05Z
+- 最新版本：[v5.1.6](https://github.com/JannisX11/blockbench/releases/tag/v5.1.6)
+
+### 90. [oliverschwendener/ueli](https://github.com/oliverschwendener/ueli)
+
+跨平台键盘快捷启动器。
+
+- 热度：近期活跃热门仓库；累计 4,571 个星标 / 274 次复刻
+- macOS 安装包：Release: Ueli-9.29.0-arm64.dmg；Release: Ueli-9.29.0.dmg
+- Windows 安装包：Release: Ueli-9.29.0.msi；Release: Ueli-Setup-9.29.0.exe
+- 最近推送：2026-07-29T04:59:03Z
+- 最新版本：[v9.29.0](https://github.com/oliverschwendener/ueli/releases/tag/v9.29.0)
+
+### 91. [vercel/hyper](https://github.com/vercel/hyper)
+
+基于网页技术的终端模拟器。
+
+- 热度：近期活跃热门仓库；累计 44,673 个星标 / 3,571 次复刻
+- macOS 安装包：Release: Hyper-3.4.1-mac-arm64.dmg；Release: Hyper-3.4.1-mac-x64.dmg
+- Windows 安装包：Release: Hyper-Setup-3.4.1.exe
+- 最近推送：2026-06-29T11:03:02Z
+- 最新版本：[v3.4.1](https://github.com/vercel/hyper/releases/tag/v3.4.1)
+
+### 92. [EcoPasteHub/EcoPaste](https://github.com/EcoPasteHub/EcoPaste)
+
+🎉跨平台的剪贴板管理工具
+
+- 热度：近期活跃热门仓库；累计 7,252 个星标 / 361 次复刻
+- macOS 安装包：Release: EcoPaste_1.1.0_aarch64.dmg；Release: EcoPaste_1.1.0_x64.dmg
+- Windows 安装包：Release: EcoPaste_1.1.0_arm64-setup.exe；Release: EcoPaste_1.1.0_x64-setup.exe
+- 最近推送：2026-07-24T00:39:46Z
+- 最新版本：[v1.1.0](https://github.com/EcoPasteHub/EcoPaste/releases/tag/v1.1.0)
+
+### 93. [domcyrus/rustnet](https://github.com/domcyrus/rustnet)
+
+支持深度包检测的跨平台终端网络监控工具。
+
+- 热度：近期活跃热门仓库；累计 4,807 个星标 / 223 次复刻
+- macOS 安装包：Release: Rustnet_macOS_AppleSilicon.dmg；Release: Rustnet_macOS_Intel.dmg
+- Windows 安装包：Release: Rustnet_Windows_32-bit.msi；Release: Rustnet_Windows_64-bit.msi
+- 最近推送：2026-07-28T11:15:23Z
+- 最新版本：[v1.5.0](https://github.com/domcyrus/rustnet/releases/tag/v1.5.0)
+
+### 94. [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive)
+
+将Telegram账号变成无限安全云存储的开源桌面应用。
+
+- 热度：近期活跃热门仓库；累计 4,538 个星标 / 676 次复刻
+- macOS 安装包：Release: Telegram.Drive_2.1.0_aarch64.dmg；Release: Telegram.Drive_2.1.0_x64.dmg
+- Windows 安装包：Release: Telegram.Drive_2.1.0_x64-setup.exe；Release: Telegram.Drive_2.1.0_x64_en-US.msi
+- 最近推送：2026-07-28T23:06:53Z
+- 最新版本：[v2.1.0](https://github.com/caamer20/Telegram-Drive/releases/tag/v2.1.0)
+
+### 95. [Sylinko/Everywhere](https://github.com/Sylinko/Everywhere)
+
+基于当前应用上下文的桌面AI助手，支持多模型和工具。
+
+- 热度：近期活跃热门仓库；累计 6,196 个星标 / 385 次复刻
+- macOS 安装包：Release: Everywhere-macOS-arm64-v0.8.0.pkg；Release: Everywhere-macOS-x64-v0.8.0.pkg
+- Windows 安装包：Release: Everywhere-Windows-x64-Setup-v0.8.0.exe
+- 最近推送：2026-07-25T13:20:11Z
+- 最新版本：[v0.8.0](https://github.com/Sylinko/Everywhere/releases/tag/v0.8.0)
+
+### 96. [binaricat/Netcatty](https://github.com/binaricat/Netcatty)
+
+集成SSH、SFTP和终端的工作空间工具。
+
+- 热度：近期活跃热门仓库；累计 4,324 个星标 / 387 次复刻
+- macOS 安装包：Release: Netcatty-1.1.73-mac-arm64.dmg；Release: Netcatty-1.1.73-mac-x64.dmg
+- Windows 安装包：Release: Netcatty-1.1.73-portable-win-arm64.exe；Release: Netcatty-1.1.73-portable-win-x64.exe；Release: Netcatty-1.1.73-portable-win.exe
+- 最近推送：2026-07-29T07:02:55Z
+- 最新版本：[v1.1.73](https://github.com/binaricat/Netcatty/releases/tag/v1.1.73)
+
+### 97. [graphif/project-graph](https://github.com/graphif/project-graph)
+
+是一个基于节点的非线性思维和笔记可视化工具。
+
+- 热度：近期活跃热门仓库；累计 4,245 个星标 / 273 次复刻
+- macOS 安装包：Release: Project.Graph_4.1.1_universal.dmg
+- Windows 安装包：Release: Project.Graph_4.1.1_x64-setup-gpu.exe
+- 最近推送：2026-07-29T02:27:50Z
+- 最新版本：[v4.1.1](https://github.com/graphif/project-graph/releases/tag/v4.1.1)
+
+### 98. [doublecmd/doublecmd](https://github.com/doublecmd/doublecmd)
+
+Double Commander是一个免费开源的跨平台双面板文件管理器。
+
+- 热度：近期活跃热门仓库；累计 4,356 个星标 / 328 次复刻
+- macOS 安装包：Release: doublecmd-1.2.7.cocoa.aarch64.dmg；Release: doublecmd-1.2.7.cocoa.x86_64.dmg
+- Windows 安装包：Release: doublecmd-1.2.7.i386-win32.exe；Release: doublecmd-1.2.7.i386-win32.msi；Release: doublecmd-1.2.7.x86_64-win64.exe
+- 最近推送：2026-07-28T09:47:48Z
+- 最新版本：[v1.2.7](https://github.com/doublecmd/doublecmd/releases/tag/v1.2.7)
+
+### 99. [TabularisDB/tabularis](https://github.com/TabularisDB/tabularis)
+
+支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。
+
+- 热度：近期活跃热门仓库；累计 3,953 个星标 / 266 次复刻
+- macOS 安装包：Release: tabularis_0.17.0_aarch64.dmg；Release: tabularis_0.17.0_x64.dmg
+- Windows 安装包：Release: tabularis_0.17.0_x64-portable.exe；Release: tabularis_0.17.0_x64-setup.exe；Release: tabularis_0.17.0_x64_en-US.msi
+- 最近推送：2026-07-29T08:20:51Z
+- 最新版本：[v0.17.0](https://github.com/TabularisDB/tabularis/releases/tag/v0.17.0)
+
+### 100. [kunkundi/crossdesk](https://github.com/kunkundi/crossdesk)
+
+一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。
+
+- 热度：近期活跃热门仓库；累计 4,217 个星标 / 399 次复刻
+- macOS 安装包：Release: crossdesk-macos-arm64-v1.4.1-20260728.pkg；Release: crossdesk-macos-x64-v1.4.1-20260728.pkg
+- Windows 安装包：Release: crossdesk-win-x64-v1.4.1-20260728.exe
+- 最近推送：2026-07-28T14:15:05Z
+- 最新版本：[v1.4.1-20260728](https://github.com/kunkundi/crossdesk/releases/tag/v1.4.1-20260728)
 
 ---
 

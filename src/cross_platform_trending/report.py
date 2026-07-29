@@ -26,10 +26,11 @@ def render_markdown(
     lines = [
         f"# GitHub 跨平台热门软件日报 · {report_date}",
         "",
-        "> 自动筛选同时支持 macOS 与 Windows 的 GitHub 热门软件。平台支持需有 README 或 Release 安装包证据。",
+        "> 自动筛选同时提供 macOS 与 Windows 安装包的 GitHub 热门软件。Latest Release 必须同时包含两端安装包。",
         "",
         f"- 生成时间：{generated_at}",
-        f"- 候选仓库：{metadata['candidate_count']} 个",
+        f"- 发现候选：{metadata.get('discovered_count', metadata['candidate_count'])} 个",
+        f"- 已分析候选：{metadata['candidate_count']} 个",
         f"- 入榜软件：{len(software)} 个",
         "",
     ]
@@ -51,7 +52,7 @@ def render_markdown(
             description_zh = item.get("description_zh") or item["description"]
             macos = "、".join(item["platform_evidence"]["macos"][:2])
             windows = "、".join(item["platform_evidence"]["windows"][:2])
-            evidence = f"macOS：{macos}；Windows：{windows}"
+            evidence = f"macOS 安装包：{macos}；Windows 安装包：{windows}"
             lines.append(
                 "| {rank} | [{name}]({url})<br>中文简介：{description} | {heat} | "
                 "{stars:,} | {language} | {evidence} |".format(
@@ -77,8 +78,8 @@ def render_markdown(
                     description_zh,
                     "",
                     f"- 热度：{_heat(item)}；累计 {item['stars']:,} 个星标 / {item['forks']:,} 次复刻",
-                    f"- macOS 证据：{'；'.join(item['platform_evidence']['macos'])}",
-                    f"- Windows 证据：{'；'.join(item['platform_evidence']['windows'])}",
+                    f"- macOS 安装包：{'；'.join(item['platform_evidence']['macos'])}",
+                    f"- Windows 安装包：{'；'.join(item['platform_evidence']['windows'])}",
                     f"- 最近推送：{item['pushed_at'] or '未知'}",
                 ]
             )

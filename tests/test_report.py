@@ -41,6 +41,8 @@ class RenderMarkdownTests(unittest.TestCase):
         self.assertIn("Daily Trending #2", markdown)
         self.assertIn("example.dmg", markdown)
         self.assertIn("example.exe", markdown)
+        self.assertIn("macOS 安装包", markdown)
+        self.assertIn("Windows 安装包", markdown)
         self.assertIn("1,200 个星标 / 100 次复刻", markdown)
 
 

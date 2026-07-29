@@ -38,31 +38,66 @@ class ClassifyRepositoryTests(unittest.TestCase):
 
         accepted, macos, windows = classify_repository(
             repository,
-            "",
             release,
-            is_trending=False,
         )
 
         self.assertTrue(accepted)
         self.assertIn("Release: example-macos.dmg", macos)
         self.assertIn("Release: example-windows.exe", windows)
 
-    def test_accepts_trending_app_with_readme_evidence(self) -> None:
+    def test_rejects_readme_only_platform_evidence(self) -> None:
         repository = {
             "name": "example",
             "description": "A useful desktop app",
             "topics": [],
         }
-        readme = "Install this app on macOS with Homebrew, or on Windows with WinGet."
+        accepted, _, _ = classify_repository(
+            repository,
+            None,
+        )
+
+        self.assertFalse(accepted)
+
+    def test_rejects_release_archives_without_installers(self) -> None:
+        repository = {
+            "name": "example",
+            "description": "A useful desktop app",
+            "topics": ["desktop-app"],
+        }
+        release = {
+            "assets": [
+                {"name": "example-darwin.zip"},
+                {"name": "example-windows.zip"},
+            ]
+        }
 
         accepted, _, _ = classify_repository(
             repository,
-            readme,
-            None,
-            is_trending=True,
+            release,
         )
 
-        self.assertTrue(accepted)
+        self.assertFalse(accepted)
+
+    def test_rejects_freebsd_pkg_as_macos_installer(self) -> None:
+        repository = {
+            "name": "example",
+            "description": "A useful desktop app",
+            "topics": ["desktop-app"],
+        }
+        release = {
+            "assets": [
+                {"name": "example-FreeBSD-amd64.pkg"},
+                {"name": "example-Windows-installer.exe"},
+            ]
+        }
+
+        accepted, macos, _ = classify_repository(
+            repository,
+            release,
+        )
+
+        self.assertFalse(accepted)
+        self.assertEqual(macos, [])
 
     def test_rejects_library_without_release_pair(self) -> None:
         repository = {
@@ -70,13 +105,9 @@ class ClassifyRepositoryTests(unittest.TestCase):
             "description": "A cross-platform library",
             "topics": ["library"],
         }
-        readme = "This library supports macOS and Windows."
-
         accepted, _, _ = classify_repository(
             repository,
-            readme,
             None,
-            is_trending=True,
         )
 
         self.assertFalse(accepted)
@@ -92,16 +123,14 @@ class ClassifyRepositoryTests(unittest.TestCase):
         }
         release = {
             "assets": [
-                {"name": "runtime-darwin.zip"},
-                {"name": "runtime-win64.zip"},
+                {"name": "runtime-macos.dmg"},
+                {"name": "runtime-windows.exe"},
             ]
         }
 
         accepted, _, _ = classify_repository(
             repository,
-            "",
             release,
-            is_trending=False,
         )
 
         self.assertFalse(accepted)
@@ -112,12 +141,11 @@ class ClassifyRepositoryTests(unittest.TestCase):
             "description": "A desktop app",
             "topics": ["desktop-app"],
         }
+        release = {"assets": [{"name": "example-macos.dmg"}]}
 
         accepted, _, windows = classify_repository(
             repository,
-            "Download the macOS DMG.",
-            None,
-            is_trending=True,
+            release,
         )
 
         self.assertFalse(accepted)

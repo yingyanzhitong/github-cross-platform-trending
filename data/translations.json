@@ -1,21 +1,121 @@
 {
   "model": "openai/gpt-4.1-mini",
   "translations": {
+    "4gray/iptvnator": {
+      "source": ":tv: Cross-platform IPTV player application with multiple features, such as support of m3u and m3u8 playlists, favorites, TV guide, TV archive/catchup and more.",
+      "zh": "跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。"
+    },
+    "ActivityWatch/activitywatch": {
+      "source": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.",
+      "zh": "免费开源的自动化时间追踪器。"
+    },
+    "CyberTimon/RapidRAW": {
+      "source": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
+      "zh": "高性能GPU加速的非破坏性RAW图像编辑器。"
+    },
+    "DayuanJiang/next-ai-draw-io": {
+      "source": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+      "zh": "基于next.js的AI辅助draw.io图表编辑应用。"
+    },
+    "Devolutions/UniGetUI": {
+      "source": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
+      "zh": "图形化包管理器管理工具。"
+    },
+    "Eugeny/tabby": {
+      "source": "A terminal for a more modern age",
+      "zh": "现代化终端工具。"
+    },
+    "GopeedLab/gopeed": {
+      "source": "A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
+      "zh": "支持多协议的高速跨平台下载管理器。"
+    },
+    "GyulyVGC/sniffnet": {
+      "source": "Comfortably monitor your Internet traffic 🕵️‍♂️",
+      "zh": "便捷的网络流量监控工具。"
+    },
+    "IsmaelMartinez/teams-for-linux": {
+      "source": "Unofficial Microsoft Teams for Linux client",
+      "zh": "非官方Linux版微软Teams客户端。"
+    },
+    "JannisX11/blockbench": {
+      "source": "Blockbench - A low poly 3D model editor",
+      "zh": "低多边形3D模型编辑器。"
+    },
     "KRTirtho/spotube": {
       "source": "🎧 Open source music streaming app! Available for both desktop & mobile!",
       "zh": "开源跨平台音乐流媒体应用。"
+    },
+    "LizardByte/Sunshine": {
+      "source": "Self-hosted game stream host for Moonlight.",
+      "zh": "Moonlight的自托管游戏流媒体服务器。"
+    },
+    "NanmiCoder/cc-haha": {
+      "source": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
+      "zh": "本地优先的跨平台桌面工作空间，支持多智能体和多模型。"
+    },
+    "OpenHands/OpenHands": {
+      "source": "🙌 OpenHands: AI-Driven Development",
+      "zh": "基于AI驱动的软件开发平台。"
+    },
+    "OpenWhispr/openwhispr": {
+      "source": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+      "zh": "隐私优先的跨平台语音转文字应用，支持本地和云端模型。"
+    },
+    "PixiEditor/PixiEditor": {
+      "source": "PixiEditor is a Universal Editor for all your 2D needs",
+      "zh": "通用2D图像编辑器。"
     },
     "PowerShell/PowerShell": {
       "source": "PowerShell for every system!",
       "zh": "跨平台的命令行自动化工具。"
     },
+    "Splode/pomotroid": {
+      "source": ":tomato: Simple and visually-pleasing Pomodoro timer",
+      "zh": "简洁美观的番茄钟计时器。"
+    },
+    "Sylinko/Everywhere": {
+      "source": "On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.",
+      "zh": "基于当前应用上下文的桌面AI助手，支持多模型和工具。"
+    },
+    "TabularisDB/tabularis": {
+      "source": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
+      "zh": "支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。"
+    },
+    "Termix-SSH/Termix": {
+      "source": "Self-hosted SSH and remote desktop management.",
+      "zh": "自托管的SSH和远程桌面管理工具。"
+    },
+    "ThinkInAIXYZ/deepchat": {
+      "source": "🐬DeepChat - A smart assistant that connects powerful AI to your personal world",
+      "zh": "智能助手DeepChat，连接强大AI服务，助力个人应用。"
+    },
     "TriliumNext/Trilium": {
       "source": "Build your personal knowledge base with Trilium Notes",
       "zh": "构建个人知识库的笔记软件。"
     },
+    "VSCodium/vscodium": {
+      "source": "binary releases of VS Code without MS branding/telemetry/licensing",
+      "zh": "无微软品牌和遥测的VS Code二进制版。"
+    },
     "WerWolv/ImHex": {
       "source": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
       "zh": "适合逆向工程师的十六进制编辑器。"
+    },
+    "Wox-launcher/Wox": {
+      "source": "A cross-platform launcher that simply works",
+      "zh": "跨平台高效启动器。"
+    },
+    "XiaoYouChR/Ghost-Downloader-3": {
+      "source": "An AI-boost cross-platform multi-protocol fluent-design concurrent downloader built with Python & Qt.",
+      "zh": "基于Python和Qt的跨平台多协议并发下载器。"
+    },
+    "Zettlr/Zettlr": {
+      "source": "Your One-Stop Publication Workbench",
+      "zh": "一站式出版工作平台。"
+    },
+    "aandrew-me/ytDownloader": {
+      "source": "Desktop App for downloading Videos and Audios from hundreds of sites",
+      "zh": "支持数百网站视频音频下载的桌面应用。"
     },
     "affaan-m/ECC": {
       "source": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
@@ -25,13 +125,121 @@
       "source": "A full-featured download manager.",
       "zh": "功能完善的下载管理器。"
     },
+    "alacritty/alacritty": {
+      "source": "A cross-platform, OpenGL terminal emulator.",
+      "zh": "跨平台OpenGL终端模拟器。"
+    },
+    "altair-graphql/altair": {
+      "source": "✨⚡️ A feature-rich GraphQL Client for all platforms.",
+      "zh": "功能丰富的跨平台GraphQL客户端。"
+    },
+    "amir1376/ab-download-manager": {
+      "source": "A Download Manager that speeds up your downloads",
+      "zh": "加速下载的下载管理器。"
+    },
+    "audacity/audacity": {
+      "source": "Audio Editor",
+      "zh": "音频编辑器。"
+    },
+    "beekeeper-studio/beekeeper-studio": {
+      "source": "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
+      "zh": "Beekeeper Studio：现代易用的多数据库SQL客户端。"
+    },
+    "binaricat/Netcatty": {
+      "source": "SSH workspace, SFTP, and terminals in one",
+      "zh": "集成SSH、SFTP和终端的工作空间工具。"
+    },
+    "caamer20/Telegram-Drive": {
+      "source": "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.",
+      "zh": "将Telegram账号变成无限安全云存储的开源桌面应用。"
+    },
+    "cjpais/Handy": {
+      "source": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "zh": "完全离线的开源语音转文字应用。"
+    },
+    "cli/cli": {
+      "source": "GitHub’s official command line tool",
+      "zh": "GitHub官方命令行工具。"
+    },
+    "codexu/note-gen": {
+      "source": "A cross-platform Markdown AI note-taking software.",
+      "zh": "跨平台的Markdown AI笔记软件。"
+    },
+    "crynta/terax-ai": {
+      "source": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+      "zh": "轻量级终端优先的AI开发工作空间。"
+    },
+    "dail8859/NotepadNext": {
+      "source": "A cross-platform, reimplementation of Notepad++",
+      "zh": "跨平台的Notepad++重实现文本编辑器。"
+    },
+    "dbgate/dbgate": {
+      "source": "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application",
+      "zh": "支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。"
+    },
+    "domcyrus/rustnet": {
+      "source": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
+      "zh": "支持深度包检测的跨平台终端网络监控工具。"
+    },
+    "doublecmd/doublecmd": {
+      "source": "Double Commander is a free cross platform open source file manager with two panels side by side.",
+      "zh": "Double Commander是一个免费开源的跨平台双面板文件管理器。"
+    },
+    "electerm/electerm": {
+      "source": "📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android)",
+      "zh": "支持多协议的终端和远程连接客户端，跨平台支持多系统。"
+    },
+    "espanso/espanso": {
+      "source": "A Privacy-first, Cross-platform Text Expander written in Rust",
+      "zh": "注重隐私的跨平台文本扩展工具，Rust开发。"
+    },
     "farion1231/cc-switch": {
       "source": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
       "zh": "支持多智能代理的一体化跨平台桌面助手。"
     },
+    "flameshot-org/flameshot": {
+      "source": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
+      "zh": "功能强大且易用的截图软件。"
+    },
+    "generalaction/emdash": {
+      "source": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+      "zh": "开源多代理开发环境，支持并行运行多种编码代理。"
+    },
+    "getagentseal/codeburn": {
+      "source": "Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+      "zh": "免费本地工具，跟踪31款AI编码工具的令牌使用和费用。"
+    },
+    "getpaseo/paseo": {
+      "source": "Orchestrate multiple coding agents from desktop and mobile",
+      "zh": "桌面和移动端多智能体编程协调工具。"
+    },
+    "graphif/project-graph": {
+      "source": "A node-based visual tool for organizing thoughts and notes in a non-linear way.",
+      "zh": "是一个基于节点的非线性思维和笔记可视化工具。"
+    },
+    "hluk/CopyQ": {
+      "source": "Clipboard manager with advanced features",
+      "zh": "功能丰富的剪贴板管理器。"
+    },
     "janhq/jan": {
       "source": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
       "zh": "完全离线运行的开源ChatGPT替代品。"
+    },
+    "jeffvli/feishin": {
+      "source": "A modern self-hosted music player.",
+      "zh": "现代自托管音乐播放器。"
+    },
+    "jindrapetrik/jpexs-decompiler": {
+      "source": "JPEXS Free Flash Decompiler",
+      "zh": "免费开源Flash反编译工具。"
+    },
+    "keepassxreboot/keepassxc": {
+      "source": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
+      "zh": "跨平台的KeePass密码管理器移植版。"
+    },
+    "lapce/lapce": {
+      "source": "Lightning-fast and Powerful Code Editor written in Rust",
+      "zh": "用Rust编写的极速强大代码编辑器。"
     },
     "laurent22/joplin": {
       "source": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
@@ -41,21 +249,89 @@
       "source": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
       "zh": "简洁优雅的跨平台Markdown编辑器。"
     },
+    "massCodeIO/massCode": {
+      "source": "A free, open-source developer workspace. Snippets, notes, HTTP requests, calculations, and dev tools in one local-first app.",
+      "zh": "免费开源开发者工作空间，集成代码片段、笔记、HTTP请求和开发工具。"
+    },
+    "mediago-dev/mediago": {
+      "source": "Cross-platform video downloader — sniff and grab m3u8/HLS streams, Bilibili, YouTube and more. Desktop + Docker + 🦞.",
+      "zh": "跨平台视频下载器，支持m3u8/HLS及主流视频网站。"
+    },
     "microsoft/vscode": {
       "source": "Visual Studio Code",
       "zh": "微软出品的跨平台代码编辑器。"
+    },
+    "mltframework/shotcut": {
+      "source": "cross-platform (Qt), open-source (GPLv3) video editor",
+      "zh": "跨平台开源视频编辑器，基于Qt和GPLv3。"
+    },
+    "mockoon/mockoon": {
+      "source": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.",
+      "zh": "本地快速运行模拟API的开源工具，无需账号。"
     },
     "moeru-ai/airi": {
       "source": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "zh": "支持实时语音聊天和游戏的自托管智能伴侣。"
     },
+    "mountain-loop/yaak": {
+      "source": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
+      "zh": "直观的桌面API客户端，支持多种协议。"
+    },
+    "netease-youdao/LobsterAI": {
+      "source": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone via WeChat, Feishu, DingTalk & Telegram.",
+      "zh": "开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。"
+    },
     "nexu-io/open-design": {
       "source": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "zh": "本地优先的开源设计工具，支持多种导出格式。"
     },
+    "nukeop/nuclear": {
+      "source": "Streaming music player that finds free music for you",
+      "zh": "免费音乐流媒体播放器。"
+    },
+    "oliverschwendener/ueli": {
+      "source": "Cross-Platform Keystroke Launcher",
+      "zh": "跨平台键盘快捷启动器。"
+    },
+    "op7418/CodePilot": {
+      "source": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
+      "zh": "多模型AI代理桌面客户端，支持多AI服务和手机远程控制。"
+    },
+    "open-pencil/open-pencil": {
+      "source": "AI-native design editor. Open-source Figma alternative.",
+      "zh": "开源AI设计编辑器，Figma替代方案。"
+    },
     "opengeos/GeoLibre": {
       "source": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
       "zh": "轻量级云原生地理信息系统平台。"
+    },
+    "pear-devs/pear-desktop": {
+      "source": "Pear 🍐 is extension for music player",
+      "zh": "Pear：音乐播放器扩展。"
+    },
+    "purocean/yn": {
+      "source": "A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.",
+      "zh": "高度可扩展的Markdown编辑器，集成版本控制和AI助手。"
+    },
+    "rancher-sandbox/rancher-desktop": {
+      "source": "Container Management and Kubernetes on the Desktop",
+      "zh": "桌面容器管理和Kubernetes工具。"
+    },
+    "raphamorim/rio": {
+      "source": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
+      "zh": "硬件加速GPU终端模拟器，支持桌面和浏览器运行。"
+    },
+    "reqable/reqable-app": {
+      "source": "Reqable issue track repo",
+      "zh": "Reqable问题跟踪仓库。"
+    },
+    "rowboatlabs/rowboat": {
+      "source": "Open-source AI coworker, with memory",
+      "zh": "具备记忆功能的开源AI助手。"
+    },
+    "rullerzhou-afk/clawd-on-desk": {
+      "source": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
+      "zh": "像素风桌面宠物，监控多种AI编程助手。"
     },
     "rustdesk/rustdesk": {
       "source": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
@@ -65,17 +341,53 @@
       "source": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
       "zh": "自托管的开源个人知识管理软件。"
     },
+    "stablyai/orca": {
+      "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "zh": "支持多代理并行的AI开发环境。"
+    },
+    "streetwriters/notesnook": {
+      "source": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
+      "zh": "完全开源且端到端加密的笔记软件，Evernote替代品。"
+    },
+    "super-productivity/super-productivity": {
+      "source": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+      "zh": "Super Productivity：集成时间管理的高级待办事项应用。"
+    },
     "sxyazi/yazi": {
       "source": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
       "zh": "基于异步I/O的极速终端文件管理器。"
+    },
+    "thewh1teagle/vibe": {
+      "source": "Transcribe on your own!",
+      "zh": "支持本地转录的语音转文字工具。"
     },
     "toeverything/AFFiNE": {
       "source": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "zh": "隐私优先的开源下一代知识库平台。"
     },
+    "tonyantony300/dashbeam": {
+      "source": "Send files and folders anywhere in the world without storing in cloud - any size, any format, no accounts, no restrictions ( previously Altsendme )",
+      "zh": "无需云存储，全球传输任意大小文件的工具。"
+    },
     "tw93/Pake": {
       "source": "🤱🏻 Turn any webpage into a desktop app with one command.",
       "zh": "一键将网页转换为桌面应用。"
+    },
+    "usebruno/bruno": {
+      "source": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "zh": "开源轻量级API测试和探索IDE。"
+    },
+    "vercel/hyper": {
+      "source": "A terminal built on web technologies",
+      "zh": "基于网页技术的终端模拟器。"
+    },
+    "wavetermdev/waveterm": {
+      "source": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
+      "zh": "集成AI的跨平台终端工具。"
+    },
+    "webtorrent/webtorrent-desktop": {
+      "source": "❤️ Streaming torrent app for Mac, Windows, and Linux",
+      "zh": "支持Mac、Windows和Linux的流媒体种子客户端。"
     },
     "yorukot/superfile": {
       "source": "Pretty fancy and modern terminal file manager",

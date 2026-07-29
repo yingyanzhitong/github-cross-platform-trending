@@ -10,7 +10,8 @@ from urllib.request import Request, urlopen
 
 MODELS_URL = "https://models.github.ai/inference/chat/completions"
 MODEL = "openai/gpt-4.1-mini"
-USER_AGENT = "github-cross-platform-trending/0.2"
+USER_AGENT = "github-cross-platform-trending/0.3"
+TRANSLATION_BATCH_SIZE = 25
 
 
 def _contains_chinese(text: str) -> bool:
@@ -28,10 +29,20 @@ def _fallback_description(item: dict[str, Any]) -> str:
 def _clean_translation(name: str, text: str) -> str:
     cleaned = text.strip()
     repository = name.rsplit("/", 1)[-1]
-    for prefix in (f"{name}：", f"{name}:", f"{repository}：", f"{repository}:"):
+    for prefix in (name, repository):
         if cleaned.lower().startswith(prefix.lower()):
-            return cleaned[len(prefix) :].strip()
+            remainder = cleaned[len(prefix) :].lstrip("：:：-— ")
+            if remainder:
+                return remainder
     return cleaned
+
+
+def _chinese_segment(text: str) -> str:
+    segments = [segment.strip() for segment in re.split(r"[|｜]", text)]
+    return max(
+        segments,
+        key=lambda segment: len(re.findall(r"[\u4e00-\u9fff]", segment)),
+    )
 
 
 class DescriptionTranslator:
@@ -160,7 +171,7 @@ class DescriptionTranslator:
             description = str(item["description"]).strip()
             item["description_en"] = description
             if _contains_chinese(description):
-                item["description_zh"] = description
+                item["description_zh"] = _chinese_segment(description)
                 continue
             cached = cache.get(item["name"], {})
             if cached.get("source") == description and _contains_chinese(
@@ -178,10 +189,16 @@ class DescriptionTranslator:
 
         translated: dict[str, str] = {}
         if pending and self.token:
-            try:
-                translated = self._request_translations(pending)
-            except RuntimeError as error:
-                warnings.append(f"中文简介生成失败，已使用中文兜底：{error}")
+            for offset in range(0, len(pending), TRANSLATION_BATCH_SIZE):
+                batch = pending[offset : offset + TRANSLATION_BATCH_SIZE]
+                try:
+                    translated.update(self._request_translations(batch))
+                except RuntimeError as error:
+                    start = offset + 1
+                    end = offset + len(batch)
+                    warnings.append(
+                        f"第 {start}-{end} 条中文简介生成失败，已使用中文兜底：{error}"
+                    )
         elif pending:
             warnings.append("未提供 GitHub Token，中文简介已使用通用兜底")
 

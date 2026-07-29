@@ -36,7 +36,7 @@ jobs:
       - name: 生成当天榜单
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: cross-platform-trending --limit 20
+        run: cross-platform-trending --limit 100 --max-candidates 1000
 
       - name: 提交报告
         run: |

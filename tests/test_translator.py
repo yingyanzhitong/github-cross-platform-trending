@@ -26,6 +26,22 @@ class StubTranslator(DescriptionTranslator):
         return {"owner/example": "owner/example：一款功能齐全的下载管理器。"}
 
 
+class BatchTranslator(DescriptionTranslator):
+    def __init__(self, **kwargs: Any):
+        super().__init__(**kwargs)
+        self.batch_sizes: list[int] = []
+
+    def _request_translations(
+        self,
+        items: list[dict[str, str]],
+    ) -> dict[str, str]:
+        self.batch_sizes.append(len(items))
+        return {
+            item["name"]: "一款用于测试分批翻译的跨平台软件。"
+            for item in items
+        }
+
+
 class DescriptionTranslatorTests(unittest.TestCase):
     def test_translates_and_caches_description(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -66,6 +82,46 @@ class DescriptionTranslatorTests(unittest.TestCase):
 
             self.assertEqual(len(warnings), 1)
             self.assertIn("支持 macOS 和 Windows", software[0]["description_zh"])
+
+    def test_translates_large_list_in_batches(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            software = [
+                {
+                    "name": f"owner/example-{index}",
+                    "description": f"Cross-platform example {index}.",
+                    "language": "Rust",
+                }
+                for index in range(26)
+            ]
+            translator = BatchTranslator(
+                token="token",
+                cache_path=Path(directory) / "translations.json",
+            )
+
+            warnings = translator.enrich(software)
+
+            self.assertEqual(warnings, [])
+            self.assertEqual(translator.batch_sizes, [25, 1])
+            self.assertTrue(
+                all(item.get("description_zh") for item in software)
+            )
+
+    def test_keeps_only_chinese_part_of_bilingual_description(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            software = [
+                {
+                    "name": "owner/example",
+                    "description": "跨平台剪贴板工具 | Cross-platform clipboard tool",
+                    "language": "Rust",
+                }
+            ]
+            translator = DescriptionTranslator(
+                token=None,
+                cache_path=Path(directory) / "translations.json",
+            )
+
+            self.assertEqual(translator.enrich(software), [])
+            self.assertEqual(software[0]["description_zh"], "跨平台剪贴板工具")
 
 
 if __name__ == "__main__":

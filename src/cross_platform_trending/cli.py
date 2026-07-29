@@ -32,11 +32,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="生成同时支持 macOS 与 Windows 的 GitHub 热门软件日报"
     )
-    parser.add_argument("--limit", type=int, default=20, help="榜单最大项目数")
+    parser.add_argument("--limit", type=int, default=100, help="榜单最大项目数")
     parser.add_argument(
         "--max-candidates",
         type=int,
-        default=100,
+        default=1000,
         help="最多分析的候选仓库数",
     )
     parser.add_argument(
