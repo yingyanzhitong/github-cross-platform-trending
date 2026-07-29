@@ -13,6 +13,7 @@ class RenderMarkdownTests(unittest.TestCase):
                 "name": "owner/example",
                 "url": "https://github.com/owner/example",
                 "description": "Example desktop app",
+                "description_zh": "一款示例桌面应用。",
                 "trending_rank": 2,
                 "stars_today": 88,
                 "stars": 1200,
@@ -35,9 +36,12 @@ class RenderMarkdownTests(unittest.TestCase):
         )
 
         self.assertIn("owner/example", markdown)
+        self.assertIn("中文简介：一款示例桌面应用。", markdown)
+        self.assertNotIn("Example desktop app", markdown)
         self.assertIn("Daily Trending #2", markdown)
         self.assertIn("example.dmg", markdown)
         self.assertIn("example.exe", markdown)
+        self.assertIn("1,200 个星标 / 100 次复刻", markdown)
 
 
 if __name__ == "__main__":

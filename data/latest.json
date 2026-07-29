@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T15:40:53+08:00",
+  "generated_at": "2026-07-29T15:51:32+08:00",
   "candidate_count": 80,
   "matched_count": 20,
   "warnings": [],
@@ -24,7 +24,7 @@
         "vrm",
         "vtuber"
       ],
-      "stars": 45009,
+      "stars": 45023,
       "forks": 4460,
       "stars_today": 797,
       "trending_rank": 3,
@@ -51,7 +51,9 @@
         ]
       },
       "score": 9833.64,
-      "rank": 1
+      "rank": 1,
+      "description_en": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "description_zh": "支持实时语音聊天和游戏的自托管智能伴侣。"
     },
     {
       "name": "affaan-m/ECC",
@@ -69,7 +71,7 @@
         "mcp",
         "productivity"
       ],
-      "stars": 235102,
+      "stars": 235108,
       "forks": 35816,
       "stars_today": 636,
       "trending_rank": 5,
@@ -88,7 +90,9 @@
         ]
       },
       "score": 9629.14,
-      "rank": 2
+      "rank": 2,
+      "description_en": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "description_zh": "面向多平台的性能优化智能代理系统。"
     },
     {
       "name": "opengeos/GeoLibre",
@@ -104,7 +108,7 @@
         "maplibre-gl-js",
         "tauri-app"
       ],
-      "stars": 3600,
+      "stars": 3603,
       "forks": 405,
       "stars_today": 607,
       "trending_rank": 9,
@@ -129,7 +133,9 @@
         ]
       },
       "score": 9228.2,
-      "rank": 3
+      "rank": 3,
+      "description_en": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "description_zh": "轻量级云原生地理信息系统平台。"
     },
     {
       "name": "yorukot/superfile",
@@ -150,7 +156,7 @@
         "terminal-based",
         "tui"
       ],
-      "stars": 21681,
+      "stars": 21684,
       "forks": 708,
       "stars_today": 662,
       "trending_rank": 12,
@@ -176,7 +182,9 @@
         ]
       },
       "score": 8929.94,
-      "rank": 4
+      "rank": 4,
+      "description_en": "Pretty fancy and modern terminal file manager",
+      "description_zh": "现代化终端文件管理器。"
     },
     {
       "name": "microsoft/vscode",
@@ -209,8 +217,10 @@
           "README: Windows"
         ]
       },
-      "score": 627.41,
-      "rank": 5
+      "score": 627.38,
+      "rank": 5,
+      "description_en": "Visual Studio Code",
+      "description_zh": "微软出品的跨平台代码编辑器。"
     },
     {
       "name": "farion1231/cc-switch",
@@ -240,7 +250,7 @@
         "typescript",
         "wsl-support"
       ],
-      "stars": 122122,
+      "stars": 122125,
       "forks": 8237,
       "stars_today": 0,
       "trending_rank": null,
@@ -266,8 +276,10 @@
           "README: MSI/MSIX 安装包"
         ]
       },
-      "score": 607.81,
-      "rank": 6
+      "score": 607.78,
+      "rank": 6,
+      "description_en": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "description_zh": "支持多智能代理的一体化跨平台桌面助手。"
     },
     {
       "name": "rustdesk/rustdesk",
@@ -296,7 +308,7 @@
         "wayland",
         "windows"
       ],
-      "stars": 119137,
+      "stars": 119138,
       "forks": 18182,
       "stars_today": 0,
       "trending_rank": null,
@@ -319,8 +331,10 @@
           "README: Windows"
         ]
       },
-      "score": 607.58,
-      "rank": 7
+      "score": 607.55,
+      "rank": 7,
+      "description_en": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "description_zh": "开源自托管远程桌面替代方案。"
     },
     {
       "name": "nexu-io/open-design",
@@ -350,8 +364,8 @@
         "ui-generator",
         "vibe-coding"
       ],
-      "stars": 82363,
-      "forks": 9521,
+      "stars": 82371,
+      "forks": 9523,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-29T07:37:51Z",
@@ -372,8 +386,10 @@
           "README: Windows"
         ]
       },
-      "score": 591.56,
-      "rank": 8
+      "score": 591.54,
+      "rank": 8,
+      "description_en": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
+      "description_zh": "本地优先的开源设计工具，支持多种导出格式。"
     },
     {
       "name": "toeverything/AFFiNE",
@@ -401,7 +417,7 @@
         "wiki",
         "workspace"
       ],
-      "stars": 70890,
+      "stars": 70891,
       "forks": 5090,
       "stars_today": 0,
       "trending_rank": null,
@@ -423,8 +439,10 @@
           "Release: affine-0.27.3-stable-windows-x64.exe"
         ]
       },
-      "score": 584.83,
-      "rank": 9
+      "score": 584.8,
+      "rank": 9,
+      "description_en": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+      "description_zh": "隐私优先的开源下一代知识库平台。"
     },
     {
       "name": "laurent22/joplin",
@@ -475,8 +493,10 @@
           "README: Windows"
         ]
       },
-      "score": 574.34,
-      "rank": 10
+      "score": 574.31,
+      "rank": 10,
+      "description_en": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
+      "description_zh": "支持多平台同步的隐私笔记应用。"
     },
     {
       "name": "WerWolv/ImHex",
@@ -530,8 +550,10 @@
           "README: Windows"
         ]
       },
-      "score": 572.34,
-      "rank": 11
+      "score": 572.31,
+      "rank": 11,
+      "description_en": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+      "description_zh": "适合逆向工程师的十六进制编辑器。"
     },
     {
       "name": "PowerShell/PowerShell",
@@ -549,7 +571,7 @@
         "shell",
         "windows"
       ],
-      "stars": 54580,
+      "stars": 54581,
       "forks": 8408,
       "stars_today": 0,
       "trending_rank": null,
@@ -573,8 +595,10 @@
           "README: Windows"
         ]
       },
-      "score": 571.91,
-      "rank": 12
+      "score": 571.88,
+      "rank": 12,
+      "description_en": "PowerShell for every system!",
+      "description_zh": "跨平台的命令行自动化工具。"
     },
     {
       "name": "marktext/marktext",
@@ -624,8 +648,10 @@
           "README: WinGet"
         ]
       },
-      "score": 568.55,
-      "rank": 13
+      "score": 568.52,
+      "rank": 13,
+      "description_en": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
+      "description_zh": "简洁优雅的跨平台Markdown编辑器。"
     },
     {
       "name": "siyuan-note/siyuan",
@@ -677,8 +703,10 @@
           "README: EXE 安装包"
         ]
       },
-      "score": 565.72,
-      "rank": 14
+      "score": 565.69,
+      "rank": 14,
+      "description_en": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+      "description_zh": "自托管的开源个人知识管理软件。"
     },
     {
       "name": "tw93/Pake",
@@ -727,8 +755,10 @@
           "README: MSI/MSIX 安装包"
         ]
       },
-      "score": 565.12,
-      "rank": 15
+      "score": 565.09,
+      "rank": 15,
+      "description_en": "🤱🏻 Turn any webpage into a desktop app with one command.",
+      "description_zh": "一键将网页转换为桌面应用。"
     },
     {
       "name": "janhq/jan",
@@ -750,7 +780,7 @@
       "forks": 2927,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-29T07:40:51Z",
+      "pushed_at": "2026-07-29T07:43:15Z",
       "latest_release": {
         "tag": "v0.8.4",
         "url": "https://github.com/janhq/jan/releases/tag/v0.8.4",
@@ -768,8 +798,10 @@
           "README: EXE 安装包"
         ]
       },
-      "score": 564.1,
-      "rank": 16
+      "score": 564.08,
+      "rank": 16,
+      "description_en": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+      "description_zh": "完全离线运行的开源ChatGPT替代品。"
     },
     {
       "name": "sxyazi/yazi",
@@ -820,8 +852,10 @@
           "README: Windows"
         ]
       },
-      "score": 560.75,
-      "rank": 17
+      "score": 560.72,
+      "rank": 17,
+      "description_en": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+      "description_zh": "基于异步I/O的极速终端文件管理器。"
     },
     {
       "name": "TriliumNext/Trilium",
@@ -874,8 +908,10 @@
           "README: Windows"
         ]
       },
-      "score": 556.67,
-      "rank": 18
+      "score": 556.64,
+      "rank": 18,
+      "description_en": "Build your personal knowledge base with Trilium Notes",
+      "description_zh": "构建个人知识库的笔记软件。"
     },
     {
       "name": "agalwood/Motrix",
@@ -924,8 +960,10 @@
           "README: EXE 安装包"
         ]
       },
-      "score": 555.27,
-      "rank": 19
+      "score": 555.24,
+      "rank": 19,
+      "description_en": "A full-featured download manager.",
+      "description_zh": "功能完善的下载管理器。"
     },
     {
       "name": "KRTirtho/spotube",
@@ -974,8 +1012,10 @@
           "README: WinGet"
         ]
       },
-      "score": 553.56,
-      "rank": 20
+      "score": 553.53,
+      "rank": 20,
+      "description_en": "🎧 Open source music streaming app! Available for both desktop & mobile!",
+      "description_zh": "开源跨平台音乐流媒体应用。"
     }
   ]
 }

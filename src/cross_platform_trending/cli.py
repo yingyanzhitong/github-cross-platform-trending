@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 
 from .collector import GitHubClient, collect
 from .report import write_report
+from .translator import DescriptionTranslator
 
 
 def _token_from_gh() -> str | None:
@@ -73,6 +74,11 @@ def main(argv: list[str] | None = None) -> int:
         limit=args.limit,
         max_candidates=args.max_candidates,
     )
+    translator = DescriptionTranslator(
+        token=client.token,
+        cache_path=args.data_dir / "translations.json",
+    )
+    metadata["warnings"].extend(translator.enrich(software))
     dated_report, dated_data = write_report(
         report_date=report_date,
         software=software,

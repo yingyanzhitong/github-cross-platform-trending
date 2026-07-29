@@ -1,0 +1,85 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "translations": {
+    "KRTirtho/spotube": {
+      "source": "🎧 Open source music streaming app! Available for both desktop & mobile!",
+      "zh": "开源跨平台音乐流媒体应用。"
+    },
+    "PowerShell/PowerShell": {
+      "source": "PowerShell for every system!",
+      "zh": "跨平台的命令行自动化工具。"
+    },
+    "TriliumNext/Trilium": {
+      "source": "Build your personal knowledge base with Trilium Notes",
+      "zh": "构建个人知识库的笔记软件。"
+    },
+    "WerWolv/ImHex": {
+      "source": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+      "zh": "适合逆向工程师的十六进制编辑器。"
+    },
+    "affaan-m/ECC": {
+      "source": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "zh": "面向多平台的性能优化智能代理系统。"
+    },
+    "agalwood/Motrix": {
+      "source": "A full-featured download manager.",
+      "zh": "功能完善的下载管理器。"
+    },
+    "farion1231/cc-switch": {
+      "source": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "zh": "支持多智能代理的一体化跨平台桌面助手。"
+    },
+    "janhq/jan": {
+      "source": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+      "zh": "完全离线运行的开源ChatGPT替代品。"
+    },
+    "laurent22/joplin": {
+      "source": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
+      "zh": "支持多平台同步的隐私笔记应用。"
+    },
+    "marktext/marktext": {
+      "source": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
+      "zh": "简洁优雅的跨平台Markdown编辑器。"
+    },
+    "microsoft/vscode": {
+      "source": "Visual Studio Code",
+      "zh": "微软出品的跨平台代码编辑器。"
+    },
+    "moeru-ai/airi": {
+      "source": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "zh": "支持实时语音聊天和游戏的自托管智能伴侣。"
+    },
+    "nexu-io/open-design": {
+      "source": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
+      "zh": "本地优先的开源设计工具，支持多种导出格式。"
+    },
+    "opengeos/GeoLibre": {
+      "source": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "zh": "轻量级云原生地理信息系统平台。"
+    },
+    "rustdesk/rustdesk": {
+      "source": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "zh": "开源自托管远程桌面替代方案。"
+    },
+    "siyuan-note/siyuan": {
+      "source": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+      "zh": "自托管的开源个人知识管理软件。"
+    },
+    "sxyazi/yazi": {
+      "source": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+      "zh": "基于异步I/O的极速终端文件管理器。"
+    },
+    "toeverything/AFFiNE": {
+      "source": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+      "zh": "隐私优先的开源下一代知识库平台。"
+    },
+    "tw93/Pake": {
+      "source": "🤱🏻 Turn any webpage into a desktop app with one command.",
+      "zh": "一键将网页转换为桌面应用。"
+    },
+    "yorukot/superfile": {
+      "source": "Pretty fancy and modern terminal file manager",
+      "zh": "现代化终端文件管理器。"
+    }
+  }
+}

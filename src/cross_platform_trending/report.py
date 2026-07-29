@@ -48,16 +48,17 @@ def render_markdown(
             ]
         )
         for item in software:
+            description_zh = item.get("description_zh") or item["description"]
             macos = "、".join(item["platform_evidence"]["macos"][:2])
             windows = "、".join(item["platform_evidence"]["windows"][:2])
             evidence = f"macOS：{macos}；Windows：{windows}"
             lines.append(
-                "| {rank} | [{name}]({url})<br>{description} | {heat} | "
+                "| {rank} | [{name}]({url})<br>中文简介：{description} | {heat} | "
                 "{stars:,} | {language} | {evidence} |".format(
                     rank=item["rank"],
                     name=item["name"],
                     url=item["url"],
-                    description=_escape_table(item["description"]),
+                    description=_escape_table(description_zh),
                     heat=_heat(item),
                     stars=item["stars"],
                     language=item["language"],
@@ -68,13 +69,14 @@ def render_markdown(
         lines.append("## 项目详情")
         lines.append("")
         for item in software:
+            description_zh = item.get("description_zh") or item["description"]
             lines.extend(
                 [
                     f"### {item['rank']}. [{item['name']}]({item['url']})",
                     "",
-                    item["description"],
+                    description_zh,
                     "",
-                    f"- 热度：{_heat(item)}；累计 {item['stars']:,} Stars / {item['forks']:,} Forks",
+                    f"- 热度：{_heat(item)}；累计 {item['stars']:,} 个星标 / {item['forks']:,} 次复刻",
                     f"- macOS 证据：{'；'.join(item['platform_evidence']['macos'])}",
                     f"- Windows 证据：{'；'.join(item['platform_evidence']['windows'])}",
                     f"- 最近推送：{item['pushed_at'] or '未知'}",

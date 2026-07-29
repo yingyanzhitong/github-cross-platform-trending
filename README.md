@@ -12,6 +12,8 @@
 
 项目会读取候选仓库的 README 与 Latest Release。只有同时发现 macOS 和 Windows 支持证据，并判断它属于可使用的软件或工具时，才会进入榜单。优先采用 `.dmg`、`.pkg`、`.exe`、`.msi` 等 Release 安装包作为强证据。
 
+入榜项目的英文简介会通过 GitHub Models 批量生成简体中文简介，并按仓库与英文原文缓存到 `data/translations.json`。模型不可用时，报告仍会使用中文通用简介并记录采集警告，不会退回英文。
+
 ## 每日输出
 
 - [`reports/latest.md`](reports/latest.md)：最新一期可读榜单；
@@ -19,7 +21,7 @@
 - `data/latest.json`：最新一期结构化数据；
 - `data/YYYY-MM-DD.json`：历史结构化数据。
 
-GitHub Actions 每天北京时间 08:30 自动运行，也支持在 Actions 页面手动触发。工作流会将当天报告自动提交回仓库。
+JSON 中同时保留 `description_en` 英文原文和 `description_zh` 中文简介。GitHub Actions 每天北京时间 08:30 自动运行，也支持在 Actions 页面手动触发。工作流使用仓库自带的 `GITHUB_TOKEN` 访问 GitHub API 与 GitHub Models，不需要额外配置密钥，并会将当天报告自动提交回仓库。
 
 ## 本地运行
 
