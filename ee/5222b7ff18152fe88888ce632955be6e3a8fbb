@@ -1,0 +1,60 @@
+LICENSE
+  s_4d6fdd61574b1b::t_4e9f60c8d18ff9 1-21
+.gitignore
+  s_4d6fdd61574b1b::t_4e9f60c8d18ff9 1-3,5-6
+  s_4d6fdd61574b1b::t_d118c0c182739f 4
+.github/workflows/daily-report.yml
+  s_4d6fdd61574b1b::t_4e9f60c8d18ff9 1-50
+src/cross_platform_trending/report.py
+  s_4d6fdd61574b1b::t_275f2bdd5e0f9f 1-143
+src/cross_platform_trending/cli.py
+  s_4d6fdd61574b1b::t_275f2bdd5e0f9f 1-89
+pyproject.toml
+  s_4d6fdd61574b1b::t_275f2bdd5e0f9f 1-19
+src/cross_platform_trending/__init__.py
+  s_4d6fdd61574b1b::t_275f2bdd5e0f9f 1-3
+src/cross_platform_trending/collector.py
+  s_4d6fdd61574b1b::t_dd0d8d3d1fa255 33,42,57,61,85-87,91-92,94-96,254-261,263-269
+  s_4d6fdd61574b1b::t_945605b324ada3 93
+  s_4d6fdd61574b1b::t_275f2bdd5e0f9f 1-32,34-41,43-56,58-60,62-84,88-90,97-253,262,270-319,321-418
+  s_4d6fdd61574b1b::t_7683eb41a59b20 320
+tests/test_report.py
+  s_4d6fdd61574b1b::t_4e9f60c8d18ff9 1-44
+README.md
+  s_4d6fdd61574b1b::t_4e9f60c8d18ff9 1-43
+src/cross_platform_trending/__main__.py
+  s_4d6fdd61574b1b::t_275f2bdd5e0f9f 1-3
+tests/test_collector.py
+  s_4d6fdd61574b1b::t_945605b324ada3 87-90
+  s_4d6fdd61574b1b::t_4e9f60c8d18ff9 1-83,109-128
+  s_4d6fdd61574b1b::t_dd0d8d3d1fa255 84-86,91-108
+CHANGELOG.md
+  s_4d6fdd61574b1b::t_4e9f60c8d18ff9 1-13
+data/2026-07-29.json
+  s_4d6fdd61574b1b::t_6887f1240602b1 1-981
+data/latest.json
+  s_4d6fdd61574b1b::t_a83208a2940115 1-981
+reports/2026-07-29.md
+  s_4d6fdd61574b1b::t_973343b952ae5e 1-236
+reports/latest.md
+  s_4d6fdd61574b1b::t_f1ea05a820648e 1-236
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "ee5222b7ff18152fe88888ce632955be6e3a8fbb",
+  "prompts": {},
+  "logical_commit_id": "ee5222b7ff18152fe88888ce632955be6e3a8fbb",
+  "sessions": {
+    "s_4d6fdd61574b1b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019facc4-37f4-7df2-9152-92c3103ebd72",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "masongzhi <masongzhi@bigo.sg>",
+      "total_additions": 1008,
+      "total_deletions": 28
+    }
+  }
+}
