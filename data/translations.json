@@ -301,12 +301,14 @@
     "TabularisDB/tabularis": {
       "source": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
       "zh": "支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。",
-      "analysis_source": "c538c69aceafeb6e3b3eed25a1b12ad1e70d47c8cf0c569d7af1bd41adf52c05",
+      "analysis_source": "7389d8a3bfbf04f0138c2f4933ac77038e3bd7d7de996ea641cedb28eff1b201",
       "analysis_zh": {
-        "positioning": "支持多数据库的开源桌面SQL工作台，集成AI助手和可视化工具。",
-        "capabilities": "支持PostgreSQL、MySQL/MariaDB、SQLite等15+数据库；内置MCP服务器支持AI助手；支持SQL笔记本和可视化EXPLAIN；支持插件扩展和多语言界面",
-        "use_cases": "适合数据库管理员、开发者和数据分析师进行多数据库管理和查询优化。",
-        "considerations": "基于TypeScript开发；Apache-2.0开源许可；支持Windows、macOS、Linux多平台；需数据库环境支持"
+        "positioning": "支持多数据库的开源桌面SQL工作台，集成AI助手和可视化工具，面向数据库开发者和数据分析师。",
+        "implementation": "使用TypeScript开发的跨平台桌面应用，集成多种数据库驱动，内置MCP服务器实现AI代理交互，支持SQL笔记本和可视化EXPLAIN，采用插件架构支持多语言扩展，提供多语言界面",
+        "problems_solved": "简化多数据库管理和查询流程，集成AI辅助提升查询效率，支持SQL笔记本和可视化分析，替代多工具切换和复杂操作。",
+        "capabilities": "支持PostgreSQL、MySQL/MariaDB、SQLite及15+数据库；内置MCP服务器支持AI代理；SQL笔记本支持SQL与Markdown混合；可视化EXPLAIN交互式查询计划；多语言UI支持；插件系统支持任意语言",
+        "use_cases": "适合数据库开发者、数据分析师进行多数据库管理、查询和分析，支持AI辅助和交互式笔记本工作流。",
+        "considerations": "无明确许可证信息；支持多平台安装（Windows、macOS、Linux多种包格式）；内置AI功能为可选项；建议核对官方文档确认最新功能和依赖"
       }
     },
     "Termix-SSH/Termix": {
@@ -1298,7 +1300,16 @@
     },
     "vercel/hyper": {
       "source": "A terminal built on web technologies",
-      "zh": "基于网页技术的终端模拟器。"
+      "zh": "基于网页技术的终端模拟器。",
+      "analysis_source": "7285b31d199b68583d9497b64a619c1b8521f45df0fafd80d8d87acd00c65517",
+      "analysis_zh": {
+        "positioning": "基于网页技术打造的美观且可扩展的终端模拟器，面向命令行用户。",
+        "implementation": "采用Node.js和React框架，使用TypeScript开发，基于开放网页标准构建终端界面，支持插件扩展API，提供快速、稳定的命令行体验，支持多平台安装和构建流程",
+        "problems_solved": "提供比传统终端更美观且可扩展的界面，提升命令行用户的使用体验和生产力，简化跨平台终端环境的统一管理。",
+        "capabilities": "基于网页技术的终端模拟器；支持插件扩展API；跨平台支持Linux、macOS、Windows；使用React和TypeScript开发",
+        "use_cases": "适合开发者和系统管理员在多平台使用终端，支持插件扩展和自定义工作流。",
+        "considerations": "无明确许可证信息；依赖pnpm包管理工具；支持多平台安装方式如Homebrew、Chocolatey、AUR等；建议查看官方文档获取最新版本和安装指南"
+      }
     },
     "wavetermdev/waveterm": {
       "source": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
