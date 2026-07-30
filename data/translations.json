@@ -201,6 +201,10 @@
       "source": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
       "zh": "功能强大且易用的截图软件。"
     },
+    "freeplane/freeplane": {
+      "source": "Application for Mind Mapping, Knowledge Management, Project Management. Develop, organize and communicate your ideas and knowledge in the most effective way.",
+      "zh": "是一款用于思维导图、知识管理和项目管理的应用，助你高效组织和传达想法。"
+    },
     "generalaction/emdash": {
       "source": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
       "zh": "开源多代理开发环境，支持并行运行多种编码代理。"
@@ -236,6 +240,10 @@
     "keepassxreboot/keepassxc": {
       "source": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
       "zh": "跨平台的KeePass密码管理器移植版。"
+    },
+    "kurikomi-labs/komi-store": {
+      "source": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
+      "zh": "是一个免费开源的开发者应用商店，支持 GitHub、Codeberg 和 Forgejo 一键浏览安装。"
     },
     "lapce/lapce": {
       "source": "Lightning-fast and Powerful Code Editor written in Rust",

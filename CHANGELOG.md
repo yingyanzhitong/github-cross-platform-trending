@@ -2,6 +2,15 @@
 
 本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.3.1] - 2026-07-30
+
+### 更新
+
+- 更新 2026-07-30 跨平台热门软件前 100 榜单及结构化数据。
+- 今日 Daily Trending 入榜项目为 GeoLibre 与 AIRI。
+- 新增 Komi Store 与 Freeplane，移出 OpenHands 与 Hyper。
+- 100 个项目均通过 macOS 与 Windows Latest Release 安装包校验。
+
 ## [0.3.0] - 2026-07-29
 
 ### 新增
