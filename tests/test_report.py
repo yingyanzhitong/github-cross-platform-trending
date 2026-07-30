@@ -35,6 +35,8 @@ class RenderMarkdownTests(unittest.TestCase):
                 "is_new": True,
                 "analysis_zh": {
                     "positioning": "面向桌面用户的跨平台下载管理工具。",
+                    "implementation": "使用 Rust 构建桌面客户端，通过任务队列管理下载。",
+                    "problems_solved": "解决多任务下载难以集中管理和失败后手动重试的问题。",
                     "capabilities": "管理下载任务；支持 macOS 与 Windows 客户端。",
                     "use_cases": "适合需要统一管理桌面下载任务的用户。",
                     "considerations": "使用前应核对项目文档与安装包签名。",
@@ -50,8 +52,11 @@ class RenderMarkdownTests(unittest.TestCase):
         )
 
         self.assertIn("owner/example", markdown)
-        self.assertIn("| 详情 ↘️ | NEW | 软件 | 中文简介 |", markdown)
-        self.assertIn("| 🆕 **NEW** |", markdown)
+        self.assertIn("| 详情 ↘️ | 新增 | 软件 | 中文简介 |", markdown)
+        self.assertIn("| 🟢 |", markdown)
+        self.assertIn("新增标识：🟢 表示该仓库最近 7 天未曾入榜", markdown)
+        self.assertNotIn("NEW", markdown)
+        self.assertNotIn("🆕", markdown)
         self.assertIn("| 一款示例桌面应用。 |", markdown)
         self.assertNotIn("Example desktop app", markdown)
         self.assertIn("Daily Trending #2", markdown)
@@ -60,14 +65,16 @@ class RenderMarkdownTests(unittest.TestCase):
         self.assertIn("macOS 安装包", markdown)
         self.assertIn("Windows 安装包", markdown)
         self.assertIn("1,200 个星标 / 100 次复刻", markdown)
-        self.assertEqual(markdown.count("🆕 **NEW**"), 2)
+        self.assertEqual(markdown.count("🟢"), 3)
         self.assertIn('<a id="project-row-1"></a>', markdown)
         self.assertIn("[#1 ↘️](#project-detail-1)", markdown)
         self.assertNotIn("| 平台证据 | 详情 |", markdown)
         self.assertIn('<a id="project-detail-1"></a>', markdown)
         self.assertIn("[↖️ 返回表格中的 #1](#project-row-1)", markdown)
         self.assertIn("#### 中文分析", markdown)
-        self.assertIn("**项目定位**：面向桌面用户的跨平台下载管理工具。", markdown)
+        self.assertIn("**项目是做什么的**：面向桌面用户的跨平台下载管理工具。", markdown)
+        self.assertIn("**怎么做到的**：使用 Rust 构建桌面客户端", markdown)
+        self.assertIn("**解决了什么问题**：解决多任务下载难以集中管理", markdown)
         self.assertIn("**核心能力**：管理下载任务", markdown)
         self.assertIn("#### 项目概况", markdown)
         self.assertIn("主要语言：Rust；许可证：MIT", markdown)

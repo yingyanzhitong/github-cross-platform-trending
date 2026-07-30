@@ -34,6 +34,8 @@ class StubTranslator(DescriptionTranslator):
         return {
             "owner/example": {
                 "positioning": "面向桌面用户的跨平台下载管理器。",
+                "implementation": "使用 Rust 构建桌面客户端，并通过任务队列调度下载。",
+                "problems_solved": "解决多个下载任务难以集中管理和失败后手动重试的问题。",
                 "capabilities": "统一管理下载任务；支持失败重试。",
                 "use_cases": "适合需要集中处理多个下载任务的用户。",
                 "considerations": "安装前应核对项目发布说明与签名。",
@@ -65,6 +67,8 @@ class BatchTranslator(DescriptionTranslator):
         return {
             item["name"]: {
                 "positioning": "用于验证分批处理的跨平台软件。",
+                "implementation": "通过批处理队列依次生成每个项目的结构化分析。",
+                "problems_solved": "解决大量项目无法稳定分批分析的问题。",
                 "capabilities": "提供测试功能；支持批量分析。",
                 "use_cases": "适合自动化测试场景。",
                 "considerations": "使用前应核对项目文档。",
@@ -93,6 +97,8 @@ class ShortNameResponseTranslator(DescriptionTranslator):
                 {
                     "name": "example",
                     "positioning": "跨平台桌面下载管理器。",
+                    "implementation": "使用桌面客户端和任务队列统一调度下载。",
+                    "problems_solved": "解决多个下载任务难以集中管理的问题。",
                     "capabilities": "统一管理任务；支持失败重试。",
                     "use_cases": "适合处理多个下载任务的用户。",
                     "considerations": "使用前应核对项目文档。",
@@ -123,6 +129,8 @@ class DescriptionTranslatorTests(unittest.TestCase):
                 software[0]["analysis_zh"]["capabilities"],
                 "统一管理下载任务；支持失败重试。",
             )
+            self.assertIn("任务队列", software[0]["analysis_zh"]["implementation"])
+            self.assertIn("手动重试", software[0]["analysis_zh"]["problems_solved"])
             self.assertNotIn("_readme_excerpt", software[0])
             self.assertTrue(cache_path.exists())
 
@@ -151,6 +159,8 @@ class DescriptionTranslatorTests(unittest.TestCase):
             self.assertEqual(len(warnings), 2)
             self.assertIn("支持 macOS 和 Windows", software[0]["description_zh"])
             self.assertIn("positioning", software[0]["analysis_zh"])
+            self.assertIn("implementation", software[0]["analysis_zh"])
+            self.assertIn("problems_solved", software[0]["analysis_zh"])
 
     def test_translates_large_list_in_batches(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -171,7 +181,7 @@ class DescriptionTranslatorTests(unittest.TestCase):
 
             self.assertEqual(warnings, [])
             self.assertEqual(translator.batch_sizes, [25, 1])
-            self.assertEqual(translator.analysis_batch_sizes, [5, 5, 5, 5, 5, 1])
+            self.assertEqual(translator.analysis_batch_sizes, [10, 10, 6])
             self.assertTrue(
                 all(item.get("description_zh") for item in software)
             )

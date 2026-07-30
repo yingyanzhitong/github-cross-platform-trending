@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "generated_at": "2026-07-30T11:55:29+08:00",
+  "generated_at": "2026-07-30T14:35:33+08:00",
   "candidate_count": 600,
   "discovered_count": 1000,
   "matched_count": 100,
@@ -23,11 +23,11 @@
       ],
       "license": "MIT",
       "created_at": "2026-05-27T19:34:31Z",
-      "stars": 4144,
-      "forks": 437,
+      "stars": 4247,
+      "forks": 443,
       "stars_today": 671,
       "trending_rank": 1,
-      "pushed_at": "2026-07-30T03:34:35Z",
+      "pushed_at": "2026-07-30T05:59:18Z",
       "latest_release": {
         "tag": "v2.4.0",
         "url": "https://github.com/opengeos/GeoLibre/releases/tag/v2.4.0",
@@ -47,13 +47,15 @@
       "score": 10030.21,
       "rank": 1,
       "description_en": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
-      "description_zh": "轻量级云原生地理信息系统平台。",
       "is_new": false,
+      "description_zh": "轻量级云原生地理信息系统平台。",
       "analysis_zh": {
-        "positioning": "轻量级云原生GIS平台，支持多终端本地数据可视化与分析。",
-        "capabilities": "支持多平台运行（浏览器、桌面、移动端、Jupyter笔记本）；本地数据处理保障隐私；集成DuckDB WASM空间数据库和deck.gl进行空间数据分析与可视化；支持3D地图和多星球底图。",
-        "use_cases": "适合地理信息科学家、数据分析师及开发者进行空间数据探索与可视化，支持多终端工作流。",
-        "considerations": "采用MIT开源许可证，支持多平台部署，无需账号，数据本地存储，适合注重隐私的GIS用户。"
+        "positioning": "轻量级云原生GIS平台，面向需要跨平台地理空间数据可视化与分析的用户。",
+        "implementation": "基于TypeScript和React构建，采用Tauri实现跨平台桌面应用，集成MapLibre GL JS进行地图渲染，利用DuckDB WASM Spatial处理空间数据，支持Web、桌面、移动和Jupyter环境，数据本地存储保障隐私。",
+        "problems_solved": "解决了多平台地理空间数据分析工具分散、隐私难保障的问题，简化部署，提升数据本地化处理能力。",
+        "capabilities": "支持地理空间数据的可视化、探索与分析；跨平台运行（浏览器、桌面、移动端、Jupyter笔记本）；支持3D地图渲染与时间滑块动画；支持多星球底图；数据本地存储与隐私保护。",
+        "use_cases": "地理信息科学家、数据分析师、开发者进行空间数据探索、地图制作和时序分析。",
+        "considerations": "依赖Tauri v2、React、TypeScript、MapLibre GL JS、DuckDB WASM Spatial、deck.gl；MIT许可证；建议核对项目文档以了解详细部署和使用说明。"
       }
     },
     {
@@ -77,11 +79,11 @@
       ],
       "license": "MIT",
       "created_at": "2024-12-01T16:33:36Z",
-      "stars": 45480,
-      "forks": 4492,
+      "stars": 45556,
+      "forks": 4500,
       "stars_today": 682,
       "trending_rank": 2,
-      "pushed_at": "2026-07-30T03:28:38Z",
+      "pushed_at": "2026-07-30T06:33:35Z",
       "latest_release": {
         "tag": "v0.11.3",
         "url": "https://github.com/moeru-ai/airi/releases/tag/v0.11.3",
@@ -99,75 +101,15 @@
       "score": 9930.53,
       "rank": 2,
       "description_en": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "is_new": false,
       "description_zh": "支持实时语音聊天和游戏的自托管智能伴侣。",
-      "is_new": false,
       "analysis_zh": {
-        "positioning": "自托管智能虚拟伴侣，支持语音聊天和游戏互动。",
-        "capabilities": "支持实时语音聊天；集成Minecraft、Factorio游戏互动；多平台支持（Web、macOS、Windows）；基于大型语言模型实现智能虚拟伴侣。",
-        "use_cases": "适合希望拥有个性化AI伴侣的用户，支持游戏互动和多平台使用。",
-        "considerations": "MIT许可证开源，自托管部署，需自行搭建环境，项目活跃，建议查看官方文档了解详细部署步骤。"
-      }
-    },
-    {
-      "name": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "homepage": "https://rustdesk.com",
-      "language": "Rust",
-      "topics": [
-        "android",
-        "anydesk",
-        "dart",
-        "flatpak",
-        "flutter",
-        "flutter-apps",
-        "ios",
-        "linux",
-        "macos",
-        "p2p",
-        "rdp",
-        "remote-control",
-        "remote-desktop",
-        "rust",
-        "rust-lang",
-        "teamviewer",
-        "vnc",
-        "wayland",
-        "windows"
-      ],
-      "license": "AGPL-3.0",
-      "created_at": "2020-09-28T15:36:08Z",
-      "stars": 119208,
-      "forks": 18193,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-30T03:15:05Z",
-      "latest_release": {
-        "tag": "1.4.9",
-        "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.4.9",
-        "published_at": "2026-07-06T10:02:30Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: rustdesk-1.4.9-aarch64.dmg",
-          "Release: rustdesk-1.4.9-x86_64.dmg"
-        ],
-        "windows": [
-          "Release: rustdesk-1.4.9-aarch64.exe",
-          "Release: rustdesk-1.4.9-aarch64.msi",
-          "Release: rustdesk-1.4.9-x86-sciter.exe"
-        ]
-      },
-      "score": 607.56,
-      "rank": 3,
-      "description_en": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "description_zh": "开源自托管远程桌面替代方案。",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "开源自托管远程桌面替代方案，保障数据安全。",
-        "capabilities": "开源远程桌面解决方案；支持P2P连接和自建服务器；跨平台支持（Windows、Linux、macOS、Android、iOS）；无需复杂配置即可使用。",
-        "use_cases": "适合企业和个人用户进行远程桌面控制，支持多平台和自建服务器。",
-        "considerations": "采用AGPL-3.0许可证，支持自托管，需配置Rust开发环境和依赖库，适合注重数据安全的远程控制需求。"
+        "positioning": "自托管智能伴侣，面向希望拥有可实时语音聊天和游戏互动的数字虚拟角色用户。",
+        "implementation": "利用现代大型语言模型（如ChatGPT、Claude）构建AI虚拟伴侣，支持实时语音交互和游戏玩法，采用容器化设计实现自托管，支持多平台客户端。",
+        "problems_solved": "替代封闭的虚拟主播服务，实现用户对数字生命的自主拥有和持续互动，支持多场景娱乐和陪伴。",
+        "capabilities": "支持实时语音聊天；支持Minecraft、Factorio等游戏互动；跨平台支持Web、macOS、Windows；集成大型语言模型实现智能对话与角色扮演。",
+        "use_cases": "数字虚拟角色爱好者、游戏玩家、AI伴侣需求者进行实时语音聊天和游戏互动。",
+        "considerations": "基于TypeScript开发；MIT许可证；需自托管；建议核对项目文档了解详细安装和配置要求。"
       }
     },
     {
@@ -200,35 +142,101 @@
       ],
       "license": "MIT",
       "created_at": "2025-08-04T14:16:16Z",
-      "stars": 122332,
-      "forks": 8260,
+      "stars": 122369,
+      "forks": 8264,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-29T16:08:04Z",
+      "pushed_at": "2026-07-30T04:20:50Z",
       "latest_release": {
-        "tag": "v3.18.0",
-        "url": "https://github.com/farion1231/cc-switch/releases/tag/v3.18.0",
-        "published_at": "2026-07-21T15:34:53Z"
+        "tag": "v3.19.0",
+        "url": "https://github.com/farion1231/cc-switch/releases/tag/v3.19.0",
+        "published_at": "2026-07-30T04:27:46Z"
       },
       "platform_evidence": {
         "macos": [
-          "Release: CC-Switch-v3.18.0-macOS.dmg"
+          "Release: CC-Switch-v3.19.0-macOS.dmg"
         ],
         "windows": [
-          "Release: CC-Switch-v3.18.0-Windows-arm64.msi",
-          "Release: CC-Switch-v3.18.0-Windows.msi"
+          "Release: CC-Switch-v3.19.0-Windows-arm64.msi",
+          "Release: CC-Switch-v3.19.0-Windows.msi"
         ]
       },
-      "score": 606.83,
-      "rank": 4,
+      "score": 608.39,
+      "rank": 3,
       "description_en": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-      "description_zh": "支持多智能代理的一体化跨平台桌面助手。",
       "is_new": false,
+      "description_zh": "支持多智能代理的一体化跨平台桌面助手。",
       "analysis_zh": {
-        "positioning": "多智能代理一体化跨平台桌面助手，便捷管理多AI模型。",
-        "capabilities": "支持多智能代理管理；跨平台桌面应用；集成Claude Code、Codex、Grok Build等多种AI工具；便捷切换和配置多模型。",
-        "use_cases": "适合开发者和AI爱好者管理和切换多种智能代理和AI模型。",
-        "considerations": "MIT许可证，跨平台支持，依赖多种AI模型和API，需注册相关服务账号，项目活跃。"
+        "positioning": "多智能代理一体化跨平台桌面助手，服务于需要统一管理多AI模型的开发者和用户。",
+        "implementation": "采用Rust语言和Tauri框架开发跨平台桌面助手，统一管理多种AI智能代理和模型，提供便捷的配置和切换界面，支持多语言和多模型调用。",
+        "problems_solved": "解决多AI模型分散管理难题，简化配置流程，提升多模型协同效率，降低使用门槛。",
+        "capabilities": "支持多智能代理管理；集成Claude Code、Codex、OpenCode、OpenClaw、Grok Build、Hermes Agent等；跨平台桌面应用；简化AI模型切换与配置。",
+        "use_cases": "AI开发者、研究者及多模型用户进行智能代理管理和切换。",
+        "considerations": "基于Rust开发；MIT许可证；依赖Tauri框架；建议核对项目文档了解具体集成模型和使用方法。"
+      }
+    },
+    {
+      "name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "homepage": "https://rustdesk.com",
+      "language": "Rust",
+      "topics": [
+        "android",
+        "anydesk",
+        "dart",
+        "flatpak",
+        "flutter",
+        "flutter-apps",
+        "ios",
+        "linux",
+        "macos",
+        "p2p",
+        "rdp",
+        "remote-control",
+        "remote-desktop",
+        "rust",
+        "rust-lang",
+        "teamviewer",
+        "vnc",
+        "wayland",
+        "windows"
+      ],
+      "license": "AGPL-3.0",
+      "created_at": "2020-09-28T15:36:08Z",
+      "stars": 119221,
+      "forks": 18196,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-30T06:19:17Z",
+      "latest_release": {
+        "tag": "1.4.9",
+        "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.4.9",
+        "published_at": "2026-07-06T10:02:30Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: rustdesk-1.4.9-aarch64.dmg",
+          "Release: rustdesk-1.4.9-x86_64.dmg"
+        ],
+        "windows": [
+          "Release: rustdesk-1.4.9-aarch64.exe",
+          "Release: rustdesk-1.4.9-aarch64.msi",
+          "Release: rustdesk-1.4.9-x86-sciter.exe"
+        ]
+      },
+      "score": 607.59,
+      "rank": 4,
+      "description_en": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "is_new": false,
+      "description_zh": "开源自托管远程桌面替代方案。",
+      "analysis_zh": {
+        "positioning": "开源自托管远程桌面解决方案，面向需要安全自主远程控制的个人和企业用户。",
+        "implementation": "采用Rust语言开发，利用P2P技术实现远程桌面连接，支持多平台客户端，提供自托管服务器选项，GUI基于Flutter或Sciter实现。",
+        "problems_solved": "替代闭源远程桌面软件，保障数据安全和隐私，降低远程控制成本和依赖。",
+        "capabilities": "支持远程桌面控制；P2P连接；跨平台支持Windows、macOS、Linux、Android、iOS；开源自托管；支持Flutter和Sciter GUI。",
+        "use_cases": "IT支持、远程办公、个人远程访问等场景的远程桌面控制。",
+        "considerations": "基于Rust开发；AGPL-3.0许可证；支持自建中继服务器；建议核对项目文档了解部署细节和安全配置。"
       }
     },
     {
@@ -261,11 +269,11 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2026-04-28T04:25:20Z",
-      "stars": 82583,
+      "stars": 82611,
       "forks": 9557,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T03:13:39Z",
+      "pushed_at": "2026-07-30T06:32:30Z",
       "latest_release": {
         "tag": "open-design-v0.16.1",
         "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.16.1",
@@ -280,16 +288,118 @@
           "Release: open-design-0.16.1-win-x64-setup.exe"
         ]
       },
-      "score": 591.61,
+      "score": 591.69,
       "rank": 5,
       "description_en": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
-      "description_zh": "本地优先的开源设计工具，支持多种导出格式。",
       "is_new": false,
+      "description_zh": "本地优先的开源设计工具，支持多种导出格式。",
       "analysis_zh": {
-        "positioning": "本地优先开源设计工具，支持多格式导出与AI驱动设计。",
-        "capabilities": "本地优先设计工具；支持多格式导出（HTML、PDF、PPTX、MP4）；集成多种AI模型和CLI工具；支持设计系统和插件扩展。",
-        "use_cases": "适合设计师和开发者进行原型设计、仪表盘制作及多媒体内容创作。",
-        "considerations": "采用Apache-2.0许可证，本地运行保障数据安全，依赖多AI模型服务，适合设计与开发结合的工作流。"
+        "positioning": "本地优先开源设计工具，面向需要AI辅助设计和多格式导出的设计师和团队。",
+        "implementation": "采用TypeScript构建本地优先桌面应用，集成Claude Code、Codex、Cursor等20+ AI模型及CLI，支持设计技能组合和插件，输出多格式设计文件。",
+        "problems_solved": "替代闭源设计软件，实现AI驱动设计自动化，支持多格式导出和本地数据控制。",
+        "capabilities": "支持设计原型、仪表盘、幻灯片、图像和视频生成；本地优先桌面应用；支持多种导出格式（HTML、PDF、PPTX、MP4）；集成多种AI模型和CLI工具；支持设计系统和插件扩展。",
+        "use_cases": "设计师、产品经理及团队进行原型设计、仪表盘制作和多媒体内容创作。",
+        "considerations": "基于TypeScript开发；Apache-2.0许可证；依赖多AI模型服务；建议核对项目文档了解具体功能和部署要求。"
+      }
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "homepage": "https://openhands.dev",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "artificial-intelligence",
+        "chatgpt",
+        "claude-ai",
+        "cli",
+        "developer-tools",
+        "gpt",
+        "llm",
+        "openai"
+      ],
+      "license": "MIT",
+      "created_at": "2024-03-13T03:33:31Z",
+      "stars": 82562,
+      "forks": 10597,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-30T04:12:52Z",
+      "latest_release": {
+        "tag": "v1.7.1",
+        "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.7.1",
+        "published_at": "2026-07-30T03:47:25Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Agent-Canvas-1.7.1-arm64.dmg"
+        ],
+        "windows": [
+          "Release: Agent-Canvas-Setup-1.7.1.exe"
+        ]
+      },
+      "score": 591.28,
+      "rank": 6,
+      "description_en": "🙌 OpenHands: AI-Driven Development",
+      "is_new": false,
+      "description_zh": "基于AI驱动的软件开发平台。",
+      "analysis_zh": {
+        "positioning": "基于AI驱动的软件开发平台，面向开发者和自动化需求用户。",
+        "implementation": "基于TypeScript开发，提供Agent Canvas作为开发者控制中心，支持本地运行及连接多种代理后端（Docker、VM、企业基础设施等），通过Agent Client Protocol兼容多种AI代理，实现自动化任务和多工具集成。",
+        "problems_solved": "简化多AI代理管理和切换，自动化日常开发任务，提升开发效率，支持多工具集成，降低多代理环境配置复杂度。",
+        "capabilities": "支持本地、远程及云端多种代理后端；集成多种AI代理如OpenHands、Claude Code、Codex、Gemini；支持Slack、GitHub、Linear等工具的自动化工作流；支持Agent Client Protocol (ACP)兼容代理；支持Docker容器和虚拟机部署。",
+        "use_cases": "适合开发者、自动化工程师，用于构建和管理AI代理自动化工作流，集成Slack、GitHub等工具。",
+        "considerations": "MIT许可证；支持自托管和云端部署；需配置代理后端环境；项目活跃，文档详尽。"
+      }
+    },
+    {
+      "name": "Eugeny/tabby",
+      "url": "https://github.com/Eugeny/tabby",
+      "description": "A terminal for a more modern age",
+      "homepage": "https://tabby.sh",
+      "language": "TypeScript",
+      "topics": [
+        "serial",
+        "ssh-client",
+        "telnet-client",
+        "terminal",
+        "terminal-emulators"
+      ],
+      "license": "MIT",
+      "created_at": "2016-12-23T09:06:10Z",
+      "stars": 73600,
+      "forks": 4185,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-30T05:29:24Z",
+      "latest_release": {
+        "tag": "v1.0.235",
+        "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.235",
+        "published_at": "2026-07-22T22:48:52Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: tabby-1.0.235-macos-arm64.dmg",
+          "Release: tabby-1.0.235-macos-x86_64.dmg"
+        ],
+        "windows": [
+          "Release: tabby-1.0.235-setup-arm64.exe",
+          "Release: tabby-1.0.235-setup-x64.exe"
+        ]
+      },
+      "score": 586.5,
+      "rank": 7,
+      "description_en": "A terminal for a more modern age",
+      "is_new": false,
+      "description_zh": "现代化终端工具。",
+      "analysis_zh": {
+        "positioning": "现代化终端工具，面向需要多协议终端和高可定制性的用户。",
+        "implementation": "使用TypeScript开发，提供高度可配置的终端仿真器，集成SSH、Telnet和串口连接管理，支持多标签和分屏，支持多种Shell环境，支持插件和主题扩展。",
+        "problems_solved": "替代传统终端和SSH客户端，提供统一多协议支持，提升远程管理效率，支持多平台和多语言环境。",
+        "capabilities": "集成SSH、Telnet和串口客户端；支持多平台（Windows、macOS、Linux）；支持多标签页和分屏；支持主题和快捷键自定义；支持Zmodem文件传输；支持Unicode和多语言。",
+        "use_cases": "适合系统管理员、开发者，管理远程环境和串口设备，支持多协议连接和多任务操作。",
+        "considerations": "MIT许可证；支持桌面和Web应用；依赖现代操作系统环境；项目成熟，持续更新。"
       }
     },
     {
@@ -320,11 +430,11 @@
       ],
       "license": "NOASSERTION",
       "created_at": "2022-07-31T18:45:21Z",
-      "stars": 70916,
-      "forks": 5094,
+      "stars": 70917,
+      "forks": 5093,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T02:48:07Z",
+      "pushed_at": "2026-07-30T06:13:24Z",
       "latest_release": {
         "tag": "v0.27.3",
         "url": "https://github.com/toeverything/AFFiNE/releases/tag/v0.27.3",
@@ -341,63 +451,18 @@
           "Release: affine-0.27.3-stable-windows-x64.exe"
         ]
       },
-      "score": 584.93,
-      "rank": 6,
+      "score": 585.01,
+      "rank": 8,
       "description_en": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+      "is_new": false,
       "description_zh": "隐私优先的开源下一代知识库平台。",
-      "is_new": false,
       "analysis_zh": {
-        "positioning": "隐私优先的开源下一代知识库平台，集规划、整理与创作于一体。",
-        "capabilities": "集成文档、画布和表格的多功能编辑器；支持多种内容块（文本、便签、网页嵌入、多视图数据库等）；本地优先，支持实时协作和跨平台同步；内置多模态AI助手，辅助内容创作和规划。",
-        "use_cases": "适合需要知识管理、团队协作和创意规划的个人及团队，支持多平台实时同步和AI辅助创作。",
-        "considerations": "开源但许可证未明确声明；支持自托管；依赖本地存储和网络同步；项目活跃，建议查看官方文档确认部署细节。"
-      }
-    },
-    {
-      "name": "Eugeny/tabby",
-      "url": "https://github.com/Eugeny/tabby",
-      "description": "A terminal for a more modern age",
-      "homepage": "https://tabby.sh",
-      "language": "TypeScript",
-      "topics": [
-        "serial",
-        "ssh-client",
-        "telnet-client",
-        "terminal",
-        "terminal-emulators"
-      ],
-      "license": "MIT",
-      "created_at": "2016-12-23T09:06:10Z",
-      "stars": 73594,
-      "forks": 4186,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-28T04:03:07Z",
-      "latest_release": {
-        "tag": "v1.0.235",
-        "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.235",
-        "published_at": "2026-07-22T22:48:52Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: tabby-1.0.235-macos-arm64.dmg",
-          "Release: tabby-1.0.235-macos-x86_64.dmg"
-        ],
-        "windows": [
-          "Release: tabby-1.0.235-setup-arm64.exe",
-          "Release: tabby-1.0.235-setup-x64.exe"
-        ]
-      },
-      "score": 578.74,
-      "rank": 7,
-      "description_en": "A terminal for a more modern age",
-      "description_zh": "现代化终端工具。",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "面向现代需求的跨平台终端模拟器，集成多协议客户端。",
-        "capabilities": "集成SSH、Telnet和串口客户端；支持多标签、多窗格分割；高度可配置快捷键和主题；支持文件传输和Unicode全字符集；提供跨平台桌面和Web版本。",
-        "use_cases": "适合开发者和系统管理员管理远程环境，支持多协议连接和多任务终端操作。",
-        "considerations": "采用MIT许可证；支持Windows、macOS和Linux；无特殊账号或服务依赖；项目成熟，适合替代传统终端工具。"
+        "positioning": "隐私优先的开源下一代知识库平台，面向知识管理和创意工作者。",
+        "implementation": "基于TypeScript和Rust开发，融合文档编辑、白板绘制和数据库管理，支持本地优先和实时协作，集成AI辅助功能，支持跨平台客户端和自托管部署。",
+        "problems_solved": "整合笔记、白板和数据库功能，保护用户隐私，支持实时协作，替代Notion和Miro，提升知识管理效率。",
+        "capabilities": "支持文档、白板、数据库多种内容融合；支持实时协作和本地优先数据存储；集成多模态AI辅助创作；支持跨平台（Electron客户端）；支持自托管和高度定制。",
+        "use_cases": "适合个人和团队知识管理、创意规划和实时协作，支持自托管和跨平台使用。",
+        "considerations": "许可证为NOASSERTION，需核对具体授权；依赖TypeScript和Rust技术栈；支持本地和云端部署；项目活跃。"
       }
     },
     {
@@ -418,7 +483,7 @@
       ],
       "license": "MIT",
       "created_at": "2016-01-13T23:41:35Z",
-      "stars": 54592,
+      "stars": 54595,
       "forks": 8410,
       "stars_today": 0,
       "trending_rank": null,
@@ -440,16 +505,18 @@
           "Release: PowerShell-7.6.4-win-x86.msi"
         ]
       },
-      "score": 573.13,
-      "rank": 8,
+      "score": 572.64,
+      "rank": 9,
       "description_en": "PowerShell for every system!",
-      "description_zh": "跨平台的命令行自动化工具。",
       "is_new": false,
+      "description_zh": "跨平台的命令行自动化工具。",
       "analysis_zh": {
-        "positioning": "跨平台的命令行自动化和配置工具，优化结构化数据处理。",
-        "capabilities": "跨平台命令行自动化和配置框架；支持结构化数据处理（JSON、CSV、XML等）；包含命令行Shell和脚本语言；支持丰富的cmdlet扩展。",
-        "use_cases": "适合系统管理员、开发者进行自动化脚本编写和系统管理，支持多平台统一操作。",
-        "considerations": "采用MIT许可证；支持Windows、Linux和macOS；社区活跃，适合企业和个人使用；无特殊账号依赖。"
+        "positioning": "跨平台命令行自动化工具，面向系统管理员和开发者。",
+        "implementation": "使用C开发，基于.NET Core框架，提供跨平台命令行界面和脚本语言，支持丰富的自动化命令和模块，优化结构化数据处理和API交互。",
+        "problems_solved": "统一多平台自动化脚本环境，简化系统管理和数据处理，提升跨平台运维效率。",
+        "capabilities": "跨平台支持Windows、Linux、macOS；支持命令行和脚本自动化；支持处理结构化数据（JSON、CSV、XML）；集成丰富的cmdlet和模块；支持REST API交互。",
+        "use_cases": "适合系统管理员、开发者进行自动化运维、脚本开发和数据处理。",
+        "considerations": "MIT许可证；需依赖.NET Core环境；项目成熟且由微软维护；支持多平台安装和升级。"
       }
     },
     {
@@ -480,7 +547,7 @@
       ],
       "license": "NOASSERTION",
       "created_at": "2017-01-16T21:49:41Z",
-      "stars": 55775,
+      "stars": 55776,
       "forks": 6199,
       "stars_today": 0,
       "trending_rank": null,
@@ -500,16 +567,18 @@
           "Release: JoplinPortable.exe"
         ]
       },
-      "score": 573.02,
-      "rank": 9,
+      "score": 572.53,
+      "rank": 10,
       "description_en": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
-      "description_zh": "支持多平台同步的隐私笔记应用。",
       "is_new": false,
+      "description_zh": "支持多平台同步的隐私笔记应用。",
       "analysis_zh": {
-        "positioning": "支持多平台同步的隐私保护笔记和任务管理应用。",
-        "capabilities": "支持Markdown格式笔记和任务管理；支持多平台（Windows、macOS、Linux、Android、iOS）同步；支持端到端加密；支持导入Evernote笔记；可通过插件和主题自定义。",
-        "use_cases": "适合注重隐私的个人用户和团队进行笔记记录、任务管理及跨设备同步。",
-        "considerations": "许可证未明确声明；支持多种云同步服务；数据本地优先；项目活跃，建议查看官方文档确认同步和安全细节。"
+        "positioning": "支持多平台同步的隐私笔记应用，面向个人和团队用户。",
+        "implementation": "基于TypeScript和Electron开发，支持Markdown笔记编辑和管理，提供端到端加密同步，支持多平台客户端和浏览器剪辑扩展。",
+        "problems_solved": "保护笔记隐私，支持多设备同步，替代Evernote，提升笔记管理和访问便捷性。",
+        "capabilities": "支持Markdown格式笔记；支持多平台同步（Windows、macOS、Linux、Android、iOS）；支持端到端加密同步；支持导入Evernote笔记；支持插件和主题扩展；提供网页剪辑器。",
+        "use_cases": "适合需要跨设备同步和隐私保护的个人用户和团队笔记管理。",
+        "considerations": "许可证为NOASSERTION，需核对具体授权；依赖TypeScript和Electron；支持多云同步服务；项目活跃。"
       }
     },
     {
@@ -542,8 +611,8 @@
       ],
       "license": "GPL-2.0",
       "created_at": "2020-11-10T14:27:00Z",
-      "stars": 54322,
-      "forks": 2435,
+      "stars": 54323,
+      "forks": 2436,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-30T00:44:27Z",
@@ -563,16 +632,78 @@
           "Release: imhex-1.38.1-Windows-x86_64.msi"
         ]
       },
-      "score": 573.01,
-      "rank": 10,
+      "score": 572.52,
+      "rank": 11,
       "description_en": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-      "description_zh": "适合逆向工程师的十六进制编辑器。",
       "is_new": false,
+      "description_zh": "适合逆向工程师的十六进制编辑器。",
       "analysis_zh": {
-        "positioning": "面向逆向工程师和程序员的专业十六进制编辑器。",
-        "capabilities": "功能丰富的十六进制编辑器；支持字节编辑、无限撤销重做；支持多种数据类型显示和解析；内置自定义模式语言解析文件结构；支持多种编码和高亮规则；支持书签和数据搜索。",
-        "use_cases": "适合从事二进制分析、逆向工程和程序调试的技术人员使用。",
-        "considerations": "采用GPL-2.0许可证；适合逆向工程师和程序员；依赖桌面环境；项目活跃，适合专业二进制分析。"
+        "positioning": "面向逆向工程师和程序员的高效十六进制编辑器，适合夜间长时间工作保护视力。",
+        "implementation": "基于C++开发，采用Dear ImGui图形界面库实现交互，支持模式语言解析文件结构，内置多种数据类型和编码解析，支持书签、查找、数据处理器等功能，支持多平台运行",
+        "problems_solved": "解决传统十六进制编辑器功能单一、操作复杂、视觉疲劳等问题，提升二进制文件分析和编辑效率。",
+        "capabilities": "十六进制查看与编辑；模式匹配与数据解析；多种数据类型显示；内置多编码支持；自定义高亮规则；无限撤销重做；数据处理与解密；支持多种编程语言数组格式复制",
+        "use_cases": "逆向工程、二进制分析、程序调试、数据恢复等场景的专业用户。",
+        "considerations": "GPL-2.0开源许可；依赖C++和Dear ImGui库；适合逆向工程和二进制分析；最新版本2025年发布；建议查看官方文档了解详细功能和使用方法"
+      }
+    },
+    {
+      "name": "usebruno/bruno",
+      "url": "https://github.com/usebruno/bruno",
+      "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "homepage": "https://www.usebruno.com/",
+      "language": "JavaScript",
+      "topics": [
+        "api-client",
+        "api-testing",
+        "automation",
+        "developer-tools",
+        "git",
+        "graphql-client",
+        "http-client",
+        "javascript",
+        "openapi",
+        "openapi3",
+        "opensource",
+        "rest-api",
+        "testing",
+        "testing-tools"
+      ],
+      "license": "MIT",
+      "created_at": "2022-09-27T20:51:45Z",
+      "stars": 46008,
+      "forks": 2732,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-30T06:22:39Z",
+      "latest_release": {
+        "tag": "v4.0.0",
+        "url": "https://github.com/usebruno/bruno/releases/tag/v4.0.0",
+        "published_at": "2026-07-23T17:26:41Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: bruno_4.0.0_arm64_mac.dmg",
+          "Release: bruno_4.0.0_arm64_mac.pkg",
+          "Release: bruno_4.0.0_x64_mac.dmg"
+        ],
+        "windows": [
+          "Release: bruno_4.0.0_arm64_win.exe",
+          "Release: bruno_4.0.0_arm64_win.msi",
+          "Release: bruno_4.0.0_x64_win.exe"
+        ]
+      },
+      "score": 566.25,
+      "rank": 12,
+      "description_en": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "is_new": false,
+      "description_zh": "开源轻量级API测试和探索IDE。",
+      "analysis_zh": {
+        "positioning": "面向开发者的轻量级开源API测试和探索IDE，替代Postman和Insomnia。",
+        "implementation": "使用JavaScript开发，采用本地文件夹存储API请求集合，利用自定义Bru标记语言保存请求信息，支持CLI命令行工具，支持多平台安装和运行",
+        "problems_solved": "解决传统API测试工具臃肿、云端隐私风险和协作不便，提供本地存储和Git协作方案。",
+        "capabilities": "多平台支持；基于文件系统存储API集合；支持Git版本控制协作；命令行接口支持自动化测试和CI/CD；支持REST和GraphQL API测试；轻量级界面设计",
+        "use_cases": "API开发测试、自动化测试、团队协作管理API请求的开发者和测试人员。",
+        "considerations": "MIT开源许可；无云同步，数据完全本地存储；依赖JavaScript环境；最新版本2026年发布；建议核对官方文档了解安装和使用细节"
       }
     },
     {
@@ -604,11 +735,11 @@
       ],
       "license": "AGPL-3.0",
       "created_at": "2020-08-30T09:21:35Z",
-      "stars": 45490,
+      "stars": 45491,
       "forks": 2924,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T03:40:50Z",
+      "pushed_at": "2026-07-30T06:23:06Z",
       "latest_release": {
         "tag": "v3.7.3",
         "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.7.3",
@@ -624,74 +755,18 @@
           "Release: siyuan-3.7.3-win.exe"
         ]
       },
-      "score": 565.79,
-      "rank": 11,
+      "score": 565.76,
+      "rank": 13,
       "description_en": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+      "is_new": false,
       "description_zh": "自托管的开源个人知识管理软件。",
-      "is_new": false,
       "analysis_zh": {
-        "positioning": "一款注重隐私的自托管开源个人知识管理软件。",
-        "capabilities": "支持细粒度块级引用和双向链接；Markdown所见即所得编辑；支持数学公式、图表、流程图等多种内容；支持PDF注释、数据库表视图、间隔重复闪卡；集成OpenAI API实现AI写作和问答；支持多平台客户端和Docker部署。",
-        "use_cases": "适合个人用户进行知识管理、笔记整理和内容创作，支持多平台和多种内容格式。",
-        "considerations": "采用AGPL-3.0开源许可证；支持自托管部署；部分高级功能需付费会员；建议查看官方文档了解详细安装和升级流程。"
-      }
-    },
-    {
-      "name": "usebruno/bruno",
-      "url": "https://github.com/usebruno/bruno",
-      "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
-      "homepage": "https://www.usebruno.com/",
-      "language": "JavaScript",
-      "topics": [
-        "api-client",
-        "api-testing",
-        "automation",
-        "developer-tools",
-        "git",
-        "graphql-client",
-        "http-client",
-        "javascript",
-        "openapi",
-        "openapi3",
-        "opensource",
-        "rest-api",
-        "testing",
-        "testing-tools"
-      ],
-      "license": "MIT",
-      "created_at": "2022-09-27T20:51:45Z",
-      "stars": 46006,
-      "forks": 2732,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-29T22:32:15Z",
-      "latest_release": {
-        "tag": "v4.0.0",
-        "url": "https://github.com/usebruno/bruno/releases/tag/v4.0.0",
-        "published_at": "2026-07-23T17:26:41Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: bruno_4.0.0_arm64_mac.dmg",
-          "Release: bruno_4.0.0_arm64_mac.pkg",
-          "Release: bruno_4.0.0_x64_mac.dmg"
-        ],
-        "windows": [
-          "Release: bruno_4.0.0_arm64_win.exe",
-          "Release: bruno_4.0.0_arm64_win.msi",
-          "Release: bruno_4.0.0_x64_win.exe"
-        ]
-      },
-      "score": 565.42,
-      "rank": 12,
-      "description_en": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
-      "description_zh": "开源轻量级API测试和探索IDE。",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "一款开源轻量级API测试和探索IDE，注重数据隐私和离线使用。",
-        "capabilities": "支持API请求的创建、测试和管理；使用纯文本标记语言Bru保存请求；支持Git版本控制协作；提供命令行工具支持自动化测试和CI/CD集成；离线运行保障数据隐私。",
-        "use_cases": "适合开发者和测试人员进行API调试、测试和版本管理，支持团队协作和自动化流程。",
-        "considerations": "采用MIT开源许可证；完全离线运行，无云同步；支持多平台安装；建议核对官方文档了解详细使用和安装方法。"
+        "positioning": "面向注重隐私的个人用户的自托管开源知识管理软件。",
+        "implementation": "采用TypeScript和Go语言开发，基于块级内容管理和Markdown编辑，支持多种内容嵌入和导出，提供多平台客户端和Docker容器部署，支持API扩展和社区生态",
+        "problems_solved": "解决云端知识管理隐私风险，支持大文档编辑和多样化内容管理，提升个人知识组织效率。",
+        "capabilities": "块级引用和双向链接；Markdown所见即所得编辑；支持SQL查询嵌入；支持数学公式、图表、流程图等多种内容；支持PDF注释和导出；支持多平台客户端和Docker部署；支持API和社区插件市场",
+        "use_cases": "个人知识管理、笔记整理、文档编辑和研究资料管理的用户。",
+        "considerations": "AGPL-3.0开源许可；支持自托管部署；部分高级功能需付费会员；依赖TypeScript和Go语言；最新版本2026年发布；建议查看官方文档了解详细功能和部署方式"
       }
     },
     {
@@ -718,7 +793,7 @@
       ],
       "license": "MIT",
       "created_at": "2017-11-12T16:05:25Z",
-      "stars": 59311,
+      "stars": 59326,
       "forks": 4394,
       "stars_today": 0,
       "trending_rank": null,
@@ -738,16 +813,18 @@
           "Release: marktext-win-x64-0.19.1-setup.exe"
         ]
       },
-      "score": 565.25,
-      "rank": 13,
+      "score": 564.77,
+      "rank": 14,
       "description_en": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
-      "description_zh": "简洁优雅的跨平台Markdown编辑器。",
       "is_new": false,
+      "description_zh": "简洁优雅的跨平台Markdown编辑器。",
       "analysis_zh": {
-        "positioning": "一款简洁优雅的跨平台Markdown编辑器，专注于写作体验。",
-        "capabilities": "支持实时预览和所见即所得编辑；兼容CommonMark和GitHub风格Markdown；支持数学公式、表情符号和前置元数据；多种主题和编辑模式；支持跨平台使用。",
-        "use_cases": "适合需要高效Markdown写作的用户，支持多操作系统和多种编辑模式。",
-        "considerations": "采用MIT开源许可证；支持Linux、macOS和Windows；部分平台有最低系统版本要求；建议查看官方文档获取安装和使用细节。"
+        "positioning": "简洁优雅的跨平台Markdown编辑器，提升写作效率。",
+        "implementation": "基于TypeScript和Electron开发，采用现代Markdown解析和渲染技术，支持多种编辑模式和主题，提供跨平台桌面应用体验",
+        "problems_solved": "解决Markdown编辑器功能复杂或体验差的问题，提供快速、专注的写作环境。",
+        "capabilities": "实时预览（WYSIWYG）；支持CommonMark和GitHub风格Markdown；支持数学公式KaTeX；多主题和多编辑模式；跨平台支持Linux、macOS和Windows；支持图片粘贴和导出HTML/PDF",
+        "use_cases": "需要高效Markdown写作的程序员、作家和文档编辑者。",
+        "considerations": "MIT开源许可；依赖Electron框架；支持多平台安装；最新版本2026年发布；建议查看官方文档了解安装和使用细节"
       }
     },
     {
@@ -768,11 +845,11 @@
       ],
       "license": "NOASSERTION",
       "created_at": "2023-08-17T02:17:10Z",
-      "stars": 43771,
-      "forks": 2930,
+      "stars": 43772,
+      "forks": 2931,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T03:18:56Z",
+      "pushed_at": "2026-07-30T06:25:54Z",
       "latest_release": {
         "tag": "v0.8.4",
         "url": "https://github.com/janhq/jan/releases/tag/v0.8.4",
@@ -786,16 +863,18 @@
           "Release: Jan_0.8.4_x64-setup.exe"
         ]
       },
-      "score": 564.06,
-      "rank": 14,
+      "score": 564.09,
+      "rank": 15,
       "description_en": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
-      "description_zh": "完全离线运行的开源ChatGPT替代品。",
       "is_new": false,
+      "description_zh": "完全离线运行的开源ChatGPT替代品。",
       "analysis_zh": {
-        "positioning": "一款完全离线运行的开源ChatGPT替代品，保障用户隐私。",
-        "capabilities": "支持本地运行多种大型语言模型（LLM）；集成OpenAI及其他云端模型；支持自定义AI助手创建；提供本地API兼容OpenAI接口；支持模型上下文协议（MCP）实现智能代理功能。",
-        "use_cases": "适合需要本地运行AI模型的开发者和用户，支持多种AI模型和自定义助手。",
-        "considerations": "许可证未明确声明（NOASSERTION）；支持Windows、macOS和Linux多平台；需要较高硬件配置；建议详细阅读官方安装和兼容性指南。"
+        "positioning": "完全离线运行的开源ChatGPT替代品，保障用户隐私。",
+        "implementation": "基于TypeScript和Tauri开发，集成本地和云端AI模型，提供本地服务器API接口，支持多平台桌面应用，注重隐私和本地数据处理",
+        "problems_solved": "解决云端AI服务隐私泄露和依赖问题，支持本地AI模型运行和自定义助手。",
+        "capabilities": "支持本地运行多种大型语言模型（LLM）；支持OpenAI、Anthropic等云端模型接入；支持自定义AI助手创建；提供本地API兼容接口；支持模型上下文协议（MCP）；隐私优先，数据本地处理",
+        "use_cases": "需要本地AI聊天和辅助的个人用户和开发者。",
+        "considerations": "无明确开源许可声明；依赖TypeScript和Tauri框架；支持Windows、macOS和Linux；最新版本2026年发布；建议核对官方文档确认许可和使用要求"
       }
     },
     {
@@ -812,7 +891,7 @@
       ],
       "license": "MIT",
       "created_at": "2019-10-03T15:24:53Z",
-      "stars": 45499,
+      "stars": 45503,
       "forks": 8782,
       "stars_today": 0,
       "trending_rank": null,
@@ -832,16 +911,18 @@
           "Release: gh_2.96.0_windows_arm64.msi"
         ]
       },
-      "score": 563.81,
-      "rank": 15,
+      "score": 563.33,
+      "rank": 16,
       "description_en": "GitHub’s official command line tool",
-      "description_zh": "GitHub官方命令行工具。",
       "is_new": false,
+      "description_zh": "GitHub官方命令行工具。",
       "analysis_zh": {
-        "positioning": "GitHub官方命令行工具，方便开发者在终端管理GitHub资源。",
-        "capabilities": "提供GitHub功能的命令行访问，包括拉取请求、问题管理等；支持GitHub.com及企业版；跨平台支持macOS、Windows和Linux；集成代理技能支持自动化操作。",
-        "use_cases": "适合开发者在命令行环境下高效管理GitHub仓库、拉取请求和问题。",
-        "considerations": "采用MIT开源许可证；需GitHub账号；支持多平台安装和多种安装方式；建议查看官方文档了解详细使用和贡献指南。"
+        "positioning": "GitHub官方命令行工具，面向开发者和运维人员，简化GitHub操作。",
+        "implementation": "使用Go语言开发，调用GitHub API v4实现命令行对GitHub功能的访问和操作，支持多平台（macOS、Windows、Linux）安装，提供CLI工具和Agent技能扩展，支持本地构建和自动更新。",
+        "problems_solved": "减少在浏览器中操作GitHub的繁琐，提升开发者工作效率，支持自动化和脚本化管理仓库。",
+        "capabilities": "支持GitHub的拉取请求、问题管理、仓库操作；跨平台支持macOS、Windows、Linux；集成GitHub API v4；支持命令行操作和自动化脚本；提供Agent技能扩展。",
+        "use_cases": "适合开发者在终端管理GitHub仓库、拉取请求、问题和代码审查的工作流。",
+        "considerations": "依赖GitHub账号，支持GitHub.com及企业版；采用MIT许可证；支持多平台安装方式；版本更新频繁，需关注官方发布。"
       }
     },
     {
@@ -867,8 +948,8 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2022-10-14T09:32:57Z",
-      "stars": 60317,
-      "forks": 12262,
+      "stars": 60321,
+      "forks": 12264,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-26T02:12:00Z",
@@ -889,16 +970,18 @@
           "Release: Excalidraw_x64.msi"
         ]
       },
-      "score": 561.8,
-      "rank": 16,
+      "score": 561.31,
+      "rank": 17,
       "description_en": "🤱🏻 Turn any webpage into a desktop app with one command.",
-      "description_zh": "一键将网页转换为桌面应用。",
       "is_new": false,
+      "description_zh": "一键将网页转换为桌面应用。",
       "analysis_zh": {
-        "positioning": "一键将网页快速转换为跨平台桌面应用的轻量级工具。",
-        "capabilities": "一键将任意网页打包为桌面应用；支持Windows、macOS和Linux多平台；体积轻巧，性能优异；支持快捷键、窗口拖拽、样式定制和广告屏蔽。",
-        "use_cases": "适合开发者和普通用户快速将网页封装为桌面应用，简化工作流。",
-        "considerations": "依赖Rust和Tauri框架；GPL-3.0开源许可证；无需复杂配置；建议查看官方文档了解详细使用方法。"
+        "positioning": "一键将任意网页转换为桌面应用，面向需要快速封装网页的用户。",
+        "implementation": "使用Rust语言结合Tauri框架开发，提供命令行工具实现网页一键打包为轻量级桌面应用，支持自定义图标和窗口设置，减少Electron包体积，提升性能。",
+        "problems_solved": "简化网页转桌面应用流程，降低包体积和资源消耗，提升应用启动速度和运行效率。",
+        "capabilities": "一键将网页打包为桌面应用；支持快捷键、窗口拖拽、样式定制和广告屏蔽；跨平台支持macOS、Windows、Linux；基于Rust和Tauri框架实现高性能和低内存占用。",
+        "use_cases": "适合开发者和普通用户快速将网页封装为桌面应用，支持多平台使用。",
+        "considerations": "采用GPL-3.0许可证；无官方主页，需参考GitHub仓库；支持多平台安装和在线构建；依赖Rust和Tauri技术栈。"
       }
     },
     {
@@ -928,11 +1011,11 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2021-12-15T23:38:57Z",
-      "stars": 39717,
+      "stars": 39720,
       "forks": 2151,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T02:38:20Z",
+      "pushed_at": "2026-07-30T04:03:58Z",
       "latest_release": {
         "tag": "v2026.516.143833",
         "url": "https://github.com/LizardByte/Sunshine/releases/tag/v2026.516.143833",
@@ -949,16 +1032,18 @@
           "Release: Sunshine-Windows-ARM64-installer.exe"
         ]
       },
-      "score": 559.72,
-      "rank": 17,
+      "score": 559.48,
+      "rank": 18,
       "description_en": "Self-hosted game stream host for Moonlight.",
-      "description_zh": "Moonlight的自托管游戏流媒体服务器。",
       "is_new": false,
+      "description_zh": "Moonlight的自托管游戏流媒体服务器。",
       "analysis_zh": {
-        "positioning": "面向Moonlight客户端的自托管低延迟游戏流媒体服务器。",
-        "capabilities": "支持AMD、Intel和Nvidia硬件编码及软件编码；低延迟游戏流媒体传输；支持多种游戏手柄模拟；提供Web UI配置和客户端配对。",
-        "use_cases": "适合游戏玩家和云游戏服务器搭建者进行本地或远程游戏流媒体传输。",
-        "considerations": "GPL-3.0开源许可证；支持FreeBSD、Linux、macOS和Windows；需具备相应GPU硬件；建议核对官方文档确认硬件兼容性。"
+        "positioning": "Moonlight自托管游戏流媒体服务器，面向游戏玩家和服务器管理员。",
+        "implementation": "使用C++开发，支持多种GPU硬件编码技术和软件编码，提供低延迟游戏流媒体服务，支持Moonlight客户端连接，内置Web UI用于配置和配对，支持多平台部署。",
+        "problems_solved": "提供低延迟、高性能的游戏流媒体服务，支持多硬件编码，简化游戏远程体验部署。",
+        "capabilities": "支持AMD、Intel、Nvidia硬件编码及软件编码；兼容多种游戏手柄模拟；提供Web UI配置和客户端配对；支持多平台（FreeBSD、Linux、macOS、Windows）；支持多种屏幕捕获和编码API。",
+        "use_cases": "适合有自托管需求的游戏玩家和服务器管理员，实现远程游戏流媒体。",
+        "considerations": "采用GPL-3.0许可证；依赖硬件GPU支持；支持Docker部署；文档持续更新，硬件兼容性需核实。"
       }
     },
     {
@@ -990,11 +1075,11 @@
       ],
       "license": "AGPL-3.0",
       "created_at": "2017-05-23T00:30:20Z",
-      "stars": 37128,
+      "stars": 37131,
       "forks": 2480,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T00:28:16Z",
+      "pushed_at": "2026-07-30T05:29:06Z",
       "latest_release": {
         "tag": "v0.104.1",
         "url": "https://github.com/TriliumNext/Trilium/releases/tag/v0.104.1",
@@ -1010,118 +1095,18 @@
           "Release: TriliumNotes-v0.104.1-windows-x64.exe"
         ]
       },
-      "score": 556.43,
-      "rank": 18,
-      "description_en": "Build your personal knowledge base with Trilium Notes",
-      "description_zh": "构建个人知识库的笔记软件。",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "专注构建大型个人知识库的跨平台笔记管理软件。",
-        "capabilities": "支持多层级树状笔记组织；富文本编辑器支持表格、图片、数学公式和代码高亮；支持全文搜索和笔记版本管理；集成OpenID和TOTP安全登录；支持自托管同步服务器。",
-        "use_cases": "适合需要管理大量结构化笔记和知识的个人用户和专业人士。",
-        "considerations": "基于Electron开发；AGPL-3.0开源许可证；支持多语言界面；建议查看官方文档了解安装和同步配置。"
-      }
-    },
-    {
-      "name": "agalwood/Motrix",
-      "url": "https://github.com/agalwood/Motrix",
-      "description": "A full-featured download manager.",
-      "homepage": "https://motrix.app",
-      "language": "JavaScript",
-      "topics": [
-        "aria2",
-        "bittorrent",
-        "bt",
-        "download",
-        "download-manager",
-        "electron",
-        "linux",
-        "mac",
-        "macos",
-        "magnet",
-        "motrix",
-        "torrent",
-        "windows"
-      ],
-      "license": "MIT",
-      "created_at": "2018-12-18T11:45:05Z",
-      "stars": 52344,
-      "forks": 4898,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-25T04:01:26Z",
-      "latest_release": {
-        "tag": "v1.8.19",
-        "url": "https://github.com/agalwood/Motrix/releases/tag/v1.8.19",
-        "published_at": "2023-05-03T07:13:13Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: Motrix-1.8.19-arm64.dmg",
-          "Release: Motrix-1.8.19-universal.dmg",
-          "Release: Motrix-1.8.19.dmg"
-        ],
-        "windows": [
-          "Release: Motrix-1.8.19-ia32.exe",
-          "Release: Motrix-1.8.19-x64.exe",
-          "Release: Motrix-1.8.19.exe"
-        ]
-      },
-      "score": 551.94,
+      "score": 556.79,
       "rank": 19,
-      "description_en": "A full-featured download manager.",
-      "description_zh": "功能完善的下载管理器。",
+      "description_en": "Build your personal knowledge base with Trilium Notes",
       "is_new": false,
+      "description_zh": "构建个人知识库的笔记软件。",
       "analysis_zh": {
-        "positioning": "功能全面且跨平台的现代下载管理器。",
-        "capabilities": "支持HTTP、FTP、BitTorrent和Magnet等多协议下载；界面简洁易用；支持多平台安装包和自动更新；支持权限管理和桌面集成。",
-        "use_cases": "适合需要管理多种协议下载任务的普通用户和技术人员。",
-        "considerations": "基于Electron开发；MIT开源许可证；Windows、macOS和Linux均支持；部分功能需管理员权限；建议查看官方文档了解安装细节。"
-      }
-    },
-    {
-      "name": "DayuanJiang/next-ai-draw-io",
-      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
-      "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
-      "homepage": "https://next-ai-drawio.jiang.jp/",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "diagrams",
-        "productivity"
-      ],
-      "license": "Apache-2.0",
-      "created_at": "2025-03-23T15:03:48Z",
-      "stars": 33956,
-      "forks": 3598,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-29T20:39:45Z",
-      "latest_release": {
-        "tag": "v0.4.16",
-        "url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/tag/v0.4.16",
-        "published_at": "2026-05-21T00:31:59Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: Next-AI-Draw.io-0.4.16-arm64.dmg",
-          "Release: Next-AI-Draw.io-0.4.16.dmg"
-        ],
-        "windows": [
-          "Release: Next.AI.Draw.io.0.4.16.exe",
-          "Release: Next.AI.Draw.io.Setup.0.4.16.exe"
-        ]
-      },
-      "score": 551.92,
-      "rank": 20,
-      "description_en": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
-      "description_zh": "基于next.js的AI辅助draw.io图表编辑应用。",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "结合AI辅助的基于web的draw.io图表智能编辑工具。",
-        "capabilities": "集成AI能力与draw.io图表编辑；支持自然语言命令创建和修改图表；支持上传PDF和文本文件生成图表；提供AI推理过程展示和历史记录管理。",
-        "use_cases": "适合需要通过自然语言快速创建和编辑复杂图表的设计师和产品经理。",
-        "considerations": "基于Next.js和TypeScript开发；Apache-2.0开源许可证；提供在线演示和Docker部署；建议查看官方文档了解多模型配置和使用方法。"
+        "positioning": "个人知识库笔记软件，面向需要构建复杂知识体系的用户。",
+        "implementation": "基于TypeScript和Electron开发，提供跨平台桌面应用，支持层级树状笔记结构，集成富文本编辑和代码编辑功能，支持安全登录和同步，支持本地和服务器端部署。",
+        "problems_solved": "解决笔记管理混乱，支持大规模知识库构建和安全同步，提升知识管理效率。",
+        "capabilities": "支持层级笔记管理和多位置克隆；富文本编辑器支持表格、图片、数学公式和代码高亮；全文搜索和笔记版本控制；支持OpenID和TOTP安全登录；支持自托管同步服务器。",
+        "use_cases": "适合个人用户和专业人士进行知识管理和笔记整理。",
+        "considerations": "采用AGPL-3.0许可证；跨平台支持；支持Docker部署；文档详尽，适合个人知识库构建。"
       }
     },
     {
@@ -1152,11 +1137,11 @@
       ],
       "license": "MIT",
       "created_at": "2026-03-17T03:28:57Z",
-      "stars": 32969,
-      "forks": 2317,
+      "stars": 33121,
+      "forks": 2327,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T03:40:32Z",
+      "pushed_at": "2026-07-30T04:47:51Z",
       "latest_release": {
         "tag": "v1.4.161",
         "url": "https://github.com/stablyai/orca/releases/tag/v1.4.161",
@@ -1171,16 +1156,179 @@
           "Release: orca-windows-setup.exe"
         ]
       },
-      "score": 551.81,
-      "rank": 21,
+      "score": 551.71,
+      "rank": 20,
       "description_en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-      "description_zh": "支持多代理并行的AI开发环境。",
       "is_new": false,
+      "description_zh": "支持多代理并行的AI开发环境。",
       "analysis_zh": {
-        "positioning": "支持多代理并行的AI开发环境，适合构建和管理多智能体工作流。",
-        "capabilities": "支持多代理并行运行；多工作树隔离管理；移动端监控与操作；集成GitHub和Linear项目管理；远程SSH工作树支持；AI差异注释与提交；拖拽文件至代理；命令行自动化脚本支持。",
-        "use_cases": "适合AI开发者和团队，支持多智能体并行编码、项目管理和远程协作。",
-        "considerations": "依赖用户自有订阅服务；支持桌面、移动及VPS环境；采用MIT开源许可；建议核对官方文档了解详细部署和使用要求。"
+        "positioning": "支持多代理并行的AI开发环境，面向AI开发者和团队。",
+        "implementation": "基于TypeScript开发，提供多代理并行管理环境，支持多工作树隔离，集成多种AI代理，支持移动端应用和远程SSH连接，内置丰富的开发者工具和UI交互。",
+        "problems_solved": "简化多AI代理协同开发，提升开发效率，支持远程和移动端操作。",
+        "capabilities": "支持多代理并行工作流管理；集成Codex、ClaudeCode等多种AI代理；支持移动端监控和操作；提供多终端分屏和WebGL终端；支持GitHub、Linear集成和SSH远程工作树。",
+        "use_cases": "适合AI开发者和团队进行多代理并行开发和管理。",
+        "considerations": "采用MIT许可证；依赖GitHub账号和相关AI服务订阅；支持桌面、移动和VPS部署；文档详尽。"
+      }
+    },
+    {
+      "name": "pear-devs/pear-desktop",
+      "url": "https://github.com/pear-devs/pear-desktop",
+      "description": "Pear 🍐 is extension for music player",
+      "homepage": null,
+      "language": "TypeScript",
+      "topics": [
+        "desktop-app",
+        "electron",
+        "linux",
+        "mac",
+        "macosx",
+        "music",
+        "music-player",
+        "music-player-application",
+        "music-player-extension",
+        "node",
+        "windows"
+      ],
+      "license": "MIT",
+      "created_at": "2019-04-19T18:14:40Z",
+      "stars": 32861,
+      "forks": 1928,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-30T05:33:06Z",
+      "latest_release": {
+        "tag": "v3.12.0",
+        "url": "https://github.com/pear-devs/pear-desktop/releases/tag/v3.12.0",
+        "published_at": "2026-06-28T15:43:30Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: YouTube-Music-3.12.0-arm64.dmg",
+          "Release: YouTube-Music-3.12.0.dmg"
+        ],
+        "windows": [
+          "Release: YouTube-Music-3.12.0.exe",
+          "Release: YouTube-Music-Web-Setup-3.12.0.exe"
+        ]
+      },
+      "score": 551.49,
+      "rank": 21,
+      "description_en": "Pear 🍐 is extension for music player",
+      "is_new": false,
+      "description_zh": "Pear：音乐播放器扩展。",
+      "analysis_zh": {
+        "positioning": "面向多平台用户的音乐播放器扩展，提升桌面音乐播放体验。",
+        "implementation": "基于Electron和Node.js构建，使用TypeScript开发，提供原生桌面体验，支持插件扩展和主题定制，支持多平台安装包。",
+        "problems_solved": "解决了官方音乐播放器桌面体验不足的问题，提供更灵活的扩展和定制能力，支持离线安装。",
+        "capabilities": "支持多平台桌面应用；提供音乐播放扩展功能；支持主题和插件开发；支持离线安装；支持多语言界面。",
+        "use_cases": "适合需要跨平台音乐播放扩展的用户，支持自定义插件和主题的音乐爱好者。",
+        "considerations": "MIT开源许可；无官方关联，使用需注意版权声明；支持Windows、macOS、Linux平台。"
+      }
+    },
+    {
+      "name": "agalwood/Motrix",
+      "url": "https://github.com/agalwood/Motrix",
+      "description": "A full-featured download manager.",
+      "homepage": "https://motrix.app",
+      "language": "JavaScript",
+      "topics": [
+        "aria2",
+        "bittorrent",
+        "bt",
+        "download",
+        "download-manager",
+        "electron",
+        "linux",
+        "mac",
+        "macos",
+        "magnet",
+        "motrix",
+        "torrent",
+        "windows"
+      ],
+      "license": "MIT",
+      "created_at": "2018-12-18T11:45:05Z",
+      "stars": 52345,
+      "forks": 4898,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-25T04:01:26Z",
+      "latest_release": {
+        "tag": "v1.8.19",
+        "url": "https://github.com/agalwood/Motrix/releases/tag/v1.8.19",
+        "published_at": "2023-05-03T07:13:13Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Motrix-1.8.19-arm64.dmg",
+          "Release: Motrix-1.8.19-universal.dmg",
+          "Release: Motrix-1.8.19.dmg"
+        ],
+        "windows": [
+          "Release: Motrix-1.8.19-ia32.exe",
+          "Release: Motrix-1.8.19-x64.exe",
+          "Release: Motrix-1.8.19.exe"
+        ]
+      },
+      "score": 551.46,
+      "rank": 22,
+      "description_en": "A full-featured download manager.",
+      "is_new": false,
+      "description_zh": "功能完善的下载管理器。",
+      "analysis_zh": {
+        "positioning": "面向多平台用户的全功能下载管理器，支持多协议下载。",
+        "implementation": "基于Electron和JavaScript开发，集成aria2下载引擎，支持多协议下载，提供图形界面和命令行工具，支持自动更新和多平台安装。",
+        "problems_solved": "简化多协议下载管理，提供统一界面和操作，支持自动更新和多平台安装，提升下载效率。",
+        "capabilities": "支持HTTP、FTP、BitTorrent、Magnet等多协议下载；跨平台支持Windows、macOS、Linux；支持命令行和图形界面；支持自动更新和多种安装方式。",
+        "use_cases": "适合需要管理HTTP、FTP、BT等多协议下载的用户，支持桌面和命令行操作。",
+        "considerations": "MIT开源许可；部分Linux环境需sudo权限；支持多种安装包格式；官方主页提供详细安装和使用文档。"
+      }
+    },
+    {
+      "name": "DayuanJiang/next-ai-draw-io",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+      "homepage": "https://next-ai-drawio.jiang.jp/",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "diagrams",
+        "productivity"
+      ],
+      "license": "Apache-2.0",
+      "created_at": "2025-03-23T15:03:48Z",
+      "stars": 33959,
+      "forks": 3601,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-29T20:39:45Z",
+      "latest_release": {
+        "tag": "v0.4.16",
+        "url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/tag/v0.4.16",
+        "published_at": "2026-05-21T00:31:59Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Next-AI-Draw.io-0.4.16-arm64.dmg",
+          "Release: Next-AI-Draw.io-0.4.16.dmg"
+        ],
+        "windows": [
+          "Release: Next.AI.Draw.io.0.4.16.exe",
+          "Release: Next.AI.Draw.io.Setup.0.4.16.exe"
+        ]
+      },
+      "score": 551.44,
+      "rank": 23,
+      "description_en": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+      "is_new": false,
+      "description_zh": "基于next.js的AI辅助draw.io图表编辑应用。",
+      "analysis_zh": {
+        "positioning": "面向需要AI辅助图表编辑的用户，提供自然语言驱动的draw.io图表创建和修改工具。",
+        "implementation": "基于Next.js和TypeScript开发，结合draw.io图表编辑器，利用大型语言模型实现自然语言驱动的图表创建和修改，支持多模型和多服务端配置，支持Docker部署。",
+        "problems_solved": "简化图表创建和编辑流程，支持通过自然语言命令快速生成和修改图表，提升工作效率。",
+        "capabilities": "集成大型语言模型进行图表创建和编辑；支持自然语言命令驱动图表生成；支持PDF和文本文件内容提取；支持多模型和多服务端配置；提供在线演示和Docker部署。",
+        "use_cases": "适合产品经理、设计师和开发者在工作流中快速生成和修改图表。",
+        "considerations": "Apache-2.0开源许可；依赖Next.js框架和多种AI模型；支持多云服务部署；建议查看官方文档了解详细部署和使用。"
       }
     },
     {
@@ -1206,7 +1354,7 @@
       ],
       "license": "NOASSERTION",
       "created_at": "2021-02-14T03:17:58Z",
-      "stars": 48004,
+      "stars": 48014,
       "forks": 2230,
       "stars_today": 0,
       "trending_rank": null,
@@ -1225,16 +1373,18 @@
           "Release: Spotube-windows-x86_64-setup.exe"
         ]
       },
-      "score": 550.25,
-      "rank": 22,
+      "score": 549.78,
+      "rank": 24,
       "description_en": "🎧 Open source music streaming app! Available for both desktop & mobile!",
-      "description_zh": "开源跨平台音乐流媒体应用。",
       "is_new": false,
+      "description_zh": "开源跨平台音乐流媒体应用。",
       "analysis_zh": {
-        "positioning": "开源跨平台音乐流媒体应用，支持多平台和自定义音乐源。",
-        "capabilities": "插件驱动支持多平台和自定义音乐服务；社区驱动插件生态；支持离线下载带元数据的音乐；跨平台原生性能；时间同步歌词显示；无遥测和用户数据收集。",
-        "use_cases": "适合音乐爱好者和开发者，支持多平台音乐播放和插件扩展。",
-        "considerations": "无明确开源许可证声明（NOASSERTION）；支持Windows、macOS、Linux及Android；建议核对官方文档确认许可和插件兼容性。"
+        "positioning": "面向跨平台用户的开源音乐流媒体应用，支持多音乐服务插件。",
+        "implementation": "基于Flutter和Dart开发，采用插件架构支持多种音乐服务，支持跨平台运行，播放控制本地化，支持时间同步歌词显示。",
+        "problems_solved": "解决了音乐流媒体应用跨平台和多服务支持问题，避免数据收集，提升用户隐私保护。",
+        "capabilities": "支持插件扩展，支持多平台（桌面和移动端）；支持多种音乐服务插件；支持本地播放控制；支持时间同步歌词；无遥测和用户数据收集。",
+        "use_cases": "适合需要跨平台音乐流媒体播放和自定义音乐服务插件的用户。",
+        "considerations": "无明确许可证声明；支持Windows、macOS、Linux、Android平台；支持多种安装方式；建议核对官方文档确认许可证和使用限制。"
       }
     },
     {
@@ -1252,7 +1402,7 @@
       ],
       "license": "MIT",
       "created_at": "2018-08-13T14:26:58Z",
-      "stars": 32565,
+      "stars": 32568,
       "forks": 1826,
       "stars_today": 0,
       "trending_rank": null,
@@ -1273,16 +1423,18 @@
           "Release: VSCodiumSetup-arm64-1.126.04524.exe"
         ]
       },
-      "score": 549.05,
-      "rank": 23,
+      "score": 548.57,
+      "rank": 25,
       "description_en": "binary releases of VS Code without MS branding/telemetry/licensing",
-      "description_zh": "无微软品牌和遥测的VS Code二进制版。",
       "is_new": false,
+      "description_zh": "无微软品牌和遥测的VS Code二进制版。",
       "analysis_zh": {
-        "positioning": "无微软品牌和遥测的Visual Studio Code二进制发行版。",
-        "capabilities": "提供无微软品牌和遥测的VS Code二进制版本；社区驱动默认配置；支持多平台安装方式；自动更新支持。",
-        "use_cases": "适合开发者和用户，需使用开源且无遥测的代码编辑器。",
-        "considerations": "采用MIT开源许可；非微软官方分支，基于微软VS Code源码构建；支持Windows、macOS、Linux；建议核对官方文档了解安装细节。"
+        "positioning": "面向开发者的无微软品牌和遥测的VS Code二进制发行版。",
+        "implementation": "通过自动化脚本从微软VS Code源码构建无品牌和遥测的二进制版本，提供社区默认配置，支持多平台和多种包管理器安装。",
+        "problems_solved": "解决了官方VS Code品牌和遥测问题，提供自由开源的编辑器二进制版本。",
+        "capabilities": "提供无微软品牌和遥测的VS Code二进制版本；支持多平台安装；支持多种包管理器安装和自动更新；社区驱动配置。",
+        "use_cases": "适合关注隐私和开源的开发者，需跨平台使用VS Code编辑器。",
+        "considerations": "MIT开源许可；支持Windows、macOS、Linux；依赖微软VS Code源码构建；建议查看官方文档了解安装和使用细节。"
       }
     },
     {
@@ -1304,7 +1456,7 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2017-05-10T19:44:51Z",
-      "stars": 30508,
+      "stars": 30510,
       "forks": 1977,
       "stars_today": 0,
       "trending_rank": null,
@@ -1323,69 +1475,70 @@
           "Release: Flameshot-14.0.0-win64.msi"
         ]
       },
-      "score": 547.95,
-      "rank": 24,
+      "score": 547.46,
+      "rank": 26,
       "description_en": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
-      "description_zh": "功能强大且易用的截图软件。",
       "is_new": false,
+      "description_zh": "功能强大且易用的截图软件。",
       "analysis_zh": {
-        "positioning": "功能强大且易用的跨平台截图软件。",
-        "capabilities": "功能强大的截图工具；支持跨平台使用；内置截图编辑功能；支持上传至Imgur；支持命令行和图形界面操作；支持多种桌面环境快捷键。",
-        "use_cases": "适合需要高效截图和编辑的用户，支持多桌面环境和命令行操作。",
-        "considerations": "采用GPL-3.0开源许可；支持Windows、Linux及部分X11窗口管理器；建议核对官方文档了解依赖和安装方法。"
+        "positioning": "一款功能强大且易用的跨平台截图软件，适合需要高效截图和编辑的用户。",
+        "implementation": "基于C++和Qt框架开发，提供图形界面和命令行两种操作方式，支持截图预览、编辑和上传，支持多种桌面环境和快捷键配置，后台运行时托盘图标管理",
+        "problems_solved": "简化截图流程，集成编辑功能，支持多平台和多桌面环境，提升截图效率，替代繁琐截图工具。",
+        "capabilities": "截图捕获；图形界面编辑；自定义外观；支持多平台；支持命令行操作；支持上传至Imgur",
+        "use_cases": "适合开发者、设计师及普通用户的日常截图和快速编辑工作流。",
+        "considerations": "依赖Qt框架；GPL-3.0开源许可；支持Linux、Windows等多平台；需查看官方文档确认详细安装步骤"
       }
     },
     {
-      "name": "pear-devs/pear-desktop",
-      "url": "https://github.com/pear-devs/pear-desktop",
-      "description": "Pear 🍐 is extension for music player",
-      "homepage": null,
-      "language": "TypeScript",
+      "name": "Wox-launcher/Wox",
+      "url": "https://github.com/Wox-launcher/Wox",
+      "description": "A cross-platform launcher that simply works",
+      "homepage": "http://wox-launcher.github.io/Wox/",
+      "language": "Go",
       "topics": [
-        "desktop-app",
-        "electron",
-        "linux",
-        "mac",
-        "macosx",
-        "music",
-        "music-player",
-        "music-player-application",
-        "music-player-extension",
-        "node",
-        "windows"
+        "alfred",
+        "launcher",
+        "launchy",
+        "productivity",
+        "productivity-tools",
+        "raycast",
+        "spotlight",
+        "wox",
+        "wox-launcher"
       ],
-      "license": "MIT",
-      "created_at": "2019-04-19T18:14:40Z",
-      "stars": 32860,
-      "forks": 1928,
+      "license": "GPL-3.0",
+      "created_at": "2013-12-19T15:49:32Z",
+      "stars": 27177,
+      "forks": 2421,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-28T20:02:35Z",
+      "pushed_at": "2026-07-30T05:25:06Z",
       "latest_release": {
-        "tag": "v3.12.0",
-        "url": "https://github.com/pear-devs/pear-desktop/releases/tag/v3.12.0",
-        "published_at": "2026-06-28T15:43:30Z"
+        "tag": "v2.3.0",
+        "url": "https://github.com/Wox-launcher/Wox/releases/tag/v2.3.0",
+        "published_at": "2026-07-04T04:30:49Z"
       },
       "platform_evidence": {
         "macos": [
-          "Release: YouTube-Music-3.12.0-arm64.dmg",
-          "Release: YouTube-Music-3.12.0.dmg"
+          "Release: wox-mac-amd64.dmg",
+          "Release: wox-mac-arm64.dmg"
         ],
         "windows": [
-          "Release: YouTube-Music-3.12.0.exe",
-          "Release: YouTube-Music-Web-Setup-3.12.0.exe"
+          "Release: wox-windows-amd64.exe"
         ]
       },
-      "score": 546.39,
-      "rank": 25,
-      "description_en": "Pear 🍐 is extension for music player",
-      "description_zh": "Pear：音乐播放器扩展。",
+      "score": 543.22,
+      "rank": 27,
+      "description_en": "A cross-platform launcher that simply works",
       "is_new": false,
+      "description_zh": "跨平台高效启动器。",
       "analysis_zh": {
-        "positioning": "跨平台音乐播放器扩展，提供原生桌面体验。",
-        "capabilities": "音乐播放器扩展；支持跨平台桌面应用；基于Electron和TypeScript开发；支持多操作系统原生外观。",
-        "use_cases": "适合音乐播放器用户，需扩展功能和跨平台支持。",
-        "considerations": "采用MIT开源许可；支持Windows、macOS、Linux；无官方主页，建议核对项目文档了解详细功能和依赖。"
+        "positioning": "跨平台高效启动器，帮助用户快速打开应用、文件和执行命令。",
+        "implementation": "使用Go语言开发，提供统一输入框支持本地搜索、命令执行和插件扩展，支持多平台安装方式和快捷键触发，集成多种生产力工具和AI聊天接口",
+        "problems_solved": "提升启动效率，整合多种搜索和操作功能，替代系统默认启动器，支持插件扩展增强功能。",
+        "capabilities": "应用和文件快速启动；插件扩展；主题切换；本地搜索；支持多平台；集成AI聊天功能",
+        "use_cases": "适合需要快速访问应用和文件的办公人员及开发者。",
+        "considerations": "GPL-3.0开源许可；支持macOS、Linux、Windows；无强制安装流程；需查看官方文档确认插件和主题使用细节"
       }
     },
     {
@@ -1417,8 +1570,8 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2022-07-31T21:55:56Z",
-      "stars": 40225,
-      "forks": 1834,
+      "stars": 40231,
+      "forks": 1838,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-25T21:41:04Z",
@@ -1438,66 +1591,18 @@
           "Release: Sniffnet_Windows_x86.msi"
         ]
       },
-      "score": 543.45,
-      "rank": 26,
+      "score": 542.97,
+      "rank": 28,
       "description_en": "Comfortably monitor your Internet traffic 🕵️‍♂️",
+      "is_new": false,
       "description_zh": "便捷的网络流量监控工具。",
-      "is_new": false,
       "analysis_zh": {
-        "positioning": "便捷的跨平台网络流量监控工具，支持多语言界面。",
-        "capabilities": "支持多平台网络适配器选择；实时流量监控与统计图表；支持流量过滤与PCAP文件导入导出；识别多种网络协议和服务；支持本地网络连接识别与远程主机地理位置查询；自定义通知和IP黑名单导入。",
-        "use_cases": "适合网络管理员和安全分析师实时监控和分析网络流量，排查网络问题。",
-        "considerations": "依赖操作系统网络权限和相关依赖库；Apache-2.0开源许可；跨平台支持Linux和macOS；建议核对官方文档以确认依赖和安装细节。"
-      }
-    },
-    {
-      "name": "Wox-launcher/Wox",
-      "url": "https://github.com/Wox-launcher/Wox",
-      "description": "A cross-platform launcher that simply works",
-      "homepage": "http://wox-launcher.github.io/Wox/",
-      "language": "Go",
-      "topics": [
-        "alfred",
-        "launcher",
-        "launchy",
-        "productivity",
-        "productivity-tools",
-        "raycast",
-        "spotlight",
-        "wox",
-        "wox-launcher"
-      ],
-      "license": "GPL-3.0",
-      "created_at": "2013-12-19T15:49:32Z",
-      "stars": 27177,
-      "forks": 2421,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-29T06:52:13Z",
-      "latest_release": {
-        "tag": "v2.3.0",
-        "url": "https://github.com/Wox-launcher/Wox/releases/tag/v2.3.0",
-        "published_at": "2026-07-04T04:30:49Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: wox-mac-amd64.dmg",
-          "Release: wox-mac-arm64.dmg"
-        ],
-        "windows": [
-          "Release: wox-windows-amd64.exe"
-        ]
-      },
-      "score": 539.95,
-      "rank": 27,
-      "description_en": "A cross-platform launcher that simply works",
-      "description_zh": "跨平台高效启动器。",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "跨平台高效启动器，集成多功能搜索与扩展插件系统。",
-        "capabilities": "跨平台应用和文件快速启动；支持插件扩展和主题切换；集成计算器、单位转换和网络搜索；支持AI聊天功能和剪贴板历史管理。",
-        "use_cases": "适合需要快速启动应用、文件和执行命令的用户，提高工作效率。",
-        "considerations": "GPL-3.0开源许可；支持Windows、macOS和Linux；无强制安装流程，支持多种安装方式；建议查看官方文档了解插件和主题管理。"
+        "positioning": "便捷的跨平台网络流量监控工具，适合需要实时监控网络的用户。",
+        "implementation": "基于Rust语言和Iced GUI框架开发，支持选择网络适配器，实时捕获和分析网络数据包，提供丰富的统计和过滤功能，支持多平台发布多种安装包",
+        "problems_solved": "简化网络流量监控和分析流程，提供直观界面和丰富功能，替代复杂命令行工具。",
+        "capabilities": "网络流量实时监控；多语言支持；流量统计和图表展示；连接地理位置和域名解析；支持导入导出PCAP文件；自定义过滤和通知",
+        "use_cases": "适合网络管理员、安全分析师及普通用户监控网络流量。",
+        "considerations": "依赖系统网络权限和相关库；Apache-2.0开源许可；支持Linux和macOS；需安装系统依赖；建议查看官方文档确认安装和使用细节"
       }
     },
     {
@@ -1543,16 +1648,18 @@
           "Release: UniGetUI.Installer.x64.exe"
         ]
       },
-      "score": 538.99,
-      "rank": 28,
+      "score": 538.51,
+      "rank": 29,
       "description_en": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
-      "description_zh": "图形化包管理器管理工具。",
       "is_new": false,
+      "description_zh": "图形化包管理器管理工具。",
       "analysis_zh": {
-        "positioning": "多平台图形化包管理器管理工具，统一管理多种包管理器。",
-        "capabilities": "图形化管理多种包管理器（如WinGet、Scoop、Chocolatey、Homebrew等）；支持软件发现、安装、更新和卸载；跨平台支持Windows、macOS和Linux。",
-        "use_cases": "适合Windows及跨平台用户集中管理和操作多种包管理器的软件安装和维护。",
-        "considerations": "MIT开源许可；Windows优先，支持Windows 10/11；官方仅通过devolutions.net发布，避免第三方假冒网站；建议核对官方文档确认支持的包管理器和使用方法。"
+        "positioning": "图形化包管理器管理工具，方便用户统一管理多平台多种包管理器。",
+        "implementation": "基于C开发，提供Windows优先的图形界面，集成WinGet、Scoop、Chocolatey、Homebrew等多种包管理器，支持跨平台构建，统一管理软件包操作",
+        "problems_solved": "简化多包管理器操作，统一界面管理软件安装和更新，降低学习成本和操作复杂度。",
+        "capabilities": "统一图形界面管理多种包管理器；支持软件发现、安装、更新和卸载；跨平台支持多种包管理器；支持Windows、macOS和Linux",
+        "use_cases": "适合Windows及跨平台用户统一管理软件包的工作流。",
+        "considerations": "MIT开源许可；依赖.NET环境；官方仅支持https://devolutions.net/unigetui/；需注意非官方网站风险；建议查看官方文档确认支持的包管理器和安装方式"
       }
     },
     {
@@ -1569,8 +1676,8 @@
       ],
       "license": "MIT",
       "created_at": "2025-02-13T02:42:29Z",
-      "stars": 27863,
-      "forks": 2425,
+      "stars": 27870,
+      "forks": 2427,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-28T10:51:53Z",
@@ -1590,16 +1697,18 @@
           "Release: Handy_0.9.4_x64-setup.exe"
         ]
       },
-      "score": 537.7,
-      "rank": 29,
+      "score": 537.22,
+      "rank": 30,
       "description_en": "A free, open source, and extensible speech-to-text application that works completely offline.",
-      "description_zh": "完全离线的开源语音转文字应用。",
       "is_new": false,
+      "description_zh": "完全离线的开源语音转文字应用。",
       "analysis_zh": {
-        "positioning": "完全离线的开源语音转文字应用，注重隐私和可扩展性。",
-        "capabilities": "完全离线语音转文字；支持多种语音识别模型（Whisper、Parakeet V3）；跨平台支持Windows、macOS和Linux；快捷键控制录音，实时转录并粘贴文本。",
-        "use_cases": "适合需要离线语音转录的用户，保障隐私且支持多平台使用。",
-        "considerations": "MIT开源许可；需授予麦克风权限；无云端数据传输，注重隐私；建议查看官方文档了解模型选择和系统权限配置。"
+        "positioning": "完全离线的开源语音转文字应用，适合注重隐私的用户。",
+        "implementation": "基于Rust和Tauri框架开发，使用VAD技术过滤静音，支持GPU加速的Whisper模型和CPU优化的Parakeet模型，提供快捷键控制录音和实时转录，完全本地处理保证隐私",
+        "problems_solved": "提供无需联网的语音转文字功能，保护用户隐私，简化语音输入流程。",
+        "capabilities": "离线语音转文字；多模型支持（Whisper、Parakeet）；跨平台桌面应用；快捷键控制录音；实时转录并粘贴文本；隐私保护",
+        "use_cases": "适合需要离线语音转录的个人用户和开发者。",
+        "considerations": "MIT开源许可；依赖Whisper和Parakeet模型；支持Windows、macOS和Linux；需授予麦克风权限；建议查看官方文档确认模型使用和安装细节"
       }
     },
     {
@@ -1628,8 +1737,8 @@
       ],
       "license": "NOASSERTION",
       "created_at": "2019-07-23T18:12:33Z",
-      "stars": 23279,
-      "forks": 1576,
+      "stars": 23280,
+      "forks": 1577,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-30T02:07:44Z",
@@ -1648,16 +1757,18 @@
           "Release: Beekeeper-Studio-Setup-5.9.2.exe"
         ]
       },
-      "score": 536.44,
-      "rank": 30,
+      "score": 535.95,
+      "rank": 31,
       "description_en": "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
-      "description_zh": "Beekeeper Studio：现代易用的多数据库SQL客户端。",
       "is_new": false,
+      "description_zh": "Beekeeper Studio：现代易用的多数据库SQL客户端。",
       "analysis_zh": {
-        "positioning": "现代易用的多数据库跨平台SQL客户端和管理工具。",
-        "capabilities": "支持多种主流数据库（MySQL、PostgreSQL、SQLite、SQL Server等）管理和SQL编辑；跨平台支持Linux、macOS和Windows；提供免费基础功能和付费高级功能；支持多语言界面。",
-        "use_cases": "适合数据库管理员和开发者进行多数据库管理和SQL查询操作。",
-        "considerations": "代码大部分GPLv3许可，部分付费功能采用商业许可；无需注册即可使用免费功能；建议核对官方文档了解付费功能和数据库支持详情。"
+        "positioning": "现代易用的多数据库SQL客户端，面向数据库开发者和管理员。",
+        "implementation": "基于TypeScript和Electron开发，采用跨平台架构，支持多种数据库协议，提供图形化SQL编辑和数据库管理功能。",
+        "problems_solved": "简化多数据库管理和SQL编辑流程，免去多客户端切换，降低学习和使用成本。",
+        "capabilities": "支持MySQL、Postgres、SQLite、SQL Server等多种数据库；跨平台支持Linux、MacOS、Windows；提供免费和付费功能；支持多语言界面；支持多种数据库协议和功能扩展。",
+        "use_cases": "数据库开发、管理、查询和维护，适合多数据库环境的开发者和运维人员。",
+        "considerations": "GPLv3开源许可，部分功能需付费授权；无需注册或信用卡；支持多平台二进制下载。"
       }
     },
     {
@@ -1678,8 +1789,8 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2022-06-08T00:26:00Z",
-      "stars": 21855,
-      "forks": 1084,
+      "stars": 21856,
+      "forks": 1085,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-29T18:15:33Z",
@@ -1698,16 +1809,18 @@
           "Release: Wave-win32-x64-0.14.5.msi"
         ]
       },
-      "score": 532.38,
-      "rank": 31,
+      "score": 531.9,
+      "rank": 32,
       "description_en": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
-      "description_zh": "集成AI的跨平台终端工具。",
       "is_new": false,
+      "description_zh": "集成AI的跨平台终端工具。",
       "analysis_zh": {
-        "positioning": "集成AI的跨平台智能终端，提升开发者工作流效率。",
-        "capabilities": "集成多种AI模型的智能终端助手；支持持久SSH会话自动重连；内置图形编辑器和文件预览；丰富的终端界面自定义和命令管理",
-        "use_cases": "适合开发者和运维人员进行远程终端管理、文件编辑和AI辅助操作。",
-        "considerations": "依赖用户提供AI模型API密钥，无需账号；跨平台支持Windows、macOS、Linux；Apache-2.0开源许可；版本活跃，最新发布于2026年"
+        "positioning": "集成AI的跨平台终端工具，服务开发者和运维人员提升终端工作效率。",
+        "implementation": "使用Go语言开发，跨平台支持，集成AI模型接口，支持SSH持久会话和内置编辑器，采用模块化终端块设计。",
+        "problems_solved": "解决终端操作复杂、断线重连困难、远程文件编辑不便等痛点，提升工作流连贯性。",
+        "capabilities": "集成多种AI模型支持（OpenAI、Claude、Gemini等）；支持持久化SSH会话自动重连；内置图形编辑器和文件预览；支持多终端块拖拽管理；安全本地密钥存储。",
+        "use_cases": "开发者、运维人员使用终端进行远程管理、文件编辑和AI辅助操作。",
+        "considerations": "Apache-2.0开源许可；需用户自备AI模型API密钥；支持macOS、Linux、Windows。"
       }
     },
     {
@@ -1740,8 +1853,8 @@
       ],
       "license": "MIT",
       "created_at": "2017-01-06T22:30:58Z",
-      "stars": 20989,
-      "forks": 1896,
+      "stars": 20994,
+      "forks": 1897,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-29T20:50:17Z",
@@ -1762,16 +1875,18 @@
           "Release: Super-Productivity-Setup.exe"
         ]
       },
-      "score": 531.06,
-      "rank": 32,
+      "score": 530.58,
+      "rank": 33,
       "description_en": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
-      "description_zh": "Super Productivity：集成时间管理的高级待办事项应用。",
       "is_new": false,
+      "description_zh": "Super Productivity：集成时间管理的高级待办事项应用。",
       "analysis_zh": {
-        "positioning": "集成时间管理和多平台任务同步的高级待办事项应用。",
-        "capabilities": "集成时间盒管理和时间跟踪；支持Jira、GitLab、GitHub等多平台任务同步；内置番茄钟和反拖延提醒；支持多设备数据同步和加密备份",
-        "use_cases": "适合个人和团队进行任务管理、时间规划和工作效率提升。",
-        "considerations": "MIT开源许可；支持多平台包括Android、iOS、Linux、macOS；无需账号即可本地使用，支持自托管同步服务；版本活跃，最新发布于2026年"
+        "positioning": "集成时间管理的高级待办事项应用，面向个人和团队提升生产力。",
+        "implementation": "基于TypeScript开发，集成多平台API，支持本地和云端数据同步，提供丰富的时间管理和任务组织功能。",
+        "problems_solved": "解决任务管理分散、时间跟踪困难、跨平台同步不便等问题，提升工作效率。",
+        "capabilities": "集成时间盒管理和时间跟踪；支持Jira、GitLab、GitHub、Open Project等多平台任务同步；支持多设备数据同步和备份；内置番茄钟和习惯追踪。",
+        "use_cases": "个人和团队任务管理、时间规划、习惯养成及多平台任务同步。",
+        "considerations": "MIT开源许可；支持多平台（Android、iOS、Linux、MacOS）；无数据收集，注重隐私保护。"
       }
     },
     {
@@ -1799,7 +1914,7 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2019-04-21T07:23:32Z",
-      "stars": 25543,
+      "stars": 25545,
       "forks": 1673,
       "stars_today": 0,
       "trending_rank": null,
@@ -1820,16 +1935,18 @@
           "Release: Gopeed-v1.9.3-windows-arm64.exe"
         ]
       },
-      "score": 528.71,
-      "rank": 33,
+      "score": 528.23,
+      "rank": 34,
       "description_en": "A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
-      "description_zh": "支持多协议的高速跨平台下载管理器。",
       "is_new": false,
+      "description_zh": "支持多协议的高速跨平台下载管理器。",
       "analysis_zh": {
-        "positioning": "支持多协议的高速跨平台下载管理器。",
-        "capabilities": "支持HTTP、BitTorrent、Magnet、ed2k多协议高速下载；跨平台支持Windows、macOS、Linux、Android、iOS；支持浏览器扩展接管下载；支持插件扩展和API集成",
-        "use_cases": "适合需要管理多协议下载任务的用户，支持桌面和移动端使用。",
-        "considerations": "GPL-3.0开源许可；依赖Golang和Flutter环境；支持多平台安装包和Docker部署；版本活跃，最新发布于2026年"
+        "positioning": "高速多协议跨平台下载管理器，面向需要高效下载的用户。",
+        "implementation": "前端使用Flutter，后端使用Golang，通过HTTP或Unix Socket通信，支持多协议高速下载和高度可定制扩展。",
+        "problems_solved": "解决多协议下载分散、速度慢、跨平台不便和扩展性差的问题。",
+        "capabilities": "支持HTTP、BitTorrent、Magnet、ED2K多协议下载；跨平台支持Windows、MacOS、Linux、Android、iOS；支持浏览器扩展接管下载；支持插件扩展和API集成。",
+        "use_cases": "需要管理多协议下载任务的个人用户和技术人员。",
+        "considerations": "GPL-3.0开源许可；依赖Golang和Flutter环境；支持多平台安装包和Docker部署。"
       }
     },
     {
@@ -1873,16 +1990,18 @@
           "Release: Yaak_2026.5.0_x64-setup-machine.exe"
         ]
       },
-      "score": 525.71,
-      "rank": 34,
+      "score": 525.23,
+      "rank": 35,
       "description_en": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
-      "description_zh": "直观的桌面API客户端，支持多种协议。",
       "is_new": false,
+      "description_zh": "直观的桌面API客户端，支持多种协议。",
       "analysis_zh": {
-        "positioning": "直观且隐私优先的多协议桌面API客户端。",
-        "capabilities": "支持REST、GraphQL、WebSocket、SSE和gRPC协议；支持导入Postman、Insomnia等API集合；内置加密密钥管理和多种认证方式；支持工作区管理和文件系统镜像",
-        "use_cases": "适合开发者进行API测试、调试和管理多协议接口请求。",
-        "considerations": "MIT开源许可；基于Tauri、Rust和React开发；无云锁定和遥测，注重隐私；版本活跃，最新发布于2026年"
+        "positioning": "直观的桌面API客户端，适合开发者进行多协议API测试和管理。",
+        "implementation": "采用Tauri框架结合Rust和React构建，离线优先设计，支持多协议API请求和丰富的安全认证机制。",
+        "problems_solved": "解决多协议API测试工具分散、隐私安全和云锁定问题，提升API调试效率。",
+        "capabilities": "支持REST、GraphQL、WebSocket、Server Sent Events、gRPC多协议；支持导入Postman、Insomnia等API集合；支持OAuth2.0、JWT等多种认证；支持加密存储和本地工作区管理。",
+        "use_cases": "API开发者和测试人员进行多协议接口调试和管理。",
+        "considerations": "MIT开源许可；基于Tauri、Rust和React开发；无云锁定，无遥测；支持多平台桌面应用。"
       }
     },
     {
@@ -1911,7 +2030,7 @@
       ],
       "license": "AGPL-3.0",
       "created_at": "2016-09-22T22:58:21Z",
-      "stars": 18147,
+      "stars": 18149,
       "forks": 1304,
       "stars_today": 0,
       "trending_rank": null,
@@ -1931,16 +2050,18 @@
           "Release: Nuclear_1.43.2_x64_en-US.msi"
         ]
       },
-      "score": 525.46,
-      "rank": 35,
+      "score": 524.98,
+      "rank": 36,
       "description_en": "Streaming music player that finds free music for you",
-      "description_zh": "免费音乐流媒体播放器。",
       "is_new": false,
+      "description_zh": "免费音乐流媒体播放器。",
       "analysis_zh": {
-        "positioning": "免费无广告的跨平台音乐流媒体播放器。",
-        "capabilities": "免费音乐搜索和在线播放；支持多平台Windows、macOS、Linux；内置多主题和插件系统；支持播放列表管理和本地化多语言",
-        "use_cases": "适合音乐爱好者搜索和播放免费音乐，管理播放列表。",
-        "considerations": "AGPL-3.0开源许可；基于Tauri、React和Rust开发；无广告无追踪；版本活跃，最新发布于2026年"
+        "positioning": "免费无广告的开源音乐流媒体播放器，面向喜欢免费音乐和自定义体验的用户。",
+        "implementation": "基于Tauri框架（Rust + React）构建，使用TypeScript开发。采用插件驱动架构，插件提供流媒体源、元数据、播放列表等功能。内置MCP服务器支持AI代理控制。通过多种安装包支持Windows、macOS和Linux部署。",
+        "problems_solved": "免去寻找免费音乐资源的麻烦，避免广告和跟踪，支持多平台统一播放体验，简化音乐管理和播放流程。",
+        "capabilities": "搜索音乐；在线播放；多平台支持（Windows、macOS、Linux）；内置主题和插件商店；播放列表管理；AI代理控制播放器；自动更新；多语言本地化",
+        "use_cases": "适合音乐爱好者、跨平台用户及开发者，支持构建个性化播放列表和插件扩展。",
+        "considerations": "依赖Node.js环境；采用AGPL-3.0开源许可证；支持多平台安装包格式；建议查看官方文档了解插件开发和MCP服务器配置"
       }
     },
     {
@@ -1965,7 +2086,7 @@
       ],
       "license": "MPL-2.0",
       "created_at": "2016-04-27T15:26:09Z",
-      "stars": 18423,
+      "stars": 18424,
       "forks": 974,
       "stars_today": 0,
       "trending_rank": null,
@@ -1983,16 +2104,76 @@
           "Release: activitywatch-v0.13.2-windows-x86_64-setup.exe"
         ]
       },
-      "score": 524.37,
-      "rank": 36,
+      "score": 523.89,
+      "rank": 37,
       "description_en": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.",
-      "description_zh": "免费开源的自动化时间追踪器。",
       "is_new": false,
+      "description_zh": "免费开源的自动化时间追踪器。",
       "analysis_zh": {
-        "positioning": "免费开源的跨平台自动化时间追踪器，注重用户隐私保护。",
-        "capabilities": "自动记录应用使用、浏览器标签、键鼠活动；本地安全存储数据；支持多平台扩展；用户完全控制数据隐私。",
-        "use_cases": "适合个人和团队进行时间管理和效率分析，支持多平台使用和自定义扩展。",
-        "considerations": "依赖本地存储，无需账号；MPL-2.0开源许可；适合注重隐私的用户。"
+        "positioning": "免费开源的自动化时间追踪工具，面向注重隐私和生产力的个人用户。",
+        "implementation": "使用Python开发，包含服务器和多种监控器（watchers）组件，收集高分辨率用户活动数据。数据存储本地，支持用户自定义采集范围和扩展。提供仪表盘展示和分析。",
+        "problems_solved": "解决传统时间追踪器闭源、数据不归用户、同步中心化、难用和扩展性差等问题，提升时间管理效率。",
+        "capabilities": "自动记录应用使用、浏览器标签、键盘鼠标活动；本地安全存储数据；支持多平台；可扩展的监控插件；隐私保护；数据可视化仪表盘",
+        "use_cases": "适合需要详细时间管理和隐私保护的个人用户及开发者，支持自定义数据采集和分析。",
+        "considerations": "采用MPL-2.0开源许可证；数据存储在本地，用户完全控制；支持多平台安装；建议查看官方文档了解安装和扩展插件方法"
+      }
+    },
+    {
+      "name": "rowboatlabs/rowboat",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "description": "Open-source AI coworker, with memory",
+      "homepage": "https://www.rowboatlabs.com",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "agents-sdk",
+        "ai",
+        "ai-agents",
+        "ai-agents-automation",
+        "chatgpt",
+        "claude-code",
+        "claude-cowork",
+        "generative-ai",
+        "llm",
+        "multiagent",
+        "opeani",
+        "open-source",
+        "orchestration",
+        "productivity"
+      ],
+      "license": "Apache-2.0",
+      "created_at": "2025-01-13T09:30:40Z",
+      "stars": 16886,
+      "forks": 1679,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-30T05:43:19Z",
+      "latest_release": {
+        "tag": "v0.8.3",
+        "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v0.8.3",
+        "published_at": "2026-07-29T04:00:19Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Rowboat-darwin-arm64-0.8.3.dmg",
+          "Release: Rowboat-darwin-x64-0.8.3.dmg"
+        ],
+        "windows": [
+          "Release: Rowboat-win32-x64-0.8.3-setup.exe"
+        ]
+      },
+      "score": 522.61,
+      "rank": 38,
+      "description_en": "Open-source AI coworker, with memory",
+      "is_new": false,
+      "description_zh": "具备记忆功能的开源AI助手。",
+      "analysis_zh": {
+        "positioning": "具备记忆功能的开源AI桌面助手，面向需要智能工作协作的专业用户。",
+        "implementation": "基于TypeScript开发，构建桌面应用。通过索引邮件、会议、Slack等数据构建知识图谱，集成多种AI代理执行任务。内置多种工作界面和工具，支持插件和多项目管理。",
+        "problems_solved": "自动整理工作信息，提升邮件处理效率，辅助会议记录和代码开发，减少重复劳动，增强工作协同。",
+        "capabilities": "工作内容索引；知识图谱构建；内置邮件客户端；自动邮件草稿生成；背景任务代理；内置浏览器协作；会议笔记实时转录和总结；多项目工作区；多平台支持",
+        "use_cases": "适合专业人士和团队，支持邮件管理、会议记录、代码协作和多项目工作流。",
+        "considerations": "采用Apache-2.0开源许可证；支持Mac/Windows/Linux；集成多种AI模型和服务；需配置Google服务账号以连接相关功能；建议查看官方文档了解安装和集成细节"
       }
     },
     {
@@ -2032,16 +2213,18 @@
           "Release: audacity-win-3.7.8-arm64.exe"
         ]
       },
-      "score": 522.06,
-      "rank": 37,
+      "score": 521.57,
+      "rank": 39,
       "description_en": "Audio Editor",
-      "description_zh": "音频编辑器。",
       "is_new": false,
+      "description_zh": "音频编辑器。",
       "analysis_zh": {
-        "positioning": "跨平台的开源多轨音频编辑与录制软件。",
-        "capabilities": "多轨音频编辑与录制；跨平台支持Windows、macOS、Linux；支持插件扩展；开源音频处理工具。",
-        "use_cases": "适合音频编辑爱好者和专业人士进行录音、剪辑和混音工作。",
-        "considerations": "GPLv3及GPLv2许可；当前主分支为Audacity 4重构版本，贡献者需注意分支选择；无明确账号依赖。"
+        "positioning": "跨平台的免费开源多轨音频编辑器，面向音频制作和编辑用户。",
+        "implementation": "使用C++开发，基于wxWidgets跨平台GUI框架。支持多轨编辑和录音功能，持续进行UI和架构重构以提升用户体验和性能。",
+        "problems_solved": "提供免费无广告的专业音频编辑工具，支持多平台，替代商业音频编辑软件，降低使用门槛。",
+        "capabilities": "多轨音频编辑和录制；跨平台支持（Windows、macOS、Linux）；支持多种音频格式；用户界面友好；持续重构升级中",
+        "use_cases": "适合音乐制作人、播客制作者及音频编辑爱好者，支持录音和多轨编辑。",
+        "considerations": "采用GPLv3及GPLv2或更高版本许可；当前主分支为Audacity 4重构版本，适合贡献者；官方提供详细构建和开发文档"
       }
     },
     {
@@ -2069,7 +2252,7 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2025-11-21T13:03:23Z",
-      "stars": 17136,
+      "stars": 17139,
       "forks": 653,
       "stars_today": 0,
       "trending_rank": null,
@@ -2089,72 +2272,18 @@
           "Release: Komi-Store-1.9.2.msi"
         ]
       },
-      "score": 521.74,
-      "rank": 38,
+      "score": 521.26,
+      "rank": 40,
       "description_en": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
-      "description_zh": "是一个免费开源的开发者应用商店，支持 GitHub、Codeberg 和 Forgejo 一键浏览安装。",
       "is_new": true,
+      "description_zh": "是一个免费开源的开发者应用商店，支持 GitHub、Codeberg 和 Forgejo 一键浏览安装。",
       "analysis_zh": {
-        "positioning": "面向开发者的免费开源跨平台应用商店，简化开源软件发现与安装。",
-        "capabilities": "支持GitHub、Codeberg、Forgejo应用一键浏览与安装；跨平台支持Android、桌面系统；多语言本地化；应用管理与收藏功能。",
-        "use_cases": "适合开源软件用户和开发者快速发现、安装和管理多平台应用。",
-        "considerations": "Apache-2.0开源许可；无账号强制要求，但需注意下载应用安全性由第三方负责；适合开源软件用户。"
-      }
-    },
-    {
-      "name": "rowboatlabs/rowboat",
-      "url": "https://github.com/rowboatlabs/rowboat",
-      "description": "Open-source AI coworker, with memory",
-      "homepage": "https://www.rowboatlabs.com",
-      "language": "TypeScript",
-      "topics": [
-        "agents",
-        "agents-sdk",
-        "ai",
-        "ai-agents",
-        "ai-agents-automation",
-        "chatgpt",
-        "claude-code",
-        "claude-cowork",
-        "generative-ai",
-        "llm",
-        "multiagent",
-        "opeani",
-        "open-source",
-        "orchestration",
-        "productivity"
-      ],
-      "license": "Apache-2.0",
-      "created_at": "2025-01-13T09:30:40Z",
-      "stars": 16883,
-      "forks": 1679,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-29T19:22:37Z",
-      "latest_release": {
-        "tag": "v0.8.3",
-        "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v0.8.3",
-        "published_at": "2026-07-29T04:00:19Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: Rowboat-darwin-arm64-0.8.3.dmg",
-          "Release: Rowboat-darwin-x64-0.8.3.dmg"
-        ],
-        "windows": [
-          "Release: Rowboat-win32-x64-0.8.3-setup.exe"
-        ]
-      },
-      "score": 521.36,
-      "rank": 39,
-      "description_en": "Open-source AI coworker, with memory",
-      "description_zh": "具备记忆功能的开源AI助手。",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "具备记忆功能的开源桌面AI助手，助力多任务协作与知识管理。",
-        "capabilities": "构建带记忆功能的AI助手；集成邮件、笔记、浏览器、代码编辑等工作界面；支持多种AI模型协作；知识图谱管理工作内容。",
-        "use_cases": "适合需要AI辅助办公、代码开发和知识管理的技术人员和团队。",
-        "considerations": "Apache-2.0开源许可；支持Mac/Windows/Linux；需配置Google服务以连接相关功能；适合技术用户。"
+        "positioning": "面向开发者和开源软件用户的跨平台应用商店，简化开源应用发现和安装。",
+        "implementation": "使用Kotlin开发，支持多平台（Android、桌面）。通过调用各平台API实现应用浏览、下载和安装。提供丰富的UI和网络性能优化。",
+        "problems_solved": "解决开源应用分散、安装复杂的问题，提供统一平台一键安装，提升用户体验和效率。",
+        "capabilities": "跨平台应用商店；支持GitHub、Codeberg、Forgejo发布的应用浏览和一键安装；智能发现和下载镜像；多语言本地化；应用管理和收藏；APK签名验证",
+        "use_cases": "适合开源软件用户和开发者，支持快速发现和安装多平台开源应用。",
+        "considerations": "采用Apache-2.0开源许可证；支持Android、Linux、macOS等平台；macOS用户需手动允许未认证应用；不保证第三方应用安全性，用户需自行承担风险"
       }
     },
     {
@@ -2199,16 +2328,18 @@
           "Release: KeePassXC-2.7.12-Win64.msi"
         ]
       },
-      "score": 518.54,
-      "rank": 40,
+      "score": 518.05,
+      "rank": 41,
       "description_en": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
-      "description_zh": "跨平台的KeePass密码管理器移植版。",
       "is_new": false,
+      "description_zh": "跨平台的KeePass密码管理器移植版。",
       "analysis_zh": {
-        "positioning": "跨平台的开源密码管理器，保障敏感信息安全。",
-        "capabilities": "跨平台密码管理；支持多种信息类型存储；离线加密数据库；集成密码生成器和搜索功能；支持YubiKey等硬件安全。",
-        "use_cases": "适合对密码安全有高要求的个人和企业用户进行密码及敏感信息管理。",
-        "considerations": "无明确许可声明，需核对官方文档；支持Windows、macOS、Linux；无账号依赖，数据本地存储。"
+        "positioning": "跨平台开源密码管理器，服务于对个人数据安全有高要求的用户",
+        "implementation": "使用C++开发，兼容KeePass KDBX格式，数据离线加密存储，支持用户自定义条目分组和图标，集成密码生成和搜索功能，支持多平台运行",
+        "problems_solved": "解决密码和敏感信息管理难题，替代不安全或分散的密码存储方式，提升数据安全性和管理便捷性",
+        "capabilities": "跨平台密码数据库管理；离线加密存储；多类型信息支持（用户名、密码、URL、附件、笔记）；高级搜索；密码生成器；TOTP和YubiKey支持",
+        "use_cases": "适合个人及小团队管理密码和敏感信息，支持多平台使用和离线存储",
+        "considerations": "无明确许可证声明，建议核对项目主页和文档；支持Windows、macOS、Linux；依赖C++环境"
       }
     },
     {
@@ -2231,7 +2362,7 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2016-02-18T05:02:30Z",
-      "stars": 65148,
+      "stars": 65149,
       "forks": 3533,
       "stars_today": 0,
       "trending_rank": null,
@@ -2250,16 +2381,18 @@
           "Release: Alacritty-v0.17.0-portable.exe"
         ]
       },
-      "score": 517.39,
-      "rank": 41,
+      "score": 516.91,
+      "rank": 42,
       "description_en": "A cross-platform, OpenGL terminal emulator.",
-      "description_zh": "跨平台OpenGL终端模拟器。",
       "is_new": false,
+      "description_zh": "跨平台OpenGL终端模拟器。",
       "analysis_zh": {
-        "positioning": "一款跨平台高性能的GPU加速终端模拟器。",
-        "capabilities": "跨平台OpenGL加速终端模拟；高性能且可高度配置；支持多平台包括BSD、Linux、macOS和Windows；集成其他应用功能提升灵活性。",
-        "use_cases": "适合开发者和终端用户，支持多平台日常终端操作和定制化配置。",
-        "considerations": "依赖OpenGL ES 2.0及以上；Windows需ConPTY支持（10版本1809及以上）；处于Beta阶段，有部分功能缺失和BUG；Apache-2.0许可证。"
+        "positioning": "跨平台高性能GPU加速终端模拟器，面向追求速度和可配置性的终端用户",
+        "implementation": "用Rust语言开发，利用OpenGL进行GPU加速渲染，支持多平台，配置文件支持多路径查找，集成系统终端功能而非重写",
+        "problems_solved": "提升终端渲染性能，减少延迟，提供更流畅的终端体验，替代传统CPU渲染终端",
+        "capabilities": "GPU加速终端渲染；跨平台支持（BSD、Linux、macOS、Windows）；高性能；可配置性强；集成OpenGL ES 2.0支持",
+        "use_cases": "适合开发者和系统管理员日常使用，支持多操作系统环境下的终端操作需求",
+        "considerations": "需OpenGL ES 2.0及以上支持；Windows需ConPTY支持（Win10 1809+）；处于Beta阶段，有部分功能缺失和Bug；Apache-2.0许可证"
       }
     },
     {
@@ -2277,8 +2410,8 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2012-04-23T22:37:04Z",
-      "stars": 14659,
-      "forks": 1450,
+      "stars": 14661,
+      "forks": 1451,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-30T01:44:19Z",
@@ -2297,16 +2430,18 @@
           "Release: shotcut-win_ARM-26.6.25.exe"
         ]
       },
-      "score": 516.29,
-      "rank": 42,
+      "score": 515.81,
+      "rank": 43,
       "description_en": "cross-platform (Qt), open-source (GPLv3) video editor",
-      "description_zh": "跨平台开源视频编辑器，基于Qt和GPLv3。",
       "is_new": false,
+      "description_zh": "跨平台开源视频编辑器，基于Qt和GPLv3。",
       "analysis_zh": {
-        "positioning": "一款基于Qt的跨平台开源视频编辑器。",
-        "capabilities": "基于Qt的跨平台视频编辑；集成MLT多媒体框架和FFmpeg支持多格式；支持多种视频插件和音频播放；提供丰富的编辑功能和持续更新。",
-        "use_cases": "适合视频编辑爱好者和专业人士，支持多平台视频剪辑和处理工作流。",
-        "considerations": "依赖Qt 6.4+、MLT、FFmpeg等多种库；GPL-3.0开源许可证；构建复杂，建议有经验的测试者或贡献者操作；提供预编译二进制包。"
+        "positioning": "基于Qt的跨平台开源视频编辑器，面向视频创作者和编辑者",
+        "implementation": "使用C++开发，基于Qt构建界面，集成MLT框架处理多媒体，利用FFmpeg支持多格式视频编解码，支持插件扩展和多平台构建",
+        "problems_solved": "提供免费且功能丰富的视频编辑工具，替代昂贵商业软件，支持多格式和多平台编辑需求",
+        "capabilities": "跨平台视频编辑；基于Qt UI框架；集成MLT多媒体框架；支持FFmpeg多格式编解码；支持视频插件和音频播放；GPLv3开源许可",
+        "use_cases": "适合视频制作爱好者和专业人士进行视频剪辑和处理，支持Windows、macOS、Linux平台",
+        "considerations": "GPL-3.0许可证；依赖Qt 6.4+、MLT、FFmpeg等多媒体库；适合有一定技术背景的用户构建和使用"
       }
     },
     {
@@ -2342,7 +2477,7 @@
       "forks": 972,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T03:26:10Z",
+      "pushed_at": "2026-07-30T04:40:49Z",
       "latest_release": {
         "tag": "v3.4.5",
         "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.5",
@@ -2359,16 +2494,18 @@
           "Release: notesnook_win_arm64_portable.exe"
         ]
       },
-      "score": 515.61,
-      "rank": 43,
+      "score": 515.33,
+      "rank": 44,
       "description_en": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
-      "description_zh": "完全开源且端到端加密的笔记软件，Evernote替代品。",
       "is_new": false,
+      "description_zh": "完全开源且端到端加密的笔记软件，Evernote替代品。",
       "analysis_zh": {
-        "positioning": "一款完全开源且端到端加密的隐私笔记软件。",
-        "capabilities": "端到端加密的笔记管理；完全开源保障隐私；跨平台支持Web、桌面和移动端；使用现代加密算法确保数据安全。",
-        "use_cases": "适合注重隐私的个人用户和团队，用于安全的笔记记录和管理。",
-        "considerations": "基于TypeScript和React技术栈；GPL-3.0许可证；需参考官方文档了解完整功能和部署细节。"
+        "positioning": "开源端到端加密笔记应用，替代Evernote，保障用户隐私安全",
+        "implementation": "使用TypeScript和React构建前端，Electron实现桌面端，React Native实现移动端，利用libsodium实现加密，采用XChaCha20 Poly1305和Argon2算法保障安全",
+        "problems_solved": "解决笔记隐私泄露风险，提供安全便捷的笔记管理，替代闭源或不安全笔记软件",
+        "capabilities": "端到端加密笔记存储；跨平台客户端（Web、桌面、移动）；基于React和Electron开发；集成加密库libsodium；支持多语言界面",
+        "use_cases": "适合注重隐私的个人用户和团队进行笔记记录和管理，支持多平台同步使用",
+        "considerations": "GPL-3.0许可证；依赖Node.js生态和React技术栈；需用户自行搭建或使用官方服务；注重隐私保护"
       }
     },
     {
@@ -2392,7 +2529,7 @@
       ],
       "license": "NOASSERTION",
       "created_at": "2024-11-25T02:46:36Z",
-      "stars": 14526,
+      "stars": 14530,
       "forks": 649,
       "stars_today": 0,
       "trending_rank": null,
@@ -2414,16 +2551,18 @@
           "Release: termix_windows_x64_msi.msi"
         ]
       },
-      "score": 515.12,
-      "rank": 44,
+      "score": 514.64,
+      "rank": 45,
       "description_en": "Self-hosted SSH and remote desktop management.",
-      "description_zh": "自托管的SSH和远程桌面管理工具。",
       "is_new": false,
+      "description_zh": "自托管的SSH和远程桌面管理工具。",
       "analysis_zh": {
-        "positioning": "一款自托管的多协议SSH和远程桌面管理平台。",
-        "capabilities": "集成SSH终端、多协议远程桌面（RDP、VNC、Telnet）；支持SSH隧道管理和自动重连；远程文件管理及Docker容器控制；多平台自托管服务器管理。",
-        "use_cases": "适合系统管理员和运维人员集中管理服务器和远程访问。",
-        "considerations": "基于TypeScript开发；无明确许可证声明；需自托管部署；功能丰富但需关注安全配置。"
+        "positioning": "自托管的多功能SSH和远程桌面管理平台，面向服务器管理员和运维人员",
+        "implementation": "使用TypeScript开发，提供基于浏览器的多面板SSH终端和远程桌面访问，集成SSH隧道和文件管理功能，支持Docker/Podman容器控制，采用自托管部署模式",
+        "problems_solved": "集中管理多服务器SSH和远程桌面，简化运维流程，替代多工具分散管理，降低运维复杂度",
+        "capabilities": "SSH终端管理；远程桌面支持（RDP、VNC、Telnet）；SSH隧道管理；远程文件管理；Docker和Podman容器管理；多面板终端和浏览器内访问",
+        "use_cases": "适合运维工程师和系统管理员统一管理服务器和远程桌面，支持多协议和容器管理",
+        "considerations": "无明确许可证声明，建议核对项目主页和文档；基于TypeScript开发；需自托管服务器环境；支持多平台访问"
       }
     },
     {
@@ -2456,7 +2595,7 @@
       ],
       "license": "MIT",
       "created_at": "2017-10-07T09:54:11Z",
-      "stars": 14606,
+      "stars": 14609,
       "forks": 1169,
       "stars_today": 0,
       "trending_rank": null,
@@ -2477,16 +2616,18 @@
           "Release: electerm-3.15.171-win-x64-installer.exe"
         ]
       },
-      "score": 513.88,
-      "rank": 45,
+      "score": 513.4,
+      "rank": 46,
       "description_en": "📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android)",
-      "description_zh": "支持多协议的终端和远程连接客户端，跨平台支持多系统。",
       "is_new": false,
+      "description_zh": "支持多协议的终端和远程连接客户端，跨平台支持多系统。",
       "analysis_zh": {
-        "positioning": "一款支持多协议的跨平台终端及远程连接客户端。",
-        "capabilities": "支持多协议终端和远程连接（SSH、SFTP、FTP、Telnet、RDP、VNC、Serialport、Spice）；跨平台支持Linux、macOS、Windows及Android；集成AI助手辅助命令和脚本；支持主题、快捷命令和多语言。",
-        "use_cases": "适合需要多协议远程管理和文件传输的开发者及运维人员。",
-        "considerations": "基于JavaScript和Electron开发；MIT许可证；支持多平台安装和在线使用；依赖多种协议和外部AI服务。"
+        "positioning": "跨平台多协议终端和远程连接客户端，适合需要统一管理多种远程连接的开发者和运维人员。",
+        "implementation": "基于Electron和JavaScript开发，采用多协议客户端架构，集成AI助手和MCP协议支持，支持本地和云端同步，提供桌面和Web版本，支持Docker部署。",
+        "problems_solved": "简化多协议远程连接管理，替代多款单一协议工具，提升远程操作效率，支持多平台统一使用。",
+        "capabilities": "支持ssh、sftp、ftp、telnet、serialport、RDP、VNC、Spice等多协议连接；跨平台支持Windows、macOS、Linux及Android；内置AI助手支持命令建议和脚本编写；支持Zmodem和Trzsz文件传输；支持ssh隧道和代理配置；支持书签、主题和快捷命令同步。",
+        "use_cases": "适合开发者、运维工程师进行远程服务器管理、文件传输和多协议终端操作。",
+        "considerations": "依赖Node.js环境，跨平台支持多系统，采用MIT开源许可证。建议核对官方文档了解详细配置和使用。"
       }
     },
     {
@@ -2513,8 +2654,8 @@
       ],
       "license": "MIT",
       "created_at": "2026-03-31T17:30:14Z",
-      "stars": 13754,
-      "forks": 8501,
+      "stars": 13762,
+      "forks": 8500,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-29T16:25:04Z",
@@ -2533,16 +2674,18 @@
           "Release: Claude-Code-Haha-0.5.0-win-x64.exe"
         ]
       },
-      "score": 511.97,
-      "rank": 46,
+      "score": 511.51,
+      "rank": 47,
       "description_en": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
-      "description_zh": "本地优先的跨平台桌面工作空间，支持多智能体和多模型。",
       "is_new": false,
+      "description_zh": "本地优先的跨平台桌面工作空间，支持多智能体和多模型。",
       "analysis_zh": {
-        "positioning": "本地优先的跨平台桌面工作空间，支持多智能体和多模型。",
-        "capabilities": "支持多智能体和多模型管理；集成Git工作树和代码差异查看；内置任务感知桌面宠物；支持多种即时通讯工具和H5远程访问；多会话和多项目导航。",
-        "use_cases": "适合开发者和AI研究者进行多模型、多项目代码管理和协作开发。",
-        "considerations": "基于Electron跨平台桌面应用；需配置模型提供商和API密钥；MIT开源许可；部分平台安装需手动信任。"
+        "positioning": "本地优先的跨平台桌面工作空间，面向需要多智能体协作和多模型集成的开发者和团队。",
+        "implementation": "基于Electron框架，使用TypeScript开发，集成多模型和多智能体管理，支持桌面和远程访问，提供图形化工作空间和任务管理。",
+        "problems_solved": "整合多智能体和多模型管理，简化多项目和分支操作，提升开发效率，支持多平台远程访问。",
+        "capabilities": "支持多智能体和多模型管理；集成Git工作树和代码差异查看；支持任务感知桌面宠物；集成微信、飞书、钉钉、Telegram、WhatsApp和H5访问；支持多会话和项目切换。",
+        "use_cases": "适合开发者和团队进行多模型开发、多项目管理及跨平台远程协作。",
+        "considerations": "基于Electron和TypeScript开发，采用MIT许可证。首次启动需配置模型提供商和API密钥。建议核对官方文档了解详细配置和使用。"
       }
     },
     {
@@ -2559,8 +2702,8 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2019-08-14T14:31:08Z",
-      "stars": 52423,
-      "forks": 6936,
+      "stars": 52430,
+      "forks": 6937,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-15T01:36:41Z",
@@ -2580,73 +2723,18 @@
           "Release: lx-music-desktop-v2.12.2-x64-Setup.exe"
         ]
       },
-      "score": 511.61,
-      "rank": 47,
-      "description_en": "一个基于 Electron 的音乐软件",
-      "description_zh": "一个基于 Electron 的音乐软件",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "基于Electron的跨平台音乐播放软件，支持多端数据同步和开放API。",
-        "capabilities": "基于Electron和Vue开发的跨平台音乐播放器；支持Scheme URL调用和开放API服务；提供数据同步服务支持多端同步；支持多种操作系统。",
-        "use_cases": "适合音乐爱好者在多平台播放和管理音乐，支持自定义和脚本调用。",
-        "considerations": "Apache-2.0开源许可；数据来源依赖官方音乐平台公开接口；用户需注意版权数据管理；无官方应用商店发布。"
-      }
-    },
-    {
-      "name": "amir1376/ab-download-manager",
-      "url": "https://github.com/amir1376/ab-download-manager",
-      "description": "A Download Manager that speeds up your downloads",
-      "homepage": "https://abdownloadmanager.com",
-      "language": "Kotlin",
-      "topics": [
-        "chrome",
-        "compose",
-        "compose-desktop",
-        "compose-multiplatform",
-        "desktop",
-        "desktop-app",
-        "download",
-        "download-manager",
-        "downloader",
-        "downloadmanager",
-        "firefox",
-        "kotlin",
-        "kotlin-multiplatform",
-        "linux",
-        "windows"
-      ],
-      "license": "Apache-2.0",
-      "created_at": "2024-07-07T03:56:25Z",
-      "stars": 16929,
-      "forks": 879,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-26T20:47:25Z",
-      "latest_release": {
-        "tag": "v1.10.1",
-        "url": "https://github.com/amir1376/ab-download-manager/releases/tag/v1.10.1",
-        "published_at": "2026-07-24T19:19:16Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: ABDownloadManager_1.10.1_mac_arm64.dmg",
-          "Release: ABDownloadManager_1.10.1_mac_x64.dmg"
-        ],
-        "windows": [
-          "Release: ABDownloadManager_1.10.1_windows_arm64.exe",
-          "Release: ABDownloadManager_1.10.1_windows_x64.exe"
-        ]
-      },
-      "score": 509.71,
+      "score": 511.12,
       "rank": 48,
-      "description_en": "A Download Manager that speeds up your downloads",
-      "description_zh": "加速下载的下载管理器。",
+      "description_en": "一个基于 Electron 的音乐软件",
       "is_new": false,
+      "description_zh": "一个基于 Electron 的音乐软件",
       "analysis_zh": {
-        "positioning": "跨平台下载管理器，提供下载加速和多功能管理。",
-        "capabilities": "多平台下载管理器，支持下载加速；支持下载队列和定时任务；提供浏览器扩展集成；支持多主题界面。",
-        "use_cases": "适合需要高效管理和加速下载任务的个人用户和专业人士。",
-        "considerations": "基于Kotlin开发；Apache-2.0开源许可；官方仅通过指定渠道发布，避免使用非官方版本。"
+        "positioning": "基于Electron的跨平台音乐播放器，适合喜欢自定义和多平台使用的音乐爱好者。",
+        "implementation": "使用Electron和Vue 3构建跨平台桌面音乐播放器，支持本地和在线音乐播放，提供数据同步和开放API，支持多种主题和快捷键操作。",
+        "problems_solved": "提供统一的跨平台音乐播放解决方案，支持多音乐源和数据同步，提升用户体验。",
+        "capabilities": "基于Electron和Vue 3开发；支持Linux、macOS、Windows平台；支持Scheme URL调用和开放API服务；支持数据同步服务；支持多主题和快捷操作。",
+        "use_cases": "适合个人用户在多平台播放和管理音乐，支持自定义播放列表和快捷操作。",
+        "considerations": "采用Apache-2.0许可证，数据来源依赖第三方音乐平台，版权数据需用户自行管理。建议核对官方文档了解版权和数据使用细节。"
       }
     },
     {
@@ -2677,37 +2765,98 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2026-04-29T03:00:36Z",
-      "stars": 12452,
-      "forks": 1197,
+      "stars": 12481,
+      "forks": 1205,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T03:25:50Z",
+      "pushed_at": "2026-07-30T06:30:30Z",
       "latest_release": {
-        "tag": "v0.5.69",
-        "url": "https://github.com/t8y2/dbx/releases/tag/v0.5.69",
-        "published_at": "2026-07-29T05:00:44Z"
+        "tag": "v0.5.70",
+        "url": "https://github.com/t8y2/dbx/releases/tag/v0.5.70",
+        "published_at": "2026-07-30T02:38:19Z"
       },
       "platform_evidence": {
         "macos": [
-          "Release: DBX_0.5.69_aarch64.dmg",
-          "Release: DBX_0.5.69_x64.dmg"
+          "Release: DBX_0.5.70_aarch64.dmg",
+          "Release: DBX_0.5.70_x64.dmg"
         ],
         "windows": [
-          "Release: DBX_0.5.69_arm64-setup.exe",
-          "Release: DBX_0.5.69_arm64-webview2-offline-setup.exe",
-          "Release: DBX_0.5.69_arm64_en-US.msi"
+          "Release: DBX_0.5.70_arm64-setup.exe",
+          "Release: DBX_0.5.70_arm64-webview2-offline-setup.exe",
+          "Release: DBX_0.5.70_arm64_en-US.msi"
         ]
       },
-      "score": 509.48,
+      "score": 509.61,
       "rank": 49,
       "description_en": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
-      "description_zh": "轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "is_new": false,
+      "description_zh": "是支持70+数据库的轻量级跨平台数据库客户端，含AI助手和多种运行环境。",
       "analysis_zh": {
-        "positioning": "轻量级跨平台数据库管理工具，支持70+数据库和内置AI助手。",
-        "capabilities": "支持70+数据库管理，包括MySQL、PostgreSQL、SQLite、Redis、MongoDB等；内置AI助手生成和校验SQL；支持MCP协议与多种AI编码代理集成；提供桌面端、Docker、CLI和Web版本。",
-        "use_cases": "适合数据库管理员和开发者进行多数据库管理和智能SQL生成。",
-        "considerations": "基于Rust开发，单文件20MB轻量级；Apache-2.0开源许可；无需额外运行时环境；支持多平台。"
+        "positioning": "轻量级跨平台数据库客户端，面向需要管理多种数据库和集成AI助手的开发者和DBA。",
+        "implementation": "使用Rust语言开发，单一二进制文件部署，集成CodeMirror 6编辑器，支持多数据库驱动和AI助手，提供桌面应用、Docker容器和命令行工具。",
+        "problems_solved": "简化多数据库管理，减少环境依赖，提升SQL编写效率，支持AI辅助和多环境部署。",
+        "capabilities": "支持70+数据库连接，包括MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等；内置AI助手支持SQL生成和安全检查；支持桌面、Docker、CLI和Web多种运行环境；支持MCP协议与AI工具集成。",
+        "use_cases": "适合数据库管理员和开发者进行多数据库连接管理、查询和AI辅助开发。",
+        "considerations": "基于Rust开发，采用Apache-2.0许可证，无需额外运行时依赖，支持多平台。建议核对官方文档了解详细数据库支持和AI集成方式。"
+      }
+    },
+    {
+      "name": "amir1376/ab-download-manager",
+      "url": "https://github.com/amir1376/ab-download-manager",
+      "description": "A Download Manager that speeds up your downloads",
+      "homepage": "https://abdownloadmanager.com",
+      "language": "Kotlin",
+      "topics": [
+        "chrome",
+        "compose",
+        "compose-desktop",
+        "compose-multiplatform",
+        "desktop",
+        "desktop-app",
+        "download",
+        "download-manager",
+        "downloader",
+        "downloadmanager",
+        "firefox",
+        "kotlin",
+        "kotlin-multiplatform",
+        "linux",
+        "windows"
+      ],
+      "license": "Apache-2.0",
+      "created_at": "2024-07-07T03:56:25Z",
+      "stars": 16933,
+      "forks": 880,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-26T20:47:25Z",
+      "latest_release": {
+        "tag": "v1.10.1",
+        "url": "https://github.com/amir1376/ab-download-manager/releases/tag/v1.10.1",
+        "published_at": "2026-07-24T19:19:16Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: ABDownloadManager_1.10.1_mac_arm64.dmg",
+          "Release: ABDownloadManager_1.10.1_mac_x64.dmg"
+        ],
+        "windows": [
+          "Release: ABDownloadManager_1.10.1_windows_arm64.exe",
+          "Release: ABDownloadManager_1.10.1_windows_x64.exe"
+        ]
+      },
+      "score": 509.24,
+      "rank": 50,
+      "description_en": "A Download Manager that speeds up your downloads",
+      "is_new": false,
+      "description_zh": "加速下载的下载管理器。",
+      "analysis_zh": {
+        "positioning": "多平台下载管理器，适合需要高效管理和加速下载任务的个人用户。",
+        "implementation": "使用Kotlin和Compose Multiplatform开发，提供桌面和移动端应用，集成浏览器扩展，实现下载加速和管理功能。",
+        "problems_solved": "提升下载速度，支持任务排队和调度，简化下载管理流程，支持多平台统一使用。",
+        "capabilities": "支持多平台（Android、Windows、Linux、Mac）下载管理；支持下载加速、队列和调度；提供浏览器扩展集成；支持多主题现代UI。",
+        "use_cases": "适合个人用户在多设备上管理和加速下载任务。",
+        "considerations": "基于Kotlin开发，采用Apache-2.0许可证。非官方应用商店发布，需注意安全性。建议核对官方文档了解安装和使用细节。"
       }
     },
     {
@@ -2731,7 +2880,7 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2024-08-06T05:20:16Z",
-      "stars": 12391,
+      "stars": 12392,
       "forks": 934,
       "stars_today": 0,
       "trending_rank": null,
@@ -2751,16 +2900,18 @@
           "Release: NoteGen_0.33.0_x64_en-US.msi"
         ]
       },
-      "score": 509.04,
-      "rank": 50,
+      "score": 508.56,
+      "rank": 51,
       "description_en": "A cross-platform Markdown AI note-taking software.",
-      "description_zh": "跨平台的Markdown AI笔记软件。",
       "is_new": false,
+      "description_zh": "跨平台的Markdown AI笔记软件。",
       "analysis_zh": {
-        "positioning": "跨平台Markdown AI笔记软件，支持多样信息捕获与智能组织。",
-        "capabilities": "跨平台Markdown笔记软件；支持多种信息捕获（文本、语音、截图等）；AI辅助组织和生成结构化笔记；基于Markdown文件存储；支持标签和模板管理。",
-        "use_cases": "适合需要高效捕获和整理信息的知识工作者和研究人员。",
-        "considerations": "基于TypeScript和Tauri开发；GPL-3.0开源许可；需配置AI模型和服务；适合本地优先使用。"
+        "positioning": "跨平台Markdown AI笔记软件，帮助用户高效捕获和组织零散信息。",
+        "implementation": "采用TypeScript开发，基于Next.js和Tauri框架构建跨平台桌面和移动应用。通过本地优先策略，捕获信息后存储为Markdown文件，利用AI模型对选定内容进行结构化组织和摘要生成。支持标签和时间过滤，用户可在编辑器中继续完善笔记。",
+        "problems_solved": "解决信息捕获与组织分离的痛点，避免笔记遗漏和结构混乱，提升笔记整理效率。",
+        "capabilities": "支持多种信息类型捕获（文本、语音、截图、链接等）；基于标签、时间、类型过滤记录；利用AI组织内容成Markdown结构；跨平台支持桌面和移动端；本地优先，数据保存在用户选定的工作区。",
+        "use_cases": "适合需要快速捕获多种信息并后续整理的知识工作者、学生和研究人员。",
+        "considerations": "GPL-3.0开源许可；依赖本地存储Markdown文件；跨平台支持Windows、macOS、Linux；建议查看官方文档了解详细使用和配置。"
       }
     },
     {
@@ -2790,7 +2941,7 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2017-12-26T18:34:19Z",
-      "stars": 13311,
+      "stars": 13312,
       "forks": 822,
       "stars_today": 0,
       "trending_rank": null,
@@ -2809,16 +2960,18 @@
           "Release: Zettlr-4.7.0-x64.exe"
         ]
       },
-      "score": 507.1,
-      "rank": 51,
+      "score": 506.62,
+      "rank": 52,
       "description_en": "Your One-Stop Publication Workbench",
-      "description_zh": "一站式出版工作平台。",
       "is_new": false,
+      "description_zh": "一站式出版工作平台。",
       "analysis_zh": {
-        "positioning": "一站式多语言学术与出版写作工作平台，助力高效文本创作与管理。",
-        "capabilities": "支持多语言文本编辑与管理；集成多种引用管理工具；支持LaTeX和Word模板导出；内置强大全文搜索和知识管理功能；支持多平台离线使用。",
-        "use_cases": "适合学者、研究人员及专业写作者，用于文献管理、论文写作及多格式出版流程。",
-        "considerations": "依赖Electron框架，支持macOS、Windows和Linux；采用GPL-3.0开源许可证；无账号强制要求；适合需要专业出版和学术写作的用户。"
+        "positioning": "一站式出版工作平台，面向学术和专业写作用户。",
+        "implementation": "基于TypeScript和Electron构建跨平台桌面应用，集成多种文献管理和导出工具，支持Markdown编辑和多语言界面。利用Node.js实现后台服务，提供全文搜索和代码高亮功能。",
+        "problems_solved": "简化文献管理和多格式导出流程，提升写作效率，支持多语言和多平台使用。",
+        "capabilities": "支持多语言界面；集成多种参考文献管理工具（Zotero、JabRef等）；支持LaTeX和Word模板；多格式导出（Pandoc、LaTeX、Textbundle）；支持代码高亮和自定义CSS主题；强大全文搜索；支持Zettelkasten知识管理方法。",
+        "use_cases": "适合学者、研究人员和专业写作者进行文献管理和出版准备。",
+        "considerations": "GPL-3.0开源许可；支持Windows、macOS、Linux；不支持32位系统；依赖Electron和Node.js环境；建议查看官方文档获取安装和使用细节。"
       }
     },
     {
@@ -2846,7 +2999,7 @@
       ],
       "license": "NOASSERTION",
       "created_at": "2025-10-13T12:27:02Z",
-      "stars": 11678,
+      "stars": 11684,
       "forks": 1168,
       "stars_today": 0,
       "trending_rank": null,
@@ -2867,16 +3020,18 @@
           "Release: Paseo-Setup-0.2.4.exe"
         ]
       },
-      "score": 506.12,
-      "rank": 52,
+      "score": 505.66,
+      "rank": 53,
       "description_en": "Orchestrate multiple coding agents from desktop and mobile",
-      "description_zh": "桌面和移动端多智能体编程协调工具。",
       "is_new": false,
+      "description_zh": "桌面和移动端多智能体编程协调工具。",
       "analysis_zh": {
-        "positioning": "跨平台多智能体编程协调工具，统一管理多种AI编程代理。",
-        "capabilities": "支持多智能体编程代理并行运行；跨平台支持桌面、移动和命令行；集成多种AI编程模型（Claude Code、Codex、Copilot等）；支持语音控制和无痕隐私保护。",
-        "use_cases": "适合开发者在多设备环境下协同使用多AI编程助手，提升编码效率。",
-        "considerations": "需自行安装并配置至少一个代理CLI及其凭证；支持Docker部署；无强制账号登录；许可证未明确，建议核对官方文档。"
+        "positioning": "桌面和移动端多智能体编程协调工具，统一管理多AI代理。",
+        "implementation": "采用TypeScript开发，运行本地守护进程管理多智能体代理，客户端通过多种方式连接守护进程。支持环境变量配置和持久化存储，提供CLI和图形界面操作。",
+        "problems_solved": "解决多AI代理分散管理难题，提升多模型协同效率，保障用户隐私。",
+        "capabilities": "支持多智能体并行运行；统一接口管理多种AI编程代理（Claude Code、Codex、Copilot等）；跨设备支持（iOS、Android、桌面、Web、CLI）；语音控制功能；本地自托管，保护隐私。",
+        "use_cases": "适合开发者和技术人员跨设备使用多AI编程助手。",
+        "considerations": "无明确开源许可声明；需用户自行安装和配置代理CLI及凭证；支持Docker部署；建议详细阅读官方文档配置和使用。"
       }
     },
     {
@@ -2898,7 +3053,7 @@
       "license": "GPL-3.0",
       "created_at": "2019-11-27T16:06:10Z",
       "stars": 14408,
-      "forks": 899,
+      "forks": 898,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-27T09:57:46Z",
@@ -2915,16 +3070,18 @@
           "Release: NotepadNext-v0.14-Installer.exe"
         ]
       },
-      "score": 504.91,
-      "rank": 53,
+      "score": 504.42,
+      "rank": 54,
       "description_en": "A cross-platform, reimplementation of Notepad++",
-      "description_zh": "跨平台的Notepad++重实现文本编辑器。",
       "is_new": false,
+      "description_zh": "跨平台的Notepad++重实现文本编辑器。",
       "analysis_zh": {
-        "positioning": "跨平台的Notepad++重实现文本编辑器，提供基础代码编辑功能。",
-        "capabilities": "跨平台文本编辑器，支持Windows、Linux和macOS；基于Qt6开发，界面现代；兼容Notepad++的基本功能；支持多语言界面。",
-        "use_cases": "适合需要跨平台轻量文本编辑的开发者和普通用户。",
-        "considerations": "采用GPL-3.0开源许可证；当前版本稳定但存在部分未完善功能和bug；无官方主页，社区支持有限；适合非关键任务文本编辑。"
+        "positioning": "跨平台的Notepad++重实现文本编辑器。",
+        "implementation": "使用C++和Qt6框架重实现Notepad++，提供跨平台文本编辑功能，支持多种安装和分发方式，集成自动更新和系统集成功能。",
+        "problems_solved": "为非Windows用户提供类似Notepad++的文本编辑体验，支持多平台统一使用。",
+        "capabilities": "跨平台支持Windows、Linux、macOS；基于Qt6框架；支持多语言界面；提供安装包和AppImage、Flatpak等多种安装方式；支持Windows上下文菜单集成和自动更新。",
+        "use_cases": "适合需要跨平台文本编辑器的开发者和普通用户。",
+        "considerations": "GPL-3.0开源许可；仍存在部分功能缺陷和未完善实现；不建议用于关键任务；依赖Qt环境；建议关注项目更新和社区贡献。"
       }
     },
     {
@@ -2955,8 +3112,8 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2026-01-29T10:25:45Z",
-      "stars": 13050,
-      "forks": 2374,
+      "stars": 13061,
+      "forks": 2377,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-28T08:16:41Z",
@@ -2975,16 +3132,18 @@
           "Release: ToonFlow-1.1.8-win-x64-setup.exe"
         ]
       },
-      "score": 504.33,
-      "rank": 54,
+      "score": 503.88,
+      "rank": 55,
       "description_en": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation.",
-      "description_zh": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation.",
       "is_new": false,
+      "description_zh": "是开源AI短剧创作工具，支持剧本转动画和智能分镜生成。",
       "analysis_zh": {
-        "positioning": "开源一站式AI短剧创作工具，快速将文本转化为动画短剧。",
-        "capabilities": "集成AI编剧、智能分镜、角色与视频生成；支持多语言界面；基于无限画布组织创作流程；支持本地ONNX向量检索记忆；可编程供应商系统支持多模型接入。",
-        "use_cases": "适合短视频内容创作者、剧本开发者及AI文学改编实验者。",
-        "considerations": "依赖大语言模型及视频、图像生成服务接口；支持Windows和Linux官方安装包；采用Apache-2.0开源许可证；默认账号admin/admin123，建议更改。"
+        "positioning": "开源AI短剧创作工具，支持剧本转动画和智能分镜生成。",
+        "implementation": "基于TypeScript和Electron构建跨平台桌面应用，集成多层AI Agent协作机制，利用本地ONNX向量检索实现多轮记忆，支持通过TypeScript编写供应商逻辑，结合事件图谱驱动剧本结构化改编。",
+        "problems_solved": "降低短视频动画制作门槛，提升创作效率，实现低成本批量视觉内容产出。",
+        "capabilities": "支持AI剧本创作、智能分镜、角色和视频生成；多语言界面支持；无限画布工作台；三层Agent协作体系（决策、执行、监督）；本地ONNX向量检索记忆系统；可编程供应商系统支持多模型接入；章节事件图谱驱动剧本改编；Skill文件化配置支持在线编辑。",
+        "use_cases": "适合短视频内容创作者、影视剧本开发者和AI文学改编实验者。",
+        "considerations": "Apache-2.0开源许可；依赖大语言模型AI服务、视频和图片生成服务接口；需登录默认账号使用；支持Windows和Linux官方安装包；建议查看官方文档和视频教程。"
       }
     },
     {
@@ -3020,16 +3179,18 @@
           "Release: Lapce-windows.msi"
         ]
       },
-      "score": 500.07,
-      "rank": 55,
+      "score": 499.59,
+      "rank": 56,
       "description_en": "Lightning-fast and Powerful Code Editor written in Rust",
-      "description_zh": "用Rust编写的极速强大代码编辑器。",
       "is_new": false,
+      "description_zh": "用Rust编写的极速强大代码编辑器。",
       "analysis_zh": {
-        "positioning": "用Rust打造的极速强大代码编辑器，支持智能和远程开发。",
-        "capabilities": "基于Rust语言开发，性能极致；内置LSP支持智能代码补全和诊断；支持Vim模式编辑；内置终端和远程开发支持；插件支持WASI格式多语言编写。",
-        "use_cases": "适合程序员和开发者进行高效本地及远程代码编辑和调试。",
-        "considerations": "支持Windows、Linux和macOS；采用Apache-2.0开源许可证；无账号要求；适合追求高性能和现代编辑体验的开发者。"
+        "positioning": "极速且强大的Rust编写代码编辑器，面向开发者。",
+        "implementation": "采用Rust语言开发，UI基于Floem框架，利用Xi Editor的Rope科学实现高效文本处理，使用wgpu进行渲染。支持内置LSP协议，远程开发和插件扩展。",
+        "problems_solved": "提升代码编辑效率，支持智能代码功能和远程开发，替代传统编辑器的性能瓶颈和远程开发复杂性。",
+        "capabilities": "内置LSP支持，提供代码补全、诊断和代码操作；支持Vim模式编辑；内置远程开发支持和环境管理工具Lapdev；插件支持WASI格式语言；内置终端。",
+        "use_cases": "适合程序员进行本地及远程代码编辑和开发工作。",
+        "considerations": "依赖Rust语言环境，支持Windows、Linux和macOS，采用Apache-2.0开源许可证。"
       }
     },
     {
@@ -3050,7 +3211,7 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2019-08-30T07:16:58Z",
-      "stars": 14203,
+      "stars": 14206,
       "forks": 443,
       "stars_today": 0,
       "trending_rank": null,
@@ -3068,16 +3229,18 @@
           "Release: Espanso-Win-Installer-x86_64.exe"
         ]
       },
-      "score": 499.02,
-      "rank": 56,
+      "score": 498.54,
+      "rank": 57,
       "description_en": "A Privacy-first, Cross-platform Text Expander written in Rust",
-      "description_zh": "注重隐私的跨平台文本扩展工具，Rust开发。",
       "is_new": false,
+      "description_zh": "注重隐私的跨平台文本扩展工具，Rust开发。",
       "analysis_zh": {
-        "positioning": "注重隐私的跨平台文本扩展工具，提升输入效率与自动化能力",
-        "capabilities": "跨平台文本扩展；支持自定义脚本和正则触发；内置包管理器和丰富的扩展包；支持表情符号和图片插入",
-        "use_cases": "适合需要高效文本输入和自动化脚本的个人及团队，支持多平台工作流",
-        "considerations": "GPL-3.0开源许可；完全本地运行，注重隐私；支持Windows、macOS、Linux；需参考官方文档了解配置细节"
+        "positioning": "注重隐私的跨平台文本扩展工具，适合提升输入效率的用户。",
+        "implementation": "用Rust语言开发，基于文件配置和包管理，支持自定义脚本和正则表达式触发，提供系统级文本扩展功能。",
+        "problems_solved": "减少重复输入，支持系统范围内文本扩展和自动纠错，提升工作效率。",
+        "capabilities": "跨平台支持Windows、macOS和Linux；支持文本扩展、表情符号和图片插入；支持自定义脚本和正则触发；内置包管理器和配置文件管理。",
+        "use_cases": "适合需要频繁输入固定文本或代码片段的用户，如程序员和写作者。",
+        "considerations": "完全本地运行，注重隐私保护；依赖Rust环境；采用GPL-3.0许可证。"
       }
     },
     {
@@ -3096,7 +3259,7 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2009-10-21T13:35:38Z",
-      "stars": 12051,
+      "stars": 12053,
       "forks": 580,
       "stars_today": 0,
       "trending_rank": null,
@@ -3115,16 +3278,69 @@
           "Release: copyq-16.0.0-setup.exe"
         ]
       },
-      "score": 498.85,
-      "rank": 57,
+      "score": 498.37,
+      "rank": 58,
       "description_en": "Clipboard manager with advanced features",
-      "description_zh": "功能丰富的剪贴板管理器。",
       "is_new": false,
+      "description_zh": "功能丰富的剪贴板管理器。",
       "analysis_zh": {
-        "positioning": "功能丰富的跨平台剪贴板管理器，提升剪贴板内容管理效率",
-        "capabilities": "支持文本、HTML、图片等多格式剪贴板管理；强大编辑和脚本功能；支持系统快捷键和标签管理；支持跨平台使用",
-        "use_cases": "适合需要管理大量剪贴内容和自定义剪贴操作的用户，支持多平台办公环境",
-        "considerations": "GPL-3.0开源许可；支持Linux、Windows、macOS；无主页需参考GitHub文档；支持多种安装方式"
+        "positioning": "功能丰富的跨平台剪贴板管理器，面向需要高效剪贴板操作的用户。",
+        "implementation": "用C++开发，监控系统剪贴板，保存内容至自定义标签页，支持脚本和命令行接口，实现高级编辑和管理功能。",
+        "problems_solved": "解决剪贴板内容管理混乱，支持多格式保存和快速检索，提升复制粘贴效率。",
+        "capabilities": "支持文本、HTML、图片等多格式剪贴板内容管理；支持标签、注释和多标签页管理；支持系统快捷键和脚本命令；支持Vim风格编辑。",
+        "use_cases": "适合需要频繁复制粘贴和管理剪贴板内容的办公和开发用户。",
+        "considerations": "跨平台支持Linux、Windows和macOS 13+；采用GPL-3.0许可证；依赖Qt框架。"
+      }
+    },
+    {
+      "name": "jeffvli/feishin",
+      "url": "https://github.com/jeffvli/feishin",
+      "description": "A modern self-hosted music player.",
+      "homepage": "https://feishin.vercel.app",
+      "language": "TypeScript",
+      "topics": [
+        "jellyfin",
+        "music-player",
+        "navidrome",
+        "self-hosted",
+        "subsonic",
+        "subsonic-client"
+      ],
+      "license": "GPL-3.0",
+      "created_at": "2022-07-25T08:02:56Z",
+      "stars": 9290,
+      "forks": 486,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-30T05:57:14Z",
+      "latest_release": {
+        "tag": "v1.15.1",
+        "url": "https://github.com/jeffvli/feishin/releases/tag/v1.15.1",
+        "published_at": "2026-07-19T23:54:40Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Feishin-1.15.1-mac-arm64.dmg",
+          "Release: Feishin-1.15.1-mac-x64.dmg"
+        ],
+        "windows": [
+          "Release: Feishin-1.15.1-win-arm64.exe",
+          "Release: Feishin-1.15.1-win-x64.exe",
+          "Release: Feishin-1.15.1-win.exe"
+        ]
+      },
+      "score": 496.7,
+      "rank": 59,
+      "description_en": "A modern self-hosted music player.",
+      "is_new": false,
+      "description_zh": "现代自托管音乐播放器。",
+      "analysis_zh": {
+        "positioning": "现代自托管音乐播放器，适合个人音乐管理和播放。",
+        "implementation": "基于TypeScript开发，采用Electron框架构建桌面客户端，支持MPV播放器和Web播放器，集成歌词和播放列表管理。",
+        "problems_solved": "提供本地音乐播放和管理，支持多种播放后端和歌词显示，替代传统音乐播放器。",
+        "capabilities": "支持MPV和Web播放器后端；支持歌词同步与非同步显示；支持智能播放列表编辑和播放记录同步；提供现代化UI和多平台客户端。",
+        "use_cases": "适合有自托管需求的音乐爱好者和个人用户。",
+        "considerations": "支持桌面客户端和Docker部署；依赖TypeScript和Electron；采用GPL-3.0许可证。"
       }
     },
     {
@@ -3167,16 +3383,18 @@
           "Release: WebTorrentSetup-v0.24.0.exe"
         ]
       },
-      "score": 495.44,
-      "rank": 58,
+      "score": 494.96,
+      "rank": 60,
       "description_en": "❤️ Streaming torrent app for Mac, Windows, and Linux",
-      "description_zh": "支持Mac、Windows和Linux的流媒体种子客户端。",
       "is_new": false,
+      "description_zh": "支持Mac、Windows和Linux的流媒体种子客户端。",
       "analysis_zh": {
-        "positioning": "支持流媒体播放的跨平台种子下载客户端，简化P2P文件分享体验",
-        "capabilities": "支持流媒体播放的种子下载；跨平台支持Mac、Windows、Linux；基于Electron和WebRTC技术；支持P2P文件共享",
-        "use_cases": "适合需要边下载边观看种子内容的用户，支持多操作系统桌面环境",
-        "considerations": "MIT开源许可；最新版本发布时间较早，可能需核对维护状态；需安装桌面客户端"
+        "positioning": "跨平台流媒体种子客户端，适合需要边下载边播放的用户。",
+        "implementation": "基于JavaScript和Electron开发，利用WebTorrent协议实现流媒体种子下载和播放，支持多平台桌面应用。",
+        "problems_solved": "实现种子文件流式播放，减少等待时间，提升用户体验。",
+        "capabilities": "支持Mac、Windows和Linux平台；支持流媒体种子下载和播放；集成P2P和WebRTC技术；提供图形界面和命令行工具。",
+        "use_cases": "适合需要快速观看种子内容的用户，如视频爱好者和下载用户。",
+        "considerations": "采用MIT开源许可证；依赖Electron和Node.js；最新版本发布时间较早，建议核对项目活跃度。"
       }
     },
     {
@@ -3201,7 +3419,7 @@
       ],
       "license": "MIT",
       "created_at": "2026-04-13T22:11:53Z",
-      "stars": 9022,
+      "stars": 9025,
       "forks": 709,
       "stars_today": 0,
       "trending_rank": null,
@@ -3220,16 +3438,18 @@
           "Release: CodeBurn-Setup-0.9.19.exe"
         ]
       },
-      "score": 495.0,
-      "rank": 59,
+      "score": 494.53,
+      "rank": 61,
       "description_en": "Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
-      "description_zh": "免费本地工具，跟踪31款AI编码工具的令牌使用和费用。",
       "is_new": false,
+      "description_zh": "免费本地工具，跟踪31款AI编码工具的令牌使用和费用。",
       "analysis_zh": {
-        "positioning": "本地化AI编码令牌使用和费用跟踪工具，助力开发者优化AI成本管理",
-        "capabilities": "本地跟踪AI编码工具的令牌使用和费用；支持36款AI工具和代理；按模型、项目、任务细分统计；提供交互式仪表盘和命令行工具",
-        "use_cases": "适合使用多款AI编码工具的开发者和团队，便于监控和优化AI资源消耗",
-        "considerations": "MIT开源许可；依赖Node.js 22.13+；需本地已有支持工具的会话数据；支持macOS菜单栏和Linux GNOME扩展"
+        "positioning": "面向开发者的本地AI编码令牌使用及成本跟踪工具。",
+        "implementation": "基于TypeScript开发，读取本地AI工具会话文件，解析令牌和费用数据，提供交互式仪表盘和命令行界面，支持桌面应用和菜单栏显示，价格数据每日从LiteLLM更新。",
+        "problems_solved": "解决AI工具费用不透明问题，细化成本归因，避免预算浪费，提升费用管理效率。",
+        "capabilities": "跟踪AI编码工具令牌使用；按模型、项目、任务细分成本；支持36款AI工具；本地运行，无数据外泄；多平台支持（桌面、终端、菜单栏）；每日价格更新。",
+        "use_cases": "适合AI开发者监控多工具令牌消耗，优化预算分配和模型选择。",
+        "considerations": "依赖Node.js 22.13+；需至少一个支持工具的会话数据；MIT开源许可；无账号需求。"
       }
     },
     {
@@ -3250,7 +3470,7 @@
       ],
       "license": "AGPL-3.0",
       "created_at": "2025-06-13T20:16:40Z",
-      "stars": 9021,
+      "stars": 9024,
       "forks": 465,
       "stars_today": 0,
       "trending_rank": null,
@@ -3271,16 +3491,18 @@
           "Release: 01_RapidRAW_v1.6.0_windows_x64.exe"
         ]
       },
-      "score": 493.82,
-      "rank": 60,
+      "score": 493.35,
+      "rank": 62,
       "description_en": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
-      "description_zh": "高性能GPU加速的非破坏性RAW图像编辑器。",
       "is_new": false,
+      "description_zh": "高性能GPU加速的非破坏性RAW图像编辑器。",
       "analysis_zh": {
-        "positioning": "高性能GPU加速的跨平台RAW图像编辑器，专注快速简洁的摄影后期工作流",
-        "capabilities": "GPU加速的非破坏性RAW图像编辑；支持色彩分级和遮罩；跨平台支持Windows、macOS、Linux、Android；基于Rust、React和Tauri技术",
-        "use_cases": "适合摄影师和图像编辑爱好者，追求快速高效的RAW照片处理体验",
-        "considerations": "AGPL-3.0开源许可；仍在积极开发中，功能和稳定性可能不及成熟产品；无官方主页需参考GitHub文档"
+        "positioning": "面向摄影师的高性能GPU加速非破坏性RAW图像编辑器。",
+        "implementation": "使用Rust和wgpu实现GPU加速，前端基于React和Tauri构建，提供轻量级（<20MB）跨平台应用，支持多种RAW编辑功能和批处理命令行接口。",
+        "problems_solved": "提供轻量快速的RAW编辑替代方案，提升编辑效率，支持复杂色彩调整和批量处理。",
+        "capabilities": "非破坏性RAW图像编辑；GPU加速处理；支持多平台（Windows、macOS、Linux、Android）；支持批量导出和JSON调整；提供AI镜头模糊等高级功能。",
+        "use_cases": "适合摄影师进行快速RAW图像编辑和批量导出工作流。",
+        "considerations": "AGPL-3.0开源许可；仍在积极开发中，可能存在bug；无主页需核对项目文档。"
       }
     },
     {
@@ -3304,7 +3526,7 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2026-04-21T18:33:12Z",
-      "stars": 8746,
+      "stars": 8751,
       "forks": 940,
       "stars_today": 0,
       "trending_rank": null,
@@ -3324,16 +3546,18 @@
           "Release: Terax_0.8.6_x64_en-US.msi"
         ]
       },
-      "score": 492.91,
-      "rank": 61,
+      "score": 492.45,
+      "rank": 63,
       "description_en": "Lightweight (7MB) Terminal-first AI-native dev workspace",
-      "description_zh": "轻量级终端优先的AI开发工作空间。",
       "is_new": false,
+      "description_zh": "轻量级终端优先的AI开发工作空间。",
       "analysis_zh": {
-        "positioning": "轻量级终端优先的AI开发工作空间，集成代码编辑与版本控制",
-        "capabilities": "终端多标签支持，WebGL加速渲染；内置代码编辑器支持多语言；集成Git图形化版本控制；AI辅助代码编辑与本地模型支持",
-        "use_cases": "适合开发者在终端环境中进行AI辅助编程和代码管理的工作流",
-        "considerations": "依赖Tauri 2、Rust和React 19；无需账号，无遥测；Apache-2.0开源许可；适合Linux、Windows、macOS平台"
+        "positioning": "轻量级终端优先的AI原生开发工作空间。",
+        "implementation": "基于TypeScript、Rust和Tauri构建，采用xterm.js WebGL渲染终端，CodeMirror 6编辑器，集成本地PTY后端和AI侧边栏，支持多面板和多环境工作区。",
+        "problems_solved": "整合终端、代码编辑、版本控制和AI辅助，提升开发效率，减少工具切换。",
+        "capabilities": "多标签终端支持WebGL渲染；内置代码编辑器支持多语言；集成Git图形化管理；AI辅助代码编辑；文件浏览器和本地服务器预览；支持多平台。",
+        "use_cases": "适合开发者在终端环境中进行AI辅助编码和版本控制工作。",
+        "considerations": "依赖Node.js和本地AI模型或API密钥；Apache-2.0开源许可；无遥测和账号需求。"
       }
     },
     {
@@ -3358,7 +3582,7 @@
       ],
       "license": "AGPL-3.0",
       "created_at": "2025-10-17T09:08:25Z",
-      "stars": 8879,
+      "stars": 8882,
       "forks": 553,
       "stars_today": 0,
       "trending_rank": null,
@@ -3380,65 +3604,18 @@
           "Release: AltSendme_0.6.0_x64_en-US.msi"
         ]
       },
-      "score": 492.06,
-      "rank": 62,
+      "score": 491.59,
+      "rank": 64,
       "description_en": "Send files and folders anywhere in the world without storing in cloud - any size, any format, no accounts, no restrictions ( previously Altsendme )",
+      "is_new": false,
       "description_zh": "无需云存储，全球传输任意大小文件的工具。",
-      "is_new": false,
       "analysis_zh": {
-        "positioning": "无需云存储的全球任意大小文件点对点传输工具",
-        "capabilities": "点对点文件传输，无需云存储；支持任意大小和格式文件；端到端加密保障隐私；支持多平台跨设备传输和断点续传",
-        "use_cases": "适合需要安全快速跨设备传输大文件的个人和团队使用场景",
-        "considerations": "基于AGPL-3.0开源许可；无需账号注册；依赖QUIC和TLS 1.3协议；支持桌面、Android、终端和浏览器"
-      }
-    },
-    {
-      "name": "jeffvli/feishin",
-      "url": "https://github.com/jeffvli/feishin",
-      "description": "A modern self-hosted music player.",
-      "homepage": "https://feishin.vercel.app",
-      "language": "TypeScript",
-      "topics": [
-        "jellyfin",
-        "music-player",
-        "navidrome",
-        "self-hosted",
-        "subsonic",
-        "subsonic-client"
-      ],
-      "license": "GPL-3.0",
-      "created_at": "2022-07-25T08:02:56Z",
-      "stars": 9288,
-      "forks": 486,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-28T16:02:07Z",
-      "latest_release": {
-        "tag": "v1.15.1",
-        "url": "https://github.com/jeffvli/feishin/releases/tag/v1.15.1",
-        "published_at": "2026-07-19T23:54:40Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: Feishin-1.15.1-mac-arm64.dmg",
-          "Release: Feishin-1.15.1-mac-x64.dmg"
-        ],
-        "windows": [
-          "Release: Feishin-1.15.1-win-arm64.exe",
-          "Release: Feishin-1.15.1-win-x64.exe",
-          "Release: Feishin-1.15.1-win.exe"
-        ]
-      },
-      "score": 490.85,
-      "rank": 63,
-      "description_en": "A modern self-hosted music player.",
-      "description_zh": "现代自托管音乐播放器。",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "现代化自托管音乐播放器，支持多平台和丰富播放功能",
-        "capabilities": "支持MPV和Web播放器后端；现代化用户界面；支持歌词同步与非同步显示；集成播放记录同步和智能播放列表编辑",
-        "use_cases": "适合音乐爱好者和自托管用户管理和播放本地及远程音乐库",
-        "considerations": "GPL-3.0开源许可；支持自托管部署；提供桌面客户端、Web版本和Docker镜像；需配置相应播放器环境"
+        "positioning": "无需云存储的全球任意大小文件点对点传输工具。",
+        "implementation": "基于TypeScript开发，利用先进P2P网络技术实现直接设备间传输，采用BLAKE3校验保证数据完整性，支持多平台客户端和终端操作。",
+        "problems_solved": "避免依赖云服务，保障隐私安全，支持大文件快速传输，简化跨设备文件共享。",
+        "capabilities": "点对点文件传输；支持任意大小和格式；端到端加密；跨平台支持桌面、Android、浏览器；断点续传和多播传输；设备配对功能。",
+        "use_cases": "适合需要安全快速跨设备传输大文件的个人和团队。",
+        "considerations": "AGPL-3.0开源许可；无需账号和云存储；依赖现代网络协议QUIC和TLS 1.3。"
       }
     },
     {
@@ -3490,16 +3667,18 @@
           "Release: mockoon.setup.9.7.0.exe"
         ]
       },
-      "score": 489.88,
-      "rank": 64,
+      "score": 489.4,
+      "rank": 65,
       "description_en": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.",
-      "description_zh": "本地快速运行模拟API的开源工具，无需账号。",
       "is_new": false,
+      "description_zh": "本地快速运行模拟API的开源工具，无需账号。",
       "analysis_zh": {
-        "positioning": "本地快速运行模拟API的开源工具，无需账号",
-        "capabilities": "本地快速设计和运行模拟API；支持无限数量的本地服务器和路由；兼容OpenAPI；支持请求记录和日志；支持HTTPS和代理转发",
-        "use_cases": "适合开发者在本地环境快速搭建和测试模拟API的工作流",
-        "considerations": "MIT开源许可；无需账号；提供桌面应用和CLI工具；支持多平台安装和无服务器环境使用"
+        "positioning": "本地快速运行模拟API的开源工具，无需账号。",
+        "implementation": "基于TypeScript和Electron构建桌面应用，提供图形界面设计和命令行运行模拟API，支持复杂路由配置和请求模板化。",
+        "problems_solved": "减少对外部API依赖，提升开发测试效率，支持模拟各种响应和错误场景。",
+        "capabilities": "本地快速运行模拟API；无限制模拟服务器和路由；支持HTTP方法、状态码、正则路径；OpenAPI兼容；请求记录和日志；支持HTTPS和代理转发。",
+        "use_cases": "适合开发者本地设计和测试API，支持CI和无头环境集成。",
+        "considerations": "MIT开源许可；无账号需求；支持多平台桌面和CLI使用。"
       }
     },
     {
@@ -3531,8 +3710,8 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2023-08-16T04:23:44Z",
-      "stars": 7646,
-      "forks": 466,
+      "stars": 7662,
+      "forks": 467,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-29T11:17:33Z",
@@ -3551,16 +3730,18 @@
           "Release: Ghost-Downloader-v4.2.2-Windows-x86_64-Setup.exe"
         ]
       },
-      "score": 485.61,
-      "rank": 65,
+      "score": 485.22,
+      "rank": 66,
       "description_en": "An AI-boost cross-platform multi-protocol fluent-design concurrent downloader built with Python & Qt.",
-      "description_zh": "基于Python和Qt的跨平台多协议并发下载器。",
       "is_new": false,
+      "description_zh": "基于Python和Qt的跨平台多协议并发下载器。",
       "analysis_zh": {
-        "positioning": "基于Python和Qt的跨平台多协议并发下载器，支持AI加速",
-        "capabilities": "多协议并发下载支持（HTTP、BT、FTP等）；智能分块下载无需合并；支持YouTube和Bilibili视频解析；支持M3U8直播流录制和实时解密；提供浏览器扩展和RPC接口",
-        "use_cases": "适合需要高效下载多种协议资源及视频流的用户和开发者",
-        "considerations": "GPL-3.0开源许可；跨平台支持Linux、Windows、macOS和Android；依赖Python和Qt；需注意系统版本兼容性"
+        "positioning": "跨平台多协议并发下载器，面向需要高效下载各种网络资源的用户。",
+        "implementation": "基于Python和Qt开发，采用异步编程(asyncio)实现多协议并发下载，利用AI技术智能加速和资源调度，内置专用解析器处理视频和资源链接，支持多线程和多任务管理，提供浏览器扩展和RPC接口实现任务控制。",
+        "problems_solved": "解决多协议下载复杂性，提升下载速度和稳定性，支持视频解析和直播录制，减少资源阻断和下载失败。",
+        "capabilities": "支持HTTP、Magnet/BT、FTP、M3U8、MPEG DASH、eD2k等多协议下载；IDM风格智能分块下载，无需文件合并；AI智能加速下载；支持YouTube和Bilibili视频解析；支持GitHub和HuggingFace资源加速；支持M3U8直播流录制和实时解密；兼容aria2 RPC接口；支持任务暂停、编辑和续传；提供Android版本和浏览器扩展。",
+        "use_cases": "适合需要下载视频、直播流及多协议资源的个人用户和内容创作者。",
+        "considerations": "依赖Python和Qt，跨平台支持Linux、Windows、macOS和Android；GPL-3.0开源许可；插件API尚在稳定中。"
       }
     },
     {
@@ -3597,16 +3778,18 @@
           "Release: Rancher.Desktop.Setup.1.24.0.msi"
         ]
       },
-      "score": 485.17,
-      "rank": 66,
+      "score": 484.68,
+      "rank": 67,
       "description_en": "Container Management and Kubernetes on the Desktop",
-      "description_zh": "桌面容器管理和Kubernetes工具。",
       "is_new": false,
+      "description_zh": "桌面容器管理和Kubernetes工具。",
       "analysis_zh": {
-        "positioning": "桌面容器管理和Kubernetes工具，简化本地开发环境搭建。",
-        "capabilities": "支持Windows、macOS和Linux桌面环境的容器和Kubernetes管理；集成命令行工具rdctl；支持开发构建、单元测试和端到端测试自动化。",
-        "use_cases": "适合开发者在本地桌面环境管理容器和Kubernetes集群，支持多平台开发工作流。",
-        "considerations": "基于Electron和TypeScript开发；Apache-2.0开源许可；需参考官方文档进行环境配置和开发。"
+        "positioning": "桌面容器和Kubernetes管理工具，服务于开发者和运维人员。",
+        "implementation": "Electron应用，主要用TypeScript编写，集成多种技术栈，包含Go语言编写的命令行工具，使用yarn脚本管理开发和测试流程，支持多平台构建和运行。",
+        "problems_solved": "简化本地容器和Kubernetes环境搭建与管理，提升开发效率，统一多平台操作体验。",
+        "capabilities": "桌面容器和Kubernetes管理；跨平台支持Windows、macOS和Linux；集成命令行工具rdctl；支持开发构建、测试和打包流程。",
+        "use_cases": "适合开发者和运维人员在桌面环境管理容器和Kubernetes集群。",
+        "considerations": "基于Electron和TypeScript开发；Apache-2.0开源许可；需配置开发环境和依赖工具；文档详见官网和GitHub。"
       }
     },
     {
@@ -3628,7 +3811,7 @@
       ],
       "license": "MIT",
       "created_at": "2026-02-27T12:48:35Z",
-      "stars": 7480,
+      "stars": 7485,
       "forks": 719,
       "stars_today": 0,
       "trending_rank": null,
@@ -3649,16 +3832,18 @@
           "Release: OpenPencil_0.13.2_x64-setup.exe"
         ]
       },
-      "score": 484.89,
-      "rank": 67,
+      "score": 484.43,
+      "rank": 68,
       "description_en": "AI-native design editor. Open-source Figma alternative.",
-      "description_zh": "开源AI设计编辑器，Figma替代方案。",
       "is_new": false,
+      "description_zh": "开源AI设计编辑器，Figma替代方案。",
       "analysis_zh": {
-        "positioning": "开源AI设计编辑器，提供Figma替代方案和高度可定制的设计工具。",
-        "capabilities": "支持打开和编辑.fig和.pen设计文件；内置AI设计工具，支持多种AI接口；提供可编程的Vue SDK和CLI工具；支持实时P2P协作，无需服务器和账号。",
-        "use_cases": "适合设计师和开发者进行界面设计、协作编辑及定制化设计工具开发。",
-        "considerations": "基于TypeScript开发；MIT开源许可；处于活跃开发阶段，部分功能仍在完善中。"
+        "positioning": "开源AI设计编辑器，Figma替代方案，面向设计师和开发者。",
+        "implementation": "使用TypeScript和Vue构建，基于Tauri框架实现跨平台桌面应用，集成AI接口支持设计生成和修改，采用WebRTC实现P2P实时协作，支持XPath查询和Figma插件API扩展。",
+        "problems_solved": "提供无需账号的实时协作设计工具，集成AI辅助设计，降低设计工具使用门槛和成本。",
+        "capabilities": "支持打开和编辑.fig和.pen设计文件；内置AI设计工具，支持90+设计工具；支持实时P2P协作，无需服务器和账号；支持组件、变体管理和图像矢量化；支持设计到代码导出(JSX/Tailwind)；提供Vue SDK构建自定义编辑器；跨平台桌面应用基于Tauri。",
+        "use_cases": "适合设计师、开发者及团队进行协作设计和定制编辑器开发。",
+        "considerations": "基于TypeScript、Vue、Tauri和WebGPU技术；MIT开源许可；处于活跃开发阶段，部分功能仍在完善中。"
       }
     },
     {
@@ -3700,16 +3885,18 @@
           "Release: mediago-community-setup-win32-x64-3.5.0.exe"
         ]
       },
-      "score": 484.67,
-      "rank": 68,
+      "score": 484.18,
+      "rank": 69,
       "description_en": "Cross-platform video downloader — sniff and grab m3u8/HLS streams, Bilibili, YouTube and more. Desktop + Docker + 🦞.",
-      "description_zh": "跨平台视频下载器，支持m3u8/HLS及主流视频网站。",
       "is_new": false,
+      "description_zh": "跨平台视频下载器，支持m3u8/HLS及主流视频网站。",
       "analysis_zh": {
-        "positioning": "跨平台视频下载器，支持主流视频网站和m3u8/HLS流的自动嗅探下载。",
-        "capabilities": "支持自动嗅探网页视频资源并下载；支持YouTube、Bilibili等1000+主流视频网站；内置格式转换功能；提供浏览器扩展和HTTP API支持自动化。",
-        "use_cases": "适合需要下载和管理在线视频资源的用户，支持自动化脚本和多平台使用。",
-        "considerations": "基于TypeScript和Electron开发；MIT开源许可；支持桌面和Docker部署，需参考官方文档配置。"
+        "positioning": "跨平台视频下载器，面向需要下载网络视频的用户。",
+        "implementation": "Electron桌面应用结合浏览器扩展实现视频资源嗅探和下载，利用yt-dlp支持多站点视频抓取，内置格式转换功能，提供HTTP API接口，支持Docker容器化部署。",
+        "problems_solved": "简化视频下载流程，无需配置复杂命令行或扩展，支持多站点和格式转换，支持远程和自动化操作。",
+        "capabilities": "支持m3u8/HLS流和主流视频网站视频下载；内置浏览器扩展自动嗅探视频资源；支持YouTube、Bilibili、Twitter、Instagram等1000+站点；内置格式转换功能；提供HTTP API供脚本和自动化调用；支持Docker一键部署和远程访问。",
+        "use_cases": "适合普通用户和内容创作者下载和管理网络视频资源。",
+        "considerations": "基于TypeScript和Electron开发；MIT开源许可；支持多语言界面；Docker镜像可选用不同镜像仓库。"
       }
     },
     {
@@ -3759,16 +3946,18 @@
           "Release: PixiEditor-2.1.2.1-setup-x64-win.exe"
         ]
       },
-      "score": 483.29,
-      "rank": 69,
+      "score": 482.8,
+      "rank": 70,
       "description_en": "PixiEditor is a Universal Editor for all your 2D needs",
-      "description_zh": "通用2D图像编辑器。",
       "is_new": false,
+      "description_zh": "通用2D图像编辑器。",
       "analysis_zh": {
-        "positioning": "通用2D图像编辑器，满足像素艺术、绘画和矢量图形需求。",
-        "capabilities": "支持像素艺术、绘画和矢量图形编辑；支持动画时间线和关键帧动画；节点渲染系统支持复杂图像处理；支持多种导出格式如PNG、SVG、GIF、MP4。",
-        "use_cases": "适合游戏开发者、动画师及图像设计师进行2D图像创作和动画制作。",
-        "considerations": "基于C和Avalonia UI开发；采用LGPL-3.0许可；支持跨平台使用，适合游戏开发和图像编辑。"
+        "positioning": "通用2D图像编辑器，满足游戏开发和图像创作需求。",
+        "implementation": "使用C和Avalonia UI框架开发，采用节点渲染系统管理图层和特效，集成动画时间线和关键帧功能，支持多格式导出，跨平台运行。",
+        "problems_solved": "提供一体化2D编辑和动画工具，支持多种图形类型和导出格式，简化创作流程。",
+        "capabilities": "支持像素艺术、绘画和矢量图形编辑；支持图层、节点图和特效；支持动画时间线和关键帧动画；支持多种导出格式（png、jpg、svg、gif、mp4）；跨平台支持Windows、Linux和macOS；基于Avalonia UI框架。",
+        "use_cases": "适合游戏开发者、动画师和图像设计师进行2D创作和编辑。",
+        "considerations": "基于C和.NET Core开发；LGPL-3.0开源许可；支持多平台桌面环境；文档和社区支持活跃。"
       }
     },
     {
@@ -3805,7 +3994,7 @@
       "forks": 866,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T01:13:51Z",
+      "pushed_at": "2026-07-30T05:40:04Z",
       "latest_release": {
         "tag": "v0.22.0",
         "url": "https://github.com/4gray/iptvnator/releases/tag/v0.22.0",
@@ -3820,16 +4009,18 @@
           "Release: iptvnator-0.22.0-windows-x64-setup.exe"
         ]
       },
-      "score": 482.36,
-      "rank": 70,
+      "score": 482.62,
+      "rank": 71,
       "description_en": ":tv: Cross-platform IPTV player application with multiple features, such as support of m3u and m3u8 playlists, favorites, TV guide, TV archive/catchup and more.",
-      "description_zh": "跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。",
       "is_new": false,
+      "description_zh": "跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。",
       "analysis_zh": {
-        "positioning": "跨平台IPTV播放器，支持多种播放列表和电视指南功能。",
-        "capabilities": "支持导入和播放m3u/m3u8 IPTV播放列表；支持EPG电视指南和电视回看功能；支持多平台桌面环境；支持多种内置和外部播放器。",
-        "use_cases": "适合IPTV用户管理和观看直播频道，支持多平台桌面使用。",
-        "considerations": "基于Electron和Angular开发；MIT开源许可；不提供频道资源，需用户自行提供播放列表。"
+        "positioning": "跨平台IPTV播放器，面向需要播放和管理IPTV频道的用户。",
+        "implementation": "采用Electron和Angular框架构建，使用HTML5播放器（HLS.js或Video.js）实现视频播放，支持本地文件和远程URL导入播放列表，集成XMLTV格式EPG数据，支持外部播放器（MPV、VLC、IINA）嵌入和调用。",
+        "problems_solved": "简化IPTV频道播放和管理流程，支持多种播放列表格式和EPG，提升观看体验，替代复杂手动配置。",
+        "capabilities": "支持m3u/m3u8播放列表导入和自动更新；内置HTML5播放器及外部播放器集成；EPG电视指南和多频道网格显示；支持电视回看、时移和频道分组；支持多平台（Windows、macOS、Linux、ChromeOS）。",
+        "use_cases": "适合IPTV用户、数字电视爱好者及相关内容管理者，支持多平台观看和频道管理。",
+        "considerations": "基于Electron和Angular开发，跨平台支持；MIT开源许可；不提供任何播放列表或数字内容，需用户自行提供。"
       }
     },
     {
@@ -3859,7 +4050,7 @@
       ],
       "license": "AGPL-3.0",
       "created_at": "2022-03-29T07:54:21Z",
-      "stars": 6934,
+      "stars": 6935,
       "forks": 261,
       "stars_today": 0,
       "trending_rank": null,
@@ -3879,72 +4070,69 @@
           "Release: massCode-5.9.1-x64.exe"
         ]
       },
-      "score": 482.33,
-      "rank": 71,
+      "score": 481.85,
+      "rank": 72,
       "description_en": "A free, open-source developer workspace. Snippets, notes, HTTP requests, calculations, and dev tools in one local-first app.",
-      "description_zh": "免费开源开发者工作空间，集成代码片段、笔记、HTTP请求和开发工具。",
       "is_new": false,
+      "description_zh": "免费开源开发者工作空间，集成代码片段、笔记、HTTP请求和开发工具。",
       "analysis_zh": {
-        "positioning": "免费开源的本地优先开发者工作空间，集成代码片段、笔记、HTTP请求及开发工具。",
-        "capabilities": "集成代码片段管理、笔记编辑与组织、HTTP请求调试、代码格式化与预览；支持多语言语法高亮与Markdown文档；本地优先，数据以纯文本Markdown文件存储。",
-        "use_cases": "适合开发者管理代码片段、编写项目文档、调试API请求，集中管理开发相关信息和工具。",
-        "considerations": "基于Electron跨平台桌面应用，支持Windows、macOS、Linux；AGPL-3.0开源许可证；无账号依赖，数据本地存储。"
+        "positioning": "本地优先的开发者工作空间，集成代码片段、笔记和API调试工具。",
+        "implementation": "使用Electron构建跨平台桌面应用，TypeScript开发，数据本地存储为Markdown文件，集成HTTP客户端和代码格式化工具，支持多种开发者工具和扩展。",
+        "problems_solved": "统一管理代码片段、笔记和API请求，减少多工具切换，提高开发效率和知识管理。",
+        "capabilities": "集成代码片段管理、多层文件夹和标签组织；支持160+语法高亮和Prettier代码格式化；内置Markdown笔记编辑和任务管理；集成HTTP客户端支持API请求调试；支持绘图、思维导图和演示模式。",
+        "use_cases": "适合开发者进行代码复用、文档编写和API调试的日常工作。",
+        "considerations": "基于Electron和TypeScript开发，支持本地数据存储为Markdown文件；AGPL-3.0开源许可；支持macOS、Windows、Linux。"
       }
     },
     {
-      "name": "raphamorim/rio",
-      "url": "https://github.com/raphamorim/rio",
-      "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
-      "homepage": "https://rioterm.com",
-      "language": "Rust",
+      "name": "op7418/CodePilot",
+      "url": "https://github.com/op7418/CodePilot",
+      "description": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
+      "homepage": "https://www.codepilot.sh/",
+      "language": "TypeScript",
       "topics": [
-        "gpu-acceleration",
-        "metal",
-        "rio",
-        "rio-terminal",
-        "rust",
-        "rust-lang",
-        "terminal",
-        "terminal-emulator",
-        "terminal-emulators",
-        "terminal-ui",
-        "vte",
-        "vulkan",
-        "wgpu"
+        "ai",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "desktop-app",
+        "electron",
+        "gui",
+        "nextjs"
       ],
-      "license": "MIT",
-      "created_at": "2022-10-05T15:18:41Z",
-      "stars": 7099,
-      "forks": 311,
+      "license": "NOASSERTION",
+      "created_at": "2026-02-06T12:38:55Z",
+      "stars": 6263,
+      "forks": 677,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-28T15:12:57Z",
+      "pushed_at": "2026-07-30T04:25:29Z",
       "latest_release": {
-        "tag": "v0.5.2",
-        "url": "https://github.com/raphamorim/rio/releases/tag/v0.5.2",
-        "published_at": "2026-07-28T08:52:03Z"
+        "tag": "v0.62.0",
+        "url": "https://github.com/op7418/CodePilot/releases/tag/v0.62.0",
+        "published_at": "2026-07-30T04:24:33Z"
       },
       "platform_evidence": {
         "macos": [
-          "Release: Canario-0.0.1.dmg",
-          "Release: rio.dmg"
+          "Release: CodePilot-0.62.0-arm64.dmg",
+          "Release: CodePilot-0.62.0-x64.dmg"
         ],
         "windows": [
-          "Release: rio-installer-aarch64.msi",
-          "Release: rio-installer-x86_64.msi",
-          "Release: rio-portable-aarch64.exe"
+          "Release: CodePilot.Setup.0.62.0.exe"
         ]
       },
-      "score": 479.04,
-      "rank": 72,
-      "description_en": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
-      "description_zh": "硬件加速GPU终端模拟器，支持桌面和浏览器运行。",
+      "score": 479.32,
+      "rank": 73,
+      "description_en": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
       "is_new": false,
+      "description_zh": "多模型AI代理桌面客户端，支持多AI服务和手机远程控制。",
       "analysis_zh": {
-        "positioning": "硬件加速的GPU终端模拟器，支持在桌面和浏览器中高效运行。",
-        "capabilities": "硬件加速GPU渲染，支持Metal和Vulkan图形接口；跨平台终端模拟，支持桌面和浏览器环境；基于Rust语言实现，性能优异。",
-        "use_cases": "适合需要高性能终端模拟的开发者和运维人员，支持多平台使用。",
-        "considerations": "MIT开源许可证；需支持GPU硬件加速环境；适合有一定技术背景用户；建议查看官方文档了解具体依赖。"
+        "positioning": "多模型AI代理桌面客户端，面向需要多AI服务集成和远程控制的用户。",
+        "implementation": "采用Electron和Next.js构建桌面客户端，支持多AI服务API接入，集成多模型管理和远程控制功能，支持任务调度和多媒体生成。",
+        "problems_solved": "简化多AI服务管理，支持多任务并行和远程操作，提升AI助手的灵活性和效率。",
+        "capabilities": "支持连接17+ AI服务提供商，切换模型不中断上下文；多任务并行处理和远程手机控制；集成MCP和技能扩展；支持生成交互式仪表盘和媒体任务管理。",
+        "use_cases": "适合AI开发者、研究人员及需要多AI模型协同工作的用户。",
+        "considerations": "基于Electron和Next.js开发，支持macOS、Windows、Linux；许可证未明确；官网提供下载和文档。"
       }
     },
     {
@@ -3975,11 +4163,11 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2025-02-14T01:56:51Z",
-      "stars": 6173,
+      "stars": 6172,
       "forks": 709,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T03:00:07Z",
+      "pushed_at": "2026-07-30T06:14:31Z",
       "latest_release": {
         "tag": "v1.0.9",
         "url": "https://github.com/ThinkInAIXYZ/deepchat/releases/tag/v1.0.9",
@@ -3995,16 +4183,76 @@
           "Release: DeepChat-1.0.9-windows-x64.exe"
         ]
       },
-      "score": 478.94,
-      "rank": 73,
+      "score": 478.99,
+      "rank": 74,
       "description_en": "🐬DeepChat - A smart assistant that connects powerful AI to your personal world",
-      "description_zh": "智能助手DeepChat，连接强大AI服务，助力个人应用。",
       "is_new": false,
+      "description_zh": "智能助手DeepChat，连接强大AI服务，助力个人应用。",
       "analysis_zh": {
-        "positioning": "本地优先的开源AI智能助手，集成多模型和远程控制能力。",
-        "capabilities": "本地优先AI代理客户端，支持多模型（OpenAI、Gemini、Anthropic等）接入；支持技能安装与管理，具备会话历史可追踪性；集成多种消息应用远程控制。",
-        "use_cases": "适合需要本地运行AI代理、管理多模型和远程消息控制的技术用户。",
-        "considerations": "基于Electron跨平台桌面应用；Apache-2.0开源许可证；需配置对应AI模型API；支持多种消息平台集成。"
+        "positioning": "本地优先的智能AI助手，面向需要多模型集成和消息远程控制的用户。",
+        "implementation": "采用Electron构建跨平台桌面客户端，集成多模型API，支持技能安装和远程消息控制，遵循Tape.systems哲学实现会话和请求可追溯。",
+        "problems_solved": "统一管理多AI模型和技能，支持远程消息交互，提升AI助手的可用性和扩展性。",
+        "capabilities": "支持多AI模型和服务提供商，集成MCP、技能和ACP协议；支持远程控制多种消息平台；实现会话持久化和上下文追踪；支持本地优先运行。",
+        "use_cases": "适合AI爱好者、开发者及需要集成多AI服务的个人或团队。",
+        "considerations": "基于Electron和TypeScript开发，Apache-2.0开源许可；支持跨平台；官网提供安装包和文档。"
+      }
+    },
+    {
+      "name": "raphamorim/rio",
+      "url": "https://github.com/raphamorim/rio",
+      "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
+      "homepage": "https://rioterm.com",
+      "language": "Rust",
+      "topics": [
+        "gpu-acceleration",
+        "metal",
+        "rio",
+        "rio-terminal",
+        "rust",
+        "rust-lang",
+        "terminal",
+        "terminal-emulator",
+        "terminal-emulators",
+        "terminal-ui",
+        "vte",
+        "vulkan",
+        "wgpu"
+      ],
+      "license": "MIT",
+      "created_at": "2022-10-05T15:18:41Z",
+      "stars": 7100,
+      "forks": 311,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-28T15:12:57Z",
+      "latest_release": {
+        "tag": "v0.5.2",
+        "url": "https://github.com/raphamorim/rio/releases/tag/v0.5.2",
+        "published_at": "2026-07-28T08:52:03Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: Canario-0.0.1.dmg",
+          "Release: rio.dmg"
+        ],
+        "windows": [
+          "Release: rio-installer-aarch64.msi",
+          "Release: rio-installer-x86_64.msi",
+          "Release: rio-portable-aarch64.exe"
+        ]
+      },
+      "score": 478.56,
+      "rank": 75,
+      "description_en": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
+      "is_new": false,
+      "description_zh": "硬件加速GPU终端模拟器，支持桌面和浏览器运行。",
+      "analysis_zh": {
+        "positioning": "硬件加速GPU终端模拟器，面向需要高性能终端的桌面和浏览器用户。",
+        "implementation": "基于Rust语言，利用GPU硬件加速技术（Vulkan、Metal）实现高性能终端模拟器，支持跨平台运行和现代终端功能。",
+        "problems_solved": "提升终端渲染性能和用户体验，支持多平台统一终端环境。",
+        "capabilities": "硬件加速GPU渲染，支持Vulkan和Metal；支持桌面和浏览器环境；现代终端UI设计；支持多平台。",
+        "use_cases": "适合开发者和终端用户在多平台使用高性能终端。",
+        "considerations": "使用Rust语言开发，MIT开源许可；支持MacOS、Linux等平台；官网提供文档和演示。"
       }
     },
     {
@@ -4033,7 +4281,7 @@
       ],
       "license": "NOASSERTION",
       "created_at": "2025-04-23T08:19:33Z",
-      "stars": 6197,
+      "stars": 6198,
       "forks": 385,
       "stars_today": 0,
       "trending_rank": null,
@@ -4052,16 +4300,18 @@
           "Release: Everywhere-Windows-x64-Setup-v0.8.0.exe"
         ]
       },
-      "score": 477.1,
-      "rank": 74,
+      "score": 476.62,
+      "rank": 76,
       "description_en": "On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.",
-      "description_zh": "基于当前应用上下文的桌面AI助手，支持多模型和工具。",
       "is_new": false,
+      "description_zh": "基于当前应用上下文的桌面AI助手，支持多模型和工具。",
       "analysis_zh": {
-        "positioning": "基于应用上下文的桌面AI助手，支持多模型和工具跨应用协作。",
-        "capabilities": "基于当前应用上下文的屏幕感知AI助手；支持多大语言模型和MCP工具集成；提供无缝跨应用操作体验。",
-        "use_cases": "适合需要即时上下文辅助、跨应用操作的桌面用户和技术人员。",
-        "considerations": "使用C开发，基于Avalonia跨平台UI框架；许可证未明确声明（NOASSERTION）；建议核对项目文档确认使用限制。"
+        "positioning": "面向桌面用户的上下文感知AI助手，支持多模型和工具，提升跨应用操作效率。",
+        "implementation": "基于C和Avalonia框架开发，利用多种大型语言模型(LLMs)和MCP工具，实时捕获当前应用上下文，无需截图或切换应用，通过快捷键即时提供AI辅助。",
+        "problems_solved": "解决传统AI工具需截图、复制或切换应用的繁琐，提供即时、无缝的桌面AI辅助。",
+        "capabilities": "多模型集成；上下文感知；跨应用操作；快捷键唤起；屏幕内容即时理解",
+        "use_cases": "适合需要跨应用快速获取AI帮助的桌面用户，如技术支持、文档摘要、即时翻译等场景。",
+        "considerations": "无明确许可证声明，建议核对官方文档；依赖.NET 10和Avalonia框架；最新版本v0.8.0"
       }
     },
     {
@@ -4091,8 +4341,8 @@
       ],
       "license": "MIT",
       "created_at": "2026-02-12T09:56:20Z",
-      "stars": 5719,
-      "forks": 899,
+      "stars": 5721,
+      "forks": 900,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-30T03:40:34Z",
@@ -4110,16 +4360,18 @@
           "Release: LobsterAI--win-x64.exe"
         ]
       },
-      "score": 475.74,
-      "rank": 75,
+      "score": 475.26,
+      "rank": 77,
       "description_en": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone via WeChat, Feishu, DingTalk & Telegram.",
-      "description_zh": "开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。",
       "is_new": false,
+      "description_zh": "开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。",
       "analysis_zh": {
-        "positioning": "开源桌面级AI代理，支持多平台远程控制和复杂工作流。",
-        "capabilities": "桌面级AI代理，支持数据分析、文档和幻灯片制作；多平台远程控制（微信、飞书、钉钉、Telegram）；支持多Agent工作流和技能扩展。",
-        "use_cases": "适合需要自动化办公、数据分析和多平台远程控制的专业用户。",
-        "considerations": "基于Electron跨平台桌面应用；MIT开源许可证；需配置AI模型API和远程服务账号；适合企业和高级用户。"
+        "positioning": "开源桌面级AI代理，支持数据分析、文档制作及多平台远程控制，提升办公自动化效率。",
+        "implementation": "基于TypeScript和Electron构建，采用OpenClaw作为运行时和网关，分离产品层和执行层，支持本地持久化、权限管理和多代理协作，集成28种内置技能和MCP服务器扩展。",
+        "problems_solved": "替代传统手动办公流程，实现跨平台远程操作和多任务自动化，降低人工成本和操作复杂度。",
+        "capabilities": "多代理工作流；本地文件和命令操作；多平台远程控制；丰富内置技能；定时任务管理",
+        "use_cases": "适合企业办公人员、数据分析师及远程协作团队，支持本地项目管理和多平台即时控制。",
+        "considerations": "MIT开源许可证；依赖Electron和TypeScript；支持微信、飞书、钉钉、Telegram远程控制；最新版本2026.7.29"
       }
     },
     {
@@ -4141,7 +4393,7 @@
       ],
       "license": "AGPL-3.0",
       "created_at": "2026-03-18T09:04:20Z",
-      "stars": 5714,
+      "stars": 5717,
       "forks": 582,
       "stars_today": 0,
       "trending_rank": null,
@@ -4161,16 +4413,18 @@
           "Release: Clawd-on-Desk-Setup-0.13.0-x64.exe"
         ]
       },
-      "score": 475.19,
-      "rank": 76,
+      "score": 474.73,
+      "rank": 78,
       "description_en": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
-      "description_zh": "像素风桌面宠物，监控多种AI编程助手。",
       "is_new": false,
+      "description_zh": "像素风桌面宠物，监控多种AI编程助手。",
       "analysis_zh": {
-        "positioning": "像素风桌面宠物，实时监控多种AI编程助手状态，提升开发体验。",
-        "capabilities": "实时监控多种AI编程助手状态；支持多主题和自定义动画；兼容Windows、macOS和Linux；支持多种AI代理工具集成。",
-        "use_cases": "适合开发者使用多AI编程助手时监控任务进度，辅助工作流管理。",
-        "considerations": "依赖Node.js构建；AGPL-3.0开源许可；无官方主页，建议查看项目文档了解详细部署和使用。"
+        "positioning": "面向开发者的桌面像素宠物，实时监控多种AI编程助手状态，提升开发体验。",
+        "implementation": "基于JavaScript和Electron开发，作为桌面像素风宠物，实时监听多种AI编程助手的命令和状态，通过动画反馈任务进展和权限请求。",
+        "problems_solved": "解决开发者需频繁查看AI助手状态的痛点，提供直观、实时的任务反馈，减少干扰。",
+        "capabilities": "多AI编程助手监控；实时状态反馈；多主题支持；跨平台兼容；自定义动画包",
+        "use_cases": "适合使用Claude Code、Codex、Copilot等AI编程助手的开发者，辅助监控任务进展。",
+        "considerations": "AGPL-3.0许可证；依赖Node.js和Electron；支持Windows、macOS、Ubuntu/Linux；最新版本v0.13.0"
       }
     },
     {
@@ -4203,7 +4457,7 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2019-12-24T14:55:59Z",
-      "stars": 7176,
+      "stars": 7177,
       "forks": 444,
       "stars_today": 0,
       "trending_rank": null,
@@ -4225,16 +4479,18 @@
           "Release: dbgate-7.2.3-win_x64.exe"
         ]
       },
-      "score": 475.13,
-      "rank": 77,
+      "score": 474.65,
+      "rank": 79,
       "description_en": "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application",
-      "description_zh": "支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。",
       "is_new": false,
+      "description_zh": "支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。",
       "analysis_zh": {
-        "positioning": "跨平台多数据库管理工具，简化数据库操作与可视化管理。",
-        "capabilities": "支持MySQL、PostgreSQL、SQL Server、MongoDB等多种数据库管理；提供可视化查询设计器、ER图、数据导入导出；支持跨平台桌面和网页端使用。",
-        "use_cases": "适合数据库管理员和开发者管理多种数据库，进行数据查询、设计和同步。",
-        "considerations": "GPL-3.0开源许可；支持Windows、Linux、Mac及网页端；建议访问官网和文档了解高级功能和部署细节。"
+        "positioning": "跨平台多数据库管理工具，支持图形化操作和多种数据库类型，提升数据库管理效率。",
+        "implementation": "采用Svelte框架开发，支持MySQL、PostgreSQL、SQL Server、MongoDB等多种数据库，提供图形化界面和丰富功能，支持本地和网页端部署。",
+        "problems_solved": "替代多款单一数据库管理工具，实现统一管理和操作，降低学习成本和维护复杂度。",
+        "capabilities": "多数据库支持；跨平台运行；可视化查询设计；数据导入导出；ER图和JSON视图",
+        "use_cases": "适合数据库管理员和开发者，支持多数据库环境下的数据浏览、编辑和查询设计。",
+        "considerations": "GPL-3.0许可证；基于Svelte和Electron；支持Windows、Linux、Mac及网页端；最新版本v7.2.3"
       }
     },
     {
@@ -4254,7 +4510,7 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2017-06-08T12:33:46Z",
-      "stars": 5711,
+      "stars": 5712,
       "forks": 458,
       "stars_today": 0,
       "trending_rank": null,
@@ -4275,65 +4531,18 @@
           "Release: Blockbench_arm64_5.1.6.exe"
         ]
       },
-      "score": 474.7,
-      "rank": 78,
+      "score": 474.22,
+      "rank": 80,
       "description_en": "Blockbench - A low poly 3D model editor",
+      "is_new": false,
       "description_zh": "低多边形3D模型编辑器。",
-      "is_new": false,
       "analysis_zh": {
-        "positioning": "低多边形3D模型编辑器，支持像素艺术和Minecraft格式导出。",
-        "capabilities": "低多边形3D模型编辑；支持像素艺术纹理；导出多种标准格式及Minecraft专用格式；支持插件扩展和主题定制。",
-        "use_cases": "适合游戏开发者和3D艺术家制作低多边形模型及像素风纹理。",
-        "considerations": "GPL-3.0开源许可；基于Electron和JavaScript开发；官网提供下载和文档，建议查看官方文档获取详细使用指导。"
-      }
-    },
-    {
-      "name": "op7418/CodePilot",
-      "url": "https://github.com/op7418/CodePilot",
-      "description": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
-      "homepage": "https://www.codepilot.sh/",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "desktop-app",
-        "electron",
-        "gui",
-        "nextjs"
-      ],
-      "license": "NOASSERTION",
-      "created_at": "2026-02-06T12:38:55Z",
-      "stars": 6255,
-      "forks": 676,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-28T14:27:47Z",
-      "latest_release": {
-        "tag": "v0.61.0",
-        "url": "https://github.com/op7418/CodePilot/releases/tag/v0.61.0",
-        "published_at": "2026-07-28T14:38:42Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: CodePilot-0.61.0-arm64.dmg",
-          "Release: CodePilot-0.61.0-x64.dmg"
-        ],
-        "windows": [
-          "Release: CodePilot.Setup.0.61.0.exe"
-        ]
-      },
-      "score": 473.42,
-      "rank": 79,
-      "description_en": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
-      "description_zh": "多模型AI代理桌面客户端，支持多AI服务和手机远程控制。",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "多模型AI代理桌面客户端，支持多AI服务和手机远程控制。",
-        "capabilities": "支持连接17+ AI服务提供商；多模型无缝切换；支持MCP扩展和技能安装；手机远程控制；具备任务调度和媒体生成能力。",
-        "use_cases": "适合需要多AI模型集成和远程控制的开发者及AI爱好者。",
-        "considerations": "无明确开源许可声明；基于Electron和Next.js开发；支持多平台，建议查看项目主页和文档了解授权和部署。"
+        "positioning": "低多边形3D模型编辑器，支持像素艺术纹理，适合游戏开发和3D打印。",
+        "implementation": "使用JavaScript开发，基于Electron框架，支持低多边形模型编辑和像素艺术纹理，提供多种导出格式和插件机制，适合游戏和3D打印应用。",
+        "problems_solved": "简化低多边形模型制作流程，支持多格式导出，满足Minecraft等游戏专用格式需求。",
+        "capabilities": "低多边形3D建模；像素艺术纹理支持；多格式导出；插件扩展；现代友好界面",
+        "use_cases": "适合3D艺术家和游戏开发者，尤其是制作Minecraft模型和低多边形艺术作品。",
+        "considerations": "GPL-3.0许可证；基于JavaScript和Electron；支持插件和主题扩展；最新版本v5.1.6"
       }
     },
     {
@@ -4379,16 +4588,18 @@
           "Release: HuLa_3.0.9_x64_zh-CN.msi"
         ]
       },
-      "score": 472.29,
-      "rank": 80,
+      "score": 471.81,
+      "rank": 81,
       "description_en": "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）",
       "is_new": false,
       "description_zh": "是一款基于Rust+Vue3的跨平台高性能即时通讯桌面应用，支持多系统。",
       "analysis_zh": {
-        "positioning": "一款基于Rust+Vue3的跨平台高性能即时通讯桌面应用，支持多系统。",
-        "capabilities": "支持多系统跨平台即时通讯；多种登录方式（账号密码、二维码扫码）；丰富的消息功能（私聊、群聊、消息撤回、已读状态等）；多媒体支持（语音、视频通话）；多窗口和系统托盘通知管理；文件上传和自动更新系统。",
-        "use_cases": "适合需要跨平台即时通讯的个人和团队，支持多设备登录和丰富的消息交互场景。",
-        "considerations": "基于Rust、Vue3和Tauri技术栈；支持Windows、macOS、Linux、iOS和Android；Apache-2.0开源许可证；需参考官方文档进行环境配置和启动。"
+        "positioning": "跨平台高性能即时通讯应用，面向多终端用户。",
+        "implementation": "采用Tauri作为桌面容器，结合Vue3响应式框架和TypeScript，构建跨平台即时通讯系统，支持多种消息和社交功能。",
+        "problems_solved": "提供统一高效的即时通讯解决方案，支持多平台和丰富社交功能，提升用户沟通体验。",
+        "capabilities": "支持多设备登录管理和二维码扫码登录；一对一及群组聊天；消息撤回、已读状态和@提醒；表情包、消息点赞和转发；多窗口管理和系统托盘通知；语音视频通话。",
+        "use_cases": "适合个人和企业用户进行多设备即时通讯和社交管理。",
+        "considerations": "基于Tauri、Vue3和TypeScript开发，Apache-2.0开源许可；支持Windows、macOS、Linux、Android、iOS多平台。"
       }
     },
     {
@@ -4432,16 +4643,18 @@
           "Release: reqable-app-windows-x86_64.exe"
         ]
       },
-      "score": 472.08,
-      "rank": 81,
+      "score": 471.6,
+      "rank": 82,
       "description_en": "Reqable issue track repo",
-      "description_zh": "Reqable问题跟踪仓库。",
       "is_new": false,
+      "description_zh": "Reqable问题跟踪仓库。",
       "analysis_zh": {
-        "positioning": "新一代API调试和测试一站式解决方案，集成流量分析与API测试核心功能",
-        "capabilities": "支持HTTP1.x和HTTP2协议，部分支持HTTP3(QUIC)；支持HTTP/HTTPS/Socks代理模式；支持请求重写、断点调试、Python脚本处理；支持多平台（Windows、Mac、Linux、Android、iOS）",
-        "use_cases": "适合开发者进行API调试、流量分析和测试，支持多平台和多协议环境下的开发工作流",
-        "considerations": "非开源项目，仅用于需求和用户反馈管理；无明确许可证信息；建议核对官方文档了解详细部署和使用要求"
+        "positioning": "多平台API调试和流量分析工具，面向开发者和测试人员。",
+        "implementation": "采用Flutter跨平台框架和C++实现核心性能，集成MITM代理技术实现流量抓包和API调试，支持多协议和脚本扩展。",
+        "problems_solved": "集成多功能API调试和流量分析，替代多款工具，提升调试效率。",
+        "capabilities": "支持HTTP1/2/3协议抓包和调试；支持代理模式和HTTPS解密；支持请求重写、断点调试和脚本处理；集成API组合和搜索过滤；支持多平台。",
+        "use_cases": "适合开发者进行API测试、流量抓包和调试工作。",
+        "considerations": "非开源项目，仓库仅管理需求和反馈；基于Flutter和C++开发；支持Windows、macOS、Linux、Android、iOS。"
       }
     },
     {
@@ -4473,7 +4686,7 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2025-08-28T07:19:57Z",
-      "stars": 5294,
+      "stars": 5297,
       "forks": 543,
       "stars_today": 0,
       "trending_rank": null,
@@ -4493,16 +4706,18 @@
           "Release: emdash-x64.msi"
         ]
       },
-      "score": 471.92,
-      "rank": 82,
+      "score": 471.46,
+      "rank": 83,
       "description_en": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
-      "description_zh": "开源多代理开发环境，支持并行运行多种编码代理。",
       "is_new": false,
+      "description_zh": "开源多代理开发环境，支持并行运行多种编码代理。",
       "analysis_zh": {
-        "positioning": "开源多代理AI编码开发环境，支持并行任务和多编码代理集成",
-        "capabilities": "支持并行运行多种AI编码代理；每个任务独立Git工作树管理；集成多种编码代理CLI；支持本地及远程SSH项目操作",
-        "use_cases": "适合软件开发者和团队使用多AI编码代理并行处理代码任务，支持本地及远程开发环境工作流",
-        "considerations": "基于Apache-2.0开源许可证；依赖本地Git环境和代理CLI；支持多平台桌面安装；隐私本地优先，数据不上传项目服务器"
+        "positioning": "多代理AI编码开发环境，面向需要并行AI编码任务的开发者。",
+        "implementation": "采用Electron桌面应用，管理多AI编码代理CLI，利用Git工作树隔离任务，支持远程SSH连接和多平台集成。",
+        "problems_solved": "简化多AI编码任务管理，支持任务隔离和远程开发，提升编码效率。",
+        "capabilities": "支持多AI编码代理并行运行；每个任务独立Git工作树和分支；集成多种AI编码代理CLI；支持远程SSH项目管理；集成多平台任务和PR管理。",
+        "use_cases": "适合软件开发者使用多AI代理辅助编码和代码审查。",
+        "considerations": "基于TypeScript开发，Apache-2.0开源许可；支持macOS、Windows、Linux；官网提供安装和文档。"
       }
     },
     {
@@ -4523,7 +4738,7 @@
       ],
       "license": "GPL-2.0",
       "created_at": "2024-11-02T06:22:01Z",
-      "stars": 6033,
+      "stars": 6034,
       "forks": 394,
       "stars_today": 0,
       "trending_rank": null,
@@ -4544,16 +4759,18 @@
           "Release: MoeKoe_Music_Setup_v1.6.9.exe"
         ]
       },
-      "score": 470.97,
-      "rank": 83,
+      "score": 470.49,
+      "rank": 84,
       "description_en": "一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:",
       "is_new": false,
       "description_zh": "是开源简洁美观的酷狗第三方客户端，支持多平台。",
       "analysis_zh": {
-        "positioning": "一款开源简洁美观的酷狗第三方客户端，支持多平台。",
-        "capabilities": "支持酷狗音乐账号登录；歌词显示和每日推荐歌曲；多平台支持（Windows、macOS、Linux、Web）；主题色切换和多语言支持；MV播放和桌面歌词功能；超级插件系统和个性化布局设置。",
-        "use_cases": "适合酷狗音乐用户，尤其是喜欢日漫OP的音乐爱好者，支持多平台音乐播放和个性化设置。",
-        "considerations": "基于Vue.js全家桶开发；GPL-2.0开源许可证；支持Electron框架；Web端部署需开放对应端口或使用反向代理；需参考项目文档进行安装和部署。"
+        "positioning": "多平台酷狗音乐第三方客户端，面向酷狗用户和音乐爱好者。",
+        "implementation": "采用Vue3和Electron构建跨平台客户端，集成酷狗音乐API，支持多种播放和社交功能，支持插件和主题定制。",
+        "problems_solved": "提供免费高颜值酷狗音乐客户端，支持VIP歌曲播放，替代官方客户端限制。",
+        "capabilities": "支持酷狗账号登录和每日自动领取VIP；支持歌词显示和每日推荐；支持MV播放和桌面歌词；支持多平台（Windows、macOS、Linux、Web）；支持主题切换和插件系统。",
+        "use_cases": "适合酷狗音乐用户在多平台使用丰富功能的音乐播放器。",
+        "considerations": "基于Vue.js全家桶开发，GPL-2.0开源许可；支持多平台客户端和Web部署；需配置API地址。"
       }
     },
     {
@@ -4602,16 +4819,18 @@
           "Release: altair_8.5.7_x64_win.exe"
         ]
       },
-      "score": 470.9,
-      "rank": 84,
+      "score": 470.41,
+      "rank": 85,
       "description_en": "✨⚡️ A feature-rich GraphQL Client for all platforms.",
-      "description_zh": "功能丰富的跨平台GraphQL客户端。",
       "is_new": false,
+      "description_zh": "功能丰富的跨平台GraphQL客户端。",
       "analysis_zh": {
-        "positioning": "功能丰富的跨平台GraphQL客户端，助力高效调试和开发",
-        "capabilities": "功能丰富的GraphQL客户端，支持查询调试和实现；跨平台支持桌面和浏览器扩展；支持GraphQL片段、编辑和IDE功能",
-        "use_cases": "适合GraphQL开发者进行查询调试、API测试和开发工作流",
-        "considerations": "基于MIT开源许可证；支持Docker部署；建议核对官方文档了解详细安装和使用方法"
+        "positioning": "功能丰富的跨平台GraphQL客户端，面向开发者和API调试人员。",
+        "implementation": "采用Angular和Electron构建跨平台GraphQL客户端，集成查询编辑、片段管理和调试功能，支持多平台部署。",
+        "problems_solved": "简化GraphQL查询调试和管理，提升开发效率，替代多工具组合。",
+        "capabilities": "支持GraphQL查询调试和编辑；支持跨平台桌面和浏览器扩展；集成片段管理和查询历史；支持GraphiQL和GraphQL IDE功能。",
+        "use_cases": "适合GraphQL开发者进行查询调试和API管理。",
+        "considerations": "基于TypeScript和Angular开发，MIT开源许可；支持Electron桌面应用和浏览器扩展；官网提供文档和Docker镜像。"
       }
     },
     {
@@ -4631,7 +4850,7 @@
       ],
       "license": "MIT",
       "created_at": "2024-01-08T03:29:06Z",
-      "stars": 6957,
+      "stars": 6958,
       "forks": 472,
       "stars_today": 0,
       "trending_rank": null,
@@ -4650,16 +4869,18 @@
           "Release: vibe_3.0.23_x64-setup.exe"
         ]
       },
-      "score": 470.31,
-      "rank": 85,
+      "score": 469.83,
+      "rank": 86,
       "description_en": "Transcribe on your own!",
-      "description_zh": "支持本地转录的语音转文字工具。",
       "is_new": false,
+      "description_zh": "支持本地转录的语音转文字工具。",
       "analysis_zh": {
-        "positioning": "支持本地离线转录的多语言语音转文字工具，保障隐私安全",
-        "capabilities": "支持本地离线语音转文字；支持多语言转录和多格式导出；支持批量转录和实时预览；支持多种AI模型和GPU优化",
-        "use_cases": "适合需要本地转录音视频内容的用户，支持多格式导出和批量处理工作流",
-        "considerations": "基于MIT开源许可证；支持多平台（macOS、Windows、Linux）；支持命令行和HTTP API；建议核对官方文档了解模型配置和使用细节"
+        "positioning": "一款支持本地离线转录的跨平台语音转文字工具，适合注重隐私和多语言转录需求用户。",
+        "implementation": "基于TypeScript和Rust开发，集成OpenAI Whisper及多种语音识别模型，支持本地离线转录，利用GPU加速，提供桌面应用和命令行接口，支持HTTP API和多种音视频格式输入。",
+        "problems_solved": "解决了用户对隐私保护的转录需求，避免音频上传云端，支持多语言和多格式，提升转录效率和准确性。",
+        "capabilities": "支持多语言离线转录；支持Whisper、Nemotron 3.5、Parakeet TDT v3模型；批量转录多文件；实时预览；多格式导出（SRT、VTT、TXT等）；支持YouTube等网站音频转录；GPU优化（Nvidia/AMD/Intel）；支持命令行和HTTP API；支持本地AI分析和多语言摘要。",
+        "use_cases": "适合需要本地转录音视频内容的个人和企业用户，支持批量处理和多平台使用。",
+        "considerations": "依赖本地硬件GPU支持（Nvidia/AMD/Intel），支持macOS、Windows、Linux；MIT许可证；建议查看官方文档了解详细使用和模型配置。"
       }
     },
     {
@@ -4687,11 +4908,11 @@
       ],
       "license": "MIT",
       "created_at": "2025-06-19T00:58:14Z",
-      "stars": 4996,
-      "forks": 715,
+      "stars": 5001,
+      "forks": 716,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-29T20:31:23Z",
+      "pushed_at": "2026-07-30T04:49:46Z",
       "latest_release": {
         "tag": "v1.7.6",
         "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.7.6",
@@ -4707,16 +4928,18 @@
           "Release: OpenWhispr-Setup-1.7.6.exe"
         ]
       },
-      "score": 468.67,
-      "rank": 86,
+      "score": 469.62,
+      "rank": 87,
       "description_en": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
-      "description_zh": "隐私优先的跨平台语音转文字应用，支持本地和云端模型。",
       "is_new": false,
+      "description_zh": "隐私优先的跨平台语音转文字应用，支持本地和云端模型。",
       "analysis_zh": {
-        "positioning": "隐私优先的跨平台语音转文字应用，支持本地和云端模型。",
-        "capabilities": "支持本地和云端语音转文字；多语言实时翻译；集成多种AI语音助手；会议自动转录与说话人识别；支持音频导入与批量处理。",
-        "use_cases": "适合需要语音转文字、会议记录和多语言翻译的个人和团队，提高工作效率。",
-        "considerations": "依赖本地模型或云服务，支持Nvidia Parakeet和Whisper；MIT开源许可；跨平台支持macOS、Windows、Linux；隐私优先，无数据收集。"
+        "positioning": "隐私优先的跨平台语音转文字应用，适合需要本地和云端灵活转录方案的用户。",
+        "implementation": "基于JavaScript开发，集成多种本地和云端语音识别模型，支持热键语音输入，结合AI代理实现语音指令和会议转录，支持多平台桌面应用。",
+        "problems_solved": "解决了语音转文字的隐私保护问题，支持多场景（会议、笔记、指令）转录，提升工作效率。",
+        "capabilities": "支持本地（Nvidia Parakeet/Whisper）和云端模型转录；跨平台支持macOS、Windows、Linux；语音转文字、会议转录、语音指令AI代理；支持多种AI模型（GPT5、Claude、Gemini等）；本地说话人分离和声纹识别；支持语音翻译和语义搜索。",
+        "use_cases": "适合开发者、会议记录员及需要语音输入的专业人士，支持多平台和多模型选择。",
+        "considerations": "MIT许可证；依赖本地硬件支持本地模型加速；支持云端处理需配置云服务；建议核对官方文档了解详细部署和使用。"
       }
     },
     {
@@ -4746,7 +4969,7 @@
       ],
       "license": "Apache-2.0",
       "created_at": "2025-04-27T14:29:47Z",
-      "stars": 4811,
+      "stars": 4813,
       "forks": 223,
       "stars_today": 0,
       "trending_rank": null,
@@ -4766,16 +4989,18 @@
           "Release: Rustnet_Windows_64-bit.msi"
         ]
       },
-      "score": 466.98,
-      "rank": 87,
+      "score": 466.51,
+      "rank": 88,
       "description_en": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
-      "description_zh": "支持深度包检测的跨平台终端网络监控工具。",
       "is_new": false,
+      "description_zh": "支持深度包检测的跨平台终端网络监控工具。",
       "analysis_zh": {
-        "positioning": "支持深度包检测的跨平台终端网络监控工具。",
-        "capabilities": "实时监控每个进程的TCP、UDP和QUIC连接；深度包检测支持多种协议识别；支持Wireshark兼容的PCAPNG导出；内置安全沙箱机制；支持地理IP定位和Kubernetes连接归属。",
-        "use_cases": "适合网络安全分析师和系统管理员进行进程级网络流量监控和故障排查。",
-        "considerations": "跨平台支持Linux、macOS、Windows、FreeBSD；依赖eBPF、PKTAP等系统特性；Apache-2.0开源许可；需核对具体部署环境兼容性。"
+        "positioning": "一款跨平台终端网络监控工具，面向需要进程级网络流量分析的开发者和运维人员。",
+        "implementation": "用Rust语言开发，利用系统底层API和eBPF技术实现进程级网络连接监控和深度包检测，支持多平台安全沙箱运行，提供命令行界面。",
+        "problems_solved": "替代传统netstat和tcpdump，提供实时进程归属和协议识别，提升网络故障排查效率。",
+        "capabilities": "支持TCP、UDP、QUIC连接的实时监控；深度包检测识别多种协议（HTTP、DNS、SSH等）；跨平台支持Linux、macOS、Windows、FreeBSD；进程级网络连接归属；安全沙箱运行；PCAPNG格式Wireshark兼容导出；Kubernetes连接归属。",
+        "use_cases": "适合系统管理员、网络安全分析师和开发者进行网络流量监控和故障诊断。",
+        "considerations": "Apache-2.0许可证；依赖Linux eBPF、macOS PKTAP、Windows ETW等系统特性；需管理员权限部署；建议查看官方文档了解详细配置。"
       }
     },
     {
@@ -4793,7 +5018,7 @@
       "license": "GPL-3.0",
       "created_at": "2018-10-03T20:35:27Z",
       "stars": 4892,
-      "forks": 365,
+      "forks": 366,
       "stars_today": 0,
       "trending_rank": null,
       "pushed_at": "2026-07-29T15:11:23Z",
@@ -4810,16 +5035,18 @@
           "Release: teams-for-linux-Setup-2.13.0.exe"
         ]
       },
-      "score": 466.87,
-      "rank": 88,
+      "score": 466.39,
+      "rank": 89,
       "description_en": "Unofficial Microsoft Teams for Linux client",
-      "description_zh": "非官方Linux版微软Teams客户端。",
       "is_new": false,
+      "description_zh": "非官方Linux版微软Teams客户端。",
       "analysis_zh": {
-        "positioning": "非官方Linux版微软Teams客户端。",
-        "capabilities": "原生Linux桌面客户端，集成系统通知和托盘支持；支持多账户管理和自定义背景主题；支持屏幕共享；基于Electron封装Teams网页版。",
-        "use_cases": "适合Linux用户使用微软Teams进行团队协作和视频会议。",
-        "considerations": "非官方客户端，功能受限于Teams网页版；GPL-3.0开源许可；支持多种Linux发行版安装包；需自行配置和维护。"
+        "positioning": "非官方Linux版微软Teams客户端，适合Linux用户使用Teams服务。",
+        "implementation": "基于Electron和JavaScript开发，封装微软Teams网页版，增强Linux系统集成体验，提供桌面通知和多账户管理。",
+        "problems_solved": "解决Linux用户无法使用官方Teams桌面客户端的问题，提供更好系统集成体验。",
+        "capabilities": "集成微软Teams网页版，支持系统通知和托盘图标；支持多账户配置；支持屏幕共享；支持自定义背景和主题；跨平台支持Linux。",
+        "use_cases": "适合Linux平台的企业用户和个人用户使用微软Teams进行沟通协作。",
+        "considerations": "GPL-3.0许可证；非官方客户端，部分功能受限于Teams网页版；建议核对官方文档和社区支持。"
       }
     },
     {
@@ -4859,16 +5086,18 @@
           "Release: Pomotroid_1.7.1_x64-setup.exe"
         ]
       },
-      "score": 465.58,
-      "rank": 89,
+      "score": 465.1,
+      "rank": 90,
       "description_en": ":tomato: Simple and visually-pleasing Pomodoro timer",
-      "description_zh": "简洁美观的番茄钟计时器。",
       "is_new": false,
+      "description_zh": "简洁美观的番茄钟计时器。",
       "analysis_zh": {
-        "positioning": "简洁美观的番茄钟计时器。",
-        "capabilities": "简洁美观的番茄钟计时器；支持自定义工作和休息时长及循环次数；内置丰富主题和多语言支持；提供统计数据和图表；支持全局快捷键和桌面通知。",
-        "use_cases": "适合需要时间管理和提高专注力的个人用户。",
-        "considerations": "基于Rust和Tauri开发，MIT开源许可；跨平台支持；建议查看官方文档了解详细配置。"
+        "positioning": "简洁美观的跨平台番茄钟计时器，适合提升个人时间管理效率的用户。",
+        "implementation": "使用Rust、Svelte和Tauri构建桌面应用，提供可视化番茄钟计时，支持主题和统计功能，集成本地通知和快捷键。",
+        "problems_solved": "帮助用户高效管理工作与休息时间，提升专注力和生产力。",
+        "capabilities": "可配置工作和休息时长；统计历史数据和热力图；内置38种主题支持自动切换；支持自定义主题热加载；支持多语言界面；全局快捷键控制；桌面通知和系统托盘图标；支持WebSocket API。",
+        "use_cases": "适合需要时间管理和专注工作的人群，如学生、开发者和职场人士。",
+        "considerations": "MIT许可证；跨平台支持Windows、macOS、Linux；依赖Tauri、Rust和Svelte技术栈。"
       }
     },
     {
@@ -4888,7 +5117,7 @@
       ],
       "license": null,
       "created_at": "2026-01-23T20:19:39Z",
-      "stars": 4552,
+      "stars": 4553,
       "forks": 679,
       "stars_today": 0,
       "trending_rank": null,
@@ -4908,16 +5137,18 @@
           "Release: Telegram.Drive_2.2.0_x64_en-US.msi"
         ]
       },
-      "score": 464.58,
-      "rank": 90,
+      "score": 464.11,
+      "rank": 91,
       "description_en": "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.",
-      "description_zh": "将Telegram账号变成无限安全云存储的开源桌面应用。",
       "is_new": false,
+      "description_zh": "将Telegram账号变成无限安全云存储的开源桌面应用。",
       "analysis_zh": {
-        "positioning": "将Telegram账号变成无限安全云存储的开源桌面应用。",
-        "capabilities": "将Telegram账号作为个人云存储驱动；支持文件上传、下载、重命名、移动、复制和删除；支持文件夹管理和多视图展示；支持加密传输和本地REST API；支持多平台桌面应用。",
-        "use_cases": "适合需要利用Telegram作为云存储的个人用户，支持文件管理和加密传输。",
-        "considerations": "依赖用户提供Telegram API凭证；受Telegram账号和服务限制；开源但无明确许可证，建议核对项目文档；基于Tauri、Rust和React开发。"
+        "positioning": "开源桌面应用，将Telegram账号变成安全无限的个人云存储驱动。",
+        "implementation": "基于Tauri、Rust、React和TypeScript开发，直接调用Telegram API管理Saved Messages和频道，实现文件云存储功能。",
+        "problems_solved": "解决用户云存储成本和隐私问题，利用Telegram存储文件，方便管理和访问。",
+        "capabilities": "将Telegram账号作为个人云存储驱动；支持文件上传、下载、重命名、移动、复制、删除；支持文件夹管理和自定义分组；支持多种文件预览和播放；支持本地REST API；支持加密传输模式；跨平台桌面应用。",
+        "use_cases": "适合Telegram用户需要个人云存储和文件管理的场景。",
+        "considerations": "无明确许可证信息；依赖用户提供Telegram API凭证；支持Windows、macOS、Linux；建议核对官方文档。"
       }
     },
     {
@@ -4940,11 +5171,11 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2025-12-06T19:22:10Z",
-      "stars": 4375,
-      "forks": 392,
+      "stars": 4384,
+      "forks": 394,
       "stars_today": 0,
       "trending_rank": null,
-      "pushed_at": "2026-07-30T03:38:28Z",
+      "pushed_at": "2026-07-30T06:00:38Z",
       "latest_release": {
         "tag": "v1.1.73",
         "url": "https://github.com/binaricat/Netcatty/releases/tag/v1.1.73",
@@ -4962,15 +5193,17 @@
         ]
       },
       "score": 464.1,
-      "rank": 91,
+      "rank": 92,
       "description_en": "SSH workspace, SFTP, and terminals in one",
-      "description_zh": "集成SSH、SFTP和终端的工作空间工具。",
       "is_new": false,
+      "description_zh": "集成SSH、SFTP和终端的工作空间工具。",
       "analysis_zh": {
-        "positioning": "集成SSH、SFTP和终端的多功能远程服务器管理工作空间。",
-        "capabilities": "集成SSH连接管理、SFTP文件浏览与传输、终端多窗口分割；内置AI助手支持自然语言服务器管理与多主机编排；支持自定义主题与多平台兼容。",
-        "use_cases": "适合开发者、系统管理员和DevOps高效管理多台远程服务器。",
-        "considerations": "依赖Electron框架，需GPL-3.0开源许可；支持macOS、Windows、Linux；AI功能需联网使用。"
+        "positioning": "集成SSH、SFTP和终端的智能工作空间，面向开发者和运维工程师。",
+        "implementation": "基于Electron、React和xterm.js开发，集成AI助手Catty Agent，实现智能服务器管理和多终端操作。",
+        "problems_solved": "简化多服务器管理流程，提升运维效率，减少命令记忆负担。",
+        "capabilities": "集成SSH客户端、SFTP浏览器和终端管理；内置AI助手支持自然语言服务器管理；支持多终端分屏；支持自定义主题和工作区；支持多主机操作和实时诊断；跨平台支持Windows、macOS、Linux。",
+        "use_cases": "适合开发者、系统管理员和DevOps工程师管理远程服务器。",
+        "considerations": "GPL-3.0许可证；依赖Electron、React和xterm.js；适合具备一定技术背景的用户。"
       }
     },
     {
@@ -5022,16 +5255,18 @@
           "Release: Yank-Note-win-x64-3.92.1.exe"
         ]
       },
-      "score": 463.51,
-      "rank": 92,
+      "score": 463.02,
+      "rank": 93,
       "description_en": "A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.",
-      "description_zh": "高度可扩展的Markdown编辑器，集成版本控制和AI助手。",
       "is_new": false,
+      "description_zh": "高度可扩展的Markdown编辑器，集成版本控制和AI助手。",
       "analysis_zh": {
-        "positioning": "高度可扩展的Markdown编辑器，集成版本控制和AI辅助。",
-        "capabilities": "支持Markdown编辑与实时预览；集成版本控制和AI助手文本及代码辅助；支持加密文档保护和多种嵌入内容（流程图、代码块、表格等）；支持插件扩展和宏替换。",
-        "use_cases": "适合需要高效写作、代码管理和文档加密的技术人员和内容创作者。",
-        "considerations": "基于Electron，使用AGPL-3.0许可；加密功能前端完成，密码丢失无法恢复；执行命令和文件操作存在安全风险，需谨慎打开不信任文件。"
+        "positioning": "高度可扩展的Markdown编辑器，适合需要集成AI和多功能的生产力用户。",
+        "implementation": "使用TypeScript和Electron构建，集成Monaco编辑器，支持Markdown扩展功能和AI辅助，提供丰富插件和加密支持。",
+        "problems_solved": "提升Markdown编辑效率，集成版本控制和AI辅助，支持多种文档扩展需求。",
+        "capabilities": "支持版本控制；集成AI助手支持文本和代码生成；支持思维导图、文档加密、代码运行、集成终端；支持图表嵌入、HTML小程序、Reveal.js演示；支持插件和宏替换；多语言界面。",
+        "use_cases": "适合写作者、开发者和知识工作者进行文档编辑和管理。",
+        "considerations": "AGPL-3.0许可证；基于Electron和TypeScript开发；安全性需注意，执行外部Markdown文件需谨慎。"
       }
     },
     {
@@ -5064,7 +5299,7 @@
       ],
       "license": "GPL-3.0",
       "created_at": "2022-07-25T16:14:20Z",
-      "stars": 10033,
+      "stars": 10036,
       "forks": 894,
       "stars_today": 0,
       "trending_rank": null,
@@ -5084,16 +5319,77 @@
           "Release: YTDownloader_Win.msi"
         ]
       },
-      "score": 463.13,
-      "rank": 93,
+      "score": 462.65,
+      "rank": 94,
       "description_en": "Desktop App for downloading Videos and Audios from hundreds of sites",
-      "description_zh": "支持数百网站视频音频下载的桌面应用。",
       "is_new": false,
+      "description_zh": "支持数百网站视频音频下载的桌面应用。",
       "analysis_zh": {
-        "positioning": "支持数百网站视频音频下载的跨平台桌面应用。",
-        "capabilities": "支持数百个网站的视频和音频下载；多主题界面；内置视频压缩和硬件加速；支持字幕和播放列表下载；跨平台支持Linux、Windows和macOS。",
-        "use_cases": "适合需要批量下载和管理在线视频音频的普通用户和内容创作者。",
-        "considerations": "基于Electron，GPL-3.0许可；部分平台需额外安装依赖（如macOS需安装yt-dlp）；无广告无跟踪。"
+        "positioning": "支持数百网站视频音频下载的跨平台桌面应用，适合多媒体内容获取用户。",
+        "implementation": "基于Electron和JavaScript开发，集成yt-dlp和FFmpeg，实现多站点视频音频下载和压缩功能。",
+        "problems_solved": "简化多平台视频音频下载流程，支持多格式和批量下载，提升下载效率。",
+        "capabilities": "支持数百个网站的视频和音频下载；支持多主题；内置视频压缩和硬件加速；支持范围选择和字幕下载；支持播放列表下载；跨平台支持Linux、Windows、macOS；无广告无跟踪。",
+        "use_cases": "适合需要下载网络视频音频的普通用户和内容创作者。",
+        "considerations": "GPL-3.0许可证；依赖FFmpeg和Node.js；支持多种Linux打包格式（Flatpak、AppImage、Snap）；macOS需手动信任应用。"
+      }
+    },
+    {
+      "name": "kunkundi/crossdesk",
+      "url": "https://github.com/kunkundi/crossdesk",
+      "description": "A lightweight, cross-platform remote desktop software with support for Web Client access | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
+      "homepage": "https://www.crossdesk.cn",
+      "language": "C++",
+      "topics": [
+        "audio-streaming",
+        "codec",
+        "cplusplus",
+        "cross-platform",
+        "imgui",
+        "kcp",
+        "libdatachannel",
+        "remote-control",
+        "remote-desktop",
+        "rtc",
+        "rtp",
+        "sdl3",
+        "video-streaming",
+        "web-client",
+        "webrtc",
+        "xmake"
+      ],
+      "license": "GPL-3.0",
+      "created_at": "2023-11-20T06:31:52Z",
+      "stars": 4220,
+      "forks": 399,
+      "stars_today": 0,
+      "trending_rank": null,
+      "pushed_at": "2026-07-30T04:55:12Z",
+      "latest_release": {
+        "tag": "v1.4.1-20260728",
+        "url": "https://github.com/kunkundi/crossdesk/releases/tag/v1.4.1-20260728",
+        "published_at": "2026-07-28T14:15:04Z"
+      },
+      "platform_evidence": {
+        "macos": [
+          "Release: crossdesk-macos-arm64-v1.4.1-20260728.pkg",
+          "Release: crossdesk-macos-x64-v1.4.1-20260728.pkg"
+        ],
+        "windows": [
+          "Release: crossdesk-win-x64-v1.4.1-20260728.exe"
+        ]
+      },
+      "score": 462.26,
+      "rank": 95,
+      "description_en": "A lightweight, cross-platform remote desktop software with support for Web Client access | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
+      "is_new": false,
+      "description_zh": "一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
+      "analysis_zh": {
+        "positioning": "轻量级跨平台远程桌面软件，支持Web端访问，适合远程控制需求用户。",
+        "implementation": "用C++开发，基于MiniRTC库实现实时音视频传输，支持多平台编解码和加密，提供本地客户端和Web客户端。",
+        "problems_solved": "提供低延迟、高安全性的远程桌面解决方案，支持多平台和锁屏安全控制。",
+        "capabilities": "支持跨平台远程桌面控制；支持Web客户端访问；集成MiniRTC实时音视频传输库；支持H264/AV1视频编解码和Opus音频编解码；支持网络拥塞控制和传输加密；支持Windows服务增强锁屏和安全桌面控制；支持多种Linux发行版。",
+        "use_cases": "适合需要远程办公、远程维护和远程教学的个人和企业用户。",
+        "considerations": "GPL-3.0许可证；依赖xmake、cmake等构建工具；Windows需管理员权限安装服务；支持Windows 10+、macOS 14+、Ubuntu 20.04+。"
       }
     },
     {
@@ -5137,73 +5433,18 @@
           "Release: Project.Graph_4.1.1_x64-setup-gpu.exe"
         ]
       },
-      "score": 462.56,
-      "rank": 94,
+      "score": 462.08,
+      "rank": 96,
       "description_en": "A node-based visual tool for organizing thoughts and notes in a non-linear way.",
+      "is_new": false,
       "description_zh": "是一个基于节点的非线性思维和笔记可视化工具。",
-      "is_new": false,
       "analysis_zh": {
-        "positioning": "基于节点的非线性思维和笔记可视化工具。",
-        "capabilities": "基于节点的图形化思维和笔记管理；支持多种图表类型（有向无环图、树形图等）；支持节点拖拽连接和历史撤销；自动保存和跨平台支持；多语言界面。",
-        "use_cases": "适合设计师、教师和开发人员进行头脑风暴、课程设计和系统架构规划。",
-        "considerations": "无明确开源许可信息，建议核对项目文档；支持Windows、macOS和Linux。"
-      }
-    },
-    {
-      "name": "kunkundi/crossdesk",
-      "url": "https://github.com/kunkundi/crossdesk",
-      "description": "A lightweight, cross-platform remote desktop software with support for Web Client access | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
-      "homepage": "https://www.crossdesk.cn",
-      "language": "C++",
-      "topics": [
-        "audio-streaming",
-        "codec",
-        "cplusplus",
-        "cross-platform",
-        "imgui",
-        "kcp",
-        "libdatachannel",
-        "remote-control",
-        "remote-desktop",
-        "rtc",
-        "rtp",
-        "sdl3",
-        "video-streaming",
-        "web-client",
-        "webrtc",
-        "xmake"
-      ],
-      "license": "GPL-3.0",
-      "created_at": "2023-11-20T06:31:52Z",
-      "stars": 4221,
-      "forks": 399,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-30T03:38:28Z",
-      "latest_release": {
-        "tag": "v1.4.1-20260728",
-        "url": "https://github.com/kunkundi/crossdesk/releases/tag/v1.4.1-20260728",
-        "published_at": "2026-07-28T14:15:04Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: crossdesk-macos-arm64-v1.4.1-20260728.pkg",
-          "Release: crossdesk-macos-x64-v1.4.1-20260728.pkg"
-        ],
-        "windows": [
-          "Release: crossdesk-win-x64-v1.4.1-20260728.exe"
-        ]
-      },
-      "score": 462.54,
-      "rank": 95,
-      "description_en": "A lightweight, cross-platform remote desktop software with support for Web Client access | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
-      "description_zh": "一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "支持Web客户端访问的轻量级跨平台远程桌面软件。",
-        "capabilities": "轻量级跨平台远程桌面软件；支持Web客户端访问；集成实时音视频传输和多种编解码技术；支持远程锁屏、登录界面控制和安全桌面操作；支持多平台和多架构。",
-        "use_cases": "适合需要远程控制多平台设备的IT运维和远程办公用户。",
-        "considerations": "依赖MiniRTC库，使用GPL-3.0许可；Windows需管理员权限安装服务；Linux需特定依赖；支持Windows 10+、macOS 14+、Ubuntu 20.04+。"
+        "positioning": "基于节点的非线性思维和笔记可视化工具，适合设计师、教师和开发人员。",
+        "implementation": "基于TypeScript，采用React和Tailwind CSS构建现代界面，使用Canvas技术实现节点图绘制，支持跨平台桌面应用（通过Tauri）。提供API扩展和定期功能更新。",
+        "problems_solved": "帮助用户快速构思和直观呈现复杂关系，替代传统线性笔记和手绘图表，提升头脑风暴和项目规划效率。",
+        "capabilities": "节点拖拽连接；支持多种图表类型（DAG、树形结构、逻辑关系网络）；历史记录撤销/重做；自动保存备份；跨平台支持；多语言界面；丰富扩展功能和API集成。",
+        "use_cases": "设计师制作创意流程图，教师开发课程大纲，开发人员构建模块依赖图和系统架构。",
+        "considerations": "无明确许可证信息，建议核对项目文档。支持Windows、macOS和Linux。"
       }
     },
     {
@@ -5243,16 +5484,18 @@
           "Release: Ueli-Setup-9.29.0.exe"
         ]
       },
-      "score": 462.23,
-      "rank": 96,
+      "score": 461.75,
+      "rank": 97,
       "description_en": "Cross-Platform Keystroke Launcher",
-      "description_zh": "跨平台键盘快捷启动器。",
       "is_new": false,
+      "description_zh": "跨平台键盘快捷启动器。",
       "analysis_zh": {
-        "positioning": "一款跨平台的键盘快捷启动器，提升用户操作效率。",
-        "capabilities": "跨平台支持；键盘快捷启动；支持自定义快捷键和收藏夹管理；基于Electron和TypeScript开发",
-        "use_cases": "适合需要快速启动应用和文件的用户，支持多平台工作流。",
-        "considerations": "依赖Electron环境；Windows版本建议通过Microsoft Store安装；macOS和Linux版本未签名，首次启动需手动允许；MIT开源许可"
+        "positioning": "跨平台键盘快捷启动器，提升用户操作效率。",
+        "implementation": "使用TypeScript和Electron框架开发，结合React和Fluent UI构建界面，支持多平台安装和快捷键操作。",
+        "problems_solved": "简化应用和文件启动流程，替代传统鼠标点击，提升工作效率。",
+        "capabilities": "跨平台键盘快捷启动；支持热键调出；搜索结果导航；收藏夹管理；多平台安装支持。",
+        "use_cases": "适合需要快速启动程序和文件的多平台用户。",
+        "considerations": "MIT许可证；Windows、macOS、Linux支持；部分平台二进制未签名，安装时需手动允许。"
       }
     },
     {
@@ -5297,16 +5540,18 @@
           "Release: EcoPaste_1.1.0_x64-setup.exe"
         ]
       },
-      "score": 461.55,
-      "rank": 97,
+      "score": 461.06,
+      "rank": 98,
       "description_en": "🎉跨平台的剪贴板管理工具 | Cross-platform clipboard management tool",
-      "description_zh": "🎉跨平台的剪贴板管理工具",
       "is_new": false,
+      "description_zh": "🎉跨平台的剪贴板管理工具",
       "analysis_zh": {
-        "positioning": "一款跨平台的本地优先剪贴板管理工具，注重隐私和性能。",
-        "capabilities": "支持多格式剪贴板历史管理（文本、图片、文件等）；内置SQLite全文搜索；支持敏感信息过滤；支持本地加密备份和恢复；跨平台支持macOS和Windows",
-        "use_cases": "适合需要管理和搜索剪贴板历史的办公和开发用户，支持多平台桌面使用。",
-        "considerations": "基于Rust和Tauri架构；本地存储数据，保护隐私；Apache-2.0开源许可；适合桌面环境使用"
+        "positioning": "跨平台本地剪贴板管理工具，适合macOS和Windows用户。",
+        "implementation": "采用Rust实现核心逻辑，前端使用React，基于Tauri构建跨平台桌面应用，利用SQLite FTS5实现高效搜索。",
+        "problems_solved": "解决剪贴板内容管理混乱，支持多类型数据历史和搜索，保护敏感信息。",
+        "capabilities": "剪贴板历史管理；支持文本、HTML、RTF、图片、文件夹；SQLite全文搜索；敏感内容过滤；预览窗口；本地数据存储；备份导入导出；托盘集成。",
+        "use_cases": "适合需要高效管理剪贴板历史和内容的办公用户。",
+        "considerations": "Apache-2.0许可证；依赖Rust和Tauri架构；支持macOS和Windows。"
       }
     },
     {
@@ -5354,16 +5599,18 @@
           "Release: FreeplanePortable-1.13.3.paf.exe"
         ]
       },
-      "score": 461.43,
-      "rank": 98,
+      "score": 460.94,
+      "rank": 99,
       "description_en": "Application for Mind Mapping, Knowledge Management, Project Management. Develop, organize and communicate your ideas and knowledge in the most effective way.",
-      "description_zh": "是一款用于思维导图、知识管理和项目管理的应用，助你高效组织和传达想法。",
       "is_new": true,
+      "description_zh": "是一款用于思维导图、知识管理和项目管理的应用，助你高效组织和传达想法。",
       "analysis_zh": {
-        "positioning": "一款功能丰富的开源思维导图和知识管理工具。",
-        "capabilities": "支持思维导图绘制、知识管理和项目管理；支持Groovy脚本扩展；支持LaTeX和Markdown格式；跨平台Java应用，支持插件和命令搜索",
-        "use_cases": "适合学生、教师、项目经理及知识工作者进行思维整理和项目规划。",
-        "considerations": "依赖Java环境；GPL-2.0开源许可；成熟稳定，社区活跃；支持多操作系统安装和便携运行"
+        "positioning": "思维导图和知识管理应用，助力高效组织和传达想法。",
+        "implementation": "基于Java和OSGi框架，使用Java Swing构建界面，支持插件和脚本扩展，运行于任何安装Java的操作系统。",
+        "problems_solved": "替代传统笔记和手绘思维导图，提升信息组织和项目管理效率。",
+        "capabilities": "思维导图绘制；知识管理；项目管理；支持Groovy脚本扩展；支持LaTeX和Markdown；多平台运行；插件支持。",
+        "use_cases": "适合学生、教师、项目经理及知识工作者。",
+        "considerations": "GPL-2.0许可证；基于Java，需安装Java环境；支持跨平台。"
       }
     },
     {
@@ -5400,79 +5647,18 @@
           "Release: doublecmd-1.2.7.x86_64-win64.exe"
         ]
       },
-      "score": 460.99,
-      "rank": 99,
-      "description_en": "Double Commander is a free cross platform open source file manager with two panels side by side.",
-      "description_zh": "Double Commander是一个免费开源的跨平台双面板文件管理器。",
-      "is_new": false,
-      "analysis_zh": {
-        "positioning": "一款免费开源的跨平台双面板文件管理器。",
-        "capabilities": "双面板文件管理；跨平台支持多操作系统；支持多种文件操作和插件扩展；灵感来源于Total Commander",
-        "use_cases": "适合需要高效文件管理的用户，支持多操作系统环境。",
-        "considerations": "基于Pascal开发；GPL-2.0开源许可；支持32位和64位处理器；适合多平台使用"
-      }
-    },
-    {
-      "name": "TabularisDB/tabularis",
-      "url": "https://github.com/TabularisDB/tabularis",
-      "description": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
-      "homepage": "https://tabularis.dev",
-      "language": "TypeScript",
-      "topics": [
-        "ai-agent",
-        "ai-assistant",
-        "cross-platform",
-        "database-client",
-        "database-gui",
-        "database-tool",
-        "er-diagram",
-        "mariadb",
-        "mcp",
-        "mcp-server",
-        "mysql",
-        "postgresql",
-        "rust",
-        "sql",
-        "sql-editor",
-        "sql-notebook",
-        "sqlite",
-        "tauri",
-        "typescript",
-        "visual-query-builder"
-      ],
-      "license": "Apache-2.0",
-      "created_at": "2026-01-26T21:48:07Z",
-      "stars": 3960,
-      "forks": 267,
-      "stars_today": 0,
-      "trending_rank": null,
-      "pushed_at": "2026-07-29T18:54:13Z",
-      "latest_release": {
-        "tag": "v0.17.0",
-        "url": "https://github.com/TabularisDB/tabularis/releases/tag/v0.17.0",
-        "published_at": "2026-07-27T20:11:08Z"
-      },
-      "platform_evidence": {
-        "macos": [
-          "Release: tabularis_0.17.0_aarch64.dmg",
-          "Release: tabularis_0.17.0_x64.dmg"
-        ],
-        "windows": [
-          "Release: tabularis_0.17.0_x64-portable.exe",
-          "Release: tabularis_0.17.0_x64-setup.exe",
-          "Release: tabularis_0.17.0_x64_en-US.msi"
-        ]
-      },
-      "score": 458.31,
+      "score": 460.51,
       "rank": 100,
-      "description_en": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
-      "description_zh": "支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。",
+      "description_en": "Double Commander is a free cross platform open source file manager with two panels side by side.",
       "is_new": false,
+      "description_zh": "Double Commander是一个免费开源的跨平台双面板文件管理器。",
       "analysis_zh": {
-        "positioning": "支持多数据库的开源桌面SQL工作台，集成AI助手和可视化工具。",
-        "capabilities": "支持PostgreSQL、MySQL/MariaDB、SQLite等15+数据库；内置MCP服务器支持AI助手；支持SQL笔记本和可视化EXPLAIN；支持插件扩展和多语言界面",
-        "use_cases": "适合数据库管理员、开发者和数据分析师进行多数据库管理和查询优化。",
-        "considerations": "基于TypeScript开发；Apache-2.0开源许可；支持Windows、macOS、Linux多平台；需数据库环境支持"
+        "positioning": "免费开源跨平台双面板文件管理器，提升文件操作效率。",
+        "implementation": "使用Pascal语言开发，支持多平台运行，提供双面板界面，灵感来源Total Commander。",
+        "problems_solved": "替代系统自带文件管理器，提供更高效的文件浏览和管理体验。",
+        "capabilities": "双面板文件管理；跨平台支持；支持32位和64位处理器；多平台安装包；丰富的文件操作功能。",
+        "use_cases": "适合需要高效文件管理的多平台用户和开发者。",
+        "considerations": "GPL-2.0许可证；基于Pascal开发；支持多操作系统。"
       }
     }
   ]

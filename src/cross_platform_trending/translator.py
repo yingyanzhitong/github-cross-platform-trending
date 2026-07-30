@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import time
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
@@ -13,8 +14,16 @@ MODELS_URL = "https://models.github.ai/inference/chat/completions"
 MODEL = "openai/gpt-4.1-mini"
 USER_AGENT = "github-cross-platform-trending/0.5"
 TRANSLATION_BATCH_SIZE = 25
-ANALYSIS_BATCH_SIZE = 5
-ANALYSIS_FIELDS = ("positioning", "capabilities", "use_cases", "considerations")
+ANALYSIS_BATCH_SIZE = 10
+MAX_MODEL_RETRIES = 2
+ANALYSIS_FIELDS = (
+    "positioning",
+    "implementation",
+    "problems_solved",
+    "capabilities",
+    "use_cases",
+    "considerations",
+)
 
 
 def _contains_chinese(text: str) -> bool:
@@ -38,8 +47,17 @@ def _fallback_description(item: dict[str, Any]) -> str:
 def _fallback_analysis(item: dict[str, Any]) -> dict[str, str]:
     topics = "、".join(str(topic) for topic in item.get("topics", [])[:5])
     topic_summary = topics or "跨平台桌面软件"
+    language = item.get("language") or "多种语言"
     return {
         "positioning": item["description_zh"],
+        "implementation": (
+            f"仓库主要使用 {language} 开发，公开主题涉及 {topic_summary}；"
+            "具体架构与技术路径应以项目文档为准。"
+        ),
+        "problems_solved": (
+            "为 macOS 与 Windows 用户提供同一套开源软件能力；"
+            "更具体的目标问题应以项目说明为准。"
+        ),
         "capabilities": (
             f"公开仓库主题主要涉及 {topic_summary}；"
             "具体功能范围与配置方式应以项目文档为准。"
@@ -129,28 +147,45 @@ class DescriptionTranslator:
         )
 
     def _request_model(self, body: dict[str, Any], label: str) -> dict[str, Any]:
-        request = Request(
-            MODELS_URL,
-            data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
-            headers={
-                "Accept": "application/vnd.github+json",
-                "Authorization": f"Bearer {self.token}",
-                "Content-Type": "application/json",
-                "User-Agent": USER_AGENT,
-                "X-GitHub-Api-Version": "2026-03-10",
-            },
-            method="POST",
-        )
-        try:
-            with urlopen(request, timeout=self.timeout) as response:
-                result = json.loads(response.read())
-        except HTTPError as error:
-            detail = error.read().decode("utf-8", errors="replace")[:300]
-            raise RuntimeError(
-                f"GitHub Models {label}请求失败 ({error.code}): {detail}"
-            ) from error
-        except (URLError, TimeoutError) as error:
-            raise RuntimeError(f"GitHub Models {label}网络请求失败：{error}") from error
+        for attempt in range(MAX_MODEL_RETRIES + 1):
+            request = Request(
+                MODELS_URL,
+                data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
+                headers={
+                    "Accept": "application/vnd.github+json",
+                    "Authorization": f"Bearer {self.token}",
+                    "Content-Type": "application/json",
+                    "User-Agent": USER_AGENT,
+                    "X-GitHub-Api-Version": "2026-03-10",
+                },
+                method="POST",
+            )
+            try:
+                with urlopen(request, timeout=self.timeout) as response:
+                    result = json.loads(response.read())
+                break
+            except HTTPError as error:
+                detail = error.read().decode("utf-8", errors="replace")[:300]
+                retry_after = error.headers.get("Retry-After")
+                remaining = error.headers.get("X-RateLimit-Remaining")
+                reset_at = error.headers.get("X-RateLimit-Reset")
+                is_rate_limited = error.code == 429 or bool(retry_after)
+                if is_rate_limited and attempt < MAX_MODEL_RETRIES:
+                    if retry_after and retry_after.isdigit():
+                        delay = int(retry_after)
+                    elif remaining == "0" and reset_at and reset_at.isdigit():
+                        delay = max(1, int(reset_at) - int(time.time()) + 1)
+                    else:
+                        delay = 60 * (2**attempt)
+                    time.sleep(delay)
+                    continue
+                raise RuntimeError(
+                    f"GitHub Models {label}请求失败 ({error.code}): {detail}"
+                ) from error
+            except (URLError, TimeoutError) as error:
+                raise RuntimeError(
+                    f"GitHub Models {label}网络请求失败：{error}"
+                ) from error
 
         try:
             content = result["choices"][0]["message"]["content"]
@@ -258,7 +293,11 @@ class DescriptionTranslator:
                     "content": (
                         "你是严谨的开源软件分析编辑。根据每个仓库提供的简介、"
                         "README 摘要、Topics、开发语言和主页，生成简体中文结构化分析。"
-                        "positioning 用一句话说明产品定位，不超过 70 个汉字；"
+                        "positioning 具体说明这个项目是什么、为谁服务，不超过 90 个汉字；"
+                        "implementation 说明它如何实现目标，优先提炼输入中明确出现的"
+                        "架构、技术栈、数据流、部署方式或关键机制，不超过 160 个汉字；"
+                        "problems_solved 说明它替用户解决的具体痛点、替代的旧流程或"
+                        "降低的成本，不超过 120 个汉字；"
                         "capabilities 用 2 至 4 个分号分隔的具体核心能力，不超过 "
                         "160 个汉字；use_cases 说明适合的人群和工作流，不超过 100 "
                         "个汉字；considerations 说明部署依赖、账号或服务要求、成熟度、"
@@ -274,7 +313,7 @@ class DescriptionTranslator:
                 },
             ],
             "temperature": 0,
-            "max_tokens": 3000,
+            "max_tokens": 8000,
             "response_format": {
                 "type": "json_schema",
                 "json_schema": {

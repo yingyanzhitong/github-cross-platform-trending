@@ -63,6 +63,7 @@ def render_markdown(
         f"- 发现候选：{metadata.get('discovered_count', metadata['candidate_count'])} 个",
         f"- 已分析候选：{metadata['candidate_count']} 个",
         f"- 入榜软件：{len(software)} 个",
+        "- 新增标识：🟢 表示该仓库最近 7 天未曾入榜",
         "",
     ]
     if not software:
@@ -75,7 +76,7 @@ def render_markdown(
     else:
         lines.extend(
             [
-                "| 详情 ↘️ | NEW | 软件 | 中文简介 | 热度 | Stars | 主要语言 | 平台证据 |",
+                "| 详情 ↘️ | 新增 | 软件 | 中文简介 | 热度 | Stars | 主要语言 | 平台证据 |",
                 "|:---:|:---:|---|---|---|---:|---|---|",
             ]
         )
@@ -84,7 +85,7 @@ def render_markdown(
             macos = "、".join(item["platform_evidence"]["macos"][:2])
             windows = "、".join(item["platform_evidence"]["windows"][:2])
             evidence = f"macOS 安装包：{macos}；Windows 安装包：{windows}"
-            new_label = "🆕 **NEW**" if item.get("is_new") else "—"
+            new_label = "🟢" if item.get("is_new") else "—"
             lines.append(
                 "| <a id=\"project-row-{rank}\"></a>"
                 "[#{rank} ↘️](#project-detail-{rank}) | {new_label} | "
@@ -106,7 +107,7 @@ def render_markdown(
         lines.append("")
         for item in software:
             description_zh = item.get("description_zh") or item["description"]
-            new_label = " 🆕 **NEW**" if item.get("is_new") else ""
+            new_label = " 🟢" if item.get("is_new") else ""
             analysis = item.get("analysis_zh") or {}
             topics = "、".join(str(topic) for topic in item.get("topics", [])[:10])
             lines.extend(
@@ -119,7 +120,9 @@ def render_markdown(
                     "",
                     "#### 中文分析",
                     "",
-                    f"- **项目定位**：{analysis.get('positioning') or description_zh}",
+                    f"- **项目是做什么的**：{analysis.get('positioning') or description_zh}",
+                    f"- **怎么做到的**：{analysis.get('implementation') or '请参考项目 README 与官方技术文档。'}",
+                    f"- **解决了什么问题**：{analysis.get('problems_solved') or '请参考项目说明了解其目标问题。'}",
                     f"- **核心能力**：{analysis.get('capabilities') or '请参考项目 README 与官方文档。'}",
                     f"- **适用场景**：{analysis.get('use_cases') or '适合需要跨平台使用该类开源软件的用户。'}",
                     f"- **关注事项**：{analysis.get('considerations') or '安装前请核对项目许可证、发布说明与安装包签名。'}",
