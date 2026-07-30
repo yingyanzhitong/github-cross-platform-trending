@@ -18,9 +18,15 @@ class BuildPagesTests(unittest.TestCase):
             output = root / "docs"
             reports.mkdir()
             data.mkdir()
-            (site / "assets").mkdir(parents=True)
-            (site / "index.html").write_text("<!doctype html>", encoding="utf-8")
-            (site / "assets" / "app.js").write_text("", encoding="utf-8")
+            (site / "dist" / "assets").mkdir(parents=True)
+            (site / "dist" / "index.html").write_text(
+                "<!doctype html>",
+                encoding="utf-8",
+            )
+            (site / "dist" / "assets" / "app.js").write_text(
+                "const app = true;  \n",
+                encoding="utf-8",
+            )
             (reports / "2026-07-30.md").write_text("# 日报", encoding="utf-8")
             (reports / "latest.md").write_text("# 最新", encoding="utf-8")
             (data / "2026-07-30.json").write_text(
@@ -62,6 +68,11 @@ class BuildPagesTests(unittest.TestCase):
             self.assertTrue((output / ".nojekyll").exists())
             self.assertTrue((output / "index.html").exists())
             self.assertTrue((output / "404.html").exists())
+            self.assertTrue((output / "assets" / "app.js").exists())
+            self.assertEqual(
+                (output / "assets" / "app.js").read_text(encoding="utf-8"),
+                "const app = true;\n",
+            )
             self.assertTrue((output / "reports" / "2026-07-30.md").exists())
             self.assertFalse((output / "reports" / "latest.md").exists())
 

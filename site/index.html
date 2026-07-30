@@ -1,125 +1,17 @@
 <!doctype html>
 <html lang="zh-CN">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="每天浏览同时提供 macOS 与 Windows 安装包的 GitHub 热门软件前 100。">
-    <meta name="theme-color" content="#2457f5">
-    <title>跨平台热门软件日报</title>
-    <link rel="stylesheet" href="assets/styles.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.4.12/dist/purify.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/marked@18.0.7/lib/marked.umd.js"></script>
-    <script defer src="assets/app.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="每日查看同时提供 macOS 与 Windows 安装包的 GitHub 热门软件。"
+    />
+    <meta name="theme-color" content="#f8fafc" />
+    <title>GitHub 跨平台热门软件日报</title>
   </head>
   <body>
-    <a class="skip-link" href="#report-content">跳到日报正文</a>
-    <div class="site-shell">
-      <aside class="date-rail" id="date-rail">
-        <div class="brand-block">
-          <a class="brand" href="./" aria-label="返回最新日报">
-            <span class="brand-mark" aria-hidden="true">M↔W</span>
-            <span>
-              <strong>跨平台日报</strong>
-              <small>SOFTWARE LEDGER</small>
-            </span>
-          </a>
-          <button class="rail-close" id="rail-close" type="button" aria-label="关闭日期导航">×</button>
-        </div>
-
-        <div class="rail-intro">
-          <span class="status-dot" aria-hidden="true"></span>
-          <span>Latest Release 双端安装包验证</span>
-        </div>
-
-        <label class="search-box" for="report-search">
-          <span>筛选日期或项目</span>
-          <input id="report-search" type="search" placeholder="例如 RustDesk" autocomplete="off">
-        </label>
-
-        <nav class="report-nav" aria-label="日报日期">
-          <p class="rail-label">REPORTS / 日报</p>
-          <div id="report-list" class="report-list" aria-live="polite"></div>
-        </nav>
-
-        <div class="rail-footer">
-          <a href="https://github.com/yingyanzhitong/github-cross-platform-trending">
-            GitHub 源码仓库
-            <span aria-hidden="true">↗</span>
-          </a>
-          <p>只收录同时提供 macOS 与 Windows 安装程序的软件。</p>
-        </div>
-      </aside>
-
-      <div class="page-column">
-        <header class="topbar">
-          <button class="rail-open" id="rail-open" type="button" aria-label="打开日期导航">
-            <span></span><span></span><span></span>
-          </button>
-          <div class="breadcrumb">
-            <span>REPORTS</span>
-            <span aria-hidden="true">/</span>
-            <strong id="breadcrumb-date">加载中</strong>
-          </div>
-          <div class="topbar-actions">
-            <button id="copy-link" class="ghost-button" type="button">复制链接</button>
-            <a id="raw-report" class="ghost-button" href="#">查看 Markdown</a>
-          </div>
-        </header>
-
-        <main>
-          <section class="report-hero" aria-labelledby="page-title">
-            <div class="hero-copy">
-              <p class="eyebrow">MACOS <span>↔</span> WINDOWS · DAILY TOP 100</p>
-              <h1 id="page-title">热门软件日报</h1>
-              <p class="hero-summary" id="hero-summary">正在读取 reports 目录……</p>
-            </div>
-            <div class="platform-seal" aria-label="macOS 与 Windows 安装包均已验证">
-              <span>VERIFIED</span>
-              <strong>2×</strong>
-              <small>INSTALLERS</small>
-            </div>
-          </section>
-
-          <section class="metric-strip" aria-label="日报统计">
-            <div>
-              <span>入榜软件</span>
-              <strong id="metric-software">—</strong>
-            </div>
-            <div>
-              <span>发现候选</span>
-              <strong id="metric-discovered">—</strong>
-            </div>
-            <div>
-              <span>已分析</span>
-              <strong id="metric-analyzed">—</strong>
-            </div>
-            <div>
-              <span>新增项目</span>
-              <strong id="metric-new">—</strong>
-            </div>
-          </section>
-
-          <section class="report-toolbar" aria-label="日报翻页">
-            <button id="newer-report" type="button">← 更新一日</button>
-            <div id="daily-trending" class="daily-trending"></div>
-            <button id="older-report" type="button">更早一日 →</button>
-          </section>
-
-          <section class="report-panel">
-            <div id="load-state" class="load-state" role="status">
-              <span class="loader" aria-hidden="true"></span>
-              <p>正在装订当天日报……</p>
-            </div>
-            <article id="report-content" class="markdown-body" tabindex="-1"></article>
-          </section>
-        </main>
-
-        <footer class="site-footer">
-          <span>GitHub Cross-Platform Trending</span>
-          <span>数据按日报生成时间保留</span>
-          <button id="back-to-top" type="button">回到顶部 ↑</button>
-        </footer>
-      </div>
-    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

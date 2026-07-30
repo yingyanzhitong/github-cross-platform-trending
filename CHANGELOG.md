@@ -2,6 +2,22 @@
 
 本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.7.0] - 2026-07-30
+
+### 新增
+
+- GitHub Pages 使用 React、TypeScript、Vite、Tailwind CSS 与 shadcn/ui 完整重写。
+- 按 shadcn/ui 规范引入 `components.json`、CSS 语义变量、`cn()` 工具和本地组件源码。
+- 日报导航采用官方 `SidebarProvider`、`SidebarInset` 与移动端 Sheet 组合，支持键盘快捷键和响应式抽屉。
+- Markdown 报告使用 React 组件安全渲染，表格映射为 shadcn `Table`，每个项目详情映射为独立 `Card`。
+
+### 改进
+
+- 保留日期筛选、项目搜索、前后翻页、100 条表格与详情双向定位，并统一使用 Button、Badge、Card、Alert、Skeleton、Tooltip 等框架组件。
+- 使用语义化主题令牌统一颜色、边框、圆角和焦点状态；新增 macOS 与 Windows 安装包验证台账视觉。
+- Markdown 渲染器独立懒加载，宽表仅在表格容器内滚动，页面在桌面端与移动端均不会产生整体横向溢出。
+- 页面构建流程新增 Node.js 24、npm 锁文件与前端类型检查，GitHub Actions 会安装页面依赖后再生成 `docs/`。
+
 ## [0.6.1] - 2026-07-30
 
 ### 调整

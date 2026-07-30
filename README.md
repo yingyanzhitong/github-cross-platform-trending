@@ -27,13 +27,13 @@
 - `data/latest.json`：最新一期结构化数据；
 - `data/YYYY-MM-DD.json`：历史结构化数据。
 
-`scripts/build_pages.py` 会根据 `reports/` 与 `data/` 生成 `docs/` 静态站点，GitHub Pages 直接从本仓库 `main` 分支的 `/docs` 目录发布。
+`site/` 是使用 React、TypeScript、Vite、Tailwind CSS 和 shadcn/ui 编写的页面工程。`scripts/build_pages.py` 会先构建前端，再根据 `reports/` 与 `data/` 生成完整的 `docs/` 静态站点；GitHub Pages 直接从本仓库 `main` 分支的 `/docs` 目录发布。
 
 JSON 中同时保留 `description_en` 英文原文、`description_zh` 中文简介，以及结构化的 `analysis_zh` 中文项目分析。GitHub Actions 每天北京时间 08:30 自动运行，也支持在 Actions 页面手动触发。工作流使用仓库自带的 `GITHUB_TOKEN` 访问 GitHub API 与 GitHub Models，不需要额外配置密钥，并会将当天报告自动提交回仓库。
 
 ## 本地运行
 
-需要 Python 3.10 或更高版本。已登录 GitHub CLI 时，脚本会自动读取当前认证；也可以设置 `GITHUB_TOKEN` 或 `GH_TOKEN`。
+采集程序需要 Python 3.10 或更高版本，页面构建需要 Node.js 24。已登录 GitHub CLI 时，脚本会自动读取当前认证；也可以设置 `GITHUB_TOKEN` 或 `GH_TOKEN`。
 
 ```bash
 python3 -m venv .venv
@@ -46,6 +46,19 @@ cross-platform-trending --limit 100 --max-candidates 1000
 
 ```bash
 python -m unittest discover -s tests -v
+```
+
+开发 GitHub Pages 页面：
+
+```bash
+npm ci --prefix site
+npm run dev --prefix site
+```
+
+生成可发布的 `docs/`：
+
+```bash
+python scripts/build_pages.py
 ```
 
 ## 筛选边界

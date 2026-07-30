@@ -4,6 +4,7 @@ import argparse
 import json
 import re
 import shutil
+import subprocess
 from pathlib import Path
 from typing import Any
 
@@ -64,6 +65,29 @@ def _summary(report_path: Path, data_dir: Path) -> dict[str, Any]:
     }
 
 
+def build_frontend(site_dir: Path) -> Path:
+    package_path = site_dir / "package.json"
+    if not package_path.exists():
+        raise FileNotFoundError(f"缺少前端工程配置：{package_path}")
+
+    subprocess.run(["npm", "run", "build"], cwd=site_dir, check=True)
+    frontend_dir = site_dir / "dist"
+    if not (frontend_dir / "index.html").exists():
+        raise FileNotFoundError(f"前端构建产物无效：{frontend_dir}")
+    return frontend_dir
+
+
+def _normalize_frontend_text(output_dir: Path) -> None:
+    for path in output_dir.rglob("*"):
+        if not path.is_file() or path.suffix not in {".css", ".html", ".js"}:
+            continue
+        text = path.read_text(encoding="utf-8")
+        normalized = "\n".join(line.rstrip() for line in text.splitlines())
+        if text.endswith("\n"):
+            normalized += "\n"
+        path.write_text(normalized, encoding="utf-8")
+
+
 def build_site(
     *,
     reports_dir: Path,
@@ -81,8 +105,9 @@ def build_site(
     )
     if not report_paths:
         raise ValueError(f"未找到历史日报：{reports_dir}")
-    if not (site_dir / "index.html").exists():
-        raise FileNotFoundError(f"缺少站点模板：{site_dir / 'index.html'}")
+    frontend_dir = site_dir / "dist"
+    if not (frontend_dir / "index.html").exists():
+        raise FileNotFoundError(f"缺少前端构建产物：{frontend_dir / 'index.html'}")
 
     summaries = [_summary(path, data_dir) for path in report_paths]
     manifest = {
@@ -91,9 +116,9 @@ def build_site(
     }
 
     _remove_managed_output(output_dir)
-    shutil.copy2(site_dir / "index.html", output_dir / "index.html")
-    shutil.copy2(site_dir / "index.html", output_dir / "404.html")
-    shutil.copytree(site_dir / "assets", output_dir / "assets")
+    shutil.copytree(frontend_dir, output_dir, dirs_exist_ok=True)
+    shutil.copy2(frontend_dir / "index.html", output_dir / "404.html")
+    _normalize_frontend_text(output_dir)
 
     report_output = output_dir / "reports"
     report_output.mkdir(parents=True)
@@ -113,11 +138,14 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--data-dir", type=Path, default=Path("data"))
     parser.add_argument("--site-dir", type=Path, default=Path("site"))
     parser.add_argument("--output-dir", type=Path, default=Path("docs"))
+    parser.add_argument("--skip-frontend-build", action="store_true")
     return parser
 
 
 def main() -> int:
     args = build_parser().parse_args()
+    if not args.skip_frontend_build:
+        build_frontend(args.site_dir)
     manifest = build_site(
         reports_dir=args.reports_dir,
         data_dir=args.data_dir,
