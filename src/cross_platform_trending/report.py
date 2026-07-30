@@ -1,9 +1,40 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime
+from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
+
+
+def mark_new_projects(
+    report_date: str,
+    software: list[dict[str, Any]],
+    data_dir: Path,
+    *,
+    days: int = 7,
+) -> None:
+    """标记此前若干天的日报中从未出现过的项目。"""
+    current_date = date.fromisoformat(report_date)
+    recent_names: set[str] = set()
+
+    for offset in range(1, days + 1):
+        history_date = current_date - timedelta(days=offset)
+        history_path = data_dir / f"{history_date.isoformat()}.json"
+        if not history_path.exists():
+            continue
+
+        payload = json.loads(history_path.read_text(encoding="utf-8"))
+        history_software = payload.get("software")
+        if not isinstance(history_software, list):
+            raise ValueError(f"历史数据格式无效：{history_path}")
+        recent_names.update(
+            item["name"].casefold()
+            for item in history_software
+            if isinstance(item, dict) and isinstance(item.get("name"), str)
+        )
+
+    for item in software:
+        item["is_new"] = item["name"].casefold() not in recent_names
 
 
 def _escape_table(text: str) -> str:
@@ -53,12 +84,15 @@ def render_markdown(
             macos = "、".join(item["platform_evidence"]["macos"][:2])
             windows = "、".join(item["platform_evidence"]["windows"][:2])
             evidence = f"macOS 安装包：{macos}；Windows 安装包：{windows}"
+            new_label = " 🆕 **NEW**" if item.get("is_new") else ""
             lines.append(
-                "| {rank} | [{name}]({url})<br>中文简介：{description} | {heat} | "
+                "| {rank} | <a id=\"project-row-{rank}\"></a>[{name}]({url}){new_label} · "
+                "[查看详情 ↓](#project-detail-{rank})<br>中文简介：{description} | {heat} | "
                 "{stars:,} | {language} | {evidence} |".format(
                     rank=item["rank"],
                     name=item["name"],
                     url=item["url"],
+                    new_label=new_label,
                     description=_escape_table(description_zh),
                     heat=_heat(item),
                     stars=item["stars"],
@@ -71,9 +105,14 @@ def render_markdown(
         lines.append("")
         for item in software:
             description_zh = item.get("description_zh") or item["description"]
+            new_label = " 🆕 **NEW**" if item.get("is_new") else ""
             lines.extend(
                 [
-                    f"### {item['rank']}. [{item['name']}]({item['url']})",
+                    f"<a id=\"project-detail-{item['rank']}\"></a>",
+                    "",
+                    f"### {item['rank']}. [{item['name']}]({item['url']}){new_label}",
+                    "",
+                    f"[↑ 返回榜单中的本项目](#project-row-{item['rank']})",
                     "",
                     description_zh,
                     "",
@@ -124,6 +163,7 @@ def write_report(
 ) -> tuple[Path, Path]:
     report_dir.mkdir(parents=True, exist_ok=True)
     data_dir.mkdir(parents=True, exist_ok=True)
+    mark_new_projects(report_date, software, data_dir)
 
     payload = {
         "date": report_date,

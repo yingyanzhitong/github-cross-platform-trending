@@ -44,7 +44,8 @@
       "score": 10030.21,
       "rank": 1,
       "description_en": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
-      "description_zh": "轻量级云原生地理信息系统平台。"
+      "description_zh": "轻量级云原生地理信息系统平台。",
+      "is_new": false
     },
     {
       "name": "moeru-ai/airi",
@@ -87,7 +88,8 @@
       "score": 9930.53,
       "rank": 2,
       "description_en": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "description_zh": "支持实时语音聊天和游戏的自托管智能伴侣。"
+      "description_zh": "支持实时语音聊天和游戏的自托管智能伴侣。",
+      "is_new": false
     },
     {
       "name": "farion1231/cc-switch",
@@ -139,7 +141,8 @@
       "score": 607.33,
       "rank": 3,
       "description_en": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-      "description_zh": "支持多智能代理的一体化跨平台桌面助手。"
+      "description_zh": "支持多智能代理的一体化跨平台桌面助手。",
+      "is_new": false
     },
     {
       "name": "rustdesk/rustdesk",
@@ -192,7 +195,8 @@
       "score": 605.06,
       "rank": 4,
       "description_en": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "description_zh": "开源自托管远程桌面替代方案。"
+      "description_zh": "开源自托管远程桌面替代方案。",
+      "is_new": false
     },
     {
       "name": "nexu-io/open-design",
@@ -244,7 +248,8 @@
       "score": 591.47,
       "rank": 5,
       "description_en": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
-      "description_zh": "本地优先的开源设计工具，支持多种导出格式。"
+      "description_zh": "本地优先的开源设计工具，支持多种导出格式。",
+      "is_new": false
     },
     {
       "name": "toeverything/AFFiNE",
@@ -296,7 +301,8 @@
       "score": 584.02,
       "rank": 6,
       "description_en": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
-      "description_zh": "隐私优先的开源下一代知识库平台。"
+      "description_zh": "隐私优先的开源下一代知识库平台。",
+      "is_new": false
     },
     {
       "name": "Eugeny/tabby",
@@ -334,7 +340,8 @@
       "score": 579.27,
       "rank": 7,
       "description_en": "A terminal for a more modern age",
-      "description_zh": "现代化终端工具。"
+      "description_zh": "现代化终端工具。",
+      "is_new": false
     },
     {
       "name": "PowerShell/PowerShell",
@@ -377,7 +384,8 @@
       "score": 573.65,
       "rank": 8,
       "description_en": "PowerShell for every system!",
-      "description_zh": "跨平台的命令行自动化工具。"
+      "description_zh": "跨平台的命令行自动化工具。",
+      "is_new": false
     },
     {
       "name": "laurent22/joplin",
@@ -428,7 +436,8 @@
       "score": 573.54,
       "rank": 9,
       "description_en": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
-      "description_zh": "支持多平台同步的隐私笔记应用。"
+      "description_zh": "支持多平台同步的隐私笔记应用。",
+      "is_new": false
     },
     {
       "name": "WerWolv/ImHex",
@@ -482,7 +491,8 @@
       "score": 572.38,
       "rank": 10,
       "description_en": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-      "description_zh": "适合逆向工程师的十六进制编辑器。"
+      "description_zh": "适合逆向工程师的十六进制编辑器。",
+      "is_new": false
     },
     {
       "name": "usebruno/bruno",
@@ -531,7 +541,8 @@
       "score": 565.94,
       "rank": 11,
       "description_en": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
-      "description_zh": "开源轻量级API测试和探索IDE。"
+      "description_zh": "开源轻量级API测试和探索IDE。",
+      "is_new": false
     },
     {
       "name": "marktext/marktext",
@@ -578,7 +589,8 @@
       "score": 565.76,
       "rank": 12,
       "description_en": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
-      "description_zh": "简洁优雅的跨平台Markdown编辑器。"
+      "description_zh": "简洁优雅的跨平台Markdown编辑器。",
+      "is_new": false
     },
     {
       "name": "siyuan-note/siyuan",
@@ -630,7 +642,8 @@
       "score": 565.75,
       "rank": 13,
       "description_en": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
-      "description_zh": "自托管的开源个人知识管理软件。"
+      "description_zh": "自托管的开源个人知识管理软件。",
+      "is_new": false
     },
     {
       "name": "cli/cli",
@@ -667,7 +680,8 @@
       "score": 564.33,
       "rank": 14,
       "description_en": "GitHub’s official command line tool",
-      "description_zh": "GitHub官方命令行工具。"
+      "description_zh": "GitHub官方命令行工具。",
+      "is_new": false
     },
     {
       "name": "tw93/Pake",
@@ -715,7 +729,8 @@
       "score": 562.32,
       "rank": 15,
       "description_en": "🤱🏻 Turn any webpage into a desktop app with one command.",
-      "description_zh": "一键将网页转换为桌面应用。"
+      "description_zh": "一键将网页转换为桌面应用。",
+      "is_new": false
     },
     {
       "name": "janhq/jan",
@@ -754,7 +769,8 @@
       "score": 561.31,
       "rank": 16,
       "description_en": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
-      "description_zh": "完全离线运行的开源ChatGPT替代品。"
+      "description_zh": "完全离线运行的开源ChatGPT替代品。",
+      "is_new": false
     },
     {
       "name": "LizardByte/Sunshine",
@@ -805,7 +821,8 @@
       "score": 559.89,
       "rank": 17,
       "description_en": "Self-hosted game stream host for Moonlight.",
-      "description_zh": "Moonlight的自托管游戏流媒体服务器。"
+      "description_zh": "Moonlight的自托管游戏流媒体服务器。",
+      "is_new": false
     },
     {
       "name": "TriliumNext/Trilium",
@@ -857,7 +874,8 @@
       "score": 556.95,
       "rank": 18,
       "description_en": "Build your personal knowledge base with Trilium Notes",
-      "description_zh": "构建个人知识库的笔记软件。"
+      "description_zh": "构建个人知识库的笔记软件。",
+      "is_new": false
     },
     {
       "name": "agalwood/Motrix",
@@ -905,7 +923,8 @@
       "score": 552.47,
       "rank": 19,
       "description_en": "A full-featured download manager.",
-      "description_zh": "功能完善的下载管理器。"
+      "description_zh": "功能完善的下载管理器。",
+      "is_new": false
     },
     {
       "name": "DayuanJiang/next-ai-draw-io",
@@ -941,7 +960,8 @@
       "score": 552.44,
       "rank": 20,
       "description_en": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
-      "description_zh": "基于next.js的AI辅助draw.io图表编辑应用。"
+      "description_zh": "基于next.js的AI辅助draw.io图表编辑应用。",
+      "is_new": false
     },
     {
       "name": "stablyai/orca",
@@ -991,7 +1011,8 @@
       "score": 551.56,
       "rank": 21,
       "description_en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-      "description_zh": "支持多代理并行的AI开发环境。"
+      "description_zh": "支持多代理并行的AI开发环境。",
+      "is_new": false
     },
     {
       "name": "KRTirtho/spotube",
@@ -1036,7 +1057,8 @@
       "score": 550.77,
       "rank": 22,
       "description_en": "🎧 Open source music streaming app! Available for both desktop & mobile!",
-      "description_zh": "开源跨平台音乐流媒体应用。"
+      "description_zh": "开源跨平台音乐流媒体应用。",
+      "is_new": false
     },
     {
       "name": "VSCodium/vscodium",
@@ -1075,7 +1097,8 @@
       "score": 549.57,
       "rank": 23,
       "description_en": "binary releases of VS Code without MS branding/telemetry/licensing",
-      "description_zh": "无微软品牌和遥测的VS Code二进制版。"
+      "description_zh": "无微软品牌和遥测的VS Code二进制版。",
+      "is_new": false
     },
     {
       "name": "flameshot-org/flameshot",
@@ -1116,7 +1139,8 @@
       "score": 547.99,
       "rank": 24,
       "description_en": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
-      "description_zh": "功能强大且易用的截图软件。"
+      "description_zh": "功能强大且易用的截图软件。",
+      "is_new": false
     },
     {
       "name": "pear-devs/pear-desktop",
@@ -1160,7 +1184,8 @@
       "score": 546.92,
       "rank": 25,
       "description_en": "Pear 🍐 is extension for music player",
-      "description_zh": "Pear：音乐播放器扩展。"
+      "description_zh": "Pear：音乐播放器扩展。",
+      "is_new": false
     },
     {
       "name": "GyulyVGC/sniffnet",
@@ -1213,7 +1238,8 @@
       "score": 543.97,
       "rank": 26,
       "description_en": "Comfortably monitor your Internet traffic 🕵️‍♂️",
-      "description_zh": "便捷的网络流量监控工具。"
+      "description_zh": "便捷的网络流量监控工具。",
+      "is_new": false
     },
     {
       "name": "Wox-launcher/Wox",
@@ -1254,7 +1280,8 @@
       "score": 540.47,
       "rank": 27,
       "description_en": "A cross-platform launcher that simply works",
-      "description_zh": "跨平台高效启动器。"
+      "description_zh": "跨平台高效启动器。",
+      "is_new": false
     },
     {
       "name": "Devolutions/UniGetUI",
@@ -1300,7 +1327,8 @@
       "score": 539.52,
       "rank": 28,
       "description_en": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
-      "description_zh": "图形化包管理器管理工具。"
+      "description_zh": "图形化包管理器管理工具。",
+      "is_new": false
     },
     {
       "name": "cjpais/Handy",
@@ -1338,7 +1366,8 @@
       "score": 538.21,
       "rank": 29,
       "description_en": "A free, open source, and extensible speech-to-text application that works completely offline.",
-      "description_zh": "完全离线的开源语音转文字应用。"
+      "description_zh": "完全离线的开源语音转文字应用。",
+      "is_new": false
     },
     {
       "name": "beekeeper-studio/beekeeper-studio",
@@ -1387,7 +1416,8 @@
       "score": 536.24,
       "rank": 30,
       "description_en": "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
-      "description_zh": "Beekeeper Studio：现代易用的多数据库SQL客户端。"
+      "description_zh": "Beekeeper Studio：现代易用的多数据库SQL客户端。",
+      "is_new": false
     },
     {
       "name": "wavetermdev/waveterm",
@@ -1428,7 +1458,8 @@
       "score": 532.9,
       "rank": 31,
       "description_en": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
-      "description_zh": "集成AI的跨平台终端工具。"
+      "description_zh": "集成AI的跨平台终端工具。",
+      "is_new": false
     },
     {
       "name": "super-productivity/super-productivity",
@@ -1483,7 +1514,8 @@
       "score": 531.58,
       "rank": 32,
       "description_en": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
-      "description_zh": "Super Productivity：集成时间管理的高级待办事项应用。"
+      "description_zh": "Super Productivity：集成时间管理的高级待办事项应用。",
+      "is_new": false
     },
     {
       "name": "GopeedLab/gopeed",
@@ -1532,7 +1564,8 @@
       "score": 529.24,
       "rank": 33,
       "description_en": "A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
-      "description_zh": "支持多协议的高速跨平台下载管理器。"
+      "description_zh": "支持多协议的高速跨平台下载管理器。",
+      "is_new": false
     },
     {
       "name": "mountain-loop/yaak",
@@ -1576,7 +1609,8 @@
       "score": 526.24,
       "rank": 34,
       "description_en": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
-      "description_zh": "直观的桌面API客户端，支持多种协议。"
+      "description_zh": "直观的桌面API客户端，支持多种协议。",
+      "is_new": false
     },
     {
       "name": "nukeop/nuclear",
@@ -1625,7 +1659,8 @@
       "score": 525.71,
       "rank": 35,
       "description_en": "Streaming music player that finds free music for you",
-      "description_zh": "免费音乐流媒体播放器。"
+      "description_zh": "免费音乐流媒体播放器。",
+      "is_new": false
     },
     {
       "name": "ActivityWatch/activitywatch",
@@ -1668,7 +1703,8 @@
       "score": 524.89,
       "rank": 36,
       "description_en": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.",
-      "description_zh": "免费开源的自动化时间追踪器。"
+      "description_zh": "免费开源的自动化时间追踪器。",
+      "is_new": false
     },
     {
       "name": "audacity/audacity",
@@ -1708,7 +1744,8 @@
       "score": 522.58,
       "rank": 37,
       "description_en": "Audio Editor",
-      "description_zh": "音频编辑器。"
+      "description_zh": "音频编辑器。",
+      "is_new": false
     },
     {
       "name": "kurikomi-labs/komi-store",
@@ -1756,7 +1793,8 @@
       "score": 522.25,
       "rank": 38,
       "description_en": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
-      "description_zh": "是一个免费开源的开发者应用商店，支持 GitHub、Codeberg 和 Forgejo 一键浏览安装。"
+      "description_zh": "是一个免费开源的开发者应用商店，支持 GitHub、Codeberg 和 Forgejo 一键浏览安装。",
+      "is_new": true
     },
     {
       "name": "rowboatlabs/rowboat",
@@ -1803,7 +1841,8 @@
       "score": 521.87,
       "rank": 39,
       "description_en": "Open-source AI coworker, with memory",
-      "description_zh": "具备记忆功能的开源AI助手。"
+      "description_zh": "具备记忆功能的开源AI助手。",
+      "is_new": false
     },
     {
       "name": "keepassxreboot/keepassxc",
@@ -1848,7 +1887,8 @@
       "score": 519.06,
       "rank": 40,
       "description_en": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
-      "description_zh": "跨平台的KeePass密码管理器移植版。"
+      "description_zh": "跨平台的KeePass密码管理器移植版。",
+      "is_new": false
     },
     {
       "name": "alacritty/alacritty",
@@ -1890,7 +1930,8 @@
       "score": 517.92,
       "rank": 41,
       "description_en": "A cross-platform, OpenGL terminal emulator.",
-      "description_zh": "跨平台OpenGL终端模拟器。"
+      "description_zh": "跨平台OpenGL终端模拟器。",
+      "is_new": false
     },
     {
       "name": "mltframework/shotcut",
@@ -1928,7 +1969,8 @@
       "score": 516.19,
       "rank": 42,
       "description_en": "cross-platform (Qt), open-source (GPLv3) video editor",
-      "description_zh": "跨平台开源视频编辑器，基于Qt和GPLv3。"
+      "description_zh": "跨平台开源视频编辑器，基于Qt和GPLv3。",
+      "is_new": false
     },
     {
       "name": "Termix-SSH/Termix",
@@ -1974,7 +2016,8 @@
       "score": 515.64,
       "rank": 43,
       "description_en": "Self-hosted SSH and remote desktop management.",
-      "description_zh": "自托管的SSH和远程桌面管理工具。"
+      "description_zh": "自托管的SSH和远程桌面管理工具。",
+      "is_new": false
     },
     {
       "name": "electerm/electerm",
@@ -2028,7 +2071,8 @@
       "score": 514.4,
       "rank": 44,
       "description_en": "📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android)",
-      "description_zh": "支持多协议的终端和远程连接客户端，跨平台支持多系统。"
+      "description_zh": "支持多协议的终端和远程连接客户端，跨平台支持多系统。",
+      "is_new": false
     },
     {
       "name": "streetwriters/notesnook",
@@ -2081,7 +2125,8 @@
       "score": 514.27,
       "rank": 45,
       "description_en": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
-      "description_zh": "完全开源且端到端加密的笔记软件，Evernote替代品。"
+      "description_zh": "完全开源且端到端加密的笔记软件，Evernote替代品。",
+      "is_new": false
     },
     {
       "name": "NanmiCoder/cc-haha",
@@ -2128,7 +2173,8 @@
       "score": 512.47,
       "rank": 46,
       "description_en": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
-      "description_zh": "本地优先的跨平台桌面工作空间，支持多智能体和多模型。"
+      "description_zh": "本地优先的跨平台桌面工作空间，支持多智能体和多模型。",
+      "is_new": false
     },
     {
       "name": "lyswhut/lx-music-desktop",
@@ -2166,7 +2212,8 @@
       "score": 512.12,
       "rank": 47,
       "description_en": "一个基于 Electron 的音乐软件",
-      "description_zh": "一个基于 Electron 的音乐软件"
+      "description_zh": "一个基于 Electron 的音乐软件",
+      "is_new": false
     },
     {
       "name": "amir1376/ab-download-manager",
@@ -2214,7 +2261,8 @@
       "score": 510.22,
       "rank": 48,
       "description_en": "A Download Manager that speeds up your downloads",
-      "description_zh": "加速下载的下载管理器。"
+      "description_zh": "加速下载的下载管理器。",
+      "is_new": false
     },
     {
       "name": "t8y2/dbx",
@@ -2266,7 +2314,8 @@
       "score": 508.42,
       "rank": 49,
       "description_en": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
-      "description_zh": "轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。"
+      "description_zh": "轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "is_new": false
     },
     {
       "name": "Zettlr/Zettlr",
@@ -2315,7 +2364,8 @@
       "score": 507.62,
       "rank": 50,
       "description_en": "Your One-Stop Publication Workbench",
-      "description_zh": "一站式出版工作平台。"
+      "description_zh": "一站式出版工作平台。",
+      "is_new": false
     },
     {
       "name": "codexu/note-gen",
@@ -2359,7 +2409,8 @@
       "score": 507.01,
       "rank": 51,
       "description_en": "A cross-platform Markdown AI note-taking software.",
-      "description_zh": "跨平台的Markdown AI笔记软件。"
+      "description_zh": "跨平台的Markdown AI笔记软件。",
+      "is_new": false
     },
     {
       "name": "getpaseo/paseo",
@@ -2408,7 +2459,8 @@
       "score": 506.6,
       "rank": 52,
       "description_en": "Orchestrate multiple coding agents from desktop and mobile",
-      "description_zh": "桌面和移动端多智能体编程协调工具。"
+      "description_zh": "桌面和移动端多智能体编程协调工具。",
+      "is_new": false
     },
     {
       "name": "dail8859/NotepadNext",
@@ -2447,7 +2499,8 @@
       "score": 505.43,
       "rank": 53,
       "description_en": "A cross-platform, reimplementation of Notepad++",
-      "description_zh": "跨平台的Notepad++重实现文本编辑器。"
+      "description_zh": "跨平台的Notepad++重实现文本编辑器。",
+      "is_new": false
     },
     {
       "name": "HBAI-Ltd/Toonflow-app",
@@ -2498,7 +2551,8 @@
       "score": 504.81,
       "rank": 54,
       "description_en": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation.",
-      "description_zh": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation."
+      "description_zh": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation.",
+      "is_new": false
     },
     {
       "name": "lapce/lapce",
@@ -2534,7 +2588,8 @@
       "score": 500.59,
       "rank": 55,
       "description_en": "Lightning-fast and Powerful Code Editor written in Rust",
-      "description_zh": "用Rust编写的极速强大代码编辑器。"
+      "description_zh": "用Rust编写的极速强大代码编辑器。",
+      "is_new": false
     },
     {
       "name": "espanso/espanso",
@@ -2573,7 +2628,8 @@
       "score": 499.55,
       "rank": 56,
       "description_en": "A Privacy-first, Cross-platform Text Expander written in Rust",
-      "description_zh": "注重隐私的跨平台文本扩展工具，Rust开发。"
+      "description_zh": "注重隐私的跨平台文本扩展工具，Rust开发。",
+      "is_new": false
     },
     {
       "name": "hluk/CopyQ",
@@ -2611,7 +2667,8 @@
       "score": 499.37,
       "rank": 57,
       "description_en": "Clipboard manager with advanced features",
-      "description_zh": "功能丰富的剪贴板管理器。"
+      "description_zh": "功能丰富的剪贴板管理器。",
+      "is_new": false
     },
     {
       "name": "webtorrent/webtorrent-desktop",
@@ -2654,7 +2711,8 @@
       "score": 495.97,
       "rank": 58,
       "description_en": "❤️ Streaming torrent app for Mac, Windows, and Linux",
-      "description_zh": "支持Mac、Windows和Linux的流媒体种子客户端。"
+      "description_zh": "支持Mac、Windows和Linux的流媒体种子客户端。",
+      "is_new": false
     },
     {
       "name": "getagentseal/codeburn",
@@ -2698,7 +2756,8 @@
       "score": 495.52,
       "rank": 59,
       "description_en": "Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
-      "description_zh": "免费本地工具，跟踪31款AI编码工具的令牌使用和费用。"
+      "description_zh": "免费本地工具，跟踪31款AI编码工具的令牌使用和费用。",
+      "is_new": false
     },
     {
       "name": "CyberTimon/RapidRAW",
@@ -2740,7 +2799,8 @@
       "score": 494.34,
       "rank": 60,
       "description_en": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
-      "description_zh": "高性能GPU加速的非破坏性RAW图像编辑器。"
+      "description_zh": "高性能GPU加速的非破坏性RAW图像编辑器。",
+      "is_new": false
     },
     {
       "name": "crynta/terax-ai",
@@ -2784,7 +2844,8 @@
       "score": 493.41,
       "rank": 61,
       "description_en": "Lightweight (7MB) Terminal-first AI-native dev workspace",
-      "description_zh": "轻量级终端优先的AI开发工作空间。"
+      "description_zh": "轻量级终端优先的AI开发工作空间。",
+      "is_new": false
     },
     {
       "name": "tonyantony300/dashbeam",
@@ -2831,7 +2892,8 @@
       "score": 492.55,
       "rank": 62,
       "description_en": "Send files and folders anywhere in the world without storing in cloud - any size, any format, no accounts, no restrictions ( previously Altsendme )",
-      "description_zh": "无需云存储，全球传输任意大小文件的工具。"
+      "description_zh": "无需云存储，全球传输任意大小文件的工具。",
+      "is_new": false
     },
     {
       "name": "jeffvli/feishin",
@@ -2871,7 +2933,8 @@
       "score": 491.37,
       "rank": 63,
       "description_en": "A modern self-hosted music player.",
-      "description_zh": "现代自托管音乐播放器。"
+      "description_zh": "现代自托管音乐播放器。",
+      "is_new": false
     },
     {
       "name": "mockoon/mockoon",
@@ -2923,7 +2986,8 @@
       "score": 490.41,
       "rank": 64,
       "description_en": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.",
-      "description_zh": "本地快速运行模拟API的开源工具，无需账号。"
+      "description_zh": "本地快速运行模拟API的开源工具，无需账号。",
+      "is_new": false
     },
     {
       "name": "XiaoYouChR/Ghost-Downloader-3",
@@ -2975,7 +3039,8 @@
       "score": 486.09,
       "rank": 65,
       "description_en": "An AI-boost cross-platform multi-protocol fluent-design concurrent downloader built with Python & Qt.",
-      "description_zh": "基于Python和Qt的跨平台多协议并发下载器。"
+      "description_zh": "基于Python和Qt的跨平台多协议并发下载器。",
+      "is_new": false
     },
     {
       "name": "rancher-sandbox/rancher-desktop",
@@ -3012,7 +3077,8 @@
       "score": 485.68,
       "rank": 66,
       "description_en": "Container Management and Kubernetes on the Desktop",
-      "description_zh": "桌面容器管理和Kubernetes工具。"
+      "description_zh": "桌面容器管理和Kubernetes工具。",
+      "is_new": false
     },
     {
       "name": "open-pencil/open-pencil",
@@ -3055,7 +3121,8 @@
       "score": 485.38,
       "rank": 67,
       "description_en": "AI-native design editor. Open-source Figma alternative.",
-      "description_zh": "开源AI设计编辑器，Figma替代方案。"
+      "description_zh": "开源AI设计编辑器，Figma替代方案。",
+      "is_new": false
     },
     {
       "name": "mediago-dev/mediago",
@@ -3097,7 +3164,8 @@
       "score": 485.19,
       "rank": 68,
       "description_en": "Cross-platform video downloader — sniff and grab m3u8/HLS streams, Bilibili, YouTube and more. Desktop + Docker + 🦞.",
-      "description_zh": "跨平台视频下载器，支持m3u8/HLS及主流视频网站。"
+      "description_zh": "跨平台视频下载器，支持m3u8/HLS及主流视频网站。",
+      "is_new": false
     },
     {
       "name": "PixiEditor/PixiEditor",
@@ -3147,7 +3215,8 @@
       "score": 483.81,
       "rank": 69,
       "description_en": "PixiEditor is a Universal Editor for all your 2D needs",
-      "description_zh": "通用2D图像编辑器。"
+      "description_zh": "通用2D图像编辑器。",
+      "is_new": false
     },
     {
       "name": "massCodeIO/massCode",
@@ -3197,7 +3266,8 @@
       "score": 482.86,
       "rank": 70,
       "description_en": "A free, open-source developer workspace. Snippets, notes, HTTP requests, calculations, and dev tools in one local-first app.",
-      "description_zh": "免费开源开发者工作空间，集成代码片段、笔记、HTTP请求和开发工具。"
+      "description_zh": "免费开源开发者工作空间，集成代码片段、笔记、HTTP请求和开发工具。",
+      "is_new": false
     },
     {
       "name": "4gray/iptvnator",
@@ -3249,7 +3319,8 @@
       "score": 482.73,
       "rank": 71,
       "description_en": ":tv: Cross-platform IPTV player application with multiple features, such as support of m3u and m3u8 playlists, favorites, TV guide, TV archive/catchup and more.",
-      "description_zh": "跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。"
+      "description_zh": "跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。",
+      "is_new": false
     },
     {
       "name": "raphamorim/rio",
@@ -3296,7 +3367,8 @@
       "score": 479.54,
       "rank": 72,
       "description_en": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
-      "description_zh": "硬件加速GPU终端模拟器，支持桌面和浏览器运行。"
+      "description_zh": "硬件加速GPU终端模拟器，支持桌面和浏览器运行。",
+      "is_new": false
     },
     {
       "name": "Sylinko/Everywhere",
@@ -3344,7 +3416,8 @@
       "score": 477.61,
       "rank": 73,
       "description_en": "On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.",
-      "description_zh": "基于当前应用上下文的桌面AI助手，支持多模型和工具。"
+      "description_zh": "基于当前应用上下文的桌面AI助手，支持多模型和工具。",
+      "is_new": false
     },
     {
       "name": "ThinkInAIXYZ/deepchat",
@@ -3395,7 +3468,8 @@
       "score": 476.98,
       "rank": 74,
       "description_en": "🐬DeepChat - A smart assistant that connects powerful AI to your personal world",
-      "description_zh": "智能助手DeepChat，连接强大AI服务，助力个人应用。"
+      "description_zh": "智能助手DeepChat，连接强大AI服务，助力个人应用。",
+      "is_new": false
     },
     {
       "name": "dbgate/dbgate",
@@ -3450,7 +3524,8 @@
       "score": 475.66,
       "rank": 75,
       "description_en": "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application",
-      "description_zh": "支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。"
+      "description_zh": "支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。",
+      "is_new": false
     },
     {
       "name": "rullerzhou-afk/clawd-on-desk",
@@ -3492,7 +3567,8 @@
       "score": 475.57,
       "rank": 76,
       "description_en": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
-      "description_zh": "像素风桌面宠物，监控多种AI编程助手。"
+      "description_zh": "像素风桌面宠物，监控多种AI编程助手。",
+      "is_new": false
     },
     {
       "name": "JannisX11/blockbench",
@@ -3533,7 +3609,8 @@
       "score": 475.22,
       "rank": 77,
       "description_en": "Blockbench - A low poly 3D model editor",
-      "description_zh": "低多边形3D模型编辑器。"
+      "description_zh": "低多边形3D模型编辑器。",
+      "is_new": false
     },
     {
       "name": "op7418/CodePilot",
@@ -3573,7 +3650,8 @@
       "score": 473.91,
       "rank": 78,
       "description_en": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
-      "description_zh": "多模型AI代理桌面客户端，支持多AI服务和手机远程控制。"
+      "description_zh": "多模型AI代理桌面客户端，支持多AI服务和手机远程控制。",
+      "is_new": false
     },
     {
       "name": "netease-youdao/LobsterAI",
@@ -3622,7 +3700,8 @@
       "score": 473.25,
       "rank": 79,
       "description_en": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone via WeChat, Feishu, DingTalk & Telegram.",
-      "description_zh": "开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。"
+      "description_zh": "开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。",
+      "is_new": false
     },
     {
       "name": "HuLaSpark/HuLa",
@@ -3668,7 +3747,8 @@
       "score": 472.82,
       "rank": 80,
       "description_en": "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）",
-      "description_zh": "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）"
+      "description_zh": "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Windows、MacOS、Linux、Android、IOS）",
+      "is_new": false
     },
     {
       "name": "reqable/reqable-app",
@@ -3712,7 +3792,8 @@
       "score": 472.61,
       "rank": 81,
       "description_en": "Reqable issue track repo",
-      "description_zh": "Reqable问题跟踪仓库。"
+      "description_zh": "Reqable问题跟踪仓库。",
+      "is_new": false
     },
     {
       "name": "generalaction/emdash",
@@ -3764,7 +3845,8 @@
       "score": 472.38,
       "rank": 82,
       "description_en": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
-      "description_zh": "开源多代理开发环境，支持并行运行多种编码代理。"
+      "description_zh": "开源多代理开发环境，支持并行运行多种编码代理。",
+      "is_new": false
     },
     {
       "name": "MoeKoeMusic/MoeKoeMusic",
@@ -3806,7 +3888,8 @@
       "score": 471.48,
       "rank": 83,
       "description_en": "一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:",
-      "description_zh": "一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:"
+      "description_zh": "一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux / Web :electron:",
+      "is_new": false
     },
     {
       "name": "altair-graphql/altair",
@@ -3855,7 +3938,8 @@
       "score": 471.42,
       "rank": 84,
       "description_en": "✨⚡️ A feature-rich GraphQL Client for all platforms.",
-      "description_zh": "功能丰富的跨平台GraphQL客户端。"
+      "description_zh": "功能丰富的跨平台GraphQL客户端。",
+      "is_new": false
     },
     {
       "name": "thewh1teagle/vibe",
@@ -3894,7 +3978,8 @@
       "score": 470.82,
       "rank": 85,
       "description_en": "Transcribe on your own!",
-      "description_zh": "支持本地转录的语音转文字工具。"
+      "description_zh": "支持本地转录的语音转文字工具。",
+      "is_new": false
     },
     {
       "name": "OpenWhispr/openwhispr",
@@ -3942,7 +4027,8 @@
       "score": 469.16,
       "rank": 86,
       "description_en": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
-      "description_zh": "隐私优先的跨平台语音转文字应用，支持本地和云端模型。"
+      "description_zh": "隐私优先的跨平台语音转文字应用，支持本地和云端模型。",
+      "is_new": false
     },
     {
       "name": "domcyrus/rustnet",
@@ -3992,7 +4078,8 @@
       "score": 467.49,
       "rank": 87,
       "description_en": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
-      "description_zh": "支持深度包检测的跨平台终端网络监控工具。"
+      "description_zh": "支持深度包检测的跨平台终端网络监控工具。",
+      "is_new": false
     },
     {
       "name": "IsmaelMartinez/teams-for-linux",
@@ -4027,7 +4114,8 @@
       "score": 467.4,
       "rank": 88,
       "description_en": "Unofficial Microsoft Teams for Linux client",
-      "description_zh": "非官方Linux版微软Teams客户端。"
+      "description_zh": "非官方Linux版微软Teams客户端。",
+      "is_new": false
     },
     {
       "name": "Splode/pomotroid",
@@ -4067,7 +4155,8 @@
       "score": 466.1,
       "rank": 89,
       "description_en": ":tomato: Simple and visually-pleasing Pomodoro timer",
-      "description_zh": "简洁美观的番茄钟计时器。"
+      "description_zh": "简洁美观的番茄钟计时器。",
+      "is_new": false
     },
     {
       "name": "caamer20/Telegram-Drive",
@@ -4107,7 +4196,8 @@
       "score": 465.09,
       "rank": 90,
       "description_en": "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.",
-      "description_zh": "将Telegram账号变成无限安全云存储的开源桌面应用。"
+      "description_zh": "将Telegram账号变成无限安全云存储的开源桌面应用。",
+      "is_new": false
     },
     {
       "name": "purocean/yn",
@@ -4159,7 +4249,8 @@
       "score": 464.03,
       "rank": 91,
       "description_en": "A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.",
-      "description_zh": "高度可扩展的Markdown编辑器，集成版本控制和AI助手。"
+      "description_zh": "高度可扩展的Markdown编辑器，集成版本控制和AI助手。",
+      "is_new": false
     },
     {
       "name": "aandrew-me/ytDownloader",
@@ -4212,7 +4303,8 @@
       "score": 463.65,
       "rank": 92,
       "description_en": "Desktop App for downloading Videos and Audios from hundreds of sites",
-      "description_zh": "支持数百网站视频音频下载的桌面应用。"
+      "description_zh": "支持数百网站视频音频下载的桌面应用。",
+      "is_new": false
     },
     {
       "name": "oliverschwendener/ueli",
@@ -4252,7 +4344,8 @@
       "score": 462.76,
       "rank": 93,
       "description_en": "Cross-Platform Keystroke Launcher",
-      "description_zh": "跨平台键盘快捷启动器。"
+      "description_zh": "跨平台键盘快捷启动器。",
+      "is_new": false
     },
     {
       "name": "binaricat/Netcatty",
@@ -4296,7 +4389,8 @@
       "score": 462.62,
       "rank": 94,
       "description_en": "SSH workspace, SFTP, and terminals in one",
-      "description_zh": "集成SSH、SFTP和终端的工作空间工具。"
+      "description_zh": "集成SSH、SFTP和终端的工作空间工具。",
+      "is_new": false
     },
     {
       "name": "EcoPasteHub/EcoPaste",
@@ -4341,7 +4435,8 @@
       "score": 462.07,
       "rank": 95,
       "description_en": "🎉跨平台的剪贴板管理工具 | Cross-platform clipboard management tool",
-      "description_zh": "🎉跨平台的剪贴板管理工具"
+      "description_zh": "🎉跨平台的剪贴板管理工具",
+      "is_new": false
     },
     {
       "name": "freeplane/freeplane",
@@ -4389,7 +4484,8 @@
       "score": 461.95,
       "rank": 96,
       "description_en": "Application for Mind Mapping, Knowledge Management, Project Management. Develop, organize and communicate your ideas and knowledge in the most effective way.",
-      "description_zh": "是一款用于思维导图、知识管理和项目管理的应用，助你高效组织和传达想法。"
+      "description_zh": "是一款用于思维导图、知识管理和项目管理的应用，助你高效组织和传达想法。",
+      "is_new": true
     },
     {
       "name": "doublecmd/doublecmd",
@@ -4426,7 +4522,8 @@
       "score": 461.51,
       "rank": 97,
       "description_en": "Double Commander is a free cross platform open source file manager with two panels side by side.",
-      "description_zh": "Double Commander是一个免费开源的跨平台双面板文件管理器。"
+      "description_zh": "Double Commander是一个免费开源的跨平台双面板文件管理器。",
+      "is_new": false
     },
     {
       "name": "graphif/project-graph",
@@ -4470,7 +4567,8 @@
       "score": 459.13,
       "rank": 98,
       "description_en": "A node-based visual tool for organizing thoughts and notes in a non-linear way.",
-      "description_zh": "是一个基于节点的非线性思维和笔记可视化工具。"
+      "description_zh": "是一个基于节点的非线性思维和笔记可视化工具。",
+      "is_new": false
     },
     {
       "name": "TabularisDB/tabularis",
@@ -4524,7 +4622,8 @@
       "score": 458.85,
       "rank": 99,
       "description_en": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
-      "description_zh": "支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。"
+      "description_zh": "支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。",
+      "is_new": false
     },
     {
       "name": "kunkundi/crossdesk",
@@ -4572,7 +4671,8 @@
       "score": 456.83,
       "rank": 100,
       "description_en": "A lightweight, cross-platform remote desktop software with support for Web Client access | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
-      "description_zh": "一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。"
+      "description_zh": "一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。",
+      "is_new": false
     }
   ]
 }
