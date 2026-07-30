@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import json
 import math
 import os
@@ -17,7 +18,7 @@ from urllib.request import Request, urlopen
 
 GITHUB_API = "https://api.github.com"
 TRENDING_URL = "https://github.com/trending?since=daily"
-USER_AGENT = "github-cross-platform-trending/0.3"
+USER_AGENT = "github-cross-platform-trending/0.5"
 
 SEARCH_QUERIES = (
     "topic:desktop-app archived:false stars:>=100 pushed:>={recent}",
@@ -146,6 +147,24 @@ class GitHubClient:
         return self.get_json(
             f"/repos/{quote(full_name, safe='/')}/releases/latest"
         )
+
+    def readme_excerpt(self, full_name: str, max_chars: int = 2000) -> str:
+        payload = self.get_json(f"/repos/{quote(full_name, safe='/')}/readme")
+        if not payload or payload.get("encoding") != "base64":
+            return ""
+        try:
+            markdown = base64.b64decode(payload.get("content", "")).decode(
+                "utf-8",
+                errors="replace",
+            )
+        except (TypeError, ValueError):
+            return ""
+        markdown = re.sub(r"```.*?```", " ", markdown, flags=re.DOTALL)
+        markdown = re.sub(r"!\[([^\]]*)\]\([^)]+\)", r"\1", markdown)
+        markdown = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", markdown)
+        markdown = re.sub(r"<[^>]+>", " ", markdown)
+        markdown = re.sub(r"[#>*_`~=-]+", " ", markdown)
+        return re.sub(r"\s+", " ", markdown).strip()[:max_chars]
 
     def search(self, query: str, per_page: int = 100) -> list[dict[str, Any]]:
         result = self.get_json(
@@ -293,6 +312,8 @@ def _analyze_candidate(
         "homepage": repository.get("homepage") or None,
         "language": repository.get("language") or "未知",
         "topics": repository.get("topics", []),
+        "license": (repository.get("license") or {}).get("spdx_id") or None,
+        "created_at": repository.get("created_at"),
         "stars": int(repository.get("stargazers_count") or 0),
         "forks": int(repository.get("forks_count") or 0),
         "stars_today": candidate.stars_today,
@@ -396,3 +417,31 @@ def collect(
         "warnings": warnings,
     }
     return software, metadata
+
+
+def enrich_readme_context(
+    client: GitHubClient,
+    software: list[dict[str, Any]],
+) -> list[str]:
+    """为最终入榜项目补充仅用于详情分析的 README 摘要。"""
+    failures: list[str] = []
+
+    def load(item: dict[str, Any]) -> tuple[dict[str, Any], str]:
+        return item, client.readme_excerpt(item["name"])
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = {executor.submit(load, item): item for item in software}
+        for future in as_completed(futures):
+            item = futures[future]
+            try:
+                target, excerpt = future.result()
+                target["_readme_excerpt"] = excerpt
+            except RuntimeError:
+                item["_readme_excerpt"] = ""
+                failures.append(item["name"])
+
+    if failures:
+        return [
+            f"{len(failures)} 个项目的 README 读取失败，详情分析已改用仓库元数据"
+        ]
+    return []

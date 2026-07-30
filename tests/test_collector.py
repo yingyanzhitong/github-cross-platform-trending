@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import base64
 import unittest
 
 from cross_platform_trending.collector import (
+    GitHubClient,
     classify_repository,
     parse_trending,
 )
@@ -20,6 +22,27 @@ class ParseTrendingTests(unittest.TestCase):
         """
 
         self.assertEqual(parse_trending(html), [("owner/example", 1234)])
+
+
+class ReadmeExcerptTests(unittest.TestCase):
+    def test_decodes_and_cleans_markdown(self) -> None:
+        class StubClient(GitHubClient):
+            def get_json(self, path, params=None):
+                markdown = (
+                    "# Example\n"
+                    "[Documentation](https://example.com) for **desktop users**.\n"
+                    "```shell\nignored command\n```\n"
+                )
+                return {
+                    "encoding": "base64",
+                    "content": base64.b64encode(markdown.encode()).decode(),
+                }
+
+        excerpt = StubClient().readme_excerpt("owner/example")
+
+        self.assertEqual(excerpt, "Example Documentation for desktop users .")
+        self.assertNotIn("ignored command", excerpt)
+        self.assertNotIn("https://", excerpt)
 
 
 class ClassifyRepositoryTests(unittest.TestCase):

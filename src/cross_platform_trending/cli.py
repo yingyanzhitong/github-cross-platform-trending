@@ -8,7 +8,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from .collector import GitHubClient, collect
+from .collector import GitHubClient, collect, enrich_readme_context
 from .report import write_report
 from .translator import DescriptionTranslator
 
@@ -74,6 +74,7 @@ def main(argv: list[str] | None = None) -> int:
         limit=args.limit,
         max_candidates=args.max_candidates,
     )
+    metadata["warnings"].extend(enrich_readme_context(client, software))
     translator = DescriptionTranslator(
         token=client.token,
         cache_path=args.data_dir / "translations.json",

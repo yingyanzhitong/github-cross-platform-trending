@@ -22,6 +22,10 @@ class RenderMarkdownTests(unittest.TestCase):
                 "stars": 1200,
                 "forks": 100,
                 "language": "Rust",
+                "license": "MIT",
+                "topics": ["desktop-app", "download-manager"],
+                "homepage": "https://example.com",
+                "created_at": "2025-01-01T00:00:00Z",
                 "platform_evidence": {
                     "macos": ["Release: example.dmg"],
                     "windows": ["Release: example.exe"],
@@ -29,6 +33,12 @@ class RenderMarkdownTests(unittest.TestCase):
                 "pushed_at": "2026-07-29T00:00:00Z",
                 "latest_release": None,
                 "is_new": True,
+                "analysis_zh": {
+                    "positioning": "面向桌面用户的跨平台下载管理工具。",
+                    "capabilities": "管理下载任务；支持 macOS 与 Windows 客户端。",
+                    "use_cases": "适合需要统一管理桌面下载任务的用户。",
+                    "considerations": "使用前应核对项目文档与安装包签名。",
+                },
             }
         ]
 
@@ -40,7 +50,9 @@ class RenderMarkdownTests(unittest.TestCase):
         )
 
         self.assertIn("owner/example", markdown)
-        self.assertIn("中文简介：一款示例桌面应用。", markdown)
+        self.assertIn("| # | NEW | 软件 | 中文简介 |", markdown)
+        self.assertIn("| 🆕 **NEW** |", markdown)
+        self.assertIn("| 一款示例桌面应用。 |", markdown)
         self.assertNotIn("Example desktop app", markdown)
         self.assertIn("Daily Trending #2", markdown)
         self.assertIn("example.dmg", markdown)
@@ -53,6 +65,13 @@ class RenderMarkdownTests(unittest.TestCase):
         self.assertIn("[查看详情 ↓](#project-detail-1)", markdown)
         self.assertIn('<a id="project-detail-1"></a>', markdown)
         self.assertIn("[↑ 返回榜单中的本项目](#project-row-1)", markdown)
+        self.assertIn("#### 中文分析", markdown)
+        self.assertIn("**项目定位**：面向桌面用户的跨平台下载管理工具。", markdown)
+        self.assertIn("**核心能力**：管理下载任务", markdown)
+        self.assertIn("#### 项目概况", markdown)
+        self.assertIn("主要语言：Rust；许可证：MIT", markdown)
+        self.assertIn("主题标签：desktop-app、download-manager", markdown)
+        self.assertIn("#### 最新发布与安装", markdown)
 
     def test_marks_project_new_when_absent_from_previous_seven_days(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

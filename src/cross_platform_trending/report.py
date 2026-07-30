@@ -75,8 +75,8 @@ def render_markdown(
     else:
         lines.extend(
             [
-                "| # | 软件 | 热度 | Stars | 主要语言 | 平台证据 |",
-                "|---:|---|---|---:|---|---|",
+                "| # | NEW | 软件 | 中文简介 | 热度 | Stars | 主要语言 | 平台证据 | 详情 |",
+                "|---:|:---:|---|---|---|---:|---|---|:---:|",
             ]
         )
         for item in software:
@@ -84,11 +84,11 @@ def render_markdown(
             macos = "、".join(item["platform_evidence"]["macos"][:2])
             windows = "、".join(item["platform_evidence"]["windows"][:2])
             evidence = f"macOS 安装包：{macos}；Windows 安装包：{windows}"
-            new_label = " 🆕 **NEW**" if item.get("is_new") else ""
+            new_label = "🆕 **NEW**" if item.get("is_new") else "—"
             lines.append(
-                "| {rank} | <a id=\"project-row-{rank}\"></a>[{name}]({url}){new_label} · "
-                "[查看详情 ↓](#project-detail-{rank})<br>中文简介：{description} | {heat} | "
-                "{stars:,} | {language} | {evidence} |".format(
+                "| {rank} | {new_label} | <a id=\"project-row-{rank}\"></a>"
+                "[{name}]({url}) | {description} | {heat} | {stars:,} | "
+                "{language} | {evidence} | [查看详情 ↓](#project-detail-{rank}) |".format(
                     rank=item["rank"],
                     name=item["name"],
                     url=item["url"],
@@ -106,6 +106,8 @@ def render_markdown(
         for item in software:
             description_zh = item.get("description_zh") or item["description"]
             new_label = " 🆕 **NEW**" if item.get("is_new") else ""
+            analysis = item.get("analysis_zh") or {}
+            topics = "、".join(str(topic) for topic in item.get("topics", [])[:10])
             lines.extend(
                 [
                     f"<a id=\"project-detail-{item['rank']}\"></a>",
@@ -114,18 +116,44 @@ def render_markdown(
                     "",
                     f"[↑ 返回榜单中的本项目](#project-row-{item['rank']})",
                     "",
-                    description_zh,
+                    "#### 中文分析",
+                    "",
+                    f"- **项目定位**：{analysis.get('positioning') or description_zh}",
+                    f"- **核心能力**：{analysis.get('capabilities') or '请参考项目 README 与官方文档。'}",
+                    f"- **适用场景**：{analysis.get('use_cases') or '适合需要跨平台使用该类开源软件的用户。'}",
+                    f"- **关注事项**：{analysis.get('considerations') or '安装前请核对项目许可证、发布说明与安装包签名。'}",
+                    "",
+                    "#### 项目概况",
                     "",
                     f"- 热度：{_heat(item)}；累计 {item['stars']:,} 个星标 / {item['forks']:,} 次复刻",
-                    f"- macOS 安装包：{'；'.join(item['platform_evidence']['macos'])}",
-                    f"- Windows 安装包：{'；'.join(item['platform_evidence']['windows'])}",
+                    f"- 主要语言：{item['language']}；许可证：{item.get('license') or '未标注'}",
+                    f"- 主题标签：{topics or '未标注'}",
+                    f"- 仓库创建：{item.get('created_at') or '未知'}",
                     f"- 最近推送：{item['pushed_at'] or '未知'}",
+                ]
+            )
+            if item.get("homepage"):
+                lines.append(f"- 项目主页：[{item['homepage']}]({item['homepage']})")
+            lines.extend(
+                [
+                    "",
+                    "#### 最新发布与安装",
+                    "",
                 ]
             )
             if item.get("latest_release"):
                 release = item["latest_release"]
                 tag = release.get("tag") or "Latest Release"
-                lines.append(f"- 最新版本：[{tag}]({release['url']})")
+                published_at = release.get("published_at") or "未知"
+                lines.append(
+                    f"- 最新版本：[{tag}]({release['url']})；发布时间：{published_at}"
+                )
+            lines.extend(
+                [
+                    f"- macOS 安装包：{'；'.join(item['platform_evidence']['macos'])}",
+                    f"- Windows 安装包：{'；'.join(item['platform_evidence']['windows'])}",
+                ]
+            )
             lines.append("")
 
     if metadata.get("warnings"):
