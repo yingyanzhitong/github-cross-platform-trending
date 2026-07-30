@@ -1,4 +1,5 @@
 import type { ComponentProps } from "react"
+import { Download } from "lucide-react"
 import ReactMarkdown, { type Components } from "react-markdown"
 import rehypeRaw from "rehype-raw"
 import rehypeSanitize, { defaultSchema } from "rehype-sanitize"
@@ -49,15 +50,20 @@ function MarkdownLink({ href, children, ...props }: ComponentProps<"a">) {
   }
 
   const external = href.startsWith("http")
+  const releaseAsset = /^https:\/\/github\.com\/[^/]+\/[^/]+\/releases\/download\//.test(
+    href,
+  )
   return (
     <a
       href={href}
       {...props}
-      className="font-medium text-primary underline decoration-primary/25 underline-offset-4 transition-colors hover:decoration-primary"
-      target={external ? "_blank" : undefined}
+      className="inline-flex items-center gap-1 font-medium text-primary underline decoration-primary/25 underline-offset-4 transition-colors hover:decoration-primary"
+      target={external && !releaseAsset ? "_blank" : undefined}
       rel={external ? "noreferrer" : undefined}
+      title={releaseAsset ? "直接下载安装包" : undefined}
     >
       {children}
+      {releaseAsset ? <Download aria-hidden="true" className="size-3 shrink-0" /> : null}
     </a>
   )
 }

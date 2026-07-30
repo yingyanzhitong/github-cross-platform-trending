@@ -27,11 +27,15 @@ class RenderMarkdownTests(unittest.TestCase):
                 "homepage": "https://example.com",
                 "created_at": "2025-01-01T00:00:00Z",
                 "platform_evidence": {
-                    "macos": ["Release: example.dmg"],
-                    "windows": ["Release: example.exe"],
+                    "macos": ["Release: example 1.0+arm64.dmg"],
+                    "windows": ["Release: example 1.0+setup.exe"],
                 },
                 "pushed_at": "2026-07-29T00:00:00Z",
-                "latest_release": None,
+                "latest_release": {
+                    "tag": "v1.0.0+stable",
+                    "url": "https://github.com/owner/example/releases/tag/v1.0.0%2Bstable",
+                    "published_at": "2026-07-29T01:00:00Z",
+                },
                 "is_new": True,
                 "analysis_zh": {
                     "positioning": "面向桌面用户的跨平台下载管理工具。",
@@ -60,8 +64,18 @@ class RenderMarkdownTests(unittest.TestCase):
         self.assertIn("| 一款示例桌面应用。 |", markdown)
         self.assertNotIn("Example desktop app", markdown)
         self.assertIn("Daily Trending #2", markdown)
-        self.assertIn("example.dmg", markdown)
-        self.assertIn("example.exe", markdown)
+        macos_download_url = (
+            "https://github.com/owner/example/releases/download/"
+            "v1.0.0%2Bstable/example%201.0%2Barm64.dmg"
+        )
+        windows_download_url = (
+            "https://github.com/owner/example/releases/download/"
+            "v1.0.0%2Bstable/example%201.0%2Bsetup.exe"
+        )
+        self.assertIn("[example 1.0+arm64.dmg]", markdown)
+        self.assertIn("[example 1.0+setup.exe]", markdown)
+        self.assertEqual(markdown.count(macos_download_url), 2)
+        self.assertEqual(markdown.count(windows_download_url), 2)
         self.assertIn("macOS 安装包", markdown)
         self.assertIn("Windows 安装包", markdown)
         self.assertIn("1,200 个星标 / 100 次复刻", markdown)

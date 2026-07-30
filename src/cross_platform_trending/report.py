@@ -4,6 +4,7 @@ import json
 from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 
 def mark_new_projects(
@@ -48,6 +49,34 @@ def _heat(item: dict[str, Any]) -> str:
     return "近期活跃热门仓库"
 
 
+def _installer_download_link(item: dict[str, Any], evidence: str) -> str:
+    filename = evidence.removeprefix("Release: ").strip()
+    release = item.get("latest_release") or {}
+    repository_url = str(item.get("url") or "").rstrip("/")
+    tag = str(release.get("tag") or "")
+    if not filename or not repository_url or not tag:
+        return evidence
+
+    download_url = (
+        f"{repository_url}/releases/download/"
+        f"{quote(tag, safe='')}/{quote(filename, safe='')}"
+    )
+    return f"[{filename}]({download_url})"
+
+
+def _installer_links(
+    item: dict[str, Any],
+    platform: str,
+    *,
+    limit: int | None = None,
+    separator: str = "；",
+) -> str:
+    evidence = item["platform_evidence"][platform]
+    if limit is not None:
+        evidence = evidence[:limit]
+    return separator.join(_installer_download_link(item, value) for value in evidence)
+
+
 def render_markdown(
     report_date: str,
     software: list[dict[str, Any]],
@@ -82,8 +111,8 @@ def render_markdown(
         )
         for item in software:
             description_zh = item.get("description_zh") or item["description"]
-            macos = "、".join(item["platform_evidence"]["macos"][:2])
-            windows = "、".join(item["platform_evidence"]["windows"][:2])
+            macos = _installer_links(item, "macos", limit=2, separator="、")
+            windows = _installer_links(item, "windows", limit=2, separator="、")
             evidence = f"macOS 安装包：{macos}；Windows 安装包：{windows}"
             new_label = "🟢" if item.get("is_new") else "—"
             lines.append(
@@ -154,8 +183,8 @@ def render_markdown(
                 )
             lines.extend(
                 [
-                    f"- macOS 安装包：{'；'.join(item['platform_evidence']['macos'])}",
-                    f"- Windows 安装包：{'；'.join(item['platform_evidence']['windows'])}",
+                    f"- macOS 安装包：{_installer_links(item, 'macos')}",
+                    f"- Windows 安装包：{_installer_links(item, 'windows')}",
                 ]
             )
             lines.append("")
