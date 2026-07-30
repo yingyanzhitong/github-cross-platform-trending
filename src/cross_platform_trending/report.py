@@ -75,8 +75,8 @@ def render_markdown(
     else:
         lines.extend(
             [
-                "| # | NEW | 软件 | 中文简介 | 热度 | Stars | 主要语言 | 平台证据 | 详情 |",
-                "|---:|:---:|---|---|---|---:|---|---|:---:|",
+                "| 详情 ↘️ | NEW | 软件 | 中文简介 | 热度 | Stars | 主要语言 | 平台证据 |",
+                "|:---:|:---:|---|---|---|---:|---|---|",
             ]
         )
         for item in software:
@@ -86,9 +86,10 @@ def render_markdown(
             evidence = f"macOS 安装包：{macos}；Windows 安装包：{windows}"
             new_label = "🆕 **NEW**" if item.get("is_new") else "—"
             lines.append(
-                "| {rank} | {new_label} | <a id=\"project-row-{rank}\"></a>"
+                "| <a id=\"project-row-{rank}\"></a>"
+                "[#{rank} ↘️](#project-detail-{rank}) | {new_label} | "
                 "[{name}]({url}) | {description} | {heat} | {stars:,} | "
-                "{language} | {evidence} | [查看详情 ↓](#project-detail-{rank}) |".format(
+                "{language} | {evidence} |".format(
                     rank=item["rank"],
                     name=item["name"],
                     url=item["url"],
@@ -114,7 +115,7 @@ def render_markdown(
                     "",
                     f"### {item['rank']}. [{item['name']}]({item['url']}){new_label}",
                     "",
-                    f"[↑ 返回榜单中的本项目](#project-row-{item['rank']})",
+                    f"[↖️ 返回表格中的 #{item['rank']}](#project-row-{item['rank']})",
                     "",
                     "#### 中文分析",
                     "",

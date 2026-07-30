@@ -7,108 +7,108 @@
 - 已分析候选：600 个
 - 入榜软件：100 个
 
-| # | NEW | 软件 | 中文简介 | 热度 | Stars | 主要语言 | 平台证据 | 详情 |
-|---:|:---:|---|---|---|---:|---|---|:---:|
-| 1 | — | <a id="project-row-1"></a>[opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | 轻量级云原生地理信息系统平台。 | Daily Trending #1，今日 +671 Stars | 4,144 | TypeScript | macOS 安装包：Release: GeoLibre.Desktop_2.4.0_aarch64.dmg、Release: GeoLibre.Desktop_2.4.0_x64.dmg；Windows 安装包：Release: geolibre-desktop-2.4.0-x64.msix、Release: geolibre-desktop_windows_x64.exe | [查看详情 ↓](#project-detail-1) |
-| 2 | — | <a id="project-row-2"></a>[moeru-ai/airi](https://github.com/moeru-ai/airi) | 支持实时语音聊天和游戏的自托管智能伴侣。 | Daily Trending #2，今日 +682 Stars | 45,480 | TypeScript | macOS 安装包：Release: AIRI-0.11.3-darwin-arm64.dmg、Release: AIRI-0.11.3-darwin-x64.dmg；Windows 安装包：Release: AIRI-0.11.3-windows-x64-setup.exe | [查看详情 ↓](#project-detail-2) |
-| 3 | — | <a id="project-row-3"></a>[rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 开源自托管远程桌面替代方案。 | 近期活跃热门仓库 | 119,208 | Rust | macOS 安装包：Release: rustdesk-1.4.9-aarch64.dmg、Release: rustdesk-1.4.9-x86_64.dmg；Windows 安装包：Release: rustdesk-1.4.9-aarch64.exe、Release: rustdesk-1.4.9-aarch64.msi | [查看详情 ↓](#project-detail-3) |
-| 4 | — | <a id="project-row-4"></a>[farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 支持多智能代理的一体化跨平台桌面助手。 | 近期活跃热门仓库 | 122,332 | Rust | macOS 安装包：Release: CC-Switch-v3.18.0-macOS.dmg；Windows 安装包：Release: CC-Switch-v3.18.0-Windows-arm64.msi、Release: CC-Switch-v3.18.0-Windows.msi | [查看详情 ↓](#project-detail-4) |
-| 5 | — | <a id="project-row-5"></a>[nexu-io/open-design](https://github.com/nexu-io/open-design) | 本地优先的开源设计工具，支持多种导出格式。 | 近期活跃热门仓库 | 82,583 | TypeScript | macOS 安装包：Release: open-design-0.16.1-mac-arm64.dmg、Release: open-design-0.16.1-mac-x64.dmg；Windows 安装包：Release: open-design-0.16.1-win-x64-setup.exe | [查看详情 ↓](#project-detail-5) |
-| 6 | — | <a id="project-row-6"></a>[toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 隐私优先的开源下一代知识库平台。 | 近期活跃热门仓库 | 70,916 | TypeScript | macOS 安装包：Release: affine-0.27.3-stable-macos-arm64.dmg、Release: affine-0.27.3-stable-macos-x64.dmg；Windows 安装包：Release: affine-0.27.3-stable-windows-arm64.exe、Release: affine-0.27.3-stable-windows-arm64.nsis.exe | [查看详情 ↓](#project-detail-6) |
-| 7 | — | <a id="project-row-7"></a>[Eugeny/tabby](https://github.com/Eugeny/tabby) | 现代化终端工具。 | 近期活跃热门仓库 | 73,594 | TypeScript | macOS 安装包：Release: tabby-1.0.235-macos-arm64.dmg、Release: tabby-1.0.235-macos-x86_64.dmg；Windows 安装包：Release: tabby-1.0.235-setup-arm64.exe、Release: tabby-1.0.235-setup-x64.exe | [查看详情 ↓](#project-detail-7) |
-| 8 | — | <a id="project-row-8"></a>[PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) | 跨平台的命令行自动化工具。 | 近期活跃热门仓库 | 54,592 | C# | macOS 安装包：Release: powershell-7.6.4-osx-arm64.pkg、Release: powershell-7.6.4-osx-x64.pkg；Windows 安装包：Release: PowerShell-7.6.4-win-arm64.msi、Release: PowerShell-7.6.4-win-x64.msi | [查看详情 ↓](#project-detail-8) |
-| 9 | — | <a id="project-row-9"></a>[laurent22/joplin](https://github.com/laurent22/joplin) | 支持多平台同步的隐私笔记应用。 | 近期活跃热门仓库 | 55,775 | TypeScript | macOS 安装包：Release: Joplin-3.6.15-arm64.DMG、Release: Joplin-3.6.15.dmg；Windows 安装包：Release: Joplin-Setup-3.6.15.exe、Release: JoplinPortable.exe | [查看详情 ↓](#project-detail-9) |
-| 10 | — | <a id="project-row-10"></a>[WerWolv/ImHex](https://github.com/WerWolv/ImHex) | 适合逆向工程师的十六进制编辑器。 | 近期活跃热门仓库 | 54,322 | C++ | macOS 安装包：Release: imhex-1.38.1-macOS-arm64.dmg、Release: imhex-1.38.1-macOS-NoGPU-x86_64.dmg；Windows 安装包：Release: imhex-1.38.1-Windows-arm64.msi、Release: imhex-1.38.1-Windows-x86_64.msi | [查看详情 ↓](#project-detail-10) |
-| 11 | — | <a id="project-row-11"></a>[siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | 自托管的开源个人知识管理软件。 | 近期活跃热门仓库 | 45,490 | TypeScript | macOS 安装包：Release: siyuan-3.7.3-mac-arm64.dmg、Release: siyuan-3.7.3-mac.dmg；Windows 安装包：Release: siyuan-3.7.3-win-arm64.exe、Release: siyuan-3.7.3-win.exe | [查看详情 ↓](#project-detail-11) |
-| 12 | — | <a id="project-row-12"></a>[usebruno/bruno](https://github.com/usebruno/bruno) | 开源轻量级API测试和探索IDE。 | 近期活跃热门仓库 | 46,006 | JavaScript | macOS 安装包：Release: bruno_4.0.0_arm64_mac.dmg、Release: bruno_4.0.0_arm64_mac.pkg；Windows 安装包：Release: bruno_4.0.0_arm64_win.exe、Release: bruno_4.0.0_arm64_win.msi | [查看详情 ↓](#project-detail-12) |
-| 13 | — | <a id="project-row-13"></a>[marktext/marktext](https://github.com/marktext/marktext) | 简洁优雅的跨平台Markdown编辑器。 | 近期活跃热门仓库 | 59,311 | TypeScript | macOS 安装包：Release: marktext-mac-arm64-0.19.1.dmg、Release: marktext-mac-x64-0.19.1.dmg；Windows 安装包：Release: marktext-win-arm64-0.19.1-setup.exe、Release: marktext-win-x64-0.19.1-setup.exe | [查看详情 ↓](#project-detail-13) |
-| 14 | — | <a id="project-row-14"></a>[janhq/jan](https://github.com/janhq/jan) | 完全离线运行的开源ChatGPT替代品。 | 近期活跃热门仓库 | 43,771 | TypeScript | macOS 安装包：Release: Jan_0.8.4_universal.dmg；Windows 安装包：Release: Jan_0.8.4_x64-setup.exe | [查看详情 ↓](#project-detail-14) |
-| 15 | — | <a id="project-row-15"></a>[cli/cli](https://github.com/cli/cli) | GitHub官方命令行工具。 | 近期活跃热门仓库 | 45,499 | Go | macOS 安装包：Release: gh_2.96.0_macOS_universal.pkg；Windows 安装包：Release: gh_2.96.0_windows_386.msi、Release: gh_2.96.0_windows_amd64.msi | [查看详情 ↓](#project-detail-15) |
-| 16 | — | <a id="project-row-16"></a>[tw93/Pake](https://github.com/tw93/Pake) | 一键将网页转换为桌面应用。 | 近期活跃热门仓库 | 60,317 | Rust | macOS 安装包：Release: ChatGPT.dmg、Release: DeepSeek.dmg；Windows 安装包：Release: ChatGPT_x64.msi、Release: DeepSeek_x64.msi | [查看详情 ↓](#project-detail-16) |
-| 17 | — | <a id="project-row-17"></a>[LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Moonlight的自托管游戏流媒体服务器。 | 近期活跃热门仓库 | 39,717 | C++ | macOS 安装包：Release: Sunshine-macOS-arm64.dmg、Release: Sunshine-macOS-x86_64.dmg；Windows 安装包：Release: Sunshine-Windows-AMD64-installer.exe、Release: Sunshine-Windows-AMD64-installer.msi | [查看详情 ↓](#project-detail-17) |
-| 18 | — | <a id="project-row-18"></a>[TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) | 构建个人知识库的笔记软件。 | 近期活跃热门仓库 | 37,128 | TypeScript | macOS 安装包：Release: TriliumNotes-v0.104.1-macos-arm64.dmg、Release: TriliumNotes-v0.104.1-macos-x64.dmg；Windows 安装包：Release: TriliumNotes-v0.104.1-windows-arm64.exe、Release: TriliumNotes-v0.104.1-windows-x64.exe | [查看详情 ↓](#project-detail-18) |
-| 19 | — | <a id="project-row-19"></a>[agalwood/Motrix](https://github.com/agalwood/Motrix) | 功能完善的下载管理器。 | 近期活跃热门仓库 | 52,344 | JavaScript | macOS 安装包：Release: Motrix-1.8.19-arm64.dmg、Release: Motrix-1.8.19-universal.dmg；Windows 安装包：Release: Motrix-1.8.19-ia32.exe、Release: Motrix-1.8.19-x64.exe | [查看详情 ↓](#project-detail-19) |
-| 20 | — | <a id="project-row-20"></a>[DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | 基于next.js的AI辅助draw.io图表编辑应用。 | 近期活跃热门仓库 | 33,956 | TypeScript | macOS 安装包：Release: Next-AI-Draw.io-0.4.16-arm64.dmg、Release: Next-AI-Draw.io-0.4.16.dmg；Windows 安装包：Release: Next.AI.Draw.io.0.4.16.exe、Release: Next.AI.Draw.io.Setup.0.4.16.exe | [查看详情 ↓](#project-detail-20) |
-| 21 | — | <a id="project-row-21"></a>[stablyai/orca](https://github.com/stablyai/orca) | 支持多代理并行的AI开发环境。 | 近期活跃热门仓库 | 32,969 | TypeScript | macOS 安装包：Release: orca-macos-arm64.dmg、Release: orca-macos-x64.dmg；Windows 安装包：Release: orca-windows-setup.exe | [查看详情 ↓](#project-detail-21) |
-| 22 | — | <a id="project-row-22"></a>[KRTirtho/spotube](https://github.com/KRTirtho/spotube) | 开源跨平台音乐流媒体应用。 | 近期活跃热门仓库 | 48,004 | Dart | macOS 安装包：Release: Spotube-macos-universal.dmg、Release: Spotube-macos-universal.pkg；Windows 安装包：Release: Spotube-windows-x86_64-setup.exe | [查看详情 ↓](#project-detail-22) |
-| 23 | — | <a id="project-row-23"></a>[VSCodium/vscodium](https://github.com/VSCodium/vscodium) | 无微软品牌和遥测的VS Code二进制版。 | 近期活跃热门仓库 | 32,565 | Shell | macOS 安装包：Release: VSCodium.arm64.1.126.04524.dmg、Release: VSCodium.x64.1.126.04524.dmg；Windows 安装包：Release: VSCodium-x64-1.126.04524.msi、Release: VSCodium-x64-updates-disabled-1.126.04524.msi | [查看详情 ↓](#project-detail-23) |
-| 24 | — | <a id="project-row-24"></a>[flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | 功能强大且易用的截图软件。 | 近期活跃热门仓库 | 30,508 | C++ | macOS 安装包：Release: Flameshot-14.0-macos-arm64.dmg、Release: Flameshot-14.0-macos-intel.dmg；Windows 安装包：Release: Flameshot-14.0.0-win64.msi | [查看详情 ↓](#project-detail-24) |
-| 25 | — | <a id="project-row-25"></a>[pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop) | Pear：音乐播放器扩展。 | 近期活跃热门仓库 | 32,860 | TypeScript | macOS 安装包：Release: YouTube-Music-3.12.0-arm64.dmg、Release: YouTube-Music-3.12.0.dmg；Windows 安装包：Release: YouTube-Music-3.12.0.exe、Release: YouTube-Music-Web-Setup-3.12.0.exe | [查看详情 ↓](#project-detail-25) |
-| 26 | — | <a id="project-row-26"></a>[GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 便捷的网络流量监控工具。 | 近期活跃热门仓库 | 40,225 | Rust | macOS 安装包：Release: Sniffnet_macOS_AppleSilicon.dmg、Release: Sniffnet_macOS_Intel.dmg；Windows 安装包：Release: Sniffnet_Windows_arm64.msi、Release: Sniffnet_Windows_x64.msi | [查看详情 ↓](#project-detail-26) |
-| 27 | — | <a id="project-row-27"></a>[Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) | 跨平台高效启动器。 | 近期活跃热门仓库 | 27,177 | Go | macOS 安装包：Release: wox-mac-amd64.dmg、Release: wox-mac-arm64.dmg；Windows 安装包：Release: wox-windows-amd64.exe | [查看详情 ↓](#project-detail-27) |
-| 28 | — | <a id="project-row-28"></a>[Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI) | 图形化包管理器管理工具。 | 近期活跃热门仓库 | 25,277 | C# | macOS 安装包：Release: UniGetUI.macos-arm64.dmg、Release: UniGetUI.macos-x64.dmg；Windows 安装包：Release: UniGetUI.Installer.arm64.exe、Release: UniGetUI.Installer.exe | [查看详情 ↓](#project-detail-28) |
-| 29 | — | <a id="project-row-29"></a>[cjpais/Handy](https://github.com/cjpais/Handy) | 完全离线的开源语音转文字应用。 | 近期活跃热门仓库 | 27,863 | Rust | macOS 安装包：Release: Handy_0.9.4_aarch64.dmg、Release: Handy_0.9.4_x64.dmg；Windows 安装包：Release: Handy_0.9.4_arm64-setup.exe、Release: Handy_0.9.4_arm64_en-US.msi | [查看详情 ↓](#project-detail-29) |
-| 30 | — | <a id="project-row-30"></a>[beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) | Beekeeper Studio：现代易用的多数据库SQL客户端。 | 近期活跃热门仓库 | 23,279 | TypeScript | macOS 安装包：Release: Beekeeper-Studio-5.9.2-arm64.dmg、Release: Beekeeper-Studio-5.9.2.dmg；Windows 安装包：Release: Beekeeper-Studio-5.9.2-portable.exe、Release: Beekeeper-Studio-Setup-5.9.2.exe | [查看详情 ↓](#project-detail-30) |
-| 31 | — | <a id="project-row-31"></a>[wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) | 集成AI的跨平台终端工具。 | 近期活跃热门仓库 | 21,855 | Go | macOS 安装包：Release: Wave-darwin-arm64-0.14.5.dmg、Release: Wave-darwin-x64-0.14.5.dmg；Windows 安装包：Release: Wave-win32-x64-0.14.5.exe、Release: Wave-win32-x64-0.14.5.msi | [查看详情 ↓](#project-detail-31) |
-| 32 | — | <a id="project-row-32"></a>[super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | Super Productivity：集成时间管理的高级待办事项应用。 | 近期活跃热门仓库 | 20,989 | TypeScript | macOS 安装包：Release: superProductivity-arm64.dmg、Release: superProductivity-universal.dmg；Windows 安装包：Release: Super-Productivity-Setup-arm64.exe、Release: Super-Productivity-Setup-x64.exe | [查看详情 ↓](#project-detail-32) |
-| 33 | — | <a id="project-row-33"></a>[GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | 支持多协议的高速跨平台下载管理器。 | 近期活跃热门仓库 | 25,543 | Go | macOS 安装包：Release: Gopeed-v1.9.3-macos-amd64.dmg、Release: Gopeed-v1.9.3-macos-arm64.dmg；Windows 安装包：Release: Gopeed-v1.9.3-windows-amd64.exe、Release: Gopeed-v1.9.3-windows-arm64.exe | [查看详情 ↓](#project-detail-33) |
-| 34 | — | <a id="project-row-34"></a>[mountain-loop/yaak](https://github.com/mountain-loop/yaak) | 直观的桌面API客户端，支持多种协议。 | 近期活跃热门仓库 | 18,910 | TypeScript | macOS 安装包：Release: Yaak_2026.5.0_aarch64.dmg、Release: Yaak_2026.5.0_x64.dmg；Windows 安装包：Release: Yaak_2026.5.0_arm64-setup-machine.exe、Release: Yaak_2026.5.0_arm64-setup.exe | [查看详情 ↓](#project-detail-34) |
-| 35 | — | <a id="project-row-35"></a>[nukeop/nuclear](https://github.com/nukeop/nuclear) | 免费音乐流媒体播放器。 | 近期活跃热门仓库 | 18,147 | TypeScript | macOS 安装包：Release: Nuclear_1.43.2_aarch64.dmg、Release: Nuclear_1.43.2_x64.dmg；Windows 安装包：Release: Nuclear_1.43.2_x64-setup.exe、Release: Nuclear_1.43.2_x64_en-US.msi | [查看详情 ↓](#project-detail-35) |
-| 36 | — | <a id="project-row-36"></a>[ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | 免费开源的自动化时间追踪器。 | 近期活跃热门仓库 | 18,423 | Python | macOS 安装包：Release: activitywatch-v0.13.2-macos-x86_64.dmg；Windows 安装包：Release: activitywatch-v0.13.2-windows-x86_64-setup.exe | [查看详情 ↓](#project-detail-36) |
-| 37 | — | <a id="project-row-37"></a>[audacity/audacity](https://github.com/audacity/audacity) | 音频编辑器。 | 近期活跃热门仓库 | 17,454 | C++ | macOS 安装包：Release: audacity-macOS-3.7.8-arm64.dmg、Release: audacity-macOS-3.7.8-universal.dmg；Windows 安装包：Release: audacity-win-3.7.8-32bit.exe、Release: audacity-win-3.7.8-64bit.exe | [查看详情 ↓](#project-detail-37) |
-| 38 | 🆕 **NEW** | <a id="project-row-38"></a>[kurikomi-labs/komi-store](https://github.com/kurikomi-labs/komi-store) | 是一个免费开源的开发者应用商店，支持 GitHub、Codeberg 和 Forgejo 一键浏览安装。 | 近期活跃热门仓库 | 17,136 | Kotlin | macOS 安装包：Release: Komi-Store-1.9.2-arm64.dmg、Release: Komi-Store-1.9.2-x64.dmg；Windows 安装包：Release: Komi-Store-1.9.2.exe、Release: Komi-Store-1.9.2.msi | [查看详情 ↓](#project-detail-38) |
-| 39 | — | <a id="project-row-39"></a>[rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 具备记忆功能的开源AI助手。 | 近期活跃热门仓库 | 16,883 | TypeScript | macOS 安装包：Release: Rowboat-darwin-arm64-0.8.3.dmg、Release: Rowboat-darwin-x64-0.8.3.dmg；Windows 安装包：Release: Rowboat-win32-x64-0.8.3-setup.exe | [查看详情 ↓](#project-detail-39) |
-| 40 | — | <a id="project-row-40"></a>[keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) | 跨平台的KeePass密码管理器移植版。 | 近期活跃热门仓库 | 28,203 | C++ | macOS 安装包：Release: KeePassXC-2.7.12-arm64.dmg、Release: KeePassXC-2.7.12-x86_64.dmg；Windows 安装包：Release: KeePassXC-2.7.12-Win64-LegacyWindows.msi、Release: KeePassXC-2.7.12-Win64.msi | [查看详情 ↓](#project-detail-40) |
-| 41 | — | <a id="project-row-41"></a>[alacritty/alacritty](https://github.com/alacritty/alacritty) | 跨平台OpenGL终端模拟器。 | 近期活跃热门仓库 | 65,148 | Rust | macOS 安装包：Release: Alacritty-v0.17.0.dmg；Windows 安装包：Release: Alacritty-v0.17.0-installer.msi、Release: Alacritty-v0.17.0-portable.exe | [查看详情 ↓](#project-detail-41) |
-| 42 | — | <a id="project-row-42"></a>[mltframework/shotcut](https://github.com/mltframework/shotcut) | 跨平台开源视频编辑器，基于Qt和GPLv3。 | 近期活跃热门仓库 | 14,659 | C++ | macOS 安装包：Release: shotcut-macos-26.6.25.dmg、Release: shotcut-macos-unsigned-26.6.25.dmg；Windows 安装包：Release: shotcut-win64-26.6.25.exe、Release: shotcut-win_ARM-26.6.25.exe | [查看详情 ↓](#project-detail-42) |
-| 43 | — | <a id="project-row-43"></a>[streetwriters/notesnook](https://github.com/streetwriters/notesnook) | 完全开源且端到端加密的笔记软件，Evernote替代品。 | 近期活跃热门仓库 | 14,338 | TypeScript | macOS 安装包：Release: notesnook_mac_arm64.dmg、Release: notesnook_mac_x64.dmg；Windows 安装包：Release: notesnook_win.exe、Release: notesnook_win_arm64.exe | [查看详情 ↓](#project-detail-43) |
-| 44 | — | <a id="project-row-44"></a>[Termix-SSH/Termix](https://github.com/Termix-SSH/Termix) | 自托管的SSH和远程桌面管理工具。 | 近期活跃热门仓库 | 14,526 | TypeScript | macOS 安装包：Release: termix_macos_arm64_dmg.dmg、Release: termix_macos_universal_dmg.dmg；Windows 安装包：Release: termix_windows_ia32_msi.msi、Release: termix_windows_ia32_nsis.exe | [查看详情 ↓](#project-detail-44) |
-| 45 | — | <a id="project-row-45"></a>[electerm/electerm](https://github.com/electerm/electerm) | 支持多协议的终端和远程连接客户端，跨平台支持多系统。 | 近期活跃热门仓库 | 14,606 | JavaScript | macOS 安装包：Release: electerm-3.15.171-mac-arm64.dmg、Release: electerm-3.15.171-mac-x64.dmg；Windows 安装包：Release: electerm-3.15.171-win-arm64-installer.exe、Release: electerm-3.15.171-win-x64-installer.exe | [查看详情 ↓](#project-detail-45) |
-| 46 | — | <a id="project-row-46"></a>[NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha) | 本地优先的跨平台桌面工作空间，支持多智能体和多模型。 | 近期活跃热门仓库 | 13,754 | TypeScript | macOS 安装包：Release: Claude-Code-Haha-0.5.0-mac-arm64.dmg、Release: Claude-Code-Haha-0.5.0-mac-x64.dmg；Windows 安装包：Release: Claude-Code-Haha-0.5.0-win-arm64.exe、Release: Claude-Code-Haha-0.5.0-win-x64.exe | [查看详情 ↓](#project-detail-46) |
-| 47 | — | <a id="project-row-47"></a>[lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 一个基于 Electron 的音乐软件 | 近期活跃热门仓库 | 52,423 | TypeScript | macOS 安装包：Release: lx-music-desktop-2.12.2-arm64.dmg、Release: lx-music-desktop-2.12.2-x64.dmg；Windows 安装包：Release: lx-music-desktop-v2.12.2-arm64-Setup.exe、Release: lx-music-desktop-v2.12.2-win7_x64-Setup.exe | [查看详情 ↓](#project-detail-47) |
-| 48 | — | <a id="project-row-48"></a>[amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) | 加速下载的下载管理器。 | 近期活跃热门仓库 | 16,929 | Kotlin | macOS 安装包：Release: ABDownloadManager_1.10.1_mac_arm64.dmg、Release: ABDownloadManager_1.10.1_mac_x64.dmg；Windows 安装包：Release: ABDownloadManager_1.10.1_windows_arm64.exe、Release: ABDownloadManager_1.10.1_windows_x64.exe | [查看详情 ↓](#project-detail-48) |
-| 49 | — | <a id="project-row-49"></a>[t8y2/dbx](https://github.com/t8y2/dbx) | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。 | 近期活跃热门仓库 | 12,452 | Rust | macOS 安装包：Release: DBX_0.5.69_aarch64.dmg、Release: DBX_0.5.69_x64.dmg；Windows 安装包：Release: DBX_0.5.69_arm64-setup.exe、Release: DBX_0.5.69_arm64-webview2-offline-setup.exe | [查看详情 ↓](#project-detail-49) |
-| 50 | — | <a id="project-row-50"></a>[codexu/note-gen](https://github.com/codexu/note-gen) | 跨平台的Markdown AI笔记软件。 | 近期活跃热门仓库 | 12,391 | TypeScript | macOS 安装包：Release: NoteGen_0.33.0_aarch64.dmg、Release: NoteGen_0.33.0_x64.dmg；Windows 安装包：Release: NoteGen_0.33.0_x64-setup.exe、Release: NoteGen_0.33.0_x64_en-US.msi | [查看详情 ↓](#project-detail-50) |
-| 51 | — | <a id="project-row-51"></a>[Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) | 一站式出版工作平台。 | 近期活跃热门仓库 | 13,311 | TypeScript | macOS 安装包：Release: Zettlr-4.7.0-arm64.dmg、Release: Zettlr-4.7.0-x64.dmg；Windows 安装包：Release: Zettlr-4.7.0-x64.exe | [查看详情 ↓](#project-detail-51) |
-| 52 | — | <a id="project-row-52"></a>[getpaseo/paseo](https://github.com/getpaseo/paseo) | 桌面和移动端多智能体编程协调工具。 | 近期活跃热门仓库 | 11,678 | TypeScript | macOS 安装包：Release: Paseo-0.2.4-arm64.dmg、Release: Paseo-0.2.4-x64.dmg；Windows 安装包：Release: Paseo-Setup-0.2.4-arm64.exe、Release: Paseo-Setup-0.2.4-x64.exe | [查看详情 ↓](#project-detail-52) |
-| 53 | — | <a id="project-row-53"></a>[dail8859/NotepadNext](https://github.com/dail8859/NotepadNext) | 跨平台的Notepad++重实现文本编辑器。 | 近期活跃热门仓库 | 14,408 | C++ | macOS 安装包：Release: NotepadNext-v0.14.dmg；Windows 安装包：Release: NotepadNext-v0.14-Installer.exe | [查看详情 ↓](#project-detail-53) |
-| 54 | — | <a id="project-row-54"></a>[HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation. | 近期活跃热门仓库 | 13,050 | TypeScript | macOS 安装包：Release: ToonFlow-1.1.8-mac-arm64.dmg、Release: ToonFlow-1.1.8-mac-x64.dmg；Windows 安装包：Release: ToonFlow-1.1.8-win-arm64-setup.exe、Release: ToonFlow-1.1.8-win-x64-setup.exe | [查看详情 ↓](#project-detail-54) |
-| 55 | — | <a id="project-row-55"></a>[lapce/lapce](https://github.com/lapce/lapce) | 用Rust编写的极速强大代码编辑器。 | 近期活跃热门仓库 | 38,706 | Rust | macOS 安装包：Release: Lapce-macos.dmg；Windows 安装包：Release: Lapce-windows.msi | [查看详情 ↓](#project-detail-55) |
-| 56 | — | <a id="project-row-56"></a>[espanso/espanso](https://github.com/espanso/espanso) | 注重隐私的跨平台文本扩展工具，Rust开发。 | 近期活跃热门仓库 | 14,203 | Rust | macOS 安装包：Release: Espanso-Mac-Universal.dmg；Windows 安装包：Release: Espanso-Win-Installer-x86_64.exe | [查看详情 ↓](#project-detail-56) |
-| 57 | — | <a id="project-row-57"></a>[hluk/CopyQ](https://github.com/hluk/CopyQ) | 功能丰富的剪贴板管理器。 | 近期活跃热门仓库 | 12,051 | C++ | macOS 安装包：Release: CopyQ-16.0.0-macos-12-m1.dmg、Release: CopyQ-16.0.0-macos-13.dmg；Windows 安装包：Release: copyq-16.0.0-setup.exe | [查看详情 ↓](#project-detail-57) |
-| 58 | — | <a id="project-row-58"></a>[webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop) | 支持Mac、Windows和Linux的流媒体种子客户端。 | 近期活跃热门仓库 | 10,094 | JavaScript | macOS 安装包：Release: WebTorrent-v0.24.0.dmg；Windows 安装包：Release: WebTorrentSetup-v0.24.0.exe | [查看详情 ↓](#project-detail-58) |
-| 59 | — | <a id="project-row-59"></a>[getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 免费本地工具，跟踪31款AI编码工具的令牌使用和费用。 | 近期活跃热门仓库 | 9,022 | TypeScript | macOS 安装包：Release: CodeBurn-0.9.19-arm64.dmg、Release: CodeBurn-0.9.19.dmg；Windows 安装包：Release: CodeBurn-Setup-0.9.19.exe | [查看详情 ↓](#project-detail-59) |
-| 60 | — | <a id="project-row-60"></a>[CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW) | 高性能GPU加速的非破坏性RAW图像编辑器。 | 近期活跃热门仓库 | 9,021 | TypeScript | macOS 安装包：Release: 02_RapidRAW_v1.6.0_macos-14_aarch64.dmg、Release: 02_RapidRAW_v1.6.0_macos-15-intel_x64.dmg；Windows 安装包：Release: 01_RapidRAW_v1.6.0_windows-11-arm_arm64.exe、Release: 01_RapidRAW_v1.6.0_windows-11-arm_arm64.msi | [查看详情 ↓](#project-detail-60) |
-| 61 | — | <a id="project-row-61"></a>[crynta/terax-ai](https://github.com/crynta/terax-ai) | 轻量级终端优先的AI开发工作空间。 | 近期活跃热门仓库 | 8,746 | TypeScript | macOS 安装包：Release: Terax_0.8.6_aarch64.dmg、Release: Terax_0.8.6_x64.dmg；Windows 安装包：Release: Terax_0.8.6_x64-setup.exe、Release: Terax_0.8.6_x64_en-US.msi | [查看详情 ↓](#project-detail-61) |
-| 62 | — | <a id="project-row-62"></a>[tonyantony300/dashbeam](https://github.com/tonyantony300/dashbeam) | 无需云存储，全球传输任意大小文件的工具。 | 近期活跃热门仓库 | 8,879 | TypeScript | macOS 安装包：Release: AltSendme_0.6.0_aarch64.dmg、Release: AltSendme_0.6.0_universal.dmg；Windows 安装包：Release: AltSendme_0.6.0_arm64-setup.exe、Release: AltSendme_0.6.0_x64-setup.exe | [查看详情 ↓](#project-detail-62) |
-| 63 | — | <a id="project-row-63"></a>[jeffvli/feishin](https://github.com/jeffvli/feishin) | 现代自托管音乐播放器。 | 近期活跃热门仓库 | 9,288 | TypeScript | macOS 安装包：Release: Feishin-1.15.1-mac-arm64.dmg、Release: Feishin-1.15.1-mac-x64.dmg；Windows 安装包：Release: Feishin-1.15.1-win-arm64.exe、Release: Feishin-1.15.1-win-x64.exe | [查看详情 ↓](#project-detail-63) |
-| 64 | — | <a id="project-row-64"></a>[mockoon/mockoon](https://github.com/mockoon/mockoon) | 本地快速运行模拟API的开源工具，无需账号。 | 近期活跃热门仓库 | 8,342 | TypeScript | macOS 安装包：Release: mockoon.setup.9.7.0.arm64.dmg、Release: mockoon.setup.9.7.0.universal.dmg；Windows 安装包：Release: mockoon.portable.9.7.0.exe、Release: mockoon.setup.9.7.0.exe | [查看详情 ↓](#project-detail-64) |
-| 65 | — | <a id="project-row-65"></a>[XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | 基于Python和Qt的跨平台多协议并发下载器。 | 近期活跃热门仓库 | 7,646 | Python | macOS 安装包：Release: Ghost-Downloader-v4.2.2-macOS-arm64.dmg、Release: Ghost-Downloader-v4.2.2-macOS-x86_64.dmg；Windows 安装包：Release: Ghost-Downloader-v4.2.2-Windows-arm64-Setup.exe、Release: Ghost-Downloader-v4.2.2-Windows-x86_64-Setup.exe | [查看详情 ↓](#project-detail-65) |
-| 66 | — | <a id="project-row-66"></a>[rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop) | 桌面容器管理和Kubernetes工具。 | 近期活跃热门仓库 | 7,259 | TypeScript | macOS 安装包：Release: Rancher.Desktop-1.24.0.aarch64.dmg、Release: Rancher.Desktop-1.24.0.x86_64.dmg；Windows 安装包：Release: Rancher.Desktop.Setup.1.24.0.msi | [查看详情 ↓](#project-detail-66) |
-| 67 | — | <a id="project-row-67"></a>[open-pencil/open-pencil](https://github.com/open-pencil/open-pencil) | 开源AI设计编辑器，Figma替代方案。 | 近期活跃热门仓库 | 7,480 | TypeScript | macOS 安装包：Release: OpenPencil_0.13.2_aarch64.dmg、Release: OpenPencil_0.13.2_x64.dmg；Windows 安装包：Release: OpenPencil_0.13.2_arm64-setup.exe、Release: OpenPencil_0.13.2_arm64_en-US.msi | [查看详情 ↓](#project-detail-67) |
-| 68 | — | <a id="project-row-68"></a>[mediago-dev/mediago](https://github.com/mediago-dev/mediago) | 跨平台视频下载器，支持m3u8/HLS及主流视频网站。 | 近期活跃热门仓库 | 9,099 | TypeScript | macOS 安装包：Release: mediago-community-setup-darwin-arm64-3.5.0.dmg、Release: mediago-community-setup-darwin-x64-3.5.0.dmg；Windows 安装包：Release: mediago-community-portable-win32-x64-3.5.0.exe、Release: mediago-community-setup-win32-x64-3.5.0.exe | [查看详情 ↓](#project-detail-68) |
-| 69 | — | <a id="project-row-69"></a>[PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor) | 通用2D图像编辑器。 | 近期活跃热门仓库 | 7,909 | C# | macOS 安装包：Release: PixiEditor-2.1.2.1-universal-macos.dmg；Windows 安装包：Release: PixiEditor-2.1.2.1-setup-x64-win.exe | [查看详情 ↓](#project-detail-69) |
-| 70 | — | <a id="project-row-70"></a>[4gray/iptvnator](https://github.com/4gray/iptvnator) | 跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。 | 近期活跃热门仓库 | 6,725 | TypeScript | macOS 安装包：Release: iptvnator-0.22.0-mac-arm64.dmg、Release: iptvnator-0.22.0-mac-x64.dmg；Windows 安装包：Release: iptvnator-0.22.0-windows-x64-setup.exe | [查看详情 ↓](#project-detail-70) |
-| 71 | — | <a id="project-row-71"></a>[massCodeIO/massCode](https://github.com/massCodeIO/massCode) | 免费开源开发者工作空间，集成代码片段、笔记、HTTP请求和开发工具。 | 近期活跃热门仓库 | 6,934 | TypeScript | macOS 安装包：Release: massCode-5.9.1-arm64.dmg、Release: massCode-5.9.1.dmg；Windows 安装包：Release: massCode-5.9.1-x64-portable.exe、Release: massCode-5.9.1-x64.exe | [查看详情 ↓](#project-detail-71) |
-| 72 | — | <a id="project-row-72"></a>[raphamorim/rio](https://github.com/raphamorim/rio) | 硬件加速GPU终端模拟器，支持桌面和浏览器运行。 | 近期活跃热门仓库 | 7,099 | Rust | macOS 安装包：Release: Canario-0.0.1.dmg、Release: rio.dmg；Windows 安装包：Release: rio-installer-aarch64.msi、Release: rio-installer-x86_64.msi | [查看详情 ↓](#project-detail-72) |
-| 73 | — | <a id="project-row-73"></a>[ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 智能助手DeepChat，连接强大AI服务，助力个人应用。 | 近期活跃热门仓库 | 6,173 | TypeScript | macOS 安装包：Release: DeepChat-1.0.9-mac-arm64.dmg、Release: DeepChat-1.0.9-mac-x64.dmg；Windows 安装包：Release: DeepChat-1.0.9-windows-arm64.exe、Release: DeepChat-1.0.9-windows-x64.exe | [查看详情 ↓](#project-detail-73) |
-| 74 | — | <a id="project-row-74"></a>[Sylinko/Everywhere](https://github.com/Sylinko/Everywhere) | 基于当前应用上下文的桌面AI助手，支持多模型和工具。 | 近期活跃热门仓库 | 6,197 | C# | macOS 安装包：Release: Everywhere-macOS-arm64-v0.8.0.pkg、Release: Everywhere-macOS-x64-v0.8.0.pkg；Windows 安装包：Release: Everywhere-Windows-x64-Setup-v0.8.0.exe | [查看详情 ↓](#project-detail-74) |
-| 75 | — | <a id="project-row-75"></a>[netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI) | 开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。 | 近期活跃热门仓库 | 5,719 | TypeScript | macOS 安装包：Release: LobsterAI--mac-arm64.dmg、Release: LobsterAI--mac-x64.dmg；Windows 安装包：Release: LobsterAI--win-x64.exe | [查看详情 ↓](#project-detail-75) |
-| 76 | — | <a id="project-row-76"></a>[rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) | 像素风桌面宠物，监控多种AI编程助手。 | 近期活跃热门仓库 | 5,714 | JavaScript | macOS 安装包：Release: Clawd-on-Desk-0.13.0-arm64.dmg、Release: Clawd-on-Desk-0.13.0-x64.dmg；Windows 安装包：Release: Clawd-on-Desk-Setup-0.13.0-arm64.exe、Release: Clawd-on-Desk-Setup-0.13.0-x64.exe | [查看详情 ↓](#project-detail-76) |
-| 77 | — | <a id="project-row-77"></a>[dbgate/dbgate](https://github.com/dbgate/dbgate) | 支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。 | 近期活跃热门仓库 | 7,176 | Svelte | macOS 安装包：Release: dbgate-7.2.3-mac_arm64.dmg、Release: dbgate-7.2.3-mac_universal.dmg；Windows 安装包：Release: dbgate-7.2.3-win.exe、Release: dbgate-7.2.3-win_arm64.exe | [查看详情 ↓](#project-detail-77) |
-| 78 | — | <a id="project-row-78"></a>[JannisX11/blockbench](https://github.com/JannisX11/blockbench) | 低多边形3D模型编辑器。 | 近期活跃热门仓库 | 5,711 | JavaScript | macOS 安装包：Release: Blockbench_arm64_5.1.6.dmg、Release: Blockbench_x64_5.1.6.dmg；Windows 安装包：Release: Blockbench_5.1.6.exe、Release: Blockbench_5.1.6_portable.exe | [查看详情 ↓](#project-detail-78) |
-| 79 | — | <a id="project-row-79"></a>[op7418/CodePilot](https://github.com/op7418/CodePilot) | 多模型AI代理桌面客户端，支持多AI服务和手机远程控制。 | 近期活跃热门仓库 | 6,255 | TypeScript | macOS 安装包：Release: CodePilot-0.61.0-arm64.dmg、Release: CodePilot-0.61.0-x64.dmg；Windows 安装包：Release: CodePilot.Setup.0.61.0.exe | [查看详情 ↓](#project-detail-79) |
-| 80 | — | <a id="project-row-80"></a>[HuLaSpark/HuLa](https://github.com/HuLaSpark/HuLa) | 是一款基于Rust+Vue3的跨平台高性能即时通讯桌面应用，支持多系统。 | 近期活跃热门仓库 | 7,463 | Vue | macOS 安装包：Release: HuLa_3.0.9_aarch64.dmg、Release: HuLa_3.0.9_x64.dmg；Windows 安装包：Release: HuLa_3.0.9_x64-setup.exe、Release: HuLa_3.0.9_x64_zh-CN.msi | [查看详情 ↓](#project-detail-80) |
-| 81 | — | <a id="project-row-81"></a>[reqable/reqable-app](https://github.com/reqable/reqable-app) | Reqable问题跟踪仓库。 | 近期活跃热门仓库 | 6,572 | 未知 | macOS 安装包：Release: reqable-app-macos-arm64.dmg、Release: reqable-app-macos-x86_64.dmg；Windows 安装包：Release: reqable-app-windows-x86_64.exe | [查看详情 ↓](#project-detail-81) |
-| 82 | — | <a id="project-row-82"></a>[generalaction/emdash](https://github.com/generalaction/emdash) | 开源多代理开发环境，支持并行运行多种编码代理。 | 近期活跃热门仓库 | 5,294 | TypeScript | macOS 安装包：Release: emdash-arm64.dmg、Release: emdash-x64.dmg；Windows 安装包：Release: emdash-x64.exe、Release: emdash-x64.msi | [查看详情 ↓](#project-detail-82) |
-| 83 | — | <a id="project-row-83"></a>[MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic) | 是开源简洁美观的酷狗第三方客户端，支持多平台。 | 近期活跃热门仓库 | 6,033 | Vue | macOS 安装包：Release: MoeKoe_Music_v1.6.9-arm64.dmg、Release: MoeKoe_Music_v1.6.9-x64.dmg；Windows 安装包：Release: MoeKoe_Music_Setup_v1.6.9-ia32.exe、Release: MoeKoe_Music_Setup_v1.6.9-x64.exe | [查看详情 ↓](#project-detail-83) |
-| 84 | — | <a id="project-row-84"></a>[altair-graphql/altair](https://github.com/altair-graphql/altair) | 功能丰富的跨平台GraphQL客户端。 | 近期活跃热门仓库 | 5,425 | TypeScript | macOS 安装包：Release: altair_8.5.7_arm64_mac.dmg、Release: altair_8.5.7_x64_mac.dmg；Windows 安装包：Release: altair_8.5.7_x64_win.exe | [查看详情 ↓](#project-detail-84) |
-| 85 | — | <a id="project-row-85"></a>[thewh1teagle/vibe](https://github.com/thewh1teagle/vibe) | 支持本地转录的语音转文字工具。 | 近期活跃热门仓库 | 6,957 | TypeScript | macOS 安装包：Release: vibe_3.0.23_aarch64.dmg、Release: vibe_3.0.23_x64.dmg；Windows 安装包：Release: vibe_3.0.23_x64-setup.exe | [查看详情 ↓](#project-detail-85) |
-| 86 | — | <a id="project-row-86"></a>[OpenWhispr/openwhispr](https://github.com/OpenWhispr/openwhispr) | 隐私优先的跨平台语音转文字应用，支持本地和云端模型。 | 近期活跃热门仓库 | 4,996 | JavaScript | macOS 安装包：Release: OpenWhispr-1.7.6-arm64.dmg、Release: OpenWhispr-1.7.6.dmg；Windows 安装包：Release: OpenWhispr-1.7.6.exe、Release: OpenWhispr-Setup-1.7.6.exe | [查看详情 ↓](#project-detail-86) |
-| 87 | — | <a id="project-row-87"></a>[domcyrus/rustnet](https://github.com/domcyrus/rustnet) | 支持深度包检测的跨平台终端网络监控工具。 | 近期活跃热门仓库 | 4,811 | Rust | macOS 安装包：Release: Rustnet_macOS_AppleSilicon.dmg、Release: Rustnet_macOS_Intel.dmg；Windows 安装包：Release: Rustnet_Windows_32-bit.msi、Release: Rustnet_Windows_64-bit.msi | [查看详情 ↓](#project-detail-87) |
-| 88 | — | <a id="project-row-88"></a>[IsmaelMartinez/teams-for-linux](https://github.com/IsmaelMartinez/teams-for-linux) | 非官方Linux版微软Teams客户端。 | 近期活跃热门仓库 | 4,892 | JavaScript | macOS 安装包：Release: teams-for-linux-2.13.0.dmg；Windows 安装包：Release: teams-for-linux-Setup-2.13.0.exe | [查看详情 ↓](#project-detail-88) |
-| 89 | — | <a id="project-row-89"></a>[Splode/pomotroid](https://github.com/Splode/pomotroid) | 简洁美观的番茄钟计时器。 | 近期活跃热门仓库 | 5,382 | Rust | macOS 安装包：Release: Pomotroid_1.7.1_universal.dmg；Windows 安装包：Release: pomotroid.exe、Release: Pomotroid_1.7.1_x64-setup.exe | [查看详情 ↓](#project-detail-89) |
-| 90 | — | <a id="project-row-90"></a>[caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) | 将Telegram账号变成无限安全云存储的开源桌面应用。 | 近期活跃热门仓库 | 4,552 | TypeScript | macOS 安装包：Release: Telegram.Drive_2.2.0_aarch64.dmg、Release: Telegram.Drive_2.2.0_x64.dmg；Windows 安装包：Release: Telegram.Drive_2.2.0_x64-setup.exe、Release: Telegram.Drive_2.2.0_x64_en-US.msi | [查看详情 ↓](#project-detail-90) |
-| 91 | — | <a id="project-row-91"></a>[binaricat/Netcatty](https://github.com/binaricat/Netcatty) | 集成SSH、SFTP和终端的工作空间工具。 | 近期活跃热门仓库 | 4,375 | TypeScript | macOS 安装包：Release: Netcatty-1.1.73-mac-arm64.dmg、Release: Netcatty-1.1.73-mac-x64.dmg；Windows 安装包：Release: Netcatty-1.1.73-portable-win-arm64.exe、Release: Netcatty-1.1.73-portable-win-x64.exe | [查看详情 ↓](#project-detail-91) |
-| 92 | — | <a id="project-row-92"></a>[purocean/yn](https://github.com/purocean/yn) | 高度可扩展的Markdown编辑器，集成版本控制和AI助手。 | 近期活跃热门仓库 | 6,670 | TypeScript | macOS 安装包：Release: Yank-Note-mac-arm64-3.92.1.dmg、Release: Yank-Note-mac-x64-3.92.1.dmg；Windows 安装包：Release: Yank-Note-win-x64-3.92.1.exe | [查看详情 ↓](#project-detail-92) |
-| 93 | — | <a id="project-row-93"></a>[aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | 支持数百网站视频音频下载的桌面应用。 | 近期活跃热门仓库 | 10,033 | JavaScript | macOS 安装包：Release: YTDownloader_Mac_arm64.dmg、Release: YTDownloader_Mac_x64.dmg；Windows 安装包：Release: YTDownloader_Win.exe、Release: YTDownloader_Win.msi | [查看详情 ↓](#project-detail-93) |
-| 94 | — | <a id="project-row-94"></a>[graphif/project-graph](https://github.com/graphif/project-graph) | 是一个基于节点的非线性思维和笔记可视化工具。 | 近期活跃热门仓库 | 4,247 | TypeScript | macOS 安装包：Release: Project.Graph_4.1.1_universal.dmg；Windows 安装包：Release: Project.Graph_4.1.1_x64-setup-gpu.exe | [查看详情 ↓](#project-detail-94) |
-| 95 | — | <a id="project-row-95"></a>[kunkundi/crossdesk](https://github.com/kunkundi/crossdesk) | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。 | 近期活跃热门仓库 | 4,221 | C++ | macOS 安装包：Release: crossdesk-macos-arm64-v1.4.1-20260728.pkg、Release: crossdesk-macos-x64-v1.4.1-20260728.pkg；Windows 安装包：Release: crossdesk-win-x64-v1.4.1-20260728.exe | [查看详情 ↓](#project-detail-95) |
-| 96 | — | <a id="project-row-96"></a>[oliverschwendener/ueli](https://github.com/oliverschwendener/ueli) | 跨平台键盘快捷启动器。 | 近期活跃热门仓库 | 4,572 | TypeScript | macOS 安装包：Release: Ueli-9.29.0-arm64.dmg、Release: Ueli-9.29.0.dmg；Windows 安装包：Release: Ueli-9.29.0.msi、Release: Ueli-Setup-9.29.0.exe | [查看详情 ↓](#project-detail-96) |
-| 97 | — | <a id="project-row-97"></a>[EcoPasteHub/EcoPaste](https://github.com/EcoPasteHub/EcoPaste) | 🎉跨平台的剪贴板管理工具 | 近期活跃热门仓库 | 7,253 | Rust | macOS 安装包：Release: EcoPaste_1.1.0_aarch64.dmg、Release: EcoPaste_1.1.0_x64.dmg；Windows 安装包：Release: EcoPaste_1.1.0_arm64-setup.exe、Release: EcoPaste_1.1.0_x64-setup.exe | [查看详情 ↓](#project-detail-97) |
-| 98 | 🆕 **NEW** | <a id="project-row-98"></a>[freeplane/freeplane](https://github.com/freeplane/freeplane) | 是一款用于思维导图、知识管理和项目管理的应用，助你高效组织和传达想法。 | 近期活跃热门仓库 | 4,258 | Java | macOS 安装包：Release: Freeplane-1.13.3-apple.dmg、Release: Freeplane-1.13.3-intel.dmg；Windows 安装包：Release: Freeplane-Setup-1.13.3.exe、Release: Freeplane-Setup-touchscreen-1.13.3.exe | [查看详情 ↓](#project-detail-98) |
-| 99 | — | <a id="project-row-99"></a>[doublecmd/doublecmd](https://github.com/doublecmd/doublecmd) | Double Commander是一个免费开源的跨平台双面板文件管理器。 | 近期活跃热门仓库 | 4,360 | Pascal | macOS 安装包：Release: doublecmd-1.2.7.cocoa.aarch64.dmg、Release: doublecmd-1.2.7.cocoa.x86_64.dmg；Windows 安装包：Release: doublecmd-1.2.7.i386-win32.exe、Release: doublecmd-1.2.7.i386-win32.msi | [查看详情 ↓](#project-detail-99) |
-| 100 | — | <a id="project-row-100"></a>[TabularisDB/tabularis](https://github.com/TabularisDB/tabularis) | 支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。 | 近期活跃热门仓库 | 3,960 | TypeScript | macOS 安装包：Release: tabularis_0.17.0_aarch64.dmg、Release: tabularis_0.17.0_x64.dmg；Windows 安装包：Release: tabularis_0.17.0_x64-portable.exe、Release: tabularis_0.17.0_x64-setup.exe | [查看详情 ↓](#project-detail-100) |
+| 详情 ↘️ | NEW | 软件 | 中文简介 | 热度 | Stars | 主要语言 | 平台证据 |
+|:---:|:---:|---|---|---|---:|---|---|
+| <a id="project-row-1"></a>[#1 ↘️](#project-detail-1) | — | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | 轻量级云原生地理信息系统平台。 | Daily Trending #1，今日 +671 Stars | 4,144 | TypeScript | macOS 安装包：Release: GeoLibre.Desktop_2.4.0_aarch64.dmg、Release: GeoLibre.Desktop_2.4.0_x64.dmg；Windows 安装包：Release: geolibre-desktop-2.4.0-x64.msix、Release: geolibre-desktop_windows_x64.exe |
+| <a id="project-row-2"></a>[#2 ↘️](#project-detail-2) | — | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 支持实时语音聊天和游戏的自托管智能伴侣。 | Daily Trending #2，今日 +682 Stars | 45,480 | TypeScript | macOS 安装包：Release: AIRI-0.11.3-darwin-arm64.dmg、Release: AIRI-0.11.3-darwin-x64.dmg；Windows 安装包：Release: AIRI-0.11.3-windows-x64-setup.exe |
+| <a id="project-row-3"></a>[#3 ↘️](#project-detail-3) | — | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 开源自托管远程桌面替代方案。 | 近期活跃热门仓库 | 119,208 | Rust | macOS 安装包：Release: rustdesk-1.4.9-aarch64.dmg、Release: rustdesk-1.4.9-x86_64.dmg；Windows 安装包：Release: rustdesk-1.4.9-aarch64.exe、Release: rustdesk-1.4.9-aarch64.msi |
+| <a id="project-row-4"></a>[#4 ↘️](#project-detail-4) | — | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 支持多智能代理的一体化跨平台桌面助手。 | 近期活跃热门仓库 | 122,332 | Rust | macOS 安装包：Release: CC-Switch-v3.18.0-macOS.dmg；Windows 安装包：Release: CC-Switch-v3.18.0-Windows-arm64.msi、Release: CC-Switch-v3.18.0-Windows.msi |
+| <a id="project-row-5"></a>[#5 ↘️](#project-detail-5) | — | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 本地优先的开源设计工具，支持多种导出格式。 | 近期活跃热门仓库 | 82,583 | TypeScript | macOS 安装包：Release: open-design-0.16.1-mac-arm64.dmg、Release: open-design-0.16.1-mac-x64.dmg；Windows 安装包：Release: open-design-0.16.1-win-x64-setup.exe |
+| <a id="project-row-6"></a>[#6 ↘️](#project-detail-6) | — | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 隐私优先的开源下一代知识库平台。 | 近期活跃热门仓库 | 70,916 | TypeScript | macOS 安装包：Release: affine-0.27.3-stable-macos-arm64.dmg、Release: affine-0.27.3-stable-macos-x64.dmg；Windows 安装包：Release: affine-0.27.3-stable-windows-arm64.exe、Release: affine-0.27.3-stable-windows-arm64.nsis.exe |
+| <a id="project-row-7"></a>[#7 ↘️](#project-detail-7) | — | [Eugeny/tabby](https://github.com/Eugeny/tabby) | 现代化终端工具。 | 近期活跃热门仓库 | 73,594 | TypeScript | macOS 安装包：Release: tabby-1.0.235-macos-arm64.dmg、Release: tabby-1.0.235-macos-x86_64.dmg；Windows 安装包：Release: tabby-1.0.235-setup-arm64.exe、Release: tabby-1.0.235-setup-x64.exe |
+| <a id="project-row-8"></a>[#8 ↘️](#project-detail-8) | — | [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) | 跨平台的命令行自动化工具。 | 近期活跃热门仓库 | 54,592 | C# | macOS 安装包：Release: powershell-7.6.4-osx-arm64.pkg、Release: powershell-7.6.4-osx-x64.pkg；Windows 安装包：Release: PowerShell-7.6.4-win-arm64.msi、Release: PowerShell-7.6.4-win-x64.msi |
+| <a id="project-row-9"></a>[#9 ↘️](#project-detail-9) | — | [laurent22/joplin](https://github.com/laurent22/joplin) | 支持多平台同步的隐私笔记应用。 | 近期活跃热门仓库 | 55,775 | TypeScript | macOS 安装包：Release: Joplin-3.6.15-arm64.DMG、Release: Joplin-3.6.15.dmg；Windows 安装包：Release: Joplin-Setup-3.6.15.exe、Release: JoplinPortable.exe |
+| <a id="project-row-10"></a>[#10 ↘️](#project-detail-10) | — | [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | 适合逆向工程师的十六进制编辑器。 | 近期活跃热门仓库 | 54,322 | C++ | macOS 安装包：Release: imhex-1.38.1-macOS-arm64.dmg、Release: imhex-1.38.1-macOS-NoGPU-x86_64.dmg；Windows 安装包：Release: imhex-1.38.1-Windows-arm64.msi、Release: imhex-1.38.1-Windows-x86_64.msi |
+| <a id="project-row-11"></a>[#11 ↘️](#project-detail-11) | — | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | 自托管的开源个人知识管理软件。 | 近期活跃热门仓库 | 45,490 | TypeScript | macOS 安装包：Release: siyuan-3.7.3-mac-arm64.dmg、Release: siyuan-3.7.3-mac.dmg；Windows 安装包：Release: siyuan-3.7.3-win-arm64.exe、Release: siyuan-3.7.3-win.exe |
+| <a id="project-row-12"></a>[#12 ↘️](#project-detail-12) | — | [usebruno/bruno](https://github.com/usebruno/bruno) | 开源轻量级API测试和探索IDE。 | 近期活跃热门仓库 | 46,006 | JavaScript | macOS 安装包：Release: bruno_4.0.0_arm64_mac.dmg、Release: bruno_4.0.0_arm64_mac.pkg；Windows 安装包：Release: bruno_4.0.0_arm64_win.exe、Release: bruno_4.0.0_arm64_win.msi |
+| <a id="project-row-13"></a>[#13 ↘️](#project-detail-13) | — | [marktext/marktext](https://github.com/marktext/marktext) | 简洁优雅的跨平台Markdown编辑器。 | 近期活跃热门仓库 | 59,311 | TypeScript | macOS 安装包：Release: marktext-mac-arm64-0.19.1.dmg、Release: marktext-mac-x64-0.19.1.dmg；Windows 安装包：Release: marktext-win-arm64-0.19.1-setup.exe、Release: marktext-win-x64-0.19.1-setup.exe |
+| <a id="project-row-14"></a>[#14 ↘️](#project-detail-14) | — | [janhq/jan](https://github.com/janhq/jan) | 完全离线运行的开源ChatGPT替代品。 | 近期活跃热门仓库 | 43,771 | TypeScript | macOS 安装包：Release: Jan_0.8.4_universal.dmg；Windows 安装包：Release: Jan_0.8.4_x64-setup.exe |
+| <a id="project-row-15"></a>[#15 ↘️](#project-detail-15) | — | [cli/cli](https://github.com/cli/cli) | GitHub官方命令行工具。 | 近期活跃热门仓库 | 45,499 | Go | macOS 安装包：Release: gh_2.96.0_macOS_universal.pkg；Windows 安装包：Release: gh_2.96.0_windows_386.msi、Release: gh_2.96.0_windows_amd64.msi |
+| <a id="project-row-16"></a>[#16 ↘️](#project-detail-16) | — | [tw93/Pake](https://github.com/tw93/Pake) | 一键将网页转换为桌面应用。 | 近期活跃热门仓库 | 60,317 | Rust | macOS 安装包：Release: ChatGPT.dmg、Release: DeepSeek.dmg；Windows 安装包：Release: ChatGPT_x64.msi、Release: DeepSeek_x64.msi |
+| <a id="project-row-17"></a>[#17 ↘️](#project-detail-17) | — | [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Moonlight的自托管游戏流媒体服务器。 | 近期活跃热门仓库 | 39,717 | C++ | macOS 安装包：Release: Sunshine-macOS-arm64.dmg、Release: Sunshine-macOS-x86_64.dmg；Windows 安装包：Release: Sunshine-Windows-AMD64-installer.exe、Release: Sunshine-Windows-AMD64-installer.msi |
+| <a id="project-row-18"></a>[#18 ↘️](#project-detail-18) | — | [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) | 构建个人知识库的笔记软件。 | 近期活跃热门仓库 | 37,128 | TypeScript | macOS 安装包：Release: TriliumNotes-v0.104.1-macos-arm64.dmg、Release: TriliumNotes-v0.104.1-macos-x64.dmg；Windows 安装包：Release: TriliumNotes-v0.104.1-windows-arm64.exe、Release: TriliumNotes-v0.104.1-windows-x64.exe |
+| <a id="project-row-19"></a>[#19 ↘️](#project-detail-19) | — | [agalwood/Motrix](https://github.com/agalwood/Motrix) | 功能完善的下载管理器。 | 近期活跃热门仓库 | 52,344 | JavaScript | macOS 安装包：Release: Motrix-1.8.19-arm64.dmg、Release: Motrix-1.8.19-universal.dmg；Windows 安装包：Release: Motrix-1.8.19-ia32.exe、Release: Motrix-1.8.19-x64.exe |
+| <a id="project-row-20"></a>[#20 ↘️](#project-detail-20) | — | [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | 基于next.js的AI辅助draw.io图表编辑应用。 | 近期活跃热门仓库 | 33,956 | TypeScript | macOS 安装包：Release: Next-AI-Draw.io-0.4.16-arm64.dmg、Release: Next-AI-Draw.io-0.4.16.dmg；Windows 安装包：Release: Next.AI.Draw.io.0.4.16.exe、Release: Next.AI.Draw.io.Setup.0.4.16.exe |
+| <a id="project-row-21"></a>[#21 ↘️](#project-detail-21) | — | [stablyai/orca](https://github.com/stablyai/orca) | 支持多代理并行的AI开发环境。 | 近期活跃热门仓库 | 32,969 | TypeScript | macOS 安装包：Release: orca-macos-arm64.dmg、Release: orca-macos-x64.dmg；Windows 安装包：Release: orca-windows-setup.exe |
+| <a id="project-row-22"></a>[#22 ↘️](#project-detail-22) | — | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) | 开源跨平台音乐流媒体应用。 | 近期活跃热门仓库 | 48,004 | Dart | macOS 安装包：Release: Spotube-macos-universal.dmg、Release: Spotube-macos-universal.pkg；Windows 安装包：Release: Spotube-windows-x86_64-setup.exe |
+| <a id="project-row-23"></a>[#23 ↘️](#project-detail-23) | — | [VSCodium/vscodium](https://github.com/VSCodium/vscodium) | 无微软品牌和遥测的VS Code二进制版。 | 近期活跃热门仓库 | 32,565 | Shell | macOS 安装包：Release: VSCodium.arm64.1.126.04524.dmg、Release: VSCodium.x64.1.126.04524.dmg；Windows 安装包：Release: VSCodium-x64-1.126.04524.msi、Release: VSCodium-x64-updates-disabled-1.126.04524.msi |
+| <a id="project-row-24"></a>[#24 ↘️](#project-detail-24) | — | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | 功能强大且易用的截图软件。 | 近期活跃热门仓库 | 30,508 | C++ | macOS 安装包：Release: Flameshot-14.0-macos-arm64.dmg、Release: Flameshot-14.0-macos-intel.dmg；Windows 安装包：Release: Flameshot-14.0.0-win64.msi |
+| <a id="project-row-25"></a>[#25 ↘️](#project-detail-25) | — | [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop) | Pear：音乐播放器扩展。 | 近期活跃热门仓库 | 32,860 | TypeScript | macOS 安装包：Release: YouTube-Music-3.12.0-arm64.dmg、Release: YouTube-Music-3.12.0.dmg；Windows 安装包：Release: YouTube-Music-3.12.0.exe、Release: YouTube-Music-Web-Setup-3.12.0.exe |
+| <a id="project-row-26"></a>[#26 ↘️](#project-detail-26) | — | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 便捷的网络流量监控工具。 | 近期活跃热门仓库 | 40,225 | Rust | macOS 安装包：Release: Sniffnet_macOS_AppleSilicon.dmg、Release: Sniffnet_macOS_Intel.dmg；Windows 安装包：Release: Sniffnet_Windows_arm64.msi、Release: Sniffnet_Windows_x64.msi |
+| <a id="project-row-27"></a>[#27 ↘️](#project-detail-27) | — | [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) | 跨平台高效启动器。 | 近期活跃热门仓库 | 27,177 | Go | macOS 安装包：Release: wox-mac-amd64.dmg、Release: wox-mac-arm64.dmg；Windows 安装包：Release: wox-windows-amd64.exe |
+| <a id="project-row-28"></a>[#28 ↘️](#project-detail-28) | — | [Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI) | 图形化包管理器管理工具。 | 近期活跃热门仓库 | 25,277 | C# | macOS 安装包：Release: UniGetUI.macos-arm64.dmg、Release: UniGetUI.macos-x64.dmg；Windows 安装包：Release: UniGetUI.Installer.arm64.exe、Release: UniGetUI.Installer.exe |
+| <a id="project-row-29"></a>[#29 ↘️](#project-detail-29) | — | [cjpais/Handy](https://github.com/cjpais/Handy) | 完全离线的开源语音转文字应用。 | 近期活跃热门仓库 | 27,863 | Rust | macOS 安装包：Release: Handy_0.9.4_aarch64.dmg、Release: Handy_0.9.4_x64.dmg；Windows 安装包：Release: Handy_0.9.4_arm64-setup.exe、Release: Handy_0.9.4_arm64_en-US.msi |
+| <a id="project-row-30"></a>[#30 ↘️](#project-detail-30) | — | [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) | Beekeeper Studio：现代易用的多数据库SQL客户端。 | 近期活跃热门仓库 | 23,279 | TypeScript | macOS 安装包：Release: Beekeeper-Studio-5.9.2-arm64.dmg、Release: Beekeeper-Studio-5.9.2.dmg；Windows 安装包：Release: Beekeeper-Studio-5.9.2-portable.exe、Release: Beekeeper-Studio-Setup-5.9.2.exe |
+| <a id="project-row-31"></a>[#31 ↘️](#project-detail-31) | — | [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) | 集成AI的跨平台终端工具。 | 近期活跃热门仓库 | 21,855 | Go | macOS 安装包：Release: Wave-darwin-arm64-0.14.5.dmg、Release: Wave-darwin-x64-0.14.5.dmg；Windows 安装包：Release: Wave-win32-x64-0.14.5.exe、Release: Wave-win32-x64-0.14.5.msi |
+| <a id="project-row-32"></a>[#32 ↘️](#project-detail-32) | — | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | Super Productivity：集成时间管理的高级待办事项应用。 | 近期活跃热门仓库 | 20,989 | TypeScript | macOS 安装包：Release: superProductivity-arm64.dmg、Release: superProductivity-universal.dmg；Windows 安装包：Release: Super-Productivity-Setup-arm64.exe、Release: Super-Productivity-Setup-x64.exe |
+| <a id="project-row-33"></a>[#33 ↘️](#project-detail-33) | — | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | 支持多协议的高速跨平台下载管理器。 | 近期活跃热门仓库 | 25,543 | Go | macOS 安装包：Release: Gopeed-v1.9.3-macos-amd64.dmg、Release: Gopeed-v1.9.3-macos-arm64.dmg；Windows 安装包：Release: Gopeed-v1.9.3-windows-amd64.exe、Release: Gopeed-v1.9.3-windows-arm64.exe |
+| <a id="project-row-34"></a>[#34 ↘️](#project-detail-34) | — | [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | 直观的桌面API客户端，支持多种协议。 | 近期活跃热门仓库 | 18,910 | TypeScript | macOS 安装包：Release: Yaak_2026.5.0_aarch64.dmg、Release: Yaak_2026.5.0_x64.dmg；Windows 安装包：Release: Yaak_2026.5.0_arm64-setup-machine.exe、Release: Yaak_2026.5.0_arm64-setup.exe |
+| <a id="project-row-35"></a>[#35 ↘️](#project-detail-35) | — | [nukeop/nuclear](https://github.com/nukeop/nuclear) | 免费音乐流媒体播放器。 | 近期活跃热门仓库 | 18,147 | TypeScript | macOS 安装包：Release: Nuclear_1.43.2_aarch64.dmg、Release: Nuclear_1.43.2_x64.dmg；Windows 安装包：Release: Nuclear_1.43.2_x64-setup.exe、Release: Nuclear_1.43.2_x64_en-US.msi |
+| <a id="project-row-36"></a>[#36 ↘️](#project-detail-36) | — | [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | 免费开源的自动化时间追踪器。 | 近期活跃热门仓库 | 18,423 | Python | macOS 安装包：Release: activitywatch-v0.13.2-macos-x86_64.dmg；Windows 安装包：Release: activitywatch-v0.13.2-windows-x86_64-setup.exe |
+| <a id="project-row-37"></a>[#37 ↘️](#project-detail-37) | — | [audacity/audacity](https://github.com/audacity/audacity) | 音频编辑器。 | 近期活跃热门仓库 | 17,454 | C++ | macOS 安装包：Release: audacity-macOS-3.7.8-arm64.dmg、Release: audacity-macOS-3.7.8-universal.dmg；Windows 安装包：Release: audacity-win-3.7.8-32bit.exe、Release: audacity-win-3.7.8-64bit.exe |
+| <a id="project-row-38"></a>[#38 ↘️](#project-detail-38) | 🆕 **NEW** | [kurikomi-labs/komi-store](https://github.com/kurikomi-labs/komi-store) | 是一个免费开源的开发者应用商店，支持 GitHub、Codeberg 和 Forgejo 一键浏览安装。 | 近期活跃热门仓库 | 17,136 | Kotlin | macOS 安装包：Release: Komi-Store-1.9.2-arm64.dmg、Release: Komi-Store-1.9.2-x64.dmg；Windows 安装包：Release: Komi-Store-1.9.2.exe、Release: Komi-Store-1.9.2.msi |
+| <a id="project-row-39"></a>[#39 ↘️](#project-detail-39) | — | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 具备记忆功能的开源AI助手。 | 近期活跃热门仓库 | 16,883 | TypeScript | macOS 安装包：Release: Rowboat-darwin-arm64-0.8.3.dmg、Release: Rowboat-darwin-x64-0.8.3.dmg；Windows 安装包：Release: Rowboat-win32-x64-0.8.3-setup.exe |
+| <a id="project-row-40"></a>[#40 ↘️](#project-detail-40) | — | [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) | 跨平台的KeePass密码管理器移植版。 | 近期活跃热门仓库 | 28,203 | C++ | macOS 安装包：Release: KeePassXC-2.7.12-arm64.dmg、Release: KeePassXC-2.7.12-x86_64.dmg；Windows 安装包：Release: KeePassXC-2.7.12-Win64-LegacyWindows.msi、Release: KeePassXC-2.7.12-Win64.msi |
+| <a id="project-row-41"></a>[#41 ↘️](#project-detail-41) | — | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 跨平台OpenGL终端模拟器。 | 近期活跃热门仓库 | 65,148 | Rust | macOS 安装包：Release: Alacritty-v0.17.0.dmg；Windows 安装包：Release: Alacritty-v0.17.0-installer.msi、Release: Alacritty-v0.17.0-portable.exe |
+| <a id="project-row-42"></a>[#42 ↘️](#project-detail-42) | — | [mltframework/shotcut](https://github.com/mltframework/shotcut) | 跨平台开源视频编辑器，基于Qt和GPLv3。 | 近期活跃热门仓库 | 14,659 | C++ | macOS 安装包：Release: shotcut-macos-26.6.25.dmg、Release: shotcut-macos-unsigned-26.6.25.dmg；Windows 安装包：Release: shotcut-win64-26.6.25.exe、Release: shotcut-win_ARM-26.6.25.exe |
+| <a id="project-row-43"></a>[#43 ↘️](#project-detail-43) | — | [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | 完全开源且端到端加密的笔记软件，Evernote替代品。 | 近期活跃热门仓库 | 14,338 | TypeScript | macOS 安装包：Release: notesnook_mac_arm64.dmg、Release: notesnook_mac_x64.dmg；Windows 安装包：Release: notesnook_win.exe、Release: notesnook_win_arm64.exe |
+| <a id="project-row-44"></a>[#44 ↘️](#project-detail-44) | — | [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix) | 自托管的SSH和远程桌面管理工具。 | 近期活跃热门仓库 | 14,526 | TypeScript | macOS 安装包：Release: termix_macos_arm64_dmg.dmg、Release: termix_macos_universal_dmg.dmg；Windows 安装包：Release: termix_windows_ia32_msi.msi、Release: termix_windows_ia32_nsis.exe |
+| <a id="project-row-45"></a>[#45 ↘️](#project-detail-45) | — | [electerm/electerm](https://github.com/electerm/electerm) | 支持多协议的终端和远程连接客户端，跨平台支持多系统。 | 近期活跃热门仓库 | 14,606 | JavaScript | macOS 安装包：Release: electerm-3.15.171-mac-arm64.dmg、Release: electerm-3.15.171-mac-x64.dmg；Windows 安装包：Release: electerm-3.15.171-win-arm64-installer.exe、Release: electerm-3.15.171-win-x64-installer.exe |
+| <a id="project-row-46"></a>[#46 ↘️](#project-detail-46) | — | [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha) | 本地优先的跨平台桌面工作空间，支持多智能体和多模型。 | 近期活跃热门仓库 | 13,754 | TypeScript | macOS 安装包：Release: Claude-Code-Haha-0.5.0-mac-arm64.dmg、Release: Claude-Code-Haha-0.5.0-mac-x64.dmg；Windows 安装包：Release: Claude-Code-Haha-0.5.0-win-arm64.exe、Release: Claude-Code-Haha-0.5.0-win-x64.exe |
+| <a id="project-row-47"></a>[#47 ↘️](#project-detail-47) | — | [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 一个基于 Electron 的音乐软件 | 近期活跃热门仓库 | 52,423 | TypeScript | macOS 安装包：Release: lx-music-desktop-2.12.2-arm64.dmg、Release: lx-music-desktop-2.12.2-x64.dmg；Windows 安装包：Release: lx-music-desktop-v2.12.2-arm64-Setup.exe、Release: lx-music-desktop-v2.12.2-win7_x64-Setup.exe |
+| <a id="project-row-48"></a>[#48 ↘️](#project-detail-48) | — | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) | 加速下载的下载管理器。 | 近期活跃热门仓库 | 16,929 | Kotlin | macOS 安装包：Release: ABDownloadManager_1.10.1_mac_arm64.dmg、Release: ABDownloadManager_1.10.1_mac_x64.dmg；Windows 安装包：Release: ABDownloadManager_1.10.1_windows_arm64.exe、Release: ABDownloadManager_1.10.1_windows_x64.exe |
+| <a id="project-row-49"></a>[#49 ↘️](#project-detail-49) | — | [t8y2/dbx](https://github.com/t8y2/dbx) | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。 | 近期活跃热门仓库 | 12,452 | Rust | macOS 安装包：Release: DBX_0.5.69_aarch64.dmg、Release: DBX_0.5.69_x64.dmg；Windows 安装包：Release: DBX_0.5.69_arm64-setup.exe、Release: DBX_0.5.69_arm64-webview2-offline-setup.exe |
+| <a id="project-row-50"></a>[#50 ↘️](#project-detail-50) | — | [codexu/note-gen](https://github.com/codexu/note-gen) | 跨平台的Markdown AI笔记软件。 | 近期活跃热门仓库 | 12,391 | TypeScript | macOS 安装包：Release: NoteGen_0.33.0_aarch64.dmg、Release: NoteGen_0.33.0_x64.dmg；Windows 安装包：Release: NoteGen_0.33.0_x64-setup.exe、Release: NoteGen_0.33.0_x64_en-US.msi |
+| <a id="project-row-51"></a>[#51 ↘️](#project-detail-51) | — | [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) | 一站式出版工作平台。 | 近期活跃热门仓库 | 13,311 | TypeScript | macOS 安装包：Release: Zettlr-4.7.0-arm64.dmg、Release: Zettlr-4.7.0-x64.dmg；Windows 安装包：Release: Zettlr-4.7.0-x64.exe |
+| <a id="project-row-52"></a>[#52 ↘️](#project-detail-52) | — | [getpaseo/paseo](https://github.com/getpaseo/paseo) | 桌面和移动端多智能体编程协调工具。 | 近期活跃热门仓库 | 11,678 | TypeScript | macOS 安装包：Release: Paseo-0.2.4-arm64.dmg、Release: Paseo-0.2.4-x64.dmg；Windows 安装包：Release: Paseo-Setup-0.2.4-arm64.exe、Release: Paseo-Setup-0.2.4-x64.exe |
+| <a id="project-row-53"></a>[#53 ↘️](#project-detail-53) | — | [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext) | 跨平台的Notepad++重实现文本编辑器。 | 近期活跃热门仓库 | 14,408 | C++ | macOS 安装包：Release: NotepadNext-v0.14.dmg；Windows 安装包：Release: NotepadNext-v0.14-Installer.exe |
+| <a id="project-row-54"></a>[#54 ↘️](#project-detail-54) | — | [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation. | 近期活跃热门仓库 | 13,050 | TypeScript | macOS 安装包：Release: ToonFlow-1.1.8-mac-arm64.dmg、Release: ToonFlow-1.1.8-mac-x64.dmg；Windows 安装包：Release: ToonFlow-1.1.8-win-arm64-setup.exe、Release: ToonFlow-1.1.8-win-x64-setup.exe |
+| <a id="project-row-55"></a>[#55 ↘️](#project-detail-55) | — | [lapce/lapce](https://github.com/lapce/lapce) | 用Rust编写的极速强大代码编辑器。 | 近期活跃热门仓库 | 38,706 | Rust | macOS 安装包：Release: Lapce-macos.dmg；Windows 安装包：Release: Lapce-windows.msi |
+| <a id="project-row-56"></a>[#56 ↘️](#project-detail-56) | — | [espanso/espanso](https://github.com/espanso/espanso) | 注重隐私的跨平台文本扩展工具，Rust开发。 | 近期活跃热门仓库 | 14,203 | Rust | macOS 安装包：Release: Espanso-Mac-Universal.dmg；Windows 安装包：Release: Espanso-Win-Installer-x86_64.exe |
+| <a id="project-row-57"></a>[#57 ↘️](#project-detail-57) | — | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 功能丰富的剪贴板管理器。 | 近期活跃热门仓库 | 12,051 | C++ | macOS 安装包：Release: CopyQ-16.0.0-macos-12-m1.dmg、Release: CopyQ-16.0.0-macos-13.dmg；Windows 安装包：Release: copyq-16.0.0-setup.exe |
+| <a id="project-row-58"></a>[#58 ↘️](#project-detail-58) | — | [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop) | 支持Mac、Windows和Linux的流媒体种子客户端。 | 近期活跃热门仓库 | 10,094 | JavaScript | macOS 安装包：Release: WebTorrent-v0.24.0.dmg；Windows 安装包：Release: WebTorrentSetup-v0.24.0.exe |
+| <a id="project-row-59"></a>[#59 ↘️](#project-detail-59) | — | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 免费本地工具，跟踪31款AI编码工具的令牌使用和费用。 | 近期活跃热门仓库 | 9,022 | TypeScript | macOS 安装包：Release: CodeBurn-0.9.19-arm64.dmg、Release: CodeBurn-0.9.19.dmg；Windows 安装包：Release: CodeBurn-Setup-0.9.19.exe |
+| <a id="project-row-60"></a>[#60 ↘️](#project-detail-60) | — | [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW) | 高性能GPU加速的非破坏性RAW图像编辑器。 | 近期活跃热门仓库 | 9,021 | TypeScript | macOS 安装包：Release: 02_RapidRAW_v1.6.0_macos-14_aarch64.dmg、Release: 02_RapidRAW_v1.6.0_macos-15-intel_x64.dmg；Windows 安装包：Release: 01_RapidRAW_v1.6.0_windows-11-arm_arm64.exe、Release: 01_RapidRAW_v1.6.0_windows-11-arm_arm64.msi |
+| <a id="project-row-61"></a>[#61 ↘️](#project-detail-61) | — | [crynta/terax-ai](https://github.com/crynta/terax-ai) | 轻量级终端优先的AI开发工作空间。 | 近期活跃热门仓库 | 8,746 | TypeScript | macOS 安装包：Release: Terax_0.8.6_aarch64.dmg、Release: Terax_0.8.6_x64.dmg；Windows 安装包：Release: Terax_0.8.6_x64-setup.exe、Release: Terax_0.8.6_x64_en-US.msi |
+| <a id="project-row-62"></a>[#62 ↘️](#project-detail-62) | — | [tonyantony300/dashbeam](https://github.com/tonyantony300/dashbeam) | 无需云存储，全球传输任意大小文件的工具。 | 近期活跃热门仓库 | 8,879 | TypeScript | macOS 安装包：Release: AltSendme_0.6.0_aarch64.dmg、Release: AltSendme_0.6.0_universal.dmg；Windows 安装包：Release: AltSendme_0.6.0_arm64-setup.exe、Release: AltSendme_0.6.0_x64-setup.exe |
+| <a id="project-row-63"></a>[#63 ↘️](#project-detail-63) | — | [jeffvli/feishin](https://github.com/jeffvli/feishin) | 现代自托管音乐播放器。 | 近期活跃热门仓库 | 9,288 | TypeScript | macOS 安装包：Release: Feishin-1.15.1-mac-arm64.dmg、Release: Feishin-1.15.1-mac-x64.dmg；Windows 安装包：Release: Feishin-1.15.1-win-arm64.exe、Release: Feishin-1.15.1-win-x64.exe |
+| <a id="project-row-64"></a>[#64 ↘️](#project-detail-64) | — | [mockoon/mockoon](https://github.com/mockoon/mockoon) | 本地快速运行模拟API的开源工具，无需账号。 | 近期活跃热门仓库 | 8,342 | TypeScript | macOS 安装包：Release: mockoon.setup.9.7.0.arm64.dmg、Release: mockoon.setup.9.7.0.universal.dmg；Windows 安装包：Release: mockoon.portable.9.7.0.exe、Release: mockoon.setup.9.7.0.exe |
+| <a id="project-row-65"></a>[#65 ↘️](#project-detail-65) | — | [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | 基于Python和Qt的跨平台多协议并发下载器。 | 近期活跃热门仓库 | 7,646 | Python | macOS 安装包：Release: Ghost-Downloader-v4.2.2-macOS-arm64.dmg、Release: Ghost-Downloader-v4.2.2-macOS-x86_64.dmg；Windows 安装包：Release: Ghost-Downloader-v4.2.2-Windows-arm64-Setup.exe、Release: Ghost-Downloader-v4.2.2-Windows-x86_64-Setup.exe |
+| <a id="project-row-66"></a>[#66 ↘️](#project-detail-66) | — | [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop) | 桌面容器管理和Kubernetes工具。 | 近期活跃热门仓库 | 7,259 | TypeScript | macOS 安装包：Release: Rancher.Desktop-1.24.0.aarch64.dmg、Release: Rancher.Desktop-1.24.0.x86_64.dmg；Windows 安装包：Release: Rancher.Desktop.Setup.1.24.0.msi |
+| <a id="project-row-67"></a>[#67 ↘️](#project-detail-67) | — | [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil) | 开源AI设计编辑器，Figma替代方案。 | 近期活跃热门仓库 | 7,480 | TypeScript | macOS 安装包：Release: OpenPencil_0.13.2_aarch64.dmg、Release: OpenPencil_0.13.2_x64.dmg；Windows 安装包：Release: OpenPencil_0.13.2_arm64-setup.exe、Release: OpenPencil_0.13.2_arm64_en-US.msi |
+| <a id="project-row-68"></a>[#68 ↘️](#project-detail-68) | — | [mediago-dev/mediago](https://github.com/mediago-dev/mediago) | 跨平台视频下载器，支持m3u8/HLS及主流视频网站。 | 近期活跃热门仓库 | 9,099 | TypeScript | macOS 安装包：Release: mediago-community-setup-darwin-arm64-3.5.0.dmg、Release: mediago-community-setup-darwin-x64-3.5.0.dmg；Windows 安装包：Release: mediago-community-portable-win32-x64-3.5.0.exe、Release: mediago-community-setup-win32-x64-3.5.0.exe |
+| <a id="project-row-69"></a>[#69 ↘️](#project-detail-69) | — | [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor) | 通用2D图像编辑器。 | 近期活跃热门仓库 | 7,909 | C# | macOS 安装包：Release: PixiEditor-2.1.2.1-universal-macos.dmg；Windows 安装包：Release: PixiEditor-2.1.2.1-setup-x64-win.exe |
+| <a id="project-row-70"></a>[#70 ↘️](#project-detail-70) | — | [4gray/iptvnator](https://github.com/4gray/iptvnator) | 跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。 | 近期活跃热门仓库 | 6,725 | TypeScript | macOS 安装包：Release: iptvnator-0.22.0-mac-arm64.dmg、Release: iptvnator-0.22.0-mac-x64.dmg；Windows 安装包：Release: iptvnator-0.22.0-windows-x64-setup.exe |
+| <a id="project-row-71"></a>[#71 ↘️](#project-detail-71) | — | [massCodeIO/massCode](https://github.com/massCodeIO/massCode) | 免费开源开发者工作空间，集成代码片段、笔记、HTTP请求和开发工具。 | 近期活跃热门仓库 | 6,934 | TypeScript | macOS 安装包：Release: massCode-5.9.1-arm64.dmg、Release: massCode-5.9.1.dmg；Windows 安装包：Release: massCode-5.9.1-x64-portable.exe、Release: massCode-5.9.1-x64.exe |
+| <a id="project-row-72"></a>[#72 ↘️](#project-detail-72) | — | [raphamorim/rio](https://github.com/raphamorim/rio) | 硬件加速GPU终端模拟器，支持桌面和浏览器运行。 | 近期活跃热门仓库 | 7,099 | Rust | macOS 安装包：Release: Canario-0.0.1.dmg、Release: rio.dmg；Windows 安装包：Release: rio-installer-aarch64.msi、Release: rio-installer-x86_64.msi |
+| <a id="project-row-73"></a>[#73 ↘️](#project-detail-73) | — | [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 智能助手DeepChat，连接强大AI服务，助力个人应用。 | 近期活跃热门仓库 | 6,173 | TypeScript | macOS 安装包：Release: DeepChat-1.0.9-mac-arm64.dmg、Release: DeepChat-1.0.9-mac-x64.dmg；Windows 安装包：Release: DeepChat-1.0.9-windows-arm64.exe、Release: DeepChat-1.0.9-windows-x64.exe |
+| <a id="project-row-74"></a>[#74 ↘️](#project-detail-74) | — | [Sylinko/Everywhere](https://github.com/Sylinko/Everywhere) | 基于当前应用上下文的桌面AI助手，支持多模型和工具。 | 近期活跃热门仓库 | 6,197 | C# | macOS 安装包：Release: Everywhere-macOS-arm64-v0.8.0.pkg、Release: Everywhere-macOS-x64-v0.8.0.pkg；Windows 安装包：Release: Everywhere-Windows-x64-Setup-v0.8.0.exe |
+| <a id="project-row-75"></a>[#75 ↘️](#project-detail-75) | — | [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI) | 开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。 | 近期活跃热门仓库 | 5,719 | TypeScript | macOS 安装包：Release: LobsterAI--mac-arm64.dmg、Release: LobsterAI--mac-x64.dmg；Windows 安装包：Release: LobsterAI--win-x64.exe |
+| <a id="project-row-76"></a>[#76 ↘️](#project-detail-76) | — | [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) | 像素风桌面宠物，监控多种AI编程助手。 | 近期活跃热门仓库 | 5,714 | JavaScript | macOS 安装包：Release: Clawd-on-Desk-0.13.0-arm64.dmg、Release: Clawd-on-Desk-0.13.0-x64.dmg；Windows 安装包：Release: Clawd-on-Desk-Setup-0.13.0-arm64.exe、Release: Clawd-on-Desk-Setup-0.13.0-x64.exe |
+| <a id="project-row-77"></a>[#77 ↘️](#project-detail-77) | — | [dbgate/dbgate](https://github.com/dbgate/dbgate) | 支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。 | 近期活跃热门仓库 | 7,176 | Svelte | macOS 安装包：Release: dbgate-7.2.3-mac_arm64.dmg、Release: dbgate-7.2.3-mac_universal.dmg；Windows 安装包：Release: dbgate-7.2.3-win.exe、Release: dbgate-7.2.3-win_arm64.exe |
+| <a id="project-row-78"></a>[#78 ↘️](#project-detail-78) | — | [JannisX11/blockbench](https://github.com/JannisX11/blockbench) | 低多边形3D模型编辑器。 | 近期活跃热门仓库 | 5,711 | JavaScript | macOS 安装包：Release: Blockbench_arm64_5.1.6.dmg、Release: Blockbench_x64_5.1.6.dmg；Windows 安装包：Release: Blockbench_5.1.6.exe、Release: Blockbench_5.1.6_portable.exe |
+| <a id="project-row-79"></a>[#79 ↘️](#project-detail-79) | — | [op7418/CodePilot](https://github.com/op7418/CodePilot) | 多模型AI代理桌面客户端，支持多AI服务和手机远程控制。 | 近期活跃热门仓库 | 6,255 | TypeScript | macOS 安装包：Release: CodePilot-0.61.0-arm64.dmg、Release: CodePilot-0.61.0-x64.dmg；Windows 安装包：Release: CodePilot.Setup.0.61.0.exe |
+| <a id="project-row-80"></a>[#80 ↘️](#project-detail-80) | — | [HuLaSpark/HuLa](https://github.com/HuLaSpark/HuLa) | 是一款基于Rust+Vue3的跨平台高性能即时通讯桌面应用，支持多系统。 | 近期活跃热门仓库 | 7,463 | Vue | macOS 安装包：Release: HuLa_3.0.9_aarch64.dmg、Release: HuLa_3.0.9_x64.dmg；Windows 安装包：Release: HuLa_3.0.9_x64-setup.exe、Release: HuLa_3.0.9_x64_zh-CN.msi |
+| <a id="project-row-81"></a>[#81 ↘️](#project-detail-81) | — | [reqable/reqable-app](https://github.com/reqable/reqable-app) | Reqable问题跟踪仓库。 | 近期活跃热门仓库 | 6,572 | 未知 | macOS 安装包：Release: reqable-app-macos-arm64.dmg、Release: reqable-app-macos-x86_64.dmg；Windows 安装包：Release: reqable-app-windows-x86_64.exe |
+| <a id="project-row-82"></a>[#82 ↘️](#project-detail-82) | — | [generalaction/emdash](https://github.com/generalaction/emdash) | 开源多代理开发环境，支持并行运行多种编码代理。 | 近期活跃热门仓库 | 5,294 | TypeScript | macOS 安装包：Release: emdash-arm64.dmg、Release: emdash-x64.dmg；Windows 安装包：Release: emdash-x64.exe、Release: emdash-x64.msi |
+| <a id="project-row-83"></a>[#83 ↘️](#project-detail-83) | — | [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic) | 是开源简洁美观的酷狗第三方客户端，支持多平台。 | 近期活跃热门仓库 | 6,033 | Vue | macOS 安装包：Release: MoeKoe_Music_v1.6.9-arm64.dmg、Release: MoeKoe_Music_v1.6.9-x64.dmg；Windows 安装包：Release: MoeKoe_Music_Setup_v1.6.9-ia32.exe、Release: MoeKoe_Music_Setup_v1.6.9-x64.exe |
+| <a id="project-row-84"></a>[#84 ↘️](#project-detail-84) | — | [altair-graphql/altair](https://github.com/altair-graphql/altair) | 功能丰富的跨平台GraphQL客户端。 | 近期活跃热门仓库 | 5,425 | TypeScript | macOS 安装包：Release: altair_8.5.7_arm64_mac.dmg、Release: altair_8.5.7_x64_mac.dmg；Windows 安装包：Release: altair_8.5.7_x64_win.exe |
+| <a id="project-row-85"></a>[#85 ↘️](#project-detail-85) | — | [thewh1teagle/vibe](https://github.com/thewh1teagle/vibe) | 支持本地转录的语音转文字工具。 | 近期活跃热门仓库 | 6,957 | TypeScript | macOS 安装包：Release: vibe_3.0.23_aarch64.dmg、Release: vibe_3.0.23_x64.dmg；Windows 安装包：Release: vibe_3.0.23_x64-setup.exe |
+| <a id="project-row-86"></a>[#86 ↘️](#project-detail-86) | — | [OpenWhispr/openwhispr](https://github.com/OpenWhispr/openwhispr) | 隐私优先的跨平台语音转文字应用，支持本地和云端模型。 | 近期活跃热门仓库 | 4,996 | JavaScript | macOS 安装包：Release: OpenWhispr-1.7.6-arm64.dmg、Release: OpenWhispr-1.7.6.dmg；Windows 安装包：Release: OpenWhispr-1.7.6.exe、Release: OpenWhispr-Setup-1.7.6.exe |
+| <a id="project-row-87"></a>[#87 ↘️](#project-detail-87) | — | [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | 支持深度包检测的跨平台终端网络监控工具。 | 近期活跃热门仓库 | 4,811 | Rust | macOS 安装包：Release: Rustnet_macOS_AppleSilicon.dmg、Release: Rustnet_macOS_Intel.dmg；Windows 安装包：Release: Rustnet_Windows_32-bit.msi、Release: Rustnet_Windows_64-bit.msi |
+| <a id="project-row-88"></a>[#88 ↘️](#project-detail-88) | — | [IsmaelMartinez/teams-for-linux](https://github.com/IsmaelMartinez/teams-for-linux) | 非官方Linux版微软Teams客户端。 | 近期活跃热门仓库 | 4,892 | JavaScript | macOS 安装包：Release: teams-for-linux-2.13.0.dmg；Windows 安装包：Release: teams-for-linux-Setup-2.13.0.exe |
+| <a id="project-row-89"></a>[#89 ↘️](#project-detail-89) | — | [Splode/pomotroid](https://github.com/Splode/pomotroid) | 简洁美观的番茄钟计时器。 | 近期活跃热门仓库 | 5,382 | Rust | macOS 安装包：Release: Pomotroid_1.7.1_universal.dmg；Windows 安装包：Release: pomotroid.exe、Release: Pomotroid_1.7.1_x64-setup.exe |
+| <a id="project-row-90"></a>[#90 ↘️](#project-detail-90) | — | [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive) | 将Telegram账号变成无限安全云存储的开源桌面应用。 | 近期活跃热门仓库 | 4,552 | TypeScript | macOS 安装包：Release: Telegram.Drive_2.2.0_aarch64.dmg、Release: Telegram.Drive_2.2.0_x64.dmg；Windows 安装包：Release: Telegram.Drive_2.2.0_x64-setup.exe、Release: Telegram.Drive_2.2.0_x64_en-US.msi |
+| <a id="project-row-91"></a>[#91 ↘️](#project-detail-91) | — | [binaricat/Netcatty](https://github.com/binaricat/Netcatty) | 集成SSH、SFTP和终端的工作空间工具。 | 近期活跃热门仓库 | 4,375 | TypeScript | macOS 安装包：Release: Netcatty-1.1.73-mac-arm64.dmg、Release: Netcatty-1.1.73-mac-x64.dmg；Windows 安装包：Release: Netcatty-1.1.73-portable-win-arm64.exe、Release: Netcatty-1.1.73-portable-win-x64.exe |
+| <a id="project-row-92"></a>[#92 ↘️](#project-detail-92) | — | [purocean/yn](https://github.com/purocean/yn) | 高度可扩展的Markdown编辑器，集成版本控制和AI助手。 | 近期活跃热门仓库 | 6,670 | TypeScript | macOS 安装包：Release: Yank-Note-mac-arm64-3.92.1.dmg、Release: Yank-Note-mac-x64-3.92.1.dmg；Windows 安装包：Release: Yank-Note-win-x64-3.92.1.exe |
+| <a id="project-row-93"></a>[#93 ↘️](#project-detail-93) | — | [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | 支持数百网站视频音频下载的桌面应用。 | 近期活跃热门仓库 | 10,033 | JavaScript | macOS 安装包：Release: YTDownloader_Mac_arm64.dmg、Release: YTDownloader_Mac_x64.dmg；Windows 安装包：Release: YTDownloader_Win.exe、Release: YTDownloader_Win.msi |
+| <a id="project-row-94"></a>[#94 ↘️](#project-detail-94) | — | [graphif/project-graph](https://github.com/graphif/project-graph) | 是一个基于节点的非线性思维和笔记可视化工具。 | 近期活跃热门仓库 | 4,247 | TypeScript | macOS 安装包：Release: Project.Graph_4.1.1_universal.dmg；Windows 安装包：Release: Project.Graph_4.1.1_x64-setup-gpu.exe |
+| <a id="project-row-95"></a>[#95 ↘️](#project-detail-95) | — | [kunkundi/crossdesk](https://github.com/kunkundi/crossdesk) | 一款支持 Web 客户端访问的轻量级跨平台远程桌面软件。 | 近期活跃热门仓库 | 4,221 | C++ | macOS 安装包：Release: crossdesk-macos-arm64-v1.4.1-20260728.pkg、Release: crossdesk-macos-x64-v1.4.1-20260728.pkg；Windows 安装包：Release: crossdesk-win-x64-v1.4.1-20260728.exe |
+| <a id="project-row-96"></a>[#96 ↘️](#project-detail-96) | — | [oliverschwendener/ueli](https://github.com/oliverschwendener/ueli) | 跨平台键盘快捷启动器。 | 近期活跃热门仓库 | 4,572 | TypeScript | macOS 安装包：Release: Ueli-9.29.0-arm64.dmg、Release: Ueli-9.29.0.dmg；Windows 安装包：Release: Ueli-9.29.0.msi、Release: Ueli-Setup-9.29.0.exe |
+| <a id="project-row-97"></a>[#97 ↘️](#project-detail-97) | — | [EcoPasteHub/EcoPaste](https://github.com/EcoPasteHub/EcoPaste) | 🎉跨平台的剪贴板管理工具 | 近期活跃热门仓库 | 7,253 | Rust | macOS 安装包：Release: EcoPaste_1.1.0_aarch64.dmg、Release: EcoPaste_1.1.0_x64.dmg；Windows 安装包：Release: EcoPaste_1.1.0_arm64-setup.exe、Release: EcoPaste_1.1.0_x64-setup.exe |
+| <a id="project-row-98"></a>[#98 ↘️](#project-detail-98) | 🆕 **NEW** | [freeplane/freeplane](https://github.com/freeplane/freeplane) | 是一款用于思维导图、知识管理和项目管理的应用，助你高效组织和传达想法。 | 近期活跃热门仓库 | 4,258 | Java | macOS 安装包：Release: Freeplane-1.13.3-apple.dmg、Release: Freeplane-1.13.3-intel.dmg；Windows 安装包：Release: Freeplane-Setup-1.13.3.exe、Release: Freeplane-Setup-touchscreen-1.13.3.exe |
+| <a id="project-row-99"></a>[#99 ↘️](#project-detail-99) | — | [doublecmd/doublecmd](https://github.com/doublecmd/doublecmd) | Double Commander是一个免费开源的跨平台双面板文件管理器。 | 近期活跃热门仓库 | 4,360 | Pascal | macOS 安装包：Release: doublecmd-1.2.7.cocoa.aarch64.dmg、Release: doublecmd-1.2.7.cocoa.x86_64.dmg；Windows 安装包：Release: doublecmd-1.2.7.i386-win32.exe、Release: doublecmd-1.2.7.i386-win32.msi |
+| <a id="project-row-100"></a>[#100 ↘️](#project-detail-100) | — | [TabularisDB/tabularis](https://github.com/TabularisDB/tabularis) | 支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。 | 近期活跃热门仓库 | 3,960 | TypeScript | macOS 安装包：Release: tabularis_0.17.0_aarch64.dmg、Release: tabularis_0.17.0_x64.dmg；Windows 安装包：Release: tabularis_0.17.0_x64-portable.exe、Release: tabularis_0.17.0_x64-setup.exe |
 
 ## 项目详情
 
@@ -116,7 +116,7 @@
 
 ### 1. [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)
 
-[↑ 返回榜单中的本项目](#project-row-1)
+[↖️ 返回表格中的 #1](#project-row-1)
 
 #### 中文分析
 
@@ -144,7 +144,7 @@
 
 ### 2. [moeru-ai/airi](https://github.com/moeru-ai/airi)
 
-[↑ 返回榜单中的本项目](#project-row-2)
+[↖️ 返回表格中的 #2](#project-row-2)
 
 #### 中文分析
 
@@ -172,7 +172,7 @@
 
 ### 3. [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
-[↑ 返回榜单中的本项目](#project-row-3)
+[↖️ 返回表格中的 #3](#project-row-3)
 
 #### 中文分析
 
@@ -200,7 +200,7 @@
 
 ### 4. [farion1231/cc-switch](https://github.com/farion1231/cc-switch)
 
-[↑ 返回榜单中的本项目](#project-row-4)
+[↖️ 返回表格中的 #4](#project-row-4)
 
 #### 中文分析
 
@@ -228,7 +228,7 @@
 
 ### 5. [nexu-io/open-design](https://github.com/nexu-io/open-design)
 
-[↑ 返回榜单中的本项目](#project-row-5)
+[↖️ 返回表格中的 #5](#project-row-5)
 
 #### 中文分析
 
@@ -256,7 +256,7 @@
 
 ### 6. [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
 
-[↑ 返回榜单中的本项目](#project-row-6)
+[↖️ 返回表格中的 #6](#project-row-6)
 
 #### 中文分析
 
@@ -284,7 +284,7 @@
 
 ### 7. [Eugeny/tabby](https://github.com/Eugeny/tabby)
 
-[↑ 返回榜单中的本项目](#project-row-7)
+[↖️ 返回表格中的 #7](#project-row-7)
 
 #### 中文分析
 
@@ -312,7 +312,7 @@
 
 ### 8. [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
 
-[↑ 返回榜单中的本项目](#project-row-8)
+[↖️ 返回表格中的 #8](#project-row-8)
 
 #### 中文分析
 
@@ -340,7 +340,7 @@
 
 ### 9. [laurent22/joplin](https://github.com/laurent22/joplin)
 
-[↑ 返回榜单中的本项目](#project-row-9)
+[↖️ 返回表格中的 #9](#project-row-9)
 
 #### 中文分析
 
@@ -368,7 +368,7 @@
 
 ### 10. [WerWolv/ImHex](https://github.com/WerWolv/ImHex)
 
-[↑ 返回榜单中的本项目](#project-row-10)
+[↖️ 返回表格中的 #10](#project-row-10)
 
 #### 中文分析
 
@@ -396,7 +396,7 @@
 
 ### 11. [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
 
-[↑ 返回榜单中的本项目](#project-row-11)
+[↖️ 返回表格中的 #11](#project-row-11)
 
 #### 中文分析
 
@@ -424,7 +424,7 @@
 
 ### 12. [usebruno/bruno](https://github.com/usebruno/bruno)
 
-[↑ 返回榜单中的本项目](#project-row-12)
+[↖️ 返回表格中的 #12](#project-row-12)
 
 #### 中文分析
 
@@ -452,7 +452,7 @@
 
 ### 13. [marktext/marktext](https://github.com/marktext/marktext)
 
-[↑ 返回榜单中的本项目](#project-row-13)
+[↖️ 返回表格中的 #13](#project-row-13)
 
 #### 中文分析
 
@@ -480,7 +480,7 @@
 
 ### 14. [janhq/jan](https://github.com/janhq/jan)
 
-[↑ 返回榜单中的本项目](#project-row-14)
+[↖️ 返回表格中的 #14](#project-row-14)
 
 #### 中文分析
 
@@ -508,7 +508,7 @@
 
 ### 15. [cli/cli](https://github.com/cli/cli)
 
-[↑ 返回榜单中的本项目](#project-row-15)
+[↖️ 返回表格中的 #15](#project-row-15)
 
 #### 中文分析
 
@@ -536,7 +536,7 @@
 
 ### 16. [tw93/Pake](https://github.com/tw93/Pake)
 
-[↑ 返回榜单中的本项目](#project-row-16)
+[↖️ 返回表格中的 #16](#project-row-16)
 
 #### 中文分析
 
@@ -563,7 +563,7 @@
 
 ### 17. [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine)
 
-[↑ 返回榜单中的本项目](#project-row-17)
+[↖️ 返回表格中的 #17](#project-row-17)
 
 #### 中文分析
 
@@ -591,7 +591,7 @@
 
 ### 18. [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium)
 
-[↑ 返回榜单中的本项目](#project-row-18)
+[↖️ 返回表格中的 #18](#project-row-18)
 
 #### 中文分析
 
@@ -619,7 +619,7 @@
 
 ### 19. [agalwood/Motrix](https://github.com/agalwood/Motrix)
 
-[↑ 返回榜单中的本项目](#project-row-19)
+[↖️ 返回表格中的 #19](#project-row-19)
 
 #### 中文分析
 
@@ -647,7 +647,7 @@
 
 ### 20. [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)
 
-[↑ 返回榜单中的本项目](#project-row-20)
+[↖️ 返回表格中的 #20](#project-row-20)
 
 #### 中文分析
 
@@ -675,7 +675,7 @@
 
 ### 21. [stablyai/orca](https://github.com/stablyai/orca)
 
-[↑ 返回榜单中的本项目](#project-row-21)
+[↖️ 返回表格中的 #21](#project-row-21)
 
 #### 中文分析
 
@@ -703,7 +703,7 @@
 
 ### 22. [KRTirtho/spotube](https://github.com/KRTirtho/spotube)
 
-[↑ 返回榜单中的本项目](#project-row-22)
+[↖️ 返回表格中的 #22](#project-row-22)
 
 #### 中文分析
 
@@ -731,7 +731,7 @@
 
 ### 23. [VSCodium/vscodium](https://github.com/VSCodium/vscodium)
 
-[↑ 返回榜单中的本项目](#project-row-23)
+[↖️ 返回表格中的 #23](#project-row-23)
 
 #### 中文分析
 
@@ -759,7 +759,7 @@
 
 ### 24. [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot)
 
-[↑ 返回榜单中的本项目](#project-row-24)
+[↖️ 返回表格中的 #24](#project-row-24)
 
 #### 中文分析
 
@@ -787,7 +787,7 @@
 
 ### 25. [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop)
 
-[↑ 返回榜单中的本项目](#project-row-25)
+[↖️ 返回表格中的 #25](#project-row-25)
 
 #### 中文分析
 
@@ -814,7 +814,7 @@
 
 ### 26. [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
 
-[↑ 返回榜单中的本项目](#project-row-26)
+[↖️ 返回表格中的 #26](#project-row-26)
 
 #### 中文分析
 
@@ -842,7 +842,7 @@
 
 ### 27. [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
 
-[↑ 返回榜单中的本项目](#project-row-27)
+[↖️ 返回表格中的 #27](#project-row-27)
 
 #### 中文分析
 
@@ -870,7 +870,7 @@
 
 ### 28. [Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI)
 
-[↑ 返回榜单中的本项目](#project-row-28)
+[↖️ 返回表格中的 #28](#project-row-28)
 
 #### 中文分析
 
@@ -898,7 +898,7 @@
 
 ### 29. [cjpais/Handy](https://github.com/cjpais/Handy)
 
-[↑ 返回榜单中的本项目](#project-row-29)
+[↖️ 返回表格中的 #29](#project-row-29)
 
 #### 中文分析
 
@@ -926,7 +926,7 @@
 
 ### 30. [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
 
-[↑ 返回榜单中的本项目](#project-row-30)
+[↖️ 返回表格中的 #30](#project-row-30)
 
 #### 中文分析
 
@@ -954,7 +954,7 @@
 
 ### 31. [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
 
-[↑ 返回榜单中的本项目](#project-row-31)
+[↖️ 返回表格中的 #31](#project-row-31)
 
 #### 中文分析
 
@@ -982,7 +982,7 @@
 
 ### 32. [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity)
 
-[↑ 返回榜单中的本项目](#project-row-32)
+[↖️ 返回表格中的 #32](#project-row-32)
 
 #### 中文分析
 
@@ -1010,7 +1010,7 @@
 
 ### 33. [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)
 
-[↑ 返回榜单中的本项目](#project-row-33)
+[↖️ 返回表格中的 #33](#project-row-33)
 
 #### 中文分析
 
@@ -1038,7 +1038,7 @@
 
 ### 34. [mountain-loop/yaak](https://github.com/mountain-loop/yaak)
 
-[↑ 返回榜单中的本项目](#project-row-34)
+[↖️ 返回表格中的 #34](#project-row-34)
 
 #### 中文分析
 
@@ -1066,7 +1066,7 @@
 
 ### 35. [nukeop/nuclear](https://github.com/nukeop/nuclear)
 
-[↑ 返回榜单中的本项目](#project-row-35)
+[↖️ 返回表格中的 #35](#project-row-35)
 
 #### 中文分析
 
@@ -1094,7 +1094,7 @@
 
 ### 36. [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch)
 
-[↑ 返回榜单中的本项目](#project-row-36)
+[↖️ 返回表格中的 #36](#project-row-36)
 
 #### 中文分析
 
@@ -1122,7 +1122,7 @@
 
 ### 37. [audacity/audacity](https://github.com/audacity/audacity)
 
-[↑ 返回榜单中的本项目](#project-row-37)
+[↖️ 返回表格中的 #37](#project-row-37)
 
 #### 中文分析
 
@@ -1150,7 +1150,7 @@
 
 ### 38. [kurikomi-labs/komi-store](https://github.com/kurikomi-labs/komi-store) 🆕 **NEW**
 
-[↑ 返回榜单中的本项目](#project-row-38)
+[↖️ 返回表格中的 #38](#project-row-38)
 
 #### 中文分析
 
@@ -1178,7 +1178,7 @@
 
 ### 39. [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat)
 
-[↑ 返回榜单中的本项目](#project-row-39)
+[↖️ 返回表格中的 #39](#project-row-39)
 
 #### 中文分析
 
@@ -1206,7 +1206,7 @@
 
 ### 40. [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc)
 
-[↑ 返回榜单中的本项目](#project-row-40)
+[↖️ 返回表格中的 #40](#project-row-40)
 
 #### 中文分析
 
@@ -1234,7 +1234,7 @@
 
 ### 41. [alacritty/alacritty](https://github.com/alacritty/alacritty)
 
-[↑ 返回榜单中的本项目](#project-row-41)
+[↖️ 返回表格中的 #41](#project-row-41)
 
 #### 中文分析
 
@@ -1262,7 +1262,7 @@
 
 ### 42. [mltframework/shotcut](https://github.com/mltframework/shotcut)
 
-[↑ 返回榜单中的本项目](#project-row-42)
+[↖️ 返回表格中的 #42](#project-row-42)
 
 #### 中文分析
 
@@ -1290,7 +1290,7 @@
 
 ### 43. [streetwriters/notesnook](https://github.com/streetwriters/notesnook)
 
-[↑ 返回榜单中的本项目](#project-row-43)
+[↖️ 返回表格中的 #43](#project-row-43)
 
 #### 中文分析
 
@@ -1318,7 +1318,7 @@
 
 ### 44. [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix)
 
-[↑ 返回榜单中的本项目](#project-row-44)
+[↖️ 返回表格中的 #44](#project-row-44)
 
 #### 中文分析
 
@@ -1346,7 +1346,7 @@
 
 ### 45. [electerm/electerm](https://github.com/electerm/electerm)
 
-[↑ 返回榜单中的本项目](#project-row-45)
+[↖️ 返回表格中的 #45](#project-row-45)
 
 #### 中文分析
 
@@ -1374,7 +1374,7 @@
 
 ### 46. [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)
 
-[↑ 返回榜单中的本项目](#project-row-46)
+[↖️ 返回表格中的 #46](#project-row-46)
 
 #### 中文分析
 
@@ -1402,7 +1402,7 @@
 
 ### 47. [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 
-[↑ 返回榜单中的本项目](#project-row-47)
+[↖️ 返回表格中的 #47](#project-row-47)
 
 #### 中文分析
 
@@ -1430,7 +1430,7 @@
 
 ### 48. [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager)
 
-[↑ 返回榜单中的本项目](#project-row-48)
+[↖️ 返回表格中的 #48](#project-row-48)
 
 #### 中文分析
 
@@ -1458,7 +1458,7 @@
 
 ### 49. [t8y2/dbx](https://github.com/t8y2/dbx)
 
-[↑ 返回榜单中的本项目](#project-row-49)
+[↖️ 返回表格中的 #49](#project-row-49)
 
 #### 中文分析
 
@@ -1486,7 +1486,7 @@
 
 ### 50. [codexu/note-gen](https://github.com/codexu/note-gen)
 
-[↑ 返回榜单中的本项目](#project-row-50)
+[↖️ 返回表格中的 #50](#project-row-50)
 
 #### 中文分析
 
@@ -1514,7 +1514,7 @@
 
 ### 51. [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
 
-[↑ 返回榜单中的本项目](#project-row-51)
+[↖️ 返回表格中的 #51](#project-row-51)
 
 #### 中文分析
 
@@ -1542,7 +1542,7 @@
 
 ### 52. [getpaseo/paseo](https://github.com/getpaseo/paseo)
 
-[↑ 返回榜单中的本项目](#project-row-52)
+[↖️ 返回表格中的 #52](#project-row-52)
 
 #### 中文分析
 
@@ -1570,7 +1570,7 @@
 
 ### 53. [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext)
 
-[↑ 返回榜单中的本项目](#project-row-53)
+[↖️ 返回表格中的 #53](#project-row-53)
 
 #### 中文分析
 
@@ -1597,7 +1597,7 @@
 
 ### 54. [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app)
 
-[↑ 返回榜单中的本项目](#project-row-54)
+[↖️ 返回表格中的 #54](#project-row-54)
 
 #### 中文分析
 
@@ -1625,7 +1625,7 @@
 
 ### 55. [lapce/lapce](https://github.com/lapce/lapce)
 
-[↑ 返回榜单中的本项目](#project-row-55)
+[↖️ 返回表格中的 #55](#project-row-55)
 
 #### 中文分析
 
@@ -1653,7 +1653,7 @@
 
 ### 56. [espanso/espanso](https://github.com/espanso/espanso)
 
-[↑ 返回榜单中的本项目](#project-row-56)
+[↖️ 返回表格中的 #56](#project-row-56)
 
 #### 中文分析
 
@@ -1681,7 +1681,7 @@
 
 ### 57. [hluk/CopyQ](https://github.com/hluk/CopyQ)
 
-[↑ 返回榜单中的本项目](#project-row-57)
+[↖️ 返回表格中的 #57](#project-row-57)
 
 #### 中文分析
 
@@ -1708,7 +1708,7 @@
 
 ### 58. [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop)
 
-[↑ 返回榜单中的本项目](#project-row-58)
+[↖️ 返回表格中的 #58](#project-row-58)
 
 #### 中文分析
 
@@ -1736,7 +1736,7 @@
 
 ### 59. [getagentseal/codeburn](https://github.com/getagentseal/codeburn)
 
-[↑ 返回榜单中的本项目](#project-row-59)
+[↖️ 返回表格中的 #59](#project-row-59)
 
 #### 中文分析
 
@@ -1764,7 +1764,7 @@
 
 ### 60. [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW)
 
-[↑ 返回榜单中的本项目](#project-row-60)
+[↖️ 返回表格中的 #60](#project-row-60)
 
 #### 中文分析
 
@@ -1791,7 +1791,7 @@
 
 ### 61. [crynta/terax-ai](https://github.com/crynta/terax-ai)
 
-[↑ 返回榜单中的本项目](#project-row-61)
+[↖️ 返回表格中的 #61](#project-row-61)
 
 #### 中文分析
 
@@ -1819,7 +1819,7 @@
 
 ### 62. [tonyantony300/dashbeam](https://github.com/tonyantony300/dashbeam)
 
-[↑ 返回榜单中的本项目](#project-row-62)
+[↖️ 返回表格中的 #62](#project-row-62)
 
 #### 中文分析
 
@@ -1847,7 +1847,7 @@
 
 ### 63. [jeffvli/feishin](https://github.com/jeffvli/feishin)
 
-[↑ 返回榜单中的本项目](#project-row-63)
+[↖️ 返回表格中的 #63](#project-row-63)
 
 #### 中文分析
 
@@ -1875,7 +1875,7 @@
 
 ### 64. [mockoon/mockoon](https://github.com/mockoon/mockoon)
 
-[↑ 返回榜单中的本项目](#project-row-64)
+[↖️ 返回表格中的 #64](#project-row-64)
 
 #### 中文分析
 
@@ -1903,7 +1903,7 @@
 
 ### 65. [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3)
 
-[↑ 返回榜单中的本项目](#project-row-65)
+[↖️ 返回表格中的 #65](#project-row-65)
 
 #### 中文分析
 
@@ -1931,7 +1931,7 @@
 
 ### 66. [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop)
 
-[↑ 返回榜单中的本项目](#project-row-66)
+[↖️ 返回表格中的 #66](#project-row-66)
 
 #### 中文分析
 
@@ -1959,7 +1959,7 @@
 
 ### 67. [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil)
 
-[↑ 返回榜单中的本项目](#project-row-67)
+[↖️ 返回表格中的 #67](#project-row-67)
 
 #### 中文分析
 
@@ -1987,7 +1987,7 @@
 
 ### 68. [mediago-dev/mediago](https://github.com/mediago-dev/mediago)
 
-[↑ 返回榜单中的本项目](#project-row-68)
+[↖️ 返回表格中的 #68](#project-row-68)
 
 #### 中文分析
 
@@ -2015,7 +2015,7 @@
 
 ### 69. [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor)
 
-[↑ 返回榜单中的本项目](#project-row-69)
+[↖️ 返回表格中的 #69](#project-row-69)
 
 #### 中文分析
 
@@ -2043,7 +2043,7 @@
 
 ### 70. [4gray/iptvnator](https://github.com/4gray/iptvnator)
 
-[↑ 返回榜单中的本项目](#project-row-70)
+[↖️ 返回表格中的 #70](#project-row-70)
 
 #### 中文分析
 
@@ -2071,7 +2071,7 @@
 
 ### 71. [massCodeIO/massCode](https://github.com/massCodeIO/massCode)
 
-[↑ 返回榜单中的本项目](#project-row-71)
+[↖️ 返回表格中的 #71](#project-row-71)
 
 #### 中文分析
 
@@ -2099,7 +2099,7 @@
 
 ### 72. [raphamorim/rio](https://github.com/raphamorim/rio)
 
-[↑ 返回榜单中的本项目](#project-row-72)
+[↖️ 返回表格中的 #72](#project-row-72)
 
 #### 中文分析
 
@@ -2127,7 +2127,7 @@
 
 ### 73. [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat)
 
-[↑ 返回榜单中的本项目](#project-row-73)
+[↖️ 返回表格中的 #73](#project-row-73)
 
 #### 中文分析
 
@@ -2155,7 +2155,7 @@
 
 ### 74. [Sylinko/Everywhere](https://github.com/Sylinko/Everywhere)
 
-[↑ 返回榜单中的本项目](#project-row-74)
+[↖️ 返回表格中的 #74](#project-row-74)
 
 #### 中文分析
 
@@ -2183,7 +2183,7 @@
 
 ### 75. [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI)
 
-[↑ 返回榜单中的本项目](#project-row-75)
+[↖️ 返回表格中的 #75](#project-row-75)
 
 #### 中文分析
 
@@ -2211,7 +2211,7 @@
 
 ### 76. [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk)
 
-[↑ 返回榜单中的本项目](#project-row-76)
+[↖️ 返回表格中的 #76](#project-row-76)
 
 #### 中文分析
 
@@ -2238,7 +2238,7 @@
 
 ### 77. [dbgate/dbgate](https://github.com/dbgate/dbgate)
 
-[↑ 返回榜单中的本项目](#project-row-77)
+[↖️ 返回表格中的 #77](#project-row-77)
 
 #### 中文分析
 
@@ -2266,7 +2266,7 @@
 
 ### 78. [JannisX11/blockbench](https://github.com/JannisX11/blockbench)
 
-[↑ 返回榜单中的本项目](#project-row-78)
+[↖️ 返回表格中的 #78](#project-row-78)
 
 #### 中文分析
 
@@ -2294,7 +2294,7 @@
 
 ### 79. [op7418/CodePilot](https://github.com/op7418/CodePilot)
 
-[↑ 返回榜单中的本项目](#project-row-79)
+[↖️ 返回表格中的 #79](#project-row-79)
 
 #### 中文分析
 
@@ -2322,7 +2322,7 @@
 
 ### 80. [HuLaSpark/HuLa](https://github.com/HuLaSpark/HuLa)
 
-[↑ 返回榜单中的本项目](#project-row-80)
+[↖️ 返回表格中的 #80](#project-row-80)
 
 #### 中文分析
 
@@ -2350,7 +2350,7 @@
 
 ### 81. [reqable/reqable-app](https://github.com/reqable/reqable-app)
 
-[↑ 返回榜单中的本项目](#project-row-81)
+[↖️ 返回表格中的 #81](#project-row-81)
 
 #### 中文分析
 
@@ -2378,7 +2378,7 @@
 
 ### 82. [generalaction/emdash](https://github.com/generalaction/emdash)
 
-[↑ 返回榜单中的本项目](#project-row-82)
+[↖️ 返回表格中的 #82](#project-row-82)
 
 #### 中文分析
 
@@ -2406,7 +2406,7 @@
 
 ### 83. [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic)
 
-[↑ 返回榜单中的本项目](#project-row-83)
+[↖️ 返回表格中的 #83](#project-row-83)
 
 #### 中文分析
 
@@ -2434,7 +2434,7 @@
 
 ### 84. [altair-graphql/altair](https://github.com/altair-graphql/altair)
 
-[↑ 返回榜单中的本项目](#project-row-84)
+[↖️ 返回表格中的 #84](#project-row-84)
 
 #### 中文分析
 
@@ -2462,7 +2462,7 @@
 
 ### 85. [thewh1teagle/vibe](https://github.com/thewh1teagle/vibe)
 
-[↑ 返回榜单中的本项目](#project-row-85)
+[↖️ 返回表格中的 #85](#project-row-85)
 
 #### 中文分析
 
@@ -2490,7 +2490,7 @@
 
 ### 86. [OpenWhispr/openwhispr](https://github.com/OpenWhispr/openwhispr)
 
-[↑ 返回榜单中的本项目](#project-row-86)
+[↖️ 返回表格中的 #86](#project-row-86)
 
 #### 中文分析
 
@@ -2518,7 +2518,7 @@
 
 ### 87. [domcyrus/rustnet](https://github.com/domcyrus/rustnet)
 
-[↑ 返回榜单中的本项目](#project-row-87)
+[↖️ 返回表格中的 #87](#project-row-87)
 
 #### 中文分析
 
@@ -2546,7 +2546,7 @@
 
 ### 88. [IsmaelMartinez/teams-for-linux](https://github.com/IsmaelMartinez/teams-for-linux)
 
-[↑ 返回榜单中的本项目](#project-row-88)
+[↖️ 返回表格中的 #88](#project-row-88)
 
 #### 中文分析
 
@@ -2574,7 +2574,7 @@
 
 ### 89. [Splode/pomotroid](https://github.com/Splode/pomotroid)
 
-[↑ 返回榜单中的本项目](#project-row-89)
+[↖️ 返回表格中的 #89](#project-row-89)
 
 #### 中文分析
 
@@ -2602,7 +2602,7 @@
 
 ### 90. [caamer20/Telegram-Drive](https://github.com/caamer20/Telegram-Drive)
 
-[↑ 返回榜单中的本项目](#project-row-90)
+[↖️ 返回表格中的 #90](#project-row-90)
 
 #### 中文分析
 
@@ -2630,7 +2630,7 @@
 
 ### 91. [binaricat/Netcatty](https://github.com/binaricat/Netcatty)
 
-[↑ 返回榜单中的本项目](#project-row-91)
+[↖️ 返回表格中的 #91](#project-row-91)
 
 #### 中文分析
 
@@ -2658,7 +2658,7 @@
 
 ### 92. [purocean/yn](https://github.com/purocean/yn)
 
-[↑ 返回榜单中的本项目](#project-row-92)
+[↖️ 返回表格中的 #92](#project-row-92)
 
 #### 中文分析
 
@@ -2686,7 +2686,7 @@
 
 ### 93. [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader)
 
-[↑ 返回榜单中的本项目](#project-row-93)
+[↖️ 返回表格中的 #93](#project-row-93)
 
 #### 中文分析
 
@@ -2714,7 +2714,7 @@
 
 ### 94. [graphif/project-graph](https://github.com/graphif/project-graph)
 
-[↑ 返回榜单中的本项目](#project-row-94)
+[↖️ 返回表格中的 #94](#project-row-94)
 
 #### 中文分析
 
@@ -2742,7 +2742,7 @@
 
 ### 95. [kunkundi/crossdesk](https://github.com/kunkundi/crossdesk)
 
-[↑ 返回榜单中的本项目](#project-row-95)
+[↖️ 返回表格中的 #95](#project-row-95)
 
 #### 中文分析
 
@@ -2770,7 +2770,7 @@
 
 ### 96. [oliverschwendener/ueli](https://github.com/oliverschwendener/ueli)
 
-[↑ 返回榜单中的本项目](#project-row-96)
+[↖️ 返回表格中的 #96](#project-row-96)
 
 #### 中文分析
 
@@ -2798,7 +2798,7 @@
 
 ### 97. [EcoPasteHub/EcoPaste](https://github.com/EcoPasteHub/EcoPaste)
 
-[↑ 返回榜单中的本项目](#project-row-97)
+[↖️ 返回表格中的 #97](#project-row-97)
 
 #### 中文分析
 
@@ -2826,7 +2826,7 @@
 
 ### 98. [freeplane/freeplane](https://github.com/freeplane/freeplane) 🆕 **NEW**
 
-[↑ 返回榜单中的本项目](#project-row-98)
+[↖️ 返回表格中的 #98](#project-row-98)
 
 #### 中文分析
 
@@ -2854,7 +2854,7 @@
 
 ### 99. [doublecmd/doublecmd](https://github.com/doublecmd/doublecmd)
 
-[↑ 返回榜单中的本项目](#project-row-99)
+[↖️ 返回表格中的 #99](#project-row-99)
 
 #### 中文分析
 
@@ -2882,7 +2882,7 @@
 
 ### 100. [TabularisDB/tabularis](https://github.com/TabularisDB/tabularis)
 
-[↑ 返回榜单中的本项目](#project-row-100)
+[↖️ 返回表格中的 #100](#project-row-100)
 
 #### 中文分析
 
