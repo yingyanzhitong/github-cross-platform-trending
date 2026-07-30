@@ -2,6 +2,8 @@
 
 每天自动查找 GitHub 上同时支持 macOS 与 Windows 的热门软件，展示排名前 100 的项目，并生成可阅读的 Markdown 榜单和可二次处理的 JSON 数据。
 
+在线浏览：[GitHub Pages 日报站](https://yingyanzhitong.github.io/github-cross-platform-trending-pages/)。
+
 ## 工作方式
 
 候选仓库来自：
@@ -24,6 +26,8 @@
 - `reports/YYYY-MM-DD.md`：历史日报；
 - `data/latest.json`：最新一期结构化数据；
 - `data/YYYY-MM-DD.json`：历史结构化数据。
+
+`scripts/build_pages.py` 会根据 `reports/` 与 `data/` 生成 `docs/` 静态站点，`scripts/sync_pages_repo.py` 仅将生成后的公开页面同步到独立的 GitHub Pages 仓库，不会复制源代码、令牌或翻译缓存。
 
 JSON 中同时保留 `description_en` 英文原文、`description_zh` 中文简介，以及结构化的 `analysis_zh` 中文项目分析。GitHub Actions 每天北京时间 08:30 自动运行，也支持在 Actions 页面手动触发。工作流使用仓库自带的 `GITHUB_TOKEN` 访问 GitHub API 与 GitHub Models，不需要额外配置密钥，并会将当天报告自动提交回仓库。
 

@@ -1,0 +1,665 @@
+{
+  "latest": "2026-07-30",
+  "reports": [
+    {
+      "date": "2026-07-30",
+      "generated_at": "2026-07-30T14:35:33+08:00",
+      "discovered_count": 1000,
+      "candidate_count": 600,
+      "software_count": 100,
+      "daily_trending": [
+        {
+          "rank": 1,
+          "name": "opengeos/GeoLibre",
+          "trending_rank": 1,
+          "stars_today": 671
+        },
+        {
+          "rank": 2,
+          "name": "moeru-ai/airi",
+          "trending_rank": 2,
+          "stars_today": 682
+        }
+      ],
+      "new_projects": [
+        {
+          "rank": 40,
+          "name": "kurikomi-labs/komi-store"
+        },
+        {
+          "rank": 99,
+          "name": "freeplane/freeplane"
+        }
+      ],
+      "warnings_count": 0,
+      "software_names": [
+        "opengeos/GeoLibre",
+        "moeru-ai/airi",
+        "farion1231/cc-switch",
+        "rustdesk/rustdesk",
+        "nexu-io/open-design",
+        "OpenHands/OpenHands",
+        "Eugeny/tabby",
+        "toeverything/AFFiNE",
+        "PowerShell/PowerShell",
+        "laurent22/joplin",
+        "WerWolv/ImHex",
+        "usebruno/bruno",
+        "siyuan-note/siyuan",
+        "marktext/marktext",
+        "janhq/jan",
+        "cli/cli",
+        "tw93/Pake",
+        "LizardByte/Sunshine",
+        "TriliumNext/Trilium",
+        "stablyai/orca",
+        "pear-devs/pear-desktop",
+        "agalwood/Motrix",
+        "DayuanJiang/next-ai-draw-io",
+        "KRTirtho/spotube",
+        "VSCodium/vscodium",
+        "flameshot-org/flameshot",
+        "Wox-launcher/Wox",
+        "GyulyVGC/sniffnet",
+        "Devolutions/UniGetUI",
+        "cjpais/Handy",
+        "beekeeper-studio/beekeeper-studio",
+        "wavetermdev/waveterm",
+        "super-productivity/super-productivity",
+        "GopeedLab/gopeed",
+        "mountain-loop/yaak",
+        "nukeop/nuclear",
+        "ActivityWatch/activitywatch",
+        "rowboatlabs/rowboat",
+        "audacity/audacity",
+        "kurikomi-labs/komi-store",
+        "keepassxreboot/keepassxc",
+        "alacritty/alacritty",
+        "mltframework/shotcut",
+        "streetwriters/notesnook",
+        "Termix-SSH/Termix",
+        "electerm/electerm",
+        "NanmiCoder/cc-haha",
+        "lyswhut/lx-music-desktop",
+        "t8y2/dbx",
+        "amir1376/ab-download-manager",
+        "codexu/note-gen",
+        "Zettlr/Zettlr",
+        "getpaseo/paseo",
+        "dail8859/NotepadNext",
+        "HBAI-Ltd/Toonflow-app",
+        "lapce/lapce",
+        "espanso/espanso",
+        "hluk/CopyQ",
+        "jeffvli/feishin",
+        "webtorrent/webtorrent-desktop",
+        "getagentseal/codeburn",
+        "CyberTimon/RapidRAW",
+        "crynta/terax-ai",
+        "tonyantony300/dashbeam",
+        "mockoon/mockoon",
+        "XiaoYouChR/Ghost-Downloader-3",
+        "rancher-sandbox/rancher-desktop",
+        "open-pencil/open-pencil",
+        "mediago-dev/mediago",
+        "PixiEditor/PixiEditor",
+        "4gray/iptvnator",
+        "massCodeIO/massCode",
+        "op7418/CodePilot",
+        "ThinkInAIXYZ/deepchat",
+        "raphamorim/rio",
+        "Sylinko/Everywhere",
+        "netease-youdao/LobsterAI",
+        "rullerzhou-afk/clawd-on-desk",
+        "dbgate/dbgate",
+        "JannisX11/blockbench",
+        "HuLaSpark/HuLa",
+        "reqable/reqable-app",
+        "generalaction/emdash",
+        "MoeKoeMusic/MoeKoeMusic",
+        "altair-graphql/altair",
+        "thewh1teagle/vibe",
+        "OpenWhispr/openwhispr",
+        "domcyrus/rustnet",
+        "IsmaelMartinez/teams-for-linux",
+        "Splode/pomotroid",
+        "caamer20/Telegram-Drive",
+        "binaricat/Netcatty",
+        "purocean/yn",
+        "aandrew-me/ytDownloader",
+        "kunkundi/crossdesk",
+        "graphif/project-graph",
+        "oliverschwendener/ueli",
+        "EcoPasteHub/EcoPaste",
+        "freeplane/freeplane",
+        "doublecmd/doublecmd"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "generated_at": "2026-07-29T16:24:09+08:00",
+      "discovered_count": 1000,
+      "candidate_count": 600,
+      "software_count": 100,
+      "daily_trending": [
+        {
+          "rank": 1,
+          "name": "moeru-ai/airi",
+          "trending_rank": 3,
+          "stars_today": 797
+        },
+        {
+          "rank": 2,
+          "name": "opengeos/GeoLibre",
+          "trending_rank": 8,
+          "stars_today": 607
+        }
+      ],
+      "new_projects": [
+        {
+          "rank": 1,
+          "name": "moeru-ai/airi"
+        },
+        {
+          "rank": 2,
+          "name": "opengeos/GeoLibre"
+        },
+        {
+          "rank": 3,
+          "name": "farion1231/cc-switch"
+        },
+        {
+          "rank": 4,
+          "name": "rustdesk/rustdesk"
+        },
+        {
+          "rank": 5,
+          "name": "nexu-io/open-design"
+        },
+        {
+          "rank": 6,
+          "name": "OpenHands/OpenHands"
+        },
+        {
+          "rank": 7,
+          "name": "toeverything/AFFiNE"
+        },
+        {
+          "rank": 8,
+          "name": "Eugeny/tabby"
+        },
+        {
+          "rank": 9,
+          "name": "laurent22/joplin"
+        },
+        {
+          "rank": 10,
+          "name": "WerWolv/ImHex"
+        },
+        {
+          "rank": 11,
+          "name": "PowerShell/PowerShell"
+        },
+        {
+          "rank": 12,
+          "name": "marktext/marktext"
+        },
+        {
+          "rank": 13,
+          "name": "usebruno/bruno"
+        },
+        {
+          "rank": 14,
+          "name": "cli/cli"
+        },
+        {
+          "rank": 15,
+          "name": "siyuan-note/siyuan"
+        },
+        {
+          "rank": 16,
+          "name": "tw93/Pake"
+        },
+        {
+          "rank": 17,
+          "name": "janhq/jan"
+        },
+        {
+          "rank": 18,
+          "name": "LizardByte/Sunshine"
+        },
+        {
+          "rank": 19,
+          "name": "TriliumNext/Trilium"
+        },
+        {
+          "rank": 20,
+          "name": "agalwood/Motrix"
+        },
+        {
+          "rank": 21,
+          "name": "KRTirtho/spotube"
+        },
+        {
+          "rank": 22,
+          "name": "DayuanJiang/next-ai-draw-io"
+        },
+        {
+          "rank": 23,
+          "name": "stablyai/orca"
+        },
+        {
+          "rank": 24,
+          "name": "pear-devs/pear-desktop"
+        },
+        {
+          "rank": 25,
+          "name": "GyulyVGC/sniffnet"
+        },
+        {
+          "rank": 26,
+          "name": "Wox-launcher/Wox"
+        },
+        {
+          "rank": 27,
+          "name": "flameshot-org/flameshot"
+        },
+        {
+          "rank": 28,
+          "name": "cjpais/Handy"
+        },
+        {
+          "rank": 29,
+          "name": "Devolutions/UniGetUI"
+        },
+        {
+          "rank": 30,
+          "name": "VSCodium/vscodium"
+        },
+        {
+          "rank": 31,
+          "name": "beekeeper-studio/beekeeper-studio"
+        },
+        {
+          "rank": 32,
+          "name": "wavetermdev/waveterm"
+        },
+        {
+          "rank": 33,
+          "name": "super-productivity/super-productivity"
+        },
+        {
+          "rank": 34,
+          "name": "GopeedLab/gopeed"
+        },
+        {
+          "rank": 35,
+          "name": "ActivityWatch/activitywatch"
+        },
+        {
+          "rank": 36,
+          "name": "nukeop/nuclear"
+        },
+        {
+          "rank": 37,
+          "name": "audacity/audacity"
+        },
+        {
+          "rank": 38,
+          "name": "mountain-loop/yaak"
+        },
+        {
+          "rank": 39,
+          "name": "rowboatlabs/rowboat"
+        },
+        {
+          "rank": 40,
+          "name": "keepassxreboot/keepassxc"
+        },
+        {
+          "rank": 41,
+          "name": "alacritty/alacritty"
+        },
+        {
+          "rank": 42,
+          "name": "electerm/electerm"
+        },
+        {
+          "rank": 43,
+          "name": "Termix-SSH/Termix"
+        },
+        {
+          "rank": 44,
+          "name": "streetwriters/notesnook"
+        },
+        {
+          "rank": 45,
+          "name": "lyswhut/lx-music-desktop"
+        },
+        {
+          "rank": 46,
+          "name": "NanmiCoder/cc-haha"
+        },
+        {
+          "rank": 47,
+          "name": "amir1376/ab-download-manager"
+        },
+        {
+          "rank": 48,
+          "name": "Zettlr/Zettlr"
+        },
+        {
+          "rank": 49,
+          "name": "codexu/note-gen"
+        },
+        {
+          "rank": 50,
+          "name": "t8y2/dbx"
+        },
+        {
+          "rank": 51,
+          "name": "dail8859/NotepadNext"
+        },
+        {
+          "rank": 52,
+          "name": "HBAI-Ltd/Toonflow-app"
+        },
+        {
+          "rank": 53,
+          "name": "mltframework/shotcut"
+        },
+        {
+          "rank": 54,
+          "name": "getpaseo/paseo"
+        },
+        {
+          "rank": 55,
+          "name": "lapce/lapce"
+        },
+        {
+          "rank": 56,
+          "name": "espanso/espanso"
+        },
+        {
+          "rank": 57,
+          "name": "hluk/CopyQ"
+        },
+        {
+          "rank": 58,
+          "name": "webtorrent/webtorrent-desktop"
+        },
+        {
+          "rank": 59,
+          "name": "tonyantony300/dashbeam"
+        },
+        {
+          "rank": 60,
+          "name": "jeffvli/feishin"
+        },
+        {
+          "rank": 61,
+          "name": "mockoon/mockoon"
+        },
+        {
+          "rank": 62,
+          "name": "crynta/terax-ai"
+        },
+        {
+          "rank": 63,
+          "name": "getagentseal/codeburn"
+        },
+        {
+          "rank": 64,
+          "name": "XiaoYouChR/Ghost-Downloader-3"
+        },
+        {
+          "rank": 65,
+          "name": "mediago-dev/mediago"
+        },
+        {
+          "rank": 66,
+          "name": "PixiEditor/PixiEditor"
+        },
+        {
+          "rank": 67,
+          "name": "CyberTimon/RapidRAW"
+        },
+        {
+          "rank": 68,
+          "name": "massCodeIO/massCode"
+        },
+        {
+          "rank": 69,
+          "name": "rancher-sandbox/rancher-desktop"
+        },
+        {
+          "rank": 70,
+          "name": "open-pencil/open-pencil"
+        },
+        {
+          "rank": 71,
+          "name": "4gray/iptvnator"
+        },
+        {
+          "rank": 72,
+          "name": "raphamorim/rio"
+        },
+        {
+          "rank": 73,
+          "name": "ThinkInAIXYZ/deepchat"
+        },
+        {
+          "rank": 74,
+          "name": "dbgate/dbgate"
+        },
+        {
+          "rank": 75,
+          "name": "op7418/CodePilot"
+        },
+        {
+          "rank": 76,
+          "name": "netease-youdao/LobsterAI"
+        },
+        {
+          "rank": 77,
+          "name": "HuLaSpark/HuLa"
+        },
+        {
+          "rank": 78,
+          "name": "reqable/reqable-app"
+        },
+        {
+          "rank": 79,
+          "name": "rullerzhou-afk/clawd-on-desk"
+        },
+        {
+          "rank": 80,
+          "name": "MoeKoeMusic/MoeKoeMusic"
+        },
+        {
+          "rank": 81,
+          "name": "thewh1teagle/vibe"
+        },
+        {
+          "rank": 82,
+          "name": "generalaction/emdash"
+        },
+        {
+          "rank": 83,
+          "name": "altair-graphql/altair"
+        },
+        {
+          "rank": 84,
+          "name": "OpenWhispr/openwhispr"
+        },
+        {
+          "rank": 85,
+          "name": "Splode/pomotroid"
+        },
+        {
+          "rank": 86,
+          "name": "IsmaelMartinez/teams-for-linux"
+        },
+        {
+          "rank": 87,
+          "name": "purocean/yn"
+        },
+        {
+          "rank": 88,
+          "name": "aandrew-me/ytDownloader"
+        },
+        {
+          "rank": 89,
+          "name": "JannisX11/blockbench"
+        },
+        {
+          "rank": 90,
+          "name": "oliverschwendener/ueli"
+        },
+        {
+          "rank": 91,
+          "name": "vercel/hyper"
+        },
+        {
+          "rank": 92,
+          "name": "EcoPasteHub/EcoPaste"
+        },
+        {
+          "rank": 93,
+          "name": "domcyrus/rustnet"
+        },
+        {
+          "rank": 94,
+          "name": "caamer20/Telegram-Drive"
+        },
+        {
+          "rank": 95,
+          "name": "Sylinko/Everywhere"
+        },
+        {
+          "rank": 96,
+          "name": "binaricat/Netcatty"
+        },
+        {
+          "rank": 97,
+          "name": "graphif/project-graph"
+        },
+        {
+          "rank": 98,
+          "name": "doublecmd/doublecmd"
+        },
+        {
+          "rank": 99,
+          "name": "TabularisDB/tabularis"
+        },
+        {
+          "rank": 100,
+          "name": "kunkundi/crossdesk"
+        }
+      ],
+      "warnings_count": 0,
+      "software_names": [
+        "moeru-ai/airi",
+        "opengeos/GeoLibre",
+        "farion1231/cc-switch",
+        "rustdesk/rustdesk",
+        "nexu-io/open-design",
+        "OpenHands/OpenHands",
+        "toeverything/AFFiNE",
+        "Eugeny/tabby",
+        "laurent22/joplin",
+        "WerWolv/ImHex",
+        "PowerShell/PowerShell",
+        "marktext/marktext",
+        "usebruno/bruno",
+        "cli/cli",
+        "siyuan-note/siyuan",
+        "tw93/Pake",
+        "janhq/jan",
+        "LizardByte/Sunshine",
+        "TriliumNext/Trilium",
+        "agalwood/Motrix",
+        "KRTirtho/spotube",
+        "DayuanJiang/next-ai-draw-io",
+        "stablyai/orca",
+        "pear-devs/pear-desktop",
+        "GyulyVGC/sniffnet",
+        "Wox-launcher/Wox",
+        "flameshot-org/flameshot",
+        "cjpais/Handy",
+        "Devolutions/UniGetUI",
+        "VSCodium/vscodium",
+        "beekeeper-studio/beekeeper-studio",
+        "wavetermdev/waveterm",
+        "super-productivity/super-productivity",
+        "GopeedLab/gopeed",
+        "ActivityWatch/activitywatch",
+        "nukeop/nuclear",
+        "audacity/audacity",
+        "mountain-loop/yaak",
+        "rowboatlabs/rowboat",
+        "keepassxreboot/keepassxc",
+        "alacritty/alacritty",
+        "electerm/electerm",
+        "Termix-SSH/Termix",
+        "streetwriters/notesnook",
+        "lyswhut/lx-music-desktop",
+        "NanmiCoder/cc-haha",
+        "amir1376/ab-download-manager",
+        "Zettlr/Zettlr",
+        "codexu/note-gen",
+        "t8y2/dbx",
+        "dail8859/NotepadNext",
+        "HBAI-Ltd/Toonflow-app",
+        "mltframework/shotcut",
+        "getpaseo/paseo",
+        "lapce/lapce",
+        "espanso/espanso",
+        "hluk/CopyQ",
+        "webtorrent/webtorrent-desktop",
+        "tonyantony300/dashbeam",
+        "jeffvli/feishin",
+        "mockoon/mockoon",
+        "crynta/terax-ai",
+        "getagentseal/codeburn",
+        "XiaoYouChR/Ghost-Downloader-3",
+        "mediago-dev/mediago",
+        "PixiEditor/PixiEditor",
+        "CyberTimon/RapidRAW",
+        "massCodeIO/massCode",
+        "rancher-sandbox/rancher-desktop",
+        "open-pencil/open-pencil",
+        "4gray/iptvnator",
+        "raphamorim/rio",
+        "ThinkInAIXYZ/deepchat",
+        "dbgate/dbgate",
+        "op7418/CodePilot",
+        "netease-youdao/LobsterAI",
+        "HuLaSpark/HuLa",
+        "reqable/reqable-app",
+        "rullerzhou-afk/clawd-on-desk",
+        "MoeKoeMusic/MoeKoeMusic",
+        "thewh1teagle/vibe",
+        "generalaction/emdash",
+        "altair-graphql/altair",
+        "OpenWhispr/openwhispr",
+        "Splode/pomotroid",
+        "IsmaelMartinez/teams-for-linux",
+        "purocean/yn",
+        "aandrew-me/ytDownloader",
+        "JannisX11/blockbench",
+        "oliverschwendener/ueli",
+        "vercel/hyper",
+        "EcoPasteHub/EcoPaste",
+        "domcyrus/rustnet",
+        "caamer20/Telegram-Drive",
+        "Sylinko/Everywhere",
+        "binaricat/Netcatty",
+        "graphif/project-graph",
+        "doublecmd/doublecmd",
+        "TabularisDB/tabularis",
+        "kunkundi/crossdesk"
+      ]
+    }
+  ]
+}

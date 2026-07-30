@@ -2,6 +2,21 @@
 
 本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.6.0] - 2026-07-30
+
+### 新增
+
+- 新增 GitHub Pages 日报站，自动读取 `reports/` 与 `data/`，支持按日期切换、按项目名搜索、日报前后翻页和 Markdown 原文访问。
+- 新增“软件发布台账”响应式界面，桌面端提供日期轨道，移动端提供抽屉导航；报告表格支持独立横向滚动与固定表头。
+- 新增 `scripts/build_pages.py` 静态构建脚本和测试，生成 `docs/` 页面、报告清单与 Markdown 副本。
+- 新增 `scripts/sync_pages_repo.py`，仅将 `docs/` 同步到公开 Pages 仓库，保持主项目仓库私密。
+
+### 改进
+
+- GitHub Actions 在生成日报后同步构建 `docs/` 静态站点。
+- README 新增 GitHub Pages 在线浏览入口。
+- 浏览器端使用 DOMPurify 清洗 Markdown 渲染结果，并保留表格与项目详情的双向定位。
+
 ## [0.5.3] - 2026-07-30
 
 ### 更新
