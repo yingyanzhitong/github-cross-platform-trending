@@ -1,0 +1,120 @@
+site/src/components/report-markdown.tsx
+  s_4d6fdd61574b1b::t_f79765ba5657cd 1-26,29-31,34-48,51-62,65-135,138-139,141,145-165
+  s_4d6fdd61574b1b::t_db7fb4984407fa 142-144
+.gitignore
+  s_4d6fdd61574b1b::t_05766dd0aeae28 7-8
+site/index.html
+  s_4d6fdd61574b1b::t_51b7c0b497cb95 4-11,14-15
+site/src/types.ts
+  s_4d6fdd61574b1b::t_0e309fc77b9cf0 1-33
+site/src/lib/report.ts
+  s_4d6fdd61574b1b::t_0e309fc77b9cf0 1,3,5,11,13-17,20-46,48,50,53-56,59,61-62
+site/src/components/app-sidebar.tsx
+  s_4d6fdd61574b1b::t_0f7da9aa0c6e5d 1-4,6-165,167-179
+  s_4d6fdd61574b1b::t_5f08815393f7bc 5,166
+site/src/vite-env.d.ts
+  s_4d6fdd61574b1b::t_3849f7583e2245 1
+README.md
+  s_4d6fdd61574b1b::t_64c6b961a7a875 30,36,49-61
+tests/test_pages.py
+  s_4d6fdd61574b1b::t_47eef784163b62 27,72-75
+  s_4d6fdd61574b1b::t_05766dd0aeae28 21-26,28-29,71
+site/src/main.tsx
+  s_4d6fdd61574b1b::t_51b7c0b497cb95 1-11
+site/tsconfig.app.json
+  s_4d6fdd61574b1b::t_51b7c0b497cb95 1-27
+site/package.json
+  s_4d6fdd61574b1b::t_805272453a3328 9,11-37
+  s_4d6fdd61574b1b::t_51b7c0b497cb95 1-8,10,38-39
+site/vite.config.ts
+  s_4d6fdd61574b1b::t_51b7c0b497cb95 1-15
+site/src/App.tsx
+  s_4d6fdd61574b1b::t_805272453a3328 1-8,177
+  s_4d6fdd61574b1b::t_30b290034d87a6 9-51,53-176,178-186,188-203
+  s_4d6fdd61574b1b::t_51b7c0b497cb95 52,204
+  s_4d6fdd61574b1b::t_db7fb4984407fa 187
+site/tsconfig.json
+  s_4d6fdd61574b1b::t_51b7c0b497cb95 1-16
+site/src/components/report-dashboard.tsx
+  s_4d6fdd61574b1b::t_5d4b68336d8105 2-43,50-157,159-283,293-301
+  s_4d6fdd61574b1b::t_8b9c5941fb5d40 1,44-49,284-292
+  s_4d6fdd61574b1b::t_db7fb4984407fa 158
+site/src/index.css
+  s_4d6fdd61574b1b::t_8b9c5941fb5d40 10-11
+  s_4d6fdd61574b1b::t_db7fb4984407fa 196
+  s_4d6fdd61574b1b::t_7a7aa642413b8b 1-9,12-52,55-120,122-125,127-131,133-135,137-140,142-144,146-150,152-164,167-170,173-175,178-179,182-183,186-187,190-192,195,197-199,202-203,206-210,213-221,224-227,230-238,241-243,246-251,254-256,259-261,264-266,269-273,276-278,281-283,286-287,290-291,294-296,298,300-302,305-306,311-314,321
+scripts/build_pages.py
+  s_4d6fdd61574b1b::t_3302eaa82afbe1 80-90,121
+  s_4d6fdd61574b1b::t_05766dd0aeae28 7,68-79,108-110,119-120,141,147-148
+CHANGELOG.md
+  s_4d6fdd61574b1b::t_64c6b961a7a875 5-20
+pyproject.toml
+  s_4d6fdd61574b1b::t_64c6b961a7a875 7
+src/cross_platform_trending/__init__.py
+  s_4d6fdd61574b1b::t_64c6b961a7a875 3
+.github/workflows/daily-report.yml
+  s_4d6fdd61574b1b::t_05766dd0aeae28 30-36,39-41
+site/tsconfig.node.json
+  s_4d6fdd61574b1b::t_51b7c0b497cb95 1-18
+docs/404.html
+  s_4d6fdd61574b1b::t_4f96a88da73922 4-13,16
+docs/assets/index-DIHkiKWq.js
+  s_4d6fdd61574b1b::t_68cbb81b05885b 1-49
+docs/assets/index-Dv2nTnuP.css
+  s_4d6fdd61574b1b::t_ca67cdbbb99cc3 1-2
+docs/assets/report-markdown-pzoyTSwl.js
+  s_4d6fdd61574b1b::t_a2caae21a3ecd0 1-30
+docs/index.html
+  s_4d6fdd61574b1b::t_da772a1376757c 4-13,16
+site/components.json
+  s_4d6fdd61574b1b::t_4d82dadc5d8257 1-25
+site/package-lock.json
+  s_4d6fdd61574b1b::t_e6c61c2952806c 1-8992
+site/src/components/ui/alert.tsx
+  s_4d6fdd61574b1b::t_a4f0c60a5c66f0 1-76
+site/src/components/ui/badge.tsx
+  s_4d6fdd61574b1b::t_569f3ad2d0f411 1-49
+site/src/components/ui/breadcrumb.tsx
+  s_4d6fdd61574b1b::t_fca79dd4f519da 1-122
+site/src/components/ui/button.tsx
+  s_4d6fdd61574b1b::t_8be051a1fad618 1-67
+site/src/components/ui/card.tsx
+  s_4d6fdd61574b1b::t_6fc675ee110ad2 1-103
+site/src/components/ui/input.tsx
+  s_4d6fdd61574b1b::t_d4786218972dc0 1-19
+site/src/components/ui/separator.tsx
+  s_4d6fdd61574b1b::t_d3038e6833b3b7 1-26
+site/src/components/ui/sheet.tsx
+  s_4d6fdd61574b1b::t_ed47154170bd08 1-147
+site/src/components/ui/sidebar.tsx
+  s_4d6fdd61574b1b::t_bb7ac03704716d 1-700
+site/src/components/ui/skeleton.tsx
+  s_4d6fdd61574b1b::t_6ee087340889a5 1-13
+site/src/components/ui/table.tsx
+  s_4d6fdd61574b1b::t_41f57350d4818f 1-114
+site/src/components/ui/tooltip.tsx
+  s_4d6fdd61574b1b::t_74fbc496da3d36 1-57
+site/src/hooks/use-mobile.ts
+  s_4d6fdd61574b1b::t_aca8f45f7c93ee 1-19
+site/src/lib/utils.ts
+  s_4d6fdd61574b1b::t_919c950fde4174 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e88435ab5a59968dd30a7e86df0344bc4d4ecbc3",
+  "prompts": {},
+  "logical_commit_id": "e88435ab5a59968dd30a7e86df0344bc4d4ecbc3",
+  "sessions": {
+    "s_4d6fdd61574b1b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019facc4-37f4-7df2-9152-92c3103ebd72",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "masongzhi <masongzhi@bigo.sg>",
+      "total_additions": 1529,
+      "total_deletions": 1328
+    }
+  }
+}
