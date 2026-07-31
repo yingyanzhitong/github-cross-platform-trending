@@ -1,5 +1,5 @@
 {
-  "model": "openai/gpt-4.1-mini",
+  "model": "codex-cli/gpt-5.6-sol",
   "translations": {
     "4gray/iptvnator": {
       "source": ":tv: Cross-platform IPTV player application with multiple features, such as support of m3u and m3u8 playlists, favorites, TV guide, TV archive/catchup and more.",
@@ -210,40 +210,40 @@
     "NanmiCoder/cc-haha": {
       "source": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
       "zh": "本地优先的跨平台桌面工作空间，支持多智能体和多模型。",
-      "analysis_source": "792319aebb183cb51c0c5bdb0c84a17c7df240ccae2cada478daa6c41392b4b5",
+      "analysis_source": "04bb460b3e7ef9c2a5d7d3d86033123454171764f413a2261b15ad3270815ae5",
       "analysis_zh": {
-        "positioning": "本地优先的跨平台桌面工作空间，面向需要多智能体协作和多模型集成的开发者和团队。",
-        "implementation": "基于Electron框架，使用TypeScript开发，集成多模型和多智能体管理，支持桌面和远程访问，提供图形化工作空间和任务管理。",
-        "problems_solved": "整合多智能体和多模型管理，简化多项目和分支操作，提升开发效率，支持多平台远程访问。",
-        "capabilities": "支持多智能体和多模型管理；集成Git工作树和代码差异查看；支持任务感知桌面宠物；集成微信、飞书、钉钉、Telegram、WhatsApp和H5访问；支持多会话和项目切换。",
-        "use_cases": "适合开发者和团队进行多模型开发、多项目管理及跨平台远程协作。",
-        "considerations": "基于Electron和TypeScript开发，采用MIT许可证。首次启动需配置模型提供商和API密钥。建议核对官方文档了解详细配置和使用。"
+        "positioning": "面向 Claude Code及其他智能体用户的本地优先跨平台桌面开发工作空间。",
+        "implementation": "以 TypeScript、Electron 相关技术构建，整合会话、多项目、分支与 Git worktree、变更和 Diff、权限审批、模型设置、Computer Use、H5 远程访问、IM 集成及定时任务。",
+        "problems_solved": "把原本分散在终端、Git、模型配置、权限确认和远程访问中的操作汇入图形界面，降低多会话与多项目管理成本。",
+        "capabilities": "管理多会话、项目及 Git worktree；查看语法高亮 Diff 并决定提交内容；配置多模型与权限审批；支持 Computer Use、H5 和多种 IM 访问",
+        "use_cases": "适合在 macOS、Windows 或 Linux 上以图形界面使用 Claude Code、管理并行任务和远程跟进开发。",
+        "considerations": "首次启动需配置模型提供商、API Key 和默认模型；临时未签名安装包可能触发系统警告；MIT 许可。"
       }
     },
     "OpenHands/OpenHands": {
       "source": "🙌 OpenHands: AI-Driven Development",
       "zh": "基于AI驱动的软件开发平台。",
-      "analysis_source": "032bc64f18299cfc8cffd741f936d17b67cde44c818282e77ce75d213d58f50b",
+      "analysis_source": "57ef42b1ee27ba3f03b4c489bec0bb5accc063228cbd9c56b8569236069b42b4",
       "analysis_zh": {
-        "positioning": "基于AI驱动的软件开发平台，面向开发者和自动化需求用户。",
-        "implementation": "基于TypeScript开发，提供Agent Canvas作为开发者控制中心，支持本地运行及连接多种代理后端（Docker、VM、企业基础设施等），通过Agent Client Protocol兼容多种AI代理，实现自动化任务和多工具集成。",
-        "problems_solved": "简化多AI代理管理和切换，自动化日常开发任务，提升开发效率，支持多工具集成，降低多代理环境配置复杂度。",
-        "capabilities": "支持本地、远程及云端多种代理后端；集成多种AI代理如OpenHands、Claude Code、Codex、Gemini；支持Slack、GitHub、Linear等工具的自动化工作流；支持Agent Client Protocol (ACP)兼容代理；支持Docker容器和虚拟机部署。",
-        "use_cases": "适合开发者、自动化工程师，用于构建和管理AI代理自动化工作流，集成Slack、GitHub等工具。",
-        "considerations": "MIT许可证；支持自托管和云端部署；需配置代理后端环境；项目活跃，文档详尽。"
+        "positioning": "面向开发者与工程团队的自托管编码智能体控制中心，用于统一运行和管理多种智能体。",
+        "implementation": "默认在本机运行 Agent Canvas，也可连接 Docker、虚拟机、企业基础设施、OpenHands Cloud 或 Enterprise 后端；通过 ACP 接入 OpenHands、Claude Code、Codex、Gemini 等智能体，并以定时任务或 Webhook 触发自动化。",
+        "problems_solved": "统一分散的编码智能体及运行后端，减少在本地、远程和云环境间切换的成本，并自动处理报告发布、GitHub Issue 拆解等日常工程任务。",
+        "capabilities": "统一运行多种 ACP 编码智能体；切换本地、远程及云端后端；通过定时或 Webhook 编排自动化；集成 Slack、GitHub、Linear、Notion 等服务",
+        "use_cases": "适合个人开发者和工程团队自托管常驻智能体，用于编码对话、任务自动化及跨服务工程工作流。",
+        "considerations": "可本机或服务器自托管，也可选用官方云或企业设施；第三方智能体、LLM及外部集成可能需要各自配置；MIT 许可。"
       }
     },
     "OpenWhispr/openwhispr": {
       "source": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
       "zh": "隐私优先的跨平台语音转文字应用，支持本地和云端模型。",
-      "analysis_source": "3c2771f1321ae81519ccda88035f4ce29b2ef7e9d43714b8c3919cd93bfd9812",
+      "analysis_source": "8c56f90326422bc5d018d9f6e199c1c850bfe4acc99be22a3bb7b71f3ce6e168",
       "analysis_zh": {
-        "positioning": "隐私优先的跨平台语音转文字应用，适合需要本地和云端灵活转录方案的用户。",
-        "implementation": "基于JavaScript开发，集成多种本地和云端语音识别模型，支持热键语音输入，结合AI代理实现语音指令和会议转录，支持多平台桌面应用。",
-        "problems_solved": "解决了语音转文字的隐私保护问题，支持多场景（会议、笔记、指令）转录，提升工作效率。",
-        "capabilities": "支持本地（Nvidia Parakeet/Whisper）和云端模型转录；跨平台支持macOS、Windows、Linux；语音转文字、会议转录、语音指令AI代理；支持多种AI模型（GPT5、Claude、Gemini等）；本地说话人分离和声纹识别；支持语音翻译和语义搜索。",
-        "use_cases": "适合开发者、会议记录员及需要语音输入的专业人士，支持多平台和多模型选择。",
-        "considerations": "MIT许可证；依赖本地硬件支持本地模型加速；支持云端处理需配置云服务；建议核对官方文档了解详细部署和使用。"
+        "positioning": "面向跨平台桌面用户的隐私优先语音转文字、会议转录、笔记与语音智能体应用。",
+        "implementation": "通过全局快捷键录音并将文字粘贴至当前应用；可在设备上用 Whisper、NVIDIA Parakeet 离线转录，也可调用云模型；支持本地说话人分离、声纹识别、音视频导入及 AI Agent。",
+        "problems_solved": "替代手工输入、分散的会议转录和笔记流程；本地模式避免音频离开设备，并减少在任意应用中录入、翻译和调用 AI 的操作步骤。",
+        "capabilities": "在任意应用中快捷键听写与自动粘贴；离线或云端转录及听写翻译；会议检测、实时说话人分离和声纹识别；语音调用 AI Agent并管理笔记",
+        "use_cases": "适合重视隐私的 macOS、Windows、Linux 用户进行日常听写、会议记录、音视频转录和语音操作 AI。",
+        "considerations": "云端模式及 GPT、Claude、Gemini 等服务可能需要自备账号或密钥；离线引擎需本地运行资源；MIT 许可。"
       }
     },
     "PixiEditor/PixiEditor": {
@@ -301,14 +301,14 @@
     "TabularisDB/tabularis": {
       "source": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
       "zh": "支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。",
-      "analysis_source": "7389d8a3bfbf04f0138c2f4933ac77038e3bd7d7de996ea641cedb28eff1b201",
+      "analysis_source": "c538c69aceafeb6e3b3eed25a1b12ad1e70d47c8cf0c569d7af1bd41adf52c05",
       "analysis_zh": {
-        "positioning": "支持多数据库的开源桌面SQL工作台，集成AI助手和可视化工具，面向数据库开发者和数据分析师。",
-        "implementation": "使用TypeScript开发的跨平台桌面应用，集成多种数据库驱动，内置MCP服务器实现AI代理交互，支持SQL笔记本和可视化EXPLAIN，采用插件架构支持多语言扩展，提供多语言界面",
-        "problems_solved": "简化多数据库管理和查询流程，集成AI辅助提升查询效率，支持SQL笔记本和可视化分析，替代多工具切换和复杂操作。",
-        "capabilities": "支持PostgreSQL、MySQL/MariaDB、SQLite及15+数据库；内置MCP服务器支持AI代理；SQL笔记本支持SQL与Markdown混合；可视化EXPLAIN交互式查询计划；多语言UI支持；插件系统支持任意语言",
-        "use_cases": "适合数据库开发者、数据分析师进行多数据库管理、查询和分析，支持AI辅助和交互式笔记本工作流。",
-        "considerations": "无明确许可证信息；支持多平台安装（Windows、macOS、Linux多种包格式）；内置AI功能为可选项；建议核对官方文档确认最新功能和依赖"
+        "positioning": "面向数据库开发者和 AI 编程工具用户的开源跨平台桌面 SQL 工作台，支持 PostgreSQL、MySQL 等多种数据库。",
+        "implementation": "以 TypeScript 构建桌面应用；3 种数据库内置、15 种以上通过官方插件接入；插件以 stdio 上的 JSON-RPC 通信，并内置 MCP Server 供 AI Agent 读取模式和执行查询。",
+        "problems_solved": "将多数据库管理、SQL 笔记、执行计划分析和 AI Agent 接入集中到一个应用，减少在数据库客户端与 AI 工具之间切换。",
+        "capabilities": "管理多种数据库连接并浏览对象；运行 SQL 编辑器与含 Markdown、变量和图表的笔记本；交互式可视化 EXPLAIN；通过 MCP 接入 Claude、Cursor 和 Devin",
+        "use_cases": "适合数据库开发、数据分析及使用 Claude、Cursor、Devin 的团队进行查表、查询、调优和可复现分析。",
+        "considerations": "AI 文本转 SQL 可选用本地 Ollama；扩展数据库依赖插件；提供多平台安装包，采用 Apache-2.0。"
       }
     },
     "Termix-SSH/Termix": {
@@ -552,27 +552,27 @@
     "cli/cli": {
       "source": "GitHub’s official command line tool",
       "zh": "GitHub官方命令行工具。",
-      "analysis_source": "2ceaefe42bf22610e422e8d104b176fd03fdbc13d6bc270d5e41ac1cc4d8609f",
+      "analysis_source": "06b0e005617c769af23186153f67eb4fd02fc8e1192fda197e8c232504e0d8ba",
       "analysis_zh": {
-        "positioning": "GitHub官方命令行工具，面向开发者和运维人员，简化GitHub操作。",
-        "implementation": "使用Go语言开发，调用GitHub API v4实现命令行对GitHub功能的访问和操作，支持多平台（macOS、Windows、Linux）安装，提供CLI工具和Agent技能扩展，支持本地构建和自动更新。",
-        "problems_solved": "减少在浏览器中操作GitHub的繁琐，提升开发者工作效率，支持自动化和脚本化管理仓库。",
-        "capabilities": "支持GitHub的拉取请求、问题管理、仓库操作；跨平台支持macOS、Windows、Linux；集成GitHub API v4；支持命令行操作和自动化脚本；提供Agent技能扩展。",
-        "use_cases": "适合开发者在终端管理GitHub仓库、拉取请求、问题和代码审查的工作流。",
-        "considerations": "依赖GitHub账号，支持GitHub.com及企业版；采用MIT许可证；支持多平台安装方式；版本更新频繁，需关注官方发布。"
+        "positioning": "GitHub 官方跨平台命令行工具，面向希望在终端中处理 GitHub 协作事务的开发者。",
+        "implementation": "以 Go 开发，将 Pull Request、Issue 等 GitHub 概念带入 Git 与代码所在的终端；支持 macOS、Windows、Linux，可通过包管理器、预编译二进制或源码安装，GitHub 托管的 Actions Runner 已预装。",
+        "problems_solved": "减少开发者在终端与 GitHub 网页之间切换，让代码、Git 操作及仓库协作事务集中在命令行完成。",
+        "capabilities": "在终端管理 Pull Request；处理 Issue 等 GitHub 对象；支持编码智能体调用的 gh skill；适配 GitHub.com 与企业版环境",
+        "use_cases": "适合命令行开发、脚本自动化、GitHub Actions，以及使用编码智能体驱动 GitHub 工作流。",
+        "considerations": "支持 GitHub.com、Enterprise Cloud 和 Enterprise Server 2.20+；特定 Actions 版本需自行安装；MIT 许可。"
       }
     },
     "codexu/note-gen": {
-      "source": "A cross-platform Markdown AI note-taking software.",
-      "zh": "跨平台的Markdown AI笔记软件。",
-      "analysis_source": "9aad0d08272805de4ae1035827fbffbd6fbe5bf7172a048adfb714c151eb0341",
+      "source": "Capture first. Organize later. A local-first Markdown app that turns scattered records into clear notes with AI.",
+      "zh": "本地优先的 Markdown 应用，用 AI 将零散记录整理成清晰笔记。",
+      "analysis_source": "d15552ff03b489f93894c53e3df720d3609e820d01b73bad87cf79e6ea9f67b6",
       "analysis_zh": {
-        "positioning": "跨平台Markdown AI笔记软件，帮助用户高效捕获和组织零散信息。",
-        "implementation": "采用TypeScript开发，基于Next.js和Tauri框架构建跨平台桌面和移动应用。通过本地优先策略，捕获信息后存储为Markdown文件，利用AI模型对选定内容进行结构化组织和摘要生成。支持标签和时间过滤，用户可在编辑器中继续完善笔记。",
-        "problems_solved": "解决信息捕获与组织分离的痛点，避免笔记遗漏和结构混乱，提升笔记整理效率。",
-        "capabilities": "支持多种信息类型捕获（文本、语音、截图、链接等）；基于标签、时间、类型过滤记录；利用AI组织内容成Markdown结构；跨平台支持桌面和移动端；本地优先，数据保存在用户选定的工作区。",
-        "use_cases": "适合需要快速捕获多种信息并后续整理的知识工作者、学生和研究人员。",
-        "considerations": "GPL-3.0开源许可；依赖本地存储Markdown文件；跨平台支持Windows、macOS、Linux；建议查看官方文档了解详细使用和配置。"
+        "positioning": "面向知识记录者的本地优先 Markdown 应用，用 AI 将零散素材整理为可继续编辑的结构化笔记。",
+        "implementation": "先收集文本、录音、截图、图片、链接、文件和待办，再按标签、时间或类型筛选；用户选择素材和模板或描述目标，由 AI 生成摘要、报告、文章等 Markdown 结构，笔记保存在自选工作区。",
+        "problems_solved": "免去记录前先确定标题、目录和结构的负担，避免灵感与资料散失，并减少跨多个应用搜集素材和手工整理周报、会议纪要的时间。",
+        "capabilities": "采集多类型零散记录；按标签、时间和类型筛选素材；用 AI 整理为多种 Markdown 文档；在编辑器中复核并持续写作",
+        "use_cases": "适合整理会议记录、研究资料、每周报告，以及围绕图片和文档进行上下文问答的个人用户。",
+        "considerations": "笔记以普通 Markdown 文件保存在用户选择的工作区；AI 模型、同步方式及具体平台依赖应核对项目文档；GPL-3.0 许可。"
       }
     },
     "crynta/terax-ai": {
@@ -617,14 +617,14 @@
     "domcyrus/rustnet": {
       "source": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
       "zh": "支持深度包检测的跨平台终端网络监控工具。",
-      "analysis_source": "1d26d7fa3b1800cb437985dd2a76d12958d5391fa868c25f0dd13c56f501df35",
+      "analysis_source": "1bfd645eded84e4f36fac05fbed845ce30d47b0dcc1739df564708f221a7f429",
       "analysis_zh": {
-        "positioning": "一款跨平台终端网络监控工具，面向需要进程级网络流量分析的开发者和运维人员。",
-        "implementation": "用Rust语言开发，利用系统底层API和eBPF技术实现进程级网络连接监控和深度包检测，支持多平台安全沙箱运行，提供命令行界面。",
-        "problems_solved": "替代传统netstat和tcpdump，提供实时进程归属和协议识别，提升网络故障排查效率。",
-        "capabilities": "支持TCP、UDP、QUIC连接的实时监控；深度包检测识别多种协议（HTTP、DNS、SSH等）；跨平台支持Linux、macOS、Windows、FreeBSD；进程级网络连接归属；安全沙箱运行；PCAPNG格式Wireshark兼容导出；Kubernetes连接归属。",
-        "use_cases": "适合系统管理员、网络安全分析师和开发者进行网络流量监控和故障诊断。",
-        "considerations": "Apache-2.0许可证；依赖Linux eBPF、macOS PKTAP、Windows ETW等系统特性；需管理员权限部署；建议查看官方文档了解详细配置。"
+        "positioning": "面向运维、开发和安全人员的跨平台终端网络监控工具，可按进程观察实时连接并执行深度包检测。",
+        "implementation": "以 Rust 构建；Linux 使用 eBPF、macOS 使用 PKTAP、Windows 使用 ETW 与 IP Helper 回退、FreeBSD 使用原生 API；内置 DPI、GeoIP、PCAPNG 导出及系统级沙箱。",
+        "problems_solved": "弥补 netstat、ss 缺少实时状态及 Wireshark、tcpdump 难以关联进程的问题，减少抓包后的手工归因与协议识别。",
+        "capabilities": "按进程归属 TCP、UDP、QUIC 连接；识别 TLS SNI、DNS、SSH、MQTT 等协议；分析 RTT、重传与乱序；导出带进程、DPI 和 GeoIP 注释的 PCAPNG",
+        "use_cases": "适合开发、运维和安全人员排查异常连接、分析网络性能、过滤实时流量并留存取证数据。",
+        "considerations": "不同平台依赖 eBPF、PKTAP、ETW 或原生 API；GeoIP 使用本地 MaxMind GeoLite2；采用 Apache-2.0。"
       }
     },
     "doublecmd/doublecmd": {
@@ -734,14 +734,14 @@
     "getpaseo/paseo": {
       "source": "Orchestrate multiple coding agents from desktop and mobile",
       "zh": "桌面和移动端多智能体编程协调工具。",
-      "analysis_source": "44141443c3a2c18eea3147529a037953289f195f2f1293f8132731f55696b5fa",
+      "analysis_source": "b4464515c364944b3298b82927859e85bf2d974ca7d67332376e6a8abf9d9f8d",
       "analysis_zh": {
-        "positioning": "桌面和移动端多智能体编程协调工具，统一管理多AI代理。",
-        "implementation": "采用TypeScript开发，运行本地守护进程管理多智能体代理，客户端通过多种方式连接守护进程。支持环境变量配置和持久化存储，提供CLI和图形界面操作。",
-        "problems_solved": "解决多AI代理分散管理难题，提升多模型协同效率，保障用户隐私。",
-        "capabilities": "支持多智能体并行运行；统一接口管理多种AI编程代理（Claude Code、Codex、Copilot等）；跨设备支持（iOS、Android、桌面、Web、CLI）；语音控制功能；本地自托管，保护隐私。",
-        "use_cases": "适合开发者和技术人员跨设备使用多AI编程助手。",
-        "considerations": "无明确开源许可声明；需用户自行安装和配置代理CLI及凭证；支持Docker部署；建议详细阅读官方文档配置和使用。"
+        "positioning": "面向开发者的自托管多智能体协调界面，可从桌面、移动端、网页和 CLI 管理编码任务。",
+        "implementation": "本机 daemon 负责管理 Claude Code、Codex、Copilot、OpenCode、Pi 等 Agent CLI，桌面、iOS、Android、Web 和 CLI 客户端连接该服务；也可用 Docker 运行 daemon 与自托管 Web UI。",
+        "problems_solved": "统一不同提供商的编码智能体，并让用户在办公桌、手机和终端间连续操作，降低远程跟进与并行任务协调成本。",
+        "capabilities": "并行运行多种编码智能体；跨桌面、移动端、Web 和 CLI 操作；语音下达任务和讨论问题；通过二维码配对设备并远程跟进",
+        "use_cases": "适合在自有开发机或服务器上运行智能体，并需用手机查看进度、追问或从终端自动化的开发者。",
+        "considerations": "至少需安装并配置一种受支持的 Agent CLI及其凭据；Docker 镜像需加入所用 CLI并提供凭据；许可证未明确，需核对。"
       }
     },
     "graphif/project-graph": {
@@ -814,14 +814,14 @@
       }
     },
     "kunkundi/crossdesk": {
-      "analysis_source": "e12fd91ff096f97df30f134765fd86a229a4ce93be6e7fc091a69020cb83cc43",
+      "analysis_source": "90dab7769cea27d783284a91f9899746ea3cd981e1db129187abfec1b918bf94",
       "analysis_zh": {
-        "positioning": "轻量级跨平台远程桌面软件，支持Web端访问，适合远程控制需求用户。",
-        "implementation": "用C++开发，基于MiniRTC库实现实时音视频传输，支持多平台编解码和加密，提供本地客户端和Web客户端。",
-        "problems_solved": "提供低延迟、高安全性的远程桌面解决方案，支持多平台和锁屏安全控制。",
-        "capabilities": "支持跨平台远程桌面控制；支持Web客户端访问；集成MiniRTC实时音视频传输库；支持H264/AV1视频编解码和Opus音频编解码；支持网络拥塞控制和传输加密；支持Windows服务增强锁屏和安全桌面控制；支持多种Linux发行版。",
-        "use_cases": "适合需要远程办公、远程维护和远程教学的个人和企业用户。",
-        "considerations": "GPL-3.0许可证；依赖xmake、cmake等构建工具；Windows需管理员权限安装服务；支持Windows 10+、macOS 14+、Ubuntu 20.04+。"
+        "positioning": "面向个人与技术支持场景的轻量级跨平台远程桌面软件，支持桌面客户端和浏览器控制远端设备。",
+        "implementation": "基于 C++ 与 MiniRTC，实现 ICE 网络透传、H264/AV1 视频、Opus 音频、信令、拥塞控制及 SRTP 加密；Windows 辅助服务增强锁屏和安全桌面控制。",
+        "problems_solved": "让用户通过设备 ID 和密码快速远控跨平台设备，并以 Web 客户端降低控制端安装成本；增强 Windows 登录和锁屏阶段的操作能力。",
+        "capabilities": "跨平台远程桌面连接；Web 浏览器控制远端设备；音视频软硬编解码与加密传输；Windows 锁屏、安全桌面及 Ctrl+Alt+Del 控制",
+        "use_cases": "适合个人远程访问、跨平台设备维护和技术支持，也适合需从 iOS Safari 等浏览器控制电脑的工作流。",
+        "considerations": "最低支持 Windows 10、指定版本 macOS、Ubuntu 20.04；源码构建需 xmake、CMake 3.21+，采用 GPL-3.0。"
       }
     },
     "kurikomi-labs/komi-store": {
@@ -1073,6 +1073,19 @@
         "considerations": "MIT开源许可；无官方关联，使用需注意版权声明；支持Windows、macOS、Linux平台。"
       }
     },
+    "pulsar-edit/pulsar": {
+      "source": "A Community-led Hyper-Hackable Text Editor",
+      "zh": "由社区主导、可高度定制的文本编辑器。",
+      "analysis_source": "201c9d94eee160d0868fc6ff0b1da23cb9e268010c72a13904c6b6d8a30bf600",
+      "analysis_zh": {
+        "positioning": "面向开发者及高度定制需求用户的社区主导文本编辑器，是 Atom 的 Electron 分支。",
+        "implementation": "以 JavaScript 和 Electron 构建，延续 Atom 的可扩展架构；提供默认配置以降低上手门槛，并通过社区协作维护、构建和本地化。",
+        "problems_solved": "为 Atom 停止维护后的用户提供延续选择，在保留深度定制能力的同时提供可直接使用的默认体验。",
+        "capabilities": "高度定制编辑器界面与行为；基于 Electron 跨平台运行；提供安装、使用和源码构建文档；支持社区协作与多语言本地化",
+        "use_cases": "适合 Atom 迁移用户、希望深度定制编辑环境的开发者，以及参与编辑器维护和扩展的社区贡献者。",
+        "considerations": "项目由社区维护且源自 Atom；具体系统要求、扩展兼容性和许可证需核对官网、构建文档及 LICENSE.md。"
+      }
+    },
     "purocean/yn": {
       "source": "A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.",
       "zh": "高度可扩展的Markdown编辑器，集成版本控制和AI助手。",
@@ -1115,14 +1128,14 @@
     "reqable/reqable-app": {
       "source": "Reqable issue track repo",
       "zh": "Reqable问题跟踪仓库。",
-      "analysis_source": "8e5bd95203738533368950f3102d7ca2a565efe4152bbb0e291e35b47695c596",
+      "analysis_source": "5a914da86b09fa690da4ebe79b19ad8e68516063ccf5dd5ed8eead2f88370a53",
       "analysis_zh": {
-        "positioning": "多平台API调试和流量分析工具，面向开发者和测试人员。",
-        "implementation": "采用Flutter跨平台框架和C++实现核心性能，集成MITM代理技术实现流量抓包和API调试，支持多协议和脚本扩展。",
-        "problems_solved": "集成多功能API调试和流量分析，替代多款工具，提升调试效率。",
-        "capabilities": "支持HTTP1/2/3协议抓包和调试；支持代理模式和HTTPS解密；支持请求重写、断点调试和脚本处理；集成API组合和搜索过滤；支持多平台。",
-        "use_cases": "适合开发者进行API测试、流量抓包和调试工作。",
-        "considerations": "非开源项目，仓库仅管理需求和反馈；基于Flutter和C++开发；支持Windows、macOS、Linux、Android、iOS。"
+        "positioning": "Reqable 的问题跟踪仓库；对应产品是面向开发者和 QA 的跨平台一体化 API 调试与测试平台。",
+        "implementation": "桌面端通过系统代理、移动端通过本地 VPN，以 MITM 策略拦截 HTTP(S)；集成流量检查、重放、编辑、断点、URL 重写和脚本，并提供 HTTP、WebSocket、SSE 请求客户端及跨设备云同步。",
+        "problems_solved": "将 API 抓包调试与请求测试合并到同一环境，替代多个独立工具，减少捕获流量后转到其他客户端复现和组织请求的步骤。",
+        "capabilities": "捕获并检查 HTTP(S) 流量；重放、编辑、断点及重写请求；编写和组织 HTTP、WebSocket、SSE 请求；管理环境变量、API 文档和跨设备同步",
+        "use_cases": "适合开发者和 QA 在 Windows、macOS、Linux、Android、iOS 上联调、抓包、复现及测试 API。",
+        "considerations": "项目并非开源，本仓库仅用于 Issue、功能建议和反馈；高级能力可能需 Premium；许可证未提供，使用前应核对条款。"
       }
     },
     "rowboatlabs/rowboat": {
@@ -1180,14 +1193,14 @@
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "zh": "支持多代理并行的AI开发环境。",
-      "analysis_source": "ce1f183562fa4334530336a360555392bab32c67479cc125efb2d370ca4a737e",
+      "analysis_source": "91684e1918e0ff17e33f0f112266d6fd4498698ca1eb014f5bc37849d527acd0",
       "analysis_zh": {
-        "positioning": "支持多代理并行的AI开发环境，面向AI开发者和团队。",
-        "implementation": "基于TypeScript开发，提供多代理并行管理环境，支持多工作树隔离，集成多种AI代理，支持移动端应用和远程SSH连接，内置丰富的开发者工具和UI交互。",
-        "problems_solved": "简化多AI代理协同开发，提升开发效率，支持远程和移动端操作。",
-        "capabilities": "支持多代理并行工作流管理；集成Codex、ClaudeCode等多种AI代理；支持移动端监控和操作；提供多终端分屏和WebGL终端；支持GitHub、Linear集成和SSH远程工作树。",
-        "use_cases": "适合AI开发者和团队进行多代理并行开发和管理。",
-        "considerations": "采用MIT许可证；依赖GitHub账号和相关AI服务订阅；支持桌面、移动和VPS部署；文档详尽。"
+        "positioning": "面向高并发开发工作流的 AI 开发环境，用于从桌面、手机或 VPS 统一协调多种编码智能体。",
+        "implementation": "让 Codex、Claude Code、OpenCode、Pi 等智能体分别运行在隔离的 Git worktree 中；集成 Ghostty 类 WebGL 终端、Chromium Design Mode、VS Code 编辑器、SSH worktree、端口转发及 Orca CLI。",
+        "problems_solved": "避免多个智能体争用同一工作区，集中跟踪并比较并行结果，减少远程操作、代码审查及 GitHub、Linear 任务切换成本。",
+        "capabilities": "并行创建隔离 worktree 并比较合并结果；手机监控、通知和追问智能体；审阅并批注 AI Diff；通过 SSH 在远程主机运行智能体",
+        "use_cases": "适合同时委派多个编码任务、比较不同智能体方案，以及需要从手机持续跟进远程开发的用户。",
+        "considerations": "可使用自有智能体订阅；部分能力涉及 GitHub、Linear、SSH、移动端或远程主机配置；MIT 许可。"
       }
     },
     "streetwriters/notesnook": {
@@ -1221,14 +1234,14 @@
       "zh": "基于异步I/O的极速终端文件管理器。"
     },
     "t8y2/dbx": {
-      "analysis_source": "4cc9be6ed0b9534ca7bafb6795bb0b0fa1a9f433bb83d3ac5baba4ab6b23b8ee",
+      "analysis_source": "d308529812746367df15c5826faefaac23dcda528425910c8d3331c90bd70dc1",
       "analysis_zh": {
-        "positioning": "轻量级跨平台数据库客户端，面向需要管理多种数据库和集成AI助手的开发者和DBA。",
-        "implementation": "使用Rust语言开发，单一二进制文件部署，集成CodeMirror 6编辑器，支持多数据库驱动和AI助手，提供桌面应用、Docker容器和命令行工具。",
-        "problems_solved": "简化多数据库管理，减少环境依赖，提升SQL编写效率，支持AI辅助和多环境部署。",
-        "capabilities": "支持70+数据库连接，包括MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等；内置AI助手支持SQL生成和安全检查；支持桌面、Docker、CLI和Web多种运行环境；支持MCP协议与AI工具集成。",
-        "use_cases": "适合数据库管理员和开发者进行多数据库连接管理、查询和AI辅助开发。",
-        "considerations": "基于Rust开发，采用Apache-2.0许可证，无需额外运行时依赖，支持多平台。建议核对官方文档了解详细数据库支持和AI集成方式。"
+        "positioning": "面向开发者和团队的轻量级跨平台数据库客户端，统一管理70余种数据库及消息队列。",
+        "implementation": "以约20 MB单一 Rust 二进制发布，不捆绑 Chromium、JRE 或 Python；提供桌面、Docker、自托管 Web、CLI、AI 助手和 MCP Server，并通过原生、Agent 或 JDBC 配置扩展连接。",
+        "problems_solved": "用一个小型工具替代多个数据库客户端及繁重运行时，减少跨数据库切换和复制粘贴 SQL 的成本，并让编码智能体复用已有连接。",
+        "capabilities": "连接并管理70余种数据库；使用 CodeMirror 6 编辑和执行 SQL；通过 Claude、OpenAI 或 Ollama 生成并安全检查 SQL；以 MCP 向编码智能体开放数据库连接",
+        "use_cases": "适合个人进行跨库查询、团队通过 Docker 自托管，以及为 Claude Code、Cursor、Windsurf 提供数据访问。",
+        "considerations": "AI 功能需 Claude、OpenAI 或 Ollama；部分数据库依赖 Agent/JDBC 配置；Docker 可供团队访问；Apache-2.0 许可。"
       },
       "source": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "是支持70+数据库的轻量级跨平台数据库客户端，含AI助手和多种运行环境。"
@@ -1262,14 +1275,14 @@
     "tonyantony300/dashbeam": {
       "source": "Send files and folders anywhere in the world without storing in cloud - any size, any format, no accounts, no restrictions ( previously Altsendme )",
       "zh": "无需云存储，全球传输任意大小文件的工具。",
-      "analysis_source": "be658deb79146bc8ff9c61f6346df6a950c5c422e774de30b50351afe67bd4a8",
+      "analysis_source": "0912c049aa6a219679ebdcec86fe54272319e4c6b91f7a417c5acae64722c4d3",
       "analysis_zh": {
-        "positioning": "无需云存储的全球任意大小文件点对点传输工具。",
-        "implementation": "基于TypeScript开发，利用先进P2P网络技术实现直接设备间传输，采用BLAKE3校验保证数据完整性，支持多平台客户端和终端操作。",
-        "problems_solved": "避免依赖云服务，保障隐私安全，支持大文件快速传输，简化跨设备文件共享。",
-        "capabilities": "点对点文件传输；支持任意大小和格式；端到端加密；跨平台支持桌面、Android、浏览器；断点续传和多播传输；设备配对功能。",
-        "use_cases": "适合需要安全快速跨设备传输大文件的个人和团队。",
-        "considerations": "AGPL-3.0开源许可；无需账号和云存储；依赖现代网络协议QUIC和TLS 1.3。"
+        "positioning": "面向个人与跨平台设备的开源点对点文件传输工具，无需账户或云端存储。",
+        "implementation": "通过设备间 P2P 网络直接传输文件和目录，使用 QUIC 与 TLS 1.3 端到端加密、BLAKE3 完整性校验和加密票据认证；支持中断续传、一对多广播及必要时的加密中继。",
+        "problems_solved": "替代先上传 WeTransfer、Dropbox 或 Google Drive 再分享的流程，避免云端留存、账户注册、文件大小与格式限制，并支持断点恢复。",
+        "capabilities": "跨桌面、Android、终端和浏览器传输；发送任意大小的文件或目录；端到端加密并校验完整性；断点续传、一对多广播和设备配对",
+        "use_cases": "适合重视隐私、需要跨平台直传大型文件或目录，以及网络中断后继续传输的个人和团队。",
+        "considerations": "直连失败时可能使用中继，但中继仅能看到加密流量；支持平台的具体安装方式需核对文档；AGPL-3.0 许可。"
       }
     },
     "tw93/Pake": {

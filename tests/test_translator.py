@@ -2,8 +2,11 @@ from __future__ import annotations
 
 import tempfile
 import unittest
+from json import dumps
 from pathlib import Path
+from subprocess import CompletedProcess
 from typing import Any
+from unittest.mock import patch
 
 from cross_platform_trending.translator import DescriptionTranslator
 
@@ -112,7 +115,7 @@ class DescriptionTranslatorTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             cache_path = Path(directory) / "translations.json"
             software = _software()
-            translator = StubTranslator(token="token", cache_path=cache_path)
+            translator = StubTranslator(model_command="stub", cache_path=cache_path)
 
             warnings = translator.enrich(software)
 
@@ -135,7 +138,7 @@ class DescriptionTranslatorTests(unittest.TestCase):
             self.assertTrue(cache_path.exists())
 
             cached_software = _software()
-            cached = DescriptionTranslator(token=None, cache_path=cache_path)
+            cached = DescriptionTranslator(model_command=None, cache_path=cache_path)
             self.assertEqual(cached.enrich(cached_software), [])
             self.assertEqual(
                 cached_software[0]["description_zh"],
@@ -146,21 +149,16 @@ class DescriptionTranslatorTests(unittest.TestCase):
                 "面向桌面用户的跨平台下载管理器。",
             )
 
-    def test_uses_chinese_fallback_without_token(self) -> None:
+    def test_fails_without_model_when_cache_is_missing(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             software = _software()
             translator = DescriptionTranslator(
-                token=None,
+                model_command=None,
                 cache_path=Path(directory) / "translations.json",
             )
 
-            warnings = translator.enrich(software)
-
-            self.assertEqual(len(warnings), 2)
-            self.assertIn("支持 macOS 和 Windows", software[0]["description_zh"])
-            self.assertIn("positioning", software[0]["analysis_zh"])
-            self.assertIn("implementation", software[0]["analysis_zh"])
-            self.assertIn("problems_solved", software[0]["analysis_zh"])
+            with self.assertRaisesRegex(RuntimeError, "未配置 Codex CLI"):
+                translator.enrich(software)
 
     def test_translates_large_list_in_batches(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -173,7 +171,7 @@ class DescriptionTranslatorTests(unittest.TestCase):
                 for index in range(26)
             ]
             translator = BatchTranslator(
-                token="token",
+                model_command="stub",
                 cache_path=Path(directory) / "translations.json",
             )
 
@@ -197,20 +195,19 @@ class DescriptionTranslatorTests(unittest.TestCase):
                 }
             ]
             translator = DescriptionTranslator(
-                token=None,
+                model_command=None,
                 cache_path=Path(directory) / "translations.json",
             )
 
-            warnings = translator.enrich(software)
+            with self.assertRaisesRegex(RuntimeError, "项目详情分析"):
+                translator.enrich(software)
 
-            self.assertEqual(len(warnings), 1)
             self.assertEqual(software[0]["description_zh"], "跨平台剪贴板工具")
-            self.assertIn("analysis_zh", software[0])
 
     def test_maps_short_model_name_back_to_full_repository_name(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             translator = ShortNameResponseTranslator(
-                token="token",
+                model_command="stub",
                 cache_path=Path(directory) / "translations.json",
             )
 
@@ -244,7 +241,7 @@ class DescriptionTranslatorTests(unittest.TestCase):
                 }
             ]
             translator = StubTranslator(
-                token="token",
+                model_command="stub",
                 cache_path=Path(directory) / "translations.json",
             )
 
@@ -267,8 +264,8 @@ class DescriptionTranslatorTests(unittest.TestCase):
                     "language": "Rust",
                 }
             ]
-            translator = DescriptionTranslator(
-                token=None,
+            translator = StubTranslator(
+                model_command="stub",
                 cache_path=Path(directory) / "translations.json",
             )
 
@@ -278,6 +275,54 @@ class DescriptionTranslatorTests(unittest.TestCase):
                 software[0]["description_zh"],
                 "一款基于 Rust 的高性能桌面应用",
             )
+
+    @patch("cross_platform_trending.translator.subprocess.run")
+    def test_calls_codex_cli_with_json_schema(self, run: Any) -> None:
+        run.return_value = CompletedProcess(
+            args=[],
+            returncode=0,
+            stdout=dumps({"translations": []}, ensure_ascii=False),
+            stderr="",
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            translator = DescriptionTranslator(
+                model_command="codex",
+                model="test-model",
+                cache_path=Path(directory) / "translations.json",
+            )
+            schema = {
+                "type": "object",
+                "properties": {
+                    "translations": {
+                        "type": "array",
+                        "items": {"type": "object"},
+                    }
+                },
+                "required": ["translations"],
+            }
+
+            result = translator._request_model(
+                {
+                    "messages": [
+                        {"role": "system", "content": "生成中文简介"},
+                        {"role": "user", "content": "owner/example"},
+                    ],
+                    "response_format": {
+                        "json_schema": {
+                            "schema": schema,
+                        }
+                    },
+                },
+                "翻译",
+            )
+
+        self.assertEqual(result, {"translations": []})
+        command = run.call_args.args[0]
+        self.assertEqual(command[0:2], ["codex", "exec"])
+        self.assertIn("--output-schema", command)
+        self.assertEqual(command[command.index("--model") + 1], "test-model")
+        self.assertIn("owner/example", command[-1])
+        self.assertIs(run.call_args.kwargs["stdin"], __import__("subprocess").DEVNULL)
 
 
 if __name__ == "__main__":

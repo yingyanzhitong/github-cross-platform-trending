@@ -8,7 +8,6 @@ on:
 
 permissions:
   contents: write
-  models: read
 
 concurrency:
   group: daily-cross-platform-trending
@@ -40,12 +39,16 @@ jobs:
       - name: 安装页面依赖
         run: npm ci --prefix site
 
+      - name: 安装 Codex CLI
+        run: npm install -g @openai/codex@0.146.0
+
       - name: 运行测试
         run: python -m unittest discover -s tests -v
 
       - name: 生成当天榜单
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: cross-platform-trending --limit 100 --max-candidates 1000
 
       - name: 构建日报站点

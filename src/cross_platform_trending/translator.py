@@ -2,20 +2,19 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
+import subprocess
+import tempfile
 import time
 from pathlib import Path
 from typing import Any
-from urllib.error import HTTPError, URLError
-from urllib.request import Request, urlopen
 
 
-MODELS_URL = "https://models.github.ai/inference/chat/completions"
-MODEL = "openai/gpt-4.1-mini"
-USER_AGENT = "github-cross-platform-trending/0.5"
+MODEL = "gpt-5.6-sol"
 TRANSLATION_BATCH_SIZE = 25
 ANALYSIS_BATCH_SIZE = 10
-MAX_MODEL_RETRIES = 2
+MAX_MODEL_RETRIES = 1
 ANALYSIS_FIELDS = (
     "positioning",
     "implementation",
@@ -34,43 +33,6 @@ def _is_mostly_chinese(text: str) -> bool:
     chinese_count = len(re.findall(r"[\u4e00-\u9fff]", text))
     latin_count = len(re.findall(r"[A-Za-z]", text))
     return chinese_count >= 4 and chinese_count >= latin_count
-
-
-def _fallback_description(item: dict[str, Any]) -> str:
-    language = item.get("language") or "多种语言"
-    return (
-        "一款支持 macOS 和 Windows 的开源跨平台软件，"
-        f"主要使用 {language} 开发。"
-    )
-
-
-def _fallback_analysis(item: dict[str, Any]) -> dict[str, str]:
-    topics = "、".join(str(topic) for topic in item.get("topics", [])[:5])
-    topic_summary = topics or "跨平台桌面软件"
-    language = item.get("language") or "多种语言"
-    return {
-        "positioning": item["description_zh"],
-        "implementation": (
-            f"仓库主要使用 {language} 开发，公开主题涉及 {topic_summary}；"
-            "具体架构与技术路径应以项目文档为准。"
-        ),
-        "problems_solved": (
-            "为 macOS 与 Windows 用户提供同一套开源软件能力；"
-            "更具体的目标问题应以项目说明为准。"
-        ),
-        "capabilities": (
-            f"公开仓库主题主要涉及 {topic_summary}；"
-            "具体功能范围与配置方式应以项目文档为准。"
-        ),
-        "use_cases": (
-            "适合需要在 macOS 与 Windows 上使用此类开源工具，"
-            "并愿意自行核对配置和兼容性的用户。"
-        ),
-        "considerations": (
-            "榜单仅确认 Latest Release 提供双平台安装包；"
-            "安装前仍应检查许可证、发布说明与安装包签名。"
-        ),
-    }
 
 
 def _clean_translation(name: str, text: str) -> str:
@@ -118,12 +80,14 @@ class DescriptionTranslator:
     def __init__(
         self,
         *,
-        token: str | None,
         cache_path: Path,
-        timeout: int = 60,
+        model_command: str | None = "codex",
+        model: str | None = None,
+        timeout: int = 180,
     ):
-        self.token = token
         self.cache_path = cache_path
+        self.model_command = model_command
+        self.model = model or os.getenv("CROSS_PLATFORM_TRENDING_MODEL", MODEL)
         self.timeout = timeout
 
     def _load_cache(self) -> dict[str, dict[str, Any]]:
@@ -138,7 +102,7 @@ class DescriptionTranslator:
     def _save_cache(self, translations: dict[str, dict[str, Any]]) -> None:
         self.cache_path.parent.mkdir(parents=True, exist_ok=True)
         payload = {
-            "model": MODEL,
+            "model": f"codex-cli/{self.model}",
             "translations": dict(sorted(translations.items())),
         }
         self.cache_path.write_text(
@@ -147,51 +111,91 @@ class DescriptionTranslator:
         )
 
     def _request_model(self, body: dict[str, Any], label: str) -> dict[str, Any]:
-        for attempt in range(MAX_MODEL_RETRIES + 1):
-            request = Request(
-                MODELS_URL,
-                data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
-                headers={
-                    "Accept": "application/vnd.github+json",
-                    "Authorization": f"Bearer {self.token}",
-                    "Content-Type": "application/json",
-                    "User-Agent": USER_AGENT,
-                    "X-GitHub-Api-Version": "2026-03-10",
-                },
-                method="POST",
-            )
-            try:
-                with urlopen(request, timeout=self.timeout) as response:
-                    result = json.loads(response.read())
-                break
-            except HTTPError as error:
-                detail = error.read().decode("utf-8", errors="replace")[:300]
-                retry_after = error.headers.get("Retry-After")
-                remaining = error.headers.get("X-RateLimit-Remaining")
-                reset_at = error.headers.get("X-RateLimit-Reset")
-                is_rate_limited = error.code == 429 or bool(retry_after)
-                if is_rate_limited and attempt < MAX_MODEL_RETRIES:
-                    if retry_after and retry_after.isdigit():
-                        delay = int(retry_after)
-                    elif remaining == "0" and reset_at and reset_at.isdigit():
-                        delay = max(1, int(reset_at) - int(time.time()) + 1)
-                    else:
-                        delay = 60 * (2**attempt)
-                    time.sleep(delay)
-                    continue
-                raise RuntimeError(
-                    f"GitHub Models {label}请求失败 ({error.code}): {detail}"
-                ) from error
-            except (URLError, TimeoutError) as error:
-                raise RuntimeError(
-                    f"GitHub Models {label}网络请求失败：{error}"
-                ) from error
+        if not self.model_command:
+            raise RuntimeError("未配置 Codex CLI，无法生成中文内容")
 
+        messages = body.get("messages", [])
+        prompt = "\n\n".join(
+            f"{message.get('role', 'user')}：\n{message.get('content', '')}"
+            for message in messages
+        )
+        prompt += "\n\n请只返回符合给定 JSON Schema 的 JSON，不要解释或调用工具。"
         try:
-            content = result["choices"][0]["message"]["content"]
-            return json.loads(content)
-        except (KeyError, IndexError, TypeError, json.JSONDecodeError) as error:
-            raise RuntimeError(f"GitHub Models 返回了无法解析的{label}结果") from error
+            schema = body["response_format"]["json_schema"]["schema"]
+        except (KeyError, TypeError) as error:
+            raise RuntimeError(f"{label}请求缺少 JSON Schema") from error
+
+        for attempt in range(MAX_MODEL_RETRIES + 1):
+            with tempfile.TemporaryDirectory(prefix="cross-platform-trending-") as directory:
+                schema_path = Path(directory) / "output-schema.json"
+                schema_path.write_text(
+                    json.dumps(schema, ensure_ascii=False),
+                    encoding="utf-8",
+                )
+                command = [
+                    self.model_command,
+                    "exec",
+                    "--skip-git-repo-check",
+                    "--ephemeral",
+                    "--ignore-rules",
+                    "--ignore-user-config",
+                    "--color",
+                    "never",
+                    "--sandbox",
+                    "read-only",
+                    "--output-schema",
+                    str(schema_path),
+                    "--model",
+                    self.model,
+                    prompt,
+                ]
+                try:
+                    result = subprocess.run(
+                        command,
+                        cwd=directory,
+                        stdin=subprocess.DEVNULL,
+                        capture_output=True,
+                        text=True,
+                        timeout=self.timeout,
+                        check=False,
+                    )
+                except FileNotFoundError as error:
+                    raise RuntimeError(
+                        f"未找到 Codex CLI 命令：{self.model_command}"
+                    ) from error
+                except subprocess.TimeoutExpired as error:
+                    if attempt < MAX_MODEL_RETRIES:
+                        time.sleep(2**attempt)
+                        continue
+                    raise RuntimeError(
+                        f"Codex CLI {label}请求超过 {self.timeout} 秒"
+                    ) from error
+
+            if result.returncode != 0:
+                if attempt < MAX_MODEL_RETRIES:
+                    time.sleep(2**attempt)
+                    continue
+                detail = result.stderr.strip().splitlines()
+                summary = detail[-1][:300] if detail else "未知错误"
+                raise RuntimeError(
+                    f"Codex CLI {label}请求失败 ({result.returncode})：{summary}"
+                )
+
+            output = result.stdout.strip()
+            candidates = [output, *reversed(output.splitlines())]
+            for candidate in candidates:
+                try:
+                    parsed = json.loads(candidate)
+                except json.JSONDecodeError:
+                    continue
+                if isinstance(parsed, dict):
+                    return parsed
+            if attempt < MAX_MODEL_RETRIES:
+                time.sleep(2**attempt)
+                continue
+            raise RuntimeError(f"Codex CLI 返回了无法解析的{label}结果")
+
+        raise RuntimeError(f"Codex CLI {label}请求失败")
 
     def _request_translations(
         self,
@@ -247,7 +251,7 @@ class DescriptionTranslator:
         try:
             translated = self._request_model(body, "翻译")["translations"]
         except (KeyError, TypeError) as error:
-            raise RuntimeError("GitHub Models 返回了无法解析的翻译结果") from error
+            raise RuntimeError("Codex CLI 返回了无法解析的翻译结果") from error
         parsed: dict[str, str] = {}
         requested_names = {str(item["name"]) for item in items}
         for index, translation in enumerate(translated):
@@ -326,7 +330,7 @@ class DescriptionTranslator:
         try:
             analyses = self._request_model(body, "详情分析")["analyses"]
         except (KeyError, TypeError) as error:
-            raise RuntimeError("GitHub Models 返回了无法解析的详情分析结果") from error
+            raise RuntimeError("Codex CLI 返回了无法解析的详情分析结果") from error
         parsed: dict[str, dict[str, str]] = {}
         requested_names = {str(item["name"]) for item in items}
         for index, analysis in enumerate(analyses):
@@ -369,7 +373,7 @@ class DescriptionTranslator:
                 )
 
         translated: dict[str, str] = {}
-        if pending_translations and self.token:
+        if pending_translations and self.model_command:
             for offset in range(
                 0,
                 len(pending_translations),
@@ -383,11 +387,11 @@ class DescriptionTranslator:
                 except RuntimeError as error:
                     start = offset + 1
                     end = offset + len(batch)
-                    warnings.append(
-                        f"第 {start}-{end} 条中文简介生成失败，已使用中文兜底：{error}"
-                    )
+                    raise RuntimeError(
+                        f"第 {start}-{end} 条中文简介生成失败：{error}"
+                    ) from error
         elif pending_translations:
-            warnings.append("未提供 GitHub Token，中文简介已使用通用兜底")
+            raise RuntimeError("未配置 Codex CLI，无法生成缺失的中文简介")
 
         for item in software:
             if item.get("description_zh"):
@@ -406,7 +410,7 @@ class DescriptionTranslator:
                 )
                 cache_changed = True
             else:
-                item["description_zh"] = _fallback_description(item)
+                raise RuntimeError(f"{item['name']} 的中文简介生成结果缺失或无效")
 
         pending_analyses: list[dict[str, Any]] = []
         analysis_fingerprints: dict[str, str] = {}
@@ -446,7 +450,7 @@ class DescriptionTranslator:
                 pending_analyses.append(analysis_source)
 
         generated_analyses: dict[str, dict[str, str]] = {}
-        if pending_analyses and self.token:
+        if pending_analyses and self.model_command:
             for offset in range(0, len(pending_analyses), ANALYSIS_BATCH_SIZE):
                 batch = pending_analyses[offset : offset + ANALYSIS_BATCH_SIZE]
                 try:
@@ -454,11 +458,11 @@ class DescriptionTranslator:
                 except RuntimeError as error:
                     start = offset + 1
                     end = offset + len(batch)
-                    warnings.append(
-                        f"第 {start}-{end} 条详情分析生成失败，已使用中文兜底：{error}"
-                    )
+                    raise RuntimeError(
+                        f"第 {start}-{end} 条详情分析生成失败：{error}"
+                    ) from error
         elif pending_analyses:
-            warnings.append("未提供 GitHub Token，项目详情分析已使用通用兜底")
+            raise RuntimeError("未配置 Codex CLI，无法生成缺失的项目详情分析")
 
         for item in software:
             if not item.get("analysis_zh"):
@@ -474,7 +478,9 @@ class DescriptionTranslator:
                     )
                     cache_changed = True
                 else:
-                    item["analysis_zh"] = _fallback_analysis(item)
+                    raise RuntimeError(
+                        f"{item['name']} 的项目详情分析生成结果缺失或无效"
+                    )
             item.pop("_readme_excerpt", None)
 
         if cache_changed:

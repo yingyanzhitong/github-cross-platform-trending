@@ -76,10 +76,14 @@ def main(argv: list[str] | None = None) -> int:
     )
     metadata["warnings"].extend(enrich_readme_context(client, software))
     translator = DescriptionTranslator(
-        token=client.token,
         cache_path=args.data_dir / "translations.json",
+        model_command=os.getenv("CROSS_PLATFORM_TRENDING_MODEL_COMMAND", "codex"),
     )
-    metadata["warnings"].extend(translator.enrich(software))
+    try:
+        metadata["warnings"].extend(translator.enrich(software))
+    except RuntimeError as error:
+        print(f"中文内容生成失败：{error}", file=sys.stderr)
+        return 1
     dated_report, dated_data = write_report(
         report_date=report_date,
         software=software,
