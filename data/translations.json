@@ -181,6 +181,32 @@
         "considerations": "无明确许可证声明；支持Windows、macOS、Linux、Android平台；支持多种安装方式；建议核对官方文档确认许可证和使用限制。"
       }
     },
+    "Kuingsmile/PicList": {
+      "source": "An image upload and manage tool, base on PicGo",
+      "zh": "基于 PicGo 的图片上传与管理工具",
+      "analysis_source": "947962aa5e48dc1ebefd8081f40a04ec5a5268effa94c32ef205d859aaf9e4cb",
+      "analysis_zh": {
+        "positioning": "面向内容创作者和云存储用户的图片上传、图床及云文件管理工具，在 PicGo 基础上扩展完整管理能力。",
+        "implementation": "基于 PicGo、Vue 与 Electron，使用插件和轻量脚本扩展；支持通过 WebDAV 或 Git 同步配置与图库，并连接 GitHub、S3、对象存储及多种图床服务。",
+        "problems_solved": "将图片处理、上传、云端整理和多设备同步集中起来，减少在图床后台、编辑器和本地图片工具之间反复切换。",
+        "capabilities": "浏览、搜索、删除和批量重命名云文件；压缩、水印、缩放、旋转及格式转换；通过 WebDAV或Git同步；兼容 Typora、Obsidian 与 PicGo 插件",
+        "use_cases": "适合维护 Markdown 图片的写作者、管理多个图床或对象存储的用户，以及需要批量上传和整理素材的工作流。",
+        "considerations": "采用 MIT 许可证；使用各云存储或图床通常需配置对应服务连接，具体凭证、Docker 与移动端集成要求应核对文档。"
+      }
+    },
+    "KunAgent/Kun": {
+      "source": "Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI.",
+      "zh": "本地优先的 AI 智能体工作空间，统一支持桌面 GUI 与 TUI",
+      "analysis_source": "ad790f9d6e7910ef6f986ac293210605ee9949f6bdc125da2a04871749991c5e",
+      "analysis_zh": {
+        "positioning": "面向编码、写作、设计、研究和自动化工作的本地优先 AI Agent 工作台，统一提供桌面 GUI 与终端 TUI。",
+        "implementation": "GUI 与 TUI 连接同一 kun serve 运行时，共享线程、模型连接、审批、计划和后台任务；Agent Graph 以依赖图组织子代理，由 Lead Agent 派发、监督、返工和汇总。",
+        "problems_solved": "把需求澄清、设计、计划、执行与验收串成可追踪流程，避免界面切换丢失上下文，并用 Diff、测试和审查证据替代仅凭 Agent 自报完成。",
+        "capabilities": "在 Code 中编辑代码、执行命令与审查 Diff；在 Design 中生成交互原型；在 Write 中产出多种文档；通过 Agent Graph 拆分复杂任务",
+        "use_cases": "适合需要在本地项目中完成端到端 AI 协作的开发者、设计师和写作者，也适用于终端及无桌面服务器环境。",
+        "considerations": "首次使用需登录模型订阅或配置 API Key、Token Plan、自定义 Provider；Agent Graph 为实验性功能；许可证未明确，需核对项目文档。"
+      }
+    },
     "LizardByte/Sunshine": {
       "source": "Self-hosted game stream host for Moonlight.",
       "zh": "Moonlight的自托管游戏流媒体服务器。",
@@ -392,14 +418,14 @@
     "XiaoYouChR/Ghost-Downloader-3": {
       "source": "An AI-boost cross-platform multi-protocol fluent-design concurrent downloader built with Python & Qt.",
       "zh": "基于Python和Qt的跨平台多协议并发下载器。",
-      "analysis_source": "2a0df21c866780d56ecfbad59e097d3ed3e3a684ba1c79fd1602509578d29919",
+      "analysis_source": "c65e1c0a9d3f1bcb2f83abec602c8e6afa8d5c039a457bc160100cb92c2c7d18",
       "analysis_zh": {
-        "positioning": "面向多平台用户的 AI 增强型多协议并发下载器，提供桌面端、Android 端及浏览器扩展协同体验。",
-        "implementation": "基于 Python、Qt、asyncio 构建，采用 IDM 式智能分块且无需合并文件；支持模拟浏览器 TLS 指纹、aria2 RPC、媒体解析、镜像加速与 M3U8 实时解密。",
-        "problems_solved": "统一处理网页、视频、直播、BT及模型文件下载，降低反爬拦截、断点任务丢失、跨工具切换和后台资源占用带来的成本。",
-        "capabilities": "下载 HTTP、FTP、BT、磁力、M3U8、DASH与eD2k资源；解析 YouTube、Bilibili 播放列表及字幕；录制并解密 M3U8 直播；暂停编辑任务后续传",
-        "use_cases": "适合需要跨平台批量下载、抓取网页媒体、录制直播，或从 GitHub Releases、HuggingFace 获取大型资源的用户。",
-        "considerations": "Linux 要求 glibc 2.35+，Windows 10+、macOS 13+、Android 10+；插件 API 尚在稳定中；GPL-3.0 许可证。"
+        "positioning": "面向桌面与 Android 用户的跨平台、多协议并发下载器，强调智能分块、媒体解析和浏览器联动。",
+        "implementation": "以 Python 和 Qt 构建，采用并发与智能分块机制；支持多协议、浏览器 TLS 指纹模拟、aria2 兼容 RPC，并通过扩展嗅探媒体、接管浏览器下载和控制任务。",
+        "problems_solved": "集中处理普通文件、BT、流媒体和模型资源下载，降低媒体解析、直播录制、断点续传及浏览器与下载器切换的操作成本。",
+        "capabilities": "下载 HTTP、BT、FTP、M3U8、DASH 与 eD2k；解析 YouTube、Bilibili、GitHub 和 HuggingFace；暂停编辑并续传任务；浏览器扩展与 aria2 RPC 联动",
+        "use_cases": "适合下载大文件、在线视频、直播流、GitHub 发布包或 HuggingFace 模型，并需要跨平台任务管理的用户。",
+        "considerations": "采用 GPL-3.0；Linux 需 glibc 2.35+，Windows 需 10+，macOS 需 13+，Android 需 10+；插件 API 尚在稳定中。"
       }
     },
     "Zettlr/Zettlr": {
@@ -469,6 +495,17 @@
         "capabilities": "GPU加速终端渲染；跨平台支持（BSD、Linux、macOS、Windows）；高性能；可配置性强；集成OpenGL ES 2.0支持",
         "use_cases": "适合开发者和系统管理员日常使用，支持多操作系统环境下的终端操作需求",
         "considerations": "需OpenGL ES 2.0及以上支持；Windows需ConPTY支持（Win10 1809+）；处于Beta阶段，有部分功能缺失和Bug；Apache-2.0许可证"
+      }
+    },
+    "algerkong/AlgerMusicPlayer": {
+      "analysis_source": "525be12558ce90c18a17c2ffc4a94f8d4617654672f7a3a4fc1daddc9fc7a11c",
+      "analysis_zh": {
+        "positioning": "面向桌面、Web 和移动端用户的第三方音乐播放器，兼具本地服务、歌词、下载与远程控制。",
+        "implementation": "基于 Vue，并以 netease cloud music api 提供本地化服务、以 @unblockneteasemusic/server 解析音乐资源；覆盖 Desktop、Web、Mobile Web、Android 与 iOS。",
+        "problems_solved": "将推荐、账号同步、收藏、歌单、MV、歌词和下载集中到一个客户端，并通过本地服务降低对在线 API 的直接依赖。",
+        "capabilities": "账号登录、推荐、收藏与歌单管理；沉浸式及独立桌面歌词；音乐解析、高品质播放与文件下载；快捷键、迷你模式和远程控制",
+        "use_cases": "适合希望跨设备管理音乐、下载文件、显示桌面歌词或从其他设备远程控制播放的个人用户。",
+        "considerations": "采用 MIT 许可证，但 README 声明仅供学习交流、禁止商业用途并建议支持正版；具体合规边界需核对项目文档。"
       }
     },
     "altair-graphql/altair": {
@@ -783,6 +820,19 @@
         "considerations": "跨平台支持Linux、Windows和macOS 13+；采用GPL-3.0许可证；依赖Qt框架。"
       }
     },
+    "hovancik/stretchly": {
+      "source": "The break time reminder app",
+      "zh": "休息时间提醒应用",
+      "analysis_source": "ed43024ef5cb10a3c52fecb423dad3c268ba30e23167b594570b2f731b099a61",
+      "analysis_zh": {
+        "positioning": "面向长期使用电脑的人群的跨平台休息提醒应用，帮助安排工作间歇。",
+        "implementation": "采用 JavaScript 与 Electron 构建，面向 macOS、Windows 和 Linux 发布官方安装包及便携版本，并提供偏好和高级偏好设置。",
+        "problems_solved": "通过定时提醒减少用户持续工作时忘记休息的问题，以自动化提示替代人工计时和自我提醒。",
+        "capabilities": "定时提醒短休与长休；跨 macOS、Windows 和 Linux 运行；提供偏好与高级偏好配置；可通过 Alfred 或 Raycast 扩展交互",
+        "use_cases": "适合程序员、设计师、办公室人员等长时间使用电脑，希望把规律休息纳入日常工作节奏的用户。",
+        "considerations": "采用 BSD-2-Clause；macOS 需 Monterey 12+，应用未签名，首次运行可能被 Gatekeeper 拦截，需按文档手动放行。"
+      }
+    },
     "janhq/jan": {
       "source": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
       "zh": "完全离线运行的开源ChatGPT替代品。",
@@ -933,14 +983,14 @@
     "mltframework/shotcut": {
       "source": "cross-platform (Qt), open-source (GPLv3) video editor",
       "zh": "跨平台开源视频编辑器，基于Qt和GPLv3。",
-      "analysis_source": "2e8e85f42073a2424ddd4f6550069ae43688f09f53966d86e577873608623eb1",
+      "analysis_source": "776c2439bb585e9c78b8f8dcd1a178b99bbffa1e93db2c3d448e462a8994a110",
       "analysis_zh": {
-        "positioning": "面向需要免费跨平台剪辑工具的创作者和贡献者的开源视频编辑器。",
-        "implementation": "采用 C++ 与 Qt 6 构建界面，以 MLT 为多媒体创作框架，并依赖 FFmpeg、FFTW、Frei0r 和 SDL 处理编解码、效果及音频播放。",
-        "problems_solved": "提供无需购买商业剪辑软件的跨平台视频编辑方案，并以常见多媒体库覆盖处理与播放需求。",
-        "capabilities": "跨平台视频编辑；多媒体格式与编解码处理；视频插件效果；跨平台音频播放",
-        "use_cases": "适合在 Linux、macOS 或 Windows 上进行视频剪辑，也适合熟悉依赖构建的测试者和贡献者。",
-        "considerations": "GPLv3 许可；源码构建面向测试者或贡献者，要求 Qt 6.4+、MLT、FFmpeg 等依赖，普通用户宜用官方二进制。"
+        "positioning": "面向视频创作者及专业用户的免费、开源、跨平台桌面视频编辑器。",
+        "implementation": "以 C++ 开发，使用 Qt 6 构建界面和应用框架，以 MLT 处理多媒体创作，并依赖 FFmpeg、FFTW、Frei0r 与 SDL 完成编解码、插件和音频播放。",
+        "problems_solved": "提供跨平台的开源视频剪辑方案，使用户无需依赖封闭式编辑器即可处理多媒体内容。",
+        "capabilities": "跨平台视频编辑；基于 FFmpeg 的格式与编解码支持；Frei0r 视频插件扩展；多语言翻译支持",
+        "use_cases": "适合需要在不同桌面系统剪辑视频的创作者，也适合熟悉 Qt、MLT 和 C++ 的贡献者参与开发。",
+        "considerations": "采用 GPL-3.0；源码构建面向测试者和贡献者，要求 Qt 6.4+、MLT、FFmpeg 等依赖，官方建议普通用户安装预编译包。"
       }
     },
     "mockoon/mockoon": {
@@ -1011,14 +1061,14 @@
     "nukeop/nuclear": {
       "source": "Streaming music player that finds free music for you",
       "zh": "免费音乐流媒体播放器。",
-      "analysis_source": "24676226b51d7981120ea887fb8c526416f4b28d0009dbb42edfce93e889514b",
+      "analysis_source": "86b5f9939b80bc3dea7ce3f44a22fe81aa31fe1ee7ba97a9c2ccd78f793bc786",
       "analysis_zh": {
-        "positioning": "免费无广告的开源音乐流媒体播放器，面向喜欢免费音乐和自定义体验的用户。",
-        "implementation": "基于Tauri框架（Rust + React）构建，使用TypeScript开发。采用插件驱动架构，插件提供流媒体源、元数据、播放列表等功能。内置MCP服务器支持AI代理控制。通过多种安装包支持Windows、macOS和Linux部署。",
-        "problems_solved": "免去寻找免费音乐资源的麻烦，避免广告和跟踪，支持多平台统一播放体验，简化音乐管理和播放流程。",
-        "capabilities": "搜索音乐；在线播放；多平台支持（Windows、macOS、Linux）；内置主题和插件商店；播放列表管理；AI代理控制播放器；自动更新；多语言本地化",
-        "use_cases": "适合音乐爱好者、跨平台用户及开发者，支持构建个性化播放列表和插件扩展。",
-        "considerations": "依赖Node.js环境；采用AGPL-3.0开源许可证；支持多平台安装包格式；建议查看官方文档了解插件开发和MCP服务器配置"
+        "positioning": "面向 Windows、macOS 与 Linux 用户的免费开源无广告、无追踪音乐流媒体播放器。",
+        "implementation": "采用 pnpm monorepo 与 Turborepo 管理，主应用基于 Tauri、Rust 和 React；功能由插件驱动，插件可提供音源、元数据、歌单等，并内置插件商店与 MCP Server。",
+        "problems_solved": "帮助用户搜索并播放免费音乐，统一管理收藏、队列和歌单，避免广告与行为追踪，并减少在不同音乐服务间导入歌单的操作成本。",
+        "capabilities": "跨来源搜索和串流音乐；浏览艺人、专辑及相似艺人信息；管理队列、收藏与歌单；通过插件、主题和 MCP 扩展播放器",
+        "use_cases": "适合重视隐私的桌面音乐用户、插件开发者，以及希望让 Claude Code、Codex CLI 等智能体控制播放的工作流。",
+        "considerations": "开发需 Node.js；支持多种桌面安装包。采用 AGPL-3.0，启用 MCP 和开发插件前应核对项目文档。"
       }
     },
     "oliverschwendener/ueli": {
@@ -1128,14 +1178,14 @@
     "raphamorim/rio": {
       "source": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
       "zh": "硬件加速GPU终端模拟器，支持桌面和浏览器运行。",
-      "analysis_source": "f43c6c2c4ca07790a129a1b6daaf7b5d36407c4161b5a74127e498441761e1f2",
+      "analysis_source": "20d00a143896fae39550855ed9f15ba0f4ba7b99c56cfd1780064fa46a9af48b",
       "analysis_zh": {
-        "positioning": "面向桌面与浏览器环境的现代 GPU 硬件加速终端模拟器，强调跨环境运行。",
-        "implementation": "使用 Rust 开发，通过 GPU 加速终端渲染；Topics 明确涉及 Metal、Vulkan 与 VTE，项目最低支持的 Rust 版本为 1.96.1。",
-        "problems_solved": "为需要现代终端体验的用户提供可在桌面和浏览器运行的统一终端模拟器；更多具体痛点需核对项目文档。",
-        "capabilities": "GPU 硬件加速终端渲染；在桌面环境运行；在浏览器环境运行；支持分屏及 CRT、模糊背景等演示效果",
-        "use_cases": "适合希望在桌面、浏览器或 Steam Deck 等设备使用 GPU 加速终端的开发者与命令行用户。",
-        "considerations": "源码构建要求 Rust 1.96.1 或更高版本；安装、浏览器支持范围及平台依赖需核对官方文档；MIT 许可证。"
+        "positioning": "面向桌面和浏览器环境用户的现代化、硬件加速 GPU 终端模拟器。",
+        "implementation": "以 Rust 开发，围绕 GPU 加速构建终端界面；Topics 明确涉及 Metal、Vulkan 与 VTE，项目目标是在桌面和浏览器运行。",
+        "problems_solved": "为需要现代图形渲染和跨环境运行的用户提供统一终端选择，减少因平台差异更换终端工具的需求。",
+        "capabilities": "GPU 硬件加速终端渲染；支持桌面与浏览器环境；提供分屏显示；支持 CRT 与背景模糊等视觉效果",
+        "use_cases": "适合重视渲染性能、跨设备使用和视觉定制的终端用户，也适合 Rust 生态贡献者。",
+        "considerations": "采用 MIT 许可证；最低稳定 Rust 版本为 1.96.1。具体平台兼容性、安装与浏览器部署方式需核对官方文档。"
       }
     },
     "reqable/reqable-app": {
@@ -1247,14 +1297,14 @@
       "zh": "基于异步I/O的极速终端文件管理器。"
     },
     "t8y2/dbx": {
-      "analysis_source": "d308529812746367df15c5826faefaac23dcda528425910c8d3331c90bd70dc1",
+      "analysis_source": "a8a66e8525e4daa20a7fbb0479c7a9b9466d6ba598982aeea5929308ea53ea0f",
       "analysis_zh": {
-        "positioning": "面向开发者和团队的轻量级跨平台数据库客户端，统一管理70余种数据库及消息队列。",
-        "implementation": "以约20 MB单一 Rust 二进制发布，不捆绑 Chromium、JRE 或 Python；提供桌面、Docker、自托管 Web、CLI、AI 助手和 MCP Server，并通过原生、Agent 或 JDBC 配置扩展连接。",
-        "problems_solved": "用一个小型工具替代多个数据库客户端及繁重运行时，减少跨数据库切换和复制粘贴 SQL 的成本，并让编码智能体复用已有连接。",
-        "capabilities": "连接并管理70余种数据库；使用 CodeMirror 6 编辑和执行 SQL；通过 Claude、OpenAI 或 Ollama 生成并安全检查 SQL；以 MCP 向编码智能体开放数据库连接",
-        "use_cases": "适合个人进行跨库查询、团队通过 Docker 自托管，以及为 Claude Code、Cursor、Windsurf 提供数据访问。",
-        "considerations": "AI 功能需 Claude、OpenAI 或 Ollama；部分数据库依赖 Agent/JDBC 配置；Docker 可供团队访问；Apache-2.0 许可。"
+        "positioning": "面向开发者、数据库管理员和团队的轻量级跨平台数据库客户端，统一连接 70 多种数据库与消息队列。",
+        "implementation": "以 Rust 构建约 20 MB 单一二进制，不捆绑 Chromium、JRE 或 Python；提供桌面、CLI、Web 与 Docker 部署，并通过 MCP 复用既有连接，接入 Claude、OpenAI 或 Ollama。",
+        "problems_solved": "用一个客户端替代多套数据库工具，减少运行时与安装负担；免去在编辑器和数据库工具间复制 SQL，并在执行前检查 AI 生成的 SQL。",
+        "capabilities": "连接和管理 70 多种数据库；CodeMirror 6 SQL 编辑与元数据补全；内置 AI 生成及安全检查；通过 MCP、CLI、桌面或 Docker 访问",
+        "use_cases": "适合管理异构数据库的开发者和团队，以及希望让 Claude Code、Cursor 等智能体安全查询既有连接的工作流。",
+        "considerations": "采用 Apache-2.0；AI 功能需 Claude、OpenAI、Ollama 或兼容模型；部分数据库通过 Agent/JDBC 配置扩展。"
       },
       "source": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "是支持70+数据库的轻量级跨平台数据库客户端，含AI助手和多种运行环境。"
