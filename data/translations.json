@@ -145,14 +145,14 @@
     "IsmaelMartinez/teams-for-linux": {
       "source": "Unofficial Microsoft Teams for Linux client",
       "zh": "非官方Linux版微软Teams客户端。",
-      "analysis_source": "74fc0d77c456349eebf087615894a330b50415306d69e21640a53cd3bcb8f48d",
+      "analysis_source": "1ec3e97df4be073d3759c01dd45540676096a8f0f212ca510d82dc927c84b7fc",
       "analysis_zh": {
-        "positioning": "非官方Linux版微软Teams客户端，适合Linux用户使用Teams服务。",
-        "implementation": "基于Electron和JavaScript开发，封装微软Teams网页版，增强Linux系统集成体验，提供桌面通知和多账户管理。",
-        "problems_solved": "解决Linux用户无法使用官方Teams桌面客户端的问题，提供更好系统集成体验。",
-        "capabilities": "集成微软Teams网页版，支持系统通知和托盘图标；支持多账户配置；支持屏幕共享；支持自定义背景和主题；跨平台支持Linux。",
-        "use_cases": "适合Linux平台的企业用户和个人用户使用微软Teams进行沟通协作。",
-        "considerations": "GPL-3.0许可证；非官方客户端，部分功能受限于Teams网页版；建议核对官方文档和社区支持。"
+        "positioning": "面向 Linux 用户的非官方 Microsoft Teams 桌面客户端，并提供增强的系统集成。",
+        "implementation": "以 JavaScript 和 Electron 封装 Teams Web 版，增加系统通知、托盘、多账号配置、主题和屏幕共享；提供 DEB、RPM、AppImage、Snap 等安装形式。",
+        "problems_solved": "弥补 Linux 上 Teams Web 版缺少原生桌面入口、通知、托盘及多账号管理的问题。",
+        "capabilities": "系统通知与托盘集成；屏幕共享；多账号配置；自定义背景和主题",
+        "use_cases": "适合需要在 Linux 桌面使用 Microsoft Teams，并管理工作与个人账号的用户。",
+        "considerations": "非微软官方项目，部分能力受 Teams Web 限制；采用 GPL-3.0；具体桌面环境支持需核对文档。"
       }
     },
     "JannisX11/blockbench": {
@@ -197,14 +197,14 @@
     "KunAgent/Kun": {
       "source": "Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI.",
       "zh": "本地优先的 AI 智能体工作空间，统一支持桌面 GUI 与 TUI",
-      "analysis_source": "ad790f9d6e7910ef6f986ac293210605ee9949f6bdc125da2a04871749991c5e",
+      "analysis_source": "bcc31d06cdbaba39ad2d35d4b50cda83dde8ba8ac1f495f219b54cc76980e400",
       "analysis_zh": {
-        "positioning": "面向编码、写作、设计、研究和自动化工作的本地优先 AI Agent 工作台，统一提供桌面 GUI 与终端 TUI。",
-        "implementation": "GUI 与 TUI 连接同一 kun serve 运行时，共享线程、模型连接、审批、计划和后台任务；Agent Graph 以依赖图组织子代理，由 Lead Agent 派发、监督、返工和汇总。",
-        "problems_solved": "把需求澄清、设计、计划、执行与验收串成可追踪流程，避免界面切换丢失上下文，并用 Diff、测试和审查证据替代仅凭 Agent 自报完成。",
-        "capabilities": "在 Code 中编辑代码、执行命令与审查 Diff；在 Design 中生成交互原型；在 Write 中产出多种文档；通过 Agent Graph 拆分复杂任务",
-        "use_cases": "适合需要在本地项目中完成端到端 AI 协作的开发者、设计师和写作者，也适用于终端及无桌面服务器环境。",
-        "considerations": "首次使用需登录模型订阅或配置 API Key、Token Plan、自定义 Provider；Agent Graph 为实验性功能；许可证未明确，需核对项目文档。"
+        "positioning": "面向开发者、创作者和研究人员的本地优先 AI Agent 工作台，统一桌面 GUI 与终端 TUI。",
+        "implementation": "以 TypeScript 构建，通过 kun serve 共享 GUI、TUI、后台任务及手机连接的线程、计划、审批和记录；支持多模型、MCP、Skills、Schedule、Loop、Hook 与实验性 Agent Graph。",
+        "problems_solved": "把需求澄清、创作、执行、文件修改、测试、审查和交付串成可见、可控、可回溯的连续流程。",
+        "capabilities": "AI 编程、写作、设计与多模态研究；GUI 与 TUI 共享任务；多模型及自托管模型接入；自动化与实验性多 Agent 协作",
+        "use_cases": "适合在真实项目中完成代码、文档、原型、研究和重复流程自动化的个人或团队。",
+        "considerations": "支持 macOS、Windows x64、Linux x64；云模型会接收相关上下文；许可证未明确，需核对项目文档。"
       }
     },
     "LizardByte/Sunshine": {
@@ -236,27 +236,27 @@
     "NanmiCoder/cc-haha": {
       "source": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
       "zh": "本地优先的跨平台桌面工作空间，支持多智能体和多模型。",
-      "analysis_source": "f9c79f4fb5818f260fc99b7ffff1c9aa5a2162e4a97af002258fe88814e9b00e",
+      "analysis_source": "94ed2c6ea16adf1cd3a0d4537ac0e4e3d0cec34b112809c35e9fecc65312ea9e",
       "analysis_zh": {
-        "positioning": "面向 Claude Code及其他智能体用户的本地优先跨平台图形化开发工作空间。",
-        "implementation": "以 TypeScript、Electron 构建 macOS、Windows、Linux 客户端，整合会话、项目、分支与 worktree、差异审查、权限审批、模型配置、Computer Use及远程接入。",
-        "problems_solved": "将终端中的智能体会话、代码变更、权限确认和远程跟进集中到一处，减少开发上下文切换。",
-        "capabilities": "管理多项目和智能体会话；启动分支与 Git worktree；查看语法高亮差异并审批权限；通过 H5 和 IM 远程访问",
-        "use_cases": "适合希望用桌面界面运行编码智能体、审查修改，并从微信、飞书等渠道远程跟进的开发者。",
-        "considerations": "MIT 许可；首次启动需配置模型供应商、API Key 和默认模型；未签名临时安装包可能触发系统安全提示。"
+        "positioning": "面向 Claude Code 与其他智能体用户的本地优先跨平台图形化开发工作空间。",
+        "implementation": "TypeScript 与 Electron 桌面应用整合会话、项目、分支/worktree、Diff、权限审批、模型设置、内置浏览器和 Computer Use，并通过 H5 与微信、飞书等即时通讯渠道远程访问。",
+        "problems_solved": "把终端中的智能体会话、代码变更、权限确认和远程跟进集中到一个界面，减少多项目及多设备开发时的上下文切换。",
+        "capabilities": "管理多会话、多项目和 worktree；查看并审阅语法高亮 Diff；配置多模型和权限审批；通过 H5 与即时通讯远程访问",
+        "use_cases": "适合希望以桌面 GUI 管理 Claude Code 工作流，并需远程查看或操控任务的开发者。",
+        "considerations": "MIT 许可证；首次启动需配置模型服务商、API Key 和默认模型；未签名安装包可能触发 macOS 或 Windows 警告。"
       }
     },
     "OpenHands/OpenHands": {
       "source": "🙌 OpenHands: AI-Driven Development",
       "zh": "基于AI驱动的软件开发平台。",
-      "analysis_source": "57ef42b1ee27ba3f03b4c489bec0bb5accc063228cbd9c56b8569236069b42b4",
+      "analysis_source": "ca33b211cb48a2b6b54d5c2f22e46fcd5a9304a80b712aeeec63e1a787a735d9",
       "analysis_zh": {
-        "positioning": "面向开发者与工程团队的自托管编码智能体控制中心，用于统一运行和管理多种智能体。",
-        "implementation": "默认在本机运行 Agent Canvas，也可连接 Docker、虚拟机、企业基础设施、OpenHands Cloud 或 Enterprise 后端；通过 ACP 接入 OpenHands、Claude Code、Codex、Gemini 等智能体，并以定时任务或 Webhook 触发自动化。",
-        "problems_solved": "统一分散的编码智能体及运行后端，减少在本地、远程和云环境间切换的成本，并自动处理报告发布、GitHub Issue 拆解等日常工程任务。",
-        "capabilities": "统一运行多种 ACP 编码智能体；切换本地、远程及云端后端；通过定时或 Webhook 编排自动化；集成 Slack、GitHub、Linear、Notion 等服务",
-        "use_cases": "适合个人开发者和工程团队自托管常驻智能体，用于编码对话、任务自动化及跨服务工程工作流。",
-        "considerations": "可本机或服务器自托管，也可选用官方云或企业设施；第三方智能体、LLM及外部集成可能需要各自配置；MIT 许可。"
+        "positioning": "面向开发团队的自托管编码智能体控制中心，用于统一运行智能体并自动化工程任务。",
+        "implementation": "Agent Canvas 默认在本地运行，可连接 Docker、虚拟机、企业设施及 OpenHands Cloud/Enterprise 后端；通过 ACP 接入第三方智能体，并以定时或 Webhook 触发集成工作流。",
+        "problems_solved": "集中管理分散在本地、远程和云端的编码智能体，减少人工处理报告发布、Issue 拆解等重复工程事务。",
+        "capabilities": "运行 OpenHands 及 ACP 兼容智能体；切换本地、远程和云端后端；创建定时或 Webhook 自动化；集成 Slack、GitHub、Linear、Notion",
+        "use_cases": "适合需要常驻编码智能体、跨基础设施调度及自动化日常研发流程的个人和工程团队。",
+        "considerations": "MIT 许可证；可自托管，也可选用官方云或企业设施；外部集成和模型可能需要各自凭据。"
       }
     },
     "OpenWhispr/openwhispr": {
@@ -327,14 +327,14 @@
     "TabularisDB/tabularis": {
       "source": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
       "zh": "支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。",
-      "analysis_source": "dcde5382efa31e26bb93ea297e29c890ecce0161978e6318aa42918ad46944cf",
+      "analysis_source": "12287e7d329b88df27014f68a4733e25fcfd5f52a4298a35b2eb983e589e0958",
       "analysis_zh": {
-        "positioning": "面向数据库开发者和 AI 编程工具用户的开源桌面 SQL 工作台，支持 PostgreSQL、MySQL/MariaDB、SQLite 等多种数据库。",
-        "implementation": "以 TypeScript 构建桌面应用，3 种数据库内置、另有 16 个官方插件；插件通过 stdio 上的 JSON-RPC 工作，内置 MCP Server，并可用 Ollama 本地模型完成文本转 SQL。",
-        "problems_solved": "把多数据库连接、查询、笔记、执行计划分析和 AI 代理访问整合到一个应用，减少在数据库客户端、笔记工具与 AI 工具之间切换。",
-        "capabilities": "管理连接并浏览数据库对象；使用 SQL 编辑器、SQL/Markdown 笔记本和跨单元格变量；交互式可视化 EXPLAIN；让 Claude、Cursor、Devin 读取模式并执行查询",
-        "use_cases": "适合数据工程师、后端开发者和数据库管理员进行跨数据库查询、分析执行计划，以及在现有 SQL 工作流中接入 AI 代理。",
-        "considerations": "提供 Windows、macOS 与多种 Linux 安装包；AI 文本转 SQL 可选用 Ollama；数据库扩展依赖插件；Apache-2.0 许可证。"
+        "positioning": "面向开发者与数据人员的开源跨平台桌面 SQL 工作台，并为 AI Agent 提供数据库接口。",
+        "implementation": "以 TypeScript 构建，内置 3 种数据库并通过 16 个官方插件扩展；插件使用 stdio 上的 JSON-RPC，内置 MCP Server，并支持 Ollama 文本转 SQL、Notebook 与可视化执行计划。",
+        "problems_solved": "统一多数据库查询、分析和连接管理，并让 Claude、Cursor、Devin 在同一应用内读取模式和执行查询。",
+        "capabilities": "连接 PostgreSQL、MySQL、SQLite 等数据库；SQL Notebook；交互式 Visual EXPLAIN；内置 MCP Server 与插件系统",
+        "use_cases": "适合管理多类数据库、分析 SQL 执行计划，或让 AI Agent 辅助查询的开发者和数据人员。",
+        "considerations": "采用 Apache-2.0；AI 功能可选，本地文本转 SQL 需 Ollama；不同数据库支持方式需核对文档。"
       }
     },
     "Termix-SSH/Termix": {
@@ -628,14 +628,14 @@
     "crynta/terax-ai": {
       "source": "Lightweight (7MB) Terminal-first AI-native dev workspace",
       "zh": "轻量级终端优先的AI开发工作空间。",
-      "analysis_source": "cd886c75c107be0d27d7602f280ecfdf20515ec2c0b86d39e5810d7239a84cb6",
+      "analysis_source": "1e6ef453a6f52a90b98ec52479a2d423a73bb3f044dc0d4e278d77a115949508",
       "analysis_zh": {
-        "positioning": "轻量级终端优先的AI原生开发工作空间。",
-        "implementation": "基于TypeScript、Rust和Tauri构建，采用xterm.js WebGL渲染终端，CodeMirror 6编辑器，集成本地PTY后端和AI侧边栏，支持多面板和多环境工作区。",
-        "problems_solved": "整合终端、代码编辑、版本控制和AI辅助，提升开发效率，减少工具切换。",
-        "capabilities": "多标签终端支持WebGL渲染；内置代码编辑器支持多语言；集成Git图形化管理；AI辅助代码编辑；文件浏览器和本地服务器预览；支持多平台。",
-        "use_cases": "适合开发者在终端环境中进行AI辅助编码和版本控制工作。",
-        "considerations": "依赖Node.js和本地AI模型或API密钥；Apache-2.0开源许可；无遥测和账号需求。"
+        "positioning": "面向偏爱终端工作流的开发者的轻量级、AI 原生跨平台开发环境。",
+        "implementation": "基于 Tauri 2、Rust 和 React 19，使用原生 PTY、xterm.js WebGL 终端与 CodeMirror 6 编辑器；集成 Git 图、Web 预览、语言服务器及支持自有密钥或本地模型的 AI 面板。",
+        "problems_solved": "以约 7 至 8 MB 的应用整合终端、编辑、Git、预览和 AI 辅助，减少使用重型 IDE 及在多个开发工具间切换的成本。",
+        "capabilities": "多标签、分屏和 GPU 加速终端；代码编辑、语言服务器及多媒体预览；AI 自动补全与分块 Diff 审批；Git 暂存、提交、推送和历史图",
+        "use_cases": "适合重度终端用户、轻量开发环境需求者，以及希望使用本地模型或自备密钥的开发者。",
+        "considerations": "Apache-2.0 许可证；支持 Windows、macOS 和 Linux；语言服务器为可选配置，云端 AI 功能需自备模型密钥。"
       }
     },
     "dail8859/NotepadNext": {
@@ -693,14 +693,14 @@
     "electerm/electerm": {
       "source": "📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android)",
       "zh": "支持多协议的终端和远程连接客户端，跨平台支持多系统。",
-      "analysis_source": "312c83205749f77a79418b46d794166b15eef642c13058690ad91956c7a0c9de",
+      "analysis_source": "74a7924aac0b9c2194b8204209a4a4e7aa0eac3d618b872e854f40a1606f63bb",
       "analysis_zh": {
         "positioning": "面向运维和开发人员的跨平台终端、文件管理及多协议远程连接客户端。",
-        "implementation": "以 JavaScript、Electron 构建桌面端，并提供浏览器版、Docker 镜像和 Android 版；集成 SSH、SFTP、FTP、Telnet、串口、RDP、VNC、Spice 等协议。",
-        "problems_solved": "用一个客户端替代分散的终端、文件传输和远程桌面工具，并降低跨设备同步连接配置的成本。",
-        "capabilities": "终端及远程文件管理；多种远程连接协议；SSH 隧道与代理；同步书签、主题和快捷命令",
-        "use_cases": "适合跨系统维护服务器、传输文件、连接串口或远程桌面的开发与运维人员。",
-        "considerations": "MIT 许可；云同步可用 GitHub、Gitee、WebDAV、自建服务或 electerm cloud；AI 功能需相应 API。"
+        "implementation": "基于 Electron 生态，提供桌面、Android、浏览器和 Docker Web 形态；统一支持 SSH、SFTP、FTP、Telnet、串口、RDP、VNC、Spice，并可经 GitHub/Gitee Gist、WebDAV 等同步配置。",
+        "problems_solved": "用一个客户端替代多种终端、远程桌面和文件传输工具，并兼顾旧系统及国产 Linux 环境，减少连接和配置迁移成本。",
+        "capabilities": "终端与远程文件管理；连接 SSH、SFTP、FTP、Telnet 和串口；支持 RDP、VNC、Spice；同步书签、主题和快捷命令",
+        "use_cases": "适合需管理多类服务器、远程桌面、串口设备，或兼容旧系统和国产 Linux 的用户。",
+        "considerations": "MIT 许可证；部分同步方式需 GitHub、Gitee、WebDAV 或自建服务凭据；不同平台和架构的支持范围需核对文档。"
       }
     },
     "espanso/espanso": {
@@ -719,14 +719,14 @@
     "farion1231/cc-switch": {
       "source": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
       "zh": "支持多智能代理的一体化跨平台桌面助手。",
-      "analysis_source": "d596802e9f08ed8a5b47a99295e3df4f562dff7f10a5ea1c24bd1337ca48e536",
+      "analysis_source": "ecec903446a18fc83fc0a0f340a9875440a7080e1b4bf454850cbdc73e73beed",
       "analysis_zh": {
         "positioning": "面向多种编码智能体用户的跨平台桌面统一管理与配置切换工具。",
-        "implementation": "以 Rust 和 Tauri 构建桌面应用，统一管理 Claude Code、Codex、Gemini CLI、OpenCode、OpenClaw、Grok Build 与 Hermes Agent 等工具的模型和服务配置。",
-        "problems_solved": "减少在多个智能体工具之间分别配置模型、API 服务和切换供应商的重复操作。",
-        "capabilities": "统一管理多种编码智能体；切换模型及服务配置；支持 MCP 相关集成；提供跨平台桌面界面",
-        "use_cases": "适合同时使用多个编码智能体，并需频繁切换模型或 API 服务的开发者。",
-        "considerations": "MIT 许可；官方站点仅为 ccswitch.io；具体系统支持、凭据存储方式及完整功能需核对文档。"
+        "implementation": "使用 Rust 与 Tauri 构建桌面应用，统一管理 Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build、OpenCode、OpenClaw、Hermes Agent 等工具的配置与切换。",
+        "problems_solved": "减少用户分别配置和切换多个智能体工具的重复操作，降低多模型、多服务并用时的管理成本。",
+        "capabilities": "统一管理多种编码智能体；切换模型及服务配置；支持 MCP 相关工作流；提供跨平台桌面界面",
+        "use_cases": "适合同时使用 Claude Code、Codex 等多个智能体，并需频繁切换配置的开发者。",
+        "considerations": "MIT 许可证；使用第三方模型或 API 中继服务时，可能需要相应账号、密钥及付费额度。"
       }
     },
     "flameshot-org/flameshot": {
@@ -784,27 +784,27 @@
     "getpaseo/paseo": {
       "source": "Orchestrate multiple coding agents from desktop and mobile",
       "zh": "桌面和移动端多智能体编程协调工具。",
-      "analysis_source": "b4f22d30ca526b8edfd639a1cfe6eeb02e197cc65fd9aaa8c174e98c7ee17909",
+      "analysis_source": "ae7cb81afb428674fa5e5046552f9059a8eabad679626a64724a890f99cbe624",
       "analysis_zh": {
-        "positioning": "面向希望从桌面、移动端、网页或 CLI 协调多个编码智能体的自托管工具。",
-        "implementation": "本机 daemon 管理各编码代理，桌面、iOS、Android、Web 和 CLI 客户端与其连接；远程配对可选端到端加密中继，也支持 TCP、Tailscale、VPN 和 Docker。",
-        "problems_solved": "解决多代理入口分散、离开电脑后无法跟进，以及把完整开发环境迁移到托管服务的隐私与配置成本。",
-        "capabilities": "并行运行多供应商编码代理；跨设备监控和控制；语音下达任务；自托管 daemon 与无头 CLI",
-        "use_cases": "适合在自有电脑或服务器运行代理，并需从手机、桌面和脚本持续接管任务的开发者。",
-        "considerations": "需至少安装并配置一个受支持的代理 CLI 及凭据；无强制登录和遥测；仓库未声明许可证，需核对文档。"
+        "positioning": "面向开发者的自托管多编码智能体协调工具，可从桌面、手机、网页和 CLI 统一操作。",
+        "implementation": "本地 daemon 管理并行智能体，桌面、移动、Web 和 CLI 客户端连接该服务；跨设备可用端到端加密中继配对，或通过 TCP、Tailscale、VPN 直连，也可用 Docker 部署。",
+        "problems_solved": "让用户在自有开发环境中并行运行不同编码智能体，并可离开电脑后继续从手机跟进，减少远程接管和多客户端割裂。",
+        "capabilities": "并行运行多种编码智能体；跨桌面、移动、Web 和 CLI 操作；语音下达和讨论任务；通过加密中继或私有网络连接设备",
+        "use_cases": "适合需在自有电脑或服务器上并行调度代理，并从手机远程推进开发工作的用户。",
+        "considerations": "许可证信息未明确，需核对项目文档；至少安装并配置一个支持的代理 CLI；Docker 镜像需自行加入 CLI 和凭据。"
       }
     },
     "graphif/project-graph": {
       "source": "A node-based visual tool for organizing thoughts and notes in a non-linear way.",
       "zh": "是一个基于节点的非线性思维和笔记可视化工具。",
-      "analysis_source": "d9ee11f4a2767902e916545d5cdd3fe739580f6eeabfd644ceed252bb0b25ee8",
+      "analysis_source": "c56c41a60f271e8e5f32d3327fea156d3793148fae01c2837d41e3f7d1a73772",
       "analysis_zh": {
-        "positioning": "基于节点的非线性思维和笔记可视化工具，适合设计师、教师和开发人员。",
-        "implementation": "基于TypeScript，采用React和Tailwind CSS构建现代界面，使用Canvas技术实现节点图绘制，支持跨平台桌面应用（通过Tauri）。提供API扩展和定期功能更新。",
-        "problems_solved": "帮助用户快速构思和直观呈现复杂关系，替代传统线性笔记和手绘图表，提升头脑风暴和项目规划效率。",
-        "capabilities": "节点拖拽连接；支持多种图表类型（DAG、树形结构、逻辑关系网络）；历史记录撤销/重做；自动保存备份；跨平台支持；多语言界面；丰富扩展功能和API集成。",
-        "use_cases": "设计师制作创意流程图，教师开发课程大纲，开发人员构建模块依赖图和系统架构。",
-        "considerations": "无明确许可证信息，建议核对项目文档。支持Windows、macOS和Linux。"
+        "positioning": "面向设计师、教师和开发者的跨平台桌面节点图工具，用于非线性组织与展示信息。",
+        "implementation": "采用 TypeScript、React、Tailwind CSS、Vite 与 Tauri，使用 Canvas 相关技术实现节点拖拽连接；提供历史记录、自动保存和备份机制。",
+        "problems_solved": "降低流程图、知识结构、项目关系和系统依赖图的创建成本，并减少误操作或未保存导致的数据丢失。",
+        "capabilities": "拖拽创建和连接节点；绘制 DAG、树形图和关系网络；撤销与重做；自动保存和备份",
+        "use_cases": "适合头脑风暴、教学设计、项目规划、模块依赖和系统架构梳理。",
+        "considerations": "支持 Windows、macOS 和多数 Linux 系统；许可证信息未提供，使用或分发前应核对项目文档。"
       }
     },
     "hluk/CopyQ": {
@@ -831,6 +831,19 @@
         "capabilities": "定时提醒短休与长休；跨 macOS、Windows 和 Linux 运行；提供偏好与高级偏好配置；可通过 Alfred 或 Raycast 扩展交互",
         "use_cases": "适合程序员、设计师、办公室人员等长时间使用电脑，希望把规律休息纳入日常工作节奏的用户。",
         "considerations": "采用 BSD-2-Clause；macOS 需 Monterey 12+，应用未签名，首次运行可能被 Gatekeeper 拦截，需按文档手动放行。"
+      }
+    },
+    "irbis-sh/zen-desktop": {
+      "source": "Ad-blocker and privacy guard for Windows, macOS and Linux.",
+      "zh": "适用于 Windows、macOS 和 Linux 的广告拦截与隐私保护工具。",
+      "analysis_source": "afc2283f0a669a413e53d369f68ebe39e855d09f5b66b5a6733320c6f6bd2564",
+      "analysis_zh": {
+        "positioning": "面向 Windows、macOS 和 Linux 用户的开源系统级广告拦截与隐私防护工具。",
+        "implementation": "以 Go 开发，通过本地代理拦截所有应用的 HTTP 请求，过滤广告、追踪脚本、恶意软件等内容；安装本地生成的根证书后可检查和修改 HTTPS 请求。",
+        "problems_solved": "覆盖浏览器扩展无法保护的桌面应用和系统组件流量，并减少广告、追踪与恶意内容暴露。",
+        "capabilities": "系统级 HTTP/HTTPS 流量过滤；拦截广告、追踪器和恶意内容；预装过滤规则；支持 hosts 与 EasyList 风格规则",
+        "use_cases": "适合希望在整个操作系统而非单一浏览器中统一过滤网络内容的桌面用户。",
+        "considerations": "首次运行需安装本地根证书；支持三大桌面系统；采用 MIT 许可证，HTTPS 机制应结合安全架构文档评估。"
       }
     },
     "janhq/jan": {
@@ -877,14 +890,14 @@
       }
     },
     "kunkundi/crossdesk": {
-      "analysis_source": "90dab7769cea27d783284a91f9899746ea3cd981e1db129187abfec1b918bf94",
+      "analysis_source": "0acc9ee038ccb8deecef78759ca6540b0dcfbf628f128066fdc593785ebcdbfa",
       "analysis_zh": {
-        "positioning": "面向个人与技术支持场景的轻量级跨平台远程桌面软件，支持桌面客户端和浏览器控制远端设备。",
-        "implementation": "基于 C++ 与 MiniRTC，实现 ICE 网络透传、H264/AV1 视频、Opus 音频、信令、拥塞控制及 SRTP 加密；Windows 辅助服务增强锁屏和安全桌面控制。",
-        "problems_solved": "让用户通过设备 ID 和密码快速远控跨平台设备，并以 Web 客户端降低控制端安装成本；增强 Windows 登录和锁屏阶段的操作能力。",
-        "capabilities": "跨平台远程桌面连接；Web 浏览器控制远端设备；音视频软硬编解码与加密传输；Windows 锁屏、安全桌面及 Ctrl+Alt+Del 控制",
-        "use_cases": "适合个人远程访问、跨平台设备维护和技术支持，也适合需从 iOS Safari 等浏览器控制电脑的工作流。",
-        "considerations": "最低支持 Windows 10、指定版本 macOS、Ubuntu 20.04；源码构建需 xmake、CMake 3.21+，采用 GPL-3.0。"
+        "positioning": "面向跨平台设备控制需求的轻量级远程桌面软件，并支持浏览器作为控制端。",
+        "implementation": "以 C++ 构建，基于实验性 MiniRTC，提供 ICE 网络透传、H264/AV1、Opus、拥塞控制与 SRTP；Windows 辅助服务增强锁屏、安全桌面及 Ctrl+Alt+Del 控制。",
+        "problems_solved": "让用户通过桌面或 Web 客户端按设备 ID 远程控制设备，并降低跨平台远程接入门槛。",
+        "capabilities": "跨平台远程桌面连接；Web 浏览器控制；音视频实时传输；Windows 锁屏及安全桌面增强控制",
+        "use_cases": "适合从电脑或移动浏览器远程访问 Windows、macOS、Linux 设备的用户。",
+        "considerations": "MiniRTC 实验性应用，采用 GPL-3.0；源码构建需 xmake、CMake 3.21+，部分 Windows 能力需管理员安装服务。"
       }
     },
     "kurikomi-labs/komi-store": {
@@ -1048,27 +1061,27 @@
     "nexu-io/open-design": {
       "source": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "zh": "本地优先的开源设计工具，支持多种导出格式。",
-      "analysis_source": "818662cd0570486eea6c23a325be286ca1f2310eb2e412821b38d3e04e31ef39",
+      "analysis_source": "07185f32ca447d97c71600f50a0dae3fd50b14ebd27166fe8c4f47c044efa7a3",
       "analysis_zh": {
-        "positioning": "本地优先开源设计工具，面向需要AI辅助设计和多格式导出的设计师和团队。",
-        "implementation": "采用TypeScript构建本地优先桌面应用，集成Claude Code、Codex、Cursor等20+ AI模型及CLI，支持设计技能组合和插件，输出多格式设计文件。",
-        "problems_solved": "替代闭源设计软件，实现AI驱动设计自动化，支持多格式导出和本地数据控制。",
-        "capabilities": "支持设计原型、仪表盘、幻灯片、图像和视频生成；本地优先桌面应用；支持多种导出格式（HTML、PDF、PPTX、MP4）；集成多种AI模型和CLI工具；支持设计系统和插件扩展。",
-        "use_cases": "设计师、产品经理及团队进行原型设计、仪表盘制作和多媒体内容创作。",
-        "considerations": "基于TypeScript开发；Apache-2.0许可证；依赖多AI模型服务；建议核对项目文档了解具体功能和部署要求。"
+        "positioning": "面向设计师和开发团队的本地优先开源 AI 设计桌面工具，可替代封闭式 Claude Design 流程。",
+        "implementation": "通过本机 Claude Code、Codex、Cursor 等 25 种 CLI 或 OpenAI 兼容接口驱动技能、模板、插件和 DESIGN.md；在沙箱 iframe 中预览，并导出 HTML、PDF、PPTX、MP4。",
+        "problems_solved": "把智能体设计流程和品牌规范落到可读写文件中，减少封闭平台依赖及原型、演示和多媒体交付的工具切换。",
+        "capabilities": "生成 Web、桌面和移动端原型；制作仪表盘、幻灯片、图片与视频；使用 DESIGN.md 约束品牌设计；导出 HTML、PDF、PPTX、MP4",
+        "use_cases": "适合使用编码智能体制作原型、落地页、仪表盘、演示文稿及品牌化设计资产的个人或团队。",
+        "considerations": "Apache-2.0 许可证；支持 macOS 和 Windows；使用 CLI、BYOK 或官方云模型服务时需自行配置相应凭据。"
       }
     },
     "nukeop/nuclear": {
       "source": "Streaming music player that finds free music for you",
       "zh": "免费音乐流媒体播放器。",
-      "analysis_source": "86b5f9939b80bc3dea7ce3f44a22fe81aa31fe1ee7ba97a9c2ccd78f793bc786",
+      "analysis_source": "41bd538274f5fee216c50ce8d5af536890b54944cdfea3a161773fe80fedf801",
       "analysis_zh": {
-        "positioning": "面向 Windows、macOS 与 Linux 用户的免费开源无广告、无追踪音乐流媒体播放器。",
-        "implementation": "采用 pnpm monorepo 与 Turborepo 管理，主应用基于 Tauri、Rust 和 React；功能由插件驱动，插件可提供音源、元数据、歌单等，并内置插件商店与 MCP Server。",
-        "problems_solved": "帮助用户搜索并播放免费音乐，统一管理收藏、队列和歌单，避免广告与行为追踪，并减少在不同音乐服务间导入歌单的操作成本。",
-        "capabilities": "跨来源搜索和串流音乐；浏览艺人、专辑及相似艺人信息；管理队列、收藏与歌单；通过插件、主题和 MCP 扩展播放器",
-        "use_cases": "适合重视隐私的桌面音乐用户、插件开发者，以及希望让 Claude Code、Codex CLI 等智能体控制播放的工作流。",
-        "considerations": "开发需 Node.js；支持多种桌面安装包。采用 AGPL-3.0，启用 MCP 和开发插件前应核对项目文档。"
+        "positioning": "面向 Windows、macOS 和 Linux 用户的无广告、无追踪开源音乐搜索与流媒体播放器。",
+        "implementation": "采用 pnpm、Turborepo 管理单体仓库，主应用由 Tauri、Rust 和 React 构建；插件系统提供流媒体源、元数据和播放列表等功能，并可启用 MCP Server 供智能体控制。",
+        "problems_solved": "让用户无需广告和追踪即可跨来源搜索、播放及整理音乐，并通过插件减少对单一音乐来源和固定功能的依赖。",
+        "capabilities": "跨来源搜索和播放音乐；管理队列、收藏与播放列表；安装或开发流媒体和元数据插件；通过 MCP 让 AI 智能体控制播放器",
+        "use_cases": "适合重视隐私、希望聚合免费音乐来源，或想用插件和智能体扩展播放器的桌面用户。",
+        "considerations": "AGPL-3.0 许可证；支持三大桌面系统；具体音乐来源取决于已安装插件，开发环境需 Node.js 等依赖。"
       }
     },
     "oliverschwendener/ueli": {
@@ -1087,14 +1100,14 @@
     "op7418/CodePilot": {
       "source": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
       "zh": "多模型AI代理桌面客户端，支持多AI服务和手机远程控制。",
-      "analysis_source": "0bae3fc190cd9f8cb5a15bbfb0047d3253f8b6bcdd226056175bac5121dec4af",
+      "analysis_source": "da5d7cf19d2eba23b870dd61f9cf6b248b2be36d80fd994df571dfff83f7a594",
       "analysis_zh": {
-        "positioning": "多模型AI代理桌面客户端，面向需要多AI服务集成和远程控制的用户。",
-        "implementation": "采用Electron和Next.js构建桌面客户端，支持多AI服务API接入，集成多模型管理和远程控制功能，支持任务调度和多媒体生成。",
-        "problems_solved": "简化多AI服务管理，支持多任务并行和远程操作，提升AI助手的灵活性和效率。",
-        "capabilities": "支持连接17+ AI服务提供商，切换模型不中断上下文；多任务并行处理和远程手机控制；集成MCP和技能扩展；支持生成交互式仪表盘和媒体任务管理。",
-        "use_cases": "适合AI开发者、研究人员及需要多AI模型协同工作的用户。",
-        "considerations": "基于Electron和Next.js开发，支持macOS、Windows、Linux；许可证未明确；官网提供下载和文档。"
+        "positioning": "面向日常 AI 工作流的多模型桌面 Agent 客户端，可扩展并支持手机端远程交互。",
+        "implementation": "采用 Electron、Next.js 和 TypeScript，统一接入 17+ 云端、本地及兼容 API；通过 MCP、Skills、持久记忆、定时器与 Remote Bridge 扩展工具和跨端消息能力。",
+        "problems_solved": "减少多模型、多供应商和多消息渠道间切换的成本，并保留会话上下文与个人工作偏好。",
+        "capabilities": "会话中切换模型且保留上下文；接入 MCP 与可复用 Skills；手机消息桥接；生成式 UI、媒体任务与定时任务",
+        "use_cases": "适合需要统一使用云端或本地模型，并从手机触发桌面 AI 工作流的用户。",
+        "considerations": "支持 macOS、Windows、Linux 多架构；部分 Provider 需账号或 API；许可证未明确，需核对文档。"
       }
     },
     "open-pencil/open-pencil": {
@@ -1178,14 +1191,14 @@
     "raphamorim/rio": {
       "source": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
       "zh": "硬件加速GPU终端模拟器，支持桌面和浏览器运行。",
-      "analysis_source": "20d00a143896fae39550855ed9f15ba0f4ba7b99c56cfd1780064fa46a9af48b",
+      "analysis_source": "954ebb938a1fcc2738752fc19c69bd482211ad6f3f89cc593875b30d2342eaca",
       "analysis_zh": {
-        "positioning": "面向桌面和浏览器环境用户的现代化、硬件加速 GPU 终端模拟器。",
-        "implementation": "以 Rust 开发，围绕 GPU 加速构建终端界面；Topics 明确涉及 Metal、Vulkan 与 VTE，项目目标是在桌面和浏览器运行。",
-        "problems_solved": "为需要现代图形渲染和跨环境运行的用户提供统一终端选择，减少因平台差异更换终端工具的需求。",
-        "capabilities": "GPU 硬件加速终端渲染；支持桌面与浏览器环境；提供分屏显示；支持 CRT 与背景模糊等视觉效果",
-        "use_cases": "适合重视渲染性能、跨设备使用和视觉定制的终端用户，也适合 Rust 生态贡献者。",
-        "considerations": "采用 MIT 许可证；最低稳定 Rust 版本为 1.96.1。具体平台兼容性、安装与浏览器部署方式需核对官方文档。"
+        "positioning": "面向桌面与浏览器用户的现代硬件加速 GPU 终端模拟器。",
+        "implementation": "以 Rust 开发，围绕 GPU 加速实现终端渲染，Topics 明确涉及 VTE、Metal 与 Vulkan；可运行于桌面及浏览器，最低稳定 Rust 版本为 1.96.1。",
+        "problems_solved": "改善传统终端渲染体验，并用同一终端项目覆盖桌面和浏览器环境。",
+        "capabilities": "GPU 加速终端渲染；桌面与浏览器运行；支持分屏及模糊背景等界面效果",
+        "use_cases": "适合需要现代终端体验、跨桌面与浏览器使用终端的开发者。",
+        "considerations": "采用 MIT 许可证；源码构建需 Rust，MSRV 为 1.96.1；具体平台安装方式需核对官网文档。"
       }
     },
     "reqable/reqable-app": {
@@ -1217,14 +1230,14 @@
     "rullerzhou-afk/clawd-on-desk": {
       "source": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
       "zh": "像素风桌面宠物，监控多种AI编程助手。",
-      "analysis_source": "f1472e20dc16af2bc90affdbd9878f84a092e9efb329b087332284c04de4af5d",
+      "analysis_source": "4d7b651c72d8cca197675b25e4a8e8f417b2c5906d1ae996a3d03c32e7e1a5f5",
       "analysis_zh": {
-        "positioning": "面向开发者的桌面像素宠物，实时监控多种AI编程助手状态，提升开发体验。",
-        "implementation": "基于JavaScript和Electron开发，作为桌面像素风宠物，实时监听多种AI编程助手的命令和状态，通过动画反馈任务进展和权限请求。",
-        "problems_solved": "解决开发者需频繁查看AI助手状态的痛点，提供直观、实时的任务反馈，减少干扰。",
-        "capabilities": "多AI编程助手监控；实时状态反馈；多主题支持；跨平台兼容；自定义动画包",
-        "use_cases": "适合使用Claude Code、Codex、Copilot等AI编程助手的开发者，辅助监控任务进展。",
-        "considerations": "AGPL-3.0许可证；依赖Node.js和Electron；支持Windows、macOS、Ubuntu/Linux；最新版本v0.13.0"
+        "positioning": "为 AI 编程助手用户提供实时任务状态反馈的跨平台像素风桌面宠物。",
+        "implementation": "基于 JavaScript 与 Electron，通过各智能体的命令钩子、HTTP 权限钩子或 JSONL 会话记录同步状态，并用 SVG/像素动画呈现思考、工具运行、审批及完成状态。",
+        "problems_solved": "让用户无需持续盯着终端，也能直观看到长任务进度、权限请求和完成提醒。",
+        "capabilities": "监控 Claude Code、Codex、Cursor 等智能体；展示权限请求与任务状态；内置三套主题；支持自定义主题和动画包",
+        "use_cases": "适合同时使用一个或多个 AI 编程代理、需要离开工位等待长任务的开发者。",
+        "considerations": "支持 Windows 11、macOS 和 Ubuntu/Linux；源码构建需要 Node.js；采用 AGPL-3.0。"
       }
     },
     "rustdesk/rustdesk": {
@@ -1256,14 +1269,14 @@
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "zh": "支持多代理并行的AI开发环境。",
-      "analysis_source": "f5e4381f13384038258cc161650557a8612b263e745cf34b8b5227841e1fd371",
+      "analysis_source": "85c65688c9c10ef0daede2684de834c047aa2f148d208fa796373be1778d3fdc",
       "analysis_zh": {
-        "positioning": "面向并行使用多个编码智能体的开发者，提供桌面、移动端和 VPS 可用的 AI 开发环境。",
-        "implementation": "每个智能体运行于独立 Git worktree，由统一界面跟踪；集成 Ghostty 级终端、Chromium 设计模式、VS Code 编辑器、SSH、GitHub、Linear及移动伴侣。",
-        "problems_solved": "避免多智能体并行开发时的代码冲突、终端与任务分散，以及远程跟进和结果比较成本。",
-        "capabilities": "并行创建隔离 worktree 并比较结果；移动端监控和追加指令；SSH 远程开发及端口转发；差异批注、审查与提交",
-        "use_cases": "适合并行试验多个编码代理、远程操控开发机或从任务直接启动 worktree 的团队与个人。",
-        "considerations": "MIT 许可；使用各编码代理需自备订阅或账号；移动端、远程 SSH 与第三方集成条件需核对文档。"
+        "positioning": "面向高并发智能体开发的 ADE，在桌面、移动端和 VPS 上统一协调多个编码代理。",
+        "implementation": "为每个代理创建隔离 Git worktree，并集中跟踪、比较和合并结果；集成 Ghostty 类 WebGL 终端、Chromium 设计模式、VS Code 编辑器、SSH、端口转发及 GitHub/Linear。",
+        "problems_solved": "降低并行代理任务的工作区冲突、结果比较、远程监控和代码审查成本，减少在终端、任务系统与 Git 工具间切换。",
+        "capabilities": "在隔离 worktree 中并行运行代理；移动端监控、通知与追问；SSH 远程开发和端口转发；审阅 AI Diff 并反馈行级评论",
+        "use_cases": "适合并行使用 Codex、Claude Code、OpenCode 或 Pi，且需本地与远程协同的开发者。",
+        "considerations": "MIT 许可证；需准备所用编码代理及其订阅或账号；移动端和远程 SSH 功能需对应设备与连接环境。"
       }
     },
     "streetwriters/notesnook": {
@@ -1297,14 +1310,14 @@
       "zh": "基于异步I/O的极速终端文件管理器。"
     },
     "t8y2/dbx": {
-      "analysis_source": "a8a66e8525e4daa20a7fbb0479c7a9b9466d6ba598982aeea5929308ea53ea0f",
+      "analysis_source": "56c8eaeb32cbca90a68c2b4eabdeb420869d56c91166c2bf2e49f5276c9d93da",
       "analysis_zh": {
-        "positioning": "面向开发者、数据库管理员和团队的轻量级跨平台数据库客户端，统一连接 70 多种数据库与消息队列。",
-        "implementation": "以 Rust 构建约 20 MB 单一二进制，不捆绑 Chromium、JRE 或 Python；提供桌面、CLI、Web 与 Docker 部署，并通过 MCP 复用既有连接，接入 Claude、OpenAI 或 Ollama。",
-        "problems_solved": "用一个客户端替代多套数据库工具，减少运行时与安装负担；免去在编辑器和数据库工具间复制 SQL，并在执行前检查 AI 生成的 SQL。",
-        "capabilities": "连接和管理 70 多种数据库；CodeMirror 6 SQL 编辑与元数据补全；内置 AI 生成及安全检查；通过 MCP、CLI、桌面或 Docker 访问",
-        "use_cases": "适合管理异构数据库的开发者和团队，以及希望让 Claude Code、Cursor 等智能体安全查询既有连接的工作流。",
-        "considerations": "采用 Apache-2.0；AI 功能需 Claude、OpenAI、Ollama 或兼容模型；部分数据库通过 Agent/JDBC 配置扩展。"
+        "positioning": "面向开发者和数据人员的约 20 MB 跨平台数据库客户端，统一管理 70 多种数据库。",
+        "implementation": "以 Rust 构建单一小型二进制，不捆绑 Chromium、JRE 或 Python；提供桌面、Docker、Web、CLI，使用 CodeMirror 6 编辑 SQL，并通过 Claude、OpenAI、Ollama 与 MCP 接入 AI。",
+        "problems_solved": "替代依赖较重或平台受限的数据库客户端，减少多数据库工具切换、运行时安装及在编辑器与 AI 间复制 SQL 的成本。",
+        "capabilities": "连接和管理 70 多种数据库；SQL 编辑、补全与执行；AI 生成 SQL并在执行前安全检查；通过 MCP 向编码智能体开放既有连接",
+        "use_cases": "适合需要跨平台管理关系型、NoSQL、向量库、搜索引擎及消息队列的开发和数据团队。",
+        "considerations": "Apache-2.0 许可证；AI 功能需 Claude、OpenAI 密钥或本地 Ollama；部分数据库通过 Agent/JDBC 配置扩展。"
       },
       "source": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "是支持70+数据库的轻量级跨平台数据库客户端，含AI助手和多种运行环境。"
