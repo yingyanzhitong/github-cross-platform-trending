@@ -59,9 +59,10 @@ class BuildPagesTests(unittest.TestCase):
 
             self.assertEqual(manifest["latest"], "2026-07-30")
             self.assertEqual(len(manifest["reports"]), 1)
+            self.assertEqual(manifest["default_type"], "cross-platform")
+            self.assertEqual(len(manifest["catalogs"]), 1)
             self.assertEqual(
-                manifest["reports"][0]["software_names"],
-                ["owner/example"],
+                manifest["reports"][0]["item_names"], ["owner/example"]
             )
             self.assertEqual(len(manifest["reports"][0]["daily_trending"]), 1)
             self.assertEqual(len(manifest["reports"][0]["new_projects"]), 1)
@@ -75,6 +76,61 @@ class BuildPagesTests(unittest.TestCase):
             )
             self.assertTrue((output / "reports" / "2026-07-30.md").exists())
             self.assertFalse((output / "reports" / "latest.md").exists())
+
+    def test_builds_hot_rising_catalog_in_its_own_namespace(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            reports = root / "reports"
+            data = root / "data"
+            site = root / "site"
+            output = root / "docs"
+            (reports / "hot-rising").mkdir(parents=True)
+            (data / "hot-rising").mkdir(parents=True)
+            (site / "dist").mkdir(parents=True)
+            (site / "dist" / "index.html").write_text("<!doctype html>")
+            (reports / "2026-08-04.md").write_text("# 软件日报")
+            (data / "2026-08-04.json").write_text(
+                json.dumps({"software": [], "warnings": []})
+            )
+            (reports / "hot-rising" / "2026-08-04.md").write_text("# 仓库日报")
+            (data / "hot-rising" / "2026-08-04.json").write_text(
+                json.dumps(
+                    {
+                        "collected_at": "2026-08-04T09:00:00+08:00",
+                        "metadata": {"candidate_count": 500, "analyzed_count": 100},
+                        "items": [
+                            {
+                                "rank": 1,
+                                "full_name": "owner/hot",
+                                "is_new": True,
+                                "daily_trending_rank": 2,
+                                "weekly_trending_rank": 3,
+                            }
+                        ],
+                    }
+                )
+            )
+
+            manifest = build_site(
+                reports_dir=reports,
+                data_dir=data,
+                site_dir=site,
+                output_dir=output,
+            )
+
+            self.assertEqual(
+                [item["id"] for item in manifest["catalogs"]],
+                ["cross-platform", "hot-rising"],
+            )
+            hot = manifest["catalogs"][1]
+            self.assertEqual(hot["reports"][0]["item_names"], ["owner/hot"])
+            self.assertEqual(
+                hot["reports"][0]["report_path"],
+                "reports/hot-rising/2026-08-04.md",
+            )
+            self.assertTrue(
+                (output / "reports" / "hot-rising" / "2026-08-04.md").exists()
+            )
 
 
 if __name__ == "__main__":

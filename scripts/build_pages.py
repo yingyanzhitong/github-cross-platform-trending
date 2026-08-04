@@ -23,7 +23,7 @@ def _remove_managed_output(output_dir: Path) -> None:
             target.unlink()
 
 
-def _summary(report_path: Path, data_dir: Path) -> dict[str, Any]:
+def _software_summary(report_path: Path, data_dir: Path) -> dict[str, Any]:
     report_date = report_path.stem
     data_path = data_dir / f"{report_date}.json"
     if not data_path.exists():
@@ -50,6 +50,7 @@ def _summary(report_path: Path, data_dir: Path) -> dict[str, Any]:
         if item.get("is_new")
     ]
     return {
+        "report_type": "cross-platform",
         "date": report_date,
         "generated_at": payload.get("generated_at"),
         "discovered_count": payload.get(
@@ -57,12 +58,74 @@ def _summary(report_path: Path, data_dir: Path) -> dict[str, Any]:
             payload.get("candidate_count", 0),
         ),
         "candidate_count": payload.get("candidate_count", 0),
-        "software_count": len(software),
+        "item_count": len(software),
+        "analysis_count": len(software),
         "daily_trending": daily_trending,
+        "weekly_trending": [],
         "new_projects": new_projects,
         "warnings_count": len(payload.get("warnings") or []),
-        "software_names": [item["name"] for item in software],
+        "item_names": [item["name"] for item in software],
+        "report_path": f"reports/{report_date}.md",
     }
+
+
+def _hot_rising_summary(report_path: Path, data_dir: Path) -> dict[str, Any]:
+    report_date = report_path.stem
+    data_path = data_dir / f"{report_date}.json"
+    if not data_path.exists():
+        raise FileNotFoundError(f"报告缺少对应数据：{data_path}")
+
+    payload = json.loads(data_path.read_text(encoding="utf-8"))
+    items = payload.get("items")
+    if not isinstance(items, list):
+        raise ValueError(f"热门增长榜历史数据格式无效：{data_path}")
+    metadata = payload.get("metadata") or {}
+
+    def trending(kind: str) -> list[dict[str, Any]]:
+        rank_key = f"{kind}_trending_rank"
+        stars_key = "stars_today" if kind == "daily" else "stars_this_week"
+        return [
+            {
+                "rank": item["rank"],
+                "name": item["full_name"],
+                "trending_rank": item[rank_key],
+                "stars_today": item.get(stars_key) or 0,
+            }
+            for item in items
+            if item.get(rank_key)
+        ]
+
+    return {
+        "report_type": "hot-rising",
+        "date": report_date,
+        "generated_at": payload.get("collected_at"),
+        "discovered_count": metadata.get("candidate_count", 0),
+        "candidate_count": metadata.get("analyzed_count", 0),
+        "item_count": len(items),
+        "analysis_count": metadata.get("analysis_count", len(items)),
+        "daily_trending": trending("daily"),
+        "weekly_trending": trending("weekly"),
+        "new_projects": [
+            {"rank": item["rank"], "name": item["full_name"]}
+            for item in items
+            if item.get("is_new")
+        ],
+        "warnings_count": len(metadata.get("warnings") or [])
+        + len(metadata.get("analysis_warnings") or []),
+        "item_names": [item["full_name"] for item in items],
+        "report_path": f"reports/hot-rising/{report_date}.md",
+    }
+
+
+def _dated_reports(reports_dir: Path) -> list[Path]:
+    return sorted(
+        (
+            path
+            for path in reports_dir.glob("*.md")
+            if DATED_REPORT.fullmatch(path.name)
+        ),
+        reverse=True,
+    )
 
 
 def build_frontend(site_dir: Path) -> Path:
@@ -95,22 +158,40 @@ def build_site(
     site_dir: Path,
     output_dir: Path,
 ) -> dict[str, Any]:
-    report_paths = sorted(
-        (
-            path
-            for path in reports_dir.glob("*.md")
-            if DATED_REPORT.fullmatch(path.name)
-        ),
-        reverse=True,
-    )
+    report_paths = _dated_reports(reports_dir)
     if not report_paths:
         raise ValueError(f"未找到历史日报：{reports_dir}")
     frontend_dir = site_dir / "dist"
     if not (frontend_dir / "index.html").exists():
         raise FileNotFoundError(f"缺少前端构建产物：{frontend_dir / 'index.html'}")
 
-    summaries = [_summary(path, data_dir) for path in report_paths]
+    summaries = [_software_summary(path, data_dir) for path in report_paths]
+    catalogs = [
+        {
+            "id": "cross-platform",
+            "name": "跨平台热门软件",
+            "latest": summaries[0]["date"],
+            "reports": summaries,
+        }
+    ]
+    hot_report_dir = reports_dir / "hot-rising"
+    hot_data_dir = data_dir / "hot-rising"
+    hot_report_paths = _dated_reports(hot_report_dir)
+    if hot_report_paths:
+        hot_summaries = [
+            _hot_rising_summary(path, hot_data_dir) for path in hot_report_paths
+        ]
+        catalogs.append(
+            {
+                "id": "hot-rising",
+                "name": "GitHub 热门增长仓库",
+                "latest": hot_summaries[0]["date"],
+                "reports": hot_summaries,
+            }
+        )
     manifest = {
+        "default_type": "cross-platform",
+        "catalogs": catalogs,
         "latest": summaries[0]["date"],
         "reports": summaries,
     }
@@ -124,6 +205,11 @@ def build_site(
     report_output.mkdir(parents=True)
     for report_path in report_paths:
         shutil.copy2(report_path, report_output / report_path.name)
+    if hot_report_paths:
+        hot_output = report_output / "hot-rising"
+        hot_output.mkdir()
+        for report_path in hot_report_paths:
+            shutil.copy2(report_path, hot_output / report_path.name)
     (report_output / "index.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
@@ -153,8 +239,8 @@ def main() -> int:
         output_dir=args.output_dir,
     )
     print(
-        f"已构建 {len(manifest['reports'])} 份日报，"
-        f"最新日期 {manifest['latest']}：{args.output_dir}"
+        f"已构建 {sum(len(item['reports']) for item in manifest['catalogs'])} 份日报，"
+        f"包含 {len(manifest['catalogs'])} 类榜单：{args.output_dir}"
     )
     return 0
 

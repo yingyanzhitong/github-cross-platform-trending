@@ -1,10 +1,10 @@
-# GitHub 跨平台热门软件日报
+# GitHub 趋势双榜单日报
 
-每天自动查找 GitHub 上同时支持 macOS 与 Windows 的热门软件，展示排名前 100 的项目，并生成可阅读的 Markdown 榜单和可二次处理的 JSON 数据。
+同一仓库每天生成两份相互独立的 GitHub 前 100 日报：一份查找同时提供 macOS 与 Windows 安装包的热门软件，另一份查找进入 Trending 或 Stars 上升较快的热门仓库。两类榜单分别保存 Markdown 与 JSON，不会互相覆盖。
 
-在线浏览：[GitHub Pages 日报站](https://yingyanzhitong.github.io/github-cross-platform-trending/)。
+在线浏览：[跨平台热门软件](https://yingyanzhitong.github.io/github-cross-platform-trending/?type=cross-platform) · [GitHub 热门增长仓库](https://yingyanzhitong.github.io/github-cross-platform-trending/?type=hot-rising)。
 
-## 工作方式
+## 跨平台热门软件榜单
 
 候选仓库来自：
 
@@ -18,6 +18,16 @@
 
 Codex CLI 不可用、未登录或返回内容缺字段时，程序会直接失败且不会写入日报，避免通用兜底内容混入发布结果。
 
+## GitHub 热门增长仓库榜单
+
+第二类榜单不限制软件类型，也不要求桌面安装包。候选同时来自 GitHub Daily Trending、Weekly Trending，以及 GitHub API 中近期创建或近期活跃的高关注仓库。排名综合以下可复核证据：
+
+1. Daily / Weekly Trending 排名及页面公开的 `stars today` / `stars this week`；
+2. 本项目逐日保存的 Stars 快照所计算出的真实 1 日、7 日增量；
+3. 历史不足时明确标注的“累计 Stars ÷ 仓库年龄”估算速度。
+
+真实增量只会在快照时间跨度满足时展示，估算值不会伪装成历史增长。最终 100 个仓库同样读取 README、Topics、主要语言、许可证与活跃度，并通过 Codex CLI 生成“项目是做什么的、怎么做到的、解决了什么问题、核心能力、适用场景、关注事项”六字段中文分析；任一分析缺失都会中止日报。
+
 报告会将此前 7 天日报中从未出现过的仓库标记为醒目的亮绿色圆点 `🟢`，不再显示额外英文文案。表格最左侧为带 `↘️` 提示的详情入口，点击可定位到对应项目详情；详情中的 `↖️` 返回链接可准确回到原表格行，“新增”保持为独立列。
 
 ## 每日输出
@@ -26,8 +36,13 @@ Codex CLI 不可用、未登录或返回内容缺字段时，程序会直接失�
 - `reports/YYYY-MM-DD.md`：历史日报；
 - `data/latest.json`：最新一期结构化数据；
 - `data/YYYY-MM-DD.json`：历史结构化数据。
+- `reports/hot-rising/latest.md`：最新 GitHub 热门增长仓库榜单；
+- `reports/hot-rising/YYYY-MM-DD.md`：热门增长榜历史日报；
+- `data/hot-rising/latest.json`：热门增长榜最新结构化数据；
+- `data/hot-rising/YYYY-MM-DD.json`：热门增长榜历史结构化数据；
+- `data/hot-rising/stars-history.json`：逐日 Stars 快照。
 
-`site/` 是使用 React、TypeScript、Vite、Tailwind CSS 和 shadcn/ui 编写的页面工程。`scripts/build_pages.py` 会先构建前端，再根据 `reports/` 与 `data/` 生成完整的 `docs/` 静态站点；GitHub Pages 直接从本仓库 `main` 分支的 `/docs` 目录发布。
+`site/` 是使用 React、TypeScript、Vite、Tailwind CSS 和 shadcn/ui 编写的页面工程。侧栏的“榜单类型”可在两类日报之间切换，每类榜单拥有自己的日期归档和项目搜索。`scripts/build_pages.py` 会先构建前端，再根据两个数据命名空间生成完整的 `docs/` 静态站点；GitHub Pages 直接从本仓库 `main` 分支的 `/docs` 目录发布。
 
 JSON 中同时保留 `description_en` 英文原文、`description_zh` 中文简介，以及结构化的 `analysis_zh` 中文项目分析。GitHub Actions 每天北京时间 08:30 自动运行，也支持在 Actions 页面手动触发。工作流使用仓库自带的 `GITHUB_TOKEN` 访问 GitHub API，并通过仓库 Secret `OPENAI_API_KEY` 调用 Codex CLI；生成成功后会将当天报告自动提交回仓库。
 
@@ -42,6 +57,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .
 cross-platform-trending --limit 100 --max-candidates 1000
+PYTHONPATH=src python -m github_hot_rising --limit 100 --max-candidates 1000 --max-analyzed 600
 ```
 
 运行测试：
@@ -65,4 +81,4 @@ python scripts/build_pages.py
 
 ## 筛选边界
 
-GitHub 没有公开的 Trending API，也没有统一的跨平台软件元数据。本项目使用可复核的启发式规则，可能漏掉未在 README 或 Release 中清晰标注平台支持的项目。榜单不是 GitHub 官方推荐，也不替代对软件安全性、许可证与安装包签名的人工审查。
+GitHub 没有公开的 Trending API，也没有统一的跨平台软件元数据。本项目使用可复核的启发式规则，可能漏掉未在 README、Release 或公开 Trending 页面中清晰提供证据的项目。两个榜单都不是 GitHub 官方推荐，也不替代对软件安全性、许可证、安装包签名或项目成熟度的人工审查。

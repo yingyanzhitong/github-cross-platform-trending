@@ -16,7 +16,7 @@ import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Skeleton } from "@/components/ui/skeleton"
 import { TooltipProvider } from "@/components/ui/tooltip"
 import { reportUrl, scrollToAnchor } from "@/lib/report"
-import type { ReportManifest } from "@/types"
+import type { ReportManifest, ReportType } from "@/types"
 
 function InitialLoading() {
   return (
@@ -52,6 +52,7 @@ function InitialError({ message }: { message: string }) {
 export default function App() {
   const [manifest, setManifest] = useState<ReportManifest | null>(null)
   const [manifestError, setManifestError] = useState<string | null>(null)
+  const [currentType, setCurrentType] = useState<ReportType>("cross-platform")
   const [currentDate, setCurrentDate] = useState("")
   const [markdown, setMarkdown] = useState("")
   const [reportError, setReportError] = useState<string | null>(null)
@@ -66,12 +67,20 @@ export default function App() {
         const response = await fetch("reports/index.json", { cache: "no-store" })
         if (!response.ok) throw new Error(`HTTP ${response.status}`)
         const payload = (await response.json()) as ReportManifest
-        const requested = new URL(window.location.href).searchParams.get("date")
-        const selected = payload.reports.some((report) => report.date === requested)
+        const params = new URL(window.location.href).searchParams
+        const requestedType = params.get("type") as ReportType | null
+        const catalog =
+          payload.catalogs.find((item) => item.id === requestedType) ??
+          payload.catalogs.find((item) => item.id === payload.default_type) ??
+          payload.catalogs[0]
+        if (!catalog) throw new Error("日报目录中没有可用榜单")
+        const requested = params.get("date")
+        const selected = catalog.reports.some((report) => report.date === requested)
           ? requested!
-          : payload.latest
+          : catalog.latest
 
         setManifest(payload)
+        setCurrentType(catalog.id)
         setCurrentDate(selected)
       } catch (error) {
         setManifestError(error instanceof Error ? error.message : "未知错误")
@@ -85,10 +94,18 @@ export default function App() {
     if (!manifest) return
 
     const handlePopState = () => {
-      const requested = new URL(window.location.href).searchParams.get("date")
-      const selected = manifest.reports.some((report) => report.date === requested)
+      const params = new URL(window.location.href).searchParams
+      const requestedType = params.get("type") as ReportType | null
+      const catalog =
+        manifest.catalogs.find((item) => item.id === requestedType) ??
+        manifest.catalogs.find((item) => item.id === manifest.default_type) ??
+        manifest.catalogs[0]
+      if (!catalog) return
+      const requested = params.get("date")
+      const selected = catalog.reports.some((report) => report.date === requested)
         ? requested!
-        : manifest.latest
+        : catalog.latest
+      setCurrentType(catalog.id)
       setCurrentDate(selected)
     }
 
@@ -97,7 +114,11 @@ export default function App() {
   }, [manifest])
 
   useEffect(() => {
-    if (!currentDate) return
+    if (!currentDate || !manifest) return
+
+    const catalog = manifest.catalogs.find((item) => item.id === currentType)
+    const report = catalog?.reports.find((item) => item.date === currentDate)
+    if (!catalog || !report) return
 
     const controller = new AbortController()
     const loadReport = async () => {
@@ -106,13 +127,13 @@ export default function App() {
       setMarkdown("")
 
       try {
-        const response = await fetch(`reports/${currentDate}.md`, {
+        const response = await fetch(report.report_path, {
           cache: "no-store",
           signal: controller.signal,
         })
         if (!response.ok) throw new Error(`HTTP ${response.status}`)
         setMarkdown(await response.text())
-        document.title = `${currentDate} · 跨平台热门软件日报`
+        document.title = `${currentDate} · ${catalog.name}日报`
         window.setTimeout(() => {
           if (window.location.hash) {
             scrollToAnchor(window.location.hash, false)
@@ -130,7 +151,7 @@ export default function App() {
 
     void loadReport()
     return () => controller.abort()
-  }, [currentDate])
+  }, [currentDate, currentType, manifest])
 
   useEffect(
     () => () => {
@@ -139,33 +160,65 @@ export default function App() {
     [],
   )
 
-  const currentReport = useMemo(
-    () => manifest?.reports.find((report) => report.date === currentDate),
-    [manifest, currentDate],
+  const currentCatalog = useMemo(
+    () => manifest?.catalogs.find((catalog) => catalog.id === currentType),
+    [manifest, currentType],
   )
 
-  const currentIndex = manifest && currentReport
-    ? manifest.reports.findIndex((report) => report.date === currentReport.date)
-    : -1
+  const currentReport = useMemo(
+    () => currentCatalog?.reports.find((report) => report.date === currentDate),
+    [currentCatalog, currentDate],
+  )
 
-  const selectDate = useCallback((date: string) => {
-    history.pushState({ date }, "", reportUrl(date))
-    setCurrentDate(date)
-  }, [])
+  const currentIndex = currentCatalog && currentReport
+      ? currentCatalog.reports.findIndex(
+          (report) => report.date === currentReport.date,
+        )
+      : -1
+
+  const selectDate = useCallback(
+    (date: string) => {
+      history.pushState(
+        { date, reportType: currentType },
+        "",
+        reportUrl(currentType, date),
+      )
+      setCurrentDate(date)
+    },
+    [currentType],
+  )
+
+  const selectCatalog = useCallback(
+    (reportType: ReportType) => {
+      const catalog = manifest?.catalogs.find((item) => item.id === reportType)
+      if (!catalog) return
+      history.pushState(
+        { date: catalog.latest, reportType },
+        "",
+        reportUrl(reportType, catalog.latest),
+      )
+      setCurrentType(reportType)
+      setCurrentDate(catalog.latest)
+      setQuery("")
+    },
+    [manifest],
+  )
 
   const copyCurrentLink = useCallback(async () => {
     if (!currentDate) return
-    await navigator.clipboard.writeText(reportUrl(currentDate).toString())
+    await navigator.clipboard.writeText(
+      reportUrl(currentType, currentDate).toString(),
+    )
     setCopied(true)
     if (copiedTimer.current) window.clearTimeout(copiedTimer.current)
     copiedTimer.current = window.setTimeout(() => setCopied(false), 1600)
-  }, [currentDate])
+  }, [currentDate, currentType])
 
   if (manifestError) return <InitialError message={manifestError} />
-  if (!manifest || !currentReport) return <InitialLoading />
+  if (!manifest || !currentCatalog || !currentReport) return <InitialLoading />
 
-  const newer = manifest.reports[currentIndex - 1]
-  const older = manifest.reports[currentIndex + 1]
+  const newer = currentCatalog.reports[currentIndex - 1]
+  const older = currentCatalog.reports[currentIndex + 1]
 
   return (
     <TooltipProvider delayDuration={250}>
@@ -178,14 +231,18 @@ export default function App() {
         }
       >
         <AppSidebar
-          reports={manifest.reports}
+          catalogs={manifest.catalogs}
+          currentType={currentType}
+          reports={currentCatalog.reports}
           currentDate={currentReport.date}
           query={query}
           onQueryChange={setQuery}
+          onSelectCatalog={selectCatalog}
           onSelectDate={selectDate}
         />
         <SidebarInset className="min-w-0 overflow-x-hidden">
           <ReportDashboard
+            catalog={currentCatalog}
             report={currentReport}
             markdown={markdown}
             loading={loading}

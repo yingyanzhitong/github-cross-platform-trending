@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react"
 import {
   ArrowLeftRightIcon,
+  ChartNoAxesCombinedIcon,
   CheckIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
@@ -39,7 +40,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 import { formatReportDate } from "@/lib/report"
-import type { ReportSummary } from "@/types"
+import type { ReportCatalog, ReportSummary } from "@/types"
 
 const ReportMarkdown = lazy(() =>
   import("@/components/report-markdown").then((module) => ({
@@ -48,6 +49,7 @@ const ReportMarkdown = lazy(() =>
 )
 
 type ReportDashboardProps = {
+  catalog: ReportCatalog
   report: ReportSummary
   markdown: string
   loading: boolean
@@ -99,6 +101,7 @@ function LoadingReport() {
 }
 
 export function ReportDashboard({
+  catalog,
   report,
   markdown,
   loading,
@@ -110,8 +113,15 @@ export function ReportDashboard({
   onOlder,
   onCopy,
 }: ReportDashboardProps) {
-  const trendingText = report.daily_trending.length
-    ? report.daily_trending
+  const isHotRising = report.report_type === "hot-rising"
+  const trendingProjects = [
+    ...report.daily_trending,
+    ...report.weekly_trending.filter(
+      (weekly) => !report.daily_trending.some((daily) => daily.name === weekly.name),
+    ),
+  ]
+  const trendingText = trendingProjects.length
+    ? trendingProjects
         .map((item) => `${item.name} +${item.stars_today}`)
         .join(" · ")
     : "当日无入榜项目"
@@ -147,7 +157,7 @@ export function ReportDashboard({
             <span className="hidden sm:inline">{copied ? "已复制" : "复制链接"}</span>
           </Button>
           <Button asChild variant="outline" size="sm">
-            <a href={`reports/${report.date}.md`}>
+            <a href={report.report_path}>
               <FileTextIcon data-icon="inline-start" />
               <span className="hidden sm:inline">Markdown</span>
             </a>
@@ -159,14 +169,23 @@ export function ReportDashboard({
         <Card className="hero-card overflow-hidden">
           <CardHeader className="gap-4 border-b">
             <div className="flex flex-wrap items-center gap-2">
-              <Badge>DAILY TOP 100</Badge>
-              <Badge
-                variant="outline"
-                className="border-success/35 bg-success/10 text-success-foreground"
-              >
-                <PackageCheckIcon data-icon="inline-start" />
-                安装包已核验
+              <Badge>
+                {isHotRising ? "HOT & RISING TOP 100" : "DAILY TOP 100"}
               </Badge>
+              {isHotRising ? (
+                <Badge variant="outline">
+                  <ChartNoAxesCombinedIcon data-icon="inline-start" />
+                  增长证据已记录
+                </Badge>
+              ) : (
+                <Badge
+                  variant="outline"
+                  className="border-success/35 bg-success/10 text-success-foreground"
+                >
+                  <PackageCheckIcon data-icon="inline-start" />
+                  安装包已核验
+                </Badge>
+              )}
               {report.warnings_count > 0 && (
                 <Badge variant="destructive">
                   <CircleAlertIcon data-icon="inline-start" />
@@ -176,70 +195,86 @@ export function ReportDashboard({
             </div>
             <div className="max-w-3xl">
               <CardTitle className="text-balance font-heading text-3xl font-semibold tracking-[-0.025em] md:text-4xl">
-                {formatReportDate(report.date)}日报
+                {formatReportDate(report.date)} · {catalog.name}
               </CardTitle>
               <CardDescription className="mt-3 max-w-2xl text-sm leading-6 md:text-base">
-                从 {report.discovered_count.toLocaleString("zh-CN")} 个候选中分析{" "}
-                {report.candidate_count.toLocaleString("zh-CN")} 个仓库，仅保留 Latest
-                Release 同时提供 macOS 与 Windows 安装包的软件。
+                {isHotRising ? (
+                  <>
+                    从 {report.discovered_count.toLocaleString("zh-CN")} 个候选中深入分析{" "}
+                    {report.candidate_count.toLocaleString("zh-CN")} 个仓库，依据 GitHub
+                    Trending、Stars 历史快照和年龄归一化增长速度形成榜单。
+                  </>
+                ) : (
+                  <>
+                    从 {report.discovered_count.toLocaleString("zh-CN")} 个候选中分析{" "}
+                    {report.candidate_count.toLocaleString("zh-CN")} 个仓库，仅保留 Latest
+                    Release 同时提供 macOS 与 Windows 安装包的软件。
+                  </>
+                )}
               </CardDescription>
             </div>
             <CardAction className="hidden lg:block">
               <span className="font-data text-xs tracking-[0.16em] text-muted-foreground">
-                RELEASE LEDGER / {report.date}
+                {isHotRising ? "GROWTH LEDGER" : "RELEASE LEDGER"} / {report.date}
               </span>
             </CardAction>
           </CardHeader>
-          <CardContent>
-            <div
-              className="verification-rail grid items-center gap-3 rounded-lg border bg-muted/35 p-3 sm:grid-cols-[1fr_auto_1fr]"
-              aria-label="macOS 与 Windows 安装包均已验证"
-            >
-              <div className="flex items-center gap-3 rounded-md bg-background px-3 py-2">
-                <span className="flex size-8 items-center justify-center rounded-md bg-primary/10 text-primary">
-                  <MonitorCheckIcon aria-hidden="true" />
-                </span>
-                <span>
-                  <strong className="block text-sm">macOS</strong>
-                  <span className="font-data text-xs text-muted-foreground">
-                    .dmg / macOS .pkg
+          {!isHotRising && (
+            <CardContent>
+              <div
+                className="verification-rail grid items-center gap-3 rounded-lg border bg-muted/35 p-3 sm:grid-cols-[1fr_auto_1fr]"
+                aria-label="macOS 与 Windows 安装包均已验证"
+              >
+                <div className="flex items-center gap-3 rounded-md bg-background px-3 py-2">
+                  <span className="flex size-8 items-center justify-center rounded-md bg-primary/10 text-primary">
+                    <MonitorCheckIcon aria-hidden="true" />
                   </span>
-                </span>
-              </div>
-              <ArrowLeftRightIcon
-                className="mx-auto size-4 text-muted-foreground"
-                aria-hidden="true"
-              />
-              <div className="flex items-center gap-3 rounded-md bg-background px-3 py-2">
-                <span className="flex size-8 items-center justify-center rounded-md bg-success/12 text-success-foreground">
-                  <PackageCheckIcon aria-hidden="true" />
-                </span>
-                <span>
-                  <strong className="block text-sm">Windows</strong>
-                  <span className="font-data text-xs text-muted-foreground">
-                    .exe / .msi / .msix
+                  <span>
+                    <strong className="block text-sm">macOS</strong>
+                    <span className="font-data text-xs text-muted-foreground">
+                      .dmg / macOS .pkg
+                    </span>
                   </span>
-                </span>
+                </div>
+                <ArrowLeftRightIcon
+                  className="mx-auto size-4 text-muted-foreground"
+                  aria-hidden="true"
+                />
+                <div className="flex items-center gap-3 rounded-md bg-background px-3 py-2">
+                  <span className="flex size-8 items-center justify-center rounded-md bg-success/12 text-success-foreground">
+                    <PackageCheckIcon aria-hidden="true" />
+                  </span>
+                  <span>
+                    <strong className="block text-sm">Windows</strong>
+                    <span className="font-data text-xs text-muted-foreground">
+                      .exe / .msi / .msix
+                    </span>
+                  </span>
+                </div>
               </div>
-            </div>
-          </CardContent>
+            </CardContent>
+          )}
         </Card>
 
         <section className="grid grid-cols-2 gap-3 lg:grid-cols-4" aria-label="日报统计">
           <MetricCard
-            label="入榜软件"
-            value={report.software_count.toLocaleString("zh-CN")}
-            hint="双平台安装包齐全"
+            label={isHotRising ? "入榜仓库" : "入榜软件"}
+            value={report.item_count.toLocaleString("zh-CN")}
+            hint={isHotRising ? "热门与增长证据合格" : "双平台安装包齐全"}
           />
           <MetricCard
             label="发现候选"
             value={report.discovered_count.toLocaleString("zh-CN")}
-            hint="GitHub 热门候选池"
+            hint={isHotRising ? "热门与近期活跃候选池" : "GitHub 热门候选池"}
           />
           <MetricCard
             label="已分析"
             value={report.candidate_count.toLocaleString("zh-CN")}
-            hint="完成仓库与 Release 核验"
+            hint={
+              isHotRising
+                ? "完成 README 与增长证据分析"
+                : "完成仓库与 Release 核验"
+            }
           />
           <MetricCard
             label="新增项目"
@@ -257,7 +292,7 @@ export function ReportDashboard({
             <div className="min-w-0 text-center">
               <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary">
                 <TrendingUpIcon className="size-3.5" aria-hidden="true" />
-                DAILY TRENDING
+                {isHotRising ? "DAILY / WEEKLY TRENDING" : "DAILY TRENDING"}
               </span>
               <p className="mt-1 truncate font-data text-xs text-muted-foreground">
                 {trendingText}
@@ -276,7 +311,7 @@ export function ReportDashboard({
             <AlertTitle>日报加载失败</AlertTitle>
             <AlertDescription>
               {error}。可以直接打开{" "}
-              <a href={`reports/${report.date}.md`}>{report.date}.md</a>。
+              <a href={report.report_path}>{report.date}.md</a>。
             </AlertDescription>
           </Alert>
         )}
@@ -292,7 +327,7 @@ export function ReportDashboard({
         )}
 
         <footer className="flex flex-col gap-2 border-t py-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <span>GitHub Cross-Platform Trending</span>
+          <span>{catalog.name}</span>
           <span>报告数据按生成时间保留 · 页面遵循 shadcn/ui 组件规范</span>
         </footer>
       </div>

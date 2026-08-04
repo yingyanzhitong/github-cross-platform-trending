@@ -1,4 +1,4 @@
-import type { ReportSection, ReportSummary } from "@/types"
+import type { ReportSection, ReportSummary, ReportType } from "@/types"
 
 const DETAIL_ANCHOR = /<a id="(project-detail-\d+)"><\/a>\s*/g
 
@@ -17,14 +17,15 @@ export function reportMatches(report: ReportSummary, query: string) {
 
   return (
     report.date.includes(normalized) ||
-    report.software_names.some((name) =>
+    report.item_names.some((name) =>
       name.toLocaleLowerCase("zh-CN").includes(normalized),
     )
   )
 }
 
-export function reportUrl(date: string) {
+export function reportUrl(reportType: ReportType, date: string) {
   const url = new URL(window.location.href)
+  url.searchParams.set("type", reportType)
   url.searchParams.set("date", date)
   url.hash = ""
   return url

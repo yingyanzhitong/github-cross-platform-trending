@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "github-cross-platform-trending"
-version = "0.7.5"
-description = "每日发现同时支持 macOS 和 Windows 的 GitHub 热门软件"
+version = "0.8.0"
+description = "每日生成 GitHub 跨平台热门软件与热门增长仓库双榜单"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
@@ -14,6 +14,7 @@ dependencies = []
 
 [project.scripts]
 cross-platform-trending = "cross_platform_trending.cli:main"
+github-hot-rising = "github_hot_rising.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

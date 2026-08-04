@@ -1,6 +1,7 @@
 import {
   BadgeCheckIcon,
   CalendarDaysIcon,
+  ChartNoAxesCombinedIcon,
   ExternalLinkIcon,
   GitBranchIcon,
   LaptopIcon,
@@ -27,21 +28,27 @@ import {
   useSidebar,
 } from "@/components/ui/sidebar"
 import { reportMatches, reportUrl } from "@/lib/report"
-import type { ReportSummary } from "@/types"
+import type { ReportCatalog, ReportSummary, ReportType } from "@/types"
 
 type AppSidebarProps = {
+  catalogs: ReportCatalog[]
+  currentType: ReportType
   reports: ReportSummary[]
   currentDate: string
   query: string
   onQueryChange: (query: string) => void
+  onSelectCatalog: (reportType: ReportType) => void
   onSelectDate: (date: string) => void
 }
 
 export function AppSidebar({
+  catalogs,
+  currentType,
   reports,
   currentDate,
   query,
   onQueryChange,
+  onSelectCatalog,
   onSelectDate,
 }: AppSidebarProps) {
   const { setOpenMobile } = useSidebar()
@@ -65,21 +72,31 @@ export function AppSidebar({
           </span>
           <span className="min-w-0">
             <strong className="block truncate font-heading text-base leading-tight">
-              跨平台软件日报
+              GitHub 趋势日报
             </strong>
             <span className="font-data text-[0.64rem] tracking-[0.16em] text-sidebar-foreground/55">
-              MACOS ↔ WINDOWS
+              TWO DAILY LEDGERS
             </span>
           </span>
         </a>
 
-        <Badge
-          variant="outline"
-          className="h-auto justify-start gap-2 rounded-lg border-success/30 bg-success/10 px-2.5 py-2 text-success-foreground"
-        >
-          <BadgeCheckIcon data-icon="inline-start" />
-          Latest Release 双端安装包验证
-        </Badge>
+        {currentType === "cross-platform" ? (
+          <Badge
+            variant="outline"
+            className="h-auto justify-start gap-2 rounded-lg border-success/30 bg-success/10 px-2.5 py-2 text-success-foreground"
+          >
+            <BadgeCheckIcon data-icon="inline-start" />
+            Latest Release 双端安装包验证
+          </Badge>
+        ) : (
+          <Badge
+            variant="outline"
+            className="h-auto justify-start gap-2 rounded-lg px-2.5 py-2"
+          >
+            <ChartNoAxesCombinedIcon data-icon="inline-start" />
+            Trending 与 Stars 增长证据
+          </Badge>
+        )}
 
         <label className="relative block">
           <span className="sr-only">筛选日期或项目</span>
@@ -103,6 +120,34 @@ export function AppSidebar({
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel className="gap-2">
+            <ChartNoAxesCombinedIcon className="size-3.5" aria-hidden="true" />
+            榜单类型
+          </SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu aria-label="榜单类型">
+              {catalogs.map((catalog) => (
+                <SidebarMenuItem key={catalog.id}>
+                  <SidebarMenuButton
+                    isActive={catalog.id === currentType}
+                    onClick={() => onSelectCatalog(catalog.id)}
+                  >
+                    {catalog.id === "cross-platform" ? (
+                      <LaptopIcon aria-hidden="true" />
+                    ) : (
+                      <ChartNoAxesCombinedIcon aria-hidden="true" />
+                    )}
+                    <span>{catalog.name}</span>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
+        <SidebarSeparator />
+
+        <SidebarGroup>
+          <SidebarGroupLabel className="gap-2">
             <CalendarDaysIcon className="size-3.5" aria-hidden="true" />
             日报归档
           </SidebarGroupLabel>
@@ -118,7 +163,7 @@ export function AppSidebar({
                     className="h-auto min-h-12 py-2"
                   >
                     <a
-                      href={reportUrl(report.date).toString()}
+                      href={reportUrl(currentType, report.date).toString()}
                       onClick={(event) => {
                         event.preventDefault()
                         selectDate(report.date)
@@ -140,7 +185,7 @@ export function AppSidebar({
                       </span>
                     </a>
                   </SidebarMenuButton>
-                  <SidebarMenuBadge>{report.software_count}</SidebarMenuBadge>
+                  <SidebarMenuBadge>{report.item_count}</SidebarMenuBadge>
                 </SidebarMenuItem>
               ))}
             </SidebarMenu>
@@ -170,7 +215,9 @@ export function AppSidebar({
           </a>
         </Button>
         <p className="text-xs leading-relaxed text-muted-foreground">
-          只收录 Latest Release 同时提供 macOS 与 Windows 安装程序的软件。
+          {currentType === "cross-platform"
+            ? "只收录 Latest Release 同时提供 macOS 与 Windows 安装程序的软件。"
+            : "收录进入 GitHub Trending 或具备可复核 Stars 增长证据的热门仓库。"}
         </p>
       </SidebarFooter>
       <SidebarRail />
