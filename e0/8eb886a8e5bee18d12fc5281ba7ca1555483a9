@@ -1,0 +1,89 @@
+site/src/components/report-dashboard.tsx
+  s_4d6fdd61574b1b::t_6b90d22dbda490 172-173,222-230,232-245,247-253,255-256,273-277
+  s_4d6fdd61574b1b::t_cdcbdbf79d17c7 4,43,52,104,116-124,160,175-188,198,201-213,218,261-263,268,295,314,330
+site/src/types.ts
+  s_4d6fdd61574b1b::t_c2c8640f43a525 14,19-20,22,25-26,28-37,39-40
+tests/test_pages.py
+  s_4d6fdd61574b1b::t_c2c8640f43a525 62-63,65,79-120,125-126
+  s_4d6fdd61574b1b::t_6b90d22dbda490 121-124,127-133
+src/github_hot_rising/__init__.py
+  s_4d6fdd61574b1b::t_69bc2c217527ff 1-5
+README.md
+  s_4d6fdd61574b1b::t_9f1dcb6ffa74fe 1,3,5,7,21-30,39-43,45,60,84
+src/github_hot_rising/collector.py
+  s_4d6fdd61574b1b::t_941689374ec673 209-212,216,220
+  s_4d6fdd61574b1b::t_11f4e3b1d22d11 218-219
+  s_4d6fdd61574b1b::t_69bc2c217527ff 1-208,213-215,217,221-337,342-622
+  s_4d6fdd61574b1b::t_1d71fdeadf510a 338-341
+pyproject.toml
+  s_4d6fdd61574b1b::t_9f1dcb6ffa74fe 17
+  s_4d6fdd61574b1b::t_a76783332bf03c 7-8
+site/package.json
+  s_4d6fdd61574b1b::t_a76783332bf03c 4
+scripts/build_pages.py
+  s_4d6fdd61574b1b::t_c2c8640f43a525 26,53,61-62,64,67-68,72-130,161,168-191,193-194,208-212,242-243
+CHANGELOG.md
+  s_4d6fdd61574b1b::t_a76783332bf03c 5-20
+src/cross_platform_trending/__init__.py
+  s_4d6fdd61574b1b::t_a76783332bf03c 1,3
+site/src/components/app-sidebar.tsx
+  s_4d6fdd61574b1b::t_456409ce3eb7d3 4,31,34-35,40,45-46,51,75,78,83-91,96-99,121-148,166,188,218-220
+  s_4d6fdd61574b1b::t_6b90d22dbda490 92-95
+site/src/App.tsx
+  s_4d6fdd61574b1b::t_6b90d22dbda490 174-189,191-205,209-211
+  s_4d6fdd61574b1b::t_456409ce3eb7d3 19,55,70-78,80,83,97-105,107-108,117-121,130,136,154,161-165,167,169-170,173,190,215,218,220-221,234-236,240,245
+src/github_hot_rising/validator.py
+  s_4d6fdd61574b1b::t_69bc2c217527ff 1-70
+src/github_hot_rising/__main__.py
+  s_4d6fdd61574b1b::t_69bc2c217527ff 1-34
+  s_4d6fdd61574b1b::t_4d5c18c85809fc 35-36
+tests/test_hot_rising.py
+  s_4d6fdd61574b1b::t_1d71fdeadf510a 1-92
+site/src/lib/report.ts
+  s_4d6fdd61574b1b::t_c2c8640f43a525 1,20,26,28
+data/hot-rising/2026-08-04.json
+  s_4d6fdd61574b1b::t_17954d393e5a08 1-4990
+data/hot-rising/latest.json
+  s_4d6fdd61574b1b::t_e0a48059475293 1-4990
+data/hot-rising/stars-history.json
+  s_4d6fdd61574b1b::t_35091bfaef05c2 1-268
+data/hot-rising/translations.json
+  s_4d6fdd61574b1b::t_a479ac037b8761 1-1312
+docs/404.html
+  s_4d6fdd61574b1b::t_ed3406bd74c5f7 12
+docs/assets/index-DRoa1VuP.js
+  s_4d6fdd61574b1b::t_a1dcde1630c256 8-10,14,27,31,35,39,43-44,46,49
+docs/assets/report-markdown-LtfwhkHt.js
+  s_4d6fdd61574b1b::t_d50c9b475340a4 1
+docs/index.html
+  s_4d6fdd61574b1b::t_2f81f56deb1365 12
+docs/reports/hot-rising/2026-08-04.md
+  s_4d6fdd61574b1b::t_fc002f044ea963 1-3015
+docs/reports/index.json
+  s_4d6fdd61574b1b::t_6188c12d44e756 2-1893,1897,1902-1903,1905,1913,2014-2015,2018,2023-2024,2026,2046,2147-2148,2151,2156-2157,2159,2167,2268-2269,2272,2277-2278,2280,2288,2389-2390,2393,2398-2399,2414,2426,2527-2528,2531,2536-2537,2552,2956,3057-3058
+reports/hot-rising/2026-08-04.md
+  s_4d6fdd61574b1b::t_9df0c328869ca7 1-3015
+reports/hot-rising/latest.md
+  s_4d6fdd61574b1b::t_2c7cda531860dd 1-3015
+site/package-lock.json
+  s_4d6fdd61574b1b::t_bc0bfc3e1be4ac 3,9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e08eb886a8e5bee18d12fc5281ba7ca1555483a9",
+  "prompts": {},
+  "logical_commit_id": "e08eb886a8e5bee18d12fc5281ba7ca1555483a9",
+  "sessions": {
+    "s_4d6fdd61574b1b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019facc4-37f4-7df2-9152-92c3103ebd72",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "masongzhi <masongzhi@bigo.sg>",
+      "total_additions": 1314,
+      "total_deletions": 159
+    }
+  }
+}
