@@ -1,0 +1,40 @@
+pyproject.toml
+  s_4db989971e6cb0::t_090ced1ea5ca2c 7
+CHANGELOG.md
+  s_4db989971e6cb0::t_090ced1ea5ca2c 5-11
+site/package.json
+  s_4db989971e6cb0::t_090ced1ea5ca2c 4
+src/cross_platform_trending/__init__.py
+  s_4db989971e6cb0::t_090ced1ea5ca2c 3
+site/src/lib/report.ts
+  s_4db989971e6cb0::t_090ced1ea5ca2c 62-67
+docs/404.html
+  s_4db989971e6cb0::t_69117476344483 12
+docs/assets/index-BltAq_Bt.js
+  s_4db989971e6cb0::t_3fddba78c2438b 49
+docs/assets/report-markdown-Bc0xZdss.js
+  s_4db989971e6cb0::t_8a98c1144bd301 1
+docs/index.html
+  s_4db989971e6cb0::t_1939ad5373d8a0 12
+site/package-lock.json
+  s_4db989971e6cb0::t_40d58547c98ef0 3,9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "a11d2e74128b5de2e8cd4b44ac4e603496eca4db",
+  "prompts": {},
+  "logical_commit_id": "a11d2e74128b5de2e8cd4b44ac4e603496eca4db",
+  "sessions": {
+    "s_4db989971e6cb0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fcf70-b363-7c31-9b72-0b517c6c05a6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "masongzhi <masongzhi@bigo.sg>",
+      "total_additions": 16,
+      "total_deletions": 4
+    }
+  }
+}
