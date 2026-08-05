@@ -11,7 +11,7 @@
         "problems_solved": "降低同时运行多个编码智能体会话时的内存和启动延迟，并减少人工调用记忆工具及重复提供上下文的成本。",
         "capabilities": "低内存、多会话终端智能体运行；语义记忆图与历史会话检索；MCP 和显式记忆工具；侧边面板、Diff 与 Mermaid 图表渲染",
         "use_cases": "适合在终端中并行处理多个 AI 编程会话，并希望保留长期上下文的开发者。",
-        "considerations": "安装涉及 Homebrew、源码构建及模型服务商配置；MIT 许可；未提供正式发布信息，基准结果需结合测试环境评估。"
+        "considerations": "支持 Linux、macOS 与 Windows，可用安装脚本或 GitHub Releases 获取；v0.67.1 发布于 2026-08-03，采用 MIT 许可。"
       }
     },
     "666ghj/MiroFish": {
@@ -92,6 +92,19 @@
         "considerations": "MIT 许可；Claude Code 与 Codex 的自动激活 hooks 需要 Node.js 在非交互式 PATH 中；不同平台安装方式不同。"
       }
     },
+    "DigitalPlatDev/FreeDomain": {
+      "source": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "zh": "为所有人提供免费域名",
+      "analysis_source": "20778bcc91bf3846e2f281b5a6be4aab328dd9a65974a06aca4ad91b0f829ee4",
+      "analysis_zh": {
+        "positioning": "面向个人和组织的免费域名注册与管理平台，旨在降低建立线上身份的门槛。",
+        "implementation": "用户通过网站申请指定免费域名后，借助支持自定义 nameserver 的 DNS 提供商管理记录；项目同时提供从平台配置到 DNS、网站和邮件的学习指南。",
+        "problems_solved": "免除域名购买成本，让预算有限的个人或组织也能建立网站和独立线上地址。",
+        "capabilities": "注册免费域名；管理域名记录；使用自定义 nameserver；学习 DNS、网站与邮件配置",
+        "use_cases": "适合个人项目、组织主页及预算有限的网站实践，也适合初学者学习域名和 DNS。",
+        "considerations": "AGPL-3.0；依赖支持自定义 nameserver 的 DNS 服务；可用后缀有限；旧 Telegram 已失陷，勿信其消息。"
+      }
+    },
     "Egonex-AI/Understand-Anything": {
       "source": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "zh": "将代码转为可探索、搜索和问答的交互式知识图谱。",
@@ -103,6 +116,19 @@
         "capabilities": "结构与业务域图谱浏览；模糊和语义搜索；依赖顺序导览；变更影响分析与角色自适应界面",
         "use_cases": "适合新团队成员理解大型仓库、开发者追踪依赖、产品经理查看业务流程及团队整理知识库。",
         "considerations": "首次全库分析可能消耗大量 Token；可改用本地模型；支持多种编码智能体；采用 MIT 许可证。"
+      }
+    },
+    "EveryInc/compound-engineering-plugin": {
+      "source": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "zh": "适用于 Claude Code、Codex、Cursor 等的官方复合工程插件",
+      "analysis_source": "97f7506aff5971a09e0e85d6753fd0e7de7eef0f4a1f9d9e466a45305675114b",
+      "analysis_zh": {
+        "positioning": "面向 Claude Code、Codex、Cursor 等编码智能体的复合工程工作流与技能插件。",
+        "implementation": "以技能串联需求脑暴、实现计划、执行、简化、审查和经验沉淀；默认将计划与解决方案写入 docs 目录，专业审查与研究提示作为插件内本地资产分发。",
+        "problems_solved": "减少工程知识反复发现、计划不足和只修单点问题造成的技术债，让每轮实现与审查结果成为后续工作的可复用上下文。",
+        "capabilities": "交互澄清需求并形成统一计划；把需求计划扩展为可执行方案；执行、简化并审查实现；将经验沉淀到 docs/solutions 供后续任务复用",
+        "use_cases": "适合希望在编码智能体中建立规划、实施、审查和知识复用闭环的软件团队与个人开发者。",
+        "considerations": "MIT 许可；各宿主安装方式不同，Codex 需添加自定义 marketplace、安装插件并重启，旧版安装还需迁移。"
       }
     },
     "FareedKhan-dev/kimi-k3-in-c": {
@@ -173,14 +199,14 @@
     "HKUDS/Vibe-Trading": {
       "source": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "zh": "你的个人交易智能体。",
-      "analysis_source": "c6fcab4121a59c4ec1f64af991260bfa2d491e0ac92fa0a9447ecca4b64e6136",
+      "analysis_source": "eb53f7019e3b5afe0e854adecb78979ccdc87dada8fadafa929c62013be6c6f5",
       "analysis_zh": {
-        "positioning": "面向投资研究与量化交易工作流的个人交易智能体，提供 Agent、Web UI、API 和 MCP 接入。",
-        "implementation": "以 Python 构建多智能体交易系统，整合市场数据加载、回测、风险分析、技术指标、期权收益分析、定时研究与持久化审计记录，并暴露 API/MCP。",
-        "problems_solved": "把筛选、研究、指标计算、回测和风险检查集中到智能体流程，减少跨工具操作，并提升结果可追溯性。",
-        "capabilities": "执行多市场组合与永续合约回测；计算技术指标和期权收益；运行定时研究与股票筛选；输出风险透视和可审计事件记录",
-        "use_cases": "适合量化研究者和开发者通过自然语言、Web UI 或 MCP 组织研究、回测及风险分析。",
-        "considerations": "部分数据源或经纪功能可能需要凭据；金融结果需自行验证；警惕 README 所列非官方代币；MIT 许可证。"
+        "positioning": "面向交易研究与量化工作流的 Python 个人交易智能体，提供 Agent、API 和 MCP 能力。",
+        "implementation": "采用 AI Agent 与多智能体机制，整合行情和基本面读取、技术指标、筛选、回测、定时研究及 MCP；支持多市场引擎，并记录运行身份、事件与结果。",
+        "problems_solved": "将市场研究、标的筛选、策略分析、回测和定时任务串联起来，减少在多个工具间手工搬运数据与执行分析。",
+        "capabilities": "市场数据与基本面研究；股票筛选和技术指标计算；多市场策略回测；API、MCP 与定时研究",
+        "use_cases": "适合量化研究者、交易开发者及希望让 AI 智能体调用交易研究工具的团队。",
+        "considerations": "MIT 许可证；金融结果需自行验证；部分市场能力依赖可选数据源；项目明确未发行或背书任何代币。"
       }
     },
     "Imbad0202/academic-research-skills": {
@@ -193,20 +219,20 @@
         "problems_solved": "代办文献搜寻、引文格式化、数据核验和逻辑检查，降低引用幻觉与机器化文风风险，但不替代研究者判断。",
         "capabilities": "多模式深度研究与文献综述；多结构论文规划和修订；多视角量表评审；引用定位、来源追踪与声明审计",
         "use_cases": "适合在 Claude Code CLI、VS Code 或 JetBrains 中开展论文研究、写作、复审及格式转换的研究者。",
-        "considerations": "要求 Claude Code v3.7.0+；DOCX/PDF 输出可能依赖 Pandoc、LaTeX、tectonic；仓库许可证字段不明确，需核对授权。"
+        "considerations": "插件安装要求近期 Claude Code；DOCX 输出可选 Pandoc，PDF 可选 tectonic 与字体；README 标明 CC BY-NC 4.0，商业使用受限。"
       }
     },
     "JuliusBrussee/caveman": {
       "source": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "zh": "让 Claude Code 用穴居人式简短表达节省 65% Token 的技能。",
-      "analysis_source": "da154244a980357006198850bd497b91266a715541cd893fe2c457c452d1f878",
+      "analysis_source": "021f11cf1b1ae3ade3ed78e7ad9713b5b97fe1ecf6e481839753d8aa6c7886de",
       "analysis_zh": {
-        "positioning": "面向 Claude Code、Codex 等智能体的回答压缩技能，以简短表达降低输出 Token。",
-        "implementation": "通过插件、扩展、规则文件或 skills 安装到 30 多种 agent；按 lite、full、ultra、wenyan 等级压缩叙述，同时保持代码、命令、路径和错误文本不变。",
-        "problems_solved": "减少智能体回复中的填充性文字，提高阅读速度，并在以自然语言为主的会话中降低输出 Token 消耗。",
-        "capabilities": "按等级压缩多语言回复；生成精简提交信息和评审意见；统计会话 Token 与成本；压缩记忆文件及 MCP 工具描述",
-        "use_cases": "适合认为编码智能体叙述冗长，并希望缩短回复、提交信息、评审或记忆文件的开发者。",
-        "considerations": "MIT 许可；安装器需 Node 18+；只压缩输出，不减少输入或推理 Token，技能每轮还会增加输入，简短任务可能得不偿失。"
+        "positioning": "面向 Claude Code、Codex、Cursor 等编码 Agent 的输出压缩技能，以简短表达减少叙述性 Token。",
+        "implementation": "通过可切换的 lite、full、ultra、wenyan 等表达级别压缩自然语言，保持代码、命令和错误原样；另提供提交、审查、统计、记忆压缩及 MCP 描述压缩功能。",
+        "problems_solved": "减少 Agent 回复中的填充性文字，提升阅读速度并节省部分输出 Token，同时避免改变技术内容。",
+        "capabilities": "多级简洁表达；提交信息与评审评论压缩；会话 Token 统计；记忆文件和 MCP 工具描述压缩",
+        "use_cases": "适合频繁使用编码 Agent、希望回复更精炼，或需要压缩长期记忆文件和评审输出的开发者。",
+        "considerations": "安装需 Node.js 18+；只压缩输出，技能每轮增加约1至1.5k输入 Token，简短任务可能负收益；MIT 许可。"
       }
     },
     "JustVugg/colibri": {
@@ -233,6 +259,32 @@
         "capabilities": "推导设计语言并约束布局、字体、间距和动效；审查并重设计现有界面；执行参考图到前端代码流程；生成网页、移动端和品牌参考图",
         "use_cases": "适合用 Codex、Cursor 或 Claude Code 创建、重设计前端，或先生成视觉参考再实现代码的团队。",
         "considerations": "默认 design taste frontend v2 仍为实验版；图像类技能只输出参考图；项目采用 MIT 许可证。"
+      }
+    },
+    "LiamGvchi/gc-minimal-zine-poster": {
+      "source": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images.",
+      "zh": "用于生成静谧极简杂志风编辑海报提示词和图像的 Codex 技能",
+      "analysis_source": "c15d21a12fe77717b5843f6b6bb75ae2f028e3c59245de567df3fe1846bb8dc4",
+      "analysis_zh": {
+        "positioning": "面向 Codex 用户的海报生成技能，将主题或素材转成静谧极简杂志风编辑海报。",
+        "implementation": "技能把主题、句子、物件、情绪、文章构想、照片或简报编译为 3:5 旧纸张构图提示词，再以 Standard Mode 默认生成栅格图像，并返回配方和解读。",
+        "problems_solved": "把抽象创意简报转换成风格稳定的海报提示词和成图，减少手工组织构图、字体、留白与印刷质感描述的工作。",
+        "capabilities": "解析文本或参考图；生成极简杂志风提示词；默认生成栅格海报；返回变化配方与解读",
+        "use_cases": "适合编辑设计、文章配图、独立杂志视觉及需要固定审美方向的 Codex 图像生成工作流。",
+        "considerations": "MIT 许可证；需克隆到 Codex skills 目录并可能重启 Codex；仅明确要求时才只输出提示词。"
+      }
+    },
+    "MadsLorentzen/ai-job-search": {
+      "source": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "zh": "基于 Claude Code 在本机运行的 AI 求职申请框架",
+      "analysis_source": "bd04a5b38f491ee839d7fd6705f87114fa00781bba893ebe0e2cdcccd9f5f3da",
+      "analysis_zh": {
+        "positioning": "基于 Claude Code、在用户本机运行的结构化 AI 求职申请框架，面向需要定制材料和面试准备的求职者。",
+        "implementation": "用命令式工作流完成资料建档、职位抓取、匹配评分、申请和面试准备；申请环节采用起草—第二智能体审查—修订流水线，并以 LaTeX 生成 CV 与求职信。",
+        "problems_solved": "减少逐岗评估、改写简历、撰写求职信、跟踪申请和准备面试的重复劳动，同时保留材料归档和人工提交控制。",
+        "capabilities": "建立可重复更新的个人档案；多站点职位抓取、去重与排名；定制CV和求职信并复核；面试准备、结果记录与跟进草稿",
+        "use_cases": "适合使用 Claude Code 管理完整求职流程的个人；职位门户技能主要针对丹麦，也可替换为本地招聘网站。",
+        "considerations": "需 Claude Code CLI、Python 3.10+ 和含 lualatex、xelatex 的 LaTeX；pdftotext 可选；抓取内容并非沙箱隔离；MIT。"
       }
     },
     "MemPalace/mempalace": {
@@ -274,17 +326,56 @@
         "considerations": "MIT 许可证；需 Python 3.11 等安装依赖；模型和部分工具需提供商账号或 API Key，也可使用 Nous Portal。"
       }
     },
+    "Nutlope/hallmark": {
+      "source": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "zh": "适用于 Claude Code、Cursor 和 Codex 的反 AI 粗制滥造设计技能",
+      "analysis_source": "d09ee72b06fdd357f9d44f9e1df010e73e3b6afad9ef92375c1ef2fc7199719e",
+      "analysis_zh": {
+        "positioning": "面向 Claude Code、Cursor 和 Codex 的 UI 设计技能，用于生成、审计或重构更具差异化的界面。",
+        "implementation": "根据 brief 选择宏观结构与20种主题，执行57项反模式检查和输出前自评；支持 Custom 自定义设计，并能从参考设计提炼结构、字体与色彩而不做像素复刻。",
+        "problems_solved": "减少 AI 生成界面的模板化、同质化和粗制滥造特征，帮助团队发现现有 UI 的设计反模式。",
+        "capabilities": "新 UI 构建；现有代码设计审计；保留文案与信息架构的重设计；参考设计 DNA 提炼与 design.md 输出",
+        "use_cases": "适合使用编码 Agent 创建落地页、审计已有前端、重塑视觉结构或提炼设计参考的开发者和设计团队。",
+        "considerations": "需按不同 Agent 路径安装技能文件；审计模式只输出问题清单、不编辑；采用 MIT 许可证。"
+      }
+    },
+    "OpenCut-app/OpenCut": {
+      "source": "The open-source CapCut alternative",
+      "zh": "开源的 CapCut 替代方案",
+      "analysis_source": "432c96c771a0a85600d019f4f5554418bc8bfaa347df533835fae227fb5d3ce1",
+      "analysis_zh": {
+        "positioning": "面向创作者的免费开源视频编辑器，定位为 CapCut 的 Web、桌面端和移动端替代方案。",
+        "implementation": "项目正以 Rust 核心和单一代码库重写，规划插件优先架构、Editor API、MCP Server、无头模式及编辑器脚本页；经典版仍单独运行。",
+        "problems_solved": "为用户提供不依赖闭源 CapCut 的视频编辑选择，并计划统一多端开发、插件扩展和批量渲染流程。",
+        "capabilities": "跨 Web、桌面和移动端编辑；第三方插件扩展；通过 MCP 接入 AI 智能体；无头自动化与批量渲染",
+        "use_cases": "适合需要开源视频编辑工具的创作者，以及希望通过 API、插件或脚本扩展工作流的开发者。",
+        "considerations": "MIT 许可证；当前处于从零重写阶段，架构仍在设计，暂不接受外部贡献；日常使用应选择经典版。"
+      }
+    },
     "Panniantong/Agent-Reach": {
       "source": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "zh": "让 AI 智能体通过一个 CLI 免费读取和搜索多个主流互联网平台",
-      "analysis_source": "ee5e6ff2ef2a92d386fe1177b90b235b06f6b006d359453dbab4d752d2626236",
+      "analysis_source": "8e4a913e56ff85c9b7802f245ee1222bd7ee1b787861ea9b1aa122ee290ad6b4",
       "analysis_zh": {
-        "positioning": "为可执行命令行的 AI 智能体提供跨网站读取、搜索和渠道管理的互联网能力层。",
-        "implementation": "按平台维护首选与备选上游工具列表，安装CLI、MCP及SKILL.md；doctor真实探测各后端并选择首个完整可用者，实际内容仍由Agent直接调用上游工具获取。",
-        "problems_solved": "省去逐个平台选工具、装依赖、处理登录与反爬、清洗页面及跟踪接口失效的重复配置成本。",
-        "capabilities": "读取网页、视频字幕与RSS；搜索全网及多个社区平台；自动安装并路由上游工具；诊断渠道状态并给出修复建议",
-        "use_cases": "适合为Claude Code、OpenClaw、Cursor等智能体配置跨平台调研、口碑搜索、视频总结和信息订阅工作流。",
-        "considerations": "MIT许可；依赖Shell执行权限。部分平台需Cookie或现有浏览器会话，存在封号风险；服务器环境可能需要代理。"
+        "positioning": "面向可执行命令行的 AI Agent 的互联网能力层，统一安装、诊断和路由多平台读取与搜索工具。",
+        "implementation": "Python CLI 负责选择、安装、体检和路由上游工具；各渠道按“首选+备选”顺序真实探测，Agent 直接调用 Jina Reader、yt-dlp、gh、MCP、OpenCLI 等后端。",
+        "problems_solved": "免去逐个平台寻找工具、安装依赖、处理登录与反爬、清洗网页和维护失效接入方式的重复成本。",
+        "capabilities": "网页、YouTube、RSS、GitHub 与全网搜索；Twitter、Reddit、小红书等登录态渠道；多后端自动探测与切换；doctor 诊断和修复建议",
+        "use_cases": "适合 Claude Code、OpenClaw、Cursor、Windsurf 等 Agent 执行跨平台调研、内容读取、搜索和订阅。",
+        "considerations": "需 shell 执行权限，部分依赖 Node.js、gh、mcporter；部分平台需 Cookie/登录态且有封号风险；MIT 许可。"
+      }
+    },
+    "Shubhamsaboo/awesome-llm-apps": {
+      "source": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "zh": "收录 100 多个免费开源 AI 智能体、智能体技能和 RAG 应用",
+      "analysis_source": "6e9012402ae7725182a1ce5f3da03b3a04d3f4ac78b0e5081af5e366f4da1069",
+      "analysis_zh": {
+        "positioning": "面向 AI 开发者的开源示例与模板集合，收录 100 多个智能体、Agent Skills、RAG 应用和多智能体项目。",
+        "implementation": "以 Python 项目和可安装技能组织经端到端测试的模板，兼容 Claude、Gemini、GPT、DeepSeek、Llama、Qwen 等模型；技能通过安全与评测 CI 门禁。",
+        "problems_solved": "减少从零设计和验证智能体、RAG、语音、生成式 UI 及定时代理的成本，为学习、原型和产品开发提供可运行起点。",
+        "capabilities": "单文件入门智能体；带工具、记忆和多步推理的高级智能体；多智能体团队与常驻代理；RAG、语音、MCP及生成式UI示例",
+        "use_cases": "适合开发者学习智能体模式、快速克隆运行示例、安装编码 Agent Skills，或据模板构建研究、金融和内容应用。",
+        "considerations": "各示例按目录安装 Python 依赖并使用对应模型 API key；Agent Skills 通过 npx 安装；采用 Apache-2.0，仓库尚无 GitHub Release。"
       }
     },
     "TencentCloud/TencentDB-Agent-Memory": {
@@ -297,7 +388,7 @@
         "problems_solved": "避免每个智能体反复了解项目、重读文档和重新摸索工作流，让团队经验可积累、审核、授权并跨框架复用。",
         "capabilities": "提取Chat Memory与Skill；生成LLM-Wiki和CodeGraph；导入代码、文档及历史会话；管理团队权限、版本和Agent绑定",
         "use_cases": "适合需要让多个Agent共享项目背景、开发经验、文档知识和代码影响关系的团队或个人公司。",
-        "considerations": "Team Memory Beta仍在快速演进；安装会启动三项服务，旧版升级需迁移工具；输入未明确许可证，使用前应核对LICENSE。"
+        "considerations": "Team Memory Beta 正快速演进；需 Node.js 22.16+，安装会启动三项服务；仓库元数据未识别许可证，但 README 的 LICENSE 徽章标为 MIT。"
       }
     },
     "VoltAgent/awesome-design-md": {
@@ -363,6 +454,19 @@
         "considerations": "MIT 许可；同一 harness 不应叠加多种安装方式；Codex Marketplace 支持仍属实验性，完整能力建议用同步流程。"
       }
     },
+    "agentscope-ai/QwenPaw": {
+      "source": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+      "zh": "易于安装和部署、支持多种聊天应用及能力扩展的个人 AI 助手",
+      "analysis_source": "3280356887efd8f263c3597424125dece83a85dca2e71b451209ebe29400d05e",
+      "analysis_zh": {
+        "positioning": "可在本机或云端部署的个人 AI 助手，面向需要跨聊天渠道、自动化与可扩展智能体能力的用户。",
+        "implementation": "基于 Python 与 AgentScope 2.0，采用 Agent OS、可组合智能体循环、三层记忆和 Markdown 知识库；通过 Skills、Plugins、MCP/A2A/ACP 扩展，并提供沙箱与策略门控。",
+        "problems_solved": "统一个人知识、聊天渠道和自动化任务，减少多工具切换及云托管依赖，并通过安全控制降低智能体执行危险命令的风险。",
+        "capabilities": "本地或云端运行多种模型；跨钉钉、飞书、微信、Discord 等渠道交互；持久记忆与知识库检索；多智能体、定时任务及插件工作流",
+        "use_cases": "适合个人和开发者构建本地助手、代码协作、文档处理、资讯汇总、定时广播及跨渠道运营流程。",
+        "considerations": "要求 Python 3.11 至 3.13；可使用内置本地模型、Ollama、LM Studio 或云提供商；v2.0.1 发布于 2026-07-24，采用 Apache-2.0。"
+      }
+    },
     "alibaba/open-code-review": {
       "source": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "zh": "结合确定性流水线与 LLM 智能体的代码审查工具，支持行级评论和多语言规则",
@@ -387,6 +491,19 @@
         "capabilities": "统一调用 OpenAI、Anthropic、Google、Ollama 等服务；同步、异步流式响应与工具调用；智能体工具包、审批及允许/拒绝策略；MCP、状态持久化、产物和链路追踪",
         "use_cases": "适合构建需切换模型提供商的 Python 应用、带工具的智能体，以及需要本地 Ollama 的工作流。",
         "considerations": "需安装目标服务商 SDK 并配置相应 API Key；本地模型可使用 Ollama；Postgres 状态存储等能力有额外依赖；MIT 许可。"
+      }
+    },
+    "angular/angular": {
+      "source": "Deliver web apps with confidence 🚀",
+      "zh": "助你自信地交付 Web 应用",
+      "analysis_source": "2f5abe846bc43e8dd561266a129b17e9249d11b64690ea488d1bc81f06df30a6",
+      "analysis_zh": {
+        "positioning": "面向 Web 开发者的现代跨平台应用开发平台，用于构建移动端与桌面端 Web 应用。",
+        "implementation": "以 TypeScript/JavaScript 为核心，提供组件与模板、表单、路由懒加载、动画、SSR、Schematics 和 Angular Elements，并通过 Angular CLI 创建、构建和维护项目。",
+        "problems_solved": "统一复杂 Web 应用的开发范式与工具链，减少组件组织、服务端渲染、路由拆分及跨平台交付的工程成本。",
+        "capabilities": "组件与模板驱动开发；表单、路由懒加载与动画；服务端渲染；CLI、Schematics 与 Angular Material 生态",
+        "use_cases": "适合前端团队开发可扩展的移动端、桌面端 Web 应用及 PWA，并通过官方工具链持续升级维护。",
+        "considerations": "本地开发需 Node.js、npm 与 Angular CLI；采用 MIT 许可证；版本升级方式应核对官方文档。"
       }
     },
     "anomalyco/opencode": {
@@ -431,14 +548,14 @@
     "antirez/ds4": {
       "source": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
       "zh": "支持 Metal、CUDA 和 ROCm 的 DeepSeek 4 Flash 与 PRO 本地推理引擎",
-      "analysis_source": "5b4530ae50c94f48c42d7fbfb2483fc36dd6e33794fe5e8ec50fb69d444dc58d",
+      "analysis_source": "e1bc37588d8821a8f2a3331caebdf25d974514860eeeda40ace3c638cb659e46",
       "analysis_zh": {
-        "positioning": "针对 DeepSeek V4 Flash、PRO及GLM 5.2优化的本地原生推理引擎，并非通用GGUF运行器。",
-        "implementation": "以C实现并集成模型加载、提示渲染、工具调用、KV状态、HTTP服务和编码Agent；支持Metal、CUDA、ROCm、SSD流式加载、微批处理及跨设备张量或流水线并行。",
-        "problems_solved": "让高端个人设备或旧款多GPU服务器运行特定大型开放权重模型，并在内存不足时通过SSD流式加载或多机聚合容量。",
-        "capabilities": "运行指定DeepSeek与GLM GGUF；支持Metal、CUDA和ROCm；提供SSD流式加载及压缩KV缓存；支持微批、多GPU与多机并行",
-        "use_cases": "适合在大内存Mac、DGX Spark、Strix Halo或多张L40S服务器上部署本地模型与多用户服务。",
-        "considerations": "MIT许可、Beta质量且变化快；仅兼容项目列出的特定GGUF。Metal主要面向96GB以上Mac，小内存设备依赖SSD流式加载。"
+        "positioning": "面向高内存个人设备和多 GPU 服务器的原生本地推理引擎，专注 DeepSeek V4 与 GLM 5.2。",
+        "implementation": "以 C 实现自包含推理栈，整合模型加载、提示渲染、工具调用、KV 状态、HTTP Server 和编码智能体；支持 Metal、CUDA、ROCm、SSD 流式加载及张量/流水线并行。",
+        "problems_solved": "让高端个人设备运行大型开放权重模型，并复用旧款 CUDA 服务器提供多用户推理，降低对通用云端推理服务的依赖。",
+        "capabilities": "运行指定 DeepSeek V4 与 GLM 5.2 GGUF；SSD 流式加载；多 GPU 微批处理；跨机器张量或流水线并行",
+        "use_cases": "适合拥有高内存 Mac、DGX Spark、Strix Halo 或多张 CUDA GPU 的本地推理用户与团队。",
+        "considerations": "MIT 许可证；Beta 且变化快，可能不稳定；不是通用 GGUF Runner，仅支持列明模型；Metal 建议 96GB 以上内存。"
       }
     },
     "ayghri/i-have-adhd": {
@@ -480,6 +597,19 @@
         "considerations": "Apache-2.0 许可；默认客户端连接本地 relay；Windows 构建未签名；移动端、审批等部分能力仍在开发或仅处于设想阶段。"
       }
     },
+    "browser-use/video-use": {
+      "source": "Edit videos with coding agents",
+      "zh": "使用编程智能体编辑视频",
+      "analysis_source": "93f95a66ea8e80d56da05b36e7236576f41c2f64b4039e5c00f1101a942b7a4c",
+      "analysis_zh": {
+        "positioning": "面向编程智能体用户的开源视频编辑工作流，通过对话把原始素材制作成成片。",
+        "implementation": "以 ElevenLabs Scribe 生成含逐词时间戳、说话人和音频事件的转录；需要时生成时间线胶片、波形和词标签图，使用 ffmpeg 等完成剪辑与渲染，并在每个切点执行自检。",
+        "problems_solved": "减少人工查找口癖、停顿和重拍片段的时间，避免向模型倾倒海量视频帧，并自动检查跳切、爆音和字幕遮挡。",
+        "capabilities": "删除口癖、错误起句和无效停顿；自动调色并在切点添加音频淡化；烧录可定制字幕及生成动画叠层；渲染后逐切点自检并保存会话记忆",
+        "use_cases": "适合用 Claude Code、Codex 等处理口播、教程、采访、旅行视频和蒙太奇素材。",
+        "considerations": "MIT 许可；需要具备 Shell 权限的智能体，转录需 ElevenLabs API Key；具体依赖与安装步骤应核对项目文档。"
+      }
+    },
     "calesthio/OpenMontage": {
       "source": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "zh": "提供 12 条流程、百余工具及丰富技能知识的开源智能体视频制作系统。",
@@ -519,6 +649,19 @@
         "considerations": "两版能力差异明显，Codex Light 不含智能体编排；项目正在多 Harness 重构；涉及服务商认证；许可证未明确断言。"
       }
     },
+    "codecrafters-io/build-your-own-x": {
+      "source": "Master programming by recreating your favorite technologies from scratch.",
+      "zh": "通过从零复刻喜爱的技术来掌握编程",
+      "analysis_source": "e35552b0672aede5902191aed94958b5597aad3a3ccd0cf8bc62567c6260bf3a",
+      "analysis_zh": {
+        "positioning": "面向编程学习者的教程索引，通过从零复刻常见技术系统来理解其原理。",
+        "implementation": "以 Markdown 汇编经过筛选的分步教程，按分布式系统、数据库、操作系统、编程语言、网络栈、渲染器等主题分类，并链接视频、文章及 PDF 等外部资料。",
+        "problems_solved": "减少学习者分散搜索高质量实践教程的成本，以亲手实现替代只读概念资料的学习流程。",
+        "capabilities": "按技术类别检索复刻教程；覆盖软硬件与 AI 等多类系统；收录文章、视频和 PDF 资源；通过 PR 接收社区投稿",
+        "use_cases": "适合希望通过项目实践学习底层原理的开发者，也可供教师设计系统实现练习。",
+        "considerations": "主体是外部教程索引，内容质量与依赖因来源而异；README 指向 CC0 权利放弃声明，输入许可证字段未标注。"
+      }
+    },
     "colbymchenry/codegraph": {
       "source": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
       "zh": "全本地、随代码变更自动同步的预索引代码知识图谱，可减少 Token 与工具调用。",
@@ -532,6 +675,19 @@
         "considerations": "需安装 CLI，并分别配置智能体和初始化每个项目；索引保存在本地；托管平台仍处于早期测试阶段；MIT 许可证。"
       }
     },
+    "cypress-io/cypress": {
+      "source": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "zh": "快速、简单且可靠地测试任何在浏览器中运行的内容",
+      "analysis_source": "ed81f5fa96f22bac8fbd9ba22bdf31854318d64863392b1fb4a1555df0b30794",
+      "analysis_zh": {
+        "positioning": "面向前端开发者与测试团队的浏览器应用测试框架，强调快速、易用和可靠。",
+        "implementation": "使用 TypeScript 开发，可安装于 macOS、Linux 和 Windows；围绕端到端测试、组件测试、Testing Library 与 Cypress Cloud 等能力构建测试工作流。",
+        "problems_solved": "降低浏览器应用测试的搭建和维护门槛，统一端到端与组件测试流程，并提升测试结果的可见性。",
+        "capabilities": "浏览器端到端测试；组件测试；多前端框架 Testing Library 集成；测试状态与数量徽章",
+        "use_cases": "适合 Web 开发和质量团队在本地或持续集成流程中验证浏览器应用、组件及用户操作链路。",
+        "considerations": "支持 macOS、Linux 与 Windows，可作为 npm 开发依赖安装；本地测试框架采用 MIT 许可，Cypress Cloud 属于独立云端服务。"
+      }
+    },
     "datawhalechina/hello-agents": {
       "analysis_source": "0a60d09e2490e2768bda90b1791273250eb0f2c56e50a97dee0e7624f2a48b94",
       "analysis_zh": {
@@ -540,7 +696,20 @@
         "problems_solved": "弥补智能体领域系统性、重实践教程不足，帮助学习者从调用大模型进阶到独立构建多智能体应用。",
         "capabilities": "讲解智能体原理与经典范式；实践低代码平台和主流框架；从零实现智能体框架；训练并评估多智能体项目",
         "use_cases": "适合具备基础 Python 和 LLM API 概念，希望按课程完成代码练习与毕业项目的学习者。",
-        "considerations": "建议具备基础 Python 能力并动手运行配套代码；无需深厚算法背景；输入未明确许可证类型，需核对项目文档。"
+        "considerations": "建议具备基础 Python 能力并运行配套代码；无需深厚算法背景；当前 Release 为 V1.0.3，仓库元数据未识别 SPDX 许可证。"
+      }
+    },
+    "denoland/deno": {
+      "source": "A modern runtime for JavaScript and TypeScript.",
+      "zh": "现代化 JavaScript 和 TypeScript 运行时",
+      "analysis_source": "512d24ca178c817ca8cc97c312851af19178f7d2bf07a29c74d2e35eb8d9320a",
+      "analysis_zh": {
+        "positioning": "面向 Web 与服务端开发者的现代 JavaScript、TypeScript 和 WebAssembly 运行时。",
+        "implementation": "核心以 Rust 构建，并基于 V8 与 Web 标准能力运行 JavaScript、TypeScript 和 WebAssembly；可通过多种系统安装方式获取，也支持源码构建。",
+        "problems_solved": "为 JavaScript 与 TypeScript 应用提供强调安全默认值和开发体验的统一运行环境，可直接用于构建 Web 服务器等应用。",
+        "capabilities": "运行 JavaScript、TypeScript 与 WebAssembly；采用安全默认设置；构建和运行 Web 服务器；提供官方文档、常用工具与现代包注册表生态",
+        "use_cases": "适合开发 Web 服务、脚本及其他需要现代 TypeScript 运行环境的应用。",
+        "considerations": "MIT 许可；支持 macOS、Linux 与 Windows 的多种安装方式，源码构建要求应核对官方文档。"
       }
     },
     "diegosouzapw/OmniRoute": {
@@ -582,6 +751,19 @@
         "considerations": "仓库未声明明确许可证；内容广泛但无需全部掌握，应结合经验、职位、目标公司和时间选择学习深度。"
       }
     },
+    "drumih/turbo-fieldfare": {
+      "source": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+      "zh": "在任意 M 系列 MacBook 上以约 2GB 内存运行 Gemma 4 26B-A4B 推理",
+      "analysis_source": "e02c8ea0a21d900a05cb7aea4b1f9921004d9ae510095eda04031ac096cf0bf4",
+      "analysis_zh": {
+        "positioning": "为 Apple Silicon Mac 定制的 Gemma 4 26B-A4B 本地推理运行时，目标是在约 2GB 内存预算下运行模型。",
+        "implementation": "使用 Swift、Metal 和模型专用运行时，将约 1.35GB 共享核心及 FP16 KV cache 留在内存，按 token 从 SSD 流式载入所需专家；安装器按字节范围下载并重打包模型。",
+        "problems_solved": "避免一次性载入约 14.3GB 权重，使 8GB 内存 Mac 也能运行该 26B MoE 模型，并避免安装时额外保存完整源检查点。",
+        "capabilities": "原生 Mac 应用与命令行推理；约2GB权重及4K KV cache内存占用；流式安装与哈希校验；实验性本地 OpenAI 兼容服务",
+        "use_cases": "适合希望在低内存 Apple Silicon Mac 上离线进行文本对话、补全或通过本地接口调用 Gemma 的用户。",
+        "considerations": "仅支持 arm64、macOS 26、Metal 4、Swift 6.2+；需约14.3GB存储和首次联网下载；仅文本且模型结果需核验；Apache-2.0。"
+      }
+    },
     "earendil-works/pi": {
       "source": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "zh": "集统一 LLM API、智能体循环、TUI 和编程 CLI 于一体的工具包。",
@@ -608,6 +790,19 @@
         "considerations": "生产使用应从 main 安装，开发 PR 面向 develop；重型资产使用 Git LFS；部分技能依赖 Python、切片器或本地打印设备；MIT 许可。"
       }
     },
+    "emilkowalski/skills": {
+      "source": "Skills for Designers and Engineers.",
+      "zh": "面向设计师和工程师的技能集",
+      "analysis_source": "91c2a8303bb888d334cfc564b604ec32317bada4874f0ecf5bccf3a4897cf974",
+      "analysis_zh": {
+        "positioning": "面向设计师、工程师及其 AI 编码智能体的 UI 设计与动效决策技能集。",
+        "implementation": "将作者在 Vercel、Linear 等公司的界面设计经验整理为可安装技能，覆盖动效规则、严格审查、代码库审计、动效机会识别、Apple 设计原则和组件库选择。",
+        "problems_solved": "帮助智能体避免错误缓动、不恰当边框和过度动画等细节问题，加快设计判断、动效审计和界面方案比较。",
+        "capabilities": "审查单个动效是否符合规则；审计代码库并生成优先级修复计划；识别适合加入动效的位置；为同一 UI 生成多个方案供比较",
+        "use_cases": "适合设计师和前端工程师借助 AI 评审界面、改进 Web 动效、选择组件库或探索多个 UI 版本。",
+        "considerations": "通过 npx skills@latest add emilkowalski/skills 安装；面向支持 Agent Skills 的编码智能体；MIT 许可，尚无 GitHub Release。"
+      }
+    },
     "esengine/DeepSeek-Reasonix": {
       "source": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "zh": "面向终端的 DeepSeek 原生 AI 编程智能体，专为前缀缓存稳定性设计",
@@ -631,7 +826,7 @@
         "problems_solved": "减少用户在多个智能体工具间重复配置和手动切换模型或服务的操作成本。",
         "capabilities": "集中管理多款编程智能体；切换模型及相关配置；提供跨平台桌面界面；覆盖 MCP 相关使用场景",
         "use_cases": "适合同时使用多款编程智能体，并需频繁调整模型或服务配置的开发者。",
-        "considerations": "MIT 许可；未提供最新 Release 信息；第三方 API 中继服务并非使用本项目的必需条件，具体要求需核对文档。"
+        "considerations": "支持 Windows、macOS 与 Linux，采用 MIT 许可；当前 GitHub Release 为 v3.19.1；README 中的第三方 API 中继均为可选赞助服务。"
       }
     },
     "firecrawl/firecrawl": {
@@ -650,14 +845,27 @@
     "firecrawl/pdf-inspector": {
       "source": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "zh": "用于 PDF 检查、分类和文本提取的高性能 Rust 库，可智能识别扫描件",
-      "analysis_source": "99a290c5cb86f7734cb7180905d6b2af6ea7617727f0167084c47440da8ed391",
+      "analysis_source": "b383219e46435f2c43367244332f711c8b974b6042a5770de0126d0b7925c709",
       "analysis_zh": {
-        "positioning": "面向 PDF 处理流水线的高性能 Rust 分类与文本提取库，可判断页面是否需要OCR。",
-        "implementation": "基于lopdf单次加载文档，检查内容流中的文本与图像操作符完成分类；按字体、坐标和绘图结构恢复阅读顺序、标题、列表及表格，并提供Python、Node.js、WASM绑定。",
-        "problems_solved": "避免将已有文本层的PDF全部送入昂贵OCR，减少处理延迟和服务成本，同时改善多栏、表格及格式化文本的结构化提取。",
-        "capabilities": "分类文本型、扫描型、图像型及混合PDF；输出逐页OCR路由与置信度；提取带坐标和字体的文本；转换结构化Markdown",
-        "use_cases": "适合批量处理报告、论文、财务、发票和法律PDF，并把仅有问题的页面转交OCR。",
-        "considerations": "MIT许可；纯Rust且无需ML模型或外部服务，但本身不执行OCR；可用于Rust、Python、Node.js及浏览器WASM。"
+        "positioning": "面向 PDF 处理管线的高性能 Rust 检查、分类、文本提取与 Markdown 转换库。",
+        "implementation": "基于 lopdf 单次加载文档，扫描内容流中的文本与图像操作符，按页分类并输出 OCR 路由；位置感知提取支持多栏、表格和字体编码，并提供 Rust、Python、Node.js 与浏览器 WASM 接口。",
+        "problems_solved": "避免将已有文本层的 PDF 全量送入 OCR，降低处理延迟、服务费用和重复解析开销，并改善复杂阅读顺序与表格提取。",
+        "capabilities": "区分 TextBased、Scanned、ImageBased 与 Mixed PDF；按页输出 OCR 建议和置信度；提取位置、字体及多栏阅读顺序；转换标题、列表、表格和链接为 Markdown",
+        "use_cases": "适合批量处理报告、论文、财务文档、发票及法律 PDF 的本地解析与智能 OCR 分流。",
+        "considerations": "纯 Rust、MIT 许可，无 ML 模型和外部服务；不执行 OCR，遇到图像页或损坏编码需调用方回退至 OCR。"
+      }
+    },
+    "gabime/spdlog": {
+      "source": "Fast C++ logging library.",
+      "zh": "高速 C++ 日志库",
+      "analysis_source": "b64b1ea2fdab36ee8c20058078af76f0d8aa4996c75df6fe065b6c9a4541765f",
+      "analysis_zh": {
+        "positioning": "面向 C++11 及以上项目的高速、跨平台日志库，可采用仅头文件或编译库方式集成。",
+        "implementation": "提供同步或异步、多线程或单线程 logger，并以可组合 sinks 输出到控制台、轮转或每日文件、syslog、Windows 事件日志、调试器和 Qt；日志级别可动态配置。",
+        "problems_solved": "减少自行实现高性能日志、文件轮转、多目标输出、格式化、过滤和跨平台适配的工作量，并可通过编译版缩短构建时间。",
+        "capabilities": "同步与异步日志；多 sink 独立格式和级别；轮转、每日、控制台及系统日志输出；运行时或编译时过滤与回溯缓冲",
+        "use_cases": "适合需要高性能日志、跨平台输出、运行时调级和自定义 sink 的 C++ 应用、服务与 Qt 项目。",
+        "considerations": "要求 C++11 编译器；支持 Unix、Windows、macOS 与 Android，可使用 Header-only、编译库或多种包管理器安装；LICENSE 内容为 MIT。"
       }
     },
     "garrytan/gbrain": {
@@ -683,7 +891,20 @@
         "problems_solved": "为 Claude Code 提供结构化的产品研发与发布流程，减少从空白提示开始组织多角色评审、QA 和交付的成本。",
         "capabilities": "产品与工程方案评审；设计检查和浏览器 QA；代码及安全审查；发布、部署与文档工作流",
         "use_cases": "适合技术型创始人、首次使用 Claude Code 的用户，以及需要规范 PR 评审和发布流程的技术团队。",
-        "considerations": "核心工作流围绕 Claude Code；安装还列有平台要求，具体版本需核对文档；采用 MIT 许可证。"
+        "considerations": "核心工作流围绕 Claude Code；安装要求 Git、Bun 1.0+，Windows 还需 Node.js；采用 MIT 许可，并每小时至多检查一次自动更新。"
+      }
+    },
+    "genspark-ai/genoffice": {
+      "source": "An AI-native office suite for macOS and Windows: word processor, spreadsheet, presentations, and PDF.",
+      "zh": "面向 macOS 和 Windows 的 AI 原生办公套件",
+      "analysis_source": "4a97df60557abc563cdb637e90c204cb7ea473c4a1080a4658e371dc35f0d3ba",
+      "analysis_zh": {
+        "positioning": "面向 macOS 与 Windows 用户的 AI 原生办公套件，覆盖文档、表格、演示文稿和 PDF。",
+        "implementation": "由五个共享引擎层的 Electron 应用组成；核心引擎以 TypeScript 实现，文档采用 OOXML 局部字节级补丁，表格用 Rust sidecar，AI 通过共享 Agent 循环调用 Genspark 服务。",
+        "problems_solved": "将 AI 编辑直接融入办公文件工作流，并通过窄范围补丁保留未修改内容，降低 Office 文件往返编辑时的版式破坏风险。",
+        "capabilities": "DOCX 分页编辑与修订批注；XLSX 公式、透视表和图表；PPTX 解析渲染编辑；PDF 批注、表单、签名与页面操作",
+        "use_cases": "适合需要在桌面端用 AI 编辑 DOCX、XLSX、PPTX、PDF，并重视原文件格式保真的个人和团队。",
+        "considerations": "需登录 Genspark 账号，模型调用经其服务且本地不存 API Key；Sheets 开发需 Rust；Apache-2.0，ee/例外。"
       }
     },
     "github/spec-kit": {
@@ -725,6 +946,19 @@
         "considerations": "Apache-2.0；CLI 需 Python 3.10+并通过 PyPI 安装；部分 extras 有额外依赖，HNSW 后端需要 C++ 工具链。"
       }
     },
+    "herdrdev/herdr": {
+      "source": "the runtime your coding agents live on",
+      "zh": "承载编程智能体的运行时",
+      "analysis_source": "5139f035a95b4ba005910c33ed44c46f22166118390eb144655cca9fbba1ca12",
+      "analysis_zh": {
+        "positioning": "运行在终端中的编程智能体多路复用运行时，面向同时管理多个编码智能体的开发者。",
+        "implementation": "以单个 Rust 二进制直接运行于现有终端，不依赖 Electron；使用真实终端窗格、持久会话和纯 socket API，支持智能体创建窗格、读取输出及相互等待，并可用插件扩展。",
+        "problems_solved": "集中查看多个智能体的工作、阻塞和完成状态，避免终端散乱；分离后任务继续运行，会话重启后保留，可从其他终端或 SSH 恢复。",
+        "capabilities": "多智能体终端窗格与状态总览；分离、重连和持久会话；键鼠分屏操作；面向智能体的 socket API 与插件扩展",
+        "use_cases": "适合本地或 SSH 环境中并行运行 Claude Code、Codex 等编码智能体并长期保留工作会话。",
+        "considerations": "单 Rust 二进制，可通过安装脚本、Homebrew、mise 或 Releases 安装；Windows 支持为 beta；当前版本 v0.8.0，采用 Apache-2.0。"
+      }
+    },
     "heygen-com/hyperframes": {
       "source": "Write HTML. Render video. Built for agents.",
       "zh": "面向智能体，通过编写 HTML 渲染视频。",
@@ -738,6 +972,19 @@
         "considerations": "需 Node/npm 安装 CLI 与技能；不同技能安装方式和版本新鲜度有差异；部分工作流可能使用外部媒体；Apache-2.0。"
       }
     },
+    "iOfficeAI/OfficeCLI": {
+      "source": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "zh": "供 AI 智能体读写和自动处理 Word、Excel 与 PowerPoint 的办公套件",
+      "analysis_source": "47708a057a09ecc9bbddd8723dae00559ac2d084415f3d14e4ca6f3f0595368a",
+      "analysis_zh": {
+        "positioning": "为 AI 智能体和开发者设计的无头 Office CLI，用于读写、生成和自动化 Word、Excel、PowerPoint 文件。",
+        "implementation": "以 C 构建为跨平台单一二进制，无需安装 Office；内置 HTML 渲染引擎，将 DOCX/XLSX/PPTX 渲染为 HTML 或 PNG，形成“渲染—查看—修复”反馈循环。",
+        "problems_solved": "替代多套 Python 库、Office 桌面自动化和手工改文档流程，降低智能体处理复杂办公格式及验证视觉结果的成本。",
+        "capabilities": "创建、读取和修改 DOCX、XLSX、PPTX；输出文本或结构化 JSON；渲染 HTML或PNG并实时预览；处理公式、图表、图片、样式与布局",
+        "use_cases": "适合智能体生成演示和报告、批量替换与样式更新，以及开发者在 Docker、CI/CD 中搭建文档流水线。",
+        "considerations": "以跨平台单一二进制发布，无需安装 Office；支持 Homebrew、npm、脚本或 Releases 安装；当前版本 v1.0.143，采用 Apache-2.0。"
+      }
+    },
     "img2threejs/img2threejs": {
       "source": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
       "zh": "将参考图对象重建为纯代码、可动画且经质量检查的 Three.js 程序化模型。",
@@ -749,6 +996,17 @@
         "capabilities": "对象、角色与混合主体分类重建；细节清单和质量门禁；逐阶段视觉自纠正；生成枢轴、插槽及碰撞体层级",
         "use_cases": "适合在 Claude Code、Codex 或 OpenCode 中把物体参考图制作成浏览器可运行、可动画的 Three.js 模型。",
         "considerations": "仅凭单图无法保证人物完全相似，必要时需更多视角；脚本要求 Python 3.10+；采用 Apache-2.0。"
+      }
+    },
+    "imsai-sh/zhuzhiliao": {
+      "analysis_source": "06bea22568b0637b69379fb9df8dd1e63c4b14a1c0ce91f5146b97bdf890bbe5",
+      "analysis_zh": {
+        "positioning": "面向怀旧体验与前端技术学习的传统玩具“竹知了”移动优先 Web 模拟器。",
+        "implementation": "以零依赖单文件 index.html 实现，使用 Canvas 2D、Web Audio API、真实录音循环与合成兜底、绳系质点定步长物理模型，并支持触摸和 devicemotion。",
+        "problems_solved": "让用户无需实体玩具、构建工具或联网即可体验竹知了，并为声音采样、物理模拟和单文件 Web 实现提供参考。",
+        "capabilities": "触屏画圈与自动甩动；手机动作传感器操控；真实录音与合成音频兜底；离线单文件运行和本地计数",
+        "use_cases": "适合个人离线试玩、怀旧分享，以及学习 Canvas、Web Audio、移动传感器和轻量物理模拟。",
+        "considerations": "不是开源项目；禁止再分发、公开部署和商业使用；体感模式需 HTTPS 或本地文件，iOS 首次需授权。"
       }
     },
     "iv-org/invidious": {
@@ -793,14 +1051,14 @@
     "koala73/worldmonitor": {
       "source": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "zh": "整合 AI 新闻聚合、地缘政治监测与基础设施追踪的实时全球情报看板。",
-      "analysis_source": "600198d5cd6317d56d65d762e69fcab037d8e961478fb03677414618bae4d6fc",
+      "analysis_source": "7f8eb0c5a9ba187894fad0cef1bcf2b4c59b7ce7a160b3ad96f55d2ef78e087c",
       "analysis_zh": {
-        "positioning": "面向研究者、分析人员和智能体的实时全球情报、地缘风险及基础设施态势看板。",
-        "implementation": "以 TypeScript、Vite、globe.gl、deck.gl 和 MapLibre 构建双地图前端，Tauri 2 提供桌面端；聚合 65+ 数据提供方与 500+ 新闻源，经 AI 合成，并以 Vercel、Railway、Redis/CDN 部署。",
-        "problems_solved": "将分散的新闻、军事、经济、灾害、金融和基础设施信号汇入统一界面，降低跨源监测与关联分析成本。",
-        "capabilities": "AI 新闻聚合与简报；56 类地图图层；跨流信号关联和国家不稳定指数；MCP、REST、CLI 与 SDK 接入",
-        "use_cases": "适合 OSINT、地缘政治、金融和基础设施监测，以及需要全球态势数据的智能体与脚本。",
-        "considerations": "基础应用可无环境变量运行，部分数据源需凭证；可用 Ollama；源码为 AGPL-3.0，闭源需求需另行授权。"
+        "positioning": "面向研究者、分析人员和 Agent 的实时全球情报看板，统一呈现新闻、地缘政治与基础设施态势。",
+        "implementation": "前端采用 Vanilla TypeScript、Vite、globe.gl、Three.js、deck.gl 与 MapLibre GL；桌面端基于 Tauri 2，支持 Ollama 等 AI、Protobuf API、三级缓存及 Vercel、Docker、静态部署。",
+        "problems_solved": "将分散于新闻、金融、军事、灾害、能源和基础设施来源的数据汇聚关联，降低全球态势监测与跨源研判成本。",
+        "capabilities": "500+新闻源的 AI 简报；3D与平面地图及56类图层；跨流信号关联与国家压力评分；MCP、REST、CLI和SDK访问",
+        "use_cases": "适合 OSINT、地缘政治和市场研究，以及 Agent 经 MCP/API 获取全球事件与基础设施情报。",
+        "considerations": "基础应用可无环境变量运行，特定数据源需凭据；本地 AI 可用 Ollama；源码为 AGPL-3.0，专有使用需另行许可。"
       }
     },
     "langchain-ai/openwiki": {
@@ -907,6 +1165,19 @@
         "considerations": "要求 Python 3.10+；云端增强会产生 Azure API 费用；进程权限决定可访问资源，非可信输入需隔离；MIT 许可证。"
       }
     },
+    "microsoft/skill-recorder": {
+      "source": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
+      "zh": "记录屏幕操作并借助 GitHub Copilot CLI 构建可复用技能或自动化流程",
+      "analysis_source": "d5806294e405e237596fe49f823474f4f92392819860f3c8951efa5172a397d3",
+      "analysis_zh": {
+        "positioning": "将一次桌面操作录制转化为可复用 AI Skill 或定时 Automation 的桌面应用，面向 Microsoft Copilot 生态用户。",
+        "implementation": "Electron/TypeScript 应用在本机捕获窗口切换、URL、屏幕变化、剪贴板预览和可选旁白；用户点击 Analyze 后，由 GitHub Copilot CLI 重建意图和有序步骤并生成 SKILL.md。",
+        "problems_solved": "把人工示范流程转成智能体可复用步骤，减少手写操作规程和 UI 点击回放；生成结果优先使用 CLI、Web fetch 等原生工具。",
+        "capabilities": "后台录屏及活动时间线捕获；本地旁白转写；重建任务意图与有序步骤；生成按需 Skill 或定时、触发式 Automation",
+        "use_cases": "适合把表单提交等重复桌面工作交给 Microsoft Scout、Copilot Cowork 或 Copilot Studio 自动执行。",
+        "considerations": "需 GitHub 账号及 Copilot 权限；macOS 为主要目标，另支持 Windows 11；分析数据会发送至 GitHub 云端，录制时须避开秘密；MIT。"
+      }
+    },
     "moeru-ai/airi": {
       "source": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "zh": "可自托管的 AI 伴侣，支持实时语音、游戏及 Web 与桌面平台",
@@ -1001,14 +1272,14 @@
     "openai/codex-security": {
       "source": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "zh": "用于发现、验证和修复安全漏洞的 Codex Security CLI 与 TypeScript SDK。",
-      "analysis_source": "23629e2c1446cd35d9276d0986d22252fa6791378d7bc5d99ce22f42365ea586",
+      "analysis_source": "055ea1260c20d570b0036d40ad27087c5aa5b7a470ad6d469559d842cf0fd791",
       "analysis_zh": {
         "positioning": "面向开发者与 DevSecOps 团队的 Codex Security CLI 和 TypeScript SDK，用于代码漏洞治理。",
-        "implementation": "通过 CLI 或 TypeScript SDK 执行扫描、验证和修复；保存扫描历史并按根因比较前后结果；支持 API Key 的 CI 扫描，以及官方容器和 Docker Compose 批量扫描固定 Git 修订。",
-        "problems_solved": "减少漏洞发现、复核、修复及前后扫描结果追踪的人工成本，并支持将安全检查纳入 CI。",
-        "capabilities": "发现、验证及修复代码漏洞；按根因对比扫描结果；CLI 与 TypeScript SDK 集成；容器化、可恢复的多仓库批量扫描",
-        "use_cases": "适合开发者本地审计代码，以及安全团队在 CI 或多仓库流程中持续扫描。",
-        "considerations": "Apache-2.0；需 Codex Security 访问权限、Python 3.10+及受支持的 Node.js 版本；CI 需 OPENAIAPIKEY 或 CODEXAPIKEY。"
+        "implementation": "以 Node.js CLI/TypeScript SDK 执行漏洞发现、验证和修复；支持登录或 API Key、其他推理提供商、扫描历史对比，以及 Docker Compose 容器化批量扫描。",
+        "problems_solved": "把漏洞发现、复核、修复及前后扫描对比整合到一个工具链，降低人工安全审查和 CI 批量扫描成本。",
+        "capabilities": "发现并验证代码漏洞；辅助修复安全问题；对比扫描并分类漏洞状态；执行可恢复的容器化批量扫描",
+        "use_cases": "适合开发者本地审查代码、团队在 CI 中扫描仓库，以及通过 SDK 集成安全能力。",
+        "considerations": "Apache-2.0；需 Codex Security 访问权限、Python 3.10+，以及指定版本的 Node.js；CI 需配置 API Key。"
       }
     },
     "openclaw/openclaw": {
@@ -1021,7 +1292,7 @@
         "problems_solved": "把分散在不同聊天平台、模型和设备上的个人助手能力汇聚到自有设备，减少在多个应用间切换和重复配置的流程。",
         "capabilities": "连接托管及本地模型、工具和技能；接入多种即时通讯渠道；通过伴侣应用提供语音、Canvas、相机、屏幕和本地操作；统一管理会话、事件及设备节点",
         "use_cases": "适合希望在个人设备和常用聊天渠道中部署单用户助手，并通过插件扩展自动化能力的用户。",
-        "considerations": "安装支持 macOS、Linux、Windows，手动安装要求指定版本 Node.js；主会话工具默认在宿主机运行，远程暴露前应配置沙箱与配对；许可证需核对仓库。"
+        "considerations": "支持 macOS、Linux、Windows；npm 安装要求 Node.js 22.22.3+、24.15+ 或 25.9+；README 标明 MIT；远程使用需配置沙箱与配对。"
       }
     },
     "opengeos/GeoLibre": {
@@ -1034,7 +1305,7 @@
         "problems_solved": "免除 GIS 服务器和复杂本地工具链安装，让地理数据、处理过程及结果留在用户设备上，同时覆盖多终端工作流。",
         "capabilities": "二维、三维及行星底图可视化；1,000 余个矢量、栅格、遥感、水文、地形和 LiDAR 工具；空间 SQL 与云原生格式转换；Web、桌面、Android、Jupyter 和嵌入式使用",
         "use_cases": "适合 GIS 分析师、遥感和地形研究者、数据科学家，以及需要私有本地空间分析的教育和业务团队。",
-        "considerations": "部分数据集成可配置可选凭据；支持源码、Docker 和多平台安装；MIT 许可；具体浏览器与设备兼容性建议核对文档。"
+        "considerations": "可运行于 Web、Windows、macOS、Linux、Android 与 Jupyter；浏览器端工具以 WebAssembly 本地执行；采用 MIT 许可。"
       }
     },
     "paperclipai/paperclip": {
@@ -1053,14 +1324,14 @@
     "pascalorg/editor": {
       "source": "Create and share 3D architectural projects.",
       "zh": "用于创建和分享 3D 建筑项目的编辑器",
-      "analysis_source": "dea20e4970b074f877f5c1cef46542204789d6c20da57d54d8510fcb0526e99b",
+      "analysis_source": "81b5e14bf299e41da7ab594a125ae77bd01cc621379151e1074f9c6a39539d64",
       "analysis_zh": {
-        "positioning": "面向建筑设计与三维应用开发者的 Web 端 3D 建筑编辑器，可创建、编辑和分享建筑场景。",
-        "implementation": "采用 Turborepo、React 19、Next.js 16、React Three Fiber 和 WebGPU；Zustand 管理扁平节点场景，IndexedDB 持久化，Zundo 撤销重做；脏节点系统按需生成几何，并以插件清单扩展节点和面板。",
-        "problems_solved": "提供从建筑节点建模、几何生成到交互编辑和查看的一体化组件，减少自行搭建 Three.js 建筑编辑器及状态管理的工作。",
-        "capabilities": "墙、楼板、屋顶、区域及物件的交互建模；选择、直接操控和多级视图模式；IndexedDB 持久化与 50 步撤销重做；通过统一插件接口扩展节点、渲染器和面板",
-        "use_cases": "适合开发建筑方案编辑、室内布局、三维查看器或需要自定义建筑节点插件的团队。",
-        "considerations": "开发需 Bun，并应从仓库根目录运行；生产包分为 core、viewer、editor、nodes；浏览器需支持相关 WebGPU 能力；MIT 许可。"
+        "positioning": "面向建筑设计和开发者的可扩展 3D 建筑编辑器，用于创建、编辑与分享建筑项目。",
+        "implementation": "Turborepo 单仓拆分 core、viewer、editor 和 nodes；React Three Fiber 配合 WebGPU 渲染，Zustand 管理扁平节点场景，IndexedDB 持久化，Zundo 撤销重做，系统仅重算 dirty nodes。",
+        "problems_solved": "统一建筑场景数据、参数化几何、交互编辑与查看能力，减少遍历场景图和无变化几何重复计算，并支持插件扩展。",
+        "capabilities": "绘制墙体、楼板与区域并放置物件；生成门窗切口、屋顶和楼层几何；支持选择、层级显示及撤销重做；以统一插件清单扩展节点、渲染器和面板",
+        "use_cases": "适合开发浏览器建筑编辑器、楼层平面与 BIM/CAD 类工具，或嵌入独立 3D 查看器。",
+        "considerations": "MIT 许可；开发栈含 Bun、Next.js 16、React 19 和 WebGPU，需从仓库根目录运行开发命令。"
       }
     },
     "rohitg00/ai-engineering-from-scratch": {
@@ -1073,7 +1344,7 @@
         "problems_solved": "解决 AI 学习资料零散、只会调用框架却不了解底层，以及课程成果难复用于真实工作的痛点。",
         "capabilities": "十题测评并生成个性化学习计划；交互式授课、测验及复习队列；覆盖数学、深度学习、LLM、智能体和生产；每课产出提示词、Skill、Agent 或 MCP 服务",
         "use_cases": "适合会编程并希望系统掌握 AI 原理、工程实现及生产实践的自学者。",
-        "considerations": "MIT 许可；可通过智能体、网站或本地克隆学习；本地构建书籍需 pandoc，运行课程代码需核对各课依赖。"
+        "considerations": "采用 MIT 许可；可通过智能体、网站或本地克隆学习；本地构建六卷书需 Pandoc，503 节课提供 Python、TypeScript、Rust 与 Julia 示例。"
       }
     },
     "rtk-ai/rtk": {
@@ -1154,17 +1425,30 @@
         "considerations": "支持 macOS、Windows、Linux、iOS 和 Android；智能体订阅由用户自备；MIT 许可证。"
       }
     },
+    "tailwindlabs/tailwindcss": {
+      "source": "A utility-first CSS framework for rapid UI development.",
+      "zh": "用于快速开发界面的实用类优先 CSS 框架",
+      "analysis_source": "f770d0e1a774031bbd48ff8462b1ec14c72cce8a3a71a392a472fcd075cf440c",
+      "analysis_zh": {
+        "positioning": "面向前端开发者的实用类优先 CSS 框架，用于快速构建定制化用户界面。",
+        "implementation": "扫描 HTML、组件和模板中的 utility class 名称，按需生成对应 CSS；可通过 CLI、PostCSS 或 Vite 集成，并以响应式、状态和主题变体组合界面规则。",
+        "problems_solved": "减少为每个界面元素单独命名和编写 CSS 的工作，使开发者能快速组合样式并构建自定义 UI。",
+        "capabilities": "以实用类组合界面样式；支持快速定制用户界面；支持响应式样式工作流",
+        "use_cases": "适合需要快速实现定制 Web 界面、组件和响应式布局的前端开发者。",
+        "considerations": "采用 MIT 许可；当前 GitHub Release 为 v4.3.3；项目通过 npm 分发，现有项目跨主版本升级需按官方迁移说明调整构建集成。"
+      }
+    },
     "thebuggeddev/anatomy": {
       "source": "An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol",
       "zh": "使用 three.js 与 GPT 5.6 Sol 构建的交互式 3D 人体解剖探索器。",
       "analysis_source": "7ff7d652125c93939e4d7e24775d514e4afecde92e25c0e4128c1edf037beef6",
       "analysis_zh": {
         "positioning": "面向人体解剖学习与浏览的交互式 3D 探索器，项目描述称使用 three.js 构建。",
-        "implementation": "现有 README 主要描述 vinext 全栈模板：代码位于 app/，可选接入 Cloudflare D1、R2 与 Drizzle，并支持托管环境身份请求头和 ChatGPT 登录辅助函数。",
-        "problems_solved": "项目描述表明其用于交互式探索人体解剖；输入未提供具体解剖数据、交互流程或教学功能细节，建议核对项目文档。",
-        "capabilities": "交互式 3D 人体解剖探索；可选 Cloudflare D1 与 R2 绑定；可选 ChatGPT 登录；支持本地开发和构建验证",
-        "use_cases": "适合需要网页端 3D 解剖浏览的学习者；更具体的教学或专业使用范围需核对实际站点。",
-        "considerations": "要求 Node.js 22.13+；README 与项目简介内容不完全一致；许可证未标注，使用前应核对仓库。"
+        "implementation": "基于 TypeScript、React 与 Three.js 构建，加载 GLB 器官模型并用 OrbitControls 控制视角；以器官数据表、热点标注和 WebP 图集组织结构、显微、位置与对比信息。",
+        "problems_solved": "把心脏、大脑、肺、肝脏等器官的立体结构、关键部位和图文知识集中到浏览器，降低静态图片难以观察空间关系的问题。",
+        "capabilities": "搜索并切换人体器官；旋转、缩放和自动旋转 3D 模型；热点结构说明；隔离、剖面、分层与器官对比",
+        "use_cases": "适合学习者在网页中浏览器官结构、查看关键部位并进行基础解剖知识演示。",
+        "considerations": "要求 Node.js 22.13+；仓库创建于 2026-08-02，尚未标注许可证；README 仍保留模板说明，但应用代码和模型资源完整存在。"
       }
     },
     "thedotmack/claude-mem": {
@@ -1183,14 +1467,40 @@
     "trycompai/crm": {
       "source": "An open-source, agentic-first CRM.",
       "zh": "开源且以智能体为核心的 CRM。",
-      "analysis_source": "43192231207d712dd6137306bf86bfde224492d19a6ba3da545a94123010e47f",
+      "analysis_source": "6b99b85684094c0441c7479caec77d292cace50220ef74c39f22352d3b2bc71f",
       "analysis_zh": {
-        "positioning": "面向内部单租户团队的开源智能体优先 CRM，以持续研究智能体为核心、数据库为其记录载体。",
-        "implementation": "采用 monorepo、NestJS 事件 API 和数据库任务队列；智能体按租约领取任务并在 durable session 中执行。通过证据账本区分强事实与待确认建议，沙箱默认禁止网络和数据库访问。",
-        "problems_solved": "替代人工查找客户事实、录入联系人和安排复查的流程，避免给传统 CRM 外挂聊天框，并降低模型猜错客户信息的风险。",
-        "capabilities": "持续研究联系人与公司；基于证据写入事实或提出建议；自动安排复查并展示原因；持久化会话、任务租约与 Agent 操作轨迹",
-        "use_cases": "适合希望自托管、由智能体持续补全销售资料并保留人工裁决环节的内部团队。",
-        "considerations": "MIT 许可证；单租户且所有获准用户可见全部数据；Google 登录与环境变量白名单；外部数据源可选。"
+        "positioning": "面向内部团队的开源、单租户、智能体优先 CRM，以持续研究智能体维护客户记录。",
+        "implementation": "NestJS API 仅把事件写入任务队列，独立持久化智能体按租约领取任务、调用工具并依据证据账本写入事实或生成建议；队列用 FOR UPDATE SKIP LOCKED，沙箱默认无网络和数据库凭证。",
+        "problems_solved": "替代人工查找客户事实并录入 CRM 的流程，让后台研究在关闭浏览器后继续，同时降低模型猜测身份和错误覆盖客户资料的风险。",
+        "capabilities": "自动研究联系人和公司并安排复查；从邮件线程、会议与签名提取证据；按证据强度写入事实或提交人工裁决；展示智能体步骤、弃用线索和待回答问题",
+        "use_cases": "适合希望自托管、让智能体持续维护联系人、公司和商机资料的内部销售团队。",
+        "considerations": "MIT 许可；单租户且所有获准用户可见全部数据，Google 登录仅靠环境变量白名单；生产部署与密钥要求需详查文档。"
+      }
+    },
+    "tw93/Mole": {
+      "source": "🐹 Clean, uninstall, analyze, optimize, and monitor your Mac from the terminal.",
+      "zh": "在终端中清理、卸载、分析、优化和监控 Mac",
+      "analysis_source": "346726a124f834abe144ade63817f9dacb979e131b082949a381cebb96f50a80",
+      "analysis_zh": {
+        "positioning": "面向 macOS 用户的终端系统维护工具，集清理、卸载、磁盘分析、优化和性能监控于一体。",
+        "implementation": "以 Shell 工具提供交互式 CLI 与 JSON 输出；通过路径校验、受保护目录、保守清理边界、确认机制和操作日志控制风险，分析模式可经 Finder 将所选文件移至废纸篓。",
+        "problems_solved": "替代多个独立清理、卸载、磁盘分析和监控工具，查找缓存、残留、大文件及构建产物，同时降低误删风险。",
+        "capabilities": "清理缓存、日志和应用残留；卸载应用及关联项；分析磁盘和项目构建产物；实时监控 CPU、GPU、内存、磁盘及网络",
+        "use_cases": "适合 Mac 用户和开发者释放空间、清除卸载残留、排查大文件、维护系统并通过 JSON 接入脚本。",
+        "considerations": "主要面向 macOS，Homebrew 路径建议 macOS 14+；部分操作会永久删除，需先 dry-run；Windows 版为实验性；GPL-3.0。"
+      }
+    },
+    "uber/ADR": {
+      "source": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
+      "zh": "通过可观测性、安全基准测试和威胁检测保护企业 AI 智能体",
+      "analysis_source": "aa3cb67574fc03c330336898dabed5d38f2c8e1816b35f760b99e32412a14a78",
+      "analysis_zh": {
+        "positioning": "面向企业安全团队的 AI 智能体检测与响应系统，覆盖可观测性、安全评测和威胁检测。",
+        "implementation": "Sensor 跨多种编码工具采集并标准化意图、工具调用和执行轨迹；ADR Bench 提供 303 项任务和 133 个 MCP 服务器；Detector 以高召回分流结合深度智能体推理分析可疑会话。",
+        "problems_solved": "帮助企业看清智能体行为、在真实企业场景验证防御并发现提示注入等高风险活动，降低员工与客户侧智能体的安全盲区。",
+        "capabilities": "采集并统一多平台智能体遥测；用覆盖 17 类攻击技术的基准评测防御；以双层检测架构识别风险会话；复现实验检测结果和论文图表",
+        "use_cases": "适合部署 Cursor、Claude Code、Codex、内部自动化或客服智能体的企业安全与红队团队。",
+        "considerations": "Apache-2.0 许可，部分 vendored 代码为 MIT；开源版不含预防组件和离线 ADR Explorer，基准含合成凭据与攻击场景。"
       }
     },
     "ultraworkers/claw-code": {
@@ -1222,27 +1532,40 @@
     "usekaneo/kaneo": {
       "source": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
       "zh": "简洁实用、以用户为中心的开源项目管理工具",
-      "analysis_source": "50c38729b58528083ae4d6a59107c0813b292039e23402e7b59c87044af4cff5",
+      "analysis_source": "ddc67fcd883447610102d873960d945b6a89656e51931f6239599279f9819c6b",
       "analysis_zh": {
-        "positioning": "面向产品与研发团队的轻量开源项目管理工具，主打简洁界面、高性能与数据自主管理。",
-        "implementation": "采用 TypeScript、React 与 Hono；可通过单容器 Docker Compose 搭配 PostgreSQL 部署，也提供分离的 API/Web 镜像、Kubernetes Helm chart 和自动 HTTPS 部署工具。",
-        "problems_solved": "替代功能臃肿、通知繁杂和流程复杂的项目管理平台，减少团队适应工具及维护不必要工作流的成本。",
-        "capabilities": "项目与问题跟踪；看板式工作管理；自托管并掌控数据；支持 Docker Compose、独立镜像和 Kubernetes 部署",
-        "use_cases": "适合希望以清爽工作流管理产品开发、任务和问题，并需要自托管或替代 Jira、Linear 的团队。",
-        "considerations": "MIT 许可；部署需配置 PostgreSQL、AUTHSECRET、客户端 URL 等环境变量；生产配置、TLS 和故障排查应核对官方文档。"
+        "positioning": "面向产品团队的简洁、快速、可自托管开源项目与 Issue 管理工具。",
+        "implementation": "TypeScript 项目采用 React 与 Hono；可用单容器 Docker Compose 搭配 PostgreSQL 部署，也提供独立 API/Web 镜像、Helm Chart 和内置 HTTP MCP 端点。",
+        "problems_solved": "替代功能臃肿、通知和复杂流程过多的项目管理平台，让团队保有数据控制权并减少工具本身造成的干扰。",
+        "capabilities": "管理项目、任务、Issue 和标签；提供聚焦工作的简洁界面；支持 Docker Compose 与 Kubernetes 自托管；通过 MCP 让 AI 客户端管理项目数据",
+        "use_cases": "适合希望用轻量看板或 Issue 工作流协作，并要求自托管和 AI 工具接入的产品团队。",
+        "considerations": "MIT 许可；部署需 PostgreSQL，并配置数据库密码、AUTHSECRET、客户端 URL 等环境变量。"
       }
     },
     "virgiliojr94/book-to-skill": {
       "source": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
       "zh": "将技术书籍 PDF 转为可供 Claude Code 学习、查阅和使用的技能",
-      "analysis_source": "cba32718300cfb0b58b3e07a0095e65dde33910c9978973893b70f8184a527ce",
+      "analysis_source": "197a303b3dbf9c10cb91b45ae938e187f492be95cc3dc63f66f84c63376c53d4",
       "analysis_zh": {
-        "positioning": "把技术书籍及结构化文档转成可按需加载的代理技能，供 Copilot CLI、Amp 或 Claude Code 查阅使用。",
-        "implementation": "从文件、目录或 glob 提取内容，生成 SKILL.md、分章文件、术语表、模式集和速查表；章节按需载入。不同格式按顺序选择 pdftotext、Docling、pypdf 等可用提取器。",
-        "problems_solved": "替代反复翻阅、只做 PDF 关键词搜索或把整本书塞入上下文的流程，降低上下文 token 消耗，并让代理依据原始章节回答。",
-        "capabilities": "处理 PDF、EPUB、DOCX、HTML、RTF、MOBI 和纯文本等格式；自动提炼框架、决策规则与反模式；按章节延迟加载；合并书籍、内部文档、论文或规范",
-        "use_cases": "适合开发者把常查技术书、内部文档、设计规范、研究资料和 RFC 转为编码过程中可调用的知识技能。",
-        "considerations": "MIT 许可；Python 环境下不同格式可能需 Poppler、Docling、Calibre 等依赖；章节自动识别依赖明确的章节标题。"
+        "positioning": "将技术书籍、文档目录或多份资料转换为智能体可按需读取的结构化 Skill。",
+        "implementation": "由确定性 Python 提取器清洗文本和元数据，再按 SKILL.md 规范生成核心模型、章节文件、术语表、模式与速查表；章节按需加载，并依格式选择 pdftotext、Docling 等提取器。",
+        "problems_solved": "把反复搜索 PDF、重读目录和整书塞入上下文的流程改为一次结构化、按主题调用，减少查询 Token 消耗和内容幻觉。",
+        "capabilities": "处理单文件、目录、glob 或多来源集合；生成章节索引、术语表、模式库和速查表；支持分析、生成、更新及合并模式；兼容多种文档格式和 Skill 主机",
+        "use_cases": "适合将技术书、内部文档、设计规范、论文集、RFC 或 API 合同纳入编码智能体工作流。",
+        "considerations": "MIT 许可，本地处理且不附带书籍内容；不同格式可能需要 Poppler、Docling、Calibre 或 Python 可选依赖。"
+      }
+    },
+    "webpack/webpack": {
+      "source": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+      "zh": "支持代码分割和多种模块类型的 JavaScript 模块打包器",
+      "analysis_source": "9f25fadc346c73a3817067395e2cd6bcf58b1d7f7dfb7f2ea966b3a3347ad379",
+      "analysis_zh": {
+        "positioning": "面向 Web 开发者的 JavaScript 模块打包器，也可转换、打包和封装多类静态资源。",
+        "implementation": "编译期解析 CommonJS、AMD、ES6/ESM 等依赖，通过 loaders 预处理 TypeScript、CSS、图片和模板等资源，并以插件系统扩展构建流程，输出单包或异步 chunks。",
+        "problems_solved": "统一异构模块和静态资源的构建流程，减少浏览器运行时依赖解析开销，并通过代码分割降低首次加载量。",
+        "capabilities": "多模块规范打包；按需加载与代码分割；Loader 资源预处理；模块化插件扩展",
+        "use_cases": "适合需要定制构建流程、处理多种资源类型或进行异步代码拆分的浏览器应用项目。",
+        "considerations": "通过 npm 或 yarn 安装；旧浏览器使用 import() 等能力时可能需要 Promise polyfill；采用 MIT 许可证。"
       }
     },
     "x1xhlol/system-prompts-and-models-of-ai-tools": {
@@ -1272,14 +1595,14 @@
       }
     },
     "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer": {
-      "analysis_source": "8c6db4bf67602bd639447d0cdc406f5f34c68c81cae057ede21c6c8ed6399ee7",
+      "analysis_source": "b10dd0b7d28642dae9acd41ba8c7c4c1071bcd1e8e6246673490e7f8834b3d21",
       "analysis_zh": {
-        "positioning": "面向转型工程师、AI 创业者和企业交付人员的中文 FDE 入门与客户价值交付指南。",
-        "implementation": "基于一手材料、招聘信息、行业分析及实践者经验，按找问题、赢客户、部署、续约、扩收和规模化复制组织章节，并汇编 112 个案例与出处索引。",
-        "problems_solved": "系统解释 FDE 的职责和完整交付路径，减少读者理解岗位、规划转型及探索企业 AI 落地所需的检索成本。",
-        "capabilities": "解释 FDE 起源与岗位定义；梳理端到端客户交付方法；汇总 112 个案例；提供指标、职业道德和资料出处",
-        "use_cases": "适合考虑转型 FDE 的工程师，以及研究企业 AI 落地、客户成功和规模化交付的创业者。",
-        "considerations": "项目为阅读资料而非软件；仅授权免费阅读与非商业分享，商业使用须获作者书面许可。"
+        "positioning": "面向转型工程师、企业 AI 创业者和实践者的 FDE 入门与客户价值交付指南。",
+        "implementation": "以章节 Markdown 和整本合并版组织内容，基于一手材料、招聘信息、行业分析及国内实践，覆盖交付全流程，并收录112个案例及出处索引。",
+        "problems_solved": "帮助读者系统理解 FDE 的定义、工作方法和行业实践，减少分散检索资料及误将其等同传统售前的认知成本。",
+        "capabilities": "解释 FDE 起源与角色；拆解获客、部署、续约和扩张流程；汇总112个案例；提供指标、人物与资料出处",
+        "use_cases": "适合考虑转型的工程师、企业 AI 团队及创业者用于岗位认知、交付方法学习和案例研究。",
+        "considerations": "未标注开源许可证；仅允许免费阅读和非商业分享，商业使用须获作者书面许可。"
       }
     },
     "yc-software/qm": {
