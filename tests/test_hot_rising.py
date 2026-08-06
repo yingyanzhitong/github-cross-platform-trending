@@ -7,7 +7,7 @@ from datetime import date
 from pathlib import Path
 from unittest.mock import patch
 
-from github_hot_rising.collector import render_report
+from github_hot_rising.collector import _history_delta, render_report
 from github_hot_rising.validator import validate
 
 
@@ -41,6 +41,19 @@ def item(rank: int, *, is_new: bool) -> dict[str, object]:
 
 
 class HotRisingReportTests(unittest.TestCase):
+    def test_history_delta_requires_exact_observation_window(self) -> None:
+        history = {
+            "2026-08-04": {"owner/repo": 100},
+            "2026-08-05": {"other/repo": 200},
+        }
+
+        delta, growth = _history_delta(
+            history, "owner/repo", 130, date(2026, 8, 6), 1
+        )
+
+        self.assertIsNone(delta)
+        self.assertIsNone(growth)
+
     def test_report_uses_distinct_title_and_bidirectional_anchors(self) -> None:
         payload = {
             "date": "2026-08-04",

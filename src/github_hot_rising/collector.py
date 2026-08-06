@@ -147,17 +147,10 @@ def _history_delta(
     days: int,
 ) -> tuple[int | None, float | None]:
     target = today - timedelta(days=days)
-    eligible: list[tuple[date, int]] = []
-    for stamp, snapshot in history.items():
-        try:
-            stamp_date = date.fromisoformat(stamp)
-        except ValueError:
-            continue
-        if stamp_date <= target and full_name in snapshot:
-            eligible.append((stamp_date, int(snapshot[full_name])))
-    if not eligible:
+    snapshot = history.get(target.isoformat(), {})
+    if full_name not in snapshot:
         return None, None
-    _, previous = max(eligible, key=lambda row: row[0])
+    previous = int(snapshot[full_name])
     delta = stars - previous
     return delta, (delta / previous if previous else None)
 
