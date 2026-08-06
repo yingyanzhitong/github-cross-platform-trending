@@ -71,7 +71,7 @@ function MarkdownLink({ href, children, ...props }: ComponentProps<"a">) {
 const markdownComponents = {
   a: ({ node: _node, ...props }) => <MarkdownLink {...props} />,
   table: ({ node: _node, ...props }) => (
-    <Table className="report-table min-w-[1280px]" {...props} />
+    <Table className="report-table min-w-[100rem]" {...props} />
   ),
   thead: ({ node: _node, ...props }) => <TableHeader {...props} />,
   tbody: ({ node: _node, ...props }) => <TableBody {...props} />,
