@@ -420,8 +420,11 @@ def analyze(
     translator.enrich(prepared)
     for item in prepared:
         item["analysis_summary_zh"] = _analysis_summary(item)
-        if not item["analysis_summary_zh"]:
-            raise RuntimeError(f"{item['full_name']} 的中文简介不完整")
+        summary_length = len(item["analysis_summary_zh"])
+        if not 200 <= summary_length <= 500:
+            raise RuntimeError(
+                f"{item['full_name']} 的中文简介为 {summary_length} 字，不在 200–500 字范围内"
+            )
         item.pop("latest_release", None)
         item["name"] = item.pop("repository_name")
     return prepared, attempted, warnings
@@ -432,7 +435,7 @@ def _escape_table(value: Any) -> str:
 
 
 def _analysis_summary(item: dict[str, Any]) -> str:
-    """将 README 分析整理为项目详情中可直接阅读的一段简介。"""
+    """将 README 分析整理为约 200–500 字、可直接阅读的一段简介。"""
     summary = str(item.get("analysis_summary_zh") or "").strip()
     if summary:
         return summary
@@ -441,14 +444,24 @@ def _analysis_summary(item: dict[str, Any]) -> str:
     description = str(item.get("description_zh") or "").strip()
     positioning = str(analysis.get("positioning") or "").strip()
     implementation = str(analysis.get("implementation") or "").strip()
+    problems_solved = str(analysis.get("problems_solved") or "").strip()
+    capabilities = str(analysis.get("capabilities") or "").strip()
     use_cases = str(analysis.get("use_cases") or "").strip()
+    considerations = str(analysis.get("considerations") or "").strip()
     lead = description or positioning
     parts = [lead.rstrip("。；； ")]
     if implementation:
         parts.append(f"README 显示，{implementation.rstrip('。；； ')}")
+    if problems_solved:
+        parts.append(f"该项目希望{problems_solved.rstrip('。；； ')}")
+    if capabilities:
+        parts.append(f"能力覆盖{capabilities.rstrip('。；； ')}")
     if use_cases:
         parts.append(use_cases.rstrip("。；； "))
-    return "。".join(part for part in parts if part) + ("。" if parts else "")
+    if considerations:
+        parts.append(f"使用前还应留意{considerations.rstrip('。；； ')}")
+    summary = "。".join(part for part in parts if part) + ("。" if parts else "")
+    return summary[:500].rsplit("。", 1)[0] + "。" if len(summary) > 500 else summary
 
 
 def render_report(payload: dict[str, Any]) -> str:

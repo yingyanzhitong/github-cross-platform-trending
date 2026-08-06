@@ -37,7 +37,7 @@ def item(rank: int, *, is_new: bool) -> dict[str, object]:
         "pushed_at": "2026-08-04T00:00:00Z",
         "is_new": is_new,
         "analysis_zh": ANALYSIS,
-        "analysis_summary_zh": "这是用于验证热门增长榜的示例仓库。README 显示，它通过明确的数据结构和报告渲染函数生成日报，适合验证日报生成与页面展示流程。",
+        "analysis_summary_zh": "这是用于验证热门增长榜的示例仓库。README 显示，它通过明确的数据结构和报告渲染函数生成日报，并保留可定位的项目详情与热度证据。该项目希望减少日报生成和页面检查中分散处理数据的成本。能力覆盖结构化数据生成、可定位 Markdown 报告、详情锚点和热度证据展示。适合验证日报生成、数据校验、页面构建和发布流程。使用前还应留意测试数据不代表真实 GitHub 热度，实际运行仍需使用可靠的仓库来源和快照数据。",
     }
 
 
@@ -84,6 +84,8 @@ class HotRisingReportTests(unittest.TestCase):
             details.index(f'project-detail-{rank}') for rank in (1, 2, 3, 4)
         ]
         self.assertEqual(detail_positions, sorted(detail_positions))
+        self.assertGreaterEqual(len(item(1, is_new=True)["analysis_summary_zh"]), 200)
+        self.assertLessEqual(len(item(1, is_new=True)["analysis_summary_zh"]), 500)
 
     def test_validator_checks_namespaced_latest_files(self) -> None:
         target = date(2026, 8, 4)

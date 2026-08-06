@@ -35,6 +35,10 @@ def validate(target: date, *, expected_count: int = 100) -> dict[str, int]:
         summary = str(item.get("analysis_summary_zh") or "")
         if not summary or not re.search(r"[\u4e00-\u9fff]", summary):
             raise AssertionError(f"{item['full_name']} 中文简介不完整")
+        if not 200 <= len(summary) <= 500:
+            raise AssertionError(
+                f"{item['full_name']} 中文简介为 {len(summary)} 字，不在 200–500 字范围内"
+            )
 
     checks = {
         "rows": len(re.findall(r'<a id="project-row-\d+"></a>', report)),
