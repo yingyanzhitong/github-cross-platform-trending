@@ -109,7 +109,10 @@ def render_markdown(
                 "|:---:|:---:|---|---|---|---:|---|---|",
             ]
         )
-        for item in software:
+        for item in sorted(
+            software,
+            key=lambda candidate: not bool(candidate.get("is_new")),
+        ):
             description_zh = item.get("description_zh") or item["description"]
             macos = _installer_links(item, "macos", limit=2, separator="、")
             windows = _installer_links(item, "windows", limit=2, separator="、")

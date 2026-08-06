@@ -474,7 +474,10 @@ def render_report(payload: dict[str, Any]) -> str:
         "| 详情 ↘️ | 新增 | 仓库 | 中文简介 | 趋势类型 | 热度/增长证据 | Stars | 主要语言 | 最近推送时间 |",
         "|---:|:---:|---|---|---|---|---:|---|---|",
     ]
-    for item in items:
+    for item in sorted(
+        items,
+        key=lambda candidate: not bool(candidate.get("is_new")),
+    ):
         marker = "🟢" if item["is_new"] else ""
         evidence = "；".join(item["evidence"])
         lines.append(

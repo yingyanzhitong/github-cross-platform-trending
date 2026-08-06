@@ -60,7 +60,12 @@ class HotRisingReportTests(unittest.TestCase):
             "date": "2026-08-04",
             "collected_at": "2026-08-04T09:00:00+08:00",
             "metadata": {"candidate_count": 500, "analyzed_count": 2},
-            "items": [item(1, is_new=True), item(2, is_new=False)],
+            "items": [
+                item(1, is_new=False),
+                item(2, is_new=True),
+                item(3, is_new=False),
+                item(4, is_new=True),
+            ],
         }
 
         report = render_report(payload)
@@ -68,10 +73,17 @@ class HotRisingReportTests(unittest.TestCase):
         self.assertIn("# GitHub 热门增长仓库榜单", report)
         self.assertIn('[#1 ↘️](#project-detail-1)', report)
         self.assertIn('[↖️ 返回表格中的 #1](#project-row-1)', report)
-        self.assertEqual(report.count("🟢"), 2)
+        self.assertEqual(report.count("🟢"), 4)
         self.assertNotIn("NEW", report)
         self.assertIn("这是用于验证热门增长榜的示例仓库。", report)
         self.assertNotIn("**项目是做什么的**", report)
+        table, details = report.split("\n## 项目详情", 1)
+        table_positions = [table.index(f'project-row-{rank}') for rank in (2, 4, 1, 3)]
+        self.assertEqual(table_positions, sorted(table_positions))
+        detail_positions = [
+            details.index(f'project-detail-{rank}') for rank in (1, 2, 3, 4)
+        ]
+        self.assertEqual(detail_positions, sorted(detail_positions))
 
     def test_validator_checks_namespaced_latest_files(self) -> None:
         target = date(2026, 8, 4)

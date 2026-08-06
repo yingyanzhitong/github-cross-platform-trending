@@ -56,6 +56,20 @@ def validate(target: date, *, expected_count: int = 100) -> dict[str, int]:
     expected_new = sum(bool(item.get("is_new")) for item in items)
     if report.count("🟢") != expected_new * 2:
         raise AssertionError("绿色新增标识与最近 7 天历史不一致")
+    table = report.split("\n## 项目详情", 1)[0]
+    table_ranks = [
+        int(rank)
+        for rank in re.findall(r'<a id="project-row-(\d+)"></a>', table)
+    ]
+    expected_ranks = [
+        int(item["rank"])
+        for item in sorted(
+            items,
+            key=lambda candidate: not bool(candidate.get("is_new")),
+        )
+    ]
+    if table_ranks != expected_ranks:
+        raise AssertionError("表格未将新增项目置顶或改变了原有稳定顺序")
     return {
         "items": expected_count,
         "details": checks["details"],

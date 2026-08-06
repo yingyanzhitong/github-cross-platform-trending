@@ -4,11 +4,60 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from cross_platform_trending.report import mark_new_projects, render_markdown
 
 
 class RenderMarkdownTests(unittest.TestCase):
+    def test_table_lists_new_projects_first_without_changing_detail_order(self) -> None:
+        def table_item(rank: int, *, is_new: bool) -> dict[str, object]:
+            return {
+                "rank": rank,
+                "name": f"owner/repo-{rank}",
+                "url": f"https://github.com/owner/repo-{rank}",
+                "description": "示例桌面应用",
+                "description_zh": "示例桌面应用。",
+                "stars": 1000 + rank,
+                "forks": rank,
+                "language": "Rust",
+                "topics": [],
+                "platform_evidence": {"macos": [], "windows": []},
+                "pushed_at": "2026-08-06T00:00:00Z",
+                "is_new": is_new,
+            }
+
+        software = [
+            table_item(1, is_new=False),
+            table_item(2, is_new=True),
+            table_item(3, is_new=False),
+            table_item(4, is_new=True),
+        ]
+        with (
+            patch(
+                "cross_platform_trending.report._installer_links",
+                return_value="安装包",
+            ),
+            patch(
+                "cross_platform_trending.report._heat",
+                return_value="近期活跃热门仓库",
+            ),
+        ):
+            markdown = render_markdown(
+                "2026-08-06",
+                software,
+                {"candidate_count": 4, "warnings": []},
+                "2026-08-06T08:30:00+08:00",
+            )
+
+        table, details = markdown.split("\n## 项目详情", 1)
+        table_positions = [table.index(f'project-row-{rank}') for rank in (2, 4, 1, 3)]
+        self.assertEqual(table_positions, sorted(table_positions))
+        detail_positions = [
+            details.index(f'project-detail-{rank}') for rank in (1, 2, 3, 4)
+        ]
+        self.assertEqual(detail_positions, sorted(detail_positions))
+
     def test_renders_repository_and_evidence(self) -> None:
         software = [
             {
