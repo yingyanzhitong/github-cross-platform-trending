@@ -59,11 +59,13 @@ export function scrollToAnchor(anchor: string, updateHistory = true) {
   if (updateHistory) {
     history.pushState(history.state, "", `#${id}`)
   }
-  const scrollPaddingTop =
-    Number.parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) || 0
-  window.scrollTo({
-    top: window.scrollY + target.getBoundingClientRect().top - scrollPaddingTop,
-    behavior: "smooth",
+  window.requestAnimationFrame(() => {
+    const scrollPaddingTop =
+      Number.parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) || 0
+    window.scrollTo({
+      top: window.scrollY + target.getBoundingClientRect().top - scrollPaddingTop,
+      behavior: "smooth",
+    })
   })
   return true
 }
