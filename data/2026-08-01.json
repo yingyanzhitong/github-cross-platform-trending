@@ -67,7 +67,8 @@
         "use_cases": "适合同时使用多个编码智能体，并需频繁切换模型或 API 服务的开发者。",
         "considerations": "MIT 许可；官方站点仅为 ccswitch.io；具体系统支持、凭据存储方式及完整功能需核对文档。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向多种编码智能体用户的跨平台桌面统一管理与配置切换工具。README 显示，以 Rust 和 Tauri 构建桌面应用，统一管理 Claude Code、Codex、Gemini CLI、OpenCode、OpenClaw、Grok Build 与 Hermes Agent 等工具的模型和服务配置。该项目希望减少在多个智能体工具之间分别配置模型、API 服务和切换供应商的重复操作。能力覆盖统一管理多种编码智能体；切换模型及服务配置；支持 MCP 相关集成；提供跨平台桌面界面。适合同时使用多个编码智能体，并需频繁切换模型或 API 服务的开发者。使用前还应留意MIT 许可；官方站点仅为 ccswitch.io；具体系统支持、凭据存储方式及完整功能需核对文档。"
     },
     {
       "name": "rustdesk/rustdesk",
@@ -131,7 +132,8 @@
         "use_cases": "IT支持、远程办公、个人远程访问等场景的远程桌面控制。",
         "considerations": "基于Rust开发；AGPL-3.0许可证；支持自建中继服务器；建议核对项目文档了解部署细节和安全配置。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "开源自托管远程桌面解决方案，面向需要安全自主远程控制的个人和企业用户。README 显示，采用Rust语言开发，利用P2P技术实现远程桌面连接，支持多平台客户端，提供自托管服务器选项，GUI基于Flutter或Sciter实现。该项目希望替代闭源远程桌面软件，保障数据安全和隐私，降低远程控制成本和依赖。能力覆盖支持远程桌面控制；P2P连接；跨平台支持Windows、macOS、Linux、Android、iOS；开源自托管；支持Flutter和Sciter GUI。IT支持、远程办公、个人远程访问等场景的远程桌面控制。使用前还应留意基于Rust开发；AGPL-3.0许可证；支持自建中继服务器；建议核对项目文档了解部署细节和安全配置。"
     },
     {
       "name": "OpenHands/OpenHands",
@@ -182,7 +184,8 @@
         "use_cases": "适合个人开发者和工程团队自托管常驻智能体，用于编码对话、任务自动化及跨服务工程工作流。",
         "considerations": "可本机或服务器自托管，也可选用官方云或企业设施；第三方智能体、LLM及外部集成可能需要各自配置；MIT 许可。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向开发者与工程团队的自托管编码智能体控制中心，用于统一运行和管理多种智能体。README 显示，默认在本机运行 Agent Canvas，也可连接 Docker、虚拟机、企业基础设施、OpenHands Cloud 或 Enterprise 后端；通过 ACP 接入 OpenHands、Claude Code、Codex、Gemini 等智能体，并以定时任务或 Webhook 触发自动化。该项目希望统一分散的编码智能体及运行后端，减少在本地、远程和云环境间切换的成本，并自动处理报告发布、GitHub Issue 拆解等日常工程任务。能力覆盖统一运行多种 ACP 编码智能体；切换本地、远程及云端后端；通过定时或 Webhook 编排自动化；集成 Slack、GitHub、Linear、Notion 等服务。适合个人开发者和工程团队自托管常驻智能体，用于编码对话、任务自动化及跨服务工程工作流。使用前还应留意可本机或服务器自托管，也可选用官方云或企业设施；第三方智能体、LLM及外部集成可能需要各自配置；MIT 许可。"
     },
     {
       "name": "nexu-io/open-design",
@@ -245,7 +248,8 @@
         "use_cases": "设计师、产品经理及团队进行原型设计、仪表盘制作和多媒体内容创作。",
         "considerations": "基于TypeScript开发；Apache-2.0许可证；依赖多AI模型服务；建议核对项目文档了解具体功能和部署要求。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "本地优先开源设计工具，面向需要AI辅助设计和多格式导出的设计师和团队。README 显示，采用TypeScript构建本地优先桌面应用，集成Claude Code、Codex、Cursor等20+ AI模型及CLI，支持设计技能组合和插件，输出多格式设计文件。该项目希望替代闭源设计软件，实现AI驱动设计自动化，支持多格式导出和本地数据控制。能力覆盖支持设计原型、仪表盘、幻灯片、图像和视频生成；本地优先桌面应用；支持多种导出格式（HTML、PDF、PPTX、MP4）；集成多种AI模型和CLI工具；支持设计系统和插件扩展。设计师、产品经理及团队进行原型设计、仪表盘制作和多媒体内容创作。使用前还应留意基于TypeScript开发；Apache-2.0许可证；依赖多AI模型服务；建议核对项目文档了解具体功能和部署要求。"
     },
     {
       "name": "toeverything/AFFiNE",
@@ -308,7 +312,8 @@
         "use_cases": "适合个人和团队知识管理、创意规划和实时协作，支持自托管和跨平台使用。",
         "considerations": "许可证为NOASSERTION，需核对具体授权；依赖TypeScript和Rust技术栈；支持本地和云端部署；项目活跃。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "隐私优先的开源下一代知识库平台，面向知识管理和创意工作者。README 显示，基于TypeScript和Rust开发，融合文档编辑、白板绘制和数据库管理，支持本地优先和实时协作，集成AI辅助功能，支持跨平台客户端和自托管部署。该项目希望整合笔记、白板和数据库功能，保护用户隐私，支持实时协作，替代Notion和Miro，提升知识管理效率。能力覆盖支持文档、白板、数据库多种内容融合；支持实时协作和本地优先数据存储；集成多模态AI辅助创作；支持跨平台（Electron客户端）；支持自托管和高度定制。适合个人和团队知识管理、创意规划和实时协作，支持自托管和跨平台使用。使用前还应留意许可证为NOASSERTION，需核对具体授权；依赖TypeScript和Rust技术栈；支持本地和云端部署；项目活跃。"
     },
     {
       "name": "Eugeny/tabby",
@@ -357,7 +362,8 @@
         "use_cases": "适合系统管理员、开发者，管理远程环境和串口设备，支持多协议连接和多任务操作。",
         "considerations": "MIT许可证；支持桌面和Web应用；依赖现代操作系统环境；项目成熟，持续更新。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "现代化终端工具，面向需要多协议终端和高可定制性的用户。README 显示，使用TypeScript开发，提供高度可配置的终端仿真器，集成SSH、Telnet和串口连接管理，支持多标签和分屏，支持多种Shell环境，支持插件和主题扩展。该项目希望替代传统终端和SSH客户端，提供统一多协议支持，提升远程管理效率，支持多平台和多语言环境。能力覆盖集成SSH、Telnet和串口客户端；支持多平台（Windows、macOS、Linux）；支持多标签页和分屏；支持主题和快捷键自定义；支持Zmodem文件传输；支持Unicode和多语言。适合系统管理员、开发者，管理远程环境和串口设备，支持多协议连接和多任务操作。使用前还应留意MIT许可证；支持桌面和Web应用；依赖现代操作系统环境；项目成熟，持续更新。"
     },
     {
       "name": "laurent22/joplin",
@@ -419,7 +425,8 @@
         "use_cases": "适合需要跨设备同步和隐私保护的个人用户和团队笔记管理。",
         "considerations": "许可证为NOASSERTION，需核对具体授权；依赖TypeScript和Electron；支持多云同步服务；项目活跃。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "支持多平台同步的隐私笔记应用，面向个人和团队用户。README 显示，基于TypeScript和Electron开发，支持Markdown笔记编辑和管理，提供端到端加密同步，支持多平台客户端和浏览器剪辑扩展。该项目希望保护笔记隐私，支持多设备同步，替代Evernote，提升笔记管理和访问便捷性。能力覆盖支持Markdown格式笔记；支持多平台同步（Windows、macOS、Linux、Android、iOS）；支持端到端加密同步；支持导入Evernote笔记；支持插件和主题扩展；提供网页剪辑器。适合需要跨设备同步和隐私保护的个人用户和团队笔记管理。使用前还应留意许可证为NOASSERTION，需核对具体授权；依赖TypeScript和Electron；支持多云同步服务；项目活跃。"
     },
     {
       "name": "PowerShell/PowerShell",
@@ -473,7 +480,8 @@
         "use_cases": "适合系统管理员、开发者进行自动化运维、脚本开发和数据处理。",
         "considerations": "MIT许可证；需依赖.NET Core环境；项目成熟且由微软维护；支持多平台安装和升级。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台命令行自动化工具，面向系统管理员和开发者。README 显示，使用C开发，基于.NET Core框架，提供跨平台命令行界面和脚本语言，支持丰富的自动化命令和模块，优化结构化数据处理和API交互。该项目希望统一多平台自动化脚本环境，简化系统管理和数据处理，提升跨平台运维效率。能力覆盖跨平台支持Windows、Linux、macOS；支持命令行和脚本自动化；支持处理结构化数据（JSON、CSV、XML）；集成丰富的cmdlet和模块；支持REST API交互。适合系统管理员、开发者进行自动化运维、脚本开发和数据处理。使用前还应留意MIT许可证；需依赖.NET Core环境；项目成熟且由微软维护；支持多平台安装和升级。"
     },
     {
       "name": "WerWolv/ImHex",
@@ -538,7 +546,8 @@
         "use_cases": "逆向工程、二进制分析、程序调试、数据恢复等场景的专业用户。",
         "considerations": "GPL-2.0开源许可；依赖C++和Dear ImGui库；适合逆向工程和二进制分析；最新版本2025年发布；建议查看官方文档了解详细功能和使用方法"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向逆向工程师和程序员的高效十六进制编辑器，适合夜间长时间工作保护视力。README 显示，基于C++开发，采用Dear ImGui图形界面库实现交互，支持模式语言解析文件结构，内置多种数据类型和编码解析，支持书签、查找、数据处理器等功能，支持多平台运行。该项目希望解决传统十六进制编辑器功能单一、操作复杂、视觉疲劳等问题，提升二进制文件分析和编辑效率。能力覆盖十六进制查看与编辑；模式匹配与数据解析；多种数据类型显示；内置多编码支持；自定义高亮规则；无限撤销重做；数据处理与解密；支持多种编程语言数组格式复制。逆向工程、二进制分析、程序调试、数据恢复等场景的专业用户。使用前还应留意GPL-2.0开源许可；依赖C++和Dear ImGui库；适合逆向工程和二进制分析；最新版本2025年发布；建议查看官方文档了解详细功能和使用方法。"
     },
     {
       "name": "usebruno/bruno",
@@ -598,7 +607,8 @@
         "use_cases": "API开发测试、自动化测试、团队协作管理API请求的开发者和测试人员。",
         "considerations": "MIT开源许可；无云同步，数据完全本地存储；依赖JavaScript环境；最新版本2026年发布；建议核对官方文档了解安装和使用细节"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向开发者的轻量级开源API测试和探索IDE，替代Postman和Insomnia。README 显示，使用JavaScript开发，采用本地文件夹存储API请求集合，利用自定义Bru标记语言保存请求信息，支持CLI命令行工具，支持多平台安装和运行。该项目希望解决传统API测试工具臃肿、云端隐私风险和协作不便，提供本地存储和Git协作方案。能力覆盖多平台支持；基于文件系统存储API集合；支持Git版本控制协作；命令行接口支持自动化测试和CI/CD；支持REST和GraphQL API测试；轻量级界面设计。API开发测试、自动化测试、团队协作管理API请求的开发者和测试人员。使用前还应留意MIT开源许可；无云同步，数据完全本地存储；依赖JavaScript环境；最新版本2026年发布；建议核对官方文档了解安装和使用细节。"
     },
     {
       "name": "cli/cli",
@@ -646,7 +656,8 @@
         "use_cases": "适合命令行开发、脚本自动化、GitHub Actions，以及使用编码智能体驱动 GitHub 工作流。",
         "considerations": "支持 GitHub.com、Enterprise Cloud 和 Enterprise Server 2.20+；特定 Actions 版本需自行安装；MIT 许可。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "GitHub 官方跨平台命令行工具，面向希望在终端中处理 GitHub 协作事务的开发者。README 显示，以 Go 开发，将 Pull Request、Issue 等 GitHub 概念带入 Git 与代码所在的终端；支持 macOS、Windows、Linux，可通过包管理器、预编译二进制或源码安装，GitHub 托管的 Actions Runner 已预装。该项目希望减少开发者在终端与 GitHub 网页之间切换，让代码、Git 操作及仓库协作事务集中在命令行完成。能力覆盖在终端管理 Pull Request；处理 Issue 等 GitHub 对象；支持编码智能体调用的 gh skill；适配 GitHub.com 与企业版环境。适合命令行开发、脚本自动化、GitHub Actions，以及使用编码智能体驱动 GitHub 工作流。使用前还应留意支持 GitHub.com、Enterprise Cloud 和 Enterprise Server 2.20+；特定 Actions 版本需自行安装；MIT 许可。"
     },
     {
       "name": "siyuan-note/siyuan",
@@ -709,7 +720,8 @@
         "use_cases": "个人知识管理、笔记整理、文档编辑和研究资料管理的用户。",
         "considerations": "AGPL-3.0开源许可；支持自托管部署；部分高级功能需付费会员；依赖TypeScript和Go语言；最新版本2026年发布；建议查看官方文档了解详细功能和部署方式"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向注重隐私的个人用户的自托管开源知识管理软件。README 显示，采用TypeScript和Go语言开发，基于块级内容管理和Markdown编辑，支持多种内容嵌入和导出，提供多平台客户端和Docker容器部署，支持API扩展和社区生态。该项目希望解决云端知识管理隐私风险，支持大文档编辑和多样化内容管理，提升个人知识组织效率。能力覆盖块级引用和双向链接；Markdown所见即所得编辑；支持SQL查询嵌入；支持数学公式、图表、流程图等多种内容；支持PDF注释和导出；支持多平台客户端和Docker部署；支持API和社区插件市场。个人知识管理、笔记整理、文档编辑和研究资料管理的用户。使用前还应留意AGPL-3.0开源许可；支持自托管部署；部分高级功能需付费会员；依赖TypeScript和Go语言；最新版本2026年发布；建议查看官方文档了解详细功能和部署方式。"
     },
     {
       "name": "KRTirtho/spotube",
@@ -765,7 +777,8 @@
         "use_cases": "适合需要跨平台音乐流媒体播放和自定义音乐服务插件的用户。",
         "considerations": "无明确许可证声明；支持Windows、macOS、Linux、Android平台；支持多种安装方式；建议核对官方文档确认许可证和使用限制。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向跨平台用户的开源音乐流媒体应用，支持多音乐服务插件。README 显示，基于Flutter和Dart开发，采用插件架构支持多种音乐服务，支持跨平台运行，播放控制本地化，支持时间同步歌词显示。该项目希望解决了音乐流媒体应用跨平台和多服务支持问题，避免数据收集，提升用户隐私保护。能力覆盖支持插件扩展，支持多平台（桌面和移动端）；支持多种音乐服务插件；支持本地播放控制；支持时间同步歌词；无遥测和用户数据收集。适合需要跨平台音乐流媒体播放和自定义音乐服务插件的用户。使用前还应留意无明确许可证声明；支持Windows、macOS、Linux、Android平台；支持多种安装方式；建议核对官方文档确认许可证和使用限制。"
     },
     {
       "name": "janhq/jan",
@@ -815,7 +828,8 @@
         "use_cases": "需要本地AI聊天和辅助的个人用户和开发者。",
         "considerations": "无明确开源许可声明；依赖TypeScript和Tauri框架；支持Windows、macOS和Linux；最新版本2026年发布；建议核对官方文档确认许可和使用要求"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "完全离线运行的开源ChatGPT替代品，保障用户隐私。README 显示，基于TypeScript和Tauri开发，集成本地和云端AI模型，提供本地服务器API接口，支持多平台桌面应用，注重隐私和本地数据处理。该项目希望解决云端AI服务隐私泄露和依赖问题，支持本地AI模型运行和自定义助手。能力覆盖支持本地运行多种大型语言模型（LLM）；支持OpenAI、Anthropic等云端模型接入；支持自定义AI助手创建；提供本地API兼容接口；支持模型上下文协议（MCP）；隐私优先，数据本地处理。需要本地AI聊天和辅助的个人用户和开发者。使用前还应留意无明确开源许可声明；依赖TypeScript和Tauri框架；支持Windows、macOS和Linux；最新版本2026年发布；建议核对官方文档确认许可和使用要求。"
     },
     {
       "name": "marktext/marktext",
@@ -873,7 +887,8 @@
         "use_cases": "需要高效Markdown写作的程序员、作家和文档编辑者。",
         "considerations": "MIT开源许可；依赖Electron框架；支持多平台安装；最新版本2026年发布；建议查看官方文档了解安装和使用细节"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "简洁优雅的跨平台Markdown编辑器，提升写作效率。README 显示，基于TypeScript和Electron开发，采用现代Markdown解析和渲染技术，支持多种编辑模式和主题，提供跨平台桌面应用体验。该项目希望解决Markdown编辑器功能复杂或体验差的问题，提供快速、专注的写作环境。能力覆盖实时预览（WYSIWYG）；支持CommonMark和GitHub风格Markdown；支持数学公式KaTeX；多主题和多编辑模式；跨平台支持Linux、macOS和Windows；支持图片粘贴和导出HTML/PDF。需要高效Markdown写作的程序员、作家和文档编辑者。使用前还应留意MIT开源许可；依赖Electron框架；支持多平台安装；最新版本2026年发布；建议查看官方文档了解安装和使用细节。"
     },
     {
       "name": "LizardByte/Sunshine",
@@ -935,7 +950,8 @@
         "use_cases": "适合有自托管需求的游戏玩家和服务器管理员，实现远程游戏流媒体。",
         "considerations": "采用GPL-3.0许可证；依赖硬件GPU支持；支持Docker部署；文档持续更新，硬件兼容性需核实。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "Moonlight自托管游戏流媒体服务器，面向游戏玩家和服务器管理员。README 显示，使用C++开发，支持多种GPU硬件编码技术和软件编码，提供低延迟游戏流媒体服务，支持Moonlight客户端连接，内置Web UI用于配置和配对，支持多平台部署。该项目希望提供低延迟、高性能的游戏流媒体服务，支持多硬件编码，简化游戏远程体验部署。能力覆盖支持AMD、Intel、Nvidia硬件编码及软件编码；兼容多种游戏手柄模拟；提供Web UI配置和客户端配对；支持多平台（FreeBSD、Linux、macOS、Windows）；支持多种屏幕捕获和编码API。适合有自托管需求的游戏玩家和服务器管理员，实现远程游戏流媒体。使用前还应留意采用GPL-3.0许可证；依赖硬件GPU支持；支持Docker部署；文档持续更新，硬件兼容性需核实。"
     },
     {
       "name": "TriliumNext/Trilium",
@@ -998,7 +1014,8 @@
         "use_cases": "适合个人用户和专业人士进行知识管理和笔记整理。",
         "considerations": "采用AGPL-3.0许可证；跨平台支持；支持Docker部署；文档详尽，适合个人知识库构建。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "个人知识库笔记软件，面向需要构建复杂知识体系的用户。README 显示，基于TypeScript和Electron开发，提供跨平台桌面应用，支持层级树状笔记结构，集成富文本编辑和代码编辑功能，支持安全登录和同步，支持本地和服务器端部署。该项目希望解决笔记管理混乱，支持大规模知识库构建和安全同步，提升知识管理效率。能力覆盖支持层级笔记管理和多位置克隆；富文本编辑器支持表格、图片、数学公式和代码高亮；全文搜索和笔记版本控制；支持OpenID和TOTP安全登录；支持自托管同步服务器。适合个人用户和专业人士进行知识管理和笔记整理。使用前还应留意采用AGPL-3.0许可证；跨平台支持；支持Docker部署；文档详尽，适合个人知识库构建。"
     },
     {
       "name": "tw93/Pake",
@@ -1057,7 +1074,8 @@
         "use_cases": "适合开发者和普通用户快速将网页封装为桌面应用，支持多平台使用。",
         "considerations": "采用GPL-3.0许可证；无官方主页，需参考GitHub仓库；支持多平台安装和在线构建；依赖Rust和Tauri技术栈。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "一键将任意网页转换为桌面应用，面向需要快速封装网页的用户。README 显示，使用Rust语言结合Tauri框架开发，提供命令行工具实现网页一键打包为轻量级桌面应用，支持自定义图标和窗口设置，减少Electron包体积，提升性能。该项目希望简化网页转桌面应用流程，降低包体积和资源消耗，提升应用启动速度和运行效率。能力覆盖一键将网页打包为桌面应用；支持快捷键、窗口拖拽、样式定制和广告屏蔽；跨平台支持macOS、Windows、Linux；基于Rust和Tauri框架实现高性能和低内存占用。适合开发者和普通用户快速将网页封装为桌面应用，支持多平台使用。使用前还应留意采用GPL-3.0许可证；无官方主页，需参考GitHub仓库；支持多平台安装和在线构建；依赖Rust和Tauri技术栈。"
     },
     {
       "name": "stablyai/orca",
@@ -1118,7 +1136,8 @@
         "use_cases": "适合并行试验多个编码代理、远程操控开发机或从任务直接启动 worktree 的团队与个人。",
         "considerations": "MIT 许可；使用各编码代理需自备订阅或账号；移动端、远程 SSH 与第三方集成条件需核对文档。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向并行使用多个编码智能体的开发者，提供桌面、移动端和 VPS 可用的 AI 开发环境。README 显示，每个智能体运行于独立 Git worktree，由统一界面跟踪；集成 Ghostty 级终端、Chromium 设计模式、VS Code 编辑器、SSH、GitHub、Linear及移动伴侣。该项目希望避免多智能体并行开发时的代码冲突、终端与任务分散，以及远程跟进和结果比较成本。能力覆盖并行创建隔离 worktree 并比较结果；移动端监控和追加指令；SSH 远程开发及端口转发；差异批注、审查与提交。适合并行试验多个编码代理、远程操控开发机或从任务直接启动 worktree 的团队与个人。使用前还应留意MIT 许可；使用各编码代理需自备订阅或账号；移动端、远程 SSH 与第三方集成条件需核对文档。"
     },
     {
       "name": "DayuanJiang/next-ai-draw-io",
@@ -1165,7 +1184,8 @@
         "use_cases": "适合产品经理、设计师和开发者在工作流中快速生成和修改图表。",
         "considerations": "Apache-2.0开源许可；依赖Next.js框架和多种AI模型；支持多云服务部署；建议查看官方文档了解详细部署和使用。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向需要AI辅助图表编辑的用户，提供自然语言驱动的draw.io图表创建和修改工具。README 显示，基于Next.js和TypeScript开发，结合draw.io图表编辑器，利用大型语言模型实现自然语言驱动的图表创建和修改，支持多模型和多服务端配置，支持Docker部署。该项目希望简化图表创建和编辑流程，支持通过自然语言命令快速生成和修改图表，提升工作效率。能力覆盖集成大型语言模型进行图表创建和编辑；支持自然语言命令驱动图表生成；支持PDF和文本文件内容提取；支持多模型和多服务端配置；提供在线演示和Docker部署。适合产品经理、设计师和开发者在工作流中快速生成和修改图表。使用前还应留意Apache-2.0开源许可；依赖Next.js框架和多种AI模型；支持多云服务部署；建议查看官方文档了解详细部署和使用。"
     },
     {
       "name": "flameshot-org/flameshot",
@@ -1217,7 +1237,8 @@
         "use_cases": "适合开发者、设计师及普通用户的日常截图和快速编辑工作流。",
         "considerations": "依赖Qt框架；GPL-3.0开源许可；支持Linux、Windows等多平台；需查看官方文档确认详细安装步骤"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "一款功能强大且易用的跨平台截图软件，适合需要高效截图和编辑的用户。README 显示，基于C++和Qt框架开发，提供图形界面和命令行两种操作方式，支持截图预览、编辑和上传，支持多种桌面环境和快捷键配置，后台运行时托盘图标管理。该项目希望简化截图流程，集成编辑功能，支持多平台和多桌面环境，提升截图效率，替代繁琐截图工具。能力覆盖截图捕获；图形界面编辑；自定义外观；支持多平台；支持命令行操作；支持上传至Imgur。适合开发者、设计师及普通用户的日常截图和快速编辑工作流。使用前还应留意依赖Qt框架；GPL-3.0开源许可；支持Linux、Windows等多平台；需查看官方文档确认详细安装步骤。"
     },
     {
       "name": "pear-devs/pear-desktop",
@@ -1272,7 +1293,8 @@
         "use_cases": "适合需要跨平台音乐播放扩展的用户，支持自定义插件和主题的音乐爱好者。",
         "considerations": "MIT开源许可；无官方关联，使用需注意版权声明；支持Windows、macOS、Linux平台。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向多平台用户的音乐播放器扩展，提升桌面音乐播放体验。README 显示，基于Electron和Node.js构建，使用TypeScript开发，提供原生桌面体验，支持插件扩展和主题定制，支持多平台安装包。该项目希望解决了官方音乐播放器桌面体验不足的问题，提供更灵活的扩展和定制能力，支持离线安装。能力覆盖支持多平台桌面应用；提供音乐播放扩展功能；支持主题和插件开发；支持离线安装；支持多语言界面。适合需要跨平台音乐播放扩展的用户，支持自定义插件和主题的音乐爱好者。使用前还应留意MIT开源许可；无官方关联，使用需注意版权声明；支持Windows、macOS、Linux平台。"
     },
     {
       "name": "agalwood/Motrix",
@@ -1331,7 +1353,8 @@
         "use_cases": "适合需要管理HTTP、FTP、BT等多协议下载的用户，支持桌面和命令行操作。",
         "considerations": "MIT开源许可；部分Linux环境需sudo权限；支持多种安装包格式；官方主页提供详细安装和使用文档。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向多平台用户的全功能下载管理器，支持多协议下载。README 显示，基于Electron和JavaScript开发，集成aria2下载引擎，支持多协议下载，提供图形界面和命令行工具，支持自动更新和多平台安装。该项目希望简化多协议下载管理，提供统一界面和操作，支持自动更新和多平台安装，提升下载效率。能力覆盖支持HTTP、FTP、BitTorrent、Magnet等多协议下载；跨平台支持Windows、macOS、Linux；支持命令行和图形界面；支持自动更新和多种安装方式。适合需要管理HTTP、FTP、BT等多协议下载的用户，支持桌面和命令行操作。使用前还应留意MIT开源许可；部分Linux环境需sudo权限；支持多种安装包格式；官方主页提供详细安装和使用文档。"
     },
     {
       "name": "cjpais/Handy",
@@ -1380,7 +1403,8 @@
         "use_cases": "适合需要离线语音转录的个人用户和开发者。",
         "considerations": "MIT开源许可；依赖Whisper和Parakeet模型；支持Windows、macOS和Linux；需授予麦克风权限；建议查看官方文档确认模型使用和安装细节"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "完全离线的开源语音转文字应用，适合注重隐私的用户。README 显示，基于Rust和Tauri框架开发，使用VAD技术过滤静音，支持GPU加速的Whisper模型和CPU优化的Parakeet模型，提供快捷键控制录音和实时转录，完全本地处理保证隐私。该项目希望提供无需联网的语音转文字功能，保护用户隐私，简化语音输入流程。能力覆盖离线语音转文字；多模型支持（Whisper、Parakeet）；跨平台桌面应用；快捷键控制录音；实时转录并粘贴文本；隐私保护。适合需要离线语音转录的个人用户和开发者。使用前还应留意MIT开源许可；依赖Whisper和Parakeet模型；支持Windows、macOS和Linux；需授予麦克风权限；建议查看官方文档确认模型使用和安装细节。"
     },
     {
       "name": "Wox-launcher/Wox",
@@ -1432,7 +1456,8 @@
         "use_cases": "适合需要快速访问应用和文件的办公人员及开发者。",
         "considerations": "GPL-3.0开源许可；支持macOS、Linux、Windows；无强制安装流程；需查看官方文档确认插件和主题使用细节"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台高效启动器，帮助用户快速打开应用、文件和执行命令。README 显示，使用Go语言开发，提供统一输入框支持本地搜索、命令执行和插件扩展，支持多平台安装方式和快捷键触发，集成多种生产力工具和AI聊天接口。该项目希望提升启动效率，整合多种搜索和操作功能，替代系统默认启动器，支持插件扩展增强功能。能力覆盖应用和文件快速启动；插件扩展；主题切换；本地搜索；支持多平台；集成AI聊天功能。适合需要快速访问应用和文件的办公人员及开发者。使用前还应留意GPL-3.0开源许可；支持macOS、Linux、Windows；无强制安装流程；需查看官方文档确认插件和主题使用细节。"
     },
     {
       "name": "VSCodium/vscodium",
@@ -1482,7 +1507,8 @@
         "use_cases": "适合关注隐私和开源的开发者，需跨平台使用VS Code编辑器。",
         "considerations": "MIT开源许可；支持Windows、macOS、Linux；依赖微软VS Code源码构建；建议查看官方文档了解安装和使用细节。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向开发者的无微软品牌和遥测的VS Code二进制发行版。README 显示，通过自动化脚本从微软VS Code源码构建无品牌和遥测的二进制版本，提供社区默认配置，支持多平台和多种包管理器安装。该项目希望解决了官方VS Code品牌和遥测问题，提供自由开源的编辑器二进制版本。能力覆盖提供无微软品牌和遥测的VS Code二进制版本；支持多平台安装；支持多种包管理器安装和自动更新；社区驱动配置。适合关注隐私和开源的开发者，需跨平台使用VS Code编辑器。使用前还应留意MIT开源许可；支持Windows、macOS、Linux；依赖微软VS Code源码构建；建议查看官方文档了解安装和使用细节。"
     },
     {
       "name": "Devolutions/UniGetUI",
@@ -1539,7 +1565,8 @@
         "use_cases": "适合希望用图形界面维护多来源软件，或统一管理多种 CLI 包管理器的用户。",
         "considerations": "MIT 许可；包由第三方提供，安装前应核对来源和发布者；仅信任 Devolutions 官网及官方 GitHub。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向 Windows 10/11 用户并兼顾 macOS、Linux 的多包管理器统一图形界面。README 显示，以 C 构建，通过一个 GUI 集成 WinGet、Scoop、Chocolatey、Homebrew、APT、DNF、Pacman、Flatpak、pip、npm 等命令行包管理器。该项目希望免去记忆多套包管理器命令和逐一检查更新的流程，集中完成软件发现与生命周期管理。能力覆盖跨源发现软件包；统一安装和卸载；集中更新软件；支持多种系统及语言。适合希望用图形界面维护多来源软件，或统一管理多种 CLI 包管理器的用户。使用前还应留意MIT 许可；包由第三方提供，安装前应核对来源和发布者；仅信任 Devolutions 官网及官方 GitHub。"
     },
     {
       "name": "GyulyVGC/sniffnet",
@@ -1603,7 +1630,8 @@
         "use_cases": "适合网络管理员、安全分析师及普通用户监控网络流量。",
         "considerations": "依赖系统网络权限和相关库；Apache-2.0开源许可；支持Linux和macOS；需安装系统依赖；建议查看官方文档确认安装和使用细节"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "便捷的跨平台网络流量监控工具，适合需要实时监控网络的用户。README 显示，基于Rust语言和Iced GUI框架开发，支持选择网络适配器，实时捕获和分析网络数据包，提供丰富的统计和过滤功能，支持多平台发布多种安装包。该项目希望简化网络流量监控和分析流程，提供直观界面和丰富功能，替代复杂命令行工具。能力覆盖网络流量实时监控；多语言支持；流量统计和图表展示；连接地理位置和域名解析；支持导入导出PCAP文件；自定义过滤和通知。适合网络管理员、安全分析师及普通用户监控网络流量。使用前还应留意依赖系统网络权限和相关库；Apache-2.0开源许可；支持Linux和macOS；需安装系统依赖；建议查看官方文档确认安装和使用细节。"
     },
     {
       "name": "beekeeper-studio/beekeeper-studio",
@@ -1663,7 +1691,8 @@
         "use_cases": "适合需要在一个桌面工具中查询、开发或维护多种数据库的开发者与数据人员。",
         "considerations": "基础功能可免费使用且无需注册；部分数据库和功能仅付费版提供；代码同时涉及 GPLv3 与商业源代码许可。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向开发者和数据工作者的跨平台现代 SQL 编辑器与多数据库管理客户端。README 显示，以 TypeScript、Electron 构建，发布 macOS、Windows、Linux 客户端；通过不同数据库驱动连接 PostgreSQL、MySQL、SQLite、SQL Server、Redis 等系统。该项目希望用一个易用客户端替代为不同数据库分别安装管理工具的流程，降低查询和数据库操作门槛。能力覆盖连接并管理多类 SQL 与非 SQL 数据库；编写和执行 SQL；跨平台桌面使用；预览和管理数据库数据。适合需要在一个桌面工具中查询、开发或维护多种数据库的开发者与数据人员。使用前还应留意基础功能可免费使用且无需注册；部分数据库和功能仅付费版提供；代码同时涉及 GPLv3 与商业源代码许可。"
     },
     {
       "name": "wavetermdev/waveterm",
@@ -1715,7 +1744,8 @@
         "use_cases": "开发者、运维人员使用终端进行远程管理、文件编辑和AI辅助操作。",
         "considerations": "Apache-2.0开源许可；需用户自备AI模型API密钥；支持macOS、Linux、Windows。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "集成AI的跨平台终端工具，服务开发者和运维人员提升终端工作效率。README 显示，使用Go语言开发，跨平台支持，集成AI模型接口，支持SSH持久会话和内置编辑器，采用模块化终端块设计。该项目希望解决终端操作复杂、断线重连困难、远程文件编辑不便等痛点，提升工作流连贯性。能力覆盖集成多种AI模型支持（OpenAI、Claude、Gemini等）；支持持久化SSH会话自动重连；内置图形编辑器和文件预览；支持多终端块拖拽管理；安全本地密钥存储。开发者、运维人员使用终端进行远程管理、文件编辑和AI辅助操作。使用前还应留意Apache-2.0开源许可；需用户自备AI模型API密钥；支持macOS、Linux、Windows。"
     },
     {
       "name": "super-productivity/super-productivity",
@@ -1781,7 +1811,8 @@
         "use_cases": "个人和团队任务管理、时间规划、习惯养成及多平台任务同步。",
         "considerations": "MIT开源许可；支持多平台（Android、iOS、Linux、MacOS）；无数据收集，注重隐私保护。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "集成时间管理的高级待办事项应用，面向个人和团队提升生产力。README 显示，基于TypeScript开发，集成多平台API，支持本地和云端数据同步，提供丰富的时间管理和任务组织功能。该项目希望解决任务管理分散、时间跟踪困难、跨平台同步不便等问题，提升工作效率。能力覆盖集成时间盒管理和时间跟踪；支持Jira、GitLab、GitHub、Open Project等多平台任务同步；支持多设备数据同步和备份；内置番茄钟和习惯追踪。个人和团队任务管理、时间规划、习惯养成及多平台任务同步。使用前还应留意MIT开源许可；支持多平台（Android、iOS、Linux、MacOS）；无数据收集，注重隐私保护。"
     },
     {
       "name": "ActivityWatch/activitywatch",
@@ -1835,7 +1866,8 @@
         "use_cases": "适合需要详细时间管理和隐私保护的个人用户及开发者，支持自定义数据采集和分析。",
         "considerations": "采用MPL-2.0开源许可证；数据存储在本地，用户完全控制；支持多平台安装；建议查看官方文档了解安装和扩展插件方法"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "免费开源的自动化时间追踪工具，面向注重隐私和生产力的个人用户。README 显示，使用Python开发，包含服务器和多种监控器（watchers）组件，收集高分辨率用户活动数据。数据存储本地，支持用户自定义采集范围和扩展。提供仪表盘展示和分析。该项目希望解决传统时间追踪器闭源、数据不归用户、同步中心化、难用和扩展性差等问题，提升时间管理效率。能力覆盖自动记录应用使用、浏览器标签、键盘鼠标活动；本地安全存储数据；支持多平台；可扩展的监控插件；隐私保护；数据可视化仪表盘。适合需要详细时间管理和隐私保护的个人用户及开发者，支持自定义数据采集和分析。使用前还应留意采用MPL-2.0开源许可证；数据存储在本地，用户完全控制；支持多平台安装；建议查看官方文档了解安装和扩展插件方法。"
     },
     {
       "name": "nukeop/nuclear",
@@ -1895,7 +1927,8 @@
         "use_cases": "适合音乐爱好者、跨平台用户及开发者，支持构建个性化播放列表和插件扩展。",
         "considerations": "依赖Node.js环境；采用AGPL-3.0开源许可证；支持多平台安装包格式；建议查看官方文档了解插件开发和MCP服务器配置"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "免费无广告的开源音乐流媒体播放器，面向喜欢免费音乐和自定义体验的用户。README 显示，基于Tauri框架（Rust + React）构建，使用TypeScript开发。采用插件驱动架构，插件提供流媒体源、元数据、播放列表等功能。内置MCP服务器支持AI代理控制。通过多种安装包支持Windows、macOS和Linux部署。该项目希望免去寻找免费音乐资源的麻烦，避免广告和跟踪，支持多平台统一播放体验，简化音乐管理和播放流程。能力覆盖搜索音乐；在线播放；多平台支持（Windows、macOS、Linux）；内置主题和插件商店；播放列表管理；AI代理控制播放器；自动更新；多语言本地化。适合音乐爱好者、跨平台用户及开发者，支持构建个性化播放列表和插件扩展。使用前还应留意依赖Node.js环境；采用AGPL-3.0开源许可证；支持多平台安装包格式；建议查看官方文档了解插件开发和MCP服务器配置。"
     },
     {
       "name": "audacity/audacity",
@@ -1946,7 +1979,8 @@
         "use_cases": "适合音乐制作人、播客制作者及音频编辑爱好者，支持录音和多轨编辑。",
         "considerations": "采用GPLv3及GPLv2或更高版本许可；当前主分支为Audacity 4重构版本，适合贡献者；官方提供详细构建和开发文档"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台的免费开源多轨音频编辑器，面向音频制作和编辑用户。README 显示，使用C++开发，基于wxWidgets跨平台GUI框架。支持多轨编辑和录音功能，持续进行UI和架构重构以提升用户体验和性能。该项目希望提供免费无广告的专业音频编辑工具，支持多平台，替代商业音频编辑软件，降低使用门槛。能力覆盖多轨音频编辑和录制；跨平台支持（Windows、macOS、Linux）；支持多种音频格式；用户界面友好；持续重构升级中。适合音乐制作人、播客制作者及音频编辑爱好者，支持录音和多轨编辑。使用前还应留意采用GPLv3及GPLv2或更高版本许可；当前主分支为Audacity 4重构版本，适合贡献者；官方提供详细构建和开发文档。"
     },
     {
       "name": "GopeedLab/gopeed",
@@ -2006,7 +2040,8 @@
         "use_cases": "需要管理多协议下载任务的个人用户和技术人员。",
         "considerations": "GPL-3.0开源许可；依赖Golang和Flutter环境；支持多平台安装包和Docker部署。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "高速多协议跨平台下载管理器，面向需要高效下载的用户。README 显示，前端使用Flutter，后端使用Golang，通过HTTP或Unix Socket通信，支持多协议高速下载和高度可定制扩展。该项目希望解决多协议下载分散、速度慢、跨平台不便和扩展性差的问题。能力覆盖支持HTTP、BitTorrent、Magnet、ED2K多协议下载；跨平台支持Windows、MacOS、Linux、Android、iOS；支持浏览器扩展接管下载；支持插件扩展和API集成。需要管理多协议下载任务的个人用户和技术人员。使用前还应留意GPL-3.0开源许可；依赖Golang和Flutter环境；支持多平台安装包和Docker部署。"
     },
     {
       "name": "ai-shifu/ChatALL",
@@ -2065,7 +2100,8 @@
         "use_cases": "适合比较模型能力、筛选最佳回答、调试提示词或选择应用基础模型的用户。",
         "considerations": "Apache-2.0 许可；各机器人登录、API 密钥和可用性要求不同；部分服务仅网页接入或标为即将支持。"
       },
-      "is_new": true
+      "is_new": true,
+      "analysis_summary_zh": "面向大模型用户、研究者和应用开发者的多 AI 机器人并发对话与答案比较桌面应用。README 显示，以 JavaScript、Electron 和 Vue 3 构建跨平台客户端，将同一提示并发发送给多个机器人；按服务能力使用网页访问或 API 接入。该项目希望替代逐个平台重复提问和手工整理结果的流程，便于快速发现更合适的答案、模型或提示词。能力覆盖向多个 AI 机器人并发提问；并排比较不同模型回答；兼容网页和 API 接入；支持多语言界面。适合比较模型能力、筛选最佳回答、调试提示词或选择应用基础模型的用户。使用前还应留意Apache-2.0 许可；各机器人登录、API 密钥和可用性要求不同；部分服务仅网页接入或标为即将支持。"
     },
     {
       "name": "rowboatlabs/rowboat",
@@ -2123,7 +2159,8 @@
         "use_cases": "适合专业人士和团队，支持邮件管理、会议记录、代码协作和多项目工作流。",
         "considerations": "采用Apache-2.0开源许可证；支持Mac/Windows/Linux；集成多种AI模型和服务；需配置Google服务账号以连接相关功能；建议查看官方文档了解安装和集成细节"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "具备记忆功能的开源AI桌面助手，面向需要智能工作协作的专业用户。README 显示，基于TypeScript开发，构建桌面应用。通过索引邮件、会议、Slack等数据构建知识图谱，集成多种AI代理执行任务。内置多种工作界面和工具，支持插件和多项目管理。该项目希望自动整理工作信息，提升邮件处理效率，辅助会议记录和代码开发，减少重复劳动，增强工作协同。能力覆盖工作内容索引；知识图谱构建；内置邮件客户端；自动邮件草稿生成；背景任务代理；内置浏览器协作；会议笔记实时转录和总结；多项目工作区；多平台支持。适合专业人士和团队，支持邮件管理、会议记录、代码协作和多项目工作流。使用前还应留意采用Apache-2.0开源许可证；支持Mac/Windows/Linux；集成多种AI模型和服务；需配置Google服务账号以连接相关功能；建议查看官方文档了解安装和集成细节。"
     },
     {
       "name": "mountain-loop/yaak",
@@ -2178,7 +2215,8 @@
         "use_cases": "API开发者和测试人员进行多协议接口调试和管理。",
         "considerations": "MIT开源许可；基于Tauri、Rust和React开发；无云锁定，无遥测；支持多平台桌面应用。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "直观的桌面API客户端，适合开发者进行多协议API测试和管理。README 显示，采用Tauri框架结合Rust和React构建，离线优先设计，支持多协议API请求和丰富的安全认证机制。该项目希望解决多协议API测试工具分散、隐私安全和云锁定问题，提升API调试效率。能力覆盖支持REST、GraphQL、WebSocket、Server Sent Events、gRPC多协议；支持导入Postman、Insomnia等API集合；支持OAuth2.0、JWT等多种认证；支持加密存储和本地工作区管理。API开发者和测试人员进行多协议接口调试和管理。使用前还应留意MIT开源许可；基于Tauri、Rust和React开发；无云锁定，无遥测；支持多平台桌面应用。"
     },
     {
       "name": "electerm/electerm",
@@ -2243,7 +2281,8 @@
         "use_cases": "适合跨系统维护服务器、传输文件、连接串口或远程桌面的开发与运维人员。",
         "considerations": "MIT 许可；云同步可用 GitHub、Gitee、WebDAV、自建服务或 electerm cloud；AI 功能需相应 API。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向运维和开发人员的跨平台终端、文件管理及多协议远程连接客户端。README 显示，以 JavaScript、Electron 构建桌面端，并提供浏览器版、Docker 镜像和 Android 版；集成 SSH、SFTP、FTP、Telnet、串口、RDP、VNC、Spice 等协议。该项目希望用一个客户端替代分散的终端、文件传输和远程桌面工具，并降低跨设备同步连接配置的成本。能力覆盖终端及远程文件管理；多种远程连接协议；SSH 隧道与代理；同步书签、主题和快捷命令。适合跨系统维护服务器、传输文件、连接串口或远程桌面的开发与运维人员。使用前还应留意MIT 许可；云同步可用 GitHub、Gitee、WebDAV、自建服务或 electerm cloud；AI 功能需相应 API。"
     },
     {
       "name": "mltframework/shotcut",
@@ -2292,7 +2331,8 @@
         "use_cases": "适合在 Linux、macOS 或 Windows 上进行视频剪辑，也适合熟悉依赖构建的测试者和贡献者。",
         "considerations": "GPLv3 许可；源码构建面向测试者或贡献者，要求 Qt 6.4+、MLT、FFmpeg 等依赖，普通用户宜用官方二进制。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向需要免费跨平台剪辑工具的创作者和贡献者的开源视频编辑器。README 显示，采用 C++ 与 Qt 6 构建界面，以 MLT 为多媒体创作框架，并依赖 FFmpeg、FFTW、Frei0r 和 SDL 处理编解码、效果及音频播放。该项目希望提供无需购买商业剪辑软件的跨平台视频编辑方案，并以常见多媒体库覆盖处理与播放需求。能力覆盖跨平台视频编辑；多媒体格式与编解码处理；视频插件效果；跨平台音频播放。适合在 Linux、macOS 或 Windows 上进行视频剪辑，也适合熟悉依赖构建的测试者和贡献者。使用前还应留意GPLv3 许可；源码构建面向测试者或贡献者，要求 Qt 6.4+、MLT、FFmpeg 等依赖，普通用户宜用官方二进制。"
     },
     {
       "name": "dail8859/NotepadNext",
@@ -2342,7 +2382,8 @@
         "use_cases": "适合需要跨平台文本编辑器的开发者和普通用户。",
         "considerations": "GPL-3.0开源许可；仍存在部分功能缺陷和未完善实现；不建议用于关键任务；依赖Qt环境；建议关注项目更新和社区贡献。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台的Notepad++重实现文本编辑器。README 显示，使用C++和Qt6框架重实现Notepad++，提供跨平台文本编辑功能，支持多种安装和分发方式，集成自动更新和系统集成功能。该项目希望为非Windows用户提供类似Notepad++的文本编辑体验，支持多平台统一使用。能力覆盖跨平台支持Windows、Linux、macOS；基于Qt6框架；支持多语言界面；提供安装包和AppImage、Flatpak等多种安装方式；支持Windows上下文菜单集成和自动更新。适合需要跨平台文本编辑器的开发者和普通用户。使用前还应留意GPL-3.0开源许可；仍存在部分功能缺陷和未完善实现；不建议用于关键任务；依赖Qt环境；建议关注项目更新和社区贡献。"
     },
     {
       "name": "Termix-SSH/Termix",
@@ -2399,7 +2440,8 @@
         "use_cases": "适合运维工程师和系统管理员统一管理服务器和远程桌面，支持多协议和容器管理",
         "considerations": "无明确许可证声明，建议核对项目主页和文档；基于TypeScript开发；需自托管服务器环境；支持多平台访问"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "自托管的多功能SSH和远程桌面管理平台，面向服务器管理员和运维人员。README 显示，使用TypeScript开发，提供基于浏览器的多面板SSH终端和远程桌面访问，集成SSH隧道和文件管理功能，支持Docker/Podman容器控制，采用自托管部署模式。该项目希望集中管理多服务器SSH和远程桌面，简化运维流程，替代多工具分散管理，降低运维复杂度。能力覆盖SSH终端管理；远程桌面支持（RDP、VNC、Telnet）；SSH隧道管理；远程文件管理；Docker和Podman容器管理；多面板终端和浏览器内访问。适合运维工程师和系统管理员统一管理服务器和远程桌面，支持多协议和容器管理。使用前还应留意无明确许可证声明，建议核对项目主页和文档；基于TypeScript开发；需自托管服务器环境；支持多平台访问。"
     },
     {
       "name": "kurikomi-labs/komi-store",
@@ -2458,7 +2500,8 @@
         "use_cases": "适合开源软件用户和开发者，支持快速发现和安装多平台开源应用。",
         "considerations": "采用Apache-2.0开源许可证；支持Android、Linux、macOS等平台；macOS用户需手动允许未认证应用；不保证第三方应用安全性，用户需自行承担风险"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向开发者和开源软件用户的跨平台应用商店，简化开源应用发现和安装。README 显示，使用Kotlin开发，支持多平台（Android、桌面）。通过调用各平台API实现应用浏览、下载和安装。提供丰富的UI和网络性能优化。该项目希望解决开源应用分散、安装复杂的问题，提供统一平台一键安装，提升用户体验和效率。能力覆盖跨平台应用商店；支持GitHub、Codeberg、Forgejo发布的应用浏览和一键安装；智能发现和下载镜像；多语言本地化；应用管理和收藏；APK签名验证。适合开源软件用户和开发者，支持快速发现和安装多平台开源应用。使用前还应留意采用Apache-2.0开源许可证；支持Android、Linux、macOS等平台；macOS用户需手动允许未认证应用；不保证第三方应用安全性，用户需自行承担风险。"
     },
     {
       "name": "streetwriters/notesnook",
@@ -2522,7 +2565,8 @@
         "use_cases": "适合注重隐私的个人用户和团队进行笔记记录和管理，支持多平台同步使用",
         "considerations": "GPL-3.0许可证；依赖Node.js生态和React技术栈；需用户自行搭建或使用官方服务；注重隐私保护"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "开源端到端加密笔记应用，替代Evernote，保障用户隐私安全。README 显示，使用TypeScript和React构建前端，Electron实现桌面端，React Native实现移动端，利用libsodium实现加密，采用XChaCha20 Poly1305和Argon2算法保障安全。该项目希望解决笔记隐私泄露风险，提供安全便捷的笔记管理，替代闭源或不安全笔记软件。能力覆盖端到端加密笔记存储；跨平台客户端（Web、桌面、移动）；基于React和Electron开发；集成加密库libsodium；支持多语言界面。适合注重隐私的个人用户和团队进行笔记记录和管理，支持多平台同步使用。使用前还应留意GPL-3.0许可证；依赖Node.js生态和React技术栈；需用户自行搭建或使用官方服务；注重隐私保护。"
     },
     {
       "name": "NanmiCoder/cc-haha",
@@ -2580,7 +2624,8 @@
         "use_cases": "适合希望用桌面界面运行编码智能体、审查修改，并从微信、飞书等渠道远程跟进的开发者。",
         "considerations": "MIT 许可；首次启动需配置模型供应商、API Key 和默认模型；未签名临时安装包可能触发系统安全提示。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向 Claude Code及其他智能体用户的本地优先跨平台图形化开发工作空间。README 显示，以 TypeScript、Electron 构建 macOS、Windows、Linux 客户端，整合会话、项目、分支与 worktree、差异审查、权限审批、模型配置、Computer Use及远程接入。该项目希望将终端中的智能体会话、代码变更、权限确认和远程跟进集中到一处，减少开发上下文切换。能力覆盖管理多项目和智能体会话；启动分支与 Git worktree；查看语法高亮差异并审批权限；通过 H5 和 IM 远程访问。适合希望用桌面界面运行编码智能体、审查修改，并从微信、飞书等渠道远程跟进的开发者。使用前还应留意MIT 许可；首次启动需配置模型供应商、API Key 和默认模型；未签名临时安装包可能触发系统安全提示。"
     },
     {
       "name": "keepassxreboot/keepassxc",
@@ -2636,7 +2681,8 @@
         "use_cases": "适合个人及小团队管理密码和敏感信息，支持多平台使用和离线存储",
         "considerations": "无明确许可证声明，建议核对项目主页和文档；支持Windows、macOS、Linux；依赖C++环境"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台开源密码管理器，服务于对个人数据安全有高要求的用户。README 显示，使用C++开发，兼容KeePass KDBX格式，数据离线加密存储，支持用户自定义条目分组和图标，集成密码生成和搜索功能，支持多平台运行。该项目希望解决密码和敏感信息管理难题，替代不安全或分散的密码存储方式，提升数据安全性和管理便捷性。能力覆盖跨平台密码数据库管理；离线加密存储；多类型信息支持（用户名、密码、URL、附件、笔记）；高级搜索；密码生成器；TOTP和YubiKey支持。适合个人及小团队管理密码和敏感信息，支持多平台使用和离线存储。使用前还应留意无明确许可证声明，建议核对项目主页和文档；支持Windows、macOS、Linux；依赖C++环境。"
     },
     {
       "name": "Zettlr/Zettlr",
@@ -2696,7 +2742,8 @@
         "use_cases": "适合学者、研究人员和专业写作者进行文献管理和出版准备。",
         "considerations": "GPL-3.0开源许可；支持Windows、macOS、Linux；不支持32位系统；依赖Electron和Node.js环境；建议查看官方文档获取安装和使用细节。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "一站式出版工作平台，面向学术和专业写作用户。README 显示，基于TypeScript和Electron构建跨平台桌面应用，集成多种文献管理和导出工具，支持Markdown编辑和多语言界面。利用Node.js实现后台服务，提供全文搜索和代码高亮功能。该项目希望简化文献管理和多格式导出流程，提升写作效率，支持多语言和多平台使用。能力覆盖支持多语言界面；集成多种参考文献管理工具（Zotero、JabRef等）；支持LaTeX和Word模板；多格式导出（Pandoc、LaTeX、Textbundle）；支持代码高亮和自定义CSS主题；强大全文搜索；支持Zettelkasten知识管理方法。适合学者、研究人员和专业写作者进行文献管理和出版准备。使用前还应留意GPL-3.0开源许可；支持Windows、macOS、Linux；不支持32位系统；依赖Electron和Node.js环境；建议查看官方文档获取安装和使用细节。"
     },
     {
       "name": "t8y2/dbx",
@@ -2759,7 +2806,8 @@
         "use_cases": "适合个人进行跨库查询、团队通过 Docker 自托管，以及为 Claude Code、Cursor、Windsurf 提供数据访问。",
         "considerations": "AI 功能需 Claude、OpenAI 或 Ollama；部分数据库依赖 Agent/JDBC 配置；Docker 可供团队访问；Apache-2.0 许可。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向开发者和团队的轻量级跨平台数据库客户端，统一管理70余种数据库及消息队列。README 显示，以约20 MB单一 Rust 二进制发布，不捆绑 Chromium、JRE 或 Python；提供桌面、Docker、自托管 Web、CLI、AI 助手和 MCP Server，并通过原生、Agent 或 JDBC 配置扩展连接。该项目希望用一个小型工具替代多个数据库客户端及繁重运行时，减少跨数据库切换和复制粘贴 SQL 的成本，并让编码智能体复用已有连接。能力覆盖连接并管理70余种数据库；使用 CodeMirror 6 编辑和执行 SQL；通过 Claude、OpenAI 或 Ollama 生成并安全检查 SQL；以 MCP 向编码智能体开放数据库连接。适合个人进行跨库查询、团队通过 Docker 自托管，以及为 Claude Code、Cursor、Windsurf 提供数据访问。使用前还应留意AI 功能需 Claude、OpenAI 或 Ollama；部分数据库依赖 Agent/JDBC 配置；Docker 可供团队访问；Apache-2.0 许可。"
     },
     {
       "name": "alacritty/alacritty",
@@ -2812,7 +2860,8 @@
         "use_cases": "适合开发者和系统管理员日常使用，支持多操作系统环境下的终端操作需求",
         "considerations": "需OpenGL ES 2.0及以上支持；Windows需ConPTY支持（Win10 1809+）；处于Beta阶段，有部分功能缺失和Bug；Apache-2.0许可证"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台高性能GPU加速终端模拟器，面向追求速度和可配置性的终端用户。README 显示，用Rust语言开发，利用OpenGL进行GPU加速渲染，支持多平台，配置文件支持多路径查找，集成系统终端功能而非重写。该项目希望提升终端渲染性能，减少延迟，提供更流畅的终端体验，替代传统CPU渲染终端。能力覆盖GPU加速终端渲染；跨平台支持（BSD、Linux、macOS、Windows）；高性能；可配置性强；集成OpenGL ES 2.0支持。适合开发者和系统管理员日常使用，支持多操作系统环境下的终端操作需求。使用前还应留意需OpenGL ES 2.0及以上支持；Windows需ConPTY支持（Win10 1809+）；处于Beta阶段，有部分功能缺失和Bug；Apache-2.0许可证。"
     },
     {
       "name": "getpaseo/paseo",
@@ -2872,7 +2921,8 @@
         "use_cases": "适合在自有电脑或服务器运行代理，并需从手机、桌面和脚本持续接管任务的开发者。",
         "considerations": "需至少安装并配置一个受支持的代理 CLI 及凭据；无强制登录和遥测；仓库未声明许可证，需核对文档。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向希望从桌面、移动端、网页或 CLI 协调多个编码智能体的自托管工具。README 显示，本机 daemon 管理各编码代理，桌面、iOS、Android、Web 和 CLI 客户端与其连接；远程配对可选端到端加密中继，也支持 TCP、Tailscale、VPN 和 Docker。该项目希望解决多代理入口分散、离开电脑后无法跟进，以及把完整开发环境迁移到托管服务的隐私与配置成本。能力覆盖并行运行多供应商编码代理；跨设备监控和控制；语音下达任务；自托管 daemon 与无头 CLI。适合在自有电脑或服务器运行代理，并需从手机、桌面和脚本持续接管任务的开发者。使用前还应留意需至少安装并配置一个受支持的代理 CLI 及凭据；无强制登录和遥测；仓库未声明许可证，需核对文档。"
     },
     {
       "name": "codexu/note-gen",
@@ -2932,7 +2982,8 @@
         "use_cases": "适合积累灵感、整理会议材料、汇总阅读片段、生成周报或建立本地 Markdown 知识库的用户。",
         "considerations": "GPL-3.0 许可；笔记保存在用户选择的工作区；AI 模型配置、移动端能力及数据处理方式需核对文档。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向个人知识管理和内容整理用户的本地优先 Markdown 记录与 AI 笔记应用。README 显示，以 TypeScript、Next.js 构建；先采集文字、语音、截图、链接、文件或待办，再按标签、时间、类型筛选，由 AI 按模板整理为工作区中的普通 Markdown 文件。该项目希望避免记录时被标题、目录和结构打断，并减少从零散素材手工汇总会议纪要、研究笔记或周报的时间。能力覆盖快速采集多种类型素材；筛选并组合相关记录；AI 生成结构化 Markdown 草稿；在编辑器中复核和续写。适合积累灵感、整理会议材料、汇总阅读片段、生成周报或建立本地 Markdown 知识库的用户。使用前还应留意GPL-3.0 许可；笔记保存在用户选择的工作区；AI 模型配置、移动端能力及数据处理方式需核对文档。"
     },
     {
       "name": "hluk/CopyQ",
@@ -2981,7 +3032,8 @@
         "use_cases": "适合需要频繁复制粘贴和管理剪贴板内容的办公和开发用户。",
         "considerations": "跨平台支持Linux、Windows和macOS 13+；采用GPL-3.0许可证；依赖Qt框架。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "功能丰富的跨平台剪贴板管理器，面向需要高效剪贴板操作的用户。README 显示，用C++开发，监控系统剪贴板，保存内容至自定义标签页，支持脚本和命令行接口，实现高级编辑和管理功能。该项目希望解决剪贴板内容管理混乱，支持多格式保存和快速检索，提升复制粘贴效率。能力覆盖支持文本、HTML、图片等多格式剪贴板内容管理；支持标签、注释和多标签页管理；支持系统快捷键和脚本命令；支持Vim风格编辑。适合需要频繁复制粘贴和管理剪贴板内容的办公和开发用户。使用前还应留意跨平台支持Linux、Windows和macOS 13+；采用GPL-3.0许可证；依赖Qt框架。"
     },
     {
       "name": "lyswhut/lx-music-desktop",
@@ -3030,7 +3082,8 @@
         "use_cases": "适合个人用户在多平台播放和管理音乐，支持自定义播放列表和快捷操作。",
         "considerations": "采用Apache-2.0许可证，数据来源依赖第三方音乐平台，版权数据需用户自行管理。建议核对官方文档了解版权和数据使用细节。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "基于Electron的跨平台音乐播放器，适合喜欢自定义和多平台使用的音乐爱好者。README 显示，使用Electron和Vue 3构建跨平台桌面音乐播放器，支持本地和在线音乐播放，提供数据同步和开放API，支持多种主题和快捷键操作。该项目希望提供统一的跨平台音乐播放解决方案，支持多音乐源和数据同步，提升用户体验。能力覆盖基于Electron和Vue 3开发；支持Linux、macOS、Windows平台；支持Scheme URL调用和开放API服务；支持数据同步服务；支持多主题和快捷操作。适合个人用户在多平台播放和管理音乐，支持自定义播放列表和快捷操作。使用前还应留意采用Apache-2.0许可证，数据来源依赖第三方音乐平台，版权数据需用户自行管理。建议核对官方文档了解版权和数据使用细节。"
     },
     {
       "name": "amir1376/ab-download-manager",
@@ -3089,7 +3142,8 @@
         "use_cases": "适合个人用户在多设备上管理和加速下载任务。",
         "considerations": "基于Kotlin开发，采用Apache-2.0许可证。非官方应用商店发布，需注意安全性。建议核对官方文档了解安装和使用细节。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "多平台下载管理器，适合需要高效管理和加速下载任务的个人用户。README 显示，使用Kotlin和Compose Multiplatform开发，提供桌面和移动端应用，集成浏览器扩展，实现下载加速和管理功能。该项目希望提升下载速度，支持任务排队和调度，简化下载管理流程，支持多平台统一使用。能力覆盖支持多平台（Android、Windows、Linux、Mac）下载管理；支持下载加速、队列和调度；提供浏览器扩展集成；支持多主题现代UI。适合个人用户在多设备上管理和加速下载任务。使用前还应留意基于Kotlin开发，采用Apache-2.0许可证。非官方应用商店发布，需注意安全性。建议核对官方文档了解安装和使用细节。"
     },
     {
       "name": "HBAI-Ltd/Toonflow-app",
@@ -3151,7 +3205,8 @@
         "use_cases": "适合短视频内容创作者、影视剧本开发者和AI文学改编实验者。",
         "considerations": "Apache-2.0开源许可；依赖大语言模型AI服务、视频和图片生成服务接口；需登录默认账号使用；支持Windows和Linux官方安装包；建议查看官方文档和视频教程。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "开源AI短剧创作工具，支持剧本转动画和智能分镜生成。README 显示，基于TypeScript和Electron构建跨平台桌面应用，集成多层AI Agent协作机制，利用本地ONNX向量检索实现多轮记忆，支持通过TypeScript编写供应商逻辑，结合事件图谱驱动剧本结构化改编。该项目希望降低短视频动画制作门槛，提升创作效率，实现低成本批量视觉内容产出。能力覆盖支持AI剧本创作、智能分镜、角色和视频生成；多语言界面支持；无限画布工作台；三层Agent协作体系（决策、执行、监督）；本地ONNX向量检索记忆系统；可编程供应商系统支持多模型接入；章节事件图谱驱动剧本改编；Skill文件化配置支持在线编辑。适合短视频内容创作者、影视剧本开发者和AI文学改编实验者。使用前还应留意Apache-2.0开源许可；依赖大语言模型AI服务、视频和图片生成服务接口；需登录默认账号使用；支持Windows和Linux官方安装包；建议查看官方文档和视频教程。"
     },
     {
       "name": "webtorrent/webtorrent-desktop",
@@ -3205,7 +3260,8 @@
         "use_cases": "适合需要快速观看种子内容的用户，如视频爱好者和下载用户。",
         "considerations": "采用MIT开源许可证；依赖Electron和Node.js；最新版本发布时间较早，建议核对项目活跃度。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台流媒体种子客户端，适合需要边下载边播放的用户。README 显示，基于JavaScript和Electron开发，利用WebTorrent协议实现流媒体种子下载和播放，支持多平台桌面应用。该项目希望实现种子文件流式播放，减少等待时间，提升用户体验。能力覆盖支持Mac、Windows和Linux平台；支持流媒体种子下载和播放；集成P2P和WebRTC技术；提供图形界面和命令行工具。适合需要快速观看种子内容的用户，如视频爱好者和下载用户。使用前还应留意采用MIT开源许可证；依赖Electron和Node.js；最新版本发布时间较早，建议核对项目活跃度。"
     },
     {
       "name": "getagentseal/codeburn",
@@ -3260,7 +3316,8 @@
         "use_cases": "适合AI开发者监控多工具令牌消耗，优化预算分配和模型选择。",
         "considerations": "依赖Node.js 22.13+；需至少一个支持工具的会话数据；MIT开源许可；无账号需求。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向开发者的本地AI编码令牌使用及成本跟踪工具。README 显示，基于TypeScript开发，读取本地AI工具会话文件，解析令牌和费用数据，提供交互式仪表盘和命令行界面，支持桌面应用和菜单栏显示，价格数据每日从LiteLLM更新。该项目希望解决AI工具费用不透明问题，细化成本归因，避免预算浪费，提升费用管理效率。能力覆盖跟踪AI编码工具令牌使用；按模型、项目、任务细分成本；支持36款AI工具；本地运行，无数据外泄；多平台支持（桌面、终端、菜单栏）；每日价格更新。适合AI开发者监控多工具令牌消耗，优化预算分配和模型选择。使用前还应留意依赖Node.js 22.13+；需至少一个支持工具的会话数据；MIT开源许可；无账号需求。"
     },
     {
       "name": "CyberTimon/RapidRAW",
@@ -3313,7 +3370,8 @@
         "use_cases": "适合摄影师进行快速RAW图像编辑和批量导出工作流。",
         "considerations": "AGPL-3.0开源许可；仍在积极开发中，可能存在bug；无主页需核对项目文档。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向摄影师的高性能GPU加速非破坏性RAW图像编辑器。README 显示，使用Rust和wgpu实现GPU加速，前端基于React和Tauri构建，提供轻量级（<20MB）跨平台应用，支持多种RAW编辑功能和批处理命令行接口。该项目希望提供轻量快速的RAW编辑替代方案，提升编辑效率，支持复杂色彩调整和批量处理。能力覆盖非破坏性RAW图像编辑；GPU加速处理；支持多平台（Windows、macOS、Linux、Android）；支持批量导出和JSON调整；提供AI镜头模糊等高级功能。适合摄影师进行快速RAW图像编辑和批量导出工作流。使用前还应留意AGPL-3.0开源许可；仍在积极开发中，可能存在bug；无主页需核对项目文档。"
     },
     {
       "name": "aandrew-me/ytDownloader",
@@ -3377,7 +3435,8 @@
         "use_cases": "适合需要下载网络视频音频的普通用户和内容创作者。",
         "considerations": "GPL-3.0许可证；依赖FFmpeg和Node.js；支持多种Linux打包格式（Flatpak、AppImage、Snap）；macOS需手动信任应用。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "支持数百网站视频音频下载的跨平台桌面应用，适合多媒体内容获取用户。README 显示，基于Electron和JavaScript开发，集成yt-dlp和FFmpeg，实现多站点视频音频下载和压缩功能。该项目希望简化多平台视频音频下载流程，支持多格式和批量下载，提升下载效率。能力覆盖支持数百个网站的视频和音频下载；支持多主题；内置视频压缩和硬件加速；支持范围选择和字幕下载；支持播放列表下载；跨平台支持Linux、Windows、macOS；无广告无跟踪。适合需要下载网络视频音频的普通用户和内容创作者。使用前还应留意GPL-3.0许可证；依赖FFmpeg和Node.js；支持多种Linux打包格式（Flatpak、AppImage、Snap）；macOS需手动信任应用。"
     },
     {
       "name": "jeffvli/feishin",
@@ -3428,7 +3487,8 @@
         "use_cases": "适合有自托管需求的音乐爱好者和个人用户。",
         "considerations": "支持桌面客户端和Docker部署；依赖TypeScript和Electron；采用GPL-3.0许可证。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "现代自托管音乐播放器，适合个人音乐管理和播放。README 显示，基于TypeScript开发，采用Electron框架构建桌面客户端，支持MPV播放器和Web播放器，集成歌词和播放列表管理。该项目希望提供本地音乐播放和管理，支持多种播放后端和歌词显示，替代传统音乐播放器。能力覆盖支持MPV和Web播放器后端；支持歌词同步与非同步显示；支持智能播放列表编辑和播放记录同步；提供现代化UI和多平台客户端。适合有自托管需求的音乐爱好者和个人用户。使用前还应留意支持桌面客户端和Docker部署；依赖TypeScript和Electron；采用GPL-3.0许可证。"
     },
     {
       "name": "tonyantony300/dashbeam",
@@ -3486,7 +3546,8 @@
         "use_cases": "适合重视隐私、需要跨平台直传大型文件或目录，以及网络中断后继续传输的个人和团队。",
         "considerations": "直连失败时可能使用中继，但中继仅能看到加密流量；支持平台的具体安装方式需核对文档；AGPL-3.0 许可。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向个人与跨平台设备的开源点对点文件传输工具，无需账户或云端存储。README 显示，通过设备间 P2P 网络直接传输文件和目录，使用 QUIC 与 TLS 1.3 端到端加密、BLAKE3 完整性校验和加密票据认证；支持中断续传、一对多广播及必要时的加密中继。该项目希望替代先上传 WeTransfer、Dropbox 或 Google Drive 再分享的流程，避免云端留存、账户注册、文件大小与格式限制，并支持断点恢复。能力覆盖跨桌面、Android、终端和浏览器传输；发送任意大小的文件或目录；端到端加密并校验完整性；断点续传、一对多广播和设备配对。适合重视隐私、需要跨平台直传大型文件或目录，以及网络中断后继续传输的个人和团队。使用前还应留意直连失败时可能使用中继，但中继仅能看到加密流量；支持平台的具体安装方式需核对文档；AGPL-3.0 许可。"
     },
     {
       "name": "lapce/lapce",
@@ -3533,7 +3594,8 @@
         "use_cases": "适合程序员进行本地及远程代码编辑和开发工作。",
         "considerations": "依赖Rust语言环境，支持Windows、Linux和macOS，采用Apache-2.0开源许可证。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "极速且强大的Rust编写代码编辑器，面向开发者。README 显示，采用Rust语言开发，UI基于Floem框架，利用Xi Editor的Rope科学实现高效文本处理，使用wgpu进行渲染。支持内置LSP协议，远程开发和插件扩展。该项目希望提升代码编辑效率，支持智能代码功能和远程开发，替代传统编辑器的性能瓶颈和远程开发复杂性。能力覆盖内置LSP支持，提供代码补全、诊断和代码操作；支持Vim模式编辑；内置远程开发支持和环境管理工具Lapdev；插件支持WASI格式语言；内置终端。适合程序员进行本地及远程代码编辑和开发工作。使用前还应留意依赖Rust语言环境，支持Windows、Linux和macOS，采用Apache-2.0开源许可证。"
     },
     {
       "name": "mockoon/mockoon",
@@ -3596,7 +3658,8 @@
         "use_cases": "适合前后端开发、自动化测试和新成员入职，用于接口未就绪、第三方服务不稳定或需要可控测试环境的工作流。",
         "considerations": "本地使用无需账号或远程部署；团队同步与云端部署另有云服务；桌面端覆盖主流系统，CLI 通过 NPM 安装；MIT 许可证。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向开发者与测试团队的开源 API 模拟工具，可在本地桌面端设计并运行 Mock API，也支持 CLI 自托管。README 显示，使用 TypeScript 与 Electron 构建桌面应用，并提供 NPM CLI 和 Serverless 包；支持 OpenAPI、JSON 模板、代理转发、HTTPS及请求日志，可在无头、CI和云函数环境运行。该项目希望减少开发和第三方 API 集成对外部服务的依赖，规避限流、费用和可用性影响，并以可预测响应模拟异常与边界场景。能力覆盖创建不限数量的本地 Mock 服务器与路由；自定义方法、状态码、路径、响应头和文件服务；记录或转发请求；通过 CLI、CI及 Serverless 环境运行。适合前后端开发、自动化测试和新成员入职，用于接口未就绪、第三方服务不稳定或需要可控测试环境的工作流。使用前还应留意本地使用无需账号或远程部署；团队同步与云端部署另有云服务；桌面端覆盖主流系统，CLI 通过 NPM 安装；MIT 许可证。"
     },
     {
       "name": "crynta/terax-ai",
@@ -3651,7 +3714,8 @@
         "use_cases": "适合开发者在终端环境中进行AI辅助编码和版本控制工作。",
         "considerations": "依赖Node.js和本地AI模型或API密钥；Apache-2.0开源许可；无遥测和账号需求。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "轻量级终端优先的AI原生开发工作空间。README 显示，基于TypeScript、Rust和Tauri构建，采用xterm.js WebGL渲染终端，CodeMirror 6编辑器，集成本地PTY后端和AI侧边栏，支持多面板和多环境工作区。该项目希望整合终端、代码编辑、版本控制和AI辅助，提升开发效率，减少工具切换。能力覆盖多标签终端支持WebGL渲染；内置代码编辑器支持多语言；集成Git图形化管理；AI辅助代码编辑；文件浏览器和本地服务器预览；支持多平台。适合开发者在终端环境中进行AI辅助编码和版本控制工作。使用前还应留意依赖Node.js和本地AI模型或API密钥；Apache-2.0开源许可；无遥测和账号需求。"
     },
     {
       "name": "espanso/espanso",
@@ -3701,7 +3765,8 @@
         "use_cases": "适合需要频繁输入固定文本或代码片段的用户，如程序员和写作者。",
         "considerations": "完全本地运行，注重隐私保护；依赖Rust环境；采用GPL-3.0许可证。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "注重隐私的跨平台文本扩展工具，适合提升输入效率的用户。README 显示，用Rust语言开发，基于文件配置和包管理，支持自定义脚本和正则表达式触发，提供系统级文本扩展功能。该项目希望减少重复输入，支持系统范围内文本扩展和自动纠错，提升工作效率。能力覆盖跨平台支持Windows、macOS和Linux；支持文本扩展、表情符号和图片插入；支持自定义脚本和正则触发；内置包管理器和配置文件管理。适合需要频繁输入固定文本或代码片段的用户，如程序员和写作者。使用前还应留意完全本地运行，注重隐私保护；依赖Rust环境；采用GPL-3.0许可证。"
     },
     {
       "name": "XiaoYouChR/Ghost-Downloader-3",
@@ -3764,7 +3829,8 @@
         "use_cases": "适合需要跨平台批量下载、抓取网页媒体、录制直播，或从 GitHub Releases、HuggingFace 获取大型资源的用户。",
         "considerations": "Linux 要求 glibc 2.35+，Windows 10+、macOS 13+、Android 10+；插件 API 尚在稳定中；GPL-3.0 许可证。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向多平台用户的 AI 增强型多协议并发下载器，提供桌面端、Android 端及浏览器扩展协同体验。README 显示，基于 Python、Qt、asyncio 构建，采用 IDM 式智能分块且无需合并文件；支持模拟浏览器 TLS 指纹、aria2 RPC、媒体解析、镜像加速与 M3U8 实时解密。该项目希望统一处理网页、视频、直播、BT及模型文件下载，降低反爬拦截、断点任务丢失、跨工具切换和后台资源占用带来的成本。能力覆盖下载 HTTP、FTP、BT、磁力、M3U8、DASH与eD2k资源；解析 YouTube、Bilibili 播放列表及字幕；录制并解密 M3U8 直播；暂停编辑任务后续传。适合需要跨平台批量下载、抓取网页媒体、录制直播，或从 GitHub Releases、HuggingFace 获取大型资源的用户。使用前还应留意Linux 要求 glibc 2.35+，Windows 10+、macOS 13+、Android 10+；插件 API 尚在稳定中；GPL-3.0 许可证。"
     },
     {
       "name": "open-pencil/open-pencil",
@@ -3818,7 +3884,8 @@
         "use_cases": "适合设计师、开发者及团队进行协作设计和定制编辑器开发。",
         "considerations": "基于TypeScript、Vue、Tauri和WebGPU技术；MIT开源许可；处于活跃开发阶段，部分功能仍在完善中。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "开源AI设计编辑器，Figma替代方案，面向设计师和开发者。README 显示，使用TypeScript和Vue构建，基于Tauri框架实现跨平台桌面应用，集成AI接口支持设计生成和修改，采用WebRTC实现P2P实时协作，支持XPath查询和Figma插件API扩展。该项目希望提供无需账号的实时协作设计工具，集成AI辅助设计，降低设计工具使用门槛和成本。能力覆盖支持打开和编辑.fig和.pen设计文件；内置AI设计工具，支持90+设计工具；支持实时P2P协作，无需服务器和账号；支持组件、变体管理和图像矢量化；支持设计到代码导出(JSX/Tailwind)；提供Vue SDK构建自定义编辑器；跨平台桌面应用基于Tauri。适合设计师、开发者及团队进行协作设计和定制编辑器开发。使用前还应留意基于TypeScript、Vue、Tauri和WebGPU技术；MIT开源许可；处于活跃开发阶段，部分功能仍在完善中。"
     },
     {
       "name": "rancher-sandbox/rancher-desktop",
@@ -3866,7 +3933,8 @@
         "use_cases": "适合开发者和运维人员在桌面环境管理容器和Kubernetes集群。",
         "considerations": "基于Electron和TypeScript开发；Apache-2.0开源许可；需配置开发环境和依赖工具；文档详见官网和GitHub。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "桌面容器和Kubernetes管理工具，服务于开发者和运维人员。README 显示，Electron应用，主要用TypeScript编写，集成多种技术栈，包含Go语言编写的命令行工具，使用yarn脚本管理开发和测试流程，支持多平台构建和运行。该项目希望简化本地容器和Kubernetes环境搭建与管理，提升开发效率，统一多平台操作体验。能力覆盖桌面容器和Kubernetes管理；跨平台支持Windows、macOS和Linux；集成命令行工具rdctl；支持开发构建、测试和打包流程。适合开发者和运维人员在桌面环境管理容器和Kubernetes集群。使用前还应留意基于Electron和TypeScript开发；Apache-2.0开源许可；需配置开发环境和依赖工具；文档详见官网和GitHub。"
     },
     {
       "name": "raphamorim/rio",
@@ -3924,7 +3992,8 @@
         "use_cases": "适合希望在桌面、浏览器或 Steam Deck 等设备使用 GPU 加速终端的开发者与命令行用户。",
         "considerations": "源码构建要求 Rust 1.96.1 或更高版本；安装、浏览器支持范围及平台依赖需核对官方文档；MIT 许可证。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向桌面与浏览器环境的现代 GPU 硬件加速终端模拟器，强调跨环境运行。README 显示，使用 Rust 开发，通过 GPU 加速终端渲染；Topics 明确涉及 Metal、Vulkan 与 VTE，项目最低支持的 Rust 版本为 1.96.1。该项目希望为需要现代终端体验的用户提供可在桌面和浏览器运行的统一终端模拟器；更多具体痛点需核对项目文档。能力覆盖GPU 硬件加速终端渲染；在桌面环境运行；在浏览器环境运行；支持分屏及 CRT、模糊背景等演示效果。适合希望在桌面、浏览器或 Steam Deck 等设备使用 GPU 加速终端的开发者与命令行用户。使用前还应留意源码构建要求 Rust 1.96.1 或更高版本；安装、浏览器支持范围及平台依赖需核对官方文档；MIT 许可证。"
     },
     {
       "name": "dbgate/dbgate",
@@ -3990,7 +4059,8 @@
         "use_cases": "适合数据库管理员和开发者，支持多数据库环境下的数据浏览、编辑和查询设计。",
         "considerations": "GPL-3.0许可证；基于Svelte和Electron；支持Windows、Linux、Mac及网页端；最新版本v7.2.3"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台多数据库管理工具，支持图形化操作和多种数据库类型，提升数据库管理效率。README 显示，采用Svelte框架开发，支持MySQL、PostgreSQL、SQL Server、MongoDB等多种数据库，提供图形化界面和丰富功能，支持本地和网页端部署。该项目希望替代多款单一数据库管理工具，实现统一管理和操作，降低学习成本和维护复杂度。能力覆盖多数据库支持；跨平台运行；可视化查询设计；数据导入导出；ER图和JSON视图。适合数据库管理员和开发者，支持多数据库环境下的数据浏览、编辑和查询设计。使用前还应留意GPL-3.0许可证；基于Svelte和Electron；支持Windows、Linux、Mac及网页端；最新版本v7.2.3。"
     },
     {
       "name": "4gray/iptvnator",
@@ -4053,7 +4123,8 @@
         "use_cases": "适合IPTV用户、数字电视爱好者及相关内容管理者，支持多平台观看和频道管理。",
         "considerations": "基于Electron和Angular开发，跨平台支持；MIT开源许可；不提供任何播放列表或数字内容，需用户自行提供。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台IPTV播放器，面向需要播放和管理IPTV频道的用户。README 显示，采用Electron和Angular框架构建，使用HTML5播放器（HLS.js或Video.js）实现视频播放，支持本地文件和远程URL导入播放列表，集成XMLTV格式EPG数据，支持外部播放器（MPV、VLC、IINA）嵌入和调用。该项目希望简化IPTV频道播放和管理流程，支持多种播放列表格式和EPG，提升观看体验，替代复杂手动配置。能力覆盖支持m3u/m3u8播放列表导入和自动更新；内置HTML5播放器及外部播放器集成；EPG电视指南和多频道网格显示；支持电视回看、时移和频道分组；支持多平台（Windows、macOS、Linux、ChromeOS）。适合IPTV用户、数字电视爱好者及相关内容管理者，支持多平台观看和频道管理。使用前还应留意基于Electron和Angular开发，跨平台支持；MIT开源许可；不提供任何播放列表或数字内容，需用户自行提供。"
     },
     {
       "name": "reqable/reqable-app",
@@ -4108,7 +4179,8 @@
         "use_cases": "适合开发者和 QA 在 Windows、macOS、Linux、Android、iOS 上联调、抓包、复现及测试 API。",
         "considerations": "项目并非开源，本仓库仅用于 Issue、功能建议和反馈；高级能力可能需 Premium；许可证未提供，使用前应核对条款。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "Reqable 的问题跟踪仓库；对应产品是面向开发者和 QA 的跨平台一体化 API 调试与测试平台。README 显示，桌面端通过系统代理、移动端通过本地 VPN，以 MITM 策略拦截 HTTP(S)；集成流量检查、重放、编辑、断点、URL 重写和脚本，并提供 HTTP、WebSocket、SSE 请求客户端及跨设备云同步。该项目希望将 API 抓包调试与请求测试合并到同一环境，替代多个独立工具，减少捕获流量后转到其他客户端复现和组织请求的步骤。能力覆盖捕获并检查 HTTP(S) 流量；重放、编辑、断点及重写请求；编写和组织 HTTP、WebSocket、SSE 请求；管理环境变量、API 文档和跨设备同步。适合开发者和 QA 在 Windows、macOS、Linux、Android、iOS 上联调、抓包、复现及测试 API。使用前还应留意项目并非开源，本仓库仅用于 Issue、功能建议和反馈；高级能力可能需 Premium；许可证未提供，使用前应核对条款。"
     },
     {
       "name": "massCodeIO/massCode",
@@ -4169,7 +4241,8 @@
         "use_cases": "适合开发者进行代码复用、文档编写和API调试的日常工作。",
         "considerations": "基于Electron和TypeScript开发，支持本地数据存储为Markdown文件；AGPL-3.0开源许可；支持macOS、Windows、Linux。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "本地优先的开发者工作空间，集成代码片段、笔记和API调试工具。README 显示，使用Electron构建跨平台桌面应用，TypeScript开发，数据本地存储为Markdown文件，集成HTTP客户端和代码格式化工具，支持多种开发者工具和扩展。该项目希望统一管理代码片段、笔记和API请求，减少多工具切换，提高开发效率和知识管理。能力覆盖集成代码片段管理、多层文件夹和标签组织；支持160+语法高亮和Prettier代码格式化；内置Markdown笔记编辑和任务管理；集成HTTP客户端支持API请求调试；支持绘图、思维导图和演示模式。适合开发者进行代码复用、文档编写和API调试的日常工作。使用前还应留意基于Electron和TypeScript开发，支持本地数据存储为Markdown文件；AGPL-3.0开源许可；支持macOS、Windows、Linux。"
     },
     {
       "name": "mediago-dev/mediago",
@@ -4222,7 +4295,8 @@
         "use_cases": "适合普通用户和内容创作者下载和管理网络视频资源。",
         "considerations": "基于TypeScript和Electron开发；MIT开源许可；支持多语言界面；Docker镜像可选用不同镜像仓库。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台视频下载器，面向需要下载网络视频的用户。README 显示，Electron桌面应用结合浏览器扩展实现视频资源嗅探和下载，利用yt-dlp支持多站点视频抓取，内置格式转换功能，提供HTTP API接口，支持Docker容器化部署。该项目希望简化视频下载流程，无需配置复杂命令行或扩展，支持多站点和格式转换，支持远程和自动化操作。能力覆盖支持m3u8/HLS流和主流视频网站视频下载；内置浏览器扩展自动嗅探视频资源；支持YouTube、Bilibili、Twitter、Instagram等1000+站点；内置格式转换功能；提供HTTP API供脚本和自动化调用；支持Docker一键部署和远程访问。适合普通用户和内容创作者下载和管理网络视频资源。使用前还应留意基于TypeScript和Electron开发；MIT开源许可；支持多语言界面；Docker镜像可选用不同镜像仓库。"
     },
     {
       "name": "ThinkInAIXYZ/deepchat",
@@ -4284,7 +4358,8 @@
         "use_cases": "适合AI爱好者、开发者及需要集成多AI服务的个人或团队。",
         "considerations": "基于Electron和TypeScript开发，Apache-2.0开源许可；支持跨平台；官网提供安装包和文档。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "本地优先的智能AI助手，面向需要多模型集成和消息远程控制的用户。README 显示，采用Electron构建跨平台桌面客户端，集成多模型API，支持技能安装和远程消息控制，遵循Tape.systems哲学实现会话和请求可追溯。该项目希望统一管理多AI模型和技能，支持远程消息交互，提升AI助手的可用性和扩展性。能力覆盖支持多AI模型和服务提供商，集成MCP、技能和ACP协议；支持远程控制多种消息平台；实现会话持久化和上下文追踪；支持本地优先运行。适合AI爱好者、开发者及需要集成多AI服务的个人或团队。使用前还应留意基于Electron和TypeScript开发，Apache-2.0开源许可；支持跨平台；官网提供安装包和文档。"
     },
     {
       "name": "rullerzhou-afk/clawd-on-desk",
@@ -4337,7 +4412,8 @@
         "use_cases": "适合使用Claude Code、Codex、Copilot等AI编程助手的开发者，辅助监控任务进展。",
         "considerations": "AGPL-3.0许可证；依赖Node.js和Electron；支持Windows、macOS、Ubuntu/Linux；最新版本v0.13.0"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向开发者的桌面像素宠物，实时监控多种AI编程助手状态，提升开发体验。README 显示，基于JavaScript和Electron开发，作为桌面像素风宠物，实时监听多种AI编程助手的命令和状态，通过动画反馈任务进展和权限请求。该项目希望解决开发者需频繁查看AI助手状态的痛点，提供直观、实时的任务反馈，减少干扰。能力覆盖多AI编程助手监控；实时状态反馈；多主题支持；跨平台兼容；自定义动画包。适合使用Claude Code、Codex、Copilot等AI编程助手的开发者，辅助监控任务进展。使用前还应留意AGPL-3.0许可证；依赖Node.js和Electron；支持Windows、macOS、Ubuntu/Linux；最新版本v0.13.0。"
     },
     {
       "name": "PixiEditor/PixiEditor",
@@ -4398,7 +4474,8 @@
         "use_cases": "适合游戏开发者、动画师和图像设计师进行2D创作和编辑。",
         "considerations": "基于C和.NET Core开发；LGPL-3.0开源许可；支持多平台桌面环境；文档和社区支持活跃。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "通用2D图像编辑器，满足游戏开发和图像创作需求。README 显示，使用C和Avalonia UI框架开发，采用节点渲染系统管理图层和特效，集成动画时间线和关键帧功能，支持多格式导出，跨平台运行。该项目希望提供一体化2D编辑和动画工具，支持多种图形类型和导出格式，简化创作流程。能力覆盖支持像素艺术、绘画和矢量图形编辑；支持图层、节点图和特效；支持动画时间线和关键帧动画；支持多种导出格式（png、jpg、svg、gif、mp4）；跨平台支持Windows、Linux和macOS；基于Avalonia UI框架。适合游戏开发者、动画师和图像设计师进行2D创作和编辑。使用前还应留意基于C和.NET Core开发；LGPL-3.0开源许可；支持多平台桌面环境；文档和社区支持活跃。"
     },
     {
       "name": "JannisX11/blockbench",
@@ -4450,7 +4527,8 @@
         "use_cases": "适合3D艺术家和游戏开发者，尤其是制作Minecraft模型和低多边形艺术作品。",
         "considerations": "GPL-3.0许可证；基于JavaScript和Electron；支持插件和主题扩展；最新版本v5.1.6"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "低多边形3D模型编辑器，支持像素艺术纹理，适合游戏开发和3D打印。README 显示，使用JavaScript开发，基于Electron框架，支持低多边形模型编辑和像素艺术纹理，提供多种导出格式和插件机制，适合游戏和3D打印应用。该项目希望简化低多边形模型制作流程，支持多格式导出，满足Minecraft等游戏专用格式需求。能力覆盖低多边形3D建模；像素艺术纹理支持；多格式导出；插件扩展；现代友好界面。适合3D艺术家和游戏开发者，尤其是制作Minecraft模型和低多边形艺术作品。使用前还应留意GPL-3.0许可证；基于JavaScript和Electron；支持插件和主题扩展；最新版本v5.1.6。"
     },
     {
       "name": "netease-youdao/LobsterAI",
@@ -4510,7 +4588,8 @@
         "use_cases": "适合企业办公人员、数据分析师及远程协作团队，支持本地项目管理和多平台即时控制。",
         "considerations": "MIT开源许可证；依赖Electron和TypeScript；支持微信、飞书、钉钉、Telegram远程控制；最新版本2026.7.29"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "开源桌面级AI代理，支持数据分析、文档制作及多平台远程控制，提升办公自动化效率。README 显示，基于TypeScript和Electron构建，采用OpenClaw作为运行时和网关，分离产品层和执行层，支持本地持久化、权限管理和多代理协作，集成28种内置技能和MCP服务器扩展。该项目希望替代传统手动办公流程，实现跨平台远程操作和多任务自动化，降低人工成本和操作复杂度。能力覆盖多代理工作流；本地文件和命令操作；多平台远程控制；丰富内置技能；定时任务管理。适合企业办公人员、数据分析师及远程协作团队，支持本地项目管理和多平台即时控制。使用前还应留意MIT开源许可证；依赖Electron和TypeScript；支持微信、飞书、钉钉、Telegram远程控制；最新版本2026.7.29。"
     },
     {
       "name": "op7418/CodePilot",
@@ -4561,7 +4640,8 @@
         "use_cases": "适合AI开发者、研究人员及需要多AI模型协同工作的用户。",
         "considerations": "基于Electron和Next.js开发，支持macOS、Windows、Linux；许可证未明确；官网提供下载和文档。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "多模型AI代理桌面客户端，面向需要多AI服务集成和远程控制的用户。README 显示，采用Electron和Next.js构建桌面客户端，支持多AI服务API接入，集成多模型管理和远程控制功能，支持任务调度和多媒体生成。该项目希望简化多AI服务管理，支持多任务并行和远程操作，提升AI助手的灵活性和效率。能力覆盖支持连接17+ AI服务提供商，切换模型不中断上下文；多任务并行处理和远程手机控制；集成MCP和技能扩展；支持生成交互式仪表盘和媒体任务管理。适合AI开发者、研究人员及需要多AI模型协同工作的用户。使用前还应留意基于Electron和Next.js开发，支持macOS、Windows、Linux；许可证未明确；官网提供下载和文档。"
     },
     {
       "name": "altair-graphql/altair",
@@ -4621,7 +4701,8 @@
         "use_cases": "适合GraphQL开发者进行查询调试和API管理。",
         "considerations": "基于TypeScript和Angular开发，MIT开源许可；支持Electron桌面应用和浏览器扩展；官网提供文档和Docker镜像。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "功能丰富的跨平台GraphQL客户端，面向开发者和API调试人员。README 显示，采用Angular和Electron构建跨平台GraphQL客户端，集成查询编辑、片段管理和调试功能，支持多平台部署。该项目希望简化GraphQL查询调试和管理，提升开发效率，替代多工具组合。能力覆盖支持GraphQL查询调试和编辑；支持跨平台桌面和浏览器扩展；集成片段管理和查询历史；支持GraphiQL和GraphQL IDE功能。适合GraphQL开发者进行查询调试和API管理。使用前还应留意基于TypeScript和Angular开发，MIT开源许可；支持Electron桌面应用和浏览器扩展；官网提供文档和Docker镜像。"
     },
     {
       "name": "generalaction/emdash",
@@ -4684,7 +4765,8 @@
         "use_cases": "适合软件开发者使用多AI代理辅助编码和代码审查。",
         "considerations": "基于TypeScript开发，Apache-2.0开源许可；支持macOS、Windows、Linux；官网提供安装和文档。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "多代理AI编码开发环境，面向需要并行AI编码任务的开发者。README 显示，采用Electron桌面应用，管理多AI编码代理CLI，利用Git工作树隔离任务，支持远程SSH连接和多平台集成。该项目希望简化多AI编码任务管理，支持任务隔离和远程开发，提升编码效率。能力覆盖支持多AI编码代理并行运行；每个任务独立Git工作树和分支；集成多种AI编码代理CLI；支持远程SSH项目管理；集成多平台任务和PR管理。适合软件开发者使用多AI代理辅助编码和代码审查。使用前还应留意基于TypeScript开发，Apache-2.0开源许可；支持macOS、Windows、Linux；官网提供安装和文档。"
     },
     {
       "name": "OpenWhispr/openwhispr",
@@ -4743,7 +4825,8 @@
         "use_cases": "适合重视隐私的 macOS、Windows、Linux 用户进行日常听写、会议记录、音视频转录和语音操作 AI。",
         "considerations": "云端模式及 GPT、Claude、Gemini 等服务可能需要自备账号或密钥；离线引擎需本地运行资源；MIT 许可。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向跨平台桌面用户的隐私优先语音转文字、会议转录、笔记与语音智能体应用。README 显示，通过全局快捷键录音并将文字粘贴至当前应用；可在设备上用 Whisper、NVIDIA Parakeet 离线转录，也可调用云模型；支持本地说话人分离、声纹识别、音视频导入及 AI Agent。该项目希望替代手工输入、分散的会议转录和笔记流程；本地模式避免音频离开设备，并减少在任意应用中录入、翻译和调用 AI 的操作步骤。能力覆盖在任意应用中快捷键听写与自动粘贴；离线或云端转录及听写翻译；会议检测、实时说话人分离和声纹识别；语音调用 AI Agent并管理笔记。适合重视隐私的 macOS、Windows、Linux 用户进行日常听写、会议记录、音视频转录和语音操作 AI。使用前还应留意云端模式及 GPT、Claude、Gemini 等服务可能需要自备账号或密钥；离线引擎需本地运行资源；MIT 许可。"
     },
     {
       "name": "Sylinko/Everywhere",
@@ -4802,7 +4885,8 @@
         "use_cases": "适合需要跨应用快速获取AI帮助的桌面用户，如技术支持、文档摘要、即时翻译等场景。",
         "considerations": "无明确许可证声明，建议核对官方文档；依赖.NET 10和Avalonia框架；最新版本v0.8.0"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向桌面用户的上下文感知AI助手，支持多模型和工具，提升跨应用操作效率。README 显示，基于C和Avalonia框架开发，利用多种大型语言模型(LLMs)和MCP工具，实时捕获当前应用上下文，无需截图或切换应用，通过快捷键即时提供AI辅助。该项目希望解决传统AI工具需截图、复制或切换应用的繁琐，提供即时、无缝的桌面AI辅助。能力覆盖多模型集成；上下文感知；跨应用操作；快捷键唤起；屏幕内容即时理解。适合需要跨应用快速获取AI帮助的桌面用户，如技术支持、文档摘要、即时翻译等场景。使用前还应留意无明确许可证声明，建议核对官方文档；依赖.NET 10和Avalonia框架；最新版本v0.8.0。"
     },
     {
       "name": "HuLaSpark/HuLa",
@@ -4859,7 +4943,8 @@
         "use_cases": "适合个人和企业用户进行多设备即时通讯和社交管理。",
         "considerations": "基于Tauri、Vue3和TypeScript开发，Apache-2.0开源许可；支持Windows、macOS、Linux、Android、iOS多平台。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台高性能即时通讯应用，面向多终端用户。README 显示，采用Tauri作为桌面容器，结合Vue3响应式框架和TypeScript，构建跨平台即时通讯系统，支持多种消息和社交功能。该项目希望提供统一高效的即时通讯解决方案，支持多平台和丰富社交功能，提升用户沟通体验。能力覆盖支持多设备登录管理和二维码扫码登录；一对一及群组聊天；消息撤回、已读状态和@提醒；表情包、消息点赞和转发；多窗口管理和系统托盘通知；语音视频通话。适合个人和企业用户进行多设备即时通讯和社交管理。使用前还应留意基于Tauri、Vue3和TypeScript开发，Apache-2.0开源许可；支持Windows、macOS、Linux、Android、iOS多平台。"
     },
     {
       "name": "MoeKoeMusic/MoeKoeMusic",
@@ -4912,7 +4997,8 @@
         "use_cases": "适合酷狗音乐用户在多平台使用丰富功能的音乐播放器。",
         "considerations": "基于Vue.js全家桶开发，GPL-2.0开源许可；支持多平台客户端和Web部署；需配置API地址。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "多平台酷狗音乐第三方客户端，面向酷狗用户和音乐爱好者。README 显示，采用Vue3和Electron构建跨平台客户端，集成酷狗音乐API，支持多种播放和社交功能，支持插件和主题定制。该项目希望提供免费高颜值酷狗音乐客户端，支持VIP歌曲播放，替代官方客户端限制。能力覆盖支持酷狗账号登录和每日自动领取VIP；支持歌词显示和每日推荐；支持MV播放和桌面歌词；支持多平台（Windows、macOS、Linux、Web）；支持主题切换和插件系统。适合酷狗音乐用户在多平台使用丰富功能的音乐播放器。使用前还应留意基于Vue.js全家桶开发，GPL-2.0开源许可；支持多平台客户端和Web部署；需配置API地址。"
     },
     {
       "name": "binaricat/Netcatty",
@@ -4967,7 +5053,8 @@
         "use_cases": "适合开发、系统管理和 DevOps 团队集中维护多台远程服务器，执行诊断、日志检查、资源监控及服务部署。",
         "considerations": "支持 macOS、Windows 和 Linux；AI 功能所需模型、账号或服务条件未在摘要中说明，需核对文档；GPL-3.0 许可证。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向开发者、系统管理员和 DevOps 的跨平台 SSH 工作空间，整合终端、SFTP、多主机管理与 AI 运维助手。README 显示，使用 TypeScript、Electron、React 与 xterm.js 构建桌面端；内置 Catty Agent，可通过自然语言执行命令、分析输出，并编排多个远程主机上的操作。该项目希望替代在 PuTTY、Termius、SecureCRT 等工具及独立 SFTP 客户端间切换，降低记忆命令、多服务器诊断和复杂运维编排的操作成本。能力覆盖管理 SSH 连接与 SFTP 文件工作流；分屏终端和 Vault 视图；自然语言诊断服务器与分析日志；跨主机编排部署和集群操作。适合开发、系统管理和 DevOps 团队集中维护多台远程服务器，执行诊断、日志检查、资源监控及服务部署。使用前还应留意支持 macOS、Windows 和 Linux；AI 功能所需模型、账号或服务条件未在摘要中说明，需核对文档；GPL-3.0 许可证。"
     },
     {
       "name": "thewh1teagle/vibe",
@@ -5017,7 +5104,8 @@
         "use_cases": "适合需要本地转录音视频内容的个人和企业用户，支持批量处理和多平台使用。",
         "considerations": "依赖本地硬件GPU支持（Nvidia/AMD/Intel），支持macOS、Windows、Linux；MIT许可证；建议查看官方文档了解详细使用和模型配置。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "一款支持本地离线转录的跨平台语音转文字工具，适合注重隐私和多语言转录需求用户。README 显示，基于TypeScript和Rust开发，集成OpenAI Whisper及多种语音识别模型，支持本地离线转录，利用GPU加速，提供桌面应用和命令行接口，支持HTTP API和多种音视频格式输入。该项目希望解决了用户对隐私保护的转录需求，避免音频上传云端，支持多语言和多格式，提升转录效率和准确性。能力覆盖支持多语言离线转录；支持Whisper、Nemotron 3.5、Parakeet TDT v3模型；批量转录多文件；实时预览；多格式导出（SRT、VTT、TXT等）；支持YouTube等网站音频转录；GPU优化（Nvidia/AMD/Intel）；支持命令行和HTTP API；支持本地AI分析和多语言摘要。适合需要本地转录音视频内容的个人和企业用户，支持批量处理和多平台使用。使用前还应留意依赖本地硬件GPU支持（Nvidia/AMD/Intel），支持macOS、Windows、Linux；MIT许可证；建议查看官方文档了解详细使用和模型配置。"
     },
     {
       "name": "kunkundi/crossdesk",
@@ -5076,7 +5164,8 @@
         "use_cases": "适合个人远程访问、跨平台设备维护和技术支持，也适合需从 iOS Safari 等浏览器控制电脑的工作流。",
         "considerations": "最低支持 Windows 10、指定版本 macOS、Ubuntu 20.04；源码构建需 xmake、CMake 3.21+，采用 GPL-3.0。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向个人与技术支持场景的轻量级跨平台远程桌面软件，支持桌面客户端和浏览器控制远端设备。README 显示，基于 C++ 与 MiniRTC，实现 ICE 网络透传、H264/AV1 视频、Opus 音频、信令、拥塞控制及 SRTP 加密；Windows 辅助服务增强锁屏和安全桌面控制。该项目希望让用户通过设备 ID 和密码快速远控跨平台设备，并以 Web 客户端降低控制端安装成本；增强 Windows 登录和锁屏阶段的操作能力。能力覆盖跨平台远程桌面连接；Web 浏览器控制远端设备；音视频软硬编解码与加密传输；Windows 锁屏、安全桌面及 Ctrl+Alt+Del 控制。适合个人远程访问、跨平台设备维护和技术支持，也适合需从 iOS Safari 等浏览器控制电脑的工作流。使用前还应留意最低支持 Windows 10、指定版本 macOS、Ubuntu 20.04；源码构建需 xmake、CMake 3.21+，采用 GPL-3.0。"
     },
     {
       "name": "freeplane/freeplane",
@@ -5135,7 +5224,8 @@
         "use_cases": "适合学生、教师、项目经理及知识工作者。",
         "considerations": "GPL-2.0许可证；基于Java，需安装Java环境；支持跨平台。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "思维导图和知识管理应用，助力高效组织和传达想法。README 显示，基于Java和OSGi框架，使用Java Swing构建界面，支持插件和脚本扩展，运行于任何安装Java的操作系统。该项目希望替代传统笔记和手绘思维导图，提升信息组织和项目管理效率。能力覆盖思维导图绘制；知识管理；项目管理；支持Groovy脚本扩展；支持LaTeX和Markdown；多平台运行；插件支持。适合学生、教师、项目经理及知识工作者。使用前还应留意GPL-2.0许可证；基于Java，需安装Java环境；支持跨平台。"
     },
     {
       "name": "TabularisDB/tabularis",
@@ -5200,7 +5290,8 @@
         "use_cases": "适合数据工程师、后端开发者和数据库管理员进行跨数据库查询、分析执行计划，以及在现有 SQL 工作流中接入 AI 代理。",
         "considerations": "提供 Windows、macOS 与多种 Linux 安装包；AI 文本转 SQL 可选用 Ollama；数据库扩展依赖插件；Apache-2.0 许可证。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向数据库开发者和 AI 编程工具用户的开源桌面 SQL 工作台，支持 PostgreSQL、MySQL/MariaDB、SQLite 等多种数据库。README 显示，以 TypeScript 构建桌面应用，3 种数据库内置、另有 16 个官方插件；插件通过 stdio 上的 JSON-RPC 工作，内置 MCP Server，并可用 Ollama 本地模型完成文本转 SQL。该项目希望把多数据库连接、查询、笔记、执行计划分析和 AI 代理访问整合到一个应用，减少在数据库客户端、笔记工具与 AI 工具之间切换。能力覆盖管理连接并浏览数据库对象；使用 SQL 编辑器、SQL/Markdown 笔记本和跨单元格变量；交互式可视化 EXPLAIN；让 Claude、Cursor、Devin 读取模式并执行查询。适合数据工程师、后端开发者和数据库管理员进行跨数据库查询、分析执行计划，以及在现有 SQL 工作流中接入 AI 代理。"
     },
     {
       "name": "IsmaelMartinez/teams-for-linux",
@@ -5246,7 +5337,8 @@
         "use_cases": "适合Linux平台的企业用户和个人用户使用微软Teams进行沟通协作。",
         "considerations": "GPL-3.0许可证；非官方客户端，部分功能受限于Teams网页版；建议核对官方文档和社区支持。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "非官方Linux版微软Teams客户端，适合Linux用户使用Teams服务。README 显示，基于Electron和JavaScript开发，封装微软Teams网页版，增强Linux系统集成体验，提供桌面通知和多账户管理。该项目希望解决Linux用户无法使用官方Teams桌面客户端的问题，提供更好系统集成体验。能力覆盖集成微软Teams网页版，支持系统通知和托盘图标；支持多账户配置；支持屏幕共享；支持自定义背景和主题；跨平台支持Linux。适合Linux平台的企业用户和个人用户使用微软Teams进行沟通协作。使用前还应留意GPL-3.0许可证；非官方客户端，部分功能受限于Teams网页版；建议核对官方文档和社区支持。"
     },
     {
       "name": "graphif/project-graph",
@@ -5301,7 +5393,8 @@
         "use_cases": "设计师制作创意流程图，教师开发课程大纲，开发人员构建模块依赖图和系统架构。",
         "considerations": "无明确许可证信息，建议核对项目文档。支持Windows、macOS和Linux。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "基于节点的非线性思维和笔记可视化工具，适合设计师、教师和开发人员。README 显示，基于TypeScript，采用React和Tailwind CSS构建现代界面，使用Canvas技术实现节点图绘制，支持跨平台桌面应用（通过Tauri）。提供API扩展和定期功能更新。该项目希望帮助用户快速构思和直观呈现复杂关系，替代传统线性笔记和手绘图表，提升头脑风暴和项目规划效率。能力覆盖节点拖拽连接；支持多种图表类型（DAG、树形结构、逻辑关系网络）；历史记录撤销/重做；自动保存备份；跨平台支持；多语言界面；丰富扩展功能和API集成。设计师制作创意流程图，教师开发课程大纲，开发人员构建模块依赖图和系统架构。使用前还应留意无明确许可证信息，建议核对项目文档。支持Windows、macOS和Linux。"
     },
     {
       "name": "Splode/pomotroid",
@@ -5352,7 +5445,8 @@
         "use_cases": "适合需要时间管理和专注工作的人群，如学生、开发者和职场人士。",
         "considerations": "MIT许可证；跨平台支持Windows、macOS、Linux；依赖Tauri、Rust和Svelte技术栈。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "简洁美观的跨平台番茄钟计时器，适合提升个人时间管理效率的用户。README 显示，使用Rust、Svelte和Tauri构建桌面应用，提供可视化番茄钟计时，支持主题和统计功能，集成本地通知和快捷键。该项目希望帮助用户高效管理工作与休息时间，提升专注力和生产力。能力覆盖可配置工作和休息时长；统计历史数据和热力图；内置38种主题支持自动切换；支持自定义主题热加载；支持多语言界面；全局快捷键控制；桌面通知和系统托盘图标；支持WebSocket API。适合需要时间管理和专注工作的人群，如学生、开发者和职场人士。使用前还应留意MIT许可证；跨平台支持Windows、macOS、Linux；依赖Tauri、Rust和Svelte技术栈。"
     },
     {
       "name": "doublecmd/doublecmd",
@@ -5400,7 +5494,8 @@
         "use_cases": "适合需要高效文件管理的多平台用户和开发者。",
         "considerations": "GPL-2.0许可证；基于Pascal开发；支持多操作系统。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "免费开源跨平台双面板文件管理器，提升文件操作效率。README 显示，使用Pascal语言开发，支持多平台运行，提供双面板界面，灵感来源Total Commander。该项目希望替代系统自带文件管理器，提供更高效的文件浏览和管理体验。能力覆盖双面板文件管理；跨平台支持；支持32位和64位处理器；多平台安装包；丰富的文件操作功能。适合需要高效文件管理的多平台用户和开发者。使用前还应留意GPL-2.0许可证；基于Pascal开发；支持多操作系统。"
     },
     {
       "name": "caamer20/Telegram-Drive",
@@ -5451,7 +5546,8 @@
         "use_cases": "适合Telegram用户需要个人云存储和文件管理的场景。",
         "considerations": "无明确许可证信息；依赖用户提供Telegram API凭证；支持Windows、macOS、Linux；建议核对官方文档。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "开源桌面应用，将Telegram账号变成安全无限的个人云存储驱动。README 显示，基于Tauri、Rust、React和TypeScript开发，直接调用Telegram API管理Saved Messages和频道，实现文件云存储功能。该项目希望解决用户云存储成本和隐私问题，利用Telegram存储文件，方便管理和访问。能力覆盖将Telegram账号作为个人云存储驱动；支持文件上传、下载、重命名、移动、复制、删除；支持文件夹管理和自定义分组；支持多种文件预览和播放；支持本地REST API；支持加密传输模式；跨平台桌面应用。适合Telegram用户需要个人云存储和文件管理的场景。使用前还应留意无明确许可证信息；依赖用户提供Telegram API凭证；支持Windows、macOS、Linux；建议核对官方文档。"
     },
     {
       "name": "pulsar-edit/pulsar",
@@ -5498,7 +5594,8 @@
         "use_cases": "适合 Atom 迁移用户、希望深度定制编辑环境的开发者，以及参与编辑器维护和扩展的社区贡献者。",
         "considerations": "项目由社区维护且源自 Atom；具体系统要求、扩展兼容性和许可证需核对官网、构建文档及 LICENSE.md。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "面向开发者及高度定制需求用户的社区主导文本编辑器，是 Atom 的 Electron 分支。README 显示，以 JavaScript 和 Electron 构建，延续 Atom 的可扩展架构；提供默认配置以降低上手门槛，并通过社区协作维护、构建和本地化。该项目希望为 Atom 停止维护后的用户提供延续选择，在保留深度定制能力的同时提供可直接使用的默认体验。能力覆盖高度定制编辑器界面与行为；基于 Electron 跨平台运行；提供安装、使用和源码构建文档；支持社区协作与多语言本地化。适合 Atom 迁移用户、希望深度定制编辑环境的开发者，以及参与编辑器维护和扩展的社区贡献者。使用前还应留意项目由社区维护且源自 Atom；具体系统要求、扩展兼容性和许可证需核对官网、构建文档及 LICENSE.md。"
     },
     {
       "name": "purocean/yn",
@@ -5561,7 +5658,8 @@
         "use_cases": "适合写作者、开发者和知识工作者进行文档编辑和管理。",
         "considerations": "AGPL-3.0许可证；基于Electron和TypeScript开发；安全性需注意，执行外部Markdown文件需谨慎。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "高度可扩展的Markdown编辑器，适合需要集成AI和多功能的生产力用户。README 显示，使用TypeScript和Electron构建，集成Monaco编辑器，支持Markdown扩展功能和AI辅助，提供丰富插件和加密支持。该项目希望提升Markdown编辑效率，集成版本控制和AI辅助，支持多种文档扩展需求。能力覆盖支持版本控制；集成AI助手支持文本和代码生成；支持思维导图、文档加密、代码运行、集成终端；支持图表嵌入、HTML小程序、Reveal.js演示；支持插件和宏替换；多语言界面。适合写作者、开发者和知识工作者进行文档编辑和管理。使用前还应留意AGPL-3.0许可证；基于Electron和TypeScript开发；安全性需注意，执行外部Markdown文件需谨慎。"
     },
     {
       "name": "oliverschwendener/ueli",
@@ -5612,7 +5710,8 @@
         "use_cases": "适合需要快速启动程序和文件的多平台用户。",
         "considerations": "MIT许可证；Windows、macOS、Linux支持；部分平台二进制未签名，安装时需手动允许。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台键盘快捷启动器，提升用户操作效率。README 显示，使用TypeScript和Electron框架开发，结合React和Fluent UI构建界面，支持多平台安装和快捷键操作。该项目希望简化应用和文件启动流程，替代传统鼠标点击，提升工作效率。能力覆盖跨平台键盘快捷启动；支持热键调出；搜索结果导航；收藏夹管理；多平台安装支持。适合需要快速启动程序和文件的多平台用户。使用前还应留意MIT许可证；Windows、macOS、Linux支持；部分平台二进制未签名，安装时需手动允许。"
     },
     {
       "name": "EcoPasteHub/EcoPaste",
@@ -5668,7 +5767,8 @@
         "use_cases": "适合需要高效管理剪贴板历史和内容的办公用户。",
         "considerations": "Apache-2.0许可证；依赖Rust和Tauri架构；支持macOS和Windows。"
       },
-      "is_new": false
+      "is_new": false,
+      "analysis_summary_zh": "跨平台本地剪贴板管理工具，适合macOS和Windows用户。README 显示，采用Rust实现核心逻辑，前端使用React，基于Tauri构建跨平台桌面应用，利用SQLite FTS5实现高效搜索。该项目希望解决剪贴板内容管理混乱，支持多类型数据历史和搜索，保护敏感信息。能力覆盖剪贴板历史管理；支持文本、HTML、RTF、图片、文件夹；SQLite全文搜索；敏感内容过滤；预览窗口；本地数据存储；备份导入导出；托盘集成。适合需要高效管理剪贴板历史和内容的办公用户。使用前还应留意Apache-2.0许可证；依赖Rust和Tauri架构；支持macOS和Windows。"
     }
   ]
 }

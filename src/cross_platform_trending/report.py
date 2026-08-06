@@ -42,6 +42,36 @@ def _escape_table(text: str) -> str:
     return text.replace("|", "\\|").replace("\n", " ")
 
 
+def _analysis_summary(item: dict[str, Any]) -> str:
+    """将 README 分析整理为约 200–500 字、可直接阅读的一段简介。"""
+    summary = str(item.get("analysis_summary_zh") or "").strip()
+    if summary:
+        return summary
+
+    analysis = item.get("analysis_zh") or {}
+    positioning = str(analysis.get("positioning") or "").strip()
+    description = str(item.get("description_zh") or item.get("description") or "").strip()
+    implementation = str(analysis.get("implementation") or "").strip()
+    problems_solved = str(analysis.get("problems_solved") or "").strip()
+    capabilities = str(analysis.get("capabilities") or "").strip()
+    use_cases = str(analysis.get("use_cases") or "").strip()
+    considerations = str(analysis.get("considerations") or "").strip()
+    lead = positioning or description
+    parts = [lead.rstrip("。； ")]
+    if implementation:
+        parts.append(f"README 显示，{implementation.rstrip('。； ')}")
+    if problems_solved:
+        parts.append(f"该项目希望{problems_solved.rstrip('。； ')}")
+    if capabilities:
+        parts.append(f"能力覆盖{capabilities.rstrip('。； ')}")
+    if use_cases:
+        parts.append(use_cases.rstrip("。； "))
+    if considerations:
+        parts.append(f"使用前还应留意{considerations.rstrip('。； ')}")
+    summary = "。".join(part for part in parts if part) + ("。" if parts else "")
+    return summary[:500].rsplit("。", 1)[0] + "。" if len(summary) > 500 else summary
+
+
 def _heat(item: dict[str, Any]) -> str:
     if item.get("trending_rank"):
         today = f"，今日 +{item['stars_today']:,} Stars" if item.get("stars_today") else ""
@@ -138,9 +168,7 @@ def render_markdown(
         lines.append("## 项目详情")
         lines.append("")
         for item in software:
-            description_zh = item.get("description_zh") or item["description"]
             new_label = " 🟢" if item.get("is_new") else ""
-            analysis = item.get("analysis_zh") or {}
             topics = "、".join(str(topic) for topic in item.get("topics", [])[:10])
             lines.extend(
                 [
@@ -152,12 +180,7 @@ def render_markdown(
                     "",
                     "#### 中文分析",
                     "",
-                    f"- **项目是做什么的**：{analysis.get('positioning') or description_zh}",
-                    f"- **怎么做到的**：{analysis.get('implementation') or '请参考项目 README 与官方技术文档。'}",
-                    f"- **解决了什么问题**：{analysis.get('problems_solved') or '请参考项目说明了解其目标问题。'}",
-                    f"- **核心能力**：{analysis.get('capabilities') or '请参考项目 README 与官方文档。'}",
-                    f"- **适用场景**：{analysis.get('use_cases') or '适合需要跨平台使用该类开源软件的用户。'}",
-                    f"- **关注事项**：{analysis.get('considerations') or '安装前请核对项目许可证、发布说明与安装包签名。'}",
+                    _analysis_summary(item),
                     "",
                     "#### 项目概况",
                     "",
@@ -228,6 +251,13 @@ def write_report(
     report_dir.mkdir(parents=True, exist_ok=True)
     data_dir.mkdir(parents=True, exist_ok=True)
     mark_new_projects(report_date, software, data_dir)
+    for item in software:
+        item["analysis_summary_zh"] = _analysis_summary(item)
+        summary_length = len(item["analysis_summary_zh"])
+        if not 200 <= summary_length <= 500:
+            raise ValueError(
+                f"{item['name']} 的中文简介为 {summary_length} 字，不在 200–500 字范围内"
+            )
 
     payload = {
         "date": report_date,

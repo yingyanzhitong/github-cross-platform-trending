@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from cross_platform_trending.report import mark_new_projects, render_markdown
+from cross_platform_trending.report import _analysis_summary, mark_new_projects, render_markdown
 
 
 class RenderMarkdownTests(unittest.TestCase):
@@ -135,10 +135,9 @@ class RenderMarkdownTests(unittest.TestCase):
         self.assertIn('<a id="project-detail-1"></a>', markdown)
         self.assertIn("[↖️ 返回表格中的 #1](#project-row-1)", markdown)
         self.assertIn("#### 中文分析", markdown)
-        self.assertIn("**项目是做什么的**：面向桌面用户的跨平台下载管理工具。", markdown)
-        self.assertIn("**怎么做到的**：使用 Rust 构建桌面客户端", markdown)
-        self.assertIn("**解决了什么问题**：解决多任务下载难以集中管理", markdown)
-        self.assertIn("**核心能力**：管理下载任务", markdown)
+        summary = _analysis_summary(software[0])
+        self.assertIn(summary, markdown)
+        self.assertNotIn("**项目是做什么的**", markdown)
         self.assertIn("#### 项目概况", markdown)
         self.assertIn("主要语言：Rust；许可证：MIT", markdown)
         self.assertIn("主题标签：desktop-app、download-manager", markdown)

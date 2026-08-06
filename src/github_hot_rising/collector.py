@@ -441,14 +441,14 @@ def _analysis_summary(item: dict[str, Any]) -> str:
         return summary
 
     analysis = item.get("analysis_zh") or {}
-    description = str(item.get("description_zh") or "").strip()
     positioning = str(analysis.get("positioning") or "").strip()
+    description = str(item.get("description_zh") or "").strip()
     implementation = str(analysis.get("implementation") or "").strip()
     problems_solved = str(analysis.get("problems_solved") or "").strip()
     capabilities = str(analysis.get("capabilities") or "").strip()
     use_cases = str(analysis.get("use_cases") or "").strip()
     considerations = str(analysis.get("considerations") or "").strip()
-    lead = description or positioning
+    lead = positioning or description
     parts = [lead.rstrip("。；； ")]
     if implementation:
         parts.append(f"README 显示，{implementation.rstrip('。；； ')}")
