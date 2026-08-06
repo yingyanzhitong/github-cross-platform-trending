@@ -37,6 +37,7 @@ def item(rank: int, *, is_new: bool) -> dict[str, object]:
         "pushed_at": "2026-08-04T00:00:00Z",
         "is_new": is_new,
         "analysis_zh": ANALYSIS,
+        "analysis_summary_zh": "这是用于验证热门增长榜的示例仓库。README 显示，它通过明确的数据结构和报告渲染函数生成日报，适合验证日报生成与页面展示流程。",
     }
 
 
@@ -69,6 +70,8 @@ class HotRisingReportTests(unittest.TestCase):
         self.assertIn('[↖️ 返回表格中的 #1](#project-row-1)', report)
         self.assertEqual(report.count("🟢"), 2)
         self.assertNotIn("NEW", report)
+        self.assertIn("这是用于验证热门增长榜的示例仓库。", report)
+        self.assertNotIn("**项目是做什么的**", report)
 
     def test_validator_checks_namespaced_latest_files(self) -> None:
         target = date(2026, 8, 4)

@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Any, Iterable
 from urllib.parse import quote
 
-from cross_platform_trending.translator import ANALYSIS_FIELDS, DescriptionTranslator
+from cross_platform_trending.translator import DescriptionTranslator
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -419,8 +419,9 @@ def analyze(
     translator = DescriptionTranslator(cache_path=TRANSLATIONS_PATH)
     translator.enrich(prepared)
     for item in prepared:
-        if not all(item.get("analysis_zh", {}).get(field) for field in ANALYSIS_FIELDS):
-            raise RuntimeError(f"{item['full_name']} 的六字段中文分析不完整")
+        item["analysis_summary_zh"] = _analysis_summary(item)
+        if not item["analysis_summary_zh"]:
+            raise RuntimeError(f"{item['full_name']} 的中文简介不完整")
         item.pop("latest_release", None)
         item["name"] = item.pop("repository_name")
     return prepared, attempted, warnings
@@ -428,6 +429,26 @@ def analyze(
 
 def _escape_table(value: Any) -> str:
     return str(value).replace("|", "\\|").replace("\n", " ")
+
+
+def _analysis_summary(item: dict[str, Any]) -> str:
+    """将 README 分析整理为项目详情中可直接阅读的一段简介。"""
+    summary = str(item.get("analysis_summary_zh") or "").strip()
+    if summary:
+        return summary
+
+    analysis = item.get("analysis_zh") or {}
+    description = str(item.get("description_zh") or "").strip()
+    positioning = str(analysis.get("positioning") or "").strip()
+    implementation = str(analysis.get("implementation") or "").strip()
+    use_cases = str(analysis.get("use_cases") or "").strip()
+    lead = description or positioning
+    parts = [lead.rstrip("。；； ")]
+    if implementation:
+        parts.append(f"README 显示，{implementation.rstrip('。；； ')}")
+    if use_cases:
+        parts.append(use_cases.rstrip("。；； "))
+    return "。".join(part for part in parts if part) + ("。" if parts else "")
 
 
 def render_report(payload: dict[str, Any]) -> str:
@@ -465,14 +486,6 @@ def render_report(payload: dict[str, Any]) -> str:
             f'{_escape_table(item["language"])} | {item["pushed_at"][:10]} |'
         )
 
-    labels = [
-        ("positioning", "项目是做什么的"),
-        ("implementation", "怎么做到的"),
-        ("problems_solved", "解决了什么问题"),
-        ("capabilities", "核心能力"),
-        ("use_cases", "适用场景"),
-        ("considerations", "关注事项"),
-    ]
     lines.extend(["", "## 项目详情", ""])
     for item in items:
         marker = " 🟢" if item["is_new"] else ""
@@ -485,10 +498,10 @@ def render_report(payload: dict[str, Any]) -> str:
                 "",
                 "#### 中文分析",
                 "",
+                _analysis_summary(item),
+                "",
             ]
         )
-        for key, label in labels:
-            lines.append(f'- **{label}**：{item["analysis_zh"][key]}')
         lines.extend(
             [
                 "",

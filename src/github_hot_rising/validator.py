@@ -5,8 +5,6 @@ import re
 from datetime import date
 from typing import Any
 
-from cross_platform_trending.translator import ANALYSIS_FIELDS
-
 from .collector import DATA_DIR, REPORTS_DIR
 
 
@@ -34,13 +32,9 @@ def validate(target: date, *, expected_count: int = 100) -> dict[str, int]:
             raise AssertionError(f"{item['full_name']} URL 无效")
         if not item.get("evidence"):
             raise AssertionError(f"{item['full_name']} 缺少热度或增长证据")
-        analysis = item.get("analysis_zh") or {}
-        if not all(
-            analysis.get(field)
-            and re.search(r"[\u4e00-\u9fff]", str(analysis[field]))
-            for field in ANALYSIS_FIELDS
-        ):
-            raise AssertionError(f"{item['full_name']} 六字段中文分析不完整")
+        summary = str(item.get("analysis_summary_zh") or "")
+        if not summary or not re.search(r"[\u4e00-\u9fff]", summary):
+            raise AssertionError(f"{item['full_name']} 中文简介不完整")
 
     checks = {
         "rows": len(re.findall(r'<a id="project-row-\d+"></a>', report)),
