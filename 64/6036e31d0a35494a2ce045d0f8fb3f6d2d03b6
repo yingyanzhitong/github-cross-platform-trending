@@ -1,0 +1,81 @@
+src/github_hot_rising/validator.py
+  s_4d6fdd61574b1b::t_2c8f0dcb53c59c 59-72
+src/cross_platform_trending/report.py
+  s_4d6fdd61574b1b::t_2c8f0dcb53c59c 112-115
+pyproject.toml
+  s_4d6fdd61574b1b::t_cea1a42d9e3e42 7
+src/cross_platform_trending/__init__.py
+  s_4d6fdd61574b1b::t_cea1a42d9e3e42 3
+src/github_hot_rising/collector.py
+  s_4d6fdd61574b1b::t_2c8f0dcb53c59c 477-480
+tests/test_report.py
+  s_4d6fdd61574b1b::t_2c8f0dcb53c59c 7,13-60
+CHANGELOG.md
+  s_4d6fdd61574b1b::t_cea1a42d9e3e42 5-12
+tests/test_hot_rising.py
+  s_4d6fdd61574b1b::t_2c8f0dcb53c59c 63-68,80-86
+  s_4d6fdd61574b1b::t_a01788d7287c8e 76
+site/package.json
+  s_4d6fdd61574b1b::t_cea1a42d9e3e42 4
+docs/reports/2026-07-30.md
+  s_4d6fdd61574b1b::t_fa469f704785cc 13-14
+docs/reports/2026-07-31.md
+  s_4d6fdd61574b1b::t_50212178966278 13
+docs/reports/2026-08-01.md
+  s_4d6fdd61574b1b::t_a573d82f8a35e2 13
+docs/reports/2026-08-02.md
+  s_4d6fdd61574b1b::t_c487637db7ab82 13-16
+docs/reports/2026-08-04.md
+  s_4d6fdd61574b1b::t_60a008fce7b913 13
+docs/reports/2026-08-05.md
+  s_4d6fdd61574b1b::t_550e0ca2555dc2 13
+docs/reports/2026-08-06.md
+  s_4d6fdd61574b1b::t_3639660634ba24 13
+docs/reports/hot-rising/2026-08-05.md
+  s_4d6fdd61574b1b::t_16b727cb222a5a 11-35
+docs/reports/hot-rising/2026-08-06.md
+  s_4d6fdd61574b1b::t_8642dcf8c674a4 11-20
+reports/2026-07-30.md
+  s_4d6fdd61574b1b::t_9ca29ac9e4ef1c 13-14
+reports/2026-07-31.md
+  s_4d6fdd61574b1b::t_9f48c79004aa98 13
+reports/2026-08-01.md
+  s_4d6fdd61574b1b::t_e32421c39eded5 13
+reports/2026-08-02.md
+  s_4d6fdd61574b1b::t_9951c19c79ab55 13-16
+reports/2026-08-04.md
+  s_4d6fdd61574b1b::t_0a299412863e88 13
+reports/2026-08-05.md
+  s_4d6fdd61574b1b::t_70c57557b6c5c1 13
+reports/2026-08-06.md
+  s_4d6fdd61574b1b::t_42c157357b4a60 13
+reports/hot-rising/2026-08-05.md
+  s_4d6fdd61574b1b::t_a2f095d43b140e 11-35
+reports/hot-rising/2026-08-06.md
+  s_4d6fdd61574b1b::t_0bc8f1b59161ff 11-20
+reports/hot-rising/latest.md
+  s_4d6fdd61574b1b::t_dbbb4c62738d6a 11-20
+reports/latest.md
+  s_4d6fdd61574b1b::t_10be63e41ab551 13
+site/package-lock.json
+  s_4d6fdd61574b1b::t_4129621cefa48d 3,9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "646036e31d0a35494a2ce045d0f8fb3f6d2d03b6",
+  "prompts": {},
+  "logical_commit_id": "646036e31d0a35494a2ce045d0f8fb3f6d2d03b6",
+  "sessions": {
+    "s_4d6fdd61574b1b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019facc4-37f4-7df2-9152-92c3103ebd72",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "masongzhi <masongzhi@bigo.sg>",
+      "total_additions": 96,
+      "total_deletions": 7
+    }
+  }
+}
