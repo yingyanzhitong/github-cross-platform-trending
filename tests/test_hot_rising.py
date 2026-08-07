@@ -75,8 +75,16 @@ class HotRisingReportTests(unittest.TestCase):
         self.assertIn('[↖️ 返回表格中的 #1](#project-row-1)', report)
         self.assertEqual(report.count("🟢"), 4)
         self.assertNotIn("NEW", report)
-        self.assertIn("这是用于验证热门增长榜的示例仓库。", report)
-        self.assertNotIn("**项目是做什么的**", report)
+        self.assertIn("这是用于测试榜单生成的仓库。", report)
+        for label in (
+            "项目是做什么的",
+            "怎么做到的",
+            "解决了什么问题",
+            "核心能力",
+            "适用场景",
+            "关注事项",
+        ):
+            self.assertEqual(report.count(f"- **{label}**："), 4)
         table, details = report.split("\n## 项目详情", 1)
         table_positions = [table.index(f'project-row-{rank}') for rank in (2, 4, 1, 3)]
         self.assertEqual(table_positions, sorted(table_positions))

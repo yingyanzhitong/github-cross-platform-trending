@@ -5,6 +5,8 @@ import re
 from datetime import date
 from typing import Any
 
+from cross_platform_trending.translator import ANALYSIS_FIELDS
+
 from .collector import DATA_DIR, REPORTS_DIR
 
 
@@ -32,6 +34,13 @@ def validate(target: date, *, expected_count: int = 100) -> dict[str, int]:
             raise AssertionError(f"{item['full_name']} URL 无效")
         if not item.get("evidence"):
             raise AssertionError(f"{item['full_name']} 缺少热度或增长证据")
+        analysis = item.get("analysis_zh") or {}
+        if not all(
+            analysis.get(field)
+            and re.search(r"[\u4e00-\u9fff]", str(analysis[field]))
+            for field in ANALYSIS_FIELDS
+        ):
+            raise AssertionError(f"{item['full_name']} 六字段中文分析不完整")
         summary = str(item.get("analysis_summary_zh") or "")
         if not summary or not re.search(r"[\u4e00-\u9fff]", summary):
             raise AssertionError(f"{item['full_name']} 中文简介不完整")
@@ -53,6 +62,17 @@ def validate(target: date, *, expected_count: int = 100) -> dict[str, int]:
         "evidence": len(re.findall(r"^#### 热度与增长证据$", report, re.M)),
     }
     for label, count in checks.items():
+        if count != expected_count:
+            raise AssertionError(f"{label} 数量为 {count}，不是 {expected_count}")
+    for label in (
+        "项目是做什么的",
+        "怎么做到的",
+        "解决了什么问题",
+        "核心能力",
+        "适用场景",
+        "关注事项",
+    ):
+        count = report.count(f"- **{label}**：")
         if count != expected_count:
             raise AssertionError(f"{label} 数量为 {count}，不是 {expected_count}")
     if "NEW" in report or "🆕" in report:

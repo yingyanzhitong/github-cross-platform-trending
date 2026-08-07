@@ -502,6 +502,14 @@ def render_report(payload: dict[str, Any]) -> str:
             f'{_escape_table(item["language"])} | {item["pushed_at"][:10]} |'
         )
 
+    analysis_labels = (
+        ("positioning", "项目是做什么的"),
+        ("implementation", "怎么做到的"),
+        ("problems_solved", "解决了什么问题"),
+        ("capabilities", "核心能力"),
+        ("use_cases", "适用场景"),
+        ("considerations", "关注事项"),
+    )
     lines.extend(["", "## 项目详情", ""])
     for item in items:
         marker = " 🟢" if item["is_new"] else ""
@@ -514,9 +522,11 @@ def render_report(payload: dict[str, Any]) -> str:
                 "",
                 "#### 中文分析",
                 "",
-                _analysis_summary(item),
-                "",
             ]
+        )
+        lines.extend(
+            f'- **{label}**：{item["analysis_zh"][key]}'
+            for key, label in analysis_labels
         )
         lines.extend(
             [
