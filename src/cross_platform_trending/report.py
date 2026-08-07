@@ -43,11 +43,7 @@ def _escape_table(text: str) -> str:
 
 
 def _analysis_summary(item: dict[str, Any]) -> str:
-    """将 README 分析整理为约 200–500 字、可直接阅读的一段简介。"""
-    summary = str(item.get("analysis_summary_zh") or "").strip()
-    if summary:
-        return summary
-
+    """将六项中文分析渲染为 200–500 字的结构化详情。"""
     analysis = item.get("analysis_zh") or {}
     positioning = str(analysis.get("positioning") or "").strip()
     description = str(item.get("description_zh") or item.get("description") or "").strip()
@@ -56,20 +52,40 @@ def _analysis_summary(item: dict[str, Any]) -> str:
     capabilities = str(analysis.get("capabilities") or "").strip()
     use_cases = str(analysis.get("use_cases") or "").strip()
     considerations = str(analysis.get("considerations") or "").strip()
-    lead = positioning or description
-    parts = [lead.rstrip("。； ")]
-    if implementation:
-        parts.append(f"README 显示，{implementation.rstrip('。； ')}")
-    if problems_solved:
-        parts.append(f"该项目希望{problems_solved.rstrip('。； ')}")
-    if capabilities:
-        parts.append(f"能力覆盖{capabilities.rstrip('。； ')}")
-    if use_cases:
-        parts.append(use_cases.rstrip("。； "))
-    if considerations:
-        parts.append(f"使用前还应留意{considerations.rstrip('。； ')}")
-    summary = "。".join(part for part in parts if part) + ("。" if parts else "")
-    return summary[:500].rsplit("。", 1)[0] + "。" if len(summary) > 500 else summary
+    labels = (
+        "项目是做什么的",
+        "怎么做到的",
+        "解决了什么问题",
+        "核心能力",
+        "适用场景",
+        "关注事项",
+    )
+    original_values = (
+        positioning or description,
+        implementation,
+        problems_solved,
+        capabilities,
+        use_cases,
+        considerations,
+    )
+    limits = [len(value) for value in original_values]
+
+    def build() -> str:
+        values = []
+        for value, limit in zip(original_values, limits, strict=True):
+            rendered = value[:limit].rstrip("。；，, ")
+            values.append(f"{rendered}…" if limit < len(value) else rendered)
+        return "\n".join(
+            f"- **{label}**：{value}"
+            for label, value in zip(labels, values, strict=True)
+        )
+
+    summary = build()
+    while len(summary) > 500:
+        longest = max(range(len(limits)), key=limits.__getitem__)
+        limits[longest] -= 1
+        summary = build()
+    return summary
 
 
 def _heat(item: dict[str, Any]) -> str:

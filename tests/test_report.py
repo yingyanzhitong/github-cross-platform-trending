@@ -137,7 +137,17 @@ class RenderMarkdownTests(unittest.TestCase):
         self.assertIn("#### 中文分析", markdown)
         summary = _analysis_summary(software[0])
         self.assertIn(summary, markdown)
-        self.assertNotIn("**项目是做什么的**", markdown)
+        self.assertGreaterEqual(len(summary), 200)
+        self.assertLessEqual(len(summary), 500)
+        for label in (
+            "项目是做什么的",
+            "怎么做到的",
+            "解决了什么问题",
+            "核心能力",
+            "适用场景",
+            "关注事项",
+        ):
+            self.assertIn(f"**{label}**", markdown)
         self.assertIn("#### 项目概况", markdown)
         self.assertIn("主要语言：Rust；许可证：MIT", markdown)
         self.assertIn("主题标签：desktop-app、download-manager", markdown)

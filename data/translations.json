@@ -366,14 +366,14 @@
     "Termix-SSH/Termix": {
       "source": "Self-hosted SSH and remote desktop management.",
       "zh": "自托管的SSH和远程桌面管理工具。",
-      "analysis_source": "7d1aa66821a526542637d9fb7b147ed3bb37ade858cc67b753ea99abb89f0730",
+      "analysis_source": "b7e842a23f020ae5e4768b80372ce0869cb5d9409a312879cb6f1af8946c2e8a",
       "analysis_zh": {
-        "positioning": "自托管的多功能SSH和远程桌面管理平台，面向服务器管理员和运维人员",
-        "implementation": "使用TypeScript开发，提供基于浏览器的多面板SSH终端和远程桌面访问，集成SSH隧道和文件管理功能，支持Docker/Podman容器控制，采用自托管部署模式",
-        "problems_solved": "集中管理多服务器SSH和远程桌面，简化运维流程，替代多工具分散管理，降低运维复杂度",
-        "capabilities": "SSH终端管理；远程桌面支持（RDP、VNC、Telnet）；SSH隧道管理；远程文件管理；Docker和Podman容器管理；多面板终端和浏览器内访问",
-        "use_cases": "适合运维工程师和系统管理员统一管理服务器和远程桌面，支持多协议和容器管理",
-        "considerations": "无明确许可证声明，建议核对项目主页和文档；基于TypeScript开发；需自托管服务器环境；支持多平台访问"
+        "positioning": "面向服务器与基础设施管理员的免费开源、自托管 SSH 和远程桌面统一管理平台。",
+        "implementation": "以 TypeScript 构建，通过浏览器或多平台客户端提供 SSH、RDP、VNC、Telnet、远程文件管理和隧道；隧道支持自动重连、健康监测及本地、远程、动态 SOCKS 转发。",
+        "problems_solved": "用一个自托管界面替代分散的终端、远程桌面、隧道和文件工具，并作为 Termius 的免费替代方案。",
+        "capabilities": "最多四分屏的 SSH 终端；RDP、VNC 与 Telnet 访问；SSH 隧道管理与监测；远程文件及 Docker、Podman 管理",
+        "use_cases": "适合希望自主管理服务器、远程桌面、容器和跨服务器文件的个人或运维团队。",
+        "considerations": "需自行托管；仓库未明确声明许可证，使用前应核对许可、部署方式和安全配置文档。"
       }
     },
     "ThinkInAIXYZ/deepchat": {
@@ -589,14 +589,14 @@
     "binaricat/Netcatty": {
       "source": "SSH workspace, SFTP, and terminals in one",
       "zh": "集成SSH、SFTP和终端的工作空间工具。",
-      "analysis_source": "a6392e4c51d2de0550f68b0ac36837cf632e83c692799b5a04a8d3910cdd9dd0",
+      "analysis_source": "78ea4ff3d269000b462c8339791e7e969f13d6cedc7b8dc2cc1ff563bfa4aa46",
       "analysis_zh": {
-        "positioning": "面向开发者、系统管理员和 DevOps 的跨平台 SSH 工作空间，整合终端、SFTP、多主机管理与 AI 运维助手。",
-        "implementation": "使用 TypeScript、Electron、React 与 xterm.js 构建桌面端；内置 Catty Agent，可通过自然语言执行命令、分析输出，并编排多个远程主机上的操作。",
-        "problems_solved": "替代在 PuTTY、Termius、SecureCRT 等工具及独立 SFTP 客户端间切换，降低记忆命令、多服务器诊断和复杂运维编排的操作成本。",
-        "capabilities": "管理 SSH 连接与 SFTP 文件工作流；分屏终端和 Vault 视图；自然语言诊断服务器与分析日志；跨主机编排部署和集群操作",
-        "use_cases": "适合开发、系统管理和 DevOps 团队集中维护多台远程服务器，执行诊断、日志检查、资源监控及服务部署。",
-        "considerations": "支持 macOS、Windows 和 Linux；AI 功能所需模型、账号或服务条件未在摘要中说明，需核对文档；GPL-3.0 许可证。"
+        "positioning": "面向开发者、系统管理员和 DevOps 的跨平台 SSH 工作空间，整合终端、SFTP 与 AI 运维助手。",
+        "implementation": "基于 Electron、React、TypeScript 和 xterm.js 构建，支持 macOS、Windows、Linux；通过分屏终端、Vault、SFTP 工作流统一服务器管理，内置 Catty Agent 以自然语言执行诊断及多主机操作。",
+        "problems_solved": "替代 PuTTY、Termius、SecureCRT 等分散工具，减少多服务器管理时的终端切换、命令记忆和跨主机操作成本。",
+        "capabilities": "管理 SSH 会话与分屏终端；浏览和操作 SFTP 文件；以 Vault 组织连接；通过 AI 诊断服务器并编排多主机任务",
+        "use_cases": "适合开发、运维和 DevOps 日常登录多台服务器、传输文件、检查日志资源及执行集群部署。",
+        "considerations": "采用 GPL-3.0；桌面端依赖 Electron 技术栈；AI Agent 所需模型、账号或服务配置应核对项目文档。"
       }
     },
     "caamer20/Telegram-Drive": {
@@ -641,14 +641,14 @@
     "codexu/note-gen": {
       "source": "Capture first. Organize later. A local-first Markdown app that turns scattered records into clear notes with AI.",
       "zh": "本地优先的 Markdown 应用，用 AI 将零散记录整理成清晰笔记。",
-      "analysis_source": "59188cec78695cdb9d635693007dc402f99b0f8a3f61ac132978659280e643ae",
+      "analysis_source": "039f0523a67e50ac639d81cbb079c1fcb4452cf204644124a73facc37686fdce",
       "analysis_zh": {
-        "positioning": "面向个人知识管理和内容整理的本地优先Markdown应用，用AI把零散记录转化为结构化笔记。",
-        "implementation": "先采集文本、录音、截图、链接、文件和待办，再按标签、时间或类型筛选材料；用户选择模板或描述目标，由AI组织为Markdown草稿，随后在编辑器中人工审阅续写。",
-        "problems_solved": "免去记录前先定标题、目录和结构的负担，减少信息散落多处、事后检索困难及手工汇总会议或周报的成本。",
-        "capabilities": "快速采集多类型记录；筛选并组合相关素材；AI整理摘要、报告或文章；以普通Markdown文件保存和继续编辑",
-        "use_cases": "适合记录灵感、整理会议、汇总阅读资料、生成周报或围绕图片与文档开展知识问答的用户。",
-        "considerations": "笔记保存在用户选择的本地工作区；AI模型、同步和完整平台支持信息需核对文档；GPL-3.0许可证。"
+        "positioning": "面向个人知识管理与写作者的本地优先 Markdown 应用，用 AI 将零散素材整理成完整笔记。",
+        "implementation": "以 TypeScript、Next.js 等技术构建；先采集文字、语音、截图、链接、文件或待办，再按标签、时间和类型筛选，结合模板或指令生成结构化 Markdown，文件保存在用户指定工作区。",
+        "problems_solved": "避免记录前被迫确定标题、目录和结构，减少素材散落多处、事后检索及手工整理报告的成本。",
+        "capabilities": "采集多类型碎片记录；筛选并组合相关素材；AI 整理摘要、报告或文章；在 Markdown 编辑器中审阅和续写",
+        "use_cases": "适合整理会议记录、研究资料、每周报告及主题图片和文档的知识工作者。",
+        "considerations": "GPL-3.0 许可；本地文件由用户选择工作区保存；AI 模型、移动端及同步要求需核对项目文档。"
       }
     },
     "crynta/terax-ai": {
@@ -693,14 +693,14 @@
     "domcyrus/rustnet": {
       "source": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
       "zh": "支持深度包检测的跨平台终端网络监控工具。",
-      "analysis_source": "1bfd645eded84e4f36fac05fbed845ce30d47b0dcc1739df564708f221a7f429",
+      "analysis_source": "c757ae04a7897c6e8977d4b7732591a12e5060e37549c54ce13db9c4486ab175",
       "analysis_zh": {
-        "positioning": "面向运维、开发和安全人员的跨平台终端网络监控工具，可按进程观察实时连接并执行深度包检测。",
-        "implementation": "以 Rust 构建；Linux 使用 eBPF、macOS 使用 PKTAP、Windows 使用 ETW 与 IP Helper 回退、FreeBSD 使用原生 API；内置 DPI、GeoIP、PCAPNG 导出及系统级沙箱。",
-        "problems_solved": "弥补 netstat、ss 缺少实时状态及 Wireshark、tcpdump 难以关联进程的问题，减少抓包后的手工归因与协议识别。",
-        "capabilities": "按进程归属 TCP、UDP、QUIC 连接；识别 TLS SNI、DNS、SSH、MQTT 等协议；分析 RTT、重传与乱序；导出带进程、DPI 和 GeoIP 注释的 PCAPNG",
-        "use_cases": "适合开发、运维和安全人员排查异常连接、分析网络性能、过滤实时流量并留存取证数据。",
-        "considerations": "不同平台依赖 eBPF、PKTAP、ETW 或原生 API；GeoIP 使用本地 MaxMind GeoLite2；采用 Apache-2.0。"
+        "positioning": "面向开发者和运维人员的跨平台终端网络监控工具，按进程呈现连接并执行深度包检测。",
+        "implementation": "使用 Rust 构建；Linux 通过 eBPF、macOS 通过 PKTAP、Windows 通过 ETW/IP Helper、FreeBSD 通过原生 API 关联进程；内置 DPI、PCAPNG 导出及平台沙箱，GeoIP 使用本地 MaxMind GeoLite2。",
+        "problems_solved": "弥补 netstat/ss 缺少实时状态、Wireshark/tcpdump 难以直接关联进程的问题，减少抓包后的人工关联和后处理。",
+        "capabilities": "按进程追踪 TCP、UDP、QUIC 连接；识别 HTTP、TLS/SNI、DNS、SSH 等协议；导出带进程与 GeoIP 注释的 PCAPNG；分析 RTT、重传和乱序包",
+        "use_cases": "适合开发者、安全人员和运维人员排查异常连接、协议行为、网络性能问题，并导出抓包供取证分析。",
+        "considerations": "采用 Apache-2.0；不同系统依赖 eBPF、PKTAP、ETW 或原生 API；Linux Landlock 需 5.13+。"
       }
     },
     "doublecmd/doublecmd": {
@@ -745,14 +745,14 @@
     "farion1231/cc-switch": {
       "source": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
       "zh": "支持多智能代理的一体化跨平台桌面助手。",
-      "analysis_source": "ecec903446a18fc83fc0a0f340a9875440a7080e1b4bf454850cbdc73e73beed",
+      "analysis_source": "01c734cd33308ec211c77a0c9eab29524c3fcde9bbf8e73937593870e0c5bc87",
       "analysis_zh": {
-        "positioning": "面向多种编码智能体用户的跨平台桌面统一管理与配置切换工具。",
-        "implementation": "使用 Rust 与 Tauri 构建桌面应用，统一管理 Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build、OpenCode、OpenClaw、Hermes Agent 等工具的配置与切换。",
-        "problems_solved": "减少用户分别配置和切换多个智能体工具的重复操作，降低多模型、多服务并用时的管理成本。",
-        "capabilities": "统一管理多种编码智能体；切换模型及服务配置；支持 MCP 相关工作流；提供跨平台桌面界面",
-        "use_cases": "适合同时使用 Claude Code、Codex 等多个智能体，并需频繁切换配置的开发者。",
-        "considerations": "MIT 许可证；使用第三方模型或 API 中继服务时，可能需要相应账号、密钥及付费额度。"
+        "positioning": "面向多种 AI 编程与智能代理工具用户的跨平台桌面统一管理助手。",
+        "implementation": "使用 Rust 与 Tauri 构建桌面应用，在统一界面中管理 Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build、OpenCode、OpenClaw 与 Hermes Agent 的配置和切换。",
+        "problems_solved": "减少用户在多种代理工具之间重复配置、切换模型或服务的操作成本。",
+        "capabilities": "统一管理多种 AI 编程代理；切换模型及相关配置；提供跨平台桌面界面；支持 MCP 相关工具链",
+        "use_cases": "适合同时使用多种编码代理、需要集中配置并频繁切换服务的开发者。",
+        "considerations": "MIT 许可；官方站点为 ccswitch.io；具体平台要求、账号和密钥配置需核对项目文档。"
       }
     },
     "flameshot-org/flameshot": {
@@ -784,14 +784,14 @@
     "generalaction/emdash": {
       "source": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
       "zh": "开源多代理开发环境，支持并行运行多种编码代理。",
-      "analysis_source": "31165ffce041c37a505e330001c9da8bbabdadfb4e9857e8cbff1bf3e15dacbc",
+      "analysis_source": "062d9ecc672b4bad93fea835197009714128a93be4cb6868e769e40cc50d2660",
       "analysis_zh": {
-        "positioning": "多代理AI编码开发环境，面向需要并行AI编码任务的开发者。",
-        "implementation": "采用Electron桌面应用，管理多AI编码代理CLI，利用Git工作树隔离任务，支持远程SSH连接和多平台集成。",
-        "problems_solved": "简化多AI编码任务管理，支持任务隔离和远程开发，提升编码效率。",
-        "capabilities": "支持多AI编码代理并行运行；每个任务独立Git工作树和分支；集成多种AI编码代理CLI；支持远程SSH项目管理；集成多平台任务和PR管理。",
-        "use_cases": "适合软件开发者使用多AI代理辅助编码和代码审查。",
-        "considerations": "基于TypeScript开发，Apache-2.0开源许可；支持macOS、Windows、Linux；官网提供安装和文档。"
+        "positioning": "面向同时运行多个编码代理的开发者和团队的开源 Agentic Development Environment 桌面应用。",
+        "implementation": "以 TypeScript 构建，每项任务位于独立 Git worktree 和分支；自动检测本机代理 CLI，支持 SSH/SFTP 远程项目，并集成多种工单平台、diff、PR、CI 检查与合并流程。",
+        "problems_solved": "减少并行代理带来的终端切换、分支冲突和审查负担，并把工单到代理执行、PR 合并串成统一流程。",
+        "capabilities": "并行运行多种编码代理；以 worktree 隔离任务；导入多平台工单；审查 diff、创建 PR、查看 CI 并合并",
+        "use_cases": "适合并行处理多个缺陷或功能，并需连接本地及自有远程机器的个人和研发团队。",
+        "considerations": "Apache-2.0 许可；需自行安装并配置代理 CLI；远程凭据存于系统钥匙串，代理数据政策取决于所选提供商。"
       }
     },
     "getagentseal/codeburn": {
@@ -810,14 +810,27 @@
     "getpaseo/paseo": {
       "source": "Orchestrate multiple coding agents from desktop and mobile",
       "zh": "桌面和移动端多智能体编程协调工具。",
-      "analysis_source": "ae7cb81afb428674fa5e5046552f9059a8eabad679626a64724a890f99cbe624",
+      "analysis_source": "dc057bd2dfd638f50d8f58e27169980ae2cfae1875da10a4c59edfdcc8874f97",
       "analysis_zh": {
-        "positioning": "面向开发者的自托管多编码智能体协调工具，可从桌面、手机、网页和 CLI 统一操作。",
-        "implementation": "本地 daemon 管理并行智能体，桌面、移动、Web 和 CLI 客户端连接该服务；跨设备可用端到端加密中继配对，或通过 TCP、Tailscale、VPN 直连，也可用 Docker 部署。",
-        "problems_solved": "让用户在自有开发环境中并行运行不同编码智能体，并可离开电脑后继续从手机跟进，减少远程接管和多客户端割裂。",
-        "capabilities": "并行运行多种编码智能体；跨桌面、移动、Web 和 CLI 操作；语音下达和讨论任务；通过加密中继或私有网络连接设备",
-        "use_cases": "适合需在自有电脑或服务器上并行调度代理，并从手机远程推进开发工作的用户。",
-        "considerations": "许可证信息未明确，需核对项目文档；至少安装并配置一个支持的代理 CLI；Docker 镜像需自行加入 CLI 和凭据。"
+        "positioning": "面向需要跨桌面、手机和命令行协调多个编码代理的开发者自托管控制界面。",
+        "implementation": "本地 daemon 管理 Claude Code、Codex、Copilot、OpenCode 和 Pi，桌面、移动、Web 与 CLI 客户端连接；设备可经端到端加密中继、TCP、Tailscale 或其他 VPN 配对。",
+        "problems_solved": "解决代理分散在不同终端和设备、无法随时跟进的问题，同时保留本机开发环境和数据控制权。",
+        "capabilities": "并行运行多提供商编码代理；跨设备监控和继续任务；语音下达任务及讨论；CLI、无头模式和 Docker 部署",
+        "use_cases": "适合在个人电脑或远程服务器运行代理，并希望从手机巡检、追问或交付代码的开发者。",
+        "considerations": "至少安装并配置一个受支持的代理 CLI；Docker 镜像需加入所用 CLI 和凭据；许可证未明确声明。"
+      }
+    },
+    "golutra/golutra": {
+      "source": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and AI productivity workspace.",
+      "zh": "面向自动化、工作流和开发工具的多智能体 AI 编排平台，支持并行执行与长期任务",
+      "analysis_source": "9293083c71b9623f28c7dfae9433121afe2b0997775384e8c92fea18801d8c13",
+      "analysis_zh": {
+        "positioning": "面向开发者、软件团队和个人创作者的多智能体桌面编排平台，统一管理现有 AI CLI。",
+        "implementation": "以 Vue 3、Rust 和 Tauri 构建 Windows、macOS、Linux 桌面应用；接入 Claude Code、Gemini CLI、Codex CLI 等工具，通过并行执行、自定义工作流、终端流注入与实时日志跟踪协调长期任务。",
+        "problems_solved": "将单线程使用 AI CLI 和频繁切换终端，转为统一的并行协作与自动化流程，无需迁移项目或重新学习命令。",
+        "capabilities": "并行运行多个 CLI 智能体；编排从分析到部署的长期工作流；实时查看日志并向终端注入提示；导入和导出工作流模板",
+        "use_cases": "适合软件开发、个人 AI 团队及内容生产者组织多智能体开发、发布和跨行业自动化流程。",
+        "considerations": "许可证未明确；需自行准备并配置相应 AI CLI；EverOS 记忆层和 MCP 连接属于可选集成，细节需核对文档。"
       }
     },
     "graphif/project-graph": {
@@ -992,14 +1005,14 @@
     "massCodeIO/massCode": {
       "source": "A free, open-source developer workspace. Snippets, notes, HTTP requests, calculations, and dev tools in one local-first app.",
       "zh": "免费开源开发者工作空间，集成代码片段、笔记、HTTP请求和开发工具。",
-      "analysis_source": "b06043b29569eb62cc471b2ae0bf392719de18c7c1f76fc065dc1e6ba5834518",
+      "analysis_source": "d63a8ade33891ba320b48cc3d6884d770af67754d1b53be7dd664d02e3bb5634",
       "analysis_zh": {
-        "positioning": "本地优先的开发者工作空间，集成代码片段、笔记和API调试工具。",
-        "implementation": "使用Electron构建跨平台桌面应用，TypeScript开发，数据本地存储为Markdown文件，集成HTTP客户端和代码格式化工具，支持多种开发者工具和扩展。",
-        "problems_solved": "统一管理代码片段、笔记和API请求，减少多工具切换，提高开发效率和知识管理。",
-        "capabilities": "集成代码片段管理、多层文件夹和标签组织；支持160+语法高亮和Prettier代码格式化；内置Markdown笔记编辑和任务管理；集成HTTP客户端支持API请求调试；支持绘图、思维导图和演示模式。",
-        "use_cases": "适合开发者进行代码复用、文档编写和API调试的日常工作。",
-        "considerations": "基于Electron和TypeScript开发，支持本地数据存储为Markdown文件；AGPL-3.0开源许可；支持macOS、Windows、Linux。"
+        "positioning": "面向开发者的免费开源、本地优先桌面工作空间，集中管理代码片段、笔记和常用开发工具。",
+        "implementation": "以 TypeScript 和 Electron 构建，数据以普通 Markdown 文件留在本机；内置多层目录、标签、代码片段、Markdown 编辑、HTTP 客户端、计算、绘图及知识图谱功能。",
+        "problems_solved": "将原本分散在片段管理器、笔记应用、HTTP 工具和计算工具中的日常开发资料集中到一处。",
+        "capabilities": "管理代码片段及 160 多种语法；编写 Markdown 笔记和任务；保存并执行 HTTP 请求；提供预览、图谱、Mermaid 和开发工具",
+        "use_cases": "适合在 macOS、Windows 或 Linux 上维护代码知识库、项目文档和 API 请求的开发者。",
+        "considerations": "AGPL-3.0 许可；基于 Electron；本地数据为 Markdown 文件，扩展和高级功能细节需查阅文档。"
       }
     },
     "mediago-dev/mediago": {
@@ -1217,14 +1230,14 @@
     "raphamorim/rio": {
       "source": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
       "zh": "硬件加速GPU终端模拟器，支持桌面和浏览器运行。",
-      "analysis_source": "72eb5293fac6cbae6751ccfbe5253708d2e328e14294bcbf2f3e6c053a9dd48a",
+      "analysis_source": "47645393608f212dc2f60e8321fecbb1622c6ee68e7e10b803cbd8b9ceb361b6",
       "analysis_zh": {
-        "positioning": "面向桌面和浏览器用户的现代GPU硬件加速终端模拟器，强调跨环境运行。",
-        "implementation": "使用Rust开发，并以Metal、Vulkan等GPU相关技术实现硬件加速；README表明可在macOS、Linux及Steam Deck等环境运行，最低稳定Rust版本为1.96.1。",
-        "problems_solved": "为需要现代渲染能力的终端用户提供跨桌面与浏览器的统一终端选择，具体性能收益需核对项目文档。",
-        "capabilities": "GPU硬件加速终端渲染；在桌面和浏览器运行；支持分屏界面；提供CRT及模糊背景等视觉效果",
-        "use_cases": "适合希望在桌面、浏览器或Steam Deck使用现代终端的开发者，具体平台安装方式应参考官方文档。",
-        "considerations": "源码构建至少需要Rust 1.96.1；输入未给出完整平台、浏览器部署及协议支持细节；MIT许可证。"
+        "positioning": "面向桌面与浏览器用户的现代化、硬件加速 GPU 终端模拟器。",
+        "implementation": "使用 Rust 开发，围绕 GPU 加速终端渲染，Topics 明确涉及 Metal、Vulkan 和 VTE；支持分屏及 CRT、模糊背景等展示效果。",
+        "problems_solved": "为需要跨桌面和浏览器运行终端的用户提供现代 GPU 渲染选择。",
+        "capabilities": "GPU 加速终端渲染；桌面与浏览器运行；终端分屏；支持 Metal、Vulkan 相关图形后端",
+        "use_cases": "适合重视终端渲染性能、现代视觉效果及多平台使用体验的开发者。",
+        "considerations": "MIT 许可；源码构建的最低稳定 Rust 版本为 1.96.1；浏览器支持范围与安装要求需核对文档。"
       }
     },
     "reqable/reqable-app": {
@@ -1295,14 +1308,14 @@
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "zh": "支持多代理并行的AI开发环境。",
-      "analysis_source": "03622caa025efc121d6fcd611ddc36fe1ae44d89a00eff94ab9b8541975aa008",
+      "analysis_source": "e4dca7d2d404b42b6c60e531942756e2ab5bbe4eb45cf70bdb3a87c971b35416",
       "analysis_zh": {
-        "positioning": "面向高并发AI开发工作流的代理开发环境，在桌面、移动端和VPS统一编排多个编码代理。",
-        "implementation": "基于隔离Git worktree并行运行Codex、Claude Code等代理；集成Ghostty级WebGL终端、Chromium设计模式、VS Code编辑器、SSH远端工作区及可脚本化Orca CLI。",
-        "problems_solved": "解决多个代理并行开发时的代码隔离、进度追踪、结果比较和远程控制问题，减少在终端、GitHub与Linear间切换。",
-        "capabilities": "在隔离worktree并行运行代理；移动端监控、通知与追问；SSH远程编辑及端口转发；差异批注、评审和提交",
-        "use_cases": "适合同时使用多个编码代理的开发者，在本地或远程主机并行探索方案、比较结果并合并最佳实现。",
-        "considerations": "需自备所用代理的订阅或账号；移动端覆盖iOS与Android；远程流程依赖SSH；MIT许可证。"
+        "positioning": "面向并行使用多个编码代理的开发者，提供覆盖桌面、移动端和 VPS 的 AI 开发环境。",
+        "implementation": "以 TypeScript 构建；每个代理运行于隔离的 Git worktree，并统一跟踪。集成 Ghostty 类 WebGL 终端、Chromium 设计模式、VS Code 编辑器、SSH 远端工作区及 GitHub、Linear。",
+        "problems_solved": "解决多代理并行时终端分散、代码冲突、远程监控困难及代理结果比较和审查成本高的问题。",
+        "capabilities": "并行创建和比较隔离 worktree；手机监控、通知和追问代理；SSH 远程开发与端口转发；审查 AI diff 并提交合并",
+        "use_cases": "适合需要并行探索多个修复方案，并从桌面或手机协调本地及远程代理的开发团队。",
+        "considerations": "MIT 许可；需自行具备所用编码代理订阅或账号；移动端和远程功能的具体要求需查阅文档。"
       }
     },
     "streetwriters/notesnook": {
@@ -1336,14 +1349,14 @@
       "zh": "基于异步I/O的极速终端文件管理器。"
     },
     "t8y2/dbx": {
-      "analysis_source": "492d55a3a088940468f9c9121576f9fa05d3743c74f0e036169623715b4613c1",
+      "analysis_source": "17d8f04be1f9a97d62599f82623b87bd54a92d1b4e7ce5c3f2680d2e63c226aa",
       "analysis_zh": {
-        "positioning": "面向开发者、数据人员和团队的轻量级跨平台数据库客户端，以单一工具管理70多种数据库。",
-        "implementation": "使用Rust构建约20MB单一二进制，无需JRE、Python环境或内置Chromium；提供原生桌面、Docker自托管、Web和CLI，并通过MCP复用已配置连接，AI SQL执行前带安全检查。",
-        "problems_solved": "替代依赖庞大运行时或平台受限的数据库客户端，减少多数据库切换、AI工具复制粘贴和重复配置连接的成本。",
-        "capabilities": "连接和管理70多种数据库；AI辅助生成并检查SQL；通过MCP供编码代理查询数据库；提供桌面、Docker、Web和CLI形态",
-        "use_cases": "适合管理异构数据库的开发者和数据团队，也适合将既有数据库连接开放给Claude Code、Cursor等代理。",
-        "considerations": "AI功能需Claude、OpenAI密钥或本地Ollama；部分数据库采用Agent/JDBC驱动；Apache-2.0许可证。"
+        "positioning": "面向开发者和数据人员的轻量级跨平台数据库客户端，以约 20 MB 统一管理 70 多种数据库。",
+        "implementation": "使用 Rust 打包为无 Java、Python 或内置 Chromium 的单一小型程序；提供桌面、Docker、Web 和 CLI，并通过 MCP 复用已有连接，AI 可接入 Claude、OpenAI 或 Ollama。",
+        "problems_solved": "减少多数据库工具切换及庞大运行时依赖，并省去在编辑器与 AI 聊天工具之间复制 SQL 的流程。",
+        "capabilities": "连接和管理 70 多种数据库；SQL 编辑、元数据补全与执行；内置 AI 生成及安全检查 SQL；通过 MCP 向编码代理开放数据库",
+        "use_cases": "适合跨多种数据库工作的开发者、DBA，以及希望让 AI 代理安全查询现有连接的团队。",
+        "considerations": "Apache-2.0 许可；AI 功能需相应服务或本地 Ollama；Docker 团队部署和各驱动依赖需查阅文档。"
       },
       "source": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "是支持70+数据库的轻量级跨平台数据库客户端，含AI助手和多种运行环境。"
@@ -1385,6 +1398,19 @@
         "capabilities": "跨桌面、Android、终端和浏览器传输；发送任意大小的文件或目录；端到端加密并校验完整性；断点续传、一对多广播和设备配对",
         "use_cases": "适合重视隐私、需要跨平台直传大型文件或目录，以及网络中断后继续传输的个人和团队。",
         "considerations": "直连失败时可能使用中继，但中继仅能看到加密流量；支持平台的具体安装方式需核对文档；AGPL-3.0 许可。"
+      }
+    },
+    "truelockmc/streambert": {
+      "source": "A cross-platform Electron Desktop App to stream and download any Movie, TV Series or Anime in the World. Zero Ads and Tracking",
+      "zh": "跨平台 Electron 桌面应用，可播放和下载全球电影、剧集与动漫，无广告和跟踪",
+      "analysis_source": "4104d5bff580d77828fc6edb846375f1059463437c65a862fe00364b2472bdbf",
+      "analysis_zh": {
+        "positioning": "面向电影、剧集和动漫观看者的跨平台 Electron 桌面流媒体播放与下载应用。",
+        "implementation": "使用 JavaScript 与 Electron；从 VidSrc、videasy、vidking 获取视频流，以 TMDB 提供常规媒体元数据；动漫使用 AniList 元数据并从 AllManga.to 抓取 MP4，下载基于 m3u8 播放列表。",
+        "problems_solved": "将内容搜索、播放、字幕、观看记录和下载集中到无广告、无跟踪的桌面应用中。",
+        "capabilities": "播放电影、剧集和动漫；多线程下载视频；下载和管理字幕；维护观看记录、收藏与本地下载库",
+        "use_cases": "适合希望在桌面端集中发现、播放和离线观看多类视频内容的用户。",
+        "considerations": "GPL-3.0 许可；源码构建需 Node.js 22.12.0，并需免费 TMDB API Token；内容来源涉及版权风险，使用前应核对当地法律。"
       }
     },
     "tw93/Pake": {
