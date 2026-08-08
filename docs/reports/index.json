@@ -1663,8 +1663,377 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-08-07",
+      "latest": "2026-08-08",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-08-08",
+          "generated_at": "2026-08-08T09:07:18+08:00",
+          "discovered_count": 984,
+          "candidate_count": 100,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "mattpocock/skills",
+              "trending_rank": 4,
+              "stars_today": 2152
+            },
+            {
+              "rank": 2,
+              "name": "addyosmani/agent-skills",
+              "trending_rank": 2,
+              "stars_today": 1131
+            },
+            {
+              "rank": 3,
+              "name": "obra/superpowers",
+              "trending_rank": 5,
+              "stars_today": 782
+            },
+            {
+              "rank": 4,
+              "name": "cloudflare/computer",
+              "trending_rank": 3,
+              "stars_today": 872
+            },
+            {
+              "rank": 5,
+              "name": "Significant-Gravitas/AutoGPT",
+              "trending_rank": 11,
+              "stars_today": 355
+            },
+            {
+              "rank": 6,
+              "name": "666ghj/MiroFish",
+              "trending_rank": 8,
+              "stars_today": 141
+            },
+            {
+              "rank": 7,
+              "name": "google/skills",
+              "trending_rank": 17,
+              "stars_today": 327
+            },
+            {
+              "rank": 11,
+              "name": "unclebob/swarm-forge",
+              "trending_rank": 13,
+              "stars_today": 81
+            },
+            {
+              "rank": 14,
+              "name": "goauthentik/authentik",
+              "trending_rank": 6,
+              "stars_today": 530
+            },
+            {
+              "rank": 18,
+              "name": "google/guava",
+              "trending_rank": 12,
+              "stars_today": 152
+            },
+            {
+              "rank": 21,
+              "name": "PrimeIntellect-ai/prime-agent",
+              "trending_rank": 1,
+              "stars_today": 2293
+            },
+            {
+              "rank": 24,
+              "name": "pranshuparmar/witr",
+              "trending_rank": 16,
+              "stars_today": 234
+            },
+            {
+              "rank": 26,
+              "name": "jdx/mise",
+              "trending_rank": 10,
+              "stars_today": 135
+            },
+            {
+              "rank": 28,
+              "name": "chenyme/grok2api",
+              "trending_rank": 9,
+              "stars_today": 55
+            },
+            {
+              "rank": 29,
+              "name": "denoland/celld",
+              "trending_rank": 14,
+              "stars_today": 516
+            },
+            {
+              "rank": 30,
+              "name": "semantica-agi/semantica",
+              "trending_rank": 7,
+              "stars_today": 122
+            },
+            {
+              "rank": 54,
+              "name": "K2SOsint/Legendary_OSINT",
+              "trending_rank": 15,
+              "stars_today": 109
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 8,
+              "name": "zhaoxuya520/reverse-skill",
+              "trending_rank": 1,
+              "stars_today": 10400
+            },
+            {
+              "rank": 9,
+              "name": "TencentCloud/TencentDB-Agent-Memory",
+              "trending_rank": 3,
+              "stars_today": 7501
+            },
+            {
+              "rank": 10,
+              "name": "esengine/DeepSeek-Reasonix",
+              "trending_rank": 6,
+              "stars_today": 4739
+            },
+            {
+              "rank": 11,
+              "name": "unclebob/swarm-forge",
+              "trending_rank": 13,
+              "stars_today": 273
+            },
+            {
+              "rank": 12,
+              "name": "block/buzz",
+              "trending_rank": 8,
+              "stars_today": 5746
+            },
+            {
+              "rank": 13,
+              "name": "virgiliojr94/book-to-skill",
+              "trending_rank": 7,
+              "stars_today": 3957
+            },
+            {
+              "rank": 15,
+              "name": "ayghri/i-have-adhd",
+              "trending_rank": 15,
+              "stars_today": 3497
+            },
+            {
+              "rank": 16,
+              "name": "microsoft/AI-For-Beginners",
+              "trending_rank": 2,
+              "stars_today": 8224
+            },
+            {
+              "rank": 17,
+              "name": "different-ai/openwork",
+              "trending_rank": 10,
+              "stars_today": 2367
+            },
+            {
+              "rank": 19,
+              "name": "lyogavin/airllm",
+              "trending_rank": 5,
+              "stars_today": 5521
+            },
+            {
+              "rank": 20,
+              "name": "antirez/ds4",
+              "trending_rank": 11,
+              "stars_today": 1341
+            },
+            {
+              "rank": 22,
+              "name": "DataExpert-io/data-engineer-handbook",
+              "trending_rank": 12,
+              "stars_today": 742
+            },
+            {
+              "rank": 23,
+              "name": "tailwindlabs/tailwindcss",
+              "trending_rank": 16,
+              "stars_today": 997
+            },
+            {
+              "rank": 31,
+              "name": "embabel/embabel-agent",
+              "trending_rank": 14,
+              "stars_today": 176
+            },
+            {
+              "rank": 39,
+              "name": "usekaneo/kaneo",
+              "trending_rank": 4,
+              "stars_today": 2925
+            },
+            {
+              "rank": 96,
+              "name": "paperswithbacktest/awesome-systematic-trading",
+              "trending_rank": 9,
+              "stars_today": 1433
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 7,
+              "name": "google/skills"
+            },
+            {
+              "rank": 11,
+              "name": "unclebob/swarm-forge"
+            },
+            {
+              "rank": 21,
+              "name": "PrimeIntellect-ai/prime-agent"
+            },
+            {
+              "rank": 24,
+              "name": "pranshuparmar/witr"
+            },
+            {
+              "rank": 26,
+              "name": "jdx/mise"
+            },
+            {
+              "rank": 28,
+              "name": "chenyme/grok2api"
+            },
+            {
+              "rank": 29,
+              "name": "denoland/celld"
+            },
+            {
+              "rank": 30,
+              "name": "semantica-agi/semantica"
+            },
+            {
+              "rank": 31,
+              "name": "embabel/embabel-agent"
+            },
+            {
+              "rank": 54,
+              "name": "K2SOsint/Legendary_OSINT"
+            },
+            {
+              "rank": 87,
+              "name": "floci-io/floci"
+            },
+            {
+              "rank": 91,
+              "name": "Vincentwei1021/video-shotcraft"
+            },
+            {
+              "rank": 96,
+              "name": "paperswithbacktest/awesome-systematic-trading"
+            }
+          ],
+          "warnings_count": 0,
+          "item_names": [
+            "mattpocock/skills",
+            "addyosmani/agent-skills",
+            "obra/superpowers",
+            "cloudflare/computer",
+            "Significant-Gravitas/AutoGPT",
+            "666ghj/MiroFish",
+            "google/skills",
+            "zhaoxuya520/reverse-skill",
+            "TencentCloud/TencentDB-Agent-Memory",
+            "esengine/DeepSeek-Reasonix",
+            "unclebob/swarm-forge",
+            "block/buzz",
+            "virgiliojr94/book-to-skill",
+            "goauthentik/authentik",
+            "ayghri/i-have-adhd",
+            "microsoft/AI-For-Beginners",
+            "different-ai/openwork",
+            "google/guava",
+            "lyogavin/airllm",
+            "antirez/ds4",
+            "PrimeIntellect-ai/prime-agent",
+            "DataExpert-io/data-engineer-handbook",
+            "tailwindlabs/tailwindcss",
+            "pranshuparmar/witr",
+            "firecrawl/anydoc",
+            "jdx/mise",
+            "DietrichGebert/ponytail",
+            "chenyme/grok2api",
+            "denoland/celld",
+            "semantica-agi/semantica",
+            "embabel/embabel-agent",
+            "Graphify-Labs/graphify",
+            "affaan-m/ECC",
+            "NousResearch/hermes-agent",
+            "Panniantong/Agent-Reach",
+            "anomalyco/opencode",
+            "diegosouzapw/OmniRoute",
+            "trycompai/crm",
+            "usekaneo/kaneo",
+            "yc-software/qm",
+            "stablyai/orca",
+            "JuliusBrussee/caveman",
+            "openclaw/openclaw",
+            "nexu-io/open-design",
+            "FareedKhan-dev/kimi-k3-in-c",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "garrytan/gstack",
+            "Leonxlnx/taste-skill",
+            "firecrawl/firecrawl",
+            "earendil-works/pi",
+            "farion1231/cc-switch",
+            "koala73/worldmonitor",
+            "KKKKhazix/human-writing",
+            "K2SOsint/Legendary_OSINT",
+            "anthropics/skills",
+            "calesthio/OpenMontage",
+            "colbymchenry/codegraph",
+            "herdrdev/herdr",
+            "VoltAgent/awesome-design-md",
+            "emilkowalski/skills",
+            "JustVugg/colibri",
+            "xai-org/grok-build",
+            "codecrafters-io/build-your-own-x",
+            "msitarzewski/agency-agents",
+            "odysseus-dev/odysseus",
+            "langchain-ai/openwiki",
+            "openai/codex-security",
+            "github/spec-kit",
+            "h4ckf0r0day/obscura",
+            "rtk-ai/rtk",
+            "openai/codex",
+            "Yuan1z0825/nature-skills",
+            "iOfficeAI/OfficeCLI",
+            "Nutlope/hallmark",
+            "DeusData/codebase-memory-mcp",
+            "headroomlabs-ai/headroom",
+            "datawhalechina/hello-agents",
+            "lidge-jun/opencodex",
+            "alibaba/open-code-review",
+            "tirth8205/code-review-graph",
+            "santifer/career-ops",
+            "microsoft/markitdown",
+            "OpenCut-app/OpenCut",
+            "clash-verge-rev/clash-verge-rev",
+            "heygen-com/hyperframes",
+            "HKUDS/Vibe-Trading",
+            "floci-io/floci",
+            "img2threejs/img2threejs",
+            "MadsLorentzen/ai-job-search",
+            "thedotmack/claude-mem",
+            "Vincentwei1021/video-shotcraft",
+            "paperclipai/paperclip",
+            "tw93/Mole",
+            "Egonex-AI/Understand-Anything",
+            "BigPizzaV3/CodexPlusPlus",
+            "paperswithbacktest/awesome-systematic-trading",
+            "Shubhamsaboo/awesome-llm-apps",
+            "microsoft/skill-recorder",
+            "DigitalPlatDev/FreeDomain",
+            "rohitg00/ai-engineering-from-scratch"
+          ],
+          "report_path": "reports/hot-rising/2026-08-08.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-08-07",

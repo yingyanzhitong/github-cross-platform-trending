@@ -43,14 +43,14 @@
     "BigPizzaV3/CodexPlusPlus": {
       "source": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服",
       "zh": "提升 CodexApp 易用性与使用体验的增强工具。",
-      "analysis_source": "560a1f517fa31ff7e5be5b828c5ff54d50eb9d6050ae6e536dbb680735a19a38",
+      "analysis_source": "8b429ca98504a7efbc37b57f57397b21a73e5de9f96a7d92ce18132240f1dbca",
       "analysis_zh": {
-        "positioning": "面向 OpenAI Codex／ChatGPT 桌面应用用户的外部启动器、供应商管理与界面增强工具。",
-        "implementation": "以 Rust、本地辅助服务和 Chromium DevTools Protocol 工作，不修改 app.asar；管理官方登录、兼容 API 与聚合供应商，通过本地代理转换 Chat Completions/Responses，并提供会话和脚本管理。",
-        "problems_solved": "简化桌面 Codex 的供应商切换、模型与上下文配置、会话维护和界面操作，避免直接修改官方应用安装文件。",
-        "capabilities": "切换官方、混合 API、纯 API 及聚合供应商；执行协议转换、故障转移和轮转；管理会话、模型、MCP、Skill 与 Plugin；提供界面增强、诊断和更新",
-        "use_cases": "适合需要在 Windows 或 macOS 上管理多个模型供应商并增强 Codex 桌面体验的用户。",
-        "considerations": "依赖官方桌面应用；真实 API Key 保存在本机；部分注入设置需重启；macOS 包可能未签名或公证；AGPL-3.0。"
+        "positioning": "面向 OpenAI Codex／ChatGPT 桌面应用用户的外部启动器与管理工具，增强供应商、会话和界面体验。",
+        "implementation": "以 Rust 构建，通过 Chromium DevTools Protocol 和本地辅助服务注入增强，不修改 app.asar；管理 Responses／Chat Completions 协议转换、供应商路由、本地配置、会话数据库与用户脚本。",
+        "problems_solved": "集中解决多 API 供应商切换、协议不兼容、会话维护、界面操作不便和诊断更新等问题，避免直接修改官方应用安装文件。",
+        "capabilities": "配置官方登录、纯 API 与聚合供应商路由；转换 Chat Completions 为 Responses；扫描、删除、导出和备份本地会话；提供插件、模型、脚本、诊断及界面增强管理",
+        "use_cases": "适合在 Windows 或 macOS 使用 Codex 桌面应用，并需切换兼容 API、管理多模型配置和本地会话的用户。",
+        "considerations": "依赖已安装的官方桌面应用；真实 API Key 仅应保存在本机；部分注入设置需重启；macOS 包可能未签名或公证；AGPL-3.0-only。"
       }
     },
     "Binaryify/open-kimi-ppt-skill": {
@@ -173,14 +173,14 @@
     "FareedKhan-dev/kimi-k3-in-c": {
       "source": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
       "zh": "用 8.24GB 内存在单 CPU 上推理 2.78 万亿参数 Kimi K3 的纯 C99 实现。",
-      "analysis_source": "569788c2a25bf4229b7f99706f2f1c176bacd81b36c306a26d47e4d3706c8257",
+      "analysis_source": "33785a1f30a774a4cf0baa505237ea0e13728ff2e11ec247f2fb189f4fa09214",
       "analysis_zh": {
-        "positioning": "面向 LLM 系统研究者的纯 C99 Kimi K3 CPU 推理引擎，展示消费级内存运行超大模型。",
-        "implementation": "将稠密主干按内存预算常驻或流式读取，1.45TB 路由专家保持磁盘驻留并直接从 4-bit 打包格式计算；引擎自实现内核、缓存、Safetensors、配置和分词器。",
-        "problems_solved": "把需要集群级内存的 2.78 万亿参数模型压缩到最低约 8.24GB 内存运行，以磁盘流式访问换取速度并保持输出一致。",
-        "capabilities": "单 CPU 推理 Kimi K3；按预算流式加载稠密主干；磁盘驻留并计算 4-bit 专家；自带机器检查、测试和模型打包工具",
-        "use_cases": "适合研究超大模型的内存分层、CPU 推理、流式权重读取及从零实现推理内核。",
-        "considerations": "Apache-2.0；需 Linux x86-64、AVX2+FMA、8GB+内存及约1.7TB空闲存储；完整检查点1.56TB，运行速度较慢。"
+        "positioning": "面向研究者和底层开发者、在单台 CPU 设备运行 Kimi K3 推理的纯 C99 引擎。",
+        "implementation": "将密集主干按内存预算驻留或流式读取，1.45TB 路由专家保持非驻留并直接以压缩 4-bit 形式计算；自研内核、缓存、safetensors 读取器和 tokenizer。",
+        "problems_solved": "让无 GPU、低内存设备也能运行超大模型，避免依赖 BLAS 和深度学习框架，但以磁盘容量和推理速度为代价。",
+        "capabilities": "CPU 上执行 Kimi K3 推理；按内存预算流式加载模型；4-bit 专家权重直接计算；测试夹具与 PyTorch 参考结果校验",
+        "use_cases": "适合研究超大模型低内存推理、流式权重加载及纯 C 推理内核的开发者。",
+        "considerations": "Apache-2.0；需 Linux x86-64、AVX2/FMA、至少 8GB RAM、约 1.7TB 空间及 1.56TB 检查点。"
       }
     },
     "Fei-Away/Codex-Dream-Skin": {
@@ -238,14 +238,14 @@
     "HKUDS/Vibe-Trading": {
       "source": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "zh": "你的个人交易智能体。",
-      "analysis_source": "6bcb1e0e674b130cec54bf7dccd07df020743c479429024f82029018d62210de",
+      "analysis_source": "d9b84250eb4e1eac3593f6238ab77fa6f1a1245fb3899fcde6f800cbc8f966f7",
       "analysis_zh": {
-        "positioning": "面向投资研究与量化交易工作流的开源个人交易智能体，提供 Web、API 和 MCP 可访问的分析能力。",
-        "implementation": "以 Python 构建智能体与多代理流程，集成经测试的 quantlib、估值和回测组件；通过只读数据工具获取公开数据，每次运行生成哈希清单，并以哈希链审计账本追踪结果与来源。",
-        "problems_solved": "整合估值、回测、筛选和研究数据流程，减少公式散落、数字来源不明、缺失输入被静默默认及跨币种结果误算等风险。",
-        "capabilities": "执行 DCF、可比公司及三表估值；开展回测、风险和绩效分析；通过 Web、API 或 MCP 调用金融数学工具；检索持仓、ETF 穿透、预测市场和研究论文并追踪来源",
-        "use_cases": "适合个人投资者、量化研究者和智能体开发者开展可审计的市场研究、估值、筛选与策略回测。",
-        "considerations": "MIT；金融输出仍需独立核验。项目明确警告其未发行或背书任何代币，勿连接相关钱包或签名。"
+        "positioning": "面向投资研究和量化工作流的开源个人交易智能体平台。",
+        "implementation": "以 Python 构建 Agent、Web、API 和 MCP 能力，连接市场数据、量化函数、估值与回测工具；通过价格证据校验、受限策略沙箱、运行清单和哈希链审计约束输出。",
+        "problems_solved": "整合分散的行情研究、筛选、估值、回测和定时分析流程，并降低智能体虚构价格、错误计算及生成策略越权执行的风险。",
+        "capabilities": "多市场数据研究与股票筛选；回测、估值及 250 项金融量化函数；定时研究和多智能体预设；Web、API 与 MCP 工具接入",
+        "use_cases": "适合希望用智能体辅助市场研究、量化分析、策略验证和周期性报告的个人或团队。",
+        "considerations": "MIT 许可；金融结果需自行验证；部分数据源和模型可能需额外配置，README 明确警示非官方代币及账户。"
       }
     },
     "Imbad0202/academic-research-skills": {
@@ -285,6 +285,19 @@
         "capabilities": "从磁盘按需流式加载专家权重；跨VRAM、RAM与NVMe规划驻留；组合CPU、CUDA、Metal及NUMA执行；提供聊天、服务和网页监控前端",
         "use_cases": "适合研究 MoE 推理、存储分层、异构调度和本地私有大模型部署的系统开发者。",
         "considerations": "Apache-2.0 许可；项目明确不提供速度 SLA，性能强依赖显存、内存、磁盘和工作负载，部分优化仍待更多实机验证。"
+      }
+    },
+    "K2SOsint/Legendary_OSINT": {
+      "source": "A list of OSINT tools & resources for (fraud-)investigators, CTI-analysts, KYC, AML and more.",
+      "zh": "面向欺诈调查、CTI、KYC、AML 等领域的 OSINT 工具与资源清单",
+      "analysis_source": "5804b444eaaf40d16b2f73f20826800117d7bc20ff44b6fde9af714b0cddaae3",
+      "analysis_zh": {
+        "positioning": "面向欺诈调查、威胁情报、KYC 和 AML 从业者的 OSINT 工具与资源清单。",
+        "implementation": "汇集来自新闻通讯、Telegram 群组、导航页、GitHub 仓库和其他公共合集的第三方资源，并通过贡献指南维护清单。",
+        "problems_solved": "减少调查人员分散搜索和整理公开情报工具的时间，提供集中式资源入口。",
+        "capabilities": "汇总 OSINT 工具；整理公开情报资源；支持社区补充和修正",
+        "use_cases": "适合欺诈调查员、CTI 分析师及 KYC、AML 等公开信息调查工作流。",
+        "considerations": "CC0-1.0；多数条目为第三方工具，使用前需自行审查并确保合法、负责地使用。"
       }
     },
     "KKKKhazix/human-writing": {
@@ -327,14 +340,14 @@
     "MadsLorentzen/ai-job-search": {
       "source": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "zh": "基于 Claude Code 在本机运行的 AI 求职申请框架",
-      "analysis_source": "bd04a5b38f491ee839d7fd6705f87114fa00781bba893ebe0e2cdcccd9f5f3da",
+      "analysis_source": "ecaf69353b1f02fae3d6b4e9735f411c083665d526aa138f0a384d5a2d01688f",
       "analysis_zh": {
-        "positioning": "基于 Claude Code、在用户本机运行的结构化 AI 求职申请框架，面向需要定制材料和面试准备的求职者。",
-        "implementation": "用命令式工作流完成资料建档、职位抓取、匹配评分、申请和面试准备；申请环节采用起草—第二智能体审查—修订流水线，并以 LaTeX 生成 CV 与求职信。",
-        "problems_solved": "减少逐岗评估、改写简历、撰写求职信、跟踪申请和准备面试的重复劳动，同时保留材料归档和人工提交控制。",
-        "capabilities": "建立可重复更新的个人档案；多站点职位抓取、去重与排名；定制CV和求职信并复核；面试准备、结果记录与跟进草稿",
-        "use_cases": "适合使用 Claude Code 管理完整求职流程的个人；职位门户技能主要针对丹麦，也可替换为本地招聘网站。",
-        "considerations": "需 Claude Code CLI、Python 3.10+ 和含 lualatex、xelatex 的 LaTeX；pdftotext 可选；抓取内容并非沙箱隔离；MIT。"
+        "positioning": "基于 Claude Code、在本机运行的开源 AI 求职申请框架，服务于希望掌控材料与流程的求职者。",
+        "implementation": "以命令式工作流组织资料导入、职位抓取与去重、匹配评分、双代理起草审阅、LaTeX 文档生成及面试准备；门户搜索工具使用 Python 3.10+ 和部分 TypeScript/Bun，申请材料保存在本地。",
+        "problems_solved": "把职位筛选、匹配评估、定制简历、求职信撰写、面试准备和结果跟踪串成可复用流程，减少重复整理与写作工作。",
+        "capabilities": "建立可重复更新的个人职业档案；跨门户搜索、去重并按匹配度排序职位；生成并复核定制简历与求职信；依据已提交材料准备面试并跟踪结果",
+        "use_cases": "适合愿意 fork 仓库、维护本地职业资料，并用 Claude Code 周期性执行求职工作流的个人。",
+        "considerations": "需 Claude Code、Python 3.10+ 与 LaTeX；门户技能主要面向丹麦市场；自动化防护不是沙箱，提交前需人工核对；MIT 许可证。"
       }
     },
     "MemPalace/mempalace": {
@@ -415,6 +428,19 @@
         "considerations": "MIT；部分平台需 Cookie 或现有登录态且有封号风险；服务器可能需代理；OpenClaw 必须开启 exec 权限。"
       }
     },
+    "PrimeIntellect-ai/prime-agent": {
+      "source": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "zh": "面向编码工作流和长期自主任务的自我改进型 RLM 智能体",
+      "analysis_source": "dd6287d9d69408d06a0d7f5f0327ab3e3597932e6f51aad73430279bc1b609c6",
+      "analysis_zh": {
+        "positioning": "面向编码、研究和长期自主任务的开源智能体，以持久状态和递归子智能体支持持续工作与自我改进。",
+        "implementation": "结合持久 IPython 控制环境、daemon 会话和可持久化 harness 状态；通过 rlm 调用子智能体，以 /refine 写入有证据的小型改进，并用压缩、目标、心跳和计划任务保持进度。",
+        "problems_solved": "让工作上下文、目标和子智能体跨聊天窗口及终端断开继续存在，减少长任务中断、上下文丢失和重复配置工作。",
+        "capabilities": "持久 Python REPL 与程序化工具调用；并行或后台递归子智能体；可回滚的 harness 状态改进；目标、心跳、计划任务和限额自主运行",
+        "use_cases": "适合需要长期运行的编码、研究评测、后台自动化，以及希望沉淀可复用技能和操作模式的用户。",
+        "considerations": "支持 macOS 和 Linux，首次使用需选择订阅或 API Key 提供商；以用户权限执行模型生成代码，并非安全沙箱；MIT 许可。"
+      }
+    },
     "Shubhamsaboo/awesome-llm-apps": {
       "source": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
       "zh": "收录 100 多个免费开源 AI 智能体、智能体技能和 RAG 应用",
@@ -465,6 +491,19 @@
         "considerations": "Team Memory Beta 正快速演进；需 Node.js 22.16+，安装会启动三项服务；仓库元数据未识别许可证，但 README 的 LICENSE 徽章标为 MIT。"
       }
     },
+    "Vincentwei1021/video-shotcraft": {
+      "source": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template",
+      "zh": "适用于 Claude Code 与 Codex 的 Remotion 电影级产品视频 AI 技能",
+      "analysis_source": "4e64974eed101f5a3f045b3acf1265721378afdd3b94bb8fd4336518b4cf9f27",
+      "analysis_zh": {
+        "positioning": "面向 Claude Code、Codex 等代理的产品视频制作技能库，用于生成电影感宣传、发布和演示视频。",
+        "implementation": "基于 Remotion 与 TypeScript，提供镜头配方、TSX 动效实现、可检索预览、截图捕获和音效素材；代理按视觉方向、分镜、2.5D 运镜、节拍剪辑、声音设计与 QA 流程完成渲染。",
+        "problems_solved": "将产品视频所需的分镜设计、动效参数、真实页面捕获、声音设计和成片模板标准化，减少从零探索运动设计与制作流程的成本。",
+        "capabilities": "提供 104 个镜头配方和 161 个动效预览；复用 36.2 秒 Ink Press 成片模板；实现 2.5D 页面运镜、字幕、转场与节拍剪辑；提供分类 SFX 与捕获脚本",
+        "use_cases": "适合用 AI 代理制作 Web 或桌面产品宣传片、功能演示、品牌短片及产品发布视频的开发者和设计团队。",
+        "considerations": "无头 Linux 渲染需关注并发、Chrome Headless Shell 与 CDN；发布前须替换示例截图并核对素材许可；项目为 Apache-2.0，Remotion 另有许可。"
+      }
+    },
     "VoltAgent/awesome-design-md": {
       "source": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
       "zh": "热门品牌设计系统的 DESIGN.md 分析合集，可辅助智能体生成匹配界面。",
@@ -479,14 +518,14 @@
       }
     },
     "Yuan1z0825/nature-skills": {
-      "analysis_source": "ce3e9a36d3d5d1c598a857120851eb2856bcde8e98ddca8ebd8d9b0c7a042086",
+      "analysis_source": "cb6eb7ff8b812a65fbc7250f7905c94ec2a56f0ad7ab8b82f8e2604112162a66",
       "analysis_zh": {
-        "positioning": "面向科研人员与 AI 学者的可复用技能集合，用于生成符合 Nature 或高影响力期刊习惯的科研产物。",
-        "implementation": "围绕独立 SKILL.md 单元组织，配套 references、static、manifest、脚本和共享支持包；可安装到 Codex，或用稳定 clone、subagent 与命令包装器接入 Claude Code 等智能体。",
-        "problems_solved": "把论文阅读、学术写作、审稿回复、文献检索和科研绘图等流程标准化，减少重复配置与手工整理科研材料。",
-        "capabilities": "论文图文对照阅读与汇报 PPT；Nature 风格润色、翻译及章节起草；模拟审稿与逐点回复；文献检索、引用分析及投稿级科研绘图",
-        "use_cases": "适合研究生、科研人员和论文作者，在智能体中完成论文阅读、写作、返修、检索及绘图工作流。",
-        "considerations": "需保留完整技能目录及共享包；Python、R、浏览器、MCP 和数据源凭据按功能另配；部分技能仍为 Draft/Beta；Apache-2.0。"
+        "positioning": "面向科研人员的可复用智能体技能包，聚焦 Nature 风格学术表达、评审与科研绘图。",
+        "implementation": "以各技能目录中的 SKILL.md、references、static、manifest、脚本和共享支持包组织工作流，可通过 npx、仓库同步脚本或 Agent wrapper 接入 Codex、Claude Code 等工具。",
+        "problems_solved": "把论文阅读、写作润色、审稿回复、文献检索和科研绘图等重复流程封装为可复用技能，减少手工组织提示与产物的成本。",
+        "capabilities": "论文中英对照阅读与汇报；Nature 风格润色和章节起草；模拟审稿与逐点回复；科研绘图、示意图和限定文献检索",
+        "use_cases": "适合使用编码智能体完成论文写作、投稿准备、组会汇报和科研图件制作的研究人员。",
+        "considerations": "Apache-2.0；部分技能仍为 Draft 或 Beta；Python、R、浏览器及 MCP 等依赖需按使用场景另行安装。"
       }
     },
     "ZhuLinsen/daily_stock_analysis": {
@@ -518,14 +557,14 @@
     "affaan-m/ECC": {
       "source": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "zh": "面向多种编码智能体的性能优化系统，涵盖技能、记忆、安全与研究。",
-      "analysis_source": "d8aadf9804cb14aa7fcb6b193b3840b656f9ed71d42d0e676d008df76235360d",
+      "analysis_source": "bfa885fb7b04a9d4c54a2c94cb5cef451d2c2de7aa735dc88655d2bb29c2cee7",
       "analysis_zh": {
-        "positioning": "为 Claude Code、Codex 等编码智能体提供规划、验证、记忆、安全和研究能力的工程系统。",
-        "implementation": "通过技能、专用 Agents、命令、Hooks、规则、会话记忆和 AgentShield 扫描组成工具箱；支持原生插件、同步或受限适配器，并以安装向导检查范围和冲突。",
-        "problems_solved": "免去在每次提示中重建工程流程，增强跨会话记忆、自检和安全审查，并降低多智能体工具链配置成本。",
-        "capabilities": "规划、评审与构建修复 Agents；TDD、研究和运维技能；Hooks、记忆与持续学习；扫描提示词、权限、密钥及 MCP 配置",
-        "use_cases": "适合希望为 Claude Code、Codex 或其他编码宿主统一工程规范、安全检查和可复用工作流的开发者。",
-        "considerations": "MIT 许可；Claude Code 支持最完整，其他适配器能力有限；同一宿主不要叠加多种安装方式。"
+        "positioning": "面向 Claude Code、Codex 等编码智能体的开源工程协作与性能优化系统。",
+        "implementation": "通过可安装插件或适配器提供 67 个专业智能体、284 项技能、命令兼容层、Hooks、规则、持久记忆、持续学习及 AgentShield 扫描；支持多种编码智能体接入。",
+        "problems_solved": "避免在每次提示中重复搭建规划、测试、复审和知识沉淀流程，并减少上下文浪费及智能体配置的安全风险。",
+        "capabilities": "规划、测试、复审与构建修复；持久记忆和持续学习；可复用技能与工作流；扫描提示词、Hooks、MCP 配置、权限及密钥",
+        "use_cases": "适合希望为 Claude Code、Codex 等工具建立统一工程流程的开发者与团队。",
+        "considerations": "MIT 许可；目前对 Claude Code 支持最佳，其他适配器能力可能受限；同一工具勿叠加多种安装方式。"
       }
     },
     "agavra/tuicr": {
@@ -557,14 +596,14 @@
     "alibaba/open-code-review": {
       "source": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "zh": "结合确定性流水线与 LLM 智能体的代码审查工具，支持行级评论和多语言规则",
-      "analysis_source": "319c987b7b05fade4f244c38bc5bb82c4bf631b8ca59e443ced5ad23fd66bec9",
+      "analysis_source": "ffd7cebd11e0a39026e73cac80cef921a0c1b4d889631b44f314d1895caa4f90",
       "analysis_zh": {
-        "positioning": "面向开发者和 CI 流程的 AI 代码审查 CLI，以高精度行级意见审查 Git 变更或完整文件。",
-        "implementation": "用确定性流水线完成文件筛选、关联文件分组、规则匹配、评论定位与反思，再由可调用工具的 LLM Agent 动态检索完整文件和仓库上下文；各文件组可隔离并发审查。",
-        "problems_solved": "缓解通用智能体审查大变更时覆盖不全、评论位置漂移、质量波动和 token 成本高的问题，并优先减少误报。",
-        "capabilities": "审查 Git diff 并输出精确行级评论；扫描完整文件或目录；检索仓库级上下文；内置 NPE、线程安全、XSS、SQL 注入等多语言规则",
-        "use_cases": "适合开发者本地审查提交、在 CI 中检查变更，或审计缺少有效 diff 的陌生代码库与目录。",
-        "considerations": "Apache-2.0 许可；要求 Git 2.41 及以上；通常需配置 OpenAI、Anthropic 或兼容模型端点；其精度优先策略会降低 Recall。"
+        "positioning": "面向开发团队和 CI 流程的 AI 代码审查 CLI，源自阿里巴巴内部规模化实践。",
+        "implementation": "用确定性流水线完成文件筛选、关联文件分组、规则匹配和评论定位，再由可调用工具的 LLM Agent 检索完整代码上下文；各分组以隔离上下文并发审查。",
+        "problems_solved": "改善通用智能体审查中的文件覆盖不全、评论位置漂移、质量波动和 Token 成本高等问题，并优先减少误报。",
+        "capabilities": "Git diff 与整文件扫描；精确行级审查评论；内置多语言缺陷和安全规则；按文件分组并发执行上下文审查",
+        "use_cases": "适合在本地或 CI 中审查 Pull Request、Git 差异及陌生代码目录的研发团队。",
+        "considerations": "Apache-2.0；要求 Git 2.41，并需配置兼容的 LLM 端点；其设计偏高精度，召回率可能低于通用智能体。"
       }
     },
     "andrewyng/aisuite": {
@@ -710,6 +749,19 @@
         "considerations": "AGPL-3.0；需 Python 3.10+、FFmpeg、Node.js 18+及可运行代码的 AI 助手；部分模型和素材服务需要 API。"
       }
     },
+    "chenyme/grok2api": {
+      "source": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
+      "zh": "面向 Grok Build、Web 和 Console 的多账户 API 网关",
+      "analysis_source": "781ecc4625616a8bbe5f591fcec90f94be4fa55d68b1b28232954c3ded2eb798",
+      "analysis_zh": {
+        "positioning": "面向需要统一接入 Grok Build、Web 和 Console 的用户，提供多账户 API 网关与管理控制台。",
+        "implementation": "采用 Go 网关和内置 React 控制台，通过 Provider Registry 路由请求；各 Provider 独立维护凭据、配额、健康与并发状态，Account Sync 同步账户信息，并暴露 OpenAI、Anthropic 兼容接口。",
+        "problems_solved": "统一管理多类 Grok 账户、模型与配额，减少客户端分别适配不同认证和接口的工作，并集中处理路由、故障转移、审计及计费。",
+        "capabilities": "OpenAI 与 Anthropic 兼容 API；多账户导入、同步和凭据续期；粘性会话、配额保护和有界故障转移；图像及异步视频处理",
+        "use_cases": "适合自托管 Grok 多账户接入，为 Codex、Claude Code 或兼容 SDK 提供统一客户端密钥和模型路由。",
+        "considerations": "仅声明用于技术研究和学习，须遵守 Grok 条款及当地法律；部署需账户凭据并妥善保存加密密钥；MIT 许可。"
+      }
+    },
     "citrolabs/ego-lite": {
       "source": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
       "zh": "为 AI 智能体提供零成本、零配置且不打扰用户的浏览器自动化。",
@@ -778,14 +830,14 @@
     "colbymchenry/codegraph": {
       "source": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
       "zh": "全本地、随代码变更自动同步的预索引代码知识图谱，可减少 Token 与工具调用。",
-      "analysis_source": "a70fb9bad60abaa21c3ed9e09085d7d92c89b1ae9b30558acb8753bb391b52cd",
+      "analysis_source": "636784f67a59c6f4d9217370916f070d6baf06badb1bb2743b1831ae3577a35e",
       "analysis_zh": {
-        "positioning": "面向多种编程 Agent 的全本地预索引代码知识图谱，用于提供精确代码上下文和影响范围。",
-        "implementation": "CLI 为项目建立 .codegraph/ 符号、调用边和依赖图并监听文件变更自动同步；通过 MCP 接入 Claude Code、Codex、Cursor 等，内核由 Rust 驱动并随发行包携带运行时。",
-        "problems_solved": "替代 Agent 逐文件 grep、glob 和读取后手工重建调用关系的流程，减少代码理解所需工具调用、往返和处理 Token。",
-        "capabilities": "跨文件符号与依赖解析；查询调用路径和动态分派；分析修改影响范围；本地索引随文件变更自动同步",
-        "use_cases": "适合让编程 Agent 理解大型或多语言代码库、回答架构问题、定位相关源码和评估改动影响。",
-        "considerations": "MIT；需安装 CLI、配置 Agent MCP 并逐项目初始化；索引全本地；长会话中检索内容可能占用更多上下文窗口。"
+        "positioning": "面向多种编码智能体的本地预索引代码知识图谱与语义代码检索工具。",
+        "implementation": "本地提取代码符号、调用边和跨文件依赖形成图谱，通过 MCP 接入多个智能体；初始化后监听文件增删改并自动同步索引，核心内核由 Rust 驱动。",
+        "problems_solved": "替代智能体逐文件 grep、glob 和读取后重建调用关系的流程，减少结构探索所需的工具调用、Token 和等待时间。",
+        "capabilities": "符号与依赖关系预索引；调用路径和变更影响范围查询；文件变化自动同步；自动配置多种编码智能体的 MCP 接入",
+        "use_cases": "适合让编码智能体理解中大型代码库、分析调用链或评估改动影响的开发团队。",
+        "considerations": "MIT 许可且索引完全本地；需分别安装 CLI、连接智能体并初始化项目；密集结果可能增加会话驻留上下文。"
       }
     },
     "cypress-io/cypress": {
@@ -823,6 +875,19 @@
         "capabilities": "从图片或视频提取人脸；训练双人脸换脸模型；将训练结果转换到源素材；提供 GUI 与视频处理流程",
         "use_cases": "适合 AI 技术学习、模型实验、电影 VFX，以及取得同意的合法图片和视频换脸。",
         "considerations": "GPL-3.0；支持 Windows、Linux、macOS，最佳性能需 CUDA GPU，部分 AMD GPU 可在 Linux 用 ROCm；禁止不当或无授权用途。"
+      }
+    },
+    "denoland/celld": {
+      "source": "self-hosted, distributed Durable Objects",
+      "zh": "可自托管的分布式 Durable Objects",
+      "analysis_source": "baa6f9bb965f9ff5e5f5d284b5f1b4e56dc47c686ff9a8010f917e9ab2c3154b",
+      "analysis_zh": {
+        "positioning": "面向希望在自有机器运行 Cloudflare Workers 与 Durable Objects 的团队，提供分布式自托管运行时。",
+        "implementation": "每个对象对应按名称寻址的 SQLite 数据库；节点嵌入 V8 执行 Wrangler bundle，并仅借助自有 S3 兼容桶保存部署、状态和租约，以对象存储 CAS 确保单节点所有权及迁移恢复。",
+        "problems_solved": "无需集中控制面或共识服务即可运行分片对象，降低共享数据库的争用与故障半径，并让节点可替换、空闲对象可休眠。",
+        "capabilities": "自托管 Workers 与 Durable Objects；按对象隔离 SQLite 状态；向 S3 兼容存储持续复制与恢复；基于租约的节点发现、迁移和压力卸载",
+        "use_cases": "适合拥有 S3 兼容存储、需要私有部署有状态 Worker 应用及横向扩展对象实例的平台团队。",
+        "considerations": "依赖 AWS 凭据链和 S3 兼容桶，代码部署还需 esbuild；节点通信应置于可信私网或加密覆盖网；兼容面仍在演进，Apache-2.0。"
       }
     },
     "denoland/deno": {
@@ -916,6 +981,19 @@
         "considerations": "生产使用应从 main 安装，开发 PR 面向 develop；重型资产使用 Git LFS；部分技能依赖 Python、切片器或本地打印设备；MIT 许可。"
       }
     },
+    "embabel/embabel-agent": {
+      "source": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
+      "zh": "面向 JVM 的智能体框架，读作 Em-BAY-bel",
+      "analysis_source": "670d7a3aab319a481da55dd2101db7f0b38ca922f2e7cf48c18d4970f6e05382",
+      "analysis_zh": {
+        "positioning": "面向 Java、Kotlin 与 Spring 开发者的 JVM 智能体框架，用强类型领域模型编排 LLM 与代码混合流程。",
+        "implementation": "以 Action、Goal、Condition 和领域对象建模，通过非 LLM 规划器动态生成并逐步重规划 Plan；支持注解式 API 或 Kotlin DSL，默认采用 GOAP，也支持基于效用评分的动作选择。",
+        "problems_solved": "突破固定状态机和顺序编排限制，让既有动作可按目标重新组合，同时减少弱类型数据映射带来的重构、复用和测试困难。",
+        "capabilities": "基于目标的动态规划与逐步重规划；强类型领域模型和 Spring 集成；混合不同 LLM、本地模型与代码；Focused、Closed、Open 三种执行模式",
+        "use_cases": "适合 JVM 企业应用、事件驱动流程，以及需要可测试、可复用、能随状态变化动态选路的智能体系统。",
+        "considerations": "Kotlin 实现并提供自然的 Java 用法，构建于 Spring/JVM；文档链接显示 1.5.0-SNAPSHOT，成熟度应核对；Apache-2.0。"
+      }
+    },
     "emilkowalski/skills": {
       "source": "Skills for Designers and Engineers.",
       "zh": "面向设计师和工程师的技能集",
@@ -992,6 +1070,19 @@
         "capabilities": "区分 TextBased、Scanned、ImageBased 与 Mixed PDF；按页输出 OCR 建议和置信度；提取位置、字体及多栏阅读顺序；转换标题、列表、表格和链接为 Markdown",
         "use_cases": "适合批量处理报告、论文、财务文档、发票及法律 PDF 的本地解析与智能 OCR 分流。",
         "considerations": "纯 Rust、MIT 许可，无 ML 模型和外部服务；不执行 OCR，遇到图像页或损坏编码需调用方回退至 OCR。"
+      }
+    },
+    "floci-io/floci": {
+      "source": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "zh": "轻量、易用且永久免费，可替代 AWS 本地模拟器",
+      "analysis_source": "c3fd37d8861f5e9a345bb08b9a07ba109dc9280fb2bfd0b8dea38a2ef4746301",
+      "analysis_zh": {
+        "positioning": "面向开发、测试与 CI 的免费开源本地 AWS 模拟器，可作为 LocalStack Community 的替代方案。",
+        "implementation": "以 Java 和 Docker 镜像运行，统一在 localhost:4566 提供 AWS 兼容端点；部分服务进程内模拟，Lambda、RDS、ECS、EC2 等由真实 Docker 容器执行，并支持内存、持久化、混合及 WAL 存储。",
+        "problems_solved": "无需 AWS 云账号、认证令牌或付费功能门槛，即可沿用 SDK、CLI、Terraform、CDK、OpenTofu 和测试流程，降低本地开发与 CI 成本。",
+        "capabilities": "模拟 S3、SQS、DynamoDB、Lambda 等 69 项 AWS 服务；兼容标准 AWS 客户端与 IaC 工具；以真实 Docker 执行计算和数据库工作负载；提供多种持久化模式",
+        "use_cases": "适合需要离线开发 AWS 应用、运行集成测试、搭建 CI 流水线或迁移现有 LocalStack 工作流的团队。",
+        "considerations": "需 Docker 或 Docker Compose；凭据通常可用任意非空值；旧 hectorvent/floci 镜像已停止更新；MIT 许可证。"
       }
     },
     "gabime/spdlog": {
@@ -1098,17 +1189,30 @@
         "considerations": "Apache-2.0；JRE 版要求 JDK 8+；运行时依赖 failureaccess 1.0.3；@Beta API 可能随时变更。"
       }
     },
+    "google/skills": {
+      "source": "Agent Skills for Google products and technologies",
+      "zh": "面向 Google 产品与技术的智能体技能集",
+      "analysis_source": "707a21859415a27f147d3c994f1e8566cf7370d85a8308281f9c70e3ca045eb2",
+      "analysis_zh": {
+        "positioning": "面向使用编码智能体开发 Google 产品及技术方案的工程师，提供官方相关技能与插件集合。",
+        "implementation": "通过 npx 安装器按需选择技能，也可作为包含 Skills 与 MCP servers 的插件安装到 Claude Code、Codex 或 Antigravity CLI；内容覆盖 Google Cloud 多产品方案及技术分类。",
+        "problems_solved": "集中提供 Google 技术的智能体操作知识和工作流，减少开发者自行编写、整理及维护相关提示与集成能力的成本。",
+        "capabilities": "Google Cloud 入门与多产品方案；AI/ML、数据库和分析技能；开发与管理工具技能；安全、身份及 Web 托管技能",
+        "use_cases": "适合基于 Google Cloud 或其他 Google 技术开发、运维和设计解决方案的工程师及智能体用户。",
+        "considerations": "Apache-2.0 许可；仓库处于积极开发阶段；不同智能体的插件安装命令不同，具体技能清单需核对项目文档。"
+      }
+    },
     "h4ckf0r0day/obscura": {
       "source": "The headless browser for AI agents and web scraping",
       "zh": "用于 AI 智能体和网页抓取的无头浏览器",
-      "analysis_source": "ad6844b93cbaa18bb29c87de2c0e21cbe1a23c887c091f4c63bcc0e6be8e7c2f",
+      "analysis_source": "7667423eb7b7adc6165acf657f14bc485da3f033722f88bd5ae898710773ac23",
       "analysis_zh": {
-        "positioning": "面向 AI 智能体、浏览器自动化和网页抓取的 Rust 无头浏览器引擎，可替代部分 Headless Chrome 工作流。",
-        "implementation": "使用 Rust 编写并通过 V8 执行 JavaScript，实现 Chrome DevTools Protocol 以兼容 Puppeteer 和 Playwright；支持并行 worker、DOM 转 Markdown、请求拦截及可选的指纹随机化和 TLS 模拟。",
-        "problems_solved": "降低 Headless Chrome 在大规模自动化中的内存、二进制体积与启动开销，并减少常见浏览器指纹和跟踪脚本造成的抓取阻碍。",
-        "capabilities": "运行 JavaScript 并通过 CDP 控制页面；兼容 Puppeteer 与 Playwright；并行抓取及流式读取大型响应；提供会话级反指纹、跟踪拦截和 DOM 转 Markdown",
-        "use_cases": "适合构建高并发网页抓取服务、AI 浏览器工具、登录与表单自动化，以及需要 CDP 兼容性的替换方案。",
-        "considerations": "Apache-2.0；预编译 Linux 包要求 glibc 2.35+。源码构建需 Rust 1.75+，首次编译 V8 较慢；stealth 构建另需 CMake、Clang 和 LLVM。"
+        "positioning": "面向 AI 智能体和网页抓取任务的 Rust 开源无头浏览器引擎。",
+        "implementation": "使用 V8 执行 JavaScript，自建 CSS 布局与绘制引擎，无需 Chromium；提供 CDP，并兼容 Puppeteer、Playwright，支持独立二进制、Docker 和源码构建。",
+        "problems_solved": "降低基于 Chromium 的浏览器自动化在内存、二进制体积和启动时间上的开销，并提供内置反检测能力。",
+        "capabilities": "执行 JavaScript 和加载动态页面；截图、录屏与 PDF 导出；CDP、Puppeteer 和 Playwright 接入；并行抓取及反指纹模式",
+        "use_cases": "适合构建大规模网页抓取、AI 浏览器智能体、表单操作和页面采集服务。",
+        "considerations": "Apache-2.0；独立渲染仍在演进，长尾 CSS、部分 Web API 和字体效果可能不同于 Chromium。"
       }
     },
     "headroomlabs-ai/headroom": {
@@ -1226,6 +1330,19 @@
         "considerations": "MIT 许可；模型会占用本地算力，部分引擎依赖 GPU；Linux 暂无预编译二进制，需源码构建或使用 Docker。"
       }
     },
+    "jdx/mise": {
+      "source": "dev tools, env vars, task runner",
+      "zh": "集开发工具、环境变量与任务运行器于一体",
+      "analysis_source": "34db8d525acaaca00c84b1daeeacc5b0aa14b4039cab0b4a707205674e0517e7",
+      "analysis_zh": {
+        "positioning": "面向开发者和 CI 工作流，将开发工具版本、项目环境变量及常用任务统一管理在一个 CLI 中。",
+        "implementation": "在命令运行前读取项目的 mise.toml，安装并切换 Node、Python、CMake、Terraform 等工具，加载目录级环境变量及 .env 来源，并执行构建、测试、检查和部署任务。",
+        "problems_solved": "消除新终端、代码检出和 CI 环境的配置差异，替代分散的工具版本管理、环境加载及任务脚本入口。",
+        "capabilities": "安装和切换多种开发工具版本；按项目加载环境变量；定义并运行构建测试等任务；统一复现本地与 CI 环境",
+        "use_cases": "适合多语言项目、需要多版本工具链的开发者，以及希望统一本地、检出环境和 CI 启动方式的团队。",
+        "considerations": "MIT 许可；需安装 mise 并按所用 Shell 配置 hook；具体工具、环境来源及任务语法应核对官方文档。"
+      }
+    },
     "karpathy/autoresearch": {
       "source": "AI agents running research on single-GPU nanochat training automatically",
       "zh": "让 AI 智能体自动研究单 GPU nanochat 训练。",
@@ -1307,14 +1424,14 @@
     "mattpocock/skills": {
       "source": "Skills for Real Engineers. Straight from my .agents directory.",
       "zh": "源自作者个人 .agents 目录的实用工程技能集。",
-      "analysis_source": "d242540b6434b17c96a7787a85e0ff6dc878dd821332eebca8e5f4fed129c672",
+      "analysis_source": "20bb68753544d690b6b22c738ce07408f312f85b4cb2cea3e7cffb361efec34d",
       "analysis_zh": {
-        "positioning": "面向真实软件工程工作的可组合智能体技能集，服务于希望保留流程控制权的开发者。",
-        "implementation": "以小型、可编辑且模型无关的技能文件组合工作流；支持托管只读安装或复制到项目自行修改，并通过仓库级初始化配置 Issue 跟踪器、标签和文档位置。",
-        "problems_solved": "缓解需求理解偏差、智能体表达冗长、反馈循环不足和代码复杂度增长，同时避免大型方法论接管整个开发流程。",
-        "capabilities": "需求追问与共享语言；测试驱动开发；分阶段调试；可组合、可定制的工程技能安装",
-        "use_cases": "适合在 Claude Code、Codex 等智能体中建立需求澄清、测试、调试和工程设计工作流的开发者。",
-        "considerations": "MIT 许可；同一智能体应在托管安装与可编辑安装中二选一，否则会重复；原生 Codex 插件仍在规划中。"
+        "positioning": "面向使用 Claude Code、Codex 等编码智能体的工程师，提供小型、可组合且可定制的工程技能集。",
+        "implementation": "以普通技能文件或只读托管包分发，支持按需安装到多种智能体；通过仓库级 setup 配置工单系统、标签和文档位置，并提供需求澄清、共享语言、TDD 与分阶段调试等技能。",
+        "problems_solved": "减少人与智能体的需求错位、冗长沟通和术语不一致，并以测试及调试反馈循环降低生成代码不可用和代码结构劣化的风险。",
+        "capabilities": "需求深度澄清与变更对齐；建立项目共享语言和 ADR；引导红绿重构测试循环；执行分阶段调试与工程设计审查",
+        "use_cases": "适合希望保留开发过程控制权的工程师，在真实项目中按需组合技能，辅助需求分析、编码、测试和调试。",
+        "considerations": "MIT 许可；可选择自动更新的只读包或项目内可编辑副本，不应同时安装两种方式；原生 Codex 插件仍在规划中。"
       }
     },
     "microsoft/AI-For-Beginners": {
@@ -1476,14 +1593,14 @@
     "openai/codex-security": {
       "source": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "zh": "用于发现、验证和修复安全漏洞的 Codex Security CLI 与 TypeScript SDK。",
-      "analysis_source": "bbc1cd8e7e55fceef625657a47219c31267a3c49bbaab58afdcdffbce7037155",
+      "analysis_source": "04933428dec35ecfc7e0c7526ebadeb7bdef59b41e1029ae0481cb0b287793a9",
       "analysis_zh": {
-        "positioning": "OpenAI 面向开发者与 DevSecOps 团队的代码漏洞发现、验证和修复 CLI 与 TypeScript SDK。",
-        "implementation": "通过 CLI 或 SDK 执行扫描并持久化历史，支持比较两次扫描的新增、持续、重现和已解决问题；CI 可用 API Key，批量任务可在官方容器中对固定 Git 提交执行。",
-        "problems_solved": "将漏洞发现、有效性验证、修复及前后扫描对比纳入本地开发和 CI，降低人工安全审查与结果追踪成本。",
-        "capabilities": "发现并验证代码漏洞；辅助修复安全问题；比较扫描结果与根因匹配；支持 CLI、TypeScript SDK 和容器批量扫描",
-        "use_cases": "适合开发者本地安全检查、CI 非交互扫描，以及团队对多个固定版本仓库进行可恢复批量扫描。",
-        "considerations": "Apache-2.0；要求受支持的 Node.js 22.13+/24/26、Python 3.10+及 Codex Security 访问权限；部分请求需 Trusted Access。"
+        "positioning": "面向开发者和 DevSecOps 团队的代码漏洞发现、验证与修复 CLI 及 TypeScript SDK。",
+        "implementation": "通过交互式或 CI 凭据调用 Codex Security 扫描，持久保存扫描历史并按根因比较前后结果；支持 SDK、其他推理提供商及固定 Git 提交的容器化批量扫描。",
+        "problems_solved": "将漏洞发现、真实性验证、修复和扫描差异追踪整合进本地开发或 CI，减少人工比对安全发现的工作量。",
+        "capabilities": "发现、验证并修复代码漏洞；比较扫描并识别新增、持续、重开或已解决问题；TypeScript SDK 集成；可恢复的容器化批量扫描",
+        "use_cases": "适合本地安全审查、CI 代码扫描及对多个固定版本仓库执行批量安全分析。",
+        "considerations": "Apache-2.0；需受支持的 Node.js、Python 3.10+及 Codex Security 访问权限；部分请求需 Trusted Access 审批。"
       }
     },
     "openclaw/openclaw": {
@@ -1525,6 +1642,19 @@
         "considerations": "MIT 许可证；需部署 Node.js 服务端及 React UI；外部智能体和模型由用户自备，企业级 SSO、GRC 等细节应核对文档。"
       }
     },
+    "paperswithbacktest/awesome-systematic-trading": {
+      "source": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "zh": "精选系统化交易库、软件包、策略、书籍、博客与教程",
+      "analysis_source": "acaf15354983f52b7c70e8ecec17b591e97a7b69303ad5f35286b65eeeb78884",
+      "analysis_zh": {
+        "positioning": "面向量化交易初学者与专业人士的系统化交易资源精选目录，汇集研究、开发和实盘相关资料。",
+        "implementation": "以 GitHub Awesome List 形式维护，按回测与实盘、交易机器人、指标、金融度量、优化等主题分类；库和软件包还按编程语言及 GitHub 星标排序，并链接至外部项目和教程。",
+        "problems_solved": "把分散的量化交易论文、软件、书籍、博客和教程集中分类，减少寻找回测框架、策略实现及学习材料的检索与筛选成本。",
+        "capabilities": "索引 97 个交易库和软件包；整理事件驱动与向量化回测框架；收录加密货币机器人、指标和组合分析工具；汇集论文、书籍、博客及教程",
+        "use_cases": "适合量化交易学习者、研究员和开发者选型回测或实盘框架、查找策略资料并建立学习路径。",
+        "considerations": "这是资源目录而非统一交易系统；外部项目的维护状态、风险与许可证需分别核对；仓库未标注许可证。"
+      }
+    },
     "pascalorg/editor": {
       "source": "Create and share 3D architectural projects.",
       "zh": "用于创建和分享 3D 建筑项目的编辑器",
@@ -1536,6 +1666,19 @@
         "capabilities": "绘制墙体、楼板与区域并放置物件；生成门窗切口、屋顶和楼层几何；支持选择、层级显示及撤销重做；以统一插件清单扩展节点、渲染器和面板",
         "use_cases": "适合开发浏览器建筑编辑器、楼层平面与 BIM/CAD 类工具，或嵌入独立 3D 查看器。",
         "considerations": "MIT 许可；开发栈含 Bun、Next.js 16、React 19 和 WebGPU，需从仓库根目录运行开发命令。"
+      }
+    },
+    "pranshuparmar/witr": {
+      "source": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "zh": "通过 CLI 和 TUI 追溯进程、端口、容器或文件的启动来源",
+      "analysis_source": "8a5dd6aa28819aa487ed18136843288f7d28865e2ba97028e7e759f529d93b72",
+      "analysis_zh": {
+        "positioning": "面向开发、运维和事件响应人员，用 CLI 与 TUI 解释进程、端口、容器或文件为何正在运行。",
+        "implementation": "以 Go 编写并分发单一静态二进制，跨 Linux、macOS、FreeBSD 和 Windows；关联进程祖先、服务、容器、端口及文件锁信息，输出人类可读结果、JSON 或实时 TUI。",
+        "problems_solved": "替代手工拼接 ps、top、lsof、ss、systemctl 和 docker ps 输出的排障流程，直接呈现运行对象的启动因果链。",
+        "capabilities": "追溯进程完整祖先和启动来源；关联端口与所属进程；统一查看多种容器运行时；浏览文件锁及开放文件",
+        "use_cases": "适合本机异常进程调查、端口占用排查、容器溯源、文件锁诊断和事件响应取证。",
+        "considerations": "Apache-2.0 许可；多平台包管理器版本可能落后于 GitHub 发布版；部分系统信息的可见性与权限要求需核对文档。"
       }
     },
     "public-apis/public-apis": {
@@ -1614,6 +1757,19 @@
         "capabilities": "扫描 Greenhouse、Ashby、Lever 等职位源；结构化评估匹配度与真实性；生成定制 CV 和求职信 PDF；追踪申请、面试、跟进与漏斗数据",
         "use_cases": "适合使用 AI 编码 CLI、愿意补充职业背景并逐项审核后再投递的求职者。",
         "considerations": "MIT 许可证；需 Node.js、AI 编码 CLI 及浏览器自动化环境；不会自动发送或提交申请，最终操作由用户决定。"
+      }
+    },
+    "semantica-agi/semantica": {
+      "source": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "zh": "面向上下文与可问责 AI 系统的图原生基础设施",
+      "analysis_source": "5c6185cefee3eaeb6c01375b94e755682b4cde33287fd39fceff0963be1430cf",
+      "analysis_zh": {
+        "positioning": "面向受监管或高风险领域的 AI、数据和合规团队，提供可自托管、可审计的图原生上下文与决策基础设施。",
+        "implementation": "从多源数据提取实体、关系和事件，构建 Context Graph 与知识图谱；支持 RDF/LPG 后端，以 W3C PROV-O 记录来源，并通过 SHACL、OWL、Rete、Datalog 和 SPARQL 实现治理及确定性推理。",
+        "problems_solved": "补足向量检索和普通 LLM 记忆缺少语义、决策历史、因果解释与审计链的问题，并减少企业数据导出到第三方 SaaS 的需求。",
+        "capabilities": "多源知识图谱构建与实体消歧；决策记录、因果链和全程溯源；确定性规则与图分析；本体、冲突及合规约束管理",
+        "use_cases": "适合金融、医疗、法律、政府等领域的智能体决策审计，也适合将 Databricks 或 Snowflake 数据转为受治理知识图谱。",
+        "considerations": "MIT 许可且支持自托管；可连接多种图数据库、向量库及企业数据平台，实际认证、后端选择和部署依赖需核对文档。"
       }
     },
     "shanraisshan/claude-code-best-practice": {
@@ -1710,14 +1866,14 @@
     "trycompai/crm": {
       "source": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
       "zh": "专为 AI 智能体设计的开源智能体优先 CRM",
-      "analysis_source": "0c6c3188ae1303a526f1cc84af839b6e872b660e464d60ea446e31f1c8f7aa90",
+      "analysis_source": "f5e4f87e48d49fb50604b7a2753b80aca4187306ab05bbebc7f9ce36799df6bc",
       "analysis_zh": {
-        "positioning": "以自主研究智能体为核心、供销售团队维护联系人和客户事实的开源 Agentic-first CRM。",
-        "implementation": "TypeScript monorepo包含 Next.js 前端、NestJS/tRPC API、Prisma/Postgres 与独立持久智能体；任务用租约和 FOR UPDATE SKIP LOCKED 分发，证据账本决定写入或提交人工确认。",
-        "problems_solved": "减少销售人员手工查证并录入客户资料的工作，同时避免模型把低可信信息直接写成确定事实。",
-        "capabilities": "自主研究联系人和公司；基于证据强度写入或建议；持久任务队列与定时复查；展示智能体步骤、淘汰线索及待确认问题",
-        "use_cases": "适合希望在自有部署中持续完善客户档案、安排跟进，并保留人工事实裁决的销售团队。",
-        "considerations": "MIT 许可；依赖 Postgres、Google 登录及允许名单；外部数据源可选，Agent 对话需两端配置相同密钥。"
+        "positioning": "面向销售和客户运营团队、以自主研究智能体为核心的开源 CRM。",
+        "implementation": "采用 monorepo：Next.js 前端、NestJS 与 tRPC API、Prisma/Postgres 数据层；持久智能体按任务队列和日程运行，以证据账本决定写入事实或提交人工确认。",
+        "problems_solved": "替代销售人员手工调查联系人、填写 CRM 和安排复查的流程，同时降低智能体把猜测当作客户事实写入的风险。",
+        "capabilities": "自主研究联系人和公司；按证据强弱写入事实或生成建议；持久任务队列与定时复查；联系人、公司和交易的 Agent 过程追踪",
+        "use_cases": "适合自托管 CRM、希望持续补全客户资料并保留人工裁决环节的销售团队。",
+        "considerations": "MIT 许可；依赖 Postgres，Redis 可选；外部数据源密钥可选；交互式 Agent 标签需配置共享密钥。"
       }
     },
     "tw93/Mole": {
@@ -1757,6 +1913,19 @@
         "capabilities": "运行 claw CLI 智能体工作流；执行 doctor 健康检查；管理认证、会话和模型提供方；通过 parity 文档跟踪 Rust 移植状态",
         "use_cases": "适合研究智能体 harness、Rust CLI 移植和自动维护流程；正式执行工作时 README 建议优先使用上游实现。",
         "considerations": "MIT 许可证；仅支持源码构建且需 Rust；运行模型需 API Key；尚未提供真正的 ACP/Zed daemon；非严肃生产项目。"
+      }
+    },
+    "unclebob/swarm-forge": {
+      "source": "A simple tool for coordinating several AI agents.",
+      "zh": "用于协调多个 AI 智能体的简单工具",
+      "analysis_source": "a41db6bae70e838dcb537e69bcb04d939aa6c5b8f1676c249cc5ea86d49c0f74",
+      "analysis_zh": {
+        "positioning": "面向需要多智能体协作开发的软件团队，以 tmux、Git worktree 和角色工作流协调本地编码智能体。",
+        "implementation": "使用项目内配置、角色 prompt、分层 constitution、独立 Git worktree 与每角色 tmux 会话；通过消息传递衔接角色，并以 two-pack、four-pack、six-pack 分支提供不同质量门禁流程。",
+        "problems_solved": "避免多个智能体并行开发时相互覆盖，并将规格、TDD、重构、架构、加固和 QA 等职责纳入明确的交接流程。",
+        "capabilities": "按角色启动独立 tmux 会话；跨 worktree 智能体消息传递；提供二、四、六角色工作流；执行 TDD、架构审查和 QA 门禁",
+        "use_cases": "适合从小型后端任务到重大项目，按复杂度选择快速实现、规格驱动或完整验证的多智能体工作流。",
+        "considerations": "本地运行，依赖 zsh、git、tmux、Babashka 及至少一个已配置的智能体后端；main 仅用于文档；许可证未标注。"
       }
     },
     "unclecode/crawl4ai": {
