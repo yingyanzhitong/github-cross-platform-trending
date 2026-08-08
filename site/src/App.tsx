@@ -240,7 +240,7 @@ export default function App() {
           onSelectCatalog={selectCatalog}
           onSelectDate={selectDate}
         />
-        <SidebarInset className="min-w-0 overflow-x-hidden">
+        <SidebarInset className="min-w-0 overflow-x-clip">
           <ReportDashboard
             catalog={currentCatalog}
             report={currentReport}
