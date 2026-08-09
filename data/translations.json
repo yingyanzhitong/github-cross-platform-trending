@@ -444,14 +444,14 @@
     "Wox-launcher/Wox": {
       "source": "A cross-platform launcher that simply works",
       "zh": "跨平台高效启动器。",
-      "analysis_source": "8cc2f16ee54504f672f6ee59f3be2e733f2bbfce2a7cf441e90a754cd080cc64",
+      "analysis_source": "6f55148145e67fb29de2b62e4addb62ecb41fdeb1eb69976b1426cb58b172dfd",
       "analysis_zh": {
-        "positioning": "跨平台高效启动器，帮助用户快速打开应用、文件和执行命令。",
-        "implementation": "使用Go语言开发，提供统一输入框支持本地搜索、命令执行和插件扩展，支持多平台安装方式和快捷键触发，集成多种生产力工具和AI聊天接口",
-        "problems_solved": "提升启动效率，整合多种搜索和操作功能，替代系统默认启动器，支持插件扩展增强功能。",
-        "capabilities": "应用和文件快速启动；插件扩展；主题切换；本地搜索；支持多平台；集成AI聊天功能",
-        "use_cases": "适合需要快速访问应用和文件的办公人员及开发者。",
-        "considerations": "GPL-3.0开源许可；支持macOS、Linux、Windows；无强制安装流程；需查看官方文档确认插件和主题使用细节"
+        "positioning": "面向键盘优先的桌面用户，是覆盖 macOS、Linux 和 Windows 的全原生开源应用、文件与动作启动器。",
+        "implementation": "各平台采用原生 GPU 渲染，不使用 Electron 或浏览器壳；以统一输入框连接本地搜索、键盘动作与插件系统，插件支持 Node.js、Python 或脚本。",
+        "problems_solved": "减少在菜单、文件管理器和不同工具间切换的操作，让应用启动、文件查找和动作执行集中在轻量常驻入口。",
+        "capabilities": "快速启动应用与查找本地文件；键盘优先执行动作；跨平台原生 GPU 渲染；通过商店安装 Node.js、Python 或脚本插件",
+        "use_cases": "适合频繁切换应用、搜索文件和执行快捷动作的 macOS、Linux、Windows 用户及插件开发者。",
+        "considerations": "日常内存占用约 150 MB；插件可能依赖 Node.js、Python 或脚本环境；支持多种安装方式；采用 GPL-3.0。"
       }
     },
     "XiaoYouChR/Ghost-Downloader-3": {
@@ -628,14 +628,14 @@
     "cjpais/Handy": {
       "source": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "zh": "完全离线的开源语音转文字应用。",
-      "analysis_source": "7d825cae9218588cc76d20c161a27347b859a0715180b885f74a238dfdd66eb6",
+      "analysis_source": "e0d8c50202e5db04994da66f66ade8b316d1e84aaa9b2ee6f12b5a0f275188f9",
       "analysis_zh": {
-        "positioning": "完全离线的开源语音转文字应用，适合注重隐私的用户。",
-        "implementation": "基于Rust和Tauri框架开发，使用VAD技术过滤静音，支持GPU加速的Whisper模型和CPU优化的Parakeet模型，提供快捷键控制录音和实时转录，完全本地处理保证隐私",
-        "problems_solved": "提供无需联网的语音转文字功能，保护用户隐私，简化语音输入流程。",
-        "capabilities": "离线语音转文字；多模型支持（Whisper、Parakeet）；跨平台桌面应用；快捷键控制录音；实时转录并粘贴文本；隐私保护",
-        "use_cases": "适合需要离线语音转录的个人用户和开发者。",
-        "considerations": "MIT开源许可；依赖Whisper和Parakeet模型；支持Windows、macOS和Linux；需授予麦克风权限；建议查看官方文档确认模型使用和安装细节"
+        "positioning": "面向重视隐私和无障碍输入的用户，是免费、开源、可扩展且完全离线的跨平台语音转文字桌面应用。",
+        "implementation": "通过可配置快捷键或按住说话录音，以 Silero VAD 过滤静音，再由 Whisper 或 CPU 优化的 Parakeet V3 本地转写，并将文本直接粘贴到当前应用。",
+        "problems_solved": "替代依赖云端上传和订阅付费的语音输入流程，避免语音数据离开设备，并让任意文本框获得快捷听写能力。",
+        "capabilities": "快捷键录音与按住说话；完全本地的语音转写；Whisper 多模型及可用时 GPU 加速；Parakeet V3 CPU 转写与自动语言检测",
+        "use_cases": "适合隐私敏感的日常听写、无障碍文字输入，以及希望扩展或分叉本地语音工具的个人和开发者。",
+        "considerations": "首次使用需授予麦克风等系统权限；模型性能取决于本机 CPU/GPU；支持 Windows、macOS、Linux；采用 MIT。"
       }
     },
     "cli/cli": {
@@ -823,14 +823,14 @@
     "getpaseo/paseo": {
       "source": "Orchestrate multiple coding agents from desktop and mobile",
       "zh": "桌面和移动端多智能体编程协调工具。",
-      "analysis_source": "dc057bd2dfd638f50d8f58e27169980ae2cfae1875da10a4c59edfdcc8874f97",
+      "analysis_source": "a5981a27352d848ea882987356340df2ac3c5450aeaca92f2ca466de4a33c203",
       "analysis_zh": {
-        "positioning": "面向需要跨桌面、手机和命令行协调多个编码代理的开发者自托管控制界面。",
-        "implementation": "本地 daemon 管理 Claude Code、Codex、Copilot、OpenCode 和 Pi，桌面、移动、Web 与 CLI 客户端连接；设备可经端到端加密中继、TCP、Tailscale 或其他 VPN 配对。",
-        "problems_solved": "解决代理分散在不同终端和设备、无法随时跟进的问题，同时保留本机开发环境和数据控制权。",
-        "capabilities": "并行运行多提供商编码代理；跨设备监控和继续任务；语音下达任务及讨论；CLI、无头模式和 Docker 部署",
-        "use_cases": "适合在个人电脑或远程服务器运行代理，并希望从手机巡检、追问或交付代码的开发者。",
-        "considerations": "至少安装并配置一个受支持的代理 CLI；Docker 镜像需加入所用 CLI 和凭据；许可证未明确声明。"
+        "positioning": "面向多模型编程工作流的开发者，是可从桌面、手机、Web 和 CLI 协调本机多个编码智能体的自托管界面。",
+        "implementation": "本地 daemon 管理 Claude Code、Codex、Copilot、OpenCode 和 Pi，桌面、移动、Web 与 CLI 客户端连接 daemon；跨设备可使用端到端加密 relay、TCP、Tailscale 或 VPN。",
+        "problems_solved": "解决多个代理界面分散、跨设备接续困难及远程监控成本，同时保留本机开发环境、工具、配置、技能和凭据控制权。",
+        "capabilities": "统一运行并并行管理五类编码代理；iOS、Android、桌面、Web 与 CLI 跨设备控制；语音下达和讨论任务；自托管 daemon 与加密设备配对",
+        "use_cases": "适合在工作站或服务器并行运行编码代理，并希望从手机查看进度、继续任务或通过 CLI 自动化的开发者。",
+        "considerations": "至少需安装并配置一种代理 CLI 及凭据；Docker 镜像需扩展所用代理；远程连接需 relay、TCP 或 VPN；许可证未明确，须核对。"
       }
     },
     "golutra/golutra": {
@@ -1126,14 +1126,14 @@
     "nukeop/nuclear": {
       "source": "Streaming music player that finds free music for you",
       "zh": "免费音乐流媒体播放器。",
-      "analysis_source": "ae6fb0ee7b8cf3365c918cb36d8fd06d904a59375082ab445b900f065d523771",
+      "analysis_source": "7c8506627860f388b0beb2d800231e78c88d199ddfc03d17b9e19cb15fefb35a",
       "analysis_zh": {
-        "positioning": "面向希望无广告、无追踪听歌的用户，是可搜索多来源音乐并扩展功能的开源跨平台播放器。",
-        "implementation": "采用 pnpm、Turborepo 管理单体仓库，主应用基于 Tauri、Rust 和 React；功能由插件提供，可扩展流媒体源、元数据、播放列表和仪表盘，并内置 MCP Server。",
-        "problems_solved": "整合歌曲搜索、流媒体播放和播放列表管理，避免广告与追踪，并允许通过插件或 AI 代理扩展和控制播放器。",
-        "capabilities": "跨来源搜索和播放音乐；管理队列、收藏与播放列表；从内置商店安装插件；通过 MCP 让 AI 代理控制播放",
-        "use_cases": "适合重视隐私的桌面听歌用户、需要自定义音乐来源的用户，以及希望用 Claude Code 等代理控制播放器的人群。",
-        "considerations": "支持 Windows、macOS、Linux，开发需 Node.js 等前置条件；采用 AGPL-3.0；流媒体来源取决于所装插件。"
+        "positioning": "面向希望无广告、无追踪听歌的桌面用户，是可从多种来源搜索和播放免费音乐的开源跨平台播放器。",
+        "implementation": "主应用采用 Tauri、Rust 与 React，代码以 pnpm monorepo 和 Turborepo 管理；功能由插件驱动，插件可提供流媒体源、元数据、歌单和首页内容，并内置 MCP 服务。",
+        "problems_solved": "减少对带广告、追踪或封闭生态音乐客户端的依赖，统一不同音乐来源，并让用户自行扩展播放源和元数据能力。",
+        "capabilities": "跨来源搜索和流式播放音乐；队列、收藏及歌单导入导出；内置插件商店与自定义 CSS 主题；通过 MCP 让 AI 智能体控制播放器",
+        "use_cases": "适合跨平台免费听歌、管理歌单和主题的用户，以及开发播放源插件或用 AI 自动控制音乐的开发者。",
+        "considerations": "可用音乐取决于所装插件及来源；MCP 需在设置中启用；开发需要 Node.js、pnpm、Tauri/Rust；采用 AGPL-3.0。"
       }
     },
     "oliverschwendener/ueli": {
@@ -1295,40 +1295,40 @@
     "rustdesk/rustdesk": {
       "source": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "zh": "开源自托管远程桌面替代方案。",
-      "analysis_source": "b0bb5c8e96aa3e80b558e65878822b2977e0d5e76302a7a1e3b926a4748e2ab3",
+      "analysis_source": "dde8860f749b23a70622ad6c0abda94bc66ad1d7c0b2d7861ba70769c9a85db7",
       "analysis_zh": {
-        "positioning": "开源自托管远程桌面解决方案，面向需要安全自主远程控制的个人和企业用户。",
-        "implementation": "采用Rust语言开发，利用P2P技术实现远程桌面连接，支持多平台客户端，提供自托管服务器选项，GUI基于Flutter或Sciter实现。",
-        "problems_solved": "替代闭源远程桌面软件，保障数据安全和隐私，降低远程控制成本和依赖。",
-        "capabilities": "支持远程桌面控制；P2P连接；跨平台支持Windows、macOS、Linux、Android、iOS；开源自托管；支持Flutter和Sciter GUI。",
-        "use_cases": "IT支持、远程办公、个人远程访问等场景的远程桌面控制。",
-        "considerations": "基于Rust开发；AGPL-3.0许可证；支持自建中继服务器；建议核对项目文档了解部署细节和安全配置。"
+        "positioning": "面向个人与组织的开源跨平台远程桌面应用，可自托管并作为 TeamViewer、AnyDesk 的替代方案。",
+        "implementation": "核心以 Rust 编写，桌面 GUI 使用 Flutter，旧版 Sciter 已弃用；通过 rendezvous/relay 服务器建立远程连接，可使用官方服务器、自建服务器或自行实现服务器。",
+        "problems_solved": "减少对商业远控平台和第三方中继的依赖，让用户掌控连接数据，并降低跨平台远程支持与设备控制的部署门槛。",
+        "capabilities": "跨 Windows、Linux、macOS、Android 和 iOS 远程控制；支持 P2P 及 rendezvous/relay 连接；支持自托管服务器；提供 Docker、二进制包和源码构建方式",
+        "use_cases": "适合个人远程访问设备、技术支持团队远程协助，以及有数据自主要求的组织部署私有远控服务。",
+        "considerations": "源码构建需 Rust、C++、vcpkg 及音视频库；采用 AGPL-3.0；禁止未经授权访问，具体安全配置应核对文档。"
       }
     },
     "siyuan-note/siyuan": {
-      "source": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
-      "zh": "自托管的开源个人知识管理软件。",
-      "analysis_source": "987b863bc1b4bf98b45feefe6f7168000c188bb74d0bd51de26a2800e6fc41b1",
+      "source": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+      "zh": "开源、隐私优先且支持自托管的人与 AI 智能体协作知识空间",
+      "analysis_source": "60fb286bd72aba02839962bdde5bca2676ed13cd620f45d1e200e3844d64825a",
       "analysis_zh": {
-        "positioning": "面向注重隐私的个人用户的自托管开源知识管理软件。",
-        "implementation": "采用TypeScript和Go语言开发，基于块级内容管理和Markdown编辑，支持多种内容嵌入和导出，提供多平台客户端和Docker容器部署，支持API扩展和社区生态",
-        "problems_solved": "解决云端知识管理隐私风险，支持大文档编辑和多样化内容管理，提升个人知识组织效率。",
-        "capabilities": "块级引用和双向链接；Markdown所见即所得编辑；支持SQL查询嵌入；支持数学公式、图表、流程图等多种内容；支持PDF注释和导出；支持多平台客户端和Docker部署；支持API和社区插件市场",
-        "use_cases": "个人知识管理、笔记整理、文档编辑和研究资料管理的用户。",
-        "considerations": "AGPL-3.0开源许可；支持自托管部署；部分高级功能需付费会员；依赖TypeScript和Go语言；最新版本2026年发布；建议查看官方文档了解详细功能和部署方式"
+        "positioning": "面向个人知识管理及人与 AI 协作的开源、隐私优先、本地优先且支持自托管的知识工作空间。",
+        "implementation": "以内容块为数据基础，提供块引用、双向链接、Markdown 所见即所得、SQL 查询嵌入和 API；支持桌面与移动应用、Docker 部署，并通过 OpenAI API 提供 AI 写作与问答。",
+        "problems_solved": "解决笔记碎片难关联、长文档编辑、知识检索及多格式输出问题，同时让用户通过本地或自托管方式控制知识数据。",
+        "capabilities": "块级引用、双向链接与知识组织；数据库表格、SQL 查询和 API；网页剪藏、PDF 标注及多格式导出；AI 写作问答、OCR 与闪卡复习",
+        "use_cases": "适合个人知识库、研究笔记、数字花园、长文写作，以及希望在私有知识空间中接入 AI 的用户。",
+        "considerations": "AI 功能需要 OpenAI API；部分功能仅限付费会员；支持 Docker；采用 AGPL-3.0，数据同步细节需核对文档。"
       }
     },
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "zh": "支持多代理并行的AI开发环境。",
-      "analysis_source": "710d8db67d767bc9960eac8dbf98a2cf9181facc7ea815f192c7a19b08c1f4f4",
+      "analysis_source": "9e15bd707cec105aec190f5eb7532517c20e34abbff4613aebafa0930b784e91",
       "analysis_zh": {
-        "positioning": "面向并行使用多个编码智能体的开发者，是覆盖桌面、手机和 VPS 的 AI 开发编排环境。",
-        "implementation": "为每个智能体创建隔离的 Git worktree，并在统一界面跟踪结果；集成 Ghostty 类 WebGL 终端、Chromium 设计取样、VS Code 编辑器、GitHub/Linear，以及带自动重连和端口转发的 SSH worktree。",
-        "problems_solved": "避免多个智能体共享目录产生冲突，集中比较、审查和合并结果，并减少在终端、代码托管、任务系统与远程服务器间切换。",
-        "capabilities": "并行运行 Codex、Claude Code、OpenCode 或 Pi；隔离 worktree 并比较合并；手机监控与追问；逐行批注 AI Diff",
-        "use_cases": "适合需要并行尝试实现方案、远程驱动开发机、从 Issue 创建工作区并集中审查智能体产出的开发者。",
-        "considerations": "使用用户自己的智能体订阅；远程执行需 SSH 主机；移动端按 iOS、TestFlight 或 Android APK 提供；MIT 许可。"
+        "positioning": "面向同时使用多个编程智能体的开发者，是可在桌面、移动端和 VPS 管理并行代理工作的 AI 开发环境。",
+        "implementation": "让 Codex、Claude Code、OpenCode、Pi 等代理分别运行于隔离的 Git worktree；集成 Ghostty 类终端、Chromium 设计模式、VS Code 编辑器、SSH、GitHub 与 Linear。",
+        "problems_solved": "减少多代理并行时的工作区冲突、终端与任务切换、远程监控和差异审阅成本，并支持比较结果后合并选定实现。",
+        "capabilities": "在隔离 worktree 中并行运行多个代理；手机监控、通知与追问；SSH 远端开发及端口转发；原生浏览任务并批注 AI diff",
+        "use_cases": "适合并行探索多种代码方案、远程驱动开发代理，以及需要统一管理终端、代码审阅和项目任务的开发者。",
+        "considerations": "需自行准备受支持代理及对应订阅或账号；远端能力依赖 SSH；GitHub、Linear 集成可能需授权；采用 MIT。"
       }
     },
     "streetwriters/notesnook": {
@@ -1429,14 +1429,14 @@
     "tw93/Pake": {
       "source": "🤱🏻 Turn any webpage into a desktop app with one command.",
       "zh": "一键将网页转换为桌面应用。",
-      "analysis_source": "2150c43ac7d35a90e12c6e08ad77ab3e9a43da3cdb8012c36aeedfd111b8430a",
+      "analysis_source": "ca3b33f87a794939e0793800075312009ea4e60a0660da4368e754177ffb4cd4",
       "analysis_zh": {
-        "positioning": "一键将任意网页转换为桌面应用，面向需要快速封装网页的用户。",
-        "implementation": "使用Rust语言结合Tauri框架开发，提供命令行工具实现网页一键打包为轻量级桌面应用，支持自定义图标和窗口设置，减少Electron包体积，提升性能。",
-        "problems_solved": "简化网页转桌面应用流程，降低包体积和资源消耗，提升应用启动速度和运行效率。",
-        "capabilities": "一键将网页打包为桌面应用；支持快捷键、窗口拖拽、样式定制和广告屏蔽；跨平台支持macOS、Windows、Linux；基于Rust和Tauri框架实现高性能和低内存占用。",
-        "use_cases": "适合开发者和普通用户快速将网页封装为桌面应用，支持多平台使用。",
-        "considerations": "采用GPL-3.0许可证；无官方主页，需参考GitHub仓库；支持多平台安装和在线构建；依赖Rust和Tauri技术栈。"
+        "positioning": "面向普通用户和开发者的跨平台网页桌面化工具，可用一条命令将任意网页封装为桌面应用。",
+        "implementation": "基于 Rust 与 Tauri 构建，不依赖 Electron；支持 CLI 一键打包、在线构建和本地二次开发，并可配置图标、窗口参数、样式及功能增强。",
+        "problems_solved": "替代复杂的桌面客户端开发和笨重的 Electron 网页封装流程，降低安装包体积、内存占用与多平台打包配置成本。",
+        "capabilities": "将网页打包为 macOS、Windows 和 Linux 应用；CLI 或在线免环境构建；自定义图标、窗口和样式；支持快捷键、沉浸窗口、拖放及去广告",
+        "use_cases": "适合把常用网站快速独立成桌面应用的用户，以及需要轻量 WebView 客户端或定制封装的开发者。",
+        "considerations": "本地高级定制需要 Tauri/Rust 开发环境；不同网站的兼容性与去广告效果需实测；采用 GPL-3.0。"
       }
     },
     "usebruno/bruno": {
