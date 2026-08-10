@@ -13,7 +13,12 @@ from pathlib import Path
 from typing import Any, Iterable
 from urllib.parse import quote
 
-from cross_platform_trending.translator import DescriptionTranslator
+from cross_platform_trending.translator import (
+    ANALYSIS_MAX_LENGTH,
+    ANALYSIS_MIN_LENGTH,
+    DescriptionTranslator,
+    normalize_analysis,
+)
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -419,11 +424,14 @@ def analyze(
     translator = DescriptionTranslator(cache_path=TRANSLATIONS_PATH)
     translator.enrich(prepared)
     for item in prepared:
-        item["analysis_summary_zh"] = _analysis_summary(item)
-        summary_length = len(item["analysis_summary_zh"])
-        if not 200 <= summary_length <= 500:
+        analysis = _analysis_summary(item)
+        item["analysis_zh"] = analysis
+        item["analysis_summary_zh"] = analysis
+        summary_length = len(analysis)
+        if not ANALYSIS_MIN_LENGTH <= summary_length <= ANALYSIS_MAX_LENGTH:
             raise RuntimeError(
-                f"{item['full_name']} 的中文简介为 {summary_length} 字，不在 200–500 字范围内"
+                f"{item['full_name']} 的中文分析为 {summary_length} 字，"
+                f"不在 {ANALYSIS_MIN_LENGTH}–{ANALYSIS_MAX_LENGTH} 字范围内"
             )
         item.pop("latest_release", None)
         item["name"] = item.pop("repository_name")
@@ -435,33 +443,12 @@ def _escape_table(value: Any) -> str:
 
 
 def _analysis_summary(item: dict[str, Any]) -> str:
-    """将 README 分析整理为约 200–500 字、可直接阅读的一段简介。"""
-    summary = str(item.get("analysis_summary_zh") or "").strip()
-    if summary:
-        return summary
-
-    analysis = item.get("analysis_zh") or {}
-    positioning = str(analysis.get("positioning") or "").strip()
-    description = str(item.get("description_zh") or "").strip()
-    implementation = str(analysis.get("implementation") or "").strip()
-    problems_solved = str(analysis.get("problems_solved") or "").strip()
-    capabilities = str(analysis.get("capabilities") or "").strip()
-    use_cases = str(analysis.get("use_cases") or "").strip()
-    considerations = str(analysis.get("considerations") or "").strip()
-    lead = positioning or description
-    parts = [lead.rstrip("。；； ")]
-    if implementation:
-        parts.append(f"README 显示，{implementation.rstrip('。；； ')}")
-    if problems_solved:
-        parts.append(f"该项目希望{problems_solved.rstrip('。；； ')}")
-    if capabilities:
-        parts.append(f"能力覆盖{capabilities.rstrip('。；； ')}")
-    if use_cases:
-        parts.append(use_cases.rstrip("。；； "))
-    if considerations:
-        parts.append(f"使用前还应留意{considerations.rstrip('。；； ')}")
-    summary = "。".join(part for part in parts if part) + ("。" if parts else "")
-    return summary[:500].rsplit("。", 1)[0] + "。" if len(summary) > 500 else summary
+    """返回 200–1000 字、不分点的单段中文分析。"""
+    source = item.get("analysis_zh") or item.get("analysis_summary_zh") or ""
+    return normalize_analysis(
+        source,
+        description=str(item.get("description_zh") or ""),
+    )
 
 
 def render_report(payload: dict[str, Any]) -> str:
@@ -502,14 +489,6 @@ def render_report(payload: dict[str, Any]) -> str:
             f'{_escape_table(item["language"])} | {item["pushed_at"][:10]} |'
         )
 
-    analysis_labels = (
-        ("positioning", "项目是做什么的"),
-        ("implementation", "怎么做到的"),
-        ("problems_solved", "解决了什么问题"),
-        ("capabilities", "核心能力"),
-        ("use_cases", "适用场景"),
-        ("considerations", "关注事项"),
-    )
     lines.extend(["", "## 项目详情", ""])
     for item in items:
         marker = " 🟢" if item["is_new"] else ""
@@ -524,10 +503,7 @@ def render_report(payload: dict[str, Any]) -> str:
                 "",
             ]
         )
-        lines.extend(
-            f'- **{label}**：{item["analysis_zh"][key]}'
-            for key, label in analysis_labels
-        )
+        lines.append(_analysis_summary(item))
         lines.extend(
             [
                 "",

@@ -11,14 +11,15 @@ from github_hot_rising.collector import _history_delta, render_report
 from github_hot_rising.validator import validate
 
 
-ANALYSIS = {
-    "positioning": "这是用于测试榜单生成的仓库。",
-    "implementation": "它通过明确的数据结构和报告渲染函数生成日报。",
-    "problems_solved": "它解决热门仓库证据难以集中查看的问题。",
-    "capabilities": "生成结构化数据；生成可定位的 Markdown 报告。",
-    "use_cases": "适合验证日报生成与页面展示流程。",
-    "considerations": "测试数据不代表真实 GitHub 热度。",
-}
+ANALYSIS = (
+    "这是用于验证 GitHub 热门增长榜生成流程的示例仓库，主要服务于需要检查日报数据、"
+    "页面结构和增长证据是否一致的开发者。项目通过明确的数据结构、报告渲染函数和历史"
+    "快照记录生成日报，把仓库元数据、趋势来源、Stars 变化和详情锚点集中到同一份结果"
+    "中，减少人工分散核对热门仓库证据的成本。它能够生成结构化 JSON、可定位的 Markdown"
+    "报告、双向详情锚点和可复核的热度说明，适合用于日报生成、数据校验、页面构建与发布"
+    "流程测试。测试数据本身不代表真实 GitHub 热度，实际运行仍需使用可靠来源、满足观察"
+    "跨度的 Stars 快照，并核对仓库公开资料。"
+)
 
 
 def item(rank: int, *, is_new: bool) -> dict[str, object]:
@@ -37,7 +38,7 @@ def item(rank: int, *, is_new: bool) -> dict[str, object]:
         "pushed_at": "2026-08-04T00:00:00Z",
         "is_new": is_new,
         "analysis_zh": ANALYSIS,
-        "analysis_summary_zh": "这是用于验证热门增长榜的示例仓库。README 显示，它通过明确的数据结构和报告渲染函数生成日报，并保留可定位的项目详情与热度证据。该项目希望减少日报生成和页面检查中分散处理数据的成本。能力覆盖结构化数据生成、可定位 Markdown 报告、详情锚点和热度证据展示。适合验证日报生成、数据校验、页面构建和发布流程。使用前还应留意测试数据不代表真实 GitHub 热度，实际运行仍需使用可靠的仓库来源和快照数据。",
+        "analysis_summary_zh": ANALYSIS,
     }
 
 
@@ -75,16 +76,9 @@ class HotRisingReportTests(unittest.TestCase):
         self.assertIn('[↖️ 返回表格中的 #1](#project-row-1)', report)
         self.assertEqual(report.count("🟢"), 4)
         self.assertNotIn("NEW", report)
-        self.assertIn("这是用于测试榜单生成的仓库。", report)
-        for label in (
-            "项目是做什么的",
-            "怎么做到的",
-            "解决了什么问题",
-            "核心能力",
-            "适用场景",
-            "关注事项",
-        ):
-            self.assertEqual(report.count(f"- **{label}**："), 4)
+        self.assertIn("这是用于验证 GitHub 热门增长榜生成流程的示例仓库", report)
+        self.assertEqual(report.count(ANALYSIS), 4)
+        self.assertNotIn("- **项目是做什么的**：", report)
         table, details = report.split("\n## 项目详情", 1)
         table_positions = [table.index(f'project-row-{rank}') for rank in (2, 4, 1, 3)]
         self.assertEqual(table_positions, sorted(table_positions))
@@ -93,7 +87,7 @@ class HotRisingReportTests(unittest.TestCase):
         ]
         self.assertEqual(detail_positions, sorted(detail_positions))
         self.assertGreaterEqual(len(item(1, is_new=True)["analysis_summary_zh"]), 200)
-        self.assertLessEqual(len(item(1, is_new=True)["analysis_summary_zh"]), 500)
+        self.assertLessEqual(len(item(1, is_new=True)["analysis_summary_zh"]), 1000)
 
     def test_validator_checks_namespaced_latest_files(self) -> None:
         target = date(2026, 8, 4)

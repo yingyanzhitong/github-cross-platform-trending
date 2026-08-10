@@ -6,6 +6,12 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
+from .translator import (
+    ANALYSIS_MAX_LENGTH,
+    ANALYSIS_MIN_LENGTH,
+    normalize_analysis,
+)
+
 
 def mark_new_projects(
     report_date: str,
@@ -43,49 +49,10 @@ def _escape_table(text: str) -> str:
 
 
 def _analysis_summary(item: dict[str, Any]) -> str:
-    """将六项中文分析渲染为 200–500 字的结构化详情。"""
-    analysis = item.get("analysis_zh") or {}
-    positioning = str(analysis.get("positioning") or "").strip()
-    description = str(item.get("description_zh") or item.get("description") or "").strip()
-    implementation = str(analysis.get("implementation") or "").strip()
-    problems_solved = str(analysis.get("problems_solved") or "").strip()
-    capabilities = str(analysis.get("capabilities") or "").strip()
-    use_cases = str(analysis.get("use_cases") or "").strip()
-    considerations = str(analysis.get("considerations") or "").strip()
-    labels = (
-        "项目是做什么的",
-        "怎么做到的",
-        "解决了什么问题",
-        "核心能力",
-        "适用场景",
-        "关注事项",
-    )
-    original_values = (
-        positioning or description,
-        implementation,
-        problems_solved,
-        capabilities,
-        use_cases,
-        considerations,
-    )
-    limits = [len(value) for value in original_values]
-
-    def build() -> str:
-        values = []
-        for value, limit in zip(original_values, limits, strict=True):
-            rendered = value[:limit].rstrip("。；，, ")
-            values.append(f"{rendered}…" if limit < len(value) else rendered)
-        return "\n".join(
-            f"- **{label}**：{value}"
-            for label, value in zip(labels, values, strict=True)
-        )
-
-    summary = build()
-    while len(summary) > 500:
-        longest = max(range(len(limits)), key=limits.__getitem__)
-        limits[longest] -= 1
-        summary = build()
-    return summary
+    """返回 200–1000 字、不分点的单段中文分析。"""
+    source = item.get("analysis_zh") or item.get("analysis_summary_zh") or ""
+    description = str(item.get("description_zh") or item.get("description") or "")
+    return normalize_analysis(source, description=description)
 
 
 def _heat(item: dict[str, Any]) -> str:
@@ -268,12 +235,17 @@ def write_report(
     data_dir.mkdir(parents=True, exist_ok=True)
     mark_new_projects(report_date, software, data_dir)
     for item in software:
-        item["analysis_summary_zh"] = _analysis_summary(item)
-        summary_length = len(item["analysis_summary_zh"])
-        if not 200 <= summary_length <= 500:
+        analysis = _analysis_summary(item)
+        item["analysis_zh"] = analysis
+        item["analysis_summary_zh"] = analysis
+        summary_length = len(analysis)
+        if not ANALYSIS_MIN_LENGTH <= summary_length <= ANALYSIS_MAX_LENGTH:
             raise ValueError(
-                f"{item['name']} 的中文简介为 {summary_length} 字，不在 200–500 字范围内"
+                f"{item['name']} 的中文分析为 {summary_length} 字，"
+                f"不在 {ANALYSIS_MIN_LENGTH}–{ANALYSIS_MAX_LENGTH} 字范围内"
             )
+        if "\n" in analysis:
+            raise ValueError(f"{item['name']} 的中文分析不是单段文本")
 
     payload = {
         "date": report_date,

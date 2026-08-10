@@ -15,6 +15,8 @@ MODEL = "gpt-5.6-sol"
 TRANSLATION_BATCH_SIZE = 25
 ANALYSIS_BATCH_SIZE = 10
 MAX_MODEL_RETRIES = 1
+ANALYSIS_MIN_LENGTH = 200
+ANALYSIS_MAX_LENGTH = 1000
 ANALYSIS_FIELDS = (
     "positioning",
     "implementation",
@@ -62,18 +64,72 @@ def _chinese_segment(text: str) -> str:
     )
 
 
-def _clean_analysis(analysis: dict[str, Any]) -> dict[str, str]:
-    return {
-        field: re.sub(r"[*_`#]+", "", str(analysis.get(field, ""))).strip()
+def _clean_analysis_text(value: Any) -> str:
+    return re.sub(
+        r"\s+",
+        " ",
+        re.sub(r"[*_`#]+", "", str(value or "")),
+    ).strip()
+
+
+def normalize_analysis(analysis: Any, *, description: str = "") -> str:
+    """将新旧分析格式统一为不含 Markdown 的单段中文说明。"""
+    if not isinstance(analysis, dict):
+        cleaned = _clean_analysis_text(analysis)
+        cleaned = re.sub(r"项目通过使用", "它使用", cleaned)
+        cleaned = re.sub(r"项目通过(?=基于|借助|依靠|由)", "它", cleaned)
+        cleaned = re.sub(r"项目通过(?=\s|[A-Za-z0-9])", "它通过", cleaned)
+        cleaned = re.sub(
+            r"它主要解决(?=减少|降低|避免|缓解|替代|统一|集中)",
+            "它可以",
+            cleaned,
+        )
+        cleaned = re.sub(r"核心能力包括(?!：)", "核心能力包括：", cleaned)
+        return cleaned
+
+    values = {
+        field: _clean_analysis_text(analysis.get(field)).strip("。；，, ")
         for field in ANALYSIS_FIELDS
     }
+    lead = values["positioning"] or _clean_analysis_text(description).strip("。；，, ")
+    parts: list[str] = []
+    if lead:
+        parts.append(f"{lead}。")
+    if values["implementation"]:
+        implementation = values["implementation"]
+        if implementation.startswith(("通过", "使用", "基于", "借助", "依靠", "由")):
+            parts.append(f"它{implementation}。")
+        else:
+            parts.append(f"实现上，{implementation}。")
+    if values["problems_solved"]:
+        problems = values["problems_solved"]
+        if problems.startswith("解决"):
+            parts.append(f"它主要解决{problems.removeprefix('解决')}。")
+        elif problems.startswith(("减少", "降低", "避免", "缓解", "替代", "统一", "集中")):
+            parts.append(f"它可以{problems}。")
+        else:
+            parts.append(f"它旨在{problems}。")
+    if values["capabilities"]:
+        parts.append(f"核心能力包括：{values['capabilities']}。")
+    if values["use_cases"]:
+        parts.append(f"{values['use_cases']}。")
+    if values["considerations"]:
+        parts.append(f"使用时需要注意：{values['considerations']}。")
+    return "".join(parts)
+
+
+def _clean_analysis(analysis: Any, *, description: str = "") -> str:
+    return normalize_analysis(analysis, description=description)
 
 
 def _valid_analysis(analysis: Any) -> bool:
-    if not isinstance(analysis, dict):
-        return False
     cleaned = _clean_analysis(analysis)
-    return all(cleaned[field] and _contains_chinese(cleaned[field]) for field in ANALYSIS_FIELDS)
+    return (
+        ANALYSIS_MIN_LENGTH <= len(cleaned) <= ANALYSIS_MAX_LENGTH
+        and _contains_chinese(cleaned)
+        and "\n" not in cleaned
+        and not re.search(r"(?:^|\s)[-*+]\s", cleaned)
+    )
 
 
 class DescriptionTranslator:
@@ -265,11 +321,7 @@ class DescriptionTranslator:
     def _request_analyses(
         self,
         items: list[dict[str, Any]],
-    ) -> dict[str, dict[str, str]]:
-        properties = {
-            field: {"type": "string"}
-            for field in ANALYSIS_FIELDS
-        }
+    ) -> dict[str, str]:
         schema = {
             "type": "object",
             "properties": {
@@ -279,9 +331,13 @@ class DescriptionTranslator:
                         "type": "object",
                         "properties": {
                             "name": {"type": "string"},
-                            **properties,
+                            "analysis_zh": {
+                                "type": "string",
+                                "minLength": ANALYSIS_MIN_LENGTH,
+                                "maxLength": ANALYSIS_MAX_LENGTH,
+                            },
                         },
-                        "required": ["name", *ANALYSIS_FIELDS],
+                        "required": ["name", "analysis_zh"],
                         "additionalProperties": False,
                     },
                 }
@@ -296,19 +352,13 @@ class DescriptionTranslator:
                     "role": "system",
                     "content": (
                         "你是严谨的开源软件分析编辑。根据每个仓库提供的简介、"
-                        "README 摘要、Topics、开发语言和主页，生成简体中文结构化分析。"
-                        "positioning 具体说明这个项目是什么、为谁服务，不超过 90 个汉字；"
-                        "implementation 说明它如何实现目标，优先提炼输入中明确出现的"
-                        "架构、技术栈、数据流、部署方式或关键机制，不超过 160 个汉字；"
-                        "problems_solved 说明它替用户解决的具体痛点、替代的旧流程或"
-                        "降低的成本，不超过 120 个汉字；"
-                        "capabilities 用 2 至 4 个分号分隔的具体核心能力，不超过 "
-                        "160 个汉字；use_cases 说明适合的人群和工作流，不超过 100 "
-                        "个汉字；considerations 说明部署依赖、账号或服务要求、成熟度、"
-                        "许可证等需要注意的事实，不超过 100 个汉字。只使用输入中能"
-                        "支持的事实，禁止猜测；资料不足时明确建议核对项目文档。"
-                        "保留必要专有名词，不使用 Markdown；name 必须原样复制输入"
-                        "中的完整 owner/repository，不得缩写。"
+                        "README 摘要、Topics、开发语言、主页、许可证和发布信息，为每个"
+                        "仓库生成 200 至 1000 字的简体中文分析。analysis_zh 必须是一个"
+                        "连贯自然段，具体说明仓库的作用、服务对象、实现机制、解决的"
+                        "问题、主要能力、适用场景和必要注意事项，但不要使用标题、列表、"
+                        "分点、Markdown 或换行。只使用输入能够支持的事实，禁止猜测；"
+                        "资料不足时明确建议核对项目文档。保留必要专有名词；name 必须"
+                        "原样复制输入中的完整 owner/repository，不得缩写。"
                     ),
                 },
                 {
@@ -331,16 +381,17 @@ class DescriptionTranslator:
             analyses = self._request_model(body, "详情分析")["analyses"]
         except (KeyError, TypeError) as error:
             raise RuntimeError("Codex CLI 返回了无法解析的详情分析结果") from error
-        parsed: dict[str, dict[str, str]] = {}
+        parsed: dict[str, str] = {}
         requested_names = {str(item["name"]) for item in items}
         for index, analysis in enumerate(analyses):
-            if not _valid_analysis(analysis):
+            analysis_text = _clean_analysis(analysis.get("analysis_zh"))
+            if not _valid_analysis(analysis_text):
                 continue
             name = str(analysis.get("name", ""))
             if name not in requested_names and index < len(items):
                 name = str(items[index]["name"])
             if name in requested_names:
-                parsed[name] = _clean_analysis(analysis)
+                parsed[name] = analysis_text
         return parsed
 
     def enrich(self, software: list[dict[str, Any]]) -> list[str]:
@@ -441,7 +492,10 @@ class DescriptionTranslator:
                 cached.get("analysis_source") == fingerprint
                 and _valid_analysis(cached_analysis)
             ):
-                cleaned = _clean_analysis(cached_analysis)
+                cleaned = _clean_analysis(
+                    cached_analysis,
+                    description=item["description_zh"],
+                )
                 item["analysis_zh"] = cleaned
                 if cleaned != cached_analysis:
                     cached["analysis_zh"] = cleaned
@@ -449,7 +503,7 @@ class DescriptionTranslator:
             else:
                 pending_analyses.append(analysis_source)
 
-        generated_analyses: dict[str, dict[str, str]] = {}
+        generated_analyses: dict[str, str] = {}
         if pending_analyses and self.model_command:
             for offset in range(0, len(pending_analyses), ANALYSIS_BATCH_SIZE):
                 batch = pending_analyses[offset : offset + ANALYSIS_BATCH_SIZE]
@@ -468,7 +522,10 @@ class DescriptionTranslator:
             if not item.get("analysis_zh"):
                 candidate = generated_analyses.get(item["name"])
                 if _valid_analysis(candidate):
-                    cleaned = _clean_analysis(candidate)
+                    cleaned = _clean_analysis(
+                        candidate,
+                        description=item["description_zh"],
+                    )
                     item["analysis_zh"] = cleaned
                     cache.setdefault(item["name"], {}).update(
                         {

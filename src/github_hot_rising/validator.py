@@ -5,7 +5,11 @@ import re
 from datetime import date
 from typing import Any
 
-from cross_platform_trending.translator import ANALYSIS_FIELDS
+from cross_platform_trending.translator import (
+    ANALYSIS_MAX_LENGTH,
+    ANALYSIS_MIN_LENGTH,
+    normalize_analysis,
+)
 
 from .collector import DATA_DIR, REPORTS_DIR
 
@@ -34,20 +38,24 @@ def validate(target: date, *, expected_count: int = 100) -> dict[str, int]:
             raise AssertionError(f"{item['full_name']} URL 无效")
         if not item.get("evidence"):
             raise AssertionError(f"{item['full_name']} 缺少热度或增长证据")
-        analysis = item.get("analysis_zh") or {}
-        if not all(
-            analysis.get(field)
-            and re.search(r"[\u4e00-\u9fff]", str(analysis[field]))
-            for field in ANALYSIS_FIELDS
-        ):
-            raise AssertionError(f"{item['full_name']} 六字段中文分析不完整")
-        summary = str(item.get("analysis_summary_zh") or "")
-        if not summary or not re.search(r"[\u4e00-\u9fff]", summary):
-            raise AssertionError(f"{item['full_name']} 中文简介不完整")
-        if not 200 <= len(summary) <= 500:
+        analysis = item.get("analysis_zh")
+        if not isinstance(analysis, str) or analysis != normalize_analysis(analysis):
+            raise AssertionError(f"{item['full_name']} 中文分析不是规范单段文本")
+        if not re.search(r"[\u4e00-\u9fff]", analysis):
+            raise AssertionError(f"{item['full_name']} 中文分析缺少中文内容")
+        if not ANALYSIS_MIN_LENGTH <= len(analysis) <= ANALYSIS_MAX_LENGTH:
             raise AssertionError(
-                f"{item['full_name']} 中文简介为 {len(summary)} 字，不在 200–500 字范围内"
+                f"{item['full_name']} 中文分析为 {len(analysis)} 字，"
+                f"不在 {ANALYSIS_MIN_LENGTH}–{ANALYSIS_MAX_LENGTH} 字范围内"
             )
+        if item.get("analysis_summary_zh") != analysis:
+            raise AssertionError(f"{item['full_name']} 中文分析兼容字段不一致")
+
+    analysis_blocks = re.findall(
+        r"^#### 中文分析\n\n([^\n]+)\n\n#### 项目概况$",
+        report,
+        re.M,
+    )
 
     checks = {
         "rows": len(re.findall(r'<a id="project-row-\d+"></a>', report)),
@@ -57,24 +65,15 @@ def validate(target: date, *, expected_count: int = 100) -> dict[str, int]:
                 r"\[↖️ 返回表格中的 #\d+\]\(#project-row-\d+\)", report
             )
         ),
-        "analysis": len(re.findall(r"^#### 中文分析$", report, re.M)),
+        "analysis": len(analysis_blocks),
         "overview": len(re.findall(r"^#### 项目概况$", report, re.M)),
         "evidence": len(re.findall(r"^#### 热度与增长证据$", report, re.M)),
     }
     for label, count in checks.items():
         if count != expected_count:
             raise AssertionError(f"{label} 数量为 {count}，不是 {expected_count}")
-    for label in (
-        "项目是做什么的",
-        "怎么做到的",
-        "解决了什么问题",
-        "核心能力",
-        "适用场景",
-        "关注事项",
-    ):
-        count = report.count(f"- **{label}**：")
-        if count != expected_count:
-            raise AssertionError(f"{label} 数量为 {count}，不是 {expected_count}")
+    if any(not ANALYSIS_MIN_LENGTH <= len(block) <= ANALYSIS_MAX_LENGTH for block in analysis_blocks):
+        raise AssertionError("Markdown 中文分析存在长度不合格项")
     if "NEW" in report or "🆕" in report:
         raise AssertionError("报告含禁用的新增文案")
     expected_new = sum(bool(item.get("is_new")) for item in items)

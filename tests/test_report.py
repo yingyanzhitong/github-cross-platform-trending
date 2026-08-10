@@ -86,14 +86,16 @@ class RenderMarkdownTests(unittest.TestCase):
                     "published_at": "2026-07-29T01:00:00Z",
                 },
                 "is_new": True,
-                "analysis_zh": {
-                    "positioning": "面向桌面用户的跨平台下载管理工具。",
-                    "implementation": "使用 Rust 构建桌面客户端，通过任务队列管理下载。",
-                    "problems_solved": "解决多任务下载难以集中管理和失败后手动重试的问题。",
-                    "capabilities": "管理下载任务；支持 macOS 与 Windows 客户端。",
-                    "use_cases": "适合需要统一管理桌面下载任务的用户。",
-                    "considerations": "使用前应核对项目文档与安装包签名。",
-                },
+                "analysis_zh": (
+                    "这是一款面向桌面用户的跨平台下载管理工具，适合需要集中处理大量"
+                    "下载任务的个人用户和开发团队。项目使用 Rust 构建桌面客户端，"
+                    "通过任务队列统一调度下载、记录任务状态并处理失败重试，从而减少"
+                    "在多个工具之间切换、手工跟踪进度和重复启动任务的成本。它的核心"
+                    "能力包括统一管理下载任务、展示执行进度、支持失败重试以及提供"
+                    "macOS 和 Windows 客户端，可用于日常文件获取、批量资源整理和需要"
+                    "持续观察任务状态的工作流。安装和使用前仍应核对项目发布说明、"
+                    "系统要求、安装包来源与签名，并根据仓库文档确认不同平台上的功能差异。"
+                ),
             }
         ]
 
@@ -138,7 +140,8 @@ class RenderMarkdownTests(unittest.TestCase):
         summary = _analysis_summary(software[0])
         self.assertIn(summary, markdown)
         self.assertGreaterEqual(len(summary), 200)
-        self.assertLessEqual(len(summary), 500)
+        self.assertLessEqual(len(summary), 1000)
+        self.assertNotIn("\n", summary)
         for label in (
             "项目是做什么的",
             "怎么做到的",
@@ -147,7 +150,7 @@ class RenderMarkdownTests(unittest.TestCase):
             "适用场景",
             "关注事项",
         ):
-            self.assertIn(f"**{label}**", markdown)
+            self.assertNotIn(f"**{label}**", markdown)
         self.assertIn("#### 项目概况", markdown)
         self.assertIn("主要语言：Rust；许可证：MIT", markdown)
         self.assertIn("主题标签：desktop-app、download-manager", markdown)

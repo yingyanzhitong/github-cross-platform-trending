@@ -11,6 +11,17 @@ from unittest.mock import patch
 from cross_platform_trending.translator import DescriptionTranslator
 
 
+ANALYSIS = (
+    "这是一款面向桌面用户的跨平台下载管理器，适合需要集中处理大量下载任务的个人"
+    "用户和开发团队。项目使用 Rust 构建桌面客户端，通过任务队列统一调度下载、记录"
+    "任务状态并处理失败重试，从而减少在多个工具之间切换、手工跟踪进度和重复启动任务"
+    "的成本。它的核心能力包括：统一管理下载任务、展示执行进度、支持失败重试以及提供"
+    "macOS 和 Windows 客户端，可用于日常文件获取、批量资源整理和需要持续观察任务"
+    "状态的工作流。安装和使用前仍应核对项目发布说明、系统要求、安装包来源与签名，"
+    "并根据仓库文档确认不同平台上的功能差异。"
+)
+
+
 def _software() -> list[dict[str, Any]]:
     return [
         {
@@ -33,17 +44,8 @@ class StubTranslator(DescriptionTranslator):
     def _request_analyses(
         self,
         items: list[dict[str, Any]],
-    ) -> dict[str, dict[str, str]]:
-        return {
-            "owner/example": {
-                "positioning": "面向桌面用户的跨平台下载管理器。",
-                "implementation": "使用 Rust 构建桌面客户端，并通过任务队列调度下载。",
-                "problems_solved": "解决多个下载任务难以集中管理和失败后手动重试的问题。",
-                "capabilities": "统一管理下载任务；支持失败重试。",
-                "use_cases": "适合需要集中处理多个下载任务的用户。",
-                "considerations": "安装前应核对项目发布说明与签名。",
-            }
-        }
+    ) -> dict[str, str]:
+        return {"owner/example": ANALYSIS}
 
 
 class BatchTranslator(DescriptionTranslator):
@@ -65,19 +67,9 @@ class BatchTranslator(DescriptionTranslator):
     def _request_analyses(
         self,
         items: list[dict[str, Any]],
-    ) -> dict[str, dict[str, str]]:
+    ) -> dict[str, str]:
         self.analysis_batch_sizes.append(len(items))
-        return {
-            item["name"]: {
-                "positioning": "用于验证分批处理的跨平台软件。",
-                "implementation": "通过批处理队列依次生成每个项目的结构化分析。",
-                "problems_solved": "解决大量项目无法稳定分批分析的问题。",
-                "capabilities": "提供测试功能；支持批量分析。",
-                "use_cases": "适合自动化测试场景。",
-                "considerations": "使用前应核对项目文档。",
-            }
-            for item in items
-        }
+        return {item["name"]: ANALYSIS for item in items}
 
 
 class ShortNameResponseTranslator(DescriptionTranslator):
@@ -99,12 +91,7 @@ class ShortNameResponseTranslator(DescriptionTranslator):
             "analyses": [
                 {
                     "name": "example",
-                    "positioning": "跨平台桌面下载管理器。",
-                    "implementation": "使用桌面客户端和任务队列统一调度下载。",
-                    "problems_solved": "解决多个下载任务难以集中管理的问题。",
-                    "capabilities": "统一管理任务；支持失败重试。",
-                    "use_cases": "适合处理多个下载任务的用户。",
-                    "considerations": "使用前应核对项目文档。",
+                    "analysis_zh": ANALYSIS,
                 }
             ]
         }
@@ -128,12 +115,8 @@ class DescriptionTranslatorTests(unittest.TestCase):
                 software[0]["description_en"],
                 "A full-featured download manager.",
             )
-            self.assertEqual(
-                software[0]["analysis_zh"]["capabilities"],
-                "统一管理下载任务；支持失败重试。",
-            )
-            self.assertIn("任务队列", software[0]["analysis_zh"]["implementation"])
-            self.assertIn("手动重试", software[0]["analysis_zh"]["problems_solved"])
+            self.assertEqual(software[0]["analysis_zh"], ANALYSIS)
+            self.assertNotIn("\n", software[0]["analysis_zh"])
             self.assertNotIn("_readme_excerpt", software[0])
             self.assertTrue(cache_path.exists())
 
@@ -144,10 +127,7 @@ class DescriptionTranslatorTests(unittest.TestCase):
                 cached_software[0]["description_zh"],
                 "一款功能齐全的下载管理器。",
             )
-            self.assertEqual(
-                cached_software[0]["analysis_zh"]["positioning"],
-                "面向桌面用户的跨平台下载管理器。",
-            )
+            self.assertEqual(cached_software[0]["analysis_zh"], ANALYSIS)
 
     def test_fails_without_model_when_cache_is_missing(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
