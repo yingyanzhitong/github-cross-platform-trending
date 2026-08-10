@@ -52,8 +52,8 @@
     "DeusData/codebase-memory-mcp": {
       "source": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "zh": "将代码库索引为持久知识图谱的高性能代码智能 MCP 服务器。",
-      "analysis_source": "decbd14341b6ddb05a32b4b761eda36244848f4cea85c390209074edb436db17",
-      "analysis_zh": "codebase-memory-mcp 把代码智能能力封装成可由 AI 编程智能体直接调用的 MCP 服务：它借助 tree-sitter AST analysis 解析 158 languages，并以 Hybrid LSP 补充多种主流语言的语义类型信息，最终将函数、类、调用链、HTTP 路由、跨服务链接以及部分基础设施配置整理成 persistent knowledge graph。索引完成后，智能体可通过 15 MCP tools 执行搜索、调用追踪、架构梳理、影响分析、Cypher 查询、死代码检测和 ADR 管理，减少逐文件 grep、读取与反复传递上下文的开销。macOS 或 Linux 可执行 curl -fsSL https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/install.sh | bash，若希望浏览三维关系图，则追加 --ui，并在 localhost:9749 打开可视化界面；安装程序会探测已安装的编程智能体并写入相应 MCP 配置，重启智能体后说“Index this project”即可开始。其运行方式强调本地化：无需语言运行时、托管服务或 API key，代码不会离开机器。多个 Claude Code、Codex 或其他客户端会共享每账户一个协调守护进程，由它管理 watcher、共享索引任务和可选 UI；各会话分别登记工作，最后一个会话退出时守护进程关闭，而普通 cli mode 则只在本地完成单次命令，不连接该守护进程。"
+      "analysis_source": "b43e3a238d75f7aad94ad5f7541ea0761b3fd93d6d36c89c9cec5b181f4bed9f",
+      "analysis_zh": "codebase memory mcp 把代码库解析成持久知识图谱，让 AI 编程代理不必反复逐文件 grep 和读取。它通过 AST analysis 覆盖 158 languages，可提取函数、类、调用链、HTTP routes、跨服务链接，以及 Dockerfiles、Kubernetes manifests 和 Kustomize overlays 之间的引用关系；索引完成后，结构查询可在 1ms 内返回。安装流程强调即装即用：下载原生可执行文件并运行 install，重启编程代理，再说“Index this project”即可开始；安装器会检测已安装的客户端并配置 MCP 条目。运行期间，Session Coordination Daemon 会在 Claude Code、Codex、OpenCode 等客户端之间共享监听器、索引任务和可选 UI，并按会话归属管理后台工作。除搜索、追踪、架构和影响分析等 15 MCP tools 外，还能在 localhost:9749 打开内置 3D graph visualization。处理完全在本机完成，不依赖语言运行时、托管服务或 API key。"
     },
     "DietrichGebert/ponytail": {
       "source": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
@@ -121,6 +121,12 @@
       "analysis_source": "e538ee375c6de95492587716cfbd89e3a3c23050b370912c0eb83cb16a8cbf53",
       "analysis_zh": "研究者在 Claude Code 中安装 Academic Research Skills 后，可以沿“研究—写作—审阅—修订—定稿”的流水线推进论文，而关键判断仍由人完成。安装只需运行 /plugin marketplace add Imbad0202/academic-research-skills 和 /plugin install academic-research-skills；随后可用 /ars-plan 通过 Socratic dialogue 梳理论文结构。套件把检索参考文献、格式化引文、验证数据与检查逻辑一致性等繁重工作交给代理，同时明确不代替研究者定义问题、选择方法或解释结果。Deep Research 组织 13-agent research team，提供 full、quick、lit-review、fact-check、socratic 和 systematic-review 等模式；Academic Paper 采用 12-agent paper writing pipeline，可输出 MD、DOCX、LaTeX，并在工具可用时生成 PDF；Academic Paper Reviewer 则以多视角量表给出 0-100 评分和修订判断。其辨识度集中在 human-in-the-loop 完整性门禁：Stage 2.5 与 Stage 4.5 会阻断实现缺陷、虚构方法、引用幻觉等风险，trust-chain frontmatter 和三层 citation anchors 保存来源链，设置 ARSCLAIMAUDIT=1 后还会抓取锚点对应来源，检查论断是否真的获得支持。Style Calibration 用既有作品学习作者语气，Writing Quality Check 识别机器化表达，目标是提高写作品质和可审计性，而非掩饰 AI 参与。"
     },
+    "JCodesMore/ai-website-cloner-template": {
+      "source": "Clone any website with one command using AI coding agents",
+      "zh": "使用 AI 编程智能体，一条命令即可克隆任意网站",
+      "analysis_source": "af59f67019a2f77d6ae27d04186a8b84547667fb27c0fe683853753b717c9d58",
+      "analysis_zh": "给 AI coding agent 一个 URL，再运行 /clone website，模板会把目标页面重建成整洁的 Next.js app。正确起点不是直接克隆主仓库，而是在 GitHub 点击 Use this template 创建自己的 repository，安装依赖并启动 Claude Code、Codex、Cursor、Gemini 等兼容客户端；支持技能命令的客户端直接调用 /clone website，只接受自然语言的客户端则要求执行 clone website workflow。流水线先做 Reconnaissance，通过截图、design token extraction 以及 scroll、click、hover、responsive 检查收集证据；Foundation 阶段更新字体、颜色、全局样式并下载资产；随后在 docs/research/components/ 生成包含 computed CSS、状态、行为、内容和断点的 Component Specs。Parallel Build 会在 git worktrees 中为各 section 或 component 分派 builder agents，最终由 Assembly & QA 合并、接线并对原站执行 visual diff。成品基于 Next.js 16、React 19、TypeScript strict、shadcn/ui 与 Tailwind CSS v4，适合迁移自己拥有的网站、恢复遗失源码或研究生产页面实现；README 也明确排除钓鱼、冒充及未经许可复制他人品牌与内容的用途。"
+    },
     "JuliusBrussee/caveman": {
       "source": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "zh": "让 Claude Code 用穴居人式简短表达节省 65% Token 的技能。",
@@ -158,8 +164,8 @@
     "LiamGvchi/gc-minimal-zine-poster": {
       "source": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images.",
       "zh": "用于生成静谧极简杂志风编辑海报提示词和图像的 Codex 技能",
-      "analysis_source": "c15d21a12fe77717b5843f6b6bb75ae2f028e3c59245de567df3fe1846bb8dc4",
-      "analysis_zh": "Minimal Zine Poster v0.3 把一句话、文章构想、物件、情绪、照片或参考图集，整理成留白充足的纸张质感编辑海报，也能只交付可直接用于图像生成的提示词，或提炼成可复用的视觉系统。调用名为 gc-minimal-zine-poster-v0-3，安装到名称一致的 Skill 目录并重启 Codex 后，即可用自然语言指定路线：Generate 会依次完成内容理解、视觉隐喻、提示词编译、栅格图生成与检查；Photo Input 先判断每张图片是编辑目标、风格参考还是辅助插图，并记录身份、服装等内容应保留到什么程度；Reference Analysis 根据真实文件区分固定规则、可变规则和来源残留，输出观察证据、限制及复用提示词；Prompt-only 则只返回四段式最终提示词和配方，不会声称已经生成图片。默认视觉方向是 3:5 旧纸画布、70% 至 90% 负空间、单个小型主体或视觉事件、克制的衬线或等宽字体，再以一处高饱和色彩作为锚点，并叠加 xerox、risograph、halftone、letterpress 或扫描纸张缺陷。它会主动避开商业广告式排版、光亮样机、电影灯光、3D 渲染、霓虹效果和密集剪贴簿，也通过布局、锚点形态、字体分布、纹理、装饰、情绪与颜色的组合增强批量生成时的差异。"
+      "analysis_source": "7619b4aa7bdfcbaa6e037f34b03ac2d36420a3335f348252360d8af783816fd1",
+      "analysis_zh": "一段主题、文章想法、情绪、物件或照片，经 gc minimal zine poster v0 3 编译后，会变成留白充足的纸张质感编辑海报、可直接生产的图像提示词，或可复用的视觉系统。默认方向采用 3:5 aged paper canvas、70%–90% negative space、一个小型可成像主体、克制字体与醒目的 high chroma color anchor，并用 xerox、risograph、halftone、letterpress 或扫描纸张缺陷制造静谧的独立杂志气息，同时排除商业广告构图、霓虹、3D 渲染和拥挤拼贴。v0.3 将流程拆为 Generate、Photo Input、Reference Analysis、Prompt only 与 Analyze + Generate：照片输入会先区分 edit target、reference image 和 supporting insert，并记录 preservation level；参考分析则依据实际文件分离 fixed rules、variable rules 与 source specific residue。Generate 会依次完成内容理解、视觉隐喻、prompt、raster 和检查，Prompt only 只返回四段最终提示及 recipe，不会声称已经出图；质量门还检查生成结果、参考归纳和提示词输出是否符合各自契约。"
     },
     "MadsLorentzen/ai-job-search": {
       "source": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
@@ -234,14 +240,14 @@
     "TencentCloud/TencentDB-Agent-Memory": {
       "source": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
       "zh": "面向 AI 智能体的团队级记忆中枢，将内容转化为四类可复用记忆资产",
-      "analysis_source": "f82842d6aa4bf82c53a916d0bfdbe1b769b424591455d66644752377ec55b95e",
-      "analysis_zh": "当一个 Agent 已经读过文档、理解过项目背景或完成过复杂任务，TencentDB Agent Memory 会把这些经验沉淀下来，避免后续会话和团队成员重新摸索。它将内容整理为四类可管理资产：Chat Memory 保存偏好、事实、决策和交互历史，并按 L0 Conversation、L1 Atom、L2 Scenario、L3 Persona 逐层提炼；Skill 不只是提示词片段，还带有版本、资源文件、触发边界、执行步骤与验证规则；Wiki 把产品文档、设计规范和运维手册转成带链接图谱的结构化页面；CodeGraph 则索引代码符号、文件、调用关系和影响路径，帮助 Agent 在修改前检查调用方、被调用方及潜在波及范围。Memory Hub 是人类控制这些资产的操作面板，可创建团队与 Agent，审核、共享和装配记忆，并管理所有权、版本、状态、可见性及绑定关系。权限支持 private、team、restricted 和针对 Agent 的精确装配，个人生成的记忆默认保持私有。初次使用可克隆仓库，进入 deploy/global-images，复制并填写 .env 后运行 ./start-all.sh，一次启动 memory-core、memory-hub 与 proxy，再打开 http://localhost:8125。已有代码库、文档和历史会话也能导入，分别生成 CodeGraph、Wiki、Skills 与 Chat Memory，让不同职责的 Agent 只加载真正需要的团队经验。"
+      "analysis_source": "b5dad3251f8b5f855faa60f3995f3f433302addbffc47f05356c244444afd77f",
+      "analysis_zh": "一次对话中确认过的偏好、读过的文档、跑通的工作流和理解过的代码，不必随着 Agent 会话结束而消失。TencentDB Agent Memory 把这些经验整理成 Chat Memory、Skill、Wiki 与 CodeGraph 四类资产，并通过 Memory Hub 完成审阅、共享、版本和权限治理。Chat Memory 会将原始对话逐层提炼为 L1 Atom、L2 Scenario 和 L3 Persona；Skill 不只是提示词片段，还带有资源文件、触发边界、执行步骤与验证规则；Wiki 把产品文档、设计说明和运维手册组织成带链接关系的页面；CodeGraph 则索引符号、文件、调用关系和影响路径，让 Agent 修改代码前能够查看调用方、被调用方及潜在波及范围。团队可导入已有代码库、文件和历史会话完成 Cold Start，再按 Agent 职责装配所需记忆。资产支持 private、team 与 restricted 可见性，后者能通过 User、Role 或 Agent ACL 精确授权；全局 System Admin 与团队 Admin、Member 分担成员管理和团队内协作控制。"
     },
     "Vincentwei1021/video-shotcraft": {
-      "source": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template",
-      "zh": "适用于 Claude Code 与 Codex 的 Remotion 电影级产品视频 AI 技能",
-      "analysis_source": "4e64974eed101f5a3f045b3acf1265721378afdd3b94bb8fd4336518b4cf9f27",
-      "analysis_zh": "把仓库链接交给 Claude Code 或 Codex，并说出“Install this skill for me”，智能体便可克隆并链接技能；也可以直接执行 npx skills add Vincentwei1021/video-shotcraft。安装后，用户只需描述产品和视频目标，智能体就会依照制作方法完成分镜、动画、声音设计与最终检查，并以 Remotion 渲染宣传片、发布片或功能演示。素材库提供 152 张 shot recipe cards 和 209 个 motion previews：每张卡记录用途、节奏、建议时长、参数、实现说明与已知问题，对应的 TSX demo 则保留实际缓动和时间参数；Gallery 支持搜索、筛选、切换变体及复制所选镜头卡名称。若没有指定镜头卡，技能会先介绍内置模板并询问是否采用；想快速获得稳定成片，可以要求使用 Ink Press，将其中 10 个镜头里的截图、文案和品牌元素替换成自己的内容。仓库还把完整流程拆进 SKILL.md、pipeline.md、aesthetic-rules.md、music-beat-sync.md 与 sound-design.md，并配有页面捕获脚本、2.5D 页面镜头、字幕、闪切、数字滚动和音频素材。声音资源按 16 种场景或材质类别整理，共含 149 个 SFX，便于先选类别再挑音色。在低配无头 Linux 环境渲染时，可用 --concurrency=1 限制并发，并在系统 Chromium 无法启动或下载受阻时指定 chrome-headless-shell。"
+      "source": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+      "zh": "面向 Claude Code 和 Codex 的 Remotion 电影级产品视频技能",
+      "analysis_source": "ce4951a2b14498719b9e786dc8c91f940d8df715eb9c7f80c51d28623e1ccb72",
+      "analysis_zh": "video shotcraft 把 Claude Code 或 Codex 变成一套可执行的 motion design studio：给代理产品素材和目标，它会依照方法完成分镜、动画与声音设计，组合真实页面截图、2.5D camera moves、beat synced cuts 和电影质感音效，产出宣传片、发布片或功能演示。素材库提供 152 shot recipe cards 与 209 motion previews；每张卡记录用途、节奏、建议时长、参数、实现说明和常见陷阱，并配有由归一化进度驱动的 Remotion TSX 实现。若不指定镜头卡，技能会先介绍内置 Ink Press 模板；这套成片为 36.2 秒、1920×1080、30fps、10 个镜头，代理可替换截图、文案和品牌元素，以较短路径复用完整结构。在线 Gallery 支持搜索、筛选、切换变体和复制镜头卡名称。音频按 16 类场景或材质组织，发布前应替换演示截图并检查敏感数据；在低配置无头 Linux 渲染时，可通过 concurrency=1、chrome headless shell 与 browser executable 选项处理并发、浏览器模式及下载受阻问题。"
     },
     "VoltAgent/awesome-design-md": {
       "source": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
@@ -438,8 +444,8 @@
     "diegosouzapw/OmniRoute": {
       "source": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
       "zh": "免费 MIT AI 网关，统一接入众多提供商与模型并支持配额感知回退。",
-      "analysis_source": "bd37baa808d18dd9f03c14757aabe385f5fa7bc0cc86c1152e4981ea2264139b",
-      "analysis_zh": "OmniRoute 把分散在不同 AI 提供商、账户和免费额度中的模型收拢到一个 OpenAI-compatible endpoint，并在 dashboard/free-tiers 中实时展示聚合后的免费资源。全新安装即使没有密钥或配置，也能向本机 /v1/chat/completions 发送请求并把 model 设为 auto；需要指定免费后端时，可直接选择 oc/… 或 felo/…。它最有辨识度的机制是 combo：当配额耗尽、提供商失败或成本上升时，请求会自动滑向链中的下一个模型。默认 auto 使用实时评分和 Last-Known-Good Path 保持在最近成功的提供商，auto/coding 偏向代码质量，auto/fast 优先低延迟，auto/cheap 优先每 token 成本，auto/offline 看重额度余量，auto/smart 则加入探索。用户也能自行组合 priority、round-robin、cost-optimized、context-relay、cache-optimized、fusion、pipeline 等 19 种路由策略；其中 fusion 并行询问一组模型，再由 judge 综合结果，pipeline 则把前一步输出交给下一目标。Auto-Combo engine 会依据健康度、配额、成本、延迟、成功率和数据新鲜度等 12 个因素为候选连接评分，配合三层独立韧性机制完成回退。README 还特别说明免费额度数字会每两周按实时目录重新审计，提供商取消或新增免费层时，汇总值会相应下降或上升。"
+      "analysis_source": "fbd7ad511181ec71951bf0bff1f6c79b823f1f96937f4d41c9c5e52ea4e239cb",
+      "analysis_zh": "把不同供应商的免费额度逐个手工拼接，往往会卡在 SDK、速率限制和余额不可见上；OmniRoute 将 43 个 provider pools、516 个 models 的已公开免费层汇总到同一入口，并在 /dashboard/free tiers 实时展示按去重与额度规则计算的结果。安装后无需密钥或配置即可调用免费后端，也可直接指定 oc/…、felo/…，随后把模型改为 auto，让系统依据已连接供应商即时组成虚拟 combo。combo 是它最鲜明的运行机制：某个额度用尽、服务失败或成本上升时，请求会自动滑向链中下一个模型。auto 采用偏向最近可用供应商的均衡策略，auto/coding、auto/fast、auto/cheap、auto/offline 与 auto/smart 则分别偏重代码质量、延迟、价格、配额余量和带探索的质量选择；自定义 combo 还能组合 priority、fill first、weighted、round robin 等 routing strategies。它向 Claude Code、Codex、Cursor、Cline 等工具提供统一通道，并通过 dashboard 让原本分散的模型、额度与回退状态变得可观察。"
     },
     "different-ai/openwork": {
       "source": "The open-source alternative to Claude Cowork (powered by opencode)",
@@ -452,6 +458,12 @@
       "zh": "用于学习大规模系统设计和准备相关面试的教程，包含 Anki 卡片",
       "analysis_source": "159a5d3156574e32ac9ef5fad106f3d0168f0363d6acab754b5e76fb7a8fe113",
       "analysis_zh": "从可扩展性入门到模拟面试，The System Design Primer 把散落在网络上的大规模系统设计资料整理成一条可循序推进的学习路线。读者先建立 Performance vs scalability、Latency vs throughput、CAP theorem 等基础认识，再沿 DNS、CDN、Load balancer、Microservices、数据库、Cache、Message queues、TCP、UDP、RPC 和 REST 等主题理解常见组件及其取舍；各节给出摘要、优缺点和深入阅读链接，反复强调 Everything is a trade-off。准备面试时，可以按短、中、长期时间表调整学习广度与深度，并使用 Anki flashcards 通过间隔重复巩固概念。仓库还给出开放式系统设计题的四步讨论框架：先明确 use cases、constraints 与 assumptions，再画 high level design，深入核心组件，最后根据瓶颈扩展设计。练习题覆盖 Pastebin、Twitter timeline、web crawler、Mint.com、社交网络数据结构和搜索引擎 key-value store，并配有讨论、代码、图示或 solutions/ 中的参考答案。面对容量问题时，学习者还可结合 back-of-the-envelope calculations、Powers of two table 和延迟数据估算请求量与存储规模，而不是只背诵架构名词。"
+    },
+    "drawdb-io/drawdb": {
+      "source": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+      "zh": "免费、简单直观的在线数据库图表编辑器和 SQL 生成器",
+      "analysis_source": "8ff1cdb54e2aa52f0074e8182481e7e8d2e4f2598820e373e65e079163b9bf52",
+      "analysis_zh": "打开浏览器便可在 drawDB 中用几次点击绘制 database entity relationship diagram，无需注册账号。编辑器把数据库结构设计与 SQL generator 放在同一工作区：用户可以创建和调整 ERD，导入已有 SQL scripts 还原结构，也能从图中导出 SQL、generate migrations，并按偏好 customize your editor。这种交互适合先以可视关系梳理表、字段和关联，再把结果转回数据库脚本，而不要求先搭建服务端账户体系。若要参与开发，README 分别给出 Local Development、Build 与 Docker Build 路径；基础编辑功能可直接运行，只有启用文件 sharing 时才需要按照 .env.sample 配置相应环境变量。因而本地部署可以保持精简，也能在确有协作需求时再补上分享能力。"
     },
     "drumih/turbo-fieldfare": {
       "source": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
@@ -480,14 +492,14 @@
     "emilkowalski/skills": {
       "source": "Skills for Designers and Engineers.",
       "zh": "面向设计师和工程师的技能集",
-      "analysis_source": "2fccc563bb689ec9676cd09321c64275ebb8f606376d338868a3384a9856d155",
-      "analysis_zh": "当智能体为进入动画选了 ease-in、给界面套上生硬的实线边框，或随手造出已有成熟库可替代的组件时，问题往往不是代码能否运行，而是缺少设计判断。这个技能集合把作者在 Vercel、Linear 等公司的界面经验整理成可交给代理执行的规则，安装命令是 npx skills@latest add emilkowalski/skills。主技能 emil-design-eng 以动画经验为主，也包含一般设计建议；animate 会从曲线、时长和属性等要素出发构建动画，review-animations 按既定规则严格审查现有动效，improve-animations 则扫描代码库中的动画并产出按优先级排列、可独立执行的修改计划。若尚未确定哪里值得加入运动效果，find-animation-opportunities 会寻找真正有收益的位置，同时指出不应动画化的部分；animation-vocabulary 帮助用户用准确词汇向 AI 描述预期效果。集合还提供 apple-design，将 Apple 在 WWDC 设计演讲中的界面与流畅运动原则转译到 Web；pick-ui-library 依据作者信任的库协助选型；prototype 可为同一界面描述生成多个版本，并通过切换器逐一比较。它更像一套可调用的设计品味与审查方法，而非单纯的组件包。"
+      "analysis_source": "bc0f034af5c130c523caaafca51de2d994d138ede66993d1f155573b8e498057",
+      "analysis_zh": "界面质感常被许多微小决策拉开差距：进入动画误用 ease in 而非 ease out，边界本可用半透明阴影却放上生硬的 solid border，或让 Agent 自行手写已有成熟方案的组件。Skills For Designers and Engineers 将作者在 Vercel、Linear 等团队积累的动画与界面判断整理成可调用技能，目的不是替代设计经验，而是把经验放大到 Agent 的实现与审查过程。主 skill 以动画规则为主并补充设计建议；其他能力可从零选择 curve、duration 和 properties 构建动效，严格 review 单个动画，audit all the animations in your codebase 并输出带优先级、可独立执行的修复计划，也能寻找真正值得加入 motion 的位置并指出哪些地方不该动。仓库还整理 Apple 的界面与流体动效原则、可信赖的 library 选择依据，以及一次生成多种 UI piece 版本并通过 switcher 比较的流程，让“品味”落到具体可检查的取舍上。"
     },
     "esengine/DeepSeek-Reasonix": {
       "source": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "zh": "面向终端的 DeepSeek 原生 AI 编程智能体，专为前缀缓存稳定性设计",
-      "analysis_source": "2588729c52f5dc523ff9ff9fbae55a85c859500cac2fb8f199bbaedbc324ee3a",
-      "analysis_zh": "把 Reasonix 留在终端中持续运行，是其围绕长时间自主编程所设计的主要工作方式。它以同一个本地引擎提供四种入口：CLI/TUI、桌面应用、浏览器，以及通过 ACP 接入编辑器；Plan mode、permissions、workspace sandbox 和逐轮 checkpoints 让用户能够阅读执行过程，并在需要时撤销。安装原生 CLI 可运行 npm i -g reasonix，随后用 reasonix setup 配置服务商与模型，以 reasonix 进入交互会话，或执行 reasonix run \"implement the TODOs in main.go\" 直接交付任务；VS Code 扩展不会自带 CLI，而是启动本机的 reasonix acp 后端。配置集中声明在 reasonix.toml 中，Provider、Agent、工具和插件均无需硬编码模型，DeepSeek 只是预置选择，任何 OpenAI-compatible endpoint 都可通过配置加入，还能把 executor 与 planner 放在两个缓存稳定的独立会话中协作。为维持 prefix-cache stability，引擎启动时注入小而稳定的环境摘要，在上下文压缩前裁剪陈旧工具输出。扩展方面，MCP servers 可以贡献工具、提示词与资源，Extension Protocol v1 sidecars 还能拦截运行事件、增加 Provider 和结构化界面。整个引擎以单个静态 Go binary 分发，并可一次交叉编译到 darwin、linux、windows 的 amd64 与 arm64 目标。"
+      "analysis_source": "fc2f227335dede7d9588a6f0e139e863d73a075aaf4308c532a40c8ae6eb4a3c",
+      "analysis_zh": "Reasonix 希望编程 Agent 能长期留在后台运行，同时仍让人看得懂、管得住并能撤销。它以一个本地 Go 引擎同时服务终端、桌面应用、浏览器和通过 ACP 接入的编辑器，Plan mode、权限控制、workspace sandbox 与逐轮 checkpoints 共同约束长时间自主执行。模型、Provider、工具和插件都声明在 reasonix.toml 中；DeepSeek 只是预设，其他 OpenAI compatible endpoint 通过配置加入，也可让 executor 与 planner 在各自缓存稳定的会话中协作。其上下文维护会在启动时注入小而稳定的环境摘要，在压缩总结前裁剪过期工具输出，以维持 prefix-cache 稳定性。扩展层既接受 MCP servers 提供的工具、提示词和资源，也允许 Extension Protocol v1 sidecars 拦截运行事件、增加 Provider 和结构化界面。分发采用 CGOENABLED=0 的单一静态二进制，可交叉编译多个系统目标；VS Code 扩展则启动本机 reasonix acp 后端，提供原生聊天、编辑器上下文、工具审批、模型选择与工作区会话。"
     },
     "farion1231/cc-switch": {
       "source": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
@@ -579,6 +591,12 @@
       "analysis_source": "7667423eb7b7adc6165acf657f14bc485da3f033722f88bd5ae898710773ac23",
       "analysis_zh": "不启动 Chromium 也能执行真实 JavaScript、渲染网页并接入现有自动化生态，是 Obscura 最鲜明的路线。这个用 Rust 编写的无头浏览器通过 V8 运行脚本，支持 Chrome DevTools Protocol，可作为 Puppeteer 和 Playwright 所连接的浏览器端。下载二进制后，运行 obscura fetch https://example.com --eval \"document.title\" 就能读取页面标题；--dump links、--dump html、--dump original 和 --dump assets 分别用于提取链接、输出渲染后的 HTML、按原样流式获取响应体以及列出子资源，动态页面还可配合 --wait-until networkidle0。内置渲染引擎能够生成 viewport 或全页截图、CDP screencast 和 PDF，但它是独立演进的实现，长尾 CSS、部分 Web API、媒体播放及字体栅格化可能与 Chromium 不同。执行 obscura serve --port 9222 会启动 CDP 服务，加上 --stealth 可启用反检测与 tracker blocking；批量任务则通过 obscura scrape 配置 concurrency、eval 和 JSON 输出。发布包无需 Chrome、Node.js 或其他依赖，并区分 rendering 与 stealth transport 的组合；自行编译需要 Rust 1.75+，启用 stealth 时还会用到 CMake、Clang 及 libclang/LLVM 开发库。"
     },
+    "harveyai/harvey-labs": {
+      "source": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
+      "zh": "用于评估并提升智能体支持法律工作能力的基准",
+      "analysis_source": "13d9fa5e4cfd13fc863f35ed8b91295222719077a97d65d50edb3b48bc365034",
+      "analysis_zh": "Harvey LAB 用接近真实法律工作的任务来检验 LLM agents，而不是只测孤立问答。整个基准由两部分组成：一部分是包含 agent instructions、documents 与 rubrics 的任务数据集，另一部分是负责运行 Agent 并对结果评分的 execution harness。入门 walkthrough 以一项现实的 M&A data room assignment 串起完整流程，从环境设置、查看任务和执行 Agent，一直走到 scoring、report review 以及 comparison dashboards，读者可以由一次端到端实验理解任务怎样被执行、评分如何产生、多个结果如何比较。进一步文档解释 task model、harness、tools、adapters、reports 与 sweeps，也单独说明 all pass rubric scoring 和 LLM judge behavior，便于研究者判断评价信号的来源。仓库将持续补充和修订任务集与执行框架，同时开放新增任务、模型适配器、评估改进及文档贡献，使基准能随法律 Agent 的实际能力演进。"
+    },
     "headroomlabs-ai/headroom": {
       "source": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
       "zh": "在内容送达 LLM 前压缩工具输出、日志、文件和 RAG 分块的库、代理及 MCP 服务。",
@@ -658,8 +676,8 @@
     "lidge-jun/opencodex": {
       "source": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
       "zh": "让 Codex 与 Claude Code 使用任意 LLM 的通用代理",
-      "analysis_source": "b63d9208196a5d4da5c489c7dcf4bfa140f788d57ff163d595d3677be77c5b3e",
-      "analysis_zh": "只需先执行 npm install -g @bitkyc08/opencodex，再运行 ocx start，便会在 localhost:10100 启动本地代理和管理面板；随后可添加内置 provider 或任意 OpenAI-compatible endpoint、选择模型并查看实时请求记录。opencodex 在客户端与模型服务之间翻译 Responses API，双向处理 streaming、tool calls、reasoning tokens 和 images，因此 Codex、Claude Code、Claude Desktop 与 Grok Build 可以保留各自原生交互方式，却把请求交给 Claude、Gemini、Grok、DeepSeek、Kimi、Qwen、Ollama 等不同模型。路由时可用 provider/model 写法，例如 codex -m \"ollama/llama3\" \"Refactor this function\"；Combos 还能把一个虚拟模型标识映射为跨 provider 的故障转移或加权轮询。它也可维护 ChatGPT account pool，按配额与健康状态分配新会话，同时用 thread affinity 尽量让既有长会话留在原账户。常驻运行可选 ocx service，按需启动则用 ocx codex-shim install；ocx stop 会恢复 Codex 原配置。默认仅绑定 127.0.0.1，若改为 0.0.0.0，则必须配置 OPENCODEXAPIAUTHTOKEN，并让客户端携带 x-opencodex-api-key。"
+      "analysis_source": "90c46e28b4b50d70661a01ed263769fb48b22c13c7b32c0eafead35ed1021cbc",
+      "analysis_zh": "在 Codex、Claude Code、Claude Desktop 或 Grok Build 原有界面与工作流之间，opencodex 插入一层轻量本地代理，把 Codex 的 Responses API 与不同供应商协议双向转换，涵盖 streaming、tool calls、reasoning tokens 和 images。启动后访问 http://localhost:10100，便可在 dashboard 中添加 40+ providers、选择模型、查看 OAuth 状态和实时请求日志；ocx gui 能随时重新打开管理页。模型以 provider/model 指定，也可用 Combos 将多个供应商组合成故障切换或加权轮询的虚拟模型。它还可管理 ChatGPT account pool：新会话按额度和健康状态路由，已有线程保留账户亲和性，并在限额、认证失败或冷却期间重新绑定。运维上，ocx status、ocx doctor、ocx health 用于检查进程，GET /readyz 与 ocx ready 提供就绪探测；长期常驻可安装 service，偏好按需启动则使用 shim。执行 ocx stop 会恢复 Codex 原始配置，避免留下代理改动。"
     },
     "litu54/DevOps-Interview-Guide": {
       "source": "DevOps Interview Guide",
@@ -820,8 +838,8 @@
     "rohitg00/ai-engineering-from-scratch": {
       "source": "Learn it. Build it. Ship it for others.",
       "zh": "从学习、构建到面向他人发布的 AI 工程实践项目。",
-      "analysis_source": "f06b125babc9a4e2d285d1609ae554e9e693a3cd285e639c5313435ef0d98b90",
-      "analysis_zh": "从线性代数一路学到多智能体集群，这套课程用 20 个阶段、503 节课和约 320 小时内容搭出一条连续的 AI 工程学习路径，覆盖机器学习、深度学习、视觉、NLP、Transformer、从零实现 LLM、工具协议、智能体、生产基础设施与毕业项目。它强调先理解再调用框架：每节课都经历问题、概念、BUILD IT、USE IT 和 SHIP IT，先用原始数学亲手实现算法，再以 PyTorch 或 sklearn 运行对应方案，最终留下 prompt、skill、agent 或 MCP server 等可复用产物。最快的入口是在终端执行 npx skills add rohitg00/ai-engineering-from-scratch，然后输入 /start-learning；十道定位题会判断起始阶段，并把个性化计划保存到 LEARNING.md。之后 /learn 每次交互式教授一课，依次完成概念、数学、代码和测验，同时记录进度与复习队列；遇到注意力机制、RAG 或损失值异常等具体问题，可用 /course-guide 定位相关课程。课程能配合 Claude Code、Cursor、Codex 等读取 SKILL.md 的代理，无代理时也可直接在网站阅读；若希望实际运行全部示例，则可克隆仓库并执行各课 code/ 下的 Python、TypeScript、Rust 或 Julia 实现。统一的课程目录还将讲解放在 docs/、产物放在 outputs/，让学习过程兼具教材、实验和可交付成果三种形态。"
+      "analysis_source": "9177781f9fd7e77d72e47eef07c8194d9895aa5080009aefa91f813a58b99fff",
+      "analysis_zh": "这套课程用 20 phases、503 lessons 和约 320 小时，把线性代数一路连接到 autonomous swarms、代理与生产实践。学习顺序强调先亲手实现，再调用成熟框架：每课都经历读题、推导数学、编写代码、运行测试和保留产物，Build It / Use It 的对照让学习者先写出较小版本，再理解 PyTorch 等生产库在做什么。终端学习时，安装技能后由编码代理充当导师；十题 placement quiz 会判断起点，并把个性化计划保存到 LEARNING.md，之后 /learn 每个会话讲授一课、进行测验并维护复习队列，/course guide 则把具体疑问路由到对应课程。课程覆盖 Python、TypeScript、Rust、Julia，每节还会留下可复用的 prompt、skill、agent 或 MCP server。除了通过代理逐课学习，也可在网站直接阅读，或克隆仓库执行所有代码；核心课程还能由 CI 编译成六卷 EPUB 和 PDF。另设 Claude certification 路线，结合映射到考试蓝图的课程、可运行实验、诊断、结业项目和原创模拟考试，但不隶属于 Anthropic。"
     },
     "rtk-ai/rtk": {
       "source": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
@@ -949,6 +967,12 @@
       "analysis_source": "197a303b3dbf9c10cb91b45ae938e187f492be95cc3dc63f66f84c63376c53d4",
       "analysis_zh": "把一本技术书、一个文档目录或一组资料交给 /book-to-skill 后，工具不会只生成一篇长摘要，而会把内容整理成可按需读取的 agent skill：SKILL.md 保存核心心智模型与章节索引，独立章节文件承载细节，另有 glossary.md、patterns.md 和 cheatsheet.md 分别汇总术语、方法模式与快速决策规则。之后在 GitHub Copilot CLI、Amp 或 Claude Code 中输入书籍对应的斜杠命令并附上问题，代理便能定位相关章节，从原始内容形成回答，避免每次把整本书塞进上下文。内部流程分成两半：deterministic Python extractor 负责将多种文档转成干净文本与元数据，规范驱动的生成器再构造技能；章节按需加载，使查询消耗与所需答案更接近。输入不只限于书籍，也可以处理内部架构记录、运行手册、品牌规范、论文集合、RFC 与 API 合同。运行 python3 scripts/extract.py --check 可检查各格式提取器及缺失依赖；PDF 会按偏重文字还是包含代码、表格和公式，选择 pdftotext 或 docling 等工具。处理在本机完成，仓库不附带任何书籍内容；由受版权保护资料生成的技能应保持私用，不宜重新分发。"
     },
+    "vitali87/code-graph-rag": {
+      "source": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "zh": "借助 AI 与知识图谱查询、理解和编辑多语言单体仓库",
+      "analysis_source": "2cd55adbe6ab395efb14a8cd55ef575b341ea499ebaef10d5b7c2c30d412ee95",
+      "analysis_zh": "把仓库交给 Code Graph RAG 后，Tree sitter 会扫描源文件，抽取 functions、classes、methods、modules 及它们之间的关系，再以统一、与语言无关的模式写入 Memgraph。随后 codebase rag/ 中的交互式 CLI 将自然语言问题转换为 Cypher 查询，找回真实代码结构和源码，因此既能按名称或意图定位符号，也能沿调用与引用边从入口寻找 dead code。编辑阶段使用 AST based surgical patching，并在落盘前展示 diff preview；ast grep 还可按语法结构跨仓库搜索和改写，不必依赖文本或正则匹配。Python、TypeScript、Rust、Go、Java、C/C++、PHP、Lua、Dart 等语言可汇入同一张图，Ruby 则通过只需 YAML pattern file 的可插拔层生成 Module、Function、Class 与 import edges。cgr 由 PyPI 分发，运行图数据库还需 Docker；多个仓库可以共享一张图，普通同步互不清除，而 clean 会删除共享图中的全部项目。它也能作为 MCP Server 供 Claude Code 等客户端直接查询和编辑代码。"
+    },
     "webpack/webpack": {
       "source": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
       "zh": "支持代码分割和多种模块类型的 JavaScript 模块打包器",
@@ -968,8 +992,8 @@
       "analysis_zh": "Grok Build 把 AI 编码代理放进全屏终端界面：grok 能理解代码库、编辑文件、执行 shell commands、搜索网页并管理 long-running tasks，既可交互运行，也能以 headless mode 接入脚本或 CI，还可通过 Agent Client Protocol (ACP) 嵌入编辑器。macOS、Linux 与 Windows 可安装预编译版本，首次启动会打开浏览器完成认证；源码构建则依赖 rust-toolchain.toml 固定的 Rust 工具链和 DotSlash，执行 cargo run -p xai-grok-pager-bin 可编译并启动 TUI。仓库的分层清晰：xai-grok-pager 处理 scrollback、prompt、modals 与 rendering，xai-grok-shell 承担 agent runtime 和多种入口，xai-grok-tools 提供终端、文件编辑与搜索工具，xai-grok-workspace 管理宿主文件系统、VCS、执行和 checkpoints。开发时应始终针对具体 crate 运行 cargo check 或 cargo test，因为全 workspace 构建较慢；根 Cargo.toml 由系统生成，应视为只读并优先修改各 crate 的 Cargo.toml。此代码树从 SpaceXAI monorepo 定期同步，SOURCEREV 记录对应的完整提交 SHA，且 README 明确说明不接受外部贡献。"
     },
     "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer": {
-      "analysis_source": "b10dd0b7d28642dae9acd41ba8c7c4c1071bcd1e8e6246673490e7f8834b3d21",
-      "analysis_zh": "当生成式人工智能模型逐渐普及，真正困难的环节转向了如何把模型嵌入客户的真实业务，并交付能够持续产生价值的结果。范冰以这一变化为线索，系统梳理「前线部署工程师」（Forward Deployed Engineer，简称 FDE）这一角色的来历、工作方法与行业实践。全书从 Palantir 情报项目中的角色演变讲起，解释 FDE 为何在人工智能时代迅速走红，随后沿着一次真实交付的完整旅程展开：解决正确的问题、赢得客户、激活部署、守住续约、扩大收入，最终实现规模化复制。内容并非停留在岗位定义，还汇集了 165 个可查案例，涉及 Palantir、OpenAI、Anthropic、Harvey、Sierra 以及中国早期实践者，并在附录 C 中集中列出案例索引与资料出处。读者可以通过 GitHub 目录按章节在线阅读，也能下载根目录中的「前线部署工程师（FDE）v1.0.23.pdf」通读合并版；若两者存在差异，以章节 Markdown 为准。附录还整理了 FDE 常用指标、人物与团队名单，后记则讨论职业道德，使这份免费公开的研究笔记既能帮助工程师理解岗位全貌，也能让企业人工智能创业者看到从技术能力到客户价值之间具体要跨越哪些环节。"
+      "analysis_source": "c68e598a6dd146028e7e78577f3cca69837d82b1e17b2a01a55097ec027028e5",
+      "analysis_zh": "《前线部署工程师：人工智能时代的客户价值交付秘籍》从企业生成式人工智能投入与实际价值之间的落差切入，解释为何 Forward Deployed Engineer（FDE）会成为连接模型能力和客户真实业务的关键角色。全书沿一次真实交付的完整旅程展开：先界定并找对问题，再讨论赢得客户、激活部署、守住续约、扩大收入和规模化复制，而不是把 FDE 简化成换了名字的售前。内容同时追溯这一角色如何从 Palantir 的情报项目中生长出来，并整理 OpenAI、Anthropic、Harvey、Sierra 以及中国实践者在内的 165 个案例。读者可直接按 GitHub 目录逐章阅读，也能下载根目录合并版；章节 Markdown 有更新时以其为准。附录 C 汇集数据、案例索引与资料出处，便于继续核查；另有职业道德、常用指标、人物与团队名单等专题。全文允许免费阅读与非商业性分享，商业出版、培训或付费改编则需事先取得作者书面许可。"
     },
     "yc-software/qm": {
       "source": "Multiplayer agent harness for work",
@@ -980,8 +1004,8 @@
     "zhaoxuya520/reverse-skill": {
       "source": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
       "zh": "面向逆向、授权渗透与安全研究的 AI 技能路由包，支持按需自举工具链",
-      "analysis_source": "81f2e6b7883954b985caad82ecebc4072943e58581afae832eab1f3eae1a3fd2",
-      "analysis_zh": "面对 APK、ELF、前端 JS 加密、PCAP、CTF 或授权渗透目标时，reverse-skill 用可重复的路由流程替代智能体临时猜命令：任务先进入 RULES.md，再由 MASTER-ROUTING 或 master-route.ps1 完成 PRIMARY 分流，随后通过 case-init 建立案件目录并填写 scope.md；授权范围与 networkprofile 未准备好之前，不对目标执行 ACT。路由完成后才进入对应的 Scenario skill，调用本机 tools、MCP 或 scripts，并持续记录 timeline，以 Evidence→Finding→Path 的链条形成报告和 field-journal。仓库目前以 skills/config/routing.json 作为 41 条规则的单一事实来源，覆盖 APK、移动端、二进制、.NET、JS、恶意软件、固件、API、供应链、LLM 安全和攻击链等方向，并用 163 个基准案例做回归验证。安装后应先刷新工具索引：Windows 运行「powershell -File skills/scripts/refresh-tool-index.ps1」，Linux 或 macOS 运行「bash skills/scripts/refresh-tool-index.sh」，然后在 skills/tool-index.md 查看 jadx、apktool、Frida、IDA、BurpSuite 等工具的检测结果。AI Agent 还应先阅读 READMEAI.md，按照其中的引导加载规则。任何路由或配置变更都可以依次执行 test-routing.ps1、verify-routing-coherence.ps1、smoke.ps1，并通过 extract-summaries.ps1 检查 INDEX.md 是否漂移；这些检查也会在 Windows 与 Ubuntu 的 CI 中运行。路由核心与案件工作流保持 client-neutral，因此 Claude Code、Codex、Cursor 和 OpenCode 可通过各自的项目指令或适配层接入，而不把某个客户端写死在核心契约中。"
+      "analysis_source": "8c2ff3e1ccee0e6f9ff3acc7c2287d3c88ce3c8dde10af270714772a0f575ccd",
+      "analysis_zh": "遇到 APK、ELF、前端 JS 加密、PCAP、CTF 或授权渗透目标时，reverse skill 不让 AI 临时猜测该选 jadx、Frida、IDA Pro 还是 BurpSuite，而是先做范围门控，再依据统一配置把任务送入对应方法与可重复工作流。仓库目前维护 41 条 Routing rules（R0–R40）、42 个技能模块及 163 个回归案例，路由核心、清单、案例流程与客户端适配彼此分离，因此 Claude Code、Codex、Cursor、OpenCode 等客户端可通过各自机制加载同一套能力。安装后，Windows、Linux/macOS 与 Kali Linux 分别运行 refresh tool index.ps1 或 refresh tool index.sh 来刷新工具索引并确认本机可用工具；具体入口覆盖 APK、移动端、二进制、.NET、JS、恶意软件、固件、Pwn、API、供应链及 LLM 安全等任务。配置或路由发生变化后，还可用跨 Windows 与 Ubuntu 的 CI 执行结构检查、索引再生成和 Routing regression runner，避免新增规则破坏既有分流结果。"
     }
   }
 }
