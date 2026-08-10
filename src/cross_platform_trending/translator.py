@@ -17,6 +17,13 @@ ANALYSIS_BATCH_SIZE = 10
 MAX_MODEL_RETRIES = 1
 ANALYSIS_MIN_LENGTH = 200
 ANALYSIS_MAX_LENGTH = 1000
+FORMULAIC_ANALYSIS_PATTERNS = (
+    r"^(?:面向|这是(?:一|个)|该项目|这个项目|本项目|作为一[款个种套])",
+    r"核心能力包括",
+    r"使用时需要注意",
+    r"资料不足时",
+    r"建议核对(?:项目|仓库|官方)文档",
+)
 ANALYSIS_FIELDS = (
     "positioning",
     "implementation",
@@ -75,17 +82,7 @@ def _clean_analysis_text(value: Any) -> str:
 def normalize_analysis(analysis: Any, *, description: str = "") -> str:
     """将新旧分析格式统一为不含 Markdown 的单段中文说明。"""
     if not isinstance(analysis, dict):
-        cleaned = _clean_analysis_text(analysis)
-        cleaned = re.sub(r"项目通过使用", "它使用", cleaned)
-        cleaned = re.sub(r"项目通过(?=基于|借助|依靠|由)", "它", cleaned)
-        cleaned = re.sub(r"项目通过(?=\s|[A-Za-z0-9])", "它通过", cleaned)
-        cleaned = re.sub(
-            r"它主要解决(?=减少|降低|避免|缓解|替代|统一|集中)",
-            "它可以",
-            cleaned,
-        )
-        cleaned = re.sub(r"核心能力包括(?!：)", "核心能力包括：", cleaned)
-        return cleaned
+        return _clean_analysis_text(analysis)
 
     values = {
         field: _clean_analysis_text(analysis.get(field)).strip("。；，, ")
@@ -128,8 +125,33 @@ def _valid_analysis(analysis: Any) -> bool:
         ANALYSIS_MIN_LENGTH <= len(cleaned) <= ANALYSIS_MAX_LENGTH
         and _contains_chinese(cleaned)
         and "\n" not in cleaned
-        and not re.search(r"(?:^|\s)[-*+]\s", cleaned)
+        and not re.match(r"^\s*[-*+]\s", cleaned)
+        and not any(
+            re.search(pattern, cleaned)
+            for pattern in FORMULAIC_ANALYSIS_PATTERNS
+        )
     )
+
+
+def _evidence_is_grounded(
+    analysis: str,
+    evidence: Any,
+    readme_excerpt: str,
+) -> bool:
+    if not isinstance(evidence, list):
+        return False
+    terms = [str(term).strip() for term in evidence if str(term).strip()]
+    if len(set(term.casefold() for term in terms)) < 2:
+        return False
+    analysis_folded = analysis.casefold()
+    readme_folded = readme_excerpt.casefold()
+    grounded = {
+        term.casefold()
+        for term in terms
+        if term.casefold() in analysis_folded
+        and term.casefold() in readme_folded
+    }
+    return len(grounded) >= 2
 
 
 class DescriptionTranslator:
@@ -321,6 +343,8 @@ class DescriptionTranslator:
     def _request_analyses(
         self,
         items: list[dict[str, Any]],
+        *,
+        _quality_retry: bool = True,
     ) -> dict[str, str]:
         schema = {
             "type": "object",
@@ -336,8 +360,14 @@ class DescriptionTranslator:
                                 "minLength": ANALYSIS_MIN_LENGTH,
                                 "maxLength": ANALYSIS_MAX_LENGTH,
                             },
+                            "readme_evidence": {
+                                "type": "array",
+                                "items": {"type": "string", "minLength": 2},
+                                "minItems": 2,
+                                "maxItems": 5,
+                            },
                         },
-                        "required": ["name", "analysis_zh"],
+                        "required": ["name", "analysis_zh", "readme_evidence"],
                         "additionalProperties": False,
                     },
                 }
@@ -345,20 +375,39 @@ class DescriptionTranslator:
             "required": ["analyses"],
             "additionalProperties": False,
         }
+        quality_retry_note = (
+            "这是质量校验后的重写：上一稿可能使用了模板开头、长度不合格，或"
+            "readme_evidence 没有同时原样出现在 README 摘要与正文中。请彻底"
+            "重组叙述，逐字检查证据术语，并确保正文直接以仓库最有辨识度的功能、"
+            "工作流、命令或组件切入。"
+            if not _quality_retry
+            else ""
+        )
         body = {
             "model": MODEL,
             "messages": [
                 {
                     "role": "system",
                     "content": (
-                        "你是严谨的开源软件分析编辑。根据每个仓库提供的简介、"
-                        "README 摘要、Topics、开发语言、主页、许可证和发布信息，为每个"
-                        "仓库生成 200 至 1000 字的简体中文分析。analysis_zh 必须是一个"
-                        "连贯自然段，具体说明仓库的作用、服务对象、实现机制、解决的"
-                        "问题、主要能力、适用场景和必要注意事项，但不要使用标题、列表、"
-                        "分点、Markdown 或换行。只使用输入能够支持的事实，禁止猜测；"
-                        "资料不足时明确建议核对项目文档。保留必要专有名词；name 必须"
-                        "原样复制输入中的完整 owner/repository，不得缩写。"
+                        "你是熟悉开源项目的中文编辑。README 摘要是写作的主要依据，"
+                        "仓库简介、Topics、语言、主页、许可证和发布信息只用于补充核对。"
+                        "请为每个仓库写一篇 200 至 1000 字的简体中文介绍，让没有读过"
+                        "README 的读者能理解它实际提供什么、如何使用或运转，以及它最有"
+                        "辨识度的设计。每篇都要顺着该 README 自己强调的内容组织叙述："
+                        "README 重点讲命令行流程，就具体写命令和流程；重点讲架构，就写"
+                        "组件关系；重点讲产品体验，就写真实功能和操作方式。不要为了凑齐"
+                        "项目用途、实现机制、核心能力、适用场景、注意事项等固定栏目而硬写"
+                        "同一套结构，也不要把许可证、安装条件或风险提示机械地塞进结尾。"
+                        "禁止使用‘面向……’‘这是一个……’‘该项目……’‘核心能力包括……’"
+                        "‘使用时需要注意……’‘建议核对项目文档……’等模板开头或收尾；"
+                        "避免空泛的‘提升效率、降低成本、适合开发者’。同一批仓库的开头、"
+                        "句式和叙述顺序必须明显不同。analysis_zh 只能是一个自然段，不含"
+                        "标题、列表、分点、Markdown 或换行，不得添加 README 没有支持的"
+                        "事实。readme_evidence 填写 2 至 5 个同时原样出现在 README 摘要"
+                        "和 analysis_zh 中的具体名称、命令、组件或功能术语，用于核验内容"
+                        "确实来自各自 README。保留必要专有名词；name 必须原样复制输入中"
+                        "的完整 owner/repository，不得缩写。"
+                        + quality_retry_note
                     ),
                 },
                 {
@@ -385,13 +434,35 @@ class DescriptionTranslator:
         requested_names = {str(item["name"]) for item in items}
         for index, analysis in enumerate(analyses):
             analysis_text = _clean_analysis(analysis.get("analysis_zh"))
-            if not _valid_analysis(analysis_text):
-                continue
             name = str(analysis.get("name", ""))
             if name not in requested_names and index < len(items):
                 name = str(items[index]["name"])
-            if name in requested_names:
+            source = next(
+                (item for item in items if str(item["name"]) == name),
+                None,
+            )
+            if (
+                name in requested_names
+                and source is not None
+                and _valid_analysis(analysis_text)
+                and _evidence_is_grounded(
+                    analysis_text,
+                    analysis.get("readme_evidence"),
+                    str(source.get("readme_excerpt", "")),
+                )
+            ):
                 parsed[name] = analysis_text
+        if _quality_retry:
+            missing_items = [
+                item for item in items if str(item["name"]) not in parsed
+            ]
+            for missing_item in missing_items:
+                parsed.update(
+                    self._request_analyses(
+                        [missing_item],
+                        _quality_retry=False,
+                    )
+                )
         return parsed
 
     def enrich(self, software: list[dict[str, Any]]) -> list[str]:

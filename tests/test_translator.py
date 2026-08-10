@@ -8,17 +8,17 @@ from subprocess import CompletedProcess
 from typing import Any
 from unittest.mock import patch
 
-from cross_platform_trending.translator import DescriptionTranslator
+from cross_platform_trending.translator import DescriptionTranslator, _valid_analysis
 
 
 ANALYSIS = (
-    "这是一款面向桌面用户的跨平台下载管理器，适合需要集中处理大量下载任务的个人"
-    "用户和开发团队。项目使用 Rust 构建桌面客户端，通过任务队列统一调度下载、记录"
-    "任务状态并处理失败重试，从而减少在多个工具之间切换、手工跟踪进度和重复启动任务"
-    "的成本。它的核心能力包括：统一管理下载任务、展示执行进度、支持失败重试以及提供"
-    "macOS 和 Windows 客户端，可用于日常文件获取、批量资源整理和需要持续观察任务"
-    "状态的工作流。安装和使用前仍应核对项目发布说明、系统要求、安装包来源与签名，"
-    "并根据仓库文档确认不同平台上的功能差异。"
+    "下载任务进入队列后，会由 Rust 编写的桌面客户端统一记录状态，并在网络中断后通过"
+    "retry failed tasks 恢复失败任务。README 把 Manage downloads 作为主要入口，"
+    "用户可以从任务列表观察单个文件的进度，而不必为每次中断重新创建下载。这个设计"
+    "尤其适合需要连续获取大文件或一次整理多项资源的场合：客户端负责保存队列，重试"
+    "机制处理临时失败，桌面界面则把执行结果集中呈现。仓库同时给出了构建客户端所需的"
+    "Rust 工具链和不同系统的打包方式，准备自行编译的人可以直接沿着 README 的安装"
+    "章节操作；只想使用成品时，则可从 release 页面选择与系统对应的安装包。"
 )
 
 
@@ -92,6 +92,10 @@ class ShortNameResponseTranslator(DescriptionTranslator):
                 {
                     "name": "example",
                     "analysis_zh": ANALYSIS,
+                    "readme_evidence": [
+                        "Manage downloads",
+                        "retry failed tasks",
+                    ],
                 }
             ]
         }
@@ -192,7 +196,14 @@ class DescriptionTranslatorTests(unittest.TestCase):
             )
 
             analyses = translator._request_analyses(
-                [{"name": "owner/example"}]
+                [
+                    {
+                        "name": "owner/example",
+                        "readme_excerpt": (
+                            "Manage downloads and retry failed tasks."
+                        ),
+                    }
+                ]
             )
 
             self.assertIn("owner/example", analyses)
@@ -207,6 +218,38 @@ class DescriptionTranslatorTests(unittest.TestCase):
             )
 
             self.assertIn("owner/example", translations)
+
+    def test_rejects_formulaic_analysis_and_ungrounded_evidence(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            translator = ShortNameResponseTranslator(
+                model_command="stub",
+                cache_path=Path(directory) / "translations.json",
+            )
+            with patch.object(
+                translator,
+                "_request_model",
+                return_value={
+                    "analyses": [
+                        {
+                            "name": "owner/example",
+                            "analysis_zh": "面向开发者" + ANALYSIS,
+                            "readme_evidence": ["Manage downloads", "不存在"],
+                        }
+                    ]
+                },
+            ):
+                self.assertEqual(
+                    translator._request_analyses(_software()),
+                    {},
+                )
+
+    def test_does_not_treat_keyboard_shortcut_as_markdown_list(self) -> None:
+        analysis = ANALYSIS.replace(
+            "下载任务进入队列后",
+            "按下 Alt / Command + Space 后，下载任务进入队列",
+        )
+
+        self.assertTrue(_valid_analysis(analysis))
 
     def test_rewrites_english_heavy_bilingual_description(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
