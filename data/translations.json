@@ -379,14 +379,14 @@
     "Termix-SSH/Termix": {
       "source": "Self-hosted SSH and remote desktop management.",
       "zh": "自托管的SSH和远程桌面管理工具。",
-      "analysis_source": "b7e842a23f020ae5e4768b80372ce0869cb5d9409a312879cb6f1af8946c2e8a",
+      "analysis_source": "8d487621ecebf3e1e20bc286fa42182d18b431af0da56e1c6ed708695d0c2645",
       "analysis_zh": {
-        "positioning": "面向服务器与基础设施管理员的免费开源、自托管 SSH 和远程桌面统一管理平台。",
-        "implementation": "以 TypeScript 构建，通过浏览器或多平台客户端提供 SSH、RDP、VNC、Telnet、远程文件管理和隧道；隧道支持自动重连、健康监测及本地、远程、动态 SOCKS 转发。",
-        "problems_solved": "用一个自托管界面替代分散的终端、远程桌面、隧道和文件工具，并作为 Termius 的免费替代方案。",
-        "capabilities": "最多四分屏的 SSH 终端；RDP、VNC 与 Telnet 访问；SSH 隧道管理与监测；远程文件及 Docker、Podman 管理",
-        "use_cases": "适合希望自主管理服务器、远程桌面、容器和跨服务器文件的个人或运维团队。",
-        "considerations": "需自行托管；仓库未明确声明许可证，使用前应核对许可、部署方式和安全配置文档。"
+        "positioning": "面向服务器管理员和基础设施团队的免费开源、自托管一体化远程管理平台。",
+        "implementation": "通过统一界面提供浏览器 SSH、RDP、VNC、Telnet、远程文件及容器管理；SSH 隧道支持自动重连、健康监测和本地、远程、动态 SOCKS 转发，客户端隧道设置默认本地保存。",
+        "problems_solved": "集中替代分散的终端、远程桌面、隧道和文件工具，降低跨平台管理多台服务器及迁移隧道配置的操作成本。",
+        "capabilities": "四分屏 SSH 终端与标签页；RDP、VNC、Telnet 远程桌面；SSH 隧道及健康监测；远程文件和 Docker、Podman 管理",
+        "use_cases": "适合自行托管服务的个人、运维人员和团队，通过单一入口管理服务器、文件、隧道和容器。",
+        "considerations": "需要自行部署服务；部分隧道配置仅保存在各桌面客户端；许可证信息未明确，建议核对项目文档。"
       }
     },
     "ThinkInAIXYZ/deepchat": {
@@ -500,14 +500,14 @@
     "agalwood/Motrix": {
       "source": "A full-featured download manager.",
       "zh": "功能完善的下载管理器。",
-      "analysis_source": "57e53624317fce957925a98b7891cfd61e60319cd5d8a608e97301d35db8cfeb",
+      "analysis_source": "9eae4215181a44bd26e3c10d14ef60a6349cb3ea3ea515d37719942f9bc8b0ac",
       "analysis_zh": {
-        "positioning": "面向多平台用户的全功能下载管理器，支持多协议下载。",
-        "implementation": "基于Electron和JavaScript开发，集成aria2下载引擎，支持多协议下载，提供图形界面和命令行工具，支持自动更新和多平台安装。",
-        "problems_solved": "简化多协议下载管理，提供统一界面和操作，支持自动更新和多平台安装，提升下载效率。",
-        "capabilities": "支持HTTP、FTP、BitTorrent、Magnet等多协议下载；跨平台支持Windows、macOS、Linux；支持命令行和图形界面；支持自动更新和多种安装方式。",
-        "use_cases": "适合需要管理HTTP、FTP、BT等多协议下载的用户，支持桌面和命令行操作。",
-        "considerations": "MIT开源许可；部分Linux环境需sudo权限；支持多种安装包格式；官方主页提供详细安装和使用文档。"
+        "positioning": "面向桌面、NAS 与家庭服务器用户的跨平台全功能下载管理器。",
+        "implementation": "以 Electron、React、TypeScript 构建，下载核心与 UI 分离；通过基于 JSON-RPC 2.0 的 MDXP 接入浏览器扩展和 CLI，插件运行于 QuickJS 沙箱；支持 Node.js 或 Docker 无头部署，使用 SQLite 恢复会话。",
+        "problems_solved": "统一管理 HTTP、FTP、BitTorrent、磁力链接等下载，减少浏览器、命令行与远程服务器之间切换，并支持重启后恢复任务。",
+        "capabilities": "HTTP、FTP、BT、磁力链接下载；限速、Tracker 管理及端口映射；浏览器扩展、CLI 与插件生态；桌面端及带 Web UI 的无头服务",
+        "use_cases": "适合个人桌面下载、NAS 和家庭服务器集中下载，以及需要从浏览器或命令行提交任务的用户。",
+        "considerations": "桌面端覆盖 macOS、Windows、Linux；无头模式依赖 Node.js 或 Docker；许可证信息未明确，建议核对项目文档。"
       }
     },
     "ai-shifu/ChatALL": {
@@ -706,27 +706,27 @@
     "domcyrus/rustnet": {
       "source": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
       "zh": "支持深度包检测的跨平台终端网络监控工具。",
-      "analysis_source": "7da181112df154e44d24d9c50fecc1be49c2fb538c2cc700dc21527d44dc296e",
+      "analysis_source": "969e8f418e4e56b4fbaea13070ac3beca116f2d210b2f4f8d617cc3d28d03750",
       "analysis_zh": {
-        "positioning": "面向开发者、运维与安全人员的跨平台终端网络监控器，按进程展示实时连接并执行深度包检测。",
-        "implementation": "Linux 使用 eBPF、macOS 使用 PKTAP、Windows 使用 ETW 并回退 IP Helper、FreeBSD 使用原生 API；内置协议识别、RTT 与重传分析，导出带进程注释的 PCAPNG，并按平台启用沙箱。",
-        "problems_solved": "补足 netstat/ss 缺少实时状态、Wireshark/tcpdump 难以直接关联进程的问题，减少抓包后的人工关联与后处理。",
-        "capabilities": "关联 TCP、UDP、QUIC 连接与所属进程；识别 TLS SNI、DNS、SSH、MQTT 等协议；分析 RTT、重传和乱序；导出带进程、DPI、GeoIP 注释的 PCAPNG",
-        "use_cases": "适合排查异常联网、协议行为和网络性能，也适用于开发调试、运维观测及安全取证工作流。",
-        "considerations": "GeoIP 需本地 MaxMind GeoLite2；Linux Landlock 要求 5.13+；抓包初始化后立即降权；采用 Apache-2.0。"
+        "positioning": "面向运维、安全分析和开发者的跨平台终端网络监控及进程级深度包检测工具。",
+        "implementation": "RustNet 在 Linux 用 eBPF、macOS 用 PKTAP、Windows 用 ETW/IP Helper、FreeBSD 用原生 API 归属进程；内置协议识别，导出带进程、DPI、SNI、GeoIP 注释的 PCAPNG，并按平台启用安全沙箱。",
+        "problems_solved": "无需组合 tcpdump、netstat 和后处理脚本，即可实时判断每条连接由哪个进程发起、使用何种协议及是否异常。",
+        "capabilities": "TCP、UDP、QUIC 连接进程归属；内置多协议 DPI；RTT、重传与连接生命周期分析；带注释 PCAPNG 导出及本地 GeoIP",
+        "use_cases": "适合终端排障、应用流量审计、网络取证，以及需要把进程信息带入 Wireshark 的分析流程。",
+        "considerations": "底层采集机制随系统不同；Linux Landlock 沙箱要求 5.13+；GeoIP 需本地 MaxMind GeoLite2；Apache-2.0。"
       }
     },
     "doublecmd/doublecmd": {
       "source": "Double Commander is a free cross platform open source file manager with two panels side by side.",
       "zh": "Double Commander是一个免费开源的跨平台双面板文件管理器。",
-      "analysis_source": "eceab70cc1f92b5ea0e8b495cc848e8214e80a192dc3efa9685e038ed2140362",
+      "analysis_source": "e4a08d8dfa1843c430783ef58b33635e33b435566968fb5d1ae96e8112fd5876",
       "analysis_zh": {
-        "positioning": "免费开源跨平台双面板文件管理器，提升文件操作效率。",
-        "implementation": "使用Pascal语言开发，支持多平台运行，提供双面板界面，灵感来源Total Commander。",
-        "problems_solved": "替代系统自带文件管理器，提供更高效的文件浏览和管理体验。",
-        "capabilities": "双面板文件管理；跨平台支持；支持32位和64位处理器；多平台安装包；丰富的文件操作功能。",
-        "use_cases": "适合需要高效文件管理的多平台用户和开发者。",
-        "considerations": "GPL-2.0许可证；基于Pascal开发；支持多操作系统。"
+        "positioning": "面向多平台桌面用户的免费开源双面板文件管理器，设计受 Total Commander 启发。",
+        "implementation": "项目主要使用 Pascal，可在多个操作系统及 32 位、64 位处理器上运行；README 仅明确双面板可左右或上下排列，更多实现细节建议核对开发文档。",
+        "problems_solved": "通过并排展示两个目录简化文件浏览与跨目录操作，为需要 Total Commander 式工作流的用户提供开源替代。",
+        "capabilities": "左右双面板文件浏览；上下双面板布局；跨平台运行；支持 32 位和 64 位处理器",
+        "use_cases": "适合频繁在两个目录间处理文件、偏好双面板操作方式并需要跨平台工具的桌面用户。",
+        "considerations": "具体支持平台需查阅 Supported platforms 页面；采用 GPL-2.0 许可证。"
       }
     },
     "electerm/electerm": {
@@ -823,14 +823,14 @@
     "getpaseo/paseo": {
       "source": "Orchestrate multiple coding agents from desktop and mobile",
       "zh": "桌面和移动端多智能体编程协调工具。",
-      "analysis_source": "a5981a27352d848ea882987356340df2ac3c5450aeaca92f2ca466de4a33c203",
+      "analysis_source": "82d365f1234912abd9ae5b3c2f983df109ba1eb57fb13be2daa1b30504ed4669",
       "analysis_zh": {
-        "positioning": "面向多模型编程工作流的开发者，是可从桌面、手机、Web 和 CLI 协调本机多个编码智能体的自托管界面。",
-        "implementation": "本地 daemon 管理 Claude Code、Codex、Copilot、OpenCode 和 Pi，桌面、移动、Web 与 CLI 客户端连接 daemon；跨设备可使用端到端加密 relay、TCP、Tailscale 或 VPN。",
-        "problems_solved": "解决多个代理界面分散、跨设备接续困难及远程监控成本，同时保留本机开发环境、工具、配置、技能和凭据控制权。",
-        "capabilities": "统一运行并并行管理五类编码代理；iOS、Android、桌面、Web 与 CLI 跨设备控制；语音下达和讨论任务；自托管 daemon 与加密设备配对",
-        "use_cases": "适合在工作站或服务器并行运行编码代理，并希望从手机查看进度、继续任务或通过 CLI 自动化的开发者。",
-        "considerations": "至少需安装并配置一种代理 CLI 及凭据；Docker 镜像需扩展所用代理；远程连接需 relay、TCP 或 VPN；许可证未明确，须核对。"
+        "positioning": "面向开发者的自托管多智能体编程协调工具，可从桌面、移动端、Web 和 CLI 操作。",
+        "implementation": "本地 daemon 管理 Claude Code、Codex、Copilot、OpenCode 和 Pi，多个客户端连接该服务；远程配对可选端到端加密中继，也可走 TCP、Tailscale 或 VPN；支持 Docker 运行 daemon 与 Web UI。",
+        "problems_solved": "统一不同编程 Agent 的入口，让任务在自有机器上并行执行，并可在桌面启动、手机跟进或通过终端自动化。",
+        "capabilities": "统一管理多家编程 Agent；并行运行 Agent；语音下达任务和讨论；跨 iOS、Android、桌面、Web、CLI 协作",
+        "use_cases": "适合同时使用多种编码 Agent、需要移动端跟进开发，或希望在自有环境保留工具和配置的开发者。",
+        "considerations": "至少需安装并配置一个 Agent CLI 及凭据；Docker 镜像需扩展所用 CLI；许可证信息未明确，建议核对文档。"
       }
     },
     "golutra/golutra": {
@@ -888,14 +888,14 @@
     "irbis-sh/zen-desktop": {
       "source": "Ad-blocker and privacy guard for Windows, macOS and Linux.",
       "zh": "适用于 Windows、macOS 和 Linux 的广告拦截与隐私保护工具。",
-      "analysis_source": "afc2283f0a669a413e53d369f68ebe39e855d09f5b66b5a6733320c6f6bd2564",
+      "analysis_source": "a8643ded651ebc629e2b83625af748749abf2d45b6efd71c0d0e0969bbdc094c",
       "analysis_zh": {
         "positioning": "面向 Windows、macOS 和 Linux 用户的开源系统级广告拦截与隐私防护工具。",
-        "implementation": "以 Go 开发，通过本地代理拦截所有应用的 HTTP 请求，过滤广告、追踪脚本、恶意软件等内容；安装本地生成的根证书后可检查和修改 HTTPS 请求。",
-        "problems_solved": "覆盖浏览器扩展无法保护的桌面应用和系统组件流量，并减少广告、追踪与恶意内容暴露。",
-        "capabilities": "系统级 HTTP/HTTPS 流量过滤；拦截广告、追踪器和恶意内容；预装过滤规则；支持 hosts 与 EasyList 风格规则",
-        "use_cases": "适合希望在整个操作系统而非单一浏览器中统一过滤网络内容的桌面用户。",
-        "considerations": "首次运行需安装本地根证书；支持三大桌面系统；采用 MIT 许可证，HTTPS 机制应结合安全架构文档评估。"
+        "implementation": "Zen 设置系统代理，拦截所有应用的 HTTP 请求，并通过本地生成的根证书检查和修改 HTTPS；使用预装规则过滤广告、追踪脚本和恶意内容，也支持 hosts 与 EasyList 风格自定义过滤器。",
+        "problems_solved": "覆盖浏览器扩展无法保护的桌面应用和系统组件流量，统一阻止广告、跟踪器、恶意内容及其他不需要的请求。",
+        "capabilities": "跨应用系统级流量拦截；广告、追踪脚本与恶意内容过滤；预装过滤规则；导入 hosts 和 EasyList 风格规则",
+        "use_cases": "适合希望为整台电脑统一拦截广告和追踪，而不只保护浏览器流量的个人用户。",
+        "considerations": "首次运行需安装本地生成的根证书以处理 HTTPS；应先阅读安全架构说明；采用 MIT 许可证。"
       }
     },
     "janhq/jan": {
@@ -989,6 +989,19 @@
         "capabilities": "支持Markdown格式笔记；支持多平台同步（Windows、macOS、Linux、Android、iOS）；支持端到端加密同步；支持导入Evernote笔记；支持插件和主题扩展；提供网页剪辑器。",
         "use_cases": "适合需要跨设备同步和隐私保护的个人用户和团队笔记管理。",
         "considerations": "许可证为NOASSERTION，需核对具体授权；依赖TypeScript和Electron；支持多云同步服务；项目活跃。"
+      }
+    },
+    "lightningpixel/modly": {
+      "source": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU",
+      "zh": "使用本地 AI 从图像生成 3D 模型的桌面应用，完全依靠 GPU 运行",
+      "analysis_source": "9606cb979d32f25dacff49aee7bb2bc419d6e8571cdf5bea592e057a3e501289",
+      "analysis_zh": {
+        "positioning": "面向 3D 创作者的本地开源桌面应用，用自有 GPU 将照片生成 3D 网格模型。",
+        "implementation": "桌面前端使用 TypeScript，并配套 Python 后端；开源 AI 模型完全在本地 GPU 运行；工作流执行前校验图结构，支持通过含 manifest.json 和运行入口的 GitHub 仓库扩展模型与处理流程。",
+        "problems_solved": "无需把照片上传云端即可生成 3D 模型，并能在应用内平滑、减面和保存优化结果，减少工具切换。",
+        "capabilities": "从图像本地生成 3D 网格；工作流连线校验与错误提示；网格平滑和减面；安装外部模型与处理扩展",
+        "use_cases": "适合拥有兼容 GPU、重视本地处理的 3D 创作者，以及希望试用 Hunyuan3D、TripoSG 等模型的用户。",
+        "considerations": "依赖本地 GPU；开发需安装 JS 依赖并配置 Python 后端；macOS 仅支持 Apple Silicon；许可证未明确。"
       }
     },
     "lyswhut/lx-music-desktop": {
@@ -1126,14 +1139,14 @@
     "nukeop/nuclear": {
       "source": "Streaming music player that finds free music for you",
       "zh": "免费音乐流媒体播放器。",
-      "analysis_source": "7c8506627860f388b0beb2d800231e78c88d199ddfc03d17b9e19cb15fefb35a",
+      "analysis_source": "1f361ad740e255263e9a99f9e8e8cab61b9c57f6ec38edeb52afe47a5c3e083d",
       "analysis_zh": {
-        "positioning": "面向希望无广告、无追踪听歌的桌面用户，是可从多种来源搜索和播放免费音乐的开源跨平台播放器。",
-        "implementation": "主应用采用 Tauri、Rust 与 React，代码以 pnpm monorepo 和 Turborepo 管理；功能由插件驱动，插件可提供流媒体源、元数据、歌单和首页内容，并内置 MCP 服务。",
-        "problems_solved": "减少对带广告、追踪或封闭生态音乐客户端的依赖，统一不同音乐来源，并让用户自行扩展播放源和元数据能力。",
-        "capabilities": "跨来源搜索和流式播放音乐；队列、收藏及歌单导入导出；内置插件商店与自定义 CSS 主题；通过 MCP 让 AI 智能体控制播放器",
-        "use_cases": "适合跨平台免费听歌、管理歌单和主题的用户，以及开发播放源插件或用 AI 自动控制音乐的开发者。",
-        "considerations": "可用音乐取决于所装插件及来源；MCP 需在设置中启用；开发需要 Node.js、pnpm、Tauri/Rust；采用 AGPL-3.0。"
+        "positioning": "面向 Windows、macOS 和 Linux 用户的无广告、无追踪开源音乐流媒体播放器。",
+        "implementation": "采用 pnpm、Turborepo 管理 monorepo，主应用基于 Tauri、Rust 与 React；功能由插件驱动，插件可提供音源、元数据和播放列表；内置 MCP Server 供 AI Agent 控制。",
+        "problems_solved": "让用户搜索并播放多来源免费音乐，集中管理收藏和播放列表，避免广告、行为追踪及在多个音乐工具间切换。",
+        "capabilities": "跨来源音乐搜索与串流；队列、收藏及播放列表管理；插件商店与自定义主题；通过 MCP Server 接受 AI Agent 控制",
+        "use_cases": "适合重视隐私的桌面音乐用户、需要可扩展音源的用户，以及希望用 AI Agent 控制播放器的开发者。",
+        "considerations": "开发需要 Node.js 等先决条件；MCP 需在设置中启用；采用 AGPL-3.0 许可证。"
       }
     },
     "oliverschwendener/ueli": {
@@ -1362,14 +1375,14 @@
       "zh": "基于异步I/O的极速终端文件管理器。"
     },
     "t8y2/dbx": {
-      "analysis_source": "f6cf74bffab0979c4ccc29bd9c789ef3522663a9e8c11b6ca22444fa97ba50f8",
+      "analysis_source": "4efe6976a83e7ef3a0b8d795bdd675542255614fc7bb64140b7ba666afdd5b47",
       "analysis_zh": {
-        "positioning": "面向开发者和数据库运维人员的轻量级跨平台数据库客户端，统一管理 70 多种数据库与消息队列。",
-        "implementation": "以约 20 MB 单一二进制交付，不捆绑 JRE、Python 或 Chromium；提供桌面、Docker、Web、CLI、AI 助手和 MCP Server，并通过原生、JDBC 与智能体驱动配置扩展数据库连接。",
-        "problems_solved": "用一个小型工具替代多套数据库客户端及其庞大运行时，减少 SQL 在编辑器与 AI 工具间复制，并复用连接向编码智能体开放数据。",
-        "capabilities": "连接并管理 70 多种数据库；CodeMirror 6 SQL 编辑与元数据补全；AI 生成 SQL及执行前安全检查；通过 MCP 向智能体提供数据库查询",
-        "use_cases": "适合跨多种数据库查询、团队 Docker 自托管、浏览器环境管理，以及让 Claude Code、Cursor 等访问既有连接。",
-        "considerations": "AI 可接 Claude、OpenAI 或 Ollama；部分数据库依赖 JDBC 或智能体驱动配置；Docker 可用于团队访问；Apache-2.0 许可。"
+        "positioning": "面向开发者和数据人员的约 20 MB 跨平台数据库客户端，统一管理 70 多种数据库。",
+        "implementation": "以 Rust 构建单一小型二进制，不捆绑 Chromium、JRE 或 Python；提供桌面、Docker、Web 和 CLI；CodeMirror 6 承载查询编辑器，并通过 MCP、内置 AI 及 Ollama 或云模型连接数据库。",
+        "problems_solved": "用一个轻量工具替代多个数据库客户端，免除大型运行时安装，并减少在编辑器、AI 对话和数据库工具间复制 SQL 的流程。",
+        "capabilities": "连接并管理 70 多种数据库；SQL 编辑、元数据补全与执行；内置 AI 生成及安全检查；MCP Server、CLI、桌面和 Docker 部署",
+        "use_cases": "适合多数据库开发、运维和数据查询，也适合让 Claude Code、Cursor 等 Agent 复用既有连接。",
+        "considerations": "AI 能力需 Claude、OpenAI 或本地 Ollama；部分数据库通过 Agent/JDBC 配置扩展；采用 Apache-2.0。"
       },
       "source": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "是支持70+数据库的轻量级跨平台数据库客户端，含AI助手和多种运行环境。"
