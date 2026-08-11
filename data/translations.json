@@ -128,8 +128,8 @@
     "OpenWhispr/openwhispr": {
       "source": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
       "zh": "隐私优先的跨平台语音转文字应用，支持本地和云端模型。",
-      "analysis_source": "8c56f90326422bc5d018d9f6e199c1c850bfe4acc99be22a3bb7b71f3ce6e168",
-      "analysis_zh": "按下全局热键、说话、文字随即出现在当前光标处，是 OpenWhispr 最直接的工作方式；另一个专用热键还能把口述内容翻译成其他语言后粘贴。转录既可交给 Whisper、NVIDIA Parakeet 等本地引擎，让音频不离开设备，也可选择云端处理以追求速度。它不止处理短句听写：会议功能会自动识别 Zoom、Teams 和 FaceTime 通话，提供实时 speaker diarization、声纹识别及 Google Calendar 集成；已有音视频则可拖入、批量上传，或粘贴 YouTube 与音频链接进行转录。生成的内容能够整理进 Notes，按文件夹管理并通过 semantic search 检索，还可同步、执行 AI actions，或在带角色和邀请机制的团队空间中协作分享。语音代理支持 GPT-5、Claude、Gemini、Groq、OpenRouter 和本地模型，Public API & MCP 则允许外部程序管理笔记与转录。macOS、Windows 和 Linux 均有安装包；从源码运行需 Node.js 24+，依次执行 npm install 与 npm run dev。"
+      "analysis_source": "ed8a8a41519923296145d16244eb620a66600dfbc4d5c95a5f8b54dfb4c9de74",
+      "analysis_zh": "按下 global hotkey 说话，转写结果便会自动粘贴到当前光标处；OpenWhispr 由此把语音输入延伸到笔记、会议记录和 AI 操作。转写可选 Whisper、NVIDIA Parakeet 等本地引擎，让音频留在设备内，也可选择云端处理以获得速度；另一个专用热键能够边说边翻译后粘贴。AI agent 支持 GPT 5、Claude、Gemini、Groq、Tinfoil、OpenRouter 或本地模型，voice agent hotkey 会把口述内容直接作为命令发送，无需唤醒词和清理步骤。会议功能可自动识别 Zoom、Teams 与 FaceTime 通话，进行 live speaker diarization、voice fingerprinting，并连接 Google Calendar；笔记则提供文件夹、semantic search、cloud sync 与 AI actions。macOS、Windows、Linux 均有安装包。Intel Mac 因 ONNX Runtime 不再提供相应 x86 64 二进制，无法使用实时说话人识别和声纹功能，但会议录制、转写仍可运行，笔记搜索会退回关键词匹配。"
     },
     "PixiEditor/PixiEditor": {
       "source": "PixiEditor is a Universal Editor for all your 2D needs",
@@ -170,8 +170,8 @@
     "TabularisDB/tabularis": {
       "source": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
       "zh": "支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。",
-      "analysis_source": "12287e7d329b88df27014f68a4733e25fcfd5f52a4298a35b2eb983e589e0958",
-      "analysis_zh": "把数据库连接、SQL 编写、分析笔记和 AI Agent 接入放进同一桌面工作区，是 Tabularis 最鲜明的工作方式。PostgreSQL、MySQL/MariaDB 和 SQLite 内置可用，ClickHouse、DuckDB、Redis、Firestore 等则通过插件注册表安装；外部插件是独立可执行程序，以 JSON-RPC 2.0 经 stdin/stdout 通信，因此能用任意语言编写驱动且无需重启即可加载。日常查询由 Monaco Editor 承载，可运行全部、选中或单条语句，并为结果分别分页；SQL Notebooks 允许在一个文档中混排 SQL 与 Markdown 单元格，用 {{cellN}} 把前一单元格结果作为表引用，还能生成柱状图、折线图和饼图并导出 HTML、CSV 或 JSON。Visual EXPLAIN 把执行计划呈现为可导航的节点图，可在精确指标、原始输出和可选 AI 分析之间切换。内置 MCP server 让 Claude、Cursor 和 Devin 在当前应用中读取 schema、执行查询；连接管理另有 SSH Tunneling、系统 Keychain 密码存储、ER Diagram、批量数据编辑及 SQL 导入导出。Windows 可执行 winget install Debba.Tabularis，macOS 使用 Homebrew，Linux 也提供 Snap、Flatpak、AppImage 与 AUR 安装方式。"
+      "analysis_source": "44247aa0ce576246a9c2ba8775268e126c29935ddf3f7ac4f3030d9f7836b94f",
+      "analysis_zh": "SQL 不再只按单个查询标签页组织：Tabularis 提供 SQL notebooks，把 SQL 与 Markdown cells 放在同一文档中，并支持 cross cell variables 和 charts，适合边查询、边解释、边展示结果。常规数据库工作仍有 Connection Management、Database Explorer、SQL Editor、Data Grid 与 Visual Query Builder；遇到性能问题时，Visual EXPLAIN 会把执行计划呈现为可交互图。它原生连接 PostgreSQL、MySQL/MariaDB 和 SQLite，并通过 16 个官方插件扩展 DuckDB、ClickHouse、Redis、Firestore 等数据库。插件并不限定实现语言，而是通过 JSON RPC over stdio 通信。内置 MCP server 可让 Claude、Cursor 和 Devin 读取 schema、运行查询，继续复用应用中已有连接；可选的 text to SQL 也能接入 Ollama 本地模型。安装覆盖 Windows、Apple Silicon 与 Intel macOS，以及 Linux 的 AppImage、.deb、.rpm、Snap、Flatpak 和 AUR，界面提供简体中文等十种语言。"
     },
     "Termix-SSH/Termix": {
       "source": "Self-hosted SSH and remote desktop management.",
@@ -281,8 +281,8 @@
     "binaricat/Netcatty": {
       "source": "SSH workspace, SFTP, and terminals in one",
       "zh": "集成SSH、SFTP和终端的工作空间工具。",
-      "analysis_source": "78ea4ff3d269000b462c8339791e7e969f13d6cedc7b8dc2cc1ff563bfa4aa46",
-      "analysis_zh": "Netcatty 把远程主机清单、终端会话和文件操作组合成可长期驻留的 SSH workspace。Vault 支持 grid、list、tree 三种视图，可搜索和整理大量主机；进入工作区后能用 tabs 及水平、垂直 Split panes 并排运行多个连接，并恢复会话，因此部署、日志和指标可以留在同一窗口观察。连接类型覆盖 SSH、本地终端、Telnet、Mosh 和可用时的 Serial，SFTP 部分则提供双栏文件浏览、拖放上传下载与 Built-in Editor，可直接快速修改远端文件。内置 Catty Agent 允许用自然语言检查服务器状态、分析日志或协调多台主机，README 还演示了它完成 Docker Swarm 初始化、令牌交换和节点加入的流程。桌面端基于 Electron、React、TypeScript 与 xterm.js，支持 macOS、Windows 和 Linux；开发者安装依赖后运行 npm run dev 即可启动 Vite 与 Electron，正式构建和各平台打包分别使用 npm run build、npm run pack:mac、npm run pack:win 或 npm run pack:linux。"
+      "analysis_source": "a823898e09e527509ec455862e661dcfed982372572e86bf3ca397ae4cb401da",
+      "analysis_zh": "Netcatty 将 SSH Client、SFTP Browser 和 Terminal Manager 汇集成一个远程运维工作区，界面基于 Electron、React 与 xterm.js，支持 split terminals、Vault views、SFTP workflows 和 custom themes。其最突出的交互是内置 Catty Agent：用户用自然语言描述目标，它会理解服务器环境、选择并执行命令，再分析输出并给出摘要。检查单机健康状况时，它能查询状态、日志和资源；涉及多台机器时，multi host orchestration 可协调并行操作。README 展示的 Docker Swarm 场景中，Catty Agent 会跨两台服务器完成初始化、token exchange 和 node joining，而用户只需在一次对话中说明想要建立集群。日常工作之外，它也能以简单指令部署服务或执行更复杂的多主机步骤。应用运行于 macOS、Windows 和 Linux，为需要同时管理多个远程服务器的人提供了从文件传输、终端拆分到 AI 操作的一体化路径。"
     },
     "caamer20/Telegram-Drive": {
       "source": "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.",
@@ -325,6 +325,12 @@
       "zh": "支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。",
       "analysis_source": "fc43ce99d99f816b5775e6a657256098c3c6c6386483a44220baff87d044a546",
       "analysis_zh": "同时处理关系型数据库、文档数据库和键值存储时，DbGate 提供统一的桌面与 Web 操作界面，覆盖 MySQL、PostgreSQL、SQL Server、Oracle、MongoDB、Redis、SQLite、ClickHouse、DuckDB 等多种数据库。日常浏览可使用 Excel-like filters、多值筛选、master/detail 和 foreign key lookups，编辑表数据前还能预览 SQL change script；结构工作则包含 schema compare、同步、索引及主外键编辑和 ER diagram。不会手写复杂 SQL 时，可通过 Query designer 组合查询，甚至表达 WHERE NOT EXISTS；熟悉代码的用户也能在 SQL editor、Mongo JavaScript editor 或 Redis tree view 中直接执行脚本。数据可在 CSV、Excel、JSON、NDJSON、XML、DBF 之间导入导出，Archives 会把备份保存为 NDJSON，图表与 GEO 地图还能导出为 HTML page。DbGate 既可作为 Windows、Linux、Mac 上的 Electron 应用运行，也能以 Docker container 部署到服务器后由浏览器访问，并提供独立 NPM packages 和 nodeJs scripting interface。其前端采用 Svelte，后端由 NodeJs、ExpressJs 和数据库驱动组成，Extensible plugin architecture 允许扩充功能；开发 Web 版可执行 yarn 与 yarn start，更细粒度调试时分别运行 yarn start:api、yarn start:web 和 yarn lib。"
+    },
+    "deta/surf": {
+      "source": "Personal AI Notebooks. Organize files & webpages and generate notes from them. Open source, local & open data, open model choice (incl. local).",
+      "zh": "个人 AI 笔记本，可整理文件和网页并生成笔记，支持本地开放数据及模型选择",
+      "analysis_source": "eeafb747490fc0c769e0fe49401cb03627f7f7b7907f655ca0d1d275304b0652",
+      "analysis_zh": "把文件、网页和笔记放进同一条思考流，是 Deta Surf 最鲜明的体验：研究时不必反复搜索资料、切换窗口与标签页，再把内容复制到文档编辑器。用户可以将本地文件、网站链接、YouTube、Tweets 等多种媒体保存在电脑上的私人资料库中，并进一步整理进 Notebooks；其中许多内容离线时仍可打开，也能作为 AI 提问和生成内容的上下文。README 给出的上手方式很具体：访问视频后使用 YouTube Notes 提问，打开 PDF 后通过 PDF Notes 追问内容，调用“app generation”生成小应用，或者使用“web search”让笔记在回答问题时搜索网络。底层资料库由 SFFS（Surf Flat File System）管理，以开放、透明的格式在本地保存数据，呼应其 local first、开放数据格式与开源取向。Smart Notes 则承接跨资料探索和思考的主要交互，让散落于不同媒介的信息可以在一个工作空间里被组织、关联和利用。软件主要由 Svelte、TypeScript 与 Rust 构建，可运行于 MacOS、Windows 和 Linux，并允许用户在 AI 模型选择上保持开放，包括使用本地模型。"
     },
     "domcyrus/rustnet": {
       "source": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
@@ -395,8 +401,8 @@
     "graphif/project-graph": {
       "source": "A node-based visual tool for organizing thoughts and notes in a non-linear way.",
       "zh": "是一个基于节点的非线性思维和笔记可视化工具。",
-      "analysis_source": "fb61fe3d565ef50ce26068a26a46aad2be860e2fb183245647fa28111deb36f9",
-      "analysis_zh": "把想法放到自由连接的节点图中，是 Project Graph 最直接的使用方式：通过鼠标拖放即可创建、编辑、移动节点并建立连接，逐步拼出有向无环图（DAG）、树形结构图或逻辑关系网络。绘制过程中，历史记录功能支持逐步撤销和重做，自动保存和备份会持续记录文档变化，因此可以放心调整结构。它的用途随着图形内容而变化，例如在头脑风暴中整理关系、为课程大纲和知识图谱搭建层次、制作课堂展示的逻辑目录图，或把软件模块依赖、工作流和系统架构转化为可视结构。桌面客户端兼容 Windows、macOS 和大多数 Linux 系统，界面支持多语言切换并提供完整中文界面。想直接使用时可从官网获取对应平台的最新版本；若希望研究内部实现，则可依照开发指南从源代码构建。"
+      "analysis_source": "43288e1bcb2e162cb846bae306c6f1da2248fc36e271f953e49eb4f3c31350b6",
+      "analysis_zh": "从空白画布开始拖放节点、调整位置并建立连接，Project Graph 用直观操作完成关系图的创建与编辑。它并不限于单一流程图，而是支持有向无环图（DAG）、树形结构图和逻辑关系网络，因此既能把头脑风暴中的关联可视化，也可整理课程大纲、知识图谱、项目规划、模块依赖和系统架构。编辑过程配有撤销/重做，历史记录能够逐步回退操作；文档变更还会自动保存和备份，减少意外丢失。界面提供多语言切换及完整中文，并兼容 Windows、macOS 和大多数 Linux 系统。普通用户可从官网直接下载对应平台的最新版，想了解内部实现则可沿开发指南从源代码构建。README 将其重点放在桌面级节点图绘制体验：以鼠标操作快速构思，再用不同图结构把非线性内容清晰呈现。"
     },
     "hluk/CopyQ": {
       "source": "Clipboard manager with advanced features",
@@ -466,6 +472,12 @@
       "analysis_source": "9606cb979d32f25dacff49aee7bb2bc419d6e8571cdf5bea592e057a3e501289",
       "analysis_zh": "从一张照片到可用网格，Modly 把整个生成过程放在本机 GPU 上运行，并以 Windows、Linux 和 Apple Silicon macOS 桌面应用提供操作界面。最直观的入门流程是在 Workflows 页面连接 Image -> Generate Mesh -> Add to Scene，切换到 Generate 页面选中该流程，再点击 Generate 3D Model；若连线或节点组合无效，当前 mesh 视图不会被清空，而会显示行内或 toast 警告。生成或导入的 mesh 还能直接在应用内执行 smoothed 和 decimated，优化结果会写回 workspace。模型与处理能力通过 Extension system 扩展：每个扩展都是带 manifest.json 及相应运行入口的 GitHub 仓库，可在 Models 页面选择 Install from GitHub，填入仓库 HTTPS 地址后安装并下载模型变体。自动化场景无需操作 UI，可让脚本调用已运行的桌面端，例如 python tools/modly-cli/agent.py generate --image ./input.png --output ./export.glb；该命令会创建 workflow run、轮询状态，并按需导出最终网格，机器可读 JSON 保留在 stdout。源码运行则依次安装 npm 依赖、创建 Python 虚拟环境并安装 requirements.txt，最后执行 npm run dev。"
     },
+    "luckjiawei/frpc-desktop": {
+      "source": "Cross-platform desktop client for FRP, visual configuration, easily achieve intranet penetration!",
+      "zh": "跨平台 FRP 桌面客户端，支持可视化配置，轻松实现内网穿透",
+      "analysis_source": "e8dff1d5479fda2746427b9b7ed0ca15899a3f5bbc0aad7cbc09491b86642dd1",
+      "analysis_zh": "不必手写并反复维护 FRP 配置，Frpc Desktop 把内网穿透所需的代理规则做成跨平台可视化界面，同时支持所有 frp versions。它可随系统 Auto start，允许快速选择本地端口，并为 TCP and UDP protocols 批量配置端口；STCP、XTCP、HTTP Locations、HTTP basic auth 与 subdomains 等能力也已逐步加入。多人或不同环境间迁移时，可以导入并识别 frpc.toml，也能整体 import/export of all configurations，必要时一键清空配置；frp 下载还可切换 mirror sites 或选择 download proxy。每条代理支持独立开关，界面提供多语言与 Portable version，另有快速分享 frps 的操作。若更习惯浏览器管理，同一作者还提供 web UI 工具 Podux。macOS 若提示应用损坏，README 给出的处理命令是 sudo xattr cr Frpc Desktop.app。"
+    },
     "lyswhut/lx-music-desktop": {
       "analysis_source": "9dac4d2c7bd06a3e0d44e7d18b23010d3df8db7a27cb8c59bc9a768844ac8008",
       "analysis_zh": "打开 LX Music 桌面版后，用户得到的是一套由 Electron 30+ 与 Vue 3 构建、可运行于 Linux、macOS 和 Windows 7 及以上版本的音乐软件。它并未把默认设置和 UI 操作设计成新手引导式体验，README 因而要求先按个人偏好检查设置，并了解音乐播放列表机制以及鼠标、键盘快捷操作。除桌面播放外，Scheme URL 可让浏览器或油猴脚本唤起软件；独立的数据同步服务可部署到自己的服务器，承担私人多端同步；启用开放 API 服务后，本机会启动 HTTP 服务，让第三方软件调用播放器接口。Windows 用户还可在程序目录创建 portable 文件夹，将其自动用作数据存储位置。在线音频并非软件自行获取：播放器会把歌曲名、艺术家等信息交给“自定义源”，再使用源返回的链接，因此可能发生音频不匹配或无法播放。官方发布只在 GitHub Releases，README 同时明确要求尊重版权、支持正版，并将其定位为技术可行性的探索与研究，不接受商业合作或捐赠。"
@@ -531,8 +543,8 @@
     "nukeop/nuclear": {
       "source": "Streaming music player that finds free music for you",
       "zh": "免费音乐流媒体播放器。",
-      "analysis_source": "1f361ad740e255263e9a99f9e8e8cab61b9c57f6ec38edeb52afe47a5c3e083d",
-      "analysis_zh": "从搜索任意歌曲或艺人开始，Nuclear 会调用可用的音乐来源直接播放内容，整个过程没有广告或跟踪；听众可以继续查看艺人传记、唱片目录、相似艺人以及专辑曲目表，再把歌曲加入支持随机、重复和拖放排序的播放队列。收藏范围覆盖专辑、艺人和单曲，播放列表则可创建、导入、导出，并从多种服务迁移。它最鲜明的设计是将几乎所有功能交给插件驱动：流媒体来源、元数据、播放列表和首页内容都能由插件提供，用户可在内置 plugin store 中浏览安装，扩展作者则通过 @nuclearplayer/plugin-sdk 编写自己的插件；界面还提供内置主题与自定义 CSS 主题。另一个入口是设置中 Integrations 下的 MCP server，启用后可让 AI 代理控制播放器，例如 Codex CLI 可执行“codex mcp add nuclear --url http://127.0.0.1:8800/mcp”连接本机服务。桌面端覆盖 Windows、macOS 与 Linux，主应用以 Tauri、Rust 和 React 构建；参与开发时，在满足 Node.js、pnpm、Rust 及平台依赖后克隆仓库，运行“pnpm install”安装依赖，再用“pnpm dev”启动开发模式，也可通过 pnpm dev:remote 将 Vite 绑定到 0.0.0.0，让局域网其他设备打开远程控制界面。"
+      "analysis_source": "70cad5a56d5814a59d7c540e4bc6681139e04cb576a83d2fd9b2d85e61631c28",
+      "analysis_zh": "搜索歌曲或艺人、建立播放列表并直接收听，Nuclear 用无广告、无追踪的桌面体验串起日常音乐播放。它可浏览艺人传记、唱片目录与相似艺人，也能查看专辑曲目；播放队列支持随机、循环和拖放排序，专辑、艺人及单曲均可收藏。真正决定其可扩展性的部分是 plugin system：播放来源、元数据、播放列表和首页内容都由插件提供，用户可从内置 plugin store 安装，也可通过 @nuclearplayer/plugin sdk 自行编写，界面则支持内置主题与 custom CSS themes。Settings → Integrations 中还能启用 MCP server，让 AI agent 操作播放器。Windows 提供 .exe 与 .msi，macOS 提供 Apple Silicon 和 Intel 的 .dmg，Linux 则覆盖 .AppImage、.deb、.rpm 和 .flatpak；源码采用 pnpm monorepo 与 Turborepo 管理，主应用由 Tauri、Rust 和 React 构建。"
     },
     "oliverschwendener/ueli": {
       "source": "Cross-Platform Keystroke Launcher",
@@ -591,8 +603,8 @@
     "reqable/reqable-app": {
       "source": "Reqable issue track repo",
       "zh": "Reqable问题跟踪仓库。",
-      "analysis_source": "66cde7ced7c408117251b585606ec252941d468c3b50c859ddd54d1a0fc95944",
-      "analysis_zh": "Reqable 将 API traffic capture tool 与 API testing client 深度整合在同一环境中，让抓包结果可以直接进入测试流程，而不必在多个独立工具间切换。它覆盖 Windows、macOS、Linux、Android 和 iOS：桌面端通过系统代理配置拦截流量，移动端则使用 local VPN，并以经典 MITM 方式捕获 HTTP(S) 请求；拿到流量后，可以执行 request replay、inline editing、breakpoints、URL rewriting 和 custom scripting 等调试操作。测试侧可编写、发送和整理 HTTP、WebSocket、SSE 请求，通过文件夹组织 API collections，利用 environment variables 的作用域解析复用配置，还提供 API 文档编写与跨设备 cloud synchronization。内置 MCP server 可让 Claude、GitHub Copilot 等 AI 助手直接检查流量、编写规则和执行自动化测试，其实现另行开源。移动版同时保留抓包与测试功能，并能扫描二维码添加桌面端，将手机流量转发过去深入分析；但受平台安全策略限制，移动端暂不提供 breakpoints、rewrite 和 scripting。实现上采用 Flutter 和 C++，避免嵌入浏览器运行时，README 给出的指标包括毫秒级冷启动、安装体积低于 100 MB，以及活跃使用时典型内存低于 300 MB。macOS 用户可运行 brew install reqable，其他平台则提供 exe、zip、dmg、deb、AppImage、apk 或应用商店渠道。多数功能可免费使用且没有试用期，Community edition 可覆盖多数个人需求，Premium tier 提供更进阶的个人及团队能力。需要明确的是，Reqable 本身并不开源，此仓库仅用于 issue tracking、feature requests 和 user feedback。"
+      "analysis_source": "aca53a34e19f8e0197b533ffc7613d5fc2c841b6d1803d3956a20d7efe7937e6",
+      "analysis_zh": "Reqable 把抓包调试与 API 请求测试放在同一套跨平台环境中，让捕获到的流量可以顺势进入重放、编辑和验证流程。桌面端通过系统代理、移动端通过 local VPN，以 MITM 方式截获 HTTP(S) 流量；随后可进行 request replay、inline editing、breakpoints、URL rewriting 和 custom scripting。测试客户端能够编排并发送 HTTP、WebSocket 与 SSE 请求，gRPC 标为 coming soon，同时提供按文件夹组织的 API collections、具有作用域解析的 environment variables、内置文档编写和跨设备 cloud synchronization。软件覆盖 Windows、macOS、Linux、Android 与 iOS，采用免登录、轻量且无广告的使用方式，多数功能可免费使用，Community edition 主要服务个人需求，Premium tier 提供进阶能力。需要特别区分的是，这个仓库仅承担 issue tracking、feature requests 和 user feedback，Reqable 本体并非开源项目。"
     },
     "rowboatlabs/rowboat": {
       "source": "Open-source AI coworker, with memory",
@@ -603,8 +615,8 @@
     "rullerzhou-afk/clawd-on-desk": {
       "source": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
       "zh": "像素风桌面宠物，监控多种AI编程助手。",
-      "analysis_source": "4d7b651c72d8cca197675b25e4a8e8f417b2c5906d1ae996a3d03c32e7e1a5f5",
-      "analysis_zh": "把耗时的 AI 编程任务交出去后，Clawd 会留在桌面上替你观察进度：收到提示时思考，工具运行时打字，子代理启动后戴耳机律动或抛球，任务完成则庆祝，闲置 60 秒后逐步打哈欠、打盹并睡着。它能够同时跟踪 Claude Code、Codex CLI、Gemini CLI、Cursor Agent、opencode 等多种代理的独立会话，主要通过命令 hooks、插件事件或日志轮询获得实时状态；不同集成的权限能力并不相同，例如部分代理可弹出 Permission Bubble，另一些只驱动动画，审批仍留在原终端流程。支持的权限请求会堆叠在屏幕右下角，可直接 Allow 或 Deny，也能用 Ctrl+Shift+Y 和 Ctrl+Shift+N 处理最新请求；若先在终端作答，浮层会自动消失。右键或托盘选择 Open Dashboard，可以查看活动会话、近期事件和别名，并跳转到对应终端。桌宠本身提供 Clawd 像素螃蟹、Calico 三花猫和 Cloudling 云宝三套主题，还支持 Codex Pet imports 与自定义主题；闲置时眼睛会追随鼠标，双击、连续点击和拖拽都有反馈。拖到屏幕右缘或右键开启 Mini Mode 后，它会藏在边缘，仅在悬停、提醒或庆祝时探出。应用覆盖 Windows 11、macOS 与 Ubuntu/Linux，设置页的 Agents 区域可按需安装各代理集成并关闭某一代理的弹窗。"
+      "analysis_source": "e4215f2718c821cb8fe6df2d0e491b60b167c60a3410bf88924423383809fcd8",
+      "analysis_zh": "长时间交给 AI 编程代理的任务，可以通过桌面上的像素宠物判断进展：Clawd on Desk 会在收到提示时思考、工具运行时打字、子代理工作时跳舞或杂耍、等待权限时提醒，并在完成后庆祝，用户无需一直盯着终端。内置外观有 Clawd 像素螃蟹、Calico 三花猫和 Cloudling 云宝，也支持 custom themes 及导入 Codex Pet animation packs。代理接入方式因工具而异：Claude Code 使用 command hooks 与 HTTP permission hooks；Codex CLI 优先采用 official hooks，并以 ~/.codex/sessions/ 中的 JSONL 作为后备，还能显示真实 permission bubbles；Copilot CLI、Gemini CLI、Cursor Agent 等可从 Settings → Agents 安装可选 hooks。Antigravity CLI 只同步状态，授权仍在自身终端菜单完成。程序覆盖 Windows 11、macOS 和 Ubuntu/Linux，Windows 分别提供 x64 与 ARM64 安装包。"
     },
     "rustdesk/rustdesk": {
       "source": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
@@ -621,8 +633,8 @@
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "zh": "支持多代理并行的AI开发环境。",
-      "analysis_source": "9e15bd707cec105aec190f5eb7532517c20e34abbff4613aebafa0930b784e91",
-      "analysis_zh": "Orca 将多个编码智能体放进同一套可观察、可干预的工作台：Codex、Claude Code、OpenCode、Pi 以及其他能在终端运行的 CLI agent，都可以并排工作，并分别落在隔离的 git worktree 中。用户可以把同一提示分发给五个智能体，对照结果后合并胜出的实现；每条线程、终端和改动又集中在一个界面里跟踪。Terminal Splits 提供 WebGL 渲染、无限拆分及重启后仍保留的回滚记录，Annotate AI Diffs 则允许直接在 diff 行上留言，再把反馈送回智能体继续修改。Design Mode 能在真实 Chromium 窗口中点选 UI 元素，把对应 HTML、CSS 和裁剪截图一并写入提示；内置的 GitHub 与 Linear 浏览、VS Code 编辑器、文件拖放和仓库预览减少了任务上下文切换。远程工作可借助 SSH Worktrees 在服务器上运行，自动重连并转发端口；Mobile Companion 则让手机接收完成通知、查看状态和发送后续指令。工作流还可通过 Orca CLI 脚本化，例如 orca worktree create，桌面端覆盖 macOS、Windows 和 Linux，也支持 headless Linux server。"
+      "analysis_source": "ddef70361f50f3389e1285f47b7210a4b2cdcdd715663f4784930b7f9196c936",
+      "analysis_zh": "把 Codex、ClaudeCode、OpenCode 或 Pi 放进同一个开发界面并排运行，是 Orca 组织 AI 编程工作的主线。每个代理使用独立的 git worktree，同一提示可以同时分发给五个代理，结果集中比较后再合并胜出版本；差异审阅时还能直接在代码行上留言，把反馈送回代理继续修改。它不只管理会话：Terminal Splits 提供可无限拆分、重启后保留回滚记录的终端，Design Mode 可在真实 Chromium 窗口中点选界面元素，将 HTML、CSS 与裁剪截图一并加入提示。GitHub 和 Linear 的 PR、Issue、项目看板可在应用内浏览并直接建立工作树，SSH Worktrees 则把编辑、Git 与终端迁往远程主机，并负责自动重连和端口转发。离开电脑后，Mobile Companion 会在代理完成时通知手机，也允许随时发送后续指令；若想自动化整套流程，还可用 Orca CLI 的 orca worktree create、snapshot、click 和 fill 驱动界面与工作树。"
     },
     "streetwriters/notesnook": {
       "source": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
@@ -641,8 +653,8 @@
       "zh": "基于异步I/O的极速终端文件管理器。"
     },
     "t8y2/dbx": {
-      "analysis_source": "4efe6976a83e7ef3a0b8d795bdd675542255614fc7bb64140b7ba666afdd5b47",
-      "analysis_zh": "一个约 20 MB 的单文件程序承载了数据库连接、查询、结构管理和 AI 协作，DBX 不捆绑 Chromium、Java JRE 或 Python venv，可在 macOS、Windows、Linux 原生运行，也能通过 Docker 提供团队访问的 Web 界面。它覆盖 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse 等 70+ databases，并以 JDBC 或 agent 驱动扩展更多数据源及消息队列。查询区采用 CodeMirror 6，支持元数据补全、选中 SQL 执行、格式化、诊断、历史与片段；结果 Data Grid 可虚拟滚动、行内编辑、预览保存 SQL，并导出 CSV、JSON、Markdown、XLSX 或 INSERT statements。结构浏览、ER diagram、Schema diff、执行计划、字段血缘、数据比较与跨库迁移覆盖了从查看到维护的完整操作。内置 AI SQL Assistant 可把自然语言转成 SQL，也能解释、优化和修复查询，并在执行生成语句前进行安全检查，兼容 Claude、OpenAI、Ollama 及 OpenAI-compatible endpoint。独立的 MCP Server 通过 npx @dbx-app/mcp-server 接入 Claude Code、Cursor 或 Windsurf，复用 DBX 已配置的连接；连接白名单以及 Read only、Data read/write、Full access 权限在设置中统一管理。终端工作流则可安装 @dbx-app/cli，使用 dbx connections list --json 查看连接，再以 dbx query local \"select 1\" --json 执行查询。",
+      "analysis_source": "479974f2b4f15cbbc34ae0be4497d196ff18811c36b1e302a65d808df69e3f2e",
+      "analysis_zh": "DBX 将 70+ databases、桌面客户端、Docker、CLI、AI 助手和 MCP Server 收进约 20 MB 的单一程序，并刻意不捆绑 Chromium、Java JRE 或 Python venv，下载后即可安装和连接。数据库覆盖 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server、Oracle 等类型，还以 agent based profiles 扩展 H2、Snowflake、Trino、Hive、DB2 及自定义 JDBC 连接，并兼顾 Pulsar、Kafka、RocketMQ 的消息队列管理。查询工作围绕 CodeMirror 6 编辑器展开，提供 SQL 高亮、感知元数据的自动补全和 Cmd+Enter execution。AI 可在编辑器里根据选中的表与自然语言生成 SQL，连接 Claude、OpenAI 或 Ollama 本地模型，并在执行前进行安全检查；同一批既有连接还能通过 Model Context Protocol 开放给 Claude Code、Cursor、Windsurf 等代理。macOS、Windows、Linux 原生端、Docker 自托管和浏览器版本保持相同功能与连接方式。",
       "source": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "是支持70+数据库的轻量级跨平台数据库客户端，含AI助手和多种运行环境。"
     },
