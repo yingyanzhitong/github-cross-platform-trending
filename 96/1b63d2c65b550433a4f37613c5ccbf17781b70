@@ -1,0 +1,40 @@
+site/src/lib/report.ts
+  s_4d6fdd61574b1b::t_fb9416be9bdb9e 62-66
+src/cross_platform_trending/__init__.py
+  s_4d6fdd61574b1b::t_fb9416be9bdb9e 3
+CHANGELOG.md
+  s_4d6fdd61574b1b::t_fb9416be9bdb9e 5-10
+pyproject.toml
+  s_4d6fdd61574b1b::t_fb9416be9bdb9e 7
+site/package.json
+  s_4d6fdd61574b1b::t_fb9416be9bdb9e 4
+docs/404.html
+  s_4d6fdd61574b1b::t_bcc511e8eceeba 12
+docs/assets/index-YLF9Usbp.js
+  s_4d6fdd61574b1b::t_522e9b681ef7ed 49
+docs/assets/report-markdown-Cl5Rxe6f.js
+  s_4d6fdd61574b1b::t_6f8e1a080a18ce 1
+docs/index.html
+  s_4d6fdd61574b1b::t_52380988290a75 12
+site/package-lock.json
+  s_4d6fdd61574b1b::t_e00ece8175047a 3,9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "961b63d2c65b550433a4f37613c5ccbf17781b70",
+  "prompts": {},
+  "logical_commit_id": "961b63d2c65b550433a4f37613c5ccbf17781b70",
+  "sessions": {
+    "s_4d6fdd61574b1b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019facc4-37f4-7df2-9152-92c3103ebd72",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "masongzhi <masongzhi@bigo.sg>",
+      "total_additions": 14,
+      "total_deletions": 10
+    }
+  }
+}
