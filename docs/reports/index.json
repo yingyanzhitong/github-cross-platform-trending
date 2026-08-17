@@ -2813,8 +2813,283 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-08-16",
+      "latest": "2026-08-17",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-08-17",
+          "generated_at": "2026-08-17T09:06:54+08:00",
+          "discovered_count": 991,
+          "candidate_count": 100,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "unslothai/unsloth",
+              "trending_rank": 3,
+              "stars_today": 572
+            },
+            {
+              "rank": 2,
+              "name": "public-apis/public-apis",
+              "trending_rank": 5,
+              "stars_today": 1588
+            },
+            {
+              "rank": 3,
+              "name": "cactus-compute/needle",
+              "trending_rank": 7,
+              "stars_today": 443
+            },
+            {
+              "rank": 4,
+              "name": "ToolJet/ToolJet",
+              "trending_rank": 6,
+              "stars_today": 452
+            },
+            {
+              "rank": 5,
+              "name": "OpenCut-app/OpenCut",
+              "trending_rank": 4,
+              "stars_today": 150
+            },
+            {
+              "rank": 10,
+              "name": "basecamp/omarchy",
+              "trending_rank": 2,
+              "stars_today": 270
+            },
+            {
+              "rank": 12,
+              "name": "cordiverse/cordis",
+              "trending_rank": 1,
+              "stars_today": 720
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "unslothai/unsloth",
+              "trending_rank": 13,
+              "stars_today": 2645
+            },
+            {
+              "rank": 3,
+              "name": "cactus-compute/needle",
+              "trending_rank": 6,
+              "stars_today": 2950
+            },
+            {
+              "rank": 4,
+              "name": "ToolJet/ToolJet",
+              "trending_rank": 9,
+              "stars_today": 1518
+            },
+            {
+              "rank": 6,
+              "name": "PrimeIntellect-ai/prime-agent",
+              "trending_rank": 3,
+              "stars_today": 6435
+            },
+            {
+              "rank": 7,
+              "name": "addyosmani/agent-skills",
+              "trending_rank": 10,
+              "stars_today": 2882
+            },
+            {
+              "rank": 8,
+              "name": "paperclipai/paperclip",
+              "trending_rank": 16,
+              "stars_today": 2499
+            },
+            {
+              "rank": 9,
+              "name": "TencentCloud/TencentDB-Agent-Memory",
+              "trending_rank": 14,
+              "stars_today": 3637
+            },
+            {
+              "rank": 10,
+              "name": "basecamp/omarchy",
+              "trending_rank": 12,
+              "stars_today": 759
+            },
+            {
+              "rank": 11,
+              "name": "cathrynlavery/diagram-design",
+              "trending_rank": 1,
+              "stars_today": 15600
+            },
+            {
+              "rank": 13,
+              "name": "vitali87/code-graph-rag",
+              "trending_rank": 8,
+              "stars_today": 1686
+            },
+            {
+              "rank": 17,
+              "name": "semantica-agi/semantica",
+              "trending_rank": 2,
+              "stars_today": 5284
+            },
+            {
+              "rank": 27,
+              "name": "3b1b/manim",
+              "trending_rank": 11,
+              "stars_today": 1978
+            },
+            {
+              "rank": 31,
+              "name": "macro-inc/macro",
+              "trending_rank": 7,
+              "stars_today": 2588
+            },
+            {
+              "rank": 32,
+              "name": "NVIDIA-NeMo/Switchyard",
+              "trending_rank": 4,
+              "stars_today": 1435
+            },
+            {
+              "rank": 55,
+              "name": "megadose/holehe",
+              "trending_rank": 5,
+              "stars_today": 1287
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 10,
+              "name": "basecamp/omarchy"
+            },
+            {
+              "rank": 12,
+              "name": "cordiverse/cordis"
+            },
+            {
+              "rank": 88,
+              "name": "awesome-dsh-plugin/awesome-dsh-plugin"
+            },
+            {
+              "rank": 93,
+              "name": "HKUDS/Vibe-Trading"
+            },
+            {
+              "rank": 98,
+              "name": "ollama/ollama"
+            },
+            {
+              "rank": 100,
+              "name": "freestylefly/awesome-gpt-image-2"
+            }
+          ],
+          "warnings_count": 0,
+          "item_names": [
+            "unslothai/unsloth",
+            "public-apis/public-apis",
+            "cactus-compute/needle",
+            "ToolJet/ToolJet",
+            "OpenCut-app/OpenCut",
+            "PrimeIntellect-ai/prime-agent",
+            "addyosmani/agent-skills",
+            "paperclipai/paperclip",
+            "TencentCloud/TencentDB-Agent-Memory",
+            "basecamp/omarchy",
+            "cathrynlavery/diagram-design",
+            "cordiverse/cordis",
+            "vitali87/code-graph-rag",
+            "mattpocock/skills",
+            "deepseek-ai/deepseek-harness",
+            "DietrichGebert/ponytail",
+            "semantica-agi/semantica",
+            "nexu-io/open-design",
+            "NousResearch/hermes-agent",
+            "Graphify-Labs/graphify",
+            "obra/superpowers",
+            "earendil-works/pi",
+            "stablyai/orca",
+            "firecrawl/anydoc",
+            "github/spec-kit",
+            "affaan-m/ECC",
+            "3b1b/manim",
+            "anomalyco/opencode",
+            "firecrawl/firecrawl",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "macro-inc/macro",
+            "NVIDIA-NeMo/Switchyard",
+            "anthropics/skills",
+            "Panniantong/Agent-Reach",
+            "koala73/worldmonitor",
+            "harry0703/MoneyPrinterTurbo",
+            "msitarzewski/agency-agents",
+            "JuliusBrussee/caveman",
+            "herdrdev/herdr",
+            "virgiliojr94/book-to-skill",
+            "JustVugg/colibri",
+            "garrytan/gstack",
+            "DigitalPlatDev/FreeDomain",
+            "zhaoxuya520/reverse-skill",
+            "Leonxlnx/taste-skill",
+            "farion1231/cc-switch",
+            "openclaw/openclaw",
+            "titanwings/colleague-skill",
+            "VoltAgent/awesome-design-md",
+            "calesthio/OpenMontage",
+            "santifer/career-ops",
+            "tt-a1i/archify",
+            "ayghri/i-have-adhd",
+            "emilkowalski/skills",
+            "megadose/holehe",
+            "HKUDS/CLI-Anything",
+            "lidge-jun/opencodex",
+            "D4Vinci/Scrapling",
+            "citrolabs/ego-lite",
+            "anywhere-labs/deepseek-harness-desktop",
+            "block/buzz",
+            "xai-org/grok-build",
+            "Yuan1z0825/nature-skills",
+            "clash-verge-rev/clash-verge-rev",
+            "openai/codex",
+            "Egonex-AI/Understand-Anything",
+            "Nutlope/hallmark",
+            "yc-software/qm",
+            "Comfy-Org/ComfyUI",
+            "img2threejs/img2threejs",
+            "heygen-com/hyperframes",
+            "microsoft/markitdown",
+            "odysseus-dev/odysseus",
+            "datawhalechina/hello-agents",
+            "ruvnet/RuView",
+            "Imbad0202/academic-research-skills",
+            "ZhuLinsen/daily_stock_analysis",
+            "MadsLorentzen/ai-job-search",
+            "guillaumemeyer/watermarks-remover",
+            "headroomlabs-ai/headroom",
+            "Shubhamsaboo/awesome-llm-apps",
+            "tw93/Mole",
+            "JCodesMore/ai-website-cloner-template",
+            "ggml-org/llama.cpp",
+            "TauricResearch/TradingAgents",
+            "DeusData/codebase-memory-mcp",
+            "anthropics/claude-code",
+            "awesome-dsh-plugin/awesome-dsh-plugin",
+            "rtk-ai/rtk",
+            "colbymchenry/codegraph",
+            "iOfficeAI/OfficeCLI",
+            "FareedKhan-dev/kimi-k3-in-c",
+            "HKUDS/Vibe-Trading",
+            "t8y2/dbx",
+            "thedotmack/claude-mem",
+            "rohitg00/ai-engineering-from-scratch",
+            "browser-use/browser-use",
+            "ollama/ollama",
+            "baidu/Unlimited-OCR",
+            "freestylefly/awesome-gpt-image-2"
+          ],
+          "report_path": "reports/hot-rising/2026-08-17.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-08-16",
