@@ -16,8 +16,8 @@
     "CyberTimon/RapidRAW": {
       "source": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
       "zh": "高性能GPU加速的非破坏性RAW图像编辑器。",
-      "analysis_source": "3d58427ce8c7a23c239b7c8bf5ada1e8c5b0322af91b53d2d56c2132f3cc4f84",
-      "analysis_zh": "RapidRAW 将 RAW 调色与修图放进一个不足 20MB 的轻量应用，强调 non destructive 编辑和 GPU accelerated 处理，覆盖 Windows、macOS、Linux 与 Android。操作体验围绕干净、快速的摄影工作流设计：用户可以从基础 adjustments 逐步进入 masking，再利用高质量 multi scale filter 完成局部对比度锐化；导出时会保留并写入完整 EXIF metadata。近期能力还延伸到 Focus Stacking，可把多张不同焦点的包围照片合成为一张清晰图像；生成式 AI inpainting 流程则能自动裁切画布。macOS 与 Linux 上的 Camera Tethering 支持实时 Live View、曝光控制、ghost overlay，并把拍摄结果直接送入图库。底层采用 Rust、wgpu、WGSL、React 与 Tauri，README 同时坦率说明其仍在积极开发，成熟度暂未达到 Darktable、RawTherapee 或 Adobe Lightroom 的水平，实际使用中仍可能遇到缺陷。"
+      "analysis_source": "d019e78f001665265b3bf714f85b12096e963d56c70147af523a70ecc9ed5a89",
+      "analysis_zh": "RapidRAW 追求干净、快速而直接的摄影后期流程，以 non destructive 编辑和 GPU accelerated 图像处理为基础，在不足 20MB 的轻量包中提供 Windows、macOS、Linux 与 Android 版本。技术栈由 Rust、wgpu、React、Tauri 和 WGSL 组成，重点是让调整、遮罩和调色操作保持顺畅，同时避免原始素材被破坏。近期能力已经延伸到由 Spektrafilm 驱动的内置 analog film emulations，其 WGSL shader 使用 scene referred V Log color pipeline；Camera Tethering 可在 macOS 与 Linux 上提供 real time Live View、曝光控制、ghost overlay 和拍摄后直接导入图库，Focus Stacking 则能把多张不同焦点的包围照片合成为一张清晰图像。导出会保留并写回完整 EXIF metadata，锐化也已换成高质量 multi scale filter。README 同时坦率说明软件仍在积极开发，成熟度尚不及 Darktable、RawTherapee 或 Adobe Lightroom®，当前优先完善快速、愉悦的核心编辑体验，遇到缺陷可直接反馈。"
     },
     "DayuanJiang/next-ai-draw-io": {
       "source": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
@@ -68,8 +68,8 @@
     "IsmaelMartinez/teams-for-linux": {
       "source": "Unofficial Microsoft Teams for Linux client",
       "zh": "非官方Linux版微软Teams客户端。",
-      "analysis_source": "9f8998b017877376dd5b46878e652501075330b06d2cd4caad99a1f9143f89aa",
-      "analysis_zh": "Teams for Linux 将 Microsoft Teams 网页版包装成更贴近 Linux 桌面的独立应用，补上 system notifications、system tray integration、custom backgrounds、themes、screen sharing 和 multiple account profiles 等系统侧体验。安装可以走专用 Debian/DEB、RHEL/Fedora/RPM 仓库，也有 AUR、Pacstall、Snap Store 等发行渠道；手动下载则提供 AppImage、deb、rpm、snap、tar.gz，README 还建议 AppImage 用户借助 AppImageLauncher 获得更好的桌面集成。装好后运行 teams for linux 即可启动，需要定制时可创建 ~/.config/teams-for-linux/config.json。多账户配置、视频背景、完整配置项和故障处理均由 Complete Documentation 继续说明。它是 independent project，并不隶属于 Microsoft，因此部分能力仍会受到 Teams web app 本身的限制。"
+      "analysis_source": "ceafa00c95540bb1e9aee28c37637ccedfc211274e0719362622789b9c01469e",
+      "analysis_zh": "Teams for Linux 将 Teams web version 包装成更贴合 Linux 桌面习惯的独立应用，补上 System notifications、System tray integration、自定义背景和主题、屏幕共享以及 Multiple account profiles 等能力。安装可以走专用 Debian/DEB 或 RHEL/Fedora/RPM 仓库，也能从 AUR、Pacstall、Snap Store 获取；手动下载则提供 AppImage、deb、rpm、snap、tar.gz 等格式，其中 README 推荐 AppImage 用户借助 AppImageLauncher 获得更好的桌面集成。装好后执行 teams for linux 即可启动，如需调整行为，可创建 ~/.config/teams-for-linux/config.json。文档还分别覆盖安装、完整配置、常见故障、多账户工作与个人身份并行运行，以及视频通话背景设置。它属于 independent project，与 Microsoft 没有关联，实际能力受 Teams 网页版本边界约束，因此系统托盘徽标等体验也可能随桌面环境而异。"
     },
     "JannisX11/blockbench": {
       "source": "Blockbench - A low poly 3D model editor",
@@ -122,8 +122,8 @@
     "OpenHands/OpenHands": {
       "source": "🙌 OpenHands: AI-Driven Development",
       "zh": "基于AI驱动的软件开发平台。",
-      "analysis_source": "a605e0560e70519e62662357314317a37c7fbc3410efc248443ea06cedd3500e",
-      "analysis_zh": "Agent Canvas 把散落在终端、容器和云端的编码代理汇集为一个可自托管、持续在线的开发控制中心。用户可以在笔记本、Mac Mini 或云服务器上安装它，默认在本机运行 OpenHands，同时也能连接 Docker containers、VMs 或公司内部的 agent backends，并在 local、remote、cloud 后端之间切换。这里不只承载对话：日常工程任务可被编排成 Automations，按计划执行或由 webhook events 触发，例如生成并发布到 Slack 的报告，或把 GitHub issues 自动拆成任务；工作流还能连接 GitHub、Linear、Notion 等服务。代理层保持开放，除了内置 OpenHands，还可运行 Claude Code、Codex、Gemini，以及任何兼容 Agent Client Protocol (ACP) 的代理；模型也允许自行选择。由此，Agent Canvas 更像一支可调度的常驻工程团队控制台，而不只是单次问答式编码界面。"
+      "analysis_source": "71eff935899f2cfd7758915a7da84b4737ffd44f37416d385584ffbe62498483",
+      "analysis_zh": "Agent Canvas 将多个编码智能体汇集为可自托管、持续在线的开发控制中心，既可以启动对话，也可以把日常工程工作编排成自动化，例如生成并发布到 Slack 的报告，或自动把 GitHub issues 拆成任务。它默认在本机运行，同时允许连接 Docker 容器、虚拟机、企业内部设施以及 OpenHands Cloud 等不同 agent backends，并能在本地、远程与云端后端之间切换。内置的 OpenHands 可开箱运行，Claude Code、Codex、Gemini 以及任何兼容 Agent Client Protocol (ACP) 的智能体也能接入，模型则可自行选择。自动化既可定时触发，也可响应 webhook events，并与 Slack、GitHub、Linear、Notion 等服务组合成工作流。Quickstart 的部署范围从个人笔记本、Mac Mini 一类专用电脑到云服务器，因此它不仅是一次性调用代理的聊天界面，更强调统一管理后端、智能体、集成与长期运行任务。"
     },
     "OpenWhispr/openwhispr": {
       "source": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
@@ -241,8 +241,8 @@
     "agalwood/Motrix": {
       "source": "A full-featured download manager.",
       "zh": "功能完善的下载管理器。",
-      "analysis_source": "58857bdbf3780bacce910b61bfa858d1b9b17db6cecea2ffa49813e1d5f855ac",
-      "analysis_zh": "Motrix 用简洁桌面界面统一处理 HTTP、FTP、BitTorrent 和 magnet links 下载，同时把下载核心与 UI 分离，使同一套能力既能运行成 macOS、Windows、Linux 桌面应用，也能以 Headless server 部署在 Node.js 或 Docker 中，并通过 Web UI 服务 NAS 与家庭服务器。浏览器扩展和命令行工具利用 MDXP 与应用通信；这一开放协议建立在 JSON RPC 2.0 之上，插件则放进隔离沙箱。日常操作不仅有单文件选择、磁力链接、限速配置和 tracker 自动维护，SQLite backed sessions 还能在重启后恢复任务，Dashboard 会呈现传输统计、实时活动与任务卡片。正在测试的 Motrix Turbo v2 由 Electron、React 和 TypeScript 重构，README 明确指出 v1 数据迁移尚未验证，因此测试 beta 时应备份现有数据并使用独立账户、机器或 Docker 数据目录。"
+      "analysis_source": "bfafdf70945f11c9f49c107816d26c9b2a87e9782fadb90487cc234643363843",
+      "analysis_zh": "Motrix 把 HTTP、FTP、BitTorrent 与 magnet links 下载集中到简洁的桌面界面中，并提供逐文件选择、上传下载限速、多套速度配置、tracker 自动更新与健康检查，以及 UPnP 和 NAT PMP 端口映射。任务由 SQLite backed sessions 保存，应用重启后仍可恢复；Dashboard 可展示传输统计、实时活动和任务卡片，下载完成后还会发送系统通知。正在测试的 Motrix Turbo 从底层重建，采用 Electron、React 和 TypeScript，并把下载核心与 UI 分离：浏览器扩展和命令行工具通过基于 JSON RPC 2.0 的 MDXP 与应用通信，插件则运行在隔离沙箱中。相同核心既能驱动 macOS、Windows、Linux 桌面应用，也能以 Node.js 或 Docker 方式运行 Headless server，并为 NAS 和家庭服务器提供 Web UI。v2 仍处于 beta，README 明确要求测试前备份既有数据，因 v1 数据迁移尚未验证，最好使用独立账户、机器或 Docker 数据目录并行体验。"
     },
     "ai-shifu/ChatALL": {
       "source": "Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover the best answers",
@@ -293,8 +293,8 @@
     "caamer20/Telegram-Drive": {
       "source": "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.",
       "zh": "将Telegram账号变成无限安全云存储的开源桌面应用。",
-      "analysis_source": "47e87208c56983dcf3dc7700fbcda7be6d9b5cfa0ef142342477eadb3b6f75b7",
-      "analysis_zh": "Telegram Drive 在 Saved Messages 和 Telegram channels 之上铺设桌面式文件工作区：Saved Messages 充当主页，由应用创建或选择的频道可以显示成文件夹，用户使用自己的 API credentials 直接连接 Telegram。界面提供 grid 和 list views、大目录 virtualized rendering、搜索排序、多选、范围选择及批量操作，并支持上传、下载、重命名、移动、复制、删除和内部 drag and drop。整文件夹上传时可先打包 ZIP，remote URL uploads 则带进度、取消、重试，并在源服务器允许时使用 resumable range；persistent transfer queues 和紧凑的 transfer center 会持续呈现传输状态。图片与媒体可通过 lazy loading 缩略图和内存、磁盘 preview caches 加速重复查看，另有可选 encrypted transfer mode、分享工具及 local REST API。存储并非字面意义上的无限：文件仍受 Telegram 账户、服务和单文件限制，当前策略把单个对象限制在约 2,000,000,000 bytes，加密封装还会进一步压缩明文上限。"
+      "analysis_source": "38a958da8c8237501144d99383c719a51848275b39aace47863d9f80b94780cf",
+      "analysis_zh": "Telegram Drive 在 Telegram 的 Saved Messages 和频道之上铺设桌面式文件工作区：Saved Messages 充当主目录，由应用创建或选中的 Telegram channels 可显示为文件夹。用户使用自己提供的 API credentials 直接连接 Telegram，随后可在网格或列表视图中搜索、排序、多选和批量处理文件，执行上传、下载、重命名、移动、复制、删除及内部拖放整理；文件夹可以创建、改名、隐藏或归入本地自定义分组。整文件夹上传可先打包为 ZIP，Remote URL uploads 提供进度、取消、重试，并在源服务器允许时进行 resumable range support；Persistent transfer queues 与紧凑传输中心会持续呈现任务状态。图片和媒体支持延迟加载缩略图及内存、磁盘预览缓存，应用还提供预览、流媒体、分享工具、local REST API、主题、本地化和可选 encrypted transfer mode。存储仍受 Telegram 账户、服务及单文件限制约束，当前策略将单个对象限制在约 2,000,000,000 bytes，加密封装还会略微压缩原始明文的可用上限。"
     },
     "cjpais/Handy": {
       "source": "A free, open source, and extensible speech-to-text application that works completely offline.",
@@ -353,8 +353,8 @@
     "electerm/electerm": {
       "source": "📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS)",
       "zh": "支持多种远程协议和串口的跨平台客户端",
-      "analysis_source": "3faac9d8f79ba304ebfd76d28b92d293512818bc59f1042e1474fa4c2aba0c6e",
-      "analysis_zh": "electerm 把本地 terminal、文件管理和多种远程连接收进一个跨平台客户端，协议覆盖 ssh、sftp、ftp、telnet、serialport、RDP、VNC 与 Spice。除 Windows、macOS、Linux 和 Android 外，它还照顾 HarmonyOS、Windows 7、Ubuntu 18、UOS、Kylin 以及 LoongArch 新旧世界等环境，并提供浏览器运行的 electerm web 和可直接体验的在线版本。连接后可以双击编辑较小的远程文件，使用 publicKey + password 认证，建立 ssh tunnel，或通过 Zmodem 的 rz、sz 及兼容方案 Trzsz 传输文件；默认 ctrl + 2 的 global hotkey 可快速显示或隐藏窗口。界面支持多语言和主题，安装入口则分布在 Microsoft Store、Snap Store、deb repo、rpm repo、Android 与 HarmonyOS 渠道，便于按设备形态选择。"
+      "analysis_source": "7d68bee87b7d5fbcb9339e4066cd52415277de722429701879da95956507ac5a",
+      "analysis_zh": "electerm 把 terminal/file manager 与 ssh、sftp、ftp、telnet、serialport、RDP、VNC、Spice 等连接方式放在同一个客户端内，可在 Windows、macOS、Linux、Android 和 HarmonyOS 上使用。它尤其强调广泛的系统兼容性，除常见的 x64、ARM64 外，还覆盖 Ubuntu 18、Windows 7、UOS、Kylin 以及 LoongArch 新旧世界环境，部分旧 Linux 只需 glibc 2.17+。日常操作中可以用默认 ctrl + 2 的 Global hotkey 显示或隐藏窗口，双击直接编辑较小的远程文件，并通过 publicKey + password 登录；文件传输支持 Zmodem 的 rz、sz，也支持兼容类似流程的 Trzsz，以及 ssh tunnel。除了安装版，README 还给出 electerm online、浏览器运行的 electerm web 和 Docker 等入口；AI 工作流可连接 Atlas Cloud 提供的 OpenAI compatible AI APIs，通过单一 API 接入多种模型并使用智能路由与自动故障转移。"
     },
     "elie222/inbox-zero": {
       "source": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
@@ -657,8 +657,8 @@
     "streetwriters/notesnook": {
       "source": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
       "zh": "完全开源且端到端加密的笔记软件，Evernote替代品。",
-      "analysis_source": "4ede5b9361166eab222f92d469ad63614e06483a44b24d5d3d6068c121327237",
-      "analysis_zh": "Notesnook 试图证明隐私与便利不必二选一：笔记在用户设备上使用 XChaCha20-Poly1305 与 Argon2 加密，以零知识原则保护内容，同时提供 Web、桌面和移动客户端，作为可自由使用和审查源码的 Evernote 替代方案。仓库包含构建这些客户端所需的完整代码，并采用 monorepo 组织跨平台实现：@notesnook/web 对应网页端，@notesnook/desktop 以 Electron 承载桌面端，@notesnook/mobile 使用 React Native 构建 Android 与 iOS 应用；三端共享 @notesnook/core，而 @notesnook/crypto 和 @notesnook/sodium 分别封装加密能力与 libsodium 的 Node.js、浏览器兼容层。编辑器集中在 @notesnook/editor，移动端只以很薄的 @notesnook/editor-mobile 包装复用它；网页剪藏则拆为扩展和 @notesnook/clipper 核心。前端统一使用 React，代码目前处于 JavaScript 向 Typescript 逐步迁移的混合状态，依赖管理明确采用 NPM。README 还将导入迁移、加密声明自检 Vericrypt，以及各子项目的架构说明分别引向专门资源，方便用户验证隐私主张或参与开发。"
+      "analysis_source": "1e3a73795bfa1cd18558c77af0932ad503ada7d40a7a1064a1c099c3ee72a565",
+      "analysis_zh": "Notesnook 以隐私和易用性为中心提供端到端加密笔记体验，目标是在不牺牲便利性的前提下落实 zero knowledge principles。内容会先在用户设备上使用 XChaCha20 Poly1305 与 Argon2 加密，使笔记安全不依赖服务端明文处理；代码完全开放，也让这一安全主张能够被检查。仓库包含构建和使用 Web、桌面与移动客户端所需的代码，并采用 monorepo 组织：@notesnook/web 对应 Web client，@notesnook/desktop 提供 Electron 桌面端，@notesnook/mobile 通过 React Native 覆盖 Android/iOS clients；@notesnook/core 负责各平台共享逻辑，@notesnook/crypto 封装基于 libsodium 的密码学能力，@notesnook/clipper 则处理实际网页剪藏。全平台前端统一使用 React，仓库正从 JavaScript 逐步迁移到 Typescript，依赖管理明确采用 NPM。想继续理解某一端的内部结构，可以进入 monorepo 中相应项目查看各自的架构说明。"
     },
     "super-productivity/super-productivity": {
       "source": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
@@ -743,8 +743,8 @@
     "zhukunpenglinyutong/desktop-cc-gui": {
       "source": "Multi-engine AI coding desktop client (Tauri). Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI.",
       "zh": "基于Tauri的多引擎AI编程桌面客户端，集成多款编码智能体。",
-      "analysis_source": "012dec8f9b331ca9667e4fe478a4d292c652d0f6beea53ded0d52957d5b4b4c9",
-      "analysis_zh": "ccgui 把 Claude Code、Codex CLI、Gemini CLI、OpenCode 和 DeepSeek Harness (DSH) 等命令行编码运行时收进同一个图形界面：打开应用、选择项目后即可通过聊天编写代码、修复缺陷并提交 Git，同时查看实时发生的文件与工具活动；当运行时提供相应元数据时，界面也会显示 token 用量和预估成本。它通过 runtime adapters 统一多个引擎，但不抹平各自边界：Claude 与 Codex 支持托管的 provider profiles，Gemini 和 OpenCode 保留自身的配置模型；DSH 则通过 dsh host rpc 接入，可采用已经运行的本地 dsh web host，也可由客户端启动，然后在同一界面创建、恢复或分叉会话，模型与凭据仍由 DSH 保存。应用基于 Tauri 2 + React 19 + TypeScript + Rust 构建，覆盖 macOS、Windows 和 Linux，设置、工作区索引及客户端状态默认本地持久化；发送给 AI provider、Browser Agent 或可选远程服务的内容，则遵循相应服务的边界。"
+      "analysis_source": "022fe118b4f09035d6d39d6c265277e6c8a7a8346984443896d0a642e08d2b6b",
+      "analysis_zh": "ccgui 把 Claude Code、Codex CLI、Gemini CLI、OpenCode 和 DeepSeek Harness (DSH) 等命令行编码运行时收进统一图形界面：打开应用、选择项目后即可通过对话写代码、修复缺陷并提交 Git，文件变化和工具活动会实时显示；当运行时提供必要元数据时，界面还会呈现 token usage 与预计成本。它通过 runtime adapters 接入多种引擎，其中 Gemini 默认启用、OpenCode 可选，Claude 与 Codex 支持 managed provider profiles；DSH 则经 dsh host rpc 作为原生引擎运行，可接管已有本地 dsh web host 或自行启动，再在同一 GUI 内创建、恢复和分叉会话，模型与凭据仍保留在 DSH 中。Sessions survive restarts，关闭客户端不会丢失对话历史。应用采用 Tauri 2、React 19、TypeScript 与 Rust，覆盖 macOS、Windows、Linux，设置、工作区索引和客户端状态默认保存在本地；只有发送给 AI provider、Browser Agent、邮件或可选远程服务的内容会进入相应已配置服务的边界。"
     }
   }
 }
