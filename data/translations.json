@@ -152,8 +152,8 @@
     "Ruben2776/PicView": {
       "source": "Fast, free and customizable picture viewer",
       "zh": "快速、免费且可自定义的图片查看器",
-      "analysis_source": "6a5c888d15dc0066a45a4dd1580cd50cd6d8f5738c5636230dc7aaadd87ae64f",
-      "analysis_zh": "打开图片即可直接浏览，是 PicView 强调的基础体验；界面保持干净、快速，没有 pop ups，也不进行 tracking，同时允许在深色与浅色主题之间切换，或彻底隐藏 UI。格式覆盖普通与动画 WEBP、GIF，以及 SVG、AVIF、HEIC、PSD，还能读取 CBZ (Archive) 和 CBR (Archive)，因此照片、设计文件与漫画压缩包都可在同一查看器中处理。按 G 可开关 Image Gallery，再用方向键或 W、A、S、D 移动选择，以 Enter 或 E 载入图片；按 C 则能快速进入 Crop Image。Image Info Window 不只展示信息，还可重命名、转换、复制、压缩、调整尺寸、移入回收站并修改 EXIF image rating；宽高输入框支持直接填写像素值，也能添加 % 按比例缩放。若照片保存了 GPS 坐标，还可通过 Google 或 Bing 按钮打开对应地图。软件服务于 macOS 和 Windows 10/11，默认即可使用，同时保留较充分的界面与操作定制空间。"
+      "analysis_source": "55d1a8dcfef711956fda827c0487408fdd5633b5fa26855923a0058f14d07fc0",
+      "analysis_zh": "PicView 把快速浏览、轻量界面与直接处理图片放在同一个桌面体验中，可在 macOS 和 Windows 10/11 上运行，并兼容 WEBP、GIF、SVG、AVIF、HEIC、PSD、CBZ、CBR 等多种普通图片、动画及漫画归档格式。默认界面简洁，没有弹窗和跟踪，同时允许切换深色或浅色主题、隐藏 UI，并按需启用底部画廊。按 G 可打开或关闭 Image Gallery，随后用方向键或 W、A、S、D 浏览缩略图，再以 Enter 或 E 载入选中的图片；按 C 则能快速裁剪。除了查看，Image Info Window 还集中提供重命名、格式转换、复制、压缩、调整尺寸、移入回收站以及修改 EXIF 图片评分等操作。宽度和高度文本框既可填写具体尺寸，也能在数值后添加百分号按比例缩放；如果照片保存了 GPS 坐标，还可通过 Google 或 Bing 按钮直接在相应地图中打开位置。"
     },
     "SimonAKing/scrcpy-gui": {
       "source": "👻 A simple & beautiful GUI application for scrcpy.",
@@ -176,8 +176,8 @@
     "TabularisDB/tabularis": {
       "source": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
       "zh": "支持多种数据库的开源桌面SQL工作台，内置MCP服务器和可视化EXPLAIN功能。",
-      "analysis_source": "e83dae2b9bb9a7b45415c6dc9b8aec79585de5ca8f878292bddb0ab5129db6a0",
-      "analysis_zh": "在 Tabularis 的桌面工作区里，数据库浏览、写 SQL、分析执行计划和调用 AI 代理共享同一套连接上下文。它直接支持 PostgreSQL、MySQL/MariaDB 和 SQLite，并通过 16 个官方插件扩展到 DuckDB、ClickHouse、Redis、Firestore 等更多数据库。SQL notebooks 可以混排 SQL + Markdown cells，跨单元格传递变量并生成 charts；普通 SQL Editor 之外，还提供 Visual Query Builder、Data Grid，以及把查询计划绘成交互式图形的 Visual EXPLAIN。插件系统采用 JSON RPC over stdio，因此插件不受单一编程语言限制。内置 MCP server 则允许 Claude、Cursor 和 Devin 在应用内读取 schema、运行 queries，不必另建一套数据库访问环境；需要文本生成 SQL 时，还可选择通过 Ollama 使用本地模型。连接管理、Database Explorer、日志、键盘快捷键和配置存储共同构成常规数据库操作流程。桌面安装包覆盖 Windows、macOS 以及 Linux 的 AppImage、.deb、.rpm 等形式，界面也提供简体中文在内的多种语言。"
+      "analysis_source": "e7bfef38a214eb53c8ebc0ff1a8fcbed28b0b5f7ce5f92337ce3c42f364b3602",
+      "analysis_zh": "Tabularis 将数据库连接、浏览、SQL 编写和 AI agent 接入放在同一个 desktop SQL workspace 中。它原生支持 PostgreSQL、MySQL/MariaDB 与 SQLite，再通过 16 个 official plugins 扩展 DuckDB、ClickHouse、Redis、Firestore 等数据库。日常分析可写成 SQL notebooks：SQL + Markdown cells 能共享 cross cell variables 并生成 charts，比单纯保存查询更接近可复现的数据文档；排查性能时，Visual EXPLAIN 会把执行计划呈现为 interactive plan graphs。内置 MCP server 让 Claude、Cursor 和 Devin 读取 schema 并运行 queries，无需离开当前应用重新配置数据库连接；可选的 AI text to SQL 还能使用 Ollama local models。插件并不限于某一种编程语言，而是通过 JSON RPC over stdio 通信。Windows、Apple Silicon 与 Intel Mac、Linux AppImage、.deb、.rpm 等安装包均直接提供，界面也覆盖简体中文在内的多种语言。"
     },
     "Termix-SSH/Termix": {
       "source": "Self-hosted SSH and remote desktop management.",
@@ -241,8 +241,8 @@
     "agalwood/Motrix": {
       "source": "A full-featured download manager.",
       "zh": "功能完善的下载管理器。",
-      "analysis_source": "bfafdf70945f11c9f49c107816d26c9b2a87e9782fadb90487cc234643363843",
-      "analysis_zh": "Motrix 把 HTTP、FTP、BitTorrent 与 magnet links 下载集中到简洁的桌面界面中，并提供逐文件选择、上传下载限速、多套速度配置、tracker 自动更新与健康检查，以及 UPnP 和 NAT PMP 端口映射。任务由 SQLite backed sessions 保存，应用重启后仍可恢复；Dashboard 可展示传输统计、实时活动和任务卡片，下载完成后还会发送系统通知。正在测试的 Motrix Turbo 从底层重建，采用 Electron、React 和 TypeScript，并把下载核心与 UI 分离：浏览器扩展和命令行工具通过基于 JSON RPC 2.0 的 MDXP 与应用通信，插件则运行在隔离沙箱中。相同核心既能驱动 macOS、Windows、Linux 桌面应用，也能以 Node.js 或 Docker 方式运行 Headless server，并为 NAS 和家庭服务器提供 Web UI。v2 仍处于 beta，README 明确要求测试前备份既有数据，因 v1 数据迁移尚未验证，最好使用独立账户、机器或 Docker 数据目录并行体验。"
+      "analysis_source": "55d5bcf1352a7a04ba84cdaca20a1a820302c4158d1df55ad0f09f6ec261a78a",
+      "analysis_zh": "Motrix 把 HTTP、FTP、BitTorrent 和 magnet links 下载集中到一个简洁的桌面界面中，并提供暗色模式、单文件选择、tracker 自动更新与健康检查、UPnP 和 NAT PMP 端口映射，以及多套上传和下载限速配置。任务与会话由 SQLite 保存，重启后可以恢复；Dashboard 则展示传输统计、实时活动和任务卡片。新版 Motrix Turbo 将下载核心与 UI 分离，同一核心既能驱动 macOS、Windows、Linux 桌面应用，也能以 Node.js 或 Docker 方式运行 Headless server，为 NAS 和家庭服务器提供 web UI。浏览器扩展和命令行工具通过基于 JSON RPC 2.0 的 MDXP 与应用通信，插件则放进 QuickJS 隔离沙箱并使用细粒度权限。当前 v2 仍处于 beta，README 明确要求测试前备份既有数据和下载，并尽量用独立账户、机器或 Docker 数据目录与 v1 并行试用。"
     },
     "ai-shifu/ChatALL": {
       "source": "Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover the best answers",
@@ -281,8 +281,8 @@
     "beekeeper-studio/beekeeper-studio": {
       "source": "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
       "zh": "Beekeeper Studio：现代易用的多数据库SQL客户端。",
-      "analysis_source": "b664004561791f10a3cf7d577fecb612b40a9c0695a629617d5ba44aa0699434",
-      "analysis_zh": "打开 Beekeeper Studio 后，用户可以在 Linux、Mac 和 Windows 上通过统一的 SQL editor 与 database manager 连接多种数据系统；安装包可直接下载，免费功能无需 sign up、registration 或 credit card，另有按许可证收费的 premium features。README 用支持矩阵清楚区分数据库与版本覆盖：PostgreSQL、MySQL、SQLite、SQL Server、Amazon Redshift、CockroachDB、MariaDB、TiDB、Google BigQuery、Redis 和 GreengageDB 都标为 Full Support，且同时出现在 Community 与 Paid Editions；Oracle Database、Cassandra、Firebird、ClickHouse、DuckDB、MongoDB、Trino / Presto 等也获完整支持，但表中主要归入付费版本，ScyllaDB 则通过 Cassandra driver 接入。代码许可同样采用双层结构，大部分仓库内容使用 GPLv3，付费功能也保存在同一仓库中，不过采用 commercial source available license，贡献者因而能看到完整代码布局，同时需要留意不同部分的授权边界。"
+      "analysis_source": "ff3e1f99cf372fe3f29075d907bdf65a4679a9a8a7d50c711efd71cdb9c66868",
+      "analysis_zh": "连接数据库后，Beekeeper Studio 提供跨 Linux、Mac 和 Windows 的 SQL editor 与 database manager 工作环境，安装包可直接从项目发布页下载，基础版本无需注册、登录或信用卡即可使用。其数据库覆盖并不限于常见关系型系统：PostgreSQL、MySQL、SQLite、SQL Server、Amazon Redshift、CockroachDB、MariaDB、TiDB、Google BigQuery、Redis 与 GreengageDB 均标为 Full Support；付费版本还覆盖 Oracle Database、Cassandra、Firebird、ClickHouse、DuckDB、MongoDB、Trino / Presto、SurrealDB 等。README 用支持矩阵明确区分 Community 与 Paid Editions，用户能据此判断某个数据库是否可在免费版本连接。仓库的大部分代码采用 GPLv3，付费功能也在同一仓库中，但使用 commercial source available license；这种把社区版和商业功能共同公开陈列、同时清晰标注可用范围的方式，是它发布模式的重要特征。"
     },
     "binaricat/Netcatty": {
       "source": "SSH workspace, SFTP, and terminals in one",
@@ -293,8 +293,8 @@
     "caamer20/Telegram-Drive": {
       "source": "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.",
       "zh": "将Telegram账号变成无限安全云存储的开源桌面应用。",
-      "analysis_source": "38a958da8c8237501144d99383c719a51848275b39aace47863d9f80b94780cf",
-      "analysis_zh": "Telegram Drive 在 Telegram 的 Saved Messages 和频道之上铺设桌面式文件工作区：Saved Messages 充当主目录，由应用创建或选中的 Telegram channels 可显示为文件夹。用户使用自己提供的 API credentials 直接连接 Telegram，随后可在网格或列表视图中搜索、排序、多选和批量处理文件，执行上传、下载、重命名、移动、复制、删除及内部拖放整理；文件夹可以创建、改名、隐藏或归入本地自定义分组。整文件夹上传可先打包为 ZIP，Remote URL uploads 提供进度、取消、重试，并在源服务器允许时进行 resumable range support；Persistent transfer queues 与紧凑传输中心会持续呈现任务状态。图片和媒体支持延迟加载缩略图及内存、磁盘预览缓存，应用还提供预览、流媒体、分享工具、local REST API、主题、本地化和可选 encrypted transfer mode。存储仍受 Telegram 账户、服务及单文件限制约束，当前策略将单个对象限制在约 2,000,000,000 bytes，加密封装还会略微压缩原始明文的可用上限。"
+      "analysis_source": "875f90592a7da4eec9b9e9f19756956bbbefcf812abbc17ca02b2c6fa298ed71",
+      "analysis_zh": "Telegram Drive 在 Saved Messages 和 Telegram channels 之上铺设桌面式文件工作区：前者充当主页，应用创建或选定的频道可以呈现为 folders。它直接使用用户提供的 Telegram API 凭据连接服务，文件仍受账户、服务及单文件限制约束，因此 README 特别澄清它并不提供字面意义上的 unlimited storage；当前单个 Telegram 对象上限约为 2,000,000,000 bytes，加密封装还会略微压低原始明文大小。操作体验接近本地文件管理器，包含 Grid and list views、搜索排序、多选与批量操作，以及上传、下载、重命名、移动、复制、删除和 drag and drop。大文件夹采用 virtualized rendering，卡片尺寸可在 50% 至 200% 间调整；整个文件夹上传时还能选择先创建 ZIP。Remote URL uploads 支持进度、取消、重试，并在源服务器允许时执行 resumable range，persistent transfer queues 则确保传输状态可延续。应用由 Tauri、Rust、React 和 TypeScript 构建，并另有 opt in encrypted transfer mode 与 local REST API。"
     },
     "cjpais/Handy": {
       "source": "A free, open source, and extensible speech-to-text application that works completely offline.",
@@ -377,8 +377,8 @@
     "farion1231/cc-switch": {
       "source": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
       "zh": "支持多智能代理的一体化跨平台桌面助手。",
-      "analysis_source": "01c734cd33308ec211c77a0c9eab29524c3fcde9bbf8e73937593870e0c5bc87",
-      "analysis_zh": "在 Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build、OpenCode、OpenClaw 与 Hermes Agent 之间分别维护模型接入信息容易变得零散，CC Switch 将自己定位为这些工具的 All-in-One Manager，重点是集中配置并切换可用服务。README 展示的直接体验之一，是让用户更容易把 Kimi 配置到不同的 agentic tools 中，而不是逐个工具重复处理；其列出的生态还覆盖多种兼容 OpenAI 或 Anthropic 协议的 API 服务以及聚合网关，体现了统一管理多工具、多模型入口的用途。项目同时明确 ccswitch.io 是 The Only Official Website，并提供 English、中文、日本語和 Deutsch 入口以及 Changelog。README 摘要的大部分篇幅用于列出赞助服务、充值优惠、协议兼容性、模型来源与价格宣传，这些内容属于第三方供应商说明，并不等同于 CC Switch 自身的功能承诺；从摘要能够确认的产品边界，主要是为上述桌面端和命令行智能体工具提供集中管理、配置与切换入口。"
+      "analysis_source": "c46ec6ab41e26f5e93c8ecdc436d558a7f32575166b20a8d77f04474640a186e",
+      "analysis_zh": "在 Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build、OpenCode、OpenClaw 与 Hermes Agent 之间配置模型时，CC Switch 提供统一的桌面管理入口，重点是减少不同 agentic tools 各自维护配置和切换目标模型的麻烦。README 以 Kimi 为例说明其实际体验：用户可以借助 CC Switch，把 Kimi 配置并切换到多种智能体工具中；页面同时列出 Claude、Codex、Gemini、ChatGPT 等主流模型生态所使用的 API 中转服务与优惠信息。应用 Built with Tauri，官方发布与下载信息以 ccswitch.io 为唯一网站，并提供 English、中文、日本語和 Deutsch 等界面或文档入口。就给出的摘要而言，它更像多工具配置中枢，而不是负责执行编码任务的模型或智能体运行时。"
     },
     "flameshot-org/flameshot": {
       "source": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
@@ -549,14 +549,14 @@
     "netease-youdao/LobsterAI": {
       "source": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone via WeChat, Feishu, DingTalk & Telegram.",
       "zh": "开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。",
-      "analysis_source": "5f6f0c4f6c3f0b4856621115f4a79ee2c40383e5783c3eb2c2e1fd847786d028",
-      "analysis_zh": "LobsterAI 将长时间运行的 Agent 工作放进 Desktop Cowork Sessions：任务可以直接作用于本地项目与文件，界面持续流式展示进度、保存会话历史并渲染工具输出；涉及文件操作、终端命令或网络访问等敏感动作时，会先请求批准。其结构把产品层与执行层拆开，Cowork 负责桌面端的本地持久化、权限、UI 状态、产物、Agents、记忆和 IM bindings，底层 OpenClaw 则承担 runtime and gateway 与 Agent 执行。用户既可保留 Main Agent 处理通用事务，也能创建拥有独立身份、模型、skills、工作目录、启用状态及 IM 绑定的专用 Agent。Expert Kits 会把特定流程所需的能力选择和参考资料打包，并可与单独技能组合使用；内置的 28 built in skills 覆盖 web search、Word documents、spreadsheets、PowerPoint、PDF processing、Remotion video generation、浏览器自动化等工作。外部工具和数据源可通过 MCP Servers 接入，配置保存在本机，并把已启用的服务器同步给 OpenClaw。"
+      "analysis_source": "29a677023621c585401c4c3569d948fa9f79b7ae8442e34c8816fe3872835b66",
+      "analysis_zh": "LobsterAI 的 Agent 不只在聊天窗口给出建议，而是进入真实桌面工作环境，操作 local files、terminal commands、browser workflows、documents、spreadsheets、slides、IM channels、scheduled jobs 和 project workspaces。产品层由 Cowork 管理会话、本地持久化、权限、UI 状态、产物、agents、memory 与 IM bindings，底层 OpenClaw 则承担 agent execution；这一分层让执行运行时与桌面体验彼此独立。长任务会持续 stream progress、保存 session history、渲染工具输出，并在文件操作、终端命令或网络访问等敏感动作前请求批准。用户还能创建拥有独立身份、模型、skills、working directory 和 IM bindings 的 specialized Agents，或安装 Expert Kits，将场景化能力组合与单项工具搭配使用。内置的 28 项 skills 覆盖网页搜索、Word、表格、PowerPoint、PDF、Remotion 视频、浏览器自动化、图像视频生成、股票研究、邮件和天气；外部工具与数据源则通过 MCP Servers 接入并同步至 OpenClaw。"
     },
     "nexu-io/open-design": {
       "source": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "zh": "本地优先的开源设计桌面应用，支持多种编码智能体及多格式导出。",
-      "analysis_source": "070173032174bec2801600ecb04696a228b7afe3cb5771697850c9054337fbc2",
-      "analysis_zh": "Open Design 把编码智能体直接变成设计执行引擎，工作过程沿着“理解 brief、确定方向、持续生成、评审、交付”的代理循环展开，产物则保留为可继续编辑和预览的真实文件。它能制作网页、桌面与移动端原型、实时仪表盘、演示文稿、图片、视频以及 HyperFrames 动效，并通过沙箱 iframe 展示结果，最终导出 HTML、PDF、PPTX 或 MP4。桌面端支持 macOS 和 Windows，既可连接 Claude Code、Codex、Cursor、OpenCode 等本地 CLI，也能通过 BYOK 接入兼容 OpenAI 的端点。DeepSeek Harness 以原生运行时方式融入其中，支持 structured thinking、tool calls、模型发现、取消与 session resume；配合可组合 skills、DESIGN.md 设计系统和插件，团队能够把品牌规范与渲染模板沉淀在文件系统中反复调用。"
+      "analysis_source": "dbb688ff00f374c721ff6648831366f8c1ae048467b020ec2a13ea77c29e86d8",
+      "analysis_zh": "设计工作在 OpenDesign 中被组织成一条 agent native loop：先理解 brief、锁定方向，再持续生成 artifact、批评修订并交付，而成果始终留在文件系统和应用工作流里。它能制作 web、desktop、mobile prototypes，也能生成 live dashboards、decks、images、video 与 HyperFrames motion graphics，并通过沙箱 iframe 实时预览，最终导出 HTML / PDF / PPTX / MP4。用户可在 macOS 和 Windows 的本地桌面应用中调用 Claude Code、Codex、Cursor、OpenCode 等 26 个本地 CLI，也可通过 BYOK 接入兼容 OpenAI 的端点。DeepSeek Harness 作为 native runtime 时支持 structured thinking、tool calls、model discovery、cancellation 和 session resume，生成文件仍可继续预览和交付。其辨识度还来自可组合 skills、品牌级 DESIGN.md design systems 和 plugins，而 OpenDesign Cloud 则提供 agent 与 image models 的统一充值入口。"
     },
     "nukeop/nuclear": {
       "source": "Streaming music player that finds free music for you",
@@ -645,8 +645,8 @@
     "siyuan-note/siyuan": {
       "source": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
       "zh": "开源、隐私优先且支持自托管的人与 AI 智能体协作知识空间",
-      "analysis_source": "c63c247a7572092a7e9cec214fca024c467d1fb301f6793d864c555ceb911e7d",
-      "analysis_zh": "思源笔记围绕细粒度内容块组织个人知识：编辑器采用 Markdown WYSIWYG，既能保持所见即所得的书写体验，也能通过 Block level reference and two way links 在段落等块之间建立引用和双向关联。除普通笔记外，它提供自定义属性、SQL query embed、列表大纲、块聚焦和百万字大文档编辑，并可呈现数学公式、流程图、甘特图等内容。资料可以经 Web clipping 收集，PDF 标注能够链接回知识库，导出覆盖带资源的标准 Markdown、PDF、Word 和 HTML。数据库表格、模板与 JavaScript/CSS 片段可扩展整理方式，Flashcard spaced repetition 用于复习；接入 OpenAI API 后还能进行 AI 写作与问答。数据可通过桌面及 Android/iOS/HarmonyOS 应用使用，也支持 Docker deployment 和 API 集成。"
+      "analysis_source": "dfec87d9386f9de8b74968669840914784b47aca69b97345db49543d650a32dc",
+      "analysis_zh": "思源笔记以 Content block 为知识组织的基本单位，用户能对段落等细粒度内容建立 Block level reference 和 two way links，并为块添加自定义属性，或用 SQL query embed 从已有内容中组织新的视图。编辑器采用 Markdown WYSIWYG，支持列表大纲、块聚焦、百万字大文档，以及公式、图表、流程图、甘特图、时序图和五线谱等丰富内容。资料进入与输出也较完整：可以 Web clipping、关联 PDF Annotation link，并导出带资源的标准 Markdown、PDF、Word 和 HTML，还能复制到微信公众号、知乎与语雀。日常知识管理之外，它提供 Database Table view、Flashcard spaced repetition、模板和 JavaScript/CSS snippet，以及通过 OpenAI API 使用的 AI writing and Q/A chat。桌面多标签与拖拽分屏、Android/iOS/HarmonyOS App、Docker deployment、API 和 Community marketplace 共同构成其跨设备与扩展生态。"
     },
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
@@ -671,8 +671,8 @@
       "zh": "基于异步I/O的极速终端文件管理器。"
     },
     "t8y2/dbx": {
-      "analysis_source": "46b75aa923ce1da391ea1068b89a824f15554559234c6ec1333cce9a41ddd7ed",
-      "analysis_zh": "DBX 把 80 多种数据库连接能力压进约 20 MB 的单一程序，不捆绑 Chromium，也不要求 Java JRE 或 Python venv；下载后即可连接，并可在 macOS、Windows、Linux 原生桌面端、Docker 自托管环境和浏览器版本之间使用相同功能。除 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse 等常见系统外，它还覆盖多种国产数据库、向量数据库、搜索引擎、JDBC 数据源以及 Kafka、Pulsar、RocketMQ 消息队列管理。Query Editor 基于 CodeMirror 6，提供 SQL 高亮、元数据感知补全和快捷执行。内置 AI assistant 允许选中表并用自然语言描述需求，随后生成 SQL，执行前还有 safety checks；模型既可来自 Claude、OpenAI，也可通过 Ollama 在本地运行。借助 Model Context Protocol，Claude Code、Cursor、Windsurf 等代理能够复用用户已经配置好的数据库连接，无须在每个工具里重复维护连接信息。",
+      "analysis_source": "3199d23bf59949d23cba9a3e917fc23e893e6a4deff7e83e1ea831f8c36f10e0",
+      "analysis_zh": "“80+ databases in 20 MB”概括了 DBX 最鲜明的取舍：单个小型二进制不捆绑 Chromium，也不要求 Java JRE 或 Python venv，下载后即可连接数据库。它同时提供 Desktop、Docker、Web 和 CLI 形态，桌面端覆盖 macOS、Windows、Linux，自托管服务则便于团队从浏览器访问，并保持相同连接与功能。Query Editor 基于 CodeMirror 6，具备 SQL syntax highlighting 和 metadata aware autocomplete；内置 AI assistant 允许选中表并用自然语言描述目标，再由 Claude、OpenAI 或 Ollama 本地模型生成 SQL，执行前还有 safety checks。通过 MCP Server，Claude Code、Cursor、Windsurf 等智能体可以复用已配置的连接直接查询数据库。原生及 agent based profiles 合计覆盖 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、Oracle、DM 等大量数据库，并延伸到 Kafka、Pulsar、RocketMQ 等消息队列管理。",
       "source": "20 MB lightweight cross-platform database client for 80+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 80+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "轻量级跨平台数据库客户端，支持80多种数据库及AI、MCP和CLI。"
     },
@@ -685,8 +685,8 @@
     "toeverything/AFFiNE": {
       "source": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "zh": "隐私优先的开源下一代知识库平台。",
-      "analysis_source": "a799481b6fbed40e32a193eb0ca67a57457310e9f9a9ce16d8b7c14fb6fd5f24",
-      "analysis_zh": "文档、白板与表格在 toeverything/AFFiNE 中不是彼此隔离的工具，而是可以同时进入 edgeless canvas 的积木：富文本、sticky notes、嵌入网页、multi-view databases、关联页面、形状乃至 slides 都能放到同一画布上，因此整理知识、演示内容和视觉构思可以在一个工作区连续完成。AFFiNE AI 进一步把自然语言操作接入这些内容，例如将提纲变成幻灯片、把文章总结成 mindmap、梳理任务计划，或直接生成应用与网页原型。数据策略强调 local-first，用户的数据保存在自己的磁盘上，同时网页端和跨平台客户端仍可进行实时同步与协作；需要掌控部署环境时，也能从 Docker 开始 Self-Host。底层协作编辑器由 BlockSuite 提供，y-octo 作为原生、高性能且线程安全的 YJS CRDT 实现，支撑客户端与服务端的本地优先能力，Rust 编写的 OctoBase 则承担可扩展的数据引擎角色。除了直接使用现成工作区，仓库还提供模板体系，并允许通过 Codespaces 快速获得已克隆和构建的开发环境，或依照 BUILDING.md 在本地从源码构建。"
+      "analysis_source": "4a491fc0484be180a7f1fd9b5d07708d86d6837ad0e46303abe0bc94a82dab61",
+      "analysis_zh": "把文档写作、白板构思和结构化数据拆成不同应用并非 AFFiNE 的选择；它将 Docs、canvas 和 tables 融合到同一知识工作区。用户可以在 edgeless canvas 上自由放置 rich text、sticky notes、embedded web pages、multi view databases、linked pages、shapes，甚至 slides，因此一份内容既能按文档阅读，也能在空间画布中重新组织和演示。AFFiNE AI 进一步参与实际创作：可把大纲变成 slides、将文章总结成 mindmap、整理任务计划与 backlog，还能通过一次 prompt 绘制和编写应用或网页原型。数据策略强调 local first，内容优先归用户磁盘所有，同时又支持网页及跨平台客户端之间的 real time sync 和协作；需要更多控制时，还可以 self host。它想替代的不是单一笔记编辑器，而是把 wiki、knowledge management、presentation 与 digital assets 共同装进一个可组合空间。"
     },
     "tonyantony300/dashbeam": {
       "source": "Send files and folders anywhere in the world without storing in cloud - any size, any format, no accounts, no restrictions ( previously Altsendme )",

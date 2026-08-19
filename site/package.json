@@ -1,7 +1,7 @@
 {
   "name": "github-cross-platform-trending-pages",
   "private": true,
-  "version": "0.8.40",
+  "version": "0.8.41",
   "type": "module",
   "scripts": {
     "dev": "vite",
