@@ -13,6 +13,12 @@
       "analysis_source": "7cee637e59ba0133dd1a9b5b80ae6897785728b952107108548713a54d0823cb",
       "analysis_zh": "ActivityWatch 在用户自己的设备上持续记录数字活动，让时间分析建立在可控的本地数据之上。默认 watcher 中，aw-watcher-window 采集当前应用及窗口标题，aw-watcher-afk 根据键盘和鼠标活动判断离开状态；浏览器扩展 aw-watcher-web 则记录活动标签页的标题和 URL，还可添加编辑器 watcher 或自行编写采集模块。各 watcher 通过 Heartbeat API 把当前状态写入 aw-server：服务端将相关时间序列事件按客户端类型、主机等元数据组织到 buckets，提供 Buckets API、Events API、Query API 和 REST API，并向 aw-webui 提供数据。网页界面包含仪表盘、时间线、活动浏览器、原始事件查看、查询调试和 JSON 导出，可按日期、应用、网站或自定义分类拆解时间去向。桌面入口 aw-qt 负责管理服务器、通知以及预装 watcher，从而把采集、存储和查看串成一套本地流程；Python 实现的 aw-server 目前是默认服务端，aw-server-rust 则计划成为未来默认实现。仓库本身通过 git submodule 汇集核心组件和官方模块，主要承担整套软件的打包、安装与发布。相比只给出汇总数字的封闭式时间追踪服务，它强调原始数据归用户所有、采集粒度可扩展，并规划不让中心服务器掌握全部内容的去中心化同步。"
     },
+    "AmintaCCCP/GithubStarsManager": {
+      "source": "AI-powered GitHub stars manager with semantic search, auto-categorization, and release tracking",
+      "zh": "AI 驱动的 GitHub 星标管理器，支持语义搜索、自动分类和版本发布跟踪",
+      "analysis_source": "869352d07c3c113d186fed3814582c08c4f8ffd47625be962814ccea59ab4339",
+      "analysis_zh": "GithubStarsManager 解决的是“收藏很多仓库却再也找不到”的问题：连接 GitHub token 后先通过 Auto sync Stars 拉取全部星标，再用 AI Summaries & Categories 生成标签、主题和简短 README 概览。查找时既可用 Semantic Search 按意图而非精确名称检索，也可将仓库描述与 README 嵌入 Cloudflare Vectorize，以自然语言进行 Vector Semantic Search。分类还能与 GitHub Lists Sync 双向同步：原生 Lists 可拉取为带自动锁定的标签或分类，本地分类也能推回 GitHub。对持续关注的仓库，Release Tracking 会把新版本汇总到统一时间线，展开 assets 后可一键下载，并用 dmg、mac、arm64、aarch64 等关键词筛选；也可以通过 aria2 的 JSON RPC 发起 Remote Download。它还覆盖 fork 的 upstream 同步与 GitHub Actions 触发、Gist 的增删改查及语义搜索，并提供可选 MCP Server，让 Claude Code、Cursor 等智能体检索经过 AI 整理的星标数据。"
+    },
     "CyberTimon/RapidRAW": {
       "source": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
       "zh": "高性能GPU加速的非破坏性RAW图像编辑器。",
@@ -50,8 +56,8 @@
     "GyulyVGC/sniffnet": {
       "source": "Comfortably monitor your network traffic 🕵️‍♂️",
       "zh": "轻松监控网络流量",
-      "analysis_source": "25744f362e90e530a18d3acdfac9772a45d4282470781a3a58822a9458e82716",
-      "analysis_zh": "Sniffnet 用图形界面把实时抓包转化为容易检查的网络活动视图。开始监控时先选择电脑上的网络适配器，再为观察流量设置过滤条件；运行期间可以查看总体统计和流量强度曲线，搜索每条连接，并识别本地网络连接与远程主机。它会补充远端地址的 geographical location、domain name 和 ASN，还能辨认 6000+ upper layer services、协议、木马与蠕虫，并指出哪些程序正在消耗带宽。捕获结果可作为 PCAP files 导入或导出，便于继续分析或留档；常看的主机、服务和程序可以收藏，自定义通知会在指定网络事件发生时提醒，导入 IP 黑名单后还能突出潜在异常地址。应用支持多种桌面平台与处理器架构，并可在最小化后继续监控。"
+      "analysis_source": "70164b09cc6f7ed1218975fae5edf829e58a292a81538039cc51830e0135931f",
+      "analysis_zh": "Sniffnet 用图形界面把实时抓包转化为容易浏览的网络活动视图。开始监控时先选择电脑上的 network adapter，再按条件设置 filters；随后可以查看流量强度的 real time charts、整体 Internet traffic 统计，并逐条搜索和检查当前连接。它不仅显示地址，还会识别本地网络连接，查询远程主机的 geographical location、domain name 和 ASN，并区分 6000+ upper layer services、协议、木马与蠕虫，同时指出哪些程序正在占用带宽。捕获结果能够作为 PCAP files 导入或导出，便于保存与交换分析材料；常看的主机、服务和程序可以收藏，自定义 notifications 可在指定网络事件发生时提醒，即使窗口最小化也能持续观察。若需要排查可疑通信，还可导入 custom IP blacklists，让潜在风险地址在连接列表中更醒目。"
     },
     "HBAI-Ltd/Toonflow-app": {
       "analysis_source": "63b61e58f7c7126feef4ca61ced1763516f1efdc387c6be27746ca994fdee909",
@@ -182,8 +188,8 @@
     "Termix-SSH/Termix": {
       "source": "Self-hosted SSH and remote desktop management.",
       "zh": "自托管的SSH和远程桌面管理工具。",
-      "analysis_source": "8d487621ecebf3e1e20bc286fa42182d18b431af0da56e1c6ed708695d0c2645",
-      "analysis_zh": "把 SSH 终端、远程桌面和日常服务器运维集中到一个可自托管界面，是 Termix 最鲜明的体验。用户可以在浏览器、移动端或 Electron 桌面应用中保存并按标签、嵌套文件夹整理主机，通过最多四分屏的 SSH Terminal Access 同时操作会话，也能用 RDP、VNC 和 Telnet 接入远程桌面。SSH Tunnel Management 支持本地、远程及动态 SOCKS 转发，并提供自动重连和健康监测；Remote File Manager 则可查看或编辑代码、图片、音视频，完成上传、下载、移动、删除以及带 sudo 的文件操作。它还覆盖 Docker 和 Podman 容器启停、主机指标与告警、网络拓扑、命令片段、跨终端批量执行和实时 Session Sharing。部署时可用示例 Docker Compose 启动 termix，若需要远程桌面再保留 guacd；Electron 客户端也能完全独立运行，并可选择与远端 Termix 服务器双向同步主机、凭据和片段。认证侧提供 OIDC、LDAP、SSO、TOTP、WebAuthn 与 RBAC，数据库保存为加密 SQLite 文件；每天一次的匿名遥测默认开启，可在管理设置中关闭，或在首次启动前设置 ENABLETELEMETRY=false。"
+      "analysis_source": "747075fc21ae53df353467141d2c33a49b8f73435ff9c19e1c3f294007cff31c",
+      "analysis_zh": "Termix 将分散的服务器操作收进一个自托管工作台，可从 Web、桌面端或移动端统一处理 SSH、远程桌面、文件、隧道、容器与监控。SSH Terminal 使用类似浏览器的标签页和 split screen，一次最多展开 6 个面板；会话上方直接显示 CPU、内存和磁盘状态，并提供通往文件、Docker、隧道和 metrics 的快捷入口。RDP、VNC、Telnet 也能以同样的标签和分屏方式在浏览器运行，其中 RDP 支持驱动器文件浏览与拖放上传。SSH Tunnels 覆盖 local、remote 和 dynamic SOCKS forwarding，并带有 auto reconnect 与 health checks。File Manager 通过 SFTP 完成浏览、编辑、上传、下载、移动和删除，支持 sudo，还能在服务器之间选择更快路径直接复制并校验完整性。Docker and Podman 区域可启停、暂停或移除现有容器、观察统计并进入 shell，其定位是日常管理而非替代 Portainer 或 Dockge。"
     },
     "ThinkInAIXYZ/deepchat": {
       "source": "🐬DeepChat - A smart assistant that connects powerful AI to your personal world",
@@ -194,8 +200,8 @@
     "TriliumNext/Trilium": {
       "source": "Build your personal knowledge base with Trilium Notes",
       "zh": "构建个人知识库的笔记软件。",
-      "analysis_source": "dc4a821318de761324a2dcb4c1a2a7cd76920ce5a4e33911fb3823094f5a2ad1",
-      "analysis_zh": "在 Trilium Notes 里，知识首先被组织成可任意加深的笔记树，同一条笔记还可通过 cloning 同时出现在树中的多个位置，由此兼顾层级归档和交叉组织。文本编辑器支持表格、图片、数学公式与 Markdown 自动格式化，代码笔记提供语法高亮；全文搜索、note hoisting、版本记录和属性查询用于在十万级笔记中定位与重组内容。关系不只停留在树上：Relation maps 可展示笔记关系，canvas 使用 Excalidraw 绘图，另有 Mind Elixir 思维导图、带位置点和 GPX 轨迹的地理地图。用户可以对单篇笔记加密，把内容发布到公网，借助 Web Clipper 保存网页，或通过 REST API 和脚本扩展自动化。桌面版覆盖 Windows、macOS 和 Linux，自托管服务器提供与桌面界面近似的 Web 入口及同步能力，手机和平板可使用触控优化页面；原有 zadam/Trilium 用户在兼容版本范围内可直接沿用数据库。参与开发时，README 给出的流程是克隆仓库后运行 pnpm install，再以 pnpm run server:start 在本机 8080 端口启动服务。"
+      "analysis_source": "8f30a49dc72ce2f96e9db044cf877a8283f5ace3504a617ba874d8ba58d63010",
+      "analysis_zh": "Trilium Notes 以可任意加深的树形结构承载大型个人知识库，但一条笔记不必被锁死在单一路径：借助 cloning，同一内容可以同时出现在树中的多个位置。日常写作可使用 Rich WYSIWYG note editor，处理表格、图片、数学内容和 markdown autoformat；代码笔记则有独立编辑支持与 syntax highlighting。随着资料增长，用户可通过 full text search、快速跳转和 note hoisting 聚焦某个分支，seamless note versioning 用于回看历史变化。更复杂的组织方式依赖 note attributes，它们既能参与分类和查询，也能服务 advanced scripting。多设备使用时可连接 self hosted sync server，同步之外还支持 Sharing (publishing)；登录层面直接集成 OpenID 和 TOTP。遇到操作问题可按 F1 在应用内打开与在线站点相同的文档，无须离开当前工作区。"
     },
     "VSCodium/vscodium": {
       "source": "binary releases of VS Code without MS branding/telemetry/licensing",
@@ -218,8 +224,8 @@
     "XiaoYouChR/Ghost-Downloader-3": {
       "source": "The only downloader you need. 下载器的集大成者.",
       "zh": "一款集多种下载功能于一体的下载器。",
-      "analysis_source": "02a6213be5d806a846309bef856c64066f61a0da2ec0944fe8a788129726525f",
-      "analysis_zh": "Ghost Downloader 3 将常见文件、视频和流媒体下载集中到一套跨平台界面中，协议覆盖 HTTP、Magnet / BT、FTP、M3U8、MPEG DASH 与 eD2k。其 IDM style intelligent chunking 不需要在完成后重新合并分块，并辅以 AI smart acceleration；任务暂停后仍可修改 URL、headers 或 proxy，再从原进度恢复。针对内容平台，它能解析 YouTube 和 Bilibili 的播放列表、4K/HDR、字幕与登录内容，也为 GitHub releases 和 HuggingFace models 提供专用解析器及镜像加速。M3U8 live streams 可在录制时 real time decryption，Android 同样得到支持。companion browser extension 能嗅探网页媒体、接管浏览器下载并直接控制任务，aria2 compatible RPC interface 则允许第三方工具推送任务。桌面端覆盖 Linux、Windows、macOS，Android 版还能后台下载并发送完成通知；最小化到托盘后会释放 UI 资源，以减少后台内存占用。"
+      "analysis_source": "9207d2b8123fabedc4c7d326ebbd42ca806ddde9a3b82b230d593b75f912ede6",
+      "analysis_zh": "Ghost Downloader 以跨平台多线程下载为中心，覆盖 HTTP、Magnet / BT、FTP、M3U8、MPEG DASH、eD2k 等来源。其 IDM style intelligent chunking 不需要在完成后合并文件，并配合 AI smart acceleration 调整下载；任务即使暂停，也能修改 URL、headers 或 proxy 后继续而不丢进度。面对站点限制，它会模拟真实浏览器 TLS fingerprints，降低被反机器人检查阻断的概率。视频场景中可解析 YouTube 与 Bilibili 的播放列表、最高 4K/HDR 内容、字幕和登录状态，也能实时解密并录制 M3U8 live streams；GitHub releases 与 HuggingFace models 另有专用解析和镜像加速。companion browser extension 可以嗅探页面媒体、接管浏览器下载并直接控制任务，aria2 compatible RPC interface 则允许第三方工具推送下载。桌面最小化到托盘后会释放 UI 资源，Android 版本也支持后台下载和完成通知。"
     },
     "Zettlr/Zettlr": {
       "source": "Your One-Stop Publication Workbench",
@@ -287,8 +293,8 @@
     "binaricat/Netcatty": {
       "source": "SSH workspace, SFTP, and terminals in one",
       "zh": "集成SSH、SFTP和终端的工作空间工具。",
-      "analysis_source": "e6a81228e254f341adcefa917006f9ce0e0452d8182355250d57e4686dc305cf",
-      "analysis_zh": "Netcatty 把 SSH Client、SFTP Browser 与 Terminal Manager 集中在一个由 Electron、React 和 xterm.js 构建的桌面工作区中，可在 macOS、Windows 和 Linux 上管理远程服务器。日常操作可通过 Split terminals 同时查看多个会话，通过 Vault views 整理连接信息，并在 SFTP workflows 中处理文件；Custom themes 用于调整界面外观。更有辨识度的是内置 Catty Agent：用户用自然语言描述目标后，它能够理解服务器环境、执行命令、检查状态与日志、监控资源，并把诊断结果整理成摘要。涉及多台主机时，Multi host orchestration 会在一次对话中协调操作；README 展示的 Docker Swarm Cluster Setup 流程会处理初始化、token exchange 和 node joining，而不要求用户逐条输入命令。它也可承担集群搭建、服务部署等复合任务，因此工作方式不只是传统终端的命令输入，而是让会话、文件传输、多主机编排和对结果的解释共同留在同一界面。"
+      "analysis_source": "ef4d3f3a79e860ee8b95598b398167d8b79533fa471c0c731612c9356a1a08c9",
+      "analysis_zh": "Netcatty 将 SSH Client、SFTP Browser 与 Terminal Manager 组合成一个多服务器工作空间，并加入可直接执行运维任务的 Catty Agent。用户可以用自然语言要求它检查服务器健康状况；智能体会选择命令、分析输出，再给出清晰摘要。遇到跨主机操作时，Multi host orchestration 能在同一次对话中协调多台服务器，例如建立 Docker Swarm 集群时处理初始化、token exchange 和 node joining，而不是让用户逐机复制命令。日常交互还围绕 Split terminals、Vault views、SFTP workflows 和 Custom themes 展开，便于同时查看会话、管理连接资料与传输文件。实现层采用 Electron、React 和 xterm.js，可运行在 macOS、Windows 与 Linux；它强调的不只是传统终端模拟，而是让 built in AI assistant 理解服务器环境、查看日志与资源，并把复杂操作压缩成可追踪的对话流程。"
     },
     "caamer20/Telegram-Drive": {
       "source": "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.",
@@ -311,8 +317,8 @@
     "codexu/note-gen": {
       "source": "Capture first. Organize later. A local-first Markdown app that turns scattered records into clear notes with AI.",
       "zh": "本地优先的 Markdown 应用，用 AI 将零散记录整理成清晰笔记。",
-      "analysis_source": "039f0523a67e50ac639d81cbb079c1fcb4452cf204644124a73facc37686fdce",
-      "analysis_zh": "灵感出现时先保存，等有空再整理，是 NoteGen 设计整套体验的起点。用户不必在记录一句想法、语音、截图、链接、文件或 todo 之前决定标题和目录；素材进入应用后，可以按标签、时间或类型筛选，把相关记录选在一起，再用模板或自然语言要求将它们组织成摘要、报告、文章等 Markdown 结构。生成结果仍在编辑器中由用户审阅、改写和续写，AI 也能执行续写、缩写、扩写、翻译、OCR、图像识别与问答，但并不接管最终内容。笔记始终保存为工作区里的普通 Markdown files，可交给其他编辑器、Git 或同步服务处理；知识库则结合 semantic retrieval 与 local text search，允许把笔记、记录或本地资料直接作为对话上下文。除文档编辑外，canvas workspace 还能制作 Flowcharts、Mind maps、Timelines、手绘和数据图表，AI 生成的元素也可继续编辑。跨设备同步可自行选择 GitHub、GitLab、Gitee、Gitea、S3-compatible storage 或 WebDAV，也可以完全只做本地备份。"
+      "analysis_source": "30ceb8eaef0e480772a01011fd39d2b5f8c7270453f9b01d158ed7a71aed7e7b",
+      "analysis_zh": "NoteGen 把记录和整理拆成两个时刻：灵感刚出现时，不必先想标题、目录或文章结构，只管保存一句话、voice recording、screenshot、image、link、file 或 todo；真正写作时，再按 tag、time 或 type 筛选相关 records。选中材料后，可以挑选 template 或描述写作目标，让 AI 将碎片组织成 summary、report、article 或其他 Markdown structure，然后在编辑器里审阅草稿、调整结构、补充自己的判断并继续写。这样的流程既可把会议录音片段和截图整理为 meeting notes，也可积累一周的阅读链接后生成 research note，或从近期记录中汇总 weekly report。成稿始终是用户所选 workspace 中的普通 Markdown files，而不是只能留在应用数据库里的封闭格式；AI 的角色也不是包办写作，而是防止有价值的零散材料在形成完整内容前遗失。"
     },
     "crynta/terax-ai": {
       "source": "Lightweight (7MB) Terminal-first AI-native dev workspace",
@@ -555,8 +561,8 @@
     "nexu-io/open-design": {
       "source": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "zh": "本地优先的开源设计桌面应用，支持多种编码智能体及多格式导出。",
-      "analysis_source": "dbb688ff00f374c721ff6648831366f8c1ae048467b020ec2a13ea77c29e86d8",
-      "analysis_zh": "设计工作在 OpenDesign 中被组织成一条 agent native loop：先理解 brief、锁定方向，再持续生成 artifact、批评修订并交付，而成果始终留在文件系统和应用工作流里。它能制作 web、desktop、mobile prototypes，也能生成 live dashboards、decks、images、video 与 HyperFrames motion graphics，并通过沙箱 iframe 实时预览，最终导出 HTML / PDF / PPTX / MP4。用户可在 macOS 和 Windows 的本地桌面应用中调用 Claude Code、Codex、Cursor、OpenCode 等 26 个本地 CLI，也可通过 BYOK 接入兼容 OpenAI 的端点。DeepSeek Harness 作为 native runtime 时支持 structured thinking、tool calls、model discovery、cancellation 和 session resume，生成文件仍可继续预览和交付。其辨识度还来自可组合 skills、品牌级 DESIGN.md design systems 和 plugins，而 OpenDesign Cloud 则提供 agent 与 image models 的统一充值入口。"
+      "analysis_source": "c489222e74e74593dde02a91e057b7e1e20601c273bd63fed6621f660ad78b65",
+      "analysis_zh": "OpenDesign 把编码智能体变成可交付真实设计文件的引擎，并将“理解 brief、确定方向、持续生成、评审、交付”的工作循环放进本地桌面应用。它可制作 web、desktop、mobile prototypes、live dashboards、decks、images、video 以及 HyperFrames motion graphics，生成结果留在统一工作流中进行实时预览，并可导出 HTML / PDF / PPTX / MP4。运行时不绑定单一智能体：既能原生连接 DeepSeek Harness（dsh），获得结构化思考、工具调用、模型发现、取消和会话恢复，也能使用 Claude Code、Codex、Cursor、OpenCode 等本地 CLI，或通过 BYOK 接入兼容 OpenAI 的端点。设计能力被组织成可组合 skills、DESIGN.md design systems、渲染模板和 plugins，便于把品牌规范与生产流程直接交给智能体执行；预览则放在 Sandboxed iframe preview 中，使生成内容与桌面环境保持隔离。"
     },
     "nukeop/nuclear": {
       "source": "Streaming music player that finds free music for you",
@@ -651,8 +657,8 @@
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "zh": "支持多代理并行的AI开发环境。",
-      "analysis_source": "833588d385faf67c24aeac0e099e36b2b3526242b20d9203bdea9d8214d5f57b",
-      "analysis_zh": "Orca 围绕并行编码代理组织开发现场：同一个提示可以分发给五个代理，每个代理进入独立 git worktree，完成后集中比较结果并合并胜出版本。Codex、ClaudeCode、OpenCode 与 Pi 可以并排运行，代理状态、仓库上下文和任务都汇总在一个界面里；Mobile Companion 还能在手机上查看进度、接收完成通知并发送后续指令。终端采用 Ghostty class terminals，支持 WebGL 渲染、无限分屏和重启后保留滚动记录。Design Mode 可在真实 Chromium 窗口中点选 UI 元素，把对应 HTML、CSS 与裁剪截图送入代理提示；审查阶段则能在 AI diff 的具体行上留言，再交回代理修改。远程工作通过 SSH Worktrees 完成，包含自动重连和端口转发，而 Orca CLI 提供 orca worktree create、snapshot、click、fill 等命令，让代理也能脚本化操控整个工作流。"
+      "analysis_source": "e6eb57fcee33b364b0bbf4a8399751bd231faa9b33caa72561a7d62d68b5a49e",
+      "analysis_zh": "Orca 围绕“同时驱动多个编码智能体”组织开发现场：Codex、ClaudeCode、OpenCode 或 Pi 可以并排运行，每个任务进入独立 git worktree，所有进度又集中在一个界面追踪。Parallel Worktrees 能把同一提示分发给五个智能体，完成后比较实现并合并胜出版本；Annotate AI Diffs 则允许直接在差异行留下评论，再把意见送回智能体继续修改、审阅和提交。内置终端采用 Ghostty class terminals，支持 WebGL 渲染、无限拆分以及重启后仍保留的滚动记录。Design Mode 可在真实 Chromium 窗口中点击 UI 元素，把对应 HTML、CSS 和裁剪截图直接送入提示；远程任务可借助 SSH Worktrees 在服务器上编辑文件、使用 Git 和终端，并获得自动重连与端口转发。手机端还能查看运行状态、接收完成通知和追加指令，而 Orca CLI 提供 orca worktree create、snapshot、click、fill 等命令，让智能体或脚本也能反向操控整套流程。"
     },
     "streetwriters/notesnook": {
       "source": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
@@ -743,8 +749,8 @@
     "zhukunpenglinyutong/desktop-cc-gui": {
       "source": "Multi-engine AI coding desktop client (Tauri). Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI.",
       "zh": "基于Tauri的多引擎AI编程桌面客户端，集成多款编码智能体。",
-      "analysis_source": "022fe118b4f09035d6d39d6c265277e6c8a7a8346984443896d0a642e08d2b6b",
-      "analysis_zh": "ccgui 把 Claude Code、Codex CLI、Gemini CLI、OpenCode 和 DeepSeek Harness (DSH) 等命令行编码运行时收进统一图形界面：打开应用、选择项目后即可通过对话写代码、修复缺陷并提交 Git，文件变化和工具活动会实时显示；当运行时提供必要元数据时，界面还会呈现 token usage 与预计成本。它通过 runtime adapters 接入多种引擎，其中 Gemini 默认启用、OpenCode 可选，Claude 与 Codex 支持 managed provider profiles；DSH 则经 dsh host rpc 作为原生引擎运行，可接管已有本地 dsh web host 或自行启动，再在同一 GUI 内创建、恢复和分叉会话，模型与凭据仍保留在 DSH 中。Sessions survive restarts，关闭客户端不会丢失对话历史。应用采用 Tauri 2、React 19、TypeScript 与 Rust，覆盖 macOS、Windows、Linux，设置、工作区索引和客户端状态默认保存在本地；只有发送给 AI provider、Browser Agent、邮件或可选远程服务的内容会进入相应已配置服务的边界。"
+      "analysis_source": "34932299d2ebeec11a24bda29236cef9fd18ef5890dd34e6dff4c32631cd6f3e",
+      "analysis_zh": "ccgui 把 Claude Code、Codex CLI、Gemini CLI、OpenCode 和 DeepSeek Harness (DSH) 等命令行编码运行时放进同一套图形界面。打开应用、选择项目后即可通过聊天编写代码、修复问题并提交 Git，文件变化与 tool activity 会随执行过程展示；当运行时提供相应 metadata 时，界面还会显示 token usage 和 estimated cost。它通过 runtime adapters 对接不同引擎，而不是把 DSH 包装成 Web UI 或插件：ccgui 可以接管正在运行的 local dsh web host，也可以启动一个 host，并在统一界面内 create / resume / fork DSH sessions，但模型与凭据仍由 DSH 保存。Claude 和 Codex 可使用 managed provider profiles，Gemini 与 OpenCode 则保留各自运行时的配置方式。应用基于 Tauri 2 + React 19 + TypeScript + Rust，支持 macOS、Windows 和 Linux；设置、workspace indexes、client state 以及可恢复的会话默认持久化在本地。"
     }
   }
 }
