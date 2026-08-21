@@ -3305,8 +3305,337 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-08-20",
+      "latest": "2026-08-21",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-08-21",
+          "generated_at": "2026-08-21T09:07:34+08:00",
+          "discovered_count": 988,
+          "candidate_count": 100,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "harry0703/MoneyPrinterTurbo",
+              "trending_rank": 8,
+              "stars_today": 2761
+            },
+            {
+              "rank": 2,
+              "name": "AprilNEA/OpenLogi",
+              "trending_rank": 3,
+              "stars_today": 1545
+            },
+            {
+              "rank": 3,
+              "name": "mattpocock/skills",
+              "trending_rank": 2,
+              "stars_today": 2192
+            },
+            {
+              "rank": 4,
+              "name": "volcengine/OpenViking",
+              "trending_rank": 13,
+              "stars_today": 950
+            },
+            {
+              "rank": 5,
+              "name": "obra/superpowers",
+              "trending_rank": 4,
+              "stars_today": 727
+            },
+            {
+              "rank": 6,
+              "name": "santifer/career-ops",
+              "trending_rank": 6,
+              "stars_today": 816
+            },
+            {
+              "rank": 7,
+              "name": "akitaonrails/ai-memory",
+              "trending_rank": 7,
+              "stars_today": 332
+            },
+            {
+              "rank": 8,
+              "name": "JuliusBrussee/caveman",
+              "trending_rank": 14,
+              "stars_today": 258
+            },
+            {
+              "rank": 12,
+              "name": "RyanCodrai/turbovec",
+              "trending_rank": 17,
+              "stars_today": 230
+            },
+            {
+              "rank": 16,
+              "name": "modular/modular",
+              "trending_rank": 1,
+              "stars_today": 268
+            },
+            {
+              "rank": 19,
+              "name": "chaitanyagiri/munder-difflin",
+              "trending_rank": 10,
+              "stars_today": 507
+            },
+            {
+              "rank": 74,
+              "name": "cursor/plugins",
+              "trending_rank": 5,
+              "stars_today": 449
+            },
+            {
+              "rank": 100,
+              "name": "makeplane/plane",
+              "trending_rank": 15,
+              "stars_today": 98
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "harry0703/MoneyPrinterTurbo",
+              "trending_rank": 8,
+              "stars_today": 9712
+            },
+            {
+              "rank": 2,
+              "name": "AprilNEA/OpenLogi",
+              "trending_rank": 11,
+              "stars_today": 2674
+            },
+            {
+              "rank": 4,
+              "name": "volcengine/OpenViking",
+              "trending_rank": 2,
+              "stars_today": 2444
+            },
+            {
+              "rank": 7,
+              "name": "akitaonrails/ai-memory",
+              "trending_rank": 15,
+              "stars_today": 1952
+            },
+            {
+              "rank": 9,
+              "name": "cathrynlavery/diagram-design",
+              "trending_rank": 1,
+              "stars_today": 11325
+            },
+            {
+              "rank": 10,
+              "name": "public-apis/public-apis",
+              "trending_rank": 9,
+              "stars_today": 11259
+            },
+            {
+              "rank": 13,
+              "name": "cactus-compute/needle",
+              "trending_rank": 4,
+              "stars_today": 3409
+            },
+            {
+              "rank": 14,
+              "name": "unslothai/unsloth",
+              "trending_rank": 14,
+              "stars_today": 3300
+            },
+            {
+              "rank": 15,
+              "name": "AlexsJones/llmfit",
+              "trending_rank": 17,
+              "stars_today": 1842
+            },
+            {
+              "rank": 16,
+              "name": "modular/modular",
+              "trending_rank": 7,
+              "stars_today": 744
+            },
+            {
+              "rank": 17,
+              "name": "semantica-agi/semantica",
+              "trending_rank": 5,
+              "stars_today": 3674
+            },
+            {
+              "rank": 18,
+              "name": "lightningpixel/modly",
+              "trending_rank": 12,
+              "stars_today": 1855
+            },
+            {
+              "rank": 20,
+              "name": "macro-inc/macro",
+              "trending_rank": 13,
+              "stars_today": 1456
+            },
+            {
+              "rank": 22,
+              "name": "megadose/holehe",
+              "trending_rank": 10,
+              "stars_today": 1632
+            },
+            {
+              "rank": 23,
+              "name": "basecamp/omarchy",
+              "trending_rank": 3,
+              "stars_today": 2395
+            },
+            {
+              "rank": 24,
+              "name": "jundot/omlx",
+              "trending_rank": 16,
+              "stars_today": 1388
+            },
+            {
+              "rank": 51,
+              "name": "NVIDIA-NeMo/Switchyard",
+              "trending_rank": 6,
+              "stars_today": 932
+            },
+            {
+              "rank": 53,
+              "name": "CodebuffAI/freebuff",
+              "trending_rank": 18,
+              "stars_today": 1133
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 16,
+              "name": "modular/modular"
+            },
+            {
+              "rank": 34,
+              "name": "zhu1090093659/dsh-web-ui"
+            },
+            {
+              "rank": 53,
+              "name": "CodebuffAI/freebuff"
+            },
+            {
+              "rank": 89,
+              "name": "cordiverse/paper"
+            },
+            {
+              "rank": 93,
+              "name": "tashfeenahmed/freellmapi"
+            },
+            {
+              "rank": 100,
+              "name": "makeplane/plane"
+            }
+          ],
+          "warnings_count": 0,
+          "item_names": [
+            "harry0703/MoneyPrinterTurbo",
+            "AprilNEA/OpenLogi",
+            "mattpocock/skills",
+            "volcengine/OpenViking",
+            "obra/superpowers",
+            "santifer/career-ops",
+            "akitaonrails/ai-memory",
+            "JuliusBrussee/caveman",
+            "cathrynlavery/diagram-design",
+            "public-apis/public-apis",
+            "deepseek-ai/deepseek-harness",
+            "RyanCodrai/turbovec",
+            "cactus-compute/needle",
+            "unslothai/unsloth",
+            "AlexsJones/llmfit",
+            "modular/modular",
+            "semantica-agi/semantica",
+            "lightningpixel/modly",
+            "chaitanyagiri/munder-difflin",
+            "macro-inc/macro",
+            "guillaumemeyer/watermarks-remover",
+            "megadose/holehe",
+            "basecamp/omarchy",
+            "jundot/omlx",
+            "DietrichGebert/ponytail",
+            "stablyai/orca",
+            "nexu-io/open-design",
+            "NousResearch/hermes-agent",
+            "Graphify-Labs/graphify",
+            "earendil-works/pi",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "affaan-m/ECC",
+            "firecrawl/anydoc",
+            "zhu1090093659/dsh-web-ui",
+            "anomalyco/opencode",
+            "Leonxlnx/taste-skill",
+            "firecrawl/firecrawl",
+            "mukul975/Anthropic-Cybersecurity-Skills",
+            "msitarzewski/agency-agents",
+            "koala73/worldmonitor",
+            "github/spec-kit",
+            "openai/codex",
+            "dmmulroy/anti-slop",
+            "anthropics/skills",
+            "herdrdev/herdr",
+            "openclaw/openclaw",
+            "Panniantong/Agent-Reach",
+            "garrytan/gstack",
+            "ayghri/i-have-adhd",
+            "emilkowalski/skills",
+            "NVIDIA-NeMo/Switchyard",
+            "zhaoxuya520/reverse-skill",
+            "CodebuffAI/freebuff",
+            "addyosmani/agent-skills",
+            "colbymchenry/codegraph",
+            "farion1231/cc-switch",
+            "virgiliojr94/book-to-skill",
+            "microsoft/markitdown",
+            "Yuan1z0825/nature-skills",
+            "block/buzz",
+            "VoltAgent/awesome-design-md",
+            "DigitalPlatDev/FreeDomain",
+            "TencentCloud/TencentDB-Agent-Memory",
+            "tt-a1i/archify",
+            "Nutlope/hallmark",
+            "lidge-jun/opencodex",
+            "paperclipai/paperclip",
+            "D4Vinci/Scrapling",
+            "JustVugg/colibri",
+            "clash-verge-rev/clash-verge-rev",
+            "calesthio/OpenMontage",
+            "img2threejs/img2threejs",
+            "rtk-ai/rtk",
+            "cursor/plugins",
+            "datawhalechina/hello-agents",
+            "odysseus-dev/odysseus",
+            "PrimeIntellect-ai/prime-agent",
+            "MadsLorentzen/ai-job-search",
+            "xai-org/grok-build",
+            "citrolabs/ego-lite",
+            "anthropics/claude-code",
+            "heygen-com/hyperframes",
+            "LaoFeng-mouse/flyingmouse-format",
+            "ruvnet/RuView",
+            "headroomlabs-ai/headroom",
+            "OpenCut-app/OpenCut",
+            "titanwings/colleague-skill",
+            "Comfy-Org/ComfyUI",
+            "cordiverse/paper",
+            "Fission-AI/OpenSpec",
+            "ZhuLinsen/daily_stock_analysis",
+            "Imbad0202/academic-research-skills",
+            "tashfeenahmed/freellmapi",
+            "DeusData/codebase-memory-mcp",
+            "t8y2/dbx",
+            "Egonex-AI/Understand-Anything",
+            "thedotmack/claude-mem",
+            "rohitg00/ai-engineering-from-scratch",
+            "yc-software/qm",
+            "makeplane/plane"
+          ],
+          "report_path": "reports/hot-rising/2026-08-21.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-08-20",
