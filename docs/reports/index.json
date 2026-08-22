@@ -3455,8 +3455,303 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-08-21",
+      "latest": "2026-08-22",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-08-22",
+          "generated_at": "2026-08-22T09:06:45+08:00",
+          "discovered_count": 983,
+          "candidate_count": 100,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "harry0703/MoneyPrinterTurbo",
+              "trending_rank": 3,
+              "stars_today": 1201
+            },
+            {
+              "rank": 2,
+              "name": "AprilNEA/OpenLogi",
+              "trending_rank": 4,
+              "stars_today": 1380
+            },
+            {
+              "rank": 3,
+              "name": "mattpocock/skills",
+              "trending_rank": 1,
+              "stars_today": 3362
+            },
+            {
+              "rank": 4,
+              "name": "cursor/plugins",
+              "trending_rank": 9,
+              "stars_today": 388
+            },
+            {
+              "rank": 5,
+              "name": "modular/modular",
+              "trending_rank": 10,
+              "stars_today": 913
+            },
+            {
+              "rank": 6,
+              "name": "obra/superpowers",
+              "trending_rank": 7,
+              "stars_today": 790
+            },
+            {
+              "rank": 7,
+              "name": "santifer/career-ops",
+              "trending_rank": 8,
+              "stars_today": 921
+            },
+            {
+              "rank": 8,
+              "name": "affaan-m/ECC",
+              "trending_rank": 11,
+              "stars_today": 357
+            },
+            {
+              "rank": 12,
+              "name": "ruvnet/ruflo",
+              "trending_rank": 13,
+              "stars_today": 140
+            },
+            {
+              "rank": 16,
+              "name": "mahlernim/google-timeline-visualizer",
+              "trending_rank": 2,
+              "stars_today": 1053
+            },
+            {
+              "rank": 18,
+              "name": "PostHog/posthog",
+              "trending_rank": 5,
+              "stars_today": 335
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "harry0703/MoneyPrinterTurbo",
+              "trending_rank": 7,
+              "stars_today": 10470
+            },
+            {
+              "rank": 2,
+              "name": "AprilNEA/OpenLogi",
+              "trending_rank": 10,
+              "stars_today": 4054
+            },
+            {
+              "rank": 4,
+              "name": "cursor/plugins",
+              "trending_rank": 3,
+              "stars_today": 1582
+            },
+            {
+              "rank": 5,
+              "name": "modular/modular",
+              "trending_rank": 6,
+              "stars_today": 1643
+            },
+            {
+              "rank": 9,
+              "name": "cathrynlavery/diagram-design",
+              "trending_rank": 2,
+              "stars_today": 8457
+            },
+            {
+              "rank": 10,
+              "name": "public-apis/public-apis",
+              "trending_rank": 8,
+              "stars_today": 10990
+            },
+            {
+              "rank": 13,
+              "name": "unslothai/unsloth",
+              "trending_rank": 15,
+              "stars_today": 2987
+            },
+            {
+              "rank": 14,
+              "name": "cactus-compute/needle",
+              "trending_rank": 11,
+              "stars_today": 2985
+            },
+            {
+              "rank": 15,
+              "name": "semantica-agi/semantica",
+              "trending_rank": 9,
+              "stars_today": 2755
+            },
+            {
+              "rank": 17,
+              "name": "volcengine/OpenViking",
+              "trending_rank": 4,
+              "stars_today": 3033
+            },
+            {
+              "rank": 20,
+              "name": "NVIDIA-NeMo/Switchyard",
+              "trending_rank": 12,
+              "stars_today": 642
+            },
+            {
+              "rank": 21,
+              "name": "basecamp/omarchy",
+              "trending_rank": 5,
+              "stars_today": 2565
+            },
+            {
+              "rank": 25,
+              "name": "AlexsJones/llmfit",
+              "trending_rank": 14,
+              "stars_today": 1991
+            },
+            {
+              "rank": 27,
+              "name": "akitaonrails/ai-memory",
+              "trending_rank": 13,
+              "stars_today": 2404
+            },
+            {
+              "rank": 32,
+              "name": "jundot/omlx",
+              "trending_rank": 16,
+              "stars_today": 1536
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 12,
+              "name": "ruvnet/ruflo"
+            },
+            {
+              "rank": 16,
+              "name": "mahlernim/google-timeline-visualizer"
+            },
+            {
+              "rank": 18,
+              "name": "PostHog/posthog"
+            },
+            {
+              "rank": 99,
+              "name": "karpathy/autoresearch"
+            },
+            {
+              "rank": 100,
+              "name": "omdsh-dev/DSH-better-sidebar"
+            }
+          ],
+          "warnings_count": 0,
+          "item_names": [
+            "harry0703/MoneyPrinterTurbo",
+            "AprilNEA/OpenLogi",
+            "mattpocock/skills",
+            "cursor/plugins",
+            "modular/modular",
+            "obra/superpowers",
+            "santifer/career-ops",
+            "affaan-m/ECC",
+            "cathrynlavery/diagram-design",
+            "public-apis/public-apis",
+            "deepseek-ai/deepseek-harness",
+            "ruvnet/ruflo",
+            "unslothai/unsloth",
+            "cactus-compute/needle",
+            "semantica-agi/semantica",
+            "mahlernim/google-timeline-visualizer",
+            "volcengine/OpenViking",
+            "PostHog/posthog",
+            "anywhere-labs/deepseek-harness-desktop",
+            "NVIDIA-NeMo/Switchyard",
+            "basecamp/omarchy",
+            "openai/codex",
+            "guillaumemeyer/watermarks-remover",
+            "awesome-dsh-plugin/awesome-dsh-plugin",
+            "AlexsJones/llmfit",
+            "DietrichGebert/ponytail",
+            "akitaonrails/ai-memory",
+            "Graphify-Labs/graphify",
+            "nexu-io/open-design",
+            "stablyai/orca",
+            "NousResearch/hermes-agent",
+            "jundot/omlx",
+            "JuliusBrussee/caveman",
+            "earendil-works/pi",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "anomalyco/opencode",
+            "Leonxlnx/taste-skill",
+            "firecrawl/firecrawl",
+            "zhu1090093659/dsh-web-ui",
+            "firecrawl/anydoc",
+            "Panniantong/Agent-Reach",
+            "openclaw/openclaw",
+            "garrytan/gstack",
+            "anthropics/skills",
+            "ayghri/i-have-adhd",
+            "herdrdev/herdr",
+            "microsoft/markitdown",
+            "msitarzewski/agency-agents",
+            "github/spec-kit",
+            "koala73/worldmonitor",
+            "farion1231/cc-switch",
+            "addyosmani/agent-skills",
+            "block/buzz",
+            "zhaoxuya520/reverse-skill",
+            "virgiliojr94/book-to-skill",
+            "emilkowalski/skills",
+            "dmmulroy/anti-slop",
+            "colbymchenry/codegraph",
+            "DigitalPlatDev/FreeDomain",
+            "pathwaycom/arc-task-gen",
+            "calesthio/OpenMontage",
+            "mukul975/Anthropic-Cybersecurity-Skills",
+            "Yuan1z0825/nature-skills",
+            "tt-a1i/archify",
+            "odysseus-dev/odysseus",
+            "rohitg00/ai-engineering-from-scratch",
+            "rtk-ai/rtk",
+            "clash-verge-rev/clash-verge-rev",
+            "VoltAgent/awesome-design-md",
+            "citrolabs/ego-lite",
+            "img2threejs/img2threejs",
+            "paperclipai/paperclip",
+            "MadsLorentzen/ai-job-search",
+            "anthropics/claude-code",
+            "lidge-jun/opencodex",
+            "TencentCloud/TencentDB-Agent-Memory",
+            "datawhalechina/hello-agents",
+            "RyanCodrai/turbovec",
+            "heygen-com/hyperframes",
+            "JustVugg/colibri",
+            "PrimeIntellect-ai/prime-agent",
+            "D4Vinci/Scrapling",
+            "freestylefly/awesome-gpt-image-2",
+            "LaoFeng-mouse/flyingmouse-format",
+            "ruvnet/RuView",
+            "Nutlope/hallmark",
+            "headroomlabs-ai/headroom",
+            "Comfy-Org/ComfyUI",
+            "t8y2/dbx",
+            "tw93/Mole",
+            "Fission-AI/OpenSpec",
+            "titanwings/colleague-skill",
+            "tashfeenahmed/freellmapi",
+            "xai-org/grok-build",
+            "Egonex-AI/Understand-Anything",
+            "ggml-org/llama.cpp",
+            "holaboss-ai/holaOS",
+            "DeusData/codebase-memory-mcp",
+            "karpathy/autoresearch",
+            "omdsh-dev/DSH-better-sidebar"
+          ],
+          "report_path": "reports/hot-rising/2026-08-22.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-08-21",
