@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "github-cross-platform-trending"
-version = "0.8.49"
+version = "0.8.50"
 description = "每日生成 GitHub 跨平台热门软件与热门增长仓库双榜单"
 readme = "README.md"
 requires-python = ">=3.10"
