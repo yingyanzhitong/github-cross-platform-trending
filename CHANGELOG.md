@@ -2,6 +2,15 @@
 
 本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.8.49] - 2026-08-23
+
+### 更新
+
+- 更新 2026-08-23 前 100 跨平台热门软件榜单：发现候选 1000 个、分析候选 600 个、入榜和详情分析各 100 个。
+- Daily Trending 入榜项目为 `openai/codex`（Trending #1，今日 +1,544 Stars）和 `PostHog/posthog`（Trending #16，今日 +286 Stars）；最近 7 天首次出现项目为 `openai/codex`（#1）、`BongoCatPet/BongoCat`（#31）和 `irbis-sh/zen-desktop`（#91），均已在表格首位显示，采集和分析警告为 0。
+- 重新读取入榜仓库 README，生成 305–773 字的自然中文单段分析；100 个项目均通过 README 依据、模板禁语、重复开头与 Latest Release 双平台安装包校验。
+- 重新构建双榜单 GitHub Pages 索引和 2026-08-23 在线报告。
+
 ## [0.8.48] - 2026-08-22
 
 ### 更新
