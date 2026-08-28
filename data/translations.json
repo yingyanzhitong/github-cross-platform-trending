@@ -26,8 +26,8 @@
     "CyberTimon/RapidRAW": {
       "source": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
       "zh": "高性能GPU加速的非破坏性RAW图像编辑器。",
-      "analysis_source": "3a14aca45a849afffe5e4a0647eedfb41236ecbbc8bb638eab13e4ce516aa2fe",
-      "analysis_zh": "RapidRAW 追求轻量、快速而直观的 RAW 修图体验，安装包不足 20MB，可运行于 Windows、macOS、Linux 和 Android。编辑过程采用 non destructive 方式，并借助 GPU accelerated 图像处理保持响应速度；技术组合中的 Rust、wgpu、React、Tauri 与 WGSL 也反映了其性能取向。摄影者可以完成色彩调整与 masking，并通过文档中的分步教程理解各项操作。近期功能继续围绕实际摄影流程扩展：retouch tool 用于平滑皮肤，liquify tool 可局部重塑和扭曲图像，shift+drag 提供全局拉直快捷操作，图库支持拖放移动图片；内置 analog film emulations 使用 Spektrafilm 和 scene referred V Log 色彩管线，Camera Tethering 则提供实时 Live View 与曝光控制。它仍处于 active development，现阶段重点是打磨快速、愉快的基础编辑流程，完成度尚未达到 Darktable、RawTherapee 或 Adobe Lightroom 的成熟程度。"
+      "analysis_source": "c42af19dba0ac1d90e84d0f7d0c0cdac04678998465fe6ea0708839d64e315e3",
+      "analysis_zh": "RapidRAW 把 RAW 调色做成轻量、非破坏且由 GPU 加速的编辑流程，安装包控制在 under 20MB，并覆盖 Windows、macOS、Linux 与 Android。其目标并非立即复制 Adobe Lightroom® 的全部成熟能力，而是先打磨快速、简洁的核心摄影工作流：用户可依据教程完成 adjustments 与 masking，并通过干净的界面迅速实现自己的色彩意图。底层技术组合为 React、Rust、Tauri 与 WGSL，近期功能已经扩展到 retouch tool 平滑皮肤、liquify tool 局部变形、shift+drag 拉直、图库拖放整理，以及由 Spektrafilm 驱动的 analog film emulations；后者使用 scene referred V Log 色彩管线。README 同时坦率说明软件仍在 active development，精细度尚不及 Darktable、RawTherapee 等成熟工具，实际编辑中可能遇到需要反馈的缺陷。"
     },
     "DayuanJiang/next-ai-draw-io": {
       "source": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
@@ -108,8 +108,8 @@
     "LaoFeng-mouse/flyingmouse-format": {
       "source": "飞鼠格式 FlyingMouse Format - Windows 免费文件格式转换工具（离线可用，内置 FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS 格式互转 + OCR + 批量转换；音频仅支持普通格式。作者：牢蜂（LaoFeng）｜仅供个人免费使用，禁止商业售卖/转卖/套壳",
       "zh": "Windows 离线格式转换工具，支持多类文件互转、OCR 和批量转换",
-      "analysis_source": "fd6b88e9047dc048e4bb540b23fece4b5636730f585994f8942478f53b7c5f2c",
-      "analysis_zh": "拖入文件、选择目标格式并开始转换，再指定保存位置，构成 FlyingMouse Format 最直接的操作路径；软件会按源文件格式记住上次选择的目标格式，也会记住保存目录。它是一套可离线运行的 Windows 转换工作台，内置 FFmpeg、LibreOffice、Poppler、Tesseract 和 AVS3 解码器，覆盖图片、文本、Word/WPS、Excel/WPS、PPT/WPS、PDF、普通音频、视频及 ZIP，批量转换时会逐文件显示进度、结果和失败原因，并允许单独保存或保存全部。转换完成后，侧边抽屉可预览图片、PDF、文本、音频和视频，窄窗口会改成底部面板；鼠鼠界面还会随上传、识别、OCR、成功或失败切换状态。较有辨识度的文档能力集中在 PDF：PDF → Excel 可结合文字坐标与扫描页 OCR 处理有框或无框表格、多表、跨页续接和合并单元格，低置信度内容会附批注并提供 Raw 回退；PDF → Word 通过 pdf2docx 尽量还原段落、表格、图片、字体和布局，扫描版自动切换 OCR。PDF 还可逐页或每 N 页拆分、用 AES 256 加密及凭原密码解密。命令行覆盖能力查询、目标查询、单个或批量转换、图片合并 PDF 和 PDF 合并，并可将配套 skill 接入 Codex、Claude 或通用 Agent 目录。音频仅支持 MP3、WAV、FLAC 等普通格式，不处理 NCM、KGG 等平台加密格式；软件仅供个人免费使用，禁止商业售卖、转卖或套壳发布。"
+      "analysis_source": "1328e772ea147a8ecd66d26d2cd48fa5da6b233f6ec4cec92c9e2cc912e31594",
+      "analysis_zh": "把文件拖进 FlyingMouse Format、选择目标格式并开始转换，即可在 Windows 上离线完成图片、文本、Word/WPS、Excel/WPS、PPT/WPS、PDF、普通音频、视频和 ZIP 等格式处理。工具内置 FFmpeg、LibreOffice、Poppler、Tesseract 与 AVS3 解码器，既支持逐文件显示进度和失败原因的批量转换，也能在侧边抽屉预览图片、PDF、文本、音频和视频；窄窗口下预览区会自动移到底部。它会按源文件格式记住上次目标格式，同时保留上次保存目录。较有辨识度的深度功能集中在 PDF：PDF → Excel 可结合文字坐标、扫描页 OCR、有框或无框表格识别、多表与跨页续接，并为低置信度结果添加批注；PDF → Word 借助 pdf2docx 还原段落、表格、图片、字体和布局，扫描版则自动回退到 OCR。CLI 还覆盖能力查询、目标查询、单个或批量转换、图片合并 PDF 与 PDF 合并，并可把配套 skill 接入 Codex、Claude 或通用 Agent。音频仅处理 MP3、WAV、FLAC 等普通格式，不支持 NCM、KGG 等音乐平台加密格式；软件也明确限定个人免费使用，禁止商业售卖、转卖或套壳发布。"
     },
     "LizardByte/Sunshine": {
       "source": "Self-hosted game stream host for Moonlight.",
@@ -138,14 +138,14 @@
     "OpenHands/OpenHands": {
       "source": "🙌 OpenHands: AI-Driven Development",
       "zh": "基于AI驱动的软件开发平台。",
-      "analysis_source": "215f9146e33ab4525c39fa9fb23b970d07d98db206a0efd00fd357462f20177b",
-      "analysis_zh": "把散落在本机、容器、虚拟机和云端的编码智能体集中到一个持续在线的控制中心，是 Agent Canvas 的主要体验。用户可以开启对话，也可以建立按计划触发或响应 webhook events 的 automations，例如生成报告并发布到 Slack，或自动把 GitHub issues 拆成任务；工作流还能连接 GitHub、Linear、Notion 等服务。它默认在本机运行，既可把智能体放进 Docker containers、VMs 或企业内部基础设施，也可选择 OpenHands Cloud 与 Enterprise 后端，并能在 local、remote、cloud agents 之间切换。内置 OpenHands agent 开箱可用，同时通过 Agent Client Protocol (ACP) 接纳 Claude Code、Codex、Gemini 等兼容智能体，模型也不受单一 LLM 限制。因此，一台笔记本、专用 Mac Mini 或云服务器都能成为统一入口，把交互式开发和常驻自动化放在同一套自托管界面里管理。"
+      "analysis_source": "8146a754afc9a259cc67eaf16b196e78831fb229fd1446d455dbfb6cb2acb45f",
+      "analysis_zh": "Agent Canvas 把多种编码智能体集中到一个可自托管、持续在线的开发控制中心里。用户可以从对话启动任务，也能创建 automations，让报告定时发布到 Slack，或在 GitHub issue 到达后自动拆分任务；工作流还可连接 Linear、Notion 等服务，并按计划或 webhook events 触发。运行位置十分灵活：默认可放在本机，也可把 agent backends 部署到 Docker、VM 或企业基础设施，并在本地、远程和云端后端之间切换。系统开箱运行 OpenHands，同时借助 Agent Client Protocol（ACP）接入 Claude Code、Codex、Gemini 等第三方智能体，模型也允许自行选择。Quickstart 所描述的部署范围从个人笔记本、Mac Mini 一直到云服务器，因此同一界面既能管理临时会话，也能组织长期自动化任务。"
     },
     "OpenWhispr/openwhispr": {
       "source": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
       "zh": "隐私优先的跨平台语音转文字应用，支持本地和云端模型。",
-      "analysis_source": "f5f37272f1d38fd91d3d20e4b2d168643931423ef95d001bf69e77ecdb484b49",
-      "analysis_zh": "按下全局热键说话，内容就会直接出现在当前光标处，这是 OpenWhispr 最直观的工作方式。它不仅提供 Voice dictation，还能通过独立热键完成 Dictation translation，把一种语言的口述转换成另一种语言后粘贴；Voice Assistant hotkey 则会把语音直接交给 GPT 5、Claude、Gemini、Groq、OpenRouter 或本地模型执行，不需要唤醒词，选中的文本还可原地编辑。转写既可使用 Whisper、NVIDIA Parakeet 等本地引擎，让音频留在设备内，也可选择云端处理以追求速度。除日常输入外，Meeting transcription 能自动识别 Zoom、Teams 和 FaceTime 通话，并进行实时说话人区分与语音指纹识别。应用覆盖 macOS、Windows 和 Linux，明确不收集数据、不含遥测；Intel Mac 仍可正常录制和转写会议，但受 ONNX Runtime 支持限制，缺少实时说话人识别与语义搜索等能力。"
+      "analysis_source": "be146b5aa45aa6bbc5f9913b28b1970677f97c3b449a1427c7781bb59d67f02c",
+      "analysis_zh": "按下全局热键开始说话，OpenWhispr 会把语音转换成文字并自动粘贴到当前光标位置，也能通过独立热键完成跨语言的 Dictation translation。用户可选择 Whisper 或 NVIDIA Parakeet 等本地引擎，让音频始终留在设备上，也可接入云端处理以追求速度；软件不收集数据、不含遥测，并覆盖 macOS、Windows 和 Linux。除了日常 Voice dictation，它还把语音延伸为笔记、操作和 AI agent：可直接向 GPT 5、Claude、Gemini、Groq、Tinfoil、OpenRouter 或本地模型发出命令，选中文字时还能原位编辑。会议模式会自动识别 Zoom、Teams 和 FaceTime 通话，并提供实时说话人区分与声纹识别。Intel Mac 仍可正常录制和转写会议，但因 ONNX Runtime 不再提供相应的 macOS x86 64 二进制文件，实时说话人识别和声纹功能不可用，笔记搜索也会退回关键词匹配。"
     },
     "PixiEditor/PixiEditor": {
       "source": "PixiEditor is a Universal Editor for all your 2D needs",
@@ -244,10 +244,10 @@
       "analysis_zh": "按下 Alt / Command + Space，输入应用、文件或动作名称，再按 Enter，Wox 随即完成任务并退回后台。它把 local search、keyboard first actions 和 plugin system 收进同一个输入框，日常常驻内存约 150 MB；macOS、Linux、Windows 三个平台均采用 Fully native 的 GPU rendering，不依赖 Electron 或浏览器外壳。内置能力之外，用户可从 plugin store 获取扩展，也能用 Node.js、Python 或 script plugins 编写自己的动作。安装方式随系统而异：macOS 可运行 brew install cask wox，Windows 提供 Winget、Scoop 和 Chocolatey，Arch Linux 可用 AUR，Debian、Ubuntu、Fedora、RHEL 与 openSUSE 则可安装 Releases 中对应的 .deb 或 .rpm。Wox 的辨识度来自克制的交互闭环：一次唤起、一次输入、一次确认，应用启动、文件查找和动作执行都不需要离开键盘。"
     },
     "XiaoYouChR/Ghost-Downloader-3": {
-      "source": "The only downloader you need. 下载器的集大成者.",
-      "zh": "一款集多种下载功能于一体的下载器。",
-      "analysis_source": "6f309a17fcba1a5338efec886cbfa47a68fb682fe92d34514b6949f0cefefb5b",
-      "analysis_zh": "Ghost Downloader 试图用一个客户端接管 HTTP、Magnet/BT、FTP、M3U8、MPEG DASH 和 eD2k 等协议，并为 YouTube、Bilibili 提供片段选择与任意画质下载，还能通过镜像加速 GitHub 和 HuggingFace 资源。传输层会按带宽余量进行 smart chunking，分块无需最终合并，同时使用 real browser TLS fingerprints 应对反机器人检查。配套浏览器能力会在视频旁显示下载按钮，并在弹窗列出页面媒体；点击后由桌面端接管任务，还能沿用浏览器的 signed in state，省去复制链接。下载过程中可以即时更换 URL、headers 或 proxy，而不丢失已有进度，并通过 aria2 compatible RPC 接受第三方工具控制。软件覆盖 Windows、macOS、Linux 和 Android 四个平台，并通过 Feature Packs 扩展插件能力；桌面端所依赖的 Qt 6.6+ 不再支持缺少 AVX 指令集的 CPU。"
+      "source": "The only downloader you need. 下载器的集大成者。",
+      "zh": "一站式下载器，满足多种下载需求。",
+      "analysis_source": "2602dca181a797718f2333a853646804c7bfd78e7d4915cec6807ebc975b36f8",
+      "analysis_zh": "从网页视频到常规文件，Ghost Downloader 试图用一套应用接管 HTTP、Magnet/BT、FTP、M3U8、MPEG DASH 和 eD2k 等协议，并为 YouTube、Bilibili 提供片段与清晰度选择，为 GitHub、HuggingFace 提供镜像加速。下载引擎会进行 smart chunking，且无需在结束后合并文件，还会判断可用带宽余量；真实 browser TLS fingerprints 用来减少反机器人检查造成的阻断。配套浏览器能力可在视频旁悬浮下载按钮，并在弹窗列出页面媒体，登录状态也能随任务传给桌面端，不必手工复制链接。任务开始后仍可修改 URL、headers 或 proxy，已有进度会保留，同时提供 aria2 compatible RPC 供第三方工具控制。它覆盖 Windows、macOS、Linux 与 Android，并通过 Feature Packs 扩展插件能力；桌面端依赖的 Qt 6.6+ 不再支持缺少 AVX 指令集的 CPU。"
     },
     "YILS-LIN/short-video-factory": {
       "source": "一键生成产品营销与泛内容短视频，AI批量自动剪辑，高颜值跨平台桌面端工具 One click generation of product marketing and general content short videos, AI batch automatic cliping, beautiful cross platform desktop tool",
@@ -275,8 +275,8 @@
     "agalwood/Motrix": {
       "source": "A full-featured download manager.",
       "zh": "功能完善的下载管理器。",
-      "analysis_source": "879d239ebe77de3b1c610731f5e0d0d205295b8ba822901d265c16ab81759b91",
-      "analysis_zh": "Motrix 将 HTTP、FTP、BitTorrent 和 magnet links 下载集中到简洁的桌面界面，并提供逐文件选择、上传下载限速、多套速度配置、tracker 自动更新与健康检查，以及 UPnP 和 NAT PMP 端口映射。下载会话由 SQLite 保存，程序重启后可以恢复，Dashboard 则展示传输统计、实时活动和任务卡片。正在测试的 Motrix Turbo v2 以 Electron、React 和 TypeScript 重构，并把下载核心与界面分离：浏览器扩展和命令行工具通过基于 JSON RPC 2.0 的 MDXP 与应用通信，插件则在 QuickJS 隔离沙箱中运行并接受细粒度权限控制。同一核心既能驱动 macOS、Windows、Linux 桌面应用，也能以 Node.js 或 Docker 形式运行 Headless server，为 NAS 和家庭服务器提供 web UI。由于 v1 数据迁移尚未验证，测试 beta 时应先备份既有数据与下载内容，并使用独立账户、机器或 Docker 数据目录并行体验。"
+      "analysis_source": "cfb172f1fd8c2716c6da59201a97d74a9400d9833a79f31fd3f00872caa75393",
+      "analysis_zh": "Motrix 用简洁桌面界面统一处理 HTTP、FTP、BitTorrent 与 magnet links，并在 v2 的 Motrix Turbo 中将下载核心与 UI 解耦。浏览器扩展和命令行工具通过 MDXP（Motrix Download eXchange Protocol）与应用通信，这套开放协议建立在 JSON RPC 2.0 之上；插件则放进 QuickJS 隔离沙箱，并配有细粒度权限和应用内市场。同一核心既可驱动 macOS、Windows、Linux 桌面应用，也能以 Node.js 或 Docker 方式运行 headless server，为 NAS 和家庭服务器提供 web UI。下载体验包含 BT 文件选择、tracker 自动更新与健康检查、UPnP 和 NAT PMP 映射、多套限速配置，以及由 SQLite backed sessions 支持的重启恢复。当前 Motrix Turbo v2 仍处于 beta，README 特别指出 v1 数据迁移尚未验证，试用 beta.27 前应备份数据，并尽量使用独立账户、机器或 Docker 数据目录并行测试。"
     },
     "ai-shifu/ChatALL": {
       "source": "Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover the best answers",
@@ -507,8 +507,8 @@
       "analysis_zh": "把用户名、密码、URL、附件和笔记集中保存到一个离线加密文件中，是 KeePassXC 的基本工作方式；数据库采用 KDBX format，可在 Windows、macOS 和 Linux 上创建、打开和保存，也能放在本地目录或私有、公共云存储位置。每条记录可以设置自定义标题与图标，再按可调整的分组整理，并通过支持高级模式的搜索快速定位。内置 Password generator 既能组合任意字符生成密码，也能产生便于记忆的口令；TOTP storage and generation、YubiKey/OnlyKey challenge-response、Auto-Type 和浏览器集成则覆盖二次验证码、硬件密钥验证、向应用自动输入凭据以及 Chrome、Firefox、Edge、Brave、Tor-Browser 等浏览器中的登录操作，浏览器集成还支持 passkeys。已有数据可从 CSV、1Password、Bitwarden、Proton Pass 和 KeePass1 导入，数据库也能导出为 CSV、XML 或 HTML；密码健康度、HIBP 与统计报告有助于检查库内记录，历史记录和数据恢复用于找回旧内容。除桌面界面外，keepassxc-cli 提供命令行操作，并可连接 SSH Agent 或作为 FreeDesktop.org Secret Service 使用。初次使用可从下载页取得预编译版本，Linux 用户也可查看发行版的软件包列表，再依照 QuickStart Guide 建立和管理数据库。"
     },
     "kunkundi/crossdesk": {
-      "analysis_source": "c34d6461414225a4452f35f9d96ec2b2d65db0d89c61a5bf2c5d1828800750c2",
-      "analysis_zh": "CrossDesk 的操作入口很直接：在桌面客户端菜单栏的“对端ID”中填写远程设备 ID，必要时补充连接密码，再点击“→”建立会话；也可以打开 Web 客户端，在浏览器里输入设备 ID 和密码进行控制。底层以 MiniRTC 作为实验载体，组合网络透传、H264/AV1 视频编解码、Opus 音频、拥塞控制和 SRTP 加密等实时传输能力。Windows 版本额外配有 CrossDesk Service，使控制能够延伸到锁屏、登录、凭据输入及安全桌面，并支持发送 Ctrl+Alt+Del；服务不可用时普通远程桌面仍能连接，只是这些受保护阶段的输入控制会受限。源码使用 xmake 构建，可通过 USECUDA、USEWAYLAND、USEDRM 等开关选择硬件编解码和 Linux 捕获方式。希望掌握服务端的用户可以用 Docker 部署 CrossDesk Server，配置公网与内网 IP、信令端口、COTURN 端口及中继端口范围，同时挂载数据和日志目录；若沿用首次生成的自签证书，还需把根证书安装到客户端系统。这样的设计既保留轻量桌面连接，也把浏览器接入、受保护桌面控制与自托管链路纳入同一套方案。"
+      "analysis_source": "e035705407ac00608e61edb5c719ab157fa0e42f4615408c3c2e84d29a9e620e",
+      "analysis_zh": "在 CrossDesk 菜单栏的“对端ID”中填入远程桌面 ID，点击箭头即可连接；若对端设置了密码，还需输入正确密码。除了 Windows、macOS 和 Linux 客户端，也可以直接打开 CrossDesk Web Client，在浏览器填写远程设备 ID 与密码，README 展示了用 iOS Safari 控制 Win11 的方式。传输基础来自实验性应用所依托的 MiniRTC：它提供网络透传（RFC5245）、H264/AV1 视频软硬编解码、Opus 音频编解码、信令、拥塞控制以及 SRTP 传输加密。Windows 端另有 CrossDesk Service，用于增强锁屏、登录界面、凭据输入和安全桌面等受保护场景的控制，可上报当前状态、发送 Ctrl+Alt+Del，并转发键盘鼠标输入；安装包会注册按需启动的服务，客户端退出后服务也会自动结束。即使服务未安装或暂不可用，基础远程桌面仍能连接，只是受保护界面的控制会受限。自行部署时，CrossDesk.exe、crossdesk service.exe 与 crossdesk session helper.exe 必须放在同一目录。"
     },
     "kurikomi-labs/komi-store": {
       "source": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
@@ -599,14 +599,14 @@
     "netease-youdao/LobsterAI": {
       "source": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone via WeChat, Feishu, DingTalk & Telegram.",
       "zh": "开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。",
-      "analysis_source": "c357e0faf329eada3e5bfe6927e8965996b213b1515b64f6d3868ea0ca2433b5",
-      "analysis_zh": "LobsterAI 将桌面产品层与执行层明确分开：Cowork 管理 local persistence、permissions、UI state、artifacts、agents、memory 和 IM bindings，底层 OpenClaw 则承担 agent execution。用户可以在 Desktop Cowork Sessions 中让 Agent 围绕本地项目和文件持续工作，界面会流式展示进度、保存 session history、呈现工具输出，并在文件操作、terminal commands 或 network access 等敏感动作前请求批准。Multi Agent Workflows 允许创建拥有独立身份、模型、skills、working directory 和 IM 绑定的专用 Agent，以 Main Agent 处理通用任务，其余角色复用固定流程。Expert Kits 将特定场景所需能力和参考资料打包，也能与单独选择的工具组合。内置 28 项 skills，覆盖 web search、Word、spreadsheets、PowerPoint、PDF processing、Remotion video generation 等工作；外部能力可通过 MCP Servers 接入并同步至 OpenClaw。此外还支持 Scheduled Tasks，使重复工作按计划运行，而不是只能等待聊天窗口里的临时指令。"
+      "analysis_source": "facbfadb5813674bc56a5e42c3b757157ef2e43266117d69ab6af77d0850db00",
+      "analysis_zh": "LobsterAI 把长时间运行的智能体任务放进真实桌面环境：它能处理本地文件和项目，执行 terminal commands、浏览器流程，操作文档、表格与幻灯片，也能连接即时通信渠道和定时任务。其产品结构分为两层，Cowork 负责会话与桌面体验，保存本地持久化数据、权限、界面状态、产物、记忆和通信绑定；OpenClaw 位于下层，承担智能体执行与网关职责。运行任务时，桌面端会持续展示进度、保留会话历史并渲染工具输出，遇到文件操作、终端命令或网络访问等敏感动作则先请求批准。用户既可保留 Main Agent 处理通用工作，也可创建拥有独立身份、模型、skills、工作目录和通信绑定的专用 Agent；Expert Kits 则把常见场景所需的能力选择与参考资料打包，并可同单项工具组合。软件内置 28 项技能，还能通过 MCP Servers 接入外部工具和数据源，相关配置保存在本地并同步给 OpenClaw。"
     },
     "nexu-io/open-design": {
       "source": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "zh": "本地优先的开源设计桌面应用，支持多种编码智能体及多格式导出。",
-      "analysis_source": "5261ce6b52a7e91fb270aa50c60a54657ef459ee16b7e4eb1a73847698dd2703",
-      "analysis_zh": "把编码智能体变成设计引擎，是 OpenDesign 组织体验的主线：从理解 brief、锁定方向，到持续生成 artifact、评审和交付，整个过程落在可组合的 skills、渲染模板、DESIGN.md 设计系统与 plugins 之上。它以 macOS 和 Windows 的 local first native desktop app 运行，可生成 web、desktop、mobile prototypes，以及 dashboards、decks、images、video 和 HyperFrames motion graphics；结果能在 sandboxed iframe preview 中查看，并导出 HTML、PDF、PPTX 或 MP4。运行时既可接入 DeepSeek Harness（dsh）、Claude Code、Codex、Cursor、OpenCode 等本地 CLI，也能通过 BYOK 使用 OpenAI compatible endpoint。DeepSeek Harness 被作为原生 runtime 接入后，支持 structured thinking、tool calls、model discovery、cancellation 和 session resume，生成文件仍留在 OpenDesign 工作流中继续预览与交付。"
+      "analysis_source": "5bd011c98d7eabfbe17f97f90bac69f0e337bf3f2f321ee17d0e7a3e7d2a42b6",
+      "analysis_zh": "把编码智能体直接变成设计引擎，是 OpenDesign 最鲜明的工作方式：先理解需求、确定方向，再持续生成和评审可交付成果。它以本地优先的 macOS、Windows 桌面应用承载这一循环，能够制作网页、桌面与移动端原型、实时 dashboards、decks、images、video，以及 HyperFrames 动效。生成内容可在 sandboxed iframe preview 中查看，并导出为 HTML、PDF、PPTX 或 MP4。工具层并不绑定单一模型，既能把 DeepSeek Harness（dsh）作为原生运行时，获得结构化思考、工具调用、取消与会话恢复，也兼容 Claude Code、Codex、Cursor 等本地 CLI，或通过 BYOK 连接 OpenAI compatible endpoint。Composable skills、DESIGN.md 设计系统与插件都以文件形式参与流程，使模板、品牌规范和功能能力能够被现有智能体直接组合。"
     },
     "nukeop/nuclear": {
       "source": "Streaming music player that finds free music for you",
@@ -683,14 +683,14 @@
     "rowboatlabs/rowboat": {
       "source": "Open-source AI coworker, with memory",
       "zh": "具备记忆功能的开源AI助手。",
-      "analysis_source": "52ac86cdc8321344789283d214aa683ac9b17562c35bc7c9ae86e94a9f73ae18",
-      "analysis_zh": "Rowboat 把邮件、会议、Slack 和助手对话持续索引成 living knowledge graph，并以 Obsidian style backlinked knowledge graph 的形式保留工作脉络，让后续操作能够直接调用既有上下文。内置 email client 会把邮件分成 important 与其他内容，并依据全部工作背景自动为重要邮件起草回复；Background agents 可在新邮件等事件发生时触发，也可按每天早上 8 点之类的计划运行，连接工具、搜索网页、操作浏览器，或借助 Claude Code 和 Codex 编写代码。Built in Browser 与主浏览器隔离，用户只需登录愿意交给助手访问的账户。Meeting Notes 从麦克风和扬声器获取声音，实时转写、生成 Markdown 摘要并更新知识图谱；Code Mode 则能启动 parallel coding agents，并在需要时把工作上下文交给它们。用户还可自行构建 Apps 作为新的 work surfaces，让它们共享 Rowboat 的工具与集成。"
+      "analysis_source": "8751b011355a184c08cc930299698ebe781ba5e224826f101f45e476e153e0f4",
+      "analysis_zh": "Rowboat 会把邮件、会议、Slack 和助手对话持续整理成一张 Obsidian style backlinked knowledge graph，让历史工作上下文不只用于检索，还能直接驱动后续行动。内置 email client 会把邮件分为重要与其他，并依据已有上下文为重要邮件自动起草回复；background agents 可由新邮件等事件触发，也可设为每天 8 点运行，调用工具、搜索网络、操作浏览器，或借助 Claude Code、Codex 编写代码。独立的 Built in Browser 允许只登录愿意交给助手访问的账号，与日常浏览器隔离。Meeting Notes 从麦克风和扬声器获取音频，实时转写、生成 Markdown 摘要并更新知识图谱；Code Mode 则能并行启动编码智能体，并按需补充完整工作背景。用户还可构建自己的 work surfaces，让它们共享 Rowboat 的工具和集成后再分发给其他人。"
     },
     "rullerzhou-afk/clawd-on-desk": {
       "source": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
       "zh": "像素风桌面宠物，监控多种AI编程助手。",
-      "analysis_source": "9e86aa6e30fab61d89a3aa4674059fa8e17706a8e8db390d8a4f3a314fadd28b",
-      "analysis_zh": "Clawd on Desk 把 AI 编程代理的后台状态变成一只常驻桌面的像素宠物：提交提示词时它会思考，工具执行时打字，subagents 工作时跳舞或杂耍，等待权限时进入 reviewing permissions，任务结束则庆祝，用户离开后还会睡觉。这样启动耗时任务后不必持续盯着终端，回来看到螃蟹的动作便能判断进度。内置 Clawd、Calico 和 Cloudling 三套主题，分别对应像素螃蟹、三花猫与云宝，同时支持 custom themes 和导入 Codex Pet animation packs。代理接入方式依工具而异：Claude Code 使用 command hooks 与 HTTP permission hooks，Codex CLI 使用 official hooks，并以 JSONL fallback 读取 /.codex/sessions/；Gemini CLI、Antigravity CLI 和 Cursor Agent 等也可通过各自 hooks 配置接入。它运行于 Windows 11、macOS 和 Ubuntu/Linux，Windows 还分别提供 x64 与 ARM64 安装包。"
+      "analysis_source": "322b7876a414e7b76c691924e980e3ef491cf2cfde84651d9b156d889809c769",
+      "analysis_zh": "当编码智能体在后台执行长任务时，Clawd on Desk 用桌面上的像素角色把状态变成一眼可见的动作：收到提示后思考、工具运行时打字、subagents 工作时跳舞或杂耍、等待权限时进入审阅状态，完成后庆祝，闲置时睡觉。内置 Clawd 像素螃蟹、Calico 三花猫和 Cloudling 云宝三套主题，也允许自定义主题及导入 Codex Pet animation packs。它能连接 Claude Code、Codex CLI、Copilot CLI、Gemini CLI、Cursor Agent、DeepSeek Harness 等众多工具，其中 Claude Code 通过 command hooks 与 HTTP permission hooks 完整集成；Codex CLI 使用 official hooks，并以 JSONL fallback 读取 /.codex/sessions/，还能同步真实权限气泡。应用支持 Windows 11、macOS 和 Ubuntu/Linux，Windows 分别提供 x64、ARM64 安装包；从源码构建则需要 Node.js。"
     },
     "rustdesk/rustdesk": {
       "source": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
@@ -707,8 +707,8 @@
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "zh": "支持多代理并行的AI开发环境。",
-      "analysis_source": "7e5e2cadd308906e6301a4fe8ad797da1ff2f2b271b2ef5aa5a1773a8039f525",
-      "analysis_zh": "Orca 把 Codex、ClaudeCode、OpenCode 或 Pi 放在同一工作区中并行运行，每个代理进入独立的 git worktree，任务进度则集中跟踪。使用者可以把同一提示分发给五个代理，比较各自结果后合并胜出版本；也能在 Annotate AI Diffs 中逐行评论差异，再把意见交还代理修改。工作环境内置支持无限分屏和重启后保留回滚内容的 Terminal Splits，并可浏览 GitHub 与 Linear 的 PR、issue 和项目看板。Design Mode 允许在真实 Chromium 窗口点击界面元素，把对应 HTML、CSS 和裁剪截图直接送入提示词。远程工作可通过 SSH Worktrees 在服务器上编辑文件、操作 git 和终端，并使用自动重连及端口转发；Mobile Companion 则负责手机通知、查看状态和发送后续指令。常用流程还能通过 Orca CLI 脚本化，例如执行 orca worktree create，以及 snapshot、click 和 fill。"
+      "analysis_source": "2118fb699b0e63ec1573deb1e6c7f969e970b57a3702cfbfe98f2d5d91edad63",
+      "analysis_zh": "Orca 围绕“同时驾驭多名编码智能体”组织整个开发环境：Codex、ClaudeCode、OpenCode 或 Pi 可以并排运行，每个任务落在独立 git worktree 中，结果统一跟踪、比较，再合并胜出的实现。Parallel Worktrees 能把同一提示分发给五个智能体；Annotate AI Diffs 则允许直接在差异行留下评论，再把反馈送回智能体继续修改。终端采用 Ghostty class terminals，支持 WebGL 渲染、无限拆分和重启后保留滚动记录；通过 SSH Worktrees，还能在远端主机上编辑文件、使用 git 与终端，并获得自动重连和端口转发。Design Mode 可在真实 Chromium 窗口中点选界面元素，把 HTML、CSS 和裁剪截图送入提示词。手机端负责查看状态、接收完成通知与追加指令，而 Orca CLI 又提供 orca worktree create、snapshot、click、fill 等命令，便于把这些操作脚本化。"
     },
     "streetwriters/notesnook": {
       "source": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
@@ -727,16 +727,16 @@
       "zh": "基于异步I/O的极速终端文件管理器。"
     },
     "t8y2/dbx": {
-      "analysis_source": "7d1c002c42c10fdafd484697c2b3373ee4118fde1d6c8a20fdffffe7989398f2",
-      "analysis_zh": "DBX 用约 20 MB 的单一二进制覆盖 90+ Databases，不捆绑 Java JRE、Python venv 或 Chromium，下载安装后即可连接 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server、Oracle 等数据库。它在编辑器中嵌入 AI assistant：选中表并描述需求即可生成 SQL，还会在执行前通过安全检查审阅结果；模型既可来自 Claude、OpenAI，也可通过 Ollama 在本地运行。更有辨识度的是 MCP Server，它让 Claude Code、Cursor、Windsurf 等代理复用已经配置好的数据库连接直接查询数据，无须为每个工具重复设置。运行形态包含 macOS、Windows、Linux 原生桌面端、适合团队自托管的 Docker，以及浏览器环境使用的 Web 版本，三者保持相同功能和连接配置。",
+      "analysis_source": "1b7d5c54901ebbd92da6e5b670a239f3df18e1f87c953358759837fd625d30d7",
+      "analysis_zh": "仅约 20 MB 的单一二进制让 DBX 在不捆绑 Java JRE、Python venv 或 Chromium 的情况下连接 90+ databases，覆盖 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse 等多种关系型、文档型、缓存与搜索系统。桌面端运行于 macOS、Windows、Linux，也可通过 Docker 自托管供团队访问，或在浏览器环境使用 Web 版本，并保持相同连接与功能。内置 AI assistant 直接住在编辑器里：选中表格、描述目标即可生成 SQL，执行前还有 safety checks 审查语句；模型可选 Claude、OpenAI，或通过 Ollama 使用本地模型。更有辨识度的是 MCP Server，它把已配置的数据库连接通过 Model Context Protocol 提供给 Claude Code、Cursor、Windsurf 等编码智能体，无需在各工具中重复维护连接配置。",
       "source": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "20 MB 轻量级跨平台数据库客户端，支持 90 多种数据库及 AI、MCP、CLI、桌面端和 Docker"
     },
     "thewh1teagle/vibe": {
       "source": "Transcribe on your own!",
       "zh": "支持本地转录的语音转文字工具。",
-      "analysis_source": "59a82fab56d715108dace83b13a5a5ae87b15524d99fb94a36e0a4e6939efa3f",
-      "analysis_zh": "Vibe 将音频和视频直接留在用户设备上转录，主打 fully offline transcription，数据无需离开本机；macOS、Windows 与 Linux 均受支持，并针对 Nvidia、AMD、Intel GPU 以及 Vulkan、CoreML 做了优化。操作不局限于单文件：它能 Batch transcribe multiple files，也可处理来自 YouTube、Vimeo 等网站的音频、系统声音和麦克风输入，转录期间提供 Realtime preview。结果可导出为 SRT、VTT、TXT、HTML、PDF、JSON、DOCX，并通过 speaker diarization 区分说话人，或开启 Stable timestamps mode 获得更适合字幕和影片的时间轴。模型层支持 Whisper、Nemotron 3.5 和 Parakeet TDT v3；需要进一步整理内容时，可调用 Claude API 生成多语言摘要，也能借助 Ollama 在本地分析和批量总结。除桌面界面外，Vibe 还提供 CLI support、带 Swagger 文档的 HTTP API，以及扫码后由手机录音、电脑转录并回传文字的流程。"
+      "analysis_source": "0a6d28ecd04a0721d94caf2523843a97505fadfb6fa9067a8b3dc60553a66404",
+      "analysis_zh": "Vibe 让音频和视频转录直接在设备上完成，离线模式下数据不会离开本机，并针对 macOS、Windows、Linux 上的 Nvidia、AMD、Intel GPU 使用 Vulkan 或 CoreML 优化。它既能处理单个文件，也支持 Batch transcribe、麦克风、系统音频以及 YouTube、Vimeo 等网站来源，转录过程中提供 Realtime preview，最终可输出 SRT、VTT、TXT、HTML、PDF、JSON、DOCX。模型层支持 Whisper、Nemotron 3.5 和 Parakeet TDT v3，还可启用 speaker diarization；Stable timestamps mode 以 VAD 换取更适合字幕和影片的时间精度。若要进一步处理文本，可通过 Claude API 生成多语言摘要，或用 Ollama 在本地批量分析。除图形界面和 CLI support 外，它还提供带 Swagger docs 的 HTTP API；手机扫描一次二维码后即可录音，由电脑转录并把文字返回，无需安装移动应用。"
     },
     "toeverything/AFFiNE": {
       "source": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
