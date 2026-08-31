@@ -4106,8 +4106,415 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-08-28",
+      "latest": "2026-08-31",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-08-31",
+          "generated_at": "2026-08-31T22:24:25+08:00",
+          "discovered_count": 989,
+          "candidate_count": 100,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "tt-a1i/archify",
+              "trending_rank": 2,
+              "stars_today": 3993
+            },
+            {
+              "rank": 2,
+              "name": "THU-MAIC/OpenMAIC",
+              "trending_rank": 1,
+              "stars_today": 2819
+            },
+            {
+              "rank": 3,
+              "name": "K-Dense-AI/scientific-agent-skills",
+              "trending_rank": 3,
+              "stars_today": 1968
+            },
+            {
+              "rank": 4,
+              "name": "every-app/open-seo",
+              "trending_rank": 12,
+              "stars_today": 608
+            },
+            {
+              "rank": 5,
+              "name": "affaan-m/ECC",
+              "trending_rank": 10,
+              "stars_today": 490
+            },
+            {
+              "rank": 6,
+              "name": "zhaoxuya520/reverse-skill",
+              "trending_rank": 9,
+              "stars_today": 1439
+            },
+            {
+              "rank": 7,
+              "name": "p-e-w/heretic",
+              "trending_rank": 13,
+              "stars_today": 536
+            },
+            {
+              "rank": 18,
+              "name": "jingyaogong/minimind",
+              "trending_rank": 6,
+              "stars_today": 472
+            },
+            {
+              "rank": 19,
+              "name": "k1tbyte/Wand-Enhancer",
+              "trending_rank": 4,
+              "stars_today": 718
+            },
+            {
+              "rank": 21,
+              "name": "handsomestWei/patent-disclosure-skill",
+              "trending_rank": 14,
+              "stars_today": 571
+            },
+            {
+              "rank": 22,
+              "name": "Osmantic/ODS",
+              "trending_rank": 7,
+              "stars_today": 331
+            },
+            {
+              "rank": 23,
+              "name": "firecrawl/pdf-inspector",
+              "trending_rank": 15,
+              "stars_today": 199
+            },
+            {
+              "rank": 24,
+              "name": "kaifcodec/user-scanner",
+              "trending_rank": 11,
+              "stars_today": 462
+            },
+            {
+              "rank": 26,
+              "name": "majd/ipatool",
+              "trending_rank": 5,
+              "stars_today": 376
+            },
+            {
+              "rank": 28,
+              "name": "pollen-robotics/microduck_rl",
+              "trending_rank": 16,
+              "stars_today": 384
+            },
+            {
+              "rank": 29,
+              "name": "checkstyle/checkstyle",
+              "trending_rank": 8,
+              "stars_today": 199
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "tt-a1i/archify",
+              "trending_rank": 1,
+              "stars_today": 18103
+            },
+            {
+              "rank": 2,
+              "name": "THU-MAIC/OpenMAIC",
+              "trending_rank": 5,
+              "stars_today": 2085
+            },
+            {
+              "rank": 3,
+              "name": "K-Dense-AI/scientific-agent-skills",
+              "trending_rank": 8,
+              "stars_today": 4309
+            },
+            {
+              "rank": 4,
+              "name": "every-app/open-seo",
+              "trending_rank": 17,
+              "stars_today": 1881
+            },
+            {
+              "rank": 7,
+              "name": "p-e-w/heretic",
+              "trending_rank": 19,
+              "stars_today": 992
+            },
+            {
+              "rank": 8,
+              "name": "freestylefly/awesome-gpt-image-2",
+              "trending_rank": 2,
+              "stars_today": 13413
+            },
+            {
+              "rank": 9,
+              "name": "MadsLorentzen/ai-job-search",
+              "trending_rank": 6,
+              "stars_today": 5348
+            },
+            {
+              "rank": 10,
+              "name": "rohitg00/ai-engineering-from-scratch",
+              "trending_rank": 11,
+              "stars_today": 3720
+            },
+            {
+              "rank": 11,
+              "name": "tashfeenahmed/freellmapi",
+              "trending_rank": 9,
+              "stars_today": 3037
+            },
+            {
+              "rank": 12,
+              "name": "AprilNEA/OpenLogi",
+              "trending_rank": 20,
+              "stars_today": 3406
+            },
+            {
+              "rank": 13,
+              "name": "tinyhumansai/openhuman",
+              "trending_rank": 18,
+              "stars_today": 2526
+            },
+            {
+              "rank": 14,
+              "name": "apache/maka",
+              "trending_rank": 7,
+              "stars_today": 1973
+            },
+            {
+              "rank": 15,
+              "name": "anthropics/claude-plugins-community",
+              "trending_rank": 3,
+              "stars_today": 2162
+            },
+            {
+              "rank": 16,
+              "name": "ConardLi/garden-skills",
+              "trending_rank": 14,
+              "stars_today": 1222
+            },
+            {
+              "rank": 17,
+              "name": "cursor/plugins",
+              "trending_rank": 13,
+              "stars_today": 1503
+            },
+            {
+              "rank": 25,
+              "name": "omacom/omarchy",
+              "trending_rank": 4,
+              "stars_today": 6692
+            },
+            {
+              "rank": 27,
+              "name": "anthropics/claude-plugins-official",
+              "trending_rank": 10,
+              "stars_today": 1940
+            },
+            {
+              "rank": 32,
+              "name": "abi/screenshot-to-code",
+              "trending_rank": 16,
+              "stars_today": 1909
+            },
+            {
+              "rank": 45,
+              "name": "asciimoo/hister",
+              "trending_rank": 12,
+              "stars_today": 1006
+            },
+            {
+              "rank": 71,
+              "name": "google/googletest",
+              "trending_rank": 15,
+              "stars_today": 441
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 2,
+              "name": "THU-MAIC/OpenMAIC"
+            },
+            {
+              "rank": 4,
+              "name": "every-app/open-seo"
+            },
+            {
+              "rank": 7,
+              "name": "p-e-w/heretic"
+            },
+            {
+              "rank": 18,
+              "name": "jingyaogong/minimind"
+            },
+            {
+              "rank": 19,
+              "name": "k1tbyte/Wand-Enhancer"
+            },
+            {
+              "rank": 21,
+              "name": "handsomestWei/patent-disclosure-skill"
+            },
+            {
+              "rank": 22,
+              "name": "Osmantic/ODS"
+            },
+            {
+              "rank": 23,
+              "name": "firecrawl/pdf-inspector"
+            },
+            {
+              "rank": 24,
+              "name": "kaifcodec/user-scanner"
+            },
+            {
+              "rank": 25,
+              "name": "omacom/omarchy"
+            },
+            {
+              "rank": 26,
+              "name": "majd/ipatool"
+            },
+            {
+              "rank": 28,
+              "name": "pollen-robotics/microduck_rl"
+            },
+            {
+              "rank": 29,
+              "name": "checkstyle/checkstyle"
+            },
+            {
+              "rank": 32,
+              "name": "abi/screenshot-to-code"
+            },
+            {
+              "rank": 57,
+              "name": "MengTo/threeui"
+            },
+            {
+              "rank": 66,
+              "name": "pbakaus/impeccable"
+            },
+            {
+              "rank": 71,
+              "name": "google/googletest"
+            },
+            {
+              "rank": 89,
+              "name": "arvids-unavailable/openGym"
+            }
+          ],
+          "warnings_count": 0,
+          "item_names": [
+            "tt-a1i/archify",
+            "THU-MAIC/OpenMAIC",
+            "K-Dense-AI/scientific-agent-skills",
+            "every-app/open-seo",
+            "affaan-m/ECC",
+            "zhaoxuya520/reverse-skill",
+            "p-e-w/heretic",
+            "freestylefly/awesome-gpt-image-2",
+            "MadsLorentzen/ai-job-search",
+            "rohitg00/ai-engineering-from-scratch",
+            "tashfeenahmed/freellmapi",
+            "AprilNEA/OpenLogi",
+            "tinyhumansai/openhuman",
+            "apache/maka",
+            "anthropics/claude-plugins-community",
+            "ConardLi/garden-skills",
+            "cursor/plugins",
+            "jingyaogong/minimind",
+            "k1tbyte/Wand-Enhancer",
+            "deepseek-ai/deepseek-harness",
+            "handsomestWei/patent-disclosure-skill",
+            "Osmantic/ODS",
+            "firecrawl/pdf-inspector",
+            "kaifcodec/user-scanner",
+            "omacom/omarchy",
+            "majd/ipatool",
+            "anthropics/claude-plugins-official",
+            "pollen-robotics/microduck_rl",
+            "checkstyle/checkstyle",
+            "mattpocock/skills",
+            "DietrichGebert/ponytail",
+            "abi/screenshot-to-code",
+            "obra/superpowers",
+            "NousResearch/hermes-agent",
+            "Graphify-Labs/graphify",
+            "openclaw/openclaw",
+            "guillaumemeyer/watermarks-remover",
+            "nexu-io/open-design",
+            "stablyai/orca",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "awesome-dsh-plugin/awesome-dsh-plugin",
+            "garrytan/gstack",
+            "JuliusBrussee/caveman",
+            "openai/codex",
+            "asciimoo/hister",
+            "anomalyco/opencode",
+            "earendil-works/pi",
+            "calesthio/OpenMontage",
+            "Leonxlnx/taste-skill",
+            "firecrawl/anydoc",
+            "santifer/career-ops",
+            "addyosmani/agent-skills",
+            "Panniantong/Agent-Reach",
+            "VoltAgent/awesome-design-md",
+            "msitarzewski/agency-agents",
+            "firecrawl/firecrawl",
+            "MengTo/threeui",
+            "odysseus-dev/odysseus",
+            "public-apis/public-apis",
+            "github/spec-kit",
+            "farion1231/cc-switch",
+            "anthropics/skills",
+            "virgiliojr94/book-to-skill",
+            "koala73/worldmonitor",
+            "cathrynlavery/diagram-design",
+            "pbakaus/impeccable",
+            "harry0703/MoneyPrinterTurbo",
+            "img2threejs/img2threejs",
+            "Yuan1z0825/nature-skills",
+            "herdrdev/herdr",
+            "google/googletest",
+            "Egonex-AI/Understand-Anything",
+            "rtk-ai/rtk",
+            "pathwaycom/arc-task-gen",
+            "ayghri/i-have-adhd",
+            "thedotmack/claude-mem",
+            "paperclipai/paperclip",
+            "headroomlabs-ai/headroom",
+            "Shubhamsaboo/awesome-llm-apps",
+            "browser-use/browser-use",
+            "colbymchenry/codegraph",
+            "JustVugg/colibri",
+            "heygen-com/hyperframes",
+            "clash-verge-rev/clash-verge-rev",
+            "block/buzz",
+            "microsoft/markitdown",
+            "anthropics/claude-code",
+            "TencentCloud/TencentDB-Agent-Memory",
+            "arvids-unavailable/openGym",
+            "ZhuLinsen/daily_stock_analysis",
+            "xai-org/grok-build",
+            "CopilotKit/OpenBot",
+            "dataelement/dsh-desktop",
+            "PrimeIntellect-ai/prime-agent",
+            "emilkowalski/skills",
+            "OpenCut-app/OpenCut",
+            "ruvnet/RuView",
+            "tw93/Mole",
+            "wang2122/sprix-sage-router",
+            "DigitalPlatDev/FreeDomain"
+          ],
+          "report_path": "reports/hot-rising/2026-08-31.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-08-28",

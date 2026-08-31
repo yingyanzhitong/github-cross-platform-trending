@@ -163,7 +163,7 @@ class DescriptionTranslatorTests(unittest.TestCase):
 
             self.assertEqual(warnings, [])
             self.assertEqual(translator.batch_sizes, [25, 1])
-            self.assertEqual(translator.analysis_batch_sizes, [10, 10, 6])
+            self.assertEqual(translator.analysis_batch_sizes, [5, 5, 5, 5, 5, 1])
             self.assertTrue(
                 all(item.get("description_zh") for item in software)
             )
