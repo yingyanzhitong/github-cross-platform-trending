@@ -32,8 +32,8 @@
     "CyberTimon/RapidRAW": {
       "source": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
       "zh": "高性能GPU加速的非破坏性RAW图像编辑器。",
-      "analysis_source": "c42af19dba0ac1d90e84d0f7d0c0cdac04678998465fe6ea0708839d64e315e3",
-      "analysis_zh": "RapidRAW 把 RAW 调色做成轻量、非破坏且由 GPU 加速的编辑流程，安装包控制在 under 20MB，并覆盖 Windows、macOS、Linux 与 Android。其目标并非立即复制 Adobe Lightroom® 的全部成熟能力，而是先打磨快速、简洁的核心摄影工作流：用户可依据教程完成 adjustments 与 masking，并通过干净的界面迅速实现自己的色彩意图。底层技术组合为 React、Rust、Tauri 与 WGSL，近期功能已经扩展到 retouch tool 平滑皮肤、liquify tool 局部变形、shift+drag 拉直、图库拖放整理，以及由 Spektrafilm 驱动的 analog film emulations；后者使用 scene referred V Log 色彩管线。README 同时坦率说明软件仍在 active development，精细度尚不及 Darktable、RawTherapee 等成熟工具，实际编辑中可能遇到需要反馈的缺陷。"
+      "analysis_source": "542fe2a7c109b42cd69ee4ba8187960e1b39075cf85ddf8a9aee4602e6672ae9",
+      "analysis_zh": "RapidRAW 把 RAW 照片处理做成一套干净、快速且 non destructive 的编辑流程，目标是在不到 20MB 的轻量包中提供接近现代照片工作台的体验，可直接下载 Windows、macOS、Linux 和 Android 的成品版本。它以 React、WGSL 和 Rust 为技术基础，通过 GPU accelerated 处理支撑调色与编辑，并把界面简洁、响应速度和实现创意色彩效果放在优先位置。文档提供从 adjustments 到 masking 的分步教程；近期功能还显示其编辑链正在持续扩展，包括用于 ai masks 的 edge aware filter、导出时的 EXIF metadata 处理、文件夹级 EXIF 缓存、分别设置网格缩略图与编辑器预览分辨率，以及 smooth skin 的 retouch tool 和局部重塑图像的 liquify tool。开发者将其定位为 Adobe Lightroom® 的现代高性能替代选择，但也坦率说明目前仍在 active development，成熟度尚不及 Darktable、RawTherapee 或 Adobe Lightroom®，现阶段重点是打磨快速、愉悦的核心编辑体验，实际使用中仍可能遇到 bugs。"
     },
     "DayuanJiang/next-ai-draw-io": {
       "source": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
@@ -246,8 +246,8 @@
     "Wox-launcher/Wox": {
       "source": "A cross-platform launcher that simply works",
       "zh": "跨平台高效启动器。",
-      "analysis_source": "3f554d1c952c075a06e47ad86ad6d8d4d938fea02ace0e34d28d1480940d7da9",
-      "analysis_zh": "呼出 Alt / Command + Space 后输入目标，再按 Enter，Wox 便可打开应用、查找文件或执行动作，完成后迅速退回后台。所有操作围绕一个 keyboard first 输入框展开，本地搜索和插件命令不必切换窗口。它在 macOS、Linux、Windows 上采用 fully native 的 GPU rendering，并非 Electron 或浏览器外壳；README 给出的日常内存占用约为 150 MB，意在让启动器长期驻留。默认内置能力之外，用户可从 plugin store 安装扩展，也能使用 Node.js、Python 或脚本编写插件。安装方式覆盖 Homebrew 的 brew install cask wox、Winget、Scoop、Chocolatey、AUR，以及 Debian、Ubuntu、Fedora、RHEL、openSUSE 的发行包；不使用包管理器时，也可从 Releases 下载稳定版本直接运行。"
+      "analysis_source": "ee39357d40ff52ebe961b2b1873f06e2a213b15d5f43a06c105ce662c4f8ea4a",
+      "analysis_zh": "按下 Alt / Command + Space，输入目标再按 Enter，Wox 就完成打开应用、查找文件或执行动作，操作结束后立即退居后台。它在 macOS、Linux 和 Windows 上采用 fully native 的 GPU rendering，并非 Electron 或浏览器外壳；日常使用通常维持约 150 MB memory，适合常驻运行。搜索与动作都聚合在一个以键盘为中心的输入框中，内置功能之外还可从插件商店加入 Node.js、Python 或 script plugins。安装方式覆盖各平台常用包管理器，例如 macOS 可执行 brew install cask wox，Windows 可选 winget install e id Wox.Wox、Scoop 或 Chocolatey，Arch Linux 可用 AUR 包，Debian、Ubuntu、Fedora、RHEL 和 openSUSE 则可从 Releases 下载对应的 .deb 或 .rpm；也可以直接取得最新稳定安装包手动运行。整体设计没有把启动器扩展成庞杂桌面环境，而是围绕“唤出、输入、执行、离开”这一条短路径组织。"
     },
     "XiaoYouChR/Ghost-Downloader-3": {
       "source": "The only downloader you need. 下载器的集大成者。",
@@ -445,8 +445,8 @@
     "generalaction/emdash": {
       "source": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
       "zh": "开源多代理开发环境，支持并行运行多种编码代理。",
-      "analysis_source": "0b87c36f7f23d6bb13b78532c0f7c8700a55828836b832ebabba1afe733d570e",
-      "analysis_zh": "Emdash 把多个编码 Agent 的工作拆到独立 Git worktree 和 branch 中，因此可以同时探索若干修复或功能，不必手工维护一排终端；完成后在同一处查看 diffs、创建 pull requests、检查 CI checks，并合并有效结果。它会自动发现已安装的 provider CLI，可调度 Claude Code、Codex、Cursor、OpenCode、Amp、Devin、Qwen Code、Droid 和 GitHub Copilot 等工具。Linear、GitHub、Jira、GitLab、Asana 等来源的 issue 或 ticket 也能直接送入 Agent。对于支持 lifecycle hook 的工具，Emdash 会在用户级配置中写入带标记的 hook，以跟踪状态、通知和可恢复会话，而 Agent 在 Emdash 之外运行时这些条目不会产生影响。工作范围不限于本机：通过 SSH/SFTP 可在远程代码库执行同样的并行流程，支持 SSH agent、密钥或密码认证，凭据保存在操作系统 keychain；应用状态则存入本地 SQLite。"
+      "analysis_source": "7b241b98551ecc74f723803953e302195b825d50f675d0cf84b63250e118cde1",
+      "analysis_zh": "Emdash 把并行使用 AI 编码代理的过程收进桌面应用：为每项任务分别创建 Git worktree 和分支，让多个修复或功能探索同时进行而不互相干扰，随后可在同一处审查差异、创建拉取请求、查看 CI 检查并合并可用成果。它会自动检测已经安装的 Claude Code、Codex、Cursor、OpenCode、Amp 等提供商 CLI；对于支持生命周期钩子的代理，还会在用户级配置中写入带标记的条目，以跟踪状态、发送通知并恢复会话，而代理离开 Emdash 会话运行时，这些钩子不会产生影响。除本地项目外，也能通过 SSH/SFTP 连接自有远程机器，认证方式覆盖 SSH agent、密钥和密码，凭据保存在操作系统钥匙串。Linear、GitHub、Jira、GitLab、Asana 等平台里的问题或工单可以直接交给代理处理。应用采用 local first 思路，状态存入本地 SQLite 数据库；安装方面，macOS 可执行 brew install cask emdash，Windows 提供安装程序和便携版，Linux 则有 AppImage 与 Debian package。"
     },
     "getagentseal/codeburn": {
       "source": "Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
@@ -457,8 +457,8 @@
     "getpaseo/paseo": {
       "source": "Orchestrate multiple coding agents from desktop and mobile",
       "zh": "桌面和移动端多智能体编程协调工具。",
-      "analysis_source": "b58a667316730ed09ccfcc607e60a5daab295dc1ab0a724f90639e96ec7cb3d0",
-      "analysis_zh": "Paseo 用同一套界面协调 Claude Code、Codex、Copilot、OpenCode 和 Pi，并允许多个 agent 在用户自己的机器上并行工作。其中心是名为 daemon 的 local server，负责管理编码智能体；desktop app、mobile app、web app 和 CLI 都作为客户端连接它，因此可以在桌面启动任务、从手机查看进度，再从终端继续操作。桌面版启动时会自动拉起 daemon；无界面服务器可安装 CLI，选择是否启用用于设备配对的 end to end encrypted relay，若拒绝，也能通过 TCP、Tailscale 或其他 VPN 直连。手机端在 Settings → your host → Pair Device 完成配对。Docker 方式会同时运行 daemon 与 self hosted web UI，访问地址为 http://localhost:6767；若要使用特定 agent CLI，需要扩展基础镜像，并通过环境变量或持久化的 /home/paseo 卷提供凭据。Paseo 不强制登录，也不加入 telemetry 或 tracking，并支持 voice mode 口述任务。"
+      "analysis_source": "7dbf009295d0d5f5a45ac07e29e9afb01878238e8e7f5c2834553927259215c4",
+      "analysis_zh": "Paseo 用一套界面统一操控 Claude Code、Codex、Copilot、OpenCode 和 Pi，并让多个代理在用户自己的机器与完整开发环境中并行运行，因此现有工具、配置、skills 和各代理的凭据仍由本机掌握。其运行中心是名为 daemon 的 local server，负责管理编码代理；desktop app、mobile app、web app 和 CLI 都作为客户端连接它。桌面应用启动时会自动拉起 daemon，手机端可进入 Settings → your host → Pair Device 完成配对；在服务器或无图形界面的机器上，则可安装 CLI 后启动服务。设备间连接可启用 end to end encrypted relay，也可拒绝中继，改走 TCP、Tailscale 或其他 VPN。Docker 路径会同时运行 daemon 与 self hosted web UI，启动后访问 http://localhost:6767，并可扩展基础镜像以加入所需代理 CLI，通过环境变量或持久化的 /home/paseo 卷提供凭据。用户能在桌面开始任务、手机查看或继续处理，也能从终端脚本化操作；voice mode 还支持口述任务和语音讨论。README 同时强调没有 telemetry、tracking 或 forced log ins。"
     },
     "golutra/golutra": {
       "source": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and AI productivity workspace.",
@@ -719,8 +719,8 @@
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "zh": "支持多代理并行的AI开发环境。",
-      "analysis_source": "a3e6f4b0257d729ba4b135a7f635532c8ed578fc2020747f2354e81c0f61b15a",
-      "analysis_zh": "Orca 把多个编码智能体的并行实验组织成可比较、可合并的开发流程。一次提示可以分发给五个代理，每个代理进入独立的 git worktree，用户在同一处跟踪结果、挑选胜出方案并合并，Codex、ClaudeCode、OpenCode 和 Pi 也能并排运行。内置的 Ghostty class terminals 支持 WebGL rendering、无限分屏以及重启后仍保留的滚动记录；Design Mode 允许在真实 Chromium 窗口里点选界面元素，将对应 HTML、CSS 和裁剪截图直接送入提示。代码审查时可在 AI diff 行上留下评论，再把意见发回代理继续修改。远端任务可通过 SSH Worktrees 在服务器上运行，并获得自动重连和端口转发；手机端则负责查看进度、接收完成通知和发送 follow ups。需要自动化时，还能使用 orca worktree create、snapshot、click 与 fill 编排工作流。"
+      "analysis_source": "92443c4f310ddda2a55870c08c287664944bfff046b2802ab4816eb30eed4447",
+      "analysis_zh": "把 Codex、ClaudeCode、OpenCode 或 Pi 放在同一个工作区并排运行，是 Orca 最鲜明的工作方式。用户可以将一条提示同时交给五个代理，每个代理进入独立的 git worktree，随后集中比较结果并合并胜出的实现；所有会话、代码变更和任务状态都在一处追踪。内置的 Ghostty class terminals 支持 WebGL 渲染、无限拆分以及重启后仍保留的回滚内容，配合 VS Code 编辑器，可把文件或图片直接拖进代理提示。Design Mode 还能在真实 Chromium 窗口中点选界面元素，把对应 HTML、CSS 和裁剪截图送给代理。审查阶段可通过 Annotate AI Diffs 在具体差异行留下意见，再交回代理修改、编辑和提交。除了桌面端，Mobile Companion 允许从手机查看进度、接收完成通知并发送后续指令；远程工作则由 SSH Worktrees 提供文件编辑、Git、终端、自动重连和端口转发。GitHub 与 Linear 的 PR、议题和项目看板也能原生浏览，而 Orca CLI 可用 orca worktree create、snapshot、click 和 fill 编排这些流程。"
     },
     "streetwriters/notesnook": {
       "source": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
@@ -731,8 +731,8 @@
     "super-productivity/super-productivity": {
       "source": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
       "zh": "Super Productivity：集成时间管理的高级待办事项应用。",
-      "analysis_source": "1f1302ebcc03fdf5de91f3e6b1af93369f591bb49fd81fa6b66c81ee46a8c795",
-      "analysis_zh": "把任务规划、专注节奏与工时记录放在同一条工作流中，Super Productivity 允许用 sub-tasks、projects 和 tags 分类任务并设置颜色，再通过 timeboxing 安排时间、跟踪实际投入，随后生成 time sheets 与工作摘要，导出到公司的工时系统。日常专注不仅有 Pomodoro timer，还提供休息提醒、反拖延功能和个人指标，帮助观察并调整工作习惯。它能连接 Jira、Trello、GitHub、GitLab、Gitea、OpenProject、Linear、ClickUp 和 Azure DevOps，自动导入分配给自己的任务，在本地补充计划，创建工作日志并接收变更通知；基础 CalDAV 也可用于日历协作。数据可借助 SuperSync、Dropbox 或 WebDAV 跨设备备份和同步，其中 SuperSync 采用端到端加密且支持自托管。任务和项目还能附加笔记、文件、链接及命令书签。应用无需账户或注册，也不收集数据，存储位置由用户决定；可直接使用 Web App 或下载桌面版本，但网页版本存在部分功能限制。"
+      "analysis_source": "a5090cc83ae4755949fceafb800f7ad6cad6a936f6554ef04bc15ec37df84d6e",
+      "analysis_zh": "一天的工作可以先按 projects、tags 和 sub tasks 拆分、分类并配色，再通过 timeboxing 安排时间，同时记录实际耗时；完成后还能快速生成 time sheets 和工作摘要，导出到公司的时间记录系统。Super Productivity 不只保存待办，还把节奏管理放进同一套流程：break reminder 提醒离开屏幕，anti procrastination 功能帮助重新审视拖延，Pomodoro timer 用于集中注意力，个人指标则用来观察哪些工作习惯需要调整。它能从 Jira、Trello、GitHub、GitLab、Gitea、OpenProject、Linear、ClickUp 和 Azure DevOps 自动导入分配给用户的任务，在本地规划细节、自动创建工作日志，并在外部事项变化时通知。任务和项目可附加 notes、文件、链接书签乃至命令。多设备数据可通过 SuperSync、Dropbox 或 WebDAV 备份与同步，其中 SuperSync 是可自行托管的 end to end encrypted sync service；此外还提供基础 CalDAV 集成。README 明确说明应用不收集任何数据，也无需为了使用本地规划功能而把个人工作内容交给分析服务。"
     },
     "sxyazi/yazi": {
       "source": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
