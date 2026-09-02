@@ -2,6 +2,15 @@
 
 本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.8.62] - 2026-09-02
+
+### 更新
+
+- 更新 2026-09-02 前 100 跨平台热门软件榜单：发现候选 1000 个、分析候选 600 个、入榜和详情分析各 100 个。
+- 今日没有 Daily Trending 入榜项目；最近 7 天首次出现项目 5 个：`lapce/lapce`（#21）、`komi-store/komi-store`（#46）、`Sjj1024/PakePlus`（#56）、`purocean/yn`（#75）和 `chaitanyagiri/munder-difflin`（#86），已在表格首位集中展示；采集和分析警告为 0。
+- 重新读取入榜仓库 README，生成 334–771 字的自然中文单段分析；100 个项目均通过 README 依据、模板禁语、重复开头与 Latest Release 双平台安装包校验。
+- 重新构建双榜单 GitHub Pages 索引和 2026-09-02 在线报告。
+
 ## [0.8.61] - 2026-09-01
 
 ### 更新
