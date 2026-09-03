@@ -4620,8 +4620,339 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-09-02",
+      "latest": "2026-09-03",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-09-03",
+          "generated_at": "2026-09-03T09:06:39+08:00",
+          "discovered_count": 981,
+          "candidate_count": 101,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "DietrichGebert/ponytail",
+              "trending_rank": 3,
+              "stars_today": 1354
+            },
+            {
+              "rank": 2,
+              "name": "mattpocock/skills",
+              "trending_rank": 17,
+              "stars_today": 1166
+            },
+            {
+              "rank": 4,
+              "name": "affaan-m/ECC",
+              "trending_rank": 12,
+              "stars_today": 516
+            },
+            {
+              "rank": 5,
+              "name": "NousResearch/hermes-agent",
+              "trending_rank": 7,
+              "stars_today": 533
+            },
+            {
+              "rank": 6,
+              "name": "JuliusBrussee/caveman",
+              "trending_rank": 16,
+              "stars_today": 238
+            },
+            {
+              "rank": 7,
+              "name": "Gitlawb/openclaude",
+              "trending_rank": 18,
+              "stars_today": 775
+            },
+            {
+              "rank": 15,
+              "name": "Imbad0202/academic-research-skills",
+              "trending_rank": 11,
+              "stars_today": 799
+            },
+            {
+              "rank": 16,
+              "name": "debpalash/VoiceStudio",
+              "trending_rank": 4,
+              "stars_today": 832
+            },
+            {
+              "rank": 17,
+              "name": "google-research/timesfm",
+              "trending_rank": 2,
+              "stars_today": 343
+            },
+            {
+              "rank": 19,
+              "name": "firecrawl/pdf-inspector",
+              "trending_rank": 19,
+              "stars_today": 586
+            },
+            {
+              "rank": 49,
+              "name": "ChromeDevTools/chrome-devtools-mcp",
+              "trending_rank": 6,
+              "stars_today": 148
+            },
+            {
+              "rank": 64,
+              "name": "blader/humanizer",
+              "trending_rank": 15,
+              "stars_today": 374
+            },
+            {
+              "rank": 68,
+              "name": "pacifio/atlas",
+              "trending_rank": 9,
+              "stars_today": 888
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 3,
+              "name": "tt-a1i/archify",
+              "trending_rank": 2,
+              "stars_today": 26626
+            },
+            {
+              "rank": 8,
+              "name": "THU-MAIC/OpenMAIC",
+              "trending_rank": 4,
+              "stars_today": 9426
+            },
+            {
+              "rank": 9,
+              "name": "K-Dense-AI/scientific-agent-skills",
+              "trending_rank": 7,
+              "stars_today": 7558
+            },
+            {
+              "rank": 10,
+              "name": "freestylefly/awesome-gpt-image-2",
+              "trending_rank": 5,
+              "stars_today": 7006
+            },
+            {
+              "rank": 11,
+              "name": "MadsLorentzen/ai-job-search",
+              "trending_rank": 20,
+              "stars_today": 4172
+            },
+            {
+              "rank": 12,
+              "name": "calesthio/OpenMontage",
+              "trending_rank": 17,
+              "stars_today": 5078
+            },
+            {
+              "rank": 13,
+              "name": "tashfeenahmed/freellmapi",
+              "trending_rank": 11,
+              "stars_today": 3366
+            },
+            {
+              "rank": 14,
+              "name": "rohitg00/ai-engineering-from-scratch",
+              "trending_rank": 14,
+              "stars_today": 2843
+            },
+            {
+              "rank": 17,
+              "name": "google-research/timesfm",
+              "trending_rank": 21,
+              "stars_today": 787
+            },
+            {
+              "rank": 20,
+              "name": "bilawalsidhu/gods-eye-view",
+              "trending_rank": 1,
+              "stars_today": 10679
+            },
+            {
+              "rank": 21,
+              "name": "cursor/plugins",
+              "trending_rank": 12,
+              "stars_today": 1333
+            },
+            {
+              "rank": 22,
+              "name": "anthropics/claude-plugins-community",
+              "trending_rank": 10,
+              "stars_today": 1212
+            },
+            {
+              "rank": 23,
+              "name": "omacom/omarchy",
+              "trending_rank": 6,
+              "stars_today": 5577
+            },
+            {
+              "rank": 24,
+              "name": "jingyaogong/minimind",
+              "trending_rank": 9,
+              "stars_today": 2669
+            },
+            {
+              "rank": 25,
+              "name": "every-app/open-seo",
+              "trending_rank": 8,
+              "stars_today": 2767
+            },
+            {
+              "rank": 26,
+              "name": "p-e-w/heretic",
+              "trending_rank": 13,
+              "stars_today": 2045
+            },
+            {
+              "rank": 30,
+              "name": "abi/screenshot-to-code",
+              "trending_rank": 15,
+              "stars_today": 2634
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 16,
+              "name": "debpalash/VoiceStudio"
+            },
+            {
+              "rank": 17,
+              "name": "google-research/timesfm"
+            },
+            {
+              "rank": 49,
+              "name": "ChromeDevTools/chrome-devtools-mcp"
+            },
+            {
+              "rank": 64,
+              "name": "blader/humanizer"
+            },
+            {
+              "rank": 68,
+              "name": "pacifio/atlas"
+            },
+            {
+              "rank": 91,
+              "name": "amagine-ai/Amagine3D"
+            },
+            {
+              "rank": 93,
+              "name": "f/prompts.chat"
+            },
+            {
+              "rank": 96,
+              "name": "trycompai/crm"
+            }
+          ],
+          "warnings_count": 1,
+          "item_names": [
+            "DietrichGebert/ponytail",
+            "mattpocock/skills",
+            "tt-a1i/archify",
+            "affaan-m/ECC",
+            "NousResearch/hermes-agent",
+            "JuliusBrussee/caveman",
+            "Gitlawb/openclaude",
+            "THU-MAIC/OpenMAIC",
+            "K-Dense-AI/scientific-agent-skills",
+            "freestylefly/awesome-gpt-image-2",
+            "MadsLorentzen/ai-job-search",
+            "calesthio/OpenMontage",
+            "tashfeenahmed/freellmapi",
+            "rohitg00/ai-engineering-from-scratch",
+            "Imbad0202/academic-research-skills",
+            "debpalash/VoiceStudio",
+            "google-research/timesfm",
+            "deepseek-ai/deepseek-harness",
+            "firecrawl/pdf-inspector",
+            "bilawalsidhu/gods-eye-view",
+            "cursor/plugins",
+            "anthropics/claude-plugins-community",
+            "omacom/omarchy",
+            "jingyaogong/minimind",
+            "every-app/open-seo",
+            "p-e-w/heretic",
+            "stablyai/orca",
+            "Graphify-Labs/graphify",
+            "obra/superpowers",
+            "abi/screenshot-to-code",
+            "VoltAgent/awesome-design-md",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "anywhere-labs/dsh-desktop",
+            "earendil-works/pi",
+            "nexu-io/open-design",
+            "zhaoxuya520/reverse-skill",
+            "firecrawl/firecrawl",
+            "guillaumemeyer/watermarks-remover",
+            "Leonxlnx/taste-skill",
+            "openclaw/openclaw",
+            "harry0703/MoneyPrinterTurbo",
+            "h4ckf0r0day/obscura",
+            "anthropics/skills",
+            "public-apis/public-apis",
+            "browser-use/video-use",
+            "anomalyco/opencode",
+            "Panniantong/Agent-Reach",
+            "herdrdev/herdr",
+            "ChromeDevTools/chrome-devtools-mcp",
+            "openai/codex",
+            "addyosmani/agent-skills",
+            "pbakaus/impeccable",
+            "pathwaycom/arc-task-gen",
+            "cathrynlavery/diagram-design",
+            "firecrawl/anydoc",
+            "ayghri/i-have-adhd",
+            "Yuan1z0825/nature-skills",
+            "msitarzewski/agency-agents",
+            "sindresorhus/awesome",
+            "awesome-dsh-plugin/awesome-dsh-plugin",
+            "github/spec-kit",
+            "vorssaintapp/vorssaint-utils",
+            "microsoft/markitdown",
+            "blader/humanizer",
+            "headroomlabs-ai/headroom",
+            "farion1231/cc-switch",
+            "emilkowalski/skills",
+            "pacifio/atlas",
+            "colbymchenry/codegraph",
+            "datawhalechina/hello-agents",
+            "D4Vinci/Scrapling",
+            "virgiliojr94/book-to-skill",
+            "AprilNEA/OpenLogi",
+            "clash-verge-rev/clash-verge-rev",
+            "unclecode/crawl4ai",
+            "rtk-ai/rtk",
+            "thedotmack/claude-mem",
+            "DigitalPlatDev/FreeDomain",
+            "img2threejs/img2threejs",
+            "heygen-com/hyperframes",
+            "Egonex-AI/Understand-Anything",
+            "Shubhamsaboo/awesome-llm-apps",
+            "koala73/worldmonitor",
+            "anthropics/claude-code",
+            "tw93/Mole",
+            "dataelement/dsh-desktop",
+            "lidge-jun/opencodex",
+            "MengTo/threeui",
+            "odysseus-dev/odysseus",
+            "CopilotKit/OpenBot",
+            "amagine-ai/Amagine3D",
+            "block/buzz",
+            "f/prompts.chat",
+            "browser-use/browser-use",
+            "OpenCut-app/OpenCut",
+            "trycompai/crm",
+            "PrimeIntellect-ai/prime-agent",
+            "TencentCloud/TencentDB-Agent-Memory",
+            "Comfy-Org/ComfyUI",
+            "t8y2/dbx"
+          ],
+          "report_path": "reports/hot-rising/2026-09-03.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-09-02",
