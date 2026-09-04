@@ -32,8 +32,8 @@
     "CyberTimon/RapidRAW": {
       "source": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
       "zh": "高性能GPU加速的非破坏性RAW图像编辑器。",
-      "analysis_source": "925a2571e789758d7d24576dc71caa7eabaa7eb48a775bae3ddd87e65217d0bf",
-      "analysis_zh": "RapidRAW 把 RAW 照片处理做成轻量、顺滑的桌面与移动编辑体验：安装包控制在 20MB 以内，可直接运行于 Windows、macOS、Linux 和 Android，并以非破坏性编辑和 GPU accelerated 管线保持操作响应。它以 Adobe Lightroom® 的现代替代方案为目标，但 README 坦率地把现阶段重点放在快速、愉悦的核心编辑流程，而不是宣称已经达到 Darktable、RawTherapee 等成熟工具的完整度。摄影者可以从 adjustments 入手，再用 masking 进行局部控制；近期迭代还加入 guided perspective correction、自动应用 lens correction 的上下文菜单、用于 ai masks 的 edge aware filter、retouch tool，以及导出时更完善的 EXIF metadata 处理。技术上，React 负责界面，Rust 与 wgpu、WGSL 支撑高性能图像处理，这也解释了它为何能同时追求漂亮界面、较小体积和快速预览。项目仍在 active development，遇到 bug 可直接报告，反馈会用于继续打磨这条以色彩创作和简单工作流为中心的路线。"
+      "analysis_source": "c2e666b15eb9746f4f3c2b44012e045558453a67db4ce9bc64eaff258f7c49d6",
+      "analysis_zh": "RapidRAW 将 RAW 照片处理做成轻量、流畅的 non destructive 编辑流程：调整不会直接破坏原始图像，渲染借助 GPU accelerated 管线完成，安装包控制在 under 20MB，并提供 Windows、macOS、Linux 和 Android 的可运行版本。它强调干净而快速的照片编辑体验，围绕色彩创作提供调整与 masking 等工具，文档中还配有从 adjustments 到遮罩操作的分步教程。实现上结合 Rust、wgpu、React、Tauri，并以 WGSL 支撑图形处理；近期迭代已把 transform/lens correction 整合进主画布，加入 guided perspective correction、自动应用镜头校正的上下文菜单、用于 ai masks 的 edge aware filter，同时改进锐化、移动端界面、导出时的 EXIF metadata processing 和文件夹级 EXIF 缓存。开发者也明确说明它仍在 active development，当前重点是打磨快速、愉快的核心编辑体验，成熟度尚未达到 Darktable、RawTherapee 或 Adobe Lightroom® 的水平，实际使用中仍可能遇到错误。"
     },
     "DayuanJiang/next-ai-draw-io": {
       "source": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
@@ -252,8 +252,8 @@
     "Wox-launcher/Wox": {
       "source": "A cross-platform launcher that simply works",
       "zh": "跨平台高效启动器。",
-      "analysis_source": "043e0cf01af0eb741dd0e6300d8fae5de8a95e5dbd30131051caa825dc85425c",
-      "analysis_zh": "按下快捷入口后，Wox 用一个以键盘为中心的输入框承接应用启动、文件查找、动作执行以及后续步骤，不必离开当前输入即可连续完成操作。它在 macOS、Linux 和 Windows 上采用 Fully native GPU rendering，并明确不是 Electron 或浏览器外壳；日常使用的内存通常维持在约 150 MB，因此可以常驻后台等待查询。内置功能之外，Plugin driven 的扩展方式允许从商店添加 Node.js、Python 或脚本插件，另有 Theme store 用于更换外观，由此把本地搜索与个性化动作集中到同一启动器。安装渠道随平台而异：macOS 可执行 brew install cask wox，Windows 提供 winget install e id Wox.Wox、Scoop 和 Chocolatey，Arch Linux 可用 yay S wox bin；三个系统也都能从 Releases 下载最新稳定包手动运行。插件、主题与使用细节分别有文档和商店入口，问题、讨论与 pull requests 则构成其社区协作渠道。"
+      "analysis_source": "b5f69edff4095f3de8978a0e8dd88cfc8ded61b6d479f5ba1b2f255553d0f365",
+      "analysis_zh": "Wox 把打开应用、查找文件和执行下一步操作集中到一个 keyboard first 输入框中，并以 fully native 方式覆盖 macOS、Linux 和 Windows。三个平台都采用 GPU rendering，而非 Electron 或浏览器外壳；README 给出的日常内存占用约为 150 MB，因此可以常驻后台承担快速调用。功能扩展围绕 plugin system 展开：除了 built ins，用户还能从 plugin store 安装扩展，或使用 Node.js、Python 与 script plugins 编写自己的动作，并可从 theme store 获取主题。安装方式贴合各系统现有包管理器，macOS 可执行 brew install cask wox，Windows 可选择 winget install e id Wox.Wox、Scoop 或 Chocolatey，Arch Linux 可通过 AUR 安装；也可以从 Releases 下载稳定包直接运行。整体设计的辨识度不在复杂工作区，而在轻量常驻、键盘完成操作和插件驱动三者被收束到同一个聚焦输入入口。"
     },
     "XiaoYouChR/Ghost-Downloader-3": {
       "source": "The only downloader you need. 下载器的集大成者。",
@@ -327,8 +327,8 @@
     "audacity/audacity": {
       "source": "Audio Editor",
       "zh": "音频编辑器。",
-      "analysis_source": "3a4010b9fa675572cb502640e24fe5842724729562d55fa02c3e088551352fdc",
-      "analysis_zh": "Audacity 提供易于上手的多轨音频编辑与录制体验，可运行于 Windows、macOS、GNU/Linux 等操作系统。当前仓库正处在一次幅度很大的结构调整中：团队正在开发 Audacity 4，不仅会换用全新 UI，也伴随大量重构，因此 master 分支暂时并不适合新贡献者直接参与。仍希望为稳定版本提交补丁的人，可以从 audacity3 分支建立自己的开发分支；3.x 与 Audacity 4 分别提供了对应的构建说明，开发进展则会通过 YouTube、Discord 和官方博客同步。授权结构也因代码来源而有所区别：Audacity 整体按 GPLv3 发布，多数代码文件采用 GPLv2 or later，而 /au3/lib src 中的第三方库和 VST3 相关代码属于显著例外；文档在未另行注明时采用 CC by 3.0。"
+      "analysis_source": "6f8362087c42ad611a8fb5fdb42a27e5a7a0802763cb076d2d044cf8f56d9a61",
+      "analysis_zh": "Audacity 提供易于上手的 multi track audio editor and recorder，可在 Windows、macOS、GNU/Linux 及其他操作系统中录制和编辑多轨音频。仓库当前正经历幅度很大的结构调整：团队在开发 Audacity 4，不仅会换成 entirely new UI，也同步进行大量重构，因此 master branch 暂时并不适合新贡献者直接切入。若要继续为稳定的 Audacity 3.x 提交补丁，应从 audacity3 分支建立自己的开发分支；3.x 与 Audacity 4 各自有独立的构建说明。代码整体按 GPLv3 发布，多数代码文件采用 GPLv2 or later，但 /au3/lib src 中包含第三方库，VST3 相关代码也属于特别例外；文档若未另行标注，则采用 CC by 3.0。"
     },
     "ayangweb/BongoCat": {
       "analysis_source": "344bdfc44096c2590dd4f1726fb440c88a70841815c5987e768537c3536d97ef",
@@ -367,8 +367,8 @@
     "cli/cli": {
       "source": "GitHub’s official command line tool",
       "zh": "GitHub官方命令行工具。",
-      "analysis_source": "6465cd37ba71ac5265a5911e054dcdad4abd5c4ff771263decaf5611f4a3c1da",
-      "analysis_zh": "在日常编写代码和运行 git 的终端旁，gh 直接提供 GitHub 的 pull requests、issues 等操作，让许多原本需要切到网页完成的工作留在命令行中。它覆盖 GitHub.com、GitHub Enterprise Cloud 和受支持版本的 GitHub Enterprise Server，并可运行于 macOS、Windows 与 Linux；不同平台既能使用 Homebrew、WinGet 或各 Linux 发行版对应的软件包，也可从 releases page 获取预编译二进制文件，或按文档从源码构建。GitHub Codespaces 可通过 devcontainer 配置加入它，而 GitHub hosted runners 已预装并按周更新；工作流若依赖固定版本，则仍需显式安装。README 还提供了供编码代理驱动 gh 的 agent skill，可用内置 gh skill command 安装或更新。遇到缺失功能时，贡献文档给出了反馈、本地构建和提交 pull requests 的路径。"
+      "analysis_source": "edea89164e8b27df9df565d2db2d9b20676ac138326df9927f5f1814679bfcce",
+      "analysis_zh": "gh 将 GitHub 的 pull requests、issues 等协作对象带到终端，让它们与日常使用的 git 和代码处在同一工作环境中，而不必频繁切换到网页。它可用于 GitHub.com、GitHub Enterprise Cloud 以及受支持版本的 GitHub Enterprise Server，并覆盖 macOS、Windows 和 Linux。安装途径随平台而异：macOS 可使用 Homebrew，Windows 可使用 WinGet，Linux 与 Unix 提供 Debian、Ubuntu、Fedora、RHEL 等发行版方案；各平台也能从 releases page 获取预编译二进制，或选择 Build from source。GitHub hosted runners 已预装 GitHub CLI 并按周更新；如工作流必须固定版本，则需要自行控制安装版本。仓库还提供供编码智能体驱动 gh 的 agent skill，可通过内置 gh skill command 安装或更新。Linux 软件包仓库用户还应留意 README 所示的 PGP signing key rotation 信息，以排查安装或升级异常。"
     },
     "codexu/note-gen": {
       "source": "Capture first. Organize later. A local-first Markdown app that turns scattered records into clear notes with AI.",
@@ -403,8 +403,8 @@
     "domcyrus/rustnet": {
       "source": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
       "zh": "支持深度包检测的跨平台终端网络监控工具。",
-      "analysis_source": "ce44f5a8254b3035c238e95c7bb53b71c256419b79e582f8b62700f3c89a56cd",
-      "analysis_zh": "RustNet 在终端中实时展示机器产生的 TCP、UDP 和 QUIC 连接，并把每条连接归属到具体进程，而不仅是列出端口。Linux 使用 eBPF，macOS 使用 PKTAP，Windows 使用 ETW 并自动回退到 IP Helper，FreeBSD 则调用原生 API；界面还能给出 PID、可执行文件、用户/组、匹配置信度和受限长度的父进程链。内置 deep packet inspection 可识别 HTTP、HTTPS/TLS 的 SNI、DNS、SSH、MQTT、BitTorrent、WireGuard、OpenVPN 等协议，无需外部 dissector。导出的 PCAPNG 会把进程、PID、方向、DPI/SNI 和 GeoIP 写入逐包注释，直接用 Wireshark 打开即可核查；传统 pcap 也可搭配 JSONL sidecar 离线关联。运行时在 libpcap 初始化后立即降权，并分别通过 Landlock、Seatbelt 或 Windows token 与 job object 做 sandboxing。它还计算 TCP、QUIC、DNS 和 ICMP 往返时间，检测重传、乱序和快速重传，并以健康徽标和陈旧状态颜色辅助定位异常。"
+      "analysis_source": "029694be6cebe542455d0527466fdadd730bbf1a1ae25b6fa45d157a264d9d90",
+      "analysis_zh": "在终端里打开 RustNet，便能实时看到机器建立的 TCP、UDP 和 QUIC 连接，并把每条连接归属到具体进程，而不只是罗列本地端口。它在 Linux 上借助 eBPF、macOS 上使用 PKTAP、Windows 上使用 ETW 并自动回退到 IP Helper，FreeBSD 则调用原生 API；界面会给出 PID、可执行文件、用户或组、匹配置信度以及受长度限制的父进程链。内置的 deep packet inspection 可直接识别 HTTP、带 SNI 的 HTTPS/TLS、DNS、SSH、MQTT、BitTorrent、WireGuard、OpenVPN 等协议，无须外部解析器。网络分析还会计算 TCP 与 QUIC 握手、DNS 响应和 ICMP echo 的往返时间，并检测重传、乱序及快速重传，通过健康标记和严重程度排序暴露异常。需要留存证据时，pcapng export 会把进程、方向、DPI/SNI 与 GeoIP 写入逐包注释，文件可直接交给 Wireshark 查看；经典 pcap 也能搭配 JSONL 边车文件离线关联。连接行会依据协议超时逐渐变灰并显示移除倒计时，按 t 可以保留已关闭连接；抓包初始化完成后，程序会立即降低权限，并按平台启用 Landlock、Seatbelt 或 Windows 的令牌降权与子进程限制。"
     },
     "doublecmd/doublecmd": {
       "source": "Double Commander is a free cross platform open source file manager with two panels side by side.",
@@ -415,8 +415,8 @@
     "electerm/electerm": {
       "source": "📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)",
       "zh": "免费开源的跨平台终端及 SSH、SFTP、FTP、远程桌面客户端",
-      "analysis_source": "85a92fa3d749e4751b55bfea9ba496181ba7b98bf98886c94604d3a37418c690",
-      "analysis_zh": "electerm 将终端、文件管理和多类远程连接放进同一客户端：既可作为 terminal/file manager，也能连接 ssh/sftp/ftp/telnet/serialport，并覆盖 RDP、VNC、Spice 等远程桌面协议。它不只运行于 Windows、macOS、Linux 和 Android，还列出了 HarmonyOS、iOS、Ubuntu 18、Windows 7、UOS、Kylin 与 LoongArch 等较广的平台和旧系统范围，便于在设备环境复杂时维持相近的操作入口。除了可下载安装的桌面与移动版本，README 还提供 electerm online 公共在线应用、可在浏览器及移动设备中运行的 electerm web，以及供用户使用的 electerm AI；下载入口覆盖 Apple App Store、Microsoft Store、Snap Store、deb repo 和 rpm repo 等渠道。"
+      "analysis_source": "a16520d0f2439c4b1b216ced137a49b922233e4595720a61c262f9ef34b450f3",
+      "analysis_zh": "从本地命令行到远程桌面，electerm 将 terminal/file manager 与 ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client 放进同一套跨平台界面，用户可以管理终端和文件，也能依照目标设备选择相应的远程连接协议。它覆盖 Windows、macOS、Linux、Android、HarmonyOS 和 iOS，并特意兼顾 Ubuntu 18、Windows 7、macOS 10+ 等较旧环境，以及 UOS、Kylin、LoongArch new world & old world 等特殊 Linux 发行环境。除了下载安装原生客户端，README 还提供 electerm online 公共在线应用、可在桌面或移动浏览器运行的 electerm web、Docker 版本和 online demo，并列出 Apple App Store、Huawei AppGallery、Microsoft Store、Snap Store、deb repo、rpm repo 等获取渠道。配套的 electerm AI 向 electerm 用户提供 AI 功能，使终端、文件传输、远程控制与浏览器访问保持在同一产品体系内。"
     },
     "elie222/inbox-zero": {
       "source": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
@@ -463,8 +463,8 @@
     "getagentseal/codeburn": {
       "source": "Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
       "zh": "免费本地追踪 37 种 AI 编程工具的令牌用量与成本",
-      "analysis_source": "b3439aa2f53dab37cef05186249456b97bc8224c21bc6b328976be15872e0376",
-      "analysis_zh": "账单只能给出总额时，CodeBurn 会直接读取各类 AI 编程工具已经写在磁盘上的 session files，把 token 与美元成本拆到 task、model、tool 和 project 层级，从而看出预算究竟花在对话、代码还是某个昂贵模型上。整个分析在本机完成，不需要 wrapper、proxy 或 API keys，也不会把数据送出机器；模型价格来自 LiteLLM，并每日刷新。最快可运行 npx codeburn 打开交互式终端仪表盘，用方向键切换周期、按 q 退出；npx codeburn web 提供网页界面，codeburn menubar 则在 macOS 菜单栏持续显示开销，同一命令也用于 Windows 托盘。所有界面共享磁盘上的同一份数据源，永久安装还可获得 codeburn 命令，并支持 bunx、pnpm dlx 与 Homebrew 等运行方式。"
+      "analysis_source": "72a356dd6bcd654709dfdd268215ef64a558455c24e1ade1761b4a405c3853f5",
+      "analysis_zh": "账单只能显示总额时，CodeBurn 会继续追到钱究竟花在什么任务、模型、工具和项目上。它直接读取各类 AI 编程工具已经写在磁盘上的 session files，把 Claude Code、Cursor、Codex、Gemini、Grok 等 41 AI tools 的 token usage and cost 汇总成可交互视图，并区分对话与代码等实际消耗来源。最快的体验方式是运行 npx codeburn：命令会打开交互式终端仪表盘，默认查看当天数据；若当天没有记录，则展示最近七天，方向键可切换周期，按 q 退出。npx codeburn web 可启动 Web 界面，codeburn menubar 则安装 macOS 菜单栏应用，在 Windows 上安装托盘应用；也可通过 bunx、pnpm dlx 或 Homebrew 使用。所有界面共享磁盘上的同一份数据，不需要 wrapper、proxy 或 API keys，内容不会离开本机；价格数据来自 LiteLLM 并每日刷新。只有可选桌面应用会在用户明确同意后发送匿名、分桶的使用报告。"
     },
     "getpaseo/paseo": {
       "source": "Orchestrate multiple coding agents from desktop and mobile",
@@ -505,8 +505,8 @@
     "janhq/jan": {
       "source": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
       "zh": "完全离线运行的开源ChatGPT替代品。",
-      "analysis_source": "69caabf33fe063871dec446366cad3c38db563310eb65d3e1ab1bd8a2c60c03c",
-      "analysis_zh": "Jan 将下载、运行和调用大语言模型整合进桌面应用，让本地对话既有接近 ChatGPT 的使用方式，也保留对模型与数据的控制。安装 Windows、macOS 或 Linux 版本后，可以从 HuggingFace 获取 Llama、Gemma、Qwen、GPT-oss 等 Local AI Models，并按设备条件离线运行；如果任务需要云端模型，也能连接 OpenAI、Anthropic、Mistral、Groq、MiniMax 等服务。用户可创建 Custom Assistants 来承载特定任务，还能通过 Model Context Protocol 为助手接入智能体能力。Jan 同时在 localhost:1337 提供 OpenAI-Compatible API，使其他程序可以把本机模型当作兼容 OpenAI 接口的服务调用。源码开发以 Node.js、Yarn、Make 和 Rust 为基础，克隆仓库后执行 make dev 会安装依赖、构建核心组件并启动应用；make build 用于生产构建，make test 运行测试与代码检查。模型规模直接影响内存需求，README 给出的 macOS 参考是 3B 模型需 8GB RAM、7B 需 16GB、13B 需 32GB。"
+      "analysis_source": "8b3d618e9499232b2c238f771e97a9d5924158cad9004ed3e3311bb2d3a4e46b",
+      "analysis_zh": "Jan 把下载、运行和管理大语言模型整合进易用的桌面产品，重点是让用户保有控制权与隐私：需要完全本地处理时，可从 HuggingFace 下载并运行 Llama、Gemma、Qwen、GPT oss 等 Local AI Models；需要外部模型时，也能通过 Cloud Integration 连接 OpenAI、Anthropic、Mistral、Groq、MiniMax 等服务。用户可以创建 Custom Assistants 来承载特定任务，还能借助 Model Context Protocol 接入代理式能力。Jan 同时在 localhost:1337 提供 OpenAI Compatible API，让其他应用调用本地服务。普通用户可直接下载 Windows 的 jan.exe、macOS 的 jan.dmg，以及 Linux 的 jan.deb 或 jan.AppImage。源码开发依赖 Node.js、Yarn、Make 和 Rust，make dev 会安装依赖、构建核心组件并启动应用，make build 用于生产构建，make test 执行测试与 lint。Windows 下需从 Git Bash 运行 make dev，因为相关 recipes 通过 sh 分派。"
     },
     "jeffvli/feishin": {
       "source": "A modern self-hosted music player.",
@@ -635,8 +635,8 @@
     "nexu-io/open-design": {
       "source": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "zh": "本地优先的开源设计桌面应用，支持多种编码智能体及多格式导出。",
-      "analysis_source": "bc7cbf4f13f9d0e1515e9b5daaae0e15061f172b614cebad753ad5c0f00ade42",
-      "analysis_zh": "OpenDesign 将编码智能体变成可交付设计文件的执行引擎：用户给出 brief、确定方向后，智能体持续生成并修改原型、网页、仪表盘、演示文稿、图片、视频及 HyperFrames 动效，产物留在本地工作流中供实时预览、评审和交付。其设计资源不是封闭能力，而是由 composable skills、DESIGN.md、渲染模板、设计系统和插件组成的文件体系。桌面端支持 macOS 与 Windows，并用 Sandboxed iframe preview 隔离生成页面，可导出 HTML、PDF、PPTX 和 MP4。运行层既可接入 DeepSeek Harness（dsh），获得结构化思考、工具调用、取消与 session resume，也能调用 Claude Code、Codex、Cursor 等本机 CLI，或通过 BYOK 连接 OpenAI compatible endpoint；官方 OpenDesign Cloud 则把智能体模型与图像模型充值入口合并到应用内。"
+      "analysis_source": "f1fdbf4f52f6c688310d635453fcdc678975468ca399cf2beb2784ae7a5ec955",
+      "analysis_zh": "OpenDesign 把编码智能体变成可交付真实文件的设计引擎：用户先让智能体理解需求、确定方向，再流式生成并审查作品，最终完成交付。它能制作网页、桌面与移动端原型、实时 dashboards、decks、images、video，以及 HyperFrames motion graphics，并通过沙箱 iframe 预览成果，导出 HTML / PDF / PPTX / MP4。应用采用本地优先的 macOS 与 Windows 桌面形态，设计能力被组织成可组合 skills、DESIGN.md design systems、渲染模板和 plugins，因此既能复用品牌规范，也能扩展工作流。运行时不绑定单一智能体：DeepSeek Harness 可作为原生 runtime 接入，支持 structured thinking、tool calls、model discovery、cancellation 和 session resume；同时也能调用 Claude Code、Codex、Cursor、OpenCode 等本机 CLI，或通过 BYOK 连接 OpenAI compatible endpoint。生成文件会留在 OpenDesign workflow 中，继续用于 live preview 与 delivery。"
     },
     "nukeop/nuclear": {
       "source": "Streaming music player that finds free music for you",
@@ -737,8 +737,8 @@
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "zh": "支持多代理并行的AI开发环境。",
-      "analysis_source": "879c6facfed2faf3bcbca325e25442bc05329eda94ac0b2e62bc2a72bcb127f2",
-      "analysis_zh": "把 Codex、ClaudeCode、OpenCode 或 Pi 放进同一个工作空间并排运行，是 Orca 最鲜明的工作方式。用户可以把一条提示同时交给五个代理，每个代理进入彼此隔离的 git worktree，完成后集中比较结果，再合并更合适的版本。它不只汇总对话，还提供可无限拆分且重启后保留回滚记录的 Terminal Splits、基于真实 Chromium 页面的 Design Mode，以及直接对 AI Diffs 逐行批注并把意见送回代理的审查流程。GitHub 与 Linear 的 PR、issue 和项目看板可在应用内浏览，任务也能直接转成工作树；SSH Worktrees 则把文件编辑、Git 和终端搬到远程主机，并处理自动重连与端口转发。离开电脑后，Mobile Companion 可在手机上查看代理状态、接收完成通知并继续追问。自动化需求还能交给 Orca CLI，通过 orca worktree create、snapshot、click 和 fill 编排同一套工作流。"
+      "analysis_source": "b9047da3e08b6419344a48471c25148a3669cf7578a00ae7775d28c2cf506e26",
+      "analysis_zh": "在 Orca 里，一项编码任务可以同时交给 Codex、ClaudeCode、OpenCode 或 Pi，每个代理进入独立 git worktree，结果集中跟踪，随后比较实现并合并胜出版本。Parallel Worktrees 能把同一提示分发给五个代理；Annotate AI Diffs 则允许直接在差异行留下评论，再把反馈送回代理，继续编辑、审查和提交。工作界面内置采用 WebGL 渲染的 Ghostty class terminals，支持无限拆分，重启后仍保留 scrollback；VS Code 编辑器提供全局自动保存，也可把文件或图片拖进代理提示。Design Mode 可以在真实 Chromium 窗口中点选界面元素，把对应 HTML、CSS 和裁剪截图送给代理。Orca 还能原生浏览 GitHub 与 Linear 的 PR、issue 和项目看板，从任务直接打开 worktree；SSH Worktrees 把代理放到远程主机运行，并处理自动重连和端口转发。离开电脑后，Mobile Companion 可在手机上查看进度、接收完成通知并发送 follow ups；自动化流程则可通过 Orca CLI 的 orca worktree create、snapshot、click 和 fill 驱动。"
     },
     "streetwriters/notesnook": {
       "source": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
@@ -757,8 +757,8 @@
       "zh": "基于异步I/O的极速终端文件管理器。"
     },
     "t8y2/dbx": {
-      "analysis_source": "c2b9180420a4a350c7c788b056cb4a21f5ee31bc5f2a2bc9825ea23566cee2db",
-      "analysis_zh": "用约 20 MB 的单一小型二进制连接 90+ databases，是 DBX 区别于依赖 Java JRE、Python venv 或 bundled Chromium 的数据库工具之处：下载、安装后即可连接，无需额外运行时。它把桌面端、Docker 自托管、Web 与 CLI 放在同一产品体系内，连接和功能可以跨这些形态延续；数据库范围涵盖 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、Cloudflare D1、SQL Server、Oracle 以及多种搜索与向量数据库。编辑器里的 built in AI assistant 支持选中表并用自然语言描述需求，再生成 SQL，可接 Claude、OpenAI 或经 Ollama 运行的本地模型，执行前还有安全检查审阅生成语句。内置 MCP Server 则复用用户已经配置的连接，让 Claude Code、Cursor、Windsurf 等代理通过 Model Context Protocol 查询数据库，不必为每个代理重复维护连接配置。",
+      "analysis_source": "b3900892649c70430e7521f54a5f79f8019deabfceac5c20e2e02232c8616737",
+      "analysis_zh": "仅约 20 MB 的 DBX 把数据库连接、查询与 AI 协作集中在一个轻量工具中，覆盖 90+ databases，并提供 Desktop、Docker、CLI 等多种使用形态：既可以在 macOS、Windows 和 Linux 上运行原生应用，也能按服务方式部署或从命令行操作。它以单一小型二进制交付，不依赖 Java JRE、Python venv，也不捆绑 Chromium，基本流程就是下载、安装并连接数据库。编辑数据时，可以选中表并用自然语言描述需求，由 built in AI assistant 直接生成 SQL；它兼容 Claude、OpenAI 和通过 Ollama 运行的本地模型，执行前还会用安全检查审阅 AI 生成的语句。MCP Server 则把已经配置好的数据库连接开放给 Claude Code、Cursor、Windsurf 等 AI 编程代理，使它们能够通过 Model Context Protocol 查询数据，无须在不同工具中重复配置连接。",
       "source": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "20 MB 轻量级跨平台数据库客户端，支持 90 多种数据库及 AI、MCP、CLI、桌面端和 Docker"
     },
