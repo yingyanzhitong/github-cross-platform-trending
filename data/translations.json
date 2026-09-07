@@ -108,8 +108,8 @@
     "KunAgent/Kun": {
       "source": "Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI.",
       "zh": "本地优先的 AI 智能体工作空间，统一支持桌面 GUI 与 TUI",
-      "analysis_source": "d9c9ccfc8dfab1a72dbea112428a13c186ff1898e6815c5ef3fd542088b31e97",
-      "analysis_zh": "Kun 把 AI 的工作过程从一次问答延伸到可检查的交付链：给出目标和约束后，Agent 会结合工作区内容制定计划、调用工具、修改文件并运行验证，计划、Todo、审批、Diff、测试及终端结果都留在任务上下文中。工作台分为 Code 与 Work 两种主模式；Code 聚合项目、分支、文件编辑、终端、Git / Worktree、测试和审查，还能在同一任务中切换 Design 画布，让原型、设计系统及 Design → Code 上下文与实现保持关联。Work 则围绕 Markdown、PDF / Office 文档、电子表格、演示文稿和白板组织写作与资料处理，其中 Office 文件保持只读。桌面 GUI 与终端 TUI 并非两套孤立客户端，它们连接同一个本地 kun serve 运行时，共享线程、目标、计划、审批和后台任务。会话、偏好、日志默认留在本机，但选用云端 Provider 时，提示、附件和上下文仍会发送给相应服务。重复流程还可通过 Scheduled tasks、Loops、Hooks、MCP、Skills 与扩展自动化。"
+      "analysis_source": "b6c49916f07187a1826cdd94f600d48ed5c67e14c1b6a13359c3278c9eca5480",
+      "analysis_zh": "Kun 把一次工作组织成可追踪的交付过程：先给出目标和约束，Agent 根据工作区内容补足范围、风险与验收标准，再依照计划修改文件、调用工具并运行验证，最后用 Diff、测试、审查和实际产物作为完成证据。它用 Code 与 Work 两种模式承接不同任务；Code 将项目、分支、终端、Git / Worktree、测试和代码审查放在一起，并允许在同一任务中切换 Design 画布，让原型、设计系统及 Design → Code 上下文继续参与实现；Work 则围绕文件树和 Work assistant 起草 Markdown、分析电子表格、引用或预览 PDF / Office 文档、制作演示文稿及使用白板整理想法，其中 Office 文件保持只读。桌面 GUI 与终端 TUI 并非两套独立会话，而是共同连接本地 kun serve，线程、目标、计划、审批和后台任务可以连续流转。会话、偏好、日志和运行时数据默认留在本机，但选择云端 Provider 后，提示、附件和任务上下文会发送给相应服务。开始使用时，从 GitHub Releases 安装桌面版，配置模型或自定义 Provider，打开本地项目，再提交范围有限且能够验证的目标；Scheduled tasks、Loops、Hooks、MCP 和 Skills 可继续扩展重复流程。"
     },
     "LaoFeng-mouse/flyingmouse-format": {
       "source": "飞鼠格式 FlyingMouse Format - Windows 免费文件格式转换工具（离线可用，内置 FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS 格式互转 + OCR + 批量转换；音频仅支持普通格式。作者：牢蜂（LaoFeng）｜仅供个人免费使用，禁止商业售卖/转卖/套壳",
@@ -132,8 +132,8 @@
     "NanmiCoder/cc-haha": {
       "source": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
       "zh": "本地优先的跨平台桌面工作空间，支持多智能体和多模型。",
-      "analysis_source": "7c909d2c30a7fa0beb450d9fd3ab2d1a9637b7b092ced3066dca19aae952159e",
-      "analysis_zh": "Claude Code Haha 把一次编码代理任务放进可观察、可核验的桌面工作区：新建会话后，项目与权限持续显示，工具调用和分阶段进度不会藏在后台；代码修改完成时，可在全宽语法高亮 diff 中逐项检查，再用 built in browser 查看真实编辑后的页面。多个会话可以并行组织，也能从 branch / Worktree 启动隔离工作，配合 global search 找回跨任务内容。模型选择并不局限于 Claude，ChatGPT、Grok、预设配置和 local endpoints 都能出现在同一列表中。更复杂的协作则由 Agent Teams workbench、dynamic Workflow orchestration、可视化 MCP 与 SubAgent 管理器承接，并通过 model trace 与 GUI permission approval 帮助用户理解代理做了什么、批准了什么。应用还整合 Computer Use、skill marketplace、图片生成、定时任务、H5 remote access、IM integration、主题与 desktop pets，形成覆盖 macOS、Windows 和 Linux 的完整 Claude Code 桌面操作环境。"
+      "analysis_source": "1072c695dfe50053c8c51975ad3bf1b7627ecbfda8a5fedcffd305e823e42a79",
+      "analysis_zh": "把 Claude Code 的多会话、代码审阅、模型接入和自动化能力集中进一个 macOS、Windows、Linux 桌面应用，是 Claude Code Haha 最鲜明的产品形态。打开本地项目后，可以从指定分支创建会话，并选择直接使用当前工作树或建立隔离 Worktree；Agent 执行过程中，任务阶段、工具调用和后台活动会持续显示，产生的文件改动则汇总到右侧，以带语法高亮的 Diff 逐行审阅，必要时还能整轮撤销。网页修改完成后可直接用内置浏览器预览，本地页面的登录态和 Cookie 仍然有效。每条会话都能独立选择 Claude、ChatGPT、Grok、第三方 API 预设或 LM Studio、Ollama 本地端点，权限则通过五档权限模式控制危险命令、工具调用及 AI 反问。工作台还提供 MCP 图形化管理、可视化 SubAgent 管理、Agent Teams 协作工作台、技能市场、图片生成、Computer Use、H5 远程访问、IM 接入与定时任务。安装时从 Releases 获取对应平台安装包，首次启动配置模型提供商、API Key 和默认模型；跨会话查找内容可按 Cmd+K 使用全局搜索。"
     },
     "OpenCoworkAI/open-codesign": {
       "source": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
@@ -287,14 +287,20 @@
     "agalwood/Motrix": {
       "source": "A full-featured download manager.",
       "zh": "功能完善的下载管理器。",
-      "analysis_source": "68750311d7c3f586948a47041bf00d7524f8eef214fc213c264dc741e28d17d6",
-      "analysis_zh": "从 HTTP、FTP 普通文件到 BitTorrent 与 magnet links，Motrix 把多类传输任务收进简洁的桌面下载界面，并提供暗色模式、单个文件选择、上传下载限速以及多套速度配置。任务会存入 SQLite backed sessions，应用重启后可以恢复；Dashboard 可组合传输统计、实时活动和任务卡片，下载完成时既能触发系统通知，也会进入应用内通知中心。正在测试的 Motrix Turbo 是从头重建的 v2，采用 Electron、React 和 TypeScript，但把下载核心与界面解耦：浏览器扩展和命令行工具通过 MDXP 与应用通信，该开放协议建立在 JSON RPC 2.0 之上，插件则运行在 QuickJS 隔离沙箱中并受细粒度权限约束。同一核心既可驱动 macOS、Windows、Linux 桌面应用，也能在 Node.js 或 Docker 中作为 Headless server 运行，通过 Web UI 服务 NAS 和家庭服务器。由于 v2 仍处于 beta，README 明确指出 v1 数据迁移尚未验证，试用前应备份数据，并尽量使用独立系统账户、设备或 Docker 数据目录并行测试。"
+      "analysis_source": "91b93dcd6e1c0583d17d7d986b789e2144827fefde87fa9c3e4a291b15eacbdc",
+      "analysis_zh": "HTTP、FTP、BitTorrent 和 magnet links 下载都能集中交给 Motrix 管理，同时保持简洁的桌面操作体验。重构后的 Motrix Turbo 使用 Electron、React 和 TypeScript，但把 download core 与界面分离：浏览器扩展和命令行工具通过基于 JSON RPC 2.0 的 MDXP 与应用通信，插件则运行在隔离的 QuickJS 沙箱中并接受细粒度权限控制。同一套核心既可作为 macOS、Windows、Linux 桌面应用运行，也能直接在 Node.js 或 Docker 中以 Headless server 方式启动，并为 NAS 和家庭服务器提供 web UI。下载侧支持 BT 文件逐项选择、tracker 列表自动更新和健康检查、UPnP 与 NAT PMP 映射、多套限速配置；SQLite backed sessions 会在重启后恢复任务，Dashboard 展示传输统计和实时活动。README 同时明确 Motrix Turbo v2 尚处 beta，v1 数据迁移未经验证，测试前应备份并尽量使用独立账户、机器或 Docker 数据目录。"
     },
     "ai-shifu/ChatALL": {
       "source": "Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover the best answers",
       "zh": "同时与 ChatGPT、Bing Chat、Claude 等模型对话，找出最佳答案",
       "analysis_source": "ff92c1d26fa345701d604af96ebff3d4642eb5cf1d02aa79ec1199c3e4b3411a",
       "analysis_zh": "与其在多个网页间逐个复制问题，ChatALL 会把同一条 prompt 并发发送给多个 AI bot，再把回答并排呈现，方便直接比较不同模型的结果。用户可以随时启用或停用机器人，在一列、两列或三列布局间切换，标亮满意回答、删除较差回答，并利用 Quick-prompt mode 在上一轮尚未完成时继续提问；多会话、提示词管理、深色模式、代理设置和快捷键也都集成在桌面客户端中。支持对象既有 ChatGPT、Claude、Gemini 等提供 API 的服务，也包含通过 Web Access 接入的机器人以及 Gradio 上的 Hugging Face Space 或自部署模型。后者依赖网页界面的逆向适配，服务方改版或调整安全措施后可能失效，因此 README 更推荐在可选时使用 API。聊天历史、设置和登录数据保存在本机；匿名统计不会收集 prompt 与回答正文，但会记录调用了哪些机器人、文本长度以及删除或标亮行为。ChatALL 本身不是代理，运行前仍需准备对应账号或 API token 及可用网络。Windows、macOS 和 Linux 均有安装包，macOS 也可执行 brew install --cask chatall；遇到网页接入异常时，可依次尝试刷新、重启、重新登录或新建会话。"
+    },
+    "aipoch/open-science": {
+      "source": "Open Science by AIPOCH is an open-source, local-first, model-agnostic AI research workbench for macOS, Windows, and Linux, with scientific agents, Python/R notebooks, data connectors, and reproducible provenance.",
+      "zh": "开源、本地优先且模型无关的跨平台 AI 科研工作台",
+      "analysis_source": "418dfaefd02b359dad6ccd57d608635217920270109528f1669374ad87228172",
+      "analysis_zh": "从新建研究项目开始，研究者只需用自然语言描述目标，Open Science 中的科学智能体便能在同一工作区读取文件、搜索网页、运行代码、查询科学数据源，并生成报告、表格和图形；这些产物带有可追溯的 provenance，便于检查和复现研究过程。工作台同时提供 Python 和 R 执行能力，可覆盖文献综述、假设形成、数据分析、模拟与可视化等环节，并运行于 macOS、Windows 和 Linux。它坚持 local first 与 model agnostic，不把科研流程绑定到单一模型或远端环境。新版还把计算与文献管理继续纳入工作流：远程主机除 direct SSH 外可按主机启用 Slurm execution mode，reference library 则负责组织参考文献、PDF 和引文，支持按标识符导入、重复项合并、附加开放获取全文及格式化引用。"
     },
     "alacritty/alacritty": {
       "source": "A cross-platform, OpenGL terminal emulator.",
@@ -448,6 +454,12 @@
       "analysis_source": "cf990f39e83d879a99b9d3931b416c71ce4e8163b3a0a746c5bdbcc9acaf07c4",
       "analysis_zh": "按下截图快捷键后直接圈选、标注、复制或保存，是 Flameshot 最直观的工作方式。运行 flameshot 会让程序驻留后台，并在桌面环境支持时显示托盘图标；需要立即进入图形化捕获时使用 flameshot gui，自定义保存目录可执行 flameshot gui -p /myStuff/captures，若要等待两秒再截取悬停提示等短暂内容，则可运行 flameshot gui -d 2000。它不仅提供矩形、圆形、箭头、文字、画笔、标记和像素化等截图内编辑工具，还能撤销重做、调用其他应用打开结果、复制到剪贴板或 Upload to Imgur。无界面的自动化流程也很完整，例如 flameshot full -c -p /myStuff/captures 会捕获全屏、写入指定目录并复制到剪贴板，flameshot screen -n 1 -c 则锁定编号为 1 的屏幕。配置既能从托盘菜单进入，也能通过 flameshot config 打开，并可直接编辑 flameshot.ini；跨 Linux 与 Windows 复制配置时，要同步修正 savePath。快捷键是其体验的重要部分，图形模式中 P、A、T、B 可切换画笔、箭头、文字和像素化工具，方向键还能逐像素移动或调整选区。Windows 用户若需要在控制台查看帮助等文字输出，应使用 flameshot-cli.exe；Linux 上则可将 flameshot gui 绑定到 Prt Sc，README 分别给出了 KDE Plasma、Gnome、XFCE 4 与 Fluxbox 的替换步骤。对于 Hyprland、Sway、wlroots 以及精简 X11 窗口管理器，捕获方式还涉及 portal 或 legacy X11 capture 的专门配置。"
     },
+    "frappe/books": {
+      "source": "Free Accounting Software",
+      "zh": "免费会计软件",
+      "analysis_source": "26ecfd890e749e6c41ccaf0013c5610470c81924908cda0a83d6baa9ea41e690",
+      "analysis_zh": "Frappe Books 将小型和中型企业常用的记账、收款、开票与报表放进简洁的桌面界面，并且 Works Offline：没有网络时仍可继续处理业务，之后再同步。日常经营可以从 Dashboard 查看关键财务数据和绩效指标，通过 Point of Sale 完成零售销售，用 Invoicing 创建和管理发票，以 Billing 生成账单并跟踪付款，再由 Payments 记录收款与支出。账务底层采用 Double entry accounting，每笔交易同时登记到两个账户；需要补充调整或说明时，可使用 Journal Entries 将交易及详细备注写入总账。数据最终汇入多种 Financial Reports：General Ledger 集中呈现全部财务交易，Profit and Loss Statement 汇总收入、成本和费用以显示盈利情况，Balance Sheet 展示某一时点的资产、负债和权益，Trial Balance 则通过核对借贷是否平衡来检查记录准确性。它试图填补昂贵、复杂会计工具留下的空缺，让企业在离线条件下也能完成从销售处理、复式记账到财务核验的一整套流程；界面部分由 Vue.js 提供响应式、组件化的前端体验。"
+    },
     "freeplane/freeplane": {
       "source": "Application for Mind Mapping, Knowledge Management, Project Management. Develop, organize and communicate your ideas and knowledge in the most effective way.",
       "zh": "是一款用于思维导图、知识管理和项目管理的应用，助你高效组织和传达想法。",
@@ -549,8 +561,8 @@
     "laurent22/joplin": {
       "source": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
       "zh": "支持多平台同步的隐私笔记应用。",
-      "analysis_source": "e11f73f514a06f175e5833a0208c3a53664b2b1daa622cc6319e64313bd83e98",
-      "analysis_zh": "笔记在 Joplin 中以 Markdown format 保存，可按 notebooks 组织，并支持搜索、复制、标签和修改；除了直接在应用内编辑，也能交给自己的文本编辑器处理。迁移旧资料时，可以导入 Plain Markdown files，也能接收从 Evernote 导出的内容，将格式转换为 Markdown，同时保留图片、附件、地理位置以及创建和更新时间等元数据。它强调 offline first，手机或电脑始终保存完整数据，因此断网仍可查看和编辑；联网后则可通过 Nextcloud、Dropbox、OneDrive 或 Joplin Cloud 安全同步，并可启用 end to end encryption。Windows、Linux、macOS、Android 和 iOS 均有客户端，所有平台都提供 Full text search；Firefox 与 Chrome 上的 Web Clipper 还能收集网页和截图。界面与行为可借助 plugins and themes 调整，也允许用户自行制作扩展。"
+      "analysis_source": "4445f56303ff40dd7809248abcc0a9a219fe8fa7f39a8c820d2527fb5f6e12e6",
+      "analysis_zh": "大量笔记可以在 Joplin 中按 notebooks 组织，并通过搜索、复制、标签和编辑持续整理；内容采用 Markdown format，既能在应用内修改，也能交给自己的文本编辑器处理。迁移自 Evernote 时，格式化正文会转换为 Markdown，图片、附件以及地理位置、创建时间和更新时间等完整元数据也可一并导入，普通 Markdown 文件同样受支持。offline first 的设计让手机或电脑始终保存完整数据，即使没有网络也能读取笔记；恢复联网后，可借助 end to end encryption 与 Nextcloud、Dropbox、OneDrive 或 Joplin Cloud 安全同步。Windows、Linux、macOS、Android 和 iOS 均有客户端，所有平台提供全文搜索；Firefox 和 Chrome 上的 Web Clipper 还能保存网页与截图。界面和功能可通过 plugins and themes 定制，也允许用户自行制作扩展与主题。"
     },
     "lencx/Noi": {
       "source": "🚀 Less chaos. More flow.",
@@ -737,8 +749,8 @@
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "zh": "面向并行智能体集群的开发环境，支持自有订阅及桌面、移动和远程运行",
-      "analysis_source": "4bcd4befc202793d908f318cb39c73627f8895fd5b75ecfaf37907cba6226dec",
-      "analysis_zh": "把 Codex、ClaudeCode、OpenCode 或 Pi 并排放进同一个工作空间，是 Orca 组织智能体开发的起点。用户可以用 Parallel Worktrees 将同一提示分发给五个智能体，让它们分别在隔离的 git worktree 中实现方案，再比较结果并合并胜出版本；Terminal Splits 则提供基于 WebGL 的 Ghostty 级终端、无限分屏，以及重启后仍保留的回滚记录。处理界面问题时，Design Mode 允许在真实 Chromium 窗口中点击元素，把对应 HTML、CSS 和裁剪截图直接加入提示。代码审查也无需跳出环境：Annotate AI Diffs 可在差异行留下评论并交还智能体继续修改。Orca 还能原生浏览 GitHub PR、Issue 和 Linear 项目板，从任务直接创建工作树；SSH Worktrees 将文件编辑、Git 和终端搬到远程主机，并负责自动重连及端口转发。人在外面时可通过 Mobile Companion 查看执行状态、接收完成通知并发送后续指令，而 orca worktree create、snapshot、click、fill 等命令又让智能体或脚本反过来驱动 Orca。"
+      "analysis_source": "44b77ae890fc97f5ba023c5585c8f3b7c74aafd32b669585990b7250ac685f8c",
+      "analysis_zh": "把 Codex、ClaudeCode、OpenCode 或 Pi 并排放进不同的 git worktree，是 Orca 组织多智能体编码的基本方式：同一提示可以分发给五个智能体，让它们在隔离分支中各自完成方案，再集中比较结果并合并胜出版本。桌面端以可无限拆分的 Ghostty class terminals 承载会话，滚动记录在重启后仍能保留；SSH Worktrees 又把文件编辑、git 和终端搬到远程主机，并处理自动重连与端口转发。审查阶段可在 AI diff 的任意行留下批注并回传给智能体，也能直接编辑、提交。Design Mode 允许在真实 Chromium 窗口中点击界面元素，把对应 HTML、CSS 和裁剪截图送入提示；Mobile Companion 则用于在手机上监控进度、接收完成通知和追加指令。需要自动化时，还可通过 Orca CLI 调用 orca worktree create、snapshot、click 和 fill 来编排这些流程。"
     },
     "streetwriters/notesnook": {
       "source": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
@@ -757,8 +769,8 @@
       "zh": "基于异步I/O的极速终端文件管理器。"
     },
     "t8y2/dbx": {
-      "analysis_source": "b40339c489f5e2fb1d0de6b83d87e7c6e7654f3f5e13f551900a9b9cdd39622b",
-      "analysis_zh": "90+ databases in 20 MB 概括了 DBX 最醒目的取舍：不携带 Java JRE、Python venv 或 bundled Chromium，而是以单个小型二进制交付，下载后即可安装并连接数据库。这套工具同时提供 Desktop、Docker、CLI、built in AI assistant 和 MCP Server，因此既能作为日常图形化数据库客户端，也能进入容器、终端及 AI 工具链。AI 助手直接驻留在编辑器中：选中一张表并用自然语言描述需求，就能得到 SQL，不必在聊天工具和数据库客户端之间来回复制；模型来源可选 Claude、OpenAI，或通过 Ollama 使用本地模型。生成内容并非直接无条件执行，built in safety checks 会先审查 AI generated SQL。README 还强调 MCP 连接方向，让数据库能够被 AI 工作流调用。整体设计的辨识度不在堆叠运行时，而在用轻量分发同时覆盖传统连接操作、编辑器内 SQL 生成和 MCP 接入。",
+      "analysis_source": "5de2bd9dff85283102861bbd1c73e465fc2f0012dcf943bb8c38bfa007386758",
+      "analysis_zh": "“90+ databases in 20 MB”概括了 DBX 最鲜明的取舍：以单个小型二进制文件交付，不捆绑 Java JRE、Python venv 或 Chromium，下载安装后即可连接数据库。它把 Desktop、Docker、CLI、built in AI assistant 和 MCP Server 放在同一产品体系中，使图形操作、容器化部署、终端工作流与智能体接入能够共享数据库能力。内置 AI 并非脱离上下文的聊天窗口，而是“lives in your editor”：README 展示的操作从选中表或编辑器内容、用自然语言描述意图开始，让辅助能力贴近正在处理的数据与查询。数据库覆盖强调广度，仓库简介列出的 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、SQL Server 和 Dameng 等均可纳入统一客户端，因此使用者不必为关系型数据库、键值存储和文档数据库分别准备体量庞大的运行环境。",
       "source": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "20 MB 轻量级跨平台数据库客户端，支持 90 多种数据库及 AI、MCP、CLI、桌面端和 Docker"
     },
