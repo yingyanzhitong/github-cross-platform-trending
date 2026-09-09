@@ -206,8 +206,8 @@
       "analysis_zh": "Vibe Trading 试图用 One Command 为智能体补齐交易能力，并把入口扩展到 API / MCP、示例、Shadow Account 与文档。README 的更新记录尤其强调交易系统的数据契约与风控边界：Alpha Zoo 曾因 NaN comparison 得到 False，让三元分支落到常量，导致缺失输入仍被当成真实信号；修复后由 registry 统一把依赖缺失位置遮罩为 NaN，而 warmup window 的处理仍明确保留为待解决问题。跨市场回测也会按品种分别同步 round size、commission 与 swap 所需参数，避免黄金、外汇和期货误用同一子引擎状态。订单通道针对 MT5、eToro、futu 等执行差异补充检查，符号识别则覆盖 HK.00700、US.AAPL、SH.600519 等 broker code，并阻止 BTCUSDT 被套用 A 股 T+1 和禁止做空规则。仓库还明确警告，VibeTrading HKU 账号、指定 Virtuals 项目及 token contract 均非官方资产，从未发行或背书 token 或 memecoin。"
     },
     "Hisn00w/ASu-skills": {
-      "analysis_source": "6dcde1ab0d454f3d966443324e985dc9f5ae13cc5bfe420e7b0af7f777485bec",
-      "analysis_zh": "求职材料从“缺经历”到“持续跟进投递”被拆成六个可以单独调用、也能串联的入口。/contributor 先按目标岗位寻找真实开源小任务，展示候选、拟修改内容和验证结果，只有用户确认后才提交 PR；合并证据可继续交给 /asu，将真实职责、项目成果和岗位定位改写成可核验的简历表述及 HR 开场白。文字确认后，/make resume 会选择或复刻模板，输出真正可编辑的 HTML，支持浏览器内修改字体、照片和颜色，并打印为 PDF；想复现单栏高密度技术简历时则使用 /asu resume。/interview 会从简历中抽取 Claim，一次只追问一个问题，检查职责、实现、指标口径和取舍是否讲得清；/offer 把邮件、网站记录和截图整理为包含日期、公司、岗位、状态及下一步的 application tracker.html。六条流程共用 assets/ 与 references/，并强调“酥化”不是编造：强表述必须有证据，团队成果和个人贡献要区分，协作中或待补内容也要如实标记。"
+      "analysis_source": "13e42dac2ea73cc1692594ec404270aa289192a5657f823dc9fba73051de85f2",
+      "analysis_zh": "求职过程被拆成九个可以独立调用、也能前后衔接的入口：/contributor 寻找并完成可验证的开源贡献，/evidence recap 把 AI 编程对话还原为九段证据链，/project guide 产出源码导学、练习与面经，随后可交给 /great resume 整理岗位定位和简历表述，再由 /make resume 生成可编辑 HTML 并打印导出 PDF。拿到具体 JD 后，/job match 会区分已经匹配、表达缺口、证据不足和真实缺口，而不是用关键词拼出虚假的精确分数；填写招聘网站时，/job apply 只处理用户确认的单个职位，支持读取页面、映射字段、选择下拉项和上传附件，并默认停在最终提交按钮前。进入面试和持续投递阶段，还可用 /interview 逐题验证职责、实现与指标口径，用 /offer 维护投递、测评、面试、Offer 和拒信状态。整套插件同时适配 Codex、Claude Code 和 TraeWork，九个入口共用 skills/、assets/ 和 references/，并以 skills.registry.json 作为入口清单的单一事实源。"
     },
     "Imbad0202/academic-research-skills": {
       "source": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
@@ -487,6 +487,12 @@
       "analysis_source": "2137f45320eb350d86bba91c4e892d20d2409bd75fae62addff3f9cf0a9bd78a",
       "analysis_zh": "把 Claude Code 配置直接装成插件后，Everything Claude Code 会一次提供 agents、skills、hooks、commands、rules 和 MCP configurations；也可以手动挑选组件，把 hooks/hooks.json 合入 settings.json，并从 mcp configs/mcp servers.json 选择所需服务器。agents 负责范围受限的委派任务，skills 定义可由命令或智能体调用的工作流，hooks 在工具事件发生时触发，rules 则持续约束行为。所有脚本和钩子已改写为 Node.js，以支持 Windows、macOS 和 Linux；包管理器会依次参考 CLAUDE PACKAGE MANAGER、项目配置、packageManager 字段、锁文件及全局配置，也能通过 /setup pm 指定。配套指南进一步讲解 Token Optimization、Memory Persistence、Verification Loops、Parallelization 与 Subagent Orchestration。仓库特别提醒不要同时启用全部 MCP：可配置 20 至 30 个，但单个项目最好启用少于 10 个，并让活跃工具数低于 80，以免 200k 上下文窗口被大量工具压缩。"
     },
+    "XiaoDuoYa/codex-with-chatgpt": {
+      "source": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "zh": "以 ChatGPT 负责规划，同时保留 Codex 执行框架。",
+      "analysis_source": "316695d55e749a1dd7dcc62868559a6e6bb653f3b12ad47605527c47a946fdcc",
+      "analysis_zh": "“ChatGPT 负责思考，Codex 负责干活”概括了 Codex with ChatGPT 的协作边界：ChatGPT 网页版承担规划与审查，Codex 保留代码执行权，从而利用已有的 Plus 或 Pro 网页额度，而不要求 API Key 或逆向代理。首次使用时把 Skill 安装到 Codex 的 skills 目录，再让 Codex 执行首次配置；之后可直接要求它用这套协作方式实现任务。两端通过控制面交换 INIT → PLAN → EXECUTED → REVIEW → DONE 这类简短状态消息，源码、日志和 diff 不会整包粘贴到对话里；数据面则提供 9 个 read only tools，让 ChatGPT 按需查看目录、文件片段、搜索结果、git diff、测试记录与执行输出。执行完成后，ChatGPT 会直接检查实际 diff 和测试记录，而非接受口头的“测试已通过”。桥接采用 OAuth 2.1，并把每个 token 绑定到单一工作区；路径逃逸和敏感文件访问默认受阻，浏览器接触到的也只是限时的一次性 pairing code。默认 Cloudflare 临时地址重启后会变化，也可授权配置 stable hostname 来减少连接器修复。"
+    },
     "Yuan1z0825/nature-skills": {
       "analysis_source": "7beae87b128f44c14226ff15c4aaf1752c422829e276b89b2d27661a3b6383f2",
       "analysis_zh": "科研任务可以直接以自然语言交给 nature skills：例如把 PDF 整理成图文对应的中英文 Markdown reader、生成保留关键图件和来源的组会 PPT、将段落润色为 Nature 风格英文、模拟三份互盲 reviewer reports，或逐点起草返修回复。它以 SKILL.md 为基本安装单元，把可验证工作流、参考资料、脚本和可直接使用的科研产物组合起来；nature reader、nature polishing、nature writing、nature reviewer、nature response 与 nature figure 等技能各自处理阅读、写作、审稿、回复和科研绘图，nature shared 则保存其他技能共同读取的支持内容。安装到 Codex 时，仓库脚本会同步 skills/ 下的顶层目录并用 diff 验证，不覆盖无关技能；单独安装时仍应保留 references/、static/、manifest.yaml、脚本、资产和共享文件，不能只拿一份 SKILL.md。Python、R、浏览器和 MCP 依赖不会随技能文件自动安装，需按实际任务补充配置。安装后开启新会话，既可直接描述科研目标，也可明确要求使用某个技能。"
@@ -666,8 +672,8 @@
     "awesome-dsh-plugin/awesome-dsh-plugin": {
       "source": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
       "zh": "DeepSeek Harness（dsh）插件精选列表",
-      "analysis_source": "fd57a9bd8895275f82f9cae8e8d42407cc18e1b71ec41082160740648e97b801",
-      "analysis_zh": "围绕 DeepSeek Harness 的“万物皆插件”架构，这份精选列表把能够替换模型、工具、沙箱、会话存储、UI 乃至 agent loop 的社区扩展集中起来。收录项必须声明 dsh.bundle manifest，能够通过 dsh plugin add 安装，实际行为符合一行简介，分类正确且仍在维护；合并前会直接检查源码和描述中的数量等陈述，但收录不代表排名、质量背书或安全审计，失效、弃维护或仓库消失的条目也会被移除。读者既可在分类目录中寻找 AGI 架构探索、目标验证、命令面板、会话看板、输入优化、模型筛选、MCP 应用容器等扩展，也可使用内置 dsh market 一键安装和升级，或让智能体通过 dsh find plugin 协助检索。列表刻意保持 client agnostic：是否适配某个桌面客户端不影响入选，只要遵循官方协议即可。插件页面的讨论串存放在仓库中，用户可以询问作者、分享用途或提醒后来者。由于安装插件会以用户自身权限执行第三方代码，可能读取文件、使用凭据并访问网络，而工具审批并不能隔离插件代码，因此 README 明确要求安装前查看源码，并优先在不存放密钥的环境试用陌生扩展。"
+      "analysis_source": "1a76cb15e2ba2335afd3338f2da48fa7195c8781775913300be5ebb706ccc100",
+      "analysis_zh": "沿着 DeepSeek Harness“所有部分皆可插件化”的思路，Awesome DeepSeek Harness (DSH) Plugin 汇集了可替换模型、工具、沙箱、会话存储、UI，乃至 agent loop 的社区扩展。收录项必须声明 dsh.bundle manifest，并能通过 dsh plugin add 安装；维护者还会对照源码检查一句话说明是否属实、分类是否正确以及仓库是否仍在维护，但这份名单不做质量排名，也不代表安全审计。使用者既可从分类目录寻找插件，也可在内置市场中一键安装和升级，或运行 dsh plugin profile web add dsh find plugin，让智能体代为检索。列表覆盖独立审查模型、目标完成证据校验、命令面板、会话看板、提示词优化、推理强度滑杆、MCP Apps 容器等不同方向，体现 DSH 从界面到代理循环都能被扩展的结构。尤其要留意，插件以用户自身权限在本机执行第三方代码，能够读取文件、使用凭据并访问网络，普通工具审批并不能隔离这些代码，因此陌生插件应先检查源码，并在不保存密钥的环境中试用。"
     },
     "ayghri/i-have-adhd": {
       "source": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
@@ -726,10 +732,10 @@
       "analysis_zh": "阅读进度不再被锁在单一设备里：BookOrbit 把电子书、PDF、漫画和有声书整理进自托管书库，并让网页阅读器、Kobo 与 KOReader 之间双向同步进度、阅读状态、标注及删除操作。内置阅读器直接处理 EPUB、KEPUB、MOBI、PDF、CBZ、M4B、MP3 等格式，KOReader Plugin 还在设备端提供书库浏览、搜索和下载；用户从设置页下载已经写入服务器地址与凭据的插件包，复制到 koreader/plugins/ 并重启后即可连接。不同来源的 Annotations & Highlights 会汇入可搜索中心，可按颜色、样式和来源筛选，再导出 Markdown、CSV 或 JSON。书库管理侧提供 Multiple Libraries、14 Metadata Providers、智能集合及自动导入目录，并可通过 OPDS 或 Send to Kindle 分发内容。多人账户拥有隔离的阅读数据和细粒度权限，也能借助 OIDC 接入 Authentik、Keycloak 或 Authelia。Docker 启动后在 3000 端口完成初始化；NAS 用户需把 PUID、PGID 配成书籍目录所有者，否则首次扫描很容易遇到权限问题。"
     },
     "browser-use/browser-use": {
-      "source": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-      "zh": "让 AI 智能体访问网站并轻松自动执行在线任务",
-      "analysis_source": "6a6fafca64dda2d67174a2974a492f8bb0c26ca0a4ecd93ea93405a7f239c538",
-      "analysis_zh": "给 Browser Use 一句自然语言任务，智能体便能像人一样打开网页、点击按钮、输入文字和填写表单，可用于提交求职申请、提取结构化数据并导出 CSV、上传视频或比较商品价格。使用方式按工作形态分成两条：已有 Claude Code、Codex、Cursor 等智能体时，可安装 CLI 技能来完成一次性浏览器任务；需要在产品或定时流程中反复运行、并行抓取、监控或 QA 时，则使用 Python library，在代码里选择任意 LLM、定义系统提示、增加 custom tools，并控制结构化输出与浏览器细节。其 Python 环境要求 3.11，安装后把所选模型的 API key 放进 .env，即可创建并运行首个 Agent。ChatBrowserUse() 针对浏览器自动化做了优化，也接受带提供方前缀的模型 ID；切换到开源预览模型时，普通 Agent 仍会自动携带默认系统提示，只有确实要改变行为才需扩展或覆盖。登录场景可以复用现有 Chrome profile，也可把认证资料同步到远程浏览器。开源版本免费并在本机运行，便于深度集成；Cloud 路线则提供托管智能体、持久文件系统与记忆、代理轮换、验证码处理和高并发浏览器基础设施，更适合大规模执行，因为并行 Chrome 实例会带来明显的内存与运维压力。"
+      "source": "Agents that use the browser.",
+      "zh": "让智能体使用浏览器。",
+      "analysis_source": "b6ba4292b85fb1cc20b8b52ab3744988b0dab4b942ec3e01bbc7eead00685791",
+      "analysis_zh": "只要用自然语言描述网页任务，Browser Use 就能让 AI agent 像人一样打开页面、点击按钮、输入内容和填写表单，例如代填求职申请，或抓取关注者信息并导出 CSV。已有 Claude Code、Codex、Cursor 等编码智能体时，可以通过 CLI 执行上传视频、比较商品、填写申请等一次性任务；需要在产品或脚本中构建可重复的网页自动化，则使用 Python library，在 Python 3.11 环境安装后配置 LLM 密钥并运行 Agent。两条路径的分工很清楚：临时交办走 CLI，定时抓取、监控、QA、并行任务、结构化输出与细粒度浏览器控制走 Python library。开源版本可在本机运行并自由选择模型，也能扩展 custom tools；Cloud 侧则补充代理轮换、验证码处理、持久文件系统与内存，以及大规模并行浏览器基础设施。认证方面可复用现有 Chrome profile 中的登录状态，远程浏览器还可同步认证资料。"
     },
     "browser-use/video-use": {
       "source": "Edit videos with coding agents",
@@ -1314,8 +1320,8 @@
     "lidge-jun/opencodex": {
       "source": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
       "zh": "让 Codex 与 Claude Code 使用任意 LLM 的通用代理",
-      "analysis_source": "7c4b569c4a075585c820fd2bf5476a27d7a892597098b308f92711ea0795ada8",
-      "analysis_zh": "不改变 Codex、Claude Code、Claude Desktop 或 Grok Build 原有界面，opencodex 在本机充当协议翻译层，把 Codex 的 Responses API 与不同厂商协议双向转换，同时处理 streaming、tool calls、reasoning tokens 和 images，因此 Claude、Gemini、Grok、DeepSeek、Kimi、Qwen、Ollama 及 OpenAI-compatible endpoint 都能接入同一工作流。个人安装后用 ocx service 在后台启动，再访问 http://localhost:10100 添加内置 provider 或自定义端点、选择模型并查看实时请求日志，ocx gui 可随时重新打开管理页面；ocx status、ocx doctor 和 ocx health 用于检查服务状态，ocx stop 会恢复 Codex 原配置。除了单一模型映射，Combos 可用一个虚拟模型 ID 在多个提供方之间执行故障转移或加权轮询，sub agents 也能按功能路由到不同模型。它还可以管理 ChatGPT account pool：新会话按配额与健康状态分配账户，已有线程保留 thread affinity，必要时因失效、限流或故障重新绑定。Docker Compose 方案默认仅监听 127.0.0.1:10100，采用固定镜像摘要、非 root 构建和构建清单校验，token 与可变状态保存在命名卷中；若要远程开放，则需显式修改绑定地址，并自行配置防火墙及经过认证的 TLS 或 tailnet 前端。"
+      "analysis_source": "cb97f956827a1f5145d365db36be58ec608644510937c790437c57c36fc7fa9f",
+      "analysis_zh": "在 Codex、Claude Code、Claude Desktop 或 Grok Build 与模型供应商之间，opencodex 充当轻量本地协议代理，把 Codex 的 Responses API 双向翻译成不同供应商所需格式，同时保留 streaming、tool calls、reasoning tokens 和 images。安装后用 ocx service 让服务常驻，再打开 http://localhost:10100，在网页控制台添加 40 多种内置供应商或任意 OpenAI compatible endpoint、选择模型并管理账户；ocx gui 可随时重新打开控制台。除了让 Claude、Gemini、Grok、DeepSeek、Kimi、Qwen、Ollama 等模型沿用原生客户端工作流，它还能管理 ChatGPT account pool：新会话可按配额选择健康且占用较低的账户，已有线程通过 thread affinity 留在原账户，只有配额重评估、故障转移或认证错误等情况才重新绑定。Combos 可把多个供应商组合为同一虚拟模型标识，并配置故障转移或加权轮询；子智能体也能分别路由到不同模型。Docker Compose 默认只监听 127.0.0.1:10100，若显式暴露到远端，则需自行配合防火墙及带认证的 TLS 或 tailnet 前端。"
     },
     "lightningpixel/modly": {
       "source": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
@@ -1340,6 +1346,12 @@
       "zh": "用于构建实时语音 AI 智能体的框架",
       "analysis_source": "8c2e5b572e24ac77e471551b3af1c5113c8215a3c4b04c4f50efb672409159a1",
       "analysis_zh": "把语音助手作为实时房间中的可编程参与者，是 Agents 的基本工作方式：服务端的 AgentServer 负责作业调度并为用户会话启动智能体，entrypoint 类似 Web 服务的请求处理入口，AgentSession 则管理 Agent 与终端用户之间的交互。开发者可以自由组合 STT、LLM、TTS 和 Realtime API，通过 WebRTC 客户端接入网页、移动端等平台，也能连接电话系统收发呼叫，利用 RPC 和 Data APIs 与客户端交换数据。安装可执行 pip install \"livekit-agents[openai,deepgram,cartesia]\"；示例中用 @functiontool 声明 lookupweather 工具，在 session.start 后生成问候回复。框架还提供语义轮次检测、MCP support、多智能体交接和原生测试集成，测试可以检查函数调用、输出事件，并让 judge 判断回复意图。调试时运行 python myagent.py console，直接用本地音频验证行为；python myagent.py dev 会启动支持热重载的服务并连接 LiveKit Cloud 或自托管服务器；部署运行则使用 python myagent.py start。"
+    },
+    "llvm/llvm-project": {
+      "source": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+      "zh": "一套模块化、可复用的编译器与工具链技术集合。",
+      "analysis_source": "87d07945d6d70134894262534b841b90b7732c1c0b431a66efa0f6bb8b60b25c",
+      "analysis_zh": "从中间表示一直处理到目标文件，LLVM 仓库汇集了构建高优化编译器、优化器与运行时环境所需的基础设施。名为 LLVM 的核心部分提供处理 intermediate representations 并将其转换为 object files 的工具、库和头文件，其中可直接找到 assembler、disassembler、bitcode analyzer 与 bitcode optimizer。C、C++、Objective C 和 Objective C++ 等类 C 语言代码先由 frontend 编译成 LLVM bitcode，再借助 LLVM 生成目标文件，由此形成前端与通用后端相互分离、组件可复用的编译流程。仓库并非单个编译器程序，而是由多个组件共同组成的工具链源码集合；准备获取源码、构建或运行时，README 将读者引向专门的构建页面，参与开发则另有贡献指南，并可通过项目提供的社区沟通渠道交流。"
     },
     "lnkiai/m3e-canvas": {
       "source": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
@@ -1546,8 +1558,8 @@
     "open-webui/open-webui": {
       "source": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "zh": "支持 Ollama、OpenAI API 等服务的易用 AI 界面",
-      "analysis_source": "b7a981304f27f239a7a25c7bd964b7bb138510d3f4e1a4b33cdb1d0336aceb8e",
-      "analysis_zh": "Open WebUI 把本地模型、云端接口与团队协作工具收进一套可完全离线运行的自托管 AI 平台。部署可选 pip、uv、Docker 或 Kubernetes，容器还提供 :ollama 与 :cuda 标签；接入时既能使用 Ollama，也能把 OpenAI compatible API 地址指向 LMStudio、GroqCloud、Mistral、OpenRouter 或 vLLM，并在同一段对话中并行调用多个模型。它不只提供聊天窗口：用户可将基础模型连同自定义指令、工具和知识封装成 Models & Agents，在 Notes 中撰写和改写内容，把笔记附加到对话作为上下文，也能在 Channels 里让成员与模型围绕同一时间线协作。扩展体系提供 Filters、Actions、Pipes、Tools 和 Skills，并可通过 MCP、MCPO 或 OpenAPI 工具服务器连接外部服务。内置 Local RAG Integration 支持 9 种向量数据库、多种文档提取引擎、BM25 与向量混合检索及重排，还能将网页搜索结果注入会话。管理员可配置 RBAC、用户组、LDAP、SSO 与 SCIM 2.0，并查看消息量、令牌消耗、成本、A/B 测试和 ELO 排行；Redis 会话、WebSocket、OpenTelemetry、PostgreSQL 及多种对象存储选项，则让它能够从个人离线环境延伸到多节点部署。"
+      "analysis_source": "67dbab22bccd60f74cdb0ad58fcb95670df7888fe36bbef41342968e9eef9e07",
+      "analysis_zh": "在同一个自托管界面里，本地 Ollama 模型可以与各种 OpenAI compatible API 并存，用户能够自由组合 LMStudio、GroqCloud、Mistral、OpenRouter 或 vLLM 等提供方，而不必把工作流绑定在单一服务上。Open WebUI 不只提供聊天窗口：管理员可借助 RBAC、用户组和权限控制分配模型与功能，使用 Filters、Actions、Pipes、Tools 和 Skills 扩展处理流程，并通过 MCP、MCPO 或 OpenAPI 工具服务器连接外部服务；基础模型还能结合自定义指令、工具和知识封装成专用智能体。内容可在 Notes 中独立起草并注入对话，Channels 则让成员和模型在共享时间线中协作。其 Local RAG Integration 支持多种内容提取引擎、9 种向量数据库、BM25 与向量混合检索及重排，也能把网页搜索结果直接送入会话。部署可选 pip、uv、Docker 或 Kubernetes，数据层可使用 SQLite 或 PostgreSQL，文件可落在本地或对象存储；Redis 会话、WebSocket、多节点扩展、OpenTelemetry，以及 LDAP、SSO 和 SCIM 2.0 等能力，则覆盖团队和生产环境的运行需求。"
     },
     "openai/codex": {
       "source": "Lightweight coding agent that runs in your terminal",
@@ -1786,8 +1798,8 @@
     "t8y2/dbx": {
       "source": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "仅 20 MB 的跨平台数据库客户端，支持 90 多种数据库及 AI、MCP。",
-      "analysis_source": "883e73fa839a15429991eae187b0c6f6008cf9afcc38f97ce0d4316dc5bfa517",
-      "analysis_zh": "仅约 20 MB 的 DBX 把桌面客户端、Docker 自托管版本、Web 界面和 CLI 放在同一套数据库工作流中，不依赖 Java JRE、Python venv 或 bundled Chromium。它可连接 90+ Databases，从 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB 到国产数据库、搜索引擎、向量库、时序库和消息队列；Query Editor 基于 CodeMirror 6，提供元数据感知补全、选中 SQL 执行、格式化、诊断、历史和片段。AI SQL Assistant 能把自然语言转成 SQL，也能解释、优化或修复查询，并在执行生成语句前做 safety checks，可连接 Claude、OpenAI、Ollama 或兼容端点。结果通过虚拟滚动 Data Grid 展示，支持行内编辑、保存前 SQL 预览、过滤、排序、全文搜索和多种格式导出。Schema diff、ER 图、执行计划、字段血缘、跨库传输及 Parquet/CSV/JSON 拖放预览覆盖了日常管理流程。独立分发的 MCP Server 可让编码 Agent 复用 DBX 中已经配置的连接，但不会随桌面程序自动安装；允许连接范围以及 Read only、Data read/write、Full access 权限需在设置中集中管理。"
+      "analysis_source": "e9e8957761b5d1d0735fd2540108048ba01b3a83130654e7fb7609c26d14026b",
+      "analysis_zh": "90 多种数据库被装进约 20 MB 的单一应用中，DBX 不捆绑 Java JRE、Python venv 或 Chromium，下载后即可连接数据库，并在 macOS、Windows、Linux 原生桌面端、Docker 自托管和 Web 环境中保持一致功能。Query Editor 基于 CodeMirror 6，提供元数据感知补全、选中 SQL 执行、格式化、诊断、历史记录与代码片段；查询结果进入支持虚拟滚动的 Data Grid，可原地编辑、预览保存前 SQL、筛选排序，并导出 CSV、JSON、Markdown、XLSX 或 INSERT 语句。除了 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB 等常见系统，它还通过原生及 agent 驱动扩展覆盖分析库、搜索引擎、向量库、JDBC 数据源和消息队列。AI SQL Assistant 直接驻留在编辑器中，可根据自然语言生成、解释、优化或修复 SQL，并在执行生成语句前进行安全检查，模型可来自 Claude、OpenAI、Ollama 或兼容端点。MCP Server 则让 Claude Code、Cursor、Windsurf 等智能体复用已配置的数据库连接进行查询。此外还提供 schema diff、ER diagram、执行计划、字段血缘、跨库迁移、数据比较，以及 Parquet、CSV、JSON 文件拖放预览。"
     },
     "tailscale/tailcat": {
       "source": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
@@ -1852,8 +1864,8 @@
     "tw93/Mole": {
       "source": "🐹 Clean, uninstall, analyze, optimize, and monitor your Mac. Free open-source CLI, plus a native Mac app.",
       "zh": "免费的开源 Mac 清理、卸载、分析、优化与监控工具，提供 CLI 和原生应用",
-      "analysis_source": "88820a5fcaee86c32b31473da5704301f3608b31f839d533d852cbc9c30ee0e0",
-      "analysis_zh": "Mole 的免费开源 CLI 用一个 mo 命令串起 Mac 清理、卸载、维护、磁盘分析与状态监控，并把高风险操作和只读观察明确区分。mo clean 扫描已知安全的缓存、日志、临时文件、开发产物及已卸载应用的残留，先运行 mo clean dry run 可预览候选路径，mo clean whitelist 则保存需要保护的缓存。mo uninstall 会连同可确认归属于应用的启动项、偏好和隐藏残留一起处理，但在其他已安装副本仍使用共享数据时予以保留。mo optimize 对 Finder、网络、数据库和 macOS 服务执行有边界的维护，当前不必要或无法确认安全的任务会跳过并说明原因。磁盘空间排查采用交互式 mo analyze，支持方向键与 Vim 导航、过滤、多选和 Finder 预览，确认后把项目移入废纸篓；mo status 则只读展示 CPU、GPU、内存、磁盘、网络、电源和进程，并综合容量、SMART、I/O、温度、电池及运行时间计算健康分。自动化场景可使用 JSON、NDJSON 输出和持续采样，例如 mo status watch interval 2s。会删除文件的命令会验证路径、保护系统及共享位置，并在无法证明安全时拒绝处理，实际清理记录可由 mo history 查看。另有原生 Mac 应用提供图形化清理、应用管理、磁盘地图和实时状态，但 README 将它与始终免费开源的 CLI 分开说明。"
+      "analysis_source": "164731511274fa4fee44b67e6e3988c4ba099124c9c0440a8aa132c98380954c",
+      "analysis_zh": "把 Mac 清理、应用卸载、磁盘分析、系统维护和状态监控收进同一套工具，是 Mole 最鲜明的思路。免费开源的 CLI 以 mo clean、mo uninstall、mo optimize、mo analyze 和 mo status 串起日常操作：清理前可用 mo clean dry run 查看候选缓存、日志、临时文件及开发产物，并通过 mo clean whitelist 保留不想删除的缓存；卸载应用时会一并查找启动代理、偏好设置和隐藏残留，同时尽量保留仍被其他副本使用的共享数据。mo analyze 提供支持方向键、Vim 导航、过滤、多选和 Finder 预览的终端磁盘浏览器，确认后把所选内容移入废纸篓；mo status 则以只读仪表盘展示 CPU、GPU、内存、磁盘、网络、电源和进程信息。需要接入脚本时，还可输出 JSON、NDJSON 或持续状态流。工具会校验路径、保护共享及系统位置，并在无法证明操作安全时跳过或拒绝；原生 Mac 应用则把清理、应用管理、磁盘地图与实时状态整合进支持 VoiceOver 的轻量界面。"
     },
     "uber/ADR": {
       "source": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
