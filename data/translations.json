@@ -66,8 +66,8 @@
     "GyulyVGC/sniffnet": {
       "source": "Comfortably monitor your network traffic 🕵️‍♂️",
       "zh": "轻松监控网络流量",
-      "analysis_source": "70164b09cc6f7ed1218975fae5edf829e58a292a81538039cc51830e0135931f",
-      "analysis_zh": "Sniffnet 用图形界面把实时抓包转化为容易浏览的网络活动视图。开始监控时先选择电脑上的 network adapter，再按条件设置 filters；随后可以查看流量强度的 real time charts、整体 Internet traffic 统计，并逐条搜索和检查当前连接。它不仅显示地址，还会识别本地网络连接，查询远程主机的 geographical location、domain name 和 ASN，并区分 6000+ upper layer services、协议、木马与蠕虫，同时指出哪些程序正在占用带宽。捕获结果能够作为 PCAP files 导入或导出，便于保存与交换分析材料；常看的主机、服务和程序可以收藏，自定义 notifications 可在指定网络事件发生时提醒，即使窗口最小化也能持续观察。若需要排查可疑通信，还可导入 custom IP blacklists，让潜在风险地址在连接列表中更醒目。"
+      "analysis_source": "adbc8f4409ee3f8dc1c6584cadf499c60ffb6e94a18b48404e2bd6aa81877a85",
+      "analysis_zh": "选定电脑上的 network adapter 并设置过滤条件后，Sniffnet 会持续捕获流量，用实时图表呈现强度变化，并把每条网络连接展开供搜索和检查。它不仅统计总流量，还能识别本地网络连接、定位远程主机的大致地理位置，查询通信主机的 domain name 和 ASN，并辨认 6000 多种上层服务、协议、木马与蠕虫；程序级带宽归属则帮助用户看清究竟哪些应用正在产生流量。常用的主机、服务和程序可以收藏，自定义 notifications 可在指定网络事件发生时提醒，即使窗口最小化也能继续监控；导入自定义 IP blacklists 后，还可突出潜在风险目标。捕获结果支持以 PCAP files 导入和导出，便于后续分析或交换记录。Sniffnet 提供 x64、arm64、x86、Apple silicon 以及多种 DEB、RPM、AppImage 构建，覆盖不同桌面平台和处理器架构，但安装时仍需同时配置操作系统要求的 dependencies。"
     },
     "HBAI-Ltd/Toonflow-app": {
       "analysis_source": "63b61e58f7c7126feef4ca61ced1763516f1efdc387c6be27746ca994fdee909",
@@ -168,8 +168,8 @@
     "PowerShell/PowerShell": {
       "source": "PowerShell for every system!",
       "zh": "跨平台的命令行自动化工具。",
-      "analysis_source": "df4ddca2298d275261b2107c373ce2ba7b9c9bbb93a13621673d2b0f8cde4d2d",
-      "analysis_zh": "PowerShell 把交互式 command line shell、配套 scripting language 和处理 cmdlets 的 framework 组合在同一套跨平台自动化环境中，可运行于 Windows、Linux 和 macOS。它并非只把文本从一个命令传给下一个命令，而是针对 JSON、CSV、XML 等 structured data，以及 REST APIs 和 object models 做了优化，因此脚本可以围绕结构化对象组织查询、转换与配置流程，并与既有工具协同。仓库的版本边界也很明确：虽然代码最初源自 Windows PowerShell，但这里的改动不会回移到 Windows PowerShell 5.1，GitHub issues 只跟踪 PowerShell 7.x and higher；旧版专属问题应通过 Feedback Hub app 反馈。初学者可从 getting started 文档入手，安装时按各平台说明选择方式；升级最好沿用首次安装所采用的方法，因为不同平台及安装渠道对应不同的 update method。"
+      "analysis_source": "c1042469dcb56f0a4b141c5607f2109b4b90f150e15f57201283f6e6b8fc512a",
+      "analysis_zh": "命令行 shell、脚本语言与 cmdlet 处理框架在 PowerShell 中被整合为同一套自动化环境，并可跨 Windows、Linux 和 macOS 使用。它尤其强调处理结构化数据：JSON、CSV、XML、REST APIs 以及 object models 都能进入命令管道，让命令之间传递对象而不仅是普通文本，因此既可完成交互式系统管理，也可编写配置和自动化脚本，并与现有工具协作。仓库对应的是 PowerShell 7.x 及更高版本；虽然代码最初源自 Windows PowerShell，但这里的改动不会回移到 Windows PowerShell 5.1，相关旧版本问题应通过 Windows 的 Feedback Hub app 反馈。安装包覆盖多个操作系统，而升级时最好沿用首次安装所采用的方法，因为不同平台和安装渠道具有不同更新方式。初次接触者可从 getting started 文档了解基本语法和使用路径，社区贡献及项目状态则通过结合 PowerShell、Azure 和 PowerBI 构建的 Community Dashboard 展示。"
     },
     "RICHQAQ/PasteMD": {
       "source": "一键将 Markdown 和网页 AI 对话（ChatGPT/DeepSeek等）完美粘贴到 Word、WPS 和 Excel 的效率工具 | One-click paste Markdown and AI responses (ChatGPT/DeepSeek) into Word, WPS, and Excel perfectly.",
@@ -287,8 +287,8 @@
     "agalwood/Motrix": {
       "source": "A full-featured download manager.",
       "zh": "功能完善的下载管理器。",
-      "analysis_source": "91b93dcd6e1c0583d17d7d986b789e2144827fefde87fa9c3e4a291b15eacbdc",
-      "analysis_zh": "HTTP、FTP、BitTorrent 和 magnet links 下载都能集中交给 Motrix 管理，同时保持简洁的桌面操作体验。重构后的 Motrix Turbo 使用 Electron、React 和 TypeScript，但把 download core 与界面分离：浏览器扩展和命令行工具通过基于 JSON RPC 2.0 的 MDXP 与应用通信，插件则运行在隔离的 QuickJS 沙箱中并接受细粒度权限控制。同一套核心既可作为 macOS、Windows、Linux 桌面应用运行，也能直接在 Node.js 或 Docker 中以 Headless server 方式启动，并为 NAS 和家庭服务器提供 web UI。下载侧支持 BT 文件逐项选择、tracker 列表自动更新和健康检查、UPnP 与 NAT PMP 映射、多套限速配置；SQLite backed sessions 会在重启后恢复任务，Dashboard 展示传输统计和实时活动。README 同时明确 Motrix Turbo v2 尚处 beta，v1 数据迁移未经验证，测试前应备份并尽量使用独立账户、机器或 Docker 数据目录。"
+      "analysis_source": "74a301eabbb05cac8b118e381d071199f054fa4bbd01046abfa1f2f7bebd2f8b",
+      "analysis_zh": "从粘贴 HTTP、FTP 或 magnet links，到选择 BitTorrent 中的具体文件并观察传输状态，Motrix 用简洁桌面界面承载完整下载流程，同时提供暗色模式、上下行限速配置、tracker 列表自动更新与健康检查、UPnP 和 NAT PMP 端口映射。下载会话由 SQLite 保存，应用重启后可恢复；可定制 Dashboard 展示传输统计、实时活动和任务卡片，任务完成时既有系统通知，也有应用内通知中心。Motrix Turbo v2 将下载核心与界面分离：浏览器扩展和命令行工具通过基于 JSON RPC 2.0 的 MDXP 与应用通信，插件则在 QuickJS 沙箱中运行并接受细粒度权限控制。相同核心既能驱动 macOS、Windows、Linux 桌面应用，也能以 Node.js 或 Docker 方式运行 headless server，并为 NAS 和家庭服务器提供 web UI。v2 目前仍处于 beta，README 明确指出 v1 数据迁移尚未验证，测试前应备份现有数据与下载内容，并尽量使用独立系统账户、机器或 Docker 数据目录并行试用。"
     },
     "ai-shifu/ChatALL": {
       "source": "Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover the best answers",
@@ -321,8 +321,8 @@
     "amir1376/ab-download-manager": {
       "source": "A Download Manager that speeds up your downloads",
       "zh": "加速下载的下载管理器。",
-      "analysis_source": "3602312b9331360165c7cbf9e4c357035978d94b04766dc135f1445df5428244",
-      "analysis_zh": "AB Download Manager 以桌面应用集中整理下载任务，重点提供 Faster Download Speed、Queues and Schedulers，以及与浏览器联动的 Browser Extensions。用户可以安排队列和执行时间，并在现代界面中切换 Dark、Light、Black 等主题；平台范围覆盖 Android、Windows、Linux 和 Mac。安装入口按系统区分：Windows 可用 winget 或 scoop，macOS 与 Linux 可走 Homebrew，Linux 还提供推荐安装脚本；浏览器扩展需要另外安装，负责把浏览器下载交给主应用。源码也按职责拆成 Main Application、Browser Integration 和 Website 三个仓库。README 特别声明，除其列出的渠道外，软件并未上架 Google Play 或其他应用商店，任何冒充版本都应视为 SCAM and UNSAFE；本地构建桌面端时还需要准备 JBR，并将其加入 PATH 或按文档配置。"
+      "analysis_source": "792b59bea0b518e718cc167589ffb164f3d5474885fe9f2f98874b83f2841a02",
+      "analysis_zh": "下载任务不必散落在浏览器各处：AB Download Manager 用桌面界面集中管理和整理下载，并以 Faster Download Speed 为主要卖点。Queues and Schedulers 让任务能够排队并按计划执行，Browser Extensions 则负责把浏览器中的下载交给本机应用处理。它覆盖 Android、Windows、Linux、Mac，提供 Dark、Light、Black 等 Multiple Themes，兼顾不同设备与桌面外观。安装入口随平台区分：Windows 可选 Winget 或 Scoop，macOS 与 Linux 可用 Homebrew，Linux 另有推荐安装脚本；需要更多替代安装和卸载方法时可转到 wiki。源码也按职责拆为 Main Application、Browser Integration 和 Website 等仓库。README 特别声明，除其列出的渠道外，软件并未上架 Google Play 或其他应用商店，冒充版本应视为 SCAM and UNSAFE。"
     },
     "apache/maka": {
       "source": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
@@ -469,8 +469,8 @@
     "generalaction/emdash": {
       "source": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
       "zh": "开源多代理开发环境，支持并行运行多种编码代理。",
-      "analysis_source": "95e301186c6173f7d7c07777585c8312301c2ffe67ec7c1b9efe6d8f42608535",
-      "analysis_zh": "Emdash 的工作方式不是把多个编码智能体挤在同一个终端里，而是让每项任务进入独立的 Git worktree 和 branch。这样可以同时探索多个修复或功能，随后集中查看 diff，挑选有效结果并合并，避免并行修改互相干扰。桌面端会自动检测已安装的 provider CLIs，可接入 Claude Code、Codex、Cursor、OpenCode、Amp、Devin、Qwen Code、Droid 和 GitHub Copilot；对支持生命周期 hooks 的智能体，它会写入带标记的用户级配置，用于跟踪状态、通知和可恢复会话，并在 Emdash 会话之外保持静默。任务来源也不限于本地输入，Linear、GitHub、Jira、GitLab、Asana 等平台的 issue 或 ticket 都可交给智能体，完成后可在一处 review diffs、create pull requests、inspect CI checks 并 merge。Remote Projects 则通过 SSH/SFTP 把同一套并行流程延伸到远程代码库，认证信息存入 OS keychain；应用状态保存在本地 SQLite，体现 local first 的运行方式。"
+      "analysis_source": "86d099facf965d7f15ebcf24025331a18887ce9b62e4f5c529d88bda7deadf1a",
+      "analysis_zh": "并行探索是 Emdash 的工作中心：每个编码任务都会进入独立的 Git worktree 和 branch，因此多个 AI coding agents 可以同时尝试不同修复或功能，而用户在一个桌面应用里查看 diffs、保留有效结果并合并。它会自动检测已经安装的 provider CLIs，可接入 Claude Code、Codex、Cursor、OpenCode、Amp、Devin、Qwen Code、Droid 和 GitHub Copilot；对支持生命周期 hook 的代理，还会写入带标记的用户级配置，用于跟踪状态、通知和可恢复会话，代理脱离 Emdash 运行时这些 hook 不产生影响。任务来源不局限于手工输入，Linear、GitHub、Jira、GitLab、Asana 等平台中的 issues 和 tickets 都能送入智能体，后续可继续创建 pull requests、检查 CI checks 并完成合并。代码也可以留在远程机器上，通过 SSH/SFTP 使用相同工作流，认证支持 SSH agent、密钥和密码，凭据保存于 OS keychain；整体坚持 local first，不要求把开发环境迁入托管平台。"
     },
     "getagentseal/codeburn": {
       "source": "Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
@@ -481,8 +481,8 @@
     "getpaseo/paseo": {
       "source": "Orchestrate multiple coding agents from desktop and mobile",
       "zh": "桌面和移动端多智能体编程协调工具。",
-      "analysis_source": "17c6c442fe6688d4de775bfe6cfac206ec3b90938a2770cef7c7aec96863b909",
-      "analysis_zh": "Paseo 用同一套界面调度 Claude Code、Codex、Copilot、OpenCode 和 Pi，并允许多个编程代理在用户自己的机器上并行运行，从而继续使用本机已有的开发环境、工具、配置与 skills。其运行中心是名为 daemon 的本地服务器，桌面端、移动端、Web 应用和 CLI 都作为客户端连接它；桌面应用启动时会自动拉起 daemon，手机则可在 Settings → your host → Pair Device 中完成配对。无界面服务器可安装 CLI 后启动服务，并选择是否启用用于设备配对的 end to end encrypted relay；若拒绝，也能通过 TCP、Tailscale 或其他 VPN 直连。Docker 方式会同时运行 daemon 与自托管 Web UI，启动后访问 http://localhost:6767，并可扩展基础镜像加入所需代理 CLI，再通过环境变量或持久化的 /home/paseo 卷提供凭据。用户可在 iOS、Android、桌面、Web 与终端之间接续工作，也能用 voice mode 口述任务或讨论问题；服务不设置强制登录，并声明不含遥测与追踪。"
+      "analysis_source": "309e9267ebca421105ad81cbd38270e6475a548d927d704374f6ad4a2da15439",
+      "analysis_zh": "Paseo 把 Claude Code、Codex、Copilot、OpenCode 和 Pi agents 收进同一界面，让多个编码智能体在自己的机器上并行工作，并可从桌面启动、手机查看、终端脚本化。其运行中枢是本地 daemon，负责管理智能体；desktop app、mobile app、web app 和 CLI 都作为客户端连接它，因此开发环境、工具、配置与 skills 仍留在用户机器上。桌面应用会自动启动 daemon，手机端可通过 Settings → your host → Pair Device 配对；无界面服务器则可安装 CLI 启动 Paseo，并选择端到端加密 relay，或经 TCP、Tailscale 和其他 VPN 直连。Voice control 支持口述任务或用语音讨论问题。插件还能加入主题、workspace panels、命令、设置页和新的智能体提供方，可用 paseo plugin add 从本地目录或 Git 仓库安装；由于插件能访问 daemon 所在机器及已连接客户端，README 明确要求只安装可信代码。"
     },
     "golutra/golutra": {
       "source": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and AI productivity workspace.",
@@ -647,8 +647,8 @@
     "nexu-io/open-design": {
       "source": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
       "zh": "本地优先的开源设计桌面应用，支持多种编码智能体及多格式导出。",
-      "analysis_source": "f1fdbf4f52f6c688310d635453fcdc678975468ca399cf2beb2784ae7a5ec955",
-      "analysis_zh": "OpenDesign 把编码智能体变成可交付真实文件的设计引擎：用户先让智能体理解需求、确定方向，再流式生成并审查作品，最终完成交付。它能制作网页、桌面与移动端原型、实时 dashboards、decks、images、video，以及 HyperFrames motion graphics，并通过沙箱 iframe 预览成果，导出 HTML / PDF / PPTX / MP4。应用采用本地优先的 macOS 与 Windows 桌面形态，设计能力被组织成可组合 skills、DESIGN.md design systems、渲染模板和 plugins，因此既能复用品牌规范，也能扩展工作流。运行时不绑定单一智能体：DeepSeek Harness 可作为原生 runtime 接入，支持 structured thinking、tool calls、model discovery、cancellation 和 session resume；同时也能调用 Claude Code、Codex、Cursor、OpenCode 等本机 CLI，或通过 BYOK 连接 OpenAI compatible endpoint。生成文件会留在 OpenDesign workflow 中，继续用于 live preview 与 delivery。"
+      "analysis_source": "7df44dbd771650a5d463f928622003c70a2e0ab53b2e90868de368675345978a",
+      "analysis_zh": "把编码智能体直接变成设计引擎，是 OpenDesign 最鲜明的工作方式：它将“理解 brief、确定方向、持续生成成品、评审、交付”串成可在本机完成的闭环，并把能力落实为可组合 skills、DESIGN.md 设计系统、渲染模板和插件。用户可在 macOS 或 Windows 桌面端接入 DeepSeek Harness、Claude Code、Codex、Cursor、OpenCode 等本地 CLI，也可通过 BYOK 连接兼容 OpenAI 的端点；其中 DeepSeek Harness 作为原生运行时支持结构化思考、工具调用、模型发现、取消和 session resume。生成内容覆盖网页、桌面与移动端原型、实时 dashboards、演示文稿、图片、视频及 HyperFrames 动效，文件会留在统一工作流中供实时预览和交付，并可导出 HTML、PDF、PPTX 或 MP4。预览运行于 Sandboxed iframe，使智能体产出的交互内容与桌面应用保持隔离。若不想自行配置模型，OpenDesign Cloud 还把 GPT、Claude、DeepSeek 等智能体模型与图像模型整合进应用。"
     },
     "nukeop/nuclear": {
       "source": "Streaming music player that finds free music for you",
@@ -749,8 +749,8 @@
     "stablyai/orca": {
       "source": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "zh": "面向并行智能体集群的开发环境，支持自有订阅及桌面、移动和远程运行",
-      "analysis_source": "44b77ae890fc97f5ba023c5585c8f3b7c74aafd32b669585990b7250ac685f8c",
-      "analysis_zh": "把 Codex、ClaudeCode、OpenCode 或 Pi 并排放进不同的 git worktree，是 Orca 组织多智能体编码的基本方式：同一提示可以分发给五个智能体，让它们在隔离分支中各自完成方案，再集中比较结果并合并胜出版本。桌面端以可无限拆分的 Ghostty class terminals 承载会话，滚动记录在重启后仍能保留；SSH Worktrees 又把文件编辑、git 和终端搬到远程主机，并处理自动重连与端口转发。审查阶段可在 AI diff 的任意行留下批注并回传给智能体，也能直接编辑、提交。Design Mode 允许在真实 Chromium 窗口中点击界面元素，把对应 HTML、CSS 和裁剪截图送入提示；Mobile Companion 则用于在手机上监控进度、接收完成通知和追加指令。需要自动化时，还可通过 Orca CLI 调用 orca worktree create、snapshot、click 和 fill 来编排这些流程。"
+      "analysis_source": "12a34bb9c1a9576a46c964e562a5fd50c930b11a7c5710da29efd7ef4e9ea71e",
+      "analysis_zh": "一次把同一提示交给五个编码智能体，再从结果中选出最佳实现，是 Orca 的代表性流程。Parallel Worktrees 会为 Codex、ClaudeCode、OpenCode 或 Pi 分别建立隔离的 git worktree，在一个界面里跟踪、比较并合并成果；Annotate AI Diffs 则允许直接在差异行留下评论，再把反馈送回智能体继续修改。它同时提供基于 Ghostty 风格的 WebGL 终端、无限分屏和重启后仍保留的滚动记录，并以 VS Code 编辑器承载文件编辑和拖拽附件。Design Mode 可在真实 Chromium 窗口中点选界面元素，将对应 HTML、CSS 和裁剪截图直接加入提示。需要远程算力时，SSH Worktrees 能在远端机器运行智能体，负责自动重连和端口转发；Mobile Companion 则让用户从手机查看进度、接收完成通知并发送后续指令。GitHub 与 Linear 的 PR、issue 和项目板也能在应用内浏览，Orca CLI 还可用 orca worktree create、snapshot、click 和 fill 脚本化这些操作。"
     },
     "streetwriters/notesnook": {
       "source": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
@@ -769,8 +769,8 @@
       "zh": "基于异步I/O的极速终端文件管理器。"
     },
     "t8y2/dbx": {
-      "analysis_source": "5b657f8a80300faf34ae9c6c04737748a8e468739a72384d6adfc58e42c54515",
-      "analysis_zh": "DBX 把数据库管理所需的多种入口压进约 20 MB 的单一小型二进制文件，覆盖 90+ databases，并同时提供 Desktop、Docker、CLI、built in AI assistant 和 MCP Server。它强调下载、安装、连接即可工作，不依赖 Java JRE、Python venv，也不捆绑 Chromium，因此与需要额外运行环境或体积较大的传统客户端形成鲜明区别。实际使用时，既可在桌面界面中连接 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、SQL Server、达梦等不同数据库，也可通过 CLI 或 Docker 融入现有工作流；需要自然语言辅助时，则能直接调用 built in AI assistant。MCP Server 进一步让外部智能体或支持 MCP 的工具访问数据库能力，使 DBX 不只是查询界面，也能成为自动化数据库操作链路中的连接层。",
+      "analysis_source": "6ae1fa563ceed4f24180d6676f8f66077a8ef6ce8df92da0af9935f402641424",
+      "analysis_zh": "把 90+ databases 压进约 20 MB 的单个小型二进制文件，是 DBX 最鲜明的取舍：下载、安装后即可连接数据库，不依赖 Java JRE、Python venv，也不捆绑 Chromium。它同时提供 Desktop、Docker、CLI、built in AI assistant 和 MCP Server，既能作为日常图形化数据库客户端，也能进入终端、容器与智能体工具链。支持范围覆盖 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、SQL Server、达梦等多类数据库，减少为不同引擎分别准备管理软件的麻烦。README 还强调 AI 直接存在于编辑器工作流中，可围绕选中的表和自然语言描述辅助操作；整体设计重点不是堆叠庞大运行时，而是用统一入口连接多种数据库，并把人工管理、命令行自动化和 AI 协作放进同一套轻量工具。",
       "source": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "20 MB 轻量级跨平台数据库客户端，支持 90 多种数据库及 AI、MCP、CLI、桌面端和 Docker"
     },
