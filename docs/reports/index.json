@@ -5651,8 +5651,665 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-09-12",
+      "latest": "2026-10-16",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-10-16",
+          "generated_at": "2026-10-16T11:36:57+08:00",
+          "discovered_count": 986,
+          "candidate_count": 101,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "morluto/rea",
+              "trending_rank": 1,
+              "stars_today": 32314
+            },
+            {
+              "rank": 2,
+              "name": "NationalSecurityAgency/ghidra",
+              "trending_rank": 9,
+              "stars_today": 1369
+            },
+            {
+              "rank": 3,
+              "name": "affaan-m/ECC",
+              "trending_rank": 10,
+              "stars_today": 1013
+            },
+            {
+              "rank": 4,
+              "name": "debpalash/VoiceStudio",
+              "trending_rank": 5,
+              "stars_today": 3024
+            },
+            {
+              "rank": 5,
+              "name": "obra/superpowers",
+              "trending_rank": 6,
+              "stars_today": 582
+            },
+            {
+              "rank": 6,
+              "name": "JuliusBrussee/caveman",
+              "trending_rank": 4,
+              "stars_today": 433
+            },
+            {
+              "rank": 7,
+              "name": "K-Dense-AI/scientific-agent-skills",
+              "trending_rank": 3,
+              "stars_today": 1091
+            },
+            {
+              "rank": 8,
+              "name": "mksglu/context-mode",
+              "trending_rank": 8,
+              "stars_today": 904
+            },
+            {
+              "rank": 10,
+              "name": "anthropics/claude-plugins-official",
+              "trending_rank": 2,
+              "stars_today": 307
+            },
+            {
+              "rank": 12,
+              "name": "ruvnet/ruflo",
+              "trending_rank": 7,
+              "stars_today": 147
+            },
+            {
+              "rank": 13,
+              "name": "xerj-org/xerj",
+              "trending_rank": 12,
+              "stars_today": 715
+            },
+            {
+              "rank": 18,
+              "name": "lightseekorg/tokenspeed",
+              "trending_rank": 11,
+              "stars_today": 30
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "morluto/rea",
+              "trending_rank": 1,
+              "stars_today": 239477
+            },
+            {
+              "rank": 2,
+              "name": "NationalSecurityAgency/ghidra",
+              "trending_rank": 6,
+              "stars_today": 6614
+            },
+            {
+              "rank": 9,
+              "name": "mattpocock/skills",
+              "trending_rank": 3,
+              "stars_today": 12147
+            },
+            {
+              "rank": 11,
+              "name": "boykopovar/AnyPS5",
+              "trending_rank": 2,
+              "stars_today": 25174
+            },
+            {
+              "rank": 14,
+              "name": "cathrynlavery/diagram-design",
+              "trending_rank": 5,
+              "stars_today": 10237
+            },
+            {
+              "rank": 15,
+              "name": "heygen-com/hyperframes",
+              "trending_rank": 4,
+              "stars_today": 5318
+            },
+            {
+              "rank": 16,
+              "name": "DuarteSantos8/openGym",
+              "trending_rank": 10,
+              "stars_today": 4471
+            },
+            {
+              "rank": 17,
+              "name": "earthtojake/text-to-cad",
+              "trending_rank": 8,
+              "stars_today": 2244
+            },
+            {
+              "rank": 19,
+              "name": "cursor/plugins",
+              "trending_rank": 11,
+              "stars_today": 1214
+            },
+            {
+              "rank": 20,
+              "name": "twostraws/SwiftUI-Agent-Skill",
+              "trending_rank": 9,
+              "stars_today": 900
+            },
+            {
+              "rank": 21,
+              "name": "ranxianglei/billion-context",
+              "trending_rank": 7,
+              "stars_today": 659
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 1,
+              "name": "morluto/rea"
+            },
+            {
+              "rank": 2,
+              "name": "NationalSecurityAgency/ghidra"
+            },
+            {
+              "rank": 3,
+              "name": "affaan-m/ECC"
+            },
+            {
+              "rank": 4,
+              "name": "debpalash/VoiceStudio"
+            },
+            {
+              "rank": 5,
+              "name": "obra/superpowers"
+            },
+            {
+              "rank": 6,
+              "name": "JuliusBrussee/caveman"
+            },
+            {
+              "rank": 7,
+              "name": "K-Dense-AI/scientific-agent-skills"
+            },
+            {
+              "rank": 8,
+              "name": "mksglu/context-mode"
+            },
+            {
+              "rank": 9,
+              "name": "mattpocock/skills"
+            },
+            {
+              "rank": 10,
+              "name": "anthropics/claude-plugins-official"
+            },
+            {
+              "rank": 11,
+              "name": "boykopovar/AnyPS5"
+            },
+            {
+              "rank": 12,
+              "name": "ruvnet/ruflo"
+            },
+            {
+              "rank": 13,
+              "name": "xerj-org/xerj"
+            },
+            {
+              "rank": 14,
+              "name": "cathrynlavery/diagram-design"
+            },
+            {
+              "rank": 15,
+              "name": "heygen-com/hyperframes"
+            },
+            {
+              "rank": 16,
+              "name": "DuarteSantos8/openGym"
+            },
+            {
+              "rank": 17,
+              "name": "earthtojake/text-to-cad"
+            },
+            {
+              "rank": 18,
+              "name": "lightseekorg/tokenspeed"
+            },
+            {
+              "rank": 19,
+              "name": "cursor/plugins"
+            },
+            {
+              "rank": 20,
+              "name": "twostraws/SwiftUI-Agent-Skill"
+            },
+            {
+              "rank": 21,
+              "name": "ranxianglei/billion-context"
+            },
+            {
+              "rank": 22,
+              "name": "deepseek-ai/deepseek-harness"
+            },
+            {
+              "rank": 23,
+              "name": "storytold/photocraft"
+            },
+            {
+              "rank": 24,
+              "name": "eternity4719/HowToLiveBetter"
+            },
+            {
+              "rank": 25,
+              "name": "openclaw/openclaw"
+            },
+            {
+              "rank": 26,
+              "name": "DietrichGebert/ponytail"
+            },
+            {
+              "rank": 27,
+              "name": "wheresryan22/anatomy"
+            },
+            {
+              "rank": 28,
+              "name": "storytold/wordcraft"
+            },
+            {
+              "rank": 29,
+              "name": "NandhaKishorM/laya"
+            },
+            {
+              "rank": 30,
+              "name": "ultraworkers/claw-code"
+            },
+            {
+              "rank": 31,
+              "name": "Niko1221/Strata"
+            },
+            {
+              "rank": 32,
+              "name": "storytold/pdfcraft"
+            },
+            {
+              "rank": 33,
+              "name": "storytold/filmcraft"
+            },
+            {
+              "rank": 34,
+              "name": "odysseus-dev/odysseus"
+            },
+            {
+              "rank": 35,
+              "name": "Ebony-Vinyl/dsh-our-free-model"
+            },
+            {
+              "rank": 36,
+              "name": "chenglou/handwired"
+            },
+            {
+              "rank": 37,
+              "name": "garrytan/gstack"
+            },
+            {
+              "rank": 38,
+              "name": "NousResearch/hermes-agent"
+            },
+            {
+              "rank": 39,
+              "name": "storytold/lightcraft"
+            },
+            {
+              "rank": 40,
+              "name": "Graphify-Labs/graphify"
+            },
+            {
+              "rank": 41,
+              "name": "nexu-io/open-design"
+            },
+            {
+              "rank": 42,
+              "name": "VoltAgent/awesome-design-md"
+            },
+            {
+              "rank": 43,
+              "name": "jhaizhou-ops/d2r-mobile"
+            },
+            {
+              "rank": 44,
+              "name": "msitarzewski/agency-agents"
+            },
+            {
+              "rank": 45,
+              "name": "yetone/magpie"
+            },
+            {
+              "rank": 46,
+              "name": "bilawalsidhu/gods-eye-view"
+            },
+            {
+              "rank": 47,
+              "name": "paperclipai/paperclip"
+            },
+            {
+              "rank": 48,
+              "name": "tt-a1i/archify"
+            },
+            {
+              "rank": 49,
+              "name": "anomalyco/opencode"
+            },
+            {
+              "rank": 50,
+              "name": "stablyai/orca"
+            },
+            {
+              "rank": 51,
+              "name": "Arekejoker/qwen21-nsfw-pose-skill"
+            },
+            {
+              "rank": 52,
+              "name": "storytold/vectorcraft"
+            },
+            {
+              "rank": 53,
+              "name": "robbietilton/Compositor"
+            },
+            {
+              "rank": 54,
+              "name": "anywhere-labs/dsh-desktop"
+            },
+            {
+              "rank": 55,
+              "name": "Panniantong/Agent-Reach"
+            },
+            {
+              "rank": 56,
+              "name": "nextlevelbuilder/ui-ux-pro-max-skill"
+            },
+            {
+              "rank": 57,
+              "name": "storytold/gridcraft"
+            },
+            {
+              "rank": 58,
+              "name": "storytold/cadcraft"
+            },
+            {
+              "rank": 59,
+              "name": "addyosmani/agent-skills"
+            },
+            {
+              "rank": 60,
+              "name": "feder-cr/open_scion"
+            },
+            {
+              "rank": 61,
+              "name": "Supermedo/uncharted_pc"
+            },
+            {
+              "rank": 62,
+              "name": "Leonxlnx/taste-skill"
+            },
+            {
+              "rank": 63,
+              "name": "shihabal3amri/DiPlay"
+            },
+            {
+              "rank": 64,
+              "name": "career-ops-hq/career-ops"
+            },
+            {
+              "rank": 65,
+              "name": "rehan-remade/universal-modder"
+            },
+            {
+              "rank": 66,
+              "name": "JustVugg/colibri"
+            },
+            {
+              "rank": 67,
+              "name": "ahwootech/BRUTAL"
+            },
+            {
+              "rank": 68,
+              "name": "github/spec-kit"
+            },
+            {
+              "rank": 69,
+              "name": "farion1231/cc-switch"
+            },
+            {
+              "rank": 70,
+              "name": "anthropics/skills"
+            },
+            {
+              "rank": 71,
+              "name": "cdyforever/how-to-live-better"
+            },
+            {
+              "rank": 72,
+              "name": "Egonex-AI/Understand-Anything"
+            },
+            {
+              "rank": 73,
+              "name": "storytold/effectcraft"
+            },
+            {
+              "rank": 74,
+              "name": "ARahim3/DigUp"
+            },
+            {
+              "rank": 75,
+              "name": "onehumanbeing/esp32-iphone-agent"
+            },
+            {
+              "rank": 76,
+              "name": "KKKKhazix/AIHOT"
+            },
+            {
+              "rank": 77,
+              "name": "rohitg00/ai-engineering-from-scratch"
+            },
+            {
+              "rank": 78,
+              "name": "koala73/worldmonitor"
+            },
+            {
+              "rank": 79,
+              "name": "rtk-ai/rtk"
+            },
+            {
+              "rank": 80,
+              "name": "diegosouzapw/OmniRoute"
+            },
+            {
+              "rank": 81,
+              "name": "Droid-Deck/DroidDeck"
+            },
+            {
+              "rank": 82,
+              "name": "guillaumemeyer/watermarks-remover"
+            },
+            {
+              "rank": 83,
+              "name": "alibaba/open-code-review"
+            },
+            {
+              "rank": 84,
+              "name": "earendil-works/pi"
+            },
+            {
+              "rank": 85,
+              "name": "calesthio/OpenMontage"
+            },
+            {
+              "rank": 86,
+              "name": "ayghri/i-have-adhd"
+            },
+            {
+              "rank": 87,
+              "name": "browser-use/jev-ultrafast"
+            },
+            {
+              "rank": 88,
+              "name": "anthropics/claude-code"
+            },
+            {
+              "rank": 89,
+              "name": "storytold/craft-launcher"
+            },
+            {
+              "rank": 90,
+              "name": "mhtsec/ARTEX"
+            },
+            {
+              "rank": 91,
+              "name": "colbymchenry/codegraph"
+            },
+            {
+              "rank": 92,
+              "name": "HeyPuter/everything"
+            },
+            {
+              "rank": 93,
+              "name": "headroomlabs-ai/headroom"
+            },
+            {
+              "rank": 94,
+              "name": "alchaincyf/huashu-art-motion"
+            },
+            {
+              "rank": 95,
+              "name": "zhongerxin/iPhone-use"
+            },
+            {
+              "rank": 96,
+              "name": "Yuan1z0825/nature-skills"
+            },
+            {
+              "rank": 97,
+              "name": "storytold/deckcraft"
+            },
+            {
+              "rank": 98,
+              "name": "thedotmack/claude-mem"
+            },
+            {
+              "rank": 99,
+              "name": "openai/codex"
+            },
+            {
+              "rank": 100,
+              "name": "pbakaus/impeccable"
+            }
+          ],
+          "warnings_count": 1,
+          "item_names": [
+            "morluto/rea",
+            "NationalSecurityAgency/ghidra",
+            "affaan-m/ECC",
+            "debpalash/VoiceStudio",
+            "obra/superpowers",
+            "JuliusBrussee/caveman",
+            "K-Dense-AI/scientific-agent-skills",
+            "mksglu/context-mode",
+            "mattpocock/skills",
+            "anthropics/claude-plugins-official",
+            "boykopovar/AnyPS5",
+            "ruvnet/ruflo",
+            "xerj-org/xerj",
+            "cathrynlavery/diagram-design",
+            "heygen-com/hyperframes",
+            "DuarteSantos8/openGym",
+            "earthtojake/text-to-cad",
+            "lightseekorg/tokenspeed",
+            "cursor/plugins",
+            "twostraws/SwiftUI-Agent-Skill",
+            "ranxianglei/billion-context",
+            "deepseek-ai/deepseek-harness",
+            "storytold/photocraft",
+            "eternity4719/HowToLiveBetter",
+            "openclaw/openclaw",
+            "DietrichGebert/ponytail",
+            "wheresryan22/anatomy",
+            "storytold/wordcraft",
+            "NandhaKishorM/laya",
+            "ultraworkers/claw-code",
+            "Niko1221/Strata",
+            "storytold/pdfcraft",
+            "storytold/filmcraft",
+            "odysseus-dev/odysseus",
+            "Ebony-Vinyl/dsh-our-free-model",
+            "chenglou/handwired",
+            "garrytan/gstack",
+            "NousResearch/hermes-agent",
+            "storytold/lightcraft",
+            "Graphify-Labs/graphify",
+            "nexu-io/open-design",
+            "VoltAgent/awesome-design-md",
+            "jhaizhou-ops/d2r-mobile",
+            "msitarzewski/agency-agents",
+            "yetone/magpie",
+            "bilawalsidhu/gods-eye-view",
+            "paperclipai/paperclip",
+            "tt-a1i/archify",
+            "anomalyco/opencode",
+            "stablyai/orca",
+            "Arekejoker/qwen21-nsfw-pose-skill",
+            "storytold/vectorcraft",
+            "robbietilton/Compositor",
+            "anywhere-labs/dsh-desktop",
+            "Panniantong/Agent-Reach",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "storytold/gridcraft",
+            "storytold/cadcraft",
+            "addyosmani/agent-skills",
+            "feder-cr/open_scion",
+            "Supermedo/uncharted_pc",
+            "Leonxlnx/taste-skill",
+            "shihabal3amri/DiPlay",
+            "career-ops-hq/career-ops",
+            "rehan-remade/universal-modder",
+            "JustVugg/colibri",
+            "ahwootech/BRUTAL",
+            "github/spec-kit",
+            "farion1231/cc-switch",
+            "anthropics/skills",
+            "cdyforever/how-to-live-better",
+            "Egonex-AI/Understand-Anything",
+            "storytold/effectcraft",
+            "ARahim3/DigUp",
+            "onehumanbeing/esp32-iphone-agent",
+            "KKKKhazix/AIHOT",
+            "rohitg00/ai-engineering-from-scratch",
+            "koala73/worldmonitor",
+            "rtk-ai/rtk",
+            "diegosouzapw/OmniRoute",
+            "Droid-Deck/DroidDeck",
+            "guillaumemeyer/watermarks-remover",
+            "alibaba/open-code-review",
+            "earendil-works/pi",
+            "calesthio/OpenMontage",
+            "ayghri/i-have-adhd",
+            "browser-use/jev-ultrafast",
+            "anthropics/claude-code",
+            "storytold/craft-launcher",
+            "mhtsec/ARTEX",
+            "colbymchenry/codegraph",
+            "HeyPuter/everything",
+            "headroomlabs-ai/headroom",
+            "alchaincyf/huashu-art-motion",
+            "zhongerxin/iPhone-use",
+            "Yuan1z0825/nature-skills",
+            "storytold/deckcraft",
+            "thedotmack/claude-mem",
+            "openai/codex",
+            "pbakaus/impeccable"
+          ],
+          "report_path": "reports/hot-rising/2026-10-16.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-09-12",
