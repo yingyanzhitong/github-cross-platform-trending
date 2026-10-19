@@ -2,6 +2,15 @@
 
 本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [0.8.86] - 2026-10-19
+
+### 更新
+
+- 更新 2026-10-19 GitHub 热门增长仓库前 100 榜单：发现候选 988 个、证据合格 277 个，深入分析 101 个，入榜和详情分析各 100 个。
+- Daily Trending 发现 13 个、入榜 12 个；Weekly Trending 发现并入榜 10 个；最近 7 天首次出现项目 6 个。采集警告为空，分析阶段跳过 1 个 README 有效文本不足 120 字符的候选。
+- Stars 历史新增 2026-10-19 快照，累计 40 个实际快照日期，覆盖 2026-08-04 至 2026-10-19；按实际 1 日快照增长，`morluto/rea`、`Ebony-Vinyl/dsh-our-free-model`、`MadsLorentzen/ai-job-search`、`debpalash/VoiceStudio` 和 `boykopovar/AnyPS5` 增长最快。
+- 重新读取入榜仓库 README，生成 200–1000 字自然中文单段分析，严格验证双向锚点与三类详情分区，并重建双榜单 GitHub Pages 报告。
+
 ## [0.8.85] - 2026-10-18
 
 ### 更新
