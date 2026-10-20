@@ -61,6 +61,13 @@ class HotRisingReportTests(unittest.TestCase):
             "date": "2026-08-04",
             "collected_at": "2026-08-04T09:00:00+08:00",
             "metadata": {"candidate_count": 500, "analyzed_count": 2},
+            "ranking": {
+                "observation_window": {
+                    "snapshot_first_date": "2026-08-01",
+                    "snapshot_last_date": "2026-08-04",
+                    "snapshot_coverage_days": 4,
+                },
+            },
             "items": [
                 item(1, is_new=False),
                 item(2, is_new=True),
@@ -72,6 +79,13 @@ class HotRisingReportTests(unittest.TestCase):
         report = render_report(payload)
 
         self.assertIn("# GitHub 热门增长仓库榜单", report)
+        self.assertIn("Stars 快照覆盖 2026-08-01 至 2026-08-04，日历跨度 4 天", report)
+        self.assertIn("1 日增量比较 2026-08-03 与 2026-08-04", report)
+        self.assertIn("7 日增量比较 2026-07-28 与 2026-08-04", report)
+        self.assertIn("https://github.com/trending?since=daily", report)
+        self.assertIn("https://github.com/trending?since=weekly", report)
+        self.assertIn("https://api.github.com/search/repositories", report)
+        self.assertIn("data/hot-rising/stars-history.json", report)
         self.assertIn('[#1 ↘️](#project-detail-1)', report)
         self.assertIn('[↖️ 返回表格中的 #1](#project-row-1)', report)
         self.assertEqual(report.count("🟢"), 4)

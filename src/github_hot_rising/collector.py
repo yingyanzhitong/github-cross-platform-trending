@@ -454,6 +454,8 @@ def _analysis_summary(item: dict[str, Any]) -> str:
 def render_report(payload: dict[str, Any]) -> str:
     items = payload["items"]
     metadata = payload["metadata"]
+    target = date.fromisoformat(payload["date"])
+    window = (payload.get("ranking") or {}).get("observation_window") or {}
     lines = [
         f"# GitHub 热门增长仓库榜单 · {payload['date']}",
         "",
@@ -469,6 +471,24 @@ def render_report(payload: dict[str, Any]) -> str:
             "榜单综合 GitHub Daily Trending、Weekly Trending、实际 Stars 历史快照增量，"
             "以及近期仓库的年龄归一化 Stars 速度。真实 1 日/7 日增量仅在快照跨度满足时"
             "展示；其余速度均明确标注为 Trending 页面指标或年龄归一化估算。"
+        ),
+        "",
+        (
+            f"观察窗口：Stars 快照覆盖 {window.get('snapshot_first_date', target)} 至 "
+            f"{window.get('snapshot_last_date', target)}，日历跨度 "
+            f"{window.get('snapshot_coverage_days', 1)} 天（快照可能不连续）。"
+            f"1 日增量比较 {target - timedelta(days=1)} 与 {target}；"
+            f"7 日增量比较 {target - timedelta(days=7)} 与 {target}。"
+            "仅在对应仓库存在精确日期快照时展示实际增量与增长率，"
+            "缺少历史时使用明确标注的 Trending 指标或年龄归一化估算。"
+        ),
+        "",
+        (
+            "来源：[GitHub Daily Trending](https://github.com/trending?since=daily)、"
+            "[GitHub Weekly Trending](https://github.com/trending?since=weekly)、"
+            "[GitHub 仓库搜索 API](https://api.github.com/search/repositories)、"
+            "[逐日 Stars 快照](https://github.com/yingyanzhitong/"
+            "github-cross-platform-trending/blob/main/data/hot-rising/stars-history.json)。"
         ),
         "",
         "| 详情 ↘️ | 新增 | 仓库 | 中文简介 | 趋势类型 | 热度/增长证据 | Stars | 主要语言 | 最近推送时间 |",
@@ -563,7 +583,7 @@ def _write_outputs(
                 "累计关注度与最近活跃度"
             ),
             "actual_snapshot_policy": (
-                "仅当历史快照日期达到至少 1 天或 7 天跨度时计算对应增量与增长率"
+                "仅使用距采集日恰好 1 天或 7 天的对应仓库快照计算实际增量与增长率"
             ),
             "sources": [
                 "https://github.com/trending?since=daily",
