@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import tempfile
 import unittest
-from json import dumps
+from json import dumps, loads
 from pathlib import Path
 from subprocess import CompletedProcess
 from typing import Any
@@ -102,6 +102,139 @@ class ShortNameResponseTranslator(DescriptionTranslator):
 
 
 class DescriptionTranslatorTests(unittest.TestCase):
+    def test_interrupted_cache_replace_preserves_previous_checkpoint(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            cache_path = Path(directory) / "translations.json"
+            translator = DescriptionTranslator(cache_path=cache_path)
+            translator._save_cache({"owner/old": {"zh": "旧缓存"}})
+            old = cache_path.read_bytes()
+            with patch("cross_platform_trending.translator.os.replace", side_effect=OSError("interrupted")):
+                with self.assertRaisesRegex(OSError, "interrupted"):
+                    translator._save_cache({"owner/new": {"zh": "新缓存"}})
+            self.assertEqual(cache_path.read_bytes(), old)
+            self.assertEqual(list(Path(directory).glob("*.tmp")), [])
+
+    def test_completed_analysis_batches_survive_failure_and_resume(self) -> None:
+        class InterruptedTranslator(BatchTranslator):
+            def _request_analyses(self, items: list[dict[str, Any]]) -> dict[str, str]:
+                if len(self.analysis_batch_sizes) == 2:
+                    raise RuntimeError("HTTP 429 Too Many Requests")
+                return super()._request_analyses(items)
+
+        def items() -> list[dict[str, Any]]:
+            return [
+                {**_software()[0], "name": f"owner/example-{index}",
+                 "description": "跨平台桌面下载管理工具"}
+                for index in range(15)
+            ]
+
+        with tempfile.TemporaryDirectory() as directory:
+            cache_path = Path(directory) / "translations.json"
+            interrupted = InterruptedTranslator(model_command="stub", cache_path=cache_path)
+            with self.assertRaisesRegex(RuntimeError, "第 11-15 条详情分析"):
+                interrupted.enrich(items())
+            saved = loads(cache_path.read_text())["translations"]
+            self.assertEqual(sum(bool(x.get("analysis_source")) for x in saved.values()), 10)
+            resumed = BatchTranslator(model_command="stub", cache_path=cache_path)
+            software = items()
+            resumed.enrich(software)
+            self.assertEqual(resumed.analysis_batch_sizes, [5])
+            self.assertTrue(all(x["analysis_zh"] == ANALYSIS for x in software))
+            changed = items()
+            changed[0]["_readme_excerpt"] += " Updated workflow."
+            refreshed = BatchTranslator(model_command="stub", cache_path=cache_path)
+            refreshed.enrich(changed)
+            self.assertEqual(refreshed.analysis_batch_sizes, [1])
+
+    def test_invalid_analysis_is_not_checkpointed(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            cache_path = Path(directory) / "translations.json"
+            translator = BatchTranslator(model_command="stub", cache_path=cache_path)
+            software = [{**_software()[0], "description": "跨平台桌面下载管理工具"}]
+            with patch.object(translator, "_request_analyses", return_value={"owner/example": "太短"}):
+                with self.assertRaisesRegex(RuntimeError, "详情分析生成失败"):
+                    translator.enrich(software)
+            saved = loads(cache_path.read_text())["translations"] if cache_path.exists() else {}
+            self.assertNotIn("analysis_source", saved.get("owner/example", {}))
+
+    def test_completed_translation_batches_survive_failure(self) -> None:
+        class InterruptedTranslator(BatchTranslator):
+            def _request_translations(self, items: list[dict[str, str]]) -> dict[str, str]:
+                if self.batch_sizes:
+                    raise RuntimeError("HTTP 429 Too Many Requests")
+                return super()._request_translations(items)
+
+        def items() -> list[dict[str, Any]]:
+            return [{**_software()[0], "name": f"owner/example-{i}"} for i in range(26)]
+
+        with tempfile.TemporaryDirectory() as directory:
+            cache_path = Path(directory) / "translations.json"
+            translator = InterruptedTranslator(model_command="stub", cache_path=cache_path)
+            with self.assertRaisesRegex(RuntimeError, "第 26-26 条中文简介"):
+                translator.enrich(items())
+            self.assertEqual(len(loads(cache_path.read_text())["translations"]), 25)
+            resumed = BatchTranslator(model_command="stub", cache_path=cache_path)
+            resumed.enrich(items())
+            self.assertEqual(resumed.batch_sizes, [1])
+
+    def test_rate_limit_uses_bounded_exponential_backoff(self) -> None:
+        limited = CompletedProcess([], 1, "", "ERROR: last status: 429 Too Many Requests")
+        success = CompletedProcess([], 0, '{"translations": []}', "")
+        body = {"messages": [], "response_format": {"json_schema": {"schema": {"type": "object"}}}}
+        with tempfile.TemporaryDirectory() as directory:
+            translator = DescriptionTranslator(cache_path=Path(directory) / "translations.json")
+            with patch("cross_platform_trending.translator.subprocess.run", side_effect=[limited, limited, success]) as run, patch("cross_platform_trending.translator.time.sleep") as sleep, patch("cross_platform_trending.translator.random.uniform", return_value=0):
+                self.assertEqual(translator._request_model(body, "详情分析"), {"translations": []})
+                self.assertEqual(run.call_count, 3)
+                self.assertEqual([c.args[0] for c in sleep.call_args_list], [30, 60])
+            translator = DescriptionTranslator(cache_path=Path(directory) / "translations.json")
+            with patch("cross_platform_trending.translator.subprocess.run", return_value=limited) as run, patch("cross_platform_trending.translator.time.sleep") as sleep, patch("cross_platform_trending.translator.random.uniform", return_value=0):
+                with self.assertRaisesRegex(RuntimeError, "429"):
+                    translator._request_model(body, "详情分析")
+                self.assertEqual(run.call_count, 4)
+                self.assertEqual([c.args[0] for c in sleep.call_args_list], [30, 60, 120])
+
+    def test_quota_errors_and_excessive_retry_after_are_not_retried(self) -> None:
+        body = {"messages": [], "response_format": {"json_schema": {"schema": {"type": "object"}}}}
+        with tempfile.TemporaryDirectory() as directory:
+            translator = DescriptionTranslator(cache_path=Path(directory) / "translations.json")
+            for detail in ["429 insufficient_quota", "429 Too Many Requests; Retry-After: 600"]:
+                with self.subTest(detail=detail), patch("cross_platform_trending.translator.subprocess.run", return_value=CompletedProcess([], 1, "", detail)) as run, patch("cross_platform_trending.translator.time.sleep") as sleep:
+                    with self.assertRaisesRegex(RuntimeError, "429"):
+                        translator._request_model(body, "详情分析")
+                    self.assertEqual(run.call_count, 1)
+                    sleep.assert_not_called()
+
+    def test_retry_after_is_a_minimum_delay(self) -> None:
+        body = {"messages": [], "response_format": {"json_schema": {"schema": {"type": "object"}}}}
+        with tempfile.TemporaryDirectory() as directory:
+            translator = DescriptionTranslator(cache_path=Path(directory) / "translations.json")
+            failures = [CompletedProcess([], 1, "", "429 Too Many Requests; Retry-After: 45"), CompletedProcess([], 0, '{}', "")]
+            with patch("cross_platform_trending.translator.subprocess.run", side_effect=failures), patch("cross_platform_trending.translator.time.sleep") as sleep, patch("cross_platform_trending.translator.random.uniform", return_value=0):
+                translator._request_model(body, "详情分析")
+                sleep.assert_called_once_with(45)
+
+    def test_readme_error_examples_do_not_override_cli_error_classification(self) -> None:
+        body = {"messages": [], "response_format": {"json_schema": {"schema": {"type": "object"}}}}
+        stderr = 'user: README examples 429 insufficient_quota Retry-After: 600\nERROR: last status: 503'
+        with tempfile.TemporaryDirectory() as directory:
+            translator = DescriptionTranslator(cache_path=Path(directory) / "translations.json")
+            with patch("cross_platform_trending.translator.subprocess.run", side_effect=[CompletedProcess([], 1, "", stderr), CompletedProcess([], 0, '{}', "")]) as run, patch("cross_platform_trending.translator.time.sleep") as sleep:
+                self.assertEqual(translator._request_model(body, "详情分析"), {})
+                self.assertEqual(run.call_count, 2)
+                sleep.assert_called_once_with(1)
+
+    def test_requests_are_paced_after_recovering_from_rate_limit(self) -> None:
+        body = {"messages": [], "response_format": {"json_schema": {"schema": {"type": "object"}}}}
+        limited = CompletedProcess([], 1, "", "ERROR: last status: 429")
+        success = CompletedProcess([], 0, '{}', "")
+        with tempfile.TemporaryDirectory() as directory:
+            translator = DescriptionTranslator(cache_path=Path(directory) / "translations.json")
+            with patch("cross_platform_trending.translator.subprocess.run", side_effect=[limited, success, success]), patch("cross_platform_trending.translator.time.monotonic", return_value=0), patch("cross_platform_trending.translator.time.sleep") as sleep, patch("cross_platform_trending.translator.random.uniform", return_value=0):
+                translator._request_model(body, "详情分析")
+                translator._request_model(body, "详情分析")
+                self.assertEqual([c.args[0] for c in sleep.call_args_list], [30, 30])
+
     def test_translates_and_caches_description(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             cache_path = Path(directory) / "translations.json"

@@ -3,8 +3,10 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import random
 import re
 import subprocess
+import sys
 import tempfile
 import time
 from pathlib import Path
@@ -15,6 +17,9 @@ MODEL = "gpt-5.6-sol"
 TRANSLATION_BATCH_SIZE = 25
 ANALYSIS_BATCH_SIZE = 5
 MAX_MODEL_RETRIES = 1
+MAX_RATE_LIMIT_RETRIES = 3
+RATE_LIMIT_RETRY_BASE = 30
+MAX_RATE_LIMIT_DELAY = 120
 ANALYSIS_MIN_LENGTH = 200
 ANALYSIS_MAX_LENGTH = 1000
 FORMULAIC_ANALYSIS_PATTERNS = (
@@ -167,6 +172,8 @@ class DescriptionTranslator:
         self.model_command = model_command
         self.model = model or os.getenv("CROSS_PLATFORM_TRENDING_MODEL", MODEL)
         self.timeout = timeout
+        self._rate_limited = False
+        self._next_request_at = 0.0
 
     def _load_cache(self) -> dict[str, dict[str, Any]]:
         if not self.cache_path.exists():
@@ -183,10 +190,20 @@ class DescriptionTranslator:
             "model": f"codex-cli/{self.model}",
             "translations": dict(sorted(translations.items())),
         }
-        self.cache_path.write_text(
-            json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
+        temporary_path = None
+        try:
+            with tempfile.NamedTemporaryFile(
+                mode="w", encoding="utf-8", dir=self.cache_path.parent,
+                prefix=f".{self.cache_path.name}-", suffix=".tmp", delete=False,
+            ) as temporary:
+                temporary_path = Path(temporary.name)
+                temporary.write(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+                temporary.flush()
+                os.fsync(temporary.fileno())
+            os.replace(temporary_path, self.cache_path)
+        finally:
+            if temporary_path is not None:
+                temporary_path.unlink(missing_ok=True)
 
     def _request_model(self, body: dict[str, Any], label: str) -> dict[str, Any]:
         if not self.model_command:
@@ -203,7 +220,11 @@ class DescriptionTranslator:
         except (KeyError, TypeError) as error:
             raise RuntimeError(f"{label}请求缺少 JSON Schema") from error
 
-        for attempt in range(MAX_MODEL_RETRIES + 1):
+        delay = self._next_request_at - time.monotonic()
+        if delay > 0:
+            time.sleep(delay)
+
+        for attempt in range(max(MAX_MODEL_RETRIES, MAX_RATE_LIMIT_RETRIES) + 1):
             with tempfile.TemporaryDirectory(prefix="cross-platform-trending-") as directory:
                 schema_path = Path(directory) / "output-schema.json"
                 schema_path.write_text(
@@ -250,11 +271,40 @@ class DescriptionTranslator:
                     ) from error
 
             if result.returncode != 0:
-                if attempt < MAX_MODEL_RETRIES:
-                    time.sleep(2**attempt)
-                    continue
                 detail = result.stderr.strip().splitlines()
                 summary = detail[-1][:300] if detail else "未知错误"
+                diagnostic = "\n".join(
+                    line for line in detail[-10:]
+                    if re.match(r"(?:ERROR\b|Retry-After\s*:|HTTP/\d|Reconnecting\b)", line.strip(), re.I)
+                ) or summary
+                rate_limited = bool(re.search(r"\b429\b|rate_limit_exceeded|Too Many Requests", diagnostic, re.I))
+                if rate_limited:
+                    self._rate_limited = True
+                quota_error = bool(re.search(
+                    r"insufficient_quota|credit_balance_exhausted|usage_limit_reached|"
+                    r"(?:organization|project)_(?:spend|usage)_limit",
+                    diagnostic, re.I,
+                ))
+                retry_limit = MAX_RATE_LIMIT_RETRIES if rate_limited else MAX_MODEL_RETRIES
+                if not quota_error and attempt < retry_limit:
+                    delay = 2**attempt
+                    if rate_limited:
+                        retry_after = re.search(r"Retry-After\s*[:=]\s*(\d+(?:\.\d+)?)", diagnostic, re.I)
+                        server_delay = float(retry_after.group(1)) if retry_after else 0
+                        if server_delay > MAX_RATE_LIMIT_DELAY:
+                            raise RuntimeError(
+                                f"Codex CLI {label}请求失败：{summary}；服务端要求等待 "
+                                f"{server_delay:g} 秒，超过本次重试窗口，请稍后续跑"
+                            )
+                        delay = max(RATE_LIMIT_RETRY_BASE * 2**attempt, server_delay)
+                        delay += random.uniform(0, 5)
+                        print(
+                            f"Codex CLI {label}遇到 HTTP 429，等待 {delay:.1f} 秒后"
+                            f"重试（{attempt + 1}/{retry_limit}）",
+                            file=sys.stderr, flush=True,
+                        )
+                    time.sleep(delay)
+                    continue
                 raise RuntimeError(
                     f"Codex CLI {label}请求失败 ({result.returncode})：{summary}"
                 )
@@ -267,6 +317,8 @@ class DescriptionTranslator:
                 except json.JSONDecodeError:
                     continue
                 if isinstance(parsed, dict):
+                    if self._rate_limited:
+                        self._next_request_at = time.monotonic() + RATE_LIMIT_RETRY_BASE
                     return parsed
             if attempt < MAX_MODEL_RETRIES:
                 time.sleep(2**attempt)
@@ -505,7 +557,19 @@ class DescriptionTranslator:
                     offset : offset + TRANSLATION_BATCH_SIZE
                 ]
                 try:
-                    translated.update(self._request_translations(batch))
+                    result = self._request_translations(batch)
+                    cleaned_batch = {
+                        item["name"]: _clean_translation(item["name"], result.get(item["name"], ""))
+                        for item in batch
+                    }
+                    if not all(_contains_chinese(value) for value in cleaned_batch.values()):
+                        raise RuntimeError("中文简介生成结果缺失或无效")
+                    for item in batch:
+                        cache.setdefault(item["name"], {}).update(
+                            source=item["description_en"], zh=cleaned_batch[item["name"]],
+                        )
+                    self._save_cache(cache)
+                    translated.update(cleaned_batch)
                 except RuntimeError as error:
                     start = offset + 1
                     end = offset + len(batch)
@@ -579,12 +643,28 @@ class DescriptionTranslator:
             for offset in range(0, len(pending_analyses), ANALYSIS_BATCH_SIZE):
                 batch = pending_analyses[offset : offset + ANALYSIS_BATCH_SIZE]
                 try:
-                    generated_analyses.update(self._request_analyses(batch))
+                    result = self._request_analyses(batch)
+                    if not all(_valid_analysis(result.get(item["name"])) for item in batch):
+                        raise RuntimeError("项目详情分析生成结果缺失或无效")
+                    for item in batch:
+                        name = item["name"]
+                        cache.setdefault(name, {}).update(
+                            analysis_source=analysis_fingerprints[name],
+                            analysis_zh=_clean_analysis(result[name]),
+                        )
+                    self._save_cache(cache)
+                    generated_analyses.update(result)
+                    print(
+                        f"详情分析完成 {offset + len(batch)}/{len(pending_analyses)}，"
+                        "合格批次已保存，可断点续跑",
+                        file=sys.stderr, flush=True,
+                    )
                 except RuntimeError as error:
                     start = offset + 1
                     end = offset + len(batch)
                     raise RuntimeError(
-                        f"第 {start}-{end} 条详情分析生成失败：{error}"
+                        f"第 {start}-{end} 条详情分析生成失败：{error}；"
+                        "已完成批次保留在缓存中，重跑将只补齐缺失或来源变化的分析"
                     ) from error
         elif pending_analyses:
             raise RuntimeError("未配置 Codex CLI，无法生成缺失的项目详情分析")
