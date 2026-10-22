@@ -1,169 +1,169 @@
-# GitHub 热门增长仓库榜单 · 2026-10-21
+# GitHub 热门增长仓库榜单 · 2026-10-22
 
-> 采集时间：2026-10-21T09:11:53+08:00；发现候选 983 个，深入分析 101 个，最终入榜 100 个。
+> 采集时间：2026-10-22T09:23:51+08:00；发现候选 982 个，深入分析 101 个，最终入榜 100 个。
 
 ## 排名与证据说明
 
 榜单综合 GitHub Daily Trending、Weekly Trending、实际 Stars 历史快照增量，以及近期仓库的年龄归一化 Stars 速度。真实 1 日/7 日增量仅在快照跨度满足时展示；其余速度均明确标注为 Trending 页面指标或年龄归一化估算。
 
-观察窗口：Stars 快照覆盖 2026-08-04 至 2026-10-21，日历跨度 79 天（快照可能不连续）。1 日增量比较 2026-10-20 与 2026-10-21；7 日增量比较 2026-10-14 与 2026-10-21。仅在对应仓库存在精确日期快照时展示实际增量与增长率，缺少历史时使用明确标注的 Trending 指标或年龄归一化估算。
+观察窗口：Stars 快照覆盖 2026-08-04 至 2026-10-22，日历跨度 80 天（快照可能不连续）。1 日增量比较 2026-10-21 与 2026-10-22；7 日增量比较 2026-10-15 与 2026-10-22。仅在对应仓库存在精确日期快照时展示实际增量与增长率，缺少历史时使用明确标注的 Trending 指标或年龄归一化估算。
 
 来源：[GitHub Daily Trending](https://github.com/trending?since=daily)、[GitHub Weekly Trending](https://github.com/trending?since=weekly)、[GitHub 仓库搜索 API](https://api.github.com/search/repositories)、[逐日 Stars 快照](https://github.com/yingyanzhitong/github-cross-platform-trending/blob/main/data/hot-rising/stars-history.json)。
 
 | 详情 ↘️ | 新增 | 仓库 | 中文简介 | 趋势类型 | 热度/增长证据 | Stars | 主要语言 | 最近推送时间 |
 |---:|:---:|---|---|---|---|---:|---|---|
-<a id="project-row-12"></a>[#12 ↘️](#project-detail-12) | 🟢 | [wshobson/agents](https://github.com/wshobson/agents) | 适配 Claude Code、Codex、Cursor 等编码工具的插件、智能体、技能与命令集合 | Daily Trending / Weekly Trending | GitHub Daily Trending 第 12 名，页面公开 93 stars today；GitHub Weekly Trending 第 15 名，页面公开 665 stars this week | 41,258 | Python | 2026-10-19 |
-<a id="project-row-24"></a>[#24 ↘️](#project-detail-24) | 🟢 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 通过 Wi-Fi 精简 Android 与 Google TV，并换用 Apple TV 风格首页 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +6,541 | 11,942 | Java | 2026-10-20 |
-<a id="project-row-25"></a>[#25 ↘️](#project-detail-25) | 🟢 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 供 Claude Cowork 使用、可按团队流程定制的知识工作岗位插件 | Daily Trending | GitHub Daily Trending 第 11 名，页面公开 267 stars today | 30,798 | Python | 2026-10-20 |
-<a id="project-row-26"></a>[#26 ↘️](#project-detail-26) | 🟢 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 以本地目录、MCP 和 CLI 支持技能检索、自主选择、组合验证与计划预览 | Daily Trending | GitHub Daily Trending 第 13 名，页面公开 83 stars today | 48,099 | Python | 2026-10-20 |
-<a id="project-row-27"></a>[#27 ↘️](#project-detail-27) | 🟢 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 高吞吐、节省内存的大语言模型推理与服务引擎 | Daily Trending | GitHub Daily Trending 第 15 名，页面公开 128 stars today | 94,441 | Python | 2026-10-21 |
-<a id="project-row-46"></a>[#46 ↘️](#project-detail-46) | 🟢 | [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 小学英语，课标对齐、人教版，999 知识点、4143 题、自适应诊断 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +642 | 1,591 | Python | 2026-10-20 |
-<a id="project-row-89"></a>[#89 ↘️](#project-detail-89) | 🟢 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 将文件和办公文档转换为 Markdown 的 Python 工具。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +187 | 191,317 | Python | 2026-10-20 |
-<a id="project-row-91"></a>[#91 ↘️](#project-detail-91) | 🟢 | [alchaincyf/huashu-motion](https://github.com/alchaincyf/huashu-motion) | 让编码智能体制作产品宣传片、现场配乐，并通过点选画面反馈修改 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +228 | 1,151 | JavaScript | 2026-10-19 |
-<a id="project-row-1"></a>[#1 ↘️](#project-detail-1) |  | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 基于 Claude Code 在本机运行的 AI 求职申请框架 | Daily Trending / Weekly Trending / 实际 1 日增长 | GitHub Daily Trending 第 1 名，页面公开 3,861 stars today；GitHub Weekly Trending 第 2 名，页面公开 12,848 stars this week；实际快照 1 日 Stars 增量 +3,278 | 60,624 | Python | 2026-10-20 |
-<a id="project-row-2"></a>[#2 ↘️](#project-detail-2) |  | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 智能体运行框架，支持多智能体集群、自主工作流、记忆、RAG及多模型集成 | Daily Trending / Weekly Trending / 实际 1 日增长 | GitHub Daily Trending 第 6 名，页面公开 684 stars today；GitHub Weekly Trending 第 9 名，页面公开 3,143 stars this week；实际快照 1 日 Stars 增量 +649 | 77,852 | TypeScript | 2026-10-21 |
-<a id="project-row-3"></a>[#3 ↘️](#project-detail-3) |  | [morluto/rea](https://github.com/morluto/rea) | 借助智能体逆向分析一切，从应用行为深入到原生二进制文件。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 1 名，页面公开 157,631 stars this week；实际快照 1 日 Stars 增量 +11,103 | 348,158 | TypeScript | 2026-10-21 |
-<a id="project-row-4"></a>[#4 ↘️](#project-detail-4) |  | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 AI 智能体像懒惰的资深开发者一样思考，尽量少写代码。 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 4 名，页面公开 1,208 stars today；实际快照 1 日 Stars 增量 +1,570 | 169,695 | JavaScript | 2026-10-18 |
-<a id="project-row-5"></a>[#5 ↘️](#project-detail-5) |  | [stablyai/orca](https://github.com/stablyai/orca) | 集中管理多个智能体，支持自有订阅及桌面、移动和远程运行 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 3 名，页面公开 1,565 stars today；实际快照 1 日 Stars 增量 +1,446 | 99,757 | TypeScript | 2026-10-21 |
-<a id="project-row-6"></a>[#6 ↘️](#project-detail-6) |  | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 将代码、文档、数据库结构、配置和 PDF 转为可查询知识图谱。 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 7 名，页面公开 802 stars today；实际快照 1 日 Stars 增量 +1,074 | 130,258 | Python | 2026-10-20 |
-<a id="project-row-7"></a>[#7 ↘️](#project-detail-7) |  | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 开源编程智能体。 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 8 名，页面公开 1,240 stars today；实际快照 1 日 Stars 增量 +1,109 | 218,939 | TypeScript | 2026-10-21 |
-<a id="project-row-8"></a>[#8 ↘️](#project-detail-8) |  | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 面向编码智能体的多阶段安全审计技能，提供独立验证的机器可读结果 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 2 名，页面公开 1,712 stars today；实际快照 1 日 Stars 增量 +1,692 | 34,252 | JavaScript | 2026-09-14 |
-<a id="project-row-9"></a>[#9 ↘️](#project-detail-9) |  | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 强大且模块化的扩散模型图形界面、API与后端，采用图形节点设计，提供快速本地推理。 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 5 名，页面公开 1,206 stars today；实际快照 1 日 Stars 增量 +1,036 | 140,781 | Python | 2026-10-21 |
-<a id="project-row-10"></a>[#10 ↘️](#project-detail-10) |  | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 汇集多领域专业智能体及成熟流程与交付成果的 AI 团队。 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 9 名，页面公开 562 stars today；实际快照 1 日 Stars 增量 +587 | 162,361 | Shell | 2026-10-19 |
-<a id="project-row-11"></a>[#11 ↘️](#project-detail-11) |  | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 在内容送达 LLM 前压缩工具输出、日志、文件和 RAG 分块的库、代理及 MCP 服务。 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 10 名，页面公开 549 stars today；实际快照 1 日 Stars 增量 +508 | 76,766 | Python | 2026-10-21 |
-<a id="project-row-13"></a>[#13 ↘️](#project-detail-13) |  | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 全本地开源的 ElevenLabs 替代方案，支持克隆与设计语音、视频配音等，覆盖 646 种语言。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 8 名，页面公开 17,057 stars this week；实际快照 1 日 Stars 增量 +1,461 | 78,999 | Python | 2026-10-21 |
-<a id="project-row-14"></a>[#14 ↘️](#project-detail-14) |  | [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 将PS5可执行文件自动移植到Linux和Windows的工具。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 11 名，页面公开 11,169 stars this week；实际快照 1 日 Stars 增量 +1,034 | 45,548 | C++ | 2026-10-21 |
-<a id="project-row-15"></a>[#15 ↘️](#project-detail-15) |  | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | 面向金融市场语言的基础模型 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 14 名，页面公开 733 stars today；实际快照 1 日 Stars 增量 +668 | 42,357 | Python | 2026-04-13 |
-<a id="project-row-16"></a>[#16 ↘️](#project-detail-16) |  | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 面向智能体，通过编写 HTML 渲染视频。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 7 名，页面公开 5,994 stars this week；实际快照 1 日 Stars 增量 +828 | 68,516 | TypeScript | 2026-10-21 |
-<a id="project-row-17"></a>[#17 ↘️](#project-detail-17) |  | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 面向多种编程智能体的编辑式图表设计工具，支持44种图表类型。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 13 名，页面公开 5,473 stars this week；实际快照 1 日 Stars 增量 +551 | 58,993 | HTML | 2026-10-20 |
-<a id="project-row-18"></a>[#18 ↘️](#project-detail-18) |  | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 面向多种智能体的科学技能库，提供177项技能及百余个科学数据库。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 6 名，页面公开 4,549 stars this week；实际快照 1 日 Stars 增量 +336 | 53,270 | Python | 2026-10-19 |
-<a id="project-row-19"></a>[#19 ↘️](#project-detail-19) |  | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 由 Anthropic 官方管理的高质量 Claude Code 插件目录。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 3 名，页面公开 5,650 stars this week；实际快照 1 日 Stars 增量 +236 | 43,419 | Python | 2026-10-21 |
-<a id="project-row-20"></a>[#20 ↘️](#project-detail-20) |  | [mksglu/context-mode](https://github.com/mksglu/context-mode) | 为 AI 编码智能体优化上下文窗口，隔离工具输出、保留会话记忆并统一路由 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 4 名，页面公开 3,556 stars this week；实际快照 1 日 Stars 增量 +279 | 31,366 | TypeScript | 2026-10-21 |
-<a id="project-row-21"></a>[#21 ↘️](#project-detail-21) |  | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | 一款软件逆向工程（SRE）框架。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 5 名，页面公开 6,184 stars this week；实际快照 1 日 Stars 增量 +557 | 92,160 | Java | 2026-10-20 |
-<a id="project-row-22"></a>[#22 ↘️](#project-detail-22) |  | [storytold/artcraft](https://github.com/storytold/artcraft) | 面向艺术家、设计师和电影制作人的创作引擎 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 14 名，页面公开 10,287 stars this week；实际快照 1 日 Stars 增量 +800 | 34,537 | Rust | 2026-10-20 |
-<a id="project-row-23"></a>[#23 ↘️](#project-detail-23) |  | [cursor/plugins](https://github.com/cursor/plugins) | Cursor 插件规范及官方插件合集。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 12 名，页面公开 2,040 stars this week；实际快照 1 日 Stars 增量 +192 | 13,249 | TypeScript | 2026-10-20 |
-<a id="project-row-28"></a>[#28 ↘️](#project-detail-28) |  | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 一切皆插件的 DeepSeek 工具框架 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +1,333 | 255,824 | TypeScript | 2026-10-17 |
-<a id="project-row-29"></a>[#29 ↘️](#project-detail-29) |  | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 为dsh提供免登录、免API Key且不限量的免费前沿模型插件。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +3,111 | 30,897 | JavaScript | 2026-10-20 |
-<a id="project-row-30"></a>[#30 ↘️](#project-detail-30) |  | [storytold/photocraft](https://github.com/storytold/photocraft) | 使用纯Rust从零编写的开源照片编辑器。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +1,083 | 69,681 | Rust | 2026-10-21 |
-<a id="project-row-31"></a>[#31 ↘️](#project-detail-31) |  | [mattpocock/skills](https://github.com/mattpocock/skills) | 源自作者个人 .agents 目录的实用工程技能集。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +1,175 | 298,692 | Shell | 2026-10-19 |
-<a id="project-row-32"></a>[#32 ↘️](#project-detail-32) |  | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 面向多种编码智能体的性能优化系统，涵盖技能、记忆、安全与研究。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +767 | 284,923 | JavaScript | 2026-10-20 |
-<a id="project-row-33"></a>[#33 ↘️](#project-detail-33) |  | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 在消费级硬件运行Qwen3.8-Flash-Next的一键式推理引擎。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +923 | 29,228 | C++ | 2026-10-20 |
-<a id="project-row-34"></a>[#34 ↘️](#project-detail-34) |  | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +679 | 67,084 | HTML | 2026-10-15 |
-<a id="project-row-35"></a>[#35 ↘️](#project-detail-35) |  | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 创建真实机器及复杂系统交互式等距插图的智能体技能。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +710 | 17,594 | JavaScript | 2026-10-18 |
-<a id="project-row-36"></a>[#36 ↘️](#project-detail-36) |  | [yetone/magpie](https://github.com/yetone/magpie) | 从菜单栏统一为各类智能体切换和使用不同模型。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +935 | 17,966 | Go | 2026-10-21 |
-<a id="project-row-37"></a>[#37 ↘️](#project-detail-37) |  | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 通过拖放在本机离线转换 247 种文件格式的免费开源工具 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +1,560 | 8,030 | C# | 2026-10-21 |
-<a id="project-row-38"></a>[#38 ↘️](#project-detail-38) |  | [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 纯 Rust 构建的开源参数化 3D CAD，支持桌面端、网页端和 MCP 自动化 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +979 | 8,291 | Rust | 2026-10-21 |
-<a id="project-row-39"></a>[#39 ↘️](#project-detail-39) |  | [obra/superpowers](https://github.com/obra/superpowers) | 实用的智能体技能框架与软件开发方法论。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +471 | 302,612 | Shell | 2026-10-20 |
-<a id="project-row-40"></a>[#40 ↘️](#project-detail-40) |  | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 将想法、计划或代码库转为精美交互图，适用于 Claude Code、Codex 等 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +597 | 86,463 | JavaScript | 2026-10-20 |
-<a id="project-row-41"></a>[#41 ↘️](#project-detail-41) |  | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 让 AI 智能体通过一个 CLI 免费读取和搜索多个主流互联网平台 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +586 | 100,303 | Python | 2026-10-20 |
-<a id="project-row-42"></a>[#42 ↘️](#project-detail-42) |  | [storytold/wordcraft](https://github.com/storytold/wordcraft) | 使用纯Rust洁净室方式重写的开源Microsoft Word实现。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +299 | 15,070 | Rust | 2026-10-20 |
-<a id="project-row-43"></a>[#43 ↘️](#project-detail-43) |  | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 用于管理工作智能体的开源应用。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +496 | 105,254 | TypeScript | 2026-10-21 |
-<a id="project-row-44"></a>[#44 ↘️](#project-detail-44) |  | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 使用纯Rust从零编写的开源PDF阅读与编辑器。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +355 | 16,660 | Rust | 2026-10-21 |
-<a id="project-row-45"></a>[#45 ↘️](#project-detail-45) |  | [HeyPuter/everything](https://github.com/HeyPuter/everything) | 从零重建并开源全球各类软件 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +779 | 3,167 | JavaScript | 2026-10-21 |
-<a id="project-row-47"></a>[#47 ↘️](#project-detail-47) |  | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 以艺术指导、参考图和浏览器检查提升编程智能体的设计品味 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +500 | 99,873 | JavaScript | 2026-10-20 |
-<a id="project-row-48"></a>[#48 ↘️](#project-detail-48) |  | [xerj-org/xerj](https://github.com/xerj-org/xerj) | 本地优先的 Rust 搜索引擎与 MCP 服务，支持代码、文档、日志的全文及向量检索 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +1,899 | 12,434 | Rust | 2026-10-21 |
-<a id="project-row-49"></a>[#49 ↘️](#project-detail-49) |  | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 能够与你共同成长的智能体。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +318 | 255,596 | Python | 2026-10-21 |
-<a id="project-row-50"></a>[#50 ↘️](#project-detail-50) |  | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 开源、本地优先的协作式 AI 设计工作空间，可与团队和 AI 智能体共同创作并迭代多种内容。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +285 | 102,818 | TypeScript | 2026-10-21 |
-<a id="project-row-51"></a>[#51 ↘️](#project-detail-51) |  | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 面向多款编程智能体的跨平台一体化桌面助手，官网为 ccswitch.io。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +452 | 146,816 | Rust | 2026-10-20 |
-<a id="project-row-52"></a>[#52 ↘️](#project-detail-52) |  | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 提升 AI 工具设计能力的设计语言。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +612 | 83,852 | Rust | 2026-10-20 |
-<a id="project-row-53"></a>[#53 ↘️](#project-detail-53) |  | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 由智能体使用 Rust 构建和维护、全程无人干预的博物馆展品。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +157 | 195,065 | Rust | 2026-10-19 |
-<a id="project-row-54"></a>[#54 ↘️](#project-detail-54) |  | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 将 SteamOS 体验带到 Android 设备 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +403 | 11,811 | Kotlin | 2026-10-21 |
-<a id="project-row-55"></a>[#55 ↘️](#project-detail-55) |  | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 免费开源的 MIT AI 网关，统一接入 375 个提供商和 1400 多个模型，支持智能配额回退与令牌压缩。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +429 | 78,984 | TypeScript | 2026-10-21 |
-<a id="project-row-56"></a>[#56 ↘️](#project-detail-56) |  | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 为多平台专业 UI/UX 构建提供设计智能的 AI 技能 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +385 | 138,011 | Python | 2026-10-15 |
-<a id="project-row-57"></a>[#57 ↘️](#project-detail-57) |  | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 用 AI 将文档或主题生成含原生元素、图表及动画的 PowerPoint 演示文稿 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +613 | 64,499 | Python | 2026-10-19 |
-<a id="project-row-58"></a>[#58 ↘️](#project-detail-58) |  | [storytold/filmcraft](https://github.com/storytold/filmcraft) | 使用纯Rust从零编写的开源非线性视频编辑器。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +216 | 15,327 | Rust | 2026-10-20 |
-<a id="project-row-59"></a>[#59 ↘️](#project-detail-59) |  | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 单次前向传播即可处理百余种语言文本决策的非自回归System 1引擎。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +150 | 33,709 | Python | 2026-10-19 |
-<a id="project-row-60"></a>[#60 ↘️](#project-detail-60) |  | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | 基于真实数据，在写实三维地球上呈现实时开源空间情报 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +257 | 58,539 | JavaScript | 2026-10-20 |
-<a id="project-row-61"></a>[#61 ↘️](#project-detail-61) |  | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 通过学习、构建与发布项目掌握 AI 工程 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +346 | 71,795 | Python | 2026-10-19 |
-<a id="project-row-62"></a>[#62 ↘️](#project-detail-62) |  | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 面向 AI 编码智能体的生产级工程技能集。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +356 | 108,993 | JavaScript | 2026-10-13 |
-<a id="project-row-63"></a>[#63 ↘️](#project-detail-63) |  | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 通过穴居人式精简表达，为编程智能体减少65%的令牌消耗。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +189 | 113,865 | Go | 2026-10-20 |
-<a id="project-row-64"></a>[#64 ↘️](#project-detail-64) |  | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 提供 12 条流程、百余工具及丰富技能知识的开源智能体视频制作系统。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +373 | 70,315 | Python | 2026-10-16 |
-<a id="project-row-65"></a>[#65 ↘️](#project-detail-65) |  | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 以网页及更多来源的数据增强 AI 智能体的工具库 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +390 | 193,498 | TypeScript | 2026-10-21 |
-<a id="project-row-66"></a>[#66 ↘️](#project-detail-66) |  | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +227 | 31,997 | TypeScript | 2026-10-20 |
-<a id="project-row-67"></a>[#67 ↘️](#project-detail-67) |  | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 本地运行的开源 AI 求职助手，支持职位评分、材料定制、面试准备与申请跟踪 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +231 | 75,917 | JavaScript | 2026-10-20 |
-<a id="project-row-68"></a>[#68 ↘️](#project-detail-68) |  | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 热门品牌设计系统的 DESIGN.md 分析合集，可辅助智能体生成匹配界面。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +197 | 122,527 | 未知 | 2026-10-14 |
-<a id="project-row-69"></a>[#69 ↘️](#project-detail-69) |  | [earendil-works/pi](https://github.com/earendil-works/pi) | 集统一 LLM API、智能体循环、TUI 和编程 CLI 于一体的工具包。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +284 | 116,713 | TypeScript | 2026-10-21 |
-<a id="project-row-70"></a>[#70 ↘️](#project-detail-70) |  | [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot) | 让编码智能体收听、检查并制作声音的纯 CPU 开源工具 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +411 | 1,954 | Python | 2026-10-18 |
-<a id="project-row-71"></a>[#71 ↘️](#project-detail-71) |  | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills) | 符合nature论文学术表达和科研绘图的Skill | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +284 | 49,664 | Python | 2026-10-20 |
-<a id="project-row-72"></a>[#72 ↘️](#project-detail-72) |  | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | 可由人工或智能体自主运行的AI智能体审计工具，120秒内核查行为是否符合预期 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +562 | 30,678 | Python | 2026-10-16 |
-<a id="project-row-73"></a>[#73 ↘️](#project-detail-73) |  | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 通过 51 种电影风格提示词和纯代码样片制作短片的 Claude Code 技能 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +566 | 4,362 | JavaScript | 2026-10-19 |
-<a id="project-row-74"></a>[#74 ↘️](#project-detail-74) |  | [jub0t/Concat](https://github.com/jub0t/Concat) | 真正免费、开源、本地优先且跨平台的 CapCut 替代品，支持 JSON-RPC API 和 MCP 脚本化。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +485 | 9,972 | Rust | 2026-10-20 |
-<a id="project-row-75"></a>[#75 ↘️](#project-detail-75) |  | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 用 AI 智能体批量复刻热门视频的完整工作流 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +292 | 24,302 | TypeScript | 2026-10-19 |
-<a id="project-row-76"></a>[#76 ↘️](#project-detail-76) |  | [storytold/lightcraft](https://github.com/storytold/lightcraft) | 使用纯Rust从零编写的开源非破坏性照片编辑器。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +137 | 14,050 | Rust | 2026-10-20 |
-<a id="project-row-77"></a>[#77 ↘️](#project-detail-77) |  | [anthropics/skills](https://github.com/anthropics/skills) | Agent Skills 公共仓库。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +263 | 182,503 | Python | 2026-10-09 |
-<a id="project-row-78"></a>[#78 ↘️](#project-detail-78) |  | [garrytan/gstack](https://github.com/garrytan/gstack) | Garry Tan 的 Claude Code 配置，含覆盖产品开发多角色的 23 款工具。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +113 | 137,085 | TypeScript | 2026-10-21 |
-<a id="project-row-79"></a>[#79 ↘️](#project-detail-79) |  | [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) | 收录 Claude Opus 5.5 热门视频及其提示词，并展示原作与实时复刻 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +446 | 7,070 | 未知 | 2026-10-13 |
-<a id="project-row-80"></a>[#80 ↘️](#project-detail-80) |  | [tw93/Mole](https://github.com/tw93/Mole) | 快速开源的 Mac 与 PC 清理工具，提供命令行及原生桌面应用 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +336 | 71,875 | Shell | 2026-10-21 |
-<a id="project-row-81"></a>[#81 ↘️](#project-detail-81) |  | [github/spec-kit](https://github.com/github/spec-kit) | 帮助快速上手 SDD 或其他开发流程的工具包 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +182 | 142,155 | Python | 2026-10-20 |
-<a id="project-row-82"></a>[#82 ↘️](#project-detail-82) |  | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 让编程智能体直奔答案并提供 ADHD 友好输出的技能 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +185 | 58,036 | Python | 2026-10-19 |
-<a id="project-row-83"></a>[#83 ↘️](#project-detail-83) |  | [usestrix/strix](https://github.com/usestrix/strix) | 用于发现并修复应用漏洞的开源 AI 渗透测试工具 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +347 | 70,445 | Python | 2026-10-21 |
-<a id="project-row-84"></a>[#84 ↘️](#project-detail-84) |  | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 纯 C、零依赖的小型引擎，通过磁盘流式加载专家模型运行前沿 MoE。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +167 | 43,070 | C | 2026-10-21 |
-<a id="project-row-85"></a>[#85 ↘️](#project-detail-85) |  | [openai/codex](https://github.com/openai/codex) | 运行于终端的轻量级编程智能体。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +228 | 130,170 | Rust | 2026-10-21 |
-<a id="project-row-86"></a>[#86 ↘️](#project-detail-86) |  | [storytold/vectorcraft](https://github.com/storytold/vectorcraft) | 使用纯 Rust 从零开发的开源矢量绘图工具 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +158 | 10,192 | Rust | 2026-10-20 |
-<a id="project-row-87"></a>[#87 ↘️](#project-detail-87) |  | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 免费 API 汇总列表 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +351 | 490,882 | Python | 2026-10-19 |
-<a id="project-row-88"></a>[#88 ↘️](#project-detail-88) |  | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 将代码转为可探索、搜索和问答的交互式知识图谱。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +228 | 87,255 | TypeScript | 2026-10-12 |
-<a id="project-row-90"></a>[#90 ↘️](#project-detail-90) |  | [storytold/cadcraft](https://github.com/storytold/cadcraft) | 使用纯 Rust 净室开发的开源 AutoCAD 风格设计制图应用 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +176 | 6,173 | Rust | 2026-10-20 |
-<a id="project-row-92"></a>[#92 ↘️](#project-detail-92) |  | [lexmount/moli](https://github.com/lexmount/moli) | 面向 AI 智能体的轻量、快速、高兼容 Rust 无头浏览器 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +208 | 19,884 | Rust | 2026-10-21 |
-<a id="project-row-93"></a>[#93 ↘️](#project-detail-93) |  | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | 可自托管的 AI 工作空间。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +79 | 94,081 | Python | 2026-10-20 |
-<a id="project-row-94"></a>[#94 ↘️](#project-detail-94) |  | [ARahim3/DigUp](https://github.com/ARahim3/DigUp) | 基于 EmbeddingGemma 2 的跨平台本地文件内容搜索工具 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +189 | 5,243 | Swift | 2026-10-18 |
-<a id="project-row-95"></a>[#95 ↘️](#project-detail-95) |  | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 简洁通用、可用于预测各类事物的群体智能引擎。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +211 | 80,877 | Python | 2026-10-16 |
-<a id="project-row-96"></a>[#96 ↘️](#project-detail-96) |  | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 通过 AI 大模型和自动化工作流，根据主题或关键词生成高清短视频 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +262 | 133,437 | Python | 2026-10-20 |
-<a id="project-row-97"></a>[#97 ↘️](#project-detail-97) |  | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 适配兼容安卓车机的独立 CarPlay 接收器，支持有线与无线连接 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +144 | 11,824 | Kotlin | 2026-10-17 |
-<a id="project-row-98"></a>[#98 ↘️](#project-detail-98) |  | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | 为智能体编程 CLI 提供长期记忆，并支持不同智能体厂商间交接 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +557 | 11,922 | Rust | 2026-10-20 |
-<a id="project-row-99"></a>[#99 ↘️](#project-detail-99) |  | [cdyforever/how-to-live-better](https://github.com/cdyforever/how-to-live-better) | 《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +171 | 12,871 | HTML | 2026-10-15 |
-<a id="project-row-100"></a>[#100 ↘️](#project-detail-100) |  | [storytold/gridcraft](https://github.com/storytold/gridcraft) | 使用纯 Rust 净室开发的开源 Excel 风格电子表格 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +127 | 6,037 | Rust | 2026-10-20 |
+<a id="project-row-22"></a>[#22 ↘️](#project-detail-22) | 🟢 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | 面向 DeepSeek 模型的高性能大规模推理框架 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +5,403 | 17,905 | Python | 2026-10-21 |
+<a id="project-row-23"></a>[#23 ↘️](#project-detail-23) | 🟢 | [supabase/supabase](https://github.com/supabase/supabase) | 提供专属 Postgres 数据库，用于构建 Web、移动和 AI 应用 | Daily Trending | GitHub Daily Trending 第 7 名，页面公开 504 stars today | 113,010 | TypeScript | 2026-10-22 |
+<a id="project-row-24"></a>[#24 ↘️](#project-detail-24) | 🟢 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | 专为 AI 设计的 Salesforce 开源替代方案 | Daily Trending | GitHub Daily Trending 第 8 名，页面公开 112 stars today | 59,171 | TypeScript | 2026-10-22 |
+<a id="project-row-28"></a>[#28 ↘️](#project-detail-28) | 🟢 | [strelov1/freehire](https://github.com/strelov1/freehire) | 面向求职者的开源搜索引擎 | Daily Trending | GitHub Daily Trending 第 10 名，页面公开 360 stars today | 2,392 | Go | 2026-10-22 |
+<a id="project-row-31"></a>[#31 ↘️](#project-detail-31) | 🟢 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) | 面向国产电视、采用 tvOS 风格的无广告开源 Android TV 桌面 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +1,426 | 2,103 | Kotlin | 2026-10-21 |
+<a id="project-row-37"></a>[#37 ↘️](#project-detail-37) | 🟢 | [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) | 快速无广告的开源 Google TV 桌面，支持一键撤销 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +917 | 2,740 | Java | 2026-10-22 |
+<a id="project-row-67"></a>[#67 ↘️](#project-detail-67) | 🟢 | [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) | 用于充分利用 REA 逆向、克隆或拆解程序的提示词集 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +374 | 1,342 | 未知 | 2026-10-21 |
+<a id="project-row-94"></a>[#94 ↘️](#project-detail-94) | 🟢 | [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) | 在 Mac 刘海和 iPhone 上监控并审批多种 AI 编程智能体 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +281 | 5,929 | Swift | 2026-10-20 |
+<a id="project-row-1"></a>[#1 ↘️](#project-detail-1) |  | [stablyai/orca](https://github.com/stablyai/orca) | 集中管理多个智能体，支持自有订阅及桌面、移动和远程运行 | Daily Trending / Weekly Trending / 实际 1 日增长 | GitHub Daily Trending 第 3 名，页面公开 1,541 stars today；GitHub Weekly Trending 第 16 名，页面公开 8,705 stars this week；实际快照 1 日 Stars 增量 +1,524 | 101,281 | TypeScript | 2026-10-22 |
+<a id="project-row-2"></a>[#2 ↘️](#project-detail-2) |  | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | 为智能体编程 CLI 提供长期记忆，并支持不同智能体厂商间交接 | Daily Trending / Weekly Trending / 实际 1 日增长 | GitHub Daily Trending 第 11 名，页面公开 286 stars today；GitHub Weekly Trending 第 12 名，页面公开 2,833 stars this week；实际快照 1 日 Stars 增量 +414 | 12,336 | Rust | 2026-10-22 |
+<a id="project-row-3"></a>[#3 ↘️](#project-detail-3) |  | [morluto/rea](https://github.com/morluto/rea) | 借助智能体逆向分析一切，从应用行为深入到原生二进制文件。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 1 名，页面公开 129,417 stars this week；实际快照 1 日 Stars 增量 +9,733 | 357,891 | TypeScript | 2026-10-22 |
+<a id="project-row-4"></a>[#4 ↘️](#project-detail-4) |  | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 AI 智能体像懒惰的资深开发者一样思考，尽量少写代码。 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 5 名，页面公开 2,079 stars today；实际快照 1 日 Stars 增量 +1,960 | 171,655 | JavaScript | 2026-10-18 |
+<a id="project-row-5"></a>[#5 ↘️](#project-detail-5) |  | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 将代码、文档、数据库结构、配置和 PDF 转为可查询知识图谱。 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 12 名，页面公开 1,433 stars today；实际快照 1 日 Stars 增量 +1,395 | 131,653 | Python | 2026-10-21 |
+<a id="project-row-6"></a>[#6 ↘️](#project-detail-6) |  | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 面向编码智能体的多阶段安全审计技能，提供独立验证的机器可读结果 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 1 名，页面公开 2,012 stars today；实际快照 1 日 Stars 增量 +2,262 | 36,514 | JavaScript | 2026-09-14 |
+<a id="project-row-7"></a>[#7 ↘️](#project-detail-7) |  | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 在内容送达 LLM 前压缩工具输出、日志、文件和 RAG 分块的库、代理及 MCP 服务。 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 4 名，页面公开 474 stars today；实际快照 1 日 Stars 增量 +499 | 77,265 | Python | 2026-10-22 |
+<a id="project-row-8"></a>[#8 ↘️](#project-detail-8) |  | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 强大且模块化的扩散模型图形界面、API与后端，采用图形节点设计，提供快速本地推理。 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 6 名，页面公开 939 stars today；实际快照 1 日 Stars 增量 +748 | 141,529 | Python | 2026-10-22 |
+<a id="project-row-9"></a>[#9 ↘️](#project-detail-9) |  | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 全本地开源的 ElevenLabs 替代方案，支持克隆与设计语音、视频配音等，覆盖 646 种语言。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 7 名，页面公开 15,125 stars this week；实际快照 1 日 Stars 增量 +1,437 | 80,436 | Python | 2026-10-21 |
+<a id="project-row-10"></a>[#10 ↘️](#project-detail-10) |  | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 高吞吐、节省内存的大语言模型推理与服务引擎 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 2 名，页面公开 441 stars today；实际快照 1 日 Stars 增量 +438 | 94,879 | Python | 2026-10-22 |
+<a id="project-row-11"></a>[#11 ↘️](#project-detail-11) |  | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | 面向金融市场语言的基础模型 | Daily Trending / 实际 1 日增长 | GitHub Daily Trending 第 9 名，页面公开 575 stars today；实际快照 1 日 Stars 增量 +473 | 42,830 | Python | 2026-04-13 |
+<a id="project-row-12"></a>[#12 ↘️](#project-detail-12) |  | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 开源编程智能体。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 13 名，页面公开 6,545 stars this week；实际快照 1 日 Stars 增量 +752 | 219,691 | TypeScript | 2026-10-22 |
+<a id="project-row-13"></a>[#13 ↘️](#project-detail-13) |  | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 面向智能体，通过编写 HTML 渲染视频。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 9 名，页面公开 5,740 stars this week；实际快照 1 日 Stars 增量 +705 | 69,221 | TypeScript | 2026-10-21 |
+<a id="project-row-14"></a>[#14 ↘️](#project-detail-14) |  | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 智能体运行框架，支持多智能体集群、自主工作流、记忆、RAG及多模型集成 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 4 名，页面公开 3,590 stars this week；实际快照 1 日 Stars 增量 +366 | 78,218 | TypeScript | 2026-10-21 |
+<a id="project-row-15"></a>[#15 ↘️](#project-detail-15) |  | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 面向多种智能体的科学技能库，提供177项技能及百余个科学数据库。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 3 名，页面公开 4,719 stars this week；实际快照 1 日 Stars 增量 +313 | 53,583 | Python | 2026-10-19 |
+<a id="project-row-16"></a>[#16 ↘️](#project-detail-16) |  | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 由 Anthropic 官方管理的高质量 Claude Code 插件目录。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 2 名，页面公开 5,703 stars this week；实际快照 1 日 Stars 增量 +224 | 43,643 | Python | 2026-10-22 |
+<a id="project-row-17"></a>[#17 ↘️](#project-detail-17) |  | [mksglu/context-mode](https://github.com/mksglu/context-mode) | 为 AI 编码智能体优化上下文窗口，隔离工具输出、保留会话记忆并统一路由 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 8 名，页面公开 2,968 stars this week；实际快照 1 日 Stars 增量 +291 | 31,657 | TypeScript | 2026-10-22 |
+<a id="project-row-18"></a>[#18 ↘️](#project-detail-18) |  | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | 一款软件逆向工程（SRE）框架。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 6 名，页面公开 5,769 stars this week；实际快照 1 日 Stars 增量 +485 | 92,645 | Java | 2026-10-20 |
+<a id="project-row-19"></a>[#19 ↘️](#project-detail-19) |  | [wshobson/agents](https://github.com/wshobson/agents) | 适配 Claude Code、Codex、Cursor 等编码工具的插件、智能体、技能与命令集合 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 14 名，页面公开 785 stars this week；实际快照 1 日 Stars 增量 +221 | 41,479 | Python | 2026-10-19 |
+<a id="project-row-20"></a>[#20 ↘️](#project-detail-20) |  | [cursor/plugins](https://github.com/cursor/plugins) | Cursor 插件规范及官方插件合集。 | Weekly Trending / 实际 1 日增长 | GitHub Weekly Trending 第 10 名，页面公开 2,049 stars this week；实际快照 1 日 Stars 增量 +154 | 13,403 | TypeScript | 2026-10-22 |
+<a id="project-row-21"></a>[#21 ↘️](#project-detail-21) |  | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 通过 Wi-Fi 精简 Android 与 Google TV，并换用 Apple TV 风格首页 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +7,323 | 19,265 | Java | 2026-10-22 |
+<a id="project-row-25"></a>[#25 ↘️](#project-detail-25) |  | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 一切皆插件的 DeepSeek 工具框架 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +1,174 | 256,998 | TypeScript | 2026-10-17 |
+<a id="project-row-26"></a>[#26 ↘️](#project-detail-26) |  | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 为dsh提供免登录、免API Key且不限量的免费前沿模型插件。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +2,999 | 33,896 | JavaScript | 2026-10-21 |
+<a id="project-row-27"></a>[#27 ↘️](#project-detail-27) |  | [storytold/photocraft](https://github.com/storytold/photocraft) | 使用纯Rust从零编写的开源照片编辑器。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +966 | 70,647 | Rust | 2026-10-22 |
+<a id="project-row-29"></a>[#29 ↘️](#project-detail-29) |  | [mattpocock/skills](https://github.com/mattpocock/skills) | 源自作者个人 .agents 目录的实用工程技能集。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +1,191 | 299,883 | Shell | 2026-10-21 |
+<a id="project-row-30"></a>[#30 ↘️](#project-detail-30) |  | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 让各类软件原生支持智能体操作的 CLI 工具。 | Weekly Trending | GitHub Weekly Trending 第 11 名，页面公开 3,681 stars this week | 55,936 | Python | 2026-09-22 |
+<a id="project-row-32"></a>[#32 ↘️](#project-detail-32) |  | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 面向多种编码智能体的性能优化系统，涵盖技能、记忆、安全与研究。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +815 | 285,738 | JavaScript | 2026-10-20 |
+<a id="project-row-33"></a>[#33 ↘️](#project-detail-33) |  | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 创建真实机器及复杂系统交互式等距插图的智能体技能。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +952 | 18,546 | JavaScript | 2026-10-18 |
+<a id="project-row-34"></a>[#34 ↘️](#project-detail-34) |  | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | 为智能体赋予CAD设计能力。 | Weekly Trending | GitHub Weekly Trending 第 15 名，页面公开 2,000 stars this week | 22,288 | Python | 2026-10-21 |
+<a id="project-row-35"></a>[#35 ↘️](#project-detail-35) |  | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +524 | 67,608 | HTML | 2026-10-21 |
+<a id="project-row-36"></a>[#36 ↘️](#project-detail-36) |  | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 在消费级硬件运行Qwen3.8-Flash-Next的一键式推理引擎。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +722 | 29,950 | C++ | 2026-10-21 |
+<a id="project-row-38"></a>[#38 ↘️](#project-detail-38) |  | [obra/superpowers](https://github.com/obra/superpowers) | 实用的智能体技能框架与软件开发方法论。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +557 | 303,169 | Shell | 2026-10-21 |
+<a id="project-row-39"></a>[#39 ↘️](#project-detail-39) |  | [yetone/magpie](https://github.com/yetone/magpie) | 从菜单栏统一为各类智能体切换和使用不同模型。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +831 | 18,797 | Go | 2026-10-21 |
+<a id="project-row-40"></a>[#40 ↘️](#project-detail-40) |  | [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 将PS5可执行文件自动移植到Linux和Windows的工具。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +828 | 46,376 | C++ | 2026-10-21 |
+<a id="project-row-41"></a>[#41 ↘️](#project-detail-41) |  | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 可离线拖放转换 255 种格式的免费开源文件转换器 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +1,103 | 9,133 | C# | 2026-10-21 |
+<a id="project-row-42"></a>[#42 ↘️](#project-detail-42) |  | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 以艺术指导、参考图和浏览器检查提升编程智能体的设计品味 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +709 | 100,582 | JavaScript | 2026-10-20 |
+<a id="project-row-43"></a>[#43 ↘️](#project-detail-43) |  | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 将想法、计划或代码库转为精美交互图，适用于 Claude Code、Codex 等 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +617 | 87,080 | JavaScript | 2026-10-21 |
+<a id="project-row-44"></a>[#44 ↘️](#project-detail-44) |  | [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 纯 Rust 构建的开源参数化 3D CAD，支持桌面端、网页端和 MCP 自动化 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +605 | 8,896 | Rust | 2026-10-22 |
+<a id="project-row-45"></a>[#45 ↘️](#project-detail-45) |  | [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) | 收录 Claude Opus 5.5 热门视频及其提示词，并展示原作与实时复刻 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +1,443 | 8,513 | 未知 | 2026-10-13 |
+<a id="project-row-46"></a>[#46 ↘️](#project-detail-46) |  | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 汇集多领域专业智能体及成熟流程与交付成果的 AI 团队。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +589 | 162,950 | Shell | 2026-10-19 |
+<a id="project-row-47"></a>[#47 ↘️](#project-detail-47) |  | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 为多平台专业 UI/UX 构建提供设计智能的 AI 技能 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +492 | 138,503 | Python | 2026-10-21 |
+<a id="project-row-48"></a>[#48 ↘️](#project-detail-48) |  | [storytold/wordcraft](https://github.com/storytold/wordcraft) | 使用纯Rust洁净室方式重写的开源Microsoft Word实现。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +280 | 15,350 | Rust | 2026-10-22 |
+<a id="project-row-49"></a>[#49 ↘️](#project-detail-49) |  | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 能够与你共同成长的智能体。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +337 | 255,933 | Python | 2026-10-22 |
+<a id="project-row-50"></a>[#50 ↘️](#project-detail-50) |  | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 用于管理工作智能体的开源应用。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +434 | 105,688 | TypeScript | 2026-10-22 |
+<a id="project-row-51"></a>[#51 ↘️](#project-detail-51) |  | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 使用纯Rust从零编写的开源PDF阅读与编辑器。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +329 | 16,989 | Rust | 2026-10-22 |
+<a id="project-row-52"></a>[#52 ↘️](#project-detail-52) |  | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 本地运行的开源 AI 求职助手，支持职位评分、材料定制、面试准备与申请跟踪 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +493 | 76,410 | JavaScript | 2026-10-21 |
+<a id="project-row-53"></a>[#53 ↘️](#project-detail-53) |  | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 开源、本地优先的协作式 AI 设计工作空间，可与团队和 AI 智能体共同创作并迭代多种内容。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +282 | 103,100 | TypeScript | 2026-10-22 |
+<a id="project-row-54"></a>[#54 ↘️](#project-detail-54) |  | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 用 AI 将文档或主题生成含原生元素、图表及动画的 PowerPoint 演示文稿 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +739 | 65,238 | Python | 2026-10-21 |
+<a id="project-row-55"></a>[#55 ↘️](#project-detail-55) |  | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 将 SteamOS 体验带到 Android 设备 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +452 | 12,263 | Kotlin | 2026-10-22 |
+<a id="project-row-56"></a>[#56 ↘️](#project-detail-56) |  | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 提升 AI 工具设计能力的设计语言。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +603 | 84,455 | Rust | 2026-10-22 |
+<a id="project-row-57"></a>[#57 ↘️](#project-detail-57) |  | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 通过穴居人式精简表达，为编程智能体减少65%的令牌消耗。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +274 | 114,139 | Go | 2026-10-21 |
+<a id="project-row-58"></a>[#58 ↘️](#project-detail-58) |  | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 面向多款编程智能体的跨平台一体化桌面助手，官网为 ccswitch.io。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +421 | 147,237 | Rust | 2026-10-21 |
+<a id="project-row-59"></a>[#59 ↘️](#project-detail-59) |  | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | 可由人工或智能体自主运行的AI智能体审计工具，120秒内核查行为是否符合预期 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +841 | 31,519 | Python | 2026-10-21 |
+<a id="project-row-60"></a>[#60 ↘️](#project-detail-60) |  | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 让 AI 智能体通过一个 CLI 免费读取和搜索多个主流互联网平台 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +355 | 100,658 | Python | 2026-10-20 |
+<a id="project-row-61"></a>[#61 ↘️](#project-detail-61) |  | [storytold/filmcraft](https://github.com/storytold/filmcraft) | 使用纯Rust从零编写的开源非线性视频编辑器。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +238 | 15,565 | Rust | 2026-10-21 |
+<a id="project-row-62"></a>[#62 ↘️](#project-detail-62) |  | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | 基于真实数据，在写实三维地球上呈现实时开源空间情报 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +275 | 58,814 | JavaScript | 2026-10-21 |
+<a id="project-row-63"></a>[#63 ↘️](#project-detail-63) |  | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 单次前向传播即可处理百余种语言文本决策的非自回归System 1引擎。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +152 | 33,861 | Python | 2026-10-21 |
+<a id="project-row-64"></a>[#64 ↘️](#project-detail-64) |  | [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中、高中），课标对齐、人教版，1503 知识点、6159 题、自适应诊断 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +373 | 1,964 | Python | 2026-10-21 |
+<a id="project-row-65"></a>[#65 ↘️](#project-detail-65) |  | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 以网页及更多来源的数据增强 AI 智能体的工具库 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +447 | 193,945 | TypeScript | 2026-10-22 |
+<a id="project-row-66"></a>[#66 ↘️](#project-detail-66) |  | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 通过学习、构建与发布项目掌握 AI 工程 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +312 | 72,107 | Python | 2026-10-21 |
+<a id="project-row-68"></a>[#68 ↘️](#project-detail-68) |  | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 面向 AI 编码智能体的生产级工程技能集。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +342 | 109,335 | JavaScript | 2026-10-13 |
+<a id="project-row-69"></a>[#69 ↘️](#project-detail-69) |  | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 将代码转为可探索、搜索和问答的交互式知识图谱。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +240 | 87,495 | TypeScript | 2026-10-21 |
+<a id="project-row-70"></a>[#70 ↘️](#project-detail-70) |  | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 热门品牌设计系统的 DESIGN.md 分析合集，可辅助智能体生成匹配界面。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +228 | 122,755 | 未知 | 2026-10-14 |
+<a id="project-row-71"></a>[#71 ↘️](#project-detail-71) |  | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +212 | 32,209 | TypeScript | 2026-10-21 |
+<a id="project-row-72"></a>[#72 ↘️](#project-detail-72) |  | [jub0t/Concat](https://github.com/jub0t/Concat) | 真正免费、开源、本地优先且跨平台的 CapCut 替代品，支持 JSON-RPC API 和 MCP 脚本化。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +548 | 10,520 | Rust | 2026-10-21 |
+<a id="project-row-73"></a>[#73 ↘️](#project-detail-73) |  | [storytold/lightcraft](https://github.com/storytold/lightcraft) | 使用纯Rust从零编写的开源非破坏性照片编辑器。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +165 | 14,215 | Rust | 2026-10-21 |
+<a id="project-row-74"></a>[#74 ↘️](#project-detail-74) |  | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 用 AI 智能体批量复刻热门视频的完整工作流 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +351 | 24,653 | TypeScript | 2026-10-19 |
+<a id="project-row-75"></a>[#75 ↘️](#project-detail-75) |  | [HeyPuter/everything](https://github.com/HeyPuter/everything) | 从零重建并开源全球各类软件 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +293 | 3,460 | JavaScript | 2026-10-21 |
+<a id="project-row-76"></a>[#76 ↘️](#project-detail-76) |  | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 提供 12 条流程、百余工具及丰富技能知识的开源智能体视频制作系统。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +298 | 70,613 | Python | 2026-10-16 |
+<a id="project-row-77"></a>[#77 ↘️](#project-detail-77) |  | [garrytan/gstack](https://github.com/garrytan/gstack) | Garry Tan 的 Claude Code 配置，含覆盖产品开发多角色的 23 款工具。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +122 | 137,207 | TypeScript | 2026-10-22 |
+<a id="project-row-78"></a>[#78 ↘️](#project-detail-78) |  | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 通过 51 种电影风格提示词和纯代码样片制作短片的 Claude Code 技能 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +557 | 4,919 | JavaScript | 2026-10-19 |
+<a id="project-row-79"></a>[#79 ↘️](#project-detail-79) |  | [earendil-works/pi](https://github.com/earendil-works/pi) | 集统一 LLM API、智能体循环、TUI 和编程 CLI 于一体的工具包。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +252 | 116,965 | TypeScript | 2026-10-21 |
+<a id="project-row-80"></a>[#80 ↘️](#project-detail-80) |  | [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | DeepSeek Harness 的桌面版。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +348 | 15,911 | JavaScript | 2026-10-21 |
+<a id="project-row-81"></a>[#81 ↘️](#project-detail-81) |  | [anthropics/skills](https://github.com/anthropics/skills) | Agent Skills 公共仓库。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +270 | 182,773 | Python | 2026-10-09 |
+<a id="project-row-82"></a>[#82 ↘️](#project-detail-82) |  | [tw93/Mole](https://github.com/tw93/Mole) | 快速开源的 Mac 与 PC 清理工具，提供命令行及原生桌面应用 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +329 | 72,204 | Shell | 2026-10-21 |
+<a id="project-row-83"></a>[#83 ↘️](#project-detail-83) |  | [usestrix/strix](https://github.com/usestrix/strix) | 用于发现并修复应用漏洞的开源 AI 渗透测试工具 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +371 | 70,816 | Python | 2026-10-22 |
+<a id="project-row-84"></a>[#84 ↘️](#project-detail-84) |  | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 纯 C、零依赖的小型引擎，通过磁盘流式加载专家模型运行前沿 MoE。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +167 | 43,237 | C | 2026-10-21 |
+<a id="project-row-85"></a>[#85 ↘️](#project-detail-85) |  | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 结合确定性流水线与 LLM 智能体的多语言代码审查工具 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +211 | 47,944 | Go | 2026-10-20 |
+<a id="project-row-86"></a>[#86 ↘️](#project-detail-86) |  | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 通过 AI 大模型和自动化工作流，根据主题或关键词生成高清短视频 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +351 | 133,788 | Python | 2026-10-21 |
+<a id="project-row-87"></a>[#87 ↘️](#project-detail-87) |  | [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils) | 免费开源的 macOS 菜单栏工具集 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +278 | 28,807 | Swift | 2026-10-21 |
+<a id="project-row-88"></a>[#88 ↘️](#project-detail-88) |  | [github/spec-kit](https://github.com/github/spec-kit) | 帮助快速上手 SDD 或其他开发流程的工具包 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +158 | 142,313 | Python | 2026-10-21 |
+<a id="project-row-89"></a>[#89 ↘️](#project-detail-89) |  | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 将文件和办公文档转换为 Markdown 的 Python 工具。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +171 | 191,488 | Python | 2026-10-21 |
+<a id="project-row-90"></a>[#90 ↘️](#project-detail-90) |  | [storytold/vectorcraft](https://github.com/storytold/vectorcraft) | 使用纯 Rust 从零开发的开源矢量绘图工具 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +144 | 10,336 | Rust | 2026-10-22 |
+<a id="project-row-91"></a>[#91 ↘️](#project-detail-91) |  | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 整合 AI 新闻聚合、地缘政治监测与基础设施追踪的实时全球情报看板。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +159 | 89,099 | TypeScript | 2026-10-22 |
+<a id="project-row-92"></a>[#92 ↘️](#project-detail-92) |  | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | 可自托管的 AI 工作空间。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +84 | 94,165 | Python | 2026-10-20 |
+<a id="project-row-93"></a>[#93 ↘️](#project-detail-93) |  | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 记录并压缩智能体会话，将相关上下文注入后续会话的持久记忆工具。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +189 | 102,156 | TypeScript | 2026-10-21 |
+<a id="project-row-95"></a>[#95 ↘️](#project-detail-95) |  | [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay) | 适配兼容安卓车机的独立 CarPlay 接收器，支持有线与无线连接 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +145 | 11,969 | Kotlin | 2026-10-21 |
+<a id="project-row-96"></a>[#96 ↘️](#project-detail-96) |  | [storytold/cadcraft](https://github.com/storytold/cadcraft) | 使用纯 Rust 净室开发的开源 AutoCAD 风格设计制图应用 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +154 | 6,327 | Rust | 2026-10-22 |
+<a id="project-row-97"></a>[#97 ↘️](#project-detail-97) |  | [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT) | 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +170 | 8,359 | TypeScript | 2026-10-21 |
+<a id="project-row-98"></a>[#98 ↘️](#project-detail-98) |  | [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 让自有Switch版《暗黑破坏神II：狱火重生》原生运行于苹果设备的兼容层。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +144 | 4,312 | C | 2026-10-22 |
+<a id="project-row-99"></a>[#99 ↘️](#project-detail-99) |  | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 免费 API 汇总列表 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +251 | 491,133 | Python | 2026-10-21 |
+<a id="project-row-100"></a>[#100 ↘️](#project-detail-100) |  | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 自托管健身与体重追踪器，支持计划、训练记录、肌肉状态及数据导入。 | 实际 1 日增长 | 实际快照 1 日 Stars 增量 +318 | 14,479 | JavaScript | 2026-10-21 |
 
 ## 项目详情
 
 <a id="project-detail-1"></a>
-### 1. [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
+### 1. [stablyai/orca](https://github.com/stablyai/orca)
 
 [↖️ 返回表格中的 #1](#project-row-1)
 
 #### 中文分析
 
-求职资料和申请流程都留在自己的机器上，由 Claude Code 按一套可重复执行的工作流完成匹配评估、材料改写与面试准备。首次运行 /setup 时，可以让它读取 documents/ 中已有的简历、LinkedIn 导出、学历和推荐信，也可以粘贴一份简历或通过访谈逐步建立个人档案；资料增加后还能安全地重复执行。随后 /scrape 从多个职位门户检索并去重，结果过多时用 /rank 按匹配框架批量评分，再从候选职位进入 /apply。申请环节会评估契合度、起草定制 CV 与求职信、交给第二个智能体复核并修订，最终生成可提交材料；遇到阻止自动抓取的网站也可直接粘贴职位描述。门户搜索技能目前偏丹麦市场，但可替换成本地招聘网站，个人画像、评估及撰写管线本身不受语言和国家限制。由于个人信息会写入受版本控制的文件，个人求职副本应放进以原仓库为 upstream 的私有仓库，而不是公开 fork。
+Orca 把多个编码智能体的终端、代码改动与任务上下文集中在一个工作区里：Codex、ClaudeCode、OpenCode 或 Pi 可以并排运行，每个实例占用独立 git worktree，用户能把同一提示同时交给五个智能体，比较结果后合并胜出版本。Terminal Splits 提供 WebGL 渲染、无限拆分和重启后仍保留的回滚记录；Annotate AI Diffs 允许直接在差异行上留言，再把反馈发回智能体，随后完成编辑与提交。处理界面问题时，Design Mode 可在真实 Chromium 窗口中点选元素，将对应 HTML、CSS 和裁剪截图送入提示词。GitHub & Linear 任务、PR 和项目看板也能在应用内浏览，并可从任务直接创建工作树。计算密集型工作可交给 SSH Worktrees，在远端保留文件编辑、git、终端、自动重连与端口转发；Mobile Companion 则用于手机端查看进度、接收完成通知和发送后续指令。任何能在终端运行的 CLI agent 都可接入，Orca CLI 还提供 orca worktree create、snapshot、click 和 fill 等可脚本化操作。
 
 #### 项目概况
 
-- **仓库**：[MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
-- **Stars**：60,624
-- **主要语言**：Python
-- **Topics**：ai、ai-agents、career、claude-code、cover-letter、cv、interview-preparation、job-application、job-hunting、job-search、latex、resume
+- **仓库**：[stablyai/orca](https://github.com/stablyai/orca)
+- **Stars**：101,281
+- **主要语言**：TypeScript
+- **Topics**：ade、agent-ide、ai-agents、automation、bot、claude-code、codex、ghostty、grok-bot、hermes-agent、mobile-app、muse、openclaw、opencode、orchestration、pi、runtime、terminal、worktrees、yc-backed
 - **许可证**：MIT
-- **最近推送**：2026-10-20T19:02:25Z
+- **最近推送**：2026-10-22T01:05:33Z
 
 #### 热度与增长证据
 
-- GitHub Daily Trending 第 1 名，页面公开 3,861 stars today
-- GitHub Weekly Trending 第 2 名，页面公开 12,848 stars this week
-- 实际快照 1 日 Stars 增量 +3,278
+- GitHub Daily Trending 第 3 名，页面公开 1,541 stars today
+- GitHub Weekly Trending 第 16 名，页面公开 8,705 stars this week
+- 实际快照 1 日 Stars 增量 +1,524
 
 ---
 
 <a id="project-detail-2"></a>
-### 2. [ruvnet/ruflo](https://github.com/ruvnet/ruflo)
+### 2. [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
 
 [↖️ 返回表格中的 #2](#project-row-2)
 
 #### 中文分析
 
-Ruflo 将 Agent = Model + Harness 具体化为包裹在 Claude Code、Codex 等模型外的执行层：模型负责写作与编码，Harness 提供工具、memory、循环、sandbox 和控制机制。其概念链路是 User → Ruflo (CLI/MCP) → Router → Swarm → Agents → Memory → LLM providers，Memory 再把有用经验反馈给路由，使多个专用智能体能够协同而非彼此孤立运行。在 Claude Code 中可安装 core、console 和 mods；其他支持 MCP 的客户端则可运行项目设置向导，并把 npx 与参数 ["-y", "ruflo@latest", "mcp", "start"] 配置为本地 stdio server。完成 npx ruflo init 后，用户仍可像平常一样使用 Claude Code，由 hooks 在后台路由任务、协调 swarm 并从成功模式学习。独立的 npx ruflo tui 会展示 Overview、Cost、Swarm、Events 和 Missions。可视化控制台还能查看日志与结果、搜索失败、回放和比较运行；Claude control 按 read、write、manage 或 full 划定权限，并搭配 ask 或 auto 审批，网络、付费和破坏性动作即使在 auto 下仍须确认，Take back control 可立即收回控制。
+在 Claude Code 中途退出，再到同一目录启动 Codex，ai memory 会把架构背景、失败尝试和未决问题交给下一位智能体，不必重新口述上下文。二十多种 harness 会汇入同一份共享记忆，跨项目的个人工作习惯也能在新仓库启动时作为默认背景加载；通过 ai memory run codex 启动时，还可为接手方生成 Claude 可见原生历史的临时本地投影，而远端服务器只接收 harness 与 session identity，不接收本地转录路径或正文。交接采用带 owner 且只能被领取一次的 typed protocol，项目知识可供团队共享，个人 handoffs 仍保持私有。存储层以 git backed wiki 中的普通 .md 文件为事实来源，可用 grep、Obsidian 或 rsync 直接处理，数据库只是能够重建的派生索引。生命周期 hooks 会捕获提示、工具调用和会话边界，先经过类型化隐私边界清洗，再整理成可读页面；默认的捕获、搜索与交接不调用 LLM。冷记忆可按访问频率衰减并压缩为文件路径、错误码和决策等持久事实，近似内容会合并、潜在矛盾会标记，原版本始终保留在 git 中；可选的 dream 模式才会调用 LLM，在空闲时重写成组的冷笔记。
 
 #### 项目概况
 
-- **仓库**：[ruvnet/ruflo](https://github.com/ruvnet/ruflo)
-- **Stars**：77,852
-- **主要语言**：TypeScript
-- **Topics**：agentic-ai、agentic-framework、agentic-workflow、agents、ai-agents、ai-assistant、ai-skills、autonomous-agents、claude、codex、dsh-plugin、harness、mcp-server、multi-agent、multi-agent-systems、npm、skills、swarm、swarm-intelligence、typescript
+- **仓库**：[akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
+- **Stars**：12,336
+- **主要语言**：Rust
+- **Topics**：未标注
 - **许可证**：MIT
-- **最近推送**：2026-10-21T01:08:18Z
+- **最近推送**：2026-10-22T00:07:11Z
 
 #### 热度与增长证据
 
-- GitHub Daily Trending 第 6 名，页面公开 684 stars today
-- GitHub Weekly Trending 第 9 名，页面公开 3,143 stars this week
-- 实际快照 1 日 Stars 增量 +649
+- GitHub Daily Trending 第 11 名，页面公开 286 stars today
+- GitHub Weekly Trending 第 12 名，页面公开 2,833 stars this week
+- 实际快照 1 日 Stars 增量 +414
 
 ---
 
@@ -174,21 +174,21 @@ Ruflo 将 Agent = Model + Harness 具体化为包裹在 Claude Code、Codex 等�
 
 #### 中文分析
 
-看见应用里值得研究的功能后，可以让 REA 在没有源代码的情况下追踪它的实现，并把结论、证据和局限一起返回。README 先给出 npx rea-agents setup：选择要接入的智能体，检查并批准配置变更，安装 MCP server 与配套工作流指令，备份原配置后重启客户端。原生二进制分析可复用 Hopper、Ghidra 或 IDA，JavaScript 与 Electron 静态分析不依赖这些原生引擎；命令行的 analyze-javascript-application 则能检查解包目录或 ASAR，返回模块、导入关系与 Electron 边界的证据。智能体通过 MCP 继续追问、追踪相关代码，再解释行为或编写并测试自己的实现，CLI 使用相同工作流。可检查对象还延伸到 .NET assemblies、Go 编译信息、GGUF 与 safetensors 元数据、Godot PCK 和 SQLite。不同对象需要的工具与主机支持分别列在表格中，不把一次静态扫描当作所有运行行为的完整证明。
+看到应用里值得借鉴的功能后，可以让智能体通过 REA 在没有源代码的情况下追踪其实现，并把结论、证据与分析局限一起返回。它以 MCP 连接智能体，覆盖 native binaries、JavaScript 和 Electron 应用、.NET assemblies、网站及运行时行为；终端命令复用同一套工作流。安装 Node.js 和 npm 后运行 npx rea agents setup，选择 Claude Code、Codex、Cursor、Gemini CLI 等智能体，审阅配置变更并重启，现有配置会被备份。原生分析可调用 Hopper、Ghidra 或 IDA，静态 JavaScript 分析则不依赖这些引擎。它还能读取 Go 编译信息、GPU code objects、GGUF 与 safetensors 元数据、IL2CPP metadata、Godot PCK、Rust 依赖和 WASM 结构。REA 的辨识度不只在于反编译范围广，更在于把“发现目标—定位相关代码—展示依据—继续追问或编写并测试复现实现”串成智能体可反复推进的调查过程。
 
 #### 项目概况
 
 - **仓库**：[morluto/rea](https://github.com/morluto/rea)
-- **Stars**：348,158
+- **Stars**：357,891
 - **主要语言**：TypeScript
 - **Topics**：agent-skills、ai-agents、binary-analysis、claude-code、cli、codex、cordis、decompiler、developer-tools、dsh、dsh-plugin、ghidra、hopper、llm、mcp、model-context-protocol、rea、reverse-engineering、static-analysis、touhou
 - **许可证**：MIT
-- **最近推送**：2026-10-21T00:19:03Z
+- **最近推送**：2026-10-22T01:03:59Z
 
 #### 热度与增长证据
 
-- GitHub Weekly Trending 第 1 名，页面公开 157,631 stars this week
-- 实际快照 1 日 Stars 增量 +11,103
+- GitHub Weekly Trending 第 1 名，页面公开 129,417 stars this week
+- 实际快照 1 日 Stars 增量 +9,733
 
 ---
 
@@ -204,7 +204,7 @@ Ponytail 把“先读懂现有代码，再只写任务真正需要的部分”�
 #### 项目概况
 
 - **仓库**：[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
-- **Stars**：169,695
+- **Stars**：171,655
 - **主要语言**：JavaScript
 - **Topics**：agent-skills、ai-agents、claude、claude-code、claude-code-plugin、cursor-rules、developer-tools、llm、prompt-engineering、yagni
 - **许可证**：MIT
@@ -212,40 +212,15 @@ Ponytail 把“先读懂现有代码，再只写任务真正需要的部分”�
 
 #### 热度与增长证据
 
-- GitHub Daily Trending 第 4 名，页面公开 1,208 stars today
-- 实际快照 1 日 Stars 增量 +1,570
+- GitHub Daily Trending 第 5 名，页面公开 2,079 stars today
+- 实际快照 1 日 Stars 增量 +1,960
 
 ---
 
 <a id="project-detail-5"></a>
-### 5. [stablyai/orca](https://github.com/stablyai/orca)
+### 5. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
 
 [↖️ 返回表格中的 #5](#project-row-5)
-
-#### 中文分析
-
-Orca 把多个编码智能体的终端、代码改动与任务上下文集中在一个工作区里：Codex、ClaudeCode、OpenCode 或 Pi 可以并排运行，每个实例占用独立 git worktree，用户能把同一提示同时交给五个智能体，比较结果后合并胜出版本。Terminal Splits 提供 WebGL 渲染、无限拆分和重启后仍保留的回滚记录；Annotate AI Diffs 允许直接在差异行上留言，再把反馈发回智能体，随后完成编辑与提交。处理界面问题时，Design Mode 可在真实 Chromium 窗口中点选元素，将对应 HTML、CSS 和裁剪截图送入提示词。GitHub & Linear 任务、PR 和项目看板也能在应用内浏览，并可从任务直接创建工作树。计算密集型工作可交给 SSH Worktrees，在远端保留文件编辑、git、终端、自动重连与端口转发；Mobile Companion 则用于手机端查看进度、接收完成通知和发送后续指令。任何能在终端运行的 CLI agent 都可接入，Orca CLI 还提供 orca worktree create、snapshot、click 和 fill 等可脚本化操作。
-
-#### 项目概况
-
-- **仓库**：[stablyai/orca](https://github.com/stablyai/orca)
-- **Stars**：99,757
-- **主要语言**：TypeScript
-- **Topics**：ade、agent-ide、ai-agents、automation、bot、claude-code、codex、ghostty、grok-bot、hermes-agent、mobile-app、muse、openclaw、opencode、orchestration、pi、runtime、terminal、worktrees、yc-backed
-- **许可证**：MIT
-- **最近推送**：2026-10-21T01:08:48Z
-
-#### 热度与增长证据
-
-- GitHub Daily Trending 第 3 名，页面公开 1,565 stars today
-- 实际快照 1 日 Stars 增量 +1,446
-
----
-
-<a id="project-detail-6"></a>
-### 6. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
-
-[↖️ 返回表格中的 #6](#project-row-6)
 
 #### 中文分析
 
@@ -254,48 +229,23 @@ Orca 把多个编码智能体的终端、代码改动与任务上下文集中在
 #### 项目概况
 
 - **仓库**：[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
-- **Stars**：130,258
+- **Stars**：131,653
 - **主要语言**：Python
 - **Topics**：ai-agents、antigravity、ast、claude-code、code-analysis、code-search、codex、cursor、developer-tools、gemini、graphify、graphrag、knowledge-graph、leiden、llm、mcp、openclaw、rag、skills、tree-sitter
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T16:16:19Z
+- **最近推送**：2026-10-21T15:23:36Z
 
 #### 热度与增长证据
 
-- GitHub Daily Trending 第 7 名，页面公开 802 stars today
-- 实际快照 1 日 Stars 增量 +1,074
+- GitHub Daily Trending 第 12 名，页面公开 1,433 stars today
+- 实际快照 1 日 Stars 增量 +1,395
 
 ---
 
-<a id="project-detail-7"></a>
-### 7. [anomalyco/opencode](https://github.com/anomalyco/opencode)
+<a id="project-detail-6"></a>
+### 6. [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
 
-[↖️ 返回表格中的 #7](#project-row-7)
-
-#### 中文分析
-
-OpenCode 是可在终端或桌面应用中运行的开源 AI 编程智能体，安装脚本先采用用户指定或符合 XDG 约定的目录，再尝试用户主目录下的 bin，最后回退到 .opencode/bin 来放置二进制文件，也提供 macOS、Windows、Linux 的桌面安装包。启动后可用 Tab 在两个内置代理间切换：build 拥有完整开发权限，适合直接修改项目；plan 只读分析代码，默认拒绝文件编辑并在执行 bash 前询问权限，适合熟悉陌生代码库或先规划改动。复杂搜索和多步骤任务由内置的 @general 子代理处理。README 还把配置文档、贡献指南和社区入口作为后续使用路径，并提醒名为 opencode 的相关项目需声明与官方团队无关。
-
-#### 项目概况
-
-- **仓库**：[anomalyco/opencode](https://github.com/anomalyco/opencode)
-- **Stars**：218,939
-- **主要语言**：TypeScript
-- **Topics**：未标注
-- **许可证**：MIT
-- **最近推送**：2026-10-21T01:08:03Z
-
-#### 热度与增长证据
-
-- GitHub Daily Trending 第 8 名，页面公开 1,240 stars today
-- 实际快照 1 日 Stars 增量 +1,109
-
----
-
-<a id="project-detail-8"></a>
-### 8. [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
-
-[↖️ 返回表格中的 #8](#project-row-8)
+[↖️ 返回表格中的 #6](#project-row-6)
 
 #### 中文分析
 
@@ -304,7 +254,7 @@ OpenCode 是可在终端或桌面应用中运行的开源 AI 编程智能体，�
 #### 项目概况
 
 - **仓库**：[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
-- **Stars**：34,252
+- **Stars**：36,514
 - **主要语言**：JavaScript
 - **Topics**：未标注
 - **许可证**：MIT
@@ -312,65 +262,15 @@ OpenCode 是可在终端或桌面应用中运行的开源 AI 编程智能体，�
 
 #### 热度与增长证据
 
-- GitHub Daily Trending 第 2 名，页面公开 1,712 stars today
-- 实际快照 1 日 Stars 增量 +1,692
+- GitHub Daily Trending 第 1 名，页面公开 2,012 stars today
+- 实际快照 1 日 Stars 增量 +2,262
 
 ---
 
-<a id="project-detail-9"></a>
-### 9. [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
+<a id="project-detail-7"></a>
+### 7. [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)
 
-[↖️ 返回表格中的 #9](#project-row-9)
-
-#### 中文分析
-
-ComfyUI 把图像、视频、3D、音频和文本创作拆成可连接的节点图，用户在可视化界面中组合并复用工作流，也能把复杂流程封装成 App Mode，或通过 local API 接入生产管线。它支持 Stable Diffusion、SDXL、Flux.1、Wan 2.1、Hunyuan3D 2.1 等多类模型，可分别加载 checkpoint、VAE、text encoder、LoRA、ControlNet、adapter 和 upscaler，并内置修复、扩图、参考条件、遮罩合成、模型合并、放大、帧插值、分割与深度估计等工具。执行引擎强调本地硬件效率：异步队列、局部图重执行、VRAM/RAM 管理、模型卸载和量化支持让较大模型也能在消费级设备运行；工作流可保存为 JSON，生成媒体还能恢复完整工作流与 seed。核心可完全离线运行，只有主动请求时才下载内容。
-
-#### 项目概况
-
-- **仓库**：[Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
-- **Stars**：140,781
-- **主要语言**：Python
-- **Topics**：ai、comfy、comfyui、python、pytorch、stable-diffusion
-- **许可证**：GPL-3.0
-- **最近推送**：2026-10-21T01:08:10Z
-
-#### 热度与增长证据
-
-- GitHub Daily Trending 第 5 名，页面公开 1,206 stars today
-- 实际快照 1 日 Stars 增量 +1,036
-
----
-
-<a id="project-detail-10"></a>
-### 10. [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
-
-[↖️ 返回表格中的 #10](#project-row-10)
-
-#### 中文分析
-
-The Agency 把不同岗位所需的提示词与工作方法整理成一支可挑选的 AI 专家队伍，而不是只换名字的通用模板。每个智能体文件都写明 Identity & personality traits、Core mission & workflows、可交付的代码示例、Success metrics 与沟通方式，因此既能直接安装，也能作为参考复制后改造成自己的角色。最快的入口是 native desktop app：它可在 macOS、Linux 和 Windows 上浏览完整 roster，一键把角色装入 Claude Code、Cursor、Codex、Gemini CLI、OpenCode、Qwen 或 Osaurus，并自动更新；偏好命令行时，也可通过脚本安装同一批内容。角色按 Engineering Division 等部门组织，覆盖前后端、移动端、机器学习、基础设施、网络、事故响应、数据库、系统设计和文档等具体工种，还允许只选择所需团队。OpenCode 当前只注册 119 个智能体，安装器会在选择超过限制时警告，因此按 division 安装子集更合适。
-
-#### 项目概况
-
-- **仓库**：[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
-- **Stars**：162,361
-- **主要语言**：Shell
-- **Topics**：未标注
-- **许可证**：MIT
-- **最近推送**：2026-10-19T16:48:24Z
-
-#### 热度与增长证据
-
-- GitHub Daily Trending 第 9 名，页面公开 562 stars today
-- 实际快照 1 日 Stars 增量 +587
-
----
-
-<a id="project-detail-11"></a>
-### 11. [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)
-
-[↖️ 返回表格中的 #11](#project-row-11)
+[↖️ 返回表格中的 #7](#project-row-7)
 
 #### 中文分析
 
@@ -379,48 +279,48 @@ Headroom 把代理将要读取的工具输出、日志、RAG chunks、文件和�
 #### 项目概况
 
 - **仓库**：[headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)
-- **Stars**：76,766
+- **Stars**：77,265
 - **主要语言**：Python
 - **Topics**：agent、ai、anthropic、claude-code、compression、context-engineering、context-window、cursor、fastapi、langchain、llm、mcp、openai、prompt-engineering、proxy、python、rag、token-optimization、tokens、typescript
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T00:47:00Z
+- **最近推送**：2026-10-22T00:04:19Z
 
 #### 热度与增长证据
 
-- GitHub Daily Trending 第 10 名，页面公开 549 stars today
-- 实际快照 1 日 Stars 增量 +508
+- GitHub Daily Trending 第 4 名，页面公开 474 stars today
+- 实际快照 1 日 Stars 增量 +499
 
 ---
 
-<a id="project-detail-12"></a>
-### 12. [wshobson/agents](https://github.com/wshobson/agents) 🟢
+<a id="project-detail-8"></a>
+### 8. [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
 
-[↖️ 返回表格中的 #12](#project-row-12)
+[↖️ 返回表格中的 #8](#project-row-8)
 
 #### 中文分析
 
-同一份 Markdown 源可以被不同编码工具加载，是这套插件集合的组织基础。README 列出 94 个插件目录项，其中 92 个来自本地源码、2 个是外部条目；本地组件分成 202 个 agents、185 个 skills 和 105 个 commands，按 Python、JavaScript、代码审查、测试、安全与基础设施等任务分组。Claude Code 可从 marketplace 安装 python-development，再调用脚手架命令创建带测试的 FastAPI 服务；Codex CLI 的原生安装读取源技能，生成的 TOML agents 与命令衍生技能则走另一条适配路径，并受 8 KB 内容预算约束。OpenCode、Antigravity、Copilot 和 Pi 通过各自安装目标生成组件，模型别名、工具权限与命令呈现会随宿主变化。只想取单个技能时，也能用 gh skill 或 npx skills 而不安装整套插件。末尾把结构校验与实验性的 LLM judge、Monte Carlo 评估明确分开，后两者的分数不等于真实任务一定成功。
+ComfyUI 把图像、视频、3D、音频和文本创作拆成可连接的节点图，用户在可视化界面中组合并复用工作流，也能把复杂流程封装成 App Mode，或通过 local API 接入生产管线。它支持 Stable Diffusion、SDXL、Flux.1、Wan 2.1、Hunyuan3D 2.1 等多类模型，可分别加载 checkpoint、VAE、text encoder、LoRA、ControlNet、adapter 和 upscaler，并内置修复、扩图、参考条件、遮罩合成、模型合并、放大、帧插值、分割与深度估计等工具。执行引擎强调本地硬件效率：异步队列、局部图重执行、VRAM/RAM 管理、模型卸载和量化支持让较大模型也能在消费级设备运行；工作流可保存为 JSON，生成媒体还能恢复完整工作流与 seed。核心可完全离线运行，只有主动请求时才下载内容。
 
 #### 项目概况
 
-- **仓库**：[wshobson/agents](https://github.com/wshobson/agents)
-- **Stars**：41,258
+- **仓库**：[Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
+- **Stars**：141,529
 - **主要语言**：Python
-- **Topics**：agent-skills、agentic-ai、ai-agents、anthropic、antigravity、claude、claude-code、claude-code-marketplace、claude-code-plugin、claude-skills、codex、coding-agents、cursor、cursor-rules、github-copilot、mcp、multi-agent、opencode、pi-coding-agent、subagents
-- **许可证**：MIT
-- **最近推送**：2026-10-19T18:28:14Z
+- **Topics**：ai、comfy、comfyui、python、pytorch、stable-diffusion
+- **许可证**：GPL-3.0
+- **最近推送**：2026-10-22T00:11:12Z
 
 #### 热度与增长证据
 
-- GitHub Daily Trending 第 12 名，页面公开 93 stars today
-- GitHub Weekly Trending 第 15 名，页面公开 665 stars this week
+- GitHub Daily Trending 第 6 名，页面公开 939 stars today
+- 实际快照 1 日 Stars 增量 +748
 
 ---
 
-<a id="project-detail-13"></a>
-### 13. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
+<a id="project-detail-9"></a>
+### 9. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
 
-[↖️ 返回表格中的 #13](#project-row-13)
+[↖️ 返回表格中的 #9](#project-row-9)
 
 #### 中文分析
 
@@ -429,345 +329,23 @@ Headroom 把代理将要读取的工具输出、日志、RAG chunks、文件和�
 #### 项目概况
 
 - **仓库**：[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
-- **Stars**：78,999
+- **Stars**：80,436
 - **主要语言**：Python
 - **Topics**：ai、audiobook、cuda、dubbing、elevenlabs-alternative、huggingface、local-first、mlx、omnivoice-studio、speech-to-text、text-to-speech、transcription、translate、tts、voice-ai、voice-cloning、voice-generation、voicestudio、workflow
 - **许可证**：AGPL-3.0
-- **最近推送**：2026-10-21T00:18:25Z
+- **最近推送**：2026-10-21T19:58:46Z
 
 #### 热度与增长证据
 
-- GitHub Weekly Trending 第 8 名，页面公开 17,057 stars this week
-- 实际快照 1 日 Stars 增量 +1,461
+- GitHub Weekly Trending 第 7 名，页面公开 15,125 stars this week
+- 实际快照 1 日 Stars 增量 +1,437
 
 ---
 
-<a id="project-detail-14"></a>
-### 14. [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5)
+<a id="project-detail-10"></a>
+### 10. [vllm-project/vllm](https://github.com/vllm-project/vllm)
 
-[↖️ 返回表格中的 #14](#project-row-14)
-
-#### 中文分析
-
-AnyPS5 通过 relinker 把 PS5 可执行文件转换为 Linux 或 Windows 的原生格式，重链接构建目前只在 macOS（包括 Apple silicon）上运行，文件留在本机处理。它不依赖模拟器或独立运行时进程，而是提供动态链接所需的实现，并让生成结果直接使用 Vulkan/SPIR-V 路径；构建时启用 ANYPS5ENABLESPIRVTOOLS 可用 SPIR-V Tools 校验输出。项目用进度页和社区数据追踪各游戏所到阶段、阻塞项、系统库及 GPU 覆盖率，测试报告按游戏标题集中在 Discussions。输入方面支持 SDL 映射的手柄，包括摇杆和扳机，也能通过 anyps5 input.ini 配置键盘鼠标。未覆盖或意外状态会抛出 std::runtimeerror，将 what() 写入 stderr 后终止进程。
-
-#### 项目概况
-
-- **仓库**：[boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5)
-- **Stars**：45,548
-- **主要语言**：C++
-- **Topics**：anyps5、dynamic-library、game-porting、ps5、ps5-tools、spir-v、vulkan
-- **许可证**：GPL-2.0
-- **最近推送**：2026-10-21T01:07:25Z
-
-#### 热度与增长证据
-
-- GitHub Weekly Trending 第 11 名，页面公开 11,169 stars this week
-- 实际快照 1 日 Stars 增量 +1,034
-
----
-
-<a id="project-detail-15"></a>
-### 15. [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)
-
-[↖️ 返回表格中的 #15](#project-row-15)
-
-#### 中文分析
-
-Kronos 把金融市场的 K 线序列视作一种可学习的“语言”，针对高噪声的 OHLCV 数据采用两阶段框架：专用 tokenizer 先将连续、多维的行情量化为分层离散 token，再由自回归 Transformer 学习这些序列，从而以统一模型承担不同量化任务。公开的 Model Zoo 提供 Kronos-mini、Kronos-small 和 Kronos-base，可从 Hugging Face Hub 加载对应模型与 tokenizer；其中 small 与 base 的最大上下文为 512，过长输入会由 KronosPredictor 自动截断。实际预测时，先准备含 open、high、low、close 列的 pandas DataFrame，以及历史和未来时间戳，再调用 KronosPredictor.predict，并通过 T、topp、samplecount 控制概率采样，输出按未来时间索引排列的价格、成交量和成交额预测。需要同时处理多资产或多个时段时，predictbatch 会利用 GPU 并行执行，但各序列必须拥有相同的历史长度和 predlen。仓库还给出可运行的绘图示例，以及基于 Qlib 的 A 股微调与简单回测流水线，依次完成配置、数据预处理、Tokenizer 与 Predictor 微调和评估；README 明确将其定位为流程演示，而非可直接投产的量化交易系统。
-
-#### 项目概况
-
-- **仓库**：[shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)
-- **Stars**：42,357
-- **主要语言**：Python
-- **Topics**：未标注
-- **许可证**：MIT
-- **最近推送**：2026-04-13T12:38:49Z
-
-#### 热度与增长证据
-
-- GitHub Daily Trending 第 14 名，页面公开 733 stars today
-- 实际快照 1 日 Stars 增量 +668
-
----
-
-<a id="project-detail-16"></a>
-### 16. [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
-
-[↖️ 返回表格中的 #16](#project-row-16)
-
-#### 中文分析
-
-HTML、CSS、媒体素材和可跳转到任意时间点的动画，在 HyperFrames 中会被组织成可重复渲染的 deterministic MP4 videos；它既能由本地 CLI 驱动，也能成为托管式创作流程的渲染内核。智能体使用时先读取 /hyperframes 路由技能，由它确认创作意图并分派到产品宣传片、无露脸讲解、PR 更新视频、字幕嵌入、访谈重剪、短动效、音乐视频、幻灯片或通用视频等工作流，然后依次完成策划、编写合法 HTML、接入可寻址动画、添加媒体、lint、预览和渲染。独立安装推荐运行 npx hyperframes skills update，它只装核心技能，再由路由器按需补齐工作流，避免无意间拉取全部 21 个已发布技能。底层合成契约以 data timing attributes、class="clip"、轨道、子合成和变量描述时间结构，并要求媒体播放与动画保持确定性。除了生成视频，它也能把现有 Remotion 合成单向迁移到 HyperFrames HTML，或输出带分支、热点导航和演讲者模式的可交互 deck。
-
-#### 项目概况
-
-- **仓库**：[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
-- **Stars**：68,516
-- **主要语言**：TypeScript
-- **Topics**：ai、ai-agents、animation、claude-code、ffmpeg、framework、gsap、html、html-to-video、mcp、motion-graphics、puppeteer、rendering、typescript、video-editor
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T01:06:08Z
-
-#### 热度与增长证据
-
-- GitHub Weekly Trending 第 7 名，页面公开 5,994 stars this week
-- 实际快照 1 日 Stars 增量 +828
-
----
-
-<a id="project-detail-17"></a>
-### 17. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)
-
-[↖️ 返回表格中的 #17](#project-row-17)
-
-#### 中文分析
-
-只需用自然语言描述“应用前端、后端、数据库与 Redis 的架构关系”或“401 后刷新令牌的调用序列”，智能体便会选择合适图表类型、先说明绘制计划，再输出一个可双击打开的 self contained HTML + SVG file。diagram-design 提供 45 种图表类型，视觉规范刻意避开阴影和千篇一律的 Mermaid 风格；还可通过网站地址提取品牌色与字体，让后续图表延续同一套形象。通用 Agent Skills 主机可用 npx skills add cathrynlavery/diagram design 安装，若一次选择多个技能目录，安装器推荐 Symlink，使各宿主共享一份可统一更新的副本；不支持符号链接时则自动复制。Claude Code、Codex、GitHub Copilot、Factory Droid 和 Pi 等宿主还有各自的市场与更新路径，并可获得 /export diagram、/import mermaid、profile 和 doctor 等附加入口。若要长期定制样式，可修改克隆仓库中的风格指南，个人保存的 profiles 则能在包更新后继续保留。
-
-#### 项目概况
-
-- **仓库**：[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)
-- **Stars**：58,993
-- **主要语言**：HTML
-- **Topics**：agent-skills、claude-code、codex、data-visualization、diagrams、drawio、mermaid、svg
-- **许可证**：MIT
-- **最近推送**：2026-10-20T02:07:06Z
-
-#### 热度与增长证据
-
-- GitHub Weekly Trending 第 13 名，页面公开 5,473 stars this week
-- 实际快照 1 日 Stars 增量 +551
-
----
-
-<a id="project-detail-18"></a>
-### 18. [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
-
-[↖️ 返回表格中的 #18](#project-row-18)
-
-#### 中文分析
-
-Scientific Agent Skills 把科研软件包、数据库和研究流程整理成 177 个可直接交给 AI 智能体使用的技能，每个技能不仅提供调用说明和示例，也写入相应领域的科学惯例与 validation checks，避免智能体只会调用 Python 包却不理解正确的分析步骤。覆盖范围从 Bioinformatics & Genomics、Cheminformatics & Drug Discovery、Proteomics & Mass Spectrometry，延伸到临床研究、医学影像、神经科学、材料科学、天文学、工程仿真、地理空间分析、实验室自动化和 Scientific Communication；其中可执行序列分析、single cell RNA seq、virtual screening、ADMET analysis、LC MS/MS processing、DICOM processing、CALPHAD phase equilibria 等具体工作流。技能遵循 open standard，可由 Cursor、Claude Code、Codex、Google Antigravity 等兼容宿主加载，也能凭 plugin.json + skills/ 作为一个可移植插件整体接入。仓库还支撑一套在桌面本地运行的 AI co-scientist 工作区，用户自行提供 API keys，可在 40 多种模型之间选择，并结合网页搜索、文件处理和 100 多个科学数据库开展研究；数据保留在本机，重型工作负载则可选择扩展到云端计算。README 对医疗和动物研究的定位也很明确：相关技能服务于研究、回顾性验证和辅助评估，不替代患者诊断、治疗决定或实验严重程度判定。
-
-#### 项目概况
-
-- **仓库**：[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
-- **Stars**：53,270
-- **主要语言**：Python
-- **Topics**：agent-skills、ai-scientist、bioinformatics、chemoinformatics、claude、claude-skills、claudecode、clinical-research、computational-biology、data-analysis、drug-discovery、genomics、materials-science、metabolomics、proteomics、scientific-computing、scientific-visualization
-- **许可证**：MIT
-- **最近推送**：2026-10-19T09:33:57Z
-
-#### 热度与增长证据
-
-- GitHub Weekly Trending 第 6 名，页面公开 4,549 stars this week
-- 实际快照 1 日 Stars 增量 +336
-
----
-
-<a id="project-detail-19"></a>
-### 19. [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
-
-[↖️ 返回表格中的 #19](#project-row-19)
-
-#### 中文分析
-
-Claude Code Plugins Directory 是 Claude Code 插件系统的官方目录，内容分成 /plugins 与 /external plugins：前者收录 Anthropic 团队开发维护的内部插件，后者接纳合作伙伴和社区提交、通过质量与安全标准审核的第三方插件。用户可执行 /plugin install {plugin name}@claude plugins official 安装，或在 /plugin Discover 中浏览。目录对插件结构有明确约束，其中 marketplace entry 的 name 是 immutable slug；发布后直接改名会让既有安装出现 plugin not found，展示名称应改 displayName，确需迁移时则在 .claude plugin/marketplace.json 的 renames map 中声明映射。仅包含 SKILL.md、没有 plugin.json 的技能仓库，也能通过 strict: false 和显式 skills array 暴露选定目录。收录并不等于 Anthropic 能控制或验证插件带入的 MCP servers、文件及其他软件，因此安装、更新或运行前仍需确认来源可信。
-
-#### 项目概况
-
-- **仓库**：[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
-- **Stars**：43,419
-- **主要语言**：Python
-- **Topics**：claude-code、mcp、skills
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T00:23:34Z
-
-#### 热度与增长证据
-
-- GitHub Weekly Trending 第 3 名，页面公开 5,650 stars this week
-- 实际快照 1 日 Stars 增量 +236
-
----
-
-<a id="project-detail-20"></a>
-### 20. [mksglu/context-mode](https://github.com/mksglu/context-mode)
-
-[↖️ 返回表格中的 #20](#project-row-20)
-
-#### 中文分析
-
-Context Mode 针对编码智能体被工具原始输出迅速挤占上下文的问题，把大体量数据留在沙箱内，只把计算或检索后的必要结果交给模型；README 给出的示例是将 315 KB 压缩为 5.4 KB，达到 98% reduction。它还把文件编辑、git 操作、任务、错误和用户决定记录到 SQLite，并通过 FTS5 与 BM25 search 按相关性恢复事件，使对话压缩后无需重新灌入整段历史；若用户不继续旧会话，先前会话数据会立即删除。其 Think in Code 规则要求智能体编写脚本处理大量文件或日志，再仅输出聚合结果，而不是把数据逐份读进上下文。Claude Code 插件通过 SessionStart、PreToolUse、PostToolUse、PreCompact 等 hooks 自动注入路由，并注册 ctx execute、ctx index、ctx search、ctx doctor、ctx purge 等 11 个 MCP 工具；例如 /context mode:ctx stats 可查看各工具消耗和节省比例，/context mode:ctx doctor 用于检查运行时、hooks、FTS5 与插件注册。只安装 MCP 也能使用这些工具，但不会自动引导智能体避开原始 Bash、Read 或 WebFetch 输出。
-
-#### 项目概况
-
-- **仓库**：[mksglu/context-mode](https://github.com/mksglu/context-mode)
-- **Stars**：31,366
-- **主要语言**：TypeScript
-- **Topics**：antigravity、claude、claude-code、claude-code-hooks、claude-code-plugins、claude-code-skill、codex、codex-cli、context-mode、copilot、cursor-plugin、kiro、mcp、mcp-server、mcp-tools、openclaw、opencode、pi-agent、skills、zed-extension
-- **许可证**：NOASSERTION
-- **最近推送**：2026-10-21T01:06:26Z
-
-#### 热度与增长证据
-
-- GitHub Weekly Trending 第 4 名，页面公开 3,556 stars this week
-- 实际快照 1 日 Stars 增量 +279
-
----
-
-<a id="project-detail-21"></a>
-### 21. [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
-
-[↖️ 返回表格中的 #21](#project-row-21)
-
-#### 中文分析
-
-从反汇编、汇编、反编译到图形分析和脚本自动化，Ghidra 把编译产物研究所需的多类工具放进同一套 SRE 框架，并兼容 Windows、macOS 和 Linux 上的大量处理器指令集与可执行格式。它既能以交互方式供分析人员逐步探索，也能以 automated modes 处理规模化任务；需要扩展分析流程时，还可用 Java or Python 编写脚本或自定义组件。安装官方预构建版本时，应先准备 64 位 JDK 25，下载发布页 Assets 中名为 ghidra .zip 的包而不是 Source Code，解压到新目录后在类 Unix 系统执行 ./ghidraRun，Windows 则运行 ghidraRun.bat；也可以通过 ./support/pyghidraRun 启动 PyGhidra。若要从源码构建，还需 Gradle 9.1.0+、Python 3.9 至 3.15，以及对应平台的 C/C++ 工具链，产物会生成在 build/dist/。脚本和扩展开发可选择 Eclipse 的 GhidraDev，也能从 CodeBrowser 创建 Visual Studio Code 模块工程；开发 Ghidra 本体时，README 更推荐使用已经深度适配其工程流程的 Eclipse。由于部分版本存在已知漏洞，实际部署前还应先查看 Security Advisories。
-
-#### 项目概况
-
-- **仓库**：[NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
-- **Stars**：92,160
-- **主要语言**：Java
-- **Topics**：disassembler、reverse-engineering、software-analysis
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T12:16:20Z
-
-#### 热度与增长证据
-
-- GitHub Weekly Trending 第 5 名，页面公开 6,184 stars this week
-- 实际快照 1 日 Stars 增量 +557
-
----
-
-<a id="project-detail-22"></a>
-### 22. [storytold/artcraft](https://github.com/storytold/artcraft)
-
-[↖️ 返回表格中的 #22](#project-row-22)
-
-#### 中文分析
-
-先搭场景，再生成最终画面，是 ArtCraft 区别于普通提示词工具的工作方式。创作者可以在 2D 画布中叠放图层、移除背景、绘制遮罩和局部重绘，也能在 3D 空间中组合背景、前景与道具，摆放角色、调整相机，并把图片转换为可旋转和取景的 3D Mesh。Image to Location 用来让虚拟演员在同一环境中规划多镜头，Character Identity Transfer 则借助摆好姿势的人偶引导角色的位置与动作；图像切片、世界和网格还能混合进同一场景。探索阶段仍可从 Text to Image 快速起步，随后通过 Prompted Image Editing、Canvas Image Editing 或 Image to Video 继续细化。模型目录覆盖图像、视频、音乐与声音、3D 网格及 Gaussian splats，并整合 Nano Banana、GPT Image、FLUX、Seedance、Kling、Veo、Suno、Hunyuan 3D、Marble 等系列；部分条目标为禁用或受限，因此桌面端的实际可用范围以目录状态为准。
-
-#### 项目概况
-
-- **仓库**：[storytold/artcraft](https://github.com/storytold/artcraft)
-- **Stars**：34,537
-- **主要语言**：Rust
-- **Topics**：3d-graphics、ai、aivideo、filmmaking、imagegeneration
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T22:13:32Z
-
-#### 热度与增长证据
-
-- GitHub Weekly Trending 第 14 名，页面公开 10,287 stars this week
-- 实际快照 1 日 Stars 增量 +800
-
----
-
-<a id="project-detail-23"></a>
-### 23. [cursor/plugins](https://github.com/cursor/plugins)
-
-[↖️ 返回表格中的 #23](#project-row-23)
-
-#### 中文分析
-
-这个仓库把官方 Cursor 插件按独立目录组织在根目录下，每个插件都带有自己的 .cursor-plugin/plugin.json 清单，插件名称、作者、类别和市场描述共同构成可发现的目录。内容横跨开发工作流、生产力工具和第三方集成：teaching 提供技能映射、练习计划与学习复盘，continual learning 会把高信号要点增量写入 AGENTS.md，cursor team kit 覆盖 CI、代码审查、发布和本地自动化；thermos 则编排并行子代理执行安全与正确性审计。仓库还收录 gmail、google drive、google calendar、github、playwright 等连接器，可搜索邮件和文件、管理日历、操作仓库、在真实浏览器中导航点击并截图测试；cursor sdk 和 origin apps 则用于用 TypeScript SDK 或 Cursor Origin API 构建自动化。
-
-#### 项目概况
-
-- **仓库**：[cursor/plugins](https://github.com/cursor/plugins)
-- **Stars**：13,249
-- **主要语言**：TypeScript
-- **Topics**：未标注
-- **许可证**：未标注
-- **最近推送**：2026-10-20T23:06:00Z
-
-#### 热度与增长证据
-
-- GitHub Weekly Trending 第 12 名，页面公开 2,040 stars this week
-- 实际快照 1 日 Stars 增量 +192
-
----
-
-<a id="project-detail-24"></a>
-### 24. [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) 🟢
-
-[↖️ 返回表格中的 #24](#project-row-24)
-
-#### 中文分析
-
-电视开机先放广告、首页堆满推荐，是 cleanyourtv 的起点。它利用 Android TV 与手机相同的 ADB 调试桥，通过同一 Wi-Fi 上的电脑连接电视：先开启开发者选项和 USB debugging，在电视上确认电脑授权，再让编码助手核对常用应用、四个 dock 位置，以及语音助手、Chromecast 和更新是否保留。流程先备份已装软件与设置，再用禁用而非卸载的方式停用广告、遥测和预装组件，最后安装原生 launcher 并设为主页，因此恢复脚本能够撤销这些操作。新首页以黑色背景、圆角 dock、随封面取色的环境光和移动玻璃高亮呈现应用，向下展开完整网格；Inputs 可按电视原有命名显示 HDMI，另有网络、设置和 Clock 屏保。主题能修改颜色、壁纸与布局而无需重编译，模块卡片需经用户同意。支持范围以 Android TV、Google TV 为主，Fire TV 只能做去冗余部分，Samsung Tizen、LG webOS 不能直接套用这套 launcher。
-
-#### 项目概况
-
-- **仓库**：[Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv)
-- **Stars**：11,942
-- **主要语言**：Java
-- **Topics**：adb、adblock、android-tv、android-tv-launcher、apple-tv、bloatware-removal、claude-code、debloat、fire-tv、google-tv、launcher、privacy、smart-tv、sony-bravia、tcl、vibe-coding、xiaomi
-- **许可证**：NOASSERTION
-- **最近推送**：2026-10-20T19:57:27Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +6,541
-
----
-
-<a id="project-detail-25"></a>
-### 25. [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) 🟢
-
-[↖️ 返回表格中的 #25](#project-row-25)
-
-#### 中文分析
-
-把团队习惯、工具连接与工作步骤装进一个可修改的插件，是 Knowledge Work Plugins 对 Claude Cowork 的扩展方式。README 先解释插件如何把 skills、connectors、slash commands 和 sub-agents 组合成岗位工作包，再列出 11 类起点：销售研究客户与准备通话，客服整理工单与升级材料，产品工作编写规格并汇总调研，数据分析连接 Snowflake、Databricks 或 BigQuery 写 SQL、做统计和验证结果；跨工具搜索还覆盖邮件、聊天、文档与 Wiki。安装后，相关技能会自动触发，命令则由用户显式调用，例如 /finance:reconciliation。连接器通过 MCP 接入 CRM、项目系统、数据仓库与设计工具。所有组件由 Markdown 和 JSON 文件构成，不需要单独构建服务。真正的定制步骤是替换 .mcp.json 中的工具连接、把公司术语和组织流程放进技能文件，并直接修改工作指令，让通用岗位包贴合团队自己的做法。
-
-#### 项目概况
-
-- **仓库**：[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)
-- **Stars**：30,798
-- **主要语言**：Python
-- **Topics**：未标注
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T23:09:26Z
-
-#### 热度与增长证据
-
-- GitHub Daily Trending 第 11 名，页面公开 267 stars today
-
----
-
-<a id="project-detail-26"></a>
-### 26. [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) 🟢
-
-[↖️ 返回表格中的 #26](#project-row-26)
-
-#### 中文分析
-
-AAS Core 先帮助 Codex 或 Claude 检索完整本地目录、阅读技能文件并记录精确选择，而不是替用户排名或推荐技能。当前 README 收录 2,724 多份 SKILL.md playbooks，并将支持范围集中在目录检查、智能体自行选择、stack validation 与 plan preview。选出的技能由只读 compose stack 工具在内存里验证，客户端或 aas CLI 再保存清单和可选的选择证据；aas stack validate 检查结构，aas stack plan 写出不可变预览，供真正修改目标之前复核。技术上一个清单最多容纳 128 个技能，但身份与结构合法并不能证明语义匹配、兼容或执行安全，apply 和 recovery 仍需实验性选项。配置本地 MCP 的第一步也只是预览变更并返回审批摘要；已有明确技能 ID 时，可通过直接安装器先做 dry run，它不会消费或执行 Core plan。浏览器本地 Workbench 只在内存中查看 stack 与 plan，不读取本机文件系统，各宿主的安装路径与边界另行区分。
-
-#### 项目概况
-
-- **仓库**：[sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)
-- **Stars**：48,099
-- **主要语言**：Python
-- **Topics**：agent-skills、agentic-skills、ai-agent-skills、ai-agents、ai-coding、ai-workflows、antigravity、antigravity-skills、claude-code、claude-code-skills、codex-cli、codex-skills、cursor、cursor-skills、developer-tools、gemini-cli、gemini-skills、kiro、mcp、skill-library
-- **许可证**：MIT
-- **最近推送**：2026-10-20T19:30:38Z
-
-#### 热度与增长证据
-
-- GitHub Daily Trending 第 13 名，页面公开 83 stars today
-
----
-
-<a id="project-detail-27"></a>
-### 27. [vllm-project/vllm](https://github.com/vllm-project/vllm) 🟢
-
-[↖️ 返回表格中的 #27](#project-row-27)
+[↖️ 返回表格中的 #10](#project-row-10)
 
 #### 中文分析
 
@@ -776,22 +354,369 @@ vLLM 把大语言模型推理吞吐与服务接口放在同一个引擎中，REA
 #### 项目概况
 
 - **仓库**：[vllm-project/vllm](https://github.com/vllm-project/vllm)
-- **Stars**：94,441
+- **Stars**：94,879
 - **主要语言**：Python
 - **Topics**：amd、blackwell、cuda、deepseek、deepseek-v3、gpt、gpt-oss、inference、kimi、llama、llm、llm-serving、model-serving、moe、openai、pytorch、qwen、qwen3、tpu、transformer
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T01:07:12Z
+- **最近推送**：2026-10-22T00:39:45Z
 
 #### 热度与增长证据
 
-- GitHub Daily Trending 第 15 名，页面公开 128 stars today
+- GitHub Daily Trending 第 2 名，页面公开 441 stars today
+- 实际快照 1 日 Stars 增量 +438
 
 ---
 
-<a id="project-detail-28"></a>
-### 28. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
+<a id="project-detail-11"></a>
+### 11. [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)
 
-[↖️ 返回表格中的 #28](#project-row-28)
+[↖️ 返回表格中的 #11](#project-row-11)
+
+#### 中文分析
+
+Kronos 把金融市场的 K 线序列视作一种可学习的“语言”，针对高噪声的 OHLCV 数据采用两阶段框架：专用 tokenizer 先将连续、多维的行情量化为分层离散 token，再由自回归 Transformer 学习这些序列，从而以统一模型承担不同量化任务。公开的 Model Zoo 提供 Kronos-mini、Kronos-small 和 Kronos-base，可从 Hugging Face Hub 加载对应模型与 tokenizer；其中 small 与 base 的最大上下文为 512，过长输入会由 KronosPredictor 自动截断。实际预测时，先准备含 open、high、low、close 列的 pandas DataFrame，以及历史和未来时间戳，再调用 KronosPredictor.predict，并通过 T、topp、samplecount 控制概率采样，输出按未来时间索引排列的价格、成交量和成交额预测。需要同时处理多资产或多个时段时，predictbatch 会利用 GPU 并行执行，但各序列必须拥有相同的历史长度和 predlen。仓库还给出可运行的绘图示例，以及基于 Qlib 的 A 股微调与简单回测流水线，依次完成配置、数据预处理、Tokenizer 与 Predictor 微调和评估；README 明确将其定位为流程演示，而非可直接投产的量化交易系统。
+
+#### 项目概况
+
+- **仓库**：[shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)
+- **Stars**：42,830
+- **主要语言**：Python
+- **Topics**：未标注
+- **许可证**：MIT
+- **最近推送**：2026-04-13T12:38:49Z
+
+#### 热度与增长证据
+
+- GitHub Daily Trending 第 9 名，页面公开 575 stars today
+- 实际快照 1 日 Stars 增量 +473
+
+---
+
+<a id="project-detail-12"></a>
+### 12. [anomalyco/opencode](https://github.com/anomalyco/opencode)
+
+[↖️ 返回表格中的 #12](#project-row-12)
+
+#### 中文分析
+
+OpenCode 是可在终端或桌面应用中运行的开源 AI 编程智能体，安装脚本先采用用户指定或符合 XDG 约定的目录，再尝试用户主目录下的 bin，最后回退到 .opencode/bin 来放置二进制文件，也提供 macOS、Windows、Linux 的桌面安装包。启动后可用 Tab 在两个内置代理间切换：build 拥有完整开发权限，适合直接修改项目；plan 只读分析代码，默认拒绝文件编辑并在执行 bash 前询问权限，适合熟悉陌生代码库或先规划改动。复杂搜索和多步骤任务由内置的 @general 子代理处理。README 还把配置文档、贡献指南和社区入口作为后续使用路径，并提醒名为 opencode 的相关项目需声明与官方团队无关。
+
+#### 项目概况
+
+- **仓库**：[anomalyco/opencode](https://github.com/anomalyco/opencode)
+- **Stars**：219,691
+- **主要语言**：TypeScript
+- **Topics**：未标注
+- **许可证**：MIT
+- **最近推送**：2026-10-22T01:05:33Z
+
+#### 热度与增长证据
+
+- GitHub Weekly Trending 第 13 名，页面公开 6,545 stars this week
+- 实际快照 1 日 Stars 增量 +752
+
+---
+
+<a id="project-detail-13"></a>
+### 13. [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
+
+[↖️ 返回表格中的 #13](#project-row-13)
+
+#### 中文分析
+
+用 HTML、CSS、媒体素材和可定位到任意时间点的动画写画面，再将它们稳定渲染成 MP4，是 HyperFrames 的基本工作方式。它既可由本地 CLI 驱动，也能通过 /hyperframes 交给 Claude Code、Codex、Cursor、Gemini CLI 等编码智能体；智能体会依次规划视频、编写合法 HTML、接好可 seek 的动画、加入媒体、lint、预览并渲染。默认 Core Skills 还提供 /hyperframes-cli、/hyperframes-registry 和 /media-use：前者覆盖脚手架、逐帧查看、时间线编辑、本地或云端渲染及故障恢复；registry 提供约 450 个可编辑源码的转场、字幕、动态图表、地图、3D 与镜头组件；媒体技能处理音乐、音效、图片、配音和混音。按需安装的 /figma、/slideshow、/remotion-to-hyperframes 分别承接设计稿、可导航演示文稿和既有视频代码迁移。因渲染结果可确定且素材与组件仍是可编辑的 Web 源码，它尤其适合产品发布片、代码差异讲解、数据动画、社交短片和自动化内容流水线。
+
+#### 项目概况
+
+- **仓库**：[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
+- **Stars**：69,221
+- **主要语言**：TypeScript
+- **Topics**：ai、ai-agents、animation、claude-code、ffmpeg、framework、gsap、html、html-to-video、mcp、motion-graphics、puppeteer、rendering、typescript、video-editor
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-21T23:59:06Z
+
+#### 热度与增长证据
+
+- GitHub Weekly Trending 第 9 名，页面公开 5,740 stars this week
+- 实际快照 1 日 Stars 增量 +705
+
+---
+
+<a id="project-detail-14"></a>
+### 14. [ruvnet/ruflo](https://github.com/ruvnet/ruflo)
+
+[↖️ 返回表格中的 #14](#project-row-14)
+
+#### 中文分析
+
+Ruflo 将 Agent = Model + Harness 具体化为包裹在 Claude Code、Codex 等模型外的执行层：模型负责写作与编码，Harness 提供工具、memory、循环、sandbox 和控制机制。其概念链路是 User → Ruflo (CLI/MCP) → Router → Swarm → Agents → Memory → LLM providers，Memory 再把有用经验反馈给路由，使多个专用智能体能够协同而非彼此孤立运行。在 Claude Code 中可安装 core、console 和 mods；其他支持 MCP 的客户端则可运行项目设置向导，并把 npx 与参数 ["-y", "ruflo@latest", "mcp", "start"] 配置为本地 stdio server。完成 npx ruflo init 后，用户仍可像平常一样使用 Claude Code，由 hooks 在后台路由任务、协调 swarm 并从成功模式学习。独立的 npx ruflo tui 会展示 Overview、Cost、Swarm、Events 和 Missions。可视化控制台还能查看日志与结果、搜索失败、回放和比较运行；Claude control 按 read、write、manage 或 full 划定权限，并搭配 ask 或 auto 审批，网络、付费和破坏性动作即使在 auto 下仍须确认，Take back control 可立即收回控制。
+
+#### 项目概况
+
+- **仓库**：[ruvnet/ruflo](https://github.com/ruvnet/ruflo)
+- **Stars**：78,218
+- **主要语言**：TypeScript
+- **Topics**：agentic-ai、agentic-framework、agentic-workflow、agents、ai-agents、ai-assistant、ai-skills、autonomous-agents、claude、codex、dsh-plugin、harness、mcp-server、multi-agent、multi-agent-systems、npm、skills、swarm、swarm-intelligence、typescript
+- **许可证**：MIT
+- **最近推送**：2026-10-21T21:56:34Z
+
+#### 热度与增长证据
+
+- GitHub Weekly Trending 第 4 名，页面公开 3,590 stars this week
+- 实际快照 1 日 Stars 增量 +366
+
+---
+
+<a id="project-detail-15"></a>
+### 15. [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
+
+[↖️ 返回表格中的 #15](#project-row-15)
+
+#### 中文分析
+
+Scientific Agent Skills 把科研软件包、数据库和研究流程整理成 177 个可直接交给 AI 智能体使用的技能，每个技能不仅提供调用说明和示例，也写入相应领域的科学惯例与 validation checks，避免智能体只会调用 Python 包却不理解正确的分析步骤。覆盖范围从 Bioinformatics & Genomics、Cheminformatics & Drug Discovery、Proteomics & Mass Spectrometry，延伸到临床研究、医学影像、神经科学、材料科学、天文学、工程仿真、地理空间分析、实验室自动化和 Scientific Communication；其中可执行序列分析、single cell RNA seq、virtual screening、ADMET analysis、LC MS/MS processing、DICOM processing、CALPHAD phase equilibria 等具体工作流。技能遵循 open standard，可由 Cursor、Claude Code、Codex、Google Antigravity 等兼容宿主加载，也能凭 plugin.json + skills/ 作为一个可移植插件整体接入。仓库还支撑一套在桌面本地运行的 AI co-scientist 工作区，用户自行提供 API keys，可在 40 多种模型之间选择，并结合网页搜索、文件处理和 100 多个科学数据库开展研究；数据保留在本机，重型工作负载则可选择扩展到云端计算。README 对医疗和动物研究的定位也很明确：相关技能服务于研究、回顾性验证和辅助评估，不替代患者诊断、治疗决定或实验严重程度判定。
+
+#### 项目概况
+
+- **仓库**：[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
+- **Stars**：53,583
+- **主要语言**：Python
+- **Topics**：agent-skills、ai-scientist、bioinformatics、chemoinformatics、claude、claude-skills、claudecode、clinical-research、computational-biology、data-analysis、drug-discovery、genomics、materials-science、metabolomics、proteomics、scientific-computing、scientific-visualization
+- **许可证**：MIT
+- **最近推送**：2026-10-19T09:33:57Z
+
+#### 热度与增长证据
+
+- GitHub Weekly Trending 第 3 名，页面公开 4,719 stars this week
+- 实际快照 1 日 Stars 增量 +313
+
+---
+
+<a id="project-detail-16"></a>
+### 16. [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
+
+[↖️ 返回表格中的 #16](#project-row-16)
+
+#### 中文分析
+
+Claude Code Plugins Directory 是 Claude Code 插件系统的官方目录，内容分成 /plugins 与 /external plugins：前者收录 Anthropic 团队开发维护的内部插件，后者接纳合作伙伴和社区提交、通过质量与安全标准审核的第三方插件。用户可执行 /plugin install {plugin name}@claude plugins official 安装，或在 /plugin Discover 中浏览。目录对插件结构有明确约束，其中 marketplace entry 的 name 是 immutable slug；发布后直接改名会让既有安装出现 plugin not found，展示名称应改 displayName，确需迁移时则在 .claude plugin/marketplace.json 的 renames map 中声明映射。仅包含 SKILL.md、没有 plugin.json 的技能仓库，也能通过 strict: false 和显式 skills array 暴露选定目录。收录并不等于 Anthropic 能控制或验证插件带入的 MCP servers、文件及其他软件，因此安装、更新或运行前仍需确认来源可信。
+
+#### 项目概况
+
+- **仓库**：[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
+- **Stars**：43,643
+- **主要语言**：Python
+- **Topics**：claude-code、mcp、skills
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-22T00:45:41Z
+
+#### 热度与增长证据
+
+- GitHub Weekly Trending 第 2 名，页面公开 5,703 stars this week
+- 实际快照 1 日 Stars 增量 +224
+
+---
+
+<a id="project-detail-17"></a>
+### 17. [mksglu/context-mode](https://github.com/mksglu/context-mode)
+
+[↖️ 返回表格中的 #17](#project-row-17)
+
+#### 中文分析
+
+Context Mode 针对编码智能体被工具原始输出迅速挤占上下文的问题，把大体量数据留在沙箱内，只把计算或检索后的必要结果交给模型；README 给出的示例是将 315 KB 压缩为 5.4 KB，达到 98% reduction。它还把文件编辑、git 操作、任务、错误和用户决定记录到 SQLite，并通过 FTS5 与 BM25 search 按相关性恢复事件，使对话压缩后无需重新灌入整段历史；若用户不继续旧会话，先前会话数据会立即删除。其 Think in Code 规则要求智能体编写脚本处理大量文件或日志，再仅输出聚合结果，而不是把数据逐份读进上下文。Claude Code 插件通过 SessionStart、PreToolUse、PostToolUse、PreCompact 等 hooks 自动注入路由，并注册 ctx execute、ctx index、ctx search、ctx doctor、ctx purge 等 11 个 MCP 工具；例如 /context mode:ctx stats 可查看各工具消耗和节省比例，/context mode:ctx doctor 用于检查运行时、hooks、FTS5 与插件注册。只安装 MCP 也能使用这些工具，但不会自动引导智能体避开原始 Bash、Read 或 WebFetch 输出。
+
+#### 项目概况
+
+- **仓库**：[mksglu/context-mode](https://github.com/mksglu/context-mode)
+- **Stars**：31,657
+- **主要语言**：TypeScript
+- **Topics**：antigravity、claude、claude-code、claude-code-hooks、claude-code-plugins、claude-code-skill、codex、codex-cli、context-mode、copilot、cursor-plugin、kiro、mcp、mcp-server、mcp-tools、openclaw、opencode、pi-agent、skills、zed-extension
+- **许可证**：NOASSERTION
+- **最近推送**：2026-10-22T01:02:11Z
+
+#### 热度与增长证据
+
+- GitHub Weekly Trending 第 8 名，页面公开 2,968 stars this week
+- 实际快照 1 日 Stars 增量 +291
+
+---
+
+<a id="project-detail-18"></a>
+### 18. [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
+
+[↖️ 返回表格中的 #18](#project-row-18)
+
+#### 中文分析
+
+从反汇编、汇编、反编译到图形分析和脚本自动化，Ghidra 把编译产物研究所需的多类工具放进同一套 SRE 框架，并兼容 Windows、macOS 和 Linux 上的大量处理器指令集与可执行格式。它既能以交互方式供分析人员逐步探索，也能以 automated modes 处理规模化任务；需要扩展分析流程时，还可用 Java or Python 编写脚本或自定义组件。安装官方预构建版本时，应先准备 64 位 JDK 25，下载发布页 Assets 中名为 ghidra .zip 的包而不是 Source Code，解压到新目录后在类 Unix 系统执行 ./ghidraRun，Windows 则运行 ghidraRun.bat；也可以通过 ./support/pyghidraRun 启动 PyGhidra。若要从源码构建，还需 Gradle 9.1.0+、Python 3.9 至 3.15，以及对应平台的 C/C++ 工具链，产物会生成在 build/dist/。脚本和扩展开发可选择 Eclipse 的 GhidraDev，也能从 CodeBrowser 创建 Visual Studio Code 模块工程；开发 Ghidra 本体时，README 更推荐使用已经深度适配其工程流程的 Eclipse。由于部分版本存在已知漏洞，实际部署前还应先查看 Security Advisories。
+
+#### 项目概况
+
+- **仓库**：[NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
+- **Stars**：92,645
+- **主要语言**：Java
+- **Topics**：disassembler、reverse-engineering、software-analysis
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-20T12:16:20Z
+
+#### 热度与增长证据
+
+- GitHub Weekly Trending 第 6 名，页面公开 5,769 stars this week
+- 实际快照 1 日 Stars 增量 +485
+
+---
+
+<a id="project-detail-19"></a>
+### 19. [wshobson/agents](https://github.com/wshobson/agents)
+
+[↖️ 返回表格中的 #19](#project-row-19)
+
+#### 中文分析
+
+同一份 Markdown 源可以被不同编码工具加载，是这套插件集合的组织基础。README 列出 94 个插件目录项，其中 92 个来自本地源码、2 个是外部条目；本地组件分成 202 个 agents、185 个 skills 和 105 个 commands，按 Python、JavaScript、代码审查、测试、安全与基础设施等任务分组。Claude Code 可从 marketplace 安装 python-development，再调用脚手架命令创建带测试的 FastAPI 服务；Codex CLI 的原生安装读取源技能，生成的 TOML agents 与命令衍生技能则走另一条适配路径，并受 8 KB 内容预算约束。OpenCode、Antigravity、Copilot 和 Pi 通过各自安装目标生成组件，模型别名、工具权限与命令呈现会随宿主变化。只想取单个技能时，也能用 gh skill 或 npx skills 而不安装整套插件。末尾把结构校验与实验性的 LLM judge、Monte Carlo 评估明确分开，后两者的分数不等于真实任务一定成功。
+
+#### 项目概况
+
+- **仓库**：[wshobson/agents](https://github.com/wshobson/agents)
+- **Stars**：41,479
+- **主要语言**：Python
+- **Topics**：agent-skills、agentic-ai、ai-agents、anthropic、antigravity、claude、claude-code、claude-code-marketplace、claude-code-plugin、claude-skills、codex、coding-agents、cursor、cursor-rules、github-copilot、mcp、multi-agent、opencode、pi-coding-agent、subagents
+- **许可证**：MIT
+- **最近推送**：2026-10-19T18:28:14Z
+
+#### 热度与增长证据
+
+- GitHub Weekly Trending 第 14 名，页面公开 785 stars this week
+- 实际快照 1 日 Stars 增量 +221
+
+---
+
+<a id="project-detail-20"></a>
+### 20. [cursor/plugins](https://github.com/cursor/plugins)
+
+[↖️ 返回表格中的 #20](#project-row-20)
+
+#### 中文分析
+
+这个仓库把官方 Cursor 插件按独立目录组织在根目录下，每个插件都带有自己的 .cursor-plugin/plugin.json 清单，插件名称、作者、类别和市场描述共同构成可发现的目录。内容横跨开发工作流、生产力工具和第三方集成：teaching 提供技能映射、练习计划与学习复盘，continual learning 会把高信号要点增量写入 AGENTS.md，cursor team kit 覆盖 CI、代码审查、发布和本地自动化；thermos 则编排并行子代理执行安全与正确性审计。仓库还收录 gmail、google drive、google calendar、github、playwright 等连接器，可搜索邮件和文件、管理日历、操作仓库、在真实浏览器中导航点击并截图测试；cursor sdk 和 origin apps 则用于用 TypeScript SDK 或 Cursor Origin API 构建自动化。
+
+#### 项目概况
+
+- **仓库**：[cursor/plugins](https://github.com/cursor/plugins)
+- **Stars**：13,403
+- **主要语言**：TypeScript
+- **Topics**：未标注
+- **许可证**：未标注
+- **最近推送**：2026-10-22T01:01:43Z
+
+#### 热度与增长证据
+
+- GitHub Weekly Trending 第 10 名，页面公开 2,049 stars this week
+- 实际快照 1 日 Stars 增量 +154
+
+---
+
+<a id="project-detail-21"></a>
+### 21. [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv)
+
+[↖️ 返回表格中的 #21](#project-row-21)
+
+#### 中文分析
+
+一台 Android TV 或 Google TV 只需与电脑处在同一 Wi-Fi，开启开发者选项里的 USB debugging，并在电视上允许一次连接，就能沿用 Android 的 ADB 工具链完成整理。流程先备份已安装软件包与设置，再用 pm disable-user 停用厂商遥测、广告服务、内容推荐行和预装冗余项；这些内容不会被卸载，因此生成的恢复脚本可以逐项撤销。随后助手会询问常用应用、Dock 数量与顺序，以及是否保留语音助手、Chromecast 和系统更新，再构建并安装一个原生 launcher，并通过从电视拉取的截图检查每一步。新首页采用 Apple TV 式布局：黑色背景、四个常用应用组成的圆角 Dock、带环境辉光的 top shelf、按 Down 展开的应用网格，以及 Inputs、网络和 Settings 三个磨砂按钮；主题可在不重建应用的情况下更换颜色、壁纸与列数。Fire TV 只能执行精简部分，部分中国市场 TCL 机型拒绝安装 launcher，而 Samsung Tizen 与 LG webOS 并不使用这套 ADB 路径。
+
+#### 项目概况
+
+- **仓库**：[Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv)
+- **Stars**：19,265
+- **主要语言**：Java
+- **Topics**：adb、adblock、android-tv、android-tv-launcher、apple-tv、bloatware-removal、claude-code、debloat、fire-tv、google-tv、launcher、privacy、smart-tv、sony-bravia、tcl、vibe-coding、xiaomi
+- **许可证**：NOASSERTION
+- **最近推送**：2026-10-22T01:00:53Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +7,323
+
+---
+
+<a id="project-detail-22"></a>
+### 22. [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) 🟢
+
+[↖️ 返回表格中的 #22](#project-row-22)
+
+#### 中文分析
+
+DeepInfer 把 DeepSeek 大规模生产服务中的高性能推理基础开放为离线推理框架，目前支持 DeepSeek V4.1 Flash，并围绕大规模执行提供优化内核、模型与采样运行时以及 Attention DP、balanced CP、MoE EP + EPLB 等并行方式。解码阶段可用 DSpark 和 confidence scheduled verification 生成 draft tokens，再按置信度安排验证；默认启用的 Asynchronous scheduling 会让 CPU 批调度与设备执行重叠。SWA bounded replay 只重放有界后缀，以减少 decoder prefill 工作；Batch invariant inference 则让不同批次组合保持相同模型结果，配合固定的逐序列随机种子 还能实现相同输入和采样参数得到一致输出。Structured outputs 可用 regex、JSON schema 或 EBNF grammar 约束生成。源码构建要求 Linux、Python 3.12 与 GCC 13 以上，硬件覆盖 NVIDIA SM100 GPUs 和 Huawei Ascend 950 NPUs；首次运行默认从 Hugging Face 缓存下载检查点。当前发布并非完整在线服务，KV cache system、Prefill/Decode disaggregation 和跨数据并行副本的负载均衡仍需在外部补齐。
+
+#### 项目概况
+
+- **仓库**：[deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer)
+- **Stars**：17,905
+- **主要语言**：Python
+- **Topics**：未标注
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-21T04:55:44Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +5,403
+
+---
+
+<a id="project-detail-23"></a>
+### 23. [supabase/supabase](https://github.com/supabase/supabase) 🟢
+
+[↖️ 返回表格中的 #23](#project-row-23)
+
+#### 中文分析
+
+以 Postgres 为中心，Supabase 把 Firebase 式开发体验拆成一组可独立使用和共同维护的开源服务，同时允许直接使用托管平台或自行部署。数据库之上，PostgREST 会把 PostgreSQL 直接转成 RESTful API；Realtime 轮询内置复制机制，把 insert、update、delete 变化转换为 JSON，再经 websockets 广播给获授权客户端；GoTrue 负责基于 JWT 的注册、登录和会话；Storage 通过 RESTful API 管理 S3 文件，并由 Postgres 承担权限控制；GraphQL、Database Functions、Edge Functions、AI + Vector/Embeddings Toolkit 与 Dashboard 则补齐应用开发链路。架构策略不是逐项复刻 Firebase，而是优先采用 MIT、Apache 2 等开放许可证下已有且成熟的工具，缺失部分才自行构建并开放源码。客户端也保持模块化，每个子库只实现一个外部系统，再由 JavaScript、Flutter、Swift、Python 等 Supabase 客户端组合使用，因此既能整套接入，也能只选认证、实时订阅、存储或函数等所需模块。
+
+#### 项目概况
+
+- **仓库**：[supabase/supabase](https://github.com/supabase/supabase)
+- **Stars**：113,010
+- **主要语言**：TypeScript
+- **Topics**：ai、alternative、auth、database、deno、embeddings、example、firebase、nextjs、oauth2、pgvector、postgis、postgres、postgresql、postgrest、realtime、supabase、vectors、websockets
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-22T00:49:15Z
+
+#### 热度与增长证据
+
+- GitHub Daily Trending 第 7 名，页面公开 504 stars today
+
+---
+
+<a id="project-detail-24"></a>
+### 24. [twentyhq/twenty](https://github.com/twentyhq/twenty) 🟢
+
+[↖️ 返回表格中的 #24](#project-row-24)
+
+#### 中文分析
+
+把 CRM 当成与业务代码一起构建、发布和版本化的技术栈组件，是 Twenty 最鲜明的思路。团队可以先在 Cloud 中不到一分钟创建工作区，也可以通过 Twenty CLI 搭建应用，把 objects、fields 和 views 写成代码，再发布到工作区；需要掌控基础设施时，则可选择 Self hosting。产品以 objects、views、workflows 和 agents 作为现代 CRM 的基础积木，并允许继续用代码扩展逻辑，而不是把复杂需求限制在固定表单和预设流程里。它还提供适用于 Claude Code、Codex、Cursor、Pi 等编码代理环境的官方技能。底层采用 TypeScript 与 Nx 管理代码，服务端由 NestJS、BullMQ、PostgreSQL 和 Redis 组成，前端使用 React，并结合 Jotai、Linaria 和 Lingui。由此，销售数据结构、界面视图、自动化流程与 AI agents 可以进入同一套可维护、可迭代的工程工作流。
+
+#### 项目概况
+
+- **仓库**：[twentyhq/twenty](https://github.com/twentyhq/twenty)
+- **Stars**：59,171
+- **主要语言**：TypeScript
+- **Topics**：crm、crm-system、customer、good-first-issue、graphql、hacktoberfest、javascript、marketing、monorepo、nestjs、open-source、postgresql、react、reactjs、sales、typescript、web
+- **许可证**：NOASSERTION
+- **最近推送**：2026-10-22T00:49:18Z
+
+#### 热度与增长证据
+
+- GitHub Daily Trending 第 8 名，页面公开 112 stars today
+
+---
+
+<a id="project-detail-25"></a>
+### 25. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
+
+[↖️ 返回表格中的 #25](#project-row-25)
 
 #### 中文分析
 
@@ -800,7 +725,7 @@ DeepSeek Harness（dsh）采用 everything is a plugin 架构，把代理运行�
 #### 项目概况
 
 - **仓库**：[deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
-- **Stars**：255,824
+- **Stars**：256,998
 - **主要语言**：TypeScript
 - **Topics**：ai-agents、cordis、dsh、dsh-plugin
 - **许可证**：MIT
@@ -808,38 +733,38 @@ DeepSeek Harness（dsh）采用 everything is a plugin 架构，把代理运行�
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +1,333
+- 实际快照 1 日 Stars 增量 +1,174
 
 ---
 
-<a id="project-detail-29"></a>
-### 29. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
+<a id="project-detail-26"></a>
+### 26. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
 
-[↖️ 返回表格中的 #29](#project-row-29)
+[↖️ 返回表格中的 #26](#project-row-26)
 
 #### 中文分析
 
-装入 dsh 后，dsh our free model 会从上游动态读取模型集合、上下文长度与能力，并依据本机网络出口探测可用性。被网关明确拒绝路由的模型从选择器移除，地区限制单列为 region limited，5xx、429、超时与断网则不会直接判定模型失效。思考控制按模型实际能力下发 reasoning effort 档位或输出 token 预算，设置页同时记录探测和用量。应用内升级依次下载、校验 SHA 256、备份、原子替换并回读验证，失败自动回滚，成功后可热重载。模型还可经本地 OpenAI 兼容端口提供给其他工具，支持 Chat Completions、Responses API 以及 POST /v1/messages。自带 Key 的聚合注册表列出 75 家提供商，另有十一个账号渠道、Kilo 免费池与原匿名通道；任意车道能组成 combo: 降级链。RTK 在发送请求前压缩工具输出，用量统计留在本机。README 末尾区分了已提供的 DSH 插件与开发中的 packages/standalone 独立服务，后者使用独立目录、端口及 API Key，不读取插件数据，安装制品尚未发布。
+装进 dsh 后，无需登录、注册或填写 API Key，模型选择器就会展示当前网络出口实际可用的 DeepSeek V4.1 Flash、Kimi K3 等模型；清单、上下文长度和能力会随上游刷新，而非依赖插件内的静态快照。插件采用纯插件挂载，不改内核、没有构建步骤且零依赖，并按响应体形状识别流式响应，避免网关错误标注 content type 时误判模型。设置区不仅提供 Token 热力图、首字延迟和输出速度等本机统计，还支持应用内升级与热重载；升级过程依次完成下载、SHA 256 校验、备份、原子替换和回读，失败会自动回滚。本地网关同时提供 OpenAI 兼容接口与 POST /v1/messages，可供 Claude Code、Codex、OpenAI SDK 或 Anthropic SDK 调用。用户还能接入 Kilo 渠道、第三方聚合渠道及多个账号渠道，用路由把任意模型组成 combo: 降级链，并通过工具输出压缩减少发送给模型的 Token。
 
 #### 项目概况
 
 - **仓库**：[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
-- **Stars**：30,897
+- **Stars**：33,896
 - **主要语言**：JavaScript
 - **Topics**：ai-agents、deepseek、deepseek-harness、developer-tools、dsh、dsh-plugin、free-model、llm、model-provider、openai-compatible
 - **许可证**：MIT
-- **最近推送**：2026-10-20T15:47:03Z
+- **最近推送**：2026-10-21T16:28:10Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +3,111
+- 实际快照 1 日 Stars 增量 +2,999
 
 ---
 
-<a id="project-detail-30"></a>
-### 30. [storytold/photocraft](https://github.com/storytold/photocraft)
+<a id="project-detail-27"></a>
+### 27. [storytold/photocraft](https://github.com/storytold/photocraft)
 
-[↖️ 返回表格中的 #30](#project-row-30)
+[↖️ 返回表格中的 #27](#project-row-27)
 
 #### 中文分析
 
@@ -848,22 +773,46 @@ DeepSeek Harness（dsh）采用 everything is a plugin 架构，把代理运行�
 #### 项目概况
 
 - **仓库**：[storytold/photocraft](https://github.com/storytold/photocraft)
-- **Stars**：69,681
+- **Stars**：70,647
 - **主要语言**：Rust
 - **Topics**：art、image-editing、image-editing-software、image-editor、images、photo-editing、rust
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T00:55:07Z
+- **最近推送**：2026-10-22T00:28:12Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +1,083
+- 实际快照 1 日 Stars 增量 +966
 
 ---
 
-<a id="project-detail-31"></a>
-### 31. [mattpocock/skills](https://github.com/mattpocock/skills)
+<a id="project-detail-28"></a>
+### 28. [strelov1/freehire](https://github.com/strelov1/freehire) 🟢
 
-[↖️ 返回表格中的 #31](#project-row-31)
+[↖️ 返回表格中的 #28](#project-row-28)
+
+#### 中文分析
+
+职位不经过招聘中介或重复转载，而是直接从企业自己的 ATS 与招聘页面进入 freehire：Workday、Greenhouse、Lever、Ashby、iCIMS 等来源由抓取适配器持续采集，再统一成一种数据结构，并按稳定键去重，因此同一岗位出现在多个站点时只保留一个条目，链接仍指向原始招聘页。搜索支持 region、work mode、seniority、skills 和 salary 等分面，这些属性来自整理过的词典而非猜测。围绕职位目录，仓库继续提供简历生成、ATS safe PDF templates、确定性的 CV↔vacancy scoring、申请阶段看板、关联招聘者回复的邮箱以及 append only event ledger；内置代理则覆盖对话、浏览、个人资料、简历定制和面试演练。服务端只负责 API，抓取、富化、索引和通知均由适合 cron 的一次性 worker 执行。公开接口 GET https://freehire.me/api/v1/jobs 无需密钥；也可用 Docker Compose 自托管，以 Go、PostgreSQL、Redis、S3 compatible object storage 和 Svelte 5 组成完整工作区。
+
+#### 项目概况
+
+- **仓库**：[strelov1/freehire](https://github.com/strelov1/freehire)
+- **Stars**：2,392
+- **主要语言**：Go
+- **Topics**：ats、career、careers、golang、hiring、job-aggregator、job-board、job-portal、job-scraper、job-search、jobs、langchain、llm、meilisearch、postgresql、recruitment、remote-jobs、self-hosted、svelte、sveltekit
+- **许可证**：MIT
+- **最近推送**：2026-10-22T01:03:25Z
+
+#### 热度与增长证据
+
+- GitHub Daily Trending 第 10 名，页面公开 360 stars today
+
+---
+
+<a id="project-detail-29"></a>
+### 29. [mattpocock/skills](https://github.com/mattpocock/skills)
+
+[↖️ 返回表格中的 #29](#project-row-29)
 
 #### 中文分析
 
@@ -872,15 +821,63 @@ DeepSeek Harness（dsh）采用 everything is a plugin 架构，把代理运行�
 #### 项目概况
 
 - **仓库**：[mattpocock/skills](https://github.com/mattpocock/skills)
-- **Stars**：298,692
+- **Stars**：299,883
 - **主要语言**：Shell
 - **Topics**：未标注
 - **许可证**：MIT
-- **最近推送**：2026-10-19T15:52:15Z
+- **最近推送**：2026-10-21T14:30:23Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +1,175
+- 实际快照 1 日 Stars 增量 +1,191
+
+---
+
+<a id="project-detail-30"></a>
+### 30. [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)
+
+[↖️ 返回表格中的 #30](#project-row-30)
+
+#### 中文分析
+
+当 CAD、三维编辑器、笔记软件或工作流平台原本主要依赖图形界面时，CLI-Anything 为它们补上一层可被 Pi、Cursor、Claude Code 等智能体稳定调用的命令行入口。用户先执行 pip install cli anything hub，再用 cli hub install 浏览、安装和管理社区构建的 CLI；统一的 CLI Hub 不只收录仓库内工具，也支持来自 pip、npm、brew 及系统工具等不同安装源。各类 harness 把软件能力整理成可编排操作，并配套预览、live preview 与 trajectory loops，让智能体能够迭代地产出 CAD 构建、3D 场景、图表、游戏过程或字幕等真实文件。仓库覆盖的软件类型相当广，从 QGIS、ArcGIS Pro、Calibre、Joplin、Obsidian 到 n8n、Safari 和 Unreal Insights，并持续通过测试、真实端到端证据及安全修复完善实现。技能文档统一汇入顶层 skills/，也能通过 npx skills add 安装，方便智能体获得对应 CLI 的调用说明。
+
+#### 项目概况
+
+- **仓库**：[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)
+- **Stars**：55,936
+- **主要语言**：Python
+- **Topics**：未标注
+- **许可证**：Apache-2.0
+- **最近推送**：2026-09-22T02:01:29Z
+
+#### 热度与增长证据
+
+- GitHub Weekly Trending 第 11 名，页面公开 3,681 stars this week
+
+---
+
+<a id="project-detail-31"></a>
+### 31. [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) 🟢
+
+[↖️ 返回表格中的 #31](#project-row-31)
+
+#### 中文分析
+
+打开电视后只看到自己的应用、壁纸和 Apple TV 航拍屏保，正是 Aerial 想替代国产电视推荐流的体验。首页以大号时钟和每行五个应用磁贴组成，焦点浮起后显示名称；横幅、方形图标和自适应图标分别采用不同渲染方式，HDMI、AV、电视天线也能固定成信号源磁贴。长按 OK 键可以移动、隐藏、查看信息或卸载应用，第一行向上进入控制中心，集中调整网络、音量、亮度、壁纸、天气与屏保。安装不要求 root，也不删除系统应用，而是通过 ADB 调试授予所需权限。接管过程先申请 HOME 角色；遇到小米、TCL 等坚持启动原桌面的固件，再由无障碍服务检测前台窗口并拉回 Aerial。若待机后被强制停止，系统会重新绑定通知监听，使桌面复活并恢复守护。屏保可播放 114 段航拍影片、每日精选或个人照片，手机扫描带随机令牌的二维码即可上传和切换内容。界面按 960×540dp 等比缩放，并限制每帧最多一次全屏绘制，以适应电视较弱的 GPU。
+
+#### 项目概况
+
+- **仓库**：[pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv)
+- **Stars**：2,103
+- **主要语言**：Kotlin
+- **Topics**：未标注
+- **许可证**：MIT
+- **最近推送**：2026-10-21T15:50:36Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +1,426
 
 ---
 
@@ -896,7 +893,7 @@ ECC 试图把编码智能体从“收到提示后直接写代码”改造成一�
 #### 项目概况
 
 - **仓库**：[affaan-m/ECC](https://github.com/affaan-m/ECC)
-- **Stars**：284,923
+- **Stars**：285,738
 - **主要语言**：JavaScript
 - **Topics**：ai-agents、anthropic、claude、claude-code、developer-tools、llm、mcp、productivity
 - **许可证**：MIT
@@ -904,62 +901,14 @@ ECC 试图把编码智能体从“收到提示后直接写代码”改造成一�
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +767
+- 实际快照 1 日 Stars 增量 +815
 
 ---
 
 <a id="project-detail-33"></a>
-### 33. [Niko1221/Strata](https://github.com/Niko1221/Strata)
+### 33. [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy)
 
 [↖️ 返回表格中的 #33](#project-row-33)
-
-#### 中文分析
-
-让普通电脑运行约 1250 亿参数模型，是 Strata 的主要目标：聊天、代码生成、图片理解以及智能体连接共用本地引擎，并提供 OpenAI 与 Anthropic APIs，使 Claude Code、Codex CLI、OpenCode 等工具能够接入。新版先给出三个入口：带内置引擎的桌面应用、用于脚本和服务器的 strata Terminal，以及交给编码助手执行的安装流程。桌面首次启动会读取硬件并推荐可容纳的模型，下载中断可以续传；Terminal 则逐项询问模型、上下文、图片与连接权限，下载匹配显卡的引擎后开始提供服务。内存门槛按 RAM 与 VRAM 合计计算，Mac 和 Ryzen AI Max 使用统一内存口径；32 GB 级设备可考虑 Gyro S 或偏代码用途的 Coder，更大内存逐步选择 IQ2 XS、IQ3 XXS、IQ3 S 等规格。Gyro 使用较少显存，但 README 同时列出其速度和质量取舍，并注明尚不支持 Intel Arc 或 Mac。Windows、Linux、Apple Silicon 各有安装路径，多卡可共享同一模型，但不混用 NVIDIA 与 AMD 显卡切分。聊天和文件留在本机，模型仍需约 40–70 GB 下载空间以及充足磁盘。
-
-#### 项目概况
-
-- **仓库**：[Niko1221/Strata](https://github.com/Niko1221/Strata)
-- **Stars**：29,228
-- **主要语言**：C++
-- **Topics**：未标注
-- **许可证**：MIT
-- **最近推送**：2026-10-20T22:17:55Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +923
-
----
-
-<a id="project-detail-34"></a>
-### 34. [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter)
-
-[↖️ 返回表格中的 #34](#project-row-34)
-
-#### 中文分析
-
-把人生中的健康、金钱、法律、工作、婚育、急救和出国问题整理成 765 条可检索建议，是这份高性价比人生指南的主要做法。它不是要求逐项完成的任务清单，而是一份需要时再查的备选单；每条都会交代花费的钱、时间、精力或毅力，以及可能换回的寿命、时间精力、金钱或人身自由。证据等级分为 A、B、C，来源以期刊论文、法条和官方文件为主，争议证据及待核实数字也会明确标记。读者可在检索页按关键词、章节、证据等级和成本条件叠加筛选，也能下载离线单文件版、PDF、EPUB 或 Anki 卡片；其中 Anki 以一条建议一张卡的方式保留“说人话”、成本和证据等级。仓库还附带中文 skill，可让 Claude Code 和 Codex 先检索正文再回答，并注明具体章节与条目。若自行托管，README.md 和 book/ 就是纯静态检索页的数据，不需要后端、数据库或额外依赖，但 index.html 需要通过 http 打开。
-
-#### 项目概况
-
-- **仓库**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter)
-- **Stars**：67,084
-- **主要语言**：HTML
-- **Topics**：未标注
-- **许可证**：CC-BY-4.0
-- **最近推送**：2026-10-15T09:38:22Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +679
-
----
-
-<a id="project-detail-35"></a>
-### 35. [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy)
-
-[↖️ 返回表格中的 #35](#project-row-35)
 
 #### 中文分析
 
@@ -968,7 +917,7 @@ Anatomy 不只是把概念画成示意图，而是要求智能体为概念发明
 #### 项目概况
 
 - **仓库**：[wheresryan22/anatomy](https://github.com/wheresryan22/anatomy)
-- **Stars**：17,594
+- **Stars**：18,546
 - **主要语言**：JavaScript
 - **Topics**：agent-skill、open-source、svg、vizualization
 - **许可证**：MIT
@@ -976,86 +925,110 @@ Anatomy 不只是把概念画成示意图，而是要求智能体为概念发明
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +710
+- 实际快照 1 日 Stars 增量 +952
+
+---
+
+<a id="project-detail-34"></a>
+### 34. [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad)
+
+[↖️ 返回表格中的 #34](#project-row-34)
+
+#### 中文分析
+
+向智能体描述零件需求后，text-to-cad 会在本地运行 CAD 工作流，生成 STEP, GLB, STL or 3MF files，并继续完成 design for manufacturing checks、工程图制作，以及对接常见 3D 打印、钣金和 CNC 加工服务。插件不仅带来建模技能，也启动 cadgen mcp 本地服务；支持应用视图的客户端可直接在对话里显示可旋转的模型卡片，终端类宿主则返回一个浏览器 CAD Viewer 链接。运行环境由 uv 管理，首次启动需要联网下载 CAD runtime，之后技能与服务端共用同一版本的 cadgen。Claude Code、Codex、Cursor、Gemini 和 Grok 各有对应安装或更新方式，不支持插件的智能体也可单独通过 Skills CLI 安装工作流，但同一应用不应同时装插件和独立技能，以免每项能力重复出现。默认遥测只发送随机 ID 标记的使用统计和崩溃报告，不包含文件、路径或提示词；若不希望启用，可执行 uvx cadgen telemetry off。
+
+#### 项目概况
+
+- **仓库**：[earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad)
+- **Stars**：22,288
+- **主要语言**：Python
+- **Topics**：agents、ai-agents、cad、mechanical-engineering、robotics、step、stl、stp、text-to-cad
+- **许可证**：MIT
+- **最近推送**：2026-10-21T22:51:50Z
+
+#### 热度与增长证据
+
+- GitHub Weekly Trending 第 15 名，页面公开 2,000 stars this week
+
+---
+
+<a id="project-detail-35"></a>
+### 35. [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter)
+
+[↖️ 返回表格中的 #35](#project-row-35)
+
+#### 中文分析
+
+767 条建议被整理成一份随用随查的备选单，内容横跨长寿防病、急救、消费与理财、劳动权益、婚育、法律红线、创业合规、出国和技能学习；读者无需从头做到尾，挑出一两条当下有用的即可。每条都会交代要付出的钱、时间、精力或毅力，以及可能换回的寿命、金钱、时间精力或人身自由，并标注证据等级。A级要求有可核对的具体数字，来源可能是荟萃分析、大型队列、RCT，法律政策内容则对应法条或官方文件；检索页还能按章节、关键词、成本和证据等级组合筛选。只想快速决策时可先读“说人话”，需要复核再看收益栏和原始出处。阅读形态也很完整：在线版会随 book/ 正文更新，离线单文件双击即可使用，另有 PDF、EPUB 和 Anki 卡片。仓库还附带供 Claude Code 和 Codex 使用的中文 skill，提问后会先检索相关条目，按书中的计算方式排序，并标明具体节与条；查不到时不会自行编造数字。自行部署只需静态服务器，不依赖后端、数据库或额外安装包。
+
+#### 项目概况
+
+- **仓库**：[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter)
+- **Stars**：67,608
+- **主要语言**：HTML
+- **Topics**：未标注
+- **许可证**：CC-BY-4.0
+- **最近推送**：2026-10-21T07:20:02Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +524
 
 ---
 
 <a id="project-detail-36"></a>
-### 36. [yetone/magpie](https://github.com/yetone/magpie)
+### 36. [Niko1221/Strata](https://github.com/Niko1221/Strata)
 
 [↖️ 返回表格中的 #36](#project-row-36)
 
 #### 中文分析
 
-当 Claude Code、Codex、Gemini CLI 等智能体各自保存模型、密钥和 base URL 时，magpie 用一个应用和位于 127.0.0.1:3425 的本地网关把它们归拢起来。安装后进入 Providers → Add provider，选择预设并填写 API Key 或登录订阅，再到 Agents 页面为每个已安装的智能体挑选模型；新会话便会采用新配置。它只原子改写智能体配置中必要的值，并保留原有注释、顺序和格式，Profiles 还能把一整套智能体配置保存成 Budget、Focus 等方案后一键切换。网关同时理解 OpenAI Chat、OpenAI Responses、Anthropic Messages 和 Gemini 协议，并转换流式响应、工具调用与 reasoning，因此任何可填写 base URL 的客户端也能接入。Routing groups 可按 smart、order、rotate、usage 或 pace 在多个模型、密钥和订阅账号之间分流，额度耗尽时自动接续，同时尽量维持会话粘性以保留提示缓存。订阅账号发现默认会读取部分智能体登录文件和 Keychain；若不希望扫描，可关闭 Settings → Privacy → Subscription accounts，运行 magpie accounts discovery off，或为单次运行设置 MAGPIE NO ACCOUNTS=1。
+把通常依赖服务器的 1250 亿参数模型搬到普通游戏 PC 上，是 Strata 最直接的目标：它可在 NVIDIA、AMD、Intel、Apple Silicon 和 Ryzen AI Max 等硬件上运行，让模型聊天、写代码、读取图片，并通过 OpenAI 和 Anthropic APIs 接入 Claude Code、Codex CLI、OpenCode 等工具。图形应用适合初次使用者，安装后会检测机器、推荐模型，用户选定后即可下载并聊天；Terminal 版本则以 strata 命令服务脚本、服务器和 AI 智能体，启动时依次询问模型、上下文、图片支持及连接范围，再下载匹配显卡的引擎和模型并开始提供服务。内存与显存合计至少需要 32 GB，模型通常还会占用约 40～70 GB 下载空间；不同压缩尺寸在速度、质量和内存需求之间取舍，低内存机器还可执行 strata launch --model gyro-s。下载支持断点续传，引擎在使用前经过签名校验和测试启动，聊天与文件留在本机，且不包含遥测。
 
 #### 项目概况
 
-- **仓库**：[yetone/magpie](https://github.com/yetone/magpie)
-- **Stars**：17,966
-- **主要语言**：Go
-- **Topics**：claude-code、codex、deepseek、gemini-cli、llm、macos
+- **仓库**：[Niko1221/Strata](https://github.com/Niko1221/Strata)
+- **Stars**：29,950
+- **主要语言**：C++
+- **Topics**：未标注
 - **许可证**：MIT
-- **最近推送**：2026-10-21T00:41:00Z
+- **最近推送**：2026-10-21T10:46:11Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +935
+- 实际快照 1 日 Stars 增量 +722
 
 ---
 
 <a id="project-detail-37"></a>
-### 37. [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee)
+### 37. [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) 🟢
 
 [↖️ 返回表格中的 #37](#project-row-37)
 
 #### 中文分析
 
-Filee 把文件转换入口放在鼠标所在的位置：按住 Ctrl（macOS 上为 Option）拖动文件，光标旁便会展开 donut，只显示适用于当前文件的格式；把文件投入对应区域即可转换，结果保存在原文件旁，无需先打开应用窗口。它支持 255 formats，覆盖图片、PDF、Word、Excel、PowerPoint、HWP/HWPX、电子书、压缩包、字体、CAD、3D 模型及地理空间数据，常规路径无需 Office、Hancom Office 或 LibreOffice，带脚注的路径则按需下载 Ghostscript、LibreOffice、Pandoc、calibre、FFmpeg 等可选引擎。整个过程可离线完成，Nothing is uploaded；从 Chrome、Edge、Firefox 或 Safari 拖出的图片、文件链接和下载项也能直接处理。每种文件类型拥有可拖放编排的工具栏与独立配置，可设置质量、尺寸、DPI、PDF 页码、压缩、音视频参数、输出目录和文件名；donut 打开时按 Tab 或滚动鼠标，还能翻到较少使用的格式与工具。批量任务会并行执行，HWP → HWPX → DOCX 这类多步 Routes 可自动寻找，也能通过 Watch folders 持续转换新放入的文件。除拖拽手势外，还可从右键菜单、键盘快捷键和 drop zone 进入；Home 会以缩略图展示近期转换，便于打开结果或交给其他应用。Windows 提供带版本号的安装包，或解压便携版后运行 Filee.exe，macOS 13+ 与 Ubuntu 22.04+ 则解压后执行 ./install.sh；Linux 的拖拽手势依赖 X11，Wayland 环境可改用 drop zone 和文件管理器右键菜单。
+电视开机后不再被赞助横幅和自动播放内容占满，Free My TV 用一排可自行排序的应用、每小时更新的三个趋势推荐，以及电影和剧集标签页重做主屏体验。天气、逐小时预报、日出日落和加密货币价格可一键查看，界面会跟随所在城市的真实日落切换明暗主题，待机时则显示推荐内容、全屏图片和玻璃质感时钟。Google TV 与 Android TV 用户可开启 developer mode 和 USB debugging，再由同一 Wi-Fi 下的电脑构建并通过 adb 安装；首次构建生成 config.properties，用于填写城市、TMDB key 等设置，之后多数选项也能在 Home Settings 中直接修改。LG webOS 版本通过 Developer Mode 安装，并可把遥控器数字键绑定为快捷入口；Samsung Tizen 版本同样保留原厂主屏，可设置 Autorun Last App 让电视开机进入应用。整个过程无需 root，也不会卸载系统组件，一键即可恢复原厂主屏。
 
 #### 项目概况
 
-- **仓库**：[KnifeLemon/Filee](https://github.com/KnifeLemon/Filee)
-- **Stars**：8,030
-- **主要语言**：C#
-- **Topics**：audio-converter、avalonia、batch-conversion、converter、csharp、document-converter、docx-to-pdf、dotnet、drag-and-drop、file-conversion、file-converter、heic-converter、hwp、hwpx、image-converter、linux、macos、pdf-converter、video-converter、windows
+- **仓库**：[simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv)
+- **Stars**：2,740
+- **主要语言**：Java
+- **Topics**：android-tv、claude-code、google-tv、home-screen、launcher、no-ads、open-source、tmdb
 - **许可证**：MIT
-- **最近推送**：2026-10-21T01:07:51Z
+- **最近推送**：2026-10-22T00:53:54Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +1,560
+- 实际快照 1 日 Stars 增量 +917
 
 ---
 
 <a id="project-detail-38"></a>
-### 38. [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft)
+### 38. [obra/superpowers](https://github.com/obra/superpowers)
 
 [↖️ 返回表格中的 #38](#project-row-38)
-
-#### 中文分析
-
-改动一个尺寸后让整个实体沿参数化时间线重建，是 SolidCraft 的直接操作方式。README 用 Raspberry Pi 4 外壳演示了从带约束草图开始，依次拉伸、倒圆角、抽壳、阵列支柱、开通风槽并雕刻文字，最后把高度从 24 改成 32 mm 后联动更新。草图约束由自有求解器处理，extrude、revolve、sweep、loft、fillet 等特征都保留在可编辑时间线上，还能继续组织带关节和运动研究的装配、检查干涉与质量属性，或创建可折叠和展开的钣金。桌面端、浏览器、headless CLI 与 MCP server 执行相同命令；solidcraft cli mcp 可以独立维护设计会话，也能连接运行中的应用，让用户观察智能体建模，JSON 命令列表则交由 solidcraft cli run 执行。文件交换覆盖有支持的 STEP、IGES、3MF、STL、OBJ 和 glTF 路径，并提供 URDF 导出。当前成熟度仍是简单零件可用阶段：76 个公开参考零件中有 75 个的体积、面积、质心和包围盒匹配解析值或 FreeCAD 结果，另一个问题仍在跟踪。
-
-#### 项目概况
-
-- **仓库**：[tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft)
-- **Stars**：8,291
-- **主要语言**：Rust
-- **Topics**：3d-modeling、brep、cad、egui、mcp、parametric-cad、rust、step、wasm
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T01:08:31Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +979
-
----
-
-<a id="project-detail-39"></a>
-### 39. [obra/superpowers](https://github.com/obra/superpowers)
-
-[↖️ 返回表格中的 #39](#project-row-39)
 
 #### 中文分析
 
@@ -1064,190 +1037,94 @@ Superpowers 把软件开发过程拆成会自动触发的 composable skills，�
 #### 项目概况
 
 - **仓库**：[obra/superpowers](https://github.com/obra/superpowers)
-- **Stars**：302,612
+- **Stars**：303,169
 - **主要语言**：Shell
 - **Topics**：ai、brainstorming、coding、obra、sdlc、skills、subagent-driven-development、superpowers
 - **许可证**：MIT
-- **最近推送**：2026-10-20T20:13:38Z
+- **最近推送**：2026-10-21T21:34:31Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +471
+- 实际快照 1 日 Stars 增量 +557
+
+---
+
+<a id="project-detail-39"></a>
+### 39. [yetone/magpie](https://github.com/yetone/magpie)
+
+[↖️ 返回表格中的 #39](#project-row-39)
+
+#### 中文分析
+
+当 Claude Code、Codex、Gemini CLI 等智能体各自保存模型、密钥和 base URL 时，magpie 把这些差异收拢到一个菜单栏应用与本地网关中：在 Agents 页面为每个智能体选择 provider/model 后，它会原子化改写对应配置，同时保留原有注释、顺序和格式；Profiles 还能以“Budget”或“Focus”等名称保存整套组合并一次切换。网关监听 127.0.0.1:3425，兼容 OpenAI Chat、OpenAI Responses、Anthropic Messages 和 Gemini，并处理协议转换、流式输出、工具调用与推理内容，因此任何可配置 base URL 的客户端也能接入。Providers → Add provider 可添加 API key、本地模型或已有订阅账号；多个账号和模型还能组成 routing group，按 smart、order、rotate、usage 或 pace 策略分配请求，在配额耗尽时自动转移。它提供菜单栏、窗口、TUI、web UI 和 CLI，覆盖 macOS、Windows、Linux、Docker 与 Termux；若不希望它读取 Claude Code、Codex 文件或 Keychain 中的登录信息，可关闭 Subscription accounts，或执行 magpie accounts discovery off。
+
+#### 项目概况
+
+- **仓库**：[yetone/magpie](https://github.com/yetone/magpie)
+- **Stars**：18,797
+- **主要语言**：Go
+- **Topics**：claude-code、codex、deepseek、gemini-cli、llm、macos
+- **许可证**：MIT
+- **最近推送**：2026-10-21T22:45:48Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +831
 
 ---
 
 <a id="project-detail-40"></a>
-### 40. [tt-a1i/archify](https://github.com/tt-a1i/archify)
+### 40. [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5)
 
 [↖️ 返回表格中的 #40](#project-row-40)
 
 #### 中文分析
 
-Archify 让你把一句想法、问题或计划交给 Cursor、Claude Code、Codex CLI、OpenCode 等 AI agent，生成可探索、可定制、可分享的交互式 HTML 图。它不要求先有仓库：可以直接描述旅行行程或学习地图，也可以让 agent 读取代码库，产出带来源的架构图；随后继续发出“Add authentication”“Highlight the cache miss path”“Switch to the light theme”等指令修改结果。除了单张图，agent 还能按问题生成 explainer 页面，结论先行，再为每个问题安排面板，面板可组合表格、步骤、图表、代码和已验证的图示；步骤会与图并排并在阅读时点亮相关部分，点击节点可打开完整交互视图。声明会引用编号来源，仓库摘录固定到具体 commit 并在 source card 中打开，所有输出是带四种样式及明暗主题的单一 HTML 文件，可导出 PNG、WebP、JPG 长图或打印 PDF。生成后仍可让 agent 只改某个面板、接入链接或增加交互，仓库中的 scenarios、JSON 源文件和 validation receipts 也用于复核已检查的示例。
+AnyPS5 采用“转换后原生运行”的路线处理 PS5 可执行文件：relinker 将可执行文件转换为 Linux 或 Windows 的本机格式，配套系统库实现则提供动态链接所需接口，运行时不依赖模拟器或单独的常驻进程，所处理的文件也留在用户设备上。当前兼容度按游戏分别跟踪，进度页记录已到达阶段、公开阻塞项、系统库与 GPU 覆盖情况；系统库百分比仅代表项目已经声明的函数中完成了多少，并不等于全部 PS5 系统函数的覆盖率。图形转换能够产出 SPIR-V，并可在启用 SPIRV-Tools 校验选项的构建中进行验证。输入侧支持 SDL 映射的游戏手柄及其摇杆、扳机，也可通过 anyps5-input.ini 配置键盘和鼠标。实现对异常状态采取严格策略：遇到不支持或非预期状态会抛出 运行时异常，将 what() 输出到 stderr 后终止进程。项目定位于互操作、研究、保存与兼容，不提供受版权保护的软件、固件、密钥或专有库。
 
 #### 项目概况
 
-- **仓库**：[tt-a1i/archify](https://github.com/tt-a1i/archify)
-- **Stars**：86,463
-- **主要语言**：JavaScript
-- **Topics**：agent-skills、ai-agents、architecture-diagram、claude-code、claude-skills、codex、coding-agents、deepseek-harness、developer-tools、diagrams、diagrams-as-code、dsh-plugin、flowchart、llm、mermaid、opencode、sequence-diagram、software-architecture、system-design、visualization
-- **许可证**：MIT
-- **最近推送**：2026-10-20T12:04:50Z
+- **仓库**：[boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5)
+- **Stars**：46,376
+- **主要语言**：C++
+- **Topics**：anyps5、dynamic-library、game-porting、ps5、ps5-tools、spir-v、vulkan
+- **许可证**：GPL-2.0
+- **最近推送**：2026-10-21T21:32:12Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +597
+- 实际快照 1 日 Stars 增量 +828
 
 ---
 
 <a id="project-detail-41"></a>
-### 41. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
+### 41. [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee)
 
 [↖️ 返回表格中的 #41](#project-row-41)
 
 #### 中文分析
 
-Agent Reach 把“让智能体访问互联网”拆成选型、安装、体检和路由四件事，而网页或平台内容仍由 Agent 直接调用上游工具读取，并不经过额外包装层。安装后，网页、YouTube、RSS、全网搜索、GitHub 和 B站等零配置渠道可以立即使用；Twitter、小红书、Reddit、Facebook、Instagram 等依赖登录态的平台，则由用户点名后再配置。每个平台维护“首选 + 备选”的有序后端列表，渠道会真实探测候选工具是否完整可用，并选择第一个通过检查的路径；当平台限制或工具失效时，只需调整路由，不必重写整套能力。agent reach doctor 会报告各渠道当前采用的后端、故障位置和修复办法。安全边界也很明确：agent reach install 默认只检查环境，不自动安装系统包或写配置；明确授权后才使用 agent reach install system，执行前还可用 agent reach install dry run 预览操作。Cookie 与 Token 保存在本机配置中，涉及脚本化登录的平台仍存在封号风险，README 因此要求使用专用小号。OpenClaw 还必须先开启 exec 权限，其他能运行命令行的 Agent 则可通过 SKILL.md 自行选择 curl、gh、yt dlp、bili search、Exa 或 feedparser 等工具。
+按住 Ctrl（macOS 使用 Option）拖动文件，光标旁就会展开一个 donut，只显示适用于当前文件的输出格式；把文件放到相应扇区即可转换，无需先打开主窗口。Filee 支持 255 formats，范围从图片、PDF、Word、Excel、PowerPoint、HWP/HWPX 到音视频、电子书、压缩包、字体、CAD、3D 模型和地理空间数据，未标注脚注的格式开箱即用，无需 Office、Hancom Office 或 LibreOffice；带脚注的路径会按需下载 Ghostscript、LibreOffice、Pandoc、calibre 或 FFmpeg 等可选引擎。转换全程离线，结果默认保存在原文件旁边；从 Chrome、Edge、Firefox 或 Safari 拖出的图片、下载链接也能直接处理。donut 可按文件类型分别排列，按 Tab 或滚动鼠标可翻到另一面查看较少使用的工具；预设则控制质量、尺寸、DPI、PDF 页码、压缩率、输出目录和文件名。它支持批量并行任务，会自动寻找 HWP → HWPX → DOCX 这样的多步 routes，还能用 Watch folders 自动转换新进入目录的文件。除拖放外，用户也可从右键菜单、快捷键、drop zone 或 filee command 进入；Linux 的拖动手势依赖 X11，在 Wayland 下可改用 drop zone 与文件管理器右键菜单。
 
 #### 项目概况
 
-- **仓库**：[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
-- **Stars**：100,303
-- **主要语言**：Python
-- **Topics**：agent-infrastructure、ai-agent、ai-search、automation、bilibili、claude-code、cli、cursor、free-api、llm-tools、mcp、python、reddit-scraper、twitter-scraper、web-scraper、xiaohongshu、youtube-transcript
+- **仓库**：[KnifeLemon/Filee](https://github.com/KnifeLemon/Filee)
+- **Stars**：9,133
+- **主要语言**：C#
+- **Topics**：audio-converter、avalonia、batch-conversion、converter、csharp、document-converter、docx-to-pdf、dotnet、drag-and-drop、file-conversion、file-converter、heic-converter、hwp、hwpx、image-converter、linux、macos、pdf-converter、video-converter、windows
 - **许可证**：MIT
-- **最近推送**：2026-10-20T11:24:28Z
+- **最近推送**：2026-10-21T09:46:42Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +586
+- 实际快照 1 日 Stars 增量 +1,103
 
 ---
 
 <a id="project-detail-42"></a>
-### 42. [storytold/wordcraft](https://github.com/storytold/wordcraft)
+### 42. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
 
 [↖️ 返回表格中的 #42](#project-row-42)
-
-#### 中文分析
-
-熟悉 Word 的人几乎不用重新学习 WordCraft：功能区、快捷键、实时 Styles 样式库、标尺与 Navigation pane 都沿用常见的文档编辑流程，Enter 可延续列表，Tab 可降低列表级别，F7 用于拼写检查，F4 则重复上一步操作。它不仅能读写 .docx，还可处理 .odt、.rtf、.html、.md、.tex 与 .txt，并导出带可选择文字、链接和书签的 PDF。写作之外，表格、目录、脚注、引文、索引、邮件合并、批注和 track changes 已组成较完整的办公文档工具链；段落布局会被缓存，页面按需渲染，以维持长文档输入速度。macOS、Windows、Linux、BSD 和 WebAssembly 共用一套 Rust 代码，并直接使用 GPU，而非依赖 Electron 或 Tauri。其自动化设计尤其鲜明：功能区、快捷键、命令搜索、命令行、JSON 控制通道和 MCP server 共用 422 个带 ID 的命令，智能体可以执行批处理、输入或选择文字、检查文档、渲染页面，也能借助 tools.recordMacro 录制并回放操作。
-
-#### 项目概况
-
-- **仓库**：[storytold/wordcraft](https://github.com/storytold/wordcraft)
-- **Stars**：15,070
-- **主要语言**：Rust
-- **Topics**：未标注
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T15:39:51Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +299
-
----
-
-<a id="project-detail-43"></a>
-### 43. [paperclipai/paperclip](https://github.com/paperclipai/paperclip)
-
-[↖️ 返回表格中的 #43](#project-row-43)
-
-#### 中文分析
-
-Paperclip 用 Node.js server 与 React UI 把多智能体协作呈现成任务管理器：先写下业务目标，再组建由 CEO、CTO、工程师、设计师或营销角色构成的团队，审核策略、设置预算并从 dashboard 启动和观察执行。接入并不限定某种模型或运行时，只要智能体能够接收 Heartbeats，就能在获得任务、跟进消息或到达计划时间时醒来工作；OpenClaw、Claude Code、Codex、Cursor、Gemini CLI 等可以共处于同一组织结构。系统围绕任务、组织、训练与基础设施四部分展开，Org Chart 描述上下级、职责和权限边界，Goal Alignment 将任务和项目连接到公司目标，Task Threads 保存对话、计划、阻塞、文件及运行历史。Cost Control 可按公司、智能体和项目追踪支出，在阈值告警或预算上限处暂停工作；Governance 则配置审查与批准阶段，并允许人工暂停、改派或终止任务。Skill Studio 支持编写共享技能、用保存的输入测试、检查结果及恢复旧版本，Scheduled Routines 还能通过时间表、API 或 webhook 重复执行，每次运行都有负责人、任务和可审计历史。
-
-#### 项目概况
-
-- **仓库**：[paperclipai/paperclip](https://github.com/paperclipai/paperclip)
-- **Stars**：105,254
-- **主要语言**：TypeScript
-- **Topics**：acpx、agent-orchestration、agent-skills、agentic-ai、ai-agents、ai-engineering、ai-governance、ai-tools、autonomous-agents、claude、claude-code、claude-skills、codex、hermes、llm、mcp、multi-agent、openclaw、project-management、workflow-automation
-- **许可证**：MIT
-- **最近推送**：2026-10-21T01:09:00Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +496
-
----
-
-<a id="project-detail-44"></a>
-### 44. [storytold/pdfcraft](https://github.com/storytold/pdfcraft)
-
-[↖️ 返回表格中的 #44](#project-row-44)
-
-#### 中文分析
-
-PdfCraft 把阅读、整理、合并、拆分和保护 PDF 放进一个用纯 Rust 从零编写的原生工作台，可运行于 macOS、Windows、Linux、FreeBSD 和 Web。它强调渲染忠实度：支持复杂文字脚本、从右到左排版、竖排 CJK、彩色 emoji、连字、渐变、混合模式与软遮罩，大页面采用分块渲染，深度缩放仍保持清晰；每页隔离处理，面对损坏文件也能继续渲染。阅读时可连续、单页、双页、旋转或全屏显示，Read mode 提供专注阅读布局；全文搜索边输入边进行，选择文本会按列、CJK 和 RTL 的正确阅读顺序复制。Organize pages 将页面像卡片一样铺开，可多选后旋转、删除、插入空白页或其他文件页面并调整顺序，Undo 可在保存后继续回退。保存采用增量写入、临时文件替换和 qpdf 校验，原始字节不被直接覆盖，自动保存和异常退出恢复也会保留工作。Combine files 会为每个输入文件建立书签，Extract 与 Split 会重连链接和 named destinations，并保留表单、图层和附件；加密文档支持从 40 位 RC4 到 AES 256 的完整 PDF 安全处理。
-
-#### 项目概况
-
-- **仓库**：[storytold/pdfcraft](https://github.com/storytold/pdfcraft)
-- **Stars**：16,660
-- **主要语言**：Rust
-- **Topics**：document-processing、documents、pdf、pdf-generation、pdf-processing、pdf-tools、pdf-viewer、rust
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T00:17:34Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +355
-
----
-
-<a id="project-detail-45"></a>
-### 45. [HeyPuter/everything](https://github.com/HeyPuter/everything)
-
-[↖️ 返回表格中的 #45](#project-row-45)
-
-#### 中文分析
-
-从 Office、Slack、Photoshop 到 AutoCAD，Everything Project 试图从零重做常见专有软件，并把成果集中在同一个 mono repository 中开放使用。仓库不是单一应用，而是一套仍在扩展的产品集合：办公区已有 Spreadsheet、Documents、Presentation、Whiteboard、PDF、Notes 和 Records；协作区覆盖 Meetings、Teamchat、Email、Contacts、Calendar 与 Signatures；创作和工程工具则延伸到 Photo Studio、Video Studio、Vector Studio、CAD、Parametric、Circuits 和 Building Design。它还提供 Tasks、Projects、Wiki、Accounting、CRM、API Client 等生产力、财务、商业及开发工具，每项都对应 README 中的 Try it 与 Source 入口，便于先在线体验，再进入源码。仓库也收录 Chess、Backgammon、Solitaire、Sudoku 等游戏，其中 Sudoku 提供四档难度、每日谜题和解释解题逻辑的提示。整体辨识度在于它用统一仓库承载跨度极大的软件替代品，而不是只复刻某一类 SaaS；本地开始开发需要 Node.js 22.12 或更新版本。
-
-#### 项目概况
-
-- **仓库**：[HeyPuter/everything](https://github.com/HeyPuter/everything)
-- **Stars**：3,167
-- **主要语言**：JavaScript
-- **Topics**：adobe、cad、office、photoshop、saas、spreadsheet
-- **许可证**：MIT
-- **最近推送**：2026-10-21T01:06:28Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +779
-
----
-
-<a id="project-detail-46"></a>
-### 46. [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) 🟢
-
-[↖️ 返回表格中的 #46](#project-row-46)
-
-#### 中文分析
-
-从高中一道数学题答错，沿先修关系一直回溯到具体小学知识点，是这个知识图谱提出的诊断流程。数学部分按人教版小学、初中与人教 A 版高中必修及选择性必修组织，目前列出 802 个知识点和 3,355 道题；小学英语按人教 PEP 三年级起点建立独立图，不与数学连边。数据以 topics 和 dependencies 描述知识点与依赖，hard、soft 用于区分先修边的强弱，课标条目、教材册次和题库相互关联。README 花了大量篇幅逐项说明来源核实程度：第四学段保留此前从教育部 PDF 识别的文本，小学和高中部分条目尚未逐页核对，高中编号也是自行编排，不是官方编号。九年级下册目录明确标为依据第三方来源的推定，小学部分单元也有不一致或待核标记。整套内容仍是未经教师审核的 AI 初稿，高中题的 verify 与答案来自同一表达式，不能把程序核验理解成独立盲解审核，先修边与诊断用途仍等待教师复核。
-
-#### 项目概况
-
-- **仓库**：[xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy)
-- **Stars**：1,591
-- **主要语言**：Python
-- **Topics**：chinese、curriculum、diagnostic、edtech、education、elementary-school、english、high-school、junior-high-school、k12、knowledge-graph、math、mathematics、middle-school、open-data、primary-school
-- **许可证**：NOASSERTION
-- **最近推送**：2026-10-20T23:33:33Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +642
-
----
-
-<a id="project-detail-47"></a>
-### 47. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
-
-[↖️ 返回表格中的 #47](#project-row-47)
 
 #### 中文分析
 
@@ -1256,7 +1133,7 @@ PdfCraft 把阅读、整理、合并、拆分和保护 PDF 放进一个用纯 Ru
 #### 项目概况
 
 - **仓库**：[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
-- **Stars**：99,873
+- **Stars**：100,582
 - **主要语言**：JavaScript
 - **Topics**：agent-skills、ai-agents、anti-slop、claude-code、codex、cursor、design-system、frontend、landing-page、ui-design、web-design
 - **许可证**：MIT
@@ -1264,31 +1141,151 @@ PdfCraft 把阅读、整理、合并、拆分和保护 PDF 放进一个用纯 Ru
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +500
+- 实际快照 1 日 Stars 增量 +709
+
+---
+
+<a id="project-detail-43"></a>
+### 43. [tt-a1i/archify](https://github.com/tt-a1i/archify)
+
+[↖️ 返回表格中的 #43](#project-row-43)
+
+#### 中文分析
+
+Archify 让你把一句想法、问题或计划交给 Cursor、Claude Code、Codex CLI、OpenCode 等 AI agent，生成可探索、可定制、可分享的交互式 HTML 图。它不要求先有仓库：可以直接描述旅行行程或学习地图，也可以让 agent 读取代码库，产出带来源的架构图；随后继续发出“Add authentication”“Highlight the cache miss path”“Switch to the light theme”等指令修改结果。除了单张图，agent 还能按问题生成 explainer 页面，结论先行，再为每个问题安排面板，面板可组合表格、步骤、图表、代码和已验证的图示；步骤会与图并排并在阅读时点亮相关部分，点击节点可打开完整交互视图。声明会引用编号来源，仓库摘录固定到具体 commit 并在 source card 中打开，所有输出是带四种样式及明暗主题的单一 HTML 文件，可导出 PNG、WebP、JPG 长图或打印 PDF。生成后仍可让 agent 只改某个面板、接入链接或增加交互，仓库中的 scenarios、JSON 源文件和 validation receipts 也用于复核已检查的示例。
+
+#### 项目概况
+
+- **仓库**：[tt-a1i/archify](https://github.com/tt-a1i/archify)
+- **Stars**：87,080
+- **主要语言**：JavaScript
+- **Topics**：agent-skills、ai-agents、architecture-diagram、claude-code、claude-skills、codex、coding-agents、deepseek-harness、developer-tools、diagrams、diagrams-as-code、dsh-plugin、flowchart、llm、mermaid、opencode、sequence-diagram、software-architecture、system-design、visualization
+- **许可证**：MIT
+- **最近推送**：2026-10-21T08:31:47Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +617
+
+---
+
+<a id="project-detail-44"></a>
+### 44. [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft)
+
+[↖️ 返回表格中的 #44](#project-row-44)
+
+#### 中文分析
+
+改动一个尺寸后让整个实体沿参数化时间线重建，是 SolidCraft 的直接操作方式。README 用 Raspberry Pi 4 外壳演示了从带约束草图开始，依次拉伸、倒圆角、抽壳、阵列支柱、开通风槽并雕刻文字，最后把高度从 24 改成 32 mm 后联动更新。草图约束由自有求解器处理，extrude、revolve、sweep、loft、fillet 等特征都保留在可编辑时间线上，还能继续组织带关节和运动研究的装配、检查干涉与质量属性，或创建可折叠和展开的钣金。桌面端、浏览器、headless CLI 与 MCP server 执行相同命令；solidcraft cli mcp 可以独立维护设计会话，也能连接运行中的应用，让用户观察智能体建模，JSON 命令列表则交由 solidcraft cli run 执行。文件交换覆盖有支持的 STEP、IGES、3MF、STL、OBJ 和 glTF 路径，并提供 URDF 导出。当前成熟度仍是简单零件可用阶段：76 个公开参考零件中有 75 个的体积、面积、质心和包围盒匹配解析值或 FreeCAD 结果，另一个问题仍在跟踪。
+
+#### 项目概况
+
+- **仓库**：[tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft)
+- **Stars**：8,896
+- **主要语言**：Rust
+- **Topics**：3d-modeling、brep、cad、egui、mcp、parametric-cad、rust、step、wasm
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-22T01:02:30Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +605
+
+---
+
+<a id="project-detail-45"></a>
+### 45. [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos)
+
+[↖️ 返回表格中的 #45](#project-row-45)
+
+#### 中文分析
+
+从热门动效到可交互小游戏，这份合集把 Claude Opus 5.5 生成的视频、创作者公开的提示词和原始帖子串在一起，让读者不只观看成片，还能追溯它是怎样被描述并写成动画代码的。收录内容覆盖 Motion graphics、Explainers、3D scenes、Games & interactive 等类别，常见实现标注有 HTML、Canvas、SVG、Three.js、GSAP、GLSL、WebGL、Web Audio 和 Particles，便于按视觉类型或技术路线寻找案例。实际复刻流程很直接：打开提示词文件，复制 Prompt 区块，粘贴到 Claude Code、Claude 应用或其他运行 Opus 5.5 的智能体中，再让它渲染结果。每条记录都会链接创作者原帖，其中一部分还能在 Skillry 查看 live remake，将原作与现场复刻并排比较。合集持续追加新提示词，并突出展示不同提示词对应的复刻视频，因此既是一份灵感索引，也是一组可直接实验的创意编码输入样本。
+
+#### 项目概况
+
+- **仓库**：[yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos)
+- **Stars**：8,513
+- **主要语言**：未知
+- **Topics**：ai-video、awesome、awesome-list、claude、claude-opus、creative-coding、motion-graphics、prompts、threejs
+- **许可证**：MIT
+- **最近推送**：2026-10-13T14:46:44Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +1,443
+
+---
+
+<a id="project-detail-46"></a>
+### 46. [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
+
+[↖️ 返回表格中的 #46](#project-row-46)
+
+#### 中文分析
+
+The Agency 把不同岗位所需的提示词与工作方法整理成一支可挑选的 AI 专家队伍，而不是只换名字的通用模板。每个智能体文件都写明 Identity & personality traits、Core mission & workflows、可交付的代码示例、Success metrics 与沟通方式，因此既能直接安装，也能作为参考复制后改造成自己的角色。最快的入口是 native desktop app：它可在 macOS、Linux 和 Windows 上浏览完整 roster，一键把角色装入 Claude Code、Cursor、Codex、Gemini CLI、OpenCode、Qwen 或 Osaurus，并自动更新；偏好命令行时，也可通过脚本安装同一批内容。角色按 Engineering Division 等部门组织，覆盖前后端、移动端、机器学习、基础设施、网络、事故响应、数据库、系统设计和文档等具体工种，还允许只选择所需团队。OpenCode 当前只注册 119 个智能体，安装器会在选择超过限制时警告，因此按 division 安装子集更合适。
+
+#### 项目概况
+
+- **仓库**：[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
+- **Stars**：162,950
+- **主要语言**：Shell
+- **Topics**：未标注
+- **许可证**：MIT
+- **最近推送**：2026-10-19T16:48:24Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +589
+
+---
+
+<a id="project-detail-47"></a>
+### 47. [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+
+[↖️ 返回表格中的 #47](#project-row-47)
+
+#### 中文分析
+
+输入产品类型、技术栈与设计目标后，Design System Generator 会利用 192 条行业推理规则，在数秒内组合页面结构、视觉风格、色彩情绪、字体个性、动效和交互原则，并明确列出不宜采用的 Anti Patterns。它提供 79 种可搜索 UI 风格，其中 50 种会参与常规推荐；另有与 192 种产品类型一一对应的配色、74 组字体搭配、25 类图表建议，以及覆盖 React、Next.js、Vue、SwiftUI、React Native、Flutter、HTML+Tailwind 等 22 个 Tech Stacks 的针对性指导。检索层使用 BM25，将视觉风格与单独维护的落地页结构数据区分开来，过时名称则重定向到规范风格。CLI 可以直接生成贴合项目的设计规则与模式；针对真实界面常见问题，规则还处理长标题自然换行、URL 与标识符断行、chip 集合展开、徽章不能只靠颜色表达、焦点与语义状态保持、减少动态效果偏好等细节。开源 Basic Version 已包含上述 UI/UX 智能与跨平台支持，品牌识别、Logo、CIP、演示文稿和定制图标等扩展资产能力归入 Premium Version。
+
+#### 项目概况
+
+- **仓库**：[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+- **Stars**：138,503
+- **主要语言**：Python
+- **Topics**：ai-skills、antigravity、claude、claude-code、codex、command-line、copilot、cursor-ai、html5、kiro、landing-page、mobile-ui、qoder、react、tailwindcss、trae、ui-design、uikit、windsurf-ai
+- **许可证**：MIT
+- **最近推送**：2026-10-21T22:06:38Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +492
 
 ---
 
 <a id="project-detail-48"></a>
-### 48. [xerj-org/xerj](https://github.com/xerj-org/xerj)
+### 48. [storytold/wordcraft](https://github.com/storytold/wordcraft)
 
 [↖️ 返回表格中的 #48](#project-row-48)
 
 #### 中文分析
 
-XERJ 的使用起点是一条命令把任意文件夹自动索引：启动本地服务后执行 xerj autoindex .，它会识别代码、文档、日志、PDF、SQLite 和 CSV，为每个数据集建立可查询索引，再用任意 Elasticsearch client 查询。代码不是扁平文本，而是借助 tree sitter 保存符号和行号，因此代码问答或 RAG 可以直接返回 file:line 的相关段落。README 把 reference coding 作为最清晰的流程：先克隆与你的任务相近的开源仓库，建立索引，检索实现机制，再开始编写并引用所用内容；同一套原语也支持跨文件类型的安全审计、日志事件分析，以及 /memory/{namespace} 中按语义保存和召回的智能体长期记忆。作者给出的对照实验显示，在相同 16/16 解题率下，XERJ 比 grep 驱动流程少 2.7 倍输出 token，比仅靠记忆少 26 倍。服务默认绑定 127.0.0.1；若使用 cleartext 或 insecure 配置，TLS 和 API key 认证会关闭，能访问端口的调用者拥有读取和删除全部索引的权限，因此该边界针对单用户开发机。
+熟悉 Word 的人几乎不用重新学习 WordCraft：功能区、快捷键、实时 Styles 样式库、标尺与 Navigation pane 都沿用常见的文档编辑流程，Enter 可延续列表，Tab 可降低列表级别，F7 用于拼写检查，F4 则重复上一步操作。它不仅能读写 .docx，还可处理 .odt、.rtf、.html、.md、.tex 与 .txt，并导出带可选择文字、链接和书签的 PDF。写作之外，表格、目录、脚注、引文、索引、邮件合并、批注和 track changes 已组成较完整的办公文档工具链；段落布局会被缓存，页面按需渲染，以维持长文档输入速度。macOS、Windows、Linux、BSD 和 WebAssembly 共用一套 Rust 代码，并直接使用 GPU，而非依赖 Electron 或 Tauri。其自动化设计尤其鲜明：功能区、快捷键、命令搜索、命令行、JSON 控制通道和 MCP server 共用 422 个带 ID 的命令，智能体可以执行批处理、输入或选择文字、检查文档、渲染页面，也能借助 tools.recordMacro 录制并回放操作。
 
 #### 项目概况
 
-- **仓库**：[xerj-org/xerj](https://github.com/xerj-org/xerj)
-- **Stars**：12,434
+- **仓库**：[storytold/wordcraft](https://github.com/storytold/wordcraft)
+- **Stars**：15,350
 - **主要语言**：Rust
-- **Topics**：agent-memory、ai-agents、bm25、claude-code、cli、code-search、cursor、elasticsearch、elasticsearch-alternative、full-text-search、hybrid-search、jsonl、local-first、mcp、mcp-server、model-context-protocol、rag、rust、search-engine、vector-search
+- **Topics**：未标注
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T00:46:39Z
+- **最近推送**：2026-10-22T00:18:51Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +1,899
+- 实际快照 1 日 Stars 增量 +280
 
 ---
 
@@ -1304,22 +1301,94 @@ Hermes Agent 把长期使用中的经验积累直接放进智能体工作循环�
 #### 项目概况
 
 - **仓库**：[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-- **Stars**：255,596
+- **Stars**：255,933
 - **主要语言**：Python
 - **Topics**：ai、ai-agent、ai-agents、anthropic、chatgpt、claude、claude-code、codex、hermes、hermes-agent、llm、nous-research、openai
 - **许可证**：MIT
-- **最近推送**：2026-10-21T00:45:34Z
+- **最近推送**：2026-10-22T00:29:08Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +318
+- 实际快照 1 日 Stars 增量 +337
 
 ---
 
 <a id="project-detail-50"></a>
-### 50. [nexu-io/open-design](https://github.com/nexu-io/open-design)
+### 50. [paperclipai/paperclip](https://github.com/paperclipai/paperclip)
 
 [↖️ 返回表格中的 #50](#project-row-50)
+
+#### 中文分析
+
+Paperclip 用 Node.js server 与 React UI 把多智能体协作呈现成任务管理器：先写下业务目标，再组建由 CEO、CTO、工程师、设计师或营销角色构成的团队，审核策略、设置预算并从 dashboard 启动和观察执行。接入并不限定某种模型或运行时，只要智能体能够接收 Heartbeats，就能在获得任务、跟进消息或到达计划时间时醒来工作；OpenClaw、Claude Code、Codex、Cursor、Gemini CLI 等可以共处于同一组织结构。系统围绕任务、组织、训练与基础设施四部分展开，Org Chart 描述上下级、职责和权限边界，Goal Alignment 将任务和项目连接到公司目标，Task Threads 保存对话、计划、阻塞、文件及运行历史。Cost Control 可按公司、智能体和项目追踪支出，在阈值告警或预算上限处暂停工作；Governance 则配置审查与批准阶段，并允许人工暂停、改派或终止任务。Skill Studio 支持编写共享技能、用保存的输入测试、检查结果及恢复旧版本，Scheduled Routines 还能通过时间表、API 或 webhook 重复执行，每次运行都有负责人、任务和可审计历史。
+
+#### 项目概况
+
+- **仓库**：[paperclipai/paperclip](https://github.com/paperclipai/paperclip)
+- **Stars**：105,688
+- **主要语言**：TypeScript
+- **Topics**：acpx、agent-orchestration、agent-skills、agentic-ai、ai-agents、ai-engineering、ai-governance、ai-tools、autonomous-agents、claude、claude-code、claude-skills、codex、hermes、llm、mcp、multi-agent、openclaw、project-management、workflow-automation
+- **许可证**：MIT
+- **最近推送**：2026-10-22T00:48:12Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +434
+
+---
+
+<a id="project-detail-51"></a>
+### 51. [storytold/pdfcraft](https://github.com/storytold/pdfcraft)
+
+[↖️ 返回表格中的 #51](#project-row-51)
+
+#### 中文分析
+
+PdfCraft 把阅读、整理、合并、拆分和保护 PDF 放进一个用纯 Rust 从零编写的原生工作台，可运行于 macOS、Windows、Linux、FreeBSD 和 Web。它强调渲染忠实度：支持复杂文字脚本、从右到左排版、竖排 CJK、彩色 emoji、连字、渐变、混合模式与软遮罩，大页面采用分块渲染，深度缩放仍保持清晰；每页隔离处理，面对损坏文件也能继续渲染。阅读时可连续、单页、双页、旋转或全屏显示，Read mode 提供专注阅读布局；全文搜索边输入边进行，选择文本会按列、CJK 和 RTL 的正确阅读顺序复制。Organize pages 将页面像卡片一样铺开，可多选后旋转、删除、插入空白页或其他文件页面并调整顺序，Undo 可在保存后继续回退。保存采用增量写入、临时文件替换和 qpdf 校验，原始字节不被直接覆盖，自动保存和异常退出恢复也会保留工作。Combine files 会为每个输入文件建立书签，Extract 与 Split 会重连链接和 named destinations，并保留表单、图层和附件；加密文档支持从 40 位 RC4 到 AES 256 的完整 PDF 安全处理。
+
+#### 项目概况
+
+- **仓库**：[storytold/pdfcraft](https://github.com/storytold/pdfcraft)
+- **Stars**：16,989
+- **主要语言**：Rust
+- **Topics**：document-processing、documents、pdf、pdf-generation、pdf-processing、pdf-tools、pdf-viewer、rust
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-22T00:30:58Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +329
+
+---
+
+<a id="project-detail-52"></a>
+### 52. [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)
+
+[↖️ 返回表格中的 #52](#project-row-52)
+
+#### 中文分析
+
+粘贴一则职位后，career ops 会先确认招聘页面是否仍然开放，再依据真实 CV 对岗位进行 1–5 分匹配评估；弱匹配时会直接给出 do not apply，用户仍可选择覆盖判断。值得申请的岗位会继续产出职位分析、薪酬研究、公司研究、个性化策略和 interview prep，并根据已有经历改写 ATS 友好的 CV、cover letter 与申请字段答案。它还会寻找招聘经理、招聘人员或团队同事，起草不超过 300 字符的 LinkedIn 消息，但不会发送。整个流程强调 Human in the Loop：工具只准备材料，申请人阅读后亲自点击 Submit；prepare application.mjs 不会执行 POST，代码库也没有邮件传输组件。申请记录保留在本机且没有遥测或自有后端，CV 只会交给用户选择的 AI 提供商。为降低材料虚构风险，生成 PDF 前会检查其中的数字和事实是否能在 CV 或文章摘要中找到，不过改写仍需人工逐份审阅。持续使用后，它还能通过 analyze patterns.mjs 分析拒绝模式及不同 ATS 渠道的推进率。
+
+#### 项目概况
+
+- **仓库**：[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)
+- **Stars**：76,410
+- **主要语言**：JavaScript
+- **Topics**：agent-skills、ai-agent、ai-job-search、ats、career、career-ops、careerops、claude-code、cli、cover-letter、cv、interview-prep、job-application、job-hunting、job-search、latex、local-first、open-source、resume、terminal
+- **许可证**：MIT
+- **最近推送**：2026-10-21T14:34:04Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +493
+
+---
+
+<a id="project-detail-53"></a>
+### 53. [nexu-io/open-design](https://github.com/nexu-io/open-design)
+
+[↖️ 返回表格中的 #53](#project-row-53)
 
 #### 中文分析
 
@@ -1328,166 +1397,22 @@ OpenDesign 把设计创作放进一个本地优先的协作工作区：从 brief
 #### 项目概况
 
 - **仓库**：[nexu-io/open-design](https://github.com/nexu-io/open-design)
-- **Stars**：102,818
+- **Stars**：103,100
 - **主要语言**：TypeScript
 - **Topics**：agent-skills、ai-design、byok、claude-code-for-design、claude-design、codex-design、cursor-design、deepseek、deepseek-harness、design-systems、desktop-app、desktop-apps、dsh、dsh-plugin、figma-alternative、hermes-agent、local-first、prototyping、ui-generator、vibe-coding
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T01:07:21Z
+- **最近推送**：2026-10-22T01:03:53Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +285
-
----
-
-<a id="project-detail-51"></a>
-### 51. [farion1231/cc-switch](https://github.com/farion1231/cc-switch)
-
-[↖️ 返回表格中的 #51](#project-row-51)
-
-#### 中文分析
-
-频繁在 Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build、OpenCode、OpenClaw、Hermes Agent、Pi 与 MiniMax Code 之间切换时，CC Switch 把原本散落在 JSON / TOML / YAML 文件中的配置集中进跨平台桌面界面。用户可以 one click 切换 API providers，并在同一处管理 MCP、Skills 和 Prompts，不再为每种编码智能体分别手改配置。README 将它定位为 All in One Manager，重点不是再造一个聊天或编码客户端，而是充当多套 agentic tools 的配置控制台：同一供应商或模型接入信息可更容易地分发到不同工具，日常更换服务端点时也无需反复寻找各产品的配置文件。其覆盖范围还延伸到多模型聚合与兼容 OpenAI、Anthropic 等协议的服务，因此适合已经并行使用多个命令行或桌面智能体、经常试验不同 API 渠道的人。实现采用 Tauri，仓库发布页提供桌面安装包；README 同时反复强调 The Only Official Website 为 ccswitch.io，用于区分官方入口。整体辨识度来自“统一管理而非统一取代”：Claude Code、Codex、Gemini CLI 等仍按各自方式工作，CC Switch 只负责把 API providers、MCP、Skills 和 Prompts 的配置切换与维护收拢到一个可视化入口。
-
-#### 项目概况
-
-- **仓库**：[farion1231/cc-switch](https://github.com/farion1231/cc-switch)
-- **Stars**：146,816
-- **主要语言**：Rust
-- **Topics**：ai-tools、claude-code、codex、desktop-app、grok、grokbuild、hermes、hermes-agent、mcp、open-source、openclaw、openclaw-ui、opencode、pi、provider-management、rust、skills、skills-management、tauri、wsl-support
-- **许可证**：MIT
-- **最近推送**：2026-10-20T15:35:52Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +452
-
----
-
-<a id="project-detail-52"></a>
-### 52. [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
-
-[↖️ 返回表格中的 #52](#project-row-52)
-
-#### 中文分析
-
-把 Impeccable 装进 AI 编程工具后，设计工作会围绕一套共享命令和可持久化的产品上下文展开：在项目根目录运行 npx impeccable install，再在工具中执行 /impeccable init，系统会询问缺失的产品事实并写入 PRODUCT.md；视觉系统则可通过 /impeccable document 生成或更新 DESIGN.md。之后用 /impeccable shape 先规划 UX/UI，再以 /impeccable craft 进入构建和浏览器视觉迭代，或按需要调用 /impeccable critique、/impeccable audit、/impeccable polish 等命令。命令词覆盖 bolder、quieter、distill、harden、onboard、animate、colorize、typeset、layout、delight、clarify、adapt、optimize 等具体设计动作，也能用 /impeccable live 在浏览器里切换视觉变体，并用 /impeccable generate 为指定元素生成变体。它把 61 条 deterministic detector rules 与仅由 LLM 执行的批评检查分开，CLI 和浏览器扩展运行前者时不需要 LLM 或 API key；还可用 /impeccable pin 将常用命令变成独立快捷方式。安装器能识别 Claude、Codex、Cursor、Grok、Hermes、Veto 等 harness，选择项目级或全局安装，并在支持的工具中写入原生 hook。
-
-#### 项目概况
-
-- **仓库**：[pbakaus/impeccable](https://github.com/pbakaus/impeccable)
-- **Stars**：83,852
-- **主要语言**：Rust
-- **Topics**：未标注
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T18:16:28Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +612
-
----
-
-<a id="project-detail-53"></a>
-### 53. [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)
-
-[↖️ 返回表格中的 #53](#project-row-53)
-
-#### 中文分析
-
-与其把 Claw Code 当成常规产品，不如按 README 的说法把它看作一件由智能体管理的“博物馆展品”：harnesses 负责规划、执行、验证、标记和保存，仓库则保留 claw CLI agent harness 的 Rust 公开实现及其演进痕迹。真正的主运行区位于 rust/，USAGE.md 解释当前命令、认证和会话流程，PARITY.md 记录 Rust 移植进度，src/ 与 tests/ 主要承担 Python 参考实现和审计辅助，并非首选运行入口。源码构建后，macOS 与 Linux 的调试二进制位于 rust/target/debug/claw，Windows 对应 claw.exe；验证成功后应先运行 claw doctor，检查 API key、模型访问和工具配置。README 特别提醒不要执行 cargo install claw-code，因为 crates.io 上同名包只是已弃用的占位程序；应从本仓库构建，或转向 README 指出的上游工具。ACP/Zed 目前也没有真正的 daemon 或 JSON RPC 入口，claw acp serve 只是返回状态的发现别名，后续实现仍由 ROADMAP.md 跟踪。
-
-#### 项目概况
-
-- **仓库**：[ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)
-- **Stars**：195,065
-- **主要语言**：Rust
-- **Topics**：未标注
-- **许可证**：MIT
-- **最近推送**：2026-10-19T04:07:34Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +157
+- 实际快照 1 日 Stars 增量 +282
 
 ---
 
 <a id="project-detail-54"></a>
-### 54. [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck)
+### 54. [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)
 
 [↖️ 返回表格中的 #54](#project-row-54)
-
-#### 中文分析
-
-DroidDeck 把 SteamOS 式体验带到 Android 掌机：在支持的 Adreno 设备上运行 Valve Steam 客户端 Big Picture，并通过 ARM64 Proton 启动 Windows 游戏。Android 9 及以上、Adreno 730 或更新型号（8xx 也可）无需 root；安装 APK 和 Linux runtime 后按 Play 登录，首次会下载 Steam，再安装 Desktop & apps 才能使用桌面和模拟器。Store 通过 Flatpak 从 Flathub 安装 ARM64 Linux 应用与游戏，也可处理 AppImage 和脚本；启用 Stores 后可登录 GOG、Epic Games、Amazon Games，把游戏下载到 Games 存储。Epic 的直接 API 安装路径仍保留，官方 Linux launcher preview 会在 FEX 下运行 x86-64 客户端，已安装游戏会导入 DroidDeck 库并生成快捷方式。Android 14 以上启动 Steam 前要在开发者选项打开 Disable child process restrictions，部分 Android 12/13 设备会提供 Fix it for me。Setup 中的 Smart glasses 可为菜单、桌面和游戏设置虚拟屏幕，VITURE、RayNeo、XREAL 支持 3DoF，Luma Ultra 另有实验性 6DoF 与手柄追踪。构建使用 tools/build local.sh，在 Docker、Java 17、Android SDK/NDK、Rust 等准备后生成 APK；日志通过 Share logs 打包，兼容性和性能仍取决于具体硬件。
-
-#### 项目概况
-
-- **仓库**：[Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck)
-- **Stars**：11,811
-- **主要语言**：Kotlin
-- **Topics**：未标注
-- **许可证**：GPL-3.0
-- **最近推送**：2026-10-21T00:14:44Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +403
-
----
-
-<a id="project-detail-55"></a>
-### 55. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
-
-[↖️ 返回表格中的 #55](#project-row-55)
-
-#### 中文分析
-
-OmniRoute 把第三方模型供应商统一放到一个网关，并从免费额度目录解释用户实际能接入多少资源。README 当前统计 467 项免费层记录、34 个周期性 pool keys，月度 headline 只汇总具有公开正预算的 17 个池与部分 Groq 模型上限，按共享池去重；需要地区身份验证的 ModelScope 额度单独展示，不混入总数。结果可在 /dashboard/free tiers 查看，目录会定期重新核验，数字也可能下降。实际开始使用仍是安装、连接自己有资格使用的 provider account，再让 Claude Code、Codex 等客户端通过统一端点发送请求，并不是安装后自动获得一笔赠送 token。网关支持 quota aware scheduling、实时额度信息、vision/audio/video Modality Bridge、headless mode 与模型发现接口 /v1/models/query；合作渠道还提供 Chat Completions、原生 /v1/responses、视觉和工具调用路径。自动路由需要合格目标，新安装可能没有可用的免密目标，被标记 tos: avoid 的提供商默认排除，连接账号也不会自动覆盖这条设置。
-
-#### 项目概况
-
-- **仓库**：[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
-- **Stars**：78,984
-- **主要语言**：TypeScript
-- **Topics**：a2a、ai-agents、ai-gateway、anthropic、claude、claude-code、cline、codex、copilot、cursor、deepseek、free-ai、gemini、kimi、llm-gateway、mcp、openai、openai-proxy、qwen、token-saver
-- **许可证**：MIT
-- **最近推送**：2026-10-21T00:00:18Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +429
-
----
-
-<a id="project-detail-56"></a>
-### 56. [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
-
-[↖️ 返回表格中的 #56](#project-row-56)
-
-#### 中文分析
-
-把产品类型交给这套 AI skill，它不会只吐出一个流行风格名称，而是利用 Design System Generator 和 192 Industry Specific Reasoning Rules 推导页面结构、视觉优先级、行业配色、字体气质、动效以及应避免的设计套路。规则覆盖 SaaS、银行、医疗、电商、餐饮、游戏、Web3 等产品，并以“银行不应套用 AI 紫粉渐变”这类 Anti Patterns 约束结果。资料库提供 79 Searchable UI Styles，其中 50 个 active 风格参与常规推荐，另有 supplemental 与 deprecated 状态及稳定 ID、别名和重定向关系；检索由 BM25 search engine 完成。生成结果还能针对 React、Next.js、Vue、SwiftUI、Flutter、HTML+Tailwind 等 22 Tech Stacks 给出实现指导，并结合 192 Color Palettes、74 Font Pairings、25 Chart Types 和 119 UX Guidelines。README 还特别处理真实界面的韧性问题，包括标题自然换行、长 URL、标签集合、缩放后的文本重排、键盘焦点、非纯颜色徽标语义、可取消动画和 reduced motion，让输出不止停留在漂亮的静态稿。
-
-#### 项目概况
-
-- **仓库**：[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
-- **Stars**：138,011
-- **主要语言**：Python
-- **Topics**：ai-skills、antigravity、claude、claude-code、codex、command-line、copilot、cursor-ai、html5、kiro、landing-page、mobile-ui、qoder、react、tailwindcss、trae、ui-design、uikit、windsurf-ai
-- **许可证**：MIT
-- **最近推送**：2026-10-15T02:04:34Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +385
-
----
-
-<a id="project-detail-57"></a>
-### 57. [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)
-
-[↖️ 返回表格中的 #57](#project-row-57)
 
 #### 中文分析
 
@@ -1496,142 +1421,70 @@ OmniRoute 把第三方模型供应商统一放到一个网关，并从免费额�
 #### 项目概况
 
 - **仓库**：[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)
-- **Stars**：64,499
+- **Stars**：65,238
 - **主要语言**：Python
 - **Topics**：ai-agent、aippt、office、powerpoint、powerpoint-generation、ppt、pptx、presentation、slide、slides
 - **许可证**：MIT
-- **最近推送**：2026-10-19T03:30:11Z
+- **最近推送**：2026-10-21T11:08:50Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +613
+- 实际快照 1 日 Stars 增量 +739
 
 ---
 
-<a id="project-detail-58"></a>
-### 58. [storytold/filmcraft](https://github.com/storytold/filmcraft)
+<a id="project-detail-55"></a>
+### 55. [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck)
 
-[↖️ 返回表格中的 #58](#project-row-58)
+[↖️ 返回表格中的 #55](#project-row-55)
 
 #### 中文分析
 
-FilmCraft 用纯 Rust 实现常见的非线性剪辑工作流：Source 和 Program 监视器、素材箱、多轨时间线、轨道 patch/target、同步锁定，以及 Editing、Assembly、Color、Effects、Audio 等工作区都按既有操作习惯组织。三点剪辑可先在 Source monitor 标记 In/Out，再执行 insert 或 overwrite；ripple、roll、slip、slide、rate stretch、razor 和动态修剪也都有对应工具与快捷键。它并非只复刻界面，底层 H.264、HEVC、ProRes、AAC 编解码器由团队依据公开规范编写，时间计算采用每秒 254,016,000,000 个整数 tick，使 23.976、29.97 drop frame、59.94 等帧率保持精确。画面合成由基于 wgpu 的 GPU compositor 完成，在 linear light 中处理，并提供 CPU 路径交叉测试。调色部分提供 Lumetri 风格面板、曲线、Color Wheels、HSL Secondary、波形图和矢量示波器；效果系统则包含大量视频效果、转场、混合模式和可编辑的关键帧曲线。工程可原子保存，自动保存保留滚动版本，crash recovery journal 会在崩溃或断电后恢复未保存修改。应用原生运行于 macOS、Windows、Linux，也能通过 WebAssembly 进入浏览器，而每个编辑动作都被建模为 command，因此 AI agent 也能精确驱动。
+在受支持的 Adreno 安卓掌机上，DroidDeck 把 Valve 的 Steam 客户端以 Big Picture 形式运行起来，并借助 ARM64 Proton 启动 Windows 游戏。实际操作从安装 APK 和 Linux runtime 开始，按下 Play、登录后，Steam 会在首次启动时下载；继续安装 Desktop & apps，便可获得桌面和模拟器。Store 通过 Flatpak 安装 Flathub 的 ARM64 应用与游戏，也能处理 Appimages 和安装脚本；开启 Stores 后还可登录 GOG、Epic Games 与 Amazon Games，并把游戏下载到统一的 Games 存储。Android 9 及以上、Adreno 730 或 8xx 是主要支持范围，Adreno 6xx 仍属实验性，其他列出的 GPU 不受支持；整个过程不要求 root，但运行时、桌面和模拟器需要预留约 4.1 GB。Android 14 以上还需启用 Disable child process restrictions。Setup → Smart glasses 可让菜单、启动器、桌面会话和游戏共享虚拟屏幕设置，并为部分 VITURE、RayNeo、XREAL、Rokid 连接提供 3DoF。自行构建时先运行仓库提供的本地构建脚本，它会准备并校验与 CI 一致的原生库和组件；连接设备后可用配套部署脚本安装。
 
 #### 项目概况
 
-- **仓库**：[storytold/filmcraft](https://github.com/storytold/filmcraft)
-- **Stars**：15,327
+- **仓库**：[Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck)
+- **Stars**：12,263
+- **主要语言**：Kotlin
+- **Topics**：未标注
+- **许可证**：GPL-3.0
+- **最近推送**：2026-10-22T00:24:59Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +452
+
+---
+
+<a id="project-detail-56"></a>
+### 56. [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
+
+[↖️ 返回表格中的 #56](#project-row-56)
+
+#### 中文分析
+
+把 Impeccable 装进 AI 编程工具后，设计工作会围绕一套共享命令和可持久化的产品上下文展开：在项目根目录运行 npx impeccable install，再在工具中执行 /impeccable init，系统会询问缺失的产品事实并写入 PRODUCT.md；视觉系统则可通过 /impeccable document 生成或更新 DESIGN.md。之后用 /impeccable shape 先规划 UX/UI，再以 /impeccable craft 进入构建和浏览器视觉迭代，或按需要调用 /impeccable critique、/impeccable audit、/impeccable polish 等命令。命令词覆盖 bolder、quieter、distill、harden、onboard、animate、colorize、typeset、layout、delight、clarify、adapt、optimize 等具体设计动作，也能用 /impeccable live 在浏览器里切换视觉变体，并用 /impeccable generate 为指定元素生成变体。它把 61 条 deterministic detector rules 与仅由 LLM 执行的批评检查分开，CLI 和浏览器扩展运行前者时不需要 LLM 或 API key；还可用 /impeccable pin 将常用命令变成独立快捷方式。安装器能识别 Claude、Codex、Cursor、Grok、Hermes、Veto 等 harness，选择项目级或全局安装，并在支持的工具中写入原生 hook。
+
+#### 项目概况
+
+- **仓库**：[pbakaus/impeccable](https://github.com/pbakaus/impeccable)
+- **Stars**：84,455
 - **主要语言**：Rust
-- **Topics**：art、rust、video、video-editing、video-editor、video-processing
+- **Topics**：未标注
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T15:38:43Z
+- **最近推送**：2026-10-22T00:12:30Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +216
+- 实际快照 1 日 Stars 增量 +603
 
 ---
 
-<a id="project-detail-59"></a>
-### 59. [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)
+<a id="project-detail-57"></a>
+### 57. [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
 
-[↖️ 返回表格中的 #59](#project-row-59)
-
-#### 中文分析
-
-Laya 不生成文本，而是把 choice、score、noul 等类型化问题连同文本、邮件、工单或 JSON 状态送入编码器，在 single forward pass 中直接给出答案与概率，因此无需解析生成内容。安装可在 uv 项目中执行 uv add laya，Python 版本需为 3.10 或更新；HTTP、MCP、ONNX Runtime 及多个智能体框架分别通过可选 extras 接入。Router 会检测文字脚本和语言，把非英语请求送往 laya multilingual；处理长文档时可指定 model="multilingual" 和 max len=8192，但 README 的实测也明确显示，约四千 token 之后准确率波动明显，应在自己的数据上验证。命令行可运行 laya "My payment failed twice" preset triage，快速套用预设的分诊问题集。内置 checkpoint 支持 zero shot，而自有领域若追求更高准确度，可沿着构建数据集、RLCD 训练、温度校准、评估和导出的完整流程微调。
-
-#### 项目概况
-
-- **仓库**：[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)
-- **Stars**：33,709
-- **主要语言**：Python
-- **Topics**：calibration、classification、decision-model、huggingface、jev、modernbert、multilingual、nlp、python、pytorch、routing、typed-decisions、zero-shot
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-19T09:40:14Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +150
-
----
-
-<a id="project-detail-60"></a>
-### 60. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)
-
-[↖️ 返回表格中的 #60](#project-row-60)
-
-#### 中文分析
-
-打开后呈现的是一座可操控的写实三维地球：飞机、船舶、卫星、地震、火灾、交通、公共摄像头和天气信号被放进同一空间，可从全球态势一路追踪到某架飞机、某艘船或一条街道。点击目标后，镜头会锁定并绘制轨迹、展示完整元数据；Cockpit view 能跟随航班贴近地形飞行，Contacts 则列出目标周围 250 公里内的对象。用户还可用语音查询卫星过境时间，筛选和排序卫星、数据中心及水坝，或直接把边界、多边形和路线说到 Voice whiteboard 上。视觉层提供 CRT、NVG、FLIR/thermal 等 GLSL 效果，并能叠加检测框、Military HUD、雷达、云层、闪电与气旋路径；Scene director 用于录制镜头巡游，Share Links 会把相机、样式、图层甚至实时追踪目标序列化进 URL。应用无需账户或 API key 即可通过 Pinokio 或本地终端启动，默认使用 Esri 卫星影像与免密钥地形，照片级三维效果才需要额外配置 Cesium ion 或 Google Maps。多数数据源实时或定期刷新，但道路交通属于基于聚合位置数据的模拟，摄像头姿态和火箭轨迹也只是粗略估计；各图层彼此独立，便于检查代码、替换来源或接入自己的数据。
-
-#### 项目概况
-
-- **仓库**：[bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)
-- **Stars**：58,539
-- **主要语言**：JavaScript
-- **Topics**：3d-globe、cesium、flight-tracking、geospatial、geospatial-intelligence、gis、osint、photogrammetry、satellite-tracking、spatial-intelligence、webgl、worldview
-- **许可证**：NOASSERTION
-- **最近推送**：2026-10-20T17:15:33Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +257
-
----
-
-<a id="project-detail-61"></a>
-### 61. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
-
-[↖️ 返回表格中的 #61](#project-row-61)
-
-#### 中文分析
-
-课程把 AI 工程拆成 20 个阶段、542 节课，学习者不只阅读概念，还要亲手实现模型内部机制、检索管线和智能体运行时，保留代码、评估结果并检查失败案例。内容可直接在网站学习，也能由支持技能的编码智能体担任导师：十题定位测验会依据已有知识选择起始阶段，并把个性化计划写入 LEARNING.md，之后每次会话依次覆盖概念、数学、代码和测验。仓库还提供三个带分阶段起始代码、参考实现与本地评分器的项目：Retrieval Evaluation Lab 要实现排序验证、precision、recall 和 NDCG 等指标，找出逐查询回归；Agent Trace Debugger 解析 JSONL trace，以区间运算区分父任务与重叠子任务的耗时及 token；Tool Call Firewall 则用 Rust 校验调用信封、角色、路径和一次性审批回执。另有独立的 Model Context Protocol (MCP) 17 课路线，以及从契约、发现、调用、沙箱边界延伸到发布评估的 Agent Skills 路线，适合按目标选择聚焦路径，而非只按统一顺序通读。
-
-#### 项目概况
-
-- **仓库**：[rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
-- **Stars**：71,795
-- **主要语言**：Python
-- **Topics**：agents、ai、ai-agents、ai-engineering、computer-vision、course、deep-learning、dsh、from-scratch、generative-ai、llm、machine-learning、mcp、python、rea、reinforcement-learning、rust、transformers、tutorial、typescript
-- **许可证**：MIT
-- **最近推送**：2026-10-19T08:42:46Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +346
-
----
-
-<a id="project-detail-62"></a>
-### 62. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
-
-[↖️ 返回表格中的 #62](#project-row-62)
-
-#### 中文分析
-
-九个 slash commands 把软件交付过程串成可执行的工程工作流：先用 /spec 明确需求，再以 /plan 拆成小而独立的任务，随后通过 /build 逐片实现、/test 提供证明、/review 在合并前检查代码健康，最后由 /ship 推向生产；/constraints、/webperf 和 /code simplify 分别负责统一质量约束、以测量驱动性能优化和简化代码。命令会自动激活对应 skills，设计 API 或构建 UI 时也能按上下文触发相应流程。若规格已经确定，/build auto 会生成计划并在一次批准后连续实现，但仍坚持测试驱动、每项任务单独提交，并在失败或高风险步骤暂停。整套内容包含 25 skills，每项都用步骤、verification gates 与 anti rationalization tables 固化资深工程实践。安装形式随宿主调整：Claude Code 可作为插件获得命令，Cursor 把工作流放入 .cursor/skills/，OpenCode 使用 .opencode/skills/，Codex CLI v0.122+ 则可注册 marketplace 并安装原生插件；其他能够读取 Markdown 指令或 system prompts 的 Agent 也能直接使用。单独通过 npx 安装某个 skill 时只会复制对应 skills 目录，共享 references/ 中的补充清单不会随之带入。
-
-#### 项目概况
-
-- **仓库**：[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
-- **Stars**：108,993
-- **主要语言**：JavaScript
-- **Topics**：agent-skills、antigravity、claude-code、codex、cursor、skills
-- **许可证**：MIT
-- **最近推送**：2026-10-13T20:24:07Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +356
-
----
-
-<a id="project-detail-63"></a>
-### 63. [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
-
-[↖️ 返回表格中的 #63](#project-row-63)
+[↖️ 返回表格中的 #57](#project-row-57)
 
 #### 中文分析
 
@@ -1640,35 +1493,179 @@ Laya 不生成文本，而是把 choice、score、noul 等类型化问题连同�
 #### 项目概况
 
 - **仓库**：[JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
-- **Stars**：113,865
+- **Stars**：114,139
 - **主要语言**：Go
 - **Topics**：ai、anthropic、caveman、claude、claude-code、llm、meme、prompt-engineering、skill、tokens
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T23:44:10Z
+- **最近推送**：2026-10-21T07:45:53Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +189
+- 实际快照 1 日 Stars 增量 +274
+
+---
+
+<a id="project-detail-58"></a>
+### 58. [farion1231/cc-switch](https://github.com/farion1231/cc-switch)
+
+[↖️ 返回表格中的 #58](#project-row-58)
+
+#### 中文分析
+
+同时使用 Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build、OpenCode、OpenClaw、Hermes Agent、Pi 与 MiniMax Code 时，CC Switch 将分散在不同客户端里的供应商配置集中到一个桌面界面。它最直接的用途是 Switch API providers in one click：切换模型 API 来源时不必反复寻找和手改 JSON / TOML / YAML config files；MCP、Skills 和 Prompts 也可在同一处管理，因此更适合需要在多种智能体工具之间保持配置一致的工作流。应用基于 Tauri，并从 GitHub releases 提供安装包。README 特别强调唯一官方网站是 ccswitch.io，这一点也用于区分非官方分发来源。除常见的 Claude、GPT 与 Gemini 接入外，文档展示了 Kimi 等供应商在多种 agentic tools 中的配置用途；不过这些服务的价格、稳定性与优惠属于各赞助商自己的方案，CC Switch 承担的是连接、保存与快速切换配置的管理层，而不是模型服务本身。
+
+#### 项目概况
+
+- **仓库**：[farion1231/cc-switch](https://github.com/farion1231/cc-switch)
+- **Stars**：147,237
+- **主要语言**：Rust
+- **Topics**：ai-tools、claude-code、codex、desktop-app、grok、grokbuild、hermes、hermes-agent、mcp、open-source、openclaw、openclaw-ui、opencode、pi、provider-management、rust、skills、skills-management、tauri、wsl-support
+- **许可证**：MIT
+- **最近推送**：2026-10-21T15:57:25Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +421
+
+---
+
+<a id="project-detail-59"></a>
+### 59. [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)
+
+[↖️ 返回表格中的 #59](#project-row-59)
+
+#### 中文分析
+
+iFixAi 关心的不是单纯的延迟、token 效率或提示注入，而是智能体是否按照业务 KPI 与组织结构完成了本该完成的工作；它把 AI Red Teaming 的对抗深度与 Operational Assurance 的审计纪律合并到一次诊断中，并宣称可在 120 秒内给出结果。使用者可以先执行 ifixai setup，让向导识别环境中的 API key 名称并把配置写入 ifixai.yaml，之后用 ifixai run 重复审计；CI 或批处理则可把全部选项写成显式参数。Claude Code、Codex 等环境还能通过 Plugin or Skill 让智能体自己发现设置、构造 fixture、在计费前展示成本，再运行检查并解释 scorecard。三种入口调用的是同一引擎，默认执行 10 项 inspections，也可选择 smoke、strategic、essential、core、extended 或 all，结果会生成 JSON、Markdown 与终端记分卡。若要得到可引用的 grade，应让不同供应商的独立 Judge 评估 SUT；只有一个 key 时可使用 self 模式做 smoke test，但报告会标记为自评。对已记录行为的审计还会探索允许动作组成的最短有害序列，并检查权限修复是否仍能满足合法完成目标。
+
+#### 项目概况
+
+- **仓库**：[ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)
+- **Stars**：31,519
+- **主要语言**：Python
+- **Topics**：agent-evaluation、ai、ai-alignment、ai-evaluation、ai-governance、ai-safety、cli、diagnostic-tool、eu-ai-act、hallucination-detection、iso-42001、llm-evaluation、llm-security、nist-ai-rmf、owasp-llm、prompt-injection、python、responsible-ai、risk-assessment、risk-management
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-21T08:45:59Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +841
+
+---
+
+<a id="project-detail-60"></a>
+### 60. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
+
+[↖️ 返回表格中的 #60](#project-row-60)
+
+#### 中文分析
+
+Agent Reach 把“让智能体访问互联网”拆成选型、安装、体检和路由四件事，而网页或平台内容仍由 Agent 直接调用上游工具读取，并不经过额外包装层。安装后，网页、YouTube、RSS、全网搜索、GitHub 和 B站等零配置渠道可以立即使用；Twitter、小红书、Reddit、Facebook、Instagram 等依赖登录态的平台，则由用户点名后再配置。每个平台维护“首选 + 备选”的有序后端列表，渠道会真实探测候选工具是否完整可用，并选择第一个通过检查的路径；当平台限制或工具失效时，只需调整路由，不必重写整套能力。agent reach doctor 会报告各渠道当前采用的后端、故障位置和修复办法。安全边界也很明确：agent reach install 默认只检查环境，不自动安装系统包或写配置；明确授权后才使用 agent reach install system，执行前还可用 agent reach install dry run 预览操作。Cookie 与 Token 保存在本机配置中，涉及脚本化登录的平台仍存在封号风险，README 因此要求使用专用小号。OpenClaw 还必须先开启 exec 权限，其他能运行命令行的 Agent 则可通过 SKILL.md 自行选择 curl、gh、yt dlp、bili search、Exa 或 feedparser 等工具。
+
+#### 项目概况
+
+- **仓库**：[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
+- **Stars**：100,658
+- **主要语言**：Python
+- **Topics**：agent-infrastructure、ai-agent、ai-search、automation、bilibili、claude-code、cli、cursor、free-api、llm-tools、mcp、python、reddit-scraper、twitter-scraper、web-scraper、xiaohongshu、youtube-transcript
+- **许可证**：MIT
+- **最近推送**：2026-10-20T11:24:28Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +355
+
+---
+
+<a id="project-detail-61"></a>
+### 61. [storytold/filmcraft](https://github.com/storytold/filmcraft)
+
+[↖️ 返回表格中的 #61](#project-row-61)
+
+#### 中文分析
+
+FilmCraft 用纯 Rust 实现常见的非线性剪辑工作流：Source 和 Program 监视器、素材箱、多轨时间线、轨道 patch/target、同步锁定，以及 Editing、Assembly、Color、Effects、Audio 等工作区都按既有操作习惯组织。三点剪辑可先在 Source monitor 标记 In/Out，再执行 insert 或 overwrite；ripple、roll、slip、slide、rate stretch、razor 和动态修剪也都有对应工具与快捷键。它并非只复刻界面，底层 H.264、HEVC、ProRes、AAC 编解码器由团队依据公开规范编写，时间计算采用每秒 254,016,000,000 个整数 tick，使 23.976、29.97 drop frame、59.94 等帧率保持精确。画面合成由基于 wgpu 的 GPU compositor 完成，在 linear light 中处理，并提供 CPU 路径交叉测试。调色部分提供 Lumetri 风格面板、曲线、Color Wheels、HSL Secondary、波形图和矢量示波器；效果系统则包含大量视频效果、转场、混合模式和可编辑的关键帧曲线。工程可原子保存，自动保存保留滚动版本，crash recovery journal 会在崩溃或断电后恢复未保存修改。应用原生运行于 macOS、Windows、Linux，也能通过 WebAssembly 进入浏览器，而每个编辑动作都被建模为 command，因此 AI agent 也能精确驱动。
+
+#### 项目概况
+
+- **仓库**：[storytold/filmcraft](https://github.com/storytold/filmcraft)
+- **Stars**：15,565
+- **主要语言**：Rust
+- **Topics**：art、rust、video、video-editing、video-editor、video-processing
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-21T23:45:23Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +238
+
+---
+
+<a id="project-detail-62"></a>
+### 62. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)
+
+[↖️ 返回表格中的 #62](#project-row-62)
+
+#### 中文分析
+
+打开后呈现的是一座可操控的写实三维地球：飞机、船舶、卫星、地震、火灾、交通、公共摄像头和天气信号被放进同一空间，可从全球态势一路追踪到某架飞机、某艘船或一条街道。点击目标后，镜头会锁定并绘制轨迹、展示完整元数据；Cockpit view 能跟随航班贴近地形飞行，Contacts 则列出目标周围 250 公里内的对象。用户还可用语音查询卫星过境时间，筛选和排序卫星、数据中心及水坝，或直接把边界、多边形和路线说到 Voice whiteboard 上。视觉层提供 CRT、NVG、FLIR/thermal 等 GLSL 效果，并能叠加检测框、Military HUD、雷达、云层、闪电与气旋路径；Scene director 用于录制镜头巡游，Share Links 会把相机、样式、图层甚至实时追踪目标序列化进 URL。应用无需账户或 API key 即可通过 Pinokio 或本地终端启动，默认使用 Esri 卫星影像与免密钥地形，照片级三维效果才需要额外配置 Cesium ion 或 Google Maps。多数数据源实时或定期刷新，但道路交通属于基于聚合位置数据的模拟，摄像头姿态和火箭轨迹也只是粗略估计；各图层彼此独立，便于检查代码、替换来源或接入自己的数据。
+
+#### 项目概况
+
+- **仓库**：[bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)
+- **Stars**：58,814
+- **主要语言**：JavaScript
+- **Topics**：3d-globe、cesium、flight-tracking、geospatial、geospatial-intelligence、gis、osint、photogrammetry、satellite-tracking、spatial-intelligence、webgl、worldview
+- **许可证**：NOASSERTION
+- **最近推送**：2026-10-21T23:18:53Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +275
+
+---
+
+<a id="project-detail-63"></a>
+### 63. [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)
+
+[↖️ 返回表格中的 #63](#project-row-63)
+
+#### 中文分析
+
+Laya 用非自回归模型直接回答 choice、score 和 yes/no 一类 typed decisions，不生成解释文本，因此单次前向传播就能给出结构化结果，无需再从自然语言中解析答案。README 给出的 T4 测量是单问题约 33 ms、批量约 7.2 ms/question；Router 会识别文字脚本与语言，把非英语请求送往 laya-multilingual，使同一调用覆盖 100+ languages。安装可在 uv 项目中执行 uv add laya，或在虚拟环境运行 uv pip install laya；HTTP、MCP、LangChain、LlamaIndex、CrewAI、ONNX 等集成通过可选 extras 提供。命令行示例 laya "My payment failed twice" --preset triage 会套用现成问题集完成分流。长文档可将 multilingual checkpoint 的最大输入长度设为 8192 tokens，但 README 也坦率给出了长度增加后的准确率波动，要求在自己的数据上验证。预训练 checkpoint 能零样本工作，而领域微调流程会依次构建数据集、使用 RLCD 训练、校准温度、评估并导出；其训练依据 strictly proper scoring rules，重点不只是分类正确，还包括概率校准。Python 之外另有 TypeScript、Rust 和 .NET SDK，便于把同一套路由与决策语义接入不同运行环境。
+
+#### 项目概况
+
+- **仓库**：[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)
+- **Stars**：33,861
+- **主要语言**：Python
+- **Topics**：calibration、classification、decision-model、huggingface、jev、modernbert、multilingual、nlp、python、pytorch、routing、typed-decisions、zero-shot
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-21T13:36:13Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +152
 
 ---
 
 <a id="project-detail-64"></a>
-### 64. [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+### 64. [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy)
 
 [↖️ 返回表格中的 #64](#project-row-64)
 
 #### 中文分析
 
-只需用自然语言描述成片目标，接入的 AI 编码助手便可沿生产管线完成调研、脚本、素材生成、剪辑和最终合成；它不局限于把静态图做成轻微动画，也能从免费库存影像和开放档案建立语料库，检索真实运动镜头、排入时间线并渲染成片。若已有喜欢的 YouTube、Short、Reel、TikTok 或本地视频，可以直接粘贴作为参考：智能体会分析 transcript、节奏、场景、关键帧与风格，返回两到三个差异化概念，明确哪些结构与语气会保留、哪些主题和视觉处理会改变，并在生成资产前给出工具路径、成本估算和样片。制作过程由本地 Backlot 可视化：阶段会依次点亮，脚本以 screenplay 页面出现，素材生成时形成场景卡片，供应商选择与费用也同步展示。Storyboard 不是装饰性预览，而是真正的 approval gate；系统会在渲染前按场景展示 takes、prompts、单项成本与质量评分，并暂停等待用户批准，避免到成片后才发现视觉方向错误。最终结果可由 Remotion、FFmpeg 或 Blender 等工具组合完成，已结束的任务还能通过 REPLAY RUN 按时间戳完整回放。它可配合 Claude Code、Cursor、Copilot、Windsurf 和 Codex，只要助手能够读取文件并运行代码，就能利用仓库内的生产知识与工具推进流程。
+从小学三年级英语和一年级数学一路覆盖到高中选择性必修，这份中小学知识图谱把人教版教材顺序、课程标准条目、知识点、先修边和题库组织成可供诊断的数据。数学部分共整理 802 个知识点和 3355 道题，学生答错后，自适应前置诊断可沿先修关系从高中回溯到初中乃至具体的小学知识点；英语单独成图，初中英语会连接小学英语，高中英语主要回溯初中英语，并用 hard、soft 区分不同强度的依赖。数据格式可参考 topics + dependencies，既能浏览知识结构，也能支撑学习路径和薄弱点分析。不过仓库明确将内容称为 AI 生成的初稿：知识点粒度、答案和先修关系尚未经教师审核，高中题与英语题也没有做盲解；不少课标正文、教材目录及九年级下册章目仍标记为待核。因此它更适合作为可审校、可纠错的数据底稿，而不能直接当作权威教学标准或自动诊断结论。
 
 #### 项目概况
 
-- **仓库**：[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
-- **Stars**：70,315
+- **仓库**：[xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy)
+- **Stars**：1,964
 - **主要语言**：Python
-- **Topics**：agent、agentic-ai、ai、claude、copilot、cursor、elevenlabs、ffmpeg、flux、image-generation、open-source、openai、python、remotion、stable-diffusion、text-to-speech、text-to-video、video-generation、video-production
-- **许可证**：AGPL-3.0
-- **最近推送**：2026-10-16T15:07:33Z
+- **Topics**：chinese、curriculum、diagnostic、edtech、education、elementary-school、english、high-school、junior-high-school、k12、knowledge-graph、math、mathematics、middle-school、open-data、primary-school
+- **许可证**：NOASSERTION
+- **最近推送**：2026-10-21T14:52:52Z
 
 #### 热度与增长证据
 
@@ -1688,70 +1685,118 @@ Firecrawl 把网页搜索、抓取、交互和批量采集统一成可供 AI 使
 #### 项目概况
 
 - **仓库**：[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)
-- **Stars**：193,498
+- **Stars**：193,945
 - **主要语言**：TypeScript
 - **Topics**：ai、ai-agents、ai-crawler、ai-scraping、ai-search、crawler、data-extraction、html-to-markdown、llm、markdown、scraper、scraping、web-crawler、web-data、web-data-extraction、web-scraper、web-scraping、web-search、webscraping
 - **许可证**：AGPL-3.0
-- **最近推送**：2026-10-21T01:09:45Z
+- **最近推送**：2026-10-22T01:01:40Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +390
+- 实际快照 1 日 Stars 增量 +447
 
 ---
 
 <a id="project-detail-66"></a>
-### 66. [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop)
+### 66. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
 
 [↖️ 返回表格中的 #66](#project-row-66)
 
 #### 中文分析
 
-把 DeepSeek Harness 搬进 Windows 与 macOS 原生桌面环境后，DSH Desktop 会自动启动并管理本地 Host 服务，把上游的 Web UI、系统托盘、桌面窗口、终端、更新和工作配置整合在一起，普通用户无需安装 Node.js 或手动执行命令。首次启动未初始化的 profile 时，原生 Setup Wizard 会先让用户选择窗口模式、系统材质、插件市场、通知、默认浏览器和 Web 访问范围；完成或跳过之前，Host 与主窗口都不会启动。其最鲜明的设计是“一切皆插件”：固定版本的上游 DeepSeek Harness 保持原样运行，桌面壳也通过相同插件机制接入，因此模型、工具、界面、工作流及桌面能力可以共同组合。内置的 DSH Community Market 支持插件发现、详情、安装和管理，也允许符合公开 Schema 的数据源接入。2.0.9 及以上版本还提供手机远程控制，可在 iOS 或 Android 上发起任务、查看 Agent 进度并继续跟进。Web 服务默认只监听本机回环地址；浏览器打开与局域网访问是两项独立设置，而局域网模式不提供鉴权，同一网络中的其他人可以直接操作 DSH，因此只应在完全可信的网络中开启。
+课程把 AI 工程拆成 20 个阶段、542 节课，学习者不只阅读概念，还要亲手实现模型内部机制、检索管线和智能体运行时，保留代码、评估结果并检查失败案例。内容可直接在网站学习，也能由支持技能的编码智能体担任导师：十题定位测验会依据已有知识选择起始阶段，并把个性化计划写入 LEARNING.md，之后每次会话依次覆盖概念、数学、代码和测验。仓库还提供三个带分阶段起始代码、参考实现与本地评分器的项目：Retrieval Evaluation Lab 要实现排序验证、precision、recall 和 NDCG 等指标，找出逐查询回归；Agent Trace Debugger 解析 JSONL trace，以区间运算区分父任务与重叠子任务的耗时及 token；Tool Call Firewall 则用 Rust 校验调用信封、角色、路径和一次性审批回执。另有独立的 Model Context Protocol (MCP) 17 课路线，以及从契约、发现、调用、沙箱边界延伸到发布评估的 Agent Skills 路线，适合按目标选择聚焦路径，而非只按统一顺序通读。
 
 #### 项目概况
 
-- **仓库**：[anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop)
-- **Stars**：31,997
-- **主要语言**：TypeScript
-- **Topics**：cordis、cordis-plugin、deepseek、deepseek-harness、desktop、dsh、dsh-plugin、dsh-plugin-desktop
+- **仓库**：[rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
+- **Stars**：72,107
+- **主要语言**：Python
+- **Topics**：agents、ai、ai-agents、ai-engineering、computer-vision、course、deep-learning、dsh、from-scratch、generative-ai、llm、machine-learning、mcp、python、rea、reinforcement-learning、rust、transformers、tutorial、typescript
 - **许可证**：MIT
-- **最近推送**：2026-10-20T11:07:44Z
+- **最近推送**：2026-10-21T12:32:37Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +227
+- 实际快照 1 日 Stars 增量 +312
 
 ---
 
 <a id="project-detail-67"></a>
-### 67. [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)
+### 67. [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) 🟢
 
 [↖️ 返回表格中的 #67](#project-row-67)
 
 #### 中文分析
 
-粘贴一则职位后，career ops 会先确认招聘页面是否仍然开放，再依据真实 CV 对岗位进行 1–5 分匹配评估；弱匹配时会直接给出 do not apply，用户仍可选择覆盖判断。值得申请的岗位会继续产出职位分析、薪酬研究、公司研究、个性化策略和 interview prep，并根据已有经历改写 ATS 友好的 CV、cover letter 与申请字段答案。它还会寻找招聘经理、招聘人员或团队同事，起草不超过 300 字符的 LinkedIn 消息，但不会发送。整个流程强调 Human in the Loop：工具只准备材料，申请人阅读后亲自点击 Submit；prepare application.mjs 不会执行 POST，代码库也没有邮件传输组件。申请记录保留在本机且没有遥测或自有后端，CV 只会交给用户选择的 AI 提供商。为降低材料虚构风险，生成 PDF 前会检查其中的数字和事实是否能在 CV 或文章摘要中找到，不过改写仍需人工逐份审阅。持续使用后，它还能通过 analyze patterns.mjs 分析拒绝模式及不同 ATS 渠道的推进率。
+把 REA 交给编码智能体后，不必从一句宽泛的“分析整个程序”开始摸索；REA Investigation Prompts (REAP) 提供了一组可直接粘贴、再替换目标信息的调查提示词，帮助智能体追踪软件如何运转。内容从 Install & verify 和 CSV 导出追踪起步，逐步覆盖原生二进制、文件格式、协议、APK、固件、内核、Electron、网站、游戏移植、版本比较与崩溃定位，也包含 clean room methodology 下的行为重建方法。提示词的共同写法很鲜明：一次只调查一个功能，要求给出文件、函数或地址证据，并把 confirmed facts、hypotheses 与 unknown 分开；通常先做静态分析，需要运行时观察时再执行，最后产出 SPEC.md、读取脚本、移植计划或最小重建等可核验成果。涉及反作弊、DMA、DRM、漏洞或破解研究的章节限定在自有设备、获授权测试、CTF、漏洞赏金与互操作场景，强调记录和防护而非绕过或武器化。
 
 #### 项目概况
 
-- **仓库**：[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)
-- **Stars**：75,917
-- **主要语言**：JavaScript
-- **Topics**：agent-skills、ai-agent、ai-job-search、ats、career、career-ops、careerops、claude-code、cli、cover-letter、cv、interview-prep、job-application、job-hunting、job-search、latex、local-first、open-source、resume、terminal
-- **许可证**：MIT
-- **最近推送**：2026-10-20T20:20:20Z
+- **仓库**：[JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts)
+- **Stars**：1,342
+- **主要语言**：未知
+- **Topics**：prompt-engineering、rea、reverse-enginnering
+- **许可证**：未标注
+- **最近推送**：2026-10-21T00:32:22Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +231
+- 实际快照 1 日 Stars 增量 +374
 
 ---
 
 <a id="project-detail-68"></a>
-### 68. [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
+### 68. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 
 [↖️ 返回表格中的 #68](#project-row-68)
+
+#### 中文分析
+
+九个 slash commands 把软件交付过程串成可执行的工程工作流：先用 /spec 明确需求，再以 /plan 拆成小而独立的任务，随后通过 /build 逐片实现、/test 提供证明、/review 在合并前检查代码健康，最后由 /ship 推向生产；/constraints、/webperf 和 /code simplify 分别负责统一质量约束、以测量驱动性能优化和简化代码。命令会自动激活对应 skills，设计 API 或构建 UI 时也能按上下文触发相应流程。若规格已经确定，/build auto 会生成计划并在一次批准后连续实现，但仍坚持测试驱动、每项任务单独提交，并在失败或高风险步骤暂停。整套内容包含 25 skills，每项都用步骤、verification gates 与 anti rationalization tables 固化资深工程实践。安装形式随宿主调整：Claude Code 可作为插件获得命令，Cursor 把工作流放入 .cursor/skills/，OpenCode 使用 .opencode/skills/，Codex CLI v0.122+ 则可注册 marketplace 并安装原生插件；其他能够读取 Markdown 指令或 system prompts 的 Agent 也能直接使用。单独通过 npx 安装某个 skill 时只会复制对应 skills 目录，共享 references/ 中的补充清单不会随之带入。
+
+#### 项目概况
+
+- **仓库**：[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
+- **Stars**：109,335
+- **主要语言**：JavaScript
+- **Topics**：agent-skills、antigravity、claude-code、codex、cursor、skills
+- **许可证**：MIT
+- **最近推送**：2026-10-13T20:24:07Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +342
+
+---
+
+<a id="project-detail-69"></a>
+### 69. [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)
+
+[↖️ 返回表格中的 #69](#project-row-69)
+
+#### 中文分析
+
+面对数十万行代码时，Understand Anything 不要求使用者从目录树开始盲读，而是先由 multi agent pipeline 扫描文件、函数、类和依赖，再把结果写入 .ua/knowledge graph.json，并打开可缩放、搜索和点击的交互式仪表盘。结构视图会按 API、Service、Data、UI、Utility 等架构层着色分组；选中节点后可查看代码、关系、自然语言摘要与 Guided Tours，后者依照依赖顺序组织架构讲解。切到 domain view，还能从业务域、流程和步骤理解代码如何承载真实业务。Fuzzy & Semantic Search 既支持按名称查找，也能回答“哪些部分处理认证”一类按语义提出的问题，Diff Impact Analysis 则用于在提交前观察修改可能波及的区域。首次运行 /understand 会分析整个代码库，规模较大时会消耗较多 token，后续默认只处理变化文件；Codex 中调用前缀不同，应输入 $understand。它也能分析知识库，通过确定性解析器提取 wikilinks 与 index.md 分类，再让模型补充隐含关系、实体和观点。
+
+#### 项目概况
+
+- **仓库**：[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)
+- **Stars**：87,495
+- **主要语言**：TypeScript
+- **Topics**：antigravity-skills、business-knowledge、claude-code、claude-skills、codebase-analysis、codex、codex-skills、developer-tools-ai-agent、gemini-cli-skills、karpathy-llm-wiki、knowledge-base、knowledge-graph、memory、opencode-skills、pi-agent、understandcode、vibe-coding
+- **许可证**：MIT
+- **最近推送**：2026-10-21T06:32:17Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +240
+
+---
+
+<a id="project-detail-70"></a>
+### 70. [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
+
+[↖️ 返回表格中的 #70](#project-row-70)
 
 #### 中文分析
 
@@ -1760,7 +1805,7 @@ Firecrawl 把网页搜索、抓取、交互和批量采集统一成可供 AI 使
 #### 项目概况
 
 - **仓库**：[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
-- **Stars**：122,527
+- **Stars**：122,755
 - **主要语言**：未知
 - **Topics**：awesome-list、design-md、design-system、design-tokens、figma、landing-page、vibe-coding、vibe-design、vibecoding
 - **许可证**：MIT
@@ -1768,134 +1813,38 @@ Firecrawl 把网页搜索、抓取、交互和批量采集统一成可供 AI 使
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +197
-
----
-
-<a id="project-detail-69"></a>
-### 69. [earendil-works/pi](https://github.com/earendil-works/pi)
-
-[↖️ 返回表格中的 #69](#project-row-69)
-
-#### 中文分析
-
-Pi 刻意保留一个小而可改造的智能体骨架：默认提供可用的编码助手，却不内置 sub agents 和 plan mode，而是允许用户通过可热重载的扩展、提示与共享包把工作方式组装出来，并经 npm 或 git 分发。日常入口是命令行：安装后在目标目录启动 Pi，在交互界面执行 /login 连接订阅或 API key，随后直接交付任务；它也能用于脚本自动化、远程控制，或作为库嵌入应用。仓库本身是 monorepo，分层容纳统一多供应商 LLM API、带工具调用和状态管理的 Agent runtime、持久化会话与任务运行时、Interactive coding agent CLI，以及采用 differential rendering 的 Terminal UI library，因而既是成品 CLI，也是搭建其他智能体产品的组件集合。安全边界需要由使用者明确提供：Pi 默认继承启动它的用户与进程权限，没有内置文件系统、进程、网络或凭据权限系统；README 给出 Gondolin extension、Plain Docker 和 OpenShell 三种隔离路线。供应链方面，直接依赖锁定精确版本，以 package lock.json 为依据，CI 使用 npm ci ignore scripts，并通过安装锁、生命周期脚本白名单和签名审计约束发布过程。
-
-#### 项目概况
-
-- **仓库**：[earendil-works/pi](https://github.com/earendil-works/pi)
-- **Stars**：116,713
-- **主要语言**：TypeScript
-- **Topics**：未标注
-- **许可证**：MIT
-- **最近推送**：2026-10-21T01:03:12Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +284
-
----
-
-<a id="project-detail-70"></a>
-### 70. [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot)
-
-[↖️ 返回表格中的 #70](#project-row-70)
-
-#### 中文分析
-
-代码可以生成影片、演示或游戏，编码智能体却往往无法判断自己制作的声音是否合适。earshot 把音频转成可推理的证据：describe 给出带校准分数和替代解释的声音标签，match 衡量描述与音频的匹配程度，find 在长录音里定位相应片段，timeline 则整理事件、响度、节拍以及声音与画面切点的同步关系。需要看图时，sheet 会把帧画面、事件、频谱和波形组合成带注释的 PNG；critique 可按专业发布片的参考特征给出带时间戳的修改建议。工具默认在本机 CPU 上运行，提供 CLI、Python API 和 MCP server，多次调用可用后两者维持模型常驻。声音创作由 earshot forge 完成：智能体编写物理合成配方，渲染候选，再依据匹配度、真实感、参考录音距离和伪影检查反复修改；earshot fit 则把录音拟合成可调参数的代码配方。0.3 版另带 201 个以代码保存的音效，sfx 能把重音瞄准具体画面时刻，kit 可渲染整段影片的声音角色并核验起音、峰值和结束时间，这两条路径不加载模型，也不需要网络。
-
-#### 项目概况
-
-- **仓库**：[Leonxlnx/earshot](https://github.com/Leonxlnx/earshot)
-- **Stars**：1,954
-- **主要语言**：Python
-- **Topics**：ai-agents、audio、claude-code、mcp、sound-design
-- **许可证**：MIT
-- **最近推送**：2026-10-18T07:22:49Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +411
+- 实际快照 1 日 Stars 增量 +228
 
 ---
 
 <a id="project-detail-71"></a>
-### 71. [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills)
+### 71. [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop)
 
 [↖️ 返回表格中的 #71](#project-row-71)
 
 #### 中文分析
 
-Nature Skills 将论文阅读、学术写作、审稿回复和科研绘图拆成围绕 SKILL.md 组织的可复用技能，让 Agent 能按可验证流程产出中英文对照 Markdown、组会 PPT、Nature 风格段落、reviewer reports、逐点回复与投稿级示意图。使用时可以直接交给 Agent 论文、段落、审稿意见或任务描述；不确定模块名称时只需描述目标，已知时则明确指定 nature reader、nature polishing、nature writing、nature response 或 nature figure。skills/ 下每个顶层目录都是可安装单元，nature shared 保存多个技能共同读取的支持文件，因此安装依赖它的单项技能时必须一并保留完整目录，而不能只复制 SKILL.md，否则 references/、static/、manifest.yaml、脚本和资产可能缺失。Codex 可通过 npx skills 按需安装，完整技能集也能使用仓库同步脚本复制并做 diff 验证；Claude Code 更适合让 subagent 或 slash command 指向稳定 clone，或用 scripts/autoupdate skills.sh 配合 SessionStart 自动同步。Chatbox 用户则可在“设置 → 技能”中从 GitHub 扫描、勾选技能，并在支持工具调用的模型中开启智能体模式。技能安装只提供指令与配套文件，Python、R、浏览器、PDF/PPTX 工具和 MCP 服务仍需按具体任务配置。
+把 DeepSeek Harness 搬进 Windows 与 macOS 原生桌面环境后，DSH Desktop 会自动启动并管理本地 Host 服务，把上游的 Web UI、系统托盘、桌面窗口、终端、更新和工作配置整合在一起，普通用户无需安装 Node.js 或手动执行命令。首次启动未初始化的 profile 时，原生 Setup Wizard 会先让用户选择窗口模式、系统材质、插件市场、通知、默认浏览器和 Web 访问范围；完成或跳过之前，Host 与主窗口都不会启动。其最鲜明的设计是“一切皆插件”：固定版本的上游 DeepSeek Harness 保持原样运行，桌面壳也通过相同插件机制接入，因此模型、工具、界面、工作流及桌面能力可以共同组合。内置的 DSH Community Market 支持插件发现、详情、安装和管理，也允许符合公开 Schema 的数据源接入。2.0.9 及以上版本还提供手机远程控制，可在 iOS 或 Android 上发起任务、查看 Agent 进度并继续跟进。Web 服务默认只监听本机回环地址；浏览器打开与局域网访问是两项独立设置，而局域网模式不提供鉴权，同一网络中的其他人可以直接操作 DSH，因此只应在完全可信的网络中开启。
 
 #### 项目概况
 
-- **仓库**：[Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills)
-- **Stars**：49,664
-- **主要语言**：Python
-- **Topics**：codex-skills、nature、nature-skills
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T12:46:26Z
+- **仓库**：[anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop)
+- **Stars**：32,209
+- **主要语言**：TypeScript
+- **Topics**：cordis、cordis-plugin、deepseek、deepseek-harness、desktop、dsh、dsh-plugin、dsh-plugin-desktop
+- **许可证**：MIT
+- **最近推送**：2026-10-21T10:44:57Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +284
+- 实际快照 1 日 Stars 增量 +212
 
 ---
 
 <a id="project-detail-72"></a>
-### 72. [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)
+### 72. [jub0t/Concat](https://github.com/jub0t/Concat)
 
 [↖️ 返回表格中的 #72](#project-row-72)
-
-#### 中文分析
-
-iFixAi 追问的不是 token efficiency 或 latency，而是智能体是否按照 business KPIs 与 Organizational Structure 完成了本应完成的工作；其诊断把 AI Red Teaming 的对抗深度与 Operational Assurance 的审计纪律放进同一流程，并宣称可在 120 seconds 内给出结果。三种入口运行的是同一套引擎：guided wizard 通过 ifixai setup 保存 ifixai.yaml，此后执行 ifixai run 即可重复审计；explicit flags 适合 CI、自动化和可复现批次；Plugin or Skill 则让智能体发现配置、构造 fixture、先说明成本，再运行并解释 scorecard。默认执行 10 inspections，也可选择 smoke、strategic、essential、core、extended 或 all；结果同时生成 JSON、Markdown reports 和终端评分卡，并写入 ./ifixai results/。评分区分 SUT 与 Judge：若要得到可引用的结论，应由不同供应商的独立 Judge 评审被测系统，避免自己给自己打分；只有一把 key 时可用 eval mode self 做 smoke test，但结果会标记为 self judged。审计还支持 recorded actions、业务策略组合及本地 callable replay，用于寻找一连串单独获准却合起来有害的最短操作，并验证权限修复后合法目标仍能完成。
-
-#### 项目概况
-
-- **仓库**：[ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)
-- **Stars**：30,678
-- **主要语言**：Python
-- **Topics**：agent-evaluation、ai、ai-alignment、ai-evaluation、ai-governance、ai-safety、cli、diagnostic-tool、eu-ai-act、hallucination-detection、iso-42001、llm-evaluation、llm-security、nist-ai-rmf、owasp-llm、prompt-injection、python、responsible-ai、risk-assessment、risk-management
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-16T04:33:05Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +562
-
----
-
-<a id="project-detail-73"></a>
-### 73. [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
-
-[↖️ 返回表格中的 #73](#project-row-73)
-
-#### 中文分析
-
-选择一种影片风格并提供自己的故事，Lemo Opuscar 会让编码智能体像小型工作室一样完成导演、画面、配乐、旁白与混音。51 种风格各配提示词和纯代码短片，画面由 canvas、WebGL 页面逐帧渲染，音乐来自免费采样库编写的原创配乐，旁白使用文本转语音，不依赖视频生成模型或库存影像。OPUSCAR 98 是较完整的演示：用 2D、2.5D 与 3D 表达重新描绘 98 部最佳影片获奖作品，并开放各段的风格标签、关键帧、提示词和镜头设计。使用技能后，共享指南与工具下载到独立资料目录，具体工程留在启动时的工作目录；智能体会先询问题材中无法确定的事项、用户自有素材以及是否需要看分镜。新加入的个人风格流程会说明哪些元素可修改，保存到库外的 lemo my styles，再经用户确认制作 15–30 秒试片，更新资料库不会覆盖这些样式。Evidence Films 进一步强调拍摄真实材料，数字须有测量或来源支持。README 特别说明风格针对 Claude Opus 5.5 调校，其他模型不保证复现相同结果。
-
-#### 项目概况
-
-- **仓库**：[lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
-- **Stars**：4,362
-- **主要语言**：JavaScript
-- **Topics**：agent-skills、ai-agents、ai-short-film、ai-video、animation、canvas、claude、claude-code、claude-code-plugin、claude-code-skill、creative-coding、ffmpeg、filmmaking、motion-graphics、opus-5-5、prompt-library、text-to-speech、threejs、video-production、webgl
-- **许可证**：MIT
-- **最近推送**：2026-10-19T12:11:41Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +566
-
----
-
-<a id="project-detail-74"></a>
-### 74. [jub0t/Concat](https://github.com/jub0t/Concat)
-
-[↖️ 返回表格中的 #74](#project-row-74)
 
 #### 中文分析
 
@@ -1904,46 +1853,22 @@ iFixAi 追问的不是 token efficiency 或 latency，而是智能体是否按�
 #### 项目概况
 
 - **仓库**：[jub0t/Concat](https://github.com/jub0t/Concat)
-- **Stars**：9,972
+- **Stars**：10,520
 - **主要语言**：Rust
 - **Topics**：ffmpeg、free-video-editor、model-context-protocol、non-linear-editor、offline-first、open-source-video-editor、self-hosted、video-editing、video-editing-automation、video-editing-software、video-editing-tools、video-editor、voice-cloning、youtube-automation、youtube-shorts
 - **许可证**：AGPL-3.0
-- **最近推送**：2026-10-20T16:47:39Z
+- **最近推送**：2026-10-21T12:31:50Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +485
+- 实际快照 1 日 Stars 增量 +548
 
 ---
 
-<a id="project-detail-75"></a>
-### 75. [hypit-ai/hypit](https://github.com/hypit-ai/hypit)
+<a id="project-detail-73"></a>
+### 73. [storytold/lightcraft](https://github.com/storytold/lightcraft)
 
-[↖️ 返回表格中的 #75](#project-row-75)
-
-#### 中文分析
-
-Hypit 用 SVML 给 Claude Code、Codex 等编码智能体一套描述和编译视频的语言：放入参考视频后，智能体会把 footage、captions、B roll 和 effects 重建成完整 workflow，而且时间关系锚定在 words 而不是固定秒数，因此替换旁白、文案或语言时，节奏能够重新流动。克隆只是入口，也可以从 templates 开始，或直接描述目标，让智能体从零编写 workflow；Generation models 也并非必需，字幕、motion graphics 和 code rendered visuals 可以在本地组合成成片，不调用生成服务。安装 /hypit skill 后，可在任意空目录或现有项目中发起制作，智能体会检查环境、询问所需凭据、生成素材并构建 composition。产物并非一次性 render，而是 editable、re runnable 的结构：同一构图可以保留主体，只批量替换 host、hook、product、CTA、language 或 aspect ratio，形成大量 variants。组件之间也保持可替换性，例如换主持人无需触碰字幕；示例还展示了 WhisperX word alignment、speaker aware karaoke captions，以及通过 64 headless Chromium processes 并发渲染复杂竖屏视频的流程。
-
-#### 项目概况
-
-- **仓库**：[hypit-ai/hypit](https://github.com/hypit-ai/hypit)
-- **Stars**：24,302
-- **主要语言**：TypeScript
-- **Topics**：agentic-ai、ai、ai-agents、ai-video、compiler、dsl、ffmpeg、generative-ai、llm、markup-language、monorepo、plugin-system、programming-language、text-to-video、typescript、video、video-automation、video-clone、video-editing、video-generation
-- **许可证**：NOASSERTION
-- **最近推送**：2026-10-19T03:45:35Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +292
-
----
-
-<a id="project-detail-76"></a>
-### 76. [storytold/lightcraft](https://github.com/storytold/lightcraft)
-
-[↖️ 返回表格中的 #76](#project-row-76)
+[↖️ 返回表格中的 #73](#project-row-73)
 
 #### 中文分析
 
@@ -1952,46 +1877,94 @@ Hypit 用 SVML 给 Claude Code、Codex 等编码智能体一套描述和编译�
 #### 项目概况
 
 - **仓库**：[storytold/lightcraft](https://github.com/storytold/lightcraft)
-- **Stars**：14,050
+- **Stars**：14,215
 - **主要语言**：Rust
 - **Topics**：art、photography、raw、raw-editor、raw-processing、rust
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T15:38:52Z
+- **最近推送**：2026-10-21T23:44:41Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +137
+- 实际快照 1 日 Stars 增量 +165
+
+---
+
+<a id="project-detail-74"></a>
+### 74. [hypit-ai/hypit](https://github.com/hypit-ai/hypit)
+
+[↖️ 返回表格中的 #74](#project-row-74)
+
+#### 中文分析
+
+Hypit 用 SVML 给 Claude Code、Codex 等编码智能体一套描述和编译视频的语言：放入参考视频后，智能体会把 footage、captions、B roll 和 effects 重建成完整 workflow，而且时间关系锚定在 words 而不是固定秒数，因此替换旁白、文案或语言时，节奏能够重新流动。克隆只是入口，也可以从 templates 开始，或直接描述目标，让智能体从零编写 workflow；Generation models 也并非必需，字幕、motion graphics 和 code rendered visuals 可以在本地组合成成片，不调用生成服务。安装 /hypit skill 后，可在任意空目录或现有项目中发起制作，智能体会检查环境、询问所需凭据、生成素材并构建 composition。产物并非一次性 render，而是 editable、re runnable 的结构：同一构图可以保留主体，只批量替换 host、hook、product、CTA、language 或 aspect ratio，形成大量 variants。组件之间也保持可替换性，例如换主持人无需触碰字幕；示例还展示了 WhisperX word alignment、speaker aware karaoke captions，以及通过 64 headless Chromium processes 并发渲染复杂竖屏视频的流程。
+
+#### 项目概况
+
+- **仓库**：[hypit-ai/hypit](https://github.com/hypit-ai/hypit)
+- **Stars**：24,653
+- **主要语言**：TypeScript
+- **Topics**：agentic-ai、ai、ai-agents、ai-video、compiler、dsl、ffmpeg、generative-ai、llm、markup-language、monorepo、plugin-system、programming-language、text-to-video、typescript、video、video-automation、video-clone、video-editing、video-generation
+- **许可证**：NOASSERTION
+- **最近推送**：2026-10-19T03:45:35Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +351
+
+---
+
+<a id="project-detail-75"></a>
+### 75. [HeyPuter/everything](https://github.com/HeyPuter/everything)
+
+[↖️ 返回表格中的 #75](#project-row-75)
+
+#### 中文分析
+
+从 Office、Slack、Photoshop 到 AutoCAD，Everything Project 试图从零重做常见专有软件，并把成果集中在同一个 mono repository 中开放使用。仓库不是单一应用，而是一套仍在扩展的产品集合：办公区已有 Spreadsheet、Documents、Presentation、Whiteboard、PDF、Notes 和 Records；协作区覆盖 Meetings、Teamchat、Email、Contacts、Calendar 与 Signatures；创作和工程工具则延伸到 Photo Studio、Video Studio、Vector Studio、CAD、Parametric、Circuits 和 Building Design。它还提供 Tasks、Projects、Wiki、Accounting、CRM、API Client 等生产力、财务、商业及开发工具，每项都对应 README 中的 Try it 与 Source 入口，便于先在线体验，再进入源码。仓库也收录 Chess、Backgammon、Solitaire、Sudoku 等游戏，其中 Sudoku 提供四档难度、每日谜题和解释解题逻辑的提示。整体辨识度在于它用统一仓库承载跨度极大的软件替代品，而不是只复刻某一类 SaaS；本地开始开发需要 Node.js 22.12 或更新版本。
+
+#### 项目概况
+
+- **仓库**：[HeyPuter/everything](https://github.com/HeyPuter/everything)
+- **Stars**：3,460
+- **主要语言**：JavaScript
+- **Topics**：adobe、cad、office、photoshop、saas、spreadsheet
+- **许可证**：MIT
+- **最近推送**：2026-10-21T23:45:03Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +293
+
+---
+
+<a id="project-detail-76"></a>
+### 76. [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+
+[↖️ 返回表格中的 #76](#project-row-76)
+
+#### 中文分析
+
+只需用自然语言描述成片目标，接入的 AI 编码助手便可沿生产管线完成调研、脚本、素材生成、剪辑和最终合成；它不局限于把静态图做成轻微动画，也能从免费库存影像和开放档案建立语料库，检索真实运动镜头、排入时间线并渲染成片。若已有喜欢的 YouTube、Short、Reel、TikTok 或本地视频，可以直接粘贴作为参考：智能体会分析 transcript、节奏、场景、关键帧与风格，返回两到三个差异化概念，明确哪些结构与语气会保留、哪些主题和视觉处理会改变，并在生成资产前给出工具路径、成本估算和样片。制作过程由本地 Backlot 可视化：阶段会依次点亮，脚本以 screenplay 页面出现，素材生成时形成场景卡片，供应商选择与费用也同步展示。Storyboard 不是装饰性预览，而是真正的 approval gate；系统会在渲染前按场景展示 takes、prompts、单项成本与质量评分，并暂停等待用户批准，避免到成片后才发现视觉方向错误。最终结果可由 Remotion、FFmpeg 或 Blender 等工具组合完成，已结束的任务还能通过 REPLAY RUN 按时间戳完整回放。它可配合 Claude Code、Cursor、Copilot、Windsurf 和 Codex，只要助手能够读取文件并运行代码，就能利用仓库内的生产知识与工具推进流程。
+
+#### 项目概况
+
+- **仓库**：[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+- **Stars**：70,613
+- **主要语言**：Python
+- **Topics**：agent、agentic-ai、ai、claude、copilot、cursor、elevenlabs、ffmpeg、flux、image-generation、open-source、openai、python、remotion、stable-diffusion、text-to-speech、text-to-video、video-generation、video-production
+- **许可证**：AGPL-3.0
+- **最近推送**：2026-10-16T15:07:33Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +298
 
 ---
 
 <a id="project-detail-77"></a>
-### 77. [anthropics/skills](https://github.com/anthropics/skills)
+### 77. [garrytan/gstack](https://github.com/garrytan/gstack)
 
 [↖️ 返回表格中的 #77](#project-row-77)
-
-#### 中文分析
-
-Anthropic 在这里公开了一组供 Claude 动态加载的 Skills：每项技能都是一个自包含文件夹，通过 SKILL.md 保存元数据、操作指令、示例与规则，并可搭配脚本和资源，让文档制作、数据分析、网页测试、MCP server generation、品牌沟通等任务形成可重复执行的流程。仓库中的 ./skills 汇集创意设计、技术开发、企业沟通和文档类示例，./spec 放置 Agent Skills specification，./template 则提供创建新技能的起点；其中 skills/docx、skills/pdf、skills/pptx 和 skills/xlsx 展示了 Claude 实际文档能力背后的复杂实现，但它们属于 source-available 参考代码。最直接的体验方式是在 Claude Code 中运行 /plugin marketplace add anthropics/skills，再安装 document-skills 或 example-skills，之后只需在请求里点名相应技能，例如让 PDF skill 从文件中提取表单字段。自定义技能也很轻量：建立文件夹，在 SKILL.md 的 YAML frontmatter 中填写唯一的 name 和描述触发时机的 description，再写入模型应遵循的说明、示例及准则即可。仓库强调这些内容主要用于演示和教育，实际行为可能与 Claude 产品内置版本不同，关键任务应先在自己的环境中充分测试。
-
-#### 项目概况
-
-- **仓库**：[anthropics/skills](https://github.com/anthropics/skills)
-- **Stars**：182,503
-- **主要语言**：Python
-- **Topics**：agent-skills
-- **许可证**：未标注
-- **最近推送**：2026-10-09T18:45:52Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +263
-
----
-
-<a id="project-detail-78"></a>
-### 78. [garrytan/gstack](https://github.com/garrytan/gstack)
-
-[↖️ 返回表格中的 #78](#project-row-78)
 
 #### 中文分析
 
@@ -2000,111 +1973,135 @@ Anthropic 在这里公开了一组供 Claude 动态加载的 Skills：每项技�
 #### 项目概况
 
 - **仓库**：[garrytan/gstack](https://github.com/garrytan/gstack)
-- **Stars**：137,085
+- **Stars**：137,207
 - **主要语言**：TypeScript
 - **Topics**：未标注
 - **许可证**：MIT
-- **最近推送**：2026-10-21T00:11:11Z
+- **最近推送**：2026-10-22T00:25:57Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +113
+- 实际快照 1 日 Stars 增量 +122
+
+---
+
+<a id="project-detail-78"></a>
+### 78. [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
+
+[↖️ 返回表格中的 #78](#project-row-78)
+
+#### 中文分析
+
+选择一种影片风格并提供自己的故事，Lemo Opuscar 会让编码智能体像小型工作室一样完成导演、画面、配乐、旁白与混音。51 种风格各配提示词和纯代码短片，画面由 canvas、WebGL 页面逐帧渲染，音乐来自免费采样库编写的原创配乐，旁白使用文本转语音，不依赖视频生成模型或库存影像。OPUSCAR 98 是较完整的演示：用 2D、2.5D 与 3D 表达重新描绘 98 部最佳影片获奖作品，并开放各段的风格标签、关键帧、提示词和镜头设计。使用技能后，共享指南与工具下载到独立资料目录，具体工程留在启动时的工作目录；智能体会先询问题材中无法确定的事项、用户自有素材以及是否需要看分镜。新加入的个人风格流程会说明哪些元素可修改，保存到库外的 lemo my styles，再经用户确认制作 15–30 秒试片，更新资料库不会覆盖这些样式。Evidence Films 进一步强调拍摄真实材料，数字须有测量或来源支持。README 特别说明风格针对 Claude Opus 5.5 调校，其他模型不保证复现相同结果。
+
+#### 项目概况
+
+- **仓库**：[lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
+- **Stars**：4,919
+- **主要语言**：JavaScript
+- **Topics**：agent-skills、ai-agents、ai-short-film、ai-video、animation、canvas、claude、claude-code、claude-code-plugin、claude-code-skill、creative-coding、ffmpeg、filmmaking、motion-graphics、opus-5-5、prompt-library、text-to-speech、threejs、video-production、webgl
+- **许可证**：MIT
+- **最近推送**：2026-10-19T12:11:41Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +557
 
 ---
 
 <a id="project-detail-79"></a>
-### 79. [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos)
+### 79. [earendil-works/pi](https://github.com/earendil-works/pi)
 
 [↖️ 返回表格中的 #79](#project-row-79)
 
 #### 中文分析
 
-从热门动效到可交互小游戏，这份合集把 Claude Opus 5.5 生成的视频、创作者公开的提示词和原始帖子串在一起，让读者不只观看成片，还能追溯它是怎样被描述并写成动画代码的。收录内容覆盖 Motion graphics、Explainers、3D scenes、Games & interactive 等类别，常见实现标注有 HTML、Canvas、SVG、Three.js、GSAP、GLSL、WebGL、Web Audio 和 Particles，便于按视觉类型或技术路线寻找案例。实际复刻流程很直接：打开提示词文件，复制 Prompt 区块，粘贴到 Claude Code、Claude 应用或其他运行 Opus 5.5 的智能体中，再让它渲染结果。每条记录都会链接创作者原帖，其中一部分还能在 Skillry 查看 live remake，将原作与现场复刻并排比较。合集持续追加新提示词，并突出展示不同提示词对应的复刻视频，因此既是一份灵感索引，也是一组可直接实验的创意编码输入样本。
+Pi 刻意保留一个小而可改造的智能体骨架：默认提供可用的编码助手，却不内置 sub agents 和 plan mode，而是允许用户通过可热重载的扩展、提示与共享包把工作方式组装出来，并经 npm 或 git 分发。日常入口是命令行：安装后在目标目录启动 Pi，在交互界面执行 /login 连接订阅或 API key，随后直接交付任务；它也能用于脚本自动化、远程控制，或作为库嵌入应用。仓库本身是 monorepo，分层容纳统一多供应商 LLM API、带工具调用和状态管理的 Agent runtime、持久化会话与任务运行时、Interactive coding agent CLI，以及采用 differential rendering 的 Terminal UI library，因而既是成品 CLI，也是搭建其他智能体产品的组件集合。安全边界需要由使用者明确提供：Pi 默认继承启动它的用户与进程权限，没有内置文件系统、进程、网络或凭据权限系统；README 给出 Gondolin extension、Plain Docker 和 OpenShell 三种隔离路线。供应链方面，直接依赖锁定精确版本，以 package lock.json 为依据，CI 使用 npm ci ignore scripts，并通过安装锁、生命周期脚本白名单和签名审计约束发布过程。
 
 #### 项目概况
 
-- **仓库**：[yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos)
-- **Stars**：7,070
-- **主要语言**：未知
-- **Topics**：ai-video、awesome、awesome-list、claude、claude-opus、creative-coding、motion-graphics、prompts、threejs
+- **仓库**：[earendil-works/pi](https://github.com/earendil-works/pi)
+- **Stars**：116,965
+- **主要语言**：TypeScript
+- **Topics**：未标注
 - **许可证**：MIT
-- **最近推送**：2026-10-13T14:46:44Z
+- **最近推送**：2026-10-21T22:34:09Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +446
+- 实际快照 1 日 Stars 增量 +252
 
 ---
 
 <a id="project-detail-80"></a>
-### 80. [tw93/Mole](https://github.com/tw93/Mole)
+### 80. [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop)
 
 [↖️ 返回表格中的 #80](#project-row-80)
 
 #### 中文分析
 
-一条 mo 命令把 Mac 上常见的清理、卸载、磁盘分析、维护和状态监控流程集中起来；这个仓库提供免费开源 CLI，原生 Mac 与 Windows 应用则是独立下载。mo clean 检查已知安全的缓存、日志、临时文件、开发产物及卸载残留，mo uninstall 会把应用及可确认归属的 LaunchAgents、偏好与遗留文件一并列入预览，同时保留仍被其他副本共享的数据。mo analyze 打开交互式终端磁盘浏览器，支持方向键和 Vim navigation、过滤、多选、Finder 预览，并在确认后把文件移入 Trash；mo optimize 则执行有边界的 Finder、网络、数据库和 macOS 服务维护任务，不合时宜或无法安全执行的项目会附理由跳过。安全策略贯穿整个流程：路径会先验证，共享位置与系统位置受到保护，不能证明可安全更改的内容会被拒绝；删除类命令应先做 dry run，且无需用 sudo 启动。mo uninstall 和 mo analyze 默认送入废纸篓，而 clean、purge、installer 会永久删除。操作记录保存在 /Library/Logs/mole/operations.log，可用 mo history 查看，也可通过 mo clean whitelist 保护指定缓存。CLI 要求 macOS 12 或更新版本，并同时支持 Intel 与 Apple Silicon。
+启动 DSH Desktop 后，本地 DeepSeek Harness 会被自动拉起，运行就绪时直接打开完整界面，不再要求用户另开 CLI 或浏览器标签页；profiles、plugins、workspaces、模型配置和 sessions 则保存在应用目录之外，升级后仍能延续。桌面宿主补上了原生目录选择、官方 DeepSeek 与主流第三方模型配置、可导入导出的 Agent presets，以及把素材生成可编辑 PPTX 的 PPT mode；内置目录提供 16 个模板和 192 种布局，macOS 与 Windows 还捆绑了离线 DOCX、PPTX、XLSX 技能。需要跨设备继续会话时，可在 Harness 菜单选择 Connect Phone…并扫码：同一 Wi‑Fi 下直接连接，公网则通过独立配对桥接与临时密码访问，优先使用 Cloudflare Quick Tunnel，失败时回退 Pinggy。若第三方插件导致启动或渲染异常，Safe Mode 会临时屏蔽它们，同时保留 Agent、会话、模型设置和工作区，并依据 harness.log 提供恢复、移除或升级插件的操作。当前版本仍属 early preview，预览版紧跟快速演进的 Harness，可能与社区插件不兼容。
 
 #### 项目概况
 
-- **仓库**：[tw93/Mole](https://github.com/tw93/Mole)
-- **Stars**：71,875
-- **主要语言**：Shell
-- **Topics**：analyzer、appcleaner、clean、cleaner、cleanmymac、command-line、daisydisk、istat、mac、macos、macos-app、native、optimize、pearcleaner、sensei、shell、swift、swiftui、uninstall、windows
-- **许可证**：GPL-3.0
-- **最近推送**：2026-10-21T01:10:11Z
+- **仓库**：[dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop)
+- **Stars**：15,911
+- **主要语言**：JavaScript
+- **Topics**：agent、apps、deepseek、deepseek-harness、deepseek-harness-desktop、desktop、dsh-desktop、dsh-plugin、dsh-plugin-desktop、dshdesktop、harness
+- **许可证**：MIT
+- **最近推送**：2026-10-21T15:58:07Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +336
+- 实际快照 1 日 Stars 增量 +348
 
 ---
 
 <a id="project-detail-81"></a>
-### 81. [github/spec-kit](https://github.com/github/spec-kit)
+### 81. [anthropics/skills](https://github.com/anthropics/skills)
 
 [↖️ 返回表格中的 #81](#project-row-81)
 
 #### 中文分析
 
-Spec Kit把 AI coding agent 的工作组织成可选择、可组合的开发流程：你可以先用现成流程，也可以改模板、术语和方法，或用可复用的 primitives 组装自己的流程。做功能时，Spec Driven Development（SDD）要求先明确需求与原因，再依次在 agent 对话中调用 constitution、specify、plan、tasks、implement 和 converge；实现后反复执行 implement → converge，直到报告 Converged。若面对异常行为，可安装可选扩展，按 assess → fix → test 分开完成诊断、修复和验证，报告会落在 .specify/bugs/login crash/，并给出 verified、partial 或 failed 结论。评估想法则使用独立的 intake → research → define → shape → decide 流程，把产物写入 .specify/assessments/offline mode/，最后形成 go、needs clarification 或 kill 决策。命令行负责安装 Spec Kit、扩展和项目初始化，真正的 /speckit skill 在编码 agent 的聊天中逐个调用；extensions、presets、workflows 和 bundles 还能分别扩展能力、调整既有行为、自动化步骤或打包角色化配置。组件可通过社区或组织自建 catalog 分发，搜索时可用 specify extension search、specify preset search、specify workflow search 和 specify bundle search，并能检查某条命令、模板或脚本由哪一层提供。
+Anthropic 在这里公开了一组供 Claude 动态加载的 Skills：每项技能都是一个自包含文件夹，通过 SKILL.md 保存元数据、操作指令、示例与规则，并可搭配脚本和资源，让文档制作、数据分析、网页测试、MCP server generation、品牌沟通等任务形成可重复执行的流程。仓库中的 ./skills 汇集创意设计、技术开发、企业沟通和文档类示例，./spec 放置 Agent Skills specification，./template 则提供创建新技能的起点；其中 skills/docx、skills/pdf、skills/pptx 和 skills/xlsx 展示了 Claude 实际文档能力背后的复杂实现，但它们属于 source-available 参考代码。最直接的体验方式是在 Claude Code 中运行 /plugin marketplace add anthropics/skills，再安装 document-skills 或 example-skills，之后只需在请求里点名相应技能，例如让 PDF skill 从文件中提取表单字段。自定义技能也很轻量：建立文件夹，在 SKILL.md 的 YAML frontmatter 中填写唯一的 name 和描述触发时机的 description，再写入模型应遵循的说明、示例及准则即可。仓库强调这些内容主要用于演示和教育，实际行为可能与 Claude 产品内置版本不同，关键任务应先在自己的环境中充分测试。
 
 #### 项目概况
 
-- **仓库**：[github/spec-kit](https://github.com/github/spec-kit)
-- **Stars**：142,155
+- **仓库**：[anthropics/skills](https://github.com/anthropics/skills)
+- **Stars**：182,773
 - **主要语言**：Python
-- **Topics**：ai、copilot、development、engineering、prd、spec、spec-driven
-- **许可证**：MIT
-- **最近推送**：2026-10-20T19:57:38Z
+- **Topics**：agent-skills
+- **许可证**：未标注
+- **最近推送**：2026-10-09T18:45:52Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +182
+- 实际快照 1 日 Stars 增量 +270
 
 ---
 
 <a id="project-detail-82"></a>
-### 82. [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)
+### 82. [tw93/Mole](https://github.com/tw93/Mole)
 
 [↖️ 返回表格中的 #82](#project-row-82)
 
 #### 中文分析
 
-先给动作、再给步骤，是 i-have-adhd 对编程助手输出方式的改造重点；它不要求使用者具有 ADHD 诊断，而是专门减少答案被寒暄、铺垫和无关延伸掩埋的情况。README 用同一个鉴权问题对比效果：原本会先解释背景、讨论可能方案并附带依赖升级建议，启用技能后则直接指出编辑 src/auth.ts:42，编号说明替换 verifyToken、运行 npm test auth.spec.ts，并把测试失败时该贴什么作为唯一下一步。完整约束共有 10 rules，包括 Lead with the next action、为多步任务编号、每轮重述当前状态、用分钟给出具体时间估计、显式标出已完成成果、平实陈述错误、列表最多五项，以及禁止前言、复盘和客套收尾。这些规则改变的是模型表达，不是代码执行器或任务管理系统；需要调整语气或信息密度时，可以 fork 仓库、编辑 skills/i have adhd/SKILL.md、替换本地副本，重启编程助手后重新调用 /i have adhd。其辨识度来自严格压缩沟通路径：每轮都把读者下一步能做的事放在最显眼位置。
+在终端输入 mo，就能把深度清理、应用卸载、磁盘分析、系统维护和实时监控集中到同一套交互流程中。mo clean 检查已知安全的缓存、日志、临时文件、开发产物和卸载残留；mo uninstall 会连同 LaunchAgents、偏好设置等关联文件一起预览，并在确认后默认把删除项送入 Trash；mo analyze 以交互式 TUI 展示目录占用和大文件；mo optimize 则执行受约束的 Finder、网络、数据库及 macOS 服务维护。安全策略贯穿这些命令：路径会经过验证，共享位置与系统位置受到保护，无法证明安全的项目会被跳过或拒绝；clean、uninstall、purge、installer、slim 和 remove 都应先用 --dry-run 检查，日常运行也不应带 sudo。清理记录保存在用户目录下的 Library/Logs/mole/operations.log，可通过 mo history 回看，白名单还能保护特定缓存或维护项。仓库提供的是免费开源 CLI，brew install mole 只安装命令行版本；带删除前审核、800 多款应用残留规则和风扇控制的原生 Mac 应用属于单独下载。
 
 #### 项目概况
 
-- **仓库**：[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)
-- **Stars**：58,036
-- **主要语言**：Python
-- **Topics**：adhd、claude-、claude-code-plugin、claude-skills、developer-tools、productivity
-- **许可证**：MIT
-- **最近推送**：2026-10-19T19:46:23Z
+- **仓库**：[tw93/Mole](https://github.com/tw93/Mole)
+- **Stars**：72,204
+- **主要语言**：Shell
+- **Topics**：analyzer、appcleaner、clean、cleaner、cleanmymac、command-line、daisydisk、istat、mac、macos、macos-app、native、optimize、pearcleaner、sensei、shell、swift、swiftui、uninstall、windows
+- **许可证**：GPL-3.0
+- **最近推送**：2026-10-21T07:10:00Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +185
+- 实际快照 1 日 Stars 增量 +329
 
 ---
 
@@ -2120,15 +2117,15 @@ Spec Kit把 AI coding agent 的工作组织成可选择、可组合的开发流�
 #### 项目概况
 
 - **仓库**：[usestrix/strix](https://github.com/usestrix/strix)
-- **Stars**：70,445
+- **Stars**：70,816
 - **主要语言**：Python
 - **Topics**：agents、ai-hacking、ai-penetration-testing、ai-pentesting、ai-security、artificial-intelligence、bug-bounty、code-quality、ctf-tools、cybersecurity、cybersecurity-tools、ethical-hacking、hacking、llm-security、offensive-security、penetration-testing、pentesting-tools、red-teaming、security、security-automation
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T00:21:31Z
+- **最近推送**：2026-10-22T00:14:32Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +347
+- 实际快照 1 日 Stars 增量 +371
 
 ---
 
@@ -2144,11 +2141,11 @@ Spec Kit把 AI coding agent 的工作组织成可选择、可组合的开发流�
 #### 项目概况
 
 - **仓库**：[JustVugg/colibri](https://github.com/JustVugg/colibri)
-- **Stars**：43,070
+- **Stars**：43,237
 - **主要语言**：C
 - **Topics**：未标注
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T01:00:47Z
+- **最近推送**：2026-10-21T23:15:54Z
 
 #### 热度与增长证据
 
@@ -2157,70 +2154,46 @@ Spec Kit把 AI coding agent 的工作组织成可选择、可组合的开发流�
 ---
 
 <a id="project-detail-85"></a>
-### 85. [openai/codex](https://github.com/openai/codex)
+### 85. [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 
 [↖️ 返回表格中的 #85](#project-row-85)
 
 #### 中文分析
 
-Codex CLI 把 OpenAI 的编程智能体直接带到本地终端中运行，并按使用入口区分了编辑器插件、桌面应用、Codex Web 与命令行体验：希望在 VS Code、Cursor 或 Windsurf 内工作可安装相应 IDE 集成，偏好桌面界面可运行 codex app，而终端用户安装完成后只需执行 codex 即可开始。Mac 和 Linux 可以运行 curl -fsSL https://chatgpt.com/codex/install.sh | sh，Windows 则通过 PowerShell 安装脚本获取程序；除此之外，也能使用 npm install -g @openai/codex 或 Homebrew 的 brew install --cask codex，并可从 GitHub Release 按 macOS、Linux 及 arm64、x8664 架构选择独立二进制文件，解压后通常将带平台后缀的可执行文件改名为 codex。安装器默认从 OpenAI 发布站点下载，在元数据或资源不可用时回退到 GitHub Releases，也可借助 CODEXINSTALLERUSERELEASESOPENAICOM 强制改用 GitHub。首次运行时选择 Sign in with ChatGPT，便可通过 Plus、Pro、Business、Edu 或 Enterprise 方案使用；API key 也是可选方式，但需要额外配置。
+代码审查从 Git diff 开始：Open Code Review 先精确决定哪些文件应进入审查、过滤哪些文件，再把相关文件组成 review unit；每个单元由隔离上下文的 sub agent 处理，因此大型变更也能分治并发，而语言资源等关联文件还能被放进同一组。随后，规则模板按文件特征匹配检查重点，智能体再读取完整文件、搜索代码库、查看其他变更来补足上下文，最终由独立的定位与反思模块校正评论位置和内容，生成精确到行的结构化意见。对于没有有效 diff 的陌生目录或存量代码，可用 ocr scan 做整文件审计。其设计重点不是让通用智能体自由发挥，而是以 Deterministic Engineering 固定文件覆盖、分组、规则选择和评论定位，把动态判断与按需检索留给 Agent。README 给出的基准覆盖 50 个开源仓库、200 个真实 Pull Request 和 10 种语言，并明确选择较高 Precision、较少噪声，即使代价是 Recall 较低。使用前需 Git 2.41 以上；安装全局 ocr 命令后配置模型端点，交互界面会引导选择供应商、录入 API key、设置模型并测试连接，也可通过环境变量和自定义供应商完成配置。
 
 #### 项目概况
 
-- **仓库**：[openai/codex](https://github.com/openai/codex)
-- **Stars**：130,170
-- **主要语言**：Rust
-- **Topics**：未标注
+- **仓库**：[alibaba/open-code-review](https://github.com/alibaba/open-code-review)
+- **Stars**：47,944
+- **主要语言**：Go
+- **Topics**：agent、agent-skills、code-review、code-review-assistant、harness、repository-level-context
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T00:54:03Z
+- **最近推送**：2026-10-20T09:50:03Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +228
+- 实际快照 1 日 Stars 增量 +211
 
 ---
 
 <a id="project-detail-86"></a>
-### 86. [storytold/vectorcraft](https://github.com/storytold/vectorcraft)
+### 86. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
 
 [↖️ 返回表格中的 #86](#project-row-86)
 
 #### 中文分析
 
-VectorCraft 的工作方式接近完整的矢量绘图应用：同一套纯 Rust 代码运行于 macOS、Windows、Linux、FreeBSD，也能通过 WebAssembly 在浏览器中使用。画布提供 Pen、Direct Selection、Pathfinder、Smart Guides、Appearance、Swatches、Layers 等熟悉工具，实时 Blends、3D Revolve、Dimension tool 和 Perspective Grid 则把可编辑路径、旋转体、测量标注与透视平面结合起来；多个 artboard、Gradient Mesh、live radial Repeat 和 Envelope Distort 也都保留可继续编辑的结构。渲染在 UI 线程之外使用 multithreaded SIMD，README 给出的基准是全视网膜分辨率约 20,000 个形状 27 ms，同时界面保持 120 fps；曲线布尔运算强调精确性，撤销通过 structural sharing 提供 unlimited undo。文件层面有原生 .vectorcraft JSON 格式，并支持 SVG、PDF、PDF compatible .ai 的导入导出，以及 PNG、JPEG、WebP 导出。每个菜单项、工具手势、面板和对话框都能经由 JSON control channel 或 MCP server 驱动，因此 Claude 等 agent 可以像用户一样绘制、编辑和导出；示例作品也完全通过同一 command API 生成。启动时还能通过 WGPU POWER PREF 或 WGPU ADAPTER NAME 选择图形处理器。
+输入主题或关键词后，MoneyPrinterTurbo 会串起脚本撰写、素材检索、配音、字幕、背景音乐与剪辑，最终生成竖屏 9:16、横屏 16:9 或方形 1:1 的高清短视频；每个环节也允许换成自定义脚本、本地图片、视频或配音，而不必接受全自动结果。创作入口同时提供 AI Agent、WebUI、API 和 CLI，可批量生成多条成片、保存任务历史，并导入或恢复生成设置与 API Key。素材既可来自高清库存源，也可通过文生视频或图片网关生成，再按脚本片段、时长、画幅和匹配顺序编排；语音侧内置无需 API Key 的 Edge TTS，并可切换 Azure Speech、ElevenLabs、Fish Audio 等服务，字幕的字体、位置、颜色、描边和背景均能调整。完成的视频还可跨平台发布到 TikTok、Instagram 和 YouTube Shorts。本地部署要求 Python 3.11 或更高版本，GPU 并非必需；Windows 用户可使用一键启动包，源码部署推荐 uv，想隔离环境则可采用 Docker。
 
 #### 项目概况
 
-- **仓库**：[storytold/vectorcraft](https://github.com/storytold/vectorcraft)
-- **Stars**：10,192
-- **主要语言**：Rust
-- **Topics**：art、rust、rust-lang、svg、svg-editor、vector-graphics
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T16:17:30Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +158
-
----
-
-<a id="project-detail-87"></a>
-### 87. [public-apis/public-apis](https://github.com/public-apis/public-apis)
-
-[↖️ 返回表格中的 #87](#project-row-87)
-
-#### 中文分析
-
-想给产品接入猫咪图片、天气、汇率、航班、动漫资料或股票行情时，可以先在这份由社区人工维护的公共接口目录中按领域查找候选服务。主体索引以表格呈现，每项列出 API Description、Auth、HTTPS 和 CORS，读者能快速判断接口用途、是否需要 apiKey 或 OAuth，以及浏览器端调用条件；目录中的 Animals、Anime 等分类则把数量庞杂的资源拆成易于浏览的主题。仓库还单列 MCP Servers：这些服务不是让应用直接请求传统接口，而是安装到 Claude、Cursor、VS Code 等客户端后，让 AI 智能体把 API 当作工具调用，因此表格改为说明 Transport 与 Install，并区分 stdio、HTTP 等传输形式。README 同时介绍 APILayer Unified Suite，可通过 One Account、One Dashboard 和 One API key 集成生产级 REST APIs。整体价值在于提供结构统一、长期由社区整理的发现入口，使用者仍可依据认证方式、协议支持和具体描述筛选符合需求的服务。
-
-#### 项目概况
-
-- **仓库**：[public-apis/public-apis](https://github.com/public-apis/public-apis)
-- **Stars**：490,882
+- **仓库**：[harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
+- **Stars**：133,788
 - **主要语言**：Python
-- **Topics**：api、apis、dataset、development、free、list、lists、open-source、public、public-api、public-apis、resources、software
+- **Topics**：ai-video-generator、content-creation、ffmpeg、instagram-reels、llm、python、short-video、subtitles、text-to-speech、tiktok、video-automation、video-workflow、workflow-automation、youtube-shorts
 - **许可证**：MIT
-- **最近推送**：2026-10-19T12:30:00Z
+- **最近推送**：2026-10-21T06:54:32Z
 
 #### 热度与增长证据
 
@@ -2228,32 +2201,56 @@ VectorCraft 的工作方式接近完整的矢量绘图应用：同一套纯 Rust
 
 ---
 
+<a id="project-detail-87"></a>
+### 87. [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils)
+
+[↖️ 返回表格中的 #87](#project-row-87)
+
+#### 中文分析
+
+一个菜单栏图标集中承载了许多通常需要分别购买的 Mac 工具，而且功能可以按需安装：卸载某项后，它会停止加载并从界面消失，重新安装又能恢复原有设置；首次配置也只申请已选功能所需的权限。Vorssaint 覆盖的范围很宽，从 Volume mixer、Per app output、System monitor 和 Fan Control，到带实时预览的 App switcher、Window layout、Dock Preview，再到 Text snippets、Smooth scrolling、Clipboard history、Shelf 与 Clean URL。用户可以重新排列或隐藏面板区块、切换紧凑布局，并把设置导出到另一台 Mac。音频部分允许分别调整应用音量、把不同应用送往不同输出设备，且无需音频驱动；窗口部分支持跨显示器吸附与恢复位置；剪贴板历史则在本地搜索文字、图片和文件。Dynamic Island 还可围绕刘海区域呈现音乐、通知、日历、计时器和下载状态，并跟踪 Claude、Codex、OpenCode 与 GitHub Copilot 的本地工作信息。整个产品不要求账户、不收集 telemetry，也没有 subscription，强调由用户自己组合真正需要的那部分工具。
+
+#### 项目概况
+
+- **仓库**：[vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils)
+- **Stars**：28,807
+- **主要语言**：Swift
+- **Topics**：alt-tab、app-uninstaller、appkit、finder、free、keep-awake、mac-os、menu-bar、menubar、open-source、swift、swift-ui、system-monitor、uninstaller、volume-mixer、window-switcher
+- **许可证**：GPL-3.0
+- **最近推送**：2026-10-21T22:40:55Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +278
+
+---
+
 <a id="project-detail-88"></a>
-### 88. [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)
+### 88. [github/spec-kit](https://github.com/github/spec-kit)
 
 [↖️ 返回表格中的 #88](#project-row-88)
 
 #### 中文分析
 
-面对数十万行代码时，Understand Anything 不要求使用者从目录树开始盲读，而是先由 multi agent pipeline 扫描文件、函数、类和依赖，再把结果写入 .ua/knowledge graph.json，并打开可缩放、搜索和点击的交互式仪表盘。结构视图会按 API、Service、Data、UI、Utility 等架构层着色分组；选中节点后可查看代码、关系、自然语言摘要与 Guided Tours，后者依照依赖顺序组织架构讲解。切到 domain view，还能从业务域、流程和步骤理解代码如何承载真实业务。Fuzzy & Semantic Search 既支持按名称查找，也能回答“哪些部分处理认证”一类按语义提出的问题，Diff Impact Analysis 则用于在提交前观察修改可能波及的区域。首次运行 /understand 会分析整个代码库，规模较大时会消耗较多 token，后续默认只处理变化文件；Codex 中调用前缀不同，应输入 $understand。它也能分析知识库，通过确定性解析器提取 wikilinks 与 index.md 分类，再让模型补充隐含关系、实体和观点。
+Spec Kit把 AI coding agent 的工作组织成可选择、可组合的开发流程：你可以先用现成流程，也可以改模板、术语和方法，或用可复用的 primitives 组装自己的流程。做功能时，Spec Driven Development（SDD）要求先明确需求与原因，再依次在 agent 对话中调用 constitution、specify、plan、tasks、implement 和 converge；实现后反复执行 implement → converge，直到报告 Converged。若面对异常行为，可安装可选扩展，按 assess → fix → test 分开完成诊断、修复和验证，报告会落在 .specify/bugs/login crash/，并给出 verified、partial 或 failed 结论。评估想法则使用独立的 intake → research → define → shape → decide 流程，把产物写入 .specify/assessments/offline mode/，最后形成 go、needs clarification 或 kill 决策。命令行负责安装 Spec Kit、扩展和项目初始化，真正的 /speckit skill 在编码 agent 的聊天中逐个调用；extensions、presets、workflows 和 bundles 还能分别扩展能力、调整既有行为、自动化步骤或打包角色化配置。组件可通过社区或组织自建 catalog 分发，搜索时可用 specify extension search、specify preset search、specify workflow search 和 specify bundle search，并能检查某条命令、模板或脚本由哪一层提供。
 
 #### 项目概况
 
-- **仓库**：[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)
-- **Stars**：87,255
-- **主要语言**：TypeScript
-- **Topics**：antigravity-skills、business-knowledge、claude-code、claude-skills、codebase-analysis、codex、codex-skills、developer-tools-ai-agent、gemini-cli-skills、karpathy-llm-wiki、knowledge-base、knowledge-graph、memory、opencode-skills、pi-agent、understandcode、vibe-coding
+- **仓库**：[github/spec-kit](https://github.com/github/spec-kit)
+- **Stars**：142,313
+- **主要语言**：Python
+- **Topics**：ai、copilot、development、engineering、prd、spec、spec-driven
 - **许可证**：MIT
-- **最近推送**：2026-10-12T10:24:59Z
+- **最近推送**：2026-10-21T21:03:11Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +228
+- 实际快照 1 日 Stars 增量 +158
 
 ---
 
 <a id="project-detail-89"></a>
-### 89. [microsoft/markitdown](https://github.com/microsoft/markitdown) 🟢
+### 89. [microsoft/markitdown](https://github.com/microsoft/markitdown)
 
 [↖️ 返回表格中的 #89](#project-row-89)
 
@@ -2264,94 +2261,70 @@ MarkItDown 把 PDF、PowerPoint、Word、Excel、HTML、CSV、JSON、XML、EPUB�
 #### 项目概况
 
 - **仓库**：[microsoft/markitdown](https://github.com/microsoft/markitdown)
-- **Stars**：191,317
+- **Stars**：191,488
 - **主要语言**：Python
 - **Topics**：autogen、autogen-extension、langchain、markdown、microsoft-office、openai、pdf
 - **许可证**：MIT
-- **最近推送**：2026-10-20T23:32:33Z
+- **最近推送**：2026-10-21T19:39:33Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +187
+- 实际快照 1 日 Stars 增量 +171
 
 ---
 
 <a id="project-detail-90"></a>
-### 90. [storytold/cadcraft](https://github.com/storytold/cadcraft)
+### 90. [storytold/vectorcraft](https://github.com/storytold/vectorcraft)
 
 [↖️ 返回表格中的 #90](#project-row-90)
 
 #### 中文分析
 
-CADCraft把熟悉的 CAD 命令行工作流放进纯 Rust 的现代 2D/3D 绘图程序：输入 L 等命令、用对象捕捉定位，再配合图层、尺寸、填充、块和 DXF 图纸完成制图。README 展示了从户型墙体、MTEXT 房间标签、TABLE 到多重引线和建筑尺寸的完整 apartment.dxf 示例，也支持 paper space 视口、页面设置及 PLOT to PDF；双击视口即可从布局进入模型空间。程序原生运行于 macOS、Windows、Linux、FreeBSD，也能通过 WebAssembly 在浏览器使用。除了桌面交互，它还提供 CLI、Agents 和 MCP：可执行命令、检查图纸、查询实体、渲染 PNG，并按当前视图或模型范围导出 PNG、SVG、PDF。文字系统覆盖自定义 TTF、OTF、TTC 字体、FONTALT 与 FONTFALLBACK 回退、阿拉伯语和波斯语的双向排版及 OpenType 变形；桌面日志写入 settings 目录的 logs/cadcraft.log，便于定位启动或绘图问题。
+VectorCraft 的工作方式接近完整的矢量绘图应用：同一套纯 Rust 代码运行于 macOS、Windows、Linux、FreeBSD，也能通过 WebAssembly 在浏览器中使用。画布提供 Pen、Direct Selection、Pathfinder、Smart Guides、Appearance、Swatches、Layers 等熟悉工具，实时 Blends、3D Revolve、Dimension tool 和 Perspective Grid 则把可编辑路径、旋转体、测量标注与透视平面结合起来；多个 artboard、Gradient Mesh、live radial Repeat 和 Envelope Distort 也都保留可继续编辑的结构。渲染在 UI 线程之外使用 multithreaded SIMD，README 给出的基准是全视网膜分辨率约 20,000 个形状 27 ms，同时界面保持 120 fps；曲线布尔运算强调精确性，撤销通过 structural sharing 提供 unlimited undo。文件层面有原生 .vectorcraft JSON 格式，并支持 SVG、PDF、PDF compatible .ai 的导入导出，以及 PNG、JPEG、WebP 导出。每个菜单项、工具手势、面板和对话框都能经由 JSON control channel 或 MCP server 驱动，因此 Claude 等 agent 可以像用户一样绘制、编辑和导出；示例作品也完全通过同一 command API 生成。启动时还能通过 WGPU POWER PREF 或 WGPU ADAPTER NAME 选择图形处理器。
 
 #### 项目概况
 
-- **仓库**：[storytold/cadcraft](https://github.com/storytold/cadcraft)
-- **Stars**：6,173
+- **仓库**：[storytold/vectorcraft](https://github.com/storytold/vectorcraft)
+- **Stars**：10,336
 - **主要语言**：Rust
-- **Topics**：未标注
+- **Topics**：art、rust、rust-lang、svg、svg-editor、vector-graphics
 - **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T15:39:41Z
+- **最近推送**：2026-10-22T00:39:07Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +176
+- 实际快照 1 日 Stars 增量 +144
 
 ---
 
 <a id="project-detail-91"></a>
-### 91. [alchaincyf/huashu-motion](https://github.com/alchaincyf/huashu-motion) 🟢
+### 91. [koala73/worldmonitor](https://github.com/koala73/worldmonitor)
 
 [↖️ 返回表格中的 #91](#project-row-91)
 
 #### 中文分析
 
-说出产品地址和一支三十秒发布片的要求后，huashu-motion 会先读产品、给出三个视觉方向，再写节奏单、动画和配乐，最后在浏览器编辑器中等待修改。按 C 点选画面并写评论时，时间点、场景、元素及源码位置会一并送给智能体，它先看对应帧和局部截图，只改指定位置，预览停在原处刷新；标题、颜色与停留时长也能直接在输入框编辑，旧版本支持撤回。作曲家模式先写 ABC 乐谱，把场景标记对齐节奏，再用钢琴、弦乐和鼓组采样演奏，om samples build 准备真实乐器，不安装则用合成音色。片子本身是 index.html，可用 GSAP、Canvas、Three.js 或 SVG 绘制，画面由代码与时间决定而不是视频生成模型。om check 在渲染前检查脚本、资源及遮挡对比度，om qa 再检查单帧闪烁、空档和运动曲线；导出支持 MP4、透明 MOV、WebM、GIF 或带源码的网页，真人与实拍仍需用户提供素材。
+打开 World Monitor，可以在同一态势界面里查看全球及区域新闻、市场、冲突、军用航班、网络安全、气候、预测市场和基础设施信号；新闻会被 AI 汇总成简报，地图既可使用 globe.gl 的 3D 地球，也可切换由 deck.gl 驱动的 WebGL 平面视图。系统还会把军事、经济、灾害与升级信号做 Cross stream correlation，并为 31 个一级国家展示 CII v14 分数、区间及约 24 小时变化。它并不限于网页：Tauri 2 桌面版可在一个应用中切换 world、tech、finance、commodity、energy 和 happy 变体；终端用户运行 npx worldmonitor 即可进入带鼠标和配色主题的实时 dashboard，而且无需 API key。自动化调用可走 REST API、零依赖的 Python、Ruby、Go SDK，或连接 https://worldmonitor.app/mcp 的 MCP server；本地 AI 也可交给 Ollama，无须外部模型密钥。所有站点变体、桌面二进制与终端包来自同一代码库和发布流程，开发环境即使不配置变量也能启动，但部分特定数据源仍需相应凭据。
 
 #### 项目概况
 
-- **仓库**：[alchaincyf/huashu-motion](https://github.com/alchaincyf/huashu-motion)
-- **Stars**：1,151
-- **主要语言**：JavaScript
-- **Topics**：agent-skills、animation、claude-code、codex、gsap、launch-video、motion-graphics、skills
-- **许可证**：MIT
-- **最近推送**：2026-10-19T13:36:51Z
+- **仓库**：[koala73/worldmonitor](https://github.com/koala73/worldmonitor)
+- **Stars**：89,099
+- **主要语言**：TypeScript
+- **Topics**：agent、ai、dashboard、geopolitics、mcp、mcp-server、monitoring、news、opensource、osint、palantir、situation
+- **许可证**：AGPL-3.0
+- **最近推送**：2026-10-22T00:58:52Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +228
+- 实际快照 1 日 Stars 增量 +159
 
 ---
 
 <a id="project-detail-92"></a>
-### 92. [lexmount/moli](https://github.com/lexmount/moli)
+### 92. [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus)
 
 [↖️ 返回表格中的 #92](#project-row-92)
-
-#### 中文分析
-
-Moli 把 DOM 与样式状态视为浏览器的事实来源，普通抓取、执行 JavaScript、查询节点和检查网络或存储时，不持续进行布局与绘制；只有读取元素几何、坐标点击或截图等操作真正需要视觉信息时，才临时计算并保留最新的 FrozenLayoutTree。截图会依据当前 DOM 和样式重建布局、渲染新帧，之后丢弃绘制状态，这种 on demand layout 使完整浏览器运行时不必长期承担像素渲染成本。命令行可以把页面直接导出为 HTML、Markdown、JSON 或适合模型阅读的 semantic tree，也能生成视口截图、整页 PNG 和分页 PDF；需要交互后导出时，可组合 eval 与 dump，表达式中的 Promise 会被等待，异常则阻止输出。自动化服务由同一端点同时提供 CDP、WebDriver Classic 和 WebDriver BiDi，Playwright 可直接通过 CDP 连接。其内核仍包含 V8、CSS、布局、文本塑形、命中测试、软件绘制、iframe、worker、WebSocket 与持久化存储，并支持 Linux、macOS 和 Windows，无需另装 ChromeDriver 或 geckodriver。
-
-#### 项目概况
-
-- **仓库**：[lexmount/moli](https://github.com/lexmount/moli)
-- **Stars**：19,884
-- **主要语言**：Rust
-- **Topics**：ai-agents、ai-tools、browser、browser-automation、cloud-browser、kitesurf、playwright、puppeteer、rust、servo、web-crawler、web-crawling、web-scraper、web-scraping
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-21T01:08:52Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +208
-
----
-
-<a id="project-detail-93"></a>
-### 93. [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus)
-
-[↖️ 返回表格中的 #93](#project-row-93)
 
 #### 中文分析
 
@@ -2360,7 +2333,7 @@ Moli 把 DOM 与样式状态视为浏览器的事实来源，普通抓取、执�
 #### 项目概况
 
 - **仓库**：[odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus)
-- **Stars**：94,081
+- **Stars**：94,165
 - **主要语言**：Python
 - **Topics**：未标注
 - **许可证**：AGPL-3.0
@@ -2368,27 +2341,27 @@ Moli 把 DOM 与样式状态视为浏览器的事实来源，普通抓取、执�
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +79
+- 实际快照 1 日 Stars 增量 +84
 
 ---
 
-<a id="project-detail-94"></a>
-### 94. [ARahim3/DigUp](https://github.com/ARahim3/DigUp)
+<a id="project-detail-93"></a>
+### 93. [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
 
-[↖️ 返回表格中的 #94](#project-row-94)
+[↖️ 返回表格中的 #93](#project-row-93)
 
 #### 中文分析
 
-打开 DigUp 后先选择要索引的文件夹，模型首次下载 865 MB，应用会显示每个文件夹在当前电脑上的首轮耗时；随后在任意应用按 Mac 的 ⇧⌘Space 或 Windows/Linux 的 Ctrl+Shift+Space，直接用自然语言描述要找的内容。EmbeddingGemma 2 把文字、图片、音频和视频放进同一语义空间，所以“zebra in a video”会把视频定位到斑马出现的时刻，“where they talk about sleep”会跳到播客对应分钟，“the clause about pets in the lease”会打开 PDF 页，“payment declined error”也能找到截图；开启代码搜索后，类似“code: retry a failed call with backoff”可定位项目函数。语义匹配之外，发票号、错误码和姓名等 exact words 也按原文检索。结果操作保留文件类型的上下文：Enter 打开 PDF 对应页、录音或视频对应时刻，Space 显示大预览，⌘↩ 或 Ctrl+Enter 在文件管理器中显示，⌘O 或 Ctrl+O 进入带图片网格和过滤器的大窗口。它只读取用户选定目录，支持 JPEG、PNG、HEIC、WebP、PDF、txt、md、docx、odt、html、音频和视频，并在本机完成索引；不会上传文件，也没有账户和 telemetry。应用常驻 Mac 菜单栏或 Windows/Linux 托盘，可暂停索引、打开 Settings，更新检查也能关闭。
+Claude-Mem 让智能体在会话结束、重连或开启新线程后仍能延续对项目的认识。它通过 Lifecycle Hooks 自动捕获工具调用与会话观察，生成语义摘要，再把相关上下文提供给未来会话；这些钩子覆盖 SessionStart、UserPromptSubmit、PreToolUse、PostToolUse、Stop 和 SessionEnd。安装应使用 npx claude-mem install 或 Claude Code 的插件命令，因为 npm 全局安装得到的只是 SDK/库，不会注册钩子或配置 Worker Service。后台由 Bun 管理的 Worker Service 提供本地 HTTP API、网页查看器和搜索端点，SQLite Database 保存会话、观察与摘要，Chroma Vector Database 则把语义检索与关键词检索结合起来。需要追溯历史时，可用 mem-search 以自然语言执行渐进式检索，并查看上下文的 token 成本；敏感内容还能通过标签排除。除 Claude Code 外，README 还给出了 OpenCode、T3 Code、Grok Bot、OpenClaw Gateway 等接入方式，并提供托管记忆、自有 OpenRouter 或 Gemini 密钥、Anthropic 套餐等观察器选择。
 
 #### 项目概况
 
-- **仓库**：[ARahim3/DigUp](https://github.com/ARahim3/DigUp)
-- **Stars**：5,243
-- **主要语言**：Swift
-- **Topics**：embeddinggemma、embeddings、file-search、linux、llama-cpp、local-first、macos、menubar-app、multimodal、on-device、semantic-search、swift、tauri、windows
-- **许可证**：MIT
-- **最近推送**：2026-10-18T05:30:06Z
+- **仓库**：[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
+- **Stars**：102,156
+- **主要语言**：TypeScript
+- **Topics**：ai、ai-agents、ai-memory、anthropic、artificial-intelligence、chromadb、claude、claude-agent-sdk、claude-agents、claude-code、claude-code-plugin、claude-skills、embeddings、long-term-memory、mem0、memory-engine、openmemory、rag、sqlite、supermemory
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-21T21:25:26Z
 
 #### 热度与增长证据
 
@@ -2396,58 +2369,34 @@ Moli 把 DOM 与样式状态视为浏览器的事实来源，普通抓取、执�
 
 ---
 
+<a id="project-detail-94"></a>
+### 94. [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) 🟢
+
+[↖️ 返回表格中的 #94](#project-row-94)
+
+#### 中文分析
+
+住在 Mac 刘海里的 Mochi 会把多个 AI 编程智能体的活动变成随时可见、可操作的小界面：Claude Code、Cursor、Codex、Gemini CLI 等会话读取了什么、修改了什么、执行了什么，都能逐步显示；文件变更还会呈现文件名与增删行数，并可点开完整 diff。遇到权限请求时，用户可直接在刘海中选择 Allow、Deny 或 Always，AskUserQuestion 的选项也能原地回答，还可跳转到对应终端。离开电脑后，提醒与审批能够延伸到 iPhone 的 Lock Screen、Dynamic Island、组件和 Siri。0.4 版又把 Coucou 扩展成带独立窗口的 Mac 应用：Flow dictation 支持按住快捷键讲话、松开即把文字粘贴到当前应用，Parakeet 可在 Apple silicon 上离线识别 25 种语言；Notetaker 同时录制麦克风和 Mac 播放的声音，无需让机器人加入会议，随后生成分角色转写、摘要、要点和待办。用户还可以将文件拖到刘海后提问，把 Mochi 拖到桌面作为浮动伙伴，或切换 Claude、Gemini、OpenAI 及本地 Ollama、LM Studio 模型聊天。
+
+#### 项目概况
+
+- **仓库**：[Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)
+- **Stars**：5,929
+- **主要语言**：Swift
+- **Topics**：ai-agents、anthropic、antigravity、claude、claude-code、codex、cursor、dynamic-island、gemini-cli、ios、iphon、linux、macos、macos-app、menubar-app、notch、open-source、swift、swiftui、windows
+- **许可证**：MIT
+- **最近推送**：2026-10-20T15:39:46Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +281
+
+---
+
 <a id="project-detail-95"></a>
-### 95. [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
+### 95. [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay)
 
 [↖️ 返回表格中的 #95](#project-row-95)
-
-#### 中文分析
-
-给 MiroFish 上传新闻、政策草案、金融信号、分析报告乃至小说文本，再用自然语言说明想预测的问题，它会以这些种子材料构造一个可持续演化的平行数字世界。流程先进行 Graph Building，从材料中抽取信息、注入个体与群体记忆并建立 GraphRAG；随后提取实体关系，生成人格和智能体配置，让大量具有独立性格、长期记忆与行为逻辑的智能体在双平台中互动。模拟期间可从“上帝视角”动态加入变量，系统同步更新时间记忆，最后由 ReportAgent 调用工具深入检查模拟后的环境并形成预测报告。结果并非只有静态结论：用户还能进入数字世界与任意智能体或 ReportAgent 对话，因此既能推演舆情和决策变化，也能探索《红楼梦》遗失结局一类虚构走向。源码部署要求 Node.js 18+、Python 3.11 至 3.12 和 uv；复制 .env.example 后需配置兼容 OpenAI SDK 格式的模型接口及 Zep Cloud，执行 npm run setup:all 安装前后端依赖，再以 npm run dev 同时启动 3000 端口的前端和 5001 端口的 API。也可在相同环境变量配置下运行 docker compose up -d，README 同时提醒模型调用消耗较高，首次尝试可把模拟控制在 40 轮以内。
-
-#### 项目概况
-
-- **仓库**：[666ghj/MiroFish](https://github.com/666ghj/MiroFish)
-- **Stars**：80,877
-- **主要语言**：Python
-- **Topics**：agent-memory、financial-forecasting、future-prediction、knowledge-graph、llms、multi-agent-simulation、public-opinion-analysis、python3、social-prediction、swarm-intelligence
-- **许可证**：AGPL-3.0
-- **最近推送**：2026-10-16T03:32:19Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +211
-
----
-
-<a id="project-detail-96"></a>
-### 96. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
-
-[↖️ 返回表格中的 #96](#project-row-96)
-
-#### 中文分析
-
-输入主题或关键词后，MoneyPrinterTurbo 会串起脚本撰写、素材检索、配音、字幕、背景音乐与剪辑，最终生成竖屏 9:16、横屏 16:9 或方形 1:1 的高清短视频；每个环节也允许换成自定义脚本、本地图片、视频或配音，而不必接受全自动结果。创作入口同时提供 AI Agent、WebUI、API 和 CLI，可批量生成多条成片、保存任务历史，并导入或恢复生成设置与 API Key。素材既可来自高清库存源，也可通过文生视频或图片网关生成，再按脚本片段、时长、画幅和匹配顺序编排；语音侧内置无需 API Key 的 Edge TTS，并可切换 Azure Speech、ElevenLabs、Fish Audio 等服务，字幕的字体、位置、颜色、描边和背景均能调整。完成的视频还可跨平台发布到 TikTok、Instagram 和 YouTube Shorts。本地部署要求 Python 3.11 或更高版本，GPU 并非必需；Windows 用户可使用一键启动包，源码部署推荐 uv，想隔离环境则可采用 Docker。
-
-#### 项目概况
-
-- **仓库**：[harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
-- **Stars**：133,437
-- **主要语言**：Python
-- **Topics**：ai-video-generator、content-creation、ffmpeg、instagram-reels、llm、python、short-video、subtitles、text-to-speech、tiktok、video-automation、video-workflow、workflow-automation、youtube-shorts
-- **许可证**：MIT
-- **最近推送**：2026-10-20T14:29:44Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +262
-
----
-
-<a id="project-detail-97"></a>
-### 97. [shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay)
-
-[↖️ 返回表格中的 #97](#project-row-97)
 
 #### 中文分析
 
@@ -2456,11 +2405,83 @@ DiPlay 需要安装在车机而不是 iPhone 上，让兼容的 BYD Android head
 #### 项目概况
 
 - **仓库**：[shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay)
-- **Stars**：11,824
+- **Stars**：11,969
 - **主要语言**：Kotlin
 - **Topics**：未标注
 - **许可证**：GPL-3.0
-- **最近推送**：2026-10-17T18:09:04Z
+- **最近推送**：2026-10-21T08:16:08Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +145
+
+---
+
+<a id="project-detail-96"></a>
+### 96. [storytold/cadcraft](https://github.com/storytold/cadcraft)
+
+[↖️ 返回表格中的 #96](#project-row-96)
+
+#### 中文分析
+
+CADCraft把熟悉的 CAD 命令行工作流放进纯 Rust 的现代 2D/3D 绘图程序：输入 L 等命令、用对象捕捉定位，再配合图层、尺寸、填充、块和 DXF 图纸完成制图。README 展示了从户型墙体、MTEXT 房间标签、TABLE 到多重引线和建筑尺寸的完整 apartment.dxf 示例，也支持 paper space 视口、页面设置及 PLOT to PDF；双击视口即可从布局进入模型空间。程序原生运行于 macOS、Windows、Linux、FreeBSD，也能通过 WebAssembly 在浏览器使用。除了桌面交互，它还提供 CLI、Agents 和 MCP：可执行命令、检查图纸、查询实体、渲染 PNG，并按当前视图或模型范围导出 PNG、SVG、PDF。文字系统覆盖自定义 TTF、OTF、TTC 字体、FONTALT 与 FONTFALLBACK 回退、阿拉伯语和波斯语的双向排版及 OpenType 变形；桌面日志写入 settings 目录的 logs/cadcraft.log，便于定位启动或绘图问题。
+
+#### 项目概况
+
+- **仓库**：[storytold/cadcraft](https://github.com/storytold/cadcraft)
+- **Stars**：6,327
+- **主要语言**：Rust
+- **Topics**：未标注
+- **许可证**：Apache-2.0
+- **最近推送**：2026-10-22T00:13:55Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +154
+
+---
+
+<a id="project-detail-97"></a>
+### 97. [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT)
+
+[↖️ 返回表格中的 #97](#project-row-97)
+
+#### 中文分析
+
+AIHOT 把“找资料—筛选—成稿—聚合—出刊”做成一套可自托管的行业热点站引擎。资料可从 RSS、网页列表、JSON 接口、X 账号、微信公众号及外部脚本进入，经过判重和预筛后，由同一评分标准独立打两次分，再按信源等级与门槛决定是否入选；入选内容会生成中文标题、答案先行的摘要和推荐理由。不同来源谈论的同一件事会被聚成事件：系统先在最近两周内用向量或文字重合度找候选，再让模型判断是同一事件、后续进展还是无关内容，并在写入前复核。热度按事件及独立来源计算，而非简单累计文章数，还会衰减旧消息的权重。日报默认每天 08:00 生成，周报和月报再从日报汇编。搭建自己的站时，重点修改 site/site.ts、industry/sources.json、industry/prompts/ 和 industry/selection.ts，尤其可用 SelectBench 与标注样本校准精选标准。系统同时提供后台、公开 API、MCP、Agent Markdown、llms.txt 和多种 RSS，既能作为网站供人阅读，也能成为 Agent 的内容源。
+
+#### 项目概况
+
+- **仓库**：[KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT)
+- **Stars**：8,359
+- **主要语言**：TypeScript
+- **Topics**：ai、chinese、content-curation、daily-digest、docker-compose、llm、mcp、news-aggregator、postgresql、rss、self-hosted、typescript
+- **许可证**：MIT
+- **最近推送**：2026-10-21T10:26:58Z
+
+#### 热度与增长证据
+
+- 实际快照 1 日 Stars 增量 +170
+
+---
+
+<a id="project-detail-98"></a>
+### 98. [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile)
+
+[↖️ 返回表格中的 #98](#project-row-98)
+
+#### 中文分析
+
+D2R Mobile 将用户自行购买并提取的 Nintendo Switch 版 Diablo II: Resurrected 与 Reign of the Warlock 内容带到 iPhone、iPad 和 Apple silicon Mac 上运行，仓库本身不包含或分发游戏程序、美术、文本、数据表和 shader，也不提供多人联机。它并非模拟器、云游戏或串流方案：游戏自己的 aarch64 程序直接在设备上执行，只重写少量无法在 Apple 内核运行的指令；一个小型宿主补齐系统调用、文件系统、音频和输入等平台服务，图形接口则直接以 Metal 重新实现，原始 shader 会在设备外完成转换并提前编译。触控设计没有把手柄按键简单铺满屏幕，而是保留原界面语言，用手势重做面板与操作，同时提供控制器支持、全屏 iPad 显示、power saver mode、save sync 及额外终局玩法。README 给出的实机数据称 60 fps 模式下进入游戏约一秒，整机功耗约 3.8 W；30 fps 节能模式约 1.85 W。安装包略大于 100 MB，约 5.6 GB 的游戏资源单独放置，因此更新应用不会改动资源和存档；较老的 A16 及以前芯片还需从用户自己的文件生成额外纹理包。
+
+#### 项目概况
+
+- **仓库**：[jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile)
+- **Stars**：4,312
+- **主要语言**：C
+- **Topics**：compatibility-layer、diablo-2-resurrected、diablo2、game-port、ios、ipad、iphone、mac、macos、metal、reign-of-the-warlock
+- **许可证**：MIT
+- **最近推送**：2026-10-22T00:22:45Z
 
 #### 热度与增长证据
 
@@ -2468,74 +2489,50 @@ DiPlay 需要安装在车机而不是 iPhone 上，让兼容的 BYD Android head
 
 ---
 
-<a id="project-detail-98"></a>
-### 98. [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
-
-[↖️ 返回表格中的 #98](#project-row-98)
-
-#### 中文分析
-
-在 Claude Code 中途退出，再到同一目录启动 Codex，ai memory 会把架构背景、失败尝试和未决问题交给下一位智能体，不必重新口述上下文。二十多种 harness 会汇入同一份共享记忆，跨项目的个人工作习惯也能在新仓库启动时作为默认背景加载；通过 ai memory run codex 启动时，还可为接手方生成 Claude 可见原生历史的临时本地投影，而远端服务器只接收 harness 与 session identity，不接收本地转录路径或正文。交接采用带 owner 且只能被领取一次的 typed protocol，项目知识可供团队共享，个人 handoffs 仍保持私有。存储层以 git backed wiki 中的普通 .md 文件为事实来源，可用 grep、Obsidian 或 rsync 直接处理，数据库只是能够重建的派生索引。生命周期 hooks 会捕获提示、工具调用和会话边界，先经过类型化隐私边界清洗，再整理成可读页面；默认的捕获、搜索与交接不调用 LLM。冷记忆可按访问频率衰减并压缩为文件路径、错误码和决策等持久事实，近似内容会合并、潜在矛盾会标记，原版本始终保留在 git 中；可选的 dream 模式才会调用 LLM，在空闲时重写成组的冷笔记。
-
-#### 项目概况
-
-- **仓库**：[akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
-- **Stars**：11,922
-- **主要语言**：Rust
-- **Topics**：未标注
-- **许可证**：MIT
-- **最近推送**：2026-10-20T20:00:24Z
-
-#### 热度与增长证据
-
-- 实际快照 1 日 Stars 增量 +557
-
----
-
 <a id="project-detail-99"></a>
-### 99. [cdyforever/how-to-live-better](https://github.com/cdyforever/how-to-live-better)
+### 99. [public-apis/public-apis](https://github.com/public-apis/public-apis)
 
 [↖️ 返回表格中的 #99](#project-row-99)
 
 #### 中文分析
 
-把《高性价比人生指南》的 32 节、528 条建议装进一个自包含的单文件网页，是这个仓库唯一而明确的目标。页面不改写原书内容，而是将每条建议整理成卡片，展示证据等级、性价比档和成本标签，并把负责将统计量翻译成日常表达的「说人话」区域突出呈现。读者可以使用全站关键词搜索及结果高亮，也能切换只看 A 级或只看说人话；左侧目录会随滚动联动，手机端顶栏会自动收起，同时提供明暗主题、回到顶部和直接打印。由于采用零外部资源设计，不依赖 CDN、外链字体或在线数据，请求断开后仍可阅读；本地使用也不需要构建，双击 index.html 即可。仓库还通过 .github/workflows/rebuild.yml 每天拉取上游，仅在内容变化时重新生成并提交，使页面条目数和分级统计与原书保持一致。
+Public APIs 依靠社区成员人工维护，把可用于产品开发的公开接口按领域整理成可检索的目录。传统条目以表格列出 API、用途、Auth、HTTPS 和 CORS，读者可以先进入 Animals、Anime 等分类，再根据是否需要 apiKey 或 OAuth、是否支持 HTTPS、浏览器跨域状态是否明确来筛选候选服务；例如动物分类覆盖猫狗图片与事实、鸟类观测、鱼类资料和濒危物种数据，动漫分类则包含发现、追踪、语录、新闻、漫画数据库与翻译服务。仓库还单设 MCP Servers 区域，收录能够被 Claude、Cursor、VS Code 等客户端作为工具调用的服务，并记录 stdio 或 HTTP 传输方式以及安装入口，这与应用代码直接调用 REST API 的使用路径不同。README 同时介绍 APILayer Unified Suite：通过 One Account、One Dashboard 和 One API key 接入地理编码、邮箱验证、航班、股票、天气、汇率、搜索抓取等生产级 REST APIs。因而这里既是一份长期维护的接口索引，也提供了按认证方式、调用环境和能力类别比较服务的结构化入口。
 
 #### 项目概况
 
-- **仓库**：[cdyforever/how-to-live-better](https://github.com/cdyforever/how-to-live-better)
-- **Stars**：12,871
-- **主要语言**：HTML
-- **Topics**：未标注
-- **许可证**：未标注
-- **最近推送**：2026-10-15T23:57:15Z
+- **仓库**：[public-apis/public-apis](https://github.com/public-apis/public-apis)
+- **Stars**：491,133
+- **主要语言**：Python
+- **Topics**：api、apis、dataset、development、free、list、lists、open-source、public、public-api、public-apis、resources、software
+- **许可证**：MIT
+- **最近推送**：2026-10-21T07:01:10Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +171
+- 实际快照 1 日 Stars 增量 +251
 
 ---
 
 <a id="project-detail-100"></a>
-### 100. [storytold/gridcraft](https://github.com/storytold/gridcraft)
+### 100. [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym)
 
 [↖️ 返回表格中的 #100](#project-row-100)
 
 #### 中文分析
 
-熟悉 Excel 的人可以直接沿用原有操作习惯：GridCraft 提供 Ribbon、formula bar、Name Box、sheet tabs、fill handle、Format Cells、Paste Special、条件格式、表格、图表和快捷键，并把 XLSX 作为原生格式，让样式、主题、公式、动态数组、数据验证、批注、超链接、图片、sparklines、PivotTables 与打印设置往返保存。计算层实现了 dependency graph、增量重算、动态数组溢出，以及 500+ worksheet functions，包含 LET、LAMBDA、MAP、REDUCE、SCAN 等现代公式能力；copy on write workbooks 让撤销快照成本很低，virtualised grid 则只布局屏幕当前可见区域。它并非只追求人工操作复刻：每个按钮、菜单、对话框、键盘与鼠标动作都映射成 command，智能体可通过 JSON control channel、MCP server 或 CLI 调用 read range、write range、evaluate formula、insert chart、create table 等工具，桌面控制通道还能提供真实输入、对话框和截图。底层采用纯 Rust 的 engine first Cargo workspace，并以 cargo xtask layers 强制分层，egui frontend 独立成 crate，因此同一套引擎可运行于 macOS、Windows、Linux、BSD 及 WebAssembly 浏览器环境。
+训练计划、组次记录和体重数据都保存在自己的服务器上，运行 docker compose up 后即可从浏览器创建个人档案，并把应用安装到手机主屏幕。openGym 可按星期安排训练，也可采用 A、B、C 顺序轮转；超过 5,600 个动作能按肌群和器械筛选，并带动画示范，还支持超级组、热身组、递减组、暂停休息法、计时动作与有氧记录。进入当天的引导训练后，上次重量会自动填入，组间计时器同步运行，系统即时识别个人纪录，并依据线性、Greyskull LP、双重或三重进阶规则计算下次目标。历史数据会进一步生成年度热力图、1RM 曲线、Structural Balance 比例和三种肌肉地图，分别呈现训练量、恢复状态与长期未训练部位。账户使用 Passkeys，可在手机与电脑间同步；两台设备同时编辑时按字段合并。既有记录可从 FitNotes、Strong、Hevy 或 Apple Health 导入，也能随时整体导出为 JSON。应用支持离线使用、19 种语言和自定义动作媒体，照片上传前会在设备端移除位置数据。
 
 #### 项目概况
 
-- **仓库**：[storytold/gridcraft](https://github.com/storytold/gridcraft)
-- **Stars**：6,037
-- **主要语言**：Rust
-- **Topics**：未标注
-- **许可证**：Apache-2.0
-- **最近推送**：2026-10-20T15:40:00Z
+- **仓库**：[DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym)
+- **Stars**：14,479
+- **主要语言**：JavaScript
+- **Topics**：bodyweight、docker、fitness、fitness-tracker、gym、health、mcp、nodejs、passkeys、progressive-web-applications、pwa、react、self-hosted、self-hosting、vite、webauthn、weightlifting、workout-tracker
+- **许可证**：AGPL-3.0
+- **最近推送**：2026-10-21T18:19:24Z
 
 #### 热度与增长证据
 
-- 实际快照 1 日 Stars 增量 +127
+- 实际快照 1 日 Stars 增量 +318
 
 ---
