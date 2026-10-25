@@ -6669,8 +6669,295 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-10-23",
+      "latest": "2026-10-25",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-10-25",
+          "generated_at": "2026-10-25T09:07:51+08:00",
+          "discovered_count": 986,
+          "candidate_count": 101,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "cloudflare/security-audit-skill",
+              "trending_rank": 1,
+              "stars_today": 2264
+            },
+            {
+              "rank": 3,
+              "name": "pbakaus/impeccable",
+              "trending_rank": 6,
+              "stars_today": 619
+            },
+            {
+              "rank": 5,
+              "name": "Nutlope/hallmark",
+              "trending_rank": 4,
+              "stars_today": 455
+            },
+            {
+              "rank": 8,
+              "name": "pollen-robotics/microduck",
+              "trending_rank": 7,
+              "stars_today": 319
+            },
+            {
+              "rank": 10,
+              "name": "google-gemini/gemini-cli",
+              "trending_rank": 8,
+              "stars_today": 44
+            },
+            {
+              "rank": 15,
+              "name": "NVIDIA/OpenShell",
+              "trending_rank": 2,
+              "stars_today": 896
+            },
+            {
+              "rank": 50,
+              "name": "luongnv89/claude-howto",
+              "trending_rank": 5,
+              "stars_today": 392
+            },
+            {
+              "rank": 76,
+              "name": "makecindy/cindy",
+              "trending_rank": 10,
+              "stars_today": 477
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "cloudflare/security-audit-skill",
+              "trending_rank": 1,
+              "stars_today": 12680
+            },
+            {
+              "rank": 2,
+              "name": "morluto/rea",
+              "trending_rank": 2,
+              "stars_today": 78562
+            },
+            {
+              "rank": 4,
+              "name": "stablyai/orca",
+              "trending_rank": 5,
+              "stars_today": 9828
+            },
+            {
+              "rank": 6,
+              "name": "Graphify-Labs/graphify",
+              "trending_rank": 13,
+              "stars_today": 6868
+            },
+            {
+              "rank": 7,
+              "name": "anomalyco/opencode",
+              "trending_rank": 6,
+              "stars_today": 6857
+            },
+            {
+              "rank": 9,
+              "name": "heygen-com/hyperframes",
+              "trending_rank": 10,
+              "stars_today": 5633
+            },
+            {
+              "rank": 11,
+              "name": "ruvnet/ruflo",
+              "trending_rank": 4,
+              "stars_today": 3241
+            },
+            {
+              "rank": 12,
+              "name": "anthropics/claude-plugins-official",
+              "trending_rank": 3,
+              "stars_today": 3232
+            },
+            {
+              "rank": 13,
+              "name": "HKUDS/CLI-Anything",
+              "trending_rank": 14,
+              "stars_today": 3069
+            },
+            {
+              "rank": 14,
+              "name": "akitaonrails/ai-memory",
+              "trending_rank": 12,
+              "stars_today": 3541
+            },
+            {
+              "rank": 18,
+              "name": "anthropics/knowledge-work-plugins",
+              "trending_rank": 9,
+              "stars_today": 2631
+            },
+            {
+              "rank": 19,
+              "name": "Comfy-Org/ComfyUI",
+              "trending_rank": 11,
+              "stars_today": 4648
+            },
+            {
+              "rank": 31,
+              "name": "cursor/plugins",
+              "trending_rank": 7,
+              "stars_today": 1729
+            },
+            {
+              "rank": 39,
+              "name": "vllm-project/vllm",
+              "trending_rank": 15,
+              "stars_today": 1371
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 5,
+              "name": "Nutlope/hallmark"
+            },
+            {
+              "rank": 10,
+              "name": "google-gemini/gemini-cli"
+            },
+            {
+              "rank": 15,
+              "name": "NVIDIA/OpenShell"
+            },
+            {
+              "rank": 76,
+              "name": "makecindy/cindy"
+            },
+            {
+              "rank": 78,
+              "name": "Fei2411/DeepSeek-Bot"
+            },
+            {
+              "rank": 80,
+              "name": "latent-spaces/brag"
+            },
+            {
+              "rank": 81,
+              "name": "google/artemis"
+            },
+            {
+              "rank": 93,
+              "name": "colbymchenry/codegraph"
+            },
+            {
+              "rank": 99,
+              "name": "ollama/ollama"
+            }
+          ],
+          "warnings_count": 1,
+          "item_names": [
+            "cloudflare/security-audit-skill",
+            "morluto/rea",
+            "pbakaus/impeccable",
+            "stablyai/orca",
+            "Nutlope/hallmark",
+            "Graphify-Labs/graphify",
+            "anomalyco/opencode",
+            "pollen-robotics/microduck",
+            "heygen-com/hyperframes",
+            "google-gemini/gemini-cli",
+            "ruvnet/ruflo",
+            "anthropics/claude-plugins-official",
+            "HKUDS/CLI-Anything",
+            "akitaonrails/ai-memory",
+            "NVIDIA/OpenShell",
+            "Ebony-Vinyl/dsh-our-free-model",
+            "deepseek-ai/deepseek-harness",
+            "anthropics/knowledge-work-plugins",
+            "Comfy-Org/ComfyUI",
+            "debpalash/VoiceStudio",
+            "storytold/photocraft",
+            "DietrichGebert/ponytail",
+            "mattpocock/skills",
+            "Niko1221/Strata",
+            "affaan-m/ECC",
+            "yetone/magpie",
+            "wheresryan22/anatomy",
+            "boykopovar/AnyPS5",
+            "obra/superpowers",
+            "eternity4719/HowToLiveBetter",
+            "cursor/plugins",
+            "tangency-labs/solidcraft",
+            "xerj-org/xerj",
+            "Droid-Deck/DroidDeck",
+            "tt-a1i/archify",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "hugohe3/ppt-master",
+            "Leonxlnx/taste-skill",
+            "vllm-project/vllm",
+            "paperclipai/paperclip",
+            "Panniantong/Agent-Reach",
+            "rohitg00/ai-engineering-from-scratch",
+            "NousResearch/hermes-agent",
+            "yihui-dev/awesome-opus5-5-videos",
+            "bilawalsidhu/gods-eye-view",
+            "calesthio/OpenMontage",
+            "lemomo-ai/lemo-opuscar",
+            "farion1231/cc-switch",
+            "msitarzewski/agency-agents",
+            "luongnv89/claude-howto",
+            "storytold/pdfcraft",
+            "firecrawl/firecrawl",
+            "JuliusBrussee/caveman",
+            "storytold/wordcraft",
+            "nexu-io/open-design",
+            "addyosmani/agent-skills",
+            "anywhere-labs/dsh-desktop",
+            "hypit-ai/hypit",
+            "storytold/filmcraft",
+            "Gathin23/cleanyourtv",
+            "career-ops-hq/career-ops",
+            "thedotmack/claude-mem",
+            "harry0703/MoneyPrinterTurbo",
+            "dataelement/dsh-desktop",
+            "jub0t/Concat",
+            "DuarteSantos8/openGym",
+            "usestrix/strix",
+            "NandhaKishorM/laya",
+            "openclaw/openclaw",
+            "VoltAgent/awesome-design-md",
+            "garrytan/gstack",
+            "anthropics/skills",
+            "earendil-works/pi",
+            "Egonex-AI/Understand-Anything",
+            "public-apis/public-apis",
+            "makecindy/cindy",
+            "vorssaint/vorssaint-utils",
+            "Fei2411/DeepSeek-Bot",
+            "TauricResearch/TradingAgents",
+            "latent-spaces/brag",
+            "google/artemis",
+            "microsoft/markitdown",
+            "lexmount/moli",
+            "storytold/lightcraft",
+            "github/spec-kit",
+            "JustVugg/colibri",
+            "anthropics/claude-code",
+            "Leonxlnx/earshot",
+            "clash-verge-rev/clash-verge-rev",
+            "666ghj/MiroFish",
+            "openai/codex",
+            "tw93/Mole",
+            "colbymchenry/codegraph",
+            "headroomlabs-ai/headroom",
+            "Jakeschincariol/replica-skill",
+            "HeyPuter/everything",
+            "ayghri/i-have-adhd",
+            "NationalSecurityAgency/ghidra",
+            "ollama/ollama",
+            "storytold/cadcraft"
+          ],
+          "report_path": "reports/hot-rising/2026-10-25.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-10-23",
