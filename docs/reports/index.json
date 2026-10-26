@@ -6801,8 +6801,279 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-10-25",
+      "latest": "2026-10-26",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-10-26",
+          "generated_at": "2026-10-26T09:04:25+08:00",
+          "discovered_count": 983,
+          "candidate_count": 101,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "cloudflare/security-audit-skill",
+              "trending_rank": 10,
+              "stars_today": 2878
+            },
+            {
+              "rank": 2,
+              "name": "debpalash/VoiceStudio",
+              "trending_rank": 3,
+              "stars_today": 1592
+            },
+            {
+              "rank": 3,
+              "name": "pbakaus/impeccable",
+              "trending_rank": 4,
+              "stars_today": 1092
+            },
+            {
+              "rank": 4,
+              "name": "Nutlope/hallmark",
+              "trending_rank": 2,
+              "stars_today": 1317
+            },
+            {
+              "rank": 6,
+              "name": "TauricResearch/TradingAgents",
+              "trending_rank": 6,
+              "stars_today": 381
+            },
+            {
+              "rank": 7,
+              "name": "pollen-robotics/microduck",
+              "trending_rank": 5,
+              "stars_today": 647
+            },
+            {
+              "rank": 16,
+              "name": "makecindy/cindy",
+              "trending_rank": 1,
+              "stars_today": 675
+            },
+            {
+              "rank": 18,
+              "name": "Renhuai123/ziwei-doushu",
+              "trending_rank": 7,
+              "stars_today": 199
+            },
+            {
+              "rank": 80,
+              "name": "AgriciDaniel/claude-seo",
+              "trending_rank": 11,
+              "stars_today": 197
+            },
+            {
+              "rank": 97,
+              "name": "coollabsio/coolify",
+              "trending_rank": 9,
+              "stars_today": 152
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "cloudflare/security-audit-skill",
+              "trending_rank": 1,
+              "stars_today": 15072
+            },
+            {
+              "rank": 5,
+              "name": "stablyai/orca",
+              "trending_rank": 5,
+              "stars_today": 9622
+            },
+            {
+              "rank": 8,
+              "name": "Graphify-Labs/graphify",
+              "trending_rank": 8,
+              "stars_today": 6903
+            },
+            {
+              "rank": 9,
+              "name": "heygen-com/hyperframes",
+              "trending_rank": 6,
+              "stars_today": 5612
+            },
+            {
+              "rank": 10,
+              "name": "anomalyco/opencode",
+              "trending_rank": 4,
+              "stars_today": 5921
+            },
+            {
+              "rank": 11,
+              "name": "Comfy-Org/ComfyUI",
+              "trending_rank": 10,
+              "stars_today": 4790
+            },
+            {
+              "rank": 12,
+              "name": "ruvnet/ruflo",
+              "trending_rank": 2,
+              "stars_today": 2987
+            },
+            {
+              "rank": 13,
+              "name": "akitaonrails/ai-memory",
+              "trending_rank": 9,
+              "stars_today": 3254
+            },
+            {
+              "rank": 14,
+              "name": "anthropics/claude-plugins-official",
+              "trending_rank": 11,
+              "stars_today": 2245
+            },
+            {
+              "rank": 20,
+              "name": "anthropics/knowledge-work-plugins",
+              "trending_rank": 3,
+              "stars_today": 2790
+            },
+            {
+              "rank": 28,
+              "name": "vllm-project/vllm",
+              "trending_rank": 12,
+              "stars_today": 1445
+            },
+            {
+              "rank": 96,
+              "name": "multica-ai/andrej-karpathy-skills",
+              "trending_rank": 13,
+              "stars_today": 2937
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 18,
+              "name": "Renhuai123/ziwei-doushu"
+            },
+            {
+              "rank": 80,
+              "name": "AgriciDaniel/claude-seo"
+            },
+            {
+              "rank": 96,
+              "name": "multica-ai/andrej-karpathy-skills"
+            },
+            {
+              "rank": 97,
+              "name": "coollabsio/coolify"
+            },
+            {
+              "rank": 99,
+              "name": "D4Vinci/Scrapling"
+            }
+          ],
+          "warnings_count": 1,
+          "item_names": [
+            "cloudflare/security-audit-skill",
+            "debpalash/VoiceStudio",
+            "pbakaus/impeccable",
+            "Nutlope/hallmark",
+            "stablyai/orca",
+            "TauricResearch/TradingAgents",
+            "pollen-robotics/microduck",
+            "Graphify-Labs/graphify",
+            "heygen-com/hyperframes",
+            "anomalyco/opencode",
+            "Comfy-Org/ComfyUI",
+            "ruvnet/ruflo",
+            "akitaonrails/ai-memory",
+            "anthropics/claude-plugins-official",
+            "morluto/rea",
+            "makecindy/cindy",
+            "Ebony-Vinyl/dsh-our-free-model",
+            "Renhuai123/ziwei-doushu",
+            "deepseek-ai/deepseek-harness",
+            "anthropics/knowledge-work-plugins",
+            "storytold/photocraft",
+            "mattpocock/skills",
+            "affaan-m/ECC",
+            "DietrichGebert/ponytail",
+            "Niko1221/Strata",
+            "yetone/magpie",
+            "KnifeLemon/Filee",
+            "vllm-project/vllm",
+            "eternity4719/HowToLiveBetter",
+            "wheresryan22/anatomy",
+            "obra/superpowers",
+            "Panniantong/Agent-Reach",
+            "boykopovar/AnyPS5",
+            "tt-a1i/archify",
+            "Leonxlnx/taste-skill",
+            "tangency-labs/solidcraft",
+            "Droid-Deck/DroidDeck",
+            "hugohe3/ppt-master",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "lemomo-ai/lemo-opuscar",
+            "paperclipai/paperclip",
+            "rohitg00/ai-engineering-from-scratch",
+            "bilawalsidhu/gods-eye-view",
+            "msitarzewski/agency-agents",
+            "yihui-dev/awesome-opus5-5-videos",
+            "NousResearch/hermes-agent",
+            "farion1231/cc-switch",
+            "storytold/pdfcraft",
+            "JuliusBrussee/caveman",
+            "calesthio/OpenMontage",
+            "nexu-io/open-design",
+            "firecrawl/firecrawl",
+            "career-ops-hq/career-ops",
+            "storytold/wordcraft",
+            "storytold/filmcraft",
+            "xerj-org/xerj",
+            "addyosmani/agent-skills",
+            "Alishahryar1/free-claude-code",
+            "anywhere-labs/dsh-desktop",
+            "thedotmack/claude-mem",
+            "aicodeking/leanrea",
+            "hypit-ai/hypit",
+            "garrytan/gstack",
+            "Gathin23/cleanyourtv",
+            "openclaw/openclaw",
+            "anthropics/skills",
+            "DuarteSantos8/openGym",
+            "harry0703/MoneyPrinterTurbo",
+            "Egonex-AI/Understand-Anything",
+            "NandhaKishorM/laya",
+            "VoltAgent/awesome-design-md",
+            "earendil-works/pi",
+            "google-gemini/gemini-cli",
+            "public-apis/public-apis",
+            "jub0t/Concat",
+            "microsoft/markitdown",
+            "usestrix/strix",
+            "JustVugg/colibri",
+            "vorssaint/vorssaint-utils",
+            "AgriciDaniel/claude-seo",
+            "google/artemis",
+            "clash-verge-rev/clash-verge-rev",
+            "lexmount/moli",
+            "github/spec-kit",
+            "storytold/lightcraft",
+            "666ghj/MiroFish",
+            "latent-spaces/brag",
+            "Leonxlnx/earshot",
+            "Edge0-AI/Edge0",
+            "tw93/Mole",
+            "headroomlabs-ai/headroom",
+            "storytold/cadcraft",
+            "Jakeschincariol/replica-skill",
+            "shihabal3amri/DiPlay",
+            "ayghri/i-have-adhd",
+            "multica-ai/andrej-karpathy-skills",
+            "coollabsio/coolify",
+            "NationalSecurityAgency/ghidra",
+            "D4Vinci/Scrapling",
+            "T-Auto/dsh-ops"
+          ],
+          "report_path": "reports/hot-rising/2026-10-26.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-10-25",
