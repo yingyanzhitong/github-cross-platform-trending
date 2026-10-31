@@ -128,8 +128,8 @@
     "CopilotKit/OpenBot": {
       "source": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
       "zh": "为每个 AI 同事配备独立浏览器、文件和工具的开源平台",
-      "analysis_source": "133eed5f44b093f37214dc57f46e4ba4ff80b07decc1b4c90ab5e7ec88830982",
-      "analysis_zh": "OpenBot 提供一套可克隆、可改造的 AI 协作空间模板，团队在自己的基础设施里运行应用并替换示例同事、频道与技能。Docker Compose 会启动应用、API、PostgreSQL 和随附 Bot，数据留在自己的基础设施中；模型并不随项目附送，而是由管理员选择并提供凭据，凭据静态加密且不会写入日志。每位 coworker 都拥有独立浏览器、登录状态、文件和获准使用的工具，操作者可以观看它在自己的屏幕上工作，在敏感步骤接管，再把控制权交还。所有对电脑、文件、MCP server 或界面组件的操作都会先经过统一 gateway 决策，执行后再留痕。接入边界由 AG-UI 定义，因此 LangGraph、Mastra、CrewAI、Pydantic AI、Google ADK 或手写代理都能以相同方式成为 Bot，并通过组件而不只是文字回复。初始配置提供 General Assistant 和 Knowledge，配置端点后还可加入 Risk Analyst；更多示例位于 examples/fintech/catalog/，复制到 agents 目录、编辑 agents.yaml，或在界面的 /bots 中创建即可扩展。README 明确把它称为 template, not a product：没有可注册的托管版，也没有供外部依赖的公开包；单机试用可借助 单用户模式 跳过 OAuth，但部署给其他人访问前必须关闭这一模式。"
+      "analysis_source": "7334d9e5468e2e84a86e9fbee71f213f72f22964e7dd27cb7ccb4c042f876dec",
+      "analysis_zh": "把仓库克隆下来后，得到的不是等待注册的托管服务，而是一套需要自行改造成公司内部产品的 AI 同事模板。OpenBot 运行在自己的基础设施中，Docker Compose 会拉起应用、API、PostgreSQL 与随附的 Bots；模型由管理员选择并提供凭据，凭据静态加密且不会写入日志。每位同事拥有独立浏览器、登录状态、文件和获准工具，也有自己的交流频道；用户可以观看它操作，在敏感步骤接管屏幕，再把控制权交还。所有针对电脑、文件、MCP server 或界面组件的动作都经过统一 gateway，在执行前作出决定并在执行后留下记录。Bot 只需提供兼容 AG-UI 的 endpoint，因此 LangGraph、Mastra、CrewAI、Pydantic AI、Google ADK 或手写智能体都能以相同方式接入，治理逻辑落在协议层而非某个框架里。初始配置包含 General Assistant 与 Knowledge，Risk Analyst 在 endpoint 配好后加入，examples/fintech/catalog/ 还准备了费用审核、会议跟进、发布说明、工单分流等样例；可以把样例复制到 examples/fintech/agents/，编辑 agents.yaml，或直接在 /bots 界面创建。README 明确将其标为 Beta：它是可修改的起点，仓库内 workspace 均为 private，也没有可直接依赖的发布包。"
     },
     "D4Vinci/Scrapling": {
       "source": "🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
@@ -176,8 +176,8 @@
     "Droid-Deck/DroidDeck": {
       "source": "DroidDeck brings the SteamOS experience to Android",
       "zh": "将 SteamOS 体验带到 Android 设备",
-      "analysis_source": "b6cd751fd8eeaf91120717256e1a8abba39c70d43ba62fdc13a735f7bcc511e3",
-      "analysis_zh": "在受支持的 Adreno 安卓掌机上，DroidDeck 把 Valve 的 Steam 客户端以 Big Picture 形式运行起来，并借助 ARM64 Proton 启动 Windows 游戏。实际操作从安装 APK 和 Linux runtime 开始，按下 Play、登录后，Steam 会在首次启动时下载；继续安装 Desktop & apps，便可获得桌面和模拟器。Store 通过 Flatpak 安装 Flathub 的 ARM64 应用与游戏，也能处理 Appimages 和安装脚本；开启 Stores 后还可登录 GOG、Epic Games 与 Amazon Games，并把游戏下载到统一的 Games 存储。Android 9 及以上、Adreno 730 或 8xx 是主要支持范围，Adreno 6xx 仍属实验性，其他列出的 GPU 不受支持；整个过程不要求 root，但运行时、桌面和模拟器需要预留约 4.1 GB。Android 14 以上还需启用 Disable child process restrictions。Setup → Smart glasses 可让菜单、启动器、桌面会话和游戏共享虚拟屏幕设置，并为部分 VITURE、RayNeo、XREAL、Rokid 连接提供 3DoF。自行构建时先运行仓库提供的本地构建脚本，它会准备并校验与 CI 一致的原生库和组件；连接设备后可用配套部署脚本安装。"
+      "analysis_source": "65886c7c9cb225d420484d3328ccf9e7435ddb438f34591b4fd736ff82d6e8b8",
+      "analysis_zh": "把 APK 装到受支持的 Adreno 掌机后，DroidDeck 会在 Android 上搭起 Linux runtime，让 Valve 的 Steam 客户端以 Big Picture 方式运行，并通过 ARM64 Proton 启动 Windows 游戏。基本流程是安装 APK、安装运行时、按下 Play 并登录，Steam 会在首次启动时下载；继续安装 Desktop & apps 后，还能进入桌面和模拟器。内置 Store 通过 Flatpak 获取 Flathub 的 ARM64 应用，也支持 Appimages 和安装脚本；开启 Stores 后，可登录 GOG、Epic Games 和 Amazon Games，把下载内容汇入 Games 存储，其中 Epic 还提供官方 Linux launcher preview 的实验性接入。控制器快捷键可在 Button mapping 中逐项捕获实体按键，并按控制器分别保存；映射后的按钮会优先打开 Steam menu、Open Quick Access Menu 或 DroidDeck menu。Android 14 及以上需启用 Disable child process restrictions，旧一些的系统则可能由“Fix it for me”协助配置。设备要求较严格：Adreno 730 或 8xx 才是主要支持范围，Adreno 6xx 仍属实验性，Mali、Xclipse、PowerVR 与 Adreno 710 不受支持，但整个安装过程不要求 root。"
     },
     "DuarteSantos8/openGym": {
       "source": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
@@ -242,8 +242,8 @@
     "Gathin23/cleanyourtv": {
       "source": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
       "zh": "通过 Wi-Fi 精简 Android 与 Google TV，并换用 Apple TV 风格首页",
-      "analysis_source": "f1af57b9bf8f1d8586f1a3d9506c83768564b07a2988826742ae1f20fc53b838",
-      "analysis_zh": "把 Android TV 或 Google TV 的首页整理成接近 Apple TV 的安静界面，过程依赖电视本身已有的 ADB 调试能力。先在开发者选项打开 USB debugging，让电脑与电视处于同一 Wi-Fi，再克隆仓库并由编码助手调用 tools/disable.sh 和 launcher/build-and-install.sh：流程会备份已安装包与设置，用 pm disable-user 停用厂商遥测、广告服务、内容推荐行和预装冗余项，随后构建并安装原生启动器。操作不会卸载应用，也不要求 root 或数据线，保存的恢复记录可用一行命令撤销；由于不同品牌的预装内容不同，助手会先探测设备，并询问常用应用、Dock 顺序、语音助手、Chromecast 和系统更新是否保留。新首页提供四个常用应用的圆角 Dock、带环境光的 top shelf、完整应用网格、输入源与网络按钮、时钟和屏保，还支持主题及 module cards。Fire TV 只能执行精简部分，Samsung、LG、Roku、Vizio 与 Hisense VIDAA 因没有 ADB 而不受支持。"
+      "analysis_source": "97d047f0c62a1604bbaf7ee0d9d4bc5818782a35ba21aa454b7dacebb949ced2",
+      "analysis_zh": "先在 Android TV 或 Google TV 的开发者选项中开启 USB debugging，让电脑与电视处于同一 Wi-Fi，再克隆仓库并把电视型号交给编码助手，CleanYourTV 就会沿着备份、精简和安装首页三步完成改造。它先保存已安装包与设置清单，再用 pm disable-user 停用厂商遥测、广告服务、内容行和预装冗余项，最后构建并安装原生 launcher；整个过程不要求 root 或数据线，也不卸载软件，因此生成的 restore script 可以逐项恢复。助手会询问仍在使用的应用、dock 数量与顺序，以及是否保留语音助手、Chromecast 和更新，并通过从电视拉取的截图检查每一步；克隆仓库很关键，因为流程直接复用 tools/disable.sh 与 launcher/build-and-install.sh，其中包含备份、Home guard 和恢复记录。新首页以纯黑背景承载常用应用 dock、随焦点应用取色的 top shelf、完整应用网格和浮动玻璃高亮，还提供 Inputs、网络与 Settings 三个磨砂按钮；主题可以不重新构建便改变颜色、壁纸、dock 和列数。完整精简与 launcher 仅支持 Android TV、Google TV；Fire TV 通常只能做精简，Samsung Tizen、LG webOS、Roku、Vizio 和 Hisense VIDAA 因没有 ADB 而不支持。"
     },
     "Gitlawb/openclaude": {
       "source": "runs anywhere. uses anything",
@@ -254,8 +254,8 @@
     "Graphify-Labs/graphify": {
       "source": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "zh": "将代码、文档、数据库结构、配置和 PDF 转为可查询知识图谱。",
-      "analysis_source": "0a7758b6ef26036f761f3fd8c01f5d081624e62c4d8b611d2b1b1834849f1892",
-      "analysis_zh": "在 AI 编码助手里输入 /graphify，Graphify 会把代码、文档、PDF、图像和音视频映射成可查询的知识图谱，让后续探索从逐文件搜索变为沿关系追踪。代码部分由 tree sitter AST 在本地确定性解析，不调用 LLM，也不建立 embeddings 或 vector store；跨文件的 calls、imports、inherits 等关系可覆盖多种语言。图中的每条边都会标为 EXTRACTED 或 INFERRED，分别表示源文件明确给出的连接与解析推导出的连接，回答依据因而可以回溯。建图后可用 graphify query 提交自然语言问题，用 graphify path A B 查找两个概念之间的路径，也能查看高连接度节点、Leiden 划分的子系统以及由 NOTE、WHY、ADR、RFC 形成的理由节点。安装时需认准 PyPI 包名 graphifyy，随后执行 graphify install 注册助手技能；它会检测 Claude Code、Cursor、Codex、Gemini CLI 等环境，也支持把技能安装到当前项目。"
+      "analysis_source": "bfecd123eb6de9b3a19c152c2f657062d464aee4f245c542729ffc7bbb5b6a1f",
+      "analysis_zh": "在 AI 编码助手里输入 /graphify，Graphify 会把整个工程的代码、文档、PDF、图片和视频整理成可遍历的知识图谱，让后续问题通过图中关系回答，而非反复 grep 或逐文件阅读。代码部分由 tree-sitter AST 在本地确定性解析，不调用 LLM，也不会离开机器；文档和媒体才会在配置后进行语义处理。它不使用 embeddings 或 vector store，而是解析跨文件的调用、导入、继承与混入关系，并把高连接度概念识别为 God nodes，再通过 Leiden 划分子系统社区。每条边都会标记 EXTRACTED 或 INFERRED，前者表示源文件中明确存在，后者表示由名称和关系解析得出，因此查询结果能够说明连接从何而来。构建后可围绕 graph.json 提问、解释概念或追踪两个对象之间的路径，路径总置信度取其中最弱的一跳；NOTE、WHY 注释以及 ADR、RFC 引用也会成为与代码相连的节点。官方 PyPI 包名是 graphifyy，安装后运行一次 graphify install 注册助手技能，之后 Claude Code、Cursor、Codex、Gemini CLI 等环境都可使用同一套流程。"
     },
     "HKUDS/CLI-Anything": {
       "source": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
@@ -297,6 +297,12 @@
       "analysis_source": "0bf4639ff54a72452e8c7b2e2a22e54ba943d75d1e66ca0b849caf89e4705218",
       "analysis_zh": "先在 GitHub 点击 Use this template 创建自己的仓库，而不是直接克隆模板或把生成的网站提交回原仓库；随后安装依赖、启动 AI 编程智能体，再运行 /clone website，便可把给定 URL 重建为整洁的 Next.js 应用。整个过程不是让模型凭截图猜页面：Reconnaissance 阶段会采集截图、设计令牌，并遍历滚动、点击、悬停和响应式状态；Foundation 统一字体、颜色与全局样式并下载资源；Component Specs 把精确 CSS、状态、行为和内容写入 docs/research/components/；Parallel Build 再让多个 builder agents 在 git worktrees 中分别实现区块，最后由 Assembly & QA 合并页面并与原站做 visual diff。模板采用 Next.js 16、React 19、TypeScript strict、shadcn/ui 与 Tailwind CSS v4，适合迁移自己拥有的旧站、找回遗失源码，或通过真实代码研究布局和动画。README 同时明确排除钓鱼、冒充、侵权以及违反站点条款的复制行为。"
     },
+    "Jakeschincariol/day-trader-skill": {
+      "source": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+      "zh": "包含 11 项日内交易 Claude 技能，支持图表扫描、突发新闻追踪、择时与结果回放。",
+      "analysis_source": "0b11993102355fad7a71d22ac8ac0b3f4fe4cad6ecbe5e3ae14d8186ed53197d",
+      "analysis_zh": "十一条可串联的交易命令构成了一条从发现机会到人工确认的流水线：/trader-scanner 扫描数千张图表寻找开盘区间突破、旗形和超卖反弹，/trader-news 汇总自选股突发消息，随后 /trader-entry 逐根观察 K 线，/trader-exit 在进场前确定止损、目标和强制平仓时间。最有辨识度的 /trader-timemachine 会从标的近期同一时段的 K 线抽样，模拟 10,000 个后续交易时段，并回放历史上同类信号的结果，以目标先到、止损先到或收盘仍未结束的比例呈现概率，而不是承诺预测未来。接着预算与风险技能按账户规模、单笔最大损失、日损失上限、盈亏比和现金等条件给出 PASS 或 BLOCK；/trader-broker 只有在用户输入 yes 并再次授权后才调用券商连接器，且默认 paper trading。各技能把结果写入项目的 trader/ 文件夹，后一步读取前一步的产物。工具使用 Python 3.8 或更新版本及标准库，数据来自 Yahoo Finance、Nasdaq Trader、SEC EDGAR 和 House Clerk；SEC 相关功能还要求设置身份信息。"
+    },
     "Jakeschincariol/replica-skill": {
       "source": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
       "zh": "11 个免费 MIT 许可的 Claude 技能，用于逆向、重建、测试并修复应用",
@@ -312,8 +318,8 @@
     "JetBrains/thinkrail": {
       "source": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "zh": "在可随工作方式自定义的轻量级真实 IDE 中使用 pi 氛围编程",
-      "analysis_source": "88a8e0cad640bc546940ac3df456b0b2d9a1fa398af007d3d5ef0c4662e4b5f3",
-      "analysis_zh": "ThinkRail 把 pi 编程会话包进一套可拆分的真实 IDE 工作台，并用隔离分支、持久规格与可复用技能维持长期项目上下文。打开任意 Git 仓库后，可以从它切出 git worktree workspace；每个 workspace 拥有独立分支和工作目录，多个 agent 因而能并行工作而不碰主 checkout，满意的分支再合并，其余直接舍弃。工作台提供 Monaco 编辑器、带实时 Git 标记的 Files 树、Changed 视图、终端和文档，也能在文件或 diff 上留下锚定评论，再把评论作为结构化上下文发给聊天。一个 workspace 可同时运行多个 pi session，每个会话显示模型、token 与成本，用户既能中途 steering，也能排队后续任务、委派 subagents，并共同编辑 agent 持续更新的计划。代码旁的 SPEC.md 会组成相连图谱，专用 spec tools 负责读取、搜索和维护，让设计意图跨会话保留下来。顶部栏把当前分支相对 origin 和 pull request 的状态放在一起，可发布、推送、生成 PR 描述、查看 CI 与 review decision，并把失败检查或分支分歧交回 agent。它既有桌面应用，也有在浏览器打开同一界面的 thinkrail CLI；现有 pi 配置、MCP servers、Agent Skills、供应商凭据及自定义主题都能继续沿用，ThinkRail 本身不要求单独账户。"
+      "analysis_source": "700bbf51b78cd045646a4ea62a04d93149d013568704dd30490ee2012da327be",
+      "analysis_zh": "打开一个 Git 仓库后，ThinkRail 可以从中切出多个 git worktree，每个 workspace 都有独立分支和工作目录，让不同 pi session 并行修改而不碰主 checkout；满意的分支可以合并，其余直接丢弃，完成或沉寂的 workspace 则自动收进项目 shelf。围绕智能体的工作台并未舍弃传统 IDE 体验：Monaco 编辑器、Files 树、Changed 视图、终端与文档都限定在当前 workspace 中，文件和 diff 上还能留下锚定评论，再作为结构化上下文发送给聊天。顶部栏会显示当前分支相对 origin 和 pull request 的状态，可完成 publish、push、创建 PR、查看 CI 与评审结论，也能把失败检查或分支分叉交回智能体处理。长期意图由代码旁的 SPEC.md 图谱保存，智能体通过专门工具读取、检索和维护，Specs 工具则把关系渲染成树。聊天支持多个并发 pi session、模型选择、token 与费用读数、运行中转向、排队追问、subagents 以及双方共同编辑的计划。扩展可从 npm、git 或本地目录安装，MCP server 对非只读调用会先在聊天中请求许可；模型既可使用 pi 的 provider，也能连接 LiteLLM、vLLM、Ollama、LM Studio 等 OpenAI compatible server。桌面应用与 thinkrail CLI 使用同一 engine host，状态保存在 ~/.thinkrail。"
     },
     "JoasASantos/REA-Prompts": {
       "source": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
@@ -356,8 +362,8 @@
     "KnifeLemon/Filee": {
       "source": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
       "zh": "免费开源的离线文件转换器，拖放即可转换 263 种格式",
-      "analysis_source": "025741173b841ef2cee4cbb6ed6118f10b303137e431c7ec08b61ceafb6701e0",
-      "analysis_zh": "按住 Ctrl（macOS 为 Option）拖动文件，光标旁便会展开一个 donut，只显示与当前文件匹配的输出格式；把文件放到目标切片即可转换，无须先打开传统应用窗口。Filee 全程离线运行，不上传内容，默认把结果保存到原文件旁边，并覆盖图片、PDF、Word、Excel、PowerPoint、HWP、电子书、压缩包、字体、CAD、3D 模型和地理空间数据等大量格式，也不依赖 Office、Hancom Office 或 LibreOffice。donut 的工具栏可按文件类型分别排列，保存质量、尺寸、DPI、PDF 页面、压缩、音视频参数、输出目录及文件名预设；按 Tab 或滚动鼠标还能翻到较少使用的格式和工具。它支持并行批量转换，并会自动寻找 HWP → HWPX → DOCX 这类多步路线；Watch folders 可持续处理落入目录的新文件。除拖放外，还能从浏览器拖出图片、文件链接或下载项，也可借助右键菜单、快捷键、drop zone 和 filee command 进入流程；Home 会保留带缩略图的近期转换记录，方便打开结果或交给其他应用。"
+      "analysis_source": "837be834fddb9adcee7f1d0dd7332968fcf5004cefb37ad8cb7eef8736e3f976",
+      "analysis_zh": "按住 Ctrl（macOS 上为 Option）拖起文件，光标旁便会展开一个环形格式盘，只显示与当前文件相匹配的转换目标；把文件丢到目标格式上即可处理，不必先打开主窗口。Filee 覆盖图片、PDF、Word、Excel、PowerPoint、HWP、电子书、压缩包、字体、CAD、三维模型和地理空间数据，转换全程离线，结果默认保存在原文件旁边，也不依赖 Office、Hancom Office 或 LibreOffice。环形盘可用 Tab 或滚轮翻面查看较少使用的格式和工具，Crop 能在转换图片前逐张裁剪，还可设置质量、尺寸、DPI、压缩方式、输出目录及文件名。多文件任务会并行执行，像 HWP → HWPX → DOCX 这样的多步路线可自动寻找；Watch folders 则会持续转换放入指定目录的文件。除了拖放，还能从浏览器直接拖出图片、下载或文件链接，也可通过右键菜单、快捷键和 drop zone 进入。Windows 可运行 Filee.exe，macOS 与 Linux 包则提供 ./install.sh；Linux 的拖拽手势依赖 X11，Wayland 环境可改用 drop zone 或文件管理器右键菜单。"
     },
     "Kruk2/jasna": {
       "source": "Video restoration tool",
@@ -566,8 +572,8 @@
       "analysis_zh": "Prime Agent 把长时间编码与研究任务放进 persistent Python REPL：提示上下文被当作变量，文件操作、shell 命令、工具调用和上下文管理都通过程序执行，rlm(...) 则像函数一样启动真实子智能体，并以可编程方式返回结果。补充提示、memories、技能描述和子智能体规格构成 durable harness state，可由 /refine 根据当前轨迹做小范围、证据支持的更新；基础系统提示保持不可变，记录的 snapshots 可用于回滚。技能本身是可导入的 Python packages，重复出现的流程可以沉淀为项目级或个人技能。daemon backed agents 让会话在终端断开后继续运行并可重新连接，/goal 保存跨轮次目标，/heartbeat 和 schedule 定时唤醒任务，/autonomous 则在配置好的轮数、Token 与时间预算内持续推进并执行质量门。自动压缩、保留的子智能体和 agent-to-agent communication 共同维持长期进度。由于它会以当前用户权限执行模型生成的 Python 和项目命令，worker 与 kernel 只改善隔离和恢复，并不构成 security sandbox。"
     },
     "Renhuai123/ziwei-doushu": {
-      "analysis_source": "b680fb716240a5a6e38ebf8830b9f1913f57684c6732bc2fa26a60f7307517a3",
-      "analysis_zh": "沿着“算法是公开的传统智慧，不应该被锁在围墙里”的理念，仓库公开了基于倪海厦《天纪》的排盘引擎、四化系统、格局知识库与古籍资料，并把真太阳时校正、中国夏令时、农历公历互转、闰月边界、星曜亮度流派及运限上下文拆成可核查的模块。v4.0 解读数据集按 1950–2026 年每个真实日期、12 时辰和男女生成 674,976 张命盘，每张包含 13 维解读，共 8,774,688 段；内容由排盘引擎与断语库确定性生成，不经 AI，相同输入会得到相同输出。数据采用 JSON Lines，按年份拆成 77 个 zstd 文件，也提供全年份总包，解压时必须使用 --long=27；字段 h 表示 0–11 的时辰序号而不是钟点。新版排除了不存在的日期，并逐句校正《天纪》与《紫微斗数全书》的引文和成立条件。仓库另保留 v3.0 样本数据集，但其中约 2,520 条来自 2 月 29 日或 30 日等无效日期，使用者需要过滤。排盘部分配有 5 条回归测试，可通过 npm test 验证；六亲判断本身存在局限，相关分析仅供参考。"
+      "analysis_source": "4f7e85fd7e10e532c66f9cdeb2fb99a6a434727b76fb1f431576a785567a9aaf",
+      "analysis_zh": "从出生日期、时辰序号与性别出发，仓库中的排盘引擎按倪海厦《天纪》体系生成紫微斗数命盘，并配套四化系统、格局知识库、古籍原文及确定性生成的解读数据。v4.0 解读数据集覆盖公历 1950–2026 年的真实日期、12 时辰与男女，共 674,976 张命盘，每张拆成命格总览、性格、感情、事业、财运、健康等 13 维，合计 8,774,688 段；文件采用 JSON Lines，按 77 个年份文件发布，也提供 ziwei-interp-v4-all.tar 总包。压缩包使用长窗口，解压时必须带 --long=27。这里的 h 是 0–11 的时辰序号而非钟点，数据也没有按出生地进行真太阳时校正；引擎本身则提供 true-solar-time.ts，并支持通过 utcOffsetMinutes 处理海外出生地的固定标准时区偏移。新版还加入 chinaDSTSpan(year) 查询中国夏令时范围以及 clock-adjust.ts，把夏令时或历史时区下的钟表读数换算为标准时间，但跨日交由用户确认，夏令时引擎也只判定而不会自动扣除。排盘算法配有 5 条回归测试，可用 npm test 执行；解读数据由引擎与断语库生成，不经 AI，相同输入得到相同输出。README 也直接说明六亲判断存在局限，父母、兄弟和子女维度仅供参考。"
     },
     "Rion-Wu-tech/wechat-intelligence-hub": {
       "source": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
@@ -672,8 +678,8 @@
     "VoltAgent/awesome-design-md": {
       "source": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
       "zh": "热门品牌设计系统的 DESIGN.md 分析合集，可辅助智能体生成匹配界面。",
-      "analysis_source": "9c05d4798ed2f8181a758f9b16ecce9a288e4e9221a1dbeb59735cc395febbea",
-      "analysis_zh": "把仓库中的 DESIGN.md 复制到项目根目录，再告诉 AI agent“build me a page that looks like this”，便能让生成界面沿用指定网站的视觉语言，而不是只模仿表面配色。这里的 DESIGN.md 是供设计智能体阅读的纯 Markdown 设计系统文档，记录从真实网站分析出的 patterns、tokens 和 rules；它不依赖 Figma exports、JSON schemas 或专用解析工具，主流编码智能体和 Google Stitch 可直接理解。仓库同时区分了两类上下文：AGENTS.md 说明项目应如何构建，DESIGN.md 说明界面应呈现怎样的观感。现成集合按 AI 平台、开发工具、数据库与 DevOps、生产力软件、创意工具、金融和零售等领域整理，并用具体视觉特征描述每套系统，例如暖陶土强调色、电影感暗色界面、终端式单色风格或数据密集仪表盘。使用者因此可以先挑选接近目标品牌气质的文件，再让智能体依据其中更细的排版、色彩和组件规则持续生成风格一致的页面。"
+      "analysis_source": "ba84fb0d1f0b593503895ec19042f3eca43a531770d156097c6fea2031165e52",
+      "analysis_zh": "想让编码智能体复刻某种成熟产品的视觉语言，可以直接从合集挑选对应品牌的 DESIGN.md，复制到项目根目录，再告诉 AI agent“build me a page that looks like this”。这种文件源自 Google Stitch 提出的思路：用普通 Markdown 写清界面的 patterns、tokens 和 rules，让智能体理解页面应有的观感，而不依赖 Figma exports、JSON schemas 或额外解析工具。仓库收录从真实网站提炼的现成设计文档，覆盖 AI 工具、开发者产品、生产力软件、金融、电商等类别；条目不只描述颜色，还会记录排版、布局、按钮、界面密度和整体气质，例如终端式单色风格、数据密集型仪表盘或电影感暗色首屏。它还明确区分 AGENTS.md 与 DESIGN.md：前者告诉编码智能体怎样构建项目，后者约束项目应该呈现怎样的视觉与体验，因此可以在生成多个页面时持续维持一致的设计语言。"
     },
     "Wei-Shaw/sub2api": {
       "analysis_source": "4d96a58ed30dc29ed92d209edb9235c3c7311beb14dc8ebe2908eb5bad4cbb50",
@@ -728,8 +734,8 @@
     "affaan-m/ECC": {
       "source": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "zh": "面向多种编码智能体的性能优化系统，涵盖技能、记忆、安全与研究。",
-      "analysis_source": "86ff702c6520a1e6661b05ba0751b530f16c4422f093959640216f3dee56beba",
-      "analysis_zh": "ECC 把编码智能体常靠提示词临时约束的工程流程，固化为可重复安装的协作系统：先规划，再实现，以测试验证改动，从新上下文复审结果，并把反复奏效的方法沉淀为技能与工作流。仓库提供 71 agents、313 skills 和 98 commands，覆盖规划、架构、安全、构建修复、TDD、研究、文档与运维；Hooks and memory 负责运行时约束、会话摘要、持续学习和上下文控制，AgentShield 则扫描提示词、钩子、MCP 配置、权限、密钥及智能体文件。Claude Code 的推荐入口是 npx ecc-universal@2.2.3 setup，向导会盘点官方 marketplace 和现有安装范围，再让用户选择 Global user、project 或 local 作用域及钩子配置。多智能体向导还能在一次预检后配置 Claude Code、Codex 和 Kimi Code，但各适配器并非功能完全相同：Codex 走原生插件生命周期，Kimi Code 只管理项目内文件，不代配模型、认证或钩子。安装来源应限定在官方仓库、npm 包、marketplace、ecc@ecc 插件及官网，避免未经维护的镜像。"
+      "analysis_source": "3ecea23ba8f29443d84323c09026c3ff2d29a0a1aa6c9f2a46343b37af48ba0d",
+      "analysis_zh": "给编码智能体装上 ECC，相当于把零散提示词升级成一套可持续运转的工程流程：先规划再构建，用测试验证修改，从新的上下文复审结果，记住真正重要的信息，并把反复奏效的方法沉淀为可复用技能与工作流。仓库提供 71 agents、314 skills 和 98 commands，覆盖规划、架构、安全、构建修复、TDD、研究、文档、前端、数据与运维等工作，同时以 hooks and memory 保存会话摘要、控制上下文并进行持续学习，以 AgentShield 扫描提示词、钩子、MCP 配置、权限、密钥和智能体文件。Claude Code 当前获得最完整的支持；Codex 与 Kimi Code 可通过多智能体安装向导配置，Cursor、OpenCode、Gemini 等则使用能力有限的适配器，不能默认功能完全一致。通用引导安装要求 Node.js 18 或更新版本，例如执行 npx ecc-universal@2.2.3 setup；向导会先盘点安装范围并预检选择，最终确认后才写入。Claude Code 用户可在新会话运行 /plugin list，确认 ecc@ecc 已启用；同一安装命令还可用于更新、切换作用域或调整 hook profile，避免再叠加一套完整的手工安装。"
     },
     "agalwood/Motrix": {
       "source": "A full-featured download manager.",
@@ -1038,10 +1044,10 @@
       "analysis_zh": "只需用自然语言描述成片目标，接入的 AI 编码助手便可沿生产管线完成调研、脚本、素材生成、剪辑和最终合成；它不局限于把静态图做成轻微动画，也能从免费库存影像和开放档案建立语料库，检索真实运动镜头、排入时间线并渲染成片。若已有喜欢的 YouTube、Short、Reel、TikTok 或本地视频，可以直接粘贴作为参考：智能体会分析 transcript、节奏、场景、关键帧与风格，返回两到三个差异化概念，明确哪些结构与语气会保留、哪些主题和视觉处理会改变，并在生成资产前给出工具路径、成本估算和样片。制作过程由本地 Backlot 可视化：阶段会依次点亮，脚本以 screenplay 页面出现，素材生成时形成场景卡片，供应商选择与费用也同步展示。Storyboard 不是装饰性预览，而是真正的 approval gate；系统会在渲染前按场景展示 takes、prompts、单项成本与质量评分，并暂停等待用户批准，避免到成片后才发现视觉方向错误。最终结果可由 Remotion、FFmpeg 或 Blender 等工具组合完成，已结束的任务还能通过 REPLAY RUN 按时间戳完整回放。它可配合 Claude Code、Cursor、Copilot、Windsurf 和 Codex，只要助手能够读取文件并运行代码，就能利用仓库内的生产知识与工具推进流程。"
     },
     "career-ops-hq/career-ops": {
-      "source": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
-      "zh": "本地运行的开源 AI 求职助手，支持职位评分、材料定制、面试准备与申请跟踪",
-      "analysis_source": "178e0b9db75c50b6e1c8688389271bc025694f1226cea29f65342b8bbedcae75",
-      "analysis_zh": "把一条职位信息交给 career-ops 后，它会先检查招聘页面是否仍然有效，再结合真实 CV 判断匹配程度；弱匹配会被劝退，达到申请价值时才继续生成针对职位的 CV、求职信和字段答案。它遵循“少投但投得更准”的工作方式，评分低于 4.0/5 时默认不鼓励申请，但用户仍可覆盖结论。生成阶段提供 ATS PDF Generation，并围绕职位要求做公司研究、薪酬研究、个性化策略和 STAR+R 面试准备；contact discovery 会寻找值得联系的招聘经理、招聘人员或团队成员，并起草不超过 300 字符的 LinkedIn 消息。Human-in-the-Loop 是整个流程的边界：工具只准备材料，不会自动提交申请或发送邮件，prepare-application.mjs 不执行 POST，最终阅读、修改和点击 Submit 始终由用户完成。申请数据保留在本机，没有项目自有后端或遥测；CV 只会从本机发送给用户选择的 AI provider。代码还会阻止生成包含原 CV 或资料摘要中不存在的数字与事实的 PDF，但无法判断所有改写，因此成品仍需逐份人工复核。"
+      "source": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
+      "zh": "开源 AI 求职助手，支持职位匹配评分、简历与求职信定制、面试准备和申请跟踪。",
+      "analysis_source": "4b02d934739763c61a9f9a063f4fddf074bea1b5b61b46283be02434b5457fd1",
+      "analysis_zh": "把一条职位信息贴进 career-ops，流程先确认招聘页面是否仍然有效，再依据真实 CV 评估匹配程度；弱匹配会得到不申请的建议，值得投入的岗位则继续生成定制 CV、求职信、表单回答、公司研究、联系人信息和面试准备。首次启动通过对话了解经历、目标与明确拒绝的条件，不要求手工配置；使用一段时间后，它还能从连续受挫的申请中指出能力缺口。所有申请记录留在本机，简历只会交给用户选择的 AI provider，系统没有 telemetry 或自有 backend。Human-in-the-Loop 是贯穿全程的边界：它可以为字段起草答案、生成 ATS-readable CVs、准备不超过 300 字符的 LinkedIn 消息，也能展示申请操作计划，但不会自动提交申请、发送邮件或替用户点击。评分低于 4.0/5 时它会劝退，不过允许人工覆盖；生成内容只能重述已有经历，不应虚构事实，代码会拦截部分来源不明的数字或陈述，但 README 仍要求发送前逐份审阅。"
     },
     "cathrynlavery/diagram-design": {
       "source": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
@@ -1062,8 +1068,8 @@
     "cheaper-inference/OmniRoute": {
       "source": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
       "zh": "免费 MIT AI 网关，以单一端点接入 375 家提供商和 1,400 多个模型。",
-      "analysis_source": "15e01f21b96f6fbc8eff28ab9089ac37dfaceadaf81b769e8860541002cbb7fc",
-      "analysis_zh": "OmniRoute 试图把分散在大量模型服务商中的账户、凭据、免费额度和速率限制收拢到一个网关里：安装后连接自己有资格使用的 provider，再让客户端通过 one endpoint 发起请求。它不会直接赠送 README 标出的月度 token 数量，而是汇总第三方 free tiers，并按 shared pool 去重；需要区域身份验证的额度会单独展示，统计结果可在 /dashboard/free-tiers 查看，并每两周重新审计。路由层提供 Quota-aware scheduling 和 Quota-Share，可结合实时 quota telemetry 选择仍有可用额度的路径；新安装若没有合格目标，auto 路由并不会凭空工作，标记为 tos: avoid 的 provider 也默认排除在自动路由之外。除常规网关外，当前版本还给出 serve --headless、release channels 和 /v1/models/query 等能力，并提供 npm 与 Docker 分发方式。README 也强调其协议适配范围，包括 Chat Completions、Anthropic-compatible wire format、OpenAI-compatible path、原生 /v1/responses、vision 与 tool calling，因此 Claude Code、Codex 等工具可以在同一入口背后切换不同模型或服务来源，而各 provider 自己的限额、可用性和条款仍然分别生效。"
+      "analysis_source": "4a98fa035b1ad2938c7fd4a0555cc0f01f3a65a0ef15077962f62c9b9c03604d",
+      "analysis_zh": "把多个第三方模型账户接到 OmniRoute 后，调用方只需连接 one endpoint，路由层便可在符合条件的 provider 与模型之间分配请求，免去逐个适配 SDK 和限额的工作。它会整理 free tier 条目、按共享额度池去重，并把重新审计后的结果展示在 /dashboard/free-tiers；README 明确说明 1.62B Tokens / Month 是各家第三方免费额度的估算汇总，并非 OmniRoute 直接赠送的 token。Quota-aware scheduling 会结合可用额度调度，quota telemetry 则提供实时观察；模型可通过 /v1/models/query 发现，vision、audio、video 也进入 Modality Bridge。部署形式既有 npm 与 Docker，也支持 serve --headless，方便把网关作为无界面服务运行。初装后仍需自行连接可用 provider，且自动路由只会采用 eligible route；标记为 tos: avoid 的来源默认被排除，单纯添加账户不会改变这一规则。除统一路由外，它还提供 兼容 OpenAI 的端点、Chat Completions、tool calling，以及供 CLI 与代理生态使用的 MCP/A2A 接入。"
     },
     "checkstyle/checkstyle": {
       "source": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
@@ -1122,8 +1128,8 @@
     "colbymchenry/codegraph": {
       "source": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
       "zh": "全本地预索引代码知识图谱，随代码变更自动同步并节省调用",
-      "analysis_source": "8d49b07666c705e0e9e9bffe29e55fb2fbe8918447640e58a68336b033d00903",
-      "analysis_zh": "CodeGraph 预先把代码库中的符号、调用边和依赖关系构造成知识图谱，让 Claude Code、Cursor、Codex CLI、Gemini CLI 等智能体不必逐文件反复 grep、glob 和 Read，就能一次取得相关源码、符号之间的调用路径以及修改的 blast radius。安装 CLI 后还要单独运行连接程序，把 CodeGraph MCP server 写入所用智能体的配置；随后在每个项目执行 codegraph init，它会创建本地 .codegraph/ 目录并立即生成完整图。默认开启 Auto sync，文件新增、修改或删除时图都会自动更新，无需手动重复索引，数据处理保持 100% local。升级可直接运行 codegraph upgrade，它会识别 bundle、npm 或 npx 等原安装方式并原地更新。README 强调这种预索引方式减少的是发现代码结构所需的工具调用与处理量，并给出七个仓库上的成本和 token 测量；同时坦率指出，单次返回的密集原文会持续留在上下文中，因此多轮会话结束时的驻留检索上下文可能反而更大。卸载程序会移除已配置智能体中的 MCP、指令和权限，但默认保留项目索引，若要清理则需逐项目运行 codegraph uninit。"
+      "analysis_source": "89861033b0f9c239da2c8ed64914b556216ee9d96355ada16ca203b097f163ed",
+      "analysis_zh": "CodeGraph 先把代码库中的符号、调用边和依赖关系构造成全本地知识图谱，再让 Claude Code、Cursor、Codex 等代理通过 MCP 一次取得相关源码、跨符号调用路径和修改影响范围，避免逐文件反复 grep、glob 与 Read。安装 CLI 后还需单独连接代理；随后在每个仓库执行 codegraph init，它会创建 .codegraph/ 并立即建立完整图谱。默认开启 Auto sync，文件新增、修改或删除时索引都会随之更新，无需重复同步。其 Rust 内核对支持语言进行结构提取和跨文件解析，不要求逐语言配置。README 同时明确区分吞吐量和上下文占用：2026 年 8 月的七仓库测试中平均成本低 44%、处理 token 少 62%，但密集、原样返回的检索结果会长期留在会话里，多轮使用时驻留上下文反而约多 80%。卸载命令可移除代理配置与 CLI，却会保留各项目的 .codegraph/；若连索引也要删除，应在对应仓库运行 codegraph uninit。"
     },
     "colinhacks/zod": {
       "source": "TypeScript-first schema validation with static type inference",
@@ -1334,14 +1340,14 @@
     "f/prompts.chat": {
       "source": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
       "zh": "免费开源的社区提示词分享、发现与收藏平台，支持隐私自托管。",
-      "analysis_source": "475675ac7d91075cce345d3d072462044e4c3e4cc159d6957145279257c1f5bf",
-      "analysis_zh": "从最初的 Awesome ChatGPT Prompts 演变而来，prompts.chat 汇集并整理可用于 ChatGPT、Claude、Gemini、Llama、Mistral 等现代 AI 助手的提示词，用户既能浏览社区内容，也能提交新提示词并让数据自动同步到仓库。站点不只提供提示词库，还包含 The Interactive Book of Prompting，以 25 个以上章节讲解从基础方法到 chain of thought reasoning、few shot learning 和 AI agents 等进阶主题；Prompting for Kids 则用谜题与故事组成游戏化学习体验，帮助 8 至 14 岁儿童练习与 AI 沟通。组织若希望保留数据隐私，可以 Self Hosting 私有部署，并通过设置向导配置品牌、主题、身份验证和功能，推荐使用 PostgreSQL；部署后还可通过 CLI、Claude Code Plugin 或 MCP Server 接入现有 AI 工具，形成可浏览、可学习、可贡献且可私有化的提示词平台。"
+      "analysis_source": "495a61140fa66582700e757d14ccf1e907cb5de096a60cd9810a79dbe024b226",
+      "analysis_zh": "从 2022 年 12 月开始积累的 prompts.chat，如今将社区提示词、教学内容和私有部署能力放在同一套平台中，提示词可直接用于 ChatGPT、Claude、Gemini、Llama、Mistral 等现代聊天模型。用户可以在线浏览和收藏，贡献内容则提交到指定入口并自动同步至仓库中的 prompts.csv、PROMPTS.md 等数据格式。想系统学习的人可进入 Interactive Book of Prompting，通过 29 个以上章节了解基础写法、few shot learning、chain of thought reasoning 与 AI agents；8 至 14 岁儿童另有 Prompting for Kids，以谜题和故事组成游戏式学习过程。组织也能 Self Hosting 私有提示词库，通过设置向导配置品牌、主题、功能以及 GitHub、Google 或 Azure AD 身份验证，推荐数据库为 PostgreSQL。除网页外，它还提供 CLI、Claude Code Plugin 和 MCP Server 集成，可直接接入 AI 工具。授权按内容拆分：源代码、站点原创内容及互动书采用项目声明的许可证，用户提交的提示词和数据则贡献至 public domain。"
     },
     "farion1231/cc-switch": {
-      "source": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-      "zh": "面向多款编程智能体的跨平台一体化桌面助手，官网为 ccswitch.io。",
-      "analysis_source": "e28ced117f96ed82a2397864037a0e24fafac98ed4d0f8f2330687c98962c30d",
-      "analysis_zh": "在同时使用多种 AI 编程工具时，CC Switch 把原本散落在 JSON、TOML、YAML 文件里的配置集中到桌面界面中管理。它覆盖 Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build、OpenCode、OpenClaw、Hermes Agent、Pi、MiniMax Code、Kimi Code 与 Oh My Pi，主要操作是为这些工具保存并一键切换 API providers，同时统一整理 MCP、Skills 和 Prompts，省去逐个寻找配置文件并手工修改的过程。README 还特别声明 ccswitch.io 是 The Only Official Website，用来区分正式发布渠道。整体定位更接近多智能体工具链的控制台：用户可以在一处维护供应商连接和可复用资源，再将配置应用到日常使用的不同客户端，而不是替代这些客户端本身。"
+      "source": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+      "zh": "面向 Claude Code、Codex、OpenCode 等的跨平台桌面一体化助手。",
+      "analysis_source": "65f4f1c161ae7625f075362e20767c16b9c00e40407aa32945a448e96e0b6243",
+      "analysis_zh": "当 Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build、OpenCode 等工具各自保存一套配置时，CC Switch 用桌面界面把切换与维护集中起来。它最直接的用途是 Switch API providers in one click：不必反复打开不同工具的配置文件，就能为多个编码代理更换 API provider；同时把 MCP、Skills 和 Prompts 放到同一处管理，减少手工同步多份设置的麻烦。README 特别强调不再手动编辑 JSON / TOML / YAML config files，这也概括了它的产品取向——将容易写错、路径各异的文本配置转成统一的可视化操作。支持范围还包括 OpenClaw、Hermes Agent、Pi、MiniMax Code、Kimi Code 与 Oh My Pi，因此它不是绑定某一家模型或单一客户端的启动器，而是一层跨工具的配置管理入口。项目同时明确 ccswitch.io 是 The Only Official Website，寻找安装包或产品信息时可据此辨别来源。"
     },
     "feder-cr/git-ai": {
       "source": "Git designed for AI agents.",
@@ -1522,8 +1528,8 @@
     "heygen-com/hyperframes": {
       "source": "Write HTML. Render video. Built for agents.",
       "zh": "面向智能体，通过编写 HTML 渲染视频。",
-      "analysis_source": "bd58dfe2181ee5c821072b050c9c8c2f932b1578bcdee7e46c288aec75743502",
-      "analysis_zh": "把 HTML、CSS、媒体素材和可定位到任意时间点的动画组合起来，HyperFrames 会将其确定性地渲染为 MP4，而不是要求创作者进入传统视频编辑器。使用编码智能体时，可先执行 npx hyperframes skills update，再描述诸如“制作十秒产品介绍、标题淡入、背景视频和轻音乐”的需求；/hyperframes 会引导智能体依次规划、编写有效 HTML、接入 seekable animations、添加媒体、检查、预览并渲染。手动流程则通过 CLI 完成脚手架、帧检查、时间线编辑、本地或云端渲染和发布，环境要求 Node.js 22+ 与 FFmpeg。素材层面，/hyperframes-registry 提供约 450 个可编辑源码块，涵盖转场、字幕、动态图表、地图、3D 和镜头运动；/media-use 负责音乐、音效、图像、配音、头像与混音。核心技能之外，/figma 可把设计资产和品牌 token 带入视频，/slideshow 产出可导航演示文稿，/remotion-to-hyperframes 则用于迁移既有视频代码并逐帧验证。"
+      "analysis_source": "431e9143ffdf20b703629e5a181476c03d210d9f1b8a974ce691fb6b00184195",
+      "analysis_zh": "视频在 HyperFrames 中以 HTML、CSS、媒体素材和可定位到任意时间点的动画来描述，再确定性渲染为 MP4，因此画面既能像网页一样编写，也能逐帧检查和重复生成。最短的智能体工作流是先运行 npx hyperframes skills update，随后在 Claude Code、Codex、Cursor 或 Gemini CLI 中调用 /hyperframes 并描述成片，例如十秒产品介绍、淡入标题、背景视频与轻音乐。技能会引导智能体完成策划、编写合法 HTML、连接可 seek 的动画、加入媒体、lint、预览和渲染，而 /hyperframes-cli 进一步覆盖脚手架、帧检查、时间线编辑、本地或云端渲染、发布及历史记录。默认 Core Skills 还包含 /hyperframes-registry，可从约 450 个可编辑源码块中选用转场、字幕、动态图形、图表、地图、三维效果和镜头运动，以及 /media-use 来准备音乐、音效、图片、配音、头像视频和调色素材；Figma、幻灯片及 Remotion 迁移则按需安装。手动使用命令行需要 Node.js 22+ 与 FFmpeg，既可作为本地创作工具，也能充当托管式视频编辑流程的渲染内核。"
     },
     "hmjz100/LinkSwift": {
       "analysis_source": "d660fca57bcad3576b923a153dfef76d102a19e5303f4e7cbfa81d1cc30a37db",
@@ -1728,8 +1734,8 @@
     "lightpanda-io/browser": {
       "source": "Lightpanda: the headless browser designed for AI and automation",
       "zh": "专为 AI 与自动化设计的无头浏览器",
-      "analysis_source": "f5f46b9dce6d0f0dc90744664d97413bfd5c404ecc0e23fc3b1a0bc7de7c448c",
-      "analysis_zh": "Lightpanda Browser 没有沿用 Chromium 或 WebKit，而是以 Zig 从头实现一套供自动化与 AI 智能体使用的无头浏览器。README 在 933 个真实网页的测试中给出的结果是：处理 100 页时内存峰值约 123MB、执行时间约 5 秒，相比 Headless Chrome 的 2GB 与 46 秒更轻更快。拿到二进制后，可直接用 dump markdown、dump png 或 dump pdf 导出页面，也能启动端口 9222 的 CDP 服务，让 Puppeteer、Playwright 等客户端通过 browserWSEndpoint 接入；Webdriver Bidi 也可单独或与 CDP 同时启用。lightpanda agent 接受自然语言和斜杠命令，在浏览器进程内完成导航、点击、表单填写与结构化提取，并可用 /save 导出确定性的 JavaScript，再由 lightpanda run 重放，生产运行时不必继续调用模型。内置 MCP 既支持 stdio，也支持 HTTP；后者依靠 Mcp Session Id 为多个智能体隔离或共享页面、Cookie 与内存。当前实现覆盖 DOM、JavaScript、Fetch、XHR、代理、网络拦截、Adblocker 等能力，默认遥测可通过 LIGHTPANDA DISABLE TELEMETRY=true 关闭。"
+      "analysis_source": "02b005a2029f26978ee702e83c10142b3c2a266015c165ee66307a04770e04f2",
+      "analysis_zh": "Lightpanda Browser 从浏览器内核开始用 Zig 重新编写，并非 Chromium 分支或 WebKit 补丁，目标是让 AI 代理和自动化任务以更少资源处理网页。README 的基准测试在 AWS EC2 m5.large 上请求 933 个真实页面：处理 100 页时峰值内存为 123MB，执行时间为 5 秒，相比 Headless Chrome 的 2GB 和 46 秒分别少 16 倍、快 9 倍。它既能通过 --dump markdown、--dump png、--dump pdf 抓取页面内容，也能启动 CDP 或 WebDriver BiDi 服务，供 Puppeteer、Playwright 等客户端连接。lightpanda agent 支持用自然语言或斜杠命令导航、点击、填写表单及提取结构化数据，还可用 /save 导出确定性的 JavaScript，再由 lightpanda run 重放，使生产运行不再依赖模型。内置 MCP JSON-RPC 2.0 服务支持 stdio 与 HTTP；HTTP 模式可用 Mcp-Session-Id 隔离或共享浏览上下文。Linux 二进制依赖 glibc，Windows 需借助 WSL2，默认遥测可通过 专用的关闭遥测环境变量 关闭。"
     },
     "lightseekorg/tokenspeed": {
       "source": "TokenSpeed is a speed-of-light LLM inference engine.",
@@ -1997,7 +2003,7 @@
       "source": "Self-hosted AI workspace.",
       "zh": "可自托管的 AI 工作空间。",
       "analysis_source": "c4ffa2fa0a93b3ddbe8fa80b131b9d12b9b4f0719c1fd239c149ae44c7e51ebe",
-      "analysis_zh": "把聊天、代理、资料研究和个人信息管理集中在一处，是 Odysseus 的主要使用体验。启动容器并等待健康检查通过后，访问 http://localhost:7011，首次管理员密码可从 docker compose logs odysseus 中取得；官方多架构镜像由 CI 发布，正式部署时可固定不可变构建标签，避免移动标签带来的版本漂移。工作区中的 Chat + Agents 能连接本地或 API 模型，并调用 tools、MCP、files、shell、skills 与 memory；Deep Research 会执行多步网络检索、阅读来源并生成报告，Compare 用盲测式并排比较模型并综合结果。Documents 侧重写作，支持 AI 修改与建议，以及 Markdown、HTML、CSV 和代码高亮；Email 通过 IMAP/SMTP 管理收件箱、标签、摘要、提醒和回复草稿，Notes, Tasks + Calendar 则把待办、提醒、定时代理任务和 CalDAV sync 串在一起。Cookbook 还会依据硬件给出模型推荐、下载和服务方式。由于本地工具权限较强，网络可访问的部署应保持 AUTH ENABLED=true，并让 LOCALHOST BYPASS=false，同时不要直接暴露原始模型或服务端口。"
+      "analysis_zh": "把聊天、代理、资料研究和个人信息管理集中在一处，是 Odysseus 的主要使用体验。启动容器并等待健康检查通过后，访问 http://localhost:7011，首次管理员密码可从 docker compose logs odysseus 中取得；官方多架构镜像由 CI 发布，正式部署时可固定不可变构建标签，避免移动标签带来的版本漂移。工作区中的 Chat + Agents 能连接本地或 API 模型，并调用 tools、MCP、files、shell、skills 与 memory；Deep Research 会执行多步网络检索、阅读来源并生成报告，Compare 用盲测式并排比较模型并综合结果。Documents 侧重写作，支持 AI 修改与建议，以及 Markdown、HTML、CSV 和代码高亮；Email 通过 IMAP/SMTP 管理收件箱、标签、摘要、提醒和回复草稿，Notes, Tasks + Calendar 则把待办、提醒、定时代理任务和 CalDAV sync 串在一起。Cookbook 还会依据硬件给出模型推荐、下载和服务方式。由于本地工具权限较强，网络可访问的部署应保持身份验证开启，并关闭本地主机绕过验证，同时不要直接暴露原始模型或服务端口。"
     },
     "ollama/ollama": {
       "source": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
@@ -2105,11 +2111,17 @@
       "analysis_source": "701519dd61c9d3599c3c39776261409e02da4f4f432f0f2f28c7e85a00bbcb46",
       "analysis_zh": "给编程智能体一句“Make it pop”往往只会得到重复的渐变、圆角卡片和安全排版，Impeccable 因而把设计意图拆成可明确调用的词汇与检查流程。项目根目录执行 $impeccable init 后，它会读取代码、询问无法推断的产品目标与约束，并写入 PRODUCT.md；再用 /impeccable document 把现有视觉系统记录到 DESIGN.md，后续修改便有产品和品牌上下文。实际迭代可以把动作与目标写得很窄，例如用 bolder 强化定价卡片、typeset 修正字体层级、distill 删除多余内容，或直接要求重做某个 hero。critique 按可用性启发式评分并排列修复优先级，audit 则检查无障碍、性能、主题和响应式表现。内置检测器以 62 条确定性规则识别常见 AI 设计痕迹，无需 LLM 或 API key；npx impeccable detect http://localhost:5173 还能扫描渲染页面。/impeccable live 会在本地开发服务器上覆盖交互层，选中元素后轮换变体，接受的结果直接写回源码，适配 Vite、Next、SvelteKit、Astro、Nuxt 与纯 HTML。它尤其强调从单个组件或区块开始，让每轮审查足够聚焦。"
     },
+    "peach-mitao/peach": {
+      "source": "Peach: Local-first video metadata scraper and media manager.",
+      "zh": "本地优先的视频元数据抓取与媒体管理工具。",
+      "analysis_source": "3cae4f0c4371b463c663bf3391e44730d2674b861414f4e5d64ba7880d218977",
+      "analysis_zh": "Peach 把视频文件、人物资料、观看进度和整理结果留在本地，同时将分散于本机磁盘、SMB、已挂载云存储与 PikPak 的内容放进同一个媒体库。扫描所选目录后，它会识别视频编号、读取 NFO，并从多个来源补齐标题、表演者、工作室和封面，同时保留用户已经做过的编辑。播放既可走网页播放器，也可调用外部播放器，支持字幕、倍速、旋转、断点续播与时间线预览；资料管理则覆盖标签、重复项、不同版本和分段。除了浏览已有收藏，还能跟踪表演者或创作者更新、维护 want list，并按视频编号或 magnet link 发起云端下载，完成后再归入媒体库。Windows x64、macOS 与 Docker / NAS 均有对应使用方式，源码运行要求 Git、uv 和 Python 3.14+。Peach 不提供视频资源或付费内容访问，公开反馈问题时也要求使用 demo data、遮去私人信息，不上传视频或数据库。"
+    },
     "pengchujin/aerial-tv": {
       "source": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
       "zh": "面向国产电视、采用 tvOS 风格的无广告开源 Android TV 桌面",
-      "analysis_source": "a7aebe0d14ae37246d3f5070ec5e89bc79cfbb793c43be0e0a4947bc53de88c3",
-      "analysis_zh": "Aerial 把小米、TCL、创维、索尼等国产电视的首页换成接近 Apple TV 的简洁布局：常用 App 位于屏幕下方的玻璃底板，向下可查看全部 App，连系统隐藏的应用也能找到。长按 OK 键即可移动、隐藏、卸载或归入文件夹，还能把某个 App 或信号源设为「开机时打开」；HDMI 磁贴可换成 Apple TV、PlayStation、Switch、Xbox 等对应图标。电视上操作不方便时，可以扫码进入手机端，用同样的图标网格排序、改名和添加信号源。右上角的控制中心集中提供网络、音量、亮度及个性化设置，屏保则可播放 114 段航拍影片，并在设备支持时启用 4K 或杜比视界。安装不要求 root，也不删除系统桌面，通常通过 ADB 调试配合 install.sh 或电脑端 Agent 完成；仅用 U 盘安装 APK 时，部分国产固件仍需额外设置才能接管主页键。其桌面守护利用无障碍服务判断前台窗口，并借助通知监听在应用被清理后重新拉起，但不同品牌固件的限制明显，安装前应对照 README 中的机型表。Android 4.0–4.4 另有 Aerial Lite，保留文件夹、控制中心和航拍屏保等功能，但缺少桌面守护、航拍壁纸、信号源磁贴及应用内升级。"
+      "analysis_source": "5b4600961c0691d8343749ccc8f89e4a065a77e9f5de96e62b96044d200bd3d1",
+      "analysis_zh": "Aerial 把国产电视常见的广告和推荐流桌面替换成接近 Apple TV 的简洁界面：主屏下方是玻璃底板上的常用应用，继续向下可查看全部应用，原本隐藏的小米「应用中心」「米家」等系统应用也能出现。长按 OK 键或菜单键即可移动、隐藏、卸载、建立文件夹，或指定某个应用和信号源在开机、待机唤醒后自动打开；HDMI 磁贴还能改成 Apple TV、PlayStation、Switch、Xbox 或电脑图标。扫码后可在手机上拖动同样的图标网格、改名、换图标和添加信号源，电视端的控制中心则集中提供网络、音量、亮度、设置和个性化入口。屏保内置 114 段航拍影片，设备允许时可播放 4K 或杜比视界，也可换成照片、时钟及手机上传的视频。安装不要求 root，也不会移除系统桌面，但多数国产固件需要通过 ADB 完成主页接管；Android 11+ 的无线调试设备可能先要配对，再执行 adb tcpip 5555。Aerial 的守护机制会在原桌面出现时切回自身，并借助通知监听在被系统清理后重新唤起。Android 4.0–4.4 另有测试版 Aerial Lite，保留文件夹、控制中心、屏保和手机配置页，但缺少无障碍桌面守护、航拍壁纸、信号源磁贴及应用内升级。"
     },
     "petergyang/no-ai-slop": {
       "source": "Removes 20+ patterns of AI slop from any piece of writing.",
@@ -2156,8 +2168,8 @@
     "public-apis/public-apis": {
       "source": "A collective list of free APIs",
       "zh": "免费 API 汇总列表",
-      "analysis_source": "90d58b64b4bca5042ed5fb15061e478ed2cdda97f33fbd8f70ddeece9d6fd121",
-      "analysis_zh": "想为产品寻找现成数据源时，可以从这份由社区人工维护的目录按领域浏览，而不必逐个搜索服务商网站。Public APIs 收录 50 多个分类、2000 多个免费 API，表格会列出用途、Auth、HTTPS 和 CORS 等信息，便于判断是否需要密钥以及能否直接从浏览器调用；Animals 等分类下则进一步罗列具体接口及简短说明。仓库如今也单列 MCP Servers：这些服务让 AI agents 把 API 当作工具使用，因此条目更关注 stdio 或 HTTP 等 Transport 以及安装位置，而不是传统接口表的 HTTPS / CORS。配套网站把 README 内容重建成可搜索目录，并提供在线试用、每日健康与响应速度检查，以及 JSON formatter、JWT decoder、cURL converter 等辅助工具。目录本身依赖社区持续整理，使用者既能从索引挑选接口，也能参与补充和维护。"
+      "analysis_source": "d98aad1736b17018a3fe3cbea8608086e0dd7da872780edfe448c334aec13351",
+      "analysis_zh": "寻找可直接试验的数据接口时，这份由社区人工维护的清单可以按领域逐项浏览，而不是从零搜索供应商。README 的主体以分类表格组织资源，每条通常展示 API Description、Auth、HTTPS 和 CORS，Animals 等目录下可以快速比较是否需要 apiKey、能否通过 HTTPS 调用以及跨域支持情况；内容横跨动物、天气、航班、汇率、股票等众多用途。除传统 HTTP API 外，仓库还单列 MCP Servers，说明 transport、认证方式与安装入口，方便 Claude、Cursor、VS Code 等客户端把服务作为工具调用。若更习惯网页，官方可搜索站点同步仓库内容，提供 2,000+ free APIs、50+ categories，并对接口进行日常测试，还附带无需注册即可调用的项目、当前可用性状态以及 JSON formatter、JWT decoder、cURL converter 等工具。清单本身依赖社区持续补充和维护，README 也提供 Get Involved 入口，适合作为发现与初筛资源的索引。"
     },
     "radixark/miles": {
       "source": "Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime.",
@@ -2264,8 +2276,8 @@
     "seedds/nxnative": {
       "source": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
       "zh": "让 Switch 游戏原生运行于 iPhone、iPad 和 Mac，并将 NSP 文件夹转为未签名 IPA。",
-      "analysis_source": "4b65b75028ba2e311fcfeac8bafb12beaf806535f1aca513e31348895271de60",
-      "analysis_zh": "nxnative 把用户自己的 Nintendo Switch 游戏文件与 prod.keys 转成可侧载的 IPA，让游戏代码直接运行在 Apple 芯片上，并通过 Metal 重建 Switch 图形；它并非传统 emulator，仓库也不包含任何游戏内容。命令行流程从准备包含本体、更新和 DLC 的文件夹开始，可接受 .nsp、.xci、.nsz 或 .xcz，再由脚本完成构建，生成的 IPA 会出现在游戏目录中；首次构建通常耗时 30–60 分钟，所需空闲空间约为游戏大小的两倍再加 10 GB，后续构建会明显加快。若目标是 Mac，可加入 --platform mac-app 生成能从 Finder 打开的应用；iPhone 或 iPad 版本则可通过 AltStore、Sideloadly 或 LiveContainer 安装，并为大型游戏开启 Increased Memory Limit。安装包过大时可改用 --romfs separate，把游戏文件另行复制到设备。其原生执行链继承并扩展了 NSO rewriter、Horizon host、NVN-on-Metal layer 和 iOS app shell，同时还利用 Ryujinx 的 shader translator 等既有成果；实际兼容性按游戏、平台及更新版本记录，未列入支持范围的游戏仍会尝试打包，但生成物可能无法启动。"
+      "analysis_source": "838120c99acf81d90e32b9c0964709cb88ccddf7f94621165faf03846c70d5c7",
+      "analysis_zh": "把自己拥有的 Switch 游戏文件与 prod.keys 放进构建流程后，nxnative 会将游戏目录打包成可侧载的未签名 IPA，或者生成能从 Finder 打开的 Mac 应用。它并非传统模拟器：游戏自身代码直接运行在 Apple 芯片上，NSO 重写器负责处理可执行代码，Horizon 主机层补齐系统环境，Switch 的 NVN 图形调用则重建到 Metal。命令行流程先在符合要求的 Mac 上安装工具，再把游戏本体以及可选更新、DLC 的 .nsp、.xci、.nsz 或 .xcz 文件放入同一目录，最后以该目录和 prod.keys 执行构建；若加入 --platform mac-app，产物会改为 Mac 应用。首次构建通常耗时较长，并需要约为游戏体积两倍再加 10 GB 的空闲空间，后续构建会更快。IPA 可通过 AltStore、Sideloadly 或 LiveContainer 安装，大型游戏可开启 Increased Memory Limit；若安装包过大，还能使用 --romfs separate，把游戏资源另行复制到设备。当前移动端要求较新的 iPhone、iPad 和系统版本，因为游戏纹理采用 BC 压缩，README 也按具体游戏、平台、更新版本与已知问题维护实测清单，未列入支持范围的游戏只会尝试猜测配置并打包，不保证能够启动。"
     },
     "semantica-agi/semantica": {
       "source": "Graph-Native Infrastructure for Context and Accountable AI Systems",
@@ -2306,8 +2318,8 @@
     "simbasjungles/free-my-tv": {
       "source": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
       "zh": "适用于 Google TV、LG webOS 和三星 Tizen 的快速无广告主屏幕，可一键撤销",
-      "analysis_source": "477b2f671a0252663cd497ba7a535efa9b252b930670e676362ed7bd049f86cb",
-      "analysis_zh": "Free My TV 用一块干净、快速的主屏幕替换 Google TV、Android TV、LG webOS 和 Samsung Tizen 原有的广告入口，却不卸载系统组件，也不要求 root，需要时按一个按钮就能回到 factory home screen。首页把用户选择并排序的应用放在玻璃质感的 shelf 上，每小时刷新最多六个 trending 推荐，而且只从已经安装的应用及用户指定的流媒体服务中选取；Movies、Shows 各有标签页，Google TV 还可将 Continue Watching 放在顶部，按 OK 便回到原应用继续播放。Home Settings 集中管理城市、温度、主题、推荐数量、天气、市场价格、应用顺序和 screensaver；TMDB key 可在电视上输入，也可扫描 QR code 后用手机粘贴。界面会依据所在地真实日落在明暗主题间切换，屏保既能显示影片海报和大时钟，也能在 Google TV 或 Android TV 上轮播最多 100 张个人照片。Android 端还能显示 Now Playing、网络与蓝牙等状态，并支持鼠标或飞鼠遥控器。Google TV 和 Android TV 安装时需在电视开启 developer mode 与 USB debugging，让同一 Wi‑Fi 下的电脑通过 adb 安装 APK；也可以让 AI 编程助手下载源码、准备工具、构建并推送到指定电视 IP。发布版每周检查更新，只有下载来自仓库 releases、大小与 SHA-256 匹配、版本更新且签名正确时才进入系统安装流程。"
+      "analysis_source": "664e1c2e157b70ac0dcd4dfa3dd81c19f39d0f63564372fee6a28c177fb46e31",
+      "analysis_zh": "把电视开机后的广告、赞助推荐和自动播放宣传换成自己的应用与内容，是 Free My TV 的直接体验：常用流媒体应用排列在玻璃质感的 shelf 上，每小时展示三个、最多六个来自已安装应用和所选服务的热门或新近内容，电影与剧集另有独立标签。Google TV 和 Android TV 还能把 Continue Watching 放到顶部，保留进度并按 OK 回到原应用；天气、日出日落、加密货币价格、Now Playing、状态图标和个人照片也可按需启用。界面会依据城市日落时间在明暗主题间切换，配套 screensaver 可展示推荐海报、照片或带天气的大时钟，并针对 OLED 设计缓慢漂移。设置均可在电视上完成，Google TV 或 Android TV 的 TMDB key 还能通过 QR code 从手机输入。安装不需要 root，也不会卸载原系统组件；在 Android 8 以上电视开启 USB debugging 后，可由电脑使用 adb 安装 APK，再到 Home Screen 选择 Free My TV。若想恢复，One button brings back the factory home screen；更新包还会校验来源、大小、SHA-256 和项目签名。"
     },
     "sindresorhus/awesome": {
       "source": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
@@ -2498,8 +2510,8 @@
     "tt-a1i/archify": {
       "source": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
       "zh": "将想法、计划或代码库转为精美交互图，适用于 Claude Code、Codex 等",
-      "analysis_source": "beb919eeb0f10429b9b1a5db20b951e1d0e8bec3579336fd8e21d1c71d25849f",
-      "analysis_zh": "只需向 Cursor、Claude Code、Codex CLI 或 OpenCode 描述一个想法、问题、计划或代码仓库，Archify 就会生成可探索、定制和分享的 interactive HTML；初稿完成后还能继续要求“Add authentication”“Highlight the cache miss path”或“Switch to the light theme”，让智能体按指令修改图的内容与呈现。它既能把仓库映射成 source backed architecture diagram，让节点链接回具体源码并沿路径追踪组件关系，也能把问题整理成一页 explainer：先给结论，再按问题拆成面板，在图旁配合步骤、表格、图表和代码。仓库证据会固定到特定 commit，编号来源和 source card 便于检查结论；点击节点可进入完整交互视图，也能针对某个面板继续追问并只修订该部分。最终产物是一个 standalone HTML，可切换四种样式及明暗主题，导出 PNG、WebP、JPG 长图或打印为 PDF。它不要求必须存在代码仓库，因此同样能承载旅行路线、学习地图、工作流、合同审查和事故复盘等视觉化内容。"
+      "analysis_source": "064dc7820c566b472e7a801e3b1771bf5f0895a4b8cf2482fb09d823fc5cf078",
+      "analysis_zh": "只需用一句话向 AI agent 描述想法、问题或计划，Archify 就会生成可探索、定制和分享的 interactive HTML；它既能从零整理旅行路线、学习地图，也能读取真实仓库，绘制带源码依据的架构图。生成后仍可继续用自然语言迭代，例如“Add authentication”“Highlight the cache miss path”或“Switch to the light theme”，让代理补充节点、突出调用路径或切换主题。除了单张图，它还能把回答组织成 explainer：先给结论，再让每个 panel 回答一个问题，并把表格、步骤、图表、代码和图示放在对应上下文中。图中节点可展开完整交互视图，引用采用编号来源，仓库摘录会固定到具体 commit，便于检查结论从何而来。最终成果是独立的 one HTML file，提供四种样式及明暗主题，也能导出 PNG、WebP、JPG 长图或打印成 PDF；若只想修订局部，还可针对某个 panel 追问，让代理仅更新那一部分。"
     },
     "tw93/Mole": {
       "source": "🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.",
@@ -2682,14 +2694,14 @@
     "xerj-org/xerj": {
       "source": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
       "zh": "面向机器人和智能体的 AI 搜索引擎与 MCP 服务器",
-      "analysis_source": "6d9b460b01a911b2cdae61d04dd26cb078231005e8dea7914075cf38a6d30c48",
-      "analysis_zh": "与其让编码智能体逐个打开文件或用 grep 把整份源码塞进上下文，XERJ 让它先检索真正相关的代码片段，并返回带引用的答案。一个本地 Rust binary 就能自动索引代码、文档、规范、日志、JSONL/CSV、PDF 和 SQLite，提供 BM25 full-text、vector 与 hybrid search，同时以 Elasticsearch-compatible API 和 MCP server 接入 Claude Code、Cursor 或其他 MCP 客户端。README 最强调 reference coding：把与当前问题最接近的开源仓库下载并建立索引，让智能体在动手前检索别人如何解决同类问题；其受控实验中，XERJ 与 grep 方案同为 16/16 解题率，但输出 token 少 2.7 倍。xerj autoindex 会嗅探目录内的数据类型，为发现的每组数据建立索引，源码则通过 tree-sitter 保留符号和行号；多组问题还能用 xerj batch-search 批量查询。运行时必须谨慎选择 --data-dir，不能把存储目录放进随后将自动索引的树内，否则节点会索引自己的数据；程序也不会自动发现或迁移旧目录。--insecure 会同时关闭 TLS 和 API key auth，因此仅应限定在单用户开发机及 127.0.0.1 边界内，任何能连接端口的调用者都拥有读取和删除全部索引及 memory namespace 的超级用户权限。"
+      "analysis_source": "c18ba6c2588c2955a0cfecc8e579d995074bac057fd6d505820ebc02b84376eb",
+      "analysis_zh": "不再让编码智能体逐文件 grep，是 XERJ 最直接的工作方式：运行一个本地 Rust binary，把代码、文档、规范、日志、JSONL/CSV、PDF 和 SQLite 自动识别并建立索引，查询时只返回相关段落及引用。xerj autoindex 会按发现的数据集创建 typed, queryable indices；代码通过 tree-sitter 保留符号与行号，而不是压成普通文本。检索层同时提供 BM25 全文、vector 和 hybrid search，并放在 兼容 Elasticsearch 的 API 与 MCP server 后面，因此 Claude Code、Cursor 及其他 MCP 客户端可以把它用于 code search、RAG 和 agent memory。README 尤其强调 reference coding：智能体下载与任务相近的开源仓库并索引其实现，再参考已有解法写代码；仓库给出的受控实验中，XERJ 与 grep 方案同为 16/16 完成率，但输出 token 更少，同时也坦承优势主要出现在私有、内部、冷门或模型知识截止日期之后的代码。运行边界同样写得很具体：数据目录不能放进即将自动索引的树内，否则可能索引自身存储；--insecure 会关闭 TLS 与 API key auth，只应在绑定 127.0.0.1 的单用户开发机环境中使用。"
     },
     "xiaoyang111222/cn-math-taxonomy": {
       "source": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 小学英语，课标对齐、人教版，999 知识点、4143 题、自适应诊断",
       "zh": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 小学英语，课标对齐、人教版，999 知识点、4143 题、自适应诊断",
-      "analysis_source": "e5c65f5c591fd0741e90e9e4348d73281b677932c86723e40cf38170cc704e2d",
-      "analysis_zh": "cn-math-taxonomy 把小学至高中的数学、三年级起的英语以及初高中物理整理为可计算的知识图谱，并附带题库与自适应前置诊断。数学答错后，系统可沿先修边从高中或初中一路回溯到具体的小学知识点；英语单独成图，但初中英语会连接小学英语，高中英语主要回指初中英语。物理同样保持独立，所需数学知识记录在 mathLinks 字段中，不计入物理先修边。数据用 topics + dependencies 表达知识点及依赖，并区分 hard 与 soft 关系，可用于检查学习链条、生成诊断路径或研究课程结构。内容范围覆盖人教版数学、人教 PEP 与 Go for it! 英语教材，以及人教版初高中物理，并尝试对齐相应课程标准；README 还逐册记录教材目录的采用来源、已核与待核状态，例如新版九年级下册目录是依据多个第三方来源作出的推定，并非官方原文。仓库明确把当前内容称为 AI 生成的初稿：知识点粒度、掌握标准、诊断题答案以及先修关系都尚未经过一线教师系统审核，高中题和英语题也没有完成盲解。因此它更接近一份公开、可校订的数据底稿，而不能直接被当成已验证的教学标准或正式诊断结论。"
+      "analysis_source": "08edb9691d3b2d61a0546a75684b20e86463d7e64c8a7a855b886f3f738f3a1a",
+      "analysis_zh": "从一道数学错题出发，这套知识图谱可以沿先修边逐级回溯：高中概念可能一路追到初中乃至具体的小学知识点，并配有自适应前置诊断与题库。仓库覆盖小学至高中数学、小学三年级起的英语，以及初高中物理；数学依据人教版与相应课程标准组织，英语单独成图，初中英语会连接小学英语，高中英语主要回连初中英语。物理同样独立建图，涉及的数学通过 mathLinks 记录而不计作先修边；依赖还区分 hard 与 soft，以表达不同强度的前置关系。数据格式可参考 topics + dependencies，并配有课标条目、教材章节和诊断题等信息，既能支撑网页浏览，也便于继续加工知识点关系或学习路径。不过 README 将当前内容明确标为 AI 生成的初稿：知识点拆分、掌握标准、题目答案以及先修关系都尚未经过一线教师审核，部分高中题和英语题也没有做盲解，标注“待核”的课标文字、目录或页码不能当作官方原文。它更适合作为可检查、可纠错的数据底稿，而非未经复核就直接用于正式教学判断。"
     },
     "yanliudesign/mono-color-skill": {
       "source": "One-ink editorial print image skill — warm paper, halftone photography, active negative space, and restrained typography.",
