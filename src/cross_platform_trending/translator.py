@@ -77,10 +77,15 @@ def _chinese_segment(text: str) -> str:
 
 
 def _clean_analysis_text(value: Any) -> str:
+    text = re.sub(
+        r"(?<!\w)(_+)(?=\S)(.+?)(?<=\S)\1(?!\w)",
+        r"\2",
+        str(value or ""),
+    )
     return re.sub(
         r"\s+",
         " ",
-        re.sub(r"[*_`#]+", "", str(value or "")),
+        re.sub(r"[*`#]+", "", text),
     ).strip()
 
 

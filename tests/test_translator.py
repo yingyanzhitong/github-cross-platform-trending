@@ -8,7 +8,11 @@ from subprocess import CompletedProcess
 from typing import Any
 from unittest.mock import patch
 
-from cross_platform_trending.translator import DescriptionTranslator, _valid_analysis
+from cross_platform_trending.translator import (
+    DescriptionTranslator,
+    _valid_analysis,
+    normalize_analysis,
+)
 
 
 ANALYSIS = (
@@ -20,6 +24,20 @@ ANALYSIS = (
     "Rust 工具链和不同系统的打包方式，准备自行编译的人可以直接沿着 README 的安装"
     "章节操作；只想使用成品时，则可从 release 页面选择与系统对应的安装包。"
 )
+
+
+class NormalizeAnalysisTests(unittest.TestCase):
+    def test_preserves_readme_identifiers_while_removing_emphasis(self) -> None:
+        text = (
+            "运行 `gpu_unlock.targets=all`，设置 $DSH_HOME、max_len=8192 和 "
+            "ANYPS5_ENABLE_SPIRV_TOOLS，保留 _重点_ 与 __强调__。"
+        )
+        expected = (
+            "运行 gpu_unlock.targets=all，设置 $DSH_HOME、max_len=8192 和 "
+            "ANYPS5_ENABLE_SPIRV_TOOLS，保留 重点 与 强调。"
+        )
+        self.assertEqual(normalize_analysis(text), expected)
+        self.assertEqual(normalize_analysis(expected), expected)
 
 
 def _software() -> list[dict[str, Any]]:
