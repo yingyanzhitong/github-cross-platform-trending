@@ -7614,8 +7614,289 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-10-31",
+      "latest": "2026-11-01",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-11-01",
+          "generated_at": "2026-11-01T09:08:57+08:00",
+          "discovered_count": 985,
+          "candidate_count": 101,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "pbakaus/impeccable",
+              "trending_rank": 7,
+              "stars_today": 1338
+            },
+            {
+              "rank": 2,
+              "name": "thedotmack/claude-mem",
+              "trending_rank": 1,
+              "stars_today": 1723
+            },
+            {
+              "rank": 3,
+              "name": "obra/superpowers",
+              "trending_rank": 8,
+              "stars_today": 665
+            },
+            {
+              "rank": 4,
+              "name": "mattpocock/skills",
+              "trending_rank": 2,
+              "stars_today": 883
+            },
+            {
+              "rank": 5,
+              "name": "Renhuai123/ziwei-doushu",
+              "trending_rank": 5,
+              "stars_today": 1092
+            },
+            {
+              "rank": 7,
+              "name": "vorssaint/vorssaint-utils",
+              "trending_rank": 14,
+              "stars_today": 501
+            },
+            {
+              "rank": 13,
+              "name": "HKUDS/DeepTutor",
+              "trending_rank": 10,
+              "stars_today": 1034
+            },
+            {
+              "rank": 14,
+              "name": "milind-soni/OpenMausBot",
+              "trending_rank": 6,
+              "stars_today": 1303
+            },
+            {
+              "rank": 15,
+              "name": "lightpanda-io/browser",
+              "trending_rank": 9,
+              "stars_today": 929
+            },
+            {
+              "rank": 55,
+              "name": "Donchitos/Claude-Code-Game-Studios",
+              "trending_rank": 3,
+              "stars_today": 742
+            },
+            {
+              "rank": 70,
+              "name": "THU-MAIC/OpenMAIC",
+              "trending_rank": 12,
+              "stars_today": 116
+            },
+            {
+              "rank": 79,
+              "name": "Orkas-AI/Orkas",
+              "trending_rank": 11,
+              "stars_today": 1044
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "pbakaus/impeccable",
+              "trending_rank": 4,
+              "stars_today": 12031
+            },
+            {
+              "rank": 2,
+              "name": "thedotmack/claude-mem",
+              "trending_rank": 11,
+              "stars_today": 4575
+            },
+            {
+              "rank": 3,
+              "name": "obra/superpowers",
+              "trending_rank": 5,
+              "stars_today": 5636
+            },
+            {
+              "rank": 6,
+              "name": "cloudflare/security-audit-skill",
+              "trending_rank": 2,
+              "stars_today": 11908
+            },
+            {
+              "rank": 8,
+              "name": "affaan-m/ECC",
+              "trending_rank": 13,
+              "stars_today": 6380
+            },
+            {
+              "rank": 9,
+              "name": "Leonxlnx/taste-skill",
+              "trending_rank": 9,
+              "stars_today": 4975
+            },
+            {
+              "rank": 10,
+              "name": "YuJunZhiXue/dsh-purge",
+              "trending_rank": 14,
+              "stars_today": 6641
+            },
+            {
+              "rank": 11,
+              "name": "anthropics/skills",
+              "trending_rank": 12,
+              "stars_today": 2389
+            },
+            {
+              "rank": 12,
+              "name": "TauricResearch/TradingAgents",
+              "trending_rank": 7,
+              "stars_today": 5483
+            },
+            {
+              "rank": 17,
+              "name": "multica-ai/andrej-karpathy-skills",
+              "trending_rank": 6,
+              "stars_today": 4277
+            },
+            {
+              "rank": 18,
+              "name": "Nutlope/hallmark",
+              "trending_rank": 1,
+              "stars_today": 12062
+            },
+            {
+              "rank": 22,
+              "name": "AgriciDaniel/claude-seo",
+              "trending_rank": 3,
+              "stars_today": 4814
+            },
+            {
+              "rank": 32,
+              "name": "jakubkrehel/skills",
+              "trending_rank": 8,
+              "stars_today": 1272
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 29,
+              "name": "Zagitta/gpu-unlock"
+            },
+            {
+              "rank": 70,
+              "name": "THU-MAIC/OpenMAIC"
+            },
+            {
+              "rank": 79,
+              "name": "Orkas-AI/Orkas"
+            }
+          ],
+          "warnings_count": 1,
+          "item_names": [
+            "pbakaus/impeccable",
+            "thedotmack/claude-mem",
+            "obra/superpowers",
+            "mattpocock/skills",
+            "Renhuai123/ziwei-doushu",
+            "cloudflare/security-audit-skill",
+            "vorssaint/vorssaint-utils",
+            "affaan-m/ECC",
+            "Leonxlnx/taste-skill",
+            "YuJunZhiXue/dsh-purge",
+            "anthropics/skills",
+            "TauricResearch/TradingAgents",
+            "HKUDS/DeepTutor",
+            "milind-soni/OpenMausBot",
+            "lightpanda-io/browser",
+            "morluto/rea",
+            "multica-ai/andrej-karpathy-skills",
+            "Nutlope/hallmark",
+            "Gathin23/cleanyourtv",
+            "Ebony-Vinyl/dsh-our-free-model",
+            "deepseek-ai/deepseek-harness",
+            "AgriciDaniel/claude-seo",
+            "debpalash/VoiceStudio",
+            "DietrichGebert/ponytail",
+            "KnifeLemon/Filee",
+            "storytold/photocraft",
+            "Niko1221/Strata",
+            "yetone/magpie",
+            "Zagitta/gpu-unlock",
+            "Graphify-Labs/graphify",
+            "stablyai/orca",
+            "jakubkrehel/skills",
+            "seedds/nxnative",
+            "heygen-com/hyperframes",
+            "eternity4719/HowToLiveBetter",
+            "paperclipai/paperclip",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "Panniantong/Agent-Reach",
+            "ai-job-search-dev/ai-job-search",
+            "pengchujin/aerial-tv",
+            "tt-a1i/archify",
+            "NousResearch/hermes-agent",
+            "Droid-Deck/DroidDeck",
+            "calesthio/OpenMontage",
+            "deepseek-ai/DeepInfer",
+            "wheresryan22/anatomy",
+            "boykopovar/AnyPS5",
+            "bilawalsidhu/gods-eye-view",
+            "anomalyco/opencode",
+            "rohitg00/ai-engineering-from-scratch",
+            "cheaper-inference/OmniRoute",
+            "tangency-labs/solidcraft",
+            "hugohe3/ppt-master",
+            "openai/codex",
+            "Donchitos/Claude-Code-Game-Studios",
+            "addyosmani/agent-skills",
+            "lemomo-ai/lemo-opuscar",
+            "DuarteSantos8/openGym",
+            "github/spec-kit",
+            "JuliusBrussee/caveman",
+            "farion1231/cc-switch",
+            "firecrawl/firecrawl",
+            "VoltAgent/awesome-design-md",
+            "Egonex-AI/Understand-Anything",
+            "nexu-io/open-design",
+            "msitarzewski/agency-agents",
+            "career-ops-hq/career-ops",
+            "Alishahryar1/free-claude-code",
+            "Jakeschincariol/day-trader-skill",
+            "THU-MAIC/OpenMAIC",
+            "hypit-ai/hypit",
+            "storytold/pdfcraft",
+            "JustVugg/colibri",
+            "garrytan/gstack",
+            "xiaoyang111222/cn-math-taxonomy",
+            "harry0703/MoneyPrinterTurbo",
+            "peach-mitao/peach",
+            "jub0t/Concat",
+            "Orkas-AI/Orkas",
+            "D4Vinci/Scrapling",
+            "public-apis/public-apis",
+            "openclaw/openclaw",
+            "Vincentwei1021/video-shotcraft",
+            "HeyPuter/everything",
+            "earendil-works/pi",
+            "storytold/wordcraft",
+            "storytold/filmcraft",
+            "xerj-org/xerj",
+            "anywhere-labs/dsh-desktop",
+            "microsoft/markitdown",
+            "clash-verge-rev/clash-verge-rev",
+            "ruvnet/RuView",
+            "lexmount/moli",
+            "yihui-dev/awesome-opus5-5-videos",
+            "baidu/Unlimited-OCR",
+            "simbasjungles/free-my-tv",
+            "666ghj/MiroFish",
+            "usestrix/strix",
+            "Comfy-Org/ComfyUI",
+            "NandhaKishorM/laya"
+          ],
+          "report_path": "reports/hot-rising/2026-11-01.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-10-31",
