@@ -7864,8 +7864,323 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-11-02",
+      "latest": "2026-11-03",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-11-03",
+          "generated_at": "2026-11-03T09:09:39+08:00",
+          "discovered_count": 983,
+          "candidate_count": 100,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "thedotmack/claude-mem",
+              "trending_rank": 2,
+              "stars_today": 1803
+            },
+            {
+              "rank": 2,
+              "name": "mattpocock/skills",
+              "trending_rank": 11,
+              "stars_today": 858
+            },
+            {
+              "rank": 3,
+              "name": "D4Vinci/Scrapling",
+              "trending_rank": 3,
+              "stars_today": 706
+            },
+            {
+              "rank": 4,
+              "name": "JustVugg/colibri",
+              "trending_rank": 10,
+              "stars_today": 675
+            },
+            {
+              "rank": 5,
+              "name": "paperclipai/paperclip",
+              "trending_rank": 13,
+              "stars_today": 412
+            },
+            {
+              "rank": 10,
+              "name": "FlashML-org/FreeToken",
+              "trending_rank": 6,
+              "stars_today": 653
+            },
+            {
+              "rank": 19,
+              "name": "Donchitos/Claude-Code-Game-Studios",
+              "trending_rank": 5,
+              "stars_today": 1379
+            },
+            {
+              "rank": 21,
+              "name": "shiyu-coder/Kronos",
+              "trending_rank": 8,
+              "stars_today": 857
+            },
+            {
+              "rank": 22,
+              "name": "hyprwm/Hyprland",
+              "trending_rank": 4,
+              "stars_today": 509
+            },
+            {
+              "rank": 26,
+              "name": "kornia/kornia",
+              "trending_rank": 9,
+              "stars_today": 412
+            },
+            {
+              "rank": 50,
+              "name": "vercel-labs/agent-desktop",
+              "trending_rank": 1,
+              "stars_today": 2275
+            },
+            {
+              "rank": 74,
+              "name": "p-e-w/heretic",
+              "trending_rank": 15,
+              "stars_today": 420
+            },
+            {
+              "rank": 89,
+              "name": "karpathy/nanochat",
+              "trending_rank": 14,
+              "stars_today": 321
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "thedotmack/claude-mem",
+              "trending_rank": 2,
+              "stars_today": 7255
+            },
+            {
+              "rank": 6,
+              "name": "pbakaus/impeccable",
+              "trending_rank": 3,
+              "stars_today": 11754
+            },
+            {
+              "rank": 7,
+              "name": "affaan-m/ECC",
+              "trending_rank": 15,
+              "stars_today": 6201
+            },
+            {
+              "rank": 8,
+              "name": "obra/superpowers",
+              "trending_rank": 5,
+              "stars_today": 5956
+            },
+            {
+              "rank": 9,
+              "name": "Nutlope/hallmark",
+              "trending_rank": 1,
+              "stars_today": 10517
+            },
+            {
+              "rank": 11,
+              "name": "cloudflare/security-audit-skill",
+              "trending_rank": 8,
+              "stars_today": 9155
+            },
+            {
+              "rank": 12,
+              "name": "Leonxlnx/taste-skill",
+              "trending_rank": 12,
+              "stars_today": 5729
+            },
+            {
+              "rank": 13,
+              "name": "multica-ai/andrej-karpathy-skills",
+              "trending_rank": 10,
+              "stars_today": 4397
+            },
+            {
+              "rank": 14,
+              "name": "heygen-com/hyperframes",
+              "trending_rank": 16,
+              "stars_today": 4924
+            },
+            {
+              "rank": 15,
+              "name": "anthropics/skills",
+              "trending_rank": 11,
+              "stars_today": 2828
+            },
+            {
+              "rank": 16,
+              "name": "AgriciDaniel/claude-seo",
+              "trending_rank": 4,
+              "stars_today": 4091
+            },
+            {
+              "rank": 17,
+              "name": "TauricResearch/TradingAgents",
+              "trending_rank": 13,
+              "stars_today": 4603
+            },
+            {
+              "rank": 18,
+              "name": "JetBrains/thinkrail",
+              "trending_rank": 7,
+              "stars_today": 4812
+            },
+            {
+              "rank": 30,
+              "name": "jakubkrehel/skills",
+              "trending_rank": 9,
+              "stars_today": 1707
+            },
+            {
+              "rank": 52,
+              "name": "ghostty-org/ghostty",
+              "trending_rank": 14,
+              "stars_today": 687
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 22,
+              "name": "hyprwm/Hyprland"
+            },
+            {
+              "rank": 26,
+              "name": "kornia/kornia"
+            },
+            {
+              "rank": 50,
+              "name": "vercel-labs/agent-desktop"
+            },
+            {
+              "rank": 52,
+              "name": "ghostty-org/ghostty"
+            },
+            {
+              "rank": 74,
+              "name": "p-e-w/heretic"
+            },
+            {
+              "rank": 80,
+              "name": "designfuchen/word-atlas"
+            },
+            {
+              "rank": 89,
+              "name": "karpathy/nanochat"
+            }
+          ],
+          "warnings_count": 0,
+          "item_names": [
+            "thedotmack/claude-mem",
+            "mattpocock/skills",
+            "D4Vinci/Scrapling",
+            "JustVugg/colibri",
+            "paperclipai/paperclip",
+            "pbakaus/impeccable",
+            "affaan-m/ECC",
+            "obra/superpowers",
+            "Nutlope/hallmark",
+            "FlashML-org/FreeToken",
+            "cloudflare/security-audit-skill",
+            "Leonxlnx/taste-skill",
+            "multica-ai/andrej-karpathy-skills",
+            "heygen-com/hyperframes",
+            "anthropics/skills",
+            "AgriciDaniel/claude-seo",
+            "TauricResearch/TradingAgents",
+            "JetBrains/thinkrail",
+            "Donchitos/Claude-Code-Game-Studios",
+            "morluto/rea",
+            "shiyu-coder/Kronos",
+            "hyprwm/Hyprland",
+            "Gathin23/cleanyourtv",
+            "deepseek-ai/deepseek-harness",
+            "Ebony-Vinyl/dsh-our-free-model",
+            "kornia/kornia",
+            "debpalash/VoiceStudio",
+            "DietrichGebert/ponytail",
+            "stablyai/orca",
+            "jakubkrehel/skills",
+            "Niko1221/Strata",
+            "yetone/magpie",
+            "KnifeLemon/Filee",
+            "Graphify-Labs/graphify",
+            "storytold/photocraft",
+            "Zagitta/gpu-unlock",
+            "seedds/nxnative",
+            "YuJunZhiXue/dsh-purge",
+            "eternity4719/HowToLiveBetter",
+            "Panniantong/Agent-Reach",
+            "calesthio/OpenMontage",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "NousResearch/hermes-agent",
+            "github/spec-kit",
+            "pengchujin/aerial-tv",
+            "public-apis/public-apis",
+            "tt-a1i/archify",
+            "rddmwmddr/android-ad-cleaner",
+            "hugohe3/ppt-master",
+            "vercel-labs/agent-desktop",
+            "lemomo-ai/lemo-opuscar",
+            "ghostty-org/ghostty",
+            "deepseek-ai/DeepInfer",
+            "wheresryan22/anatomy",
+            "farion1231/cc-switch",
+            "ai-job-search-dev/ai-job-search",
+            "boykopovar/AnyPS5",
+            "cheaper-inference/OmniRoute",
+            "anomalyco/opencode",
+            "tangency-labs/solidcraft",
+            "addyosmani/agent-skills",
+            "JuliusBrussee/caveman",
+            "career-ops-hq/career-ops",
+            "Droid-Deck/DroidDeck",
+            "bilawalsidhu/gods-eye-view",
+            "xiaoyang111222/cn-math-taxonomy",
+            "firecrawl/firecrawl",
+            "deepseek-ai/dsh-superagent-prototype",
+            "nexu-io/open-design",
+            "HeyPuter/everything",
+            "msitarzewski/agency-agents",
+            "VoltAgent/awesome-design-md",
+            "earendil-works/pi",
+            "p-e-w/heretic",
+            "harry0703/MoneyPrinterTurbo",
+            "amosblomqvist/learnharness",
+            "openclaw/openclaw",
+            "Egonex-AI/Understand-Anything",
+            "vorssaint/vorssaint-utils",
+            "designfuchen/word-atlas",
+            "storytold/pdfcraft",
+            "DuarteSantos8/openGym",
+            "rohitg00/ai-engineering-from-scratch",
+            "Alishahryar1/free-claude-code",
+            "hypit-ai/hypit",
+            "lexmount/moli",
+            "jub0t/Concat",
+            "Vincentwei1021/video-shotcraft",
+            "karpathy/nanochat",
+            "clash-verge-rev/clash-verge-rev",
+            "anywhere-labs/dsh-desktop",
+            "Jakeschincariol/day-trader-skill",
+            "openai/codex",
+            "storytold/wordcraft",
+            "garrytan/gstack",
+            "microsoft/markitdown",
+            "ruvnet/RuView",
+            "666ghj/MiroFish",
+            "yihui-dev/awesome-opus5-5-videos",
+            "storytold/filmcraft"
+          ],
+          "report_path": "reports/hot-rising/2026-11-03.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-11-02",
