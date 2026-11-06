@@ -8110,8 +8110,299 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-11-05",
+      "latest": "2026-11-06",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-11-06",
+          "generated_at": "2026-11-06T09:11:08+08:00",
+          "discovered_count": 986,
+          "candidate_count": 101,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "mattpocock/skills",
+              "trending_rank": 2,
+              "stars_today": 2071
+            },
+            {
+              "rank": 2,
+              "name": "D4Vinci/Scrapling",
+              "trending_rank": 5,
+              "stars_today": 1655
+            },
+            {
+              "rank": 3,
+              "name": "max-sixty/worktrunk",
+              "trending_rank": 7,
+              "stars_today": 546
+            },
+            {
+              "rank": 4,
+              "name": "garrytan/gstack",
+              "trending_rank": 3,
+              "stars_today": 612
+            },
+            {
+              "rank": 13,
+              "name": "NVIDIA/auto-ontology",
+              "trending_rank": 1,
+              "stars_today": 2679
+            },
+            {
+              "rank": 14,
+              "name": "vercel-labs/agent-desktop",
+              "trending_rank": 6,
+              "stars_today": 2173
+            },
+            {
+              "rank": 16,
+              "name": "floci-io/floci",
+              "trending_rank": 14,
+              "stars_today": 779
+            },
+            {
+              "rank": 19,
+              "name": "scenario-labs/skills",
+              "trending_rank": 11,
+              "stars_today": 667
+            },
+            {
+              "rank": 71,
+              "name": "vercel-labs/agent-browser",
+              "trending_rank": 10,
+              "stars_today": 150
+            },
+            {
+              "rank": 75,
+              "name": "google/skills",
+              "trending_rank": 9,
+              "stars_today": 211
+            },
+            {
+              "rank": 96,
+              "name": "microsoft/VibeVoice",
+              "trending_rank": 13,
+              "stars_today": 223
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 3,
+              "name": "max-sixty/worktrunk",
+              "trending_rank": 6,
+              "stars_today": 1802
+            },
+            {
+              "rank": 5,
+              "name": "pbakaus/impeccable",
+              "trending_rank": 9,
+              "stars_today": 9303
+            },
+            {
+              "rank": 6,
+              "name": "thedotmack/claude-mem",
+              "trending_rank": 1,
+              "stars_today": 9318
+            },
+            {
+              "rank": 7,
+              "name": "obra/superpowers",
+              "trending_rank": 8,
+              "stars_today": 5131
+            },
+            {
+              "rank": 8,
+              "name": "milind-soni/OpenMausBot",
+              "trending_rank": 7,
+              "stars_today": 5580
+            },
+            {
+              "rank": 9,
+              "name": "Leonxlnx/taste-skill",
+              "trending_rank": 15,
+              "stars_today": 5426
+            },
+            {
+              "rank": 10,
+              "name": "calesthio/OpenMontage",
+              "trending_rank": 12,
+              "stars_today": 4132
+            },
+            {
+              "rank": 11,
+              "name": "anthropics/skills",
+              "trending_rank": 4,
+              "stars_today": 3072
+            },
+            {
+              "rank": 12,
+              "name": "multica-ai/andrej-karpathy-skills",
+              "trending_rank": 13,
+              "stars_today": 3713
+            },
+            {
+              "rank": 15,
+              "name": "jakubkrehel/skills",
+              "trending_rank": 11,
+              "stars_today": 1840
+            },
+            {
+              "rank": 18,
+              "name": "Nutlope/hallmark",
+              "trending_rank": 2,
+              "stars_today": 6994
+            },
+            {
+              "rank": 22,
+              "name": "HKUDS/DeepTutor",
+              "trending_rank": 5,
+              "stars_today": 6229
+            },
+            {
+              "rank": 48,
+              "name": "The-PR-Agent/pr-agent",
+              "trending_rank": 16,
+              "stars_today": 1355
+            },
+            {
+              "rank": 53,
+              "name": "ghostty-org/ghostty",
+              "trending_rank": 14,
+              "stars_today": 726
+            },
+            {
+              "rank": 63,
+              "name": "hyprwm/Hyprland",
+              "trending_rank": 10,
+              "stars_today": 1371
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 71,
+              "name": "vercel-labs/agent-browser"
+            },
+            {
+              "rank": 75,
+              "name": "google/skills"
+            },
+            {
+              "rank": 91,
+              "name": "storytold/craft-anything"
+            },
+            {
+              "rank": 96,
+              "name": "microsoft/VibeVoice"
+            }
+          ],
+          "warnings_count": 1,
+          "item_names": [
+            "mattpocock/skills",
+            "D4Vinci/Scrapling",
+            "max-sixty/worktrunk",
+            "garrytan/gstack",
+            "pbakaus/impeccable",
+            "thedotmack/claude-mem",
+            "obra/superpowers",
+            "milind-soni/OpenMausBot",
+            "Leonxlnx/taste-skill",
+            "calesthio/OpenMontage",
+            "anthropics/skills",
+            "multica-ai/andrej-karpathy-skills",
+            "NVIDIA/auto-ontology",
+            "vercel-labs/agent-desktop",
+            "jakubkrehel/skills",
+            "floci-io/floci",
+            "morluto/rea",
+            "Nutlope/hallmark",
+            "scenario-labs/skills",
+            "deepseek-ai/deepseek-harness",
+            "Ebony-Vinyl/dsh-our-free-model",
+            "HKUDS/DeepTutor",
+            "Gathin23/cleanyourtv",
+            "stablyai/orca",
+            "debpalash/VoiceStudio",
+            "cloudflare/security-audit-skill",
+            "DietrichGebert/ponytail",
+            "affaan-m/ECC",
+            "Niko1221/Strata",
+            "yetone/magpie",
+            "Graphify-Labs/graphify",
+            "storytold/photocraft",
+            "KnifeLemon/Filee",
+            "Zagitta/gpu-unlock",
+            "eternity4719/HowToLiveBetter",
+            "heygen-com/hyperframes",
+            "github/spec-kit",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "Panniantong/Agent-Reach",
+            "NousResearch/hermes-agent",
+            "tt-a1i/archify",
+            "tangency-labs/solidcraft",
+            "harry0703/MoneyPrinterTurbo",
+            "JustVugg/colibri",
+            "paperclipai/paperclip",
+            "seedds/nxnative",
+            "pengchujin/aerial-tv",
+            "The-PR-Agent/pr-agent",
+            "boykopovar/AnyPS5",
+            "hugohe3/ppt-master",
+            "wheresryan22/anatomy",
+            "JuliusBrussee/caveman",
+            "ghostty-org/ghostty",
+            "cheaper-inference/OmniRoute",
+            "lemomo-ai/lemo-opuscar",
+            "farion1231/cc-switch",
+            "career-ops-hq/career-ops",
+            "bilawalsidhu/gods-eye-view",
+            "ai-job-search-dev/ai-job-search",
+            "anomalyco/opencode",
+            "firecrawl/firecrawl",
+            "rddmwmddr/android-ad-cleaner",
+            "hyprwm/Hyprland",
+            "Egonex-AI/Understand-Anything",
+            "addyosmani/agent-skills",
+            "togg53192-cmd/jailbreaks",
+            "DuarteSantos8/openGym",
+            "Droid-Deck/DroidDeck",
+            "anhao/ai-pose-gallery-zh",
+            "public-apis/public-apis",
+            "vercel-labs/agent-browser",
+            "nexu-io/open-design",
+            "horizon-rust/horizon",
+            "Alishahryar1/free-claude-code",
+            "google/skills",
+            "earendil-works/pi",
+            "deepseek-ai/DeepInfer",
+            "msitarzewski/agency-agents",
+            "storytold/pdfcraft",
+            "VoltAgent/awesome-design-md",
+            "hypit-ai/hypit",
+            "TauricResearch/TradingAgents",
+            "xiaoyang111222/cn-math-taxonomy",
+            "openclaw/openclaw",
+            "HeyPuter/everything",
+            "openai/codex",
+            "LNPANDY/NX2Apple",
+            "rohitg00/ai-engineering-from-scratch",
+            "jub0t/Concat",
+            "vorssaint/vorssaint-utils",
+            "storytold/craft-anything",
+            "Jakeschincariol/day-trader-skill",
+            "odysseus-dev/odysseus",
+            "Vincentwei1021/video-shotcraft",
+            "clash-verge-rev/clash-verge-rev",
+            "microsoft/VibeVoice",
+            "anywhere-labs/dsh-desktop",
+            "amosblomqvist/learnharness",
+            "colbymchenry/codegraph",
+            "storytold/wordcraft"
+          ],
+          "report_path": "reports/hot-rising/2026-11-06.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-11-05",
