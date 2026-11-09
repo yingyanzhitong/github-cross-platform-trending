@@ -8246,8 +8246,341 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-11-06",
+      "latest": "2026-11-09",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-11-09",
+          "generated_at": "2026-11-09T10:25:22+08:00",
+          "discovered_count": 988,
+          "candidate_count": 101,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "milind-soni/OpenMausBot",
+              "trending_rank": 3,
+              "stars_today": 1439
+            },
+            {
+              "rank": 2,
+              "name": "anthropics/skills",
+              "trending_rank": 7,
+              "stars_today": 792
+            },
+            {
+              "rank": 3,
+              "name": "vercel-labs/agent-browser",
+              "trending_rank": 5,
+              "stars_today": 815
+            },
+            {
+              "rank": 12,
+              "name": "sherlock-project/sherlock",
+              "trending_rank": 1,
+              "stars_today": 2373
+            },
+            {
+              "rank": 14,
+              "name": "meta/astryx",
+              "trending_rank": 6,
+              "stars_today": 875
+            },
+            {
+              "rank": 15,
+              "name": "ranxianglei/billion-context",
+              "trending_rank": 9,
+              "stars_today": 460
+            },
+            {
+              "rank": 17,
+              "name": "dsx-ai-factory/nvke",
+              "trending_rank": 2,
+              "stars_today": 345
+            },
+            {
+              "rank": 21,
+              "name": "anthropics/claude-quickstarts",
+              "trending_rank": 4,
+              "stars_today": 32
+            },
+            {
+              "rank": 28,
+              "name": "google-deepmind/mujoco",
+              "trending_rank": 8,
+              "stars_today": 41
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "milind-soni/OpenMausBot",
+              "trending_rank": 6,
+              "stars_today": 7621
+            },
+            {
+              "rank": 2,
+              "name": "anthropics/skills",
+              "trending_rank": 4,
+              "stars_today": 3169
+            },
+            {
+              "rank": 3,
+              "name": "vercel-labs/agent-browser",
+              "trending_rank": 11,
+              "stars_today": 2190
+            },
+            {
+              "rank": 4,
+              "name": "mattpocock/skills",
+              "trending_rank": 12,
+              "stars_today": 9635
+            },
+            {
+              "rank": 5,
+              "name": "thedotmack/claude-mem",
+              "trending_rank": 2,
+              "stars_today": 6443
+            },
+            {
+              "rank": 6,
+              "name": "Nutlope/hallmark",
+              "trending_rank": 8,
+              "stars_today": 6356
+            },
+            {
+              "rank": 7,
+              "name": "D4Vinci/Scrapling",
+              "trending_rank": 10,
+              "stars_today": 8342
+            },
+            {
+              "rank": 8,
+              "name": "github/spec-kit",
+              "trending_rank": 14,
+              "stars_today": 4045
+            },
+            {
+              "rank": 9,
+              "name": "Donchitos/Claude-Code-Game-Studios",
+              "trending_rank": 5,
+              "stars_today": 5235
+            },
+            {
+              "rank": 10,
+              "name": "Renhuai123/ziwei-doushu",
+              "trending_rank": 9,
+              "stars_today": 4191
+            },
+            {
+              "rank": 11,
+              "name": "jakubkrehel/skills",
+              "trending_rank": 13,
+              "stars_today": 1857
+            },
+            {
+              "rank": 13,
+              "name": "hyprwm/Hyprland",
+              "trending_rank": 16,
+              "stars_today": 1465
+            },
+            {
+              "rank": 19,
+              "name": "NVIDIA/auto-ontology",
+              "trending_rank": 1,
+              "stars_today": 9327
+            },
+            {
+              "rank": 22,
+              "name": "blader/humanizer",
+              "trending_rank": 17,
+              "stars_today": 3118
+            },
+            {
+              "rank": 26,
+              "name": "max-sixty/worktrunk",
+              "trending_rank": 3,
+              "stars_today": 2313
+            },
+            {
+              "rank": 49,
+              "name": "The-PR-Agent/pr-agent",
+              "trending_rank": 15,
+              "stars_today": 1706
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 12,
+              "name": "sherlock-project/sherlock"
+            },
+            {
+              "rank": 14,
+              "name": "meta/astryx"
+            },
+            {
+              "rank": 15,
+              "name": "ranxianglei/billion-context"
+            },
+            {
+              "rank": 17,
+              "name": "dsx-ai-factory/nvke"
+            },
+            {
+              "rank": 21,
+              "name": "anthropics/claude-quickstarts"
+            },
+            {
+              "rank": 22,
+              "name": "blader/humanizer"
+            },
+            {
+              "rank": 27,
+              "name": "ccch1mneyyy/dsh-Go"
+            },
+            {
+              "rank": 28,
+              "name": "google-deepmind/mujoco"
+            },
+            {
+              "rank": 29,
+              "name": "heydamir/unslop"
+            },
+            {
+              "rank": 41,
+              "name": "wangzan101/Mika"
+            },
+            {
+              "rank": 52,
+              "name": "l0ng-ai/openidea"
+            },
+            {
+              "rank": 58,
+              "name": "google/elephant-goldfish-model"
+            },
+            {
+              "rank": 60,
+              "name": "valentderah/totk-pc-recomp"
+            },
+            {
+              "rank": 64,
+              "name": "patch-gg/pixelfx"
+            },
+            {
+              "rank": 73,
+              "name": "BryceYuuu/RUN"
+            },
+            {
+              "rank": 99,
+              "name": "qybaihe/bla"
+            }
+          ],
+          "warnings_count": 1,
+          "item_names": [
+            "milind-soni/OpenMausBot",
+            "anthropics/skills",
+            "vercel-labs/agent-browser",
+            "mattpocock/skills",
+            "thedotmack/claude-mem",
+            "Nutlope/hallmark",
+            "D4Vinci/Scrapling",
+            "github/spec-kit",
+            "Donchitos/Claude-Code-Game-Studios",
+            "Renhuai123/ziwei-doushu",
+            "jakubkrehel/skills",
+            "sherlock-project/sherlock",
+            "hyprwm/Hyprland",
+            "meta/astryx",
+            "ranxianglei/billion-context",
+            "morluto/rea",
+            "dsx-ai-factory/nvke",
+            "storytold/craft-anything",
+            "NVIDIA/auto-ontology",
+            "deepseek-ai/deepseek-harness",
+            "anthropics/claude-quickstarts",
+            "blader/humanizer",
+            "deepseek-ai/dsh-superagent-prototype",
+            "Gathin23/cleanyourtv",
+            "Ebony-Vinyl/dsh-our-free-model",
+            "max-sixty/worktrunk",
+            "ccch1mneyyy/dsh-Go",
+            "google-deepmind/mujoco",
+            "heydamir/unslop",
+            "affaan-m/ECC",
+            "storytold/photocraft",
+            "DietrichGebert/ponytail",
+            "Niko1221/Strata",
+            "stablyai/orca",
+            "debpalash/VoiceStudio",
+            "eternity4719/HowToLiveBetter",
+            "yetone/magpie",
+            "obra/superpowers",
+            "Graphify-Labs/graphify",
+            "KnifeLemon/Filee",
+            "wangzan101/Mika",
+            "Leonxlnx/taste-skill",
+            "pbakaus/impeccable",
+            "NousResearch/hermes-agent",
+            "garrytan/gstack",
+            "cloudflare/security-audit-skill",
+            "Zagitta/gpu-unlock",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "The-PR-Agent/pr-agent",
+            "heygen-com/hyperframes",
+            "Panniantong/Agent-Reach",
+            "l0ng-ai/openidea",
+            "paperclipai/paperclip",
+            "openclaw/openclaw",
+            "tt-a1i/archify",
+            "seedds/nxnative",
+            "JustVugg/colibri",
+            "google/elephant-goldfish-model",
+            "JuliusBrussee/caveman",
+            "valentderah/totk-pc-recomp",
+            "boykopovar/AnyPS5",
+            "pengchujin/aerial-tv",
+            "nexu-io/open-design",
+            "patch-gg/pixelfx",
+            "anomalyco/opencode",
+            "tangency-labs/solidcraft",
+            "bilawalsidhu/gods-eye-view",
+            "deepseek-ai/DeepInfer",
+            "msitarzewski/agency-agents",
+            "career-ops-hq/career-ops",
+            "Egonex-AI/Understand-Anything",
+            "lemomo-ai/lemo-opuscar",
+            "BryceYuuu/RUN",
+            "farion1231/cc-switch",
+            "cheaper-inference/OmniRoute",
+            "wheresryan22/anatomy",
+            "hugohe3/ppt-master",
+            "Droid-Deck/DroidDeck",
+            "ai-job-search-dev/ai-job-search",
+            "rohitg00/ai-engineering-from-scratch",
+            "rddmwmddr/android-ad-cleaner",
+            "firecrawl/firecrawl",
+            "addyosmani/agent-skills",
+            "harry0703/MoneyPrinterTurbo",
+            "storytold/pdfcraft",
+            "odysseus-dev/odysseus",
+            "LNPANDY/NX2Apple",
+            "earendil-works/pi",
+            "anhao/ai-pose-gallery-zh",
+            "Alishahryar1/free-claude-code",
+            "horizon-rust/horizon",
+            "storytold/wordcraft",
+            "anywhere-labs/dsh-desktop",
+            "NandhaKishorM/laya",
+            "public-apis/public-apis",
+            "VoltAgent/awesome-design-md",
+            "amosblomqvist/learnharness",
+            "jub0t/Concat",
+            "qybaihe/bla",
+            "xiaoyang111222/cn-math-taxonomy"
+          ],
+          "report_path": "reports/hot-rising/2026-11-09.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-11-06",
