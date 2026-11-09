@@ -10,6 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
 from html import unescape
+from http.client import IncompleteRead
 from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlencode
@@ -121,11 +122,11 @@ class GitHubClient:
                     continue
                 detail = error.read().decode("utf-8", errors="replace")[:300]
                 raise RuntimeError(f"GitHub 请求失败 ({error.code}): {detail}") from error
-            except URLError as error:
+            except (URLError, IncompleteRead) as error:
                 if attempt < 2:
                     time.sleep(2**attempt)
                     continue
-                raise RuntimeError(f"网络请求失败: {error.reason}") from error
+                raise RuntimeError(f"网络请求失败: {getattr(error, 'reason', str(error))}") from error
         return None
 
     def get_json(self, path: str, params: dict[str, str | int] | None = None) -> Any:

@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import base64
 import unittest
+from http.client import IncompleteRead
+from unittest.mock import MagicMock, patch
 
 from cross_platform_trending.collector import (
     GitHubClient,
@@ -22,6 +24,34 @@ class ParseTrendingTests(unittest.TestCase):
         """
 
         self.assertEqual(parse_trending(html), [("owner/example", 1234)])
+
+
+class GitHubRequestTests(unittest.TestCase):
+    @patch("cross_platform_trending.collector.time.sleep")
+    @patch("cross_platform_trending.collector.urlopen")
+    def test_retries_truncated_response(self, urlopen, sleep) -> None:
+        response = MagicMock()
+        response.read.side_effect = [IncompleteRead(b"partial", 10), b"complete"]
+        urlopen.return_value.__enter__.return_value = response
+
+        result = GitHubClient()._request("https://github.com/trending", "text/html")
+
+        self.assertEqual(result, b"complete")
+        self.assertEqual(urlopen.call_count, 2)
+        sleep.assert_called_once_with(1)
+
+    @patch("cross_platform_trending.collector.time.sleep")
+    @patch("cross_platform_trending.collector.urlopen")
+    def test_reports_truncation_after_retry_limit(self, urlopen, sleep) -> None:
+        response = MagicMock()
+        response.read.side_effect = IncompleteRead(b"partial", 10)
+        urlopen.return_value.__enter__.return_value = response
+
+        with self.assertRaisesRegex(RuntimeError, "网络请求失败"):
+            GitHubClient()._request("https://github.com/trending", "text/html")
+
+        self.assertEqual(urlopen.call_count, 3)
+        self.assertEqual(sleep.call_count, 2)
 
 
 class ReadmeExcerptTests(unittest.TestCase):
