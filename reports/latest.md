@@ -1,8 +1,8 @@
-# GitHub 跨平台热门软件日报 · 2026-11-10
+# GitHub 跨平台热门软件日报 · 2026-11-11
 
 > 自动筛选同时提供 macOS 与 Windows 安装包的 GitHub 热门软件。Latest Release 必须同时包含两端安装包。
 
-- 生成时间：2026-11-10T08:56:07+08:00
+- 生成时间：2026-11-11T09:05:10+08:00
 - 发现候选：1000 个
 - 已分析候选：600 个
 - 入榜软件：100 个
@@ -10,164 +10,139 @@
 
 | 详情 ↘️ | 新增 | 软件 | 中文简介 | 热度 | Stars | 主要语言 | 平台证据 |
 |:---:|:---:|---|---|---|---:|---|---|
-| <a id="project-row-91"></a>[#91 ↘️](#project-detail-91) | 🟢 | [mg-chao/snow-shot](https://github.com/mg-chao/snow-shot) | 适用于 Windows 和 macOS 的免费开源截图录屏工具，支持标注、滚动截图、离线 OCR 和贴图。 | 近期活跃热门仓库 | 6,852 | C++ | macOS 安装包：[snow-shot-1.5.3-macos-arm64.dmg](https://github.com/mg-chao/snow-shot/releases/download/v1.5.3_snow-shot/snow-shot-1.5.3-macos-arm64.dmg)、[snow-shot-1.5.3-macos-x86_64.dmg](https://github.com/mg-chao/snow-shot/releases/download/v1.5.3_snow-shot/snow-shot-1.5.3-macos-x86_64.dmg)；Windows 安装包：[snow-shot-1.5.3-windows-arm64-offline.exe](https://github.com/mg-chao/snow-shot/releases/download/v1.5.3_snow-shot/snow-shot-1.5.3-windows-arm64-offline.exe)、[snow-shot-1.5.3-windows-arm64-online.exe](https://github.com/mg-chao/snow-shot/releases/download/v1.5.3_snow-shot/snow-shot-1.5.3-windows-arm64-online.exe) |
-| <a id="project-row-1"></a>[#1 ↘️](#project-detail-1) | — | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 开源 Grok Bot 替代方案，提供机器人可使用的虚拟机 | Daily Trending #11，今日 +1,587 Stars | 19,675 | TypeScript | macOS 安装包：[OpenMausBot-0.1.151-arm64.dmg](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.151/OpenMausBot-0.1.151-arm64.dmg)、[OpenMausBot-0.1.151-x64.dmg](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.151/OpenMausBot-0.1.151-x64.dmg)；Windows 安装包：[OpenMausBot-0.1.151-setup.exe](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.151/OpenMausBot-0.1.151-setup.exe)、[OpenMausBot-setup.exe](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.151/OpenMausBot-setup.exe) |
-| <a id="project-row-2"></a>[#2 ↘️](#project-detail-2) | — | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 跨平台桌面一体化助手，支持 Claude Code、Codex、OpenCode 等 | 近期活跃热门仓库 | 153,062 | Rust | macOS 安装包：[CC-Switch-v4.0.28-macOS.dmg](https://github.com/farion1231/cc-switch/releases/download/v4.0.28/CC-Switch-v4.0.28-macOS.dmg)；Windows 安装包：[CC-Switch-v4.0.28-Windows-arm64.msi](https://github.com/farion1231/cc-switch/releases/download/v4.0.28/CC-Switch-v4.0.28-Windows-arm64.msi)、[CC-Switch-v4.0.28-Windows.msi](https://github.com/farion1231/cc-switch/releases/download/v4.0.28/CC-Switch-v4.0.28-Windows.msi) |
-| <a id="project-row-3"></a>[#3 ↘️](#project-detail-3) | — | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 开源自托管远程桌面替代方案。 | 近期活跃热门仓库 | 128,797 | Rust | macOS 安装包：[rustdesk-1.5.1-aarch64.dmg](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.dmg)、[rustdesk-1.5.1-x86_64.dmg](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86_64.dmg)；Windows 安装包：[rustdesk-1.5.1-aarch64.exe](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.exe)、[rustdesk-1.5.1-aarch64.msi](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.msi) |
-| <a id="project-row-4"></a>[#4 ↘️](#project-detail-4) | — | [stablyai/orca](https://github.com/stablyai/orca) | 使用自有订阅管理 Claude Code、Codex 等编程智能体集群，支持桌面端、移动端和远程运行 | 近期活跃热门仓库 | 120,418 | TypeScript | macOS 安装包：[orca-macos-arm64.dmg](https://github.com/stablyai/orca/releases/download/v1.4.255/orca-macos-arm64.dmg)、[orca-macos-x64.dmg](https://github.com/stablyai/orca/releases/download/v1.4.255/orca-macos-x64.dmg)；Windows 安装包：[orca-windows-setup.exe](https://github.com/stablyai/orca/releases/download/v1.4.255/orca-windows-setup.exe) |
-| <a id="project-row-5"></a>[#5 ↘️](#project-detail-5) | — | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 本地优先的开源协作式 AI 设计智能体工作空间 | 近期活跃热门仓库 | 106,840 | TypeScript | macOS 安装包：[open-design-0.27.0-mac-arm64.dmg](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.0/open-design-0.27.0-mac-arm64.dmg)、[open-design-0.27.0-mac-x64.dmg](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.0/open-design-0.27.0-mac-x64.dmg)；Windows 安装包：[open-design-0.27.0-win-x64-setup.exe](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.0/open-design-0.27.0-win-x64-setup.exe) |
-| <a id="project-row-6"></a>[#6 ↘️](#project-detail-6) | — | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 基于AI驱动的软件开发平台。 | 近期活跃热门仓库 | 93,059 | TypeScript | macOS 安装包：[OpenHands-Agent-Canvas-1.37.0-universal.dmg](https://github.com/OpenHands/OpenHands/releases/download/v1.37.0/OpenHands-Agent-Canvas-1.37.0-universal.dmg)；Windows 安装包：[OpenHands-Agent-Canvas-Setup-1.37.0.exe](https://github.com/OpenHands/OpenHands/releases/download/v1.37.0/OpenHands-Agent-Canvas-Setup-1.37.0.exe) |
-| <a id="project-row-7"></a>[#7 ↘️](#project-detail-7) | — | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 隐私优先的开源下一代知识库平台。 | 近期活跃热门仓库 | 74,406 | TypeScript | macOS 安装包：[affine-0.27.4-stable-macos-arm64.dmg](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-macos-arm64.dmg)、[affine-0.27.4-stable-macos-x64.dmg](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-macos-x64.dmg)；Windows 安装包：[affine-0.27.4-stable-windows-arm64.exe](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-windows-arm64.exe)、[affine-0.27.4-stable-windows-arm64.nsis.exe](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-windows-arm64.nsis.exe) |
-| <a id="project-row-8"></a>[#8 ↘️](#project-detail-8) | — | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 为 dsh 提供免登录、免 API Key、免费不限量的前沿模型 | 近期活跃热门仓库 | 67,371 | JavaScript | macOS 安装包：[Our.Free.Model_2.8.3_aarch64.dmg](https://github.com/Ebony-Vinyl/dsh-our-free-model/releases/download/v2.8.3/Our.Free.Model_2.8.3_aarch64.dmg)；Windows 安装包：[Our.Free.Model_2.8.3_x64-setup.exe](https://github.com/Ebony-Vinyl/dsh-our-free-model/releases/download/v2.8.3/Our.Free.Model_2.8.3_x64-setup.exe) |
-| <a id="project-row-9"></a>[#9 ↘️](#project-detail-9) | — | [tw93/Pake](https://github.com/tw93/Pake) | 一条命令将任意网站转为轻量级跨平台桌面应用 | 近期活跃热门仓库 | 63,047 | Rust | macOS 安装包：[ChatGPT.dmg](https://github.com/tw93/Pake/releases/download/V3.18.0/ChatGPT.dmg)、[DeepSeek.dmg](https://github.com/tw93/Pake/releases/download/V3.18.0/DeepSeek.dmg)；Windows 安装包：[ChatGPT_x64.msi](https://github.com/tw93/Pake/releases/download/V3.18.0/ChatGPT_x64.msi)、[DeepSeek_x64.msi](https://github.com/tw93/Pake/releases/download/V3.18.0/DeepSeek_x64.msi) |
-| <a id="project-row-10"></a>[#10 ↘️](#project-detail-10) | — | [agalwood/Motrix](https://github.com/agalwood/Motrix) | 功能完善的下载管理器。 | 近期活跃热门仓库 | 58,052 | TypeScript | macOS 安装包：[Motrix-2.4.1-arm64.dmg](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-2.4.1-arm64.dmg)、[Motrix-2.4.1-x64.dmg](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-2.4.1-x64.dmg)；Windows 安装包：[Motrix-Setup-2.4.1-arm64.exe](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-Setup-2.4.1-arm64.exe)、[Motrix-Setup-2.4.1.exe](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-Setup-2.4.1.exe) |
-| <a id="project-row-11"></a>[#11 ↘️](#project-detail-11) | — | [laurent22/joplin](https://github.com/laurent22/joplin) | 支持多平台同步的隐私笔记应用。 | 近期活跃热门仓库 | 57,116 | TypeScript | macOS 安装包：[Joplin-3.7.22-arm64.DMG](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22-arm64.DMG)、[Joplin-3.7.22.dmg](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22.dmg)；Windows 安装包：[Joplin-Setup-3.7.22.exe](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe)、[JoplinPortable.exe](https://github.com/laurent22/joplin/releases/download/v3.7.22/JoplinPortable.exe) |
-| <a id="project-row-12"></a>[#12 ↘️](#project-detail-12) | — | [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) | 跨平台的命令行自动化工具。 | 近期活跃热门仓库 | 56,076 | C# | macOS 安装包：[powershell-7.6.9-osx-arm64.pkg](https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/powershell-7.6.9-osx-arm64.pkg)、[powershell-7.6.9-osx-x64.pkg](https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/powershell-7.6.9-osx-x64.pkg)；Windows 安装包：[PowerShell-7.6.9-win-arm64.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/PowerShell-7.6.9-win-arm64.msi)、[PowerShell-7.6.9-win-x64.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/PowerShell-7.6.9-win-x64.msi) |
-| <a id="project-row-13"></a>[#13 ↘️](#project-detail-13) | — | [Eugeny/tabby](https://github.com/Eugeny/tabby) | 现代化终端工具。 | 近期活跃热门仓库 | 75,348 | TypeScript | macOS 安装包：[tabby-1.0.238-macos-arm64.dmg](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-macos-arm64.dmg)、[tabby-1.0.238-macos-x86_64.dmg](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-macos-x86_64.dmg)；Windows 安装包：[tabby-1.0.238-setup-arm64.exe](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe)、[tabby-1.0.238-setup-x64.exe](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-x64.exe) |
-| <a id="project-row-14"></a>[#14 ↘️](#project-detail-14) | — | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 跨平台OpenGL终端模拟器。 | 近期活跃热门仓库 | 66,144 | Rust | macOS 安装包：[Alacritty-v0.17.0.dmg](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0.dmg)；Windows 安装包：[Alacritty-v0.17.0-installer.msi](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-installer.msi)、[Alacritty-v0.17.0-portable.exe](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-portable.exe) |
-| <a id="project-row-15"></a>[#15 ↘️](#project-detail-15) | — | [team-spotube/spotube](https://github.com/team-spotube/spotube) | 面向桌面端和移动端的开源音乐流媒体应用 | 近期活跃热门仓库 | 50,700 | Kotlin | macOS 安装包：[Spotube-macos-universal.dmg](https://github.com/team-spotube/spotube/releases/download/v6.0.0-beta.0/Spotube-macos-universal.dmg)；Windows 安装包：[Spotube-windows-x86_64-setup.exe](https://github.com/team-spotube/spotube/releases/download/v6.0.0-beta.0/Spotube-windows-x86_64-setup.exe) |
-| <a id="project-row-16"></a>[#16 ↘️](#project-detail-16) | — | [usebruno/bruno](https://github.com/usebruno/bruno) | 开源轻量级API测试和探索IDE。 | 近期活跃热门仓库 | 48,308 | JavaScript | macOS 安装包：[bruno_4.3.0_arm64_mac.dmg](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_mac.dmg)、[bruno_4.3.0_arm64_mac.pkg](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_mac.pkg)；Windows 安装包：[bruno_4.3.0_arm64_win.exe](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.exe)、[bruno_4.3.0_arm64_win.msi](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.msi) |
-| <a id="project-row-17"></a>[#17 ↘️](#project-detail-17) | — | [cli/cli](https://github.com/cli/cli) | GitHub官方命令行工具。 | 近期活跃热门仓库 | 46,938 | Go | macOS 安装包：[gh_2.103.3_macOS_universal.pkg](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_macOS_universal.pkg)；Windows 安装包：[gh_2.103.3_windows_386.msi](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_386.msi)、[gh_2.103.3_windows_amd64.msi](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_amd64.msi) |
-| <a id="project-row-18"></a>[#18 ↘️](#project-detail-18) | — | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | 开源、隐私优先且支持自托管的人与 AI 智能体协作知识空间 | 近期活跃热门仓库 | 47,146 | TypeScript | macOS 安装包：[siyuan-3.8.9-mac-arm64.dmg](https://github.com/siyuan-note/siyuan/releases/download/v3.8.9/siyuan-3.8.9-mac-arm64.dmg)、[siyuan-3.8.9-mac.dmg](https://github.com/siyuan-note/siyuan/releases/download/v3.8.9/siyuan-3.8.9-mac.dmg)；Windows 安装包：[siyuan-3.8.9-win-arm64.exe](https://github.com/siyuan-note/siyuan/releases/download/v3.8.9/siyuan-3.8.9-win-arm64.exe)、[siyuan-3.8.9-win.exe](https://github.com/siyuan-note/siyuan/releases/download/v3.8.9/siyuan-3.8.9-win.exe) |
-| <a id="project-row-19"></a>[#19 ↘️](#project-detail-19) | — | [marktext/marktext](https://github.com/marktext/marktext) | 简洁优雅的跨平台Markdown编辑器。 | 近期活跃热门仓库 | 63,787 | TypeScript | macOS 安装包：[marktext-mac-arm64-0.23.0.dmg](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-mac-arm64-0.23.0.dmg)、[marktext-mac-x64-0.23.0.dmg](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-mac-x64-0.23.0.dmg)；Windows 安装包：[marktext-win-arm64-0.23.0-setup.exe](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-arm64-0.23.0-setup.exe)、[marktext-win-x64-0.23.0-setup.exe](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-x64-0.23.0-setup.exe) |
-| <a id="project-row-20"></a>[#20 ↘️](#project-detail-20) | — | [janhq/jan](https://github.com/janhq/jan) | 完全离线运行的开源ChatGPT替代品。 | 近期活跃热门仓库 | 45,640 | Rust | macOS 安装包：[Jan_0.8.8_universal.dmg](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_universal.dmg)；Windows 安装包：[Jan_0.8.8_arm64-setup.exe](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_arm64-setup.exe)、[Jan_0.8.8_x64-setup.exe](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_x64-setup.exe) |
-| <a id="project-row-21"></a>[#21 ↘️](#project-detail-21) | — | [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 一个基于 Electron 的音乐软件 | 近期活跃热门仓库 | 55,209 | TypeScript | macOS 安装包：[lx-music-desktop-2.12.6-arm64.dmg](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-2.12.6-arm64.dmg)、[lx-music-desktop-2.12.6-x64.dmg](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-2.12.6-x64.dmg)；Windows 安装包：[lx-music-desktop-v2.12.6-arm64-Setup.exe](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-arm64-Setup.exe)、[lx-music-desktop-v2.12.6-win7_x64-Setup.exe](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-win7_x64-Setup.exe) |
-| <a id="project-row-22"></a>[#22 ↘️](#project-detail-22) | — | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 轻松监控网络流量 | 近期活跃热门仓库 | 42,227 | Rust | macOS 安装包：[Sniffnet_macOS_AppleSilicon.dmg](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_macOS_AppleSilicon.dmg)、[Sniffnet_macOS_Intel.dmg](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_macOS_Intel.dmg)；Windows 安装包：[Sniffnet_Windows_arm64.msi](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_Windows_arm64.msi)、[Sniffnet_Windows_x64.msi](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_Windows_x64.msi) |
-| <a id="project-row-23"></a>[#23 ↘️](#project-detail-23) | — | [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Moonlight的自托管游戏流媒体服务器。 | 近期活跃热门仓库 | 43,204 | C++ | macOS 安装包：[Sunshine-macOS-arm64.dmg](https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine-macOS-arm64.dmg)、[Sunshine-macOS-x86_64.dmg](https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine-macOS-x86_64.dmg)；Windows 安装包：[Sunshine-Windows-AMD64-installer.msi](https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-AMD64-installer.msi)、[Sunshine-Windows-ARM64-installer.msi](https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-ARM64-installer.msi) |
-| <a id="project-row-24"></a>[#24 ↘️](#project-detail-24) | — | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | 高效低成本的开源智能体运行框架，10 美元 VPS 可运行超 500 个智能体 | 近期活跃热门仓库 | 42,617 | Rust | macOS 安装包：[OpenHuman_0.64.15_aarch64.dmg](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_aarch64.dmg)、[OpenHuman_0.64.15_x64.dmg](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64.dmg)；Windows 安装包：[OpenHuman_0.64.15_x64-setup.exe](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64-setup.exe)、[OpenHuman_0.64.15_x64_en-US.msi](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64_en-US.msi) |
-| <a id="project-row-25"></a>[#25 ↘️](#project-detail-25) | — | [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) | 构建个人知识库的笔记软件。 | 近期活跃热门仓库 | 38,778 | TypeScript | macOS 安装包：[TriliumNotes-v0.107.0-macos-arm64.dmg](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-macos-arm64.dmg)、[TriliumNotes-v0.107.0-macos-x64.dmg](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-macos-x64.dmg)；Windows 安装包：[TriliumNotes-v0.107.0-windows-arm64.exe](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-arm64.exe)、[TriliumNotes-v0.107.0-windows-x64.exe](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-x64.exe) |
-| <a id="project-row-26"></a>[#26 ↘️](#project-detail-26) | — | [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | 通过 AI 对话绘制和编辑 draw.io 图表，支持多端及 MCP Server | 近期活跃热门仓库 | 36,828 | TypeScript | macOS 安装包：[Next-AI-Draw.io-0.5.1-arm64.dmg](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next-AI-Draw.io-0.5.1-arm64.dmg)、[Next-AI-Draw.io-0.5.1.dmg](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next-AI-Draw.io-0.5.1.dmg)；Windows 安装包：[Next.AI.Draw.io.0.5.1.exe](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next.AI.Draw.io.0.5.1.exe)、[Next.AI.Draw.io.Setup.0.5.1.exe](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next.AI.Draw.io.Setup.0.5.1.exe) |
-| <a id="project-row-27"></a>[#27 ↘️](#project-detail-27) | — | [t8y2/dbx](https://github.com/t8y2/dbx) | 仅 25 MB 的跨平台数据库客户端，支持 100 多种数据库及 AI、MCP、CLI | 近期活跃热门仓库 | 29,732 | Rust | macOS 安装包：[DBX_0.6.68-beta.20261107.4_arm64.dmg](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_arm64.dmg)、[DBX_0.6.68-beta.20261107.4_x64.dmg](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_x64.dmg)；Windows 安装包：[DBX_0.6.68-beta.20261107.4_arm64-setup.exe](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_arm64-setup.exe)、[DBX_0.6.68-beta.20261107.4_arm64_en-US.msi](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_arm64_en-US.msi) |
-| <a id="project-row-28"></a>[#28 ↘️](#project-detail-28) | — | [cjpais/Handy](https://github.com/cjpais/Handy) | 完全离线的开源语音转文字应用。 | 近期活跃热门仓库 | 38,190 | Rust | macOS 安装包：[Handy_0.10.0_aarch64.dmg](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_aarch64.dmg)、[Handy_0.10.0_x64.dmg](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_x64.dmg)；Windows 安装包：[Handy_0.10.0_arm64-setup.exe](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_arm64-setup.exe)、[Handy_0.10.0_arm64_en-US.msi](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_arm64_en-US.msi) |
-| <a id="project-row-29"></a>[#29 ↘️](#project-detail-29) | — | [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop) | Pear：音乐播放器扩展。 | 近期活跃热门仓库 | 34,005 | TypeScript | macOS 安装包：[YouTube-Music-3.12.0-arm64.dmg](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-3.12.0-arm64.dmg)、[YouTube-Music-3.12.0.dmg](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-3.12.0.dmg)；Windows 安装包：[YouTube-Music-3.12.0.exe](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-3.12.0.exe)、[YouTube-Music-Web-Setup-3.12.0.exe](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-Web-Setup-3.12.0.exe) |
-| <a id="project-row-30"></a>[#30 ↘️](#project-detail-30) | — | [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) | 跨平台高效启动器。 | 近期活跃热门仓库 | 27,616 | Go | macOS 安装包：[wox-mac-amd64.dmg](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-mac-amd64.dmg)、[wox-mac-arm64.dmg](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-mac-arm64.dmg)；Windows 安装包：[wox-windows-amd64.exe](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-windows-amd64.exe) |
-| <a id="project-row-31"></a>[#31 ↘️](#project-detail-31) | — | [Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI) | 图形化包管理器管理工具。 | 近期活跃热门仓库 | 26,958 | C# | macOS 安装包：[UniGetUI.macos-arm64.dmg](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.macos-arm64.dmg)、[UniGetUI.macos-x64.dmg](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.macos-x64.dmg)；Windows 安装包：[UniGetUI.Installer.arm64.exe](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.Installer.arm64.exe)、[UniGetUI.Installer.exe](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.Installer.exe) |
-| <a id="project-row-32"></a>[#32 ↘️](#project-detail-32) | — | [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) | 跨平台的KeePass密码管理器移植版。 | 近期活跃热门仓库 | 29,888 | C++ | macOS 安装包：[KeePassXC-2.8.0-1-arm64.dmg](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-arm64.dmg)、[KeePassXC-2.8.0-1-x86_64.dmg](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-x86_64.dmg)；Windows 安装包：[KeePassXC-2.8.0-ARM64.msi](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-ARM64.msi)、[KeePassXC-2.8.0-x64.msi](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi) |
-| <a id="project-row-33"></a>[#33 ↘️](#project-detail-33) | — | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | 支持多协议的高速跨平台下载管理器。 | 近期活跃热门仓库 | 27,552 | Dart | macOS 安装包：[Gopeed-v1.9.3-macos-amd64.dmg](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-macos-amd64.dmg)、[Gopeed-v1.9.3-macos-arm64.dmg](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-macos-arm64.dmg)；Windows 安装包：[Gopeed-v1.9.3-windows-amd64.exe](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-windows-amd64.exe)、[Gopeed-v1.9.3-windows-arm64.exe](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-windows-arm64.exe) |
-| <a id="project-row-34"></a>[#34 ↘️](#project-detail-34) | — | [getpaseo/paseo](https://github.com/getpaseo/paseo) | 桌面和移动端多智能体编程协调工具。 | 近期活跃热门仓库 | 23,658 | TypeScript | macOS 安装包：[Paseo-0.15.3-arm64.dmg](https://github.com/getpaseo/paseo/releases/download/v0.15.3/Paseo-0.15.3-arm64.dmg)、[Paseo-0.15.3-x64.dmg](https://github.com/getpaseo/paseo/releases/download/v0.15.3/Paseo-0.15.3-x64.dmg)；Windows 安装包：[Paseo-Setup-0.15.3-arm64.exe](https://github.com/getpaseo/paseo/releases/download/v0.15.3/Paseo-Setup-0.15.3-arm64.exe)、[Paseo-Setup-0.15.3-x64.exe](https://github.com/getpaseo/paseo/releases/download/v0.15.3/Paseo-Setup-0.15.3-x64.exe) |
-| <a id="project-row-35"></a>[#35 ↘️](#project-detail-35) | — | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | 功能强大且易用的截图软件。 | 近期活跃热门仓库 | 31,479 | C++ | macOS 安装包：[Flameshot-15.0.0-macos-arm64.dmg](https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-macos-arm64.dmg)、[Flameshot-15.0.0-macos-intel.dmg](https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-macos-intel.dmg)；Windows 安装包：[Flameshot-15.0.0-win64.msi](https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-win64.msi) |
-| <a id="project-row-36"></a>[#36 ↘️](#project-detail-36) | — | [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) | 现代易用的数据库 GUI 与 SQL 客户端，支持多种数据库及主流桌面系统 | 近期活跃热门仓库 | 23,865 | TypeScript | macOS 安装包：[Beekeeper-Studio-6.2.2-arm64.dmg](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64.dmg)、[Beekeeper-Studio-6.2.2.dmg](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2.dmg)；Windows 安装包：[Beekeeper-Studio-6.2.2-arm64-portable.exe](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64-portable.exe)、[Beekeeper-Studio-6.2.2-arm64.msi](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64.msi) |
-| <a id="project-row-37"></a>[#37 ↘️](#project-detail-37) | — | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | Super Productivity：集成时间管理的高级待办事项应用。 | 近期活跃热门仓库 | 23,549 | TypeScript | macOS 安装包：[superProductivity-arm64.dmg](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-arm64.dmg)、[superProductivity-universal.dmg](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-universal.dmg)；Windows 安装包：[Super-Productivity-Setup-arm64.exe](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/Super-Productivity-Setup-arm64.exe)、[Super-Productivity-Setup-x64.exe](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/Super-Productivity-Setup-x64.exe) |
-| <a id="project-row-38"></a>[#38 ↘️](#project-detail-38) | — | [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | 直观的桌面API客户端，支持多种协议。 | 近期活跃热门仓库 | 19,469 | Rust | macOS 安装包：[Yaak_2026.9.1_aarch64.dmg](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_aarch64.dmg)、[Yaak_2026.9.1_x64.dmg](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_x64.dmg)；Windows 安装包：[Yaak_2026.9.1_arm64-setup-machine.exe](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_arm64-setup-machine.exe)、[Yaak_2026.9.1_arm64-setup.exe](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_arm64-setup.exe) |
-| <a id="project-row-39"></a>[#39 ↘️](#project-detail-39) | — | [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | 免费开源的自动化时间追踪器。 | 近期活跃热门仓库 | 19,573 | Python | macOS 安装包：[activitywatch-tauri-v0.14.1-macos-arm64.dmg](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.1/activitywatch-tauri-v0.14.1-macos-arm64.dmg)、[activitywatch-tauri-v0.14.1-macos-x86_64.dmg](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.1/activitywatch-tauri-v0.14.1-macos-x86_64.dmg)；Windows 安装包：[activitywatch-tauri-v0.14.1-windows-x86_64-setup.exe](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.1/activitywatch-tauri-v0.14.1-windows-x86_64-setup.exe)、[activitywatch-v0.14.1-windows-x86_64-setup.exe](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.1/activitywatch-v0.14.1-windows-x86_64-setup.exe) |
-| <a id="project-row-40"></a>[#40 ↘️](#project-detail-40) | — | [nukeop/nuclear](https://github.com/nukeop/nuclear) | 免费音乐流媒体播放器。 | 近期活跃热门仓库 | 18,908 | TypeScript | macOS 安装包：[Nuclear_1.54.2_aarch64.dmg](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_aarch64.dmg)、[Nuclear_1.54.2_x64.dmg](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64.dmg)；Windows 安装包：[Nuclear_1.54.2_x64-setup.exe](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64-setup.exe)、[Nuclear_1.54.2_x64_en-US.msi](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64_en-US.msi) |
-| <a id="project-row-41"></a>[#41 ↘️](#project-detail-41) | — | [audacity/audacity](https://github.com/audacity/audacity) | 音频编辑器。 | 近期活跃热门仓库 | 19,004 | C++ | macOS 安装包：[audacity-macOS-4.0.2-arm64.dmg](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-arm64.dmg)、[audacity-macOS-4.0.2-universal.dmg](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-universal.dmg)；Windows 安装包：[audacity-win-4.0.2-arm64.msi](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi)、[audacity-win-4.0.2-x86_64.msi](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-x86_64.msi) |
-| <a id="project-row-42"></a>[#42 ↘️](#project-detail-42) | — | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 具备记忆与协作能力的 AI 工作伙伴 | 近期活跃热门仓库 | 18,151 | TypeScript | macOS 安装包：[Rowboat-darwin-arm64-1.0.3.dmg](https://github.com/rowboatlabs/rowboat/releases/download/v1.0.3/Rowboat-darwin-arm64-1.0.3.dmg)、[Rowboat-darwin-x64-1.0.3.dmg](https://github.com/rowboatlabs/rowboat/releases/download/v1.0.3/Rowboat-darwin-x64-1.0.3.dmg)；Windows 安装包：[Rowboat-win32-x64-1.0.3-setup.exe](https://github.com/rowboatlabs/rowboat/releases/download/v1.0.3/Rowboat-win32-x64-1.0.3-setup.exe) |
-| <a id="project-row-43"></a>[#43 ↘️](#project-detail-43) | — | [Automattic/harper](https://github.com/Automattic/harper) | 离线、隐私优先且由 Rust 驱动的快速开源语法检查器 | 近期活跃热门仓库 | 17,520 | Rust | macOS 安装包：[Harper_3.1.0_universal.dmg](https://github.com/Automattic/harper/releases/download/v3.1.0/Harper_3.1.0_universal.dmg)；Windows 安装包：[Harper_3.1.0_x64-setup.exe](https://github.com/Automattic/harper/releases/download/v3.1.0/Harper_3.1.0_x64-setup.exe) |
-| <a id="project-row-44"></a>[#44 ↘️](#project-detail-44) | — | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、远程控制 | 近期活跃热门仓库 | 17,435 | Vue | macOS 安装包：[AlgerMusicPlayer-5.1.0-mac-arm64.dmg](https://github.com/algerkong/AlgerMusicPlayer/releases/download/v5.1.0/AlgerMusicPlayer-5.1.0-mac-arm64.dmg)、[AlgerMusicPlayer-5.1.0-mac-x64.dmg](https://github.com/algerkong/AlgerMusicPlayer/releases/download/v5.1.0/AlgerMusicPlayer-5.1.0-mac-x64.dmg)；Windows 安装包：[AlgerMusicPlayer-5.1.0-win-arm64.exe](https://github.com/algerkong/AlgerMusicPlayer/releases/download/v5.1.0/AlgerMusicPlayer-5.1.0-win-arm64.exe)、[AlgerMusicPlayer-5.1.0-win-ia32.exe](https://github.com/algerkong/AlgerMusicPlayer/releases/download/v5.1.0/AlgerMusicPlayer-5.1.0-win-ia32.exe) |
-| <a id="project-row-45"></a>[#45 ↘️](#project-detail-45) | — | [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix) | 支持自托管和插件扩展的服务器管理工具 | 近期活跃热门仓库 | 15,908 | TypeScript | macOS 安装包：[termix_macos_arm64_dmg.dmg](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_macos_arm64_dmg.dmg)、[termix_macos_universal_dmg.dmg](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_macos_universal_dmg.dmg)；Windows 安装包：[termix_windows_arm64_msi.msi](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_windows_arm64_msi.msi)、[termix_windows_arm64_nsis.exe](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_windows_arm64_nsis.exe) |
-| <a id="project-row-46"></a>[#46 ↘️](#project-detail-46) | — | [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) | 集成AI的跨平台终端工具。 | 近期活跃热门仓库 | 22,679 | Go | macOS 安装包：[Wave-darwin-arm64-0.14.5.dmg](https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/Wave-darwin-arm64-0.14.5.dmg)、[Wave-darwin-x64-0.14.5.dmg](https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/Wave-darwin-x64-0.14.5.dmg)；Windows 安装包：[Wave-win32-x64-0.14.5.exe](https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/Wave-win32-x64-0.14.5.exe)、[Wave-win32-x64-0.14.5.msi](https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/Wave-win32-x64-0.14.5.msi) |
-| <a id="project-row-47"></a>[#47 ↘️](#project-detail-47) | — | [electerm/electerm](https://github.com/electerm/electerm) | 免费开源的跨平台终端及 SSH、SFTP、FTP、远程桌面客户端 | 近期活跃热门仓库 | 15,582 | JavaScript | macOS 安装包：[electerm-5.10.0-mac-arm64.dmg](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-mac-arm64.dmg)、[electerm-5.10.0-mac-x64.dmg](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-mac-x64.dmg)；Windows 安装包：[electerm-5.10.0-win-arm64-installer.exe](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-win-arm64-installer.exe)、[electerm-5.10.0-win-x64-installer.exe](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-win-x64-installer.exe) |
-| <a id="project-row-48"></a>[#48 ↘️](#project-detail-48) | — | [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha) | 本地优先的跨平台 Claude Code 与 AI Agent 桌面协作工作台 | 近期活跃热门仓库 | 15,369 | TypeScript | macOS 安装包：[Claude-Code-Haha-0.7.7-macOS-Apple-Silicon.dmg](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.7/Claude-Code-Haha-0.7.7-macOS-Apple-Silicon.dmg)、[Claude-Code-Haha-0.7.7-macOS-Intel.dmg](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.7/Claude-Code-Haha-0.7.7-macOS-Intel.dmg)；Windows 安装包：[Claude-Code-Haha-0.7.7-Windows-arm64-Setup.exe](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.7/Claude-Code-Haha-0.7.7-Windows-arm64-Setup.exe)、[Claude-Code-Haha-0.7.7-Windows-x64-Setup.exe](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.7/Claude-Code-Haha-0.7.7-Windows-x64-Setup.exe) |
-| <a id="project-row-49"></a>[#49 ↘️](#project-detail-49) | — | [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | 完全开源且端到端加密的笔记软件，Evernote替代品。 | 近期活跃热门仓库 | 14,907 | TypeScript | macOS 安装包：[notesnook_mac_arm64.dmg](https://github.com/streetwriters/notesnook/releases/download/v3.4.12/notesnook_mac_arm64.dmg)、[notesnook_mac_x64.dmg](https://github.com/streetwriters/notesnook/releases/download/v3.4.12/notesnook_mac_x64.dmg)；Windows 安装包：[notesnook_win.exe](https://github.com/streetwriters/notesnook/releases/download/v3.4.12/notesnook_win.exe)、[notesnook_win_arm64.exe](https://github.com/streetwriters/notesnook/releases/download/v3.4.12/notesnook_win_arm64.exe) |
-| <a id="project-row-50"></a>[#50 ↘️](#project-detail-50) | — | [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 从任务到合并 PR，规划、运行并监督多个智能体，支持桌面及移动端 | 近期活跃热门仓库 | 14,365 | Go | macOS 安装包：[agent-orchestrator-darwin-arm64.dmg](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-darwin-arm64.dmg)、[agent-orchestrator-darwin-x64.dmg](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-darwin-x64.dmg)；Windows 安装包：[agent-orchestrator-win32-x64.exe](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-win32-x64.exe)、[Agent.Orchestrator.Setup.0.14.10.exe](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/Agent.Orchestrator.Setup.0.14.10.exe) |
-| <a id="project-row-51"></a>[#51 ↘️](#project-detail-51) | — | [bitwarden/clients](https://github.com/bitwarden/clients) | 涵盖网页、浏览器扩展、桌面端和 CLI 的 Bitwarden 客户端 | 近期活跃热门仓库 | 14,187 | TypeScript | macOS 安装包：[Bitwarden-2026.10.4-universal.dmg](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-2026.10.4-universal.dmg)、[commercial-Bitwarden-2026.10.4-universal.dmg](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/commercial-Bitwarden-2026.10.4-universal.dmg)；Windows 安装包：[Bitwarden-Installer-2026.10.4.exe](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-Installer-2026.10.4.exe)、[Bitwarden-Portable-2026.10.4.exe](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-Portable-2026.10.4.exe) |
-| <a id="project-row-52"></a>[#52 ↘️](#project-detail-52) | — | [VSCodium/vscodium](https://github.com/VSCodium/vscodium) | 无微软品牌和遥测的VS Code二进制版。 | 近期活跃热门仓库 | 34,032 | Shell | macOS 安装包：[VSCodium.arm64.1.143.17232.dmg](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium.arm64.1.143.17232.dmg)、[VSCodium.x64.1.143.17232.dmg](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium.x64.1.143.17232.dmg)；Windows 安装包：[VSCodium-x64-1.143.17232.msi](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-x64-1.143.17232.msi)、[VSCodium-x64-updates-disabled-1.143.17232.msi](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-x64-updates-disabled-1.143.17232.msi) |
-| <a id="project-row-53"></a>[#53 ↘️](#project-detail-53) | — | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) | 加速下载的下载管理器。 | 近期活跃热门仓库 | 19,141 | Kotlin | macOS 安装包：[ABDownloadManager_1.11.4_mac_arm64.dmg](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_mac_arm64.dmg)、[ABDownloadManager_1.11.4_mac_x64.dmg](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_mac_x64.dmg)；Windows 安装包：[ABDownloadManager_1.11.4_windows_arm64.exe](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_windows_arm64.exe)、[ABDownloadManager_1.11.4_windows_x64.exe](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_windows_x64.exe) |
-| <a id="project-row-54"></a>[#54 ↘️](#project-detail-54) | — | [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext) | 跨平台的Notepad++重实现文本编辑器。 | 近期活跃热门仓库 | 14,773 | C++ | macOS 安装包：[NotepadNext-v0.15-arm64.dmg](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-arm64.dmg)、[NotepadNext-v0.15-x64.dmg](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-x64.dmg)；Windows 安装包：[NotepadNext-v0.15-Installer-arm64.exe](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-Installer-arm64.exe)、[NotepadNext-v0.15-Installer.exe](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-Installer.exe) |
-| <a id="project-row-55"></a>[#55 ↘️](#project-detail-55) | — | [elie222/inbox-zero](https://github.com/elie222/inbox-zero) | 帮助用户快速清空收件箱的开源AI邮件个人助理。 | 近期活跃热门仓库 | 12,961 | TypeScript | macOS 安装包：[Inbox-Zero-0.1.24-mac-arm64.dmg](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-mac-arm64.dmg)、[Inbox-Zero-0.1.24-mac-x64.dmg](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-mac-x64.dmg)；Windows 安装包：[Inbox-Zero-0.1.24-win-arm64.exe](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-win-arm64.exe)、[Inbox-Zero-0.1.24-win-x64.exe](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-win-x64.exe) |
-| <a id="project-row-56"></a>[#56 ↘️](#project-detail-56) | — | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 功能丰富的剪贴板管理器。 | 近期活跃热门仓库 | 12,621 | C++ | macOS 安装包：[CopyQ-17.0.0-macos-13-m1.dmg](https://github.com/hluk/CopyQ/releases/download/v17.0.0/CopyQ-17.0.0-macos-13-m1.dmg)、[CopyQ-17.0.0-macos-13.dmg](https://github.com/hluk/CopyQ/releases/download/v17.0.0/CopyQ-17.0.0-macos-13.dmg)；Windows 安装包：[copyq-17.0.0-setup.exe](https://github.com/hluk/CopyQ/releases/download/v17.0.0/copyq-17.0.0-setup.exe) |
-| <a id="project-row-57"></a>[#57 ↘️](#project-detail-57) | — | [espanso/espanso](https://github.com/espanso/espanso) | 注重隐私的跨平台文本扩展工具，Rust开发。 | 近期活跃热门仓库 | 14,756 | Rust | macOS 安装包：[Espanso-Mac-Universal.dmg](https://github.com/espanso/espanso/releases/download/v2.4.1/Espanso-Mac-Universal.dmg)；Windows 安装包：[Espanso-Win-Installer-x86_64.exe](https://github.com/espanso/espanso/releases/download/v2.4.1/Espanso-Win-Installer-x86_64.exe) |
-| <a id="project-row-58"></a>[#58 ↘️](#project-detail-58) | — | [chthollyphile/folia-major](https://github.com/chthollyphile/folia-major) | 支持本地文件、Navidrome 和在线流媒体的多平台音乐播放器，主打绚丽歌词动画 | 近期活跃热门仓库 | 12,193 | TypeScript | macOS 安装包：[Folia-0.7.27-arm64.dmg](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-0.7.27-arm64.dmg)、[Folia-0.7.27-x64.dmg](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-0.7.27-x64.dmg)；Windows 安装包：[Folia-Setup-0.7.27.exe](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-Setup-0.7.27.exe) |
-| <a id="project-row-59"></a>[#59 ↘️](#project-detail-59) | — | [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) | 一站式出版工作平台。 | 近期活跃热门仓库 | 13,899 | TypeScript | macOS 安装包：[Zettlr-4.9.0-arm64.dmg](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-arm64.dmg)、[Zettlr-4.9.0-x64.dmg](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-x64.dmg)；Windows 安装包：[Zettlr-4.9.0-x64.exe](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-x64.exe) |
-| <a id="project-row-60"></a>[#60 ↘️](#project-detail-60) | — | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 免费本地追踪 37 种 AI 编程工具的令牌用量与成本 | 近期活跃热门仓库 | 11,745 | TypeScript | macOS 安装包：[CodeBurn-0.9.28-arm64.dmg](https://github.com/getagentseal/codeburn/releases/download/desktop-v0.9.28/CodeBurn-0.9.28-arm64.dmg)、[CodeBurn-0.9.28.dmg](https://github.com/getagentseal/codeburn/releases/download/desktop-v0.9.28/CodeBurn-0.9.28.dmg)；Windows 安装包：[CodeBurn-Setup-0.9.28.exe](https://github.com/getagentseal/codeburn/releases/download/desktop-v0.9.28/CodeBurn-Setup-0.9.28.exe) |
-| <a id="project-row-61"></a>[#61 ↘️](#project-detail-61) | — | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 免费开源的 AI 办公套件，支持多种文档编辑及本地生成和编辑 Office 文件 | 近期活跃热门仓库 | 12,034 | TypeScript | macOS 安装包：[GenOffice-0.12.852-arm64.dmg](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOffice-0.12.852-arm64.dmg)、[GenOffice-0.12.852.dmg](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOffice-0.12.852.dmg)；Windows 安装包：[GenOfficeSetup-v0.12.852-arm64.exe](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOfficeSetup-v0.12.852-arm64.exe)、[GenOfficeSetup-v0.12.852-x64.exe](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOfficeSetup-v0.12.852-x64.exe) |
-| <a id="project-row-62"></a>[#62 ↘️](#project-detail-62) | — | [OpenWhispr/openwhispr](https://github.com/OpenWhispr/openwhispr) | 隐私优先的跨平台语音转文字应用，支持本地和云端模型。 | 近期活跃热门仓库 | 11,146 | JavaScript | macOS 安装包：[OpenWhispr-1.11.0-arm64.dmg](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-1.11.0-arm64.dmg)、[OpenWhispr-1.11.0.dmg](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-1.11.0.dmg)；Windows 安装包：[OpenWhispr-Setup-1.11.0.exe](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-Setup-1.11.0.exe) |
-| <a id="project-row-63"></a>[#63 ↘️](#project-detail-63) | — | [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae) | 原生、快速且可扩展的桌面启动器 | 近期活跃热门仓库 | 10,568 | C++ | macOS 安装包：[Vicinae.dmg](https://github.com/vicinaehq/vicinae/releases/download/v0.30.0/Vicinae.dmg)；Windows 安装包：[vicinae-x64-setup.exe](https://github.com/vicinaehq/vicinae/releases/download/v0.30.0/vicinae-x64-setup.exe) |
-| <a id="project-row-64"></a>[#64 ↘️](#project-detail-64) | — | [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | 一站式下载器，满足多种下载需求。 | 近期活跃热门仓库 | 10,939 | Python | macOS 安装包：[Ghost-Downloader-v4.5.1-macOS-arm64.dmg](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-macOS-arm64.dmg)、[Ghost-Downloader-v4.5.1-macOS-x86_64.dmg](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-macOS-x86_64.dmg)；Windows 安装包：[Ghost-Downloader-v4.5.1-Windows-arm64-Setup.exe](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-Windows-arm64-Setup.exe)、[Ghost-Downloader-v4.5.1-Windows-x86_64-Setup.exe](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-Windows-x86_64-Setup.exe) |
-| <a id="project-row-65"></a>[#65 ↘️](#project-detail-65) | — | [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | 可从数百个网站下载音频和视频的桌面应用 | 近期活跃热门仓库 | 10,611 | JavaScript | macOS 安装包：[YTDownloader_Mac_arm64.dmg](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Mac_arm64.dmg)、[YTDownloader_Mac_x64.dmg](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Mac_x64.dmg)；Windows 安装包：[YTDownloader_Win.exe](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Win.exe)、[YTDownloader_Win.msi](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Win.msi) |
-| <a id="project-row-66"></a>[#66 ↘️](#project-detail-66) | — | [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW) | 高性能GPU加速的非破坏性RAW图像编辑器。 | 近期活跃热门仓库 | 11,037 | TypeScript | macOS 安装包：[02_RapidRAW_v1.6.9_macos-15-intel_x64.dmg](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/02_RapidRAW_v1.6.9_macos-15-intel_x64.dmg)、[02_RapidRAW_v1.6.9_macos-15_aarch64.dmg](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/02_RapidRAW_v1.6.9_macos-15_aarch64.dmg)；Windows 安装包：[01_RapidRAW_v1.6.9_windows-11-arm_arm64.exe](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows-11-arm_arm64.exe)、[01_RapidRAW_v1.6.9_windows-11-arm_arm64.msi](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows-11-arm_arm64.msi) |
-| <a id="project-row-67"></a>[#67 ↘️](#project-detail-67) | — | [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil) | 开源AI设计编辑器，Figma替代方案。 | 近期活跃热门仓库 | 9,729 | TypeScript | macOS 安装包：[OpenPencil_0.16.0_aarch64.dmg](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_aarch64.dmg)、[OpenPencil_0.16.0_x64.dmg](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_x64.dmg)；Windows 安装包：[OpenPencil_0.16.0_arm64-setup.exe](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_arm64-setup.exe)、[OpenPencil_0.16.0_arm64_en-US.msi](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_arm64_en-US.msi) |
-| <a id="project-row-68"></a>[#68 ↘️](#project-detail-68) | — | [jeffvli/feishin](https://github.com/jeffvli/feishin) | 现代自托管音乐播放器。 | 近期活跃热门仓库 | 10,376 | TypeScript | macOS 安装包：[Feishin-1.17.0-mac-arm64.dmg](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-mac-arm64.dmg)、[Feishin-1.17.0-mac-x64.dmg](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-mac-x64.dmg)；Windows 安装包：[Feishin-1.17.0-win-arm64.exe](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win-arm64.exe)、[Feishin-1.17.0-win-x64.exe](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win-x64.exe) |
-| <a id="project-row-69"></a>[#69 ↘️](#project-detail-69) | — | [crynta/terax-ai](https://github.com/crynta/terax-ai) | 仅 7 MB、以终端为核心的 AI 原生开发环境 | 近期活跃热门仓库 | 9,454 | TypeScript | macOS 安装包：[Terax_0.9.0_aarch64.dmg](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_aarch64.dmg)、[Terax_0.9.0_x64.dmg](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_x64.dmg)；Windows 安装包：[Terax_0.9.0_x64-setup.exe](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_x64-setup.exe)、[Terax_0.9.0_x64_en-US.msi](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_x64_en-US.msi) |
-| <a id="project-row-70"></a>[#70 ↘️](#project-detail-70) | — | [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin) | 使用现有订阅在本地或沙箱中管理 Claude Code、Codex 等智能体 | 近期活跃热门仓库 | 9,453 | JavaScript | macOS 安装包：[Munder-Difflin-0.5.5-mac-universal.dmg](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-mac-universal.dmg)；Windows 安装包：[Munder-Difflin-0.5.5-win-x64-portable.exe](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-win-x64-portable.exe)、[Munder-Difflin-0.5.5-win-x64-setup.exe](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-win-x64-setup.exe) |
-| <a id="project-row-71"></a>[#71 ↘️](#project-detail-71) | — | [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) | 将长视频自动剪成短视频并生成字幕、封面和发布文案的开源 AI 桌面工具 | 近期活跃热门仓库 | 10,196 | Python | macOS 安装包：[AutoClip.Desktop_1.5.8_aarch64.dmg](https://github.com/zhouxiaoka/autoclip/releases/download/v1.5.8/AutoClip.Desktop_1.5.8_aarch64.dmg)；Windows 安装包：[AutoClip.Desktop_1.5.8_x64-setup.exe](https://github.com/zhouxiaoka/autoclip/releases/download/v1.5.8/AutoClip.Desktop_1.5.8_x64-setup.exe) |
-| <a id="project-row-72"></a>[#72 ↘️](#project-detail-72) | — | [evolus/pencil](https://github.com/evolus/pencil) | 免费开源的图表绘制与 GUI 原型设计工具，人人皆可使用。 | 近期活跃热门仓库 | 9,907 | JavaScript | macOS 安装包：[Pencil-4.0.0-arm64.dmg](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0-arm64.dmg)、[Pencil-4.0.0-universal.dmg](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0-universal.dmg)；Windows 安装包：[Pencil-4.0.0.ga.exe](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0.ga.exe) |
-| <a id="project-row-73"></a>[#73 ↘️](#project-detail-73) | — | [komi-store/komi-store](https://github.com/komi-store/komi-store) | 免费的开源应用商店，可浏览、发现并一键安装开发者在 GitHub、Codeberg 和 Forgejo 上发布的应用。 | 近期活跃热门仓库 | 20,493 | Kotlin | macOS 安装包：[Komi-Store-1.9.4-arm64.dmg](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4-arm64.dmg)、[Komi-Store-1.9.4-x64.dmg](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4-x64.dmg)；Windows 安装包：[Komi-Store-1.9.4.exe](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4.exe)、[Komi-Store-1.9.4.msi](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4.msi) |
-| <a id="project-row-74"></a>[#74 ↘️](#project-detail-74) | — | [mltframework/shotcut](https://github.com/mltframework/shotcut) | 跨平台开源视频编辑器，基于Qt和GPLv3。 | 近期活跃热门仓库 | 15,642 | C++ | macOS 安装包：[shotcut-macos-26.9.27.dmg](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-macos-26.9.27.dmg)、[shotcut-macos-26.9.28.dmg](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-macos-26.9.28.dmg)；Windows 安装包：[shotcut-win64-26.9.27.exe](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win64-26.9.27.exe)、[shotcut-win_ARM-26.9.27.exe](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win_ARM-26.9.27.exe) |
-| <a id="project-row-75"></a>[#75 ↘️](#project-detail-75) | — | [tonyantony300/dashbeam](https://github.com/tonyantony300/dashbeam) | 与附近或远方的用户分享文件。 | 近期活跃热门仓库 | 10,267 | TypeScript | macOS 安装包：[DashBeam_0.7.2_aarch64.dmg](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_aarch64.dmg)、[DashBeam_0.7.2_universal.dmg](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_universal.dmg)；Windows 安装包：[DashBeam_0.7.2_arm64-setup.exe](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_arm64-setup.exe)、[DashBeam_0.7.2_x64-setup.exe](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_x64-setup.exe) |
-| <a id="project-row-76"></a>[#76 ↘️](#project-detail-76) | — | [mockoon/mockoon](https://github.com/mockoon/mockoon) | 本地快速运行模拟API的开源工具，无需账号。 | 近期活跃热门仓库 | 8,477 | TypeScript | macOS 安装包：[mockoon.setup.9.10.0.arm64.dmg](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.setup.9.10.0.arm64.dmg)、[mockoon.setup.9.10.0.universal.dmg](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.setup.9.10.0.universal.dmg)；Windows 安装包：[mockoon.portable.9.10.0.exe](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.portable.9.10.0.exe)、[mockoon.setup.9.10.0.exe](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.setup.9.10.0.exe) |
-| <a id="project-row-77"></a>[#77 ↘️](#project-detail-77) | — | [l0ng-ai/openidea](https://github.com/l0ng-ai/openidea) | 用 Rust 重构的原生高速 IDE，支持 60 多种语言及 IntelliJ IDEA 风格交互 | 近期活跃热门仓库 | 8,157 | TypeScript | macOS 安装包：[OpenIDEA_0.1.40_aarch64.dmg](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_aarch64.dmg)、[OpenIDEA_0.1.40_x64.dmg](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_x64.dmg)；Windows 安装包：[OpenIDEA_0.1.40_arm64-setup.exe](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_arm64-setup.exe)、[OpenIDEA_0.1.40_arm64_en-US.msi](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_arm64_en-US.msi) |
-| <a id="project-row-78"></a>[#78 ↘️](#project-detail-78) | — | [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor) | 通用2D图像编辑器。 | 近期活跃热门仓库 | 8,132 | C# | macOS 安装包：[PixiEditor-2.1.2.5-universal-macos.dmg](https://github.com/PixiEditor/PixiEditor/releases/download/2.1.2.5/PixiEditor-2.1.2.5-universal-macos.dmg)；Windows 安装包：[PixiEditor-2.1.2.5-setup-x64-win.exe](https://github.com/PixiEditor/PixiEditor/releases/download/2.1.2.5/PixiEditor-2.1.2.5-setup-x64-win.exe) |
-| <a id="project-row-79"></a>[#79 ↘️](#project-detail-79) | — | [codexu/note-gen](https://github.com/codexu/note-gen) | 本地优先的 Markdown 应用，用 AI 将零散记录整理成清晰笔记。 | 近期活跃热门仓库 | 12,995 | TypeScript | macOS 安装包：[NoteGen_0.39.2_aarch64.dmg](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_aarch64.dmg)、[NoteGen_0.39.2_x64.dmg](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64.dmg)；Windows 安装包：[NoteGen_0.39.2_x64-setup.exe](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64-setup.exe)、[NoteGen_0.39.2_x64_en-US.msi](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64_en-US.msi) |
-| <a id="project-row-80"></a>[#80 ↘️](#project-detail-80) | — | [lightningpixel/modly](https://github.com/lightningpixel/modly) | 使用本地 AI 从图片或提示词生成 3D 模型，完全由 GPU 运行的桌面应用 | 近期活跃热门仓库 | 8,603 | TypeScript | macOS 安装包：[Modly-0.4.3-arm64.dmg](https://github.com/lightningpixel/modly/releases/download/v0.4.3/Modly-0.4.3-arm64.dmg)；Windows 安装包：[Modly-Setup-0.4.3.exe](https://github.com/lightningpixel/modly/releases/download/v0.4.3/Modly-Setup-0.4.3.exe) |
-| <a id="project-row-81"></a>[#81 ↘️](#project-detail-81) | — | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | 本地优先的 AI 编码智能体桌面端，支持用户安装插件 | 近期活跃热门仓库 | 7,838 | TypeScript | macOS 安装包：[PI-Desktop-0.22.0-arm64.dmg](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-0.22.0-arm64.dmg)、[PI-Desktop-0.22.0-x64.dmg](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-0.22.0-x64.dmg)；Windows 安装包：[PI-Desktop-Portable-0.22.0.exe](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-Portable-0.22.0.exe)、[PI-Desktop-Setup-0.22.0.exe](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-Setup-0.22.0.exe) |
-| <a id="project-row-82"></a>[#82 ↘️](#project-detail-82) | — | [elie222/rakazo](https://github.com/elie222/rakazo) | 开源 Grok Bot 替代方案，可自选模型和沙箱 | 近期活跃热门仓库 | 7,702 | TypeScript | macOS 安装包：[Rakazo-0.8.0-universal.dmg](https://github.com/elie222/rakazo/releases/download/v0.8.0/Rakazo-0.8.0-universal.dmg)；Windows 安装包：[Rakazo-Setup-0.8.0.exe](https://github.com/elie222/rakazo/releases/download/v0.8.0/Rakazo-Setup-0.8.0.exe) |
-| <a id="project-row-83"></a>[#83 ↘️](#project-detail-83) | — | [4gray/iptvnator](https://github.com/4gray/iptvnator) | 跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。 | 近期活跃热门仓库 | 7,669 | TypeScript | macOS 安装包：[iptvnator-0.25.0-mac-arm64.dmg](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-mac-arm64.dmg)、[iptvnator-0.25.0-mac-x64.dmg](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-mac-x64.dmg)；Windows 安装包：[iptvnator-0.25.0-windows-x64-setup.exe](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-windows-x64-setup.exe) |
-| <a id="project-row-84"></a>[#84 ↘️](#project-detail-84) | — | [ayangweb/BongoCat](https://github.com/ayangweb/BongoCat) | 为桌面增添乐趣的跨平台互动桌面宠物 | 近期活跃热门仓库 | 24,565 | Rust | macOS 安装包：[BongoCat-2.4.1-aarch64.dmg](https://github.com/ayangweb/BongoCat/releases/download/v2.4.1/BongoCat-2.4.1-aarch64.dmg)、[BongoCat-2.4.1-x64.dmg](https://github.com/ayangweb/BongoCat/releases/download/v2.4.1/BongoCat-2.4.1-x64.dmg)；Windows 安装包：[BongoCat_2.4.1_x64.exe](https://github.com/ayangweb/BongoCat/releases/download/v2.4.1/BongoCat_2.4.1_x64.exe) |
-| <a id="project-row-85"></a>[#85 ↘️](#project-detail-85) | — | [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop) | 桌面容器管理和Kubernetes工具。 | 近期活跃热门仓库 | 7,408 | TypeScript | macOS 安装包：[Rancher.Desktop-1.25.0.aarch64.dmg](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop-1.25.0.aarch64.dmg)、[Rancher.Desktop-1.25.0.x86_64.dmg](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop-1.25.0.x86_64.dmg)；Windows 安装包：[Rancher.Desktop.Setup.1.25.0.msi](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop.Setup.1.25.0.msi) |
-| <a id="project-row-86"></a>[#86 ↘️](#project-detail-86) | — | [mediago-dev/mediago](https://github.com/mediago-dev/mediago) | 跨平台视频下载器，支持m3u8/HLS及主流视频网站。 | 近期活跃热门仓库 | 9,367 | TypeScript | macOS 安装包：[mediago-community-setup-darwin-arm64-3.5.0.dmg](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-setup-darwin-arm64-3.5.0.dmg)、[mediago-community-setup-darwin-x64-3.5.0.dmg](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-setup-darwin-x64-3.5.0.dmg)；Windows 安装包：[mediago-community-portable-win32-x64-3.5.0.exe](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-portable-win32-x64-3.5.0.exe)、[mediago-community-setup-win32-x64-3.5.0.exe](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-setup-win32-x64-3.5.0.exe) |
-| <a id="project-row-87"></a>[#87 ↘️](#project-detail-87) | — | [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop) | 支持Mac、Windows和Linux的流媒体种子客户端。 | 近期活跃热门仓库 | 10,147 | JavaScript | macOS 安装包：[WebTorrent-v0.24.0.dmg](https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.24.0/WebTorrent-v0.24.0.dmg)；Windows 安装包：[WebTorrentSetup-v0.24.0.exe](https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.24.0/WebTorrentSetup-v0.24.0.exe) |
-| <a id="project-row-88"></a>[#88 ↘️](#project-detail-88) | — | [raphamorim/rio](https://github.com/raphamorim/rio) | 硬件加速GPU终端模拟器，支持桌面和浏览器运行。 | 近期活跃热门仓库 | 7,721 | Rust | macOS 安装包：[rio.dmg](https://github.com/raphamorim/rio/releases/download/v0.5.29/rio.dmg)；Windows 安装包：[rio-installer-aarch64.msi](https://github.com/raphamorim/rio/releases/download/v0.5.29/rio-installer-aarch64.msi)、[rio-installer-x86_64.msi](https://github.com/raphamorim/rio/releases/download/v0.5.29/rio-installer-x86_64.msi) |
-| <a id="project-row-89"></a>[#89 ↘️](#project-detail-89) | — | [binaricat/Netcatty](https://github.com/binaricat/Netcatty) | 集成SSH、SFTP和终端的工作空间工具。 | 近期活跃热门仓库 | 7,193 | TypeScript | macOS 安装包：[Netcatty-1.1.90-mac-arm64.dmg](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-mac-arm64.dmg)、[Netcatty-1.1.90-mac-x64.dmg](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-mac-x64.dmg)；Windows 安装包：[Netcatty-1.1.90-portable-win-x64.exe](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-portable-win-x64.exe)、[Netcatty-1.1.90-win-x64.exe](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-win-x64.exe) |
-| <a id="project-row-90"></a>[#90 ↘️](#project-detail-90) | — | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | 本地优先的持久化 AI 队友桌面工作区，支持 Codex、Claude 和 Grok | 近期活跃热门仓库 | 6,707 | TypeScript | macOS 安装包：[OpenBot-0.66.0-arm64.dmg](https://github.com/nightly-labs/openbot/releases/download/v0.66.0/OpenBot-0.66.0-arm64.dmg)、[OpenBot-0.66.0-x64.dmg](https://github.com/nightly-labs/openbot/releases/download/v0.66.0/OpenBot-0.66.0-x64.dmg)；Windows 安装包：[OpenBot-0.66.0-x64.exe](https://github.com/nightly-labs/openbot/releases/download/v0.66.0/OpenBot-0.66.0-x64.exe) |
-| <a id="project-row-92"></a>[#92 ↘️](#project-detail-92) | — | [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 智能助手DeepChat，连接强大AI服务，助力个人应用。 | 近期活跃热门仓库 | 6,388 | TypeScript | macOS 安装包：[DeepChat-1.1.3-mac-arm64.dmg](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-mac-arm64.dmg)、[DeepChat-1.1.3-mac-x64.dmg](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-mac-x64.dmg)；Windows 安装包：[DeepChat-1.1.3-windows-arm64.exe](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-windows-arm64.exe)、[DeepChat-1.1.3-windows-x64.exe](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-windows-x64.exe) |
-| <a id="project-row-93"></a>[#93 ↘️](#project-detail-93) | — | [HuLaSpark/HuLa](https://github.com/HuLaSpark/HuLa) | 是一款基于Rust+Vue3的跨平台高性能即时通讯桌面应用，支持多系统。 | 近期活跃热门仓库 | 7,820 | Vue | macOS 安装包：[HuLa_3.0.9_aarch64.dmg](https://github.com/HuLaSpark/HuLa/releases/download/v3.0.9/HuLa_3.0.9_aarch64.dmg)、[HuLa_3.0.9_x64.dmg](https://github.com/HuLaSpark/HuLa/releases/download/v3.0.9/HuLa_3.0.9_x64.dmg)；Windows 安装包：[HuLa_3.0.9_x64-setup.exe](https://github.com/HuLaSpark/HuLa/releases/download/v3.0.9/HuLa_3.0.9_x64-setup.exe)、[HuLa_3.0.9_x64_zh-CN.msi](https://github.com/HuLaSpark/HuLa/releases/download/v3.0.9/HuLa_3.0.9_x64_zh-CN.msi) |
-| <a id="project-row-94"></a>[#94 ↘️](#project-detail-94) | — | [hovancik/stretchly](https://github.com/hovancik/stretchly) | 休息时间提醒应用 | 近期活跃热门仓库 | 6,639 | JavaScript | macOS 安装包：[Stretchly-1.22.1-arm64.dmg](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-1.22.1-arm64.dmg)、[Stretchly-1.22.1.dmg](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-1.22.1.dmg)；Windows 安装包：[Stretchly-Portable-1.22.1.exe](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-Portable-1.22.1.exe)、[Stretchly-Setup-1.22.1.exe](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-Setup-1.22.1.exe) |
-| <a id="project-row-95"></a>[#95 ↘️](#project-detail-95) | — | [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) | 像素风桌面宠物，监控多种AI编程助手。 | 近期活跃热门仓库 | 6,703 | JavaScript | macOS 安装包：[Clawd-on-Desk-1.6.0-arm64.dmg](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-1.6.0-arm64.dmg)、[Clawd-on-Desk-1.6.0-x64.dmg](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-1.6.0-x64.dmg)；Windows 安装包：[Clawd-on-Desk-Setup-1.6.0-arm64.exe](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-Setup-1.6.0-arm64.exe)、[Clawd-on-Desk-Setup-1.6.0-x64.exe](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-Setup-1.6.0-x64.exe) |
-| <a id="project-row-96"></a>[#96 ↘️](#project-detail-96) | — | [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic) | 是开源简洁美观的酷狗第三方客户端，支持多平台。 | 近期活跃热门仓库 | 7,124 | Vue | macOS 安装包：[MoeKoe_Music_v1.7.2-arm64.dmg](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_v1.7.2-arm64.dmg)；Windows 安装包：[MoeKoe_Music_Setup_v1.7.2-ia32.exe](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_Setup_v1.7.2-ia32.exe)、[MoeKoe_Music_Setup_v1.7.2-x64.exe](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_Setup_v1.7.2-x64.exe) |
-| <a id="project-row-97"></a>[#97 ↘️](#project-detail-97) | — | [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI) | 开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。 | 近期活跃热门仓库 | 6,176 | TypeScript | macOS 安装包：[LobsterAI--mac-arm64.dmg](https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.6/LobsterAI--mac-arm64.dmg)、[LobsterAI--mac-x64.dmg](https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.6/LobsterAI--mac-x64.dmg)；Windows 安装包：[LobsterAI--win-x64.exe](https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.6/LobsterAI--win-x64.exe) |
-| <a id="project-row-98"></a>[#98 ↘️](#project-detail-98) | — | [KunAgent/Kun](https://github.com/KunAgent/Kun) | 本地优先的 AI 智能体工作空间，统一支持桌面 GUI 与 TUI | 近期活跃热门仓库 | 6,382 | TypeScript | macOS 安装包：[Kun-0.4.5-mac-arm64.dmg](https://github.com/KunAgent/Kun/releases/download/v0.4.5/Kun-0.4.5-mac-arm64.dmg)、[Kun-0.4.5-mac-x64.dmg](https://github.com/KunAgent/Kun/releases/download/v0.4.5/Kun-0.4.5-mac-x64.dmg)；Windows 安装包：[Kun-0.4.5-win-x64.exe](https://github.com/KunAgent/Kun/releases/download/v0.4.5/Kun-0.4.5-win-x64.exe) |
-| <a id="project-row-99"></a>[#99 ↘️](#project-detail-99) | — | [YILS-LIN/short-video-factory](https://github.com/YILS-LIN/short-video-factory) | 一键生成营销与泛内容短视频，支持 AI 批量自动剪辑的跨平台桌面工具 | 近期活跃热门仓库 | 6,095 | TypeScript | macOS 安装包：[short-video-factory-1.4.0-mac-universal-installer.dmg](https://github.com/YILS-LIN/short-video-factory/releases/download/v1.4.0/short-video-factory-1.4.0-mac-universal-installer.dmg)；Windows 安装包：[short-video-factory-1.4.0-win-x64-setup.exe](https://github.com/YILS-LIN/short-video-factory/releases/download/v1.4.0/short-video-factory-1.4.0-win-x64-setup.exe) |
-| <a id="project-row-100"></a>[#100 ↘️](#project-detail-100) | — | [reqable/reqable-app](https://github.com/reqable/reqable-app) | Reqable问题跟踪仓库。 | 近期活跃热门仓库 | 6,942 | 未知 | macOS 安装包：[reqable-app-macos-arm64.dmg](https://github.com/reqable/reqable-app/releases/download/3.3.11/reqable-app-macos-arm64.dmg)、[reqable-app-macos-x86_64.dmg](https://github.com/reqable/reqable-app/releases/download/3.3.11/reqable-app-macos-x86_64.dmg)；Windows 安装包：[reqable-app-windows-x86_64.exe](https://github.com/reqable/reqable-app/releases/download/3.3.11/reqable-app-windows-x86_64.exe) |
+| <a id="project-row-19"></a>[#19 ↘️](#project-detail-19) | 🟢 | [SunshineStream/Sunshine](https://github.com/SunshineStream/Sunshine) | 面向 Moonlight 的自托管游戏串流服务端。 | 近期活跃热门仓库 | 43,241 | C++ | macOS 安装包：[Sunshine-macOS-arm64.dmg](https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-macOS-arm64.dmg)、[Sunshine-macOS-x86_64.dmg](https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-macOS-x86_64.dmg)；Windows 安装包：[Sunshine-Windows-AMD64-installer.msi](https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-AMD64-installer.msi)、[Sunshine-Windows-ARM64-installer.msi](https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-ARM64-installer.msi) |
+| <a id="project-row-92"></a>[#92 ↘️](#project-detail-92) | 🟢 | [luckjiawei/frpc-desktop](https://github.com/luckjiawei/frpc-desktop) | 跨平台 FRP 桌面客户端，支持可视化配置，轻松实现内网穿透 | 近期活跃热门仓库 | 6,968 | Vue | macOS 安装包：[Frpc-Desktop-1.2.7-arm64.dmg](https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.7/Frpc-Desktop-1.2.7-arm64.dmg)、[Frpc-Desktop-1.2.7-universal.dmg](https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.7/Frpc-Desktop-1.2.7-universal.dmg)；Windows 安装包：[Frpc-Desktop-1.2.7.exe](https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.7/Frpc-Desktop-1.2.7.exe)、[Frpc-Desktop-Setup-1.2.7.exe](https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.7/Frpc-Desktop-Setup-1.2.7.exe) |
+| <a id="project-row-1"></a>[#1 ↘️](#project-detail-1) | — | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 跨平台桌面一体化助手，支持 Claude Code、Codex、OpenCode 等 | 近期活跃热门仓库 | 153,346 | Rust | macOS 安装包：[CC-Switch-v4.0.29-macOS.dmg](https://github.com/farion1231/cc-switch/releases/download/v4.0.29/CC-Switch-v4.0.29-macOS.dmg)；Windows 安装包：[CC-Switch-v4.0.29-Windows-arm64.msi](https://github.com/farion1231/cc-switch/releases/download/v4.0.29/CC-Switch-v4.0.29-Windows-arm64.msi)、[CC-Switch-v4.0.29-Windows.msi](https://github.com/farion1231/cc-switch/releases/download/v4.0.29/CC-Switch-v4.0.29-Windows.msi) |
+| <a id="project-row-2"></a>[#2 ↘️](#project-detail-2) | — | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 开源自托管远程桌面替代方案。 | 近期活跃热门仓库 | 128,930 | Rust | macOS 安装包：[rustdesk-1.5.1-aarch64.dmg](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.dmg)、[rustdesk-1.5.1-x86_64.dmg](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86_64.dmg)；Windows 安装包：[rustdesk-1.5.1-aarch64.exe](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.exe)、[rustdesk-1.5.1-aarch64.msi](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.msi) |
+| <a id="project-row-3"></a>[#3 ↘️](#project-detail-3) | — | [stablyai/orca](https://github.com/stablyai/orca) | 使用自有订阅管理 Claude Code、Codex 等编程智能体集群，支持桌面端、移动端和远程运行 | 近期活跃热门仓库 | 121,467 | TypeScript | macOS 安装包：[orca-macos-arm64.dmg](https://github.com/stablyai/orca/releases/download/v1.4.256/orca-macos-arm64.dmg)、[orca-macos-x64.dmg](https://github.com/stablyai/orca/releases/download/v1.4.256/orca-macos-x64.dmg)；Windows 安装包：[orca-windows-setup.exe](https://github.com/stablyai/orca/releases/download/v1.4.256/orca-windows-setup.exe) |
+| <a id="project-row-4"></a>[#4 ↘️](#project-detail-4) | — | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 本地优先的开源协作式 AI 设计智能体工作空间 | 近期活跃热门仓库 | 107,035 | TypeScript | macOS 安装包：[open-design-0.27.1-mac-arm64.dmg](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.1/open-design-0.27.1-mac-arm64.dmg)、[open-design-0.27.1-mac-x64.dmg](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.1/open-design-0.27.1-mac-x64.dmg)；Windows 安装包：[open-design-0.27.1-win-x64-setup.exe](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.1/open-design-0.27.1-win-x64-setup.exe) |
+| <a id="project-row-5"></a>[#5 ↘️](#project-detail-5) | — | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 基于AI驱动的软件开发平台。 | 近期活跃热门仓库 | 93,151 | TypeScript | macOS 安装包：[OpenHands-Agent-Canvas-1.38.0-universal.dmg](https://github.com/OpenHands/OpenHands/releases/download/v1.38.0/OpenHands-Agent-Canvas-1.38.0-universal.dmg)；Windows 安装包：[OpenHands-Agent-Canvas-Setup-1.38.0.exe](https://github.com/OpenHands/OpenHands/releases/download/v1.38.0/OpenHands-Agent-Canvas-Setup-1.38.0.exe) |
+| <a id="project-row-6"></a>[#6 ↘️](#project-detail-6) | — | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 隐私优先的开源下一代知识库平台。 | 近期活跃热门仓库 | 74,429 | TypeScript | macOS 安装包：[affine-0.27.4-stable-macos-arm64.dmg](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-macos-arm64.dmg)、[affine-0.27.4-stable-macos-x64.dmg](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-macos-x64.dmg)；Windows 安装包：[affine-0.27.4-stable-windows-arm64.exe](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-windows-arm64.exe)、[affine-0.27.4-stable-windows-arm64.nsis.exe](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-windows-arm64.nsis.exe) |
+| <a id="project-row-7"></a>[#7 ↘️](#project-detail-7) | — | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 为 dsh 提供免登录、免 API Key、免费不限量的前沿模型 | 近期活跃热门仓库 | 68,732 | JavaScript | macOS 安装包：[Our.Free.Model_2.8.3_aarch64.dmg](https://github.com/Ebony-Vinyl/dsh-our-free-model/releases/download/v2.8.3/Our.Free.Model_2.8.3_aarch64.dmg)；Windows 安装包：[Our.Free.Model_2.8.3_x64-setup.exe](https://github.com/Ebony-Vinyl/dsh-our-free-model/releases/download/v2.8.3/Our.Free.Model_2.8.3_x64-setup.exe) |
+| <a id="project-row-8"></a>[#8 ↘️](#project-detail-8) | — | [marktext/marktext](https://github.com/marktext/marktext) | 简洁优雅的跨平台Markdown编辑器。 | 近期活跃热门仓库 | 63,838 | TypeScript | macOS 安装包：[marktext-mac-arm64-0.23.0.dmg](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-mac-arm64-0.23.0.dmg)、[marktext-mac-x64-0.23.0.dmg](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-mac-x64-0.23.0.dmg)；Windows 安装包：[marktext-win-arm64-0.23.0-setup.exe](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-arm64-0.23.0-setup.exe)、[marktext-win-x64-0.23.0-setup.exe](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-x64-0.23.0-setup.exe) |
+| <a id="project-row-9"></a>[#9 ↘️](#project-detail-9) | — | [tw93/Pake](https://github.com/tw93/Pake) | 一条命令将任意网站转为轻量级跨平台桌面应用 | 近期活跃热门仓库 | 63,130 | Rust | macOS 安装包：[ChatGPT.dmg](https://github.com/tw93/Pake/releases/download/V3.18.0/ChatGPT.dmg)、[DeepSeek.dmg](https://github.com/tw93/Pake/releases/download/V3.18.0/DeepSeek.dmg)；Windows 安装包：[ChatGPT_x64.msi](https://github.com/tw93/Pake/releases/download/V3.18.0/ChatGPT_x64.msi)、[DeepSeek_x64.msi](https://github.com/tw93/Pake/releases/download/V3.18.0/DeepSeek_x64.msi) |
+| <a id="project-row-10"></a>[#10 ↘️](#project-detail-10) | — | [laurent22/joplin](https://github.com/laurent22/joplin) | 支持多平台同步的隐私笔记应用。 | 近期活跃热门仓库 | 57,132 | TypeScript | macOS 安装包：[Joplin-3.7.22-arm64.DMG](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22-arm64.DMG)、[Joplin-3.7.22.dmg](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22.dmg)；Windows 安装包：[Joplin-Setup-3.7.22.exe](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe)、[JoplinPortable.exe](https://github.com/laurent22/joplin/releases/download/v3.7.22/JoplinPortable.exe) |
+| <a id="project-row-11"></a>[#11 ↘️](#project-detail-11) | — | [agalwood/Motrix](https://github.com/agalwood/Motrix) | 功能完善的下载管理器。 | 近期活跃热门仓库 | 58,113 | TypeScript | macOS 安装包：[Motrix-2.4.1-arm64.dmg](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-2.4.1-arm64.dmg)、[Motrix-2.4.1-x64.dmg](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-2.4.1-x64.dmg)；Windows 安装包：[Motrix-Setup-2.4.1-arm64.exe](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-Setup-2.4.1-arm64.exe)、[Motrix-Setup-2.4.1.exe](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-Setup-2.4.1.exe) |
+| <a id="project-row-12"></a>[#12 ↘️](#project-detail-12) | — | [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 一个基于 Electron 的音乐软件 | 近期活跃热门仓库 | 55,240 | TypeScript | macOS 安装包：[lx-music-desktop-2.12.6-arm64.dmg](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-2.12.6-arm64.dmg)、[lx-music-desktop-2.12.6-x64.dmg](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-2.12.6-x64.dmg)；Windows 安装包：[lx-music-desktop-v2.12.6-arm64-Setup.exe](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-arm64-Setup.exe)、[lx-music-desktop-v2.12.6-win7_x64-Setup.exe](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-win7_x64-Setup.exe) |
+| <a id="project-row-13"></a>[#13 ↘️](#project-detail-13) | — | [Eugeny/tabby](https://github.com/Eugeny/tabby) | 现代化终端工具。 | 近期活跃热门仓库 | 75,373 | TypeScript | macOS 安装包：[tabby-1.0.238-macos-arm64.dmg](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-macos-arm64.dmg)、[tabby-1.0.238-macos-x86_64.dmg](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-macos-x86_64.dmg)；Windows 安装包：[tabby-1.0.238-setup-arm64.exe](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe)、[tabby-1.0.238-setup-x64.exe](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-x64.exe) |
+| <a id="project-row-14"></a>[#14 ↘️](#project-detail-14) | — | [team-spotube/spotube](https://github.com/team-spotube/spotube) | 面向桌面端和移动端的开源音乐流媒体应用 | 近期活跃热门仓库 | 50,711 | Kotlin | macOS 安装包：[Spotube-macos-apple-silicon.dmg](https://github.com/team-spotube/spotube/releases/download/v6.0.0/Spotube-macos-apple-silicon.dmg)；Windows 安装包：[Spotube-windows-x86_64-setup.exe](https://github.com/team-spotube/spotube/releases/download/v6.0.0/Spotube-windows-x86_64-setup.exe) |
+| <a id="project-row-15"></a>[#15 ↘️](#project-detail-15) | — | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | 开源、隐私优先且支持自托管的人与 AI 智能体协作知识空间 | 近期活跃热门仓库 | 47,168 | TypeScript | macOS 安装包：[siyuan-3.8.10-mac-arm64.dmg](https://github.com/siyuan-note/siyuan/releases/download/v3.8.10/siyuan-3.8.10-mac-arm64.dmg)、[siyuan-3.8.10-mac.dmg](https://github.com/siyuan-note/siyuan/releases/download/v3.8.10/siyuan-3.8.10-mac.dmg)；Windows 安装包：[siyuan-3.8.10-win-arm64.exe](https://github.com/siyuan-note/siyuan/releases/download/v3.8.10/siyuan-3.8.10-win-arm64.exe)、[siyuan-3.8.10-win.exe](https://github.com/siyuan-note/siyuan/releases/download/v3.8.10/siyuan-3.8.10-win.exe) |
+| <a id="project-row-16"></a>[#16 ↘️](#project-detail-16) | — | [cli/cli](https://github.com/cli/cli) | GitHub官方命令行工具。 | 近期活跃热门仓库 | 46,956 | Go | macOS 安装包：[gh_2.103.3_macOS_universal.pkg](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_macOS_universal.pkg)；Windows 安装包：[gh_2.103.3_windows_386.msi](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_386.msi)、[gh_2.103.3_windows_amd64.msi](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_amd64.msi) |
+| <a id="project-row-17"></a>[#17 ↘️](#project-detail-17) | — | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 跨平台OpenGL终端模拟器。 | 近期活跃热门仓库 | 66,161 | Rust | macOS 安装包：[Alacritty-v0.17.0.dmg](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0.dmg)；Windows 安装包：[Alacritty-v0.17.0-installer.msi](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-installer.msi)、[Alacritty-v0.17.0-portable.exe](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-portable.exe) |
+| <a id="project-row-18"></a>[#18 ↘️](#project-detail-18) | — | [janhq/jan](https://github.com/janhq/jan) | 完全离线运行的开源ChatGPT替代品。 | 近期活跃热门仓库 | 45,660 | Rust | macOS 安装包：[Jan_0.8.8_universal.dmg](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_universal.dmg)；Windows 安装包：[Jan_0.8.8_arm64-setup.exe](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_arm64-setup.exe)、[Jan_0.8.8_x64-setup.exe](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_x64-setup.exe) |
+| <a id="project-row-20"></a>[#20 ↘️](#project-detail-20) | — | [usebruno/bruno](https://github.com/usebruno/bruno) | 开源轻量级API测试和探索IDE。 | 近期活跃热门仓库 | 48,327 | JavaScript | macOS 安装包：[bruno_4.3.0_arm64_mac.dmg](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_mac.dmg)、[bruno_4.3.0_arm64_mac.pkg](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_mac.pkg)；Windows 安装包：[bruno_4.3.0_arm64_win.exe](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.exe)、[bruno_4.3.0_arm64_win.msi](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.msi) |
+| <a id="project-row-21"></a>[#21 ↘️](#project-detail-21) | — | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | 高效低成本的开源智能体运行框架，10 美元 VPS 可运行超 500 个智能体 | 近期活跃热门仓库 | 42,641 | Rust | macOS 安装包：[OpenHuman_0.64.15_aarch64.dmg](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_aarch64.dmg)、[OpenHuman_0.64.15_x64.dmg](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64.dmg)；Windows 安装包：[OpenHuman_0.64.15_x64-setup.exe](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64-setup.exe)、[OpenHuman_0.64.15_x64_en-US.msi](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64_en-US.msi) |
+| <a id="project-row-22"></a>[#22 ↘️](#project-detail-22) | — | [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) | 构建个人知识库的笔记软件。 | 近期活跃热门仓库 | 38,840 | TypeScript | macOS 安装包：[TriliumNotes-v0.107.0-macos-arm64.dmg](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-macos-arm64.dmg)、[TriliumNotes-v0.107.0-macos-x64.dmg](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-macos-x64.dmg)；Windows 安装包：[TriliumNotes-v0.107.0-windows-arm64.exe](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-arm64.exe)、[TriliumNotes-v0.107.0-windows-x64.exe](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-x64.exe) |
+| <a id="project-row-23"></a>[#23 ↘️](#project-detail-23) | — | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 轻松监控网络流量 | 近期活跃热门仓库 | 42,345 | Rust | macOS 安装包：[Sniffnet_macOS_AppleSilicon.dmg](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_macOS_AppleSilicon.dmg)、[Sniffnet_macOS_Intel.dmg](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_macOS_Intel.dmg)；Windows 安装包：[Sniffnet_Windows_arm64.msi](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_Windows_arm64.msi)、[Sniffnet_Windows_x64.msi](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_Windows_x64.msi) |
+| <a id="project-row-24"></a>[#24 ↘️](#project-detail-24) | — | [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | 通过 AI 对话绘制和编辑 draw.io 图表，支持多端及 MCP Server | 近期活跃热门仓库 | 36,867 | TypeScript | macOS 安装包：[Next-AI-Draw.io-0.5.1-arm64.dmg](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next-AI-Draw.io-0.5.1-arm64.dmg)、[Next-AI-Draw.io-0.5.1.dmg](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next-AI-Draw.io-0.5.1.dmg)；Windows 安装包：[Next.AI.Draw.io.0.5.1.exe](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next.AI.Draw.io.0.5.1.exe)、[Next.AI.Draw.io.Setup.0.5.1.exe](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next.AI.Draw.io.Setup.0.5.1.exe) |
+| <a id="project-row-25"></a>[#25 ↘️](#project-detail-25) | — | [t8y2/dbx](https://github.com/t8y2/dbx) | 仅 25 MB 的跨平台数据库客户端，支持 100 多种数据库及 AI、MCP、CLI | 近期活跃热门仓库 | 29,917 | Rust | macOS 安装包：[DBX_0.6.68-beta.20261107.4_arm64.dmg](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_arm64.dmg)、[DBX_0.6.68-beta.20261107.4_x64.dmg](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_x64.dmg)；Windows 安装包：[DBX_0.6.68-beta.20261107.4_arm64-setup.exe](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_arm64-setup.exe)、[DBX_0.6.68-beta.20261107.4_arm64_en-US.msi](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_arm64_en-US.msi) |
+| <a id="project-row-26"></a>[#26 ↘️](#project-detail-26) | — | [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) | 跨平台的KeePass密码管理器移植版。 | 近期活跃热门仓库 | 29,911 | C++ | macOS 安装包：[KeePassXC-2.8.0-1-arm64.dmg](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-arm64.dmg)、[KeePassXC-2.8.0-1-x86_64.dmg](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-x86_64.dmg)；Windows 安装包：[KeePassXC-2.8.0-ARM64.msi](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-ARM64.msi)、[KeePassXC-2.8.0-x64.msi](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi) |
+| <a id="project-row-27"></a>[#27 ↘️](#project-detail-27) | — | [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) | 跨平台高效启动器。 | 近期活跃热门仓库 | 27,625 | Go | macOS 安装包：[wox-mac-amd64.dmg](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-mac-amd64.dmg)、[wox-mac-arm64.dmg](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-mac-arm64.dmg)；Windows 安装包：[wox-windows-amd64.exe](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-windows-amd64.exe) |
+| <a id="project-row-28"></a>[#28 ↘️](#project-detail-28) | — | [Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI) | 图形化包管理器管理工具。 | 近期活跃热门仓库 | 26,984 | C# | macOS 安装包：[UniGetUI.macos-arm64.dmg](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.macos-arm64.dmg)、[UniGetUI.macos-x64.dmg](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.macos-x64.dmg)；Windows 安装包：[UniGetUI.Installer.arm64.exe](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.Installer.arm64.exe)、[UniGetUI.Installer.exe](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.Installer.exe) |
+| <a id="project-row-29"></a>[#29 ↘️](#project-detail-29) | — | [cjpais/Handy](https://github.com/cjpais/Handy) | 完全离线的开源语音转文字应用。 | 近期活跃热门仓库 | 38,331 | Rust | macOS 安装包：[Handy_0.10.0_aarch64.dmg](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_aarch64.dmg)、[Handy_0.10.0_x64.dmg](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_x64.dmg)；Windows 安装包：[Handy_0.10.0_arm64-setup.exe](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_arm64-setup.exe)、[Handy_0.10.0_arm64_en-US.msi](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_arm64_en-US.msi) |
+| <a id="project-row-30"></a>[#30 ↘️](#project-detail-30) | — | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | 支持多协议的高速跨平台下载管理器。 | 近期活跃热门仓库 | 27,581 | Dart | macOS 安装包：[Gopeed-v1.9.3-macos-amd64.dmg](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-macos-amd64.dmg)、[Gopeed-v1.9.3-macos-arm64.dmg](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-macos-arm64.dmg)；Windows 安装包：[Gopeed-v1.9.3-windows-amd64.exe](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-windows-amd64.exe)、[Gopeed-v1.9.3-windows-arm64.exe](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-windows-arm64.exe) |
+| <a id="project-row-31"></a>[#31 ↘️](#project-detail-31) | — | [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop) | Pear：音乐播放器扩展。 | 近期活跃热门仓库 | 34,016 | TypeScript | macOS 安装包：[YouTube-Music-3.12.0-arm64.dmg](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-3.12.0-arm64.dmg)、[YouTube-Music-3.12.0.dmg](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-3.12.0.dmg)；Windows 安装包：[YouTube-Music-3.12.0.exe](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-3.12.0.exe)、[YouTube-Music-Web-Setup-3.12.0.exe](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-Web-Setup-3.12.0.exe) |
+| <a id="project-row-32"></a>[#32 ↘️](#project-detail-32) | — | [getpaseo/paseo](https://github.com/getpaseo/paseo) | 桌面和移动端多智能体编程协调工具。 | 近期活跃热门仓库 | 23,745 | TypeScript | macOS 安装包：[Paseo-0.15.4-arm64.dmg](https://github.com/getpaseo/paseo/releases/download/v0.15.4/Paseo-0.15.4-arm64.dmg)、[Paseo-0.15.4-x64.dmg](https://github.com/getpaseo/paseo/releases/download/v0.15.4/Paseo-0.15.4-x64.dmg)；Windows 安装包：[Paseo-Setup-0.15.4-arm64.exe](https://github.com/getpaseo/paseo/releases/download/v0.15.4/Paseo-Setup-0.15.4-arm64.exe)、[Paseo-Setup-0.15.4-x64.exe](https://github.com/getpaseo/paseo/releases/download/v0.15.4/Paseo-Setup-0.15.4-x64.exe) |
+| <a id="project-row-33"></a>[#33 ↘️](#project-detail-33) | — | [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) | 现代易用的数据库 GUI 与 SQL 客户端，支持多种数据库及主流桌面系统 | 近期活跃热门仓库 | 23,871 | TypeScript | macOS 安装包：[Beekeeper-Studio-6.2.2-arm64.dmg](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64.dmg)、[Beekeeper-Studio-6.2.2.dmg](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2.dmg)；Windows 安装包：[Beekeeper-Studio-6.2.2-arm64-portable.exe](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64-portable.exe)、[Beekeeper-Studio-6.2.2-arm64.msi](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64.msi) |
+| <a id="project-row-34"></a>[#34 ↘️](#project-detail-34) | — | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | Super Productivity：集成时间管理的高级待办事项应用。 | 近期活跃热门仓库 | 23,582 | TypeScript | macOS 安装包：[superProductivity-arm64.dmg](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-arm64.dmg)、[superProductivity-universal.dmg](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-universal.dmg)；Windows 安装包：[Super-Productivity-Setup-arm64.exe](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/Super-Productivity-Setup-arm64.exe)、[Super-Productivity-Setup-x64.exe](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/Super-Productivity-Setup-x64.exe) |
+| <a id="project-row-35"></a>[#35 ↘️](#project-detail-35) | — | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | 功能强大且易用的截图软件。 | 近期活跃热门仓库 | 31,497 | C++ | macOS 安装包：[Flameshot-15.0.0-macos-arm64.dmg](https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-macos-arm64.dmg)、[Flameshot-15.0.0-macos-intel.dmg](https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-macos-intel.dmg)；Windows 安装包：[Flameshot-15.0.0-win64.msi](https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-win64.msi) |
+| <a id="project-row-36"></a>[#36 ↘️](#project-detail-36) | — | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 开源 Grok Bot 替代方案，提供机器人可使用的虚拟机 | 近期活跃热门仓库 | 20,635 | TypeScript | macOS 安装包：[OpenMausBot-0.1.152-arm64.dmg](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.152/OpenMausBot-0.1.152-arm64.dmg)、[OpenMausBot-0.1.152-x64.dmg](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.152/OpenMausBot-0.1.152-x64.dmg)；Windows 安装包：[OpenMausBot-0.1.152-setup.exe](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.152/OpenMausBot-0.1.152-setup.exe)、[OpenMausBot-setup.exe](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.152/OpenMausBot-setup.exe) |
+| <a id="project-row-37"></a>[#37 ↘️](#project-detail-37) | — | [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | 直观的桌面API客户端，支持多种协议。 | 近期活跃热门仓库 | 19,478 | Rust | macOS 安装包：[Yaak_2026.9.1_aarch64.dmg](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_aarch64.dmg)、[Yaak_2026.9.1_x64.dmg](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_x64.dmg)；Windows 安装包：[Yaak_2026.9.1_arm64-setup-machine.exe](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_arm64-setup-machine.exe)、[Yaak_2026.9.1_arm64-setup.exe](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_arm64-setup.exe) |
+| <a id="project-row-38"></a>[#38 ↘️](#project-detail-38) | — | [audacity/audacity](https://github.com/audacity/audacity) | 音频编辑器。 | 近期活跃热门仓库 | 19,018 | C++ | macOS 安装包：[audacity-macOS-4.0.2-arm64.dmg](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-arm64.dmg)、[audacity-macOS-4.0.2-universal.dmg](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-universal.dmg)；Windows 安装包：[audacity-win-4.0.2-arm64.msi](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi)、[audacity-win-4.0.2-x86_64.msi](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-x86_64.msi) |
+| <a id="project-row-39"></a>[#39 ↘️](#project-detail-39) | — | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 具备记忆与协作能力的 AI 工作伙伴 | 近期活跃热门仓库 | 18,152 | TypeScript | macOS 安装包：[Rowboat-darwin-arm64-1.0.3.dmg](https://github.com/rowboatlabs/rowboat/releases/download/v1.0.3/Rowboat-darwin-arm64-1.0.3.dmg)、[Rowboat-darwin-x64-1.0.3.dmg](https://github.com/rowboatlabs/rowboat/releases/download/v1.0.3/Rowboat-darwin-x64-1.0.3.dmg)；Windows 安装包：[Rowboat-win32-x64-1.0.3-setup.exe](https://github.com/rowboatlabs/rowboat/releases/download/v1.0.3/Rowboat-win32-x64-1.0.3-setup.exe) |
+| <a id="project-row-40"></a>[#40 ↘️](#project-detail-40) | — | [Automattic/harper](https://github.com/Automattic/harper) | 离线、隐私优先且由 Rust 驱动的快速开源语法检查器 | 近期活跃热门仓库 | 17,568 | Rust | macOS 安装包：[Harper_3.1.0_universal.dmg](https://github.com/Automattic/harper/releases/download/v3.1.0/Harper_3.1.0_universal.dmg)；Windows 安装包：[Harper_3.1.0_x64-setup.exe](https://github.com/Automattic/harper/releases/download/v3.1.0/Harper_3.1.0_x64-setup.exe) |
+| <a id="project-row-41"></a>[#41 ↘️](#project-detail-41) | — | [nukeop/nuclear](https://github.com/nukeop/nuclear) | 免费音乐流媒体播放器。 | 近期活跃热门仓库 | 18,917 | TypeScript | macOS 安装包：[Nuclear_1.54.2_aarch64.dmg](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_aarch64.dmg)、[Nuclear_1.54.2_x64.dmg](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64.dmg)；Windows 安装包：[Nuclear_1.54.2_x64-setup.exe](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64-setup.exe)、[Nuclear_1.54.2_x64_en-US.msi](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64_en-US.msi) |
+| <a id="project-row-42"></a>[#42 ↘️](#project-detail-42) | — | [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | 免费开源的自动化时间追踪器。 | 近期活跃热门仓库 | 19,591 | Python | macOS 安装包：[activitywatch-tauri-v0.14.2-macos-arm64.dmg](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.2/activitywatch-tauri-v0.14.2-macos-arm64.dmg)、[activitywatch-tauri-v0.14.2-macos-x86_64.dmg](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.2/activitywatch-tauri-v0.14.2-macos-x86_64.dmg)；Windows 安装包：[activitywatch-tauri-v0.14.2-windows-aarch64-setup.exe](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.2/activitywatch-tauri-v0.14.2-windows-aarch64-setup.exe)、[activitywatch-tauri-v0.14.2-windows-x86_64-setup.exe](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.2/activitywatch-tauri-v0.14.2-windows-x86_64-setup.exe) |
+| <a id="project-row-43"></a>[#43 ↘️](#project-detail-43) | — | [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix) | 支持自托管和插件扩展的服务器管理工具 | 近期活跃热门仓库 | 15,929 | TypeScript | macOS 安装包：[termix_macos_arm64_dmg.dmg](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_macos_arm64_dmg.dmg)、[termix_macos_universal_dmg.dmg](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_macos_universal_dmg.dmg)；Windows 安装包：[termix_windows_arm64_msi.msi](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_windows_arm64_msi.msi)、[termix_windows_arm64_nsis.exe](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_windows_arm64_nsis.exe) |
+| <a id="project-row-44"></a>[#44 ↘️](#project-detail-44) | — | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、远程控制 | 近期活跃热门仓库 | 17,497 | Vue | macOS 安装包：[AlgerMusicPlayer-5.1.0-mac-arm64.dmg](https://github.com/algerkong/AlgerMusicPlayer/releases/download/v5.1.0/AlgerMusicPlayer-5.1.0-mac-arm64.dmg)、[AlgerMusicPlayer-5.1.0-mac-x64.dmg](https://github.com/algerkong/AlgerMusicPlayer/releases/download/v5.1.0/AlgerMusicPlayer-5.1.0-mac-x64.dmg)；Windows 安装包：[AlgerMusicPlayer-5.1.0-win-arm64.exe](https://github.com/algerkong/AlgerMusicPlayer/releases/download/v5.1.0/AlgerMusicPlayer-5.1.0-win-arm64.exe)、[AlgerMusicPlayer-5.1.0-win-ia32.exe](https://github.com/algerkong/AlgerMusicPlayer/releases/download/v5.1.0/AlgerMusicPlayer-5.1.0-win-ia32.exe) |
+| <a id="project-row-45"></a>[#45 ↘️](#project-detail-45) | — | [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | 完全开源且端到端加密的笔记软件，Evernote替代品。 | 近期活跃热门仓库 | 14,915 | TypeScript | macOS 安装包：[notesnook_mac_arm64.dmg](https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_mac_arm64.dmg)、[notesnook_mac_x64.dmg](https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_mac_x64.dmg)；Windows 安装包：[notesnook_win.exe](https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_win.exe)、[notesnook_win_arm64.exe](https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_win_arm64.exe) |
+| <a id="project-row-46"></a>[#46 ↘️](#project-detail-46) | — | [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) | 集成AI的跨平台终端工具。 | 近期活跃热门仓库 | 22,687 | Go | macOS 安装包：[Wave-darwin-arm64-0.14.5.dmg](https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/Wave-darwin-arm64-0.14.5.dmg)、[Wave-darwin-x64-0.14.5.dmg](https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/Wave-darwin-x64-0.14.5.dmg)；Windows 安装包：[Wave-win32-x64-0.14.5.exe](https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/Wave-win32-x64-0.14.5.exe)、[Wave-win32-x64-0.14.5.msi](https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/Wave-win32-x64-0.14.5.msi) |
+| <a id="project-row-47"></a>[#47 ↘️](#project-detail-47) | — | [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha) | 本地优先的跨平台 Claude Code 与 AI Agent 桌面协作工作台 | 近期活跃热门仓库 | 15,381 | TypeScript | macOS 安装包：[Claude-Code-Haha-0.7.8-macOS-Apple-Silicon.dmg](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.8/Claude-Code-Haha-0.7.8-macOS-Apple-Silicon.dmg)、[Claude-Code-Haha-0.7.8-macOS-Intel.dmg](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.8/Claude-Code-Haha-0.7.8-macOS-Intel.dmg)；Windows 安装包：[Claude-Code-Haha-0.7.8-Windows-arm64-Setup.exe](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.8/Claude-Code-Haha-0.7.8-Windows-arm64-Setup.exe)、[Claude-Code-Haha-0.7.8-Windows-x64-Setup.exe](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.8/Claude-Code-Haha-0.7.8-Windows-x64-Setup.exe) |
+| <a id="project-row-48"></a>[#48 ↘️](#project-detail-48) | — | [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 从任务到合并 PR，规划、运行并监督多个智能体，支持桌面及移动端 | 近期活跃热门仓库 | 14,406 | Go | macOS 安装包：[agent-orchestrator-darwin-arm64.dmg](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-darwin-arm64.dmg)、[agent-orchestrator-darwin-x64.dmg](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-darwin-x64.dmg)；Windows 安装包：[agent-orchestrator-win32-x64.exe](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-win32-x64.exe)、[Agent.Orchestrator.Setup.0.14.10.exe](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/Agent.Orchestrator.Setup.0.14.10.exe) |
+| <a id="project-row-49"></a>[#49 ↘️](#project-detail-49) | — | [electerm/electerm](https://github.com/electerm/electerm) | 免费开源的跨平台终端及 SSH、SFTP、FTP、远程桌面客户端 | 近期活跃热门仓库 | 15,599 | JavaScript | macOS 安装包：[electerm-5.10.0-mac-arm64.dmg](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-mac-arm64.dmg)、[electerm-5.10.0-mac-x64.dmg](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-mac-x64.dmg)；Windows 安装包：[electerm-5.10.0-win-arm64-installer.exe](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-win-arm64-installer.exe)、[electerm-5.10.0-win-x64-installer.exe](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-win-x64-installer.exe) |
+| <a id="project-row-50"></a>[#50 ↘️](#project-detail-50) | — | [bitwarden/clients](https://github.com/bitwarden/clients) | 涵盖网页、浏览器扩展、桌面端和 CLI 的 Bitwarden 客户端 | 近期活跃热门仓库 | 14,203 | TypeScript | macOS 安装包：[Bitwarden-2026.10.4-universal.dmg](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-2026.10.4-universal.dmg)、[commercial-Bitwarden-2026.10.4-universal.dmg](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/commercial-Bitwarden-2026.10.4-universal.dmg)；Windows 安装包：[Bitwarden-Installer-2026.10.4.exe](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-Installer-2026.10.4.exe)、[Bitwarden-Portable-2026.10.4.exe](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-Portable-2026.10.4.exe) |
+| <a id="project-row-51"></a>[#51 ↘️](#project-detail-51) | — | [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) | 一站式出版工作平台。 | 近期活跃热门仓库 | 13,904 | TypeScript | macOS 安装包：[Zettlr-4.9.0-arm64.dmg](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-arm64.dmg)、[Zettlr-4.9.0-x64.dmg](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-x64.dmg)；Windows 安装包：[Zettlr-4.9.0-x64.exe](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-x64.exe) |
+| <a id="project-row-52"></a>[#52 ↘️](#project-detail-52) | — | [codexu/note-gen](https://github.com/codexu/note-gen) | 本地优先的 Markdown 应用，用 AI 将零散记录整理成清晰笔记。 | 近期活跃热门仓库 | 13,002 | TypeScript | macOS 安装包：[NoteGen_0.39.2_aarch64.dmg](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_aarch64.dmg)、[NoteGen_0.39.2_x64.dmg](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64.dmg)；Windows 安装包：[NoteGen_0.39.2_x64-setup.exe](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64-setup.exe)、[NoteGen_0.39.2_x64_en-US.msi](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64_en-US.msi) |
+| <a id="project-row-53"></a>[#53 ↘️](#project-detail-53) | — | [elie222/inbox-zero](https://github.com/elie222/inbox-zero) | 帮助用户快速清空收件箱的开源AI邮件个人助理。 | 近期活跃热门仓库 | 12,976 | TypeScript | macOS 安装包：[Inbox-Zero-0.1.24-mac-arm64.dmg](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-mac-arm64.dmg)、[Inbox-Zero-0.1.24-mac-x64.dmg](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-mac-x64.dmg)；Windows 安装包：[Inbox-Zero-0.1.24-win-arm64.exe](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-win-arm64.exe)、[Inbox-Zero-0.1.24-win-x64.exe](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-win-x64.exe) |
+| <a id="project-row-54"></a>[#54 ↘️](#project-detail-54) | — | [VSCodium/vscodium](https://github.com/VSCodium/vscodium) | 无微软品牌和遥测的VS Code二进制版。 | 近期活跃热门仓库 | 34,045 | Shell | macOS 安装包：[VSCodium.arm64.1.143.17232.dmg](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium.arm64.1.143.17232.dmg)、[VSCodium.x64.1.143.17232.dmg](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium.x64.1.143.17232.dmg)；Windows 安装包：[VSCodium-x64-1.143.17232.msi](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-x64-1.143.17232.msi)、[VSCodium-x64-updates-disabled-1.143.17232.msi](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-x64-updates-disabled-1.143.17232.msi) |
+| <a id="project-row-55"></a>[#55 ↘️](#project-detail-55) | — | [chthollyphile/folia-major](https://github.com/chthollyphile/folia-major) | 支持本地文件、Navidrome 和在线流媒体的多平台音乐播放器，主打绚丽歌词动画 | 近期活跃热门仓库 | 12,288 | TypeScript | macOS 安装包：[Folia-0.7.27-arm64.dmg](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-0.7.27-arm64.dmg)、[Folia-0.7.27-x64.dmg](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-0.7.27-x64.dmg)；Windows 安装包：[Folia-Setup-0.7.27.exe](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-Setup-0.7.27.exe) |
+| <a id="project-row-56"></a>[#56 ↘️](#project-detail-56) | — | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) | 加速下载的下载管理器。 | 近期活跃热门仓库 | 19,181 | Kotlin | macOS 安装包：[ABDownloadManager_1.11.4_mac_arm64.dmg](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_mac_arm64.dmg)、[ABDownloadManager_1.11.4_mac_x64.dmg](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_mac_x64.dmg)；Windows 安装包：[ABDownloadManager_1.11.4_windows_arm64.exe](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_windows_arm64.exe)、[ABDownloadManager_1.11.4_windows_x64.exe](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_windows_x64.exe) |
+| <a id="project-row-57"></a>[#57 ↘️](#project-detail-57) | — | [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext) | 跨平台的Notepad++重实现文本编辑器。 | 近期活跃热门仓库 | 14,780 | C++ | macOS 安装包：[NotepadNext-v0.15-arm64.dmg](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-arm64.dmg)、[NotepadNext-v0.15-x64.dmg](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-x64.dmg)；Windows 安装包：[NotepadNext-v0.15-Installer-arm64.exe](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-Installer-arm64.exe)、[NotepadNext-v0.15-Installer.exe](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-Installer.exe) |
+| <a id="project-row-58"></a>[#58 ↘️](#project-detail-58) | — | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 免费开源的 AI 办公套件，支持多种文档编辑及本地生成和编辑 Office 文件 | 近期活跃热门仓库 | 12,114 | TypeScript | macOS 安装包：[GenOffice-0.12.852-arm64.dmg](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOffice-0.12.852-arm64.dmg)、[GenOffice-0.12.852.dmg](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOffice-0.12.852.dmg)；Windows 安装包：[GenOfficeSetup-v0.12.852-arm64.exe](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOfficeSetup-v0.12.852-arm64.exe)、[GenOfficeSetup-v0.12.852-x64.exe](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOfficeSetup-v0.12.852-x64.exe) |
+| <a id="project-row-59"></a>[#59 ↘️](#project-detail-59) | — | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 功能丰富的剪贴板管理器。 | 近期活跃热门仓库 | 12,627 | C++ | macOS 安装包：[CopyQ-17.0.0-macos-13-m1.dmg](https://github.com/hluk/CopyQ/releases/download/v17.0.0/CopyQ-17.0.0-macos-13-m1.dmg)、[CopyQ-17.0.0-macos-13.dmg](https://github.com/hluk/CopyQ/releases/download/v17.0.0/CopyQ-17.0.0-macos-13.dmg)；Windows 安装包：[copyq-17.0.0-setup.exe](https://github.com/hluk/CopyQ/releases/download/v17.0.0/copyq-17.0.0-setup.exe) |
+| <a id="project-row-60"></a>[#60 ↘️](#project-detail-60) | — | [espanso/espanso](https://github.com/espanso/espanso) | 注重隐私的跨平台文本扩展工具，Rust开发。 | 近期活跃热门仓库 | 14,765 | Rust | macOS 安装包：[Espanso-Mac-Universal.dmg](https://github.com/espanso/espanso/releases/download/v2.4.1/Espanso-Mac-Universal.dmg)；Windows 安装包：[Espanso-Win-Installer-x86_64.exe](https://github.com/espanso/espanso/releases/download/v2.4.1/Espanso-Win-Installer-x86_64.exe) |
+| <a id="project-row-61"></a>[#61 ↘️](#project-detail-61) | — | [OpenWhispr/openwhispr](https://github.com/OpenWhispr/openwhispr) | 隐私优先的跨平台语音转文字应用，支持本地和云端模型。 | 近期活跃热门仓库 | 11,215 | JavaScript | macOS 安装包：[OpenWhispr-1.11.0-arm64.dmg](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-1.11.0-arm64.dmg)、[OpenWhispr-1.11.0.dmg](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-1.11.0.dmg)；Windows 安装包：[OpenWhispr-Setup-1.11.0.exe](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-Setup-1.11.0.exe) |
+| <a id="project-row-62"></a>[#62 ↘️](#project-detail-62) | — | [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW) | 高性能GPU加速的非破坏性RAW图像编辑器。 | 近期活跃热门仓库 | 11,051 | TypeScript | macOS 安装包：[02_RapidRAW_v1.6.9_macos-15-intel_x64.dmg](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/02_RapidRAW_v1.6.9_macos-15-intel_x64.dmg)、[02_RapidRAW_v1.6.9_macos-15_aarch64.dmg](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/02_RapidRAW_v1.6.9_macos-15_aarch64.dmg)；Windows 安装包：[01_RapidRAW_v1.6.9_windows-11-arm_arm64.exe](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows-11-arm_arm64.exe)、[01_RapidRAW_v1.6.9_windows-11-arm_arm64.msi](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows-11-arm_arm64.msi) |
+| <a id="project-row-63"></a>[#63 ↘️](#project-detail-63) | — | [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | 一站式下载器，满足多种下载需求。 | 近期活跃热门仓库 | 11,046 | Python | macOS 安装包：[Ghost-Downloader-v4.5.1-macOS-arm64.dmg](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-macOS-arm64.dmg)、[Ghost-Downloader-v4.5.1-macOS-x86_64.dmg](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-macOS-x86_64.dmg)；Windows 安装包：[Ghost-Downloader-v4.5.1-Windows-arm64-Setup.exe](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-Windows-arm64-Setup.exe)、[Ghost-Downloader-v4.5.1-Windows-x86_64-Setup.exe](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-Windows-x86_64-Setup.exe) |
+| <a id="project-row-64"></a>[#64 ↘️](#project-detail-64) | — | [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae) | 原生、快速且可扩展的桌面启动器 | 近期活跃热门仓库 | 10,576 | C++ | macOS 安装包：[Vicinae.dmg](https://github.com/vicinaehq/vicinae/releases/download/v0.30.0/Vicinae.dmg)；Windows 安装包：[vicinae-x64-setup.exe](https://github.com/vicinaehq/vicinae/releases/download/v0.30.0/vicinae-x64-setup.exe) |
+| <a id="project-row-65"></a>[#65 ↘️](#project-detail-65) | — | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 免费本地追踪 37 种 AI 编程工具的令牌用量与成本 | 近期活跃热门仓库 | 11,763 | TypeScript | macOS 安装包：[CodeBurn-0.9.28-arm64.dmg](https://github.com/getagentseal/codeburn/releases/download/desktop-v0.9.28/CodeBurn-0.9.28-arm64.dmg)、[CodeBurn-0.9.28.dmg](https://github.com/getagentseal/codeburn/releases/download/desktop-v0.9.28/CodeBurn-0.9.28.dmg)；Windows 安装包：[CodeBurn-Setup-0.9.28.exe](https://github.com/getagentseal/codeburn/releases/download/desktop-v0.9.28/CodeBurn-Setup-0.9.28.exe) |
+| <a id="project-row-66"></a>[#66 ↘️](#project-detail-66) | — | [tonyantony300/dashbeam](https://github.com/tonyantony300/dashbeam) | 与附近或远方的用户分享文件。 | 近期活跃热门仓库 | 10,284 | TypeScript | macOS 安装包：[DashBeam_0.7.2_aarch64.dmg](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_aarch64.dmg)、[DashBeam_0.7.2_universal.dmg](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_universal.dmg)；Windows 安装包：[DashBeam_0.7.2_arm64-setup.exe](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_arm64-setup.exe)、[DashBeam_0.7.2_x64-setup.exe](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_x64-setup.exe) |
+| <a id="project-row-67"></a>[#67 ↘️](#project-detail-67) | — | [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil) | 开源AI设计编辑器，Figma替代方案。 | 近期活跃热门仓库 | 9,761 | TypeScript | macOS 安装包：[OpenPencil_0.16.0_aarch64.dmg](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_aarch64.dmg)、[OpenPencil_0.16.0_x64.dmg](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_x64.dmg)；Windows 安装包：[OpenPencil_0.16.0_arm64-setup.exe](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_arm64-setup.exe)、[OpenPencil_0.16.0_arm64_en-US.msi](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_arm64_en-US.msi) |
+| <a id="project-row-68"></a>[#68 ↘️](#project-detail-68) | — | [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) | 将长视频自动剪成短视频并生成字幕、封面和发布文案的开源 AI 桌面工具 | 近期活跃热门仓库 | 10,256 | Python | macOS 安装包：[AutoClip.Desktop_1.5.8_aarch64.dmg](https://github.com/zhouxiaoka/autoclip/releases/download/v1.5.8/AutoClip.Desktop_1.5.8_aarch64.dmg)；Windows 安装包：[AutoClip.Desktop_1.5.8_x64-setup.exe](https://github.com/zhouxiaoka/autoclip/releases/download/v1.5.8/AutoClip.Desktop_1.5.8_x64-setup.exe) |
+| <a id="project-row-69"></a>[#69 ↘️](#project-detail-69) | — | [jeffvli/feishin](https://github.com/jeffvli/feishin) | 现代自托管音乐播放器。 | 近期活跃热门仓库 | 10,381 | TypeScript | macOS 安装包：[Feishin-1.17.0-mac-arm64.dmg](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-mac-arm64.dmg)、[Feishin-1.17.0-mac-x64.dmg](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-mac-x64.dmg)；Windows 安装包：[Feishin-1.17.0-win-arm64.exe](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win-arm64.exe)、[Feishin-1.17.0-win-x64.exe](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win-x64.exe) |
+| <a id="project-row-70"></a>[#70 ↘️](#project-detail-70) | — | [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | 可从数百个网站下载音频和视频的桌面应用 | 近期活跃热门仓库 | 10,618 | JavaScript | macOS 安装包：[YTDownloader_Mac_arm64.dmg](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Mac_arm64.dmg)、[YTDownloader_Mac_x64.dmg](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Mac_x64.dmg)；Windows 安装包：[YTDownloader_Win.exe](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Win.exe)、[YTDownloader_Win.msi](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Win.msi) |
+| <a id="project-row-71"></a>[#71 ↘️](#project-detail-71) | — | [evolus/pencil](https://github.com/evolus/pencil) | 免费开源的图表绘制与 GUI 原型设计工具，人人皆可使用。 | 近期活跃热门仓库 | 9,908 | JavaScript | macOS 安装包：[Pencil-4.0.0-arm64.dmg](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0-arm64.dmg)、[Pencil-4.0.0-universal.dmg](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0-universal.dmg)；Windows 安装包：[Pencil-4.0.0.ga.exe](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0.ga.exe) |
+| <a id="project-row-72"></a>[#72 ↘️](#project-detail-72) | — | [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin) | 使用现有订阅在本地或沙箱中管理 Claude Code、Codex 等智能体 | 近期活跃热门仓库 | 9,474 | JavaScript | macOS 安装包：[Munder-Difflin-0.5.5-mac-universal.dmg](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-mac-universal.dmg)；Windows 安装包：[Munder-Difflin-0.5.5-win-x64-portable.exe](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-win-x64-portable.exe)、[Munder-Difflin-0.5.5-win-x64-setup.exe](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-win-x64-setup.exe) |
+| <a id="project-row-73"></a>[#73 ↘️](#project-detail-73) | — | [crynta/terax-ai](https://github.com/crynta/terax-ai) | 仅 7 MB、以终端为核心的 AI 原生开发环境 | 近期活跃热门仓库 | 9,458 | TypeScript | macOS 安装包：[Terax_0.9.0_aarch64.dmg](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_aarch64.dmg)、[Terax_0.9.0_x64.dmg](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_x64.dmg)；Windows 安装包：[Terax_0.9.0_x64-setup.exe](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_x64-setup.exe)、[Terax_0.9.0_x64_en-US.msi](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_x64_en-US.msi) |
+| <a id="project-row-74"></a>[#74 ↘️](#project-detail-74) | — | [l0ng-ai/openidea](https://github.com/l0ng-ai/openidea) | 用 Rust 重构的原生高速 IDE，支持 60 多种语言及 IntelliJ IDEA 风格交互 | 近期活跃热门仓库 | 8,396 | TypeScript | macOS 安装包：[OpenIDEA_0.1.40_aarch64.dmg](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_aarch64.dmg)、[OpenIDEA_0.1.40_x64.dmg](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_x64.dmg)；Windows 安装包：[OpenIDEA_0.1.40_arm64-setup.exe](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_arm64-setup.exe)、[OpenIDEA_0.1.40_arm64_en-US.msi](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_arm64_en-US.msi) |
+| <a id="project-row-75"></a>[#75 ↘️](#project-detail-75) | — | [komi-store/komi-store](https://github.com/komi-store/komi-store) | 免费的开源应用商店，可浏览、发现并一键安装开发者在 GitHub、Codeberg 和 Forgejo 上发布的应用。 | 近期活跃热门仓库 | 20,527 | Kotlin | macOS 安装包：[Komi-Store-1.9.4-arm64.dmg](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4-arm64.dmg)、[Komi-Store-1.9.4-x64.dmg](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4-x64.dmg)；Windows 安装包：[Komi-Store-1.9.4.exe](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4.exe)、[Komi-Store-1.9.4.msi](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4.msi) |
+| <a id="project-row-76"></a>[#76 ↘️](#project-detail-76) | — | [mltframework/shotcut](https://github.com/mltframework/shotcut) | 跨平台开源视频编辑器，基于Qt和GPLv3。 | 近期活跃热门仓库 | 15,650 | C++ | macOS 安装包：[shotcut-macos-26.9.27.dmg](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-macos-26.9.27.dmg)、[shotcut-macos-26.9.28.dmg](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-macos-26.9.28.dmg)；Windows 安装包：[shotcut-win64-26.9.27.exe](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win64-26.9.27.exe)、[shotcut-win_ARM-26.9.27.exe](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win_ARM-26.9.27.exe) |
+| <a id="project-row-77"></a>[#77 ↘️](#project-detail-77) | — | [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor) | 通用2D图像编辑器。 | 近期活跃热门仓库 | 8,136 | C# | macOS 安装包：[PixiEditor-2.1.2.5-universal-macos.dmg](https://github.com/PixiEditor/PixiEditor/releases/download/2.1.2.5/PixiEditor-2.1.2.5-universal-macos.dmg)；Windows 安装包：[PixiEditor-2.1.2.5-setup-x64-win.exe](https://github.com/PixiEditor/PixiEditor/releases/download/2.1.2.5/PixiEditor-2.1.2.5-setup-x64-win.exe) |
+| <a id="project-row-78"></a>[#78 ↘️](#project-detail-78) | — | [elie222/rakazo](https://github.com/elie222/rakazo) | 开源 Grok Bot 替代方案，可自选模型和沙箱 | 近期活跃热门仓库 | 7,841 | TypeScript | macOS 安装包：[Rakazo-0.9.0-universal.dmg](https://github.com/elie222/rakazo/releases/download/v0.9.0/Rakazo-0.9.0-universal.dmg)；Windows 安装包：[Rakazo-Setup-0.9.0.exe](https://github.com/elie222/rakazo/releases/download/v0.9.0/Rakazo-Setup-0.9.0.exe) |
+| <a id="project-row-79"></a>[#79 ↘️](#project-detail-79) | — | [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) | 开源 Claude Design 替代方案，支持多模型与自带密钥，本地优先。 | 近期活跃热门仓库 | 8,199 | TypeScript | macOS 安装包：[open-codesign-0.3.0-arm64.dmg](https://github.com/OpenCoworkAI/open-codesign/releases/download/v0.3.0/open-codesign-0.3.0-arm64.dmg)、[open-codesign-0.3.0-x64.dmg](https://github.com/OpenCoworkAI/open-codesign/releases/download/v0.3.0/open-codesign-0.3.0-x64.dmg)；Windows 安装包：[open-codesign-0.3.0-arm64-setup.exe](https://github.com/OpenCoworkAI/open-codesign/releases/download/v0.3.0/open-codesign-0.3.0-arm64-setup.exe)、[open-codesign-0.3.0-setup.exe](https://github.com/OpenCoworkAI/open-codesign/releases/download/v0.3.0/open-codesign-0.3.0-setup.exe) |
+| <a id="project-row-80"></a>[#80 ↘️](#project-detail-80) | — | [4gray/iptvnator](https://github.com/4gray/iptvnator) | 跨平台IPTV播放器，支持m3u/m3u8播放列表、收藏、电视指南和回看等功能。 | 近期活跃热门仓库 | 7,707 | TypeScript | macOS 安装包：[iptvnator-0.25.0-mac-arm64.dmg](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-mac-arm64.dmg)、[iptvnator-0.25.0-mac-x64.dmg](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-mac-x64.dmg)；Windows 安装包：[iptvnator-0.25.0-windows-x64-setup.exe](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-windows-x64-setup.exe) |
+| <a id="project-row-81"></a>[#81 ↘️](#project-detail-81) | — | [mockoon/mockoon](https://github.com/mockoon/mockoon) | 本地快速运行模拟API的开源工具，无需账号。 | 近期活跃热门仓库 | 8,478 | TypeScript | macOS 安装包：[mockoon.setup.9.10.0.arm64.dmg](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.setup.9.10.0.arm64.dmg)、[mockoon.setup.9.10.0.universal.dmg](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.setup.9.10.0.universal.dmg)；Windows 安装包：[mockoon.portable.9.10.0.exe](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.portable.9.10.0.exe)、[mockoon.setup.9.10.0.exe](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.setup.9.10.0.exe) |
+| <a id="project-row-82"></a>[#82 ↘️](#project-detail-82) | — | [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop) | 桌面容器管理和Kubernetes工具。 | 近期活跃热门仓库 | 7,409 | TypeScript | macOS 安装包：[Rancher.Desktop-1.25.0.aarch64.dmg](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop-1.25.0.aarch64.dmg)、[Rancher.Desktop-1.25.0.x86_64.dmg](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop-1.25.0.x86_64.dmg)；Windows 安装包：[Rancher.Desktop.Setup.1.25.0.msi](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop.Setup.1.25.0.msi) |
+| <a id="project-row-83"></a>[#83 ↘️](#project-detail-83) | — | [lightningpixel/modly](https://github.com/lightningpixel/modly) | 使用本地 AI 从图片或提示词生成 3D 模型，完全由 GPU 运行的桌面应用 | 近期活跃热门仓库 | 8,614 | TypeScript | macOS 安装包：[Modly-0.4.3-arm64.dmg](https://github.com/lightningpixel/modly/releases/download/v0.4.3/Modly-0.4.3-arm64.dmg)；Windows 安装包：[Modly-Setup-0.4.3.exe](https://github.com/lightningpixel/modly/releases/download/v0.4.3/Modly-Setup-0.4.3.exe) |
+| <a id="project-row-84"></a>[#84 ↘️](#project-detail-84) | — | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | 本地优先的 AI 编码智能体桌面端，支持用户安装插件 | 近期活跃热门仓库 | 7,895 | TypeScript | macOS 安装包：[PI-Desktop-0.22.0-arm64.dmg](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-0.22.0-arm64.dmg)、[PI-Desktop-0.22.0-x64.dmg](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-0.22.0-x64.dmg)；Windows 安装包：[PI-Desktop-Portable-0.22.0.exe](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-Portable-0.22.0.exe)、[PI-Desktop-Setup-0.22.0.exe](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-Setup-0.22.0.exe) |
+| <a id="project-row-85"></a>[#85 ↘️](#project-detail-85) | — | [dbgate/dbgate](https://github.com/dbgate/dbgate) | 支持多种数据库的管理工具，跨Windows、Linux、Mac及网页端。 | 近期活跃热门仓库 | 7,378 | JavaScript | macOS 安装包：[dbgate-7.3.4-mac_arm64.dmg](https://github.com/dbgate/dbgate/releases/download/v7.3.4/dbgate-7.3.4-mac_arm64.dmg)、[dbgate-7.3.4-mac_universal.dmg](https://github.com/dbgate/dbgate/releases/download/v7.3.4/dbgate-7.3.4-mac_universal.dmg)；Windows 安装包：[dbgate-7.3.4-win.exe](https://github.com/dbgate/dbgate/releases/download/v7.3.4/dbgate-7.3.4-win.exe)、[dbgate-7.3.4-win_arm64.exe](https://github.com/dbgate/dbgate/releases/download/v7.3.4/dbgate-7.3.4-win_arm64.exe) |
+| <a id="project-row-86"></a>[#86 ↘️](#project-detail-86) | — | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | 本地优先的持久化 AI 队友桌面工作区，支持 Codex、Claude 和 Grok | 近期活跃热门仓库 | 6,900 | TypeScript | macOS 安装包：[OpenBot-0.67.1-arm64.dmg](https://github.com/nightly-labs/openbot/releases/download/v0.67.1/OpenBot-0.67.1-arm64.dmg)、[OpenBot-0.67.1-x64.dmg](https://github.com/nightly-labs/openbot/releases/download/v0.67.1/OpenBot-0.67.1-x64.dmg)；Windows 安装包：[OpenBot-0.67.1-x64.exe](https://github.com/nightly-labs/openbot/releases/download/v0.67.1/OpenBot-0.67.1-x64.exe) |
+| <a id="project-row-87"></a>[#87 ↘️](#project-detail-87) | — | [binaricat/Netcatty](https://github.com/binaricat/Netcatty) | 集成SSH、SFTP和终端的工作空间工具。 | 近期活跃热门仓库 | 7,261 | TypeScript | macOS 安装包：[Netcatty-1.1.90-mac-arm64.dmg](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-mac-arm64.dmg)、[Netcatty-1.1.90-mac-x64.dmg](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-mac-x64.dmg)；Windows 安装包：[Netcatty-1.1.90-portable-win-x64.exe](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-portable-win-x64.exe)、[Netcatty-1.1.90-win-x64.exe](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-win-x64.exe) |
+| <a id="project-row-88"></a>[#88 ↘️](#project-detail-88) | — | [ayangweb/BongoCat](https://github.com/ayangweb/BongoCat) | 为桌面增添乐趣的跨平台互动桌面宠物 | 近期活跃热门仓库 | 24,578 | Rust | macOS 安装包：[BongoCat-2.4.1-aarch64.dmg](https://github.com/ayangweb/BongoCat/releases/download/v2.4.1/BongoCat-2.4.1-aarch64.dmg)、[BongoCat-2.4.1-x64.dmg](https://github.com/ayangweb/BongoCat/releases/download/v2.4.1/BongoCat-2.4.1-x64.dmg)；Windows 安装包：[BongoCat_2.4.1_x64.exe](https://github.com/ayangweb/BongoCat/releases/download/v2.4.1/BongoCat_2.4.1_x64.exe) |
+| <a id="project-row-89"></a>[#89 ↘️](#project-detail-89) | — | [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) | 像素风桌面宠物，监控多种AI编程助手。 | 近期活跃热门仓库 | 6,715 | JavaScript | macOS 安装包：[Clawd-on-Desk-1.6.0-arm64.dmg](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-1.6.0-arm64.dmg)、[Clawd-on-Desk-1.6.0-x64.dmg](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-1.6.0-x64.dmg)；Windows 安装包：[Clawd-on-Desk-Setup-1.6.0-arm64.exe](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-Setup-1.6.0-arm64.exe)、[Clawd-on-Desk-Setup-1.6.0-x64.exe](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-Setup-1.6.0-x64.exe) |
+| <a id="project-row-90"></a>[#90 ↘️](#project-detail-90) | — | [mg-chao/snow-shot](https://github.com/mg-chao/snow-shot) | 适用于 Windows 和 macOS 的免费开源截图录屏工具，支持标注、滚动截图、离线 OCR 和贴图。 | 近期活跃热门仓库 | 6,903 | C++ | macOS 安装包：[snow-shot-1.5.4-macos-arm64.dmg](https://github.com/mg-chao/snow-shot/releases/download/v1.5.4_snow-shot/snow-shot-1.5.4-macos-arm64.dmg)、[snow-shot-1.5.4-macos-x86_64.dmg](https://github.com/mg-chao/snow-shot/releases/download/v1.5.4_snow-shot/snow-shot-1.5.4-macos-x86_64.dmg)；Windows 安装包：[snow-shot-1.5.4-windows-arm64-offline.exe](https://github.com/mg-chao/snow-shot/releases/download/v1.5.4_snow-shot/snow-shot-1.5.4-windows-arm64-offline.exe)、[snow-shot-1.5.4-windows-arm64-online.exe](https://github.com/mg-chao/snow-shot/releases/download/v1.5.4_snow-shot/snow-shot-1.5.4-windows-arm64-online.exe) |
+| <a id="project-row-91"></a>[#91 ↘️](#project-detail-91) | — | [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic) | 是开源简洁美观的酷狗第三方客户端，支持多平台。 | 近期活跃热门仓库 | 7,130 | Vue | macOS 安装包：[MoeKoe_Music_v1.7.2-arm64.dmg](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_v1.7.2-arm64.dmg)；Windows 安装包：[MoeKoe_Music_Setup_v1.7.2-ia32.exe](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_Setup_v1.7.2-ia32.exe)、[MoeKoe_Music_Setup_v1.7.2-x64.exe](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_Setup_v1.7.2-x64.exe) |
+| <a id="project-row-93"></a>[#93 ↘️](#project-detail-93) | — | [mediago-dev/mediago](https://github.com/mediago-dev/mediago) | 跨平台视频下载器，支持m3u8/HLS及主流视频网站。 | 近期活跃热门仓库 | 9,374 | TypeScript | macOS 安装包：[mediago-community-setup-darwin-arm64-3.5.0.dmg](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-setup-darwin-arm64-3.5.0.dmg)、[mediago-community-setup-darwin-x64-3.5.0.dmg](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-setup-darwin-x64-3.5.0.dmg)；Windows 安装包：[mediago-community-portable-win32-x64-3.5.0.exe](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-portable-win32-x64-3.5.0.exe)、[mediago-community-setup-win32-x64-3.5.0.exe](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-setup-win32-x64-3.5.0.exe) |
+| <a id="project-row-94"></a>[#94 ↘️](#project-detail-94) | — | [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop) | 支持Mac、Windows和Linux的流媒体种子客户端。 | 近期活跃热门仓库 | 10,150 | JavaScript | macOS 安装包：[WebTorrent-v0.24.0.dmg](https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.24.0/WebTorrent-v0.24.0.dmg)；Windows 安装包：[WebTorrentSetup-v0.24.0.exe](https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.24.0/WebTorrentSetup-v0.24.0.exe) |
+| <a id="project-row-95"></a>[#95 ↘️](#project-detail-95) | — | [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 智能助手DeepChat，连接强大AI服务，助力个人应用。 | 近期活跃热门仓库 | 6,388 | TypeScript | macOS 安装包：[DeepChat-1.1.3-mac-arm64.dmg](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-mac-arm64.dmg)、[DeepChat-1.1.3-mac-x64.dmg](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-mac-x64.dmg)；Windows 安装包：[DeepChat-1.1.3-windows-arm64.exe](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-windows-arm64.exe)、[DeepChat-1.1.3-windows-x64.exe](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-windows-x64.exe) |
+| <a id="project-row-96"></a>[#96 ↘️](#project-detail-96) | — | [hovancik/stretchly](https://github.com/hovancik/stretchly) | 休息时间提醒应用 | 近期活跃热门仓库 | 6,643 | JavaScript | macOS 安装包：[Stretchly-1.22.1-arm64.dmg](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-1.22.1-arm64.dmg)、[Stretchly-1.22.1.dmg](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-1.22.1.dmg)；Windows 安装包：[Stretchly-Portable-1.22.1.exe](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-Portable-1.22.1.exe)、[Stretchly-Setup-1.22.1.exe](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-Setup-1.22.1.exe) |
+| <a id="project-row-97"></a>[#97 ↘️](#project-detail-97) | — | [raphamorim/rio](https://github.com/raphamorim/rio) | 硬件加速GPU终端模拟器，支持桌面和浏览器运行。 | 近期活跃热门仓库 | 7,725 | Rust | macOS 安装包：[rio.dmg](https://github.com/raphamorim/rio/releases/download/v0.5.29/rio.dmg)；Windows 安装包：[rio-installer-aarch64.msi](https://github.com/raphamorim/rio/releases/download/v0.5.29/rio-installer-aarch64.msi)、[rio-installer-x86_64.msi](https://github.com/raphamorim/rio/releases/download/v0.5.29/rio-installer-x86_64.msi) |
+| <a id="project-row-98"></a>[#98 ↘️](#project-detail-98) | — | [lite-xl/lite-xl](https://github.com/lite-xl/lite-xl) | 使用 Lua 编写的轻量级文本编辑器 | 近期活跃热门仓库 | 6,526 | Lua | macOS 安装包：[lite-xl-v2.1.8-addons-macos-arm64.dmg](https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/lite-xl-v2.1.8-addons-macos-arm64.dmg)、[lite-xl-v2.1.8-addons-macos-universal.dmg](https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/lite-xl-v2.1.8-addons-macos-universal.dmg)；Windows 安装包：[LiteXL-v2.1.8-addons-i686-setup.exe](https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/LiteXL-v2.1.8-addons-i686-setup.exe)、[LiteXL-v2.1.8-addons-x86_64-setup.exe](https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/LiteXL-v2.1.8-addons-x86_64-setup.exe) |
+| <a id="project-row-99"></a>[#99 ↘️](#project-detail-99) | — | [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI) | 开源桌面级AI代理，支持数据分析、文档制作和多平台远程控制。 | 近期活跃热门仓库 | 6,174 | TypeScript | macOS 安装包：[LobsterAI--mac-arm64.dmg](https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.6/LobsterAI--mac-arm64.dmg)、[LobsterAI--mac-x64.dmg](https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.6/LobsterAI--mac-x64.dmg)；Windows 安装包：[LobsterAI--win-x64.exe](https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.6/LobsterAI--win-x64.exe) |
+| <a id="project-row-100"></a>[#100 ↘️](#project-detail-100) | — | [pbek/QOwnNotes](https://github.com/pbek/QOwnNotes) | 支持 Markdown 并集成 Nextcloud 和 ownCloud 的纯文本笔记与待办管理器 | 近期活跃热门仓库 | 5,955 | C++ | macOS 安装包：[QOwnNotes.dmg](https://github.com/pbek/QOwnNotes/releases/download/v26.11.7/QOwnNotes.dmg)、[QOwnNotesQt5.dmg](https://github.com/pbek/QOwnNotes/releases/download/v26.11.7/QOwnNotesQt5.dmg)；Windows 安装包：[QOwnNotes.msi](https://github.com/pbek/QOwnNotes/releases/download/v26.11.7/QOwnNotes.msi) |
 
 ## 项目详情
 
 <a id="project-detail-1"></a>
 
-### 1. [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)
+### 1. [farion1231/cc-switch](https://github.com/farion1231/cc-switch)
 
 [↖️ 返回表格中的 #1](#project-row-1)
 
 #### 中文分析
 
-把 AI 智能体做成聊天应用里的联系人列表，是 OpenMausBot 最鲜明的体验：侧边栏中的每个机器人都是真实运行的 Claude 或 Codex，分别拥有自己的性格、模型、对话记忆、云端计算机和已连接应用。用户可以像联系同事一样与多个机器人交谈，观察它们执行任务，并在关键步骤进行批准。它采用 local first 思路，不通过中间代理售卖另一套账号，而是直接调用用户机器上已经安装并登录的 claude、codex 和 grok CLI，沿用现有订阅；在 Settings → Engines 中还可把任意引擎指向自定义 CLI 二进制文件或包装器。桌面端覆盖 macOS、Windows 与 Ubuntu 24.04，整体定位并非单一聊天框，而是一支可分别配置、持续协作的个人 AI 团队。
+CC Switch 把 Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build 等工具的供应商配置集中进桌面界面。先选择工具，再通过 Add Provider 选预设、填写密钥，便可从主界面或托盘切换连接。Direct 直接连接供应商，Routing 经本机转换 Anthropic Messages、OpenAI Chat Completions、OpenAI Responses 和 Gemini Native 请求格式，并按故障转移队列切换上游；Aggregation 则把多家模型放进 Claude Code 或 Codex 的同一模型列表，按所选模型路由请求。MCP 和 Skills 可添加一次后选择同步目标，Prompts 按工具分别维护，Projects 可保存供应商、MCP、技能与提示词组成的配置组合。会话阅读器呈现每轮操作、文件改动和失败步骤，用量面板从本地日志统计请求、Token、缓存命中率与费用，供应商卡片和托盘还会显示余额及重置倒计时。切换前可预览配置，首次改写会备份原文件，日常操作围绕端点、密钥和模型等连接字段展开。
 
 #### 项目概况
 
-- 热度：Daily Trending #11，今日 +1,587 Stars；累计 19,675 个星标 / 2,695 次复刻
-- 主要语言：TypeScript；许可证：Apache-2.0
-- 主题标签：ai-agents、claude-code、codex、computer-use、docker、electron、grok、grok-bot、grok-bot-alternative、self-hosted
-- 仓库创建：2026-08-11T18:58:55Z
-- 最近推送：2026-11-10T00:36:06Z
-- 项目主页：[https://www.mausbot.com/](https://www.mausbot.com/)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.1.151](https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.151)；发布时间：2026-11-09T22:56:49Z
-- macOS 安装包：[OpenMausBot-0.1.151-arm64.dmg](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.151/OpenMausBot-0.1.151-arm64.dmg)；[OpenMausBot-0.1.151-x64.dmg](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.151/OpenMausBot-0.1.151-x64.dmg)；[OpenMausBot-intel.dmg](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.151/OpenMausBot-intel.dmg)
-- Windows 安装包：[OpenMausBot-0.1.151-setup.exe](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.151/OpenMausBot-0.1.151-setup.exe)；[OpenMausBot-setup.exe](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.151/OpenMausBot-setup.exe)
-
-<a id="project-detail-2"></a>
-
-### 2. [farion1231/cc-switch](https://github.com/farion1231/cc-switch)
-
-[↖️ 返回表格中的 #2](#project-row-2)
-
-#### 中文分析
-
-在 Claude Code、Claude Desktop、Codex、Gemini CLI 等工具之间切换服务商时，CC Switch 会把分散的连接配置收进同一桌面界面。添加服务商可从九十多种预设起步，填写密钥后选择 Direct 直连、Routing 本地转发或 Aggregation 模型聚合。Routing 能转换 Anthropic Messages、OpenAI Chat Completions、OpenAI Responses 与 Gemini Native 请求，并按队列在故障后切换供应商。Aggregation 则把多家模型放进客户端的同一个选择器，每次请求交给所选模型的供应商。切换主要改写端点、密钥和模型等字段，首次改写前会备份配置，编辑器还能预览结果。MCP 和 Skills 可添加一次后按工具选择同步，Prompts 则各自维护。开启项目切换器后，可把服务商、技能和提示文件保存为项目组合，再从页面或托盘切换。Sessions 把本地记录整理成可阅读、搜索和恢复的会话，Usage dashboard 从日志统计请求、Token、缓存命中率和花费，服务商卡片与托盘还可显示剩余额度和重置倒计时。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 153,062 个星标 / 10,056 次复刻
+- 热度：近期活跃热门仓库；累计 153,346 个星标 / 10,076 次复刻
 - 主要语言：Rust；许可证：MIT
 - 主题标签：ai-tools、claude-code、codex、deepseek-harness、desktop-app、grok、grokbuild、hermes、kimi-code、mcp
 - 仓库创建：2025-08-04T14:16:16Z
-- 最近推送：2026-11-09T15:46:54Z
+- 最近推送：2026-11-11T01:02:02Z
 - 项目主页：[https://ccswitch.io](https://ccswitch.io)
 
 #### 最新发布与安装
 
-- 最新版本：[v4.0.28](https://github.com/farion1231/cc-switch/releases/tag/v4.0.28)；发布时间：2026-11-08T15:56:25Z
-- macOS 安装包：[CC-Switch-v4.0.28-macOS.dmg](https://github.com/farion1231/cc-switch/releases/download/v4.0.28/CC-Switch-v4.0.28-macOS.dmg)
-- Windows 安装包：[CC-Switch-v4.0.28-Windows-arm64.msi](https://github.com/farion1231/cc-switch/releases/download/v4.0.28/CC-Switch-v4.0.28-Windows-arm64.msi)；[CC-Switch-v4.0.28-Windows.msi](https://github.com/farion1231/cc-switch/releases/download/v4.0.28/CC-Switch-v4.0.28-Windows.msi)
+- 最新版本：[v4.0.29](https://github.com/farion1231/cc-switch/releases/tag/v4.0.29)；发布时间：2026-11-10T15:29:53Z
+- macOS 安装包：[CC-Switch-v4.0.29-macOS.dmg](https://github.com/farion1231/cc-switch/releases/download/v4.0.29/CC-Switch-v4.0.29-macOS.dmg)
+- Windows 安装包：[CC-Switch-v4.0.29-Windows-arm64.msi](https://github.com/farion1231/cc-switch/releases/download/v4.0.29/CC-Switch-v4.0.29-Windows-arm64.msi)；[CC-Switch-v4.0.29-Windows.msi](https://github.com/farion1231/cc-switch/releases/download/v4.0.29/CC-Switch-v4.0.29-Windows.msi)
 
-<a id="project-detail-3"></a>
+<a id="project-detail-2"></a>
 
-### 3. [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
+### 2. [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
-[↖️ 返回表格中的 #3](#project-row-3)
+[↖️ 返回表格中的 #2](#project-row-2)
 
 #### 中文分析
 
@@ -175,11 +150,11 @@ RustDesk 用 Rust 实现远程桌面连接，默认即可运行，无须先完�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 128,797 个星标 / 20,488 次复刻
+- 热度：近期活跃热门仓库；累计 128,930 个星标 / 20,529 次复刻
 - 主要语言：Rust；许可证：AGPL-3.0
 - 主题标签：android、anydesk、dart、flatpak、flutter、flutter-apps、ios、linux、macos、p2p
 - 仓库创建：2020-09-28T15:36:08Z
-- 最近推送：2026-11-09T09:43:51Z
+- 最近推送：2026-11-10T20:41:19Z
 - 项目主页：[https://rustdesk.com](https://rustdesk.com)
 
 #### 最新发布与安装
@@ -188,86 +163,86 @@ RustDesk 用 Rust 实现远程桌面连接，默认即可运行，无须先完�
 - macOS 安装包：[rustdesk-1.5.1-aarch64.dmg](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.dmg)；[rustdesk-1.5.1-x86_64.dmg](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86_64.dmg)
 - Windows 安装包：[rustdesk-1.5.1-aarch64.exe](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.exe)；[rustdesk-1.5.1-aarch64.msi](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.msi)；[rustdesk-1.5.1-x86-sciter.exe](https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86-sciter.exe)
 
+<a id="project-detail-3"></a>
+
+### 3. [stablyai/orca](https://github.com/stablyai/orca)
+
+[↖️ 返回表格中的 #3](#project-row-3)
+
+#### 中文分析
+
+把一个大任务交给单个智能体后，Orca 可以让它继续拆分工作，并在彼此隔离的 Parallel Worktrees 中启动多个 worker agents，最后汇总结果；这构成了它管理编程智能体集群的主要工作方式。Claude Code、Codex 等智能体既能运行在 Chat UI，也能以 raw CLI 形式使用，而且对话可在两种界面间移动而不丢失上下文。工作环境不局限于本机：用户可以配对 Remote Orca Server、连接 SSH host，或为某个 worktree 分配 cloud VM，即使笔记本休眠，任务仍可继续。离开电脑后，Mobile App 会在智能体需要回应时通知用户，并允许直接回复。产出审查也嵌入流程之中：可以查看 diffs、在具体改动行留下意见，再把聚焦后的反馈发回智能体；Git Integration 还能依据差异草拟提交信息和 pull requests，并把失败检查或评审意见交还给智能体修复。内置浏览器的 Design Mode 可点击页面元素并复制其 HTML、styles 和 selector，Orca CLI 则开放创建 worktrees、启动 workers、驱动浏览器及桌面应用、安排自动化等能力。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 121,467 个星标 / 7,698 次复刻
+- 主要语言：TypeScript；许可证：MIT
+- 主题标签：agent-ide、ai-agents、automation、bot、claude-code、codex、ghostty、grok-bot、hermes-agent、mobile-app
+- 仓库创建：2026-03-17T03:28:57Z
+- 最近推送：2026-11-11T01:02:54Z
+- 项目主页：[https://orca.dev](https://orca.dev)
+
+#### 最新发布与安装
+
+- 最新版本：[v1.4.256](https://github.com/stablyai/orca/releases/tag/v1.4.256)；发布时间：2026-11-10T21:31:53Z
+- macOS 安装包：[orca-macos-arm64.dmg](https://github.com/stablyai/orca/releases/download/v1.4.256/orca-macos-arm64.dmg)；[orca-macos-x64.dmg](https://github.com/stablyai/orca/releases/download/v1.4.256/orca-macos-x64.dmg)
+- Windows 安装包：[orca-windows-setup.exe](https://github.com/stablyai/orca/releases/download/v1.4.256/orca-windows-setup.exe)
+
 <a id="project-detail-4"></a>
 
-### 4. [stablyai/orca](https://github.com/stablyai/orca)
+### 4. [nexu-io/open-design](https://github.com/nexu-io/open-design)
 
 [↖️ 返回表格中的 #4](#project-row-4)
 
 #### 中文分析
 
-Orca 把多智能体编码工作集中到一个应用中：Claude Code、Codex 等工具既能在 Chat UI 里对话，也能以 raw CLI 方式运行，而且对话可以在两种界面间切换而不丢失上下文。面对大型任务，主智能体能够拆分工作，并让 worker agents 在各自独立的 worktree 中并行处理，再汇总结果；这种 Parallel Worktrees 设计避免多个智能体相互干扰。工作区既可留在笔记本，也可连接 Remote Orca Server、SSH 主机或独立 cloud VM，即使电脑休眠，任务仍能继续。完成修改后，用户可以直接审阅 diffs、在具体代码行留下反馈，并根据差异生成提交信息或 pull requests。配套移动应用会在智能体需要介入时提醒用户，而 Orca CLI 还能创建 worktree、启动 worker、操控浏览器和桌面应用，以及安排自动化任务。
+从一段 brief 开始，OpenDesign 允许用户调用 coding agent 或 OpenDesign Cloud，生成遵循既有 design system 的原型，再把同一个项目分享给团队收集反馈，让智能体根据意见继续迭代。它把设计过程拆进若干可回访的空间：Home 用于从 brief 或示例起步，All projects 汇集 design systems、media 与 prototypes，Design Systems 可检查品牌资产并交给智能体完善，Plugins 则能查找 skills 并通过 Try it 直接启动。Studio 承载具体创作，其中 Prototype 用智能体和 live preview 构建交互式 Web 体验；Slides 可制作演示文稿、审阅幻灯片与 speaker notes 后导出；Image 从对话生成视觉素材；HyperFrames 则用于创建 motion graphics 并导出 MP4。其本地优先、开放且可扩展的思路还体现在连接方式上：外部智能体可通过 skills、CLI 和 MCP 使用 OpenDesign，平台也为自己直接启动的智能体提供 native runtime adapters。团队获得的 skills、design templates、design systems 与 plugins 都可以检查并按自身流程改造。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 120,418 个星标 / 7,631 次复刻
-- 主要语言：TypeScript；许可证：MIT
-- 主题标签：agent-ide、ai-agents、automation、bot、claude-code、codex、ghostty、grok-bot、hermes-agent、mobile-app
-- 仓库创建：2026-03-17T03:28:57Z
-- 最近推送：2026-11-10T00:54:12Z
-- 项目主页：[https://orca.dev](https://orca.dev)
+- 热度：近期活跃热门仓库；累计 107,035 个星标 / 12,174 次复刻
+- 主要语言：TypeScript；许可证：Apache-2.0
+- 主题标签：agent-skills、ai-design、byok、claude-code-for-design、claude-design、codex-design、cursor-design、deepseek、deepseek-harness、design-systems
+- 仓库创建：2026-04-28T04:25:20Z
+- 最近推送：2026-11-10T09:25:09Z
+- 项目主页：[https://open-design.ai](https://open-design.ai)
 
 #### 最新发布与安装
 
-- 最新版本：[v1.4.255](https://github.com/stablyai/orca/releases/tag/v1.4.255)；发布时间：2026-11-09T12:24:14Z
-- macOS 安装包：[orca-macos-arm64.dmg](https://github.com/stablyai/orca/releases/download/v1.4.255/orca-macos-arm64.dmg)；[orca-macos-x64.dmg](https://github.com/stablyai/orca/releases/download/v1.4.255/orca-macos-x64.dmg)
-- Windows 安装包：[orca-windows-setup.exe](https://github.com/stablyai/orca/releases/download/v1.4.255/orca-windows-setup.exe)
+- 最新版本：[open-design-v0.27.1](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.1)；发布时间：2026-11-10T03:03:29Z
+- macOS 安装包：[open-design-0.27.1-mac-arm64.dmg](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.1/open-design-0.27.1-mac-arm64.dmg)；[open-design-0.27.1-mac-x64.dmg](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.1/open-design-0.27.1-mac-x64.dmg)
+- Windows 安装包：[open-design-0.27.1-win-x64-setup.exe](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.1/open-design-0.27.1-win-x64-setup.exe)
 
 <a id="project-detail-5"></a>
 
-### 5. [nexu-io/open-design](https://github.com/nexu-io/open-design)
+### 5. [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)
 
 [↖️ 返回表格中的 #5](#project-row-5)
 
 #### 中文分析
 
-从一份 brief 开始，OpenDesign 让设计人员、团队成员与编程智能体在同一项目中完成原型制作、评审和迭代：智能体可依据已有 design system 生成成果，成员分享项目并反馈后，智能体继续在原上下文里修订。Home 用于从 brief 或示例起步，All projects 汇总设计系统、媒体和原型，Design Systems 可检查品牌资产并交给智能体优化，Plugins 则通过 Try it 直接启动技能。具体创作集中在 Studio：Prototype 构建带实时预览的交互式网页体验；Slides 生成演示文稿，可检查幻灯片与演讲者备注并导出；Image 从对话生成视觉素材；HyperFrames 用智能体制作动态视觉并导出 MP4。连接外部智能体时，平台提供 skills、CLI 和 MCP，让能够消费 OpenDesign 能力的工具接入；对于由工作区直接启动的智能体，则使用 native runtime adapters。其工作流保持开放，团队可以检查和调整内置技能、设计模板、设计系统与插件，使协作规范不必被锁在单一生成服务中。
+Agent Canvas 将多个编码智能体和日常工程自动化收进一个可自托管、持续在线的开发控制中心。用户可以从会话开始工作，也可以建立定时或由 webhook events 触发的 automations，例如生成报告并发布到 Slack，或者自动把 GitHub issues 拆成任务；这些流程还能连接 GitHub、Linear、Notion 等第三方服务。运行位置具有较大弹性：默认可在本机启动，也能把 agent backends 放进 Docker containers、VMs 或公司内部基础设施，并在 local、remote 和 cloud backends 之间切换；如有需要，还可选用 OpenHands Cloud 或 OpenHands Enterprise infrastructure。平台开箱运行 OpenHands agent，同时接入 Claude Code、Codex、Gemini CLI、Pi、OpenCode，以及任何兼容 Agent Client Protocol (ACP) 的智能体，并允许自带任意 LLM。安装目标既可以是日常使用的笔记本，也可以是 Mac Mini 之类的专用电脑或云端服务器，因此重点并非绑定某一种模型，而是统一承载会话、后端与跨服务自动化。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 106,840 个星标 / 12,165 次复刻
-- 主要语言：TypeScript；许可证：Apache-2.0
-- 主题标签：agent-skills、ai-design、byok、claude-code-for-design、claude-design、codex-design、cursor-design、deepseek、deepseek-harness、design-systems
-- 仓库创建：2026-04-28T04:25:20Z
-- 最近推送：2026-11-09T18:15:41Z
-- 项目主页：[https://open-design.ai](https://open-design.ai)
-
-#### 最新发布与安装
-
-- 最新版本：[open-design-v0.27.0](https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.0)；发布时间：2026-11-04T04:02:06Z
-- macOS 安装包：[open-design-0.27.0-mac-arm64.dmg](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.0/open-design-0.27.0-mac-arm64.dmg)；[open-design-0.27.0-mac-x64.dmg](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.0/open-design-0.27.0-mac-x64.dmg)
-- Windows 安装包：[open-design-0.27.0-win-x64-setup.exe](https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.0/open-design-0.27.0-win-x64-setup.exe)
-
-<a id="project-detail-6"></a>
-
-### 6. [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)
-
-[↖️ 返回表格中的 #6](#project-row-6)
-
-#### 中文分析
-
-Agent Canvas 将不同来源的编程智能体汇集到一个可自托管、持续在线的 developer control center 中。安装后可以直接运行 OpenHands，也能接入 Claude Code、Codex、Gemini、Pi、OpenCode，或任何兼容 Agent Client Protocol (ACP) 的智能体；底层执行位置可在本机、Docker、VM 和企业内部基础设施之间选择，也可连接 OpenHands Cloud 或 OpenHands Enterprise。它不仅用于发起对话，还把日常工程工作编排成 automations，例如定期生成并发布到 Slack 的报告，或自动把 GitHub issues 拆成任务。工作流既可按 schedule 运行，也可由 webhook events 触发，并能连接 Slack、GitHub、Linear、Notion 等服务。这样的设计把“使用某个编码助手”和“运营一组长期工作的工程自动化”放进同一控制面板，同时允许在 local、remote 与 cloud backends 之间切换。README 的 Quickstart 说明其可安装在日常笔记本、Mac Mini 一类专用电脑或云端服务器上，并支持 Bring your own model，让部署方式、智能体和 LLM 都保持可替换。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 93,059 个星标 / 12,437 次复刻
+- 热度：近期活跃热门仓库；累计 93,151 个星标 / 12,445 次复刻
 - 主要语言：TypeScript；许可证：MIT
 - 主题标签：agent、artificial-intelligence、chatgpt、claude-ai、cli、developer-tools、gpt、llm、openai
 - 仓库创建：2024-03-13T03:33:31Z
-- 最近推送：2026-11-10T00:51:22Z
+- 最近推送：2026-11-11T00:28:51Z
 - 项目主页：[https://openhands.dev](https://openhands.dev)
 
 #### 最新发布与安装
 
-- 最新版本：[v1.37.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.37.0)；发布时间：2026-11-06T12:54:14Z
-- macOS 安装包：[OpenHands-Agent-Canvas-1.37.0-universal.dmg](https://github.com/OpenHands/OpenHands/releases/download/v1.37.0/OpenHands-Agent-Canvas-1.37.0-universal.dmg)
-- Windows 安装包：[OpenHands-Agent-Canvas-Setup-1.37.0.exe](https://github.com/OpenHands/OpenHands/releases/download/v1.37.0/OpenHands-Agent-Canvas-Setup-1.37.0.exe)
+- 最新版本：[v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0)；发布时间：2026-11-10T04:59:49Z
+- macOS 安装包：[OpenHands-Agent-Canvas-1.38.0-universal.dmg](https://github.com/OpenHands/OpenHands/releases/download/v1.38.0/OpenHands-Agent-Canvas-1.38.0-universal.dmg)
+- Windows 安装包：[OpenHands-Agent-Canvas-Setup-1.38.0.exe](https://github.com/OpenHands/OpenHands/releases/download/v1.38.0/OpenHands-Agent-Canvas-Setup-1.38.0.exe)
 
-<a id="project-detail-7"></a>
+<a id="project-detail-6"></a>
 
-### 7. [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
+### 6. [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
 
-[↖️ 返回表格中的 #7](#project-row-7)
+[↖️ 返回表格中的 #6](#project-row-6)
 
 #### 中文分析
 
@@ -275,11 +250,11 @@ Agent Canvas 将不同来源的编程智能体汇集到一个可自托管、持�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 74,406 个星标 / 5,499 次复刻
+- 热度：近期活跃热门仓库；累计 74,429 个星标 / 5,509 次复刻
 - 主要语言：TypeScript；许可证：NOASSERTION
 - 主题标签：app、crdt、editor、electron、knowledge-base、markdown、miro、notes、notion、notion-alternative
 - 仓库创建：2022-07-31T18:45:21Z
-- 最近推送：2026-11-09T23:51:41Z
+- 最近推送：2026-11-11T00:07:47Z
 - 项目主页：[https://affine.pro](https://affine.pro)
 
 #### 最新发布与安装
@@ -288,29 +263,54 @@ Agent Canvas 将不同来源的编程智能体汇集到一个可自托管、持�
 - macOS 安装包：[affine-0.27.4-stable-macos-arm64.dmg](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-macos-arm64.dmg)；[affine-0.27.4-stable-macos-x64.dmg](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-macos-x64.dmg)
 - Windows 安装包：[affine-0.27.4-stable-windows-arm64.exe](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-windows-arm64.exe)；[affine-0.27.4-stable-windows-arm64.nsis.exe](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-windows-arm64.nsis.exe)；[affine-0.27.4-stable-windows-x64.exe](https://github.com/toeverything/AFFiNE/releases/download/v0.27.4/affine-0.27.4-stable-windows-x64.exe)
 
-<a id="project-detail-8"></a>
+<a id="project-detail-7"></a>
 
-### 8. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
+### 7. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
 
-[↖️ 返回表格中的 #8](#project-row-8)
+[↖️ 返回表格中的 #7](#project-row-7)
 
 #### 中文分析
 
-在 dsh 中安装 dsh-our-free-model 后，无需登录、注册或填写 API Key，便可选择 DeepSeek V4.1 Flash、Kimi K3 等模型；插件不修改内核，没有构建步骤，也没有额外依赖。模型清单并非固化在插件中，而会跟随 OpenCode 的 Zen 网关和 Kilo AI 公共网关刷新，再依据当前机器的网络出口探测可用性：明确返回 Model is unavailable 或 404 的模型会从选择器移除，地区限制项进入 region-limited 分组，5xx、429、超时和断网则不会被误判为模型失效。思考控制会真实下发 reasoning_effort 或输出 token 预算，而非只拼接提示词。设置页支持一键执行下载、SHA-256 校验、备份、原子替换、回读与热重载，失败时自动回滚；本地看板记录 Token 热力图、输出速度和首字延迟且不上传数据。插件还提供 OpenAI 兼容转发端口，方便本机其他工具通过 base URL 与 Key 调用同一批模型。
+在 dsh 中安装插件后，无需账号、注册或 API Key，就能直接选择 DeepSeek V4.1 Flash、Kimi K3 等模型；插件采用纯插件挂载，不改内核、没有构建步骤且零依赖。模型清单不会固化在插件里，而会随上游刷新，并根据当前机器的网络出口实测可用性：明确返回 Model is unavailable 或 404 的模型会从选择器移除，地区策略拦截的模型进入 region-limited 分组，而 5xx、429、超时和断网不会被误判为模型永久不可用。思考强度也不是提示词模拟：具有档位菜单的模型会把 Off / Low / High / Max 等值原样下发到 reasoning_effort；没有菜单的模型则使用 Light / Balanced / Deep 预算阶梯，对应不同输出 token 上限。升级流程可在设置页一键完成，依次执行下载、SHA-256 校验、备份、原子替换、回读校验和热重载，失败时自动回滚。插件还提供 Token 热力图、总量曲线、输出速度与首字延迟等本机用量看板，并开放 OpenAI 兼容转发端口，让其他本地工具通过 base URL 与 Key 调用同一批模型。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 67,371 个星标 / 1,813 次复刻
+- 热度：近期活跃热门仓库；累计 68,732 个星标 / 1,850 次复刻
 - 主要语言：JavaScript；许可证：MIT
 - 主题标签：ai-agents、deepseek、deepseek-harness、developer-tools、dsh、dsh-plugin、free-model、llm、model-provider、openai-compatible
 - 仓库创建：2026-09-24T16:17:19Z
-- 最近推送：2026-11-09T03:18:51Z
+- 最近推送：2026-11-10T12:45:26Z
 
 #### 最新发布与安装
 
 - 最新版本：[v2.8.3](https://github.com/Ebony-Vinyl/dsh-our-free-model/releases/tag/v2.8.3)；发布时间：2026-11-08T06:38:08Z
 - macOS 安装包：[Our.Free.Model_2.8.3_aarch64.dmg](https://github.com/Ebony-Vinyl/dsh-our-free-model/releases/download/v2.8.3/Our.Free.Model_2.8.3_aarch64.dmg)
 - Windows 安装包：[Our.Free.Model_2.8.3_x64-setup.exe](https://github.com/Ebony-Vinyl/dsh-our-free-model/releases/download/v2.8.3/Our.Free.Model_2.8.3_x64-setup.exe)
+
+<a id="project-detail-8"></a>
+
+### 8. [marktext/marktext](https://github.com/marktext/marktext)
+
+[↖️ 返回表格中的 #8](#project-row-8)
+
+#### 中文分析
+
+写作内容在 MarkText 中会以 Realtime preview (WYSIWYG) 即时呈现，界面刻意保持干净简洁，让作者不必在源码与预览窗口之间反复切换。它遵循 CommonMark Spec 和 GitHub Flavored Markdown Spec，并选择性支持 Pandoc markdown；除普通段落与行内样式快捷操作外，还能处理 KaTeX 数学表达式、front matter 和 emojis。编辑体验可在 Source Code mode、Typewriter mode、Focus mode 之间切换：需要精确控制标记时查看源码，持续输入时保持当前行位置，专注修改时弱化无关内容。图片可以直接从剪贴板粘贴，完成后的文档能够输出 HTML 和 PDF，并可在 Cadmium Light、Material Dark 等主题间选择。软件提供 Linux、macOS 与 Windows 版本；macOS 要求 13 Ventura 或更高版本，且需根据机器选择 arm64 或 x64 安装包，Windows 则支持 10 和 11，并同样提供对应架构的安装程序。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 63,838 个星标 / 4,735 次复刻
+- 主要语言：TypeScript；许可证：MIT
+- 主题标签：editor、electron、focus-mode、latex、linux、mac、macos、markdown、marktext、source-code
+- 仓库创建：2017-11-12T16:05:25Z
+- 最近推送：2026-11-10T07:55:59Z
+- 项目主页：[https://www.marktext.me](https://www.marktext.me)
+
+#### 最新发布与安装
+
+- 最新版本：[v0.23.0](https://github.com/marktext/marktext/releases/tag/v0.23.0)；发布时间：2026-10-21T05:02:06Z
+- macOS 安装包：[marktext-mac-arm64-0.23.0.dmg](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-mac-arm64-0.23.0.dmg)；[marktext-mac-x64-0.23.0.dmg](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-mac-x64-0.23.0.dmg)
+- Windows 安装包：[marktext-win-arm64-0.23.0-setup.exe](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-arm64-0.23.0-setup.exe)；[marktext-win-x64-0.23.0-setup.exe](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-x64-0.23.0-setup.exe)
 
 <a id="project-detail-9"></a>
 
@@ -324,11 +324,11 @@ Agent Canvas 将不同来源的编程智能体汇集到一个可自托管、持�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 63,047 个星标 / 12,951 次复刻
+- 热度：近期活跃热门仓库；累计 63,130 个星标 / 12,957 次复刻
 - 主要语言：Rust；许可证：GPL-3.0
 - 主题标签：chatgpt、claude、cli、desktop、desktop-app、electron-alternative、gemini、linux、macos、nativefier
 - 仓库创建：2022-10-14T09:32:57Z
-- 最近推送：2026-11-09T15:16:27Z
+- 最近推送：2026-11-10T05:08:29Z
 - 项目主页：[https://pake.run](https://pake.run)
 
 #### 最新发布与安装
@@ -339,9 +339,34 @@ Agent Canvas 将不同来源的编程智能体汇集到一个可自托管、持�
 
 <a id="project-detail-10"></a>
 
-### 10. [agalwood/Motrix](https://github.com/agalwood/Motrix)
+### 10. [laurent22/joplin](https://github.com/laurent22/joplin)
 
 [↖️ 返回表格中的 #10](#project-row-10)
+
+#### 中文分析
+
+笔记与待办可以按 notebooks 组织，内容采用 Markdown format，既能在 Joplin 应用中搜索、复制、加标签和修改，也能交给自己的文本编辑器处理。它以 offline first 为基本原则，手机或电脑始终保存完整数据，所以断网时仍可访问；需要跨设备时，再通过 Nextcloud、Dropbox、OneDrive 或 Joplin Cloud 同步，并可启用 end-to-end encryption 保护传输内容。迁移资料时，Evernote 导出的笔记可连同格式化正文、图片、附件、地理位置及创建和更新时间一起导入，其中正文会转换成 Markdown，普通 Markdown 文件也可以直接进入资料库。Windows、Linux、macOS、Android 和 iOS 均提供客户端，并在所有平台支持 Full text search。浏览器里的 Web Clipper 可从 Firefox 或 Chrome 保存整个网页和截图；界面与能力还可通过 plugins and themes 调整，用户也能自行制作扩展和主题。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 57,132 个星标 / 6,418 次复刻
+- 主要语言：TypeScript；许可证：NOASSERTION
+- 主题标签：android、dropbox、electron、enex-files、evernote、javascript、joplin、nextcloud、nodejs、note-taking
+- 仓库创建：2017-01-16T21:49:41Z
+- 最近推送：2026-11-11T00:21:27Z
+- 项目主页：[https://joplinapp.org](https://joplinapp.org)
+
+#### 最新发布与安装
+
+- 最新版本：[v3.7.22](https://github.com/laurent22/joplin/releases/tag/v3.7.22)；发布时间：2026-10-28T22:32:59Z
+- macOS 安装包：[Joplin-3.7.22-arm64.DMG](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22-arm64.DMG)；[Joplin-3.7.22.dmg](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22.dmg)
+- Windows 安装包：[Joplin-Setup-3.7.22.exe](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe)；[JoplinPortable.exe](https://github.com/laurent22/joplin/releases/download/v3.7.22/JoplinPortable.exe)
+
+<a id="project-detail-11"></a>
+
+### 11. [agalwood/Motrix](https://github.com/agalwood/Motrix)
+
+[↖️ 返回表格中的 #11](#project-row-11)
 
 #### 中文分析
 
@@ -349,7 +374,7 @@ Agent Canvas 将不同来源的编程智能体汇集到一个可自托管、持�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 58,052 个星标 / 5,144 次复刻
+- 热度：近期活跃热门仓库；累计 58,113 个星标 / 5,145 次复刻
 - 主要语言：TypeScript；许可证：NOASSERTION
 - 主题标签：aria2、bt、download、electron、linux、mac、macos、magnet、motrix、torrent
 - 仓库创建：2018-12-18T11:45:05Z
@@ -362,55 +387,30 @@ Agent Canvas 将不同来源的编程智能体汇集到一个可自托管、持�
 - macOS 安装包：[Motrix-2.4.1-arm64.dmg](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-2.4.1-arm64.dmg)；[Motrix-2.4.1-x64.dmg](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-2.4.1-x64.dmg)
 - Windows 安装包：[Motrix-Setup-2.4.1-arm64.exe](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-Setup-2.4.1-arm64.exe)；[Motrix-Setup-2.4.1.exe](https://github.com/agalwood/Motrix/releases/download/v2.4.1/Motrix-Setup-2.4.1.exe)
 
-<a id="project-detail-11"></a>
-
-### 11. [laurent22/joplin](https://github.com/laurent22/joplin)
-
-[↖️ 返回表格中的 #11](#project-row-11)
-
-#### 中文分析
-
-笔记与待办可以按 notebooks 组织，内容采用 Markdown format，既能在 Joplin 应用中搜索、复制、加标签和修改，也能交给自己的文本编辑器处理。它以 offline first 为基本原则，手机或电脑始终保存完整数据，所以断网时仍可访问；需要跨设备时，再通过 Nextcloud、Dropbox、OneDrive 或 Joplin Cloud 同步，并可启用 end-to-end encryption 保护传输内容。迁移资料时，Evernote 导出的笔记可连同格式化正文、图片、附件、地理位置及创建和更新时间一起导入，其中正文会转换成 Markdown，普通 Markdown 文件也可以直接进入资料库。Windows、Linux、macOS、Android 和 iOS 均提供客户端，并在所有平台支持 Full text search。浏览器里的 Web Clipper 可从 Firefox 或 Chrome 保存整个网页和截图；界面与能力还可通过 plugins and themes 调整，用户也能自行制作扩展和主题。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 57,116 个星标 / 6,414 次复刻
-- 主要语言：TypeScript；许可证：NOASSERTION
-- 主题标签：android、dropbox、electron、enex-files、evernote、javascript、joplin、nextcloud、nodejs、note-taking
-- 仓库创建：2017-01-16T21:49:41Z
-- 最近推送：2026-11-09T19:09:09Z
-- 项目主页：[https://joplinapp.org](https://joplinapp.org)
-
-#### 最新发布与安装
-
-- 最新版本：[v3.7.22](https://github.com/laurent22/joplin/releases/tag/v3.7.22)；发布时间：2026-10-28T22:32:59Z
-- macOS 安装包：[Joplin-3.7.22-arm64.DMG](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22-arm64.DMG)；[Joplin-3.7.22.dmg](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22.dmg)
-- Windows 安装包：[Joplin-Setup-3.7.22.exe](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe)；[JoplinPortable.exe](https://github.com/laurent22/joplin/releases/download/v3.7.22/JoplinPortable.exe)
-
 <a id="project-detail-12"></a>
 
-### 12. [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
+### 12. [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 
 [↖️ 返回表格中的 #12](#project-row-12)
 
 #### 中文分析
 
-PowerShell 将交互式 command line shell、配套 scripting language 与处理 cmdlets 的框架组合起来，可在 Windows、Linux 和 macOS 上执行自动化及配置任务。它并不只把命令输出当作普通文本，而是针对 structured data 和 object models 优化，因此处理 JSON、CSV、XML、REST APIs 等数据源时，可以沿着对象属性继续筛选、转换或传递给下一条命令，也能与现有工具协作。仓库由 Windows PowerShell 代码库分叉而来，但这里的更改不会回移到 Windows PowerShell 5.1，议题范围仅覆盖 PowerShell 7.x 及更高版本；旧版专属问题应通过 Feedback Hub app 反馈。初学者可从 getting started 文档进入，安装包覆盖多个桌面与 Linux 平台；升级时最好沿用首次安装所采用的方法，因为不同平台及安装渠道有各自的更新流程。仓库还通过 GitHub Discussions 承载社区交流，并展示以 PowerShell、Azure 和 PowerBI 构建的 Community Dashboard。
+LX Music 桌面版以 Electron 30+ 与 Vue 3 构建，可运行于 Linux、macOS 和 Windows 7 及以上系统。它并不把默认设置和 UI 操作设计成新手即开即用的形态，README 希望用户先按偏好调整软件设置，并理解音乐播放列表机制以及鼠标、键盘快捷操作。除了桌面播放体验，Scheme URL 可让浏览器等外部场景调用 LX Music，并有配套的油猴脚本；独立的数据同步服务可部署到自己的服务器，组成私人多端同步服务；启用开放 API 服务后，软件会在本地启动 HTTP 服务，把播放器相关接口交给第三方软件调用。数据默认进入各系统的应用配置目录，Windows 用户还可在程序文件夹内建立 portable 文件夹，将它自动用作数据存储位置。在线音频并非由软件自身取得，而是把歌曲名、艺术家等信息交给“自定义源”，再使用其返回的链接，因此可能发生歌曲不对应或无法播放。维护重心正逐步转向 Any Listen，后者已覆盖多数既有功能，并增加 WebDAV 歌曲播放、WebDAV 数据同步和独立播放列表等能力。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 56,076 个星标 / 8,532 次复刻
-- 主要语言：C#；许可证：MIT
-- 主题标签：command-line、hacktoberfest、linux、macos、netcore、powershell、shell、windows
-- 仓库创建：2016-01-13T23:41:35Z
-- 最近推送：2026-11-09T21:58:46Z
-- 项目主页：[https://microsoft.com/PowerShell](https://microsoft.com/PowerShell)
+- 热度：近期活跃热门仓库；累计 55,240 个星标 / 7,121 次复刻
+- 主要语言：TypeScript；许可证：Apache-2.0
+- 主题标签：electron、javascript、music-player、vue
+- 仓库创建：2019-08-14T14:31:08Z
+- 最近推送：2026-11-10T04:44:09Z
+- 项目主页：[https://lyswhut.github.io/lx-music-doc/](https://lyswhut.github.io/lx-music-doc/)
 
 #### 最新发布与安装
 
-- 最新版本：[v7.6.9](https://github.com/PowerShell/PowerShell/releases/tag/v7.6.9)；发布时间：2026-10-25T17:26:05Z
-- macOS 安装包：[powershell-7.6.9-osx-arm64.pkg](https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/powershell-7.6.9-osx-arm64.pkg)；[powershell-7.6.9-osx-x64.pkg](https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/powershell-7.6.9-osx-x64.pkg)；[powershell-lts-7.6.9-osx-arm64.pkg](https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/powershell-lts-7.6.9-osx-arm64.pkg)
-- Windows 安装包：[PowerShell-7.6.9-win-arm64.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/PowerShell-7.6.9-win-arm64.msi)；[PowerShell-7.6.9-win-x64.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/PowerShell-7.6.9-win-x64.msi)；[PowerShell-7.6.9-win-x86.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/PowerShell-7.6.9-win-x86.msi)
+- 最新版本：[v2.12.6](https://github.com/lyswhut/lx-music-desktop/releases/tag/v2.12.6)；发布时间：2026-09-19T02:23:52Z
+- macOS 安装包：[lx-music-desktop-2.12.6-arm64.dmg](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-2.12.6-arm64.dmg)；[lx-music-desktop-2.12.6-x64.dmg](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-2.12.6-x64.dmg)
+- Windows 安装包：[lx-music-desktop-v2.12.6-arm64-Setup.exe](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-arm64-Setup.exe)；[lx-music-desktop-v2.12.6-win7_x64-Setup.exe](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-win7_x64-Setup.exe)；[lx-music-desktop-v2.12.6-x64-Setup.exe](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-x64-Setup.exe)
 
 <a id="project-detail-13"></a>
 
@@ -424,7 +424,7 @@ PowerShell 将交互式 command line shell、配套 scripting language 与处理
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 75,348 个星标 / 4,337 次复刻
+- 热度：近期活跃热门仓库；累计 75,373 个星标 / 4,338 次复刻
 - 主要语言：TypeScript；许可证：MIT
 - 主题标签：serial、ssh-client、telnet-client、terminal、terminal-emulators
 - 仓库创建：2016-12-23T09:06:10Z
@@ -439,9 +439,84 @@ PowerShell 将交互式 command line shell、配套 scripting language 与处理
 
 <a id="project-detail-14"></a>
 
-### 14. [alacritty/alacritty](https://github.com/alacritty/alacritty)
+### 14. [team-spotube/spotube](https://github.com/team-spotube/spotube)
 
 [↖️ 返回表格中的 #14](#project-row-14)
+
+#### 中文分析
+
+Spotube 把音乐播放拆成可替换的数据来源：音乐元数据、播放列表和音频源都能由社区或用户自己编写的插件提供，因此不必绑定某一家流媒体服务。插件既可以接入已有平台，也可以承载自定义音乐服务；曲目支持自由下载并写入 tagged metadata，即使插件本身没有歌词能力，应用仍可提供 Time synced lyrics。播放控制在本地完成，服务端不负责遥控，同时不收集 telemetry、诊断信息或用户数据。它以 Compose Multiplatform 构建，可在桌面端和移动端运行，强调较小体积、较少流量消耗与原生性能。普通用户可直接从官网取得稳定版或 Nightly Builds；源码构建则需要 JDK 21、Rust，Android 构建另需 Android SDK，还要按 README 固定的提交自行编译 ComposeNativeWebview。Linux 运行环境依赖 VLC 等系统库，各发行版需使用对应包管理器安装。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 50,711 个星标 / 2,395 次复刻
+- 主要语言：Kotlin；许可证：AGPL-3.0
+- 主题标签：android、android-client、android-music-player、desktop-client、fdroid、flutter、flutter-desktop、linux、macos、music
+- 仓库创建：2021-02-14T03:17:58Z
+- 最近推送：2026-11-10T08:05:32Z
+- 项目主页：[https://spotube.cc/](https://spotube.cc/)
+
+#### 最新发布与安装
+
+- 最新版本：[v6.0.0](https://github.com/team-spotube/spotube/releases/tag/v6.0.0)；发布时间：2026-11-10T03:40:12Z
+- macOS 安装包：[Spotube-macos-apple-silicon.dmg](https://github.com/team-spotube/spotube/releases/download/v6.0.0/Spotube-macos-apple-silicon.dmg)
+- Windows 安装包：[Spotube-windows-x86_64-setup.exe](https://github.com/team-spotube/spotube/releases/download/v6.0.0/Spotube-windows-x86_64-setup.exe)
+
+<a id="project-detail-15"></a>
+
+### 15. [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
+
+[↖️ 返回表格中的 #15](#project-row-15)
+
+#### 中文分析
+
+思源将笔记组织成可独立引用的 Content block，而不只是一批 Markdown 文件；段落等内容块可以建立 Block-level reference 和 two-way links，也能附加自定义属性，再通过 SQL query embed 把查询结果嵌回文档。编辑器采用 Markdown WYSIWYG，兼顾所见即所得操作与标准 Markdown 导出，并支持列表大纲、块级缩放、百万字大文档，以及公式、图表、流程图和甘特图等内容。资料可从网页剪藏进入知识库，PDF 标注能够与笔记互相链接，数据库提供 Table view，复习内容则可转为 Flashcard spaced repetition。AI 部分通过 OpenAI API 提供写作与问答聊天，另有 Tesseract OCR。工作空间可在 Android、iOS、HarmonyOS 和桌面环境使用，也能通过 Docker 自托管，并开放 API、模板与 JavaScript/CSS 片段扩展能力；免费功能占多数，但 README 明确说明仍有部分会员功能。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 47,168 个星标 / 3,113 次复刻
+- 主要语言：TypeScript；许可证：AGPL-3.0
+- 主题标签：agentic-ai、ai-agent、knowledge-base、local-first、markdown、mcp、mindmap、note-taking、self-hosted、siyuan
+- 仓库创建：2020-08-30T09:21:35Z
+- 最近推送：2026-11-11T00:40:06Z
+- 项目主页：[https://b3log.org/siyuan](https://b3log.org/siyuan)
+
+#### 最新发布与安装
+
+- 最新版本：[v3.8.10](https://github.com/siyuan-note/siyuan/releases/tag/v3.8.10)；发布时间：2026-11-10T04:13:26Z
+- macOS 安装包：[siyuan-3.8.10-mac-arm64.dmg](https://github.com/siyuan-note/siyuan/releases/download/v3.8.10/siyuan-3.8.10-mac-arm64.dmg)；[siyuan-3.8.10-mac.dmg](https://github.com/siyuan-note/siyuan/releases/download/v3.8.10/siyuan-3.8.10-mac.dmg)
+- Windows 安装包：[siyuan-3.8.10-win-arm64.exe](https://github.com/siyuan-note/siyuan/releases/download/v3.8.10/siyuan-3.8.10-win-arm64.exe)；[siyuan-3.8.10-win.exe](https://github.com/siyuan-note/siyuan/releases/download/v3.8.10/siyuan-3.8.10-win.exe)
+
+<a id="project-detail-16"></a>
+
+### 16. [cli/cli](https://github.com/cli/cli)
+
+[↖️ 返回表格中的 #16](#project-row-16)
+
+#### 中文分析
+
+在写代码和使用 git 的同一个终端里，GitHub CLI 用 gh 命令处理 pull requests、issues 以及其他 GitHub 工作对象，减少在网页与命令行之间切换。它覆盖 GitHub.com、GitHub Enterprise Cloud 和受支持版本的 GitHub Enterprise Server，并可运行于 macOS、Windows 与 Linux；macOS 可经 Homebrew 安装，Windows 提供 WinGet，多个 Linux 发行版也有对应的软件包渠道，各平台还可从 releases page 获取预编译二进制。编码智能体若要驱动 gh，可以安装内置 gh skill 命令 提供的 agent skill。GitHub hosted runners 已预装该工具并按周更新；若流水线必须固定版本，则应显式选择所需版本。Linux 软件仓库用户还应留意 README 提到的 PGP signing key rotation，因为旧密钥可能导致安装或更新失败。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 46,956 个星标 / 9,271 次复刻
+- 主要语言：Go；许可证：MIT
+- 主题标签：cli、git、github-api-v4、golang
+- 仓库创建：2019-10-03T15:24:53Z
+- 最近推送：2026-11-10T17:21:51Z
+- 项目主页：[https://cli.github.com](https://cli.github.com)
+
+#### 最新发布与安装
+
+- 最新版本：[v2.103.3](https://github.com/cli/cli/releases/tag/v2.103.3)；发布时间：2026-10-26T19:20:08Z
+- macOS 安装包：[gh_2.103.3_macOS_universal.pkg](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_macOS_universal.pkg)
+- Windows 安装包：[gh_2.103.3_windows_386.msi](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_386.msi)；[gh_2.103.3_windows_amd64.msi](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_amd64.msi)；[gh_2.103.3_windows_arm64.msi](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_arm64.msi)
+
+<a id="project-detail-17"></a>
+
+### 17. [alacritty/alacritty](https://github.com/alacritty/alacritty)
+
+[↖️ 返回表格中的 #17](#project-row-17)
 
 #### 中文分析
 
@@ -449,7 +524,7 @@ PowerShell 将交互式 command line shell、配套 scripting language 与处理
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 66,144 个星标 / 3,711 次复刻
+- 热度：近期活跃热门仓库；累计 66,161 个星标 / 3,716 次复刻
 - 主要语言：Rust；许可证：Apache-2.0
 - 主题标签：bsd、gpu、linux、macos、opengl、rust、terminal、terminal-emulators、vte、windows
 - 仓库创建：2016-02-18T05:02:30Z
@@ -462,36 +537,61 @@ PowerShell 将交互式 command line shell、配套 scripting language 与处理
 - macOS 安装包：[Alacritty-v0.17.0.dmg](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0.dmg)
 - Windows 安装包：[Alacritty-v0.17.0-installer.msi](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-installer.msi)；[Alacritty-v0.17.0-portable.exe](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-portable.exe)
 
-<a id="project-detail-15"></a>
+<a id="project-detail-18"></a>
 
-### 15. [team-spotube/spotube](https://github.com/team-spotube/spotube)
+### 18. [janhq/jan](https://github.com/janhq/jan)
 
-[↖️ 返回表格中的 #15](#project-row-15)
+[↖️ 返回表格中的 #18](#project-row-18)
 
 #### 中文分析
 
-音乐来源不再被写死在播放器内部，Spotube 把元数据、播放列表和音频源交给插件：用户既可安装社区为流行平台制作的扩展，也能为自定义音乐服务编写自己的插件，由此组合出所需的流媒体体验。播放控制在本地完成，曲目可以自由下载并附带 tagged metadata；即使插件本身没有歌词支持，应用仍提供 Time synced lyrics。它同时强调不收集 telemetry、diagnostics 或用户数据，并兼顾桌面端与移动端、较小体积和较低流量消耗。技术上，Spotube 是 Compose Multiplatform 应用；从源码构建需要 JDK 21、Rust，以及 Android 构建所需的 Android SDK。由于 ComposeNativeWebview 尚未进入 Maven Central，还要按仓库固定的提交自行克隆并执行 ./gradlew publishToMavenLocal。Linux 运行环境另需 VLC、WebKitGTK、GTK 与音频、图形相关库。普通用户可直接从 spotube.cc 下载稳定版或 nightly builds，而希望接入新平台的人则可围绕插件体系扩展音乐服务。
+下载对应系统的 jan.exe、jan.dmg、jan.deb 或 jan.AppImage 后，用户便能在自己的电脑上获取并运行 Llama、Gemma、Qwen、GPT-oss 等 Local AI Models，模型来源可接入 HuggingFace，数据和推理在需要时完全留在本机。Jan 也没有把使用方式限制在离线聊天：Cloud Integration 可以连接 OpenAI、Anthropic、Mistral、Groq、MiniMax 等服务，Custom Assistants 用于建立专门处理特定任务的助手，而 Model Context Protocol 为智能体操作接入 MCP 能力。其他程序若想调用本地模型，可使用 OpenAI-Compatible API，服务地址为 localhost:1337。源码开发以 make dev 作为完整安装、构建核心组件并启动应用的入口，make build 生成生产构建，make test 执行测试与 lint，make clean 则清理后重新开始；所需基础环境包括 Node.js、Yarn、Make 和 Rust。Windows 开发应从 Git Bash 运行 make dev，因为 Make 配方经由 sh 分派，普通 cmd.exe 无法完成这一流程。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 50,700 个星标 / 2,390 次复刻
-- 主要语言：Kotlin；许可证：AGPL-3.0
-- 主题标签：android、android-client、android-music-player、desktop-client、fdroid、flutter、flutter-desktop、linux、macos、music
-- 仓库创建：2021-02-14T03:17:58Z
-- 最近推送：2026-11-09T13:36:11Z
-- 项目主页：[https://spotube.cc/](https://spotube.cc/)
+- 热度：近期活跃热门仓库；累计 45,660 个星标 / 3,172 次复刻
+- 主要语言：Rust；许可证：NOASSERTION
+- 主题标签：chatgpt、gpt、llamacpp、llm、localai、open-source、self-hosted、tauri
+- 仓库创建：2023-08-17T02:17:10Z
+- 最近推送：2026-11-10T17:02:22Z
+- 项目主页：[https://jan.ai/](https://jan.ai/)
 
 #### 最新发布与安装
 
-- 最新版本：[v6.0.0-beta.0](https://github.com/team-spotube/spotube/releases/tag/v6.0.0-beta.0)；发布时间：2026-10-30T12:01:45Z
-- macOS 安装包：[Spotube-macos-universal.dmg](https://github.com/team-spotube/spotube/releases/download/v6.0.0-beta.0/Spotube-macos-universal.dmg)
-- Windows 安装包：[Spotube-windows-x86_64-setup.exe](https://github.com/team-spotube/spotube/releases/download/v6.0.0-beta.0/Spotube-windows-x86_64-setup.exe)
+- 最新版本：[v0.8.8](https://github.com/janhq/jan/releases/tag/v0.8.8)；发布时间：2026-10-28T03:31:54Z
+- macOS 安装包：[Jan_0.8.8_universal.dmg](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_universal.dmg)
+- Windows 安装包：[Jan_0.8.8_arm64-setup.exe](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_arm64-setup.exe)；[Jan_0.8.8_x64-setup.exe](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_x64-setup.exe)
 
-<a id="project-detail-16"></a>
+<a id="project-detail-19"></a>
 
-### 16. [usebruno/bruno](https://github.com/usebruno/bruno)
+### 19. [SunshineStream/Sunshine](https://github.com/SunshineStream/Sunshine) 🟢
 
-[↖️ 返回表格中的 #16](#project-row-16)
+[↖️ 返回表格中的 #19](#project-row-19)
+
+#### 中文分析
+
+在一台拥有游戏或桌面环境的主机上运行 Sunshine，另一端即可使用任意 Moonlight client 连接并接收低延迟视频流。配置和客户端配对都通过 web UI 完成，既能在服务器本机操作，也能从移动设备浏览器处理。编码环节会按系统与显卡选择硬件接口：AMD、Intel、Nvidia GPU 分别可利用 AMF、QuickSync、NVENC、VAAPI、Video Toolbox 或 Vulkan Video 等组合，不具备相应条件时仍可退回 Software encoding。画面采集同样因平台而异，Windows 可用 DXGI Desktop Duplication，Linux、FreeBSD 侧覆盖 KMS/DRM、X11、Wayland 和 XDG Desktop Portal，macOS 使用 ScreenCaptureKit。控制器输入可在主机端模拟多种手柄，但不同操作系统的支持程度并不一致；macOS 手柄模拟需要另行安装并授权的 Virtual HID Broker，Windows 的完整手柄类型也通过它提供，其中 Xbox 360 与 DualShock 4 另可使用 ViGEmBus。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 43,241 个星标 / 2,371 次复刻
+- 主要语言：C++；许可证：GPL-3.0
+- 主题标签：game-stream、game-streaming、game-streaming-server、geforce-experience、moonlight、remote-desktop
+- 仓库创建：2021-12-15T23:38:57Z
+- 最近推送：2026-11-11T00:42:15Z
+- 项目主页：[https://sunshine.lizardbyte.dev/](https://sunshine.lizardbyte.dev/)
+
+#### 最新发布与安装
+
+- 最新版本：[v2026.914.233613](https://github.com/SunshineStream/Sunshine/releases/tag/v2026.914.233613)；发布时间：2026-09-15T01:17:17Z
+- macOS 安装包：[Sunshine-macOS-arm64.dmg](https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-macOS-arm64.dmg)；[Sunshine-macOS-x86_64.dmg](https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-macOS-x86_64.dmg)
+- Windows 安装包：[Sunshine-Windows-AMD64-installer.msi](https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-AMD64-installer.msi)；[Sunshine-Windows-ARM64-installer.msi](https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-ARM64-installer.msi)
+
+<a id="project-detail-20"></a>
+
+### 20. [usebruno/bruno](https://github.com/usebruno/bruno)
+
+[↖️ 返回表格中的 #20](#project-row-20)
 
 #### 中文分析
 
@@ -499,7 +599,7 @@ Bruno 把 API 请求集合直接保存在本地文件系统的文件夹中，并
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 48,308 个星标 / 3,090 次复刻
+- 热度：近期活跃热门仓库；累计 48,327 个星标 / 3,094 次复刻
 - 主要语言：JavaScript；许可证：MIT
 - 主题标签：api-client、api-testing、automation、developer-tools、git、graphql-client、http-client、javascript、openapi、openapi3
 - 仓库创建：2022-09-27T20:51:45Z
@@ -512,136 +612,61 @@ Bruno 把 API 请求集合直接保存在本地文件系统的文件夹中，并
 - macOS 安装包：[bruno_4.3.0_arm64_mac.dmg](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_mac.dmg)；[bruno_4.3.0_arm64_mac.pkg](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_mac.pkg)；[bruno_4.3.0_x64_mac.dmg](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_x64_mac.dmg)
 - Windows 安装包：[bruno_4.3.0_arm64_win.exe](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.exe)；[bruno_4.3.0_arm64_win.msi](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.msi)；[bruno_4.3.0_x64_win.exe](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_x64_win.exe)
 
-<a id="project-detail-17"></a>
-
-### 17. [cli/cli](https://github.com/cli/cli)
-
-[↖️ 返回表格中的 #17](#project-row-17)
-
-#### 中文分析
-
-在写代码和使用 git 的同一个终端里，GitHub CLI 用 gh 命令处理 pull requests、issues 以及其他 GitHub 工作对象，减少在网页与命令行之间切换。它覆盖 GitHub.com、GitHub Enterprise Cloud 和受支持版本的 GitHub Enterprise Server，并可运行于 macOS、Windows 与 Linux；macOS 可经 Homebrew 安装，Windows 提供 WinGet，多个 Linux 发行版也有对应的软件包渠道，各平台还可从 releases page 获取预编译二进制。编码智能体若要驱动 gh，可以安装内置 gh skill 命令 提供的 agent skill。GitHub hosted runners 已预装该工具并按周更新；若流水线必须固定版本，则应显式选择所需版本。Linux 软件仓库用户还应留意 README 提到的 PGP signing key rotation，因为旧密钥可能导致安装或更新失败。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 46,938 个星标 / 9,268 次复刻
-- 主要语言：Go；许可证：MIT
-- 主题标签：cli、git、github-api-v4、golang
-- 仓库创建：2019-10-03T15:24:53Z
-- 最近推送：2026-11-09T22:59:54Z
-- 项目主页：[https://cli.github.com](https://cli.github.com)
-
-#### 最新发布与安装
-
-- 最新版本：[v2.103.3](https://github.com/cli/cli/releases/tag/v2.103.3)；发布时间：2026-10-26T19:20:08Z
-- macOS 安装包：[gh_2.103.3_macOS_universal.pkg](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_macOS_universal.pkg)
-- Windows 安装包：[gh_2.103.3_windows_386.msi](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_386.msi)；[gh_2.103.3_windows_amd64.msi](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_amd64.msi)；[gh_2.103.3_windows_arm64.msi](https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_arm64.msi)
-
-<a id="project-detail-18"></a>
-
-### 18. [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
-
-[↖️ 返回表格中的 #18](#project-row-18)
-
-#### 中文分析
-
-思源把个人知识管理建立在细粒度内容块之上：编辑器提供 Markdown WYSIWYG，可直接书写并保持所见即所得，同时用 Block-level reference 和 two-way links 在段落、列表等内容之间建立可追踪的联系。资料不仅能以普通文档呈现，也可进入 Database Table view，或通过 Custom attributes、SQL query embed 组织和查询；长篇写作则覆盖大文档编辑、数学公式、图表、流程图与甘特图。收集与再利用环节包含网页剪藏、PDF 标注链接、块引用与嵌入，并可导出带资源的标准 Markdown、PDF、Word 和 HTML。它还集成闪卡间隔重复、Tesseract OCR，以及经 OpenAI API 工作的 AI 写作和问答聊天。桌面与 Android、iOS、HarmonyOS App 之外，还提供 Docker deployment、API、模板和 JavaScript/CSS snippet，形成可自托管、可扩展的知识工作空间。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 47,146 个星标 / 3,103 次复刻
-- 主要语言：TypeScript；许可证：AGPL-3.0
-- 主题标签：agentic-ai、ai-agent、knowledge-base、local-first、markdown、mcp、mindmap、note-taking、self-hosted、siyuan
-- 仓库创建：2020-08-30T09:21:35Z
-- 最近推送：2026-11-09T17:57:27Z
-- 项目主页：[https://b3log.org/siyuan](https://b3log.org/siyuan)
-
-#### 最新发布与安装
-
-- 最新版本：[v3.8.9](https://github.com/siyuan-note/siyuan/releases/tag/v3.8.9)；发布时间：2026-10-29T06:19:05Z
-- macOS 安装包：[siyuan-3.8.9-mac-arm64.dmg](https://github.com/siyuan-note/siyuan/releases/download/v3.8.9/siyuan-3.8.9-mac-arm64.dmg)；[siyuan-3.8.9-mac.dmg](https://github.com/siyuan-note/siyuan/releases/download/v3.8.9/siyuan-3.8.9-mac.dmg)
-- Windows 安装包：[siyuan-3.8.9-win-arm64.exe](https://github.com/siyuan-note/siyuan/releases/download/v3.8.9/siyuan-3.8.9-win-arm64.exe)；[siyuan-3.8.9-win.exe](https://github.com/siyuan-note/siyuan/releases/download/v3.8.9/siyuan-3.8.9-win.exe)
-
-<a id="project-detail-19"></a>
-
-### 19. [marktext/marktext](https://github.com/marktext/marktext)
-
-[↖️ 返回表格中的 #19](#project-row-19)
-
-#### 中文分析
-
-写作内容在 MarkText 中会以 Realtime preview (WYSIWYG) 即时呈现，界面刻意保持干净简洁，让作者不必在源码与预览窗口之间反复切换。它遵循 CommonMark Spec 和 GitHub Flavored Markdown Spec，并选择性支持 Pandoc markdown；除普通段落与行内样式快捷操作外，还能处理 KaTeX 数学表达式、front matter 和 emojis。编辑体验可在 Source Code mode、Typewriter mode、Focus mode 之间切换：需要精确控制标记时查看源码，持续输入时保持当前行位置，专注修改时弱化无关内容。图片可以直接从剪贴板粘贴，完成后的文档能够输出 HTML 和 PDF，并可在 Cadmium Light、Material Dark 等主题间选择。软件提供 Linux、macOS 与 Windows 版本；macOS 要求 13 Ventura 或更高版本，且需根据机器选择 arm64 或 x64 安装包，Windows 则支持 10 和 11，并同样提供对应架构的安装程序。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 63,787 个星标 / 4,727 次复刻
-- 主要语言：TypeScript；许可证：MIT
-- 主题标签：editor、electron、focus-mode、latex、linux、mac、macos、markdown、marktext、source-code
-- 仓库创建：2017-11-12T16:05:25Z
-- 最近推送：2026-11-06T08:00:42Z
-- 项目主页：[https://www.marktext.me](https://www.marktext.me)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.23.0](https://github.com/marktext/marktext/releases/tag/v0.23.0)；发布时间：2026-10-21T05:02:06Z
-- macOS 安装包：[marktext-mac-arm64-0.23.0.dmg](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-mac-arm64-0.23.0.dmg)；[marktext-mac-x64-0.23.0.dmg](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-mac-x64-0.23.0.dmg)
-- Windows 安装包：[marktext-win-arm64-0.23.0-setup.exe](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-arm64-0.23.0-setup.exe)；[marktext-win-x64-0.23.0-setup.exe](https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-x64-0.23.0-setup.exe)
-
-<a id="project-detail-20"></a>
-
-### 20. [janhq/jan](https://github.com/janhq/jan)
-
-[↖️ 返回表格中的 #20](#project-row-20)
-
-#### 中文分析
-
-下载对应系统的 jan.exe、jan.dmg、jan.deb 或 jan.AppImage 后，用户便能在自己的电脑上获取并运行 Llama、Gemma、Qwen、GPT-oss 等 Local AI Models，模型来源可接入 HuggingFace，数据和推理在需要时完全留在本机。Jan 也没有把使用方式限制在离线聊天：Cloud Integration 可以连接 OpenAI、Anthropic、Mistral、Groq、MiniMax 等服务，Custom Assistants 用于建立专门处理特定任务的助手，而 Model Context Protocol 为智能体操作接入 MCP 能力。其他程序若想调用本地模型，可使用 OpenAI-Compatible API，服务地址为 localhost:1337。源码开发以 make dev 作为完整安装、构建核心组件并启动应用的入口，make build 生成生产构建，make test 执行测试与 lint，make clean 则清理后重新开始；所需基础环境包括 Node.js、Yarn、Make 和 Rust。Windows 开发应从 Git Bash 运行 make dev，因为 Make 配方经由 sh 分派，普通 cmd.exe 无法完成这一流程。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 45,640 个星标 / 3,166 次复刻
-- 主要语言：Rust；许可证：NOASSERTION
-- 主题标签：chatgpt、gpt、llamacpp、llm、localai、open-source、self-hosted、tauri
-- 仓库创建：2023-08-17T02:17:10Z
-- 最近推送：2026-11-09T09:11:31Z
-- 项目主页：[https://jan.ai/](https://jan.ai/)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.8.8](https://github.com/janhq/jan/releases/tag/v0.8.8)；发布时间：2026-10-28T03:31:54Z
-- macOS 安装包：[Jan_0.8.8_universal.dmg](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_universal.dmg)
-- Windows 安装包：[Jan_0.8.8_arm64-setup.exe](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_arm64-setup.exe)；[Jan_0.8.8_x64-setup.exe](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_x64-setup.exe)
-
 <a id="project-detail-21"></a>
 
-### 21. [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
+### 21. [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)
 
 [↖️ 返回表格中的 #21](#project-row-21)
 
 #### 中文分析
 
-LX Music 桌面版以 Electron 30+ 与 Vue 3 构建，可运行于 Linux、macOS 和 Windows 7 及以上系统。它并不把默认设置和 UI 操作设计成新手即开即用的形态，README 希望用户先按偏好调整软件设置，并理解音乐播放列表机制以及鼠标、键盘快捷操作。除了桌面播放体验，Scheme URL 可让浏览器等外部场景调用 LX Music，并有配套的油猴脚本；独立的数据同步服务可部署到自己的服务器，组成私人多端同步服务；启用开放 API 服务后，软件会在本地启动 HTTP 服务，把播放器相关接口交给第三方软件调用。数据默认进入各系统的应用配置目录，Windows 用户还可在程序文件夹内建立 portable 文件夹，将它自动用作数据存储位置。在线音频并非由软件自身取得，而是把歌曲名、艺术家等信息交给“自定义源”，再使用其返回的链接，因此可能发生歌曲不对应或无法播放。维护重心正逐步转向 Any Listen，后者已覆盖多数既有功能，并增加 WebDAV 歌曲播放、WebDAV 数据同步和独立播放列表等能力。
+OpenHuman 把智能体运行时做成两种入口：普通用户下载 desktop app，开发者则把它当作 Rust library 嵌入程序，像调用普通函数一样调用单个智能体，或在一台小服务器上运行整支 fleet。README 将重点放在大规模运行的资源账本上：它声称 500 个智能体可以装进一台 $10 server，并以实测对比说明任务约 20 秒完成、冷启动约十分之一秒、token 用量比典型工具少 2.6 倍，内存和 CPU 消耗约低 8 倍。桌面端覆盖 macOS 的 .dmg、Windows 的 .msi 或 .exe，以及 Linux 的 .deb 或 .AppImage；终端安装脚本会判断系统、选择正确软件包、校验 checksum 后安装，也能用 dry run 先预览动作。项目仍处于 Early beta 和活跃开发阶段，README 明确提示可能存在 rough edges。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 55,209 个星标 / 7,118 次复刻
-- 主要语言：TypeScript；许可证：Apache-2.0
-- 主题标签：electron、javascript、music-player、vue
-- 仓库创建：2019-08-14T14:31:08Z
-- 最近推送：2026-11-07T02:18:08Z
-- 项目主页：[https://lyswhut.github.io/lx-music-doc/](https://lyswhut.github.io/lx-music-doc/)
+- 热度：近期活跃热门仓库；累计 42,641 个星标 / 4,213 次复刻
+- 主要语言：Rust；许可证：GPL-3.0
+- 主题标签：agent-orchestration、ai-agents、ai-assistant、desktop、llm、local-first、mcp、personal-ai、privacy、rust
+- 仓库创建：2026-02-18T20:01:27Z
+- 最近推送：2026-11-10T22:15:44Z
+- 项目主页：[https://tinyhumans.ai/openhuman](https://tinyhumans.ai/openhuman)
 
 #### 最新发布与安装
 
-- 最新版本：[v2.12.6](https://github.com/lyswhut/lx-music-desktop/releases/tag/v2.12.6)；发布时间：2026-09-19T02:23:52Z
-- macOS 安装包：[lx-music-desktop-2.12.6-arm64.dmg](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-2.12.6-arm64.dmg)；[lx-music-desktop-2.12.6-x64.dmg](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-2.12.6-x64.dmg)
-- Windows 安装包：[lx-music-desktop-v2.12.6-arm64-Setup.exe](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-arm64-Setup.exe)；[lx-music-desktop-v2.12.6-win7_x64-Setup.exe](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-win7_x64-Setup.exe)；[lx-music-desktop-v2.12.6-x64-Setup.exe](https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.6/lx-music-desktop-v2.12.6-x64-Setup.exe)
+- 最新版本：[v0.64.15](https://github.com/tinyhumansai/openhuman/releases/tag/v0.64.15)；发布时间：2026-10-09T05:08:30Z
+- macOS 安装包：[OpenHuman_0.64.15_aarch64.dmg](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_aarch64.dmg)；[OpenHuman_0.64.15_x64.dmg](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64.dmg)
+- Windows 安装包：[OpenHuman_0.64.15_x64-setup.exe](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64-setup.exe)；[OpenHuman_0.64.15_x64_en-US.msi](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64_en-US.msi)
 
 <a id="project-detail-22"></a>
 
-### 22. [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
+### 22. [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium)
 
 [↖️ 返回表格中的 #22](#project-row-22)
+
+#### 中文分析
+
+大量个人笔记在 Trilium Notes 中不是被限制为几层固定目录，而是可以排成任意深度的 tree；同一条笔记还能通过 cloning 同时出现在树的多个位置，由此兼顾层级整理与内容复用。日常编辑使用 rich WYSIWYG note editor，可插入表格、图片和数学公式，并支持 markdown autoformat；代码笔记则提供源码编辑与 syntax highlighting。随着知识库增长，用户可以借助 full text search、note hoisting 和快速跳转缩小当前工作范围，系统还会保存 seamless note versioning。更进一步时，note attributes 可承担组织、查询和 advanced scripting 的基础。软件提供稳定版与每日更新的 Nightly build，既能安装为跨平台应用，也有 Docker Setup；文档可在线阅读，也能在应用内按 F1 直接打开。登录侧还整合 OpenID 与 TOTP，适合需要同步和长期维护的大型个人知识库。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 38,840 个星标 / 2,627 次复刻
+- 主要语言：TypeScript；许可证：AGPL-3.0
+- 主题标签：electron、electron-app、knowledge-base、knowledge-graph、knowledge-management、knowledge-management-graph、local-first、note-managment、note-taker、note-taking
+- 仓库创建：2017-05-23T00:30:20Z
+- 最近推送：2026-11-10T23:09:04Z
+- 项目主页：[https://triliumnotes.org](https://triliumnotes.org)
+
+#### 最新发布与安装
+
+- 最新版本：[v0.107.0](https://github.com/TriliumNext/Trilium/releases/tag/v0.107.0)；发布时间：2026-11-08T22:06:59Z
+- macOS 安装包：[TriliumNotes-v0.107.0-macos-arm64.dmg](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-macos-arm64.dmg)；[TriliumNotes-v0.107.0-macos-x64.dmg](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-macos-x64.dmg)
+- Windows 安装包：[TriliumNotes-v0.107.0-windows-arm64.exe](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-arm64.exe)；[TriliumNotes-v0.107.0-windows-x64.exe](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-x64.exe)
+
+<a id="project-detail-23"></a>
+
+### 23. [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
+
+[↖️ 返回表格中的 #23](#project-row-23)
 
 #### 中文分析
 
@@ -649,7 +674,7 @@ Sniffnet 用图形界面把实时网络观察拆成一套直观流程：先选�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 42,227 个星标 / 1,984 次复刻
+- 热度：近期活跃热门仓库；累计 42,345 个星标 / 1,991 次复刻
 - 主要语言：Rust；许可证：Apache-2.0
 - 主题标签：app、application、cybersecurity、gui、iced、ip-geolocation、ipfix、linux、macos、network
 - 仓库创建：2022-07-31T21:55:56Z
@@ -662,86 +687,11 @@ Sniffnet 用图形界面把实时网络观察拆成一套直观流程：先选�
 - macOS 安装包：[Sniffnet_macOS_AppleSilicon.dmg](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_macOS_AppleSilicon.dmg)；[Sniffnet_macOS_Intel.dmg](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_macOS_Intel.dmg)
 - Windows 安装包：[Sniffnet_Windows_arm64.msi](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_Windows_arm64.msi)；[Sniffnet_Windows_x64.msi](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_Windows_x64.msi)；[Sniffnet_Windows_x86.msi](https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_Windows_x86.msi)
 
-<a id="project-detail-23"></a>
-
-### 23. [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine)
-
-[↖️ 返回表格中的 #23](#project-row-23)
-
-#### 中文分析
-
-Sunshine 负责在自己的电脑上建立游戏串流主机，再由手机、平板或其他设备上的 Moonlight client 连接，实现低延迟游戏串流或远程桌面体验。主机可调用 AMD、Intel、Nvidia GPU 进行 hardware encoding，也保留 Software encoding；配置和 client pairing 则通过 web UI 完成，既能在服务器本机浏览器操作，也能从移动设备配对。README 用兼容矩阵细分不同系统的实际支持：编码侧列出 NVENC、QuickSync、VAAPI、Video Toolbox、Vulkan Video 等接口，采集侧则覆盖 DXGI Desktop Duplication、KMS/DRM、ScreenCaptureKit、Wayland、X11 与 XDG Desktop Portal。手柄模拟同样按 FreeBSD、Linux、macOS、Windows 区分，部分平台若要获得完整手柄配置，需要另行安装并授权 Virtual HID Broker；Windows 上的 Xbox 360 和 DualShock 4 也可使用 ViGEmBus。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 43,204 个星标 / 2,368 次复刻
-- 主要语言：C++；许可证：GPL-3.0
-- 主题标签：game-stream、game-streaming、game-streaming-server、geforce-experience、moonlight、remote-desktop
-- 仓库创建：2021-12-15T23:38:57Z
-- 最近推送：2026-11-09T17:38:45Z
-- 项目主页：[http://app.lizardbyte.dev/Sunshine/](http://app.lizardbyte.dev/Sunshine/)
-
-#### 最新发布与安装
-
-- 最新版本：[v2026.914.233613](https://github.com/LizardByte/Sunshine/releases/tag/v2026.914.233613)；发布时间：2026-09-15T01:17:17Z
-- macOS 安装包：[Sunshine-macOS-arm64.dmg](https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine-macOS-arm64.dmg)；[Sunshine-macOS-x86_64.dmg](https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine-macOS-x86_64.dmg)
-- Windows 安装包：[Sunshine-Windows-AMD64-installer.msi](https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-AMD64-installer.msi)；[Sunshine-Windows-ARM64-installer.msi](https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-ARM64-installer.msi)
-
 <a id="project-detail-24"></a>
 
-### 24. [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)
+### 24. [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)
 
 [↖️ 返回表格中的 #24](#project-row-24)
-
-#### 中文分析
-
-OpenHuman 把智能体运行时做成两种入口：普通用户下载 desktop app，开发者则把它当作 Rust library 嵌入程序，像调用普通函数一样调用单个智能体，或在一台小服务器上运行整支 fleet。README 将重点放在大规模运行的资源账本上：它声称 500 个智能体可以装进一台 $10 server，并以实测对比说明任务约 20 秒完成、冷启动约十分之一秒、token 用量比典型工具少 2.6 倍，内存和 CPU 消耗约低 8 倍。桌面端覆盖 macOS 的 .dmg、Windows 的 .msi 或 .exe，以及 Linux 的 .deb 或 .AppImage；终端安装脚本会判断系统、选择正确软件包、校验 checksum 后安装，也能用 dry run 先预览动作。项目仍处于 Early beta 和活跃开发阶段，README 明确提示可能存在 rough edges。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 42,617 个星标 / 4,214 次复刻
-- 主要语言：Rust；许可证：GPL-3.0
-- 主题标签：agent-orchestration、ai-agents、ai-assistant、desktop、llm、local-first、mcp、personal-ai、privacy、rust
-- 仓库创建：2026-02-18T20:01:27Z
-- 最近推送：2026-11-09T16:04:07Z
-- 项目主页：[https://tinyhumans.ai/openhuman](https://tinyhumans.ai/openhuman)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.64.15](https://github.com/tinyhumansai/openhuman/releases/tag/v0.64.15)；发布时间：2026-10-09T05:08:30Z
-- macOS 安装包：[OpenHuman_0.64.15_aarch64.dmg](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_aarch64.dmg)；[OpenHuman_0.64.15_x64.dmg](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64.dmg)
-- Windows 安装包：[OpenHuman_0.64.15_x64-setup.exe](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64-setup.exe)；[OpenHuman_0.64.15_x64_en-US.msi](https://github.com/tinyhumansai/openhuman/releases/download/v0.64.15/OpenHuman_0.64.15_x64_en-US.msi)
-
-<a id="project-detail-25"></a>
-
-### 25. [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium)
-
-[↖️ 返回表格中的 #25](#project-row-25)
-
-#### 中文分析
-
-大量个人笔记在 Trilium Notes 中不是被限制为几层固定目录，而是可以排成任意深度的 tree；同一条笔记还能通过 cloning 同时出现在树的多个位置，由此兼顾层级整理与内容复用。日常编辑使用 rich WYSIWYG note editor，可插入表格、图片和数学公式，并支持 markdown autoformat；代码笔记则提供源码编辑与 syntax highlighting。随着知识库增长，用户可以借助 full text search、note hoisting 和快速跳转缩小当前工作范围，系统还会保存 seamless note versioning。更进一步时，note attributes 可承担组织、查询和 advanced scripting 的基础。软件提供稳定版与每日更新的 Nightly build，既能安装为跨平台应用，也有 Docker Setup；文档可在线阅读，也能在应用内按 F1 直接打开。登录侧还整合 OpenID 与 TOTP，适合需要同步和长期维护的大型个人知识库。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 38,778 个星标 / 2,623 次复刻
-- 主要语言：TypeScript；许可证：AGPL-3.0
-- 主题标签：electron、electron-app、knowledge-base、knowledge-graph、knowledge-management、knowledge-management-graph、local-first、note-managment、note-taker、note-taking
-- 仓库创建：2017-05-23T00:30:20Z
-- 最近推送：2026-11-09T21:19:40Z
-- 项目主页：[https://triliumnotes.org](https://triliumnotes.org)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.107.0](https://github.com/TriliumNext/Trilium/releases/tag/v0.107.0)；发布时间：2026-11-08T22:06:59Z
-- macOS 安装包：[TriliumNotes-v0.107.0-macos-arm64.dmg](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-macos-arm64.dmg)；[TriliumNotes-v0.107.0-macos-x64.dmg](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-macos-x64.dmg)
-- Windows 安装包：[TriliumNotes-v0.107.0-windows-arm64.exe](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-arm64.exe)；[TriliumNotes-v0.107.0-windows-x64.exe](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-x64.exe)
-
-<a id="project-detail-26"></a>
-
-### 26. [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)
-
-[↖️ 返回表格中的 #26](#project-row-26)
 
 #### 中文分析
 
@@ -749,11 +699,11 @@ OpenHuman 把智能体运行时做成两种入口：普通用户下载 desktop a
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 36,828 个星标 / 3,841 次复刻
+- 热度：近期活跃热门仓库；累计 36,867 个星标 / 3,844 次复刻
 - 主要语言：TypeScript；许可证：Apache-2.0
 - 主题标签：ai、architecture-diagram、claude-code、deepseek-harness、diagram-generator、diagrams、draw-io、drawio、dsh-plugin、electron
 - 仓库创建：2025-03-23T15:03:48Z
-- 最近推送：2026-11-09T18:08:51Z
+- 最近推送：2026-11-10T20:28:35Z
 - 项目主页：[https://next-ai-drawio.jiang.jp/](https://next-ai-drawio.jiang.jp/)
 
 #### 最新发布与安装
@@ -762,11 +712,11 @@ OpenHuman 把智能体运行时做成两种入口：普通用户下载 desktop a
 - macOS 安装包：[Next-AI-Draw.io-0.5.1-arm64.dmg](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next-AI-Draw.io-0.5.1-arm64.dmg)；[Next-AI-Draw.io-0.5.1.dmg](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next-AI-Draw.io-0.5.1.dmg)
 - Windows 安装包：[Next.AI.Draw.io.0.5.1.exe](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next.AI.Draw.io.0.5.1.exe)；[Next.AI.Draw.io.Setup.0.5.1.exe](https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v0.5.1/Next.AI.Draw.io.Setup.0.5.1.exe)
 
-<a id="project-detail-27"></a>
+<a id="project-detail-25"></a>
 
-### 27. [t8y2/dbx](https://github.com/t8y2/dbx)
+### 25. [t8y2/dbx](https://github.com/t8y2/dbx)
 
-[↖️ 返回表格中的 #27](#project-row-27)
+[↖️ 返回表格中的 #25](#project-row-25)
 
 #### 中文分析
 
@@ -774,11 +724,11 @@ OpenHuman 把智能体运行时做成两种入口：普通用户下载 desktop a
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 29,732 个星标 / 2,707 次复刻
+- 热度：近期活跃热门仓库；累计 29,917 个星标 / 2,726 次复刻
 - 主要语言：Rust；许可证：Apache-2.0
 - 主题标签：ai、cli、clickhouse、database、database-client、database-management、docker、gui、mcp、mongodb
 - 仓库创建：2026-04-29T03:00:36Z
-- 最近推送：2026-11-10T00:15:52Z
+- 最近推送：2026-11-10T22:39:30Z
 - 项目主页：[https://dbxio.com](https://dbxio.com)
 
 #### 最新发布与安装
@@ -787,11 +737,86 @@ OpenHuman 把智能体运行时做成两种入口：普通用户下载 desktop a
 - macOS 安装包：[DBX_0.6.68-beta.20261107.4_arm64.dmg](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_arm64.dmg)；[DBX_0.6.68-beta.20261107.4_x64.dmg](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_x64.dmg)；[DBX_0.6.68_arm64.dmg](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68_arm64.dmg)
 - Windows 安装包：[DBX_0.6.68-beta.20261107.4_arm64-setup.exe](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_arm64-setup.exe)；[DBX_0.6.68-beta.20261107.4_arm64_en-US.msi](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_arm64_en-US.msi)；[DBX_0.6.68-beta.20261107.4_x64-setup.exe](https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68-beta.20261107.4_x64-setup.exe)
 
+<a id="project-detail-26"></a>
+
+### 26. [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc)
+
+[↖️ 返回表格中的 #26](#project-row-26)
+
+#### 中文分析
+
+密码库并不依赖在线服务：KeePassXC 将用户名、密码、URLs、attachments 和 notes 保存到离线加密文件中，文件可放在本地，也可自行置于私有或公共云存储位置。数据库采用 KDBX format，并兼容 KDBX4 与 KDBX3；条目可以设置自定义标题和图标，再归入可调整的 groups，集成搜索则支持用高级模式定位内容。除了保存凭据，它还提供可定制的 password generator，既能按字符组合生成密码，也能创建更容易记忆的 passphrases，同时支持 TOTP storage and generation，以及 YubiKey/OnlyKey challenge response。新用户可从 QuickStart Guide 开始，在 Windows、macOS 或 Linux 上安装预编译版本；Linux 用户也可以检查发行版软件源。其鲜明设计是让敏感信息始终以用户掌控的加密数据库为中心，同时保留从基础条目管理到硬件挑战响应的进阶能力。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 29,911 个星标 / 2,026 次复刻
+- 主要语言：C++；许可证：NOASSERTION
+- 主题标签：cross-platform、hacktoberfest、keepass、keepassxc、linux、macos、password、password-manager、privacy、security
+- 仓库创建：2016-02-28T15:52:40Z
+- 最近推送：2026-11-10T19:36:22Z
+- 项目主页：[https://keepassxc.org/](https://keepassxc.org/)
+
+#### 最新发布与安装
+
+- 最新版本：[2.8.0](https://github.com/keepassxreboot/keepassxc/releases/tag/2.8.0)；发布时间：2026-10-21T21:57:23Z
+- macOS 安装包：[KeePassXC-2.8.0-1-arm64.dmg](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-arm64.dmg)；[KeePassXC-2.8.0-1-x86_64.dmg](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-x86_64.dmg)；[KeePassXC-2.8.0-arm64.dmg](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-arm64.dmg)
+- Windows 安装包：[KeePassXC-2.8.0-ARM64.msi](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-ARM64.msi)；[KeePassXC-2.8.0-x64.msi](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi)
+
+<a id="project-detail-27"></a>
+
+### 27. [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
+
+[↖️ 返回表格中的 #27](#project-row-27)
+
+#### 中文分析
+
+按下快捷键后，Wox 用一个聚焦输入框串起应用启动、文件查找、动作执行和后续操作，整个过程围绕 Keyboard-first 交互展开。它同时运行于 Windows、macOS 和 Linux，三端都采用 Fully native 的 GPU rendering，而不是 Electron 或浏览器外壳；日常驻留内存通常约为 150 MB，因此适合长期留在后台。内置功能之外，Plugin-driven 架构允许从插件商店安装扩展，也支持使用 Node.js、Python 或脚本编写插件，并另设主题商店。安装方式贴合各平台习惯：macOS 可执行 brew install --cask wox，Windows 可选择 winget install -e --id Wox.Wox、Scoop 或 Chocolatey，Arch Linux 则可通过 AUR 安装；也可以直接从 Releases 下载稳定版软件包。它提供了类似 Raycast 或 Alfred 的跨平台启动体验，同时保留原生渲染和开放扩展体系。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 27,625 个星标 / 2,448 次复刻
+- 主要语言：Go；许可证：GPL-3.0
+- 主题标签：alfred、app-launcher、launcher、launchpad、launchy、productivity、productivity-tools、raycast、spotlight、wox
+- 仓库创建：2013-12-19T15:49:32Z
+- 最近推送：2026-11-11T00:39:58Z
+- 项目主页：[https://woxlauncher.com](https://woxlauncher.com)
+
+#### 最新发布与安装
+
+- 最新版本：[v2.5.0](https://github.com/Wox-launcher/Wox/releases/tag/v2.5.0)；发布时间：2026-11-09T06:12:08Z
+- macOS 安装包：[wox-mac-amd64.dmg](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-mac-amd64.dmg)；[wox-mac-arm64.dmg](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-mac-arm64.dmg)
+- Windows 安装包：[wox-windows-amd64.exe](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-windows-amd64.exe)
+
 <a id="project-detail-28"></a>
 
-### 28. [cjpais/Handy](https://github.com/cjpais/Handy)
+### 28. [Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI)
 
 [↖️ 返回表格中的 #28](#project-row-28)
+
+#### 中文分析
+
+不必分别记住多套包管理器命令，UniGetUI 将 WinGet、Scoop、Chocolatey、Homebrew、APT、DNF、Pacman、Flatpak、Snap、pip、npm、Bun、.NET Tool 与 PowerShell Gallery 等来源汇入一个直观界面，用户可以统一发现、安装、更新和卸载软件。它以 Windows 10 和 11 为优先平台，同时提供 macOS 与 Linux 的跨平台构建，因此既照顾常见的 Windows CLI 包管理流程，也扩展到了其他系统的工具链。软件包仍由第三方提供，安装前应查看来源与发布者；UniGetUI 与所集成的包管理器并无隶属关系。README 还特别澄清官方入口：网站是 https://devolutions.net/unigetui/，源码仓库是 https://github.com/Devolutions/UniGetUI，wingetui • com 和 unigetui • com 均为第三方托管的假网站，不应信任。项目最初由 Martí Climent 创建，现由 Devolutions 维护，仍保持免费、开源、独立和社区驱动。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 26,984 个星标 / 976 次复刻
+- 主要语言：C#；许可证：MIT
+- 主题标签：chocolatey、cli、npm、package、package-manager、pip、scoop、unigetui、windows、windows-10
+- 仓库创建：2021-06-15T12:57:58Z
+- 最近推送：2026-11-10T21:27:29Z
+- 项目主页：[https://devolutions.net/unigetui/](https://devolutions.net/unigetui/)
+
+#### 最新发布与安装
+
+- 最新版本：[v2026.3.3](https://github.com/Devolutions/UniGetUI/releases/tag/v2026.3.3)；发布时间：2026-10-29T20:27:15Z
+- macOS 安装包：[UniGetUI.macos-arm64.dmg](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.macos-arm64.dmg)；[UniGetUI.macos-x64.dmg](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.macos-x64.dmg)
+- Windows 安装包：[UniGetUI.Installer.arm64.exe](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.Installer.arm64.exe)；[UniGetUI.Installer.exe](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.Installer.exe)；[UniGetUI.Installer.x64.exe](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.Installer.x64.exe)
+
+<a id="project-detail-29"></a>
+
+### 29. [cjpais/Handy](https://github.com/cjpais/Handy)
+
+[↖️ 返回表格中的 #29](#project-row-29)
 
 #### 中文分析
 
@@ -799,7 +824,7 @@ OpenHuman 把智能体运行时做成两种入口：普通用户下载 desktop a
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 38,190 个星标 / 3,599 次复刻
+- 热度：近期活跃热门仓库；累计 38,331 个星标 / 3,613 次复刻
 - 主要语言：Rust；许可证：MIT
 - 主题标签：accessibility、cross-platform、speech-to-text、tauri-v2
 - 仓库创建：2025-02-13T02:42:29Z
@@ -812,11 +837,36 @@ OpenHuman 把智能体运行时做成两种入口：普通用户下载 desktop a
 - macOS 安装包：[Handy_0.10.0_aarch64.dmg](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_aarch64.dmg)；[Handy_0.10.0_x64.dmg](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_x64.dmg)
 - Windows 安装包：[Handy_0.10.0_arm64-setup.exe](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_arm64-setup.exe)；[Handy_0.10.0_arm64_en-US.msi](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_arm64_en-US.msi)；[Handy_0.10.0_x64-setup.exe](https://github.com/cjpais/Handy/releases/download/v0.10.0/Handy_0.10.0_x64-setup.exe)
 
-<a id="project-detail-29"></a>
+<a id="project-detail-30"></a>
 
-### 29. [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop)
+### 30. [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)
 
-[↖️ 返回表格中的 #29](#project-row-29)
+[↖️ 返回表格中的 #30](#project-row-30)
+
+#### 中文分析
+
+从一个界面提交 HTTP、HTTPS、BitTorrent、magnet links 或 ed2k 资源，是 Gopeed 的基本工作方式；任务可以暂停、继续、重试、批量操作，并按状态搜索、筛选和分类，应用重启后也能恢复。HTTP 下载支持多连接传输，BitTorrent 部分则进一步提供 DHT peer discovery、uTP transport、Web Seeds、选择性文件下载、Tracker 管理、Peer 与分片统计，以及按分享率或时间设置做种上限。界面由 Flutter 原生渲染，不依赖 Electron 或 WebView shell，并会适配手机、平板和可缩放桌面窗口。除 Windows、macOS、Linux、Android、iOS 与网页端外，还能通过 Docker 或 QNAP 部署。浏览器可把下载任务直接发送给 Gopeed，JavaScript extensions、REST API、CLI 和 self-hosted web UI 又为定制与自动化留下入口，使它既能承担日常下载管理，也能嵌入自己的下载流程。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 27,581 个星标 / 1,798 次复刻
+- 主要语言：Dart；许可证：GPL-3.0
+- 主题标签：android、bittorrent、cross-platform、download-manger、downloader、downloadmanager、ed2k、flutter、ftp、golang
+- 仓库创建：2019-04-21T07:23:32Z
+- 最近推送：2026-11-10T09:10:16Z
+- 项目主页：[https://gopeed.com](https://gopeed.com)
+
+#### 最新发布与安装
+
+- 最新版本：[v1.9.3](https://github.com/GopeedLab/gopeed/releases/tag/v1.9.3)；发布时间：2026-03-18T12:54:20Z
+- macOS 安装包：[Gopeed-v1.9.3-macos-amd64.dmg](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-macos-amd64.dmg)；[Gopeed-v1.9.3-macos-arm64.dmg](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-macos-arm64.dmg)；[Gopeed-v1.9.3-macos.dmg](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-macos.dmg)
+- Windows 安装包：[Gopeed-v1.9.3-windows-amd64.exe](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-windows-amd64.exe)；[Gopeed-v1.9.3-windows-arm64.exe](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-windows-arm64.exe)
+
+<a id="project-detail-31"></a>
+
+### 31. [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop)
+
+[↖️ 返回表格中的 #31](#project-row-31)
 
 #### 中文分析
 
@@ -824,7 +874,7 @@ Pear Desktop 试图为 YouTube Music 补上一层更接近原生桌面软件的�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 34,005 个星标 / 2,039 次复刻
+- 热度：近期活跃热门仓库；累计 34,016 个星标 / 2,041 次复刻
 - 主要语言：TypeScript；许可证：MIT
 - 主题标签：desktop-app、electron、linux、mac、macosx、music、music-player、music-player-application、music-player-extension、node
 - 仓库创建：2019-04-19T18:14:40Z
@@ -836,130 +886,80 @@ Pear Desktop 试图为 YouTube Music 补上一层更接近原生桌面软件的�
 - macOS 安装包：[YouTube-Music-3.12.0-arm64.dmg](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-3.12.0-arm64.dmg)；[YouTube-Music-3.12.0.dmg](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-3.12.0.dmg)
 - Windows 安装包：[YouTube-Music-3.12.0.exe](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-3.12.0.exe)；[YouTube-Music-Web-Setup-3.12.0.exe](https://github.com/pear-devs/pear-desktop/releases/download/v3.12.0/YouTube-Music-Web-Setup-3.12.0.exe)
 
-<a id="project-detail-30"></a>
-
-### 30. [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
-
-[↖️ 返回表格中的 #30](#project-row-30)
-
-#### 中文分析
-
-按下快捷键后，Wox 用一个聚焦输入框串起应用启动、文件查找、动作执行和后续操作，整个过程围绕 Keyboard-first 交互展开。它同时运行于 Windows、macOS 和 Linux，三端都采用 Fully native 的 GPU rendering，而不是 Electron 或浏览器外壳；日常驻留内存通常约为 150 MB，因此适合长期留在后台。内置功能之外，Plugin-driven 架构允许从插件商店安装扩展，也支持使用 Node.js、Python 或脚本编写插件，并另设主题商店。安装方式贴合各平台习惯：macOS 可执行 brew install --cask wox，Windows 可选择 winget install -e --id Wox.Wox、Scoop 或 Chocolatey，Arch Linux 则可通过 AUR 安装；也可以直接从 Releases 下载稳定版软件包。它提供了类似 Raycast 或 Alfred 的跨平台启动体验，同时保留原生渲染和开放扩展体系。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 27,616 个星标 / 2,447 次复刻
-- 主要语言：Go；许可证：GPL-3.0
-- 主题标签：alfred、app-launcher、launcher、launchpad、launchy、productivity、productivity-tools、raycast、spotlight、wox
-- 仓库创建：2013-12-19T15:49:32Z
-- 最近推送：2026-11-09T23:54:51Z
-- 项目主页：[https://woxlauncher.com](https://woxlauncher.com)
-
-#### 最新发布与安装
-
-- 最新版本：[v2.5.0](https://github.com/Wox-launcher/Wox/releases/tag/v2.5.0)；发布时间：2026-11-09T06:12:08Z
-- macOS 安装包：[wox-mac-amd64.dmg](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-mac-amd64.dmg)；[wox-mac-arm64.dmg](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-mac-arm64.dmg)
-- Windows 安装包：[wox-windows-amd64.exe](https://github.com/Wox-launcher/Wox/releases/download/v2.5.0/wox-windows-amd64.exe)
-
-<a id="project-detail-31"></a>
-
-### 31. [Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI)
-
-[↖️ 返回表格中的 #31](#project-row-31)
-
-#### 中文分析
-
-不必分别记住多套包管理器命令，UniGetUI 将 WinGet、Scoop、Chocolatey、Homebrew、APT、DNF、Pacman、Flatpak、Snap、pip、npm、Bun、.NET Tool 与 PowerShell Gallery 等来源汇入一个直观界面，用户可以统一发现、安装、更新和卸载软件。它以 Windows 10 和 11 为优先平台，同时提供 macOS 与 Linux 的跨平台构建，因此既照顾常见的 Windows CLI 包管理流程，也扩展到了其他系统的工具链。软件包仍由第三方提供，安装前应查看来源与发布者；UniGetUI 与所集成的包管理器并无隶属关系。README 还特别澄清官方入口：网站是 https://devolutions.net/unigetui/，源码仓库是 https://github.com/Devolutions/UniGetUI，wingetui • com 和 unigetui • com 均为第三方托管的假网站，不应信任。项目最初由 Martí Climent 创建，现由 Devolutions 维护，仍保持免费、开源、独立和社区驱动。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 26,958 个星标 / 972 次复刻
-- 主要语言：C#；许可证：MIT
-- 主题标签：chocolatey、cli、npm、package、package-manager、pip、scoop、unigetui、windows、windows-10
-- 仓库创建：2021-06-15T12:57:58Z
-- 最近推送：2026-11-09T21:42:56Z
-- 项目主页：[https://devolutions.net/unigetui/](https://devolutions.net/unigetui/)
-
-#### 最新发布与安装
-
-- 最新版本：[v2026.3.3](https://github.com/Devolutions/UniGetUI/releases/tag/v2026.3.3)；发布时间：2026-10-29T20:27:15Z
-- macOS 安装包：[UniGetUI.macos-arm64.dmg](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.macos-arm64.dmg)；[UniGetUI.macos-x64.dmg](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.macos-x64.dmg)
-- Windows 安装包：[UniGetUI.Installer.arm64.exe](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.Installer.arm64.exe)；[UniGetUI.Installer.exe](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.Installer.exe)；[UniGetUI.Installer.x64.exe](https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.3/UniGetUI.Installer.x64.exe)
-
 <a id="project-detail-32"></a>
 
-### 32. [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc)
+### 32. [getpaseo/paseo](https://github.com/getpaseo/paseo)
 
 [↖️ 返回表格中的 #32](#project-row-32)
 
 #### 中文分析
 
-密码库并不依赖在线服务：KeePassXC 将用户名、密码、URLs、attachments 和 notes 保存到离线加密文件中，文件可放在本地，也可自行置于私有或公共云存储位置。数据库采用 KDBX format，并兼容 KDBX4 与 KDBX3；条目可以设置自定义标题和图标，再归入可调整的 groups，集成搜索则支持用高级模式定位内容。除了保存凭据，它还提供可定制的 password generator，既能按字符组合生成密码，也能创建更容易记忆的 passphrases，同时支持 TOTP storage and generation，以及 YubiKey/OnlyKey challenge response。新用户可从 QuickStart Guide 开始，在 Windows、macOS 或 Linux 上安装预编译版本；Linux 用户也可以检查发行版软件源。其鲜明设计是让敏感信息始终以用户掌控的加密数据库为中心，同时保留从基础条目管理到硬件挑战响应的进阶能力。
+Paseo 把 Claude Code、Codex、Copilot、OpenCode、Pi、Antigravity 和 Muse Code 收进同一套开发界面：桌面窗口内可同时摆放 agents、编辑器、终端、diff、pull request 与浏览器，并用 split panes 自行编排工作区。并行任务不会挤在同一个目录里，每个 agent 都在独立 worktree 中运行；内置 orchestration 还允许 agent 创建 worktree、启动其他 agent，并跨不同模型提供方相互通信。执行过程中可以直接查看各自改动、运行应用，再在 built in browser 中检查结果。agent 实际运行于用户自己的机器，因此会继承现有开发环境、工具、配置和 skills。相同工作还可从 iOS、Android、桌面端、web 或 CLI 接续，移动端不是精简遥控器，而是原生完整应用，并支持 voice mode。插件运行在 daemon 上，一次编写即可向所有客户端提供界面、命令、附件来源、主题及 agent 生命周期控制；整套产品不强制登录，也不加入 telemetry 或 tracking。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 29,888 个星标 / 2,020 次复刻
-- 主要语言：C++；许可证：NOASSERTION
-- 主题标签：cross-platform、hacktoberfest、keepass、keepassxc、linux、macos、password、password-manager、privacy、security
-- 仓库创建：2016-02-28T15:52:40Z
-- 最近推送：2026-11-08T08:46:27Z
-- 项目主页：[https://keepassxc.org/](https://keepassxc.org/)
+- 热度：近期活跃热门仓库；累计 23,745 个星标 / 2,915 次复刻
+- 主要语言：TypeScript；许可证：NOASSERTION
+- 主题标签：ade、agents、android、claude-code、codex、copilot、developer-tools、hermes、ios、linux
+- 仓库创建：2025-10-13T12:27:02Z
+- 最近推送：2026-11-11T00:39:51Z
+- 项目主页：[https://paseo.sh](https://paseo.sh)
 
 #### 最新发布与安装
 
-- 最新版本：[2.8.0](https://github.com/keepassxreboot/keepassxc/releases/tag/2.8.0)；发布时间：2026-10-21T21:57:23Z
-- macOS 安装包：[KeePassXC-2.8.0-1-arm64.dmg](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-arm64.dmg)；[KeePassXC-2.8.0-1-x86_64.dmg](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-x86_64.dmg)；[KeePassXC-2.8.0-arm64.dmg](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-arm64.dmg)
-- Windows 安装包：[KeePassXC-2.8.0-ARM64.msi](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-ARM64.msi)；[KeePassXC-2.8.0-x64.msi](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi)
+- 最新版本：[v0.15.4](https://github.com/getpaseo/paseo/releases/tag/v0.15.4)；发布时间：2026-11-10T01:52:29Z
+- macOS 安装包：[Paseo-0.15.4-arm64.dmg](https://github.com/getpaseo/paseo/releases/download/v0.15.4/Paseo-0.15.4-arm64.dmg)；[Paseo-0.15.4-x64.dmg](https://github.com/getpaseo/paseo/releases/download/v0.15.4/Paseo-0.15.4-x64.dmg)
+- Windows 安装包：[Paseo-Setup-0.15.4-arm64.exe](https://github.com/getpaseo/paseo/releases/download/v0.15.4/Paseo-Setup-0.15.4-arm64.exe)；[Paseo-Setup-0.15.4-x64.exe](https://github.com/getpaseo/paseo/releases/download/v0.15.4/Paseo-Setup-0.15.4-x64.exe)；[Paseo-Setup-0.15.4.exe](https://github.com/getpaseo/paseo/releases/download/v0.15.4/Paseo-Setup-0.15.4.exe)
 
 <a id="project-detail-33"></a>
 
-### 33. [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)
+### 33. [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
 
 [↖️ 返回表格中的 #33](#project-row-33)
 
 #### 中文分析
 
-从一个界面提交 HTTP、HTTPS、BitTorrent、magnet links 或 ed2k 资源，是 Gopeed 的基本工作方式；任务可以暂停、继续、重试、批量操作，并按状态搜索、筛选和分类，应用重启后也能恢复。HTTP 下载支持多连接传输，BitTorrent 部分则进一步提供 DHT peer discovery、uTP transport、Web Seeds、选择性文件下载、Tracker 管理、Peer 与分片统计，以及按分享率或时间设置做种上限。界面由 Flutter 原生渲染，不依赖 Electron 或 WebView shell，并会适配手机、平板和可缩放桌面窗口。除 Windows、macOS、Linux、Android、iOS 与网页端外，还能通过 Docker 或 QNAP 部署。浏览器可把下载任务直接发送给 Gopeed，JavaScript extensions、REST API、CLI 和 self-hosted web UI 又为定制与自动化留下入口，使它既能承担日常下载管理，也能嵌入自己的下载流程。
+写 SQL、查看表格和找回历史查询，是 Beekeeper Studio 在同一工作区串起的日常流程。查询编辑器带自动补全与语法高亮，多标签页可以同时处理不同任务，常用语句能保存，运行历史则方便重新找到几天前验证过的查询。结果表支持排序和筛选，也可以按 JSON 查看数据，配合导入导出、备份恢复和键盘快捷键完成后续整理。界面提供深色主题，设计重点是让这些常用操作容易找到。Windows、MacOS 和 Linux 使用相同的跨平台客户端，免费版可连接 PostgreSQL、MySQL、SQLite、SQL Server、MariaDB、Redis、Google BigQuery 等数据源。Oracle、Cassandra、ClickHouse、DuckDB、MongoDB、Trino 等列在付费版本范围，DynamoDB 则标为 Beta Support。用户可以先下载二进制包直接体验免费功能，再按实际数据源和功能需求选择版本。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 27,552 个星标 / 1,797 次复刻
-- 主要语言：Dart；许可证：GPL-3.0
-- 主题标签：android、bittorrent、cross-platform、download-manger、downloader、downloadmanager、ed2k、flutter、ftp、golang
-- 仓库创建：2019-04-21T07:23:32Z
-- 最近推送：2026-11-09T03:14:49Z
-- 项目主页：[https://gopeed.com](https://gopeed.com)
+- 热度：近期活跃热门仓库；累计 23,871 个星标 / 1,673 次复刻
+- 主要语言：TypeScript；许可证：NOASSERTION
+- 主题标签：cockroachdb、database-client、database-gui、database-management、datagrip-alternative、dbeaver-alternative、electron、firebird、linux-app、mac-app
+- 仓库创建：2019-07-23T18:12:33Z
+- 最近推送：2026-11-10T22:16:38Z
+- 项目主页：[https://www.beekeeperstudio.io](https://www.beekeeperstudio.io)
 
 #### 最新发布与安装
 
-- 最新版本：[v1.9.3](https://github.com/GopeedLab/gopeed/releases/tag/v1.9.3)；发布时间：2026-03-18T12:54:20Z
-- macOS 安装包：[Gopeed-v1.9.3-macos-amd64.dmg](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-macos-amd64.dmg)；[Gopeed-v1.9.3-macos-arm64.dmg](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-macos-arm64.dmg)；[Gopeed-v1.9.3-macos.dmg](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-macos.dmg)
-- Windows 安装包：[Gopeed-v1.9.3-windows-amd64.exe](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-windows-amd64.exe)；[Gopeed-v1.9.3-windows-arm64.exe](https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-windows-arm64.exe)
+- 最新版本：[v6.2.2](https://github.com/beekeeper-studio/beekeeper-studio/releases/tag/v6.2.2)；发布时间：2026-11-06T20:31:12Z
+- macOS 安装包：[Beekeeper-Studio-6.2.2-arm64.dmg](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64.dmg)；[Beekeeper-Studio-6.2.2.dmg](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2.dmg)
+- Windows 安装包：[Beekeeper-Studio-6.2.2-arm64-portable.exe](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64-portable.exe)；[Beekeeper-Studio-6.2.2-arm64.msi](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64.msi)；[Beekeeper-Studio-6.2.2-portable.exe](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-portable.exe)
 
 <a id="project-detail-34"></a>
 
-### 34. [getpaseo/paseo](https://github.com/getpaseo/paseo)
+### 34. [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity)
 
 [↖️ 返回表格中的 #34](#project-row-34)
 
 #### 中文分析
 
-在 Paseo 里，编程代理不再各自占据孤立的终端：桌面应用把 agents、editor、terminals、diffs、pull requests 和浏览器收进同一个可拆分窗口，用户可以一边让多个代理工作，一边检查改动、运行应用并在内置浏览器中验证结果。Parallel agents 会为每个代理分配独立 worktree，既能在一台机器上并行，也能跨多台机器协作；代理还可创建 worktrees、启动其他代理并相互通信，形成 Built in orchestration。Claude Code、Codex、Copilot、OpenCode、Pi、Antigravity 和 Muse Code 共用一套界面，因此每项任务可以选择不同提供方。代理实际运行在用户自己的机器和开发环境中，并沿用现有工具、配置与 skills。iOS、Android、桌面、web 和 CLI 之间可以接续工作，移动端并非只读遥控器，而是原生完整应用；Voice control 还能用听写或对话方式布置任务。插件运行在 daemon 上，一次编写即可把界面、命令、附件来源或代理生命周期扩展同步呈现在各客户端。
+一天的任务可以先用 sub tasks、projects、tags 和颜色整理，再放进 planner；日程时间线会把计划任务与 calendar events 并排展示，让待办事项不只是清单，而是落实到具体时段。Super Productivity 同时提供内置 Kanban、Eisenhower Matrix 和自定义 boards，便于按流程或重要程度重新排列工作。执行阶段可以使用 timeboxing 和时间追踪，随后生成 time sheets 与工作摘要并导出到公司的工时系统；Focus mode 则提供 Pomodoro、Flowtime 和倒计时会话，配合休息提醒、反拖延功能及个人指标观察工作习惯。它还能连接 Jira、Trello、GitHub、GitLab、Gitea、OpenProject 等服务，自动导入分配给自己的任务，在本地补充计划、创建工作日志，并在远端发生变化时通知。数据采用 offline first 思路，可通过 SuperSync、Dropbox 或 WebDAV 在设备间备份同步，其中 SuperSync 使用只有用户掌握密码的端到端加密。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 23,658 个星标 / 2,904 次复刻
-- 主要语言：TypeScript；许可证：NOASSERTION
-- 主题标签：ade、agents、android、claude-code、codex、copilot、developer-tools、hermes、ios、linux
-- 仓库创建：2025-10-13T12:27:02Z
-- 最近推送：2026-11-10T00:56:24Z
-- 项目主页：[https://paseo.sh](https://paseo.sh)
+- 热度：近期活跃热门仓库；累计 23,582 个星标 / 2,279 次复刻
+- 主要语言：TypeScript；许可证：MIT
+- 主题标签：android、flowmodoro、flowtime、habit-tracker、ios、issue-tracker、linux、local-first、macos、open-source
+- 仓库创建：2017-01-06T22:30:58Z
+- 最近推送：2026-11-11T01:03:51Z
+- 项目主页：[http://super-productivity.com?ref=github](http://super-productivity.com?ref=github)
 
 #### 最新发布与安装
 
-- 最新版本：[v0.15.3](https://github.com/getpaseo/paseo/releases/tag/v0.15.3)；发布时间：2026-11-06T16:02:49Z
-- macOS 安装包：[Paseo-0.15.3-arm64.dmg](https://github.com/getpaseo/paseo/releases/download/v0.15.3/Paseo-0.15.3-arm64.dmg)；[Paseo-0.15.3-x64.dmg](https://github.com/getpaseo/paseo/releases/download/v0.15.3/Paseo-0.15.3-x64.dmg)
-- Windows 安装包：[Paseo-Setup-0.15.3-arm64.exe](https://github.com/getpaseo/paseo/releases/download/v0.15.3/Paseo-Setup-0.15.3-arm64.exe)；[Paseo-Setup-0.15.3-x64.exe](https://github.com/getpaseo/paseo/releases/download/v0.15.3/Paseo-Setup-0.15.3-x64.exe)；[Paseo-Setup-0.15.3.exe](https://github.com/getpaseo/paseo/releases/download/v0.15.3/Paseo-Setup-0.15.3.exe)
+- 最新版本：[v20.0.0](https://github.com/super-productivity/super-productivity/releases/tag/v20.0.0)；发布时间：2026-11-06T21:02:15Z
+- macOS 安装包：[superProductivity-arm64.dmg](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-arm64.dmg)；[superProductivity-universal.dmg](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-universal.dmg)；[superProductivity-x64.dmg](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-x64.dmg)
+- Windows 安装包：[Super-Productivity-Setup-arm64.exe](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/Super-Productivity-Setup-arm64.exe)；[Super-Productivity-Setup-x64.exe](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/Super-Productivity-Setup-x64.exe)；[Super-Productivity-Setup.exe](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/Super-Productivity-Setup.exe)
 
 <a id="project-detail-35"></a>
 
@@ -973,7 +973,7 @@ Flameshot 把截图、即时编辑和桌面快捷操作连成了一套轻量流�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 31,479 个星标 / 2,096 次复刻
+- 热度：近期活跃热门仓库；累计 31,497 个星标 / 2,097 次复刻
 - 主要语言：C++；许可证：GPL-3.0
 - 主题标签：capture、cross-platform、free-software、gnu-linux、gui、hacktoberfest、image-editing、qt、screenshot
 - 仓库创建：2017-05-10T19:44:51Z
@@ -988,59 +988,34 @@ Flameshot 把截图、即时编辑和桌面快捷操作连成了一套轻量流�
 
 <a id="project-detail-36"></a>
 
-### 36. [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
+### 36. [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)
 
 [↖️ 返回表格中的 #36](#project-row-36)
 
 #### 中文分析
 
-写 SQL、查看表格和找回历史查询，是 Beekeeper Studio 在同一工作区串起的日常流程。查询编辑器带自动补全与语法高亮，多标签页可以同时处理不同任务，常用语句能保存，运行历史则方便重新找到几天前验证过的查询。结果表支持排序和筛选，也可以按 JSON 查看数据，配合导入导出、备份恢复和键盘快捷键完成后续整理。界面提供深色主题，设计重点是让这些常用操作容易找到。Windows、MacOS 和 Linux 使用相同的跨平台客户端，免费版可连接 PostgreSQL、MySQL、SQLite、SQL Server、MariaDB、Redis、Google BigQuery 等数据源。Oracle、Cassandra、ClickHouse、DuckDB、MongoDB、Trino 等列在付费版本范围，DynamoDB 则标为 Beta Support。用户可以先下载二进制包直接体验免费功能，再按实际数据源和功能需求选择版本。
+OpenMausBot 将 AI agent 做成聊天应用里的联系人列表：侧边栏中的每个 bot 都是真正运行的 Claude 或 Codex，拥有自己的 personality、model、cloud computer、connected apps，以及独立线程记忆。用户可以像发消息一样交代任务，实时观察执行过程，并在关键步骤进行批准；这种结构强调的是一支可分别分工的 bot 团队，而非单个对话框中的统一助手。运行方式遵循 local first，bot 直接调用用户机器上已经安装的 claude、codex 和 grok CLIs，沿用现有登录与订阅，不经过额外代理，也允许把 engine 指向 custom CLI binary。桌面客户端使用 TypeScript、React 和 Electron，README 提供经过签名与公证的 macOS 安装包、Windows x64 安装器，以及处于 beta 阶段的 Ubuntu 24.04 x64 deb 或 AppImage。项目也特别澄清它与 xAI、Meta、OpenAI、Manus 以及任何同名加密货币均无关联。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 23,865 个星标 / 1,672 次复刻
-- 主要语言：TypeScript；许可证：NOASSERTION
-- 主题标签：cockroachdb、database-client、database-gui、database-management、datagrip-alternative、dbeaver-alternative、electron、firebird、linux-app、mac-app
-- 仓库创建：2019-07-23T18:12:33Z
-- 最近推送：2026-11-09T21:46:49Z
-- 项目主页：[https://www.beekeeperstudio.io](https://www.beekeeperstudio.io)
+- 热度：近期活跃热门仓库；累计 20,635 个星标 / 2,861 次复刻
+- 主要语言：TypeScript；许可证：Apache-2.0
+- 主题标签：ai-agents、claude-code、codex、computer-use、docker、electron、grok、grok-bot、grok-bot-alternative、self-hosted
+- 仓库创建：2026-08-11T18:58:55Z
+- 最近推送：2026-11-11T00:55:37Z
+- 项目主页：[https://www.mausbot.com/](https://www.mausbot.com/)
 
 #### 最新发布与安装
 
-- 最新版本：[v6.2.2](https://github.com/beekeeper-studio/beekeeper-studio/releases/tag/v6.2.2)；发布时间：2026-11-06T20:31:12Z
-- macOS 安装包：[Beekeeper-Studio-6.2.2-arm64.dmg](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64.dmg)；[Beekeeper-Studio-6.2.2.dmg](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2.dmg)
-- Windows 安装包：[Beekeeper-Studio-6.2.2-arm64-portable.exe](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64-portable.exe)；[Beekeeper-Studio-6.2.2-arm64.msi](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-arm64.msi)；[Beekeeper-Studio-6.2.2-portable.exe](https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-6.2.2-portable.exe)
+- 最新版本：[v0.1.152](https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.152)；发布时间：2026-11-10T19:57:50Z
+- macOS 安装包：[OpenMausBot-0.1.152-arm64.dmg](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.152/OpenMausBot-0.1.152-arm64.dmg)；[OpenMausBot-0.1.152-x64.dmg](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.152/OpenMausBot-0.1.152-x64.dmg)；[OpenMausBot-intel.dmg](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.152/OpenMausBot-intel.dmg)
+- Windows 安装包：[OpenMausBot-0.1.152-setup.exe](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.152/OpenMausBot-0.1.152-setup.exe)；[OpenMausBot-setup.exe](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.152/OpenMausBot-setup.exe)
 
 <a id="project-detail-37"></a>
 
-### 37. [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity)
+### 37. [mountain-loop/yaak](https://github.com/mountain-loop/yaak)
 
 [↖️ 返回表格中的 #37](#project-row-37)
-
-#### 中文分析
-
-一天的任务可以先用 sub tasks、projects、tags 和颜色整理，再放进 planner；日程时间线会把计划任务与 calendar events 并排展示，让待办事项不只是清单，而是落实到具体时段。Super Productivity 同时提供内置 Kanban、Eisenhower Matrix 和自定义 boards，便于按流程或重要程度重新排列工作。执行阶段可以使用 timeboxing 和时间追踪，随后生成 time sheets 与工作摘要并导出到公司的工时系统；Focus mode 则提供 Pomodoro、Flowtime 和倒计时会话，配合休息提醒、反拖延功能及个人指标观察工作习惯。它还能连接 Jira、Trello、GitHub、GitLab、Gitea、OpenProject 等服务，自动导入分配给自己的任务，在本地补充计划、创建工作日志，并在远端发生变化时通知。数据采用 offline first 思路，可通过 SuperSync、Dropbox 或 WebDAV 在设备间备份同步，其中 SuperSync 使用只有用户掌握密码的端到端加密。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 23,549 个星标 / 2,274 次复刻
-- 主要语言：TypeScript；许可证：MIT
-- 主题标签：android、flowmodoro、flowtime、habit-tracker、ios、issue-tracker、linux、local-first、macos、open-source
-- 仓库创建：2017-01-06T22:30:58Z
-- 最近推送：2026-11-10T00:34:07Z
-- 项目主页：[http://super-productivity.com?ref=github](http://super-productivity.com?ref=github)
-
-#### 最新发布与安装
-
-- 最新版本：[v20.0.0](https://github.com/super-productivity/super-productivity/releases/tag/v20.0.0)；发布时间：2026-11-06T21:02:15Z
-- macOS 安装包：[superProductivity-arm64.dmg](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-arm64.dmg)；[superProductivity-universal.dmg](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-universal.dmg)；[superProductivity-x64.dmg](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-x64.dmg)
-- Windows 安装包：[Super-Productivity-Setup-arm64.exe](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/Super-Productivity-Setup-arm64.exe)；[Super-Productivity-Setup-x64.exe](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/Super-Productivity-Setup-x64.exe)；[Super-Productivity-Setup.exe](https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/Super-Productivity-Setup.exe)
-
-<a id="project-detail-38"></a>
-
-### 38. [mountain-loop/yaak](https://github.com/mountain-loop/yaak)
-
-[↖️ 返回表格中的 #38](#project-row-38)
 
 #### 中文分析
 
@@ -1048,11 +1023,11 @@ Yaak 将多种接口调试方式集中到一个强调 offline first 的桌面工
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 19,469 个星标 / 852 次复刻
+- 热度：近期活跃热门仓库；累计 19,478 个星标 / 855 次复刻
 - 主要语言：Rust；许可证：MIT
 - 主题标签：bruno-alternative、graphql、grpc、http、http-client、insomnia-alternative、postman-alternative、sse、tauri、websocket
 - 仓库创建：2023-02-16T04:37:02Z
-- 最近推送：2026-11-09T19:43:03Z
+- 最近推送：2026-11-10T23:34:25Z
 - 项目主页：[https://yaak.app](https://yaak.app)
 
 #### 最新发布与安装
@@ -1061,61 +1036,11 @@ Yaak 将多种接口调试方式集中到一个强调 offline first 的桌面工
 - macOS 安装包：[Yaak_2026.9.1_aarch64.dmg](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_aarch64.dmg)；[Yaak_2026.9.1_x64.dmg](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_x64.dmg)
 - Windows 安装包：[Yaak_2026.9.1_arm64-setup-machine.exe](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_arm64-setup-machine.exe)；[Yaak_2026.9.1_arm64-setup.exe](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_arm64-setup.exe)；[Yaak_2026.9.1_x64-setup-machine.exe](https://github.com/mountain-loop/yaak/releases/download/v2026.9.1/Yaak_2026.9.1_x64-setup-machine.exe)
 
-<a id="project-detail-39"></a>
+<a id="project-detail-38"></a>
 
-### 39. [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch)
+### 38. [audacity/audacity](https://github.com/audacity/audacity)
 
-[↖️ 返回表格中的 #39](#project-row-39)
-
-#### 中文分析
-
-ActivityWatch 把时间追踪建立在“数据留在用户本地、采集范围由用户决定”之上，目标是在不牺牲隐私的前提下记录尽可能有价值的 lifedata。它通过本地应用安全存储记录，再由一组 watchers 持续采集不同活动：例如当前使用的应用及窗口标题、当前浏览器标签页及其标题和 URL，以及 Keyboard and mouse activity，并据此判断用户是否处于 AFK 状态。用户既可以只保留少量必要记录，也能启用更多 watchers 扩展采集维度；项目也鼓励贡献者编写新的 watcher。日常使用可直接从 releases page 下载构建版本，再按 documentation 中的入门指南配置；需要参与开发时则可参考源码构建指南。研究者若在论文中使用这些数据或软件，还可通过 Zenodo DOI 进行规范引用。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 19,573 个星标 / 1,075 次复刻
-- 主要语言：Python；许可证：MPL-2.0
-- 主题标签：activitywatch、afk、analytics、app、cross-platform、dashboard、productivity、quantified-self、time-tracker、time-tracking
-- 仓库创建：2016-04-27T15:26:09Z
-- 最近推送：2026-11-09T16:13:02Z
-- 项目主页：[https://activitywatch.net/](https://activitywatch.net/)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.14.1](https://github.com/ActivityWatch/activitywatch/releases/tag/v0.14.1)；发布时间：2026-10-10T19:18:45Z
-- macOS 安装包：[activitywatch-tauri-v0.14.1-macos-arm64.dmg](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.1/activitywatch-tauri-v0.14.1-macos-arm64.dmg)；[activitywatch-tauri-v0.14.1-macos-x86_64.dmg](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.1/activitywatch-tauri-v0.14.1-macos-x86_64.dmg)；[activitywatch-v0.14.1-macos-arm64.dmg](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.1/activitywatch-v0.14.1-macos-arm64.dmg)
-- Windows 安装包：[activitywatch-tauri-v0.14.1-windows-x86_64-setup.exe](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.1/activitywatch-tauri-v0.14.1-windows-x86_64-setup.exe)；[activitywatch-v0.14.1-windows-x86_64-setup.exe](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.1/activitywatch-v0.14.1-windows-x86_64-setup.exe)
-
-<a id="project-detail-40"></a>
-
-### 40. [nukeop/nuclear](https://github.com/nukeop/nuclear)
-
-[↖️ 返回表格中的 #40](#project-row-40)
-
-#### 中文分析
-
-Nuclear 把“搜索后直接播放免费音乐”做成了完整的桌面体验：用户可以检索歌曲、艺人和专辑，浏览带简介、唱片目录及相似艺人的艺人页面，再把曲目加入播放队列，通过 shuffle、repeat 和拖放调整顺序。收藏范围覆盖专辑、艺人和曲目，Playlists 支持创建、导入、导出以及从多种服务迁移；播放过程中还能查看 Synced lyrics、收听历史与统计。它最鲜明的设计是把各项功能交给插件驱动，插件既能提供 streaming sources，也能扩展元数据、播放列表和首页内容，并可通过 Plugin store 浏览安装。除了内置明暗主题、自定义 CSS 主题、快捷键、多语言和自动更新，MCP server 还允许 AI agent 操作播放器，Nuclear Jam 则可用手机远程控制桌面端。Windows、macOS 与 Linux 均有对应安装包。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 18,908 个星标 / 1,357 次复刻
-- 主要语言：TypeScript；许可证：AGPL-3.0
-- 主题标签：desktop-app、linux、mac、mcp、mcp-server、music、music-player、react、rust、spotify
-- 仓库创建：2016-09-22T22:58:21Z
-- 最近推送：2026-11-10T00:28:55Z
-- 项目主页：[https://nuclearplayer.com](https://nuclearplayer.com)
-
-#### 最新发布与安装
-
-- 最新版本：[player@1.54.2](https://github.com/nukeop/nuclear/releases/tag/player%401.54.2)；发布时间：2026-11-06T01:38:08Z
-- macOS 安装包：[Nuclear_1.54.2_aarch64.dmg](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_aarch64.dmg)；[Nuclear_1.54.2_x64.dmg](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64.dmg)
-- Windows 安装包：[Nuclear_1.54.2_x64-setup.exe](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64-setup.exe)；[Nuclear_1.54.2_x64_en-US.msi](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64_en-US.msi)
-
-<a id="project-detail-41"></a>
-
-### 41. [audacity/audacity](https://github.com/audacity/audacity)
-
-[↖️ 返回表格中的 #41](#project-row-41)
+[↖️ 返回表格中的 #38](#project-row-38)
 
 #### 中文分析
 
@@ -1123,11 +1048,11 @@ Audacity 提供易于上手的 多轨音频编辑器和录音工具，可在 Win
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 19,004 个星标 / 2,724 次复刻
+- 热度：近期活跃热门仓库；累计 19,018 个星标 / 2,724 次复刻
 - 主要语言：C++；许可证：NOASSERTION
 - 主题标签：audio、cross-platform、editor、gplv2、qt-application、qt-qml、wxwidgets-applications
 - 仓库创建：2015-03-26T10:46:17Z
-- 最近推送：2026-11-09T10:33:10Z
+- 最近推送：2026-11-10T16:56:24Z
 - 项目主页：[https://www.audacityteam.org/manual/getting-started/](https://www.audacityteam.org/manual/getting-started/)
 
 #### 最新发布与安装
@@ -1136,11 +1061,11 @@ Audacity 提供易于上手的 多轨音频编辑器和录音工具，可在 Win
 - macOS 安装包：[audacity-macOS-4.0.2-arm64.dmg](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-arm64.dmg)；[audacity-macOS-4.0.2-universal.dmg](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-universal.dmg)；[audacity-macOS-4.0.2-x86_64.dmg](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-x86_64.dmg)
 - Windows 安装包：[audacity-win-4.0.2-arm64.msi](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi)；[audacity-win-4.0.2-x86_64.msi](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-x86_64.msi)
 
-<a id="project-detail-42"></a>
+<a id="project-detail-39"></a>
 
-### 42. [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat)
+### 39. [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat)
 
-[↖️ 返回表格中的 #42](#project-row-42)
+[↖️ 返回表格中的 #39](#project-row-39)
 
 #### 中文分析
 
@@ -1148,11 +1073,11 @@ Rowboat 把邮件、会议、Slack 与助手对话持续索引成 living knowled
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 18,151 个星标 / 1,819 次复刻
+- 热度：近期活跃热门仓库；累计 18,152 个星标 / 1,820 次复刻
 - 主要语言：TypeScript；许可证：Apache-2.0
 - 主题标签：agents、agents-sdk、ai、ai-agents、ai-agents-automation、chatgpt、claude-code、claude-cowork、generative-ai、llm
 - 仓库创建：2025-01-13T09:30:40Z
-- 最近推送：2026-11-09T18:07:09Z
+- 最近推送：2026-11-11T00:17:31Z
 - 项目主页：[https://www.rowboatlabs.com](https://www.rowboatlabs.com)
 
 #### 最新发布与安装
@@ -1161,11 +1086,11 @@ Rowboat 把邮件、会议、Slack 与助手对话持续索引成 living knowled
 - macOS 安装包：[Rowboat-darwin-arm64-1.0.3.dmg](https://github.com/rowboatlabs/rowboat/releases/download/v1.0.3/Rowboat-darwin-arm64-1.0.3.dmg)；[Rowboat-darwin-x64-1.0.3.dmg](https://github.com/rowboatlabs/rowboat/releases/download/v1.0.3/Rowboat-darwin-x64-1.0.3.dmg)
 - Windows 安装包：[Rowboat-win32-x64-1.0.3-setup.exe](https://github.com/rowboatlabs/rowboat/releases/download/v1.0.3/Rowboat-win32-x64-1.0.3-setup.exe)
 
-<a id="project-detail-43"></a>
+<a id="project-detail-40"></a>
 
-### 43. [Automattic/harper](https://github.com/Automattic/harper)
+### 40. [Automattic/harper](https://github.com/Automattic/harper)
 
-[↖️ 返回表格中的 #43](#project-row-43)
+[↖️ 返回表格中的 #40](#project-row-40)
 
 #### 中文分析
 
@@ -1173,11 +1098,11 @@ Harper 的出发点不是堆叠写作功能，而是解决传统英文语法检�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 17,520 个星标 / 811 次复刻
+- 热度：近期活跃热门仓库；累计 17,568 个星标 / 815 次复刻
 - 主要语言：Rust；许可证：Apache-2.0
 - 主题标签：chrome-extension、developer-tools、english-language、grammar-checker、nodejs、react、rust、svelte、webassembly
 - 仓库创建：2023-10-22T02:58:35Z
-- 最近推送：2026-11-09T23:12:57Z
+- 最近推送：2026-11-10T23:08:57Z
 - 项目主页：[https://writewithharper.com](https://writewithharper.com)
 
 #### 最新发布与安装
@@ -1185,6 +1110,81 @@ Harper 的出发点不是堆叠写作功能，而是解决传统英文语法检�
 - 最新版本：[v3.1.0](https://github.com/Automattic/harper/releases/tag/v3.1.0)；发布时间：2026-11-06T22:24:06Z
 - macOS 安装包：[Harper_3.1.0_universal.dmg](https://github.com/Automattic/harper/releases/download/v3.1.0/Harper_3.1.0_universal.dmg)
 - Windows 安装包：[Harper_3.1.0_x64-setup.exe](https://github.com/Automattic/harper/releases/download/v3.1.0/Harper_3.1.0_x64-setup.exe)
+
+<a id="project-detail-41"></a>
+
+### 41. [nukeop/nuclear](https://github.com/nukeop/nuclear)
+
+[↖️ 返回表格中的 #41](#project-row-41)
+
+#### 中文分析
+
+Nuclear 把“搜索后直接播放免费音乐”做成了完整的桌面体验：用户可以检索歌曲、艺人和专辑，浏览带简介、唱片目录及相似艺人的艺人页面，再把曲目加入播放队列，通过 shuffle、repeat 和拖放调整顺序。收藏范围覆盖专辑、艺人和曲目，Playlists 支持创建、导入、导出以及从多种服务迁移；播放过程中还能查看 Synced lyrics、收听历史与统计。它最鲜明的设计是把各项功能交给插件驱动，插件既能提供 streaming sources，也能扩展元数据、播放列表和首页内容，并可通过 Plugin store 浏览安装。除了内置明暗主题、自定义 CSS 主题、快捷键、多语言和自动更新，MCP server 还允许 AI agent 操作播放器，Nuclear Jam 则可用手机远程控制桌面端。Windows、macOS 与 Linux 均有对应安装包。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 18,917 个星标 / 1,357 次复刻
+- 主要语言：TypeScript；许可证：AGPL-3.0
+- 主题标签：desktop-app、linux、mac、mcp、mcp-server、music、music-player、react、rust、spotify
+- 仓库创建：2016-09-22T22:58:21Z
+- 最近推送：2026-11-10T01:41:34Z
+- 项目主页：[https://nuclearplayer.com](https://nuclearplayer.com)
+
+#### 最新发布与安装
+
+- 最新版本：[player@1.54.2](https://github.com/nukeop/nuclear/releases/tag/player%401.54.2)；发布时间：2026-11-06T01:38:08Z
+- macOS 安装包：[Nuclear_1.54.2_aarch64.dmg](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_aarch64.dmg)；[Nuclear_1.54.2_x64.dmg](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64.dmg)
+- Windows 安装包：[Nuclear_1.54.2_x64-setup.exe](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64-setup.exe)；[Nuclear_1.54.2_x64_en-US.msi](https://github.com/nukeop/nuclear/releases/download/player%401.54.2/Nuclear_1.54.2_x64_en-US.msi)
+
+<a id="project-detail-42"></a>
+
+### 42. [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch)
+
+[↖️ 返回表格中的 #42](#project-row-42)
+
+#### 中文分析
+
+ActivityWatch 把时间记录建立在“数据由用户控制”之上：信息安全存放在用户自己的本地机器，而不是默认交给外部服务。它通过一组 watchers 持续采集不同维度的活动，例如当前使用的应用及窗口标题、浏览器标签页的标题与 URL，以及键盘和鼠标活动；最后一类数据用于判断用户是否处于 AFK 状态。采集范围并非固定不变，用户可以只保留少量记录，也可以启用更多 watchers，社区还能编写新的采集器来扩展 lifedata 的种类。实际使用可从 releases page 下载程序，再依照 documentation 中的入门指南完成配置；需要自行构建时也有对应指南。研究者若在论文中使用这些数据或软件，可引用 Zenodo DOI 10.5281/zenodo.4957165。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 19,591 个星标 / 1,077 次复刻
+- 主要语言：Python；许可证：MPL-2.0
+- 主题标签：activitywatch、afk、analytics、app、cross-platform、dashboard、productivity、quantified-self、time-tracker、time-tracking
+- 仓库创建：2016-04-27T15:26:09Z
+- 最近推送：2026-11-09T16:13:02Z
+- 项目主页：[https://activitywatch.net/](https://activitywatch.net/)
+
+#### 最新发布与安装
+
+- 最新版本：[v0.14.2](https://github.com/ActivityWatch/activitywatch/releases/tag/v0.14.2)；发布时间：2026-11-10T08:19:26Z
+- macOS 安装包：[activitywatch-tauri-v0.14.2-macos-arm64.dmg](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.2/activitywatch-tauri-v0.14.2-macos-arm64.dmg)；[activitywatch-tauri-v0.14.2-macos-x86_64.dmg](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.2/activitywatch-tauri-v0.14.2-macos-x86_64.dmg)；[activitywatch-v0.14.2-macos-arm64.dmg](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.2/activitywatch-v0.14.2-macos-arm64.dmg)
+- Windows 安装包：[activitywatch-tauri-v0.14.2-windows-aarch64-setup.exe](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.2/activitywatch-tauri-v0.14.2-windows-aarch64-setup.exe)；[activitywatch-tauri-v0.14.2-windows-x86_64-setup.exe](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.2/activitywatch-tauri-v0.14.2-windows-x86_64-setup.exe)；[activitywatch-v0.14.2-windows-x86_64-setup.exe](https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.2/activitywatch-v0.14.2-windows-x86_64-setup.exe)
+
+<a id="project-detail-43"></a>
+
+### 43. [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix)
+
+[↖️ 返回表格中的 #43](#project-row-43)
+
+#### 中文分析
+
+Termix 把服务器管理拆成稳定内核与可装卸插件两层：内核负责 Hosts、Credentials、用户、共享关系和会话，SSH 终端、远程桌面、文件管理、Docker、监控指标等则由插件提供，管理员可在 Plugins 页安装、更新、关闭或移除。Hosts 能按嵌套文件夹、标签和父主机整理，支持批量编辑、导入导出，并可通过 Quick Connect 发起一次性连接；Credentials 可在多台主机间复用密码和密钥，还能按服务器、用户或文件夹设置默认值。共享权限分为 connect、view、edit、manage 四级，本地账户则配有可撤销会话、可信设备、API keys 与审计日志。界面支持标签页、分屏、双击左 Shift 唤起命令面板、快捷键重绑定及多语言。它既能在 Web、桌面和移动端运行，桌面应用也可独立工作，并与服务端同步账户的离线副本；数据默认存入 SQLite，也支持 PostgreSQL 和 MySQL。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 15,929 个星标 / 775 次复刻
+- 主要语言：TypeScript；许可证：Apache-2.0
+- 主题标签：docker、homelab、plugins、rdp、remote-desktop、self-hosted、server-management、sftp、ssh、terminal
+- 仓库创建：2024-11-25T02:46:36Z
+- 最近推送：2026-11-10T15:05:31Z
+- 项目主页：[https://termix.site/](https://termix.site/)
+
+#### 最新发布与安装
+
+- 最新版本：[v26.11.1](https://github.com/Termix-SSH/Termix/releases/tag/v26.11.1)；发布时间：2026-11-09T03:59:41Z
+- macOS 安装包：[termix_macos_arm64_dmg.dmg](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_macos_arm64_dmg.dmg)；[termix_macos_universal_dmg.dmg](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_macos_universal_dmg.dmg)；[termix_macos_universal_full_dmg.dmg](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_macos_universal_full_dmg.dmg)
+- Windows 安装包：[termix_windows_arm64_msi.msi](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_windows_arm64_msi.msi)；[termix_windows_arm64_nsis.exe](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_windows_arm64_nsis.exe)；[termix_windows_ia32_msi.msi](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_windows_ia32_msi.msi)
 
 <a id="project-detail-44"></a>
 
@@ -1198,7 +1198,7 @@ Harper 的出发点不是堆叠写作功能，而是解决传统英文语法检�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 17,435 个星标 / 1,433 次复刻
+- 热度：近期活跃热门仓库；累计 17,497 个星标 / 1,441 次复刻
 - 主要语言：Vue；许可证：MIT
 - 主题标签：alger、music、music-player
 - 仓库创建：2023-10-27T15:52:55Z
@@ -1212,28 +1212,28 @@ Harper 的出发点不是堆叠写作功能，而是解决传统英文语法检�
 
 <a id="project-detail-45"></a>
 
-### 45. [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix)
+### 45. [streetwriters/notesnook](https://github.com/streetwriters/notesnook)
 
 [↖️ 返回表格中的 #45](#project-row-45)
 
 #### 中文分析
 
-Termix 把服务器管理拆成稳定内核与可装卸插件两层：内核负责 Hosts、Credentials、用户、共享关系和会话，SSH 终端、远程桌面、文件管理、Docker、监控指标等则由插件提供，管理员可在 Plugins 页安装、更新、关闭或移除。Hosts 能按嵌套文件夹、标签和父主机整理，支持批量编辑、导入导出，并可通过 Quick Connect 发起一次性连接；Credentials 可在多台主机间复用密码和密钥，还能按服务器、用户或文件夹设置默认值。共享权限分为 connect、view、edit、manage 四级，本地账户则配有可撤销会话、可信设备、API keys 与审计日志。界面支持标签页、分屏、双击左 Shift 唤起命令面板、快捷键重绑定及多语言。它既能在 Web、桌面和移动端运行，桌面应用也可独立工作，并与服务端同步账户的离线副本；数据默认存入 SQLite，也支持 PostgreSQL 和 MySQL。
+Notesnook 试图证明隐私与便利并不必然冲突：笔记在设备端使用 XChaCha20-Poly1305 与 Argon2 加密，以 zero-knowledge 原则避免服务端掌握内容，同时提供 Web、桌面和移动客户端。仓库采用 monorepo 组织完整客户端代码，/apps/web 对应 Web client，/apps/desktop 是 Electron 桌面端，/apps/mobile 则以 React Native 服务 Android/iOS；各平台的界面统一建立在 React 之上。跨端共用逻辑集中在 @notesnook/core，加密能力由 @notesnook/crypto 封装 libsodium，网页剪藏则拆成 Web clipper 扩展与 @notesnook/clipper 内核。代码正从 JavaScript 逐步迁移到 Typescript，依赖管理明确使用 NPM，因此想研究或构建某个平台时，可以先进入对应应用目录，再查看其中单独维护的架构说明。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 15,908 个星标 / 774 次复刻
-- 主要语言：TypeScript；许可证：Apache-2.0
-- 主题标签：docker、homelab、plugins、rdp、remote-desktop、self-hosted、server-management、sftp、ssh、terminal
-- 仓库创建：2024-11-25T02:46:36Z
-- 最近推送：2026-11-10T00:52:49Z
-- 项目主页：[https://termix.site/](https://termix.site/)
+- 热度：近期活跃热门仓库；累计 14,915 个星标 / 1,052 次复刻
+- 主要语言：TypeScript；许可证：GPL-3.0
+- 主题标签：asp-net-core、dotnet-core、electron、foss、hacktoberfest、note-managment、note-taking、note-taking-app、notebook、notes
+- 仓库创建：2021-04-01T17:25:54Z
+- 最近推送：2026-11-10T16:45:39Z
+- 项目主页：[https://notesnook.com/](https://notesnook.com/)
 
 #### 最新发布与安装
 
-- 最新版本：[v26.11.1](https://github.com/Termix-SSH/Termix/releases/tag/v26.11.1)；发布时间：2026-11-09T03:59:41Z
-- macOS 安装包：[termix_macos_arm64_dmg.dmg](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_macos_arm64_dmg.dmg)；[termix_macos_universal_dmg.dmg](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_macos_universal_dmg.dmg)；[termix_macos_universal_full_dmg.dmg](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_macos_universal_full_dmg.dmg)
-- Windows 安装包：[termix_windows_arm64_msi.msi](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_windows_arm64_msi.msi)；[termix_windows_arm64_nsis.exe](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_windows_arm64_nsis.exe)；[termix_windows_ia32_msi.msi](https://github.com/Termix-SSH/Termix/releases/download/v26.11.1/termix_windows_ia32_msi.msi)
+- 最新版本：[v3.4.13](https://github.com/streetwriters/notesnook/releases/tag/v3.4.13)；发布时间：2026-11-10T08:42:20Z
+- macOS 安装包：[notesnook_mac_arm64.dmg](https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_mac_arm64.dmg)；[notesnook_mac_x64.dmg](https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_mac_x64.dmg)
+- Windows 安装包：[notesnook_win.exe](https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_win.exe)；[notesnook_win_arm64.exe](https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_win_arm64.exe)；[notesnook_win_arm64_portable.exe](https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_win_arm64_portable.exe)
 
 <a id="project-detail-46"></a>
 
@@ -1247,7 +1247,7 @@ Wave 把终端拆成可拖放组织的工作区块：命令行、编辑器、网
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 22,679 个星标 / 1,190 次复刻
+- 热度：近期活跃热门仓库；累计 22,687 个星标 / 1,192 次复刻
 - 主要语言：Go；许可证：Apache-2.0
 - 主题标签：command-line、developer-tools、linux、macos、productivity、terminal、terminal-emulators、windows
 - 仓库创建：2022-06-08T00:26:00Z
@@ -1262,9 +1262,59 @@ Wave 把终端拆成可拖放组织的工作区块：命令行、编辑器、网
 
 <a id="project-detail-47"></a>
 
-### 47. [electerm/electerm](https://github.com/electerm/electerm)
+### 47. [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)
 
 [↖️ 返回表格中的 #47](#project-row-47)
+
+#### 中文分析
+
+把多个 AI 编程会话压进一个桌面工作台，是 cc-haha 最鲜明的体验：用户可以从分支 / Worktree 启动任务，在多会话间全局搜索，通过 Diff 审阅改动，并在内置浏览器里预览结果、用图形界面处理权限审批。模型不局限于单一供应商，可在 Claude、ChatGPT、Grok、预设配置和本地端点之间选择；MCP、SubAgent、Agent Teams 与动态 Workflow 也都有可视化管理入口，便于组织协作和追踪模型请求。Computer Use 在 macOS 使用原生引擎，在 Windows / Linux 复用 agent-desktop，后台语义操作不会移动真实鼠标，但物理输入仍会占用前台。工作台可运行于 macOS / Windows / Linux，配套 Android / iPhone App 能扫码连接电脑，让用户离开工位后继续审批或派发任务，H5 远程访问、IM 接入、定时任务、技能市场和桌面宠物也被整合在同一套产品中。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 15,381 个星标 / 8,619 次复刻
+- 主要语言：TypeScript；许可证：NOASSERTION
+- 主题标签：agent、ai、ai-agent、anthropic、claude、claude-code、coding-agent、computer-use、desktop-app、electron
+- 仓库创建：2026-03-31T17:30:14Z
+- 最近推送：2026-11-10T07:02:33Z
+- 项目主页：[https://cchaha.ai](https://cchaha.ai)
+
+#### 最新发布与安装
+
+- 最新版本：[v0.7.8](https://github.com/NanmiCoder/cc-haha/releases/tag/v0.7.8)；发布时间：2026-11-10T07:18:24Z
+- macOS 安装包：[Claude-Code-Haha-0.7.8-macOS-Apple-Silicon.dmg](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.8/Claude-Code-Haha-0.7.8-macOS-Apple-Silicon.dmg)；[Claude-Code-Haha-0.7.8-macOS-Intel.dmg](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.8/Claude-Code-Haha-0.7.8-macOS-Intel.dmg)
+- Windows 安装包：[Claude-Code-Haha-0.7.8-Windows-arm64-Setup.exe](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.8/Claude-Code-Haha-0.7.8-Windows-arm64-Setup.exe)；[Claude-Code-Haha-0.7.8-Windows-x64-Setup.exe](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.8/Claude-Code-Haha-0.7.8-Windows-x64-Setup.exe)
+
+<a id="project-detail-48"></a>
+
+### 48. [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator)
+
+[↖️ 返回表格中的 #48](#project-row-48)
+
+#### 中文分析
+
+当多个编码智能体同时处理一个代码库时，Orchestrator.inc 用本地桌面工作区接管任务拆分、分支隔离以及从实现到合并的跟踪。用户先把目标交给项目的 main agent，由它规划工作并为每个子任务启动 worker；每个 worker 都拥有独立的 branch 和 worktree，从而减少并行修改相互碰撞，代码仍保留在本机。所有 session 会依据智能体状态、PR、CI 和评审结果自动排列到不同泳道，需要人工介入的事项被推到前面。若检查失败、出现 review comments 或 merge conflicts，问题会重新交还给负责该分支的 worker，直到 PR 获批；还可安排 reviewer agent 在人工审查前先读一遍变更。每项任务能够选择不同的智能体和模型，既可通过结构化聊天协作，也可进入智能体原生终端界面，并给 worker 配置浏览器来预览和测试应用。README 列出的兼容选择包括 Claude Code、Codex、Cursor、Aider 等，但 worker、聊天和评审支持程度会因智能体而异。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 14,406 个星标 / 1,960 次复刻
+- 主要语言：Go；许可证：Apache-2.0
+- 主题标签：agent-fleet、agent-ide、agent-orchestration、agent-swarm、agentic-coding、ai-agents、ai-coding、claude-code、codex、codex-cli
+- 仓库创建：2026-02-13T09:52:36Z
+- 最近推送：2026-11-10T21:52:26Z
+- 项目主页：[https://orchestrator.inc](https://orchestrator.inc)
+
+#### 最新发布与安装
+
+- 最新版本：[v0.14.10](https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.14.10)；发布时间：2026-11-06T11:55:49Z
+- macOS 安装包：[agent-orchestrator-darwin-arm64.dmg](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-darwin-arm64.dmg)；[agent-orchestrator-darwin-x64.dmg](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-darwin-x64.dmg)；[Orchestrator-darwin-arm64.dmg](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/Orchestrator-darwin-arm64.dmg)
+- Windows 安装包：[agent-orchestrator-win32-x64.exe](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-win32-x64.exe)；[Agent.Orchestrator.Setup.0.14.10.exe](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/Agent.Orchestrator.Setup.0.14.10.exe)
+
+<a id="project-detail-49"></a>
+
+### 49. [electerm/electerm](https://github.com/electerm/electerm)
+
+[↖️ 返回表格中的 #49](#project-row-49)
 
 #### 中文分析
 
@@ -1272,7 +1322,7 @@ Wave 把终端拆成可拖放组织的工作区块：命令行、编辑器、网
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 15,582 个星标 / 1,259 次复刻
+- 热度：近期活跃热门仓库；累计 15,599 个星标 / 1,259 次复刻
 - 主要语言：JavaScript；许可证：MIT
 - 主题标签：ai、android、electerm、electron、ftp、harmonyos、linux-app、macos-app、mcp、open-source
 - 仓库创建：2017-10-07T09:54:11Z
@@ -1285,86 +1335,11 @@ Wave 把终端拆成可拖放组织的工作区块：命令行、编辑器、网
 - macOS 安装包：[electerm-5.10.0-mac-arm64.dmg](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-mac-arm64.dmg)；[electerm-5.10.0-mac-x64.dmg](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-mac-x64.dmg)；[electerm-5.10.0-mac10-x64.dmg](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-mac10-x64.dmg)
 - Windows 安装包：[electerm-5.10.0-win-arm64-installer.exe](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-win-arm64-installer.exe)；[electerm-5.10.0-win-x64-installer.exe](https://github.com/electerm/electerm/releases/download/v5.10.0/electerm-5.10.0-win-x64-installer.exe)
 
-<a id="project-detail-48"></a>
-
-### 48. [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha)
-
-[↖️ 返回表格中的 #48](#project-row-48)
-
-#### 中文分析
-
-cc-haha 把 Claude Code 的多会话工作集中进 macOS / Windows / Linux APP：用户可以从分支 / Worktree 启动任务，通过全局搜索找到会话，在 Diff 审阅中检查修改，再用内置浏览器预览结果并以图形界面处理权限审批。模型不被限定在单一服务，可选择 Claude / ChatGPT / Grok / 预设 / 本地端点；MCP、SubAgent、Agent Teams 与动态 Workflow 都提供可视化管理，模型请求追踪则帮助观察调用过程。Computer Use 在 macOS 使用原有原生引擎，在 Windows / Linux 复用 agent-desktop，后台语义操作不会移动真实鼠标，但物理输入仍会占用前台。除了技能市场、图片生成、多主题和桌面宠物，配套 Android / iPhone App 还能扫码连接电脑，让用户离开工位后继续审批和派任务；H5、IM 接入与定时任务又扩展了远程使用方式。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 15,369 个星标 / 8,618 次复刻
-- 主要语言：TypeScript；许可证：NOASSERTION
-- 主题标签：agent、ai、ai-agent、anthropic、claude、claude-code、coding-agent、computer-use、desktop-app、electron
-- 仓库创建：2026-03-31T17:30:14Z
-- 最近推送：2026-11-09T16:18:23Z
-- 项目主页：[https://cchaha.ai](https://cchaha.ai)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.7.7](https://github.com/NanmiCoder/cc-haha/releases/tag/v0.7.7)；发布时间：2026-11-05T15:21:31Z
-- macOS 安装包：[Claude-Code-Haha-0.7.7-macOS-Apple-Silicon.dmg](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.7/Claude-Code-Haha-0.7.7-macOS-Apple-Silicon.dmg)；[Claude-Code-Haha-0.7.7-macOS-Intel.dmg](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.7/Claude-Code-Haha-0.7.7-macOS-Intel.dmg)
-- Windows 安装包：[Claude-Code-Haha-0.7.7-Windows-arm64-Setup.exe](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.7/Claude-Code-Haha-0.7.7-Windows-arm64-Setup.exe)；[Claude-Code-Haha-0.7.7-Windows-x64-Setup.exe](https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.7/Claude-Code-Haha-0.7.7-Windows-x64-Setup.exe)
-
-<a id="project-detail-49"></a>
-
-### 49. [streetwriters/notesnook](https://github.com/streetwriters/notesnook)
-
-[↖️ 返回表格中的 #49](#project-row-49)
-
-#### 中文分析
-
-Notesnook 将隐私保护放在笔记体验的起点：内容先在用户设备上使用 XChaCha20-Poly1305 与 Argon2 加密，以落实 零知识 原则，同时强调隐私不必以牺牲便利为代价。仓库收纳了构建和使用 Web、桌面及移动客户端所需的代码，并以 monorepo 组织跨平台实现：@notesnook/web 对应 Web client，@notesnook/desktop 负责 Desktop client，@notesnook/mobile 提供 Android/iOS clients，另有 web clipper 扩展。各端前端统一采用 React，移动应用使用 React Native，桌面应用使用 Electron；新代码主要写成 Typescript，旧 JavaScript 代码则在逐步迁移。共享逻辑集中于 @notesnook/core，加密层由 @notesnook/crypto 封装 libsodium，网页剪藏的实际处理交给 @notesnook/clipper。项目统一使用 NPM，而不是 Yarn 或 PNPM；每个 monorepo 子项目还保留各自的架构说明，便于按目标客户端继续深入。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 14,907 个星标 / 1,051 次复刻
-- 主要语言：TypeScript；许可证：GPL-3.0
-- 主题标签：asp-net-core、dotnet-core、electron、foss、hacktoberfest、note-managment、note-taking、note-taking-app、notebook、notes
-- 仓库创建：2021-04-01T17:25:54Z
-- 最近推送：2026-11-09T17:27:35Z
-- 项目主页：[https://notesnook.com/](https://notesnook.com/)
-
-#### 最新发布与安装
-
-- 最新版本：[v3.4.12](https://github.com/streetwriters/notesnook/releases/tag/v3.4.12)；发布时间：2026-11-02T11:37:46Z
-- macOS 安装包：[notesnook_mac_arm64.dmg](https://github.com/streetwriters/notesnook/releases/download/v3.4.12/notesnook_mac_arm64.dmg)；[notesnook_mac_x64.dmg](https://github.com/streetwriters/notesnook/releases/download/v3.4.12/notesnook_mac_x64.dmg)
-- Windows 安装包：[notesnook_win.exe](https://github.com/streetwriters/notesnook/releases/download/v3.4.12/notesnook_win.exe)；[notesnook_win_arm64.exe](https://github.com/streetwriters/notesnook/releases/download/v3.4.12/notesnook_win_arm64.exe)；[notesnook_win_arm64_portable.exe](https://github.com/streetwriters/notesnook/releases/download/v3.4.12/notesnook_win_arm64_portable.exe)
-
 <a id="project-detail-50"></a>
 
-### 50. [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator)
+### 50. [bitwarden/clients](https://github.com/bitwarden/clients)
 
 [↖️ 返回表格中的 #50](#project-row-50)
-
-#### 中文分析
-
-当多个编码智能体同时处理一个代码库时，Orchestrator.inc 用本地桌面工作区接管任务拆分、分支隔离以及从实现到合并的跟踪。用户先把目标交给项目的 main agent，由它规划工作并为每个子任务启动 worker；每个 worker 都拥有独立的 branch 和 worktree，从而减少并行修改相互碰撞，代码仍保留在本机。所有 session 会依据智能体状态、PR、CI 和评审结果自动排列到不同泳道，需要人工介入的事项被推到前面。若检查失败、出现 review comments 或 merge conflicts，问题会重新交还给负责该分支的 worker，直到 PR 获批；还可安排 reviewer agent 在人工审查前先读一遍变更。每项任务能够选择不同的智能体和模型，既可通过结构化聊天协作，也可进入智能体原生终端界面，并给 worker 配置浏览器来预览和测试应用。README 列出的兼容选择包括 Claude Code、Codex、Cursor、Aider 等，但 worker、聊天和评审支持程度会因智能体而异。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 14,365 个星标 / 1,953 次复刻
-- 主要语言：Go；许可证：Apache-2.0
-- 主题标签：agent-fleet、agent-ide、agent-orchestration、agent-swarm、agentic-coding、ai-agents、ai-coding、claude-code、codex、codex-cli
-- 仓库创建：2026-02-13T09:52:36Z
-- 最近推送：2026-11-09T23:59:12Z
-- 项目主页：[https://orchestrator.inc](https://orchestrator.inc)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.14.10](https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.14.10)；发布时间：2026-11-06T11:55:49Z
-- macOS 安装包：[agent-orchestrator-darwin-arm64.dmg](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-darwin-arm64.dmg)；[agent-orchestrator-darwin-x64.dmg](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-darwin-x64.dmg)；[Orchestrator-darwin-arm64.dmg](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/Orchestrator-darwin-arm64.dmg)
-- Windows 安装包：[agent-orchestrator-win32-x64.exe](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/agent-orchestrator-win32-x64.exe)；[Agent.Orchestrator.Setup.0.14.10.exe](https://github.com/OrchestratorInc/agent-orchestrator/releases/download/v0.14.10/Agent.Orchestrator.Setup.0.14.10.exe)
-
-<a id="project-detail-51"></a>
-
-### 51. [bitwarden/clients](https://github.com/bitwarden/clients)
-
-[↖️ 返回表格中的 #51](#project-row-51)
 
 #### 中文分析
 
@@ -1372,11 +1347,11 @@ Bitwarden Client Applications 仓库集中保存 Bitwarden 的客户端代码，
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 14,187 个星标 / 2,203 次复刻
+- 热度：近期活跃热门仓库；累计 14,203 个星标 / 2,203 次复刻
 - 主要语言：TypeScript；许可证：NOASSERTION
 - 主题标签：angular、bitwarden、browser-extension、chrome、cli、desktop、electron、firefox、javascript、nodejs
 - 仓库创建：2016-03-09T23:14:01Z
-- 最近推送：2026-11-10T00:19:46Z
+- 最近推送：2026-11-11T00:16:25Z
 - 项目主页：[https://bitwarden.com](https://bitwarden.com)
 
 #### 最新发布与安装
@@ -1385,11 +1360,86 @@ Bitwarden Client Applications 仓库集中保存 Bitwarden 的客户端代码，
 - macOS 安装包：[Bitwarden-2026.10.4-universal.dmg](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-2026.10.4-universal.dmg)；[commercial-Bitwarden-2026.10.4-universal.dmg](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/commercial-Bitwarden-2026.10.4-universal.dmg)
 - Windows 安装包：[Bitwarden-Installer-2026.10.4.exe](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-Installer-2026.10.4.exe)；[Bitwarden-Portable-2026.10.4.exe](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-Portable-2026.10.4.exe)；[commercial-Bitwarden-Installer-2026.10.4.exe](https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/commercial-Bitwarden-Installer-2026.10.4.exe)
 
+<a id="project-detail-51"></a>
+
+### 51. [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
+
+[↖️ 返回表格中的 #51](#project-row-51)
+
+#### 中文分析
+
+从 Markdown 草稿走到正式出版物，Zettlr 把写作、资料检索、引用和导出放进同一张工作台。文本与笔记强调 privacy first，并可通过 full text search 在各处找回内容；需要管理知识时，可以采用 Zettelkasten 方法，需要处理参考文献时，则能连接 Zotero、JabRef 等 reference manager。写作环境支持十多种语言、LaTeX 与 Word template，也能用 Snippets 自动插入重复内容，以主题、深色模式和 custom CSS 调整界面，并为多种编程语言提供代码高亮。完成稿件后，可借助 Pandoc、LaTeX 和 Textbundle 适配学校或雇主使用的出版流程。安装方式与普通桌面应用相同，官方提供 macOS、Windows 和多数 Linux 发行版的安装包，兼顾 x64 与 ARM 系统，但不支持 32 位。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 13,904 个星标 / 872 次复刻
+- 主要语言：TypeScript；许可证：GPL-3.0
+- 主题标签：desktop、docx、electron、html、languages、libreoffice、linux、macos、markdown、nodejs
+- 仓库创建：2017-12-26T18:34:19Z
+- 最近推送：2026-11-10T21:23:43Z
+- 项目主页：[https://www.zettlr.com](https://www.zettlr.com)
+
+#### 最新发布与安装
+
+- 最新版本：[v4.9.0](https://github.com/Zettlr/Zettlr/releases/tag/v4.9.0)；发布时间：2026-10-25T07:25:19Z
+- macOS 安装包：[Zettlr-4.9.0-arm64.dmg](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-arm64.dmg)；[Zettlr-4.9.0-x64.dmg](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-x64.dmg)
+- Windows 安装包：[Zettlr-4.9.0-x64.exe](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-x64.exe)
+
 <a id="project-detail-52"></a>
 
-### 52. [VSCodium/vscodium](https://github.com/VSCodium/vscodium)
+### 52. [codexu/note-gen](https://github.com/codexu/note-gen)
 
 [↖️ 返回表格中的 #52](#project-row-52)
+
+#### 中文分析
+
+NoteGen 将“先捕获、后整理”做成一条明确的写作流程，避免灵感出现时先被标题、文件夹和结构打断。一个句子、voice recording、screenshot、图片、链接、文件或 todo 都能先按原貌保存；等素材积累后，再按照 tag、time 或 type 过滤记录，挑出彼此相关的内容。随后可以选择 template，或直接描述准备写什么，让 AI 把选中素材组织成 summary、report、article 等 Markdown 结构。生成结果不是终点，用户仍可检查内容、补入自己的思考并继续写作。这样的设计并非让 AI 包办全文，而是防止零散信息在形成完整内容前消失；桌面端与移动端共同承担随时捕获的入口，本地优先的 Markdown 形式则让整理后的笔记保持清晰、可继续编辑。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 13,002 个星标 / 986 次复刻
+- 主要语言：TypeScript；许可证：GPL-3.0
+- 主题标签：agent、ai-notes、knowledge-base、knowledge-management、llm、local-first、markdown、markdown-editor、mcp、nextjs
+- 仓库创建：2024-08-06T05:20:16Z
+- 最近推送：2026-11-11T00:45:00Z
+- 项目主页：[https://notegen.top](https://notegen.top)
+
+#### 最新发布与安装
+
+- 最新版本：[note-gen-v0.39.2](https://github.com/codexu/note-gen/releases/tag/note-gen-v0.39.2)；发布时间：2026-11-01T09:20:45Z
+- macOS 安装包：[NoteGen_0.39.2_aarch64.dmg](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_aarch64.dmg)；[NoteGen_0.39.2_x64.dmg](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64.dmg)
+- Windows 安装包：[NoteGen_0.39.2_x64-setup.exe](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64-setup.exe)；[NoteGen_0.39.2_x64_en-US.msi](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64_en-US.msi)
+
+<a id="project-detail-53"></a>
+
+### 53. [elie222/inbox-zero](https://github.com/elie222/inbox-zero)
+
+[↖️ 返回表格中的 #53](#project-row-53)
+
+#### 中文分析
+
+Inbox Zero 将邮件自动处理与日常收信界面拆成两个可独立使用的部分：AI email assistant 在 Gmail 或 Outlook 后台整理收件箱，并按照用户的语气和风格预先起草回复；email client 则提供 split inbox、多账户聚合和团队评论。用户可以用自然语言编写 AI Rules，说明不同邮件应如何处置，也能通过 Reply Zero 跟踪待回复邮件和仍在等待对方回应的会话。清理工具包含 Bulk Unsubscriber、Bulk Archiver 与 Cold Email Blocker，分别负责批量退订并归档、不再逐封处理旧邮件以及自动拦截冷邮件；Email Analytics 用于观察活动趋势，Meeting Briefs 会在会前结合邮件和日历生成个性化简报，Smart Filing 则把附件自动保存到 Google Drive 或 OneDrive。外出时还可从 Slack 或 Telegram 与助理对话。Web 和 Electron 桌面端开放源码，自托管用户也可让 iOS 客户端连接自己的 server URL。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 12,976 个星标 / 1,661 次复刻
+- 主要语言：TypeScript；许可证：NOASSERTION
+- 主题标签：ai、email、gmail、loops、nextjs、openai、postgresql、posthog、prisma、productivity
+- 仓库创建：2023-07-12T15:34:57Z
+- 最近推送：2026-11-10T22:22:14Z
+- 项目主页：[https://getinboxzero.com](https://getinboxzero.com)
+
+#### 最新发布与安装
+
+- 最新版本：[desktop-v0.1.24](https://github.com/elie222/inbox-zero/releases/tag/desktop-v0.1.24)；发布时间：2026-11-08T21:22:54Z
+- macOS 安装包：[Inbox-Zero-0.1.24-mac-arm64.dmg](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-mac-arm64.dmg)；[Inbox-Zero-0.1.24-mac-x64.dmg](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-mac-x64.dmg)
+- Windows 安装包：[Inbox-Zero-0.1.24-win-arm64.exe](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-win-arm64.exe)；[Inbox-Zero-0.1.24-win-x64.exe](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-win-x64.exe)；[Inbox-Zero-0.1.24-win.exe](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-win.exe)
+
+<a id="project-detail-54"></a>
+
+### 54. [VSCodium/vscodium](https://github.com/VSCodium/vscodium)
+
+[↖️ 返回表格中的 #54](#project-row-54)
 
 #### 中文分析
 
@@ -1397,7 +1447,7 @@ VSCodium 并不是 VS Code 的分叉版本，而是一套自动构建脚本：�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 34,032 个星标 / 1,923 次复刻
+- 热度：近期活跃热门仓库；累计 34,045 个星标 / 1,924 次复刻
 - 主要语言：Shell；许可证：MIT
 - 主题标签：editor、floss、ide、open-source-licensing、vscode
 - 仓库创建：2018-08-13T14:26:58Z
@@ -1410,11 +1460,36 @@ VSCodium 并不是 VS Code 的分叉版本，而是一套自动构建脚本：�
 - macOS 安装包：[VSCodium.arm64.1.143.17232.dmg](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium.arm64.1.143.17232.dmg)；[VSCodium.x64.1.143.17232.dmg](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium.x64.1.143.17232.dmg)
 - Windows 安装包：[VSCodium-x64-1.143.17232.msi](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-x64-1.143.17232.msi)；[VSCodium-x64-updates-disabled-1.143.17232.msi](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-x64-updates-disabled-1.143.17232.msi)；[VSCodiumSetup-arm64-1.143.17232.exe](https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodiumSetup-arm64-1.143.17232.exe)
 
-<a id="project-detail-53"></a>
+<a id="project-detail-55"></a>
 
-### 53. [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager)
+### 55. [chthollyphile/folia-major](https://github.com/chthollyphile/folia-major)
 
-[↖️ 返回表格中的 #53](#project-row-53)
+[↖️ 返回表格中的 #55](#project-row-55)
+
+#### 中文分析
+
+把歌词变成近似文字 PV 的全屏舞台，是 Folia 最鲜明的体验。它能搜索和播放网易云、酷狗、QQ 音乐与 Navidrome 的内容，也可管理本地音乐库；桌面端还可接入波点音乐、YouTube Music、Spotify 和汽水音乐。导入本地歌曲后，音频内容不会上传，程序会尝试完成智能歌词匹配并补充封面，也能读取同目录同名的 .lrc、.vtt、.ttml、.qrc、.yrc、.krc 文件。浮名、流光、心象、云阶等歌词动画拥有不同排版与可调参数，并随窗口尺寸自动适配；AI 主题生成则依据歌曲情绪和歌词内容配置背景与视觉参数。外部播放器也可借助 Now Playing 把歌曲、时间轴和歌词送入舞台视图。Folia 提供 Electron 桌面版与 Node.js Web 版，可通过 Vercel、Cloudflare 或 Docker Compose 部署；桌面版另有实验性的 Folium 模组系统，可扩展歌词动画、背景、播放页图层和命令。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 12,288 个星标 / 1,356 次复刻
+- 主要语言：TypeScript；许可证：AGPL-3.0
+- 主题标签：ai、music、music-player、navidrome-client、player、pwa、react、typescript、vercel-deployment
+- 仓库创建：2025-11-28T11:58:07Z
+- 最近推送：2026-11-11T00:42:09Z
+- 项目主页：[https://folia-site.cielaniska.top/](https://folia-site.cielaniska.top/)
+
+#### 最新发布与安装
+
+- 最新版本：[v0.7.27](https://github.com/chthollyphile/folia-major/releases/tag/v0.7.27)；发布时间：2026-11-07T10:20:00Z
+- macOS 安装包：[Folia-0.7.27-arm64.dmg](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-0.7.27-arm64.dmg)；[Folia-0.7.27-x64.dmg](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-0.7.27-x64.dmg)
+- Windows 安装包：[Folia-Setup-0.7.27.exe](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-Setup-0.7.27.exe)
+
+<a id="project-detail-56"></a>
+
+### 56. [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager)
+
+[↖️ 返回表格中的 #56](#project-row-56)
 
 #### 中文分析
 
@@ -1422,7 +1497,7 @@ AB Download Manager 把下载任务集中到桌面端管理，通过 Faster Down
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 19,141 个星标 / 1,017 次复刻
+- 热度：近期活跃热门仓库；累计 19,181 个星标 / 1,017 次复刻
 - 主要语言：Kotlin；许可证：Apache-2.0
 - 主题标签：chrome、compose、compose-desktop、compose-multiplatform、desktop、desktop-app、download、download-manager、downloader、downloadmanager
 - 仓库创建：2024-07-07T03:56:25Z
@@ -1435,11 +1510,11 @@ AB Download Manager 把下载任务集中到桌面端管理，通过 Faster Down
 - macOS 安装包：[ABDownloadManager_1.11.4_mac_arm64.dmg](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_mac_arm64.dmg)；[ABDownloadManager_1.11.4_mac_x64.dmg](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_mac_x64.dmg)
 - Windows 安装包：[ABDownloadManager_1.11.4_windows_arm64.exe](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_windows_arm64.exe)；[ABDownloadManager_1.11.4_windows_x64.exe](https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_windows_x64.exe)
 
-<a id="project-detail-54"></a>
+<a id="project-detail-57"></a>
 
-### 54. [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext)
+### 57. [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext)
 
-[↖️ 返回表格中的 #54](#project-row-54)
+[↖️ 返回表格中的 #57](#project-row-57)
 
 #### 中文分析
 
@@ -1447,7 +1522,7 @@ AB Download Manager 把下载任务集中到桌面端管理，通过 Faster Down
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 14,773 个星标 / 946 次复刻
+- 热度：近期活跃热门仓库；累计 14,780 个星标 / 947 次复刻
 - 主要语言：C++；许可证：GPL-3.0
 - 主题标签：desktop、editor、linux、macos、notepad、notepad-plus-plus、qt、qt6
 - 仓库创建：2019-11-27T16:06:10Z
@@ -1459,36 +1534,36 @@ AB Download Manager 把下载任务集中到桌面端管理，通过 Faster Down
 - macOS 安装包：[NotepadNext-v0.15-arm64.dmg](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-arm64.dmg)；[NotepadNext-v0.15-x64.dmg](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-x64.dmg)
 - Windows 安装包：[NotepadNext-v0.15-Installer-arm64.exe](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-Installer-arm64.exe)；[NotepadNext-v0.15-Installer.exe](https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-Installer.exe)
 
-<a id="project-detail-55"></a>
+<a id="project-detail-58"></a>
 
-### 55. [elie222/inbox-zero](https://github.com/elie222/inbox-zero)
+### 58. [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)
 
-[↖️ 返回表格中的 #55](#project-row-55)
+[↖️ 返回表格中的 #58](#project-row-58)
 
 #### 中文分析
 
-Inbox Zero 将邮件自动处理与日常收信界面拆成两个可独立使用的部分：AI email assistant 在 Gmail 或 Outlook 后台整理收件箱，并按照用户的语气和风格预先起草回复；email client 则提供 split inbox、多账户聚合和团队评论。用户可以用自然语言编写 AI Rules，说明不同邮件应如何处置，也能通过 Reply Zero 跟踪待回复邮件和仍在等待对方回应的会话。清理工具包含 Bulk Unsubscriber、Bulk Archiver 与 Cold Email Blocker，分别负责批量退订并归档、不再逐封处理旧邮件以及自动拦截冷邮件；Email Analytics 用于观察活动趋势，Meeting Briefs 会在会前结合邮件和日历生成个性化简报，Smart Filing 则把附件自动保存到 Google Drive 或 OneDrive。外出时还可从 Slack 或 Telegram 与助理对话。Web 和 Electron 桌面端开放源码，自托管用户也可让 iOS 客户端连接自己的 server URL。
+文档旁边的 AI 并非只负责聊天：GenOffice 让智能体直接读取文件、执行修改，并清楚展示动过的内容。它在 macOS、Windows 和 Linux 上打开及保存原生 .docx、.xlsx、.pptx，也能编辑 PDF、Markdown 和 HTML；AI 的更改以 tracked changes 和 diffs 呈现，可一键回滚，生成的电子表格保留 live formulas，生成的页面与幻灯片也仍可在画布上编辑。其文件处理强调 byte-preserving，只重写真正编辑过的部分，未触碰内容按字节保留，以维持与 Word、Excel 和 PowerPoint 的兼容性。ODF、旧版 Word 与 Hancom 文档可以导入为可编辑的 OOXML 副本，但保存时不会写回原格式。文件打开、编辑、保存、转换以及 PDF → Word / Excel / PowerPoint 都在本机完成，只有 AI 请求会发往用户选择的供应商。若不希望模型读取敏感内容，还可隐藏 Docs 选区或 Sheets 单元格范围，让应用内 AI 只看到命名占位符；不过 CLI、MCP 和 headless export 仍会直接读取原文件。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 12,961 个星标 / 1,660 次复刻
-- 主要语言：TypeScript；许可证：NOASSERTION
-- 主题标签：ai、email、gmail、loops、nextjs、openai、postgresql、posthog、prisma、productivity
-- 仓库创建：2023-07-12T15:34:57Z
-- 最近推送：2026-11-09T18:14:15Z
-- 项目主页：[https://getinboxzero.com](https://getinboxzero.com)
+- 热度：近期活跃热门仓库；累计 12,114 个星标 / 1,681 次复刻
+- 主要语言：TypeScript；许可证：Apache-2.0
+- 主题标签：ai、ai-agent、claude-code、cli、codex、cursor、docx、excel、libreoffice-alternative、local-first
+- 仓库创建：2026-07-31T09:40:58Z
+- 最近推送：2026-11-10T12:46:29Z
+- 项目主页：[https://genoffice.ai/](https://genoffice.ai/)
 
 #### 最新发布与安装
 
-- 最新版本：[desktop-v0.1.24](https://github.com/elie222/inbox-zero/releases/tag/desktop-v0.1.24)；发布时间：2026-11-08T21:22:54Z
-- macOS 安装包：[Inbox-Zero-0.1.24-mac-arm64.dmg](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-mac-arm64.dmg)；[Inbox-Zero-0.1.24-mac-x64.dmg](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-mac-x64.dmg)
-- Windows 安装包：[Inbox-Zero-0.1.24-win-arm64.exe](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-win-arm64.exe)；[Inbox-Zero-0.1.24-win-x64.exe](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-win-x64.exe)；[Inbox-Zero-0.1.24-win.exe](https://github.com/elie222/inbox-zero/releases/download/desktop-v0.1.24/Inbox-Zero-0.1.24-win.exe)
+- 最新版本：[v0.12.852](https://github.com/genspark-ai/genoffice/releases/tag/v0.12.852)；发布时间：2026-11-04T15:37:55Z
+- macOS 安装包：[GenOffice-0.12.852-arm64.dmg](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOffice-0.12.852-arm64.dmg)；[GenOffice-0.12.852.dmg](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOffice-0.12.852.dmg)
+- Windows 安装包：[GenOfficeSetup-v0.12.852-arm64.exe](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOfficeSetup-v0.12.852-arm64.exe)；[GenOfficeSetup-v0.12.852-x64.exe](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOfficeSetup-v0.12.852-x64.exe)
 
-<a id="project-detail-56"></a>
+<a id="project-detail-59"></a>
 
-### 56. [hluk/CopyQ](https://github.com/hluk/CopyQ)
+### 59. [hluk/CopyQ](https://github.com/hluk/CopyQ)
 
-[↖️ 返回表格中的 #56](#project-row-56)
+[↖️ 返回表格中的 #59](#project-row-59)
 
 #### 中文分析
 
@@ -1496,7 +1571,7 @@ Inbox Zero 将邮件自动处理与日常收信界面拆成两个可独立使用
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 12,621 个星标 / 630 次复刻
+- 热度：近期活跃热门仓库；累计 12,627 个星标 / 630 次复刻
 - 主要语言：C++；许可证：GPL-3.0
 - 主题标签：clipboard、clipboard-manager、copyq、cross-platform、scripting、tray
 - 仓库创建：2009-10-21T13:35:38Z
@@ -1508,11 +1583,11 @@ Inbox Zero 将邮件自动处理与日常收信界面拆成两个可独立使用
 - macOS 安装包：[CopyQ-17.0.0-macos-13-m1.dmg](https://github.com/hluk/CopyQ/releases/download/v17.0.0/CopyQ-17.0.0-macos-13-m1.dmg)；[CopyQ-17.0.0-macos-13.dmg](https://github.com/hluk/CopyQ/releases/download/v17.0.0/CopyQ-17.0.0-macos-13.dmg)
 - Windows 安装包：[copyq-17.0.0-setup.exe](https://github.com/hluk/CopyQ/releases/download/v17.0.0/copyq-17.0.0-setup.exe)
 
-<a id="project-detail-57"></a>
+<a id="project-detail-60"></a>
 
-### 57. [espanso/espanso](https://github.com/espanso/espanso)
+### 60. [espanso/espanso](https://github.com/espanso/espanso)
 
-[↖️ 返回表格中的 #57](#project-row-57)
+[↖️ 返回表格中的 #60](#project-row-60)
 
 #### 中文分析
 
@@ -1520,7 +1595,7 @@ Inbox Zero 将邮件自动处理与日常收信界面拆成两个可独立使用
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 14,756 个星标 / 489 次复刻
+- 热度：近期活跃热门仓库；累计 14,765 个星标 / 488 次复刻
 - 主要语言：Rust；许可证：GPL-3.0
 - 主题标签：espanso、linux、macos、productivity、productivity-tools、rust、text-expander、windows
 - 仓库创建：2019-08-30T07:16:58Z
@@ -1533,61 +1608,111 @@ Inbox Zero 将邮件自动处理与日常收信界面拆成两个可独立使用
 - macOS 安装包：[Espanso-Mac-Universal.dmg](https://github.com/espanso/espanso/releases/download/v2.4.1/Espanso-Mac-Universal.dmg)
 - Windows 安装包：[Espanso-Win-Installer-x86_64.exe](https://github.com/espanso/espanso/releases/download/v2.4.1/Espanso-Win-Installer-x86_64.exe)
 
-<a id="project-detail-58"></a>
+<a id="project-detail-61"></a>
 
-### 58. [chthollyphile/folia-major](https://github.com/chthollyphile/folia-major)
+### 61. [OpenWhispr/openwhispr](https://github.com/OpenWhispr/openwhispr)
 
-[↖️ 返回表格中的 #58](#project-row-58)
+[↖️ 返回表格中的 #61](#project-row-61)
 
 #### 中文分析
 
-把歌词变成近似文字 PV 的全屏舞台，是 Folia 最鲜明的体验。它能搜索和播放网易云、酷狗、QQ 音乐与 Navidrome 的内容，也可管理本地音乐库；桌面端还可接入波点音乐、YouTube Music、Spotify 和汽水音乐。导入本地歌曲后，音频内容不会上传，程序会尝试完成智能歌词匹配并补充封面，也能读取同目录同名的 .lrc、.vtt、.ttml、.qrc、.yrc、.krc 文件。浮名、流光、心象、云阶等歌词动画拥有不同排版与可调参数，并随窗口尺寸自动适配；AI 主题生成则依据歌曲情绪和歌词内容配置背景与视觉参数。外部播放器也可借助 Now Playing 把歌曲、时间轴和歌词送入舞台视图。Folia 提供 Electron 桌面版与 Node.js Web 版，可通过 Vercel、Cloudflare 或 Docker Compose 部署；桌面版另有实验性的 Folium 模组系统，可扩展歌词动画、背景、播放页图层和命令。
+按下 global hotkey、开口说话，OpenWhispr 会把识别结果直接放到当前光标处，由此把语音输入扩展成 text、notes 和 actions。转写既可完全离线，调用 Orukeet、Whisper、NVIDIA Parakeet 或 Cohere Transcribe，让音频不离开设备，也可选择 cloud processing 获取更快速度；README 同时声明 no data collection 和 no telemetry。除 Voice dictation 外，Dictation translation 能用专用快捷键听取一种语言并粘贴另一种语言的文本。AI agent 可连接 GPT-5、Claude、Gemini、Groq、Tinfoil、OpenRouter 或本地模型，并通过 Voice Assistant hotkey 直接接收语音命令，无需唤醒词和清理步骤；选中的文字可原地编辑，回答则能粘贴到可写光标处，或流入浮动面板后复制到剪贴板。应用还提供 Meeting transcription 和笔记能力，运行于 macOS、Windows、Linux；Intel Mac 仍可正常录制和转写会议，但因 ONNX Runtime 不再提供相应二进制包，无法使用实时说话人识别与声纹功能，笔记搜索也会退回关键词匹配。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 12,193 个星标 / 1,350 次复刻
+- 热度：近期活跃热门仓库；累计 11,215 个星标 / 1,464 次复刻
+- 主要语言：JavaScript；许可证：MIT
+- 主题标签：ai、anthropic、cross-platform、gemini、groq、linux、macos、nvidia、open-source、openai
+- 仓库创建：2025-06-19T00:58:14Z
+- 最近推送：2026-11-10T22:19:24Z
+- 项目主页：[https://openwhispr.com](https://openwhispr.com)
+
+#### 最新发布与安装
+
+- 最新版本：[v1.11.0](https://github.com/OpenWhispr/openwhispr/releases/tag/v1.11.0)；发布时间：2026-10-29T11:43:27Z
+- macOS 安装包：[OpenWhispr-1.11.0-arm64.dmg](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-1.11.0-arm64.dmg)；[OpenWhispr-1.11.0.dmg](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-1.11.0.dmg)
+- Windows 安装包：[OpenWhispr-Setup-1.11.0.exe](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-Setup-1.11.0.exe)
+
+<a id="project-detail-62"></a>
+
+### 62. [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW)
+
+[↖️ 返回表格中的 #62](#project-row-62)
+
+#### 中文分析
+
+干净、快速的摄影后期流程贯穿 RapidRAW：它以轻量体积提供非破坏性的 RAW 编辑，并覆盖 Windows、macOS、Linux 和 Android。界面强调简单直观，调整、蒙版与色彩塑造等操作都有逐步教程，目标是让摄影者更快实现自己的调色意图。性能设计建立在 Rust、wgpu、React、Tauri 与 WGSL 等技术之上，近期还把 relight、fog、lens blur 以及全部 transforms 移至 GPU，并加入前后图片预加载和交互式 3D depth views。图像效果也在持续细化：glow、halation 和 lens flare 被重建为更真实的眩光与光圈鬼影，film grain 重新实现，lens correction 则按 Lensfun 的每图镜头配置处理；Match Brush mask 可以自适应匹配颜色、明暗和纹理。非 RAW 图片的嵌入式 ICC profile 会转换至 sRGB，预览按显示器实际尺寸渲染，导出时还可选择把原图与编辑结果一并输出。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 11,051 个星标 / 661 次复刻
 - 主要语言：TypeScript；许可证：AGPL-3.0
-- 主题标签：ai、music、music-player、navidrome-client、player、pwa、react、typescript、vercel-deployment
-- 仓库创建：2025-11-28T11:58:07Z
-- 最近推送：2026-11-09T23:29:24Z
-- 项目主页：[https://folia-site.cielaniska.top/](https://folia-site.cielaniska.top/)
+- 主题标签：color-grading、editing、image-processing、masks、raw、react、rust、tauri
+- 仓库创建：2025-06-13T20:16:40Z
+- 最近推送：2026-11-10T22:15:44Z
+- 项目主页：[https://getrapidraw.com](https://getrapidraw.com)
 
 #### 最新发布与安装
 
-- 最新版本：[v0.7.27](https://github.com/chthollyphile/folia-major/releases/tag/v0.7.27)；发布时间：2026-11-07T10:20:00Z
-- macOS 安装包：[Folia-0.7.27-arm64.dmg](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-0.7.27-arm64.dmg)；[Folia-0.7.27-x64.dmg](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-0.7.27-x64.dmg)
-- Windows 安装包：[Folia-Setup-0.7.27.exe](https://github.com/chthollyphile/folia-major/releases/download/v0.7.27/Folia-Setup-0.7.27.exe)
+- 最新版本：[v1.6.9](https://github.com/CyberTimon/RapidRAW/releases/tag/v1.6.9)；发布时间：2026-11-07T22:40:54Z
+- macOS 安装包：[02_RapidRAW_v1.6.9_macos-15-intel_x64.dmg](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/02_RapidRAW_v1.6.9_macos-15-intel_x64.dmg)；[02_RapidRAW_v1.6.9_macos-15_aarch64.dmg](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/02_RapidRAW_v1.6.9_macos-15_aarch64.dmg)；[02_tethering_RapidRAW_v1.6.9_macos-15-intel_x64.dmg](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/02_tethering_RapidRAW_v1.6.9_macos-15-intel_x64.dmg)
+- Windows 安装包：[01_RapidRAW_v1.6.9_windows-11-arm_arm64.exe](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows-11-arm_arm64.exe)；[01_RapidRAW_v1.6.9_windows-11-arm_arm64.msi](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows-11-arm_arm64.msi)；[01_RapidRAW_v1.6.9_windows_x64.exe](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows_x64.exe)
 
-<a id="project-detail-59"></a>
+<a id="project-detail-63"></a>
 
-### 59. [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
+### 63. [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3)
 
-[↖️ 返回表格中的 #59](#project-row-59)
+[↖️ 返回表格中的 #63](#project-row-63)
 
 #### 中文分析
 
-从 Markdown 草稿走到正式出版物，Zettlr 把写作、资料检索、引用和导出放进同一张工作台。文本与笔记强调 privacy first，并可通过 full text search 在各处找回内容；需要管理知识时，可以采用 Zettelkasten 方法，需要处理参考文献时，则能连接 Zotero、JabRef 等 reference manager。写作环境支持十多种语言、LaTeX 与 Word template，也能用 Snippets 自动插入重复内容，以主题、深色模式和 custom CSS 调整界面，并为多种编程语言提供代码高亮。完成稿件后，可借助 Pandoc、LaTeX 和 Textbundle 适配学校或雇主使用的出版流程。安装方式与普通桌面应用相同，官方提供 macOS、Windows 和多数 Linux 发行版的安装包，兼顾 x64 与 ARM 系统，但不支持 32 位。
+Ghost Downloader 3 试图用一个应用接管分散在多种工具里的下载任务，协议范围覆盖 HTTP、Magnet/BT、FTP、M3U8、MPEG-DASH 和 eD2k，也能处理 YouTube、Bilibili 的清晰度、字幕、片段、播放列表及分集内容，并为 GitHub、HuggingFace 提供镜像加速。它尤其强调弱网表现：通过 smart chunking 避免下载后再合并文件，自动探测带宽，并使用真实浏览器 TLS fingerprints 应对反爬检查。配套浏览器扩展会列出页面中的媒体，视频旁也可出现下载按钮；用户照常触发下载后，桌面端能够无缝接管，认证状态随之保留，省去复制链接。下载进行中仍可修改 URL、headers 或 proxy，进度不会因此丢失，还暴露 aria2-compatible RPC API 供第三方工具调用。产品覆盖四个平台，其中 Android 可录制直播 M3U8 流并在后台持续下载；持续扩展的 Feature Packs plugin ecosystem 则用于补充新能力。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 13,899 个星标 / 873 次复刻
-- 主要语言：TypeScript；许可证：GPL-3.0
-- 主题标签：desktop、docx、electron、html、languages、libreoffice、linux、macos、markdown、nodejs
-- 仓库创建：2017-12-26T18:34:19Z
-- 最近推送：2026-11-08T10:55:21Z
-- 项目主页：[https://www.zettlr.com](https://www.zettlr.com)
+- 热度：近期活跃热门仓库；累计 11,046 个星标 / 710 次复刻
+- 主要语言：Python；许可证：GPL-3.0
+- 主题标签：async、asyncio、bittorent、bt、cross-platform、download-manager、downloader、fluent-design、ftp、http3
+- 仓库创建：2023-08-16T04:23:44Z
+- 最近推送：2026-11-10T15:27:55Z
+- 项目主页：[https://gd.xychr.com/](https://gd.xychr.com/)
 
 #### 最新发布与安装
 
-- 最新版本：[v4.9.0](https://github.com/Zettlr/Zettlr/releases/tag/v4.9.0)；发布时间：2026-10-25T07:25:19Z
-- macOS 安装包：[Zettlr-4.9.0-arm64.dmg](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-arm64.dmg)；[Zettlr-4.9.0-x64.dmg](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-x64.dmg)
-- Windows 安装包：[Zettlr-4.9.0-x64.exe](https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-x64.exe)
+- 最新版本：[v4.5.1](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/tag/v4.5.1)；发布时间：2026-11-09T10:42:34Z
+- macOS 安装包：[Ghost-Downloader-v4.5.1-macOS-arm64.dmg](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-macOS-arm64.dmg)；[Ghost-Downloader-v4.5.1-macOS-x86_64.dmg](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-macOS-x86_64.dmg)
+- Windows 安装包：[Ghost-Downloader-v4.5.1-Windows-arm64-Setup.exe](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-Windows-arm64-Setup.exe)；[Ghost-Downloader-v4.5.1-Windows-x86_64-Setup.exe](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-Windows-x86_64-Setup.exe)
 
-<a id="project-detail-60"></a>
+<a id="project-detail-64"></a>
 
-### 60. [getagentseal/codeburn](https://github.com/getagentseal/codeburn)
+### 64. [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae)
 
-[↖️ 返回表格中的 #60](#project-row-60)
+[↖️ 返回表格中的 #64](#project-row-64)
+
+#### 中文分析
+
+按下快捷键唤出 Vicinae，桌面上的常用动作便集中到一个高性能原生命令面板中：搜索和启动应用、查找文件、切换浏览器标签页或窗口与工作区，也能查看 clipboard history、选择 emoji、计算表达式、浏览字体、控制音量，并把常用文字保存为 snippets。它还提供 Dictation 和 AI chat，把语音输入与对话入口并入同一套操作体验。现成功能不够时，可以编写 React/Typescript extensions，并直接利用 Raycast ecosystem 的兼容性；扩展可从 Vicinae store 或 Raycast store 集成。偏爱轻量自动化的用户还能使用 Script commands，或按 Linux 常见习惯创建 dmenu style menu。macOS 上的计算器后端可选 SoulverCore，体现了它在原生速度之外对桌面工具生态兼容性的重视。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 10,576 个星标 / 342 次复刻
+- 主要语言：C++；许可证：GPL-3.0
+- 主题标签：app-launcher、cpp23、linux、macos、nodejs、poweruser、productivity、qt、raycast、react
+- 仓库创建：2025-07-28T03:49:03Z
+- 最近推送：2026-11-10T23:17:01Z
+- 项目主页：[https://vicinae.com](https://vicinae.com)
+
+#### 最新发布与安装
+
+- 最新版本：[v0.30.0](https://github.com/vicinaehq/vicinae/releases/tag/v0.30.0)；发布时间：2026-11-07T19:24:52Z
+- macOS 安装包：[Vicinae.dmg](https://github.com/vicinaehq/vicinae/releases/download/v0.30.0/Vicinae.dmg)
+- Windows 安装包：[vicinae-x64-setup.exe](https://github.com/vicinaehq/vicinae/releases/download/v0.30.0/vicinae-x64-setup.exe)
+
+<a id="project-detail-65"></a>
+
+### 65. [getagentseal/codeburn](https://github.com/getagentseal/codeburn)
+
+[↖️ 返回表格中的 #65](#project-row-65)
 
 #### 中文分析
 
@@ -1595,7 +1720,7 @@ Inbox Zero 将邮件自动处理与日常收信界面拆成两个可独立使用
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 11,745 个星标 / 907 次复刻
+- 热度：近期活跃热门仓库；累计 11,763 个星标 / 907 次复刻
 - 主要语言：TypeScript；许可证：MIT
 - 主题标签：ai-coding、claude-code、cli、codex、cost-tracking、cursor-ide、developer-tools、menubar、observability、terminal-ui
 - 仓库创建：2026-04-13T22:11:53Z
@@ -1608,111 +1733,111 @@ Inbox Zero 将邮件自动处理与日常收信界面拆成两个可独立使用
 - macOS 安装包：[CodeBurn-0.9.28-arm64.dmg](https://github.com/getagentseal/codeburn/releases/download/desktop-v0.9.28/CodeBurn-0.9.28-arm64.dmg)；[CodeBurn-0.9.28.dmg](https://github.com/getagentseal/codeburn/releases/download/desktop-v0.9.28/CodeBurn-0.9.28.dmg)
 - Windows 安装包：[CodeBurn-Setup-0.9.28.exe](https://github.com/getagentseal/codeburn/releases/download/desktop-v0.9.28/CodeBurn-Setup-0.9.28.exe)
 
-<a id="project-detail-61"></a>
+<a id="project-detail-66"></a>
 
-### 61. [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice)
+### 66. [tonyantony300/dashbeam](https://github.com/tonyantony300/dashbeam)
 
-[↖️ 返回表格中的 #61](#project-row-61)
-
-#### 中文分析
-
-文档旁边的 AI 并非只负责聊天：GenOffice 让智能体直接读取文件、执行修改，并清楚展示动过的内容。它在 macOS、Windows 和 Linux 上打开及保存原生 .docx、.xlsx、.pptx，也能编辑 PDF、Markdown 和 HTML；AI 的更改以 tracked changes 和 diffs 呈现，可一键回滚，生成的电子表格保留 live formulas，生成的页面与幻灯片也仍可在画布上编辑。其文件处理强调 byte-preserving，只重写真正编辑过的部分，未触碰内容按字节保留，以维持与 Word、Excel 和 PowerPoint 的兼容性。ODF、旧版 Word 与 Hancom 文档可以导入为可编辑的 OOXML 副本，但保存时不会写回原格式。文件打开、编辑、保存、转换以及 PDF → Word / Excel / PowerPoint 都在本机完成，只有 AI 请求会发往用户选择的供应商。若不希望模型读取敏感内容，还可隐藏 Docs 选区或 Sheets 单元格范围，让应用内 AI 只看到命名占位符；不过 CLI、MCP 和 headless export 仍会直接读取原文件。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 12,034 个星标 / 1,676 次复刻
-- 主要语言：TypeScript；许可证：Apache-2.0
-- 主题标签：ai、ai-agent、claude-code、cli、codex、cursor、docx、excel、libreoffice-alternative、local-first
-- 仓库创建：2026-07-31T09:40:58Z
-- 最近推送：2026-11-09T07:45:08Z
-- 项目主页：[https://genoffice.ai/](https://genoffice.ai/)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.12.852](https://github.com/genspark-ai/genoffice/releases/tag/v0.12.852)；发布时间：2026-11-04T15:37:55Z
-- macOS 安装包：[GenOffice-0.12.852-arm64.dmg](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOffice-0.12.852-arm64.dmg)；[GenOffice-0.12.852.dmg](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOffice-0.12.852.dmg)
-- Windows 安装包：[GenOfficeSetup-v0.12.852-arm64.exe](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOfficeSetup-v0.12.852-arm64.exe)；[GenOfficeSetup-v0.12.852-x64.exe](https://github.com/genspark-ai/genoffice/releases/download/v0.12.852/GenOfficeSetup-v0.12.852-x64.exe)
-
-<a id="project-detail-62"></a>
-
-### 62. [OpenWhispr/openwhispr](https://github.com/OpenWhispr/openwhispr)
-
-[↖️ 返回表格中的 #62](#project-row-62)
+[↖️ 返回表格中的 #66](#project-row-66)
 
 #### 中文分析
 
-按下 global hotkey、开口说话，OpenWhispr 会把识别结果直接放到当前光标处，由此把语音输入扩展成 text、notes 和 actions。转写既可完全离线，调用 Orukeet、Whisper、NVIDIA Parakeet 或 Cohere Transcribe，让音频不离开设备，也可选择 cloud processing 获取更快速度；README 同时声明 no data collection 和 no telemetry。除 Voice dictation 外，Dictation translation 能用专用快捷键听取一种语言并粘贴另一种语言的文本。AI agent 可连接 GPT-5、Claude、Gemini、Groq、Tinfoil、OpenRouter 或本地模型，并通过 Voice Assistant hotkey 直接接收语音命令，无需唤醒词和清理步骤；选中的文字可原地编辑，回答则能粘贴到可写光标处，或流入浮动面板后复制到剪贴板。应用还提供 Meeting transcription 和笔记能力，运行于 macOS、Windows、Linux；Intel Mac 仍可正常录制和转写会议，但因 ONNX Runtime 不再提供相应二进制包，无法使用实时说话人识别与声纹功能，笔记搜索也会退回关键词匹配。
+DashBeam 把文件直接从一台设备送到另一台设备，中途不存入云服务器，也不要求注册账户或暴露个人信息；传输采用 TLS 1.3 端到端加密，并以 authenticated tickets 确认接收方。桌面端、Android、CLI 和浏览器都能参与，接收者可通过 Code、Link or QR 打开，网页端无需安装。文件与文件夹不设大小限制，并用 BLAKE3 verified 校验内容；局域网内可由 Nearby LAN auto discovery 找到设备，远程设备则可用代码配对一次，之后直接发送。可信设备还能开启 auto accept，让收到的文件无需确认便落地。中断的任务支持 Resumable & multi peer，既能续传，也能同时分享给多人；连接依赖设备身份而非 IP，因此在 Wi‑Fi、蜂窝网络或其他网络之间切换时仍可继续。若远程链路需要更多控制，可在 Settings → Infra 配置 self host relays，配合后台托盘或服务、通知与开机启动，让设备持续可达。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 11,146 个星标 / 1,451 次复刻
-- 主要语言：JavaScript；许可证：MIT
-- 主题标签：ai、anthropic、cross-platform、gemini、groq、linux、macos、nvidia、open-source、openai
-- 仓库创建：2025-06-19T00:58:14Z
-- 最近推送：2026-11-09T19:53:56Z
-- 项目主页：[https://openwhispr.com](https://openwhispr.com)
+- 热度：近期活跃热门仓库；累计 10,284 个星标 / 625 次复刻
+- 主要语言：TypeScript；许可证：AGPL-3.0
+- 主题标签：android、file-transfer、iroh、linux、macos、p2p、privacy-tools、resumable、self-hosted、terminal
+- 仓库创建：2025-10-17T09:08:25Z
+- 最近推送：2026-11-10T23:20:47Z
+- 项目主页：[https://dashbeam.net](https://dashbeam.net)
 
 #### 最新发布与安装
 
-- 最新版本：[v1.11.0](https://github.com/OpenWhispr/openwhispr/releases/tag/v1.11.0)；发布时间：2026-10-29T11:43:27Z
-- macOS 安装包：[OpenWhispr-1.11.0-arm64.dmg](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-1.11.0-arm64.dmg)；[OpenWhispr-1.11.0.dmg](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-1.11.0.dmg)
-- Windows 安装包：[OpenWhispr-Setup-1.11.0.exe](https://github.com/OpenWhispr/openwhispr/releases/download/v1.11.0/OpenWhispr-Setup-1.11.0.exe)
+- 最新版本：[v0.7.2](https://github.com/tonyantony300/dashbeam/releases/tag/v0.7.2)；发布时间：2026-10-14T16:11:15Z
+- macOS 安装包：[DashBeam_0.7.2_aarch64.dmg](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_aarch64.dmg)；[DashBeam_0.7.2_universal.dmg](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_universal.dmg)；[DashBeam_0.7.2_x64.dmg](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_x64.dmg)
+- Windows 安装包：[DashBeam_0.7.2_arm64-setup.exe](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_arm64-setup.exe)；[DashBeam_0.7.2_x64-setup.exe](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_x64-setup.exe)；[DashBeam_0.7.2_x64_en-US.msi](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_x64_en-US.msi)
 
-<a id="project-detail-63"></a>
+<a id="project-detail-67"></a>
 
-### 63. [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae)
+### 67. [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil)
 
-[↖️ 返回表格中的 #63](#project-row-63)
+[↖️ 返回表格中的 #67](#project-row-67)
 
 #### 中文分析
 
-按下快捷键唤出 Vicinae，桌面上的常用动作便集中到一个高性能原生命令面板中：搜索和启动应用、查找文件、切换浏览器标签页或窗口与工作区，也能查看 clipboard history、选择 emoji、计算表达式、浏览字体、控制音量，并把常用文字保存为 snippets。它还提供 Dictation 和 AI chat，把语音输入与对话入口并入同一套操作体验。现成功能不够时，可以编写 React/Typescript extensions，并直接利用 Raycast ecosystem 的兼容性；扩展可从 Vicinae store 或 Raycast store 集成。偏爱轻量自动化的用户还能使用 Script commands，或按 Linux 常见习惯创建 dmenu style menu。macOS 上的计算器后端可选 SoulverCore，体现了它在原生速度之外对桌面工具生态兼容性的重视。
+OpenPencil 不只把自己做成可视化画布，还把设计文档变成可由人、脚本和 AI 共同操作的数据。编辑器能够读写 .fig 和 .pen 文件，从应用或系统文件浏览器打开文档，并支持跨应用复制粘贴节点；聊天中的描述则可调用 100+ tools 创建和修改节点，用户既能自带主流模型的密钥，也能连接兼容端点。可编程部分提供 headless CLI、XPath queries、Figma Plugin API、通过 eval 使用的 openpencil API，以及供 AI agents 调用的 MCP server，因此既可直接设计，也可嵌入自定义编辑器或自动化流程。文档还能接受命名、布局和 accessibility 检查，完成格式转换、颜色与排版分析和 design tokens 提取。组件系统支持 variants、component sets、实例插入及检查器切换，并能为组件绑定 Reka UI 行为，在画布上以真实输入、焦点和键盘交互进行预览。当前仍处于 Active development，可在线试用或安装桌面版本。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 10,568 个星标 / 341 次复刻
-- 主要语言：C++；许可证：GPL-3.0
-- 主题标签：app-launcher、cpp23、linux、macos、nodejs、poweruser、productivity、qt、raycast、react
-- 仓库创建：2025-07-28T03:49:03Z
-- 最近推送：2026-11-09T21:11:34Z
-- 项目主页：[https://vicinae.com](https://vicinae.com)
+- 热度：近期活跃热门仓库；累计 9,761 个星标 / 1,056 次复刻
+- 主要语言：TypeScript；许可证：MIT
+- 主题标签：ai、collaboration、design-editor、figma-alternative、open-source、skia、tauri、vue、webgpu
+- 仓库创建：2026-02-27T12:48:35Z
+- 最近推送：2026-11-11T00:59:36Z
+- 项目主页：[https://openpencil.dev](https://openpencil.dev)
 
 #### 最新发布与安装
 
-- 最新版本：[v0.30.0](https://github.com/vicinaehq/vicinae/releases/tag/v0.30.0)；发布时间：2026-11-07T19:24:52Z
-- macOS 安装包：[Vicinae.dmg](https://github.com/vicinaehq/vicinae/releases/download/v0.30.0/Vicinae.dmg)
-- Windows 安装包：[vicinae-x64-setup.exe](https://github.com/vicinaehq/vicinae/releases/download/v0.30.0/vicinae-x64-setup.exe)
+- 最新版本：[v0.16.0](https://github.com/open-pencil/open-pencil/releases/tag/v0.16.0)；发布时间：2026-10-14T12:37:16Z
+- macOS 安装包：[OpenPencil_0.16.0_aarch64.dmg](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_aarch64.dmg)；[OpenPencil_0.16.0_x64.dmg](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_x64.dmg)
+- Windows 安装包：[OpenPencil_0.16.0_arm64-setup.exe](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_arm64-setup.exe)；[OpenPencil_0.16.0_arm64_en-US.msi](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_arm64_en-US.msi)；[OpenPencil_0.16.0_x64-setup.exe](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_x64-setup.exe)
 
-<a id="project-detail-64"></a>
+<a id="project-detail-68"></a>
 
-### 64. [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3)
+### 68. [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip)
 
-[↖️ 返回表格中的 #64](#project-row-64)
+[↖️ 返回表格中的 #68](#project-row-68)
 
 #### 中文分析
 
-Ghost Downloader 3 试图用一个应用接管分散在多种工具里的下载任务，协议范围覆盖 HTTP、Magnet/BT、FTP、M3U8、MPEG-DASH 和 eD2k，也能处理 YouTube、Bilibili 的清晰度、字幕、片段、播放列表及分集内容，并为 GitHub、HuggingFace 提供镜像加速。它尤其强调弱网表现：通过 smart chunking 避免下载后再合并文件，自动探测带宽，并使用真实浏览器 TLS fingerprints 应对反爬检查。配套浏览器扩展会列出页面中的媒体，视频旁也可出现下载按钮；用户照常触发下载后，桌面端能够无缝接管，认证状态随之保留，省去复制链接。下载进行中仍可修改 URL、headers 或 proxy，进度不会因此丢失，还暴露 aria2-compatible RPC API 供第三方工具调用。产品覆盖四个平台，其中 Android 可录制直播 M3U8 流并在后台持续下载；持续扩展的 Feature Packs plugin ecosystem 则用于补充新能力。
+贴入长视频链接、选择发布平台，AutoClip 就会沿同一条一键出片链路完成分析、剪辑、取景和本机渲染，并交付短视频、封面、标题、简介、话题以及 ZIP 发布包。它会依据抖音、小红书、TikTok、Reels、YouTube Shorts、B 站和 YouTube 各自的画幅与时长要求筛选片段，每个平台按评分生成至多 10 条合格结果，其余内容留作备选，用户也可点“生成这条”单独制作。抖音和小红书默认采用访谈式，TikTok、Reels、Shorts 默认使用满屏播客式；竖版可切换两种布局，B 站与 YouTube 则保留横版，人物取景会跟随说话人，无人镜头保持完整画面。字幕既能采用作者字幕，也可选择本地 Whisper、SenseVoice 或配置好的云端转写，分析模型同样由用户决定。成片需要微调时可进入编辑器，自动品牌片尾也能在设置中关闭。桌面、CLI / MCP 共用处理链路，因此既能图形化操作，也能把批量剪辑接入自动化流程。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 10,939 个星标 / 707 次复刻
-- 主要语言：Python；许可证：GPL-3.0
-- 主题标签：async、asyncio、bittorent、bt、cross-platform、download-manager、downloader、fluent-design、ftp、http3
-- 仓库创建：2023-08-16T04:23:44Z
-- 最近推送：2026-11-09T11:25:37Z
-- 项目主页：[https://gd.xychr.com/](https://gd.xychr.com/)
+- 热度：近期活跃热门仓库；累计 10,256 个星标 / 1,813 次复刻
+- 主要语言：Python；许可证：MIT
+- 主题标签：ai-agent、ai-video-editor、content-repurposing、desktop-app、douyin、instagram-reels、mcp、open-source、podcast、subtitles
+- 仓库创建：2025-07-08T04:51:15Z
+- 最近推送：2026-11-10T11:54:04Z
+- 项目主页：[https://zhouxiaoka.github.io/autoclip_intro/](https://zhouxiaoka.github.io/autoclip_intro/)
 
 #### 最新发布与安装
 
-- 最新版本：[v4.5.1](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/tag/v4.5.1)；发布时间：2026-11-09T10:42:34Z
-- macOS 安装包：[Ghost-Downloader-v4.5.1-macOS-arm64.dmg](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-macOS-arm64.dmg)；[Ghost-Downloader-v4.5.1-macOS-x86_64.dmg](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-macOS-x86_64.dmg)
-- Windows 安装包：[Ghost-Downloader-v4.5.1-Windows-arm64-Setup.exe](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-Windows-arm64-Setup.exe)；[Ghost-Downloader-v4.5.1-Windows-x86_64-Setup.exe](https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.1/Ghost-Downloader-v4.5.1-Windows-x86_64-Setup.exe)
+- 最新版本：[v1.5.8](https://github.com/zhouxiaoka/autoclip/releases/tag/v1.5.8)；发布时间：2026-11-02T12:15:50Z
+- macOS 安装包：[AutoClip.Desktop_1.5.8_aarch64.dmg](https://github.com/zhouxiaoka/autoclip/releases/download/v1.5.8/AutoClip.Desktop_1.5.8_aarch64.dmg)
+- Windows 安装包：[AutoClip.Desktop_1.5.8_x64-setup.exe](https://github.com/zhouxiaoka/autoclip/releases/download/v1.5.8/AutoClip.Desktop_1.5.8_x64-setup.exe)
 
-<a id="project-detail-65"></a>
+<a id="project-detail-69"></a>
 
-### 65. [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader)
+### 69. [jeffvli/feishin](https://github.com/jeffvli/feishin)
 
-[↖️ 返回表格中的 #65](#project-row-65)
+[↖️ 返回表格中的 #69](#project-row-69)
+
+#### 中文分析
+
+从 Sonixd 重写而来的 Feishin，把自托管音乐库接入一套现代播放器界面，既能连接 Navidrome 相关服务，也覆盖 Jellyfin、Subsonic 一类使用方式。桌面客户端是 README 推荐的入口，因为它同时提供 MPV player backend 和 Web player backend，并内置歌词获取；播放记录可以 scrobble 回服务器，还能编辑 Smart playlist，歌词则兼容同步与非同步两种形式。若不安装桌面程序，可直接访问托管网页，但网页端只支持 Web player backend；也可以从 ghcr.io 拉取 Docker image 自行部署。Linux 用户可通过 Flathub 安装，或使用项目脚本下载最新 .AppImage、设置执行权限、补齐桌面图标并生成 .desktop 启动项；脚本还提供卸载流程和实验性的原生 Wayland 启动参数。macOS 12 及以上可能需要先解除隔离，而媒体键依赖将 Feishin 授权为 Trusted Accessibility Client，并在授权后重启应用。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 10,381 个星标 / 602 次复刻
+- 主要语言：TypeScript；许可证：GPL-3.0
+- 主题标签：jellyfin、music-player、navidrome、self-hosted、subsonic、subsonic-client
+- 仓库创建：2022-07-25T08:02:56Z
+- 最近推送：2026-11-10T05:58:11Z
+- 项目主页：[https://feishin.vercel.app](https://feishin.vercel.app)
+
+#### 最新发布与安装
+
+- 最新版本：[v1.17.0](https://github.com/jeffvli/feishin/releases/tag/v1.17.0)；发布时间：2026-09-15T08:42:26Z
+- macOS 安装包：[Feishin-1.17.0-mac-arm64.dmg](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-mac-arm64.dmg)；[Feishin-1.17.0-mac-x64.dmg](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-mac-x64.dmg)
+- Windows 安装包：[Feishin-1.17.0-win-arm64.exe](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win-arm64.exe)；[Feishin-1.17.0-win-x64.exe](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win-x64.exe)；[Feishin-1.17.0-win.exe](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win.exe)
+
+<a id="project-detail-70"></a>
+
+### 70. [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader)
+
+[↖️ 返回表格中的 #70](#project-row-70)
 
 #### 中文分析
 
@@ -1720,7 +1845,7 @@ Ghost Downloader 3 试图用一个应用接管分散在多种工具里的下载�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 10,611 个星标 / 937 次复刻
+- 热度：近期活跃热门仓库；累计 10,618 个星标 / 938 次复刻
 - 主要语言：JavaScript；许可证：GPL-3.0
 - 主题标签：appimage、compressor、downloader、electron、ffmpeg、flatpak、javascript、linux、linux-app、macos
 - 仓库创建：2022-07-25T16:14:20Z
@@ -1733,86 +1858,61 @@ Ghost Downloader 3 试图用一个应用接管分散在多种工具里的下载�
 - macOS 安装包：[YTDownloader_Mac_arm64.dmg](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Mac_arm64.dmg)；[YTDownloader_Mac_x64.dmg](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Mac_x64.dmg)
 - Windows 安装包：[YTDownloader_Win.exe](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Win.exe)；[YTDownloader_Win.msi](https://github.com/aandrew-me/ytDownloader/releases/download/v4.0.1/YTDownloader_Win.msi)
 
-<a id="project-detail-66"></a>
+<a id="project-detail-71"></a>
 
-### 66. [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW)
+### 71. [evolus/pencil](https://github.com/evolus/pencil)
 
-[↖️ 返回表格中的 #66](#project-row-66)
-
-#### 中文分析
-
-干净、快速的摄影后期流程贯穿 RapidRAW：它以轻量体积提供非破坏性的 RAW 编辑，并覆盖 Windows、macOS、Linux 和 Android。界面强调简单直观，调整、蒙版与色彩塑造等操作都有逐步教程，目标是让摄影者更快实现自己的调色意图。性能设计建立在 Rust、wgpu、React、Tauri 与 WGSL 等技术之上，近期还把 relight、fog、lens blur 以及全部 transforms 移至 GPU，并加入前后图片预加载和交互式 3D depth views。图像效果也在持续细化：glow、halation 和 lens flare 被重建为更真实的眩光与光圈鬼影，film grain 重新实现，lens correction 则按 Lensfun 的每图镜头配置处理；Match Brush mask 可以自适应匹配颜色、明暗和纹理。非 RAW 图片的嵌入式 ICC profile 会转换至 sRGB，预览按显示器实际尺寸渲染，导出时还可选择把原图与编辑结果一并输出。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 11,037 个星标 / 659 次复刻
-- 主要语言：TypeScript；许可证：AGPL-3.0
-- 主题标签：color-grading、editing、image-processing、masks、raw、react、rust、tauri
-- 仓库创建：2025-06-13T20:16:40Z
-- 最近推送：2026-11-08T21:02:57Z
-- 项目主页：[https://getrapidraw.com](https://getrapidraw.com)
-
-#### 最新发布与安装
-
-- 最新版本：[v1.6.9](https://github.com/CyberTimon/RapidRAW/releases/tag/v1.6.9)；发布时间：2026-11-07T22:40:54Z
-- macOS 安装包：[02_RapidRAW_v1.6.9_macos-15-intel_x64.dmg](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/02_RapidRAW_v1.6.9_macos-15-intel_x64.dmg)；[02_RapidRAW_v1.6.9_macos-15_aarch64.dmg](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/02_RapidRAW_v1.6.9_macos-15_aarch64.dmg)；[02_tethering_RapidRAW_v1.6.9_macos-15-intel_x64.dmg](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/02_tethering_RapidRAW_v1.6.9_macos-15-intel_x64.dmg)
-- Windows 安装包：[01_RapidRAW_v1.6.9_windows-11-arm_arm64.exe](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows-11-arm_arm64.exe)；[01_RapidRAW_v1.6.9_windows-11-arm_arm64.msi](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows-11-arm_arm64.msi)；[01_RapidRAW_v1.6.9_windows_x64.exe](https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows_x64.exe)
-
-<a id="project-detail-67"></a>
-
-### 67. [open-pencil/open-pencil](https://github.com/open-pencil/open-pencil)
-
-[↖️ 返回表格中的 #67](#project-row-67)
+[↖️ 返回表格中的 #71](#project-row-71)
 
 #### 中文分析
 
-从直接打开 .fig 和 .pen 文件，到把编辑器嵌入其他产品，OpenPencil 同时覆盖了日常设计操作与可编程设计基础设施。用户可以在桌面应用或网页中读写原生 Figma 文件、从系统文件浏览器打开支持的 Pencil 文档，并在应用之间复制粘贴节点；聊天中的 AI 则通过 100+ tools 创建或修改画布节点，模型可使用自带密钥连接主流提供商或兼容端点。需要自动化时，可使用 headless CLI、XPath queries、Figma Plugin API、openpencil API 与 MCP server 查询和操纵文档，也能让 Claude Code、Codex、Cursor 等桌面代理参与设计。工具链还能检查命名、布局和无障碍问题，分析颜色、字体、间距及聚类，转换支持的格式并提取 design tokens。组件系统支持可复用组件、variant 集合和实例切换，还能给组件绑定 Reka UI 行为，在画布上实际预览开关、滑块、标签页与文本输入的焦点和键盘交互。当前处于 Active development，已经可用，但功能演进中仍可能存在粗糙之处。
+在 Pencil 的画布里，线框图、界面 mockup、系统图和用户流程都由可编辑的矢量元素组成，而不是贴上一张无法继续修改的效果图。它提供 macOS、Windows 和 Linux 桌面应用，并通过标准 vector stencil libraries 组织常用组件。V4.0 最有辨识度的变化是把 Model Context Protocol (MCP) 直接嵌入应用：本地服务运行在 http://127.0.0.1:1919/mcp，Claude Desktop、Cursor、VS Code 或自定义智能体可以读取、创建和修改当前画布。用户可用自然语言要求生成三档价格表，智能体再通过插入形状和移动布局等画布操作计算边界并放置组件；生成结果仍是 native、fully editable vector stencils，之后可以自由缩放、改样式和重排。渲染预览工具则构成视觉检查回路，让模型查看渲染结果，核验间距、对齐与对比度并迭代修正。文档数据 .ep、.epz 和 MCP 请求都经由 127.0.0.1 留在本机，不需要额外后台服务或云端配置，也没有云同步、第三方分析与 telemetry。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 9,729 个星标 / 1,047 次复刻
-- 主要语言：TypeScript；许可证：MIT
-- 主题标签：ai、collaboration、design-editor、figma-alternative、open-source、skia、tauri、vue、webgpu
-- 仓库创建：2026-02-27T12:48:35Z
-- 最近推送：2026-11-10T00:48:09Z
-- 项目主页：[https://openpencil.dev](https://openpencil.dev)
+- 热度：近期活跃热门仓库；累计 9,908 个星标 / 794 次复刻
+- 主要语言：JavaScript；许可证：GPL-2.0
+- 主题标签：drawing、electron、javascript、mockup、nodejs、pencil、prototyping、sketching、ui-design、wireframe
+- 仓库创建：2014-06-19T06:23:06Z
+- 最近推送：2026-11-10T11:07:21Z
+- 项目主页：[http://pencil.evolus.vn](http://pencil.evolus.vn)
 
 #### 最新发布与安装
 
-- 最新版本：[v0.16.0](https://github.com/open-pencil/open-pencil/releases/tag/v0.16.0)；发布时间：2026-10-14T12:37:16Z
-- macOS 安装包：[OpenPencil_0.16.0_aarch64.dmg](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_aarch64.dmg)；[OpenPencil_0.16.0_x64.dmg](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_x64.dmg)
-- Windows 安装包：[OpenPencil_0.16.0_arm64-setup.exe](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_arm64-setup.exe)；[OpenPencil_0.16.0_arm64_en-US.msi](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_arm64_en-US.msi)；[OpenPencil_0.16.0_x64-setup.exe](https://github.com/open-pencil/open-pencil/releases/download/v0.16.0/OpenPencil_0.16.0_x64-setup.exe)
+- 最新版本：[v4.0.0](https://github.com/evolus/pencil/releases/tag/v4.0.0)；发布时间：2026-10-24T03:37:20Z
+- macOS 安装包：[Pencil-4.0.0-arm64.dmg](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0-arm64.dmg)；[Pencil-4.0.0-universal.dmg](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0-universal.dmg)；[Pencil-4.0.0-x64.dmg](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0-x64.dmg)
+- Windows 安装包：[Pencil-4.0.0.ga.exe](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0.ga.exe)
 
-<a id="project-detail-68"></a>
+<a id="project-detail-72"></a>
 
-### 68. [jeffvli/feishin](https://github.com/jeffvli/feishin)
+### 72. [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)
 
-[↖️ 返回表格中的 #68](#project-row-68)
+[↖️ 返回表格中的 #72](#project-row-72)
 
 #### 中文分析
 
-从 Sonixd 重写而来的 Feishin，把自托管音乐库接入一套现代播放器界面，既能连接 Navidrome 相关服务，也覆盖 Jellyfin、Subsonic 一类使用方式。桌面客户端是 README 推荐的入口，因为它同时提供 MPV player backend 和 Web player backend，并内置歌词获取；播放记录可以 scrobble 回服务器，还能编辑 Smart playlist，歌词则兼容同步与非同步两种形式。若不安装桌面程序，可直接访问托管网页，但网页端只支持 Web player backend；也可以从 ghcr.io 拉取 Docker image 自行部署。Linux 用户可通过 Flathub 安装，或使用项目脚本下载最新 .AppImage、设置执行权限、补齐桌面图标并生成 .desktop 启动项；脚本还提供卸载流程和实验性的原生 Wayland 启动参数。macOS 12 及以上可能需要先解除隔离，而媒体键依赖将 Feishin 授权为 Trusted Accessibility Client，并在授权后重启应用。
+Munder Difflin 将已经在终端使用的 coding CLI 组织成一间可视化的“办公室”：Claude Code、OpenAI Codex、Gemini CLI、xAI Grok、Kimi Code、Qwen、OpenCode、Crush、pi.dev、GitHub Copilot CLI 和 Cursor 都能接入，也支持 bring your own keys 与 local LLMs。每个 agent 都拥有 长期记忆、mailbox 和 2D office floor 上的一张 desk，可以彼此发消息、路由任务并保留记忆；名为 Michael 的个人 clone 负责在团队之间分派工作，用户仍然是它的负责人，并能从共享楼层上的 avatars 观察各个 agent 的状态。它复用用户现有订阅及其 hourly limits，让原本单独运行的终端 agent 在用户离开后继续工作并协同。桌面端采用 Electron、React、TypeScript、Pixi.js、xterm.js 与 node-pty，提供 macOS、Windows 和 Linux 构建，其中 macOS 包已签名和公证，无需自行编译即可从 GitHub releases page 下载。它还提供完全本地运行的跨应用听写与会议转录。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 10,376 个星标 / 602 次复刻
-- 主要语言：TypeScript；许可证：GPL-3.0
-- 主题标签：jellyfin、music-player、navidrome、self-hosted、subsonic、subsonic-client
-- 仓库创建：2022-07-25T08:02:56Z
-- 最近推送：2026-11-09T05:26:08Z
-- 项目主页：[https://feishin.vercel.app](https://feishin.vercel.app)
+- 热度：近期活跃热门仓库；累计 9,474 个星标 / 1,331 次复刻
+- 主要语言：JavaScript；许可证：MIT
+- 主题标签：agent-harness、agent-orchestration、agents、ai-agents、autonomous-agents、claude-code、codex、coding-agents、desktop-app、developer-tools
+- 仓库创建：2026-05-31T15:25:05Z
+- 最近推送：2026-11-10T19:51:53Z
+- 项目主页：[https://munderdiffl.in](https://munderdiffl.in)
 
 #### 最新发布与安装
 
-- 最新版本：[v1.17.0](https://github.com/jeffvli/feishin/releases/tag/v1.17.0)；发布时间：2026-09-15T08:42:26Z
-- macOS 安装包：[Feishin-1.17.0-mac-arm64.dmg](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-mac-arm64.dmg)；[Feishin-1.17.0-mac-x64.dmg](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-mac-x64.dmg)
-- Windows 安装包：[Feishin-1.17.0-win-arm64.exe](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win-arm64.exe)；[Feishin-1.17.0-win-x64.exe](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win-x64.exe)；[Feishin-1.17.0-win.exe](https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win.exe)
+- 最新版本：[v0.5.5](https://github.com/HarnessMD/munder-difflin/releases/tag/v0.5.5)；发布时间：2026-10-01T21:00:56Z
+- macOS 安装包：[Munder-Difflin-0.5.5-mac-universal.dmg](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-mac-universal.dmg)
+- Windows 安装包：[Munder-Difflin-0.5.5-win-x64-portable.exe](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-win-x64-portable.exe)；[Munder-Difflin-0.5.5-win-x64-setup.exe](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-win-x64-setup.exe)
 
-<a id="project-detail-69"></a>
+<a id="project-detail-73"></a>
 
-### 69. [crynta/terax-ai](https://github.com/crynta/terax-ai)
+### 73. [crynta/terax-ai](https://github.com/crynta/terax-ai)
 
-[↖️ 返回表格中的 #69](#project-row-69)
+[↖️ 返回表格中的 #73](#project-row-73)
 
 #### 中文分析
 
@@ -1820,7 +1920,7 @@ Terax 把 terminal 放在开发工作区的中心，却没有停留在给终端�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 9,454 个星标 / 1,057 次复刻
+- 热度：近期活跃热门仓库；累计 9,458 个星标 / 1,058 次复刻
 - 主要语言：TypeScript；许可证：Apache-2.0
 - 主题标签：agents、ai、code-editor、libghostty、linux、macos、reactjs、rust、tauri、terminal
 - 仓库创建：2026-04-21T18:33:12Z
@@ -1833,86 +1933,36 @@ Terax 把 terminal 放在开发工作区的中心，却没有停留在给终端�
 - macOS 安装包：[Terax_0.9.0_aarch64.dmg](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_aarch64.dmg)；[Terax_0.9.0_x64.dmg](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_x64.dmg)
 - Windows 安装包：[Terax_0.9.0_x64-setup.exe](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_x64-setup.exe)；[Terax_0.9.0_x64_en-US.msi](https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_x64_en-US.msi)
 
-<a id="project-detail-70"></a>
+<a id="project-detail-74"></a>
 
-### 70. [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)
+### 74. [l0ng-ai/openidea](https://github.com/l0ng-ai/openidea)
 
-[↖️ 返回表格中的 #70](#project-row-70)
-
-#### 中文分析
-
-Munder Difflin 将已经在终端使用的 coding CLI 组织成一间可视化的“办公室”：Claude Code、OpenAI Codex、Gemini CLI、xAI Grok、Kimi Code、Qwen、OpenCode、Crush、pi.dev、GitHub Copilot CLI 和 Cursor 都能接入，也支持 bring your own keys 与 local LLMs。每个 agent 都拥有 长期记忆、mailbox 和 2D office floor 上的一张 desk，可以彼此发消息、路由任务并保留记忆；名为 Michael 的个人 clone 负责在团队之间分派工作，用户仍然是它的负责人，并能从共享楼层上的 avatars 观察各个 agent 的状态。它复用用户现有订阅及其 hourly limits，让原本单独运行的终端 agent 在用户离开后继续工作并协同。桌面端采用 Electron、React、TypeScript、Pixi.js、xterm.js 与 node-pty，提供 macOS、Windows 和 Linux 构建，其中 macOS 包已签名和公证，无需自行编译即可从 GitHub releases page 下载。它还提供完全本地运行的跨应用听写与会议转录。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 9,453 个星标 / 1,330 次复刻
-- 主要语言：JavaScript；许可证：MIT
-- 主题标签：agent-harness、agent-orchestration、agents、ai-agents、autonomous-agents、claude-code、codex、coding-agents、desktop-app、developer-tools
-- 仓库创建：2026-05-31T15:25:05Z
-- 最近推送：2026-11-09T23:23:00Z
-- 项目主页：[https://munderdiffl.in](https://munderdiffl.in)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.5.5](https://github.com/HarnessMD/munder-difflin/releases/tag/v0.5.5)；发布时间：2026-10-01T21:00:56Z
-- macOS 安装包：[Munder-Difflin-0.5.5-mac-universal.dmg](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-mac-universal.dmg)
-- Windows 安装包：[Munder-Difflin-0.5.5-win-x64-portable.exe](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-win-x64-portable.exe)；[Munder-Difflin-0.5.5-win-x64-setup.exe](https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-win-x64-setup.exe)
-
-<a id="project-detail-71"></a>
-
-### 71. [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip)
-
-[↖️ 返回表格中的 #71](#project-row-71)
+[↖️ 返回表格中的 #74](#project-row-74)
 
 #### 中文分析
 
-贴入长视频链接、选择发布平台，AutoClip 就会沿同一条一键出片链路完成分析、剪辑、取景和本机渲染，并交付短视频、封面、标题、简介、话题以及 ZIP 发布包。它会依据抖音、小红书、TikTok、Reels、YouTube Shorts、B 站和 YouTube 各自的画幅与时长要求筛选片段，每个平台按评分生成至多 10 条合格结果，其余内容留作备选，用户也可点“生成这条”单独制作。抖音和小红书默认采用访谈式，TikTok、Reels、Shorts 默认使用满屏播客式；竖版可切换两种布局，B 站与 YouTube 则保留横版，人物取景会跟随说话人，无人镜头保持完整画面。字幕既能采用作者字幕，也可选择本地 Whisper、SenseVoice 或配置好的云端转写，分析模型同样由用户决定。成片需要微调时可进入编辑器，自动品牌片尾也能在设置中关闭。桌面、CLI / MCP 共用处理链路，因此既能图形化操作，也能把批量剪辑接入自动化流程。
+把 IntelliJ IDEA 熟悉的工作方式搬进更轻快的原生应用，是 OpenIDEA 最鲜明的取向：它保留相近的 keymap、tool windows 与全局搜索习惯，同时以 Rust core 承载编辑器、代码理解、debugger、Git、terminal、database 和 HTTP clients，可处理 60+ languages，并提供 macOS、Windows 与 Linux 构建。README 还用 freqtrade 项目对比启动、就绪、内存、CPU 与退出耗时，不过也明确说明 IntelliJ IDEA 的 Python 分析更深入，因此两边的“ready”并不代表完成了完全相同的工作；用户可通过 perf/compare 在自己的机器和项目上复测。扩展体系同样是重点：Plugins 能加入 actions、completion、quick fixes、工具窗口、自定义编辑器、主题、图标和语言，并以 sandboxed WebAssembly components 运行；主题、图标主题及语言甚至无需编写代码。插件可从 Settings › Plugins 安装，也能用 openidea-plugin new 创建，但当前 plugin API 仍处于 preview 阶段。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 10,196 个星标 / 1,807 次复刻
-- 主要语言：Python；许可证：MIT
-- 主题标签：ai-agent、ai-video-editor、content-repurposing、desktop-app、douyin、instagram-reels、mcp、open-source、podcast、subtitles
-- 仓库创建：2025-07-08T04:51:15Z
-- 最近推送：2026-11-09T03:38:43Z
-- 项目主页：[https://zhouxiaoka.github.io/autoclip_intro/](https://zhouxiaoka.github.io/autoclip_intro/)
+- 热度：近期活跃热门仓库；累计 8,396 个星标 / 738 次复刻
+- 主要语言：TypeScript；许可证：Apache-2.0
+- 主题标签：code-editor、cross-platform、dap、database-client、debugger、desktop-app、developer-tools、git、http-client、ide
+- 仓库创建：2026-10-21T12:23:14Z
+- 最近推送：2026-11-11T00:46:17Z
+- 项目主页：[https://openidea.sh](https://openidea.sh)
 
 #### 最新发布与安装
 
-- 最新版本：[v1.5.8](https://github.com/zhouxiaoka/autoclip/releases/tag/v1.5.8)；发布时间：2026-11-02T12:15:50Z
-- macOS 安装包：[AutoClip.Desktop_1.5.8_aarch64.dmg](https://github.com/zhouxiaoka/autoclip/releases/download/v1.5.8/AutoClip.Desktop_1.5.8_aarch64.dmg)
-- Windows 安装包：[AutoClip.Desktop_1.5.8_x64-setup.exe](https://github.com/zhouxiaoka/autoclip/releases/download/v1.5.8/AutoClip.Desktop_1.5.8_x64-setup.exe)
+- 最新版本：[v0.1.40](https://github.com/l0ng-ai/openidea/releases/tag/v0.1.40)；发布时间：2026-11-09T14:23:44Z
+- macOS 安装包：[OpenIDEA_0.1.40_aarch64.dmg](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_aarch64.dmg)；[OpenIDEA_0.1.40_x64.dmg](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_x64.dmg)
+- Windows 安装包：[OpenIDEA_0.1.40_arm64-setup.exe](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_arm64-setup.exe)；[OpenIDEA_0.1.40_arm64_en-US.msi](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_arm64_en-US.msi)；[OpenIDEA_0.1.40_x64-setup.exe](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_x64-setup.exe)
 
-<a id="project-detail-72"></a>
+<a id="project-detail-75"></a>
 
-### 72. [evolus/pencil](https://github.com/evolus/pencil)
+### 75. [komi-store/komi-store](https://github.com/komi-store/komi-store)
 
-[↖️ 返回表格中的 #72](#project-row-72)
-
-#### 中文分析
-
-在 Pencil 的画布里，线框图、界面 mockup、系统图和用户流程都由可编辑的矢量元素组成，而不是贴上一张无法继续修改的效果图。它提供 macOS、Windows 和 Linux 桌面应用，并通过标准 vector stencil libraries 组织常用组件。V4.0 最有辨识度的变化是把 Model Context Protocol (MCP) 直接嵌入应用：本地服务运行在 http://127.0.0.1:1919/mcp，Claude Desktop、Cursor、VS Code 或自定义智能体可以读取、创建和修改当前画布。用户可用自然语言要求生成三档价格表，智能体再通过插入形状和移动布局等画布操作计算边界并放置组件；生成结果仍是 native、fully editable vector stencils，之后可以自由缩放、改样式和重排。渲染预览工具则构成视觉检查回路，让模型查看渲染结果，核验间距、对齐与对比度并迭代修正。文档数据 .ep、.epz 和 MCP 请求都经由 127.0.0.1 留在本机，不需要额外后台服务或云端配置，也没有云同步、第三方分析与 telemetry。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 9,907 个星标 / 794 次复刻
-- 主要语言：JavaScript；许可证：GPL-2.0
-- 主题标签：drawing、electron、javascript、mockup、nodejs、pencil、prototyping、sketching、ui-design、wireframe
-- 仓库创建：2014-06-19T06:23:06Z
-- 最近推送：2026-11-09T10:53:26Z
-- 项目主页：[http://pencil.evolus.vn](http://pencil.evolus.vn)
-
-#### 最新发布与安装
-
-- 最新版本：[v4.0.0](https://github.com/evolus/pencil/releases/tag/v4.0.0)；发布时间：2026-10-24T03:37:20Z
-- macOS 安装包：[Pencil-4.0.0-arm64.dmg](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0-arm64.dmg)；[Pencil-4.0.0-universal.dmg](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0-universal.dmg)；[Pencil-4.0.0-x64.dmg](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0-x64.dmg)
-- Windows 安装包：[Pencil-4.0.0.ga.exe](https://github.com/evolus/pencil/releases/download/v4.0.0/Pencil-4.0.0.ga.exe)
-
-<a id="project-detail-73"></a>
-
-### 73. [komi-store/komi-store](https://github.com/komi-store/komi-store)
-
-[↖️ 返回表格中的 #73](#project-row-73)
+[↖️ 返回表格中的 #75](#project-row-75)
 
 #### 中文分析
 
@@ -1920,7 +1970,7 @@ Komi Store 将散落在 GitHub、Codeberg 以及其他 Forgejo 或 Gitea forges 
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 20,493 个星标 / 770 次复刻
+- 热度：近期活跃热门仓库；累计 20,527 个星标 / 770 次复刻
 - 主要语言：Kotlin；许可证：Apache-2.0
 - 主题标签：android、app-store、compose-multiplatform、jetpack-compose、kotlin、kotlin-multiplatform、linux、macos、privacy、windows
 - 仓库创建：2025-11-21T13:03:23Z
@@ -1933,11 +1983,11 @@ Komi Store 将散落在 GitHub、Codeberg 以及其他 Forgejo 或 Gitea forges 
 - macOS 安装包：[Komi-Store-1.9.4-arm64.dmg](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4-arm64.dmg)；[Komi-Store-1.9.4-x64.dmg](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4-x64.dmg)
 - Windows 安装包：[Komi-Store-1.9.4.exe](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4.exe)；[Komi-Store-1.9.4.msi](https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4.msi)
 
-<a id="project-detail-74"></a>
+<a id="project-detail-76"></a>
 
-### 74. [mltframework/shotcut](https://github.com/mltframework/shotcut)
+### 76. [mltframework/shotcut](https://github.com/mltframework/shotcut)
 
-[↖️ 返回表格中的 #74](#project-row-74)
+[↖️ 返回表格中的 #76](#project-row-76)
 
 #### 中文分析
 
@@ -1945,7 +1995,7 @@ Shotcut 的代码仓库围绕跨平台视频编辑器的构建与运行展开，
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 15,642 个星标 / 1,563 次复刻
+- 热度：近期活跃热门仓库；累计 15,650 个星标 / 1,564 次复刻
 - 主要语言：C++；许可证：GPL-3.0
 - 主题标签：cross-platform、gplv3、mlt、shotcut、video-editor
 - 仓库创建：2012-04-23T22:37:04Z
@@ -1958,36 +2008,111 @@ Shotcut 的代码仓库围绕跨平台视频编辑器的构建与运行展开，
 - macOS 安装包：[shotcut-macos-26.9.27.dmg](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-macos-26.9.27.dmg)；[shotcut-macos-26.9.28.dmg](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-macos-26.9.28.dmg)
 - Windows 安装包：[shotcut-win64-26.9.27.exe](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win64-26.9.27.exe)；[shotcut-win_ARM-26.9.27.exe](https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win_ARM-26.9.27.exe)
 
-<a id="project-detail-75"></a>
+<a id="project-detail-77"></a>
 
-### 75. [tonyantony300/dashbeam](https://github.com/tonyantony300/dashbeam)
+### 77. [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor)
 
-[↖️ 返回表格中的 #75](#project-row-75)
+[↖️ 返回表格中的 #77](#project-row-77)
 
 #### 中文分析
 
-DashBeam 把文件直接从一台设备送到另一台设备，中途不存入云服务器，也不要求注册账户或暴露个人信息；传输采用 TLS 1.3 端到端加密，并以 authenticated tickets 确认接收方。桌面端、Android、CLI 和浏览器都能参与，接收者可通过 Code、Link or QR 打开，网页端无需安装。文件与文件夹不设大小限制，并用 BLAKE3 verified 校验内容；局域网内可由 Nearby LAN auto discovery 找到设备，远程设备则可用代码配对一次，之后直接发送。可信设备还能开启 auto accept，让收到的文件无需确认便落地。中断的任务支持 Resumable & multi peer，既能续传，也能同时分享给多人；连接依赖设备身份而非 IP，因此在 Wi‑Fi、蜂窝网络或其他网络之间切换时仍可继续。若远程链路需要更多控制，可在 Settings → Infra 配置 self host relays，配合后台托盘或服务、通知与开机启动，让设备持续可达。
+像素精灵、手绘图像、矢量标志和动画不必分散到不同软件中完成，PixiEditor 2.0 默认提供 Pixel art、Painting、Vector 三套 toolsets，并允许它们共用 one canvas，因此可以在同一文档里混合 vector 与 raster：既画像素级素材，也使用软笔刷、抗锯齿形状、矢量路径，再导出 png、jpg、svg、gif、mp4 等格式。时间线支持逐帧动画，nodes 还能驱动 custom shaders 动画。更有辨识度的是 Node render system：layers、effects 以及 layer structure 本身都是 nodes 或节点连接的结果，每个文档都会公开 node graph，用户可重新组织渲染关系，制作 procedural art 或 procedural animations。这套节点结构不是附加功能，而是编辑器多种图形能力共同运转的基础。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 10,267 个星标 / 624 次复刻
-- 主要语言：TypeScript；许可证：AGPL-3.0
-- 主题标签：android、file-transfer、iroh、linux、macos、p2p、privacy-tools、resumable、self-hosted、terminal
-- 仓库创建：2025-10-17T09:08:25Z
-- 最近推送：2026-11-07T19:29:08Z
-- 项目主页：[https://dashbeam.net](https://dashbeam.net)
+- 热度：近期活跃热门仓库；累计 8,136 个星标 / 341 次复刻
+- 主要语言：C#；许可证：LGPL-3.0
+- 主题标签：2d、avaloniaui、csharp、dotnet-core、dotnetcore、editor、game-development、graphics、graphics-editor、linux-desktop
+- 仓库创建：2018-10-09T19:11:51Z
+- 最近推送：2026-11-10T17:00:25Z
+- 项目主页：[https://pixieditor.net](https://pixieditor.net)
 
 #### 最新发布与安装
 
-- 最新版本：[v0.7.2](https://github.com/tonyantony300/dashbeam/releases/tag/v0.7.2)；发布时间：2026-10-14T16:11:15Z
-- macOS 安装包：[DashBeam_0.7.2_aarch64.dmg](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_aarch64.dmg)；[DashBeam_0.7.2_universal.dmg](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_universal.dmg)；[DashBeam_0.7.2_x64.dmg](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_x64.dmg)
-- Windows 安装包：[DashBeam_0.7.2_arm64-setup.exe](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_arm64-setup.exe)；[DashBeam_0.7.2_x64-setup.exe](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_x64-setup.exe)；[DashBeam_0.7.2_x64_en-US.msi](https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_x64_en-US.msi)
+- 最新版本：[2.1.2.5](https://github.com/PixiEditor/PixiEditor/releases/tag/2.1.2.5)；发布时间：2026-10-30T10:56:15Z
+- macOS 安装包：[PixiEditor-2.1.2.5-universal-macos.dmg](https://github.com/PixiEditor/PixiEditor/releases/download/2.1.2.5/PixiEditor-2.1.2.5-universal-macos.dmg)
+- Windows 安装包：[PixiEditor-2.1.2.5-setup-x64-win.exe](https://github.com/PixiEditor/PixiEditor/releases/download/2.1.2.5/PixiEditor-2.1.2.5-setup-x64-win.exe)
 
-<a id="project-detail-76"></a>
+<a id="project-detail-78"></a>
 
-### 76. [mockoon/mockoon](https://github.com/mockoon/mockoon)
+### 78. [elie222/rakazo](https://github.com/elie222/rakazo)
 
-[↖️ 返回表格中的 #76](#project-row-76)
+[↖️ 返回表格中的 #78](#project-row-78)
+
+#### 中文分析
+
+Rakazo 把 AI 助手组织成能长期存在的“队友”：每个 bot 拥有自己的 Memory、Routines、应用与 computer，服务运行在用户自己的服务器或机器上，模型和密钥也由用户选择，并可从 Web、desktop、iPhone、iPad 和 Android 连接同一套服务。给 bot 配备的 computer 不只是抽象工具，而是包含 browser、terminal、files 和完整桌面；用户可以旁观执行过程，临时接管完成登录，再把控制权交还。多个 bot 能进入 Group chats，通过 @mention 分工、互相检查并汇报结果，也支持 delegation 和 subagents。自动任务既可按时间表触发，也能由 email 或 webhook 启动并保留每次运行记录；生成的 Pages 则可作为全屏 dashboard 或 document 打开、分享和继续提问。它还能连接 Gmail、Slack、GitHub、Notion、Linear、MCP servers 与 OpenAPI tools。Quick start 不要求克隆源码或安装 Node，只需 Docker Engine、Compose plugin、curl 和 OpenSSL；安装器会下载 Compose 文件、生成含随机密钥的 .env 并启动服务，随后访问 http://127.0.0.1:5173 创建账户并连接模型。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 7,841 个星标 / 1,419 次复刻
+- 主要语言：TypeScript；许可证：Apache-2.0
+- 主题标签：ai-agents、chatgpt、docker、electron、expo、grok、llm、self-hosted、typescript
+- 仓库创建：2026-08-13T06:28:56Z
+- 最近推送：2026-11-10T23:57:15Z
+- 项目主页：[https://rakazo.com](https://rakazo.com)
+
+#### 最新发布与安装
+
+- 最新版本：[v0.9.0](https://github.com/elie222/rakazo/releases/tag/v0.9.0)；发布时间：2026-11-10T13:57:14Z
+- macOS 安装包：[Rakazo-0.9.0-universal.dmg](https://github.com/elie222/rakazo/releases/download/v0.9.0/Rakazo-0.9.0-universal.dmg)
+- Windows 安装包：[Rakazo-Setup-0.9.0.exe](https://github.com/elie222/rakazo/releases/download/v0.9.0/Rakazo-Setup-0.9.0.exe)
+
+<a id="project-detail-79"></a>
+
+### 79. [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign)
+
+[↖️ 返回表格中的 #79](#project-row-79)
+
+#### 中文分析
+
+输入一段提示词，Open CoDesign 就能在本机把它转成较完整的原型、幻灯片或营销素材，重点是让用户沿用已经付费或自行部署的模型，而不被单一云服务绑定。它采用 BYOK 与 local-first 思路，可连接 Claude、GPT、Gemini、DeepSeek、Kimi、GLM、Ollama，以及任何兼容 OpenAI 的端点，也支持直接使用 ChatGPT Plus / Pro / Team。近期演进进一步把生成结果推向可交付的设计资产：feat/decompose-to-ui-kit 分支可将图像拆成组件化 UI kits 与 bundle，交给 coding agent 继续开发；逐维度布尔视觉一致性评审 通过 12 项标准检查判断视觉一致性，并配合 验证与迭代循环 反复校验和修正。工作区会保存会话，受权限控制的本地工具负责操作文件，Files panel 用于查看产物，provider diagnostics 则帮助排查模型提供方配置。AI image generation、CLIProxyAPI 一键导入 和 ChatGPT Plus/Codex subscription support 也让从密钥导入、内容生成到后续交接形成较完整的桌面流程。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 8,199 个星标 / 872 次复刻
+- 主要语言：TypeScript；许可证：MIT
+- 主题标签：ai-design、anthropic、byok、claude、claude-code、claude-design、claude-design-alternative、deepseek、design-to-code、desktop-app
+- 仓库创建：2026-04-18T03:14:33Z
+- 最近推送：2026-11-10T07:45:31Z
+- 项目主页：[https://opencoworkai.github.io/open-codesign/](https://opencoworkai.github.io/open-codesign/)
+
+#### 最新发布与安装
+
+- 最新版本：[v0.3.0](https://github.com/OpenCoworkAI/open-codesign/releases/tag/v0.3.0)；发布时间：2026-10-31T08:16:43Z
+- macOS 安装包：[open-codesign-0.3.0-arm64.dmg](https://github.com/OpenCoworkAI/open-codesign/releases/download/v0.3.0/open-codesign-0.3.0-arm64.dmg)；[open-codesign-0.3.0-x64.dmg](https://github.com/OpenCoworkAI/open-codesign/releases/download/v0.3.0/open-codesign-0.3.0-x64.dmg)
+- Windows 安装包：[open-codesign-0.3.0-arm64-setup.exe](https://github.com/OpenCoworkAI/open-codesign/releases/download/v0.3.0/open-codesign-0.3.0-arm64-setup.exe)；[open-codesign-0.3.0-setup.exe](https://github.com/OpenCoworkAI/open-codesign/releases/download/v0.3.0/open-codesign-0.3.0-setup.exe)；[open-codesign-0.3.0-x64-setup.exe](https://github.com/OpenCoworkAI/open-codesign/releases/download/v0.3.0/open-codesign-0.3.0-x64-setup.exe)
+
+<a id="project-detail-80"></a>
+
+### 80. [4gray/iptvnator](https://github.com/4gray/iptvnator)
+
+[↖️ 返回表格中的 #80](#project-row-80)
+
+#### 中文分析
+
+把自己的 M3U/M3U8 播放列表、Xtream Codes 账户或 Stalker / Ministra portal 加入 IPTVnator 后，就能在 macOS、Windows、Linux 或浏览器中观看 live TV，并浏览电影与剧集；播放器本身不提供订阅、频道、播放列表或媒体。直播部分支持频道分组、搜索、收藏、XMLTV guide、multi-channel EPG，以及桌面端 catch-up；影视库则会展示海报、季和观看历史，记录 resume positions，还可用自己的 API key 补充 TMDB metadata。播放既能走 built in web players，也能调用 MPV、VLC、IINA，桌面端另有实验性的 Embedded MPV；桌面版可下载电影和单集以便稍后观看，continue watching 与收藏会跨来源汇总。键盘用户可通过 Ctrl/Cmd+K 打开 command palette。除桌面应用外，还能用 Docker 运行 self hosted PWA 及其后端，无需另起后端容器；桌面程序也可启动服务器，让连接的客户端共享来源，并可用 phone remote 控制桌面播放器。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 7,707 个星标 / 1,055 次复刻
+- 主要语言：TypeScript；许可证：MIT
+- 主题标签：chromeos、electron、epg、fair-source、iptv、iptv-m3u、iptv-player、iptv-player-application、linux、m3u
+- 仓库创建：2019-10-06T15:37:40Z
+- 最近推送：2026-11-10T22:10:57Z
+- 项目主页：[https://4gray.github.io/iptvnator/](https://4gray.github.io/iptvnator/)
+
+#### 最新发布与安装
+
+- 最新版本：[v0.25.0](https://github.com/4gray/iptvnator/releases/tag/v0.25.0)；发布时间：2026-11-08T15:30:03Z
+- macOS 安装包：[iptvnator-0.25.0-mac-arm64.dmg](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-mac-arm64.dmg)；[iptvnator-0.25.0-mac-x64.dmg](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-mac-x64.dmg)
+- Windows 安装包：[iptvnator-0.25.0-windows-x64-setup.exe](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-windows-x64-setup.exe)
+
+<a id="project-detail-81"></a>
+
+### 81. [mockoon/mockoon](https://github.com/mockoon/mockoon)
+
+[↖️ 返回表格中的 #81](#project-row-81)
 
 #### 中文分析
 
@@ -1995,7 +2120,7 @@ DashBeam 把文件直接从一台设备送到另一台设备，中途不存入�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 8,477 个星标 / 484 次复刻
+- 热度：近期活跃热门仓库；累计 8,478 个星标 / 484 次复刻
 - 主要语言：TypeScript；许可证：MIT
 - 主题标签：api、application、desktop、electron、mock、mock-api、mock-data、mock-server、mocking、mocking-server
 - 仓库创建：2017-07-17T13:19:16Z
@@ -2008,85 +2133,36 @@ DashBeam 把文件直接从一台设备送到另一台设备，中途不存入�
 - macOS 安装包：[mockoon.setup.9.10.0.arm64.dmg](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.setup.9.10.0.arm64.dmg)；[mockoon.setup.9.10.0.universal.dmg](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.setup.9.10.0.universal.dmg)；[mockoon.setup.9.10.0.x64.dmg](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.setup.9.10.0.x64.dmg)
 - Windows 安装包：[mockoon.portable.9.10.0.exe](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.portable.9.10.0.exe)；[mockoon.setup.9.10.0.exe](https://github.com/mockoon/mockoon/releases/download/v9.10.0/mockoon.setup.9.10.0.exe)
 
-<a id="project-detail-77"></a>
+<a id="project-detail-82"></a>
 
-### 77. [l0ng-ai/openidea](https://github.com/l0ng-ai/openidea)
+### 82. [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop)
 
-[↖️ 返回表格中的 #77](#project-row-77)
+[↖️ 返回表格中的 #82](#project-row-82)
 
 #### 中文分析
 
-熟悉 IntelliJ IDEA 的用户可以把原有操作习惯直接带进 OpenIDEA：它复现 keymap、tool windows 与 search everything 的工作方式，同时以 Rust core 构建原生桌面应用，整合编辑器、代码洞察、debugger、Git、terminal、数据库和 HTTP 客户端，并覆盖 60+ languages。macOS、Windows 和 Linux 都有构建版本，Windows 用户还可下载 portable zip，解压后直接运行 openidea.exe。README 用 freqtrade 项目展示启动性能：在指定 Windows 11 测试机和热缓存条件下，项目窗口出现、CPU 稳定、内存占用与退出速度都给出了与 IntelliJ IDEA 的对照数据；作者也明确提醒 IDEA 会进行更深入的 Python 分析，因此两边的“ready”并不代表完成了完全相同的工作，并提供 perf/compare 供用户在自己的机器和项目上复测。扩展系统能够添加 actions、completion、quick fixes、自定义编辑器、主题、图标与语言，插件以 sandboxed WebAssembly components 运行，可从 Settings › Plugins 安装，也可执行 openidea-plugin new 创建；不过 plugin API 目前仍处于 preview。
+Rancher Desktop把 Kubernetes 与容器管理整合进 Windows、macOS 和 Linux 桌面应用，但这份 README 的重点不是普通用户操作，而是如何参与开发。主体是主要用 TypeScript 编写的 Electron application，并打包多种底层技术形成统一体验；随附的命令行工具 rdctl 则使用 Go。开发构建、正式构建与打包、单元测试和端到端测试大多由 yarn scripts 驱动，BATS tests 等少数流程例外。Windows 源码构建提供 Development VM Setup 和 Manual Development Environment Setup 两条路线：前者要求在 Microsoft Windows 10 开发虚拟机中运行自动化配置脚本，再检查 .npmrc 里的 msbuild_path 与 msvs_version；以 Visual Studio 2022 为例，配置值右侧不应添加引号，否则部分处理程序可能把引号当作路径字符并导致失败。README 还提醒配置 git，使其能够正确处理源自 Linux 和 macOS 的文件。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 8,157 个星标 / 706 次复刻
+- 热度：近期活跃热门仓库；累计 7,409 个星标 / 393 次复刻
 - 主要语言：TypeScript；许可证：Apache-2.0
-- 主题标签：code-editor、cross-platform、dap、database-client、debugger、desktop-app、developer-tools、git、http-client、ide
-- 仓库创建：2026-10-21T12:23:14Z
-- 最近推送：2026-11-10T00:44:34Z
+- 主题标签：containers、kubernetes、linux、macos、windows
+- 仓库创建：2020-10-23T17:20:58Z
+- 最近推送：2026-11-10T16:38:45Z
+- 项目主页：[https://rancherdesktop.io](https://rancherdesktop.io)
 
 #### 最新发布与安装
 
-- 最新版本：[v0.1.40](https://github.com/l0ng-ai/openidea/releases/tag/v0.1.40)；发布时间：2026-11-09T14:23:44Z
-- macOS 安装包：[OpenIDEA_0.1.40_aarch64.dmg](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_aarch64.dmg)；[OpenIDEA_0.1.40_x64.dmg](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_x64.dmg)
-- Windows 安装包：[OpenIDEA_0.1.40_arm64-setup.exe](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_arm64-setup.exe)；[OpenIDEA_0.1.40_arm64_en-US.msi](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_arm64_en-US.msi)；[OpenIDEA_0.1.40_x64-setup.exe](https://github.com/l0ng-ai/openidea/releases/download/v0.1.40/OpenIDEA_0.1.40_x64-setup.exe)
+- 最新版本：[v1.25.0](https://github.com/rancher-sandbox/rancher-desktop/releases/tag/v1.25.0)；发布时间：2026-11-05T23:41:36Z
+- macOS 安装包：[Rancher.Desktop-1.25.0.aarch64.dmg](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop-1.25.0.aarch64.dmg)；[Rancher.Desktop-1.25.0.x86_64.dmg](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop-1.25.0.x86_64.dmg)
+- Windows 安装包：[Rancher.Desktop.Setup.1.25.0.msi](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop.Setup.1.25.0.msi)
 
-<a id="project-detail-78"></a>
+<a id="project-detail-83"></a>
 
-### 78. [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor)
+### 83. [lightningpixel/modly](https://github.com/lightningpixel/modly)
 
-[↖️ 返回表格中的 #78](#project-row-78)
-
-#### 中文分析
-
-像素精灵、手绘图像、矢量标志和动画不必分散到不同软件中完成，PixiEditor 2.0 默认提供 Pixel art、Painting、Vector 三套 toolsets，并允许它们共用 one canvas，因此可以在同一文档里混合 vector 与 raster：既画像素级素材，也使用软笔刷、抗锯齿形状、矢量路径，再导出 png、jpg、svg、gif、mp4 等格式。时间线支持逐帧动画，nodes 还能驱动 custom shaders 动画。更有辨识度的是 Node render system：layers、effects 以及 layer structure 本身都是 nodes 或节点连接的结果，每个文档都会公开 node graph，用户可重新组织渲染关系，制作 procedural art 或 procedural animations。这套节点结构不是附加功能，而是编辑器多种图形能力共同运转的基础。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 8,132 个星标 / 341 次复刻
-- 主要语言：C#；许可证：LGPL-3.0
-- 主题标签：2d、avaloniaui、csharp、dotnet-core、dotnetcore、editor、game-development、graphics、graphics-editor、linux-desktop
-- 仓库创建：2018-10-09T19:11:51Z
-- 最近推送：2026-11-09T16:16:03Z
-- 项目主页：[https://pixieditor.net](https://pixieditor.net)
-
-#### 最新发布与安装
-
-- 最新版本：[2.1.2.5](https://github.com/PixiEditor/PixiEditor/releases/tag/2.1.2.5)；发布时间：2026-10-30T10:56:15Z
-- macOS 安装包：[PixiEditor-2.1.2.5-universal-macos.dmg](https://github.com/PixiEditor/PixiEditor/releases/download/2.1.2.5/PixiEditor-2.1.2.5-universal-macos.dmg)
-- Windows 安装包：[PixiEditor-2.1.2.5-setup-x64-win.exe](https://github.com/PixiEditor/PixiEditor/releases/download/2.1.2.5/PixiEditor-2.1.2.5-setup-x64-win.exe)
-
-<a id="project-detail-79"></a>
-
-### 79. [codexu/note-gen](https://github.com/codexu/note-gen)
-
-[↖️ 返回表格中的 #79](#project-row-79)
-
-#### 中文分析
-
-NoteGen 把“先记录、后整理”落实为一套清晰流程：灵感出现时，不必先决定标题、文件夹和文章结构，文字、voice recording、screenshot、图片、链接、文件或 todo 都可以先保存为零散记录。需要成文时，再按 tag、时间或类型筛选材料，选出彼此相关的内容，随后使用 template 或直接描述写作目标，让 AI 将它们组织成 summary、report、article 或其他 Markdown 结构。生成的内容不是终点，用户可以回到 editor 审阅草稿、调整结构、补充细节，并继续用自己的语言写作。这样的分工既减少了记录瞬间的阻力，也没有把完整写作交给 AI；重点在于先保住容易消失的片段，再把选定材料变成可继续编辑的笔记。应用坚持 local-first，并同时覆盖 desktop and mobile，适合把会议录音、截图等不同形式的素材逐步整理为完整 Markdown 文档。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 12,995 个星标 / 986 次复刻
-- 主要语言：TypeScript；许可证：GPL-3.0
-- 主题标签：agent、ai-notes、knowledge-base、knowledge-management、llm、local-first、markdown、markdown-editor、mcp、nextjs
-- 仓库创建：2024-08-06T05:20:16Z
-- 最近推送：2026-11-04T13:45:40Z
-- 项目主页：[https://notegen.top](https://notegen.top)
-
-#### 最新发布与安装
-
-- 最新版本：[note-gen-v0.39.2](https://github.com/codexu/note-gen/releases/tag/note-gen-v0.39.2)；发布时间：2026-11-01T09:20:45Z
-- macOS 安装包：[NoteGen_0.39.2_aarch64.dmg](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_aarch64.dmg)；[NoteGen_0.39.2_x64.dmg](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64.dmg)
-- Windows 安装包：[NoteGen_0.39.2_x64-setup.exe](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64-setup.exe)；[NoteGen_0.39.2_x64_en-US.msi](https://github.com/codexu/note-gen/releases/download/note-gen-v0.39.2/NoteGen_0.39.2_x64_en-US.msi)
-
-<a id="project-detail-80"></a>
-
-### 80. [lightningpixel/modly](https://github.com/lightningpixel/modly)
-
-[↖️ 返回表格中的 #80](#project-row-80)
+[↖️ 返回表格中的 #83](#project-row-83)
 
 #### 中文分析
 
@@ -2094,7 +2170,7 @@ NoteGen 把“先记录、后整理”落实为一套清晰流程：灵感出现
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 8,603 个星标 / 807 次复刻
+- 热度：近期活跃热门仓库；累计 8,614 个星标 / 809 次复刻
 - 主要语言：TypeScript；许可证：NOASSERTION
 - 主题标签：3d、ai-local、ai-tools、desktop-app、modly、open-source、self-hosted
 - 仓库创建：2026-03-17T18:02:35Z
@@ -2107,11 +2183,11 @@ NoteGen 把“先记录、后整理”落实为一套清晰流程：灵感出现
 - macOS 安装包：[Modly-0.4.3-arm64.dmg](https://github.com/lightningpixel/modly/releases/download/v0.4.3/Modly-0.4.3-arm64.dmg)
 - Windows 安装包：[Modly-Setup-0.4.3.exe](https://github.com/lightningpixel/modly/releases/download/v0.4.3/Modly-Setup-0.4.3.exe)
 
-<a id="project-detail-81"></a>
+<a id="project-detail-84"></a>
 
-### 81. [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop)
+### 84. [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop)
 
-[↖️ 返回表格中的 #81](#project-row-81)
+[↖️ 返回表格中的 #84](#project-row-84)
 
 #### 中文分析
 
@@ -2119,7 +2195,7 @@ PI Desktop 把 projects、agents、models、plugins 和 workflows 收拢到一�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 7,838 个星标 / 766 次复刻
+- 热度：近期活跃热门仓库；累计 7,895 个星标 / 768 次复刻
 - 主要语言：TypeScript；许可证：LGPL-3.0
 - 主题标签：ai-agent、coding-agent、desktop-app、electron、global、i18n、local-first、mcp、pi、pi-agent
 - 仓库创建：2023-03-22T14:23:39Z
@@ -2132,61 +2208,86 @@ PI Desktop 把 projects、agents、models、plugins 和 workflows 收拢到一�
 - macOS 安装包：[PI-Desktop-0.22.0-arm64.dmg](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-0.22.0-arm64.dmg)；[PI-Desktop-0.22.0-x64.dmg](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-0.22.0-x64.dmg)
 - Windows 安装包：[PI-Desktop-Portable-0.22.0.exe](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-Portable-0.22.0.exe)；[PI-Desktop-Setup-0.22.0.exe](https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-Setup-0.22.0.exe)
 
-<a id="project-detail-82"></a>
+<a id="project-detail-85"></a>
 
-### 82. [elie222/rakazo](https://github.com/elie222/rakazo)
+### 85. [dbgate/dbgate](https://github.com/dbgate/dbgate)
 
-[↖️ 返回表格中的 #82](#project-row-82)
-
-#### 中文分析
-
-Rakazo 让每个 AI 队友拥有持续记忆、Routines、应用以及一台可操作的 computer，并由用户在自己的服务器上运行、选择自己的模型和密钥。每个 bot 的电脑包含 browser、terminal、files 和完整桌面；用户可以观看执行过程，临时接管完成登录，再把控制权交还。多个 bot 还能进入 Group chats，通过 @mention 分工、互相检查并汇报结果，任务也可继续 Delegation 给 subagents。自动化既能按计划运行，也能由 email 或 webhook 触发，并保留每次运行记录；生成的 Pages 可以作为实时仪表盘或文档全屏查看、通过链接分享并继续提问。它连接 Gmail、Slack、GitHub、Notion、Linear 等应用，也支持 MCP 与 OpenAPI 工具。网页、桌面、iPhone 和 Android 共用同一服务器。快速启动不要求克隆仓库或安装 Node，只需 Docker Engine、Compose plugin、curl 与 OpenSSL；安装器会下载 Compose 文件、生成带随机密钥的 .env 并启动服务，随后访问 http://127.0.0.1:5173 创建账户并连接模型。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 7,702 个星标 / 1,393 次复刻
-- 主要语言：TypeScript；许可证：Apache-2.0
-- 主题标签：ai-agents、chatgpt、docker、electron、expo、grok、llm、self-hosted、typescript
-- 仓库创建：2026-08-13T06:28:56Z
-- 最近推送：2026-11-09T22:16:13Z
-- 项目主页：[https://rakazo.com](https://rakazo.com)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.8.0](https://github.com/elie222/rakazo/releases/tag/v0.8.0)；发布时间：2026-11-04T21:20:37Z
-- macOS 安装包：[Rakazo-0.8.0-universal.dmg](https://github.com/elie222/rakazo/releases/download/v0.8.0/Rakazo-0.8.0-universal.dmg)
-- Windows 安装包：[Rakazo-Setup-0.8.0.exe](https://github.com/elie222/rakazo/releases/download/v0.8.0/Rakazo-Setup-0.8.0.exe)
-
-<a id="project-detail-83"></a>
-
-### 83. [4gray/iptvnator](https://github.com/4gray/iptvnator)
-
-[↖️ 返回表格中的 #83](#project-row-83)
+[↖️ 返回表格中的 #85](#project-row-85)
 
 #### 中文分析
 
-把自己的 M3U/M3U8 播放列表、Xtream Codes 账户或 Stalker / Ministra portal 加入 IPTVnator 后，就能在 macOS、Windows、Linux 或浏览器中观看 live TV，并浏览电影与剧集；播放器本身不提供订阅、频道、播放列表或媒体。直播部分支持频道分组、搜索、收藏、XMLTV guide、multi-channel EPG，以及桌面端 catch-up；影视库则会展示海报、季和观看历史，记录 resume positions，还可用自己的 API key 补充 TMDB metadata。播放既能走 built in web players，也能调用 MPV、VLC、IINA，桌面端另有实验性的 Embedded MPV；桌面版可下载电影和单集以便稍后观看，continue watching 与收藏会跨来源汇总。键盘用户可通过 Ctrl/Cmd+K 打开 command palette。除桌面应用外，还能用 Docker 运行 self hosted PWA 及其后端，无需另起后端容器；桌面程序也可启动服务器，让连接的客户端共享来源，并可用 phone remote 控制桌面播放器。
+DbGate 把同时操作多种关系型与非关系型数据库作为主要工作方式，可安装在 Windows、Linux、Mac 上，也可通过 NPM package 或 docker image 运行 Web 版本，并另有 nodeJs scripting interface。它支持 MySQL、MariaDB、PostgreSQL、SQL Server、Oracle、SQLite、DuckDB、ClickHouse、Apache Cassandra、MongoDB、Redis 等数据库，部分数据源与 API 接入属于 Premium。日常浏览表数据时可以使用多种过滤器、类似 Excel 的筛选和多值筛选；编辑数据前能够预览 SQL change script，表结构、索引、主外键也可直接维护。跨库管理还可借助 schema compare 完成结构比较与同步，并用 ER diagram 检查关系。对于不想手写 SQL 的操作，visual SQL query builder 能组合包括 WHERE NOT EXISTS 在内的复杂条件；Query perspectives 则把复杂关系数据展示为嵌套表格。列很多的表可切换到 Form view，MongoDB 集合可使用 JSON view，SQL editor 则负责执行脚本与格式化代码，批量导入导出和图表可视化也被整合在同一客户端中。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 7,669 个星标 / 1,032 次复刻
-- 主要语言：TypeScript；许可证：MIT
-- 主题标签：chromeos、electron、epg、fair-source、iptv、iptv-m3u、iptv-player、iptv-player-application、linux、m3u
-- 仓库创建：2019-10-06T15:37:40Z
-- 最近推送：2026-11-09T22:17:09Z
-- 项目主页：[https://4gray.github.io/iptvnator/](https://4gray.github.io/iptvnator/)
+- 热度：近期活跃热门仓库；累计 7,378 个星标 / 490 次复刻
+- 主要语言：JavaScript；许可证：GPL-3.0
+- 主题标签：cassandra、clickhouse、cockroachdb、cosmosdb、database-gui、database-manager、duckdb、electron、firebird、firestore
+- 仓库创建：2019-12-24T14:55:59Z
+- 最近推送：2026-11-10T08:57:18Z
+- 项目主页：[https://www.dbgate.io](https://www.dbgate.io)
 
 #### 最新发布与安装
 
-- 最新版本：[v0.25.0](https://github.com/4gray/iptvnator/releases/tag/v0.25.0)；发布时间：2026-11-08T15:30:03Z
-- macOS 安装包：[iptvnator-0.25.0-mac-arm64.dmg](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-mac-arm64.dmg)；[iptvnator-0.25.0-mac-x64.dmg](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-mac-x64.dmg)
-- Windows 安装包：[iptvnator-0.25.0-windows-x64-setup.exe](https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-windows-x64-setup.exe)
+- 最新版本：[v7.3.4](https://github.com/dbgate/dbgate/releases/tag/v7.3.4)；发布时间：2026-11-02T12:06:21Z
+- macOS 安装包：[dbgate-7.3.4-mac_arm64.dmg](https://github.com/dbgate/dbgate/releases/download/v7.3.4/dbgate-7.3.4-mac_arm64.dmg)；[dbgate-7.3.4-mac_universal.dmg](https://github.com/dbgate/dbgate/releases/download/v7.3.4/dbgate-7.3.4-mac_universal.dmg)；[dbgate-7.3.4-mac_x64.dmg](https://github.com/dbgate/dbgate/releases/download/v7.3.4/dbgate-7.3.4-mac_x64.dmg)
+- Windows 安装包：[dbgate-7.3.4-win.exe](https://github.com/dbgate/dbgate/releases/download/v7.3.4/dbgate-7.3.4-win.exe)；[dbgate-7.3.4-win_arm64.exe](https://github.com/dbgate/dbgate/releases/download/v7.3.4/dbgate-7.3.4-win_arm64.exe)；[dbgate-7.3.4-win_x64.exe](https://github.com/dbgate/dbgate/releases/download/v7.3.4/dbgate-7.3.4-win_x64.exe)
 
-<a id="project-detail-84"></a>
+<a id="project-detail-86"></a>
 
-### 84. [ayangweb/BongoCat](https://github.com/ayangweb/BongoCat)
+### 86. [nightly-labs/openbot](https://github.com/nightly-labs/openbot)
 
-[↖️ 返回表格中的 #84](#project-row-84)
+[↖️ 返回表格中的 #86](#project-row-86)
+
+#### 中文分析
+
+在 OpenBot 里，AI agent 不是一次性聊天窗口，而是各自拥有独立 workspace、conversation 和本地会话的常驻成员。桌面应用可接入 Codex App Server、Claude Code、Grok CLI，以及通过 ACP 工作的 OpenCode、Gemini、Cursor CLI、Cline CLI、Kimi Code CLI 等工具；也支持 custom OpenAI-compatible endpoints，并能检测 Ollama、LM Studio 和已安装的 agents。任务进入 crash-safe persistence 的 FIFO message queues，可暂停、恢复或取消；长对话接近模型窗口上限前会自动 compaction。不同 agent 之间可以发送消息、回复、表情、图片和受管理的文件，shared desktop channel chats 则指定一名 task owner，并提供 delegation、Stop、Resume、Reassign、Archive 与 Restore 控制。应用内还有 persistent embedded browser，agent 能打开、检查和操控页面；发布包中的 cua-driver binary 可选启用 macOS、Windows 与 Linux 的 Computer Use。README 对权限边界给出了醒目警告：首次明确同意后，agents 以 danger-full-access 和 approvalPolicy: never 运行，能够读写文件、执行命令、访问网络及控制浏览器，后续不会逐项确认，因此只应交给可信任务并提前保留备份。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 6,900 个星标 / 687 次复刻
+- 主要语言：TypeScript；许可证：NOASSERTION
+- 主题标签：ai-agents、bun、codex、electron、local-first、macos、solidjs、typescript
+- 仓库创建：2026-08-12T21:32:03Z
+- 最近推送：2026-11-11T01:04:20Z
+- 项目主页：[https://openbot.run/](https://openbot.run/)
+
+#### 最新发布与安装
+
+- 最新版本：[v0.67.1](https://github.com/nightly-labs/openbot/releases/tag/v0.67.1)；发布时间：2026-11-10T22:50:46Z
+- macOS 安装包：[OpenBot-0.67.1-arm64.dmg](https://github.com/nightly-labs/openbot/releases/download/v0.67.1/OpenBot-0.67.1-arm64.dmg)；[OpenBot-0.67.1-x64.dmg](https://github.com/nightly-labs/openbot/releases/download/v0.67.1/OpenBot-0.67.1-x64.dmg)
+- Windows 安装包：[OpenBot-0.67.1-x64.exe](https://github.com/nightly-labs/openbot/releases/download/v0.67.1/OpenBot-0.67.1-x64.exe)
+
+<a id="project-detail-87"></a>
+
+### 87. [binaricat/Netcatty](https://github.com/binaricat/Netcatty)
+
+[↖️ 返回表格中的 #87](#project-row-87)
+
+#### 中文分析
+
+把远程连接、文件传输和多终端操作收进一个工作区后，Netcatty 进一步加入了能直接参与运维的 Catty Agent。用户可以用自然语言要求它检查服务器健康状态、查看日志或监控资源；它会选择并执行相应命令，分析输出，再给出清晰摘要。遇到多台机器时，AI 助手还能进行 multi host orchestration，例如在一次对话中完成 Docker Swarm 的初始化、令牌交换与节点加入，而不只是回答命令怎么写。常规终端体验由 Electron、React 和 xterm.js 构建，支持 macOS、Windows 与 Linux，并把 Split terminals、Vault views、SFTP workflows 和自定义主题放在同一个界面中，便于一边维护连接信息，一边打开分屏会话或处理远程文件。除了图形界面中的 SSH 工作流，README 还提供从命令行打开本地终端、构建与打包的入口；界面语言覆盖 English、简体中文、繁體中文和日本語。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 7,261 个星标 / 659 次复刻
+- 主要语言：TypeScript；许可证：GPL-3.0
+- 主题标签：electron、electron-app、radix-ui、react、sftp-client、ssh、ssh-client、terminal、terminal-emulator、xterm
+- 仓库创建：2025-12-06T19:22:10Z
+- 最近推送：2026-11-10T10:52:16Z
+- 项目主页：[https://netcatty.app](https://netcatty.app)
+
+#### 最新发布与安装
+
+- 最新版本：[v1.1.90](https://github.com/binaricat/Netcatty/releases/tag/v1.1.90)；发布时间：2026-10-26T05:51:24Z
+- macOS 安装包：[Netcatty-1.1.90-mac-arm64.dmg](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-mac-arm64.dmg)；[Netcatty-1.1.90-mac-x64.dmg](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-mac-x64.dmg)
+- Windows 安装包：[Netcatty-1.1.90-portable-win-x64.exe](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-portable-win-x64.exe)；[Netcatty-1.1.90-win-x64.exe](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-win-x64.exe)
+
+<a id="project-detail-88"></a>
+
+### 88. [ayangweb/BongoCat](https://github.com/ayangweb/BongoCat)
+
+[↖️ 返回表格中的 #88](#project-row-88)
 
 #### 中文分析
 
@@ -2194,7 +2295,7 @@ Rakazo 让每个 AI 队友拥有持续记忆、Routines、应用以及一台可�
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 24,565 个星标 / 1,232 次复刻
+- 热度：近期活跃热门仓库；累计 24,578 个星标 / 1,233 次复刻
 - 主要语言：Rust；许可证：Apache-2.0
 - 主题标签：bongo-cat、bongocat、cross-platform、desktop-app、desktop-pet、linux、macos、pet、pet-project、rust
 - 仓库创建：2025-03-28T04:50:22Z
@@ -2207,36 +2308,111 @@ Rakazo 让每个 AI 队友拥有持续记忆、Routines、应用以及一台可�
 - macOS 安装包：[BongoCat-2.4.1-aarch64.dmg](https://github.com/ayangweb/BongoCat/releases/download/v2.4.1/BongoCat-2.4.1-aarch64.dmg)；[BongoCat-2.4.1-x64.dmg](https://github.com/ayangweb/BongoCat/releases/download/v2.4.1/BongoCat-2.4.1-x64.dmg)
 - Windows 安装包：[BongoCat_2.4.1_x64.exe](https://github.com/ayangweb/BongoCat/releases/download/v2.4.1/BongoCat_2.4.1_x64.exe)
 
-<a id="project-detail-85"></a>
+<a id="project-detail-89"></a>
 
-### 85. [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop)
+### 89. [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk)
 
-[↖️ 返回表格中的 #85](#project-row-85)
+[↖️ 返回表格中的 #89](#project-row-89)
 
 #### 中文分析
 
-Rancher Desktop把 Kubernetes 与容器管理整合进 Windows、macOS 和 Linux 桌面应用，但这份 README 的重点不是普通用户操作，而是如何参与开发。主体是主要用 TypeScript 编写的 Electron application，并打包多种底层技术形成统一体验；随附的命令行工具 rdctl 则使用 Go。开发构建、正式构建与打包、单元测试和端到端测试大多由 yarn scripts 驱动，BATS tests 等少数流程例外。Windows 源码构建提供 Development VM Setup 和 Manual Development Environment Setup 两条路线：前者要求在 Microsoft Windows 10 开发虚拟机中运行自动化配置脚本，再检查 .npmrc 里的 msbuild_path 与 msvs_version；以 Visual Studio 2022 为例，配置值右侧不应添加引号，否则部分处理程序可能把引号当作路径字符并导致失败。README 还提醒配置 git，使其能够正确处理源自 Linux 和 macOS 的文件。
+长任务交给编程 agent 后，Clawd on Desk 会用一只像素螃蟹把后台状态演成桌面动作：你输入提示时它思考，工具运行时它打字，subagents 增多时开始杂耍，需要授权便弹出卡片，人离开后则进入休眠。它从 agent hooks and logs 驱动 12 animated states，并附带眼球追踪、点击反馈和藏在屏幕边缘的 mini mode。Claude Code、Codex、Copilot、Gemini、Cursor、opencode、Kiro、Qwen 等二十多种工具的会话可以并排追踪；HUD 和 dashboard 会展示全部活动会话，一键跳回对应终端，还能查看 quota rings 与仅保存在本地的 recap。工具授权既可在 Permission bubbles 中选择 Allow or Deny，也可使用全局快捷键或切换 auto approve。离开电脑后，用户还能从 Telegram 或 Feishu/Lark 批准操作、接收 Slack 通知，或通过只读 mobile PWA 查看进度。安装包覆盖 Windows、macOS 和 Linux，首次启动会直接连接 Claude Code 与 Codex，其余集成可在 Settings → AI Coding Tools 中开启。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 7,408 个星标 / 393 次复刻
-- 主要语言：TypeScript；许可证：Apache-2.0
-- 主题标签：containers、kubernetes、linux、macos、windows
-- 仓库创建：2020-10-23T17:20:58Z
-- 最近推送：2026-11-09T22:21:16Z
-- 项目主页：[https://rancherdesktop.io](https://rancherdesktop.io)
+- 热度：近期活跃热门仓库；累计 6,715 个星标 / 709 次复刻
+- 主要语言：JavaScript；许可证：AGPL-3.0
+- 主题标签：claude-code、codex、copilot、cursor、desktop-pet、electron、gemini、pixel-art、svg-animation
+- 仓库创建：2026-03-18T09:04:20Z
+- 最近推送：2026-11-11T00:53:22Z
+- 项目主页：[https://clawdondesk.com/](https://clawdondesk.com/)
 
 #### 最新发布与安装
 
-- 最新版本：[v1.25.0](https://github.com/rancher-sandbox/rancher-desktop/releases/tag/v1.25.0)；发布时间：2026-11-05T23:41:36Z
-- macOS 安装包：[Rancher.Desktop-1.25.0.aarch64.dmg](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop-1.25.0.aarch64.dmg)；[Rancher.Desktop-1.25.0.x86_64.dmg](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop-1.25.0.x86_64.dmg)
-- Windows 安装包：[Rancher.Desktop.Setup.1.25.0.msi](https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop.Setup.1.25.0.msi)
+- 最新版本：[v1.6.0](https://github.com/rullerzhou-afk/clawd-on-desk/releases/tag/v1.6.0)；发布时间：2026-11-08T03:22:03Z
+- macOS 安装包：[Clawd-on-Desk-1.6.0-arm64.dmg](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-1.6.0-arm64.dmg)；[Clawd-on-Desk-1.6.0-x64.dmg](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-1.6.0-x64.dmg)
+- Windows 安装包：[Clawd-on-Desk-Setup-1.6.0-arm64.exe](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-Setup-1.6.0-arm64.exe)；[Clawd-on-Desk-Setup-1.6.0-x64.exe](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-Setup-1.6.0-x64.exe)
 
-<a id="project-detail-86"></a>
+<a id="project-detail-90"></a>
 
-### 86. [mediago-dev/mediago](https://github.com/mediago-dev/mediago)
+### 90. [mg-chao/snow-shot](https://github.com/mg-chao/snow-shot)
 
-[↖️ 返回表格中的 #86](#project-row-86)
+[↖️ 返回表格中的 #90](#project-row-90)
+
+#### 中文分析
+
+从截取到讲解再到保存参考资料，Snow Shot 将一整套屏幕内容处理流程放在 Windows 和 macOS 上：可以框选区域、捕获当前窗口或显示器、设置延时，也能生成 scrolling screenshot；截完后直接添加 arrows、shapes、text、numbered steps、highlights 和 blur，已有图片也能用同一组绘图工具继续编辑。需要对照查看时，可把图片或 clipboard content 固定在其他窗口上方，并整理、恢复这些 pins。文字处理默认可在本机完成，local OCR 用于提取文本，同时还能读取 QR codes；翻译、表格识别、AI conversion 和 cloud uploads 则由用户选择的在线服务承担。录屏可收录系统或麦克风声音，导出视频、GIF、APNG 或 WebP animations，此外还支持拼接、切图和 full screen canvas。快捷键、工具栏、主题及导出偏好均可调整，界面提供英文、简体中文和繁体中文。MCP integration 能让兼容的 AI client 调用受支持工具，但它是可选功能且默认关闭。安装包可从 GitHub Releases 获取，Windows 提供 installer 或 portable ZIP，macOS 15+ 可选 DMG 或 Homebrew。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 6,903 个星标 / 446 次复刻
+- 主要语言：C++；许可证：NOASSERTION
+- 主题标签：image-annotation、image-viewer、macos、ocr、productivity、screen-capture、screen-recorder、screenshot、screenshot-tool、scrolling-screenshot
+- 仓库创建：2025-02-26T07:04:51Z
+- 最近推送：2026-11-10T17:17:57Z
+- 项目主页：[https://snowshot.top](https://snowshot.top)
+
+#### 最新发布与安装
+
+- 最新版本：[v1.5.4_snow-shot](https://github.com/mg-chao/snow-shot/releases/tag/v1.5.4_snow-shot)；发布时间：2026-11-10T17:19:44Z
+- macOS 安装包：[snow-shot-1.5.4-macos-arm64.dmg](https://github.com/mg-chao/snow-shot/releases/download/v1.5.4_snow-shot/snow-shot-1.5.4-macos-arm64.dmg)；[snow-shot-1.5.4-macos-x86_64.dmg](https://github.com/mg-chao/snow-shot/releases/download/v1.5.4_snow-shot/snow-shot-1.5.4-macos-x86_64.dmg)；[snow-shot-mini-1.5.4-macos-arm64.dmg](https://github.com/mg-chao/snow-shot/releases/download/v1.5.4_snow-shot/snow-shot-mini-1.5.4-macos-arm64.dmg)
+- Windows 安装包：[snow-shot-1.5.4-windows-arm64-offline.exe](https://github.com/mg-chao/snow-shot/releases/download/v1.5.4_snow-shot/snow-shot-1.5.4-windows-arm64-offline.exe)；[snow-shot-1.5.4-windows-arm64-online.exe](https://github.com/mg-chao/snow-shot/releases/download/v1.5.4_snow-shot/snow-shot-1.5.4-windows-arm64-online.exe)；[snow-shot-1.5.4-windows-x64-offline.exe](https://github.com/mg-chao/snow-shot/releases/download/v1.5.4_snow-shot/snow-shot-1.5.4-windows-x64-offline.exe)
+
+<a id="project-detail-91"></a>
+
+### 91. [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic)
+
+[↖️ 返回表格中的 #91](#project-row-91)
+
+#### 中文分析
+
+多年积累在酷狗里的收藏和难以迁移的日漫 OP，是 MoeKoe Music 诞生的直接动机；它没有另造音乐内容体系，而是以简洁界面连接酷狗服务，并刻意去掉社交功能。用户可通过扫码、手机或账号完成酷狗账号登录，随后使用歌词显示、每日推荐歌曲、主题色切换、桌面歌词、全局快捷键、MV 播放和多语言界面，也能管理歌曲、歌单与收藏；README 还列出超级插件系统、布局个性化设置、新手引导系统以及 Light/Dark Mode 自动切换。成品覆盖桌面与 PWA，通常直接从 Releases 下载客户端；WEB端可用 docker、docker compose 或宝塔容器编排部署，并需开放对应端口或配置反向代理，EdgeOne Pages 部署则要填写自己的 API 地址。想自行编译时，需要 Node.js 版本至少为 24，先用 git clone --depth=1 https://github.com/MoeKoeMusic/MoeKoeMusic.git 获取源码，再执行 pnpm install --frozen-lockfile 和 pnpm run build，最后按 macOS 或 Windows 的目标架构打包，产物位于 /dist_electron 目录。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 7,130 个星标 / 450 次复刻
+- 主要语言：Vue；许可证：GPL-2.0
+- 主题标签：electron、kugou、linux、macos、moekoe、music、vue3、windows
+- 仓库创建：2024-11-02T06:22:01Z
+- 最近推送：2026-11-10T06:30:33Z
+- 项目主页：[https://Music.MoeKoe.cn](https://Music.MoeKoe.cn)
+
+#### 最新发布与安装
+
+- 最新版本：[v1.7.2](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/tag/v1.7.2)；发布时间：2026-11-08T04:00:26Z
+- macOS 安装包：[MoeKoe_Music_v1.7.2-arm64.dmg](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_v1.7.2-arm64.dmg)
+- Windows 安装包：[MoeKoe_Music_Setup_v1.7.2-ia32.exe](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_Setup_v1.7.2-ia32.exe)；[MoeKoe_Music_Setup_v1.7.2-x64.exe](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_Setup_v1.7.2-x64.exe)；[MoeKoe_Music_Setup_v1.7.2.exe](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_Setup_v1.7.2.exe)
+
+<a id="project-detail-92"></a>
+
+### 92. [luckjiawei/frpc-desktop](https://github.com/luckjiawei/frpc-desktop) 🟢
+
+[↖️ 返回表格中的 #92](#project-row-92)
+
+#### 中文分析
+
+不必手写和反复切换 frpc 配置，Frpc Desktop 把内网穿透所需的服务器、代理与运行实例集中到桌面界面中管理，并兼容所有 frp 版本。用户可以导入并识别 frpc.toml，也能一次导入或导出全部配置；创建代理时可快速选择本地端口，为 TCP 和 UDP 批量填写端口，并使用 UDP、STCP 等代理类型。代理数量较多时，可通过卡片或列表分页配合快速搜索定位。它支持同时运行连接不同 frps 服务器的多个 frpc instances，也提供多用户及 user、meta_token 配置、开机自动启动、便携版、多语言，以及浅色、深色和跟随系统的外观模式。除 FRP 外，应用还能并行管理 Cloudflare Tunnel：先在 Cloudflare Zero Trust 中用 cloudflared connector 创建隧道并配置公开主机名，再到 Instances → New Instance → Cloudflare Tunnel 粘贴 token。升级到以 Tauri 重构的 2.0 时，原有服务器、代理、桌面设置和已下载的 frpc 版本会自动保留，旧 NeDB 数据首次启动时导入，原文件则保存为 .bak。若要参与开发，环境需具备 Node.js 22.12+、npm 和稳定的 Rust toolchain。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 6,968 个星标 / 505 次复刻
+- 主要语言：Vue；许可证：MIT
+- 主题标签：desktop、electron、frp、frp-desktop、frp-linux、frp-macos、frp-window、frpc、javascript、tailwindcss
+- 仓库创建：2023-11-27T06:53:22Z
+- 最近推送：2026-11-10T11:28:55Z
+- 项目主页：[https://jwinks.com/p/frp/](https://jwinks.com/p/frp/)
+
+#### 最新发布与安装
+
+- 最新版本：[v1.2.7](https://github.com/luckjiawei/frpc-desktop/releases/tag/v1.2.7)；发布时间：2026-09-07T03:01:13Z
+- macOS 安装包：[Frpc-Desktop-1.2.7-arm64.dmg](https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.7/Frpc-Desktop-1.2.7-arm64.dmg)；[Frpc-Desktop-1.2.7-universal.dmg](https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.7/Frpc-Desktop-1.2.7-universal.dmg)；[Frpc-Desktop-1.2.7.dmg](https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.7/Frpc-Desktop-1.2.7.dmg)
+- Windows 安装包：[Frpc-Desktop-1.2.7.exe](https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.7/Frpc-Desktop-1.2.7.exe)；[Frpc-Desktop-Setup-1.2.7.exe](https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.7/Frpc-Desktop-Setup-1.2.7.exe)
+
+<a id="project-detail-93"></a>
+
+### 93. [mediago-dev/mediago](https://github.com/mediago-dev/mediago)
+
+[↖️ 返回表格中的 #93](#project-row-93)
 
 #### 中文分析
 
@@ -2244,7 +2420,7 @@ Rancher Desktop把 Kubernetes 与容器管理整合进 Windows、macOS 和 Linux
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 9,367 个星标 / 830 次复刻
+- 热度：近期活跃热门仓库；累计 9,374 个星标 / 830 次复刻
 - 主要语言：TypeScript；许可证：MIT
 - 主题标签：bilibili、downloader、electron、hls、m3u8、m3u8-downloader、m3u8download、video、youtube
 - 仓库创建：2021-01-30T18:39:00Z
@@ -2257,11 +2433,11 @@ Rancher Desktop把 Kubernetes 与容器管理整合进 Windows、macOS 和 Linux
 - macOS 安装包：[mediago-community-setup-darwin-arm64-3.5.0.dmg](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-setup-darwin-arm64-3.5.0.dmg)；[mediago-community-setup-darwin-x64-3.5.0.dmg](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-setup-darwin-x64-3.5.0.dmg)
 - Windows 安装包：[mediago-community-portable-win32-x64-3.5.0.exe](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-portable-win32-x64-3.5.0.exe)；[mediago-community-setup-win32-x64-3.5.0.exe](https://github.com/mediago-dev/mediago/releases/download/v3.5.0/mediago-community-setup-win32-x64-3.5.0.exe)
 
-<a id="project-detail-87"></a>
+<a id="project-detail-94"></a>
 
-### 87. [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop)
+### 94. [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop)
 
-[↖️ 返回表格中的 #87](#project-row-87)
+[↖️ 返回表格中的 #94](#project-row-94)
 
 #### 中文分析
 
@@ -2269,7 +2445,7 @@ Rancher Desktop把 Kubernetes 与容器管理整合进 Windows、macOS 和 Linux
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 10,147 个星标 / 1,040 次复刻
+- 热度：近期活跃热门仓库；累计 10,150 个星标 / 1,040 次复刻
 - 主要语言：JavaScript；许可证：MIT
 - 主题标签：bittorrent、electron、hacktoberfest、javascript、linux、macos、nodejs、p2p、streaming、webrtc
 - 仓库创建：2015-05-04T05:21:35Z
@@ -2282,11 +2458,61 @@ Rancher Desktop把 Kubernetes 与容器管理整合进 Windows、macOS 和 Linux
 - macOS 安装包：[WebTorrent-v0.24.0.dmg](https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.24.0/WebTorrent-v0.24.0.dmg)
 - Windows 安装包：[WebTorrentSetup-v0.24.0.exe](https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.24.0/WebTorrentSetup-v0.24.0.exe)
 
-<a id="project-detail-88"></a>
+<a id="project-detail-95"></a>
 
-### 88. [raphamorim/rio](https://github.com/raphamorim/rio)
+### 95. [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat)
 
-[↖️ 返回表格中的 #88](#project-row-88)
+[↖️ 返回表格中的 #95](#project-row-95)
+
+#### 中文分析
+
+DeepChat 把模型、工具、Skills、agent runtimes、Tape 与 long-running sessions 收进一个 local-first 桌面客户端，可连接 OpenAI、Gemini、Anthropic 等云端 API，也可使用本地部署的 Ollama。它最有辨识度的部分来自 Tape.systems philosophy：不只保留最终回答，还保存会话上下文、tool calls、请求和结果，使复杂代理任务能够恢复、追踪和检查，并可查看 token budgets。Skills 可以按会话安装、导入、导出和启用，便于复用代码审查、文档等工作方式；ACP 则用于接入其他 agent，MCP 负责扩展工具能力。除在桌面应用内操作外，remote control 还能把代理接入 Telegram、Feishu/Lark、QQBot、Discord、WeChat iLink 等消息流程，在一台本地应用中同时运行 DeepChat agents、ACP agents 和可远程控制的 bots。模型接口兼容 OpenAI/Gemini/Anthropic API format，因此既能组合不同供应商，也能保留本地优先的会话与代理运行方式。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 6,388 个星标 / 778 次复刻
+- 主要语言：TypeScript；许可证：Apache-2.0
+- 主题标签：agent、agent-skills、ai、ai-assistant、ai-sdk、chatgpt、claude、cross-platform、deepseek、electron
+- 仓库创建：2025-02-14T01:56:51Z
+- 最近推送：2026-11-10T23:25:42Z
+- 项目主页：[https://deepchat.thinkinai.xyz/](https://deepchat.thinkinai.xyz/)
+
+#### 最新发布与安装
+
+- 最新版本：[v1.1.3](https://github.com/ThinkInAIXYZ/deepchat/releases/tag/v1.1.3)；发布时间：2026-10-09T09:35:13Z
+- macOS 安装包：[DeepChat-1.1.3-mac-arm64.dmg](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-mac-arm64.dmg)；[DeepChat-1.1.3-mac-x64.dmg](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-mac-x64.dmg)
+- Windows 安装包：[DeepChat-1.1.3-windows-arm64.exe](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-windows-arm64.exe)；[DeepChat-1.1.3-windows-x64.exe](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-windows-x64.exe)
+
+<a id="project-detail-96"></a>
+
+### 96. [hovancik/stretchly](https://github.com/hovancik/stretchly)
+
+[↖️ 返回表格中的 #96](#project-row-96)
+
+#### 中文分析
+
+托盘里的 Stretchly 平时保持安静，只在休息前发出通知，再弹出带有活动建议的提醒窗口。首次启动的 Welcome window 可以选择语言、检查偏好或沿用默认节奏：Mini break 每 10 分钟持续 20 秒，Long break 每 30 分钟持续 5 分钟，分别提前 10 秒和 30 秒提醒，让用户有时间收尾。休息开始后可延期一次，短休息延后 2 分钟、长休息延后 5 分钟；经过设定时间后还可跳过，也能使用 Ctrl/Cmd + X 操作。它会识别自然离开电脑的时段，空闲达到 5 分钟便暂停计时，返回后继续；开启 Do Not Disturb 时也会暂停。点击托盘图标可以查看当前状态或进入 Preferences，调整休息时长、间隔、严格模式、声音、全屏、多屏显示、主题及活动建议。进阶配置保存在 JSON 文件中，普通界面未暴露的选项也能继续定制。Electron 实现覆盖 Windows、macOS 和 Linux，运行中的实例还可通过 stretchly help 查阅命令行控制方式。
+
+#### 项目概况
+
+- 热度：近期活跃热门仓库；累计 6,643 个星标 / 586 次复刻
+- 主要语言：JavaScript；许可证：BSD-2-Clause
+- 主题标签：breaks、bsd、electron、linux、longer-breaks、macos、reminder、windows
+- 仓库创建：2016-07-10T19:01:00Z
+- 最近推送：2026-11-10T09:16:02Z
+- 项目主页：[https://hovancik.net/stretchly](https://hovancik.net/stretchly)
+
+#### 最新发布与安装
+
+- 最新版本：[v1.22.1](https://github.com/hovancik/stretchly/releases/tag/v1.22.1)；发布时间：2026-08-13T07:20:12Z
+- macOS 安装包：[Stretchly-1.22.1-arm64.dmg](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-1.22.1-arm64.dmg)；[Stretchly-1.22.1.dmg](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-1.22.1.dmg)
+- Windows 安装包：[Stretchly-Portable-1.22.1.exe](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-Portable-1.22.1.exe)；[Stretchly-Setup-1.22.1.exe](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-Setup-1.22.1.exe)
+
+<a id="project-detail-97"></a>
+
+### 97. [raphamorim/rio](https://github.com/raphamorim/rio)
+
+[↖️ 返回表格中的 #97](#project-row-97)
 
 #### 中文分析
 
@@ -2294,7 +2520,7 @@ Rio Terminal 的目标是让同一款现代终端能够“run everywhere”，RE
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 7,721 个星标 / 379 次复刻
+- 热度：近期活跃热门仓库；累计 7,725 个星标 / 381 次复刻
 - 主要语言：Rust；许可证：MIT
 - 主题标签：gpu-acceleration、metal、rio、rio-terminal、rust、rust-lang、terminal、terminal-emulator、terminal-emulators、terminal-ui
 - 仓库创建：2022-10-05T15:18:41Z
@@ -2307,211 +2533,36 @@ Rio Terminal 的目标是让同一款现代终端能够“run everywhere”，RE
 - macOS 安装包：[rio.dmg](https://github.com/raphamorim/rio/releases/download/v0.5.29/rio.dmg)
 - Windows 安装包：[rio-installer-aarch64.msi](https://github.com/raphamorim/rio/releases/download/v0.5.29/rio-installer-aarch64.msi)；[rio-installer-x86_64.msi](https://github.com/raphamorim/rio/releases/download/v0.5.29/rio-installer-x86_64.msi)；[rio-portable-aarch64.exe](https://github.com/raphamorim/rio/releases/download/v0.5.29/rio-portable-aarch64.exe)
 
-<a id="project-detail-89"></a>
+<a id="project-detail-98"></a>
 
-### 89. [binaricat/Netcatty](https://github.com/binaricat/Netcatty)
+### 98. [lite-xl/lite-xl](https://github.com/lite-xl/lite-xl)
 
-[↖️ 返回表格中的 #89](#project-row-89)
-
-#### 中文分析
-
-把远程连接、文件传输和多终端操作收进一个工作区后，Netcatty 进一步加入了能直接参与运维的 Catty Agent。用户可以用自然语言要求它检查服务器健康状态、查看日志或监控资源；它会选择并执行相应命令，分析输出，再给出清晰摘要。遇到多台机器时，AI 助手还能进行 multi host orchestration，例如在一次对话中完成 Docker Swarm 的初始化、令牌交换与节点加入，而不只是回答命令怎么写。常规终端体验由 Electron、React 和 xterm.js 构建，支持 macOS、Windows 与 Linux，并把 Split terminals、Vault views、SFTP workflows 和自定义主题放在同一个界面中，便于一边维护连接信息，一边打开分屏会话或处理远程文件。除了图形界面中的 SSH 工作流，README 还提供从命令行打开本地终端、构建与打包的入口；界面语言覆盖 English、简体中文、繁體中文和日本語。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 7,193 个星标 / 654 次复刻
-- 主要语言：TypeScript；许可证：GPL-3.0
-- 主题标签：electron、electron-app、radix-ui、react、sftp-client、ssh、ssh-client、terminal、terminal-emulator、xterm
-- 仓库创建：2025-12-06T19:22:10Z
-- 最近推送：2026-11-09T08:52:04Z
-- 项目主页：[https://netcatty.app](https://netcatty.app)
-
-#### 最新发布与安装
-
-- 最新版本：[v1.1.90](https://github.com/binaricat/Netcatty/releases/tag/v1.1.90)；发布时间：2026-10-26T05:51:24Z
-- macOS 安装包：[Netcatty-1.1.90-mac-arm64.dmg](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-mac-arm64.dmg)；[Netcatty-1.1.90-mac-x64.dmg](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-mac-x64.dmg)
-- Windows 安装包：[Netcatty-1.1.90-portable-win-x64.exe](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-portable-win-x64.exe)；[Netcatty-1.1.90-win-x64.exe](https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-win-x64.exe)
-
-<a id="project-detail-90"></a>
-
-### 90. [nightly-labs/openbot](https://github.com/nightly-labs/openbot)
-
-[↖️ 返回表格中的 #90](#project-row-90)
+[↖️ 返回表格中的 #98](#project-row-98)
 
 #### 中文分析
 
-OpenBot 为长期运行的 AI 队友分别保存工作区与对话。Codex、Claude Code、Grok CLI、OpenCode、Gemini、Cursor CLI 等提供方都可以拥有独立工作区、会话与本地文件，同时也可通过自定义 OpenAI 兼容端点、ACP Agent，以及自动检测到的 Ollama、LM Studio 接入更多模型。任务不会只停留在一次对话中，FIFO message queues 支持暂停、恢复、取消和崩溃后的持久化；上下文接近模型窗口上限时还会自动压缩。多个 Agent 既能互发消息、回复、表情和图片，也能进行受管理的 file transfers；共享频道则以明确的任务负责人和委派关系组织协作，并提供 Stop、Resume、Reassign、Archive、Restore 等控制。应用内还有 persistent embedded browser，Agent 可以打开、检查并操作网页；发布包附带的 cua-driver 则可在 macOS、Windows 和 Linux 上提供可选的 Computer Use。它采取 local first 设计，但执行权限非常高：首次启动明确同意后，Agent 会以 danger-full-access 和 approvalPolicy: never 运行，可读写文件、执行命令、联网并控制浏览器，因此只应交付可信任务并保留备份。
+Lite XL 从 lite 衍生而来，以“实用、漂亮、小巧、快速”为取向，编辑器主体大部分使用 Lua 编写，既可以开箱使用，也便于直接修改和扩展。它相较原版更强调友好的使用体验、字体渲染质量与较低的 CPU 占用，并在 Windows、Linux 上支持 high DPI display，在 macOS 上支持 retina displays。扩展方式围绕 plugins 和 color themes 展开：额外功能可从通用插件仓库或 Lite XL plugins repository 获取，后者收录了为兼容 Lite XL 而调整的版本；颜色主题则默认随各次发布捆绑。普通用户可以直接下载 Windows、Linux 或 Mac OS 构建，若要自行编译，则采用 Meson 与 Ninja，并准备 SDL2、PCRE2、FreeType2、Lua 5.4 以及 GCC、Clang 或 MSVC 等可用的 C 编译器。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 6,707 个星标 / 671 次复刻
-- 主要语言：TypeScript；许可证：NOASSERTION
-- 主题标签：ai-agents、bun、codex、electron、local-first、macos、solidjs、typescript
-- 仓库创建：2026-08-12T21:32:03Z
-- 最近推送：2026-11-10T00:53:32Z
-- 项目主页：[https://openbot.run/](https://openbot.run/)
+- 热度：近期活跃热门仓库；累计 6,526 个星标 / 329 次复刻
+- 主要语言：Lua；许可证：MIT
+- 主题标签：c、code、code-editor、editor、lite-xl、lua、sdl2、text-editor
+- 仓库创建：2020-05-24T20:32:25Z
+- 最近推送：2026-11-10T05:19:10Z
+- 项目主页：[https://lite-xl.com](https://lite-xl.com)
 
 #### 最新发布与安装
 
-- 最新版本：[v0.66.0](https://github.com/nightly-labs/openbot/releases/tag/v0.66.0)；发布时间：2026-11-09T17:06:21Z
-- macOS 安装包：[OpenBot-0.66.0-arm64.dmg](https://github.com/nightly-labs/openbot/releases/download/v0.66.0/OpenBot-0.66.0-arm64.dmg)；[OpenBot-0.66.0-x64.dmg](https://github.com/nightly-labs/openbot/releases/download/v0.66.0/OpenBot-0.66.0-x64.dmg)
-- Windows 安装包：[OpenBot-0.66.0-x64.exe](https://github.com/nightly-labs/openbot/releases/download/v0.66.0/OpenBot-0.66.0-x64.exe)
+- 最新版本：[v2.1.8](https://github.com/lite-xl/lite-xl/releases/tag/v2.1.8)；发布时间：2025-06-08T22:58:21Z
+- macOS 安装包：[lite-xl-v2.1.8-addons-macos-arm64.dmg](https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/lite-xl-v2.1.8-addons-macos-arm64.dmg)；[lite-xl-v2.1.8-addons-macos-universal.dmg](https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/lite-xl-v2.1.8-addons-macos-universal.dmg)；[lite-xl-v2.1.8-addons-macos-x86_64.dmg](https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/lite-xl-v2.1.8-addons-macos-x86_64.dmg)
+- Windows 安装包：[LiteXL-v2.1.8-addons-i686-setup.exe](https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/LiteXL-v2.1.8-addons-i686-setup.exe)；[LiteXL-v2.1.8-addons-x86_64-setup.exe](https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/LiteXL-v2.1.8-addons-x86_64-setup.exe)；[LiteXL-v2.1.8-i686-setup.exe](https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/LiteXL-v2.1.8-i686-setup.exe)
 
-<a id="project-detail-91"></a>
+<a id="project-detail-99"></a>
 
-### 91. [mg-chao/snow-shot](https://github.com/mg-chao/snow-shot) 🟢
+### 99. [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI)
 
-[↖️ 返回表格中的 #91](#project-row-91)
-
-#### 中文分析
-
-从截取一个区域、当前焦点窗口或显示器，到延时捕获和 scrolling screenshot，Snow Shot 将截图后的整理与表达也放进了同一条工作流。捕获结果可直接添加箭头、形状、文字、编号步骤、高亮和模糊，已有图片也能继续用相同绘图工具编辑；需要对照资料时，可以把图片或剪贴板内容 pin 在其他窗口上方，并在之后整理、恢复。文字处理侧提供 local OCR 和 QR codes 识别，标准识别在设备本地完成，翻译、表格识别、AI 转换与云上传则由用户选择的在线服务承担。录屏可同时收录系统声音或麦克风音频，成品既能导出视频，也能生成 GIF、APNG、WebP 动画；此外还可拼接、切分图片，或在全屏画布上草绘。快捷键、工具栏、主题和导出偏好均可定制，界面覆盖英文、简体中文与繁体中文。MCP integration 可让兼容的 AI 客户端调用受支持工具，但默认关闭。Windows 提供安装包或便携 ZIP，macOS 15+ 可选择 DMG 或 Homebrew。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 6,852 个星标 / 440 次复刻
-- 主要语言：C++；许可证：NOASSERTION
-- 主题标签：image-annotation、image-viewer、macos、ocr、productivity、screen-capture、screen-recorder、screenshot、screenshot-tool、scrolling-screenshot
-- 仓库创建：2025-02-26T07:04:51Z
-- 最近推送：2026-11-09T16:55:36Z
-- 项目主页：[https://snowshot.top](https://snowshot.top)
-
-#### 最新发布与安装
-
-- 最新版本：[v1.5.3_snow-shot](https://github.com/mg-chao/snow-shot/releases/tag/v1.5.3_snow-shot)；发布时间：2026-11-09T17:01:52Z
-- macOS 安装包：[snow-shot-1.5.3-macos-arm64.dmg](https://github.com/mg-chao/snow-shot/releases/download/v1.5.3_snow-shot/snow-shot-1.5.3-macos-arm64.dmg)；[snow-shot-1.5.3-macos-x86_64.dmg](https://github.com/mg-chao/snow-shot/releases/download/v1.5.3_snow-shot/snow-shot-1.5.3-macos-x86_64.dmg)；[snow-shot-mini-1.5.3-macos-arm64.dmg](https://github.com/mg-chao/snow-shot/releases/download/v1.5.3_snow-shot/snow-shot-mini-1.5.3-macos-arm64.dmg)
-- Windows 安装包：[snow-shot-1.5.3-windows-arm64-offline.exe](https://github.com/mg-chao/snow-shot/releases/download/v1.5.3_snow-shot/snow-shot-1.5.3-windows-arm64-offline.exe)；[snow-shot-1.5.3-windows-arm64-online.exe](https://github.com/mg-chao/snow-shot/releases/download/v1.5.3_snow-shot/snow-shot-1.5.3-windows-arm64-online.exe)；[snow-shot-1.5.3-windows-x64-offline.exe](https://github.com/mg-chao/snow-shot/releases/download/v1.5.3_snow-shot/snow-shot-1.5.3-windows-x64-offline.exe)
-
-<a id="project-detail-92"></a>
-
-### 92. [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat)
-
-[↖️ 返回表格中的 #92](#project-row-92)
-
-#### 中文分析
-
-DeepChat 把模型、工具、Skills、agent runtimes、Tape 与 long-running sessions 收进一个 local-first 桌面客户端，可连接 OpenAI、Gemini、Anthropic 等云端 API，也可使用本地部署的 Ollama。它最有辨识度的部分来自 Tape.systems philosophy：不只保留最终回答，还保存会话上下文、tool calls、请求和结果，使复杂代理任务能够恢复、追踪和检查，并可查看 token budgets。Skills 可以按会话安装、导入、导出和启用，便于复用代码审查、文档等工作方式；ACP 则用于接入其他 agent，MCP 负责扩展工具能力。除在桌面应用内操作外，remote control 还能把代理接入 Telegram、Feishu/Lark、QQBot、Discord、WeChat iLink 等消息流程，在一台本地应用中同时运行 DeepChat agents、ACP agents 和可远程控制的 bots。模型接口兼容 OpenAI/Gemini/Anthropic API format，因此既能组合不同供应商，也能保留本地优先的会话与代理运行方式。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 6,388 个星标 / 776 次复刻
-- 主要语言：TypeScript；许可证：Apache-2.0
-- 主题标签：agent、agent-skills、ai、ai-assistant、ai-sdk、chatgpt、claude、cross-platform、deepseek、electron
-- 仓库创建：2025-02-14T01:56:51Z
-- 最近推送：2026-11-10T00:47:13Z
-- 项目主页：[https://deepchat.thinkinai.xyz/](https://deepchat.thinkinai.xyz/)
-
-#### 最新发布与安装
-
-- 最新版本：[v1.1.3](https://github.com/ThinkInAIXYZ/deepchat/releases/tag/v1.1.3)；发布时间：2026-10-09T09:35:13Z
-- macOS 安装包：[DeepChat-1.1.3-mac-arm64.dmg](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-mac-arm64.dmg)；[DeepChat-1.1.3-mac-x64.dmg](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-mac-x64.dmg)
-- Windows 安装包：[DeepChat-1.1.3-windows-arm64.exe](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-windows-arm64.exe)；[DeepChat-1.1.3-windows-x64.exe](https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.3/DeepChat-1.1.3-windows-x64.exe)
-
-<a id="project-detail-93"></a>
-
-### 93. [HuLaSpark/HuLa](https://github.com/HuLaSpark/HuLa)
-
-[↖️ 返回表格中的 #93](#project-row-93)
-
-#### 中文分析
-
-从账号登录、好友关系到语音视频和桌面通知，HuLa 已把即时通讯产品的主要交互串成完整客户端体验。用户可以进行一对一私聊和群组聊天，使用消息撤回、@提醒、回复、已读状态、表情包、链接预览卡片、点赞及历史记录；社交侧提供好友搜索、群组管理、在线状态、屏蔽免打扰、消息转发、群公告、位置发送与扫码进群。桌面体验还延伸到多窗口管理、系统托盘通知、截图功能、全局快捷键、独立媒体查看器、七牛云文件上传和自动更新，并配有深浅色及皮肤主题、i18n 支持和 AI 聊天助手。技术上以 Tauri 承载跨平台桌面与移动应用，用 Vue 3 构建响应式界面，Vite 7 负责开发与生产构建，TypeScript 提供类型约束；支持 Windows、macOS、Linux、iOS 和 Android，Web 端暂不直接支持。参与开发时可依次执行 git clone、cd HuLa、pnpm install 和 pnpm run tauri:dev，本地完成后用 pnpm run tauri:build 生成生产版本。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 7,820 个星标 / 1,061 次复刻
-- 主要语言：Vue；许可证：Apache-2.0
-- 主题标签：chatbot、cross-platform、cross-platform-app、macos、mobile、rust、tauri、tsx、vue3、webview
-- 仓库创建：2024-01-16T00:24:53Z
-- 最近推送：2026-11-07T14:45:05Z
-- 项目主页：[https://hulaspark.com](https://hulaspark.com)
-
-#### 最新发布与安装
-
-- 最新版本：[v3.0.9](https://github.com/HuLaSpark/HuLa/releases/tag/v3.0.9)；发布时间：2026-01-19T08:39:04Z
-- macOS 安装包：[HuLa_3.0.9_aarch64.dmg](https://github.com/HuLaSpark/HuLa/releases/download/v3.0.9/HuLa_3.0.9_aarch64.dmg)；[HuLa_3.0.9_x64.dmg](https://github.com/HuLaSpark/HuLa/releases/download/v3.0.9/HuLa_3.0.9_x64.dmg)
-- Windows 安装包：[HuLa_3.0.9_x64-setup.exe](https://github.com/HuLaSpark/HuLa/releases/download/v3.0.9/HuLa_3.0.9_x64-setup.exe)；[HuLa_3.0.9_x64_zh-CN.msi](https://github.com/HuLaSpark/HuLa/releases/download/v3.0.9/HuLa_3.0.9_x64_zh-CN.msi)
-
-<a id="project-detail-94"></a>
-
-### 94. [hovancik/stretchly](https://github.com/hovancik/stretchly)
-
-[↖️ 返回表格中的 #94](#project-row-94)
-
-#### 中文分析
-
-托盘里的 Stretchly 平时保持安静，只在休息前发出通知，再弹出带有活动建议的提醒窗口。首次启动的 Welcome window 可以选择语言、检查偏好或沿用默认节奏：Mini break 每 10 分钟持续 20 秒，Long break 每 30 分钟持续 5 分钟，分别提前 10 秒和 30 秒提醒，让用户有时间收尾。休息开始后可延期一次，短休息延后 2 分钟、长休息延后 5 分钟；经过设定时间后还可跳过，也能使用 Ctrl/Cmd + X 操作。它会识别自然离开电脑的时段，空闲达到 5 分钟便暂停计时，返回后继续；开启 Do Not Disturb 时也会暂停。点击托盘图标可以查看当前状态或进入 Preferences，调整休息时长、间隔、严格模式、声音、全屏、多屏显示、主题及活动建议。进阶配置保存在 JSON 文件中，普通界面未暴露的选项也能继续定制。Electron 实现覆盖 Windows、macOS 和 Linux，运行中的实例还可通过 stretchly help 查阅命令行控制方式。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 6,639 个星标 / 586 次复刻
-- 主要语言：JavaScript；许可证：BSD-2-Clause
-- 主题标签：breaks、bsd、electron、linux、longer-breaks、macos、reminder、windows
-- 仓库创建：2016-07-10T19:01:00Z
-- 最近推送：2026-11-09T08:44:57Z
-- 项目主页：[https://hovancik.net/stretchly](https://hovancik.net/stretchly)
-
-#### 最新发布与安装
-
-- 最新版本：[v1.22.1](https://github.com/hovancik/stretchly/releases/tag/v1.22.1)；发布时间：2026-08-13T07:20:12Z
-- macOS 安装包：[Stretchly-1.22.1-arm64.dmg](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-1.22.1-arm64.dmg)；[Stretchly-1.22.1.dmg](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-1.22.1.dmg)
-- Windows 安装包：[Stretchly-Portable-1.22.1.exe](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-Portable-1.22.1.exe)；[Stretchly-Setup-1.22.1.exe](https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-Setup-1.22.1.exe)
-
-<a id="project-detail-95"></a>
-
-### 95. [rullerzhou-afk/clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk)
-
-[↖️ 返回表格中的 #95](#project-row-95)
-
-#### 中文分析
-
-长任务交给编程 agent 后，Clawd on Desk 会用一只像素螃蟹把后台状态演成桌面动作：你输入提示时它思考，工具运行时它打字，subagents 增多时开始杂耍，需要授权便弹出卡片，人离开后则进入休眠。它从 agent hooks and logs 驱动 12 animated states，并附带眼球追踪、点击反馈和藏在屏幕边缘的 mini mode。Claude Code、Codex、Copilot、Gemini、Cursor、opencode、Kiro、Qwen 等二十多种工具的会话可以并排追踪；HUD 和 dashboard 会展示全部活动会话，一键跳回对应终端，还能查看 quota rings 与仅保存在本地的 recap。工具授权既可在 Permission bubbles 中选择 Allow or Deny，也可使用全局快捷键或切换 auto approve。离开电脑后，用户还能从 Telegram 或 Feishu/Lark 批准操作、接收 Slack 通知，或通过只读 mobile PWA 查看进度。安装包覆盖 Windows、macOS 和 Linux，首次启动会直接连接 Claude Code 与 Codex，其余集成可在 Settings → AI Coding Tools 中开启。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 6,703 个星标 / 708 次复刻
-- 主要语言：JavaScript；许可证：AGPL-3.0
-- 主题标签：claude-code、codex、copilot、cursor、desktop-pet、electron、gemini、pixel-art、svg-animation
-- 仓库创建：2026-03-18T09:04:20Z
-- 最近推送：2026-11-09T03:28:46Z
-- 项目主页：[https://clawdondesk.com/](https://clawdondesk.com/)
-
-#### 最新发布与安装
-
-- 最新版本：[v1.6.0](https://github.com/rullerzhou-afk/clawd-on-desk/releases/tag/v1.6.0)；发布时间：2026-11-08T03:22:03Z
-- macOS 安装包：[Clawd-on-Desk-1.6.0-arm64.dmg](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-1.6.0-arm64.dmg)；[Clawd-on-Desk-1.6.0-x64.dmg](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-1.6.0-x64.dmg)
-- Windows 安装包：[Clawd-on-Desk-Setup-1.6.0-arm64.exe](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-Setup-1.6.0-arm64.exe)；[Clawd-on-Desk-Setup-1.6.0-x64.exe](https://github.com/rullerzhou-afk/clawd-on-desk/releases/download/v1.6.0/Clawd-on-Desk-Setup-1.6.0-x64.exe)
-
-<a id="project-detail-96"></a>
-
-### 96. [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic)
-
-[↖️ 返回表格中的 #96](#project-row-96)
-
-#### 中文分析
-
-因为多年收藏的歌曲和不少日漫 OP 都留在酷狗，MoeKoe Music 选择重做一个更合心意的播放入口，而不是迁移曲库。它支持酷狗账号的扫码、手机和账号登录，能够显示歌词、提供每日推荐歌曲，并通过官方服务器直连完成播放；产品刻意移除了社交功能，同时加入主题色切换、启动问候语、布局个性化设置、新手引导系统以及隐藏功能和彩蛋系统。已完成的体验还覆盖 MV 播放、桌面歌词、全局快捷键、多语言支持、Touch Bar、PWA 和 Light/Dark Mode 自动切换。普通用户可直接从 Releases 下载客户端；Web 端可以用 docker、docker compose 或宝塔容器编排部署，也能通过 EdgeOne Pages 发布，但需要配置自己的 API 地址。需要自行构建时，README 指定 Node.js 22.14.0 或更新版本，随后以 git clone --depth=1 获取代码、执行 pnpm install --frozen-lockfile 安装依赖，再用 pnpm run build 构建前端，最后按 macOS、Windows 或 Linux 的目标架构打包，产物会进入 /dist_electron 目录。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 7,124 个星标 / 447 次复刻
-- 主要语言：Vue；许可证：GPL-2.0
-- 主题标签：electron、kugou、linux、macos、moekoe、music、vue3、windows
-- 仓库创建：2024-11-02T06:22:01Z
-- 最近推送：2026-11-08T04:00:26Z
-- 项目主页：[https://Music.MoeKoe.cn](https://Music.MoeKoe.cn)
-
-#### 最新发布与安装
-
-- 最新版本：[v1.7.2](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/tag/v1.7.2)；发布时间：2026-11-08T04:00:26Z
-- macOS 安装包：[MoeKoe_Music_v1.7.2-arm64.dmg](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_v1.7.2-arm64.dmg)
-- Windows 安装包：[MoeKoe_Music_Setup_v1.7.2-ia32.exe](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_Setup_v1.7.2-ia32.exe)；[MoeKoe_Music_Setup_v1.7.2-x64.exe](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_Setup_v1.7.2-x64.exe)；[MoeKoe_Music_Setup_v1.7.2.exe](https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_Setup_v1.7.2.exe)
-
-<a id="project-detail-97"></a>
-
-### 97. [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI)
-
-[↖️ 返回表格中的 #97](#project-row-97)
+[↖️ 返回表格中的 #99](#project-row-99)
 
 #### 中文分析
 
@@ -2519,11 +2570,11 @@ DeepChat 把模型、工具、Skills、agent runtimes、Tape 与 long-running se
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 6,176 个星标 / 978 次复刻
+- 热度：近期活跃热门仓库；累计 6,174 个星标 / 978 次复刻
 - 主要语言：TypeScript；许可证：MIT
 - 主题标签：agent、ai-agent、ai-assistant、automation、autonomous-agents、chatbot、copilot、cross-platform、desktop-app、electron
 - 仓库创建：2026-02-12T09:56:20Z
-- 最近推送：2026-11-09T15:57:34Z
+- 最近推送：2026-11-10T16:51:59Z
 - 项目主页：[https://lobsterai.youdao.com](https://lobsterai.youdao.com)
 
 #### 最新发布与安装
@@ -2532,80 +2583,30 @@ DeepChat 把模型、工具、Skills、agent runtimes、Tape 与 long-running se
 - macOS 安装包：[LobsterAI--mac-arm64.dmg](https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.6/LobsterAI--mac-arm64.dmg)；[LobsterAI--mac-x64.dmg](https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.6/LobsterAI--mac-x64.dmg)
 - Windows 安装包：[LobsterAI--win-x64.exe](https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.6/LobsterAI--win-x64.exe)
 
-<a id="project-detail-98"></a>
-
-### 98. [KunAgent/Kun](https://github.com/KunAgent/Kun)
-
-[↖️ 返回表格中的 #98](#project-row-98)
-
-#### 中文分析
-
-写代码、整理资料和调度 Agent 在 Kun 里共享同一个本地运行时，而不是被拆成互不相通的工具。Code 把项目、终端、Git 与 Diff 放在一起，Design 画布可先比较多屏、不同状态和方案，再交给 Agent 实现；Work 以标签页和分屏组织文件与会话，选中文字即可改写、扩写或引用，选中表格单元格还能查看统计并让 Kun 分析，论文库则集中保存导入资料、阅读笔记和相关会话。协作时可以与个人 Agent、Codex、Claude Code、OpenCode 私聊或组群，为计划指定执行者并查看进展；实际数据还可被整理成带指标、图表和说明的报告，保存到产物库继续更新。首次使用只需从 Releases 安装、在引导中连接 OpenAI、Anthropic 兼容接口或本地模型，然后把项目文件夹交给 Code，或把资料拖入 Work，Agent 动手前会请求确认。GUI 与 TUI 由同一个 kun serve 支撑，因此线程、计划和审批可以接续；桌面端运行时，终端可直接连接它，单独执行 kun 则会自行启动并在退出时停止运行时。源码开发要求 Node.js 22.19+，可用 npm run dev 启动 Electron 环境，或用 npm run dev:tui 启动终端界面。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 6,382 个星标 / 594 次复刻
-- 主要语言：TypeScript；许可证：NOASSERTION
-- 主题标签：agentic-workflow、ai-agent、ai-assistant、ai-design、automation、coding-agent、deepseek、desktop-app、electron、llm
-- 仓库创建：2026-05-21T13:22:06Z
-- 最近推送：2026-11-09T04:16:29Z
-- 项目主页：[https://www.kun-agent.com](https://www.kun-agent.com)
-
-#### 最新发布与安装
-
-- 最新版本：[v0.4.5](https://github.com/KunAgent/Kun/releases/tag/v0.4.5)；发布时间：2026-11-09T04:26:12Z
-- macOS 安装包：[Kun-0.4.5-mac-arm64.dmg](https://github.com/KunAgent/Kun/releases/download/v0.4.5/Kun-0.4.5-mac-arm64.dmg)；[Kun-0.4.5-mac-x64.dmg](https://github.com/KunAgent/Kun/releases/download/v0.4.5/Kun-0.4.5-mac-x64.dmg)
-- Windows 安装包：[Kun-0.4.5-win-x64.exe](https://github.com/KunAgent/Kun/releases/download/v0.4.5/Kun-0.4.5-win-x64.exe)
-
-<a id="project-detail-99"></a>
-
-### 99. [YILS-LIN/short-video-factory](https://github.com/YILS-LIN/short-video-factory)
-
-[↖️ 返回表格中的 #99](#project-row-99)
-
-#### 中文分析
-
-给出提示词文本并准备视频分镜素材后，AI Short Video Factory 会把短视频生产串成一条自动流程：先生成文案，再通过语音合成得到旁白，随后将文案、视频、音频与字幕合成并完成自动混剪。它既可制作产品营销内容，也能处理更泛化的短视频题材；批量处理允许建立一个任务，按照预设持续合成视频，减少逐条重复操作。文案生成兼容通用的 OpenAI 接口格式，语音环节已经支持 EdgeTTS，成品制作覆盖多种视频格式，并提供中文、英文等多语言能力。应用以桌面界面运行在 Windows、macOS 和 Linux 上，数据处理强调本地运行；普通用户可直接前往 Github Release 下载对应版本，再按官方文档操作。路线图也明确区分了当前能力与后续计划：文案生成、语音合成、自动混剪、单个批量任务和使用手册已经完成，而更全面的参数调整、更多语音合成 API，以及多种字幕样式和特效仍处于待办状态，因此现阶段不应把字幕特效的规划当成已交付功能。
-
-#### 项目概况
-
-- 热度：近期活跃热门仓库；累计 6,095 个星标 / 837 次复刻
-- 主要语言：TypeScript；许可证：AGPL-3.0
-- 主题标签：ai、automatic、automation、clipping、cross-platform、desktop、linux、mac、marketing、pc
-- 仓库创建：2025-07-09T05:55:44Z
-- 最近推送：2026-11-09T02:58:06Z
-- 项目主页：[https://short-video-factory.yils.blog](https://short-video-factory.yils.blog)
-
-#### 最新发布与安装
-
-- 最新版本：[v1.4.0](https://github.com/YILS-LIN/short-video-factory/releases/tag/v1.4.0)；发布时间：2026-11-09T02:58:47Z
-- macOS 安装包：[short-video-factory-1.4.0-mac-universal-installer.dmg](https://github.com/YILS-LIN/short-video-factory/releases/download/v1.4.0/short-video-factory-1.4.0-mac-universal-installer.dmg)
-- Windows 安装包：[short-video-factory-1.4.0-win-x64-setup.exe](https://github.com/YILS-LIN/short-video-factory/releases/download/v1.4.0/short-video-factory-1.4.0-win-x64-setup.exe)
-
 <a id="project-detail-100"></a>
 
-### 100. [reqable/reqable-app](https://github.com/reqable/reqable-app)
+### 100. [pbek/QOwnNotes](https://github.com/pbek/QOwnNotes)
 
 [↖️ 返回表格中的 #100](#project-row-100)
 
 #### 中文分析
 
-Reqable 将抓包调试与接口测试放进同一套工作区，减少在多个独立工具之间搬运请求的过程。调试侧采用经典 MITM (Man in the Middle) 策略：桌面端通过系统级代理捕获 HTTP(S) 流量，移动端则使用 local VPN；抓到的请求可以继续执行 request replay、inline editing、breakpoints、URL rewriting 和 custom scripting。测试侧可编写、发送并整理 HTTP、WebSocket、SSE 请求，gRPC 标注为 coming soon；API collections 支持按文件夹组织，environment variables 带有作用域解析，同时提供内置 API 文档编写与跨设备 cloud synchronization。软件覆盖 Windows、macOS、Linux、Android 和 iOS，采用 login free architecture，多数功能免费，Community edition 可满足多数个人使用需求，高级用户和团队则可选择 Premium。尤其需要分清的是，Reqable is not an open source project；这个 GitHub 仓库只承担 issue tracking、feature requests 和 user feedback，并不提供产品源代码。
+笔记在 QOwnNotes 中并未被锁进专有数据库，而是直接保存为 plain text markdown files：可以在 GNU/Linux、macOS 或 Windows 上记录想法、编辑与搜索内容，再借助 Nextcloud 或 ownCloud 的文件同步功能把同一批文件带到网页端和移动设备。偏好其他同步方案时，也可改用 Syncthing 或 Dropbox，因此即使离开 QOwnNotes，普通文本编辑器仍能读取和修改笔记。待办事项的跨端管理依赖 Nextcloud 或 ownCloud 上的 Tasks backend；若希望获得笔记版本记录和回收站访问等在线功能，则可在服务器安装 QOwnNotes Nextcloud app，旧版服务器仍可继续使用 QOwnNotesAPI。移动端并不限定单一客户端：Android 可用 QOwnNotes Android，也可通过 FolderSync 等工具同步后交给 Markor 或 neutriNotes 编辑；iOS 与 ownCloud、Nextcloud 也有相应应用可接入。浏览网页时，还能利用 QOwnNotes Web Companion 的 Firefox 或 Chrome extension 配合笔记工作。整套设计的辨识度在于保留 Markdown 文件的可见性与可迁移性，同时把桌面编辑、搜索、待办和自建云同步串联起来。
 
 #### 项目概况
 
-- 热度：近期活跃热门仓库；累计 6,942 个星标 / 278 次复刻
-- 主要语言：未知；许可证：未标注
-- 主题标签：android-app、capture、debugging-tool、desktop-app、flutter、http、http2、http3、https、ios-app
-- 仓库创建：2022-12-02T05:05:35Z
-- 最近推送：2026-11-07T13:02:55Z
-- 项目主页：[https://reqable.com](https://reqable.com)
+- 热度：近期活跃热门仓库；累计 5,955 个星标 / 497 次复刻
+- 主要语言：C++；许可证：GPL-2.0
+- 主题标签：bookmark、c-plus-plus、caldav、chrome-extension、dropbox、firefox-extension、llm、local-first、markdown、nextcloud
+- 仓库创建：2014-12-02T14:38:05Z
+- 最近推送：2026-11-10T20:30:40Z
+- 项目主页：[https://www.qownnotes.org/](https://www.qownnotes.org/)
 
 #### 最新发布与安装
 
-- 最新版本：[3.3.11](https://github.com/reqable/reqable-app/releases/tag/3.3.11)；发布时间：2026-11-07T13:02:57Z
-- macOS 安装包：[reqable-app-macos-arm64.dmg](https://github.com/reqable/reqable-app/releases/download/3.3.11/reqable-app-macos-arm64.dmg)；[reqable-app-macos-x86_64.dmg](https://github.com/reqable/reqable-app/releases/download/3.3.11/reqable-app-macos-x86_64.dmg)
-- Windows 安装包：[reqable-app-windows-x86_64.exe](https://github.com/reqable/reqable-app/releases/download/3.3.11/reqable-app-windows-x86_64.exe)
+- 最新版本：[v26.11.7](https://github.com/pbek/QOwnNotes/releases/tag/v26.11.7)；发布时间：2026-11-10T19:38:36Z
+- macOS 安装包：[QOwnNotes.dmg](https://github.com/pbek/QOwnNotes/releases/download/v26.11.7/QOwnNotes.dmg)；[QOwnNotesQt5.dmg](https://github.com/pbek/QOwnNotes/releases/download/v26.11.7/QOwnNotesQt5.dmg)
+- Windows 安装包：[QOwnNotes.msi](https://github.com/pbek/QOwnNotes/releases/download/v26.11.7/QOwnNotes.msi)
 
 ---
 
