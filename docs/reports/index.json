@@ -8757,8 +8757,369 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-11-12",
+      "latest": "2026-11-14",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-11-14",
+          "generated_at": "2026-11-14T09:09:02+08:00",
+          "discovered_count": 984,
+          "candidate_count": 100,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "ZhuLinsen/daily_stock_analysis",
+              "trending_rank": 4,
+              "stars_today": 256
+            },
+            {
+              "rank": 2,
+              "name": "alibaba/open-code-review",
+              "trending_rank": 1,
+              "stars_today": 215
+            },
+            {
+              "rank": 3,
+              "name": "openai/codex-security",
+              "trending_rank": 3,
+              "stars_today": 751
+            },
+            {
+              "rank": 5,
+              "name": "GoogleChrome/modern-web-guidance-src",
+              "trending_rank": 2,
+              "stars_today": 1925
+            },
+            {
+              "rank": 6,
+              "name": "we-promise/sure",
+              "trending_rank": 5,
+              "stars_today": 925
+            },
+            {
+              "rank": 7,
+              "name": "block/buzz",
+              "trending_rank": 8,
+              "stars_today": 97
+            },
+            {
+              "rank": 9,
+              "name": "ChromeDevTools/chrome-devtools-mcp",
+              "trending_rank": 12,
+              "stars_today": 67
+            },
+            {
+              "rank": 12,
+              "name": "louislam/uptime-kuma",
+              "trending_rank": 7,
+              "stars_today": 71
+            },
+            {
+              "rank": 15,
+              "name": "backnotprop/plannotator",
+              "trending_rank": 6,
+              "stars_today": 108
+            },
+            {
+              "rank": 17,
+              "name": "Likely7/Veyra-NRVideo",
+              "trending_rank": 11,
+              "stars_today": 256
+            },
+            {
+              "rank": 19,
+              "name": "tailscale/tailcat",
+              "trending_rank": 10,
+              "stars_today": 256
+            },
+            {
+              "rank": 22,
+              "name": "tradermonty/claude-trading-skills",
+              "trending_rank": 9,
+              "stars_today": 69
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "ZhuLinsen/daily_stock_analysis",
+              "trending_rank": 6,
+              "stars_today": 3778
+            },
+            {
+              "rank": 4,
+              "name": "mattpocock/skills",
+              "trending_rank": 9,
+              "stars_today": 7599
+            },
+            {
+              "rank": 8,
+              "name": "anthropics/skills",
+              "trending_rank": 2,
+              "stars_today": 6169
+            },
+            {
+              "rank": 10,
+              "name": "milind-soni/OpenMausBot",
+              "trending_rank": 3,
+              "stars_today": 7763
+            },
+            {
+              "rank": 11,
+              "name": "google/elephant-goldfish-model",
+              "trending_rank": 5,
+              "stars_today": 5560
+            },
+            {
+              "rank": 13,
+              "name": "cloudflare/security-audit-skill",
+              "trending_rank": 11,
+              "stars_today": 8829
+            },
+            {
+              "rank": 14,
+              "name": "vercel-labs/agent-browser",
+              "trending_rank": 4,
+              "stars_today": 4360
+            },
+            {
+              "rank": 16,
+              "name": "addyosmani/agent-skills",
+              "trending_rank": 10,
+              "stars_today": 3502
+            },
+            {
+              "rank": 18,
+              "name": "sherlock-project/sherlock",
+              "trending_rank": 1,
+              "stars_today": 13364
+            },
+            {
+              "rank": 20,
+              "name": "vercel-labs/agent-desktop",
+              "trending_rank": 14,
+              "stars_today": 5408
+            },
+            {
+              "rank": 21,
+              "name": "NVIDIA/auto-ontology",
+              "trending_rank": 7,
+              "stars_today": 4108
+            },
+            {
+              "rank": 23,
+              "name": "zed-industries/zed",
+              "trending_rank": 12,
+              "stars_today": 2117
+            },
+            {
+              "rank": 24,
+              "name": "lobehub/lobehub",
+              "trending_rank": 15,
+              "stars_today": 1126
+            },
+            {
+              "rank": 25,
+              "name": "anthropics/claude-quickstarts",
+              "trending_rank": 13,
+              "stars_today": 1731
+            },
+            {
+              "rank": 26,
+              "name": "google-deepmind/mujoco",
+              "trending_rank": 8,
+              "stars_today": 1764
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 2,
+              "name": "alibaba/open-code-review"
+            },
+            {
+              "rank": 3,
+              "name": "openai/codex-security"
+            },
+            {
+              "rank": 5,
+              "name": "GoogleChrome/modern-web-guidance-src"
+            },
+            {
+              "rank": 7,
+              "name": "block/buzz"
+            },
+            {
+              "rank": 9,
+              "name": "ChromeDevTools/chrome-devtools-mcp"
+            },
+            {
+              "rank": 12,
+              "name": "louislam/uptime-kuma"
+            },
+            {
+              "rank": 15,
+              "name": "backnotprop/plannotator"
+            },
+            {
+              "rank": 17,
+              "name": "Likely7/Veyra-NRVideo"
+            },
+            {
+              "rank": 19,
+              "name": "tailscale/tailcat"
+            },
+            {
+              "rank": 22,
+              "name": "tradermonty/claude-trading-skills"
+            },
+            {
+              "rank": 23,
+              "name": "zed-industries/zed"
+            },
+            {
+              "rank": 24,
+              "name": "lobehub/lobehub"
+            },
+            {
+              "rank": 38,
+              "name": "ultraworkers/claw-code"
+            },
+            {
+              "rank": 80,
+              "name": "storytold/filmcraft"
+            },
+            {
+              "rank": 88,
+              "name": "browser-use/jev-ultrafast"
+            },
+            {
+              "rank": 92,
+              "name": "Kianuni/Erosion-CN"
+            },
+            {
+              "rank": 93,
+              "name": "koala73/worldmonitor"
+            },
+            {
+              "rank": 94,
+              "name": "rtk-ai/rtk"
+            },
+            {
+              "rank": 96,
+              "name": "storytold/lightcraft"
+            },
+            {
+              "rank": 98,
+              "name": "apex-compute/ANR"
+            }
+          ],
+          "warnings_count": 0,
+          "item_names": [
+            "ZhuLinsen/daily_stock_analysis",
+            "alibaba/open-code-review",
+            "openai/codex-security",
+            "mattpocock/skills",
+            "GoogleChrome/modern-web-guidance-src",
+            "we-promise/sure",
+            "block/buzz",
+            "anthropics/skills",
+            "ChromeDevTools/chrome-devtools-mcp",
+            "milind-soni/OpenMausBot",
+            "google/elephant-goldfish-model",
+            "louislam/uptime-kuma",
+            "cloudflare/security-audit-skill",
+            "vercel-labs/agent-browser",
+            "backnotprop/plannotator",
+            "addyosmani/agent-skills",
+            "Likely7/Veyra-NRVideo",
+            "sherlock-project/sherlock",
+            "tailscale/tailcat",
+            "vercel-labs/agent-desktop",
+            "NVIDIA/auto-ontology",
+            "tradermonty/claude-trading-skills",
+            "zed-industries/zed",
+            "lobehub/lobehub",
+            "anthropics/claude-quickstarts",
+            "google-deepmind/mujoco",
+            "deepseek-ai/deepseek-harness",
+            "morluto/rea",
+            "storytold/craft-anything",
+            "Gathin23/cleanyourtv",
+            "storytold/photocraft",
+            "Ebony-Vinyl/dsh-our-free-model",
+            "openclaw/openclaw",
+            "huamidev/GestaltX",
+            "eternity4719/HowToLiveBetter",
+            "affaan-m/ECC",
+            "ccch1mneyyy/dsh-Go",
+            "ultraworkers/claw-code",
+            "deepseek-ai/dsh-superagent-prototype",
+            "Niko1221/Strata",
+            "Graphify-Labs/graphify",
+            "NousResearch/hermes-agent",
+            "yetone/magpie",
+            "garrytan/gstack",
+            "odysseus-dev/odysseus",
+            "heydamir/unslop",
+            "DietrichGebert/ponytail",
+            "JuliusBrussee/caveman",
+            "nexu-io/open-design",
+            "stablyai/orca",
+            "debpalash/VoiceStudio",
+            "KnifeLemon/Filee",
+            "obra/superpowers",
+            "boykopovar/AnyPS5",
+            "zortos293/Lichii",
+            "NandhaKishorM/laya",
+            "paperclipai/paperclip",
+            "tt-a1i/archify",
+            "anomalyco/opencode",
+            "bilawalsidhu/gods-eye-view",
+            "anefzaoui/misterdownloadmanager",
+            "deepseek-ai/DeepInfer",
+            "wangzan101/Mika",
+            "storytold/wordcraft",
+            "seedds/nxnative",
+            "storytold/pdfcraft",
+            "Egonex-AI/Understand-Anything",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "JuneYaooo/rea-video",
+            "career-ops-hq/career-ops",
+            "pengchujin/aerial-tv",
+            "patch-gg/pixelfx",
+            "farion1231/cc-switch",
+            "JustVugg/colibri",
+            "anywhere-labs/dsh-desktop",
+            "tangency-labs/solidcraft",
+            "msitarzewski/agency-agents",
+            "heygen-com/hyperframes",
+            "github/spec-kit",
+            "storytold/filmcraft",
+            "KKKKhazix/agent-autoloop",
+            "Leonxlnx/taste-skill",
+            "Droid-Deck/DroidDeck",
+            "valentderah/totk-pc-recomp",
+            "rohitg00/ai-engineering-from-scratch",
+            "Panniantong/Agent-Reach",
+            "cheaper-inference/OmniRoute",
+            "browser-use/jev-ultrafast",
+            "jhaizhou-ops/S2Arm",
+            "pbakaus/impeccable",
+            "janestreet/agent_skills",
+            "Kianuni/Erosion-CN",
+            "koala73/worldmonitor",
+            "rtk-ai/rtk",
+            "cathrynlavery/diagram-design",
+            "storytold/lightcraft",
+            "l0ng-ai/openidea",
+            "apex-compute/ANR",
+            "rddmwmddr/android-ad-cleaner",
+            "thedotmack/claude-mem"
+          ],
+          "report_path": "reports/hot-rising/2026-11-14.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-11-12",
