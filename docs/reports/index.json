@@ -8878,8 +8878,323 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-11-14",
+      "latest": "2026-11-15",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-11-15",
+          "generated_at": "2026-11-15T09:08:17+08:00",
+          "discovered_count": 985,
+          "candidate_count": 100,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "backnotprop/plannotator",
+              "trending_rank": 1,
+              "stars_today": 408
+            },
+            {
+              "rank": 2,
+              "name": "alibaba/open-code-review",
+              "trending_rank": 5,
+              "stars_today": 893
+            },
+            {
+              "rank": 3,
+              "name": "ChromeDevTools/chrome-devtools-mcp",
+              "trending_rank": 4,
+              "stars_today": 664
+            },
+            {
+              "rank": 4,
+              "name": "JuliusBrussee/caveman",
+              "trending_rank": 10,
+              "stars_today": 227
+            },
+            {
+              "rank": 5,
+              "name": "GoogleChrome/modern-web-guidance-src",
+              "trending_rank": 2,
+              "stars_today": 1231
+            },
+            {
+              "rank": 7,
+              "name": "we-promise/sure",
+              "trending_rank": 12,
+              "stars_today": 659
+            },
+            {
+              "rank": 8,
+              "name": "louislam/uptime-kuma",
+              "trending_rank": 11,
+              "stars_today": 430
+            },
+            {
+              "rank": 10,
+              "name": "tradermonty/claude-trading-skills",
+              "trending_rank": 3,
+              "stars_today": 553
+            },
+            {
+              "rank": 11,
+              "name": "Likely7/Veyra-NRVideo",
+              "trending_rank": 14,
+              "stars_today": 420
+            },
+            {
+              "rank": 20,
+              "name": "dream-num/univer",
+              "trending_rank": 7,
+              "stars_today": 495
+            },
+            {
+              "rank": 21,
+              "name": "QwenLM/qwen-code",
+              "trending_rank": 6,
+              "stars_today": 64
+            },
+            {
+              "rank": 30,
+              "name": "ag-ui-protocol/ag-ui",
+              "trending_rank": 8,
+              "stars_today": 9
+            },
+            {
+              "rank": 31,
+              "name": "ashhart/TensorFold",
+              "trending_rank": 9,
+              "stars_today": 37
+            },
+            {
+              "rank": 39,
+              "name": "martin-olivier/airgorah",
+              "trending_rank": 15,
+              "stars_today": 270
+            },
+            {
+              "rank": 51,
+              "name": "Tencent/LoopForge",
+              "trending_rank": 13,
+              "stars_today": 33
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "backnotprop/plannotator",
+              "trending_rank": 9,
+              "stars_today": 818
+            },
+            {
+              "rank": 6,
+              "name": "anthropics/skills",
+              "trending_rank": 3,
+              "stars_today": 6220
+            },
+            {
+              "rank": 9,
+              "name": "google/elephant-goldfish-model",
+              "trending_rank": 5,
+              "stars_today": 5539
+            },
+            {
+              "rank": 12,
+              "name": "ZhuLinsen/daily_stock_analysis",
+              "trending_rank": 7,
+              "stars_today": 4526
+            },
+            {
+              "rank": 13,
+              "name": "milind-soni/OpenMausBot",
+              "trending_rank": 6,
+              "stars_today": 6413
+            },
+            {
+              "rank": 14,
+              "name": "addyosmani/agent-skills",
+              "trending_rank": 10,
+              "stars_today": 3670
+            },
+            {
+              "rank": 15,
+              "name": "vercel-labs/agent-browser",
+              "trending_rank": 4,
+              "stars_today": 4601
+            },
+            {
+              "rank": 16,
+              "name": "sherlock-project/sherlock",
+              "trending_rank": 2,
+              "stars_today": 12401
+            },
+            {
+              "rank": 17,
+              "name": "anthropics/claude-quickstarts",
+              "trending_rank": 11,
+              "stars_today": 1794
+            },
+            {
+              "rank": 18,
+              "name": "google-deepmind/mujoco",
+              "trending_rank": 8,
+              "stars_today": 1859
+            },
+            {
+              "rank": 22,
+              "name": "meta/astryx",
+              "trending_rank": 1,
+              "stars_today": 13660
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 20,
+              "name": "dream-num/univer"
+            },
+            {
+              "rank": 21,
+              "name": "QwenLM/qwen-code"
+            },
+            {
+              "rank": 30,
+              "name": "ag-ui-protocol/ag-ui"
+            },
+            {
+              "rank": 31,
+              "name": "ashhart/TensorFold"
+            },
+            {
+              "rank": 34,
+              "name": "libracoder/kiri"
+            },
+            {
+              "rank": 39,
+              "name": "martin-olivier/airgorah"
+            },
+            {
+              "rank": 43,
+              "name": "pingdotgg/t3code"
+            },
+            {
+              "rank": 51,
+              "name": "Tencent/LoopForge"
+            },
+            {
+              "rank": 55,
+              "name": "vercel-labs/ui"
+            },
+            {
+              "rank": 86,
+              "name": "Lee-xeo/Claude-Cage"
+            }
+          ],
+          "warnings_count": 0,
+          "item_names": [
+            "backnotprop/plannotator",
+            "alibaba/open-code-review",
+            "ChromeDevTools/chrome-devtools-mcp",
+            "JuliusBrussee/caveman",
+            "GoogleChrome/modern-web-guidance-src",
+            "anthropics/skills",
+            "we-promise/sure",
+            "louislam/uptime-kuma",
+            "google/elephant-goldfish-model",
+            "tradermonty/claude-trading-skills",
+            "Likely7/Veyra-NRVideo",
+            "ZhuLinsen/daily_stock_analysis",
+            "milind-soni/OpenMausBot",
+            "addyosmani/agent-skills",
+            "vercel-labs/agent-browser",
+            "sherlock-project/sherlock",
+            "anthropics/claude-quickstarts",
+            "google-deepmind/mujoco",
+            "morluto/rea",
+            "dream-num/univer",
+            "QwenLM/qwen-code",
+            "meta/astryx",
+            "storytold/craft-anything",
+            "Ebony-Vinyl/dsh-our-free-model",
+            "deepseek-ai/deepseek-harness",
+            "ccch1mneyyy/dsh-Go",
+            "mattpocock/skills",
+            "Gathin23/cleanyourtv",
+            "affaan-m/ECC",
+            "ag-ui-protocol/ag-ui",
+            "ashhart/TensorFold",
+            "debpalash/VoiceStudio",
+            "stablyai/orca",
+            "libracoder/kiri",
+            "Graphify-Labs/graphify",
+            "storytold/photocraft",
+            "DietrichGebert/ponytail",
+            "anefzaoui/misterdownloadmanager",
+            "martin-olivier/airgorah",
+            "yetone/magpie",
+            "heydamir/unslop",
+            "JuneYaooo/rea-video",
+            "pingdotgg/t3code",
+            "huamidev/GestaltX",
+            "pbakaus/impeccable",
+            "KnifeLemon/Filee",
+            "obra/superpowers",
+            "Leonxlnx/taste-skill",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "Niko1221/Strata",
+            "Tencent/LoopForge",
+            "eternity4719/HowToLiveBetter",
+            "cloudflare/security-audit-skill",
+            "heygen-com/hyperframes",
+            "vercel-labs/ui",
+            "lemomo-ai/lemo-opuscar",
+            "boykopovar/AnyPS5",
+            "NousResearch/hermes-agent",
+            "apex-compute/ANR",
+            "cheaper-inference/OmniRoute",
+            "paperclipai/paperclip",
+            "janestreet/agent_skills",
+            "tt-a1i/archify",
+            "JustVugg/colibri",
+            "anomalyco/opencode",
+            "zortos293/Lichii",
+            "Alishahryar1/free-claude-code",
+            "rohitg00/ai-engineering-from-scratch",
+            "kingcharleslzy-ai/dsh-purge",
+            "Edge0-AI/Edge0",
+            "thedotmack/claude-mem",
+            "bilawalsidhu/gods-eye-view",
+            "deepseek-ai/dsh-superagent-prototype",
+            "Droid-Deck/DroidDeck",
+            "Zagitta/gpu-unlock",
+            "horizon-rust/horizon",
+            "openclaw/openclaw",
+            "farion1231/cc-switch",
+            "seedds/nxnative",
+            "pengchujin/aerial-tv",
+            "career-ops-hq/career-ops",
+            "Panniantong/Agent-Reach",
+            "KKKKhazix/agent-autoloop",
+            "cathrynlavery/diagram-design",
+            "nexu-io/open-design",
+            "Lee-xeo/Claude-Cage",
+            "garrytan/gstack",
+            "msitarzewski/agency-agents",
+            "firecrawl/firecrawl",
+            "blader/humanizer",
+            "tangency-labs/solidcraft",
+            "rddmwmddr/android-ad-cleaner",
+            "hugohe3/ppt-master",
+            "OpenMontageInc/OpenMontage",
+            "Vincentwei1021/video-shotcraft",
+            "wheresryan22/anatomy",
+            "harry0703/MoneyPrinterTurbo",
+            "valentderah/totk-pc-recomp",
+            "LNPANDY/NX2Apple",
+            "jub0t/Concat"
+          ],
+          "report_path": "reports/hot-rising/2026-11-15.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-11-14",
