@@ -9003,8 +9003,335 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-11-15",
+      "latest": "2026-11-17",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-11-17",
+          "generated_at": "2026-11-17T09:03:24+08:00",
+          "discovered_count": 986,
+          "candidate_count": 100,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "alibaba/open-code-review",
+              "trending_rank": 10,
+              "stars_today": 951
+            },
+            {
+              "rank": 2,
+              "name": "backnotprop/plannotator",
+              "trending_rank": 2,
+              "stars_today": 696
+            },
+            {
+              "rank": 4,
+              "name": "mvanhorn/last30days-skill",
+              "trending_rank": 8,
+              "stars_today": 135
+            },
+            {
+              "rank": 11,
+              "name": "ChromeDevTools/chrome-devtools-mcp",
+              "trending_rank": 12,
+              "stars_today": 841
+            },
+            {
+              "rank": 12,
+              "name": "ag-ui-protocol/ag-ui",
+              "trending_rank": 1,
+              "stars_today": 791
+            },
+            {
+              "rank": 13,
+              "name": "dream-num/univer",
+              "trending_rank": 3,
+              "stars_today": 1828
+            },
+            {
+              "rank": 15,
+              "name": "kajisho5/ffmpeg-skill",
+              "trending_rank": 14,
+              "stars_today": 367
+            },
+            {
+              "rank": 16,
+              "name": "DeanChensj/jiangshan-map",
+              "trending_rank": 6,
+              "stars_today": 288
+            },
+            {
+              "rank": 17,
+              "name": "tradermonty/claude-trading-skills",
+              "trending_rank": 4,
+              "stars_today": 837
+            },
+            {
+              "rank": 18,
+              "name": "NVIDIA/SkillEvaluator",
+              "trending_rank": 9,
+              "stars_today": 873
+            },
+            {
+              "rank": 19,
+              "name": "google-labs-code/stitch-skills",
+              "trending_rank": 7,
+              "stars_today": 529
+            },
+            {
+              "rank": 20,
+              "name": "sveltejs/svelte",
+              "trending_rank": 13,
+              "stars_today": 115
+            },
+            {
+              "rank": 22,
+              "name": "google-research/paper-orchestra",
+              "trending_rank": 11,
+              "stars_today": 313
+            },
+            {
+              "rank": 23,
+              "name": "getarcaneapp/arcane",
+              "trending_rank": 5,
+              "stars_today": 46
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "alibaba/open-code-review",
+              "trending_rank": 11,
+              "stars_today": 3056
+            },
+            {
+              "rank": 2,
+              "name": "backnotprop/plannotator",
+              "trending_rank": 3,
+              "stars_today": 2325
+            },
+            {
+              "rank": 3,
+              "name": "anthropics/skills",
+              "trending_rank": 4,
+              "stars_today": 5666
+            },
+            {
+              "rank": 5,
+              "name": "meta/astryx",
+              "trending_rank": 2,
+              "stars_today": 10939
+            },
+            {
+              "rank": 6,
+              "name": "addyosmani/agent-skills",
+              "trending_rank": 12,
+              "stars_today": 3960
+            },
+            {
+              "rank": 7,
+              "name": "ZhuLinsen/daily_stock_analysis",
+              "trending_rank": 7,
+              "stars_today": 4355
+            },
+            {
+              "rank": 8,
+              "name": "google/elephant-goldfish-model",
+              "trending_rank": 9,
+              "stars_today": 4249
+            },
+            {
+              "rank": 9,
+              "name": "vercel-labs/agent-browser",
+              "trending_rank": 5,
+              "stars_today": 3760
+            },
+            {
+              "rank": 10,
+              "name": "sherlock-project/sherlock",
+              "trending_rank": 8,
+              "stars_today": 7067
+            },
+            {
+              "rank": 14,
+              "name": "google-deepmind/mujoco",
+              "trending_rank": 10,
+              "stars_today": 1448
+            },
+            {
+              "rank": 25,
+              "name": "openai/codex-security",
+              "trending_rank": 13,
+              "stars_today": 2352
+            },
+            {
+              "rank": 27,
+              "name": "GoogleChrome/modern-web-guidance-src",
+              "trending_rank": 1,
+              "stars_today": 6542
+            },
+            {
+              "rank": 29,
+              "name": "we-promise/sure",
+              "trending_rank": 6,
+              "stars_today": 4679
+            },
+            {
+              "rank": 30,
+              "name": "QwenLM/qwen-code",
+              "trending_rank": 14,
+              "stars_today": 1497
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 4,
+              "name": "mvanhorn/last30days-skill"
+            },
+            {
+              "rank": 15,
+              "name": "kajisho5/ffmpeg-skill"
+            },
+            {
+              "rank": 16,
+              "name": "DeanChensj/jiangshan-map"
+            },
+            {
+              "rank": 18,
+              "name": "NVIDIA/SkillEvaluator"
+            },
+            {
+              "rank": 19,
+              "name": "google-labs-code/stitch-skills"
+            },
+            {
+              "rank": 20,
+              "name": "sveltejs/svelte"
+            },
+            {
+              "rank": 22,
+              "name": "google-research/paper-orchestra"
+            },
+            {
+              "rank": 23,
+              "name": "getarcaneapp/arcane"
+            },
+            {
+              "rank": 47,
+              "name": "Minireel/HGhub"
+            },
+            {
+              "rank": 90,
+              "name": "codecrafters-io/build-your-own-x"
+            }
+          ],
+          "warnings_count": 0,
+          "item_names": [
+            "alibaba/open-code-review",
+            "backnotprop/plannotator",
+            "anthropics/skills",
+            "mvanhorn/last30days-skill",
+            "meta/astryx",
+            "addyosmani/agent-skills",
+            "ZhuLinsen/daily_stock_analysis",
+            "google/elephant-goldfish-model",
+            "vercel-labs/agent-browser",
+            "sherlock-project/sherlock",
+            "ChromeDevTools/chrome-devtools-mcp",
+            "ag-ui-protocol/ag-ui",
+            "dream-num/univer",
+            "google-deepmind/mujoco",
+            "kajisho5/ffmpeg-skill",
+            "DeanChensj/jiangshan-map",
+            "tradermonty/claude-trading-skills",
+            "NVIDIA/SkillEvaluator",
+            "google-labs-code/stitch-skills",
+            "sveltejs/svelte",
+            "morluto/rea",
+            "google-research/paper-orchestra",
+            "getarcaneapp/arcane",
+            "storytold/craft-anything",
+            "openai/codex-security",
+            "deepseek-ai/deepseek-harness",
+            "GoogleChrome/modern-web-guidance-src",
+            "Ebony-Vinyl/dsh-our-free-model",
+            "we-promise/sure",
+            "QwenLM/qwen-code",
+            "mattpocock/skills",
+            "Gathin23/cleanyourtv",
+            "ccch1mneyyy/dsh-Go",
+            "affaan-m/ECC",
+            "huamidev/GestaltX",
+            "storytold/photocraft",
+            "stablyai/orca",
+            "libracoder/kiri",
+            "heydamir/unslop",
+            "Graphify-Labs/graphify",
+            "anefzaoui/misterdownloadmanager",
+            "debpalash/VoiceStudio",
+            "yetone/magpie",
+            "DietrichGebert/ponytail",
+            "Niko1221/Strata",
+            "eternity4719/HowToLiveBetter",
+            "Minireel/HGhub",
+            "KnifeLemon/Filee",
+            "JuneYaooo/rea-video",
+            "obra/superpowers",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "janestreet/agent_skills",
+            "NousResearch/hermes-agent",
+            "pbakaus/impeccable",
+            "JuliusBrussee/caveman",
+            "heygen-com/hyperframes",
+            "Leonxlnx/taste-skill",
+            "tt-a1i/archify",
+            "deepseek-ai/dsh-superagent-prototype",
+            "boykopovar/AnyPS5",
+            "cloudflare/security-audit-skill",
+            "paperclipai/paperclip",
+            "zortos293/Lichii",
+            "anomalyco/opencode",
+            "milind-soni/OpenMausBot",
+            "JustVugg/colibri",
+            "openclaw/openclaw",
+            "nexu-io/open-design",
+            "Alishahryar1/free-claude-code",
+            "farion1231/cc-switch",
+            "seedds/nxnative",
+            "cheaper-inference/OmniRoute",
+            "OpenMontageInc/OpenMontage",
+            "bilawalsidhu/gods-eye-view",
+            "garrytan/gstack",
+            "kingcharleslzy-ai/dsh-purge",
+            "career-ops-hq/career-ops",
+            "thedotmack/claude-mem",
+            "lemomo-ai/lemo-opuscar",
+            "firecrawl/firecrawl",
+            "tangency-labs/solidcraft",
+            "Droid-Deck/DroidDeck",
+            "pengchujin/aerial-tv",
+            "Panniantong/Agent-Reach",
+            "hugohe3/ppt-master",
+            "Egonex-AI/Understand-Anything",
+            "github/spec-kit",
+            "KKKKhazix/agent-autoloop",
+            "valentderah/totk-pc-recomp",
+            "codecrafters-io/build-your-own-x",
+            "horizon-rust/horizon",
+            "jhaizhou-ops/S2Arm",
+            "patch-gg/pixelfx",
+            "wangzan101/Mika",
+            "msitarzewski/agency-agents",
+            "ai-job-search-dev/ai-job-search",
+            "blader/humanizer",
+            "earendil-works/pi",
+            "Zagitta/gpu-unlock",
+            "cathrynlavery/diagram-design"
+          ],
+          "report_path": "reports/hot-rising/2026-11-17.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-11-15",
