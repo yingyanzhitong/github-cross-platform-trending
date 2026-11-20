@@ -28,8 +28,8 @@
     "Automattic/harper": {
       "source": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
       "zh": "离线、隐私优先且由 Rust 驱动的快速开源语法检查器",
-      "analysis_source": "4b56a6972f1910082f397b80c118d0b0df5d9f78cc42ce4d2fca7a76a7a86b93",
-      "analysis_zh": "Harper 把英文语法检查留在本机完成，写作内容无需发送到远端服务器，检查一篇文档通常只需毫秒级时间。它的取舍并非尽可能多地给出修改，而是减少脱离语境、过度干预的建议，同时把内存占用控制在 LanguageTool 的五十分之一以下。体积足够小意味着检查器能够通过 WebAssembly 装入网页或编辑器环境，也可借助 harper.js 集成到 JavaScript 工具链；需要独立服务或编辑器协议时，则可使用 harper-ls。现成入口覆盖 Obsidian、Visual Studio Code、Neovim、Helix、Emacs 和 Zed，用户可以在熟悉的写作或编码界面中获得提示。目前 Language Support 仅包含英语，不过底层结构为扩展其他语言预留了空间。维护者把明显过长的 lint 时间视作缺陷，遇到性能问题可提交 issue，修复贡献则需遵循贡献指南。"
+      "analysis_source": "31dda8e215f92e62f6c07aab2c9c42e8218378d34e52464b642df7ff10e26e53",
+      "analysis_zh": "Harper 把英语语法检查放在本地完成，重点解决传统在线工具响应慢、占用高以及文本需要上传服务器的问题。它能在毫秒级完成文档检查，内存占用不到 LanguageTool 的五十分之一，体积也小到可以通过 WebAssembly 加载，因此既能嵌入网页应用，也能用于编辑器和桌面写作流程。现有生态覆盖 Visual Studio Code、Neovim、Helix、Emacs、Zed 与 Obsidian，并提供 harper-ls 和 harper.js 两套使用入口，分别服务于语言服务器集成和 JavaScript 场景。它目前只支持 English，但底层核心预留了扩展其他语言的空间。Harper 还把较长的检查耗时直接视为缺陷，鼓励用户报告可复现的 Performance Issues，鲜明地体现出其对低延迟、小内存和隐私的共同追求。"
     },
     "BongoCatPet/BongoCat": {
       "analysis_source": "d04f3a00cc443d309c8e54bfc85bca364aed9010bb4cd5705c884774693261cc",
@@ -38,8 +38,8 @@
     "CyberTimon/RapidRAW": {
       "source": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
       "zh": "高性能GPU加速的非破坏性RAW图像编辑器。",
-      "analysis_source": "8a668985a796353d6fcdb5c3ceb130fcf1cf8764cf86de7e69e989669132f800",
-      "analysis_zh": "RapidRAW 把轻量、流畅的修图体验放在首位，希望以现代原生应用的速度承载接近 Adobe Lightroom® 的摄影工作流。它提供 Windows、macOS、Linux 和 Android 的打包版本，下载安装后即可处理 RAW 照片；调整参数之外，文档还用分步教程讲解 masking 等操作，帮助摄影师完成局部处理和创意调色。底层组合了 Rust、wgpu、React、Tauri 与 WGSL，以 GPU 加速支撑交互和图像计算，同时坚持 non-destructive 编辑，不破坏原始照片。近期迭代也能看出它并非只做基础显影：RapidRes 提供 2x AI super resolution，AI denoise 用于降噪，还加入按相机设置的默认调整、自动镜头校正、裁剪旋转、纵向胶片网格、多档图库缩略图，以及保留 RAW metadata 的 JPEG XL 导出。整体设计围绕摄影师从浏览、调整、遮罩到导出的连续流程展开，并把速度、简洁界面与色彩塑造放在同一套体验里。"
+      "analysis_source": "9f9d1b2750cdf222215c973c877ca600dc011e1c0616fbfc3ed6ae6ba0512229",
+      "analysis_zh": "RapidRAW 把轻量、快速的照片工作流放在首位，以非破坏性编辑和 GPU accelerated RAW 处理承载从调整到 masking 的完整操作，并提供逐步教程帮助用户理解各项工具。桌面版本覆盖 Windows、macOS、Linux，另有 Android 构建，下载页提供已经打包、可直接运行的最新版本。技术组合由 Rust、wgpu、React、Tauri 和 WGSL 构成，目标是在简洁界面中快速完成创意调色，而不是复制一套沉重的传统照片管理体验。近期演进也体现了它对实际编辑细节的关注：锐化减少光晕且不再受曝光影响，胶片条被整合进侧栏的垂直网格，裁剪框外围可拖动旋转，contrast 会围绕每张照片自身的中间调重建；导出 JPEG XL 时能够保留 RAW metadata。它还加入按相机设置的默认调整、自动镜头校正、AI denoise，以及名为 RapidRes 的 2x AI super resolution，并持续缩小相关缓存、改善 RAW 加载时的缩放流畅度。"
     },
     "DayuanJiang/next-ai-draw-io": {
       "source": "Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code.",
@@ -150,8 +150,8 @@
     "MetrolistGroup/Metrolist": {
       "source": "Material Design YouTube Music client for Android, iOS and desktop",
       "zh": "适用于 Android、iOS 和桌面端的 Material Design YouTube Music 客户端",
-      "analysis_source": "5e27d493c00921b8f88ab8cff85617eb235477807b1767893c07b416154f8870",
-      "analysis_zh": "Metrolist 将 YouTube Music 播放做成采用 Material 3 Expressive 设计的多端客户端，覆盖 Android 7+、iOS 17+、Windows 10+、macOS 15+ 和 Linux，既可登录也可不登录播放，并移除广告。播放器不只处理基础音乐：Listen Together 支持在线共享播放，Last.fm 与 ListenBrainz 可记录收听历史，Google Cast、F-Cast、SONOS 和 DLNA 用于投送到其他设备；歌词还支持 translation and romanization，Android 与桌面端能够播放视频。迁移方面可从 30+ clients 和 6 services 导入备份或歌单，另有 Shazam 音乐识别、AI-generated content 过滤、仅显式标记内容或仅 SFW 内容播放，以及来自 Apple Music、Spotify 和 YouTube Music 的 Canvas。不同平台的安装形式各异，例如 Windows 提供安装版或便携版，Linux 有 AppImage 或软件包，iOS 则通过 AltStore、SideStore、TrollStore 或 Sideloadly 安装。由于通过 Metrolist 访问 YouTube Music 可能违反其 Terms of Service，账户后果由使用者自行承担；服务受地区限制时还需要位于支持区域的 VPN 或 proxy。"
+      "analysis_source": "1d7739a8d4a566fa6d11a7960e8ae87975b5d8c33cb8691c76041087233f59be",
+      "analysis_zh": "Metrolist 用 Material 3 Expressive 重新组织 YouTube Music 的播放体验，允许登录或不登录使用，并覆盖 Android 7+、iOS 15+、Windows 10+、macOS 15+ 与 Linux。除了无广告播放和视频播放，它还能显示带翻译及罗马音的歌词，通过 Shazam 识别音乐，并把播放记录提交到 Last.fm 或 ListenBrainz。Listen Together 可让多人在线同步收听，投放则覆盖 Google Cast、F-Cast、SONOS 和 DLNA；迁移用户还可以从 30 多个客户端及 6 种服务导入备份和播放列表。界面允许调整 player、thumbnail、miniplayer、背景样式、自定义字体和应用图标，也能过滤 AI-generated content、仅播放 explicit 内容或启用 SFW 限制。安装方式因平台而异，例如 iOS 需借助 AltStore、SideStore、TrollStore 或 Sideloadly，macOS 首次启动要信任未签名应用。由于访问 YouTube Music 可能违反其服务条款，账号后果由使用者自行承担，地区不可用时还需 VPN 或 proxy。"
     },
     "MoeKoeMusic/MoeKoeMusic": {
       "analysis_source": "c25bf5059d382dcf08ea6c0207fe2b9906cf67a8642e2a7b950dd3a160ab0b04",
@@ -174,14 +174,14 @@
     "OpenHands/OpenHands": {
       "source": "🙌 OpenHands: AI-Driven Development",
       "zh": "基于AI驱动的软件开发平台。",
-      "analysis_source": "cb4ed05f7a74e2369a58294a825f5f9eb6772ef0bb8e5e5a19ae950b18c87758",
-      "analysis_zh": "Agent Canvas 把各类编码代理组织成一个可自托管、持续在线的开发控制中心。用户可以从对话启动工作，也可以把日常任务编成 automations，例如定期生成并发布到 Slack 的报告，或自动把 GitHub issues 拆成任务；这些流程既能按计划运行，也能由 webhook events 触发，并可连接 GitHub、Linear、Notion 等服务。运行层与代理层彼此解耦：默认可在本机执行，也能连接 Docker containers、VMs 或公司内部的 agent backends，还可选择 OpenHands Cloud 或 OpenHands Enterprise。切换本地、远程和云端后端时，工作焦点仍可保持。开箱即用的是开源 OpenHands agent，但 Claude Code、Codex、Gemini CLI、Pi、OpenCode 以及任何兼容 Agent Client Protocol (ACP) 的代理都能接入；模型也不被固定，支持 Bring your own model。Quickstart 所描述的部署范围从个人笔记本、Mac Mini 一类专用电脑到云服务器，体现出它既能承载单次编码对话，也能作为长期运行的工程自动化中枢。"
+      "analysis_source": "b58d1c0b10f3730449bd7063db4c3ced6920b7d671f0b7a3b05f06ec69895f32",
+      "analysis_zh": "把多个编码代理变成持续在线的工程协作入口，是 Agent Canvas 在 README 中勾勒的主要体验。用户可以从对话启动 OpenHands、Claude Code、Codex、Gemini、Pi 或 OpenCode，也能接入任何兼容 Agent Client Protocol (ACP) 的代理；默认在本机运行，同时允许把任务送往 Docker containers、VMs、公司内部设施以及可选的 OpenHands Cloud 或 OpenHands Enterprise 后端，并在本地、远程和云端之间切换。除了临时聊天，它还强调 Automations：例如定时生成报告并发布到 Slack，或把 GitHub issues 自动拆成任务，也可由 webhook events 触发流程，再与 GitHub、Linear、Notion 等服务衔接。安装位置并不限于开发者当前的笔记本，也可以放在 Mac Mini 一类专用电脑或云服务器上长期运行。其鲜明之处不只是内置一个 OpenHands agent，而是以自托管控制中心统一代理、运行后端与日常自动化，同时允许用户选择自己的 LLM。"
     },
     "OpenWhispr/openwhispr": {
       "source": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
       "zh": "隐私优先的跨平台语音转文字应用，支持本地和云端模型。",
-      "analysis_source": "9d066105d2a618d53fb774134db05b5ada785d476f984bee921a8b4a623cd244",
-      "analysis_zh": "按下 global hotkey、开口说话，OpenWhispr 会把识别结果直接放到当前光标处，由此把语音输入扩展成 text、notes 和 actions。转写既可完全离线，调用 Orukeet、Whisper、NVIDIA Parakeet 或 Cohere Transcribe，让音频不离开设备，也可选择 cloud processing 获取更快速度；README 同时声明 no data collection 和 no telemetry。除 Voice dictation 外，Dictation translation 能用专用快捷键听取一种语言并粘贴另一种语言的文本。AI agent 可连接 GPT-5、Claude、Gemini、Groq、Tinfoil、OpenRouter 或本地模型，并通过 Voice Assistant hotkey 直接接收语音命令，无需唤醒词和清理步骤；选中的文字可原地编辑，回答则能粘贴到可写光标处，或流入浮动面板后复制到剪贴板。应用还提供 Meeting transcription 和笔记能力，运行于 macOS、Windows、Linux；Intel Mac 仍可正常录制和转写会议，但因 ONNX Runtime 不再提供相应二进制包，无法使用实时说话人识别与声纹功能，笔记搜索也会退回关键词匹配。"
+      "analysis_source": "4017d8e44b294fbc85ff9d7a9cdd9bc3d920b85b0171ab6819ae16dcd1ee5304",
+      "analysis_zh": "按下全局热键说话，内容便会转成文字并自动粘贴到当前光标处；OpenWhispr 还把同一套桌面语音入口扩展到了笔记、会议转写和 AI agent。用户可在 Orukeet、Whisper、NVIDIA Parakeet、Cohere Transcribe 等本地语音模型与云端处理之间选择：本地模式下音频不会离开设备，并且软件不收集数据、没有遥测。除了普通 Voice dictation，它还提供独立的 Dictation translation 热键，可用一种语言口述、以另一种语言粘贴；Voice Assistant hotkey 则能把语音直接作为命令交给 GPT-5、Claude、Gemini、Groq、Tinfoil、OpenRouter 或本地模型，无需唤醒词和额外清理步骤。若选中文字，助手可原位编辑；若没有可写光标，回答会显示在浮动面板并复制到剪贴板。应用覆盖 macOS、Windows 和 Linux，但 Intel Mac 因 ONNX Runtime 不再提供相应二进制文件，无法使用实时说话人识别和声纹功能，笔记搜索也会退回关键词匹配，常规会议录制与转写仍可正常进行。"
     },
     "OrchestratorInc/agent-orchestrator": {
       "source": "Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps.  Supports Claude Code, Codex & 35+ coding agents.",
@@ -270,8 +270,8 @@
     "Termix-SSH/Termix": {
       "source": "Self-hosted, plugin-based server management.",
       "zh": "支持自托管和插件扩展的服务器管理工具",
-      "analysis_source": "0b06b50d100758c02d99fd460e619281b43b67df2eadf439e4169c2418abc64a",
-      "analysis_zh": "Termix 把服务器管理拆成稳定内核与可装卸插件两层：内核负责 Hosts、Credentials、用户、共享关系和会话，SSH 终端、远程桌面、文件管理、Docker、监控指标等则由插件提供，管理员可在 Plugins 页安装、更新、关闭或移除。Hosts 能按嵌套文件夹、标签和父主机整理，支持批量编辑、导入导出，并可通过 Quick Connect 发起一次性连接；Credentials 可在多台主机间复用密码和密钥，还能按服务器、用户或文件夹设置默认值。共享权限分为 connect、view、edit、manage 四级，本地账户则配有可撤销会话、可信设备、API keys 与审计日志。界面支持标签页、分屏、双击左 Shift 唤起命令面板、快捷键重绑定及多语言。它既能在 Web、桌面和移动端运行，桌面应用也可独立工作，并与服务端同步账户的离线副本；数据默认存入 SQLite，也支持 PostgreSQL 和 MySQL。"
+      "analysis_source": "6ebe04d97b961adeb752d75086d3744fe390255f516d8cd587ad9979c94b569e",
+      "analysis_zh": "在 Termix 中，主程序只负责保存 hosts、credentials、users、sharing 和 sessions，SSH terminal、remote desktop、file manager、Docker 与 metrics 则被拆成可启停、更新或移除的插件。这样的 plugin based 结构让管理员能够从 Plugins tab 管理功能，而每个插件又拥有独立仓库；默认镜像会附带 Alerts、Classic Layout、Classic Themes 和 Credential Tools 等插件。日常管理可以把主机放进嵌套文件夹，用标签、父主机、批量编辑和 Quick Connect 组织连接，再将密码或密钥跨主机复用。共享权限细分为 connect、view、edit、manage 四级，并配有可撤销会话、trusted devices、API keys 与 audit log。它可运行于 web、desktop 和 mobile，桌面端还能独立工作并同步服务器上的离线账户副本；数据库默认采用 SQLite，同时支持 PostgreSQL 和 MySQL。"
     },
     "ThinkInAIXYZ/deepchat": {
       "source": "🐬DeepChat - A smart assistant that connects powerful AI to your personal world",
@@ -306,8 +306,8 @@
     "XiaoYouChR/Ghost-Downloader-3": {
       "source": "The only downloader you need. 下载器的集大成者。",
       "zh": "一站式下载器，满足多种下载需求。",
-      "analysis_source": "f9f430fb13ccbd3ad22aecc024bfa2c53f248f7a89226b3d1bc71d0e854dd320",
-      "analysis_zh": "网络条件变差时仍尽量维持下载，是 Ghost Downloader 强调的性能方向：它会自动探测带宽，采用无需事后合并文件的 smart chunking，并使用真实浏览器 TLS fingerprints 来应对反爬检查。一个客户端内整合了 HTTP、Magnet/BT、FTP、M3U8、MPEG-DASH 与 eD2k，也能下载 YouTube 和 Bilibili 的指定片段、画质、字幕、播放列表及分集内容，并为 GitHub、HuggingFace 提供镜像加速。配套浏览器扩展会在视频旁显示下载按钮，弹窗也能列出页面媒体；用户照常触发下载后，桌面端可无缝接管，并继承浏览器认证状态，无需反复复制链接。下载进行中仍可修改 URL、请求头或代理，进度不会丢失，aria2-compatible RPC API 则允许第三方工具接入。它覆盖 Windows、macOS、Linux 和 Android，其中 Android 支持录制直播 M3U8 流及后台下载；Feature Packs 插件生态用于继续扩展不同下载需求。"
+      "analysis_source": "9f57a5be44fe4252f2a5bd974e8caf04ff407b69681967ca3346af8cd1ccc163",
+      "analysis_zh": "下载任务不必再按协议拆散到多个工具里：Ghost Downloader 把 HTTP、Magnet/BT、FTP、M3U8、MPEG-DASH 和 eD2k 收进同一应用，同时处理 YouTube 与 Bilibili 的清晰度、字幕、片段选择、播放列表及多集内容，也为 GitHub 和 HuggingFace 提供镜像加速。它把弱网表现视为真正的速度考验，通过 Smart chunking 避免分片后的文件合并，并自动探测带宽；真实浏览器 TLS fingerprints 则用于应对反机器人检查。配套扩展会在视频旁显示下载按钮，弹窗还能列出页面中的媒体，用户可直接选择质量，不必复制链接，桌面端会接管任务并延续浏览器中的认证状态。下载过程中仍可修改 URL、headers 或 proxy，第三方工具也能借助 aria2-compatible RPC API 控制任务。四个平台采用各自的原生体验，其中 Android 支持录制直播 M3U8 流并在后台继续下载，适合把常规文件、流媒体和点对点任务集中管理。"
     },
     "YILS-LIN/short-video-factory": {
       "source": "一键生成产品营销与泛内容短视频，AI批量自动剪辑，高颜值跨平台桌面端工具 One click generation of product marketing and general content short videos, AI batch automatic cliping, beautiful cross platform desktop tool",
@@ -324,8 +324,8 @@
     "aandrew-me/ytDownloader": {
       "source": "Desktop app to download audio/video from hundreds of sites",
       "zh": "可从数百个网站下载音频和视频的桌面应用",
-      "analysis_source": "07b6583817a4ff548490c691cdd1b4e318fe1d119415d25b5280be78ebb1ebc6",
-      "analysis_zh": "ytDownloader 用桌面图形界面封装跨站点音视频下载，支持 Youtube、Facebook、Instagram、Tiktok、Twitter 等数百个站点，不要求用户围绕命令行组织操作。除了单条内容，它还能抓取 playlists，并通过 Range Selection 选择片段、下载 Subtitles；内置 Video Compressor with Hardware Acceleration，可在下载之外继续完成视频压缩。界面提供 Multiple themes，项目明确不加入 trackers 或 ads。发行覆盖 Linux、Windows 与 macOS：Windows 可从 Microsoft Store 安装，也能选择 exe 或 msi，其中 exe 可自定义安装位置；Linux 提供 Flatpak、AppImage 和 Snap，README 推荐 Flatpak，而 AppImage 带 Auto Update，下载后赋予执行条件即可运行；macOS 包未签名，首次打开会被系统拦截，需要按文档在终端处理，并通过 Homebrew 安装 yt-dlp。翻译工作经 Crowdin 协作，新增语言可先提交 issue，再进入对应本地化流程。"
+      "analysis_source": "0fd593d2054aff105e011228f2064f9df6446a8c54207e3d1efd59d049dddcd9",
+      "analysis_zh": "ytDownloader 用图形界面承接数百个网站的音视频下载，README 点名覆盖 Youtube、Facebook、Instagram、Tiktok 和 Twitter，并支持播放列表，而不要求用户围绕命令行工具自行拼装流程。下载前可以使用 Range Selection 截取范围、选择 Subtitles，下载后还能通过带 Hardware Acceleration 的 Video Compressor 压缩视频；多套主题则用于调整界面外观，应用本身不含 trackers or ads。Windows 用户可从 Microsoft Store 获取，也能安装 exe 或 msi：exe 允许自选安装位置，msi 不询问位置；此外还提供 Chocolatey、Scoop 和 Winget。Linux 同时提供 Flatpak、AppImage 与 Snap，其中 README 推荐 Flatpak，AppImage 可在多数发行版直接执行并支持 Auto Update，也可借助 AppImageLauncher 集成到系统。macOS 版本由于未签名，需要按 README 给出的终端步骤解除系统拦截，并通过 Homebrew 安装 yt-dlp。翻译贡献集中在 translations/ 目录，可通过拉取请求新增或更新语言文件。"
     },
     "affaan-m/ECC": {
       "source": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
@@ -335,8 +335,8 @@
     "agalwood/Motrix": {
       "source": "A full-featured download manager.",
       "zh": "功能完善的下载管理器。",
-      "analysis_source": "38f446b5b4c91aac9b684f5c1bc6b44c3a5afcb90f55819850d269bb7cfcae81",
-      "analysis_zh": "Motrix 用一个简洁的桌面界面处理 HTTP、FTP、BitTorrent 和 magnet links 等下载任务，并支持种子文件内逐文件选择、暗色模式及 tracker list management。Motrix Turbo 是从头重建的 v2，采用 Electron、React 和 TypeScript，同时把下载核心与 UI 分离：浏览器扩展和命令行工具通过 MDXP (Motrix Download eXchange Protocol) 与应用通信，这套开放协议建立在 JSON-RPC 2.0 之上，插件则运行于隔离沙箱。相同核心既可驱动 macOS、Windows、Linux 上的 Desktop app，也能以 Headless server 形式直接运行在 Node.js 或 Docker 中，并通过 web UI 服务 NAS 和家庭服务器。2.4.2 还修复了删除任务后未完成文件的 finalization recovery 可能在重启后再次执行的问题，并升级 Electron、SQLite 与 WebSocket 依赖。由于数据库会迁移到 schema 6，升级前应备份现有 profile 和下载内容，并保留自动生成的旧数据库备份；Migration Assistant 只会把选中的 v1 任务导入为暂停记录且保留原文件，恢复下载仍需用户明确操作。"
+      "analysis_source": "09137a2227ff8b05fe14c669e1bc0865ba7b3b2e5877a8599db90f880d39fd6a",
+      "analysis_zh": "从普通 HTTP、FTP 文件到 BitTorrent 和 magnet links，Motrix 用统一的桌面界面组织下载任务，并保持简洁的操作体验。新版 Motrix Turbo 以 Electron、React 和 TypeScript 重写，但更有辨识度的变化是下载核心与界面彼此独立：浏览器扩展和命令行工具通过 MDXP 与应用通信，这套 Motrix Download eXchange Protocol 建立在 JSON-RPC 2.0 之上，插件则在隔离沙箱中运行。因此同一核心既能支撑 macOS、Windows、Linux 的 Desktop app，也能作为 Headless server 直接运行于 Node.js 或 Docker，并通过 web UI 服务 NAS 和家庭服务器。2.4.3 还加入自定义 Server access password、任务详情旁的下载统计以及更好的 fnOS 授权和主题集成。升级前应备份现有 profile 和下载记录，因为内置引擎会把 SQLite 数据库提升到 schema 6，旧引擎无法再打开；桌面 Migration Assistant 可将选定的 v1 任务导入为暂停记录，恢复下载仍需另行明确操作。"
     },
     "ai-shifu/ChatALL": {
       "source": "Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover the best answers",
@@ -357,8 +357,8 @@
       "analysis_zh": "速度与克制塑造了 Alacritty：渲染建立在 OpenGL 之上，默认配置力求合理，同时允许通过 TOML 做深入定制；它倾向于和现有工具组合，而不是在终端内部重新实现所有功能。因此窗口标签页和分屏并未内置，这些职责被留给窗口管理器或 tmux，图形化配置编辑器也不在其取舍范围内。它可运行于 BSD、Linux、macOS 和 Windows，最低要求是 OpenGL ES 2.0，Windows 还需具备 ConPTY 支持。配置说明可通过 man 5 alacritty 阅读；程序不会自动创建配置文件，而会依次在 XDG 配置目录、用户目录及系统目录寻找 alacritty.toml，Windows 则读取 %APPDATA%\\alacritty\\alacritty.toml。性能方面，README 引用 vtebench 衡量终端吞吐量，并强调延迟、帧率和帧稳定性并不容易用单一排名概括，某些终端还会主动减速以节省资源，所以更实际的判断方式仍是拿自己的工作负载测试。当前成熟度仍标为 beta，虽有缺失功能和待修问题，但已有人将其作为日常终端使用。"
     },
     "algerkong/AlgerMusicPlayer": {
-      "analysis_source": "c74cafaba8bcc2ad8389fdca83f11d922ad7355694bfbe9123ed5b62fa57ff7b",
-      "analysis_zh": "从日常听歌到跨设备操控，Alger Music Player 把第三方音乐播放器、本地服务和多种桌面能力组合在一起。登录账号后可以同步数据，管理播放历史记录、收藏与歌单，并浏览 MV、排行榜、每日推荐、专辑和搜索结果；音乐资源解析基于 @unblockneteasemusic/server，还可为 bilibili 音乐单独选择音源。播放侧提供 EQ均衡器、定时播放、倍速播放、高品质音乐和音乐文件下载，远程控制播放则让其他设备参与操控。界面可在明暗主题间切换，也有迷你模式、状态栏控制和多语言支持；点击左下角封面可进入沉浸式歌词显示，需要歌词脱离主窗口时则使用独立桌面歌词窗口。其服务采用本地化方式，基于 netease cloud music api 运行，无需依赖在线 API，并覆盖 Desktop、Web、Mobile Web、Android 与 ios。README 将软件定位为学习交流和开发教学用途，并明确禁止商业使用。"
+      "analysis_source": "043c91eb32500498d81c97bc0546305c41dbbb4d70f7eb7708f994a98d211b7f",
+      "analysis_zh": "从音乐推荐、搜索到播放与下载，Alger Music Player 将第三方音乐服务、本地服务和多端播放器组合在一起。登录后可同步账号，并管理播放历史记录、收藏、歌单、MV、排行榜与每日推荐；播放界面支持点击左下角封面进入沉浸式歌词，另有独立桌面歌词窗口、迷你模式、状态栏控制、明暗主题和自定义快捷键。音乐处理部分提供 EQ均衡器、定时播放、倍速播放、高品质音乐及音乐文件下载，搜索范围覆盖 MV、音乐、专辑、歌单和 bilibili，后者还可单独选择音源解析。其音乐资源解析基于 @unblockneteasemusic/server，本地化服务基于 netease-cloud-music-api，因此无需依赖在线API；远程控制播放则允许另一设备操控当前播放器。项目覆盖 Desktop、Web 与 Mobile Web，Android 标为测试阶段，iOS 列为后续计划，并提供在线预览。README 同时明确说明软件仅用于学习交流与开发教学，禁止商业用途，并鼓励支持官方正版内容。"
     },
     "altair-graphql/altair": {
       "source": "✨⚡️ A feature-rich GraphQL Client for all platforms.",
@@ -375,8 +375,8 @@
     "anefzaoui/misterdownloadmanager": {
       "source": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
       "zh": "从零用纯 Rust 编写的开源下载管理器，支持 Windows、Mac 和 Linux。",
-      "analysis_source": "3db0dd04c116319fa91e5f6eecb7ce0e5c60d11f208da89f8a46f39454daf086",
-      "analysis_zh": "Mister Download Manager 试图在保留 IDM 熟悉操作方式的同时，把下载速度、平台覆盖与免费使用结合起来：工具栏、分类、下载列表、进度窗口和浏览器按钮仍放在用户预期的位置，无需重新适应整套交互。它支持 Windows 10 和 11、多个主流 Linux 发行版以及实验性的 macOS 构建，并提供 86 languages、无广告、无试用期且无需注册的体验。除普通文件下载外，Torrent 也得到完整支持，可以处理 magnet links 与 .torrent files，并能执行 seeding。安装时可从下载页按需求选择 setup.exe、portable.zip 或普通程序压缩包；setup.exe 会完成安装、连接浏览器并询问语言，portable.zip 解压即用，数据保留在自身目录，适合放在 U 盘中。配套 Browser extension 不只服务 Chrome，也可用于 Edge、Brave、Opera、Vivaldi 和 Helium。README 还用同机、同文件及默认设置下的实测数据与 IDM 6.42 对比，并提供测量方法入口，使其“更快”的主张具有可复查依据。"
+      "analysis_source": "04e364a025d527ba773858edf59ac262b09786652fd9c66d66053c9b86406254",
+      "analysis_zh": "Mister Download Manager 延续了 IDM 用户熟悉的操作逻辑：工具栏、分类、下载列表、进度窗口和浏览器按钮都放在容易预期的位置，因此切换工具时几乎不用重新学习。它覆盖 Windows 10 and 11、Linux 与 macOS，其中 Windows 提供 x64、ARM64 和 32 位版本，Linux 覆盖多种常见发行版，macOS 同时支持 Apple Silicon 和 Intel，但仍标为实验性。新用户可在下载页选择 setup.exe，由安装程序完成 MDM 安装、浏览器连接和语言询问；需要便携运行时则可选择 portable.zip。浏览器扩展不仅用于 Chrome，也能服务 Edge、Brave、Opera、Vivaldi 和 Helium。除普通文件下载外，它还完整支持 magnet links、.torrent files 与 seeding，并提供 86 languages。README 用本机回环测试比较默认设置下的程序开销，强调大文件、小文件、弱连接和启动等待方面的速度表现；这些数字衡量的是下载器本身，而不是公网带宽。整个产品不含广告、试用期或注册要求，并以 GPL 方式开放源代码。"
     },
     "apache/maka": {
       "source": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
@@ -399,8 +399,8 @@
     "beekeeper-studio/beekeeper-studio": {
       "source": "Modern and easy to use database GUI & SQL client for MySQL, Postgres, SQLite, SQL Server, ClickHouse, and more. Linux, MacOS, and Windows.",
       "zh": "现代易用的数据库 GUI 与 SQL 客户端，支持多种数据库及主流桌面系统",
-      "analysis_source": "d0e0025dddb013ebcf26ae22cabf7c925d7e1523e2b80188f990bcbbfada8c60",
-      "analysis_zh": "Beekeeper Studio 把 SQL 查询和表格数据编辑放进同一桌面窗口，支持 PostgreSQL、MySQL、SQLite 等多种数据库。写查询时可使用语法高亮和自动补全，通过标签页保留多个查询，再把常用语句保存起来，或从运行历史中找回先前执行内容。查看表格时能够排序、筛选并直接修改数据，配合导入导出处理文件与数据库之间的数据交换；JSON 内容也有专门的浏览体验。键盘快捷键和深色主题贯穿这些操作，使查询编写、结果检查与数据维护可以连续完成。README 同时区分免费 Community Edition 与付费版本，并用功能对照表说明数据库连接、数据处理和团队功能的覆盖差异；挑选版本时可以先沿着实际使用的数据库和操作逐项对照，而不用把所有宣传功能都视为社区版默认提供。"
+      "analysis_source": "506ff21ca3a00f72c61eed12bd28700ac6c22bd4b4d39aa79d207a2c294fceeb",
+      "analysis_zh": "Beekeeper Studio 用同一套 SQL editor 与 database manager 连接 Linux、Mac 和 Windows 上的数据库工作流，提供一个免费下载、按需在应用内升级的客户端。PostgreSQL、MySQL、SQLite、SQL Server、Redis 等数据库列在社区版支持范围，Oracle、Cassandra、ClickHouse、DuckDB、MongoDB 等连接则在付费版对照表中分别说明。查询编辑器带自动补全和语法高亮，标签页可保留多个查询，常用语句能够保存，Query run-history 则帮助找回之前运行成功的 SQL。检查数据时可在表格中排序和筛选，按 JSON 查看内容，并通过导入导出或备份恢复处理数据交换。README 把快速、直观的使用体验作为功能取舍标准：不会仅因能力更多就把所有操作塞进界面，而是让写查询、找回记录和浏览数据这些日常动作保持清楚。社区版与付费版共享下载入口，具体数据库和高级功能可先按 Editions 对照选择。"
     },
     "binaricat/Netcatty": {
       "source": "SSH workspace, SFTP, and terminals in one",
@@ -417,8 +417,8 @@
     "caamer20/Telegram-Drive": {
       "source": "Turn your Telegram account into an unlimited, secure cloud storage drive. an Open-source desktop app built with Tauri, Rust, and React.",
       "zh": "将Telegram账号变成无限安全云存储的开源桌面应用。",
-      "analysis_source": "f70502781b682ba1a64c8a14e08ca63b67fd641012aacfa360fa4f3e02890278",
-      "analysis_zh": "Telegram Drive 把 Telegram 的 Saved Messages 和频道整理成更接近桌面文件管理器的本地优先工作区，可在 Windows、macOS、Linux、Android 和 Google TV 上使用。连接时由用户提供自己的 Telegram 凭据，应用直接访问 Telegram，不另设文件存储或中转服务；Saved Messages 作为主位置，频道则可呈现为文件夹。日常操作不止于上传和下载：它能处理文件与文件夹、拖放和远程 URL，并通过持久队列、后台运行及重试控制完成传输；图片、PDF、音频、视频和压缩包也能在工作区内预览、播放、流式观看或管理。桌面端还提供 Folder Sync、local REST API、WebDAV、本地分享链接、托盘控制和原生通知，配置与缓存默认保存在本机，本地服务仅监听回环地址。所有功能均可免费使用，但文件仍受 Telegram 账户、服务及单文件限制约束，因此所谓存储空间不能理解为真正无限，也不应成为重要资料的唯一备份。"
+      "analysis_source": "e88c3087bc80d074df8d0ffe73927fec7bb1994d2aa61fc88f6b651642eea6f1",
+      "analysis_zh": "Telegram Drive 将 Telegram 账号里的文件整理成偏桌面文件管理器的工作区：Saved Messages 作为默认主位置，Telegram channels 可以呈现为文件夹，用户能够组织、传输、预览、串流、同步和分享其中的内容。上传支持文件、文件夹、拖放与远程 URL，并通过 durable queues、后台运行和重试控制处理较长任务；图片、PDF、音频、视频及压缩包也有相应的预览、播放或工具。桌面端还提供 Folder Sync、local REST API、WebDAV、本地分享链接、托盘控制和原生通知，覆盖 Windows、macOS 与 Linux，另外支持 Android 和 Google TV。应用使用用户提供的凭据直接连接 Telegram，不另设文件中转或存储服务，配置与缓存保留在本地，本地服务器仅监听回环地址。它虽把 Telegram 存储包装得更易用，但文件仍受账号、服务及单文件限制约束，不能按字面理解为无限空间，也不应成为重要资料的唯一备份。"
     },
     "chaitanyagiri/munder-difflin": {
       "source": "A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents",
@@ -441,8 +441,8 @@
     "cli/cli": {
       "source": "GitHub’s official command line tool",
       "zh": "GitHub官方命令行工具。",
-      "analysis_source": "1d5ca1fbdd6e9cae86ed032bd07486498e7a79348fe879a9469283ba9a841c80",
-      "analysis_zh": "不离开终端就能处理 GitHub 工作，是 gh CLI 最直接的使用方式：它把 pull requests、issues 等 GitHub 概念带到日常执行 git 和编写代码的同一环境里，例如 README 展示的 gh pr status 就用于查看拉取请求状态。工具支持 GitHub.com、GitHub Enterprise Cloud 以及受支持版本的 GitHub Enterprise Server，并覆盖 macOS、Windows 和 Linux。安装渠道依平台而异，macOS 可使用 Homebrew，Windows 可使用 WinGet，各系统也能从 releases page 获取预编译二进制文件或选择 Build from source。GitHub Codespaces 可通过 devcontainer 配置加入它，GitHub Actions 的托管 runner 则已经预装，并按周更新。若由编码智能体驱动命令行，还可通过内置的 gh skill command 安装或更新专用 agent skill，使智能体按既有 gh 工作流操作仓库。"
+      "analysis_source": "d043b6c71beec8486e885d65d5fe63acb8ac4b9d154c644b1611549b3627bfe1",
+      "analysis_zh": "离开终端去网页处理 pull requests 或 issues，并不是使用 GitHub 的必经步骤；GitHub CLI 把这些 GitHub 概念带到日常运行 git 和编辑代码的同一环境中。它的命令名是 gh CLI，可在 GitHub.com、GitHub Enterprise Cloud 以及受支持的 GitHub Enterprise Server 版本上工作，并覆盖 macOS、Windows 和 Linux。安装渠道随系统而异：macOS 可用 Homebrew，Windows 可用 WinGet，各平台也能从 releases page 获取预编译文件，或者选择 Build from source；GitHub-hosted runners 已预装并按周更新。README 还提供供 coding agents 驱动 gh 的 agent skill，可通过内置的 gh skill install cli/cli gh --scope user 安装，并以 gh skill update gh 更新，让智能体复用命令行中的仓库、议题和拉取请求操作。Linux 软件源用户若在 2026 年 9 月 5 日密钥轮换后遇到安装或更新问题，则可按公开公告处理 PGP signing key 变更。"
     },
     "codexu/note-gen": {
       "source": "Capture first. Organize later. A local-first Markdown app that turns scattered records into clear notes with AI.",
@@ -495,20 +495,20 @@
     "electerm/electerm": {
       "source": "📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)",
       "zh": "免费开源的跨平台终端及 SSH、SFTP、FTP、远程桌面客户端",
-      "analysis_source": "04d19f6394f88d49c63cf9505ebe9bcd2efaab870216a5b3c4544970ebb41436",
-      "analysis_zh": "electerm 把终端、文件管理与远程连接放进同一个客户端，支持 Linux、Mac、Windows 和 Android；远程连接覆盖 SSH、SFTP 等协议，并可用全局快捷键 ctrl+2 快速唤起窗口。连接认证除密码和公钥外，还支持 ssh-agent、证书与一次性口令；建立连接后，双击远程文件即可编辑，Zmodem 和 Trzsz 提供终端文件传输，SSH tunnel、跳板和代理设置则处理多层网络连接。需要同时操作多台机器时，输入可以镜像到多个终端，书签还可通过 GitHub 或 Gitee 的 secret gist、WebDAV 及自定义存储同步。AI 功能支持 Chat Completions、Responses 和 Anthropic Messages 等接口，可以围绕选中的终端内容解释命令、编写脚本，也能帮助创建书签和主题；MCP widget 进一步提供工具接入入口。README 将这些能力与终端会话、远程文件和连接管理放在一起，重点是让已有远程操作流程在一个窗口中连续进行。"
+      "analysis_source": "9f17b5b8842b586438664eebfa27c947617280095450deded5f4e0ec863d300c",
+      "analysis_zh": "从本地命令行到远程图形桌面，electerm 将 terminal 与 file manager 放进同一个跨平台客户端，并同时处理 ssh、sftp、ftp、telnet、serialport、RDP、VNC 和 Spice 连接。其覆盖范围不止常见的 Windows、macOS、Linux 与 Android，还延伸到 HarmonyOS、iOS、Windows 7、Ubuntu 18，以及 UOS、Kylin、LoongArch、riscv64 和 ppc64le 等较少见的平台或架构，方便在新旧设备混合的环境中维持统一操作入口。除了原生应用，用户还可以通过 electerm web 在浏览器和移动设备中运行 Web 版本，或直接体验公开免费的 electerm online；项目也提供 Docker、Snap Store、deb repo、rpm repo、Microsoft Store 和各移动应用商店等多种获取渠道。README 还单列 electerm AI，为客户端用户提供 AI 功能入口。"
     },
     "elie222/inbox-zero": {
       "source": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
       "zh": "帮助用户快速清空收件箱的开源AI邮件个人助理。",
-      "analysis_source": "ddc86c97afecdebbe1383da7659cb5836a3b3ad68e72264cf3d3deb00c15f2f8",
-      "analysis_zh": "Inbox Zero 把邮件处理拆成两个可独立使用的部分：在 Gmail 或 Outlook 后台工作的 AI email assistant，以及汇集多个账户的 email client。前者会按用户的语气预拟回复，并允许用自然语言编写 AI Rules，决定邮件如何分类和处理；Reply Zero 用来追踪待回复及等待对方回应的邮件，Bulk Unsubscriber 和 Bulk Archiver 则分别处理长期不读的订阅邮件与旧邮件。它还能拦截陌生推销、统计邮件活动、结合邮件和日历准备 Meeting Briefs，并通过 Smart Filing 自动把附件保存到 Google Drive 或 OneDrive。用户也可以在 Slack 或 Telegram 中直接与助理对话，不必打开邮箱。客户端提供 split inbox、团队评论和多账户统一视图，Web 与 Electron 桌面端均开源；iOS 原生应用可连接自托管服务器，另有较早的 React Native Android 应用。"
+      "analysis_source": "7594bd9782c9a8345ea3db20ec6e732b3d2b0f7d6bf0421baf0c5b33fad00930",
+      "analysis_zh": "Inbox Zero 将邮件处理拆成两个可以独立使用的部分：后台运行的 AI email assistant，以及同时支持 Gmail 和 Outlook 的 email client。前者会整理收件箱，并按照用户的语气与风格预先起草回复；AI Rules 允许直接用自然语言描述邮件应如何处理，Reply Zero 则追踪待回复邮件和仍在等待对方答复的会话。清理工具覆盖一键退订并归档从不阅读的邮件、批量归档旧邮件和自动拦截 cold emails，Email Analytics 用来观察邮件活动趋势。它也会结合邮件与日历生成 Meeting Briefs，把附件自动保存到 Google Drive 或 OneDrive，并可通过 Slack 或 Telegram 对话，在外出时继续管理收件箱。邮件客户端提供 split inbox、多账号统一入口和团队评论，Web 与 Electron 桌面端保持开源；原生 Swift iOS 应用目前尚未开源，但允许连接自托管服务器，Android 则保留较早的 React Native 版本。整体技术栈采用 Next.js、Tailwind CSS、shadcn/ui、Prisma 等组件，既可作为在线服务使用，也保留自行部署和定制的路径。"
     },
     "elie222/rakazo": {
       "source": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
       "zh": "开源 Grok Bot 替代方案，可自选模型和沙箱",
-      "analysis_source": "7a979009b8b6bae1e59f7b70cfdf4eaeb09dc59bb921f0d6222205bca7a61dc2",
-      "analysis_zh": "Rakazo 将 AI 队友做成长期存在、由用户自己掌控的工作单元：每个 bot 都有 Memory、Routines、应用和一台 computer，并运行在用户选择的模型与基础设施上。它为 bot 提供 browser、terminal、files 和完整桌面，用户可以观看执行过程，在需要登录时接管，再把控制权交还；多个 bot 放进 Group chats 后，可通过 @mention 分工、相互检查并汇报结果，也能使用 Delegation and subagents。自动任务既可按计划运行，也可由 email 或 webhook 触发，每次运行都有记录。工作产物不只停留在对话里，Pages 能生成可全屏打开、分享并继续提问的实时 dashboards 和 documents；Gmail、Slack、GitHub、Notion、Linear 等 Connected apps，以及 MCP servers 和 OpenAPI tools，则负责接入外部服务。Web、desktop、iPhone、iPad 与 Android 都连接同一 server。快速启动不要求克隆仓库或安装 Node，只需 Docker Engine、Compose plugin、curl 和 OpenSSL；安装器会下载 Compose 文件、用随机密钥创建 .env 并启动服务，重复执行时保留已有 .env，随后打开 http://127.0.0.1:5173 创建账户并连接模型即可。"
+      "analysis_source": "15e68afd0f3e4f885ef203fce6a1b5b4e253fd54e6ab364d08e3ac6dca428e84",
+      "analysis_zh": "Rakazo 把长期运行的 AI teammates 放在用户自己掌控的服务器和模型之上：每个机器人都拥有持续记忆、Routines、应用连接以及一台可操作的计算机，计算机内含浏览器、终端、文件和完整桌面。用户可以旁观执行过程，在需要登录时接管，再把控制权交还。多个机器人还能进入 Group chats，通过 @mention 分工、互相检查并汇报结果；任务既可定时触发，也可由邮件或 webhook 启动，所有运行记录均可查看。它还能生成可全屏打开、按链接分享并继续问答的 Pages，并连接 Gmail、Slack、GitHub、Notion、Linear、MCP 服务器和 OpenAPI 工具。Web、桌面、iPhone、iPad 与 Android 共用同一服务端。快速启动不要求克隆仓库或安装 Node，只需准备 Docker Engine、Compose plugin、curl 和 OpenSSL；安装器会下载 Compose 文件、以随机密钥创建 .env 并启动服务，重复运行时保留已有配置。随后打开 http://127.0.0.1:5173，注册账号并连接自选模型即可，默认启用本地 Docker 计算机，也可配置 e2b、novita、daytona 等远程沙箱提供方。"
     },
     "emqx/MQTTX": {
       "source": "A Powerful and All-in-One MQTT 5.0 client toolbox for Desktop, CLI and WebSocket.",
@@ -531,8 +531,8 @@
     "farion1231/cc-switch": {
       "source": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
       "zh": "跨平台桌面一体化助手，支持 Claude Code、Codex、OpenCode 等",
-      "analysis_source": "c72ab86f1d08a5ac1ed228e002d48de83c3359a1914bc51350e033927a8f1a40",
-      "analysis_zh": "CC Switch 将 Claude Code、Codex 等工具的供应商配置放进统一桌面界面，按不同连接方式提供 Direct、Routing 与 Aggregation。直接模式写入各工具配置；路由模式接管后续请求，可为每个工具设置故障转移队列，并用健康监测和熔断器处理不可用的供应商。聚合模式则把多个供应商的模型放进客户端的同一模型列表，让请求随所选模型分流，但不提供自动故障转移。MCP 面板可导入已有服务器配置并选择同步目标，Prompts 保存每种工具的提示词，切换前会先将原文件内容存回库中；Skills 支持从 skills.sh、GitHub 或 ZIP 安装，再通过符号链接或复制同步。使用量面板可直接读取本地会话日志，统计请求、tokens、缓存命中率和开销，不要求先启动路由。Session Manager 把对话、思考、工具调用与结果分别呈现，支持搜索、导出和恢复命令；Apps 页面负责检查 CLI 版本、安装及更新，跨设备配置则可通过 WebDAV 或 S3 兼容存储同步。"
+      "analysis_source": "498a532d5bdfee9efbf9e720797d3557fa3d9ad68fea6a4eb40c7e8be4625fa0",
+      "analysis_zh": "CC Switch 将十二种 AI 工具的连接配置收进一个桌面界面：选择 Claude Code、Codex、Gemini CLI 等工具，从预设供应商填入密钥并切换，程序只替换 endpoint、key 和 model，保留用户原有的插件、hooks、MCP 与注释。连接方式分为 Direct、Routing 和 Aggregation：直接模式连接服务商，路由模式经本机转发、转换 API 格式并自动故障转移，聚合模式则让多个供应商的模型出现在 Claude Code 或 Codex 的同一模型列表中。MCP 与 Skills 可以添加一次后选择同步目标，Prompts 按工具分别维护；Apps 页面集中显示 CLI 版本、安装位置与来源，也能安装或更新工具。会话阅读视图从本地日志整理每轮操作、修改文件与失败步骤，使用量和开销统计不要求开启本地路由，供应商卡片及托盘还能显示订阅剩余额度和账户余额。切换连接后是否需要重启取决于工具，Claude Code 可直接生效，Codex、Gemini CLI 与 Grok Build 则需要重启终端或对应 CLI。"
     },
     "flameshot-org/flameshot": {
       "source": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
@@ -555,8 +555,8 @@
     "generalaction/emdash": {
       "source": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
       "zh": "开源多代理开发环境，支持并行运行多种编码代理。",
-      "analysis_source": "ad2d8a717aaab5343fbfa1d31d1b77fb99032b3c29a0023b5f3992ea6d4f52f7",
-      "analysis_zh": "同时尝试多个修复方案时，Emdash 不要求用户手动维护一排终端：每项任务都会进入独立的 Git worktree 和分支，由不同 AI 编码代理并行处理，完成后可在一个桌面应用里查看 diff、保留有效方案并合并代码。它会自动识别已经安装的 provider CLI，可接入 Claude Code、Codex、Cursor、OpenCode、Amp、Devin、Qwen Code、Droid 和 GitHub Copilot 等工具，因此无需被单一模型或供应商绑定。Linear、GitHub、Jira、GitLab、Asana、Featurebase、Monday.com、Forgejo、Plain 或 YouTrack 中的工单可以直接交给代理继续执行，随后还能集中创建 pull requests、检查 CI checks 并完成合并。支持生命周期钩子的代理会获得带标记的用户级配置，让 Emdash 跟踪状态、通知和可恢复会话；代理离开 Emdash 运行时，这些钩子不会产生干扰。代码也不必位于本机，通过 SSH/SFTP 可连接远程机器并复用相同的并行工作流，认证覆盖 SSH agent、密钥、密码及 OpenSSH 证书，凭据保存在操作系统 keychain 中。"
+      "analysis_source": "40aab94399553d1bc3d4b0d6d654e20ae19360ae6466682475e6c68a10168a6d",
+      "analysis_zh": "Emdash 把并行使用 AI 编码代理做成了桌面端工作流：每个任务都会进入独立的 Git worktree 和分支，因此可以同时尝试多个修复或功能，不必来回管理终端；完成后直接在同一处审查 diff、创建 pull request、查看 CI checks，并合并有效结果。它会自动检测本机已经安装的 provider CLI，可接入 Claude Code、Codex、Cursor、OpenCode、Amp 等代理；对于支持 lifecycle hook 的代理，还会在用户级配置中写入带标记的条目，用来跟踪状态、发送通知和恢复会话，而代理脱离 Emdash 运行时这些钩子不会产生影响。任务来源不局限于本地输入，Linear、GitHub、Jira、GitLab、Asana、YouTrack 等平台上的 issue 或 ticket 都能发送给代理处理。除了本地项目，还可通过 SSH/SFTP 连接远程机器，在远端代码库上沿用同样的并行流程，并支持 SSH agent、密钥、密码及 OpenSSH 证书认证，凭据存入操作系统钥匙串。macOS 可执行 brew install --cask emdash，Windows 提供安装器和便携版，Linux 的 x64 与 ARM64 则提供 AppImage、DEB 和 RPM 构建。"
     },
     "genspark-ai/genoffice": {
       "source": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
@@ -573,8 +573,8 @@
     "getpaseo/paseo": {
       "source": "Orchestrate multiple coding agents from desktop and mobile",
       "zh": "桌面和移动端多智能体编程协调工具。",
-      "analysis_source": "aa383ecc781f01acaaf41066f2d35cac508153e85699b8ae6679a9bc5db06385",
-      "analysis_zh": "打开 Paseo 的桌面应用后，agents、editor、terminals、diffs、pull requests 和 browser 会出现在同一个可自由排列的分栏工作区中，编程代理不再只是聊天框旁的一项附属功能。多项任务可以交给 Parallel agents 同时执行，每个代理占用独立 worktree；代理还可创建 worktree、启动其他代理并跨供应商交流，用户则逐一运行应用、审阅差异并提交拉取请求。Claude Code、Codex、Copilot、OpenCode、Pi、Antigravity 与 Muse Code 共用同一界面，但每项工作仍可选择不同模型。代理实际运行在用户自己的机器和开发环境里，可继续使用既有工具、配置与 skills。工作还能在 iOS、Android、desktop、web 和 CLI 之间衔接，手机端是原生完整应用，而不是只显示通知的遥控器；Voice control 可用于口述任务。插件运行于 daemon，一次编写即可把页面、侧栏、工作区面板、斜杠命令、主题及代理生命周期控制同步到所有连接客户端。"
+      "analysis_source": "5a70af105313f128bf4879e4cdc5ccf68451b3a3bc9409fd6cc3be5696260e23",
+      "analysis_zh": "打开 Paseo 的桌面应用后，代理、编辑器、terminals、diffs、pull requests 和浏览器都能留在一个可自由排列的分栏窗口里，编码、运行与审查不必在多套工具之间反复跳转。它用同一界面连接 Claude Code、Codex、Copilot、OpenCode、Pi、Antigravity 和 Muse Code，并允许同时启动多个代理；每项工作占用独立 worktree，代理还可以自行创建工作树、唤起其他代理并跨供应商沟通。执行环境保留在用户自己的机器上，因此现有开发工具、配置和 skills 都可继续使用。iOS、Android、desktop、web 和 CLI 共享工作进度，既能在桌前发起任务，也能从手机查看结果或在终端编排流程，Voice control 则支持口述任务和语音讨论。插件运行于 daemon，并会出现在连接它的每个客户端中；一次编写即可向各端加入 screens、workspace panels、slash commands、themes 等界面扩展，也能介入代理配置、环境、MCP servers、权限回答和回合结束后的跟进。README 同时明确没有 telemetry、tracking 或 forced log ins。"
     },
     "golutra/golutra": {
       "source": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and AI productivity workspace.",
@@ -653,8 +653,8 @@
     "l0ng-ai/openidea": {
       "source": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
       "zh": "用 Rust 重构的原生高速 IDE，支持 60 多种语言及 IntelliJ IDEA 风格交互",
-      "analysis_source": "c9d7544701d2e98844ac4f493d0458786798f311f85d5bf4ffb64605639732d0",
-      "analysis_zh": "熟悉 IntelliJ IDEA 的人可以沿用原有操作习惯进入 OpenIDEA：keymap、tool windows 与 search-everything habits 被带到带有 Rust core 的原生应用中，而不是重新学习一套编辑器交互。一个窗口内整合 editor、code insight、debugger、Git、terminal、database 和 HTTP clients，并覆盖 60+ languages，提供 macOS、Windows 与 Linux 构建。README 还用 freqtrade 项目展示启动表现：在指定 Windows 11 机器和预热缓存条件下，从打开项目到 Window with the project 的中位时间为 0.9 s，Ready 为 1.1 s；同时明确说明 IntelliJ IDEA 的 Python 分析更深，因此这些数字不能理解成完成了完全相同的工作，用户可通过 perf/compare 在自己的项目上复测。扩展系统允许插件加入 actions、completion、quick fixes、tool windows、自定义编辑器、主题、文件图标和语言；插件作为 sandboxed WebAssembly components 运行，主题、图标主题和语言甚至无需代码。安装入口位于 Settings › Plugins，创建插件则可执行 openidea-plugin new，不过 plugin API 目前仍处于 preview。"
+      "analysis_source": "7096d92618f5cb6e6e4e022bf8626081c65bffc5a8f6e9cb3c927d36ffd1a751",
+      "analysis_zh": "OpenIDEA 把 IntelliJ IDEA 的工作习惯迁入带 Rust core 的原生应用：熟悉的 keymap、tool windows 和 search-everything 得以保留，同时把 editor、code insight、debugger、Git、terminal、database 与 HTTP clients 汇集到支持 60+ languages 的工作区，并提供 macOS、Windows 和 Linux 构建。README 不只宣称速度，还展示了在 Windows 11 上打开 freqtrade 的可复现实验：使用 warm caches 运行五次取中位数，并从项目窗口出现、CPU 稳定、内存、就绪前 CPU 时间、空闲占用和退出速度等维度比较；它也明确提醒，IntelliJ IDEA 对 Python 的分析更深，因此双方的“ready”并不代表完成了相同工作。用户可以在 Settings › Plugins 安装扩展，也可运行 openidea-plugin new 创建自己的插件。插件能增加 actions、completion、quick fixes、自定义编辑器、主题、文件图标和语言，并作为 sandboxed WebAssembly components 运行；纯主题、图标主题和语言甚至无需编写代码。不过 plugin API 仍处于 preview，现阶段更适合按预览接口探索和贡献，而非假定其已经稳定。"
     },
     "lapce/lapce": {
       "source": "Lightning-fast and Powerful Code Editor written in Rust",
@@ -677,8 +677,8 @@
     "lightningpixel/modly": {
       "source": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
       "zh": "使用本地 AI 从图片或提示词生成 3D 模型，完全由 GPU 运行的桌面应用",
-      "analysis_source": "48e481697279be7b70293121886345016c1d37b947c59fc9ba6a96e9bd2a06fe",
-      "analysis_zh": "一张照片进入 Modly 后，开放模型会直接在用户自己的 GPU 上把它转换为 3D mesh，素材与推理过程不必交给远端服务。桌面版本覆盖 Windows、Linux 和 Apple Silicon macOS，可从 Releases 获取安装包，也能克隆仓库后依次安装 JS dependencies、配置 Python backend，再启动 development 环境。生成并非工作流终点：应用可以导入已有 meshes，执行 smoothed 和 decimated 处理，再把优化结果写回 workspace；运行前还会校验 workflow wiring，若 graph 无效，会保留当前 mesh view，并通过 inline/toast warnings 指出问题。扩展机制允许追加不同模型和处理过程，每个 extension 都是包含 manifest.json 与相应 runtime entry files 的 GitHub repository，官方选项包括 Hunyuan3D 2 Mini、Hunyuan3D 2 Mini Turbo、Hunyuan3D 2 Mini Fast 和 TripoSG。硬件适配方面，AMD GPUs 在 Linux 与 Windows 上会被自动识别并引导使用 ROCm PyTorch wheels，无需用户另行安装 ROCm；macOS 则明确只支持 Apple Silicon。"
+      "analysis_source": "a3a5fa979ee93bd57035aef3d9c552e10e75eb3a3ac52524a901871c33b683f0",
+      "analysis_zh": "Modly 的工作流从照片开始，由运行在本机 GPU 上的开源 AI 模型生成 3D mesh，整个过程置于 Windows、Linux 或 Apple Silicon macOS 桌面应用中。普通用户可直接从 Releases 下载对应安装包；需要参与开发时，则按顺序安装 JS 依赖、配置 Python backend、启动开发环境并执行测试。生成结果之外，应用也允许导入现有网格，在界面内执行 smoothing 和 decimation，再把优化结果写回 workspace。运行前会校验 workflow wiring，遇到无效图时不会丢弃当前 mesh 视图，而是保留现场并显示 inline/toast warnings。模型能力通过 Extension system 扩充：每个扩展都是一个 GitHub repository，包含 manifest.json 及其类型所需的运行入口；官方扩展覆盖 Hunyuan3D 2 Mini、Turbo、Fast 和 TripoSG 等方案。AMD GPU 在 Linux 与 Windows 上会被自动识别，并将扩展引导至 ROCm PyTorch wheels，无须另行安装 ROCm；macOS 仅支持 Apple Silicon，并使用原生窗口控件。顶部栏还会从主进程读取并实时显示 RAM 状态。"
     },
     "lite-xl/lite-xl": {
       "source": "A lightweight text editor written in Lua",
@@ -689,8 +689,8 @@
     "luckjiawei/frpc-desktop": {
       "source": "Cross-platform desktop client for FRP, visual configuration, easily achieve intranet penetration!",
       "zh": "跨平台 FRP 桌面客户端，支持可视化配置，轻松实现内网穿透",
-      "analysis_source": "d2fd787c231cdbadbed57eeb58aee59406becbfaf15afebd741c766a67c05c7c",
-      "analysis_zh": "Frpc Desktop 把 FRP 内网穿透的配置与运行状态搬进跨平台图形界面，并在 2.0 中从 Electron 全面重构到 Tauri 2，因此安装包更小、内存占用也更低。它能通过 Multiple instances 同时运行连接不同 frps 服务器的多条 frpc 隧道，也把 Cloudflare Tunnel 纳入同一套实例管理。新版 dashboard 以只读方式汇总运行实例、代理、连接错误，并提供批量启动和停止；编辑时则通过 Tabbed drawer configuration 在侧边抽屉中修改每个实例的配置和查看日志，无需离开当前页面。界面支持浅色、深色及跟随系统主题，菜单动画会遵循 reduced motion 偏好。Windows 提供 .msi、.exe 与便携 .zip，macOS 提供 .dmg，Linux 则有 .AppImage、.deb 和 .rpm；Windows 便携版解压后运行 Frpc-Desktop.exe，并依赖通常已随当前 Windows 10/11 提供的 Microsoft Edge WebView2 Runtime。"
+      "analysis_source": "0bd526e798c50f0ea27b10941b2fcfb88a108a2b61832f3b8b7dd36d33f1dd44",
+      "analysis_zh": "Frpc Desktop 用图形界面管理 FRP 内网穿透，把不同 frps 服务器上的多条隧道组织为 Multiple instances，并可在同一应用中并列管理 Cloudflare Tunnel。2.0 版本从 Electron 全面重构到 Tauri 2，重点缩小安装包并降低内存占用；新的 dashboard 以只读方式汇总运行实例、代理、连接错误，并支持批量启动或停止。界面提供 light、dark 和 system themes、可折叠侧栏、可复制地址，以及遵循系统 reduced motion 偏好的菜单动画，重置、删除确认和输入对话框也保持统一主题。下载页为 Windows 提供 .msi、.exe 与便携 .zip，为 macOS 提供 Apple Silicon 和 Intel 的 .dmg，为 Linux 提供 .AppImage、.deb 和 .rpm；Windows 便携版解压后直接运行 Frpc-Desktop.exe，但依赖 Microsoft Edge WebView2 Runtime。除 Releases 外，Windows 用户也能通过 WinGet 安装和更新。需要浏览器管理方式时，同一作者还提供 web UI 产品 Podux。"
     },
     "lyswhut/lx-music-desktop": {
       "analysis_source": "c704827d6bcf4a27a5a1ca736f239f2e42644102eea61496659ff60580e19ae4",
@@ -723,8 +723,8 @@
     "mg-chao/snow-shot": {
       "source": "Snow Shot is free, open-source screenshot software and a screen recording tool for Windows and macOS, with annotation, scrolling screenshots, offline OCR and image pinning. 免费开源截图软件，支持截图标注、滚动长截图、离线 OCR、贴图与录屏。",
       "zh": "适用于 Windows 和 macOS 的免费开源截图录屏工具，支持标注、滚动截图、离线 OCR 和贴图。",
-      "analysis_source": "28ebe15928049c8958b7ffb106bb3df98ce779a18a50216c71daa4043d5ccaff",
-      "analysis_zh": "Snow Shot 将截图后的处理链路放在一套桌面工具里：可选择区域、当前窗口或显示器，也能延时捕获和制作 scrolling screenshot；完成捕获后，可直接添加箭头、形状、文字、编号步骤、高亮与模糊，已有图片也能用相同绘图工具继续编辑。需要长期参照的图片或剪贴板内容可以固定在其他窗口上方，并统一整理、恢复。文字处理主要依靠 local OCR，同时能够读取 QR codes；基础截图、标注、录制、标准 OCR 和二维码识别均在设备本地完成，而翻译、表格识别、AI 转换及云上传才会调用用户选择的在线服务。录屏可带系统声音或麦克风音频，并导出视频、GIF、APNG 或 WebP。它还支持拼接、切图和全屏画布，快捷键、工具栏、主题及导出偏好均可定制；可选的 MCP integration 默认关闭，启用后兼容的 AI 客户端才能调用受支持工具。"
+      "analysis_source": "84c3a6d15ee9407260f26f3966efef055f41d421b0f98fabe90a78454f205853",
+      "analysis_zh": "从截取画面到补充说明、提取信息和录制演示，Snow Shot 将常见视觉沟通操作集中在 Windows 与 macOS 客户端中。截图既可选择区域、当前焦点窗口或显示器，也可设置延时并制作 scrolling screenshot；完成后能加入箭头、形状、文字、编号步骤、高亮和 blur，同一套绘图工具也能编辑已有图片。需要持续参照时，可把图片或剪贴板内容 Pin 在其他窗口上方，并整理、恢复这些贴图。local OCR 和 QR codes 识别在设备本地完成，可选在线服务再提供翻译、表格识别与 AI conversion。录屏支持系统声音或麦克风，并能导出视频、GIF、APNG、WebP 动画；此外还可拼接图片、拆分图片或在全屏画布上绘制。快捷键、工具栏、主题和导出偏好均可定制，界面提供英语、简体中文和繁体中文。可选的 MCP integration 默认关闭，启用后兼容的 AI 客户端能够调用受支持的 Snow Shot 工具；基础截图、标注、录制、标准 OCR 与二维码识别仍在本机运行。"
     },
     "microsoft/vscode": {
       "source": "Visual Studio Code",
@@ -733,8 +733,8 @@
     "milind-soni/OpenMausBot": {
       "source": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "zh": "开源 Grok Bot 替代方案，提供机器人可使用的虚拟机",
-      "analysis_source": "c9652e5876e98b33d8c91e2630cb834d8052f29354dce6cd02e34ca2dca1c781",
-      "analysis_zh": "OpenMausBot 把 AI 代理重新组织成聊天应用中的联系人列表：侧栏里的每个 bot 都是实际运行的 Claude 或 Codex 代理，拥有自己的 personality、model、cloud computer、connected apps，以及对当前对话线程的记忆。用户像给联系人发消息一样分派任务，可以观察工作过程，并在关键操作发生前进行批准。这种设计针对“One assistant in one box”的局限，让多个职责和环境不同的 bot 组成可交互的团队。运行方式强调 local-first 与 Bring your own agents：bot 调用本机已经安装的 claude、codex 和 grok CLIs，沿用现有登录与订阅，不要求再注册账户，也不在中间增加代理服务；engine 还可指向 custom CLI binary。桌面程序基于 TypeScript、React 和 Electron，发布包覆盖 macOS 的 Apple silicon 与 Intel、Windows x64，以及处于 beta 阶段的 Ubuntu 24.04 x64。它是受 Grok Bot 启发的独立实现，与 xAI、Meta、OpenAI 或 Manus 无隶属关系，也明确声明没有任何加密货币 token。"
+      "analysis_source": "dcfca221ada4dd65edc8b266e5f0b56d8a67a0b8ef3610f141f997bb86268eda",
+      "analysis_zh": "打开 OpenMausBot，侧边栏里的每个 bot 都不是简单的人设入口，而是一个真正运行的 agent：底层可使用 Claude 或 Codex，分别拥有自己的 personality、model、cloud computer、connected apps，以及当前对话线程的记忆。交互被做成聊天应用的样子，用户像联系不同联系人一样分派工作、观察执行过程，并在关键动作上审批。它坚持 local-first 和 Bring your own agents，直接调用本机已安装的 claude、codex、grok CLIs，沿用现有登录与订阅，不要求新账号，也不在中间设置代理；引擎还可以指向 custom CLI binary。项目认为把所有能力塞进单一助手并不适合智能体协作，因此用一组各自拥有模型、电脑和应用的 bots 重构这种体验。桌面版本基于 TypeScript、React、Electron，提供 macOS、Windows 安装包，并为 Ubuntu 24.04 x64 提供 beta 阶段的 .deb 或 AppImage。README 同时明确声明其与 xAI、Meta、OpenAI、Manus 无隶属关系，且 OpenMausBot 没有任何 token。"
     },
     "mltframework/shotcut": {
       "source": "cross-platform (Qt), open-source (GPLv3) video editor",
@@ -781,14 +781,14 @@
     "nightly-labs/openbot": {
       "source": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "zh": "本地优先的持久化 AI 队友桌面工作区，支持 Codex、Claude 和 Grok",
-      "analysis_source": "a31fcfcba64283aed74ebdc80dd9140d0fb62e4323b05752d7d390d7c11d6d20",
-      "analysis_zh": "OpenBot 把多个持续运行的 AI agent 收拢进一个 local-first 桌面工作区，并让每个 agent 拥有独立 workspace、conversation 和 provider session。它原生支持 local Codex App Server 与 Claude Code，也可通过 ACP 接入 Grok CLI、OpenCode、Gemini、Cursor CLI、Cline CLI、Kimi Code CLI、Devin CLI、GitHub Copilot CLI、Mistral Vibe 和 Hermes Agent；还支持自定义 OpenAI-compatible endpoints，并检测 Ollama、LM Studio 等本地模型服务。日常协作依靠 FIFO message queues 管理，任务可暂停、恢复、取消，并以 crash-safe persistence 保存；agent 之间能够发送消息、回复、表情、图片和 managed file transfers，共享频道则提供明确委派以及 Stop、Resume、Reassign、Archive、Restore 控制。persistent embedded browser 可由 agent 打开、检查和操控，发布包中的 cua-driver binary 还能在 macOS、Windows 与 Linux 上提供可选 Computer Use。它的权限模型尤其明确：首次启动取得用户同意后，agent 以 danger-full-access 和 approvalPolicy: never 运行，可修改文件、执行命令、访问网络并控制浏览器，后续不会逐项确认，因此只应交给可信任务，并提前保留备份。"
+      "analysis_source": "8038ca1def310c6e69354d7a933302d79d561cd1a6591d12968cd06fc847dffa",
+      "analysis_zh": "OpenBot 将 Codex App Server、Claude Code 以及通过 ACP 接入的 Grok CLI、OpenCode、Gemini、Cursor CLI、Cline CLI 等代理收进同一个本地优先桌面工作区。每个代理拥有独立会话和本地目录，可长期保留状态；用户还能为它编辑指令、头像和模型配置，并在长对话耗尽上下文前由 automatic compaction 处理历史。任务进入具备暂停、恢复、取消和崩溃恢复能力的 FIFO message queues，代理之间可以发送消息、回复、表情、图片及受管理的文件。共享频道由一个任务负责人统筹，通过明确委派协作，并提供 Stop、Resume、Reassign、Archive 和 Restore 控制。内置的 embedded browser 会持续保存状态，代理可以打开、检查和操控页面；发布包还可通过 cua-driver 在 macOS、Windows 与 Linux 上提供 Computer Use。这里的自动化权限非常高：首次启动明确同意后，代理以 danger-full-access 和 approvalPolicy: never 运行，能够读写文件、执行命令、访问网络并控制浏览器，后续不会逐项确认，因此只应交给可信代理与任务，并提前保留备份。"
     },
     "nukeop/nuclear": {
       "source": "Streaming music player that finds free music for you",
       "zh": "免费音乐流媒体播放器。",
-      "analysis_source": "02756736a153c83481d551486d136842121b1889e6061330847015e454011a81",
-      "analysis_zh": "打开 Nuclear 后，可以直接搜索任意歌曲或艺人，从可用的 Stream sources 获取音乐并加入播放队列，而不必先绑定某一家流媒体服务。搜索结果可继续进入艺人页和专辑页，查看简介、唱片目录、相似艺人及曲目列表；常听内容能够收藏为专辑、艺人或单曲，也能创建、导入和导出 Playlists。播放环节提供随机、循环、拖放排序、Synced lyrics、收听历史和统计，并可通过 Nuclear Jam 用手机控制桌面播放器。它最鲜明的设计是把大量功能交给 Plugins：插件不仅能增加流来源，还可提供元数据、歌单和首页内容，用户可在 Plugin store 中浏览和安装。界面内置明暗主题，也支持自定义 CSS；MCP server 则允许 AI 智能体操作播放器。应用无广告、无追踪，可在 Windows、macOS 与 Linux 上运行，各平台可从 Releases 页面下载对应安装包。"
+      "analysis_source": "0c30e200007d7e8337b6f8c492de0459dca446300efc43a578676fe3246098c0",
+      "analysis_zh": "搜索歌曲或艺人、把曲目加入队列并直接播放，是 Nuclear 最直接的使用路径；它不含广告和 tracking，可运行于 Windows、macOS 与 Linux。除了常规的 shuffle、repeat 和拖放排序，界面还覆盖艺人传记、discographies、similar artists、专辑曲目页、收藏、播放列表、Listening history 与 Listening stats，并提供带 furigana 和 translations 的 Synced lyrics。播放列表可创建、导入和导出，也能从多种服务迁移；手机端的 Nuclear Jam 则可远程控制播放器。真正塑造其运转方式的是 plugin system：README 说明各项功能已经重新设计为由插件驱动，插件不仅能增加 streaming sources，还可提供 metadata、playlists、dashboard content 等内容，并通过内置 plugin store 浏览安装。播放器支持内置主题和 custom CSS themes、自动更新、键盘快捷键及多语言界面；此外还提供 MCP server，让 AI agent 能够操控播放。"
     },
     "oliverschwendener/ueli": {
       "source": "Cross-Platform Keystroke Launcher",
@@ -823,8 +823,8 @@
     "pbek/QOwnNotes": {
       "source": "QOwnNotes is a plain-text file notepad and todo-list manager with Markdown support and Nextcloud / ownCloud integration.",
       "zh": "支持 Markdown 并集成 Nextcloud 和 ownCloud 的纯文本笔记与待办管理器",
-      "analysis_source": "521bbe9fce7b121d2a1b09b5512303dc223d5505254b51835031d11100dea498",
-      "analysis_zh": "笔记在 QOwnNotes 中并未被锁进专有数据库，而是直接保存为 plain text markdown files：可以在 GNU/Linux、macOS 或 Windows 上记录想法、编辑与搜索内容，再借助 Nextcloud 或 ownCloud 的文件同步功能把同一批文件带到网页端和移动设备。偏好其他同步方案时，也可改用 Syncthing 或 Dropbox，因此即使离开 QOwnNotes，普通文本编辑器仍能读取和修改笔记。待办事项的跨端管理依赖 Nextcloud 或 ownCloud 上的 Tasks backend；若希望获得笔记版本记录和回收站访问等在线功能，则可在服务器安装 QOwnNotes Nextcloud app，旧版服务器仍可继续使用 QOwnNotesAPI。移动端并不限定单一客户端：Android 可用 QOwnNotes Android，也可通过 FolderSync 等工具同步后交给 Markor 或 neutriNotes 编辑；iOS 与 ownCloud、Nextcloud 也有相应应用可接入。浏览网页时，还能利用 QOwnNotes Web Companion 的 Firefox 或 Chrome extension 配合笔记工作。整套设计的辨识度在于保留 Markdown 文件的可见性与可迁移性，同时把桌面编辑、搜索、待办和自建云同步串联起来。"
+      "analysis_source": "d7e3d762eae9e2516cf07c47956c3dc17541156309f36972c2750cc50307882d",
+      "analysis_zh": "笔记在 QOwnNotes 中并不会被锁进专有数据库，而是保存成 plain text markdown files，用户可以直接掌握、迁移和用其他软件处理自己的内容。它在 GNU/Linux、macOS 和 Windows 上提供 Markdown 笔记编辑、搜索与待办管理，并可配合 Nextcloud Notes 或 ownCloud Notes，让桌面写下的想法继续通过网页和移动设备访问。同步主要沿用 Nextcloud 或 ownCloud 的文件同步机制，也可换成 Syncthing、Dropbox 等工具。若要跨网页和手机管理待办，需要在服务器安装 Tasks backend；若希望获得笔记版本记录、回收站访问等在线功能，则可安装 QOwnNotes Nextcloud app。旧版 Nextcloud 与 ownCloud 服务器仍可使用 QOwnNotesAPI，移动端也能按平台选用 QOwnNotes Android、Notes、CloudNotes 等应用，保持纯文本笔记可由不同客户端接续编辑的自由度。"
     },
     "pear-devs/pear-desktop": {
       "source": "Pear 🍐 is extension for music player",
@@ -865,8 +865,8 @@
     "reqable/reqable-app": {
       "source": "Reqable issue track repo",
       "zh": "Reqable问题跟踪仓库。",
-      "analysis_source": "a32392a370fdd1ff660d8b5f119d26405e354c6d6e229a8c3627b18ff2be5e0c",
-      "analysis_zh": "Reqable 把流量抓取和请求测试放进同一工作区，使“从已捕获请求进入修改、重放和验证”的流程不必在多个工具间周转。桌面端通过 system level proxy configuration 捕获流量，移动端则使用 local VPN；底层采用 MITM 策略拦截 HTTP(S)，随后可执行 request replay、行内编辑、断点、URL 重写和自定义脚本。测试客户端能够编写、发送并分类管理 HTTP、WebSocket、SSE 请求，gRPC 在 README 中仍标为 coming soon；API collections 采用文件夹组织，还支持具有作用域解析的 environment variables、内置接口文档编写及跨设备云同步。软件覆盖 Windows、macOS、Linux、Android、iOS，采用免登录、无广告的产品设计，多数功能可免费使用，进阶能力归入 Premium。需要区分的是，reqable/reqable-app 本身并非源码仓库，而是专门收集 issue tracking、feature requests 和 user feedback 的入口。"
+      "analysis_source": "59ad35b70b7ac983ee37ee99cc1677714fadc4f96d82cb16b8b8c8be662620bd",
+      "analysis_zh": "Reqable 将 API traffic capture 与 API testing client 深度整合在一个跨平台产品中，让抓包得到的请求可以直接进入编辑、重放和测试流程，而不必在多个独立工具之间搬运。桌面端通过系统代理、移动端通过 local VPN，采用经典 MITM 策略拦截 HTTP(S) 流量；捕获后可进行 request replay、inline editing、breakpoints、URL rewriting 和 custom scripting。测试侧能够编写、发送并整理 HTTP、WebSocket 与 SSE 请求，gRPC 尚标注为 coming soon；API collections 支持文件夹组织，environment variables 具备作用域解析，同时提供内置文档编写和跨设备 cloud synchronization。应用覆盖 Windows、macOS、Linux、Android 与 iOS，采用免登录架构，多数功能可免费使用，Community edition 主要覆盖个人需求，Premium tier 提供更进阶的能力。需要特别区分的是，reqable/reqable-app 并不包含产品源代码，也不是开源仓库；这里仅用于 issue tracking、feature requests 和 user feedback，产品下载、功能说明与文档入口则由官方网站提供。"
     },
     "rowboatlabs/rowboat": {
       "source": "Your agent team, in one group chat.",
@@ -895,8 +895,8 @@
     "stablyai/orca": {
       "source": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
       "zh": "使用自有订阅管理 Claude Code、Codex 等编程智能体集群，支持桌面端、移动端和远程运行",
-      "analysis_source": "56b3251c4439fa8dd09e66aefe28ac9481f974f6d10fd513773f9572dd2c25db",
-      "analysis_zh": "Orca 将多智能体编码组织成彼此隔离、可以并行推进的工作现场：Claude Code、Codex 或其他代理分别进入自己的 worktree，避免多个任务互相覆盖文件。操作既可以在 Chat UI 中进行，也能直接使用 raw CLI，并且对话可在两种界面间迁移而不丢失上下文。遇到大型任务时，主代理能够拆分工作、启动 worker agents，再把各自工作区的结果汇总回来；用户随后可查看 diffs、在具体修改行留下意见，并把聚焦后的反馈交还代理修正。运行位置也不限于当前电脑，Remote Orca Server、SSH host 和独立 cloud VM 都可承载工作区，即使笔记本休眠，代理仍能继续执行。移动端会在代理需要确认时推送提醒，用户可直接回复。内置浏览器的 Design Mode 还能点击页面元素并复制其 HTML、styles 和 selector；GitHub 与 Linear 任务、提交信息、拉取请求、自动化调度和插件也被收进同一工作流，而 Orca CLI 则把创建 worktrees、启动 workers、驱动浏览器与桌面应用等操作开放给命令行。"
+      "analysis_source": "84e1fdbb3f544e47121433525afdc370c8d9808b859d5d160447b52641dff1f4",
+      "analysis_zh": "Orca 将编程代理的对话、执行环境与代码审查放进同一个工作台：既能在 Chat UI 中与 Claude Code、Codex 等代理交流，也能切换到 raw CLI，并且往返时不会丢失上下文。面对较大的任务，可以先交给一个代理拆解，再由它启动 worker agents；每个代理运行在独立 worktree 中，因此多项修改能够并行推进而不互相污染。代理既可留在本机，也可通过 Remote Orca Server、SSH host 或独立 cloud VM 运行，即使笔记本休眠仍能继续工作；移动端则负责接收求助提醒、回复对话并跟进其他机器上的任务。产出阶段可直接查看 diffs、在具体修改行留下意见，再把聚焦后的反馈发回代理；Git 集成还能根据差异草拟提交信息和 pull requests。内置浏览器的 Design Mode 可从页面元素复制 HTML、样式和 selector，而 Orca CLI 进一步开放创建工作树、启动执行者、驱动浏览器与桌面应用、安排自动化等操作。"
     },
     "streetwriters/notesnook": {
       "source": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
@@ -947,8 +947,8 @@
     "tonhowtf/omniget": {
       "source": "A local MCP server that gives your coding agent a desktop toolbox: downloads from YouTube, torrents and every site yt-dlp supports, media conversion, files, chats and system cleanup. One line connects Claude Code, Codex, Cursor or Gemini CLI, and sensitive actions wait for your click. Free and open source for Windows, macOS and Linux.",
       "zh": "为编程智能体提供下载、媒体转换、文件与聊天管理及系统清理的本地 MCP 服务器。",
-      "analysis_source": "d4f89b5e85753c91af091ea09aa7398a6353c86db0cfcd938b1973d77dc3013a",
-      "analysis_zh": "OmniGet 把下载、媒体处理、文件操作、聊天和系统工具集中到一台本地运行的 MCP server 中，让 Claude Code、Codex、Gemini CLI、Cursor 等智能体通过同一个入口调用桌面能力。连接时先打开应用，再把界面给出的一行命令粘贴到智能体；OmniGet 会前置显示工具名称与短码，用户核对后点击 Allow，它才会把服务器地址和 private token 写入对应工具的配置。重启客户端后，智能体便能批量排队下载链接、查询格式、暂停或重试任务，也能驱动 built-in browser 读取网页、按顺序抓取课程或为新网站编写 connector。工具箱还覆盖媒体转换、书库搜索、HTTP 请求、端口、JSON、JWT、哈希、regex、FTP 与 SFTP，并可读取已连接的聊天和 feeds、跟踪 agent jobs、查看 diffs 与 pending approvals。返回值采用 structured data；过长结果会截断并保存到文件，错误会附带下一步处理方式。扫描垃圾可以先生成 cleanup 计划，但真正执行仍会等待用户点击确认。手动配置时，服务地址为 http://127.0.0.1:47720/mcp。"
+      "analysis_source": "9ac8e3ed128209a942a5a848d8894daae31e31c2345c2e3dfb046cbd6aed90d9",
+      "analysis_zh": "把 OmniGet 接入 Claude Code、Codex、Gemini CLI 或 Cursor 时，先打开应用，再粘贴 README 给出的一行连接命令；窗口会带着工具名称和 short code 回到前台，用户核对后点击 Allow，它才会把本地 server 与 private token 写入对应工具的配置。重启智能体工具后，便可通过 MCP 调用桌面能力：批量排队下载链接、列出格式、暂停或重试任务，也能驱动 built in browser 抓取整站和课程，转换媒体、搜索书库、把页面整理成 clean Markdown，或执行 HTTP requests、JSON、JWT、hashes、regex、FTP 和 SFTP 等开发操作。它还能读取已连接的 chats and social feeds、跟踪 agent jobs、查看 diffs 与 pending approvals，并通过 Memory 保留跨会话信息。所有功能都在本机运行；长结果会按限制截断并另存文件，错误会附带下一步处理方法，而真正执行 system cleanup 等敏感动作前仍会等待用户点击确认。"
     },
     "tonyantony300/dashbeam": {
       "source": "Share files nearby and beyond.",
