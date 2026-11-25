@@ -68,10 +68,10 @@
       "analysis_zh": "这套 Qwen Image 2.1 本地出图配方把提示词结构、NSFW LoRA 与 136 个 3D 姿势组合成四条可跟跑路线，并可作为 Claude Code、Codex、Cursor、OpenClaw 的 agent skill 使用。装好 ComfyUI、int8 convrot 底模、LoRA、VNCCS 节点和姿势库后，先运行自检命令确认连通性与依赖，再用 scripts/qwen pose test.py mode t2i 生成新图，或以 mode edit 保留已有角色的脸和服装；scripts/run pose transfer.py 可把人偶参考姿势迁移到角色，scripts/run vnccs ui.py pose [ prompt ] 则通过浏览器界面从姿势库选择精确姿势。README 用同一海边场景展示 L0、L1、L2 递进：从全着装无 LoRA，到湿身泳装与 LoRA@1.0，再到低机位蹲姿；提示词负责信息密度，LoRA 负责质感，机位决定大胆度。默认配方要求 50 步、CFG 2.5、1152×1728，并按作者结构写满 7 要素和 300–1500 字符；路线④依赖 Playwright/CDP，姿势参考应使用无身份特征的 3D 人偶渲染图。"
     },
     "BaaRai/ARTEX": {
-      "source": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
-      "zh": "AI 自主渗透测试系统的英文翻译版。",
-      "analysis_source": "9a4cf70e0a921173d30cd1f40277d40e38f7b98ce848facd3392677e0a277088",
-      "analysis_zh": "渗透目标进入 ARTEX 后，不会停留在与扫描器聊天的模式：planner 先把目标拆成 intents，workers 调用真实工具执行，再把资产、事实、发现和证据写回图中；任何图变化都会唤醒下一轮规划，直到目标被证明。系统用两张相互关联的图保存过程：asset graph 是跨任务共享的目标事实来源，记录域名、IP、服务、应用和端点；exploration graph 则按任务记录 goal、intent、fact、finding、hint 以及它们的推导关系，anchors 把测试方向与具体资产连接起来，从而生成覆盖情况和可审计的攻击链。发现并非只附一段模型结论，recording MITM proxy 与浏览器扩展会捕获真实 HTTP 请求和响应，复测结果也绑定到对应流量。自主执行受到审批、范围与拒绝规则、命令前缀、token 和轮次预算等约束。部署形态是嵌入 Next.js UI 的单个 Go binary，配合 PostgreSQL，并可连接 Anthropic/OpenAI 兼容端点或本地 Ollama；启动后访问 http://localhost:8787，首次设置使用终端输出的一次性 token。多提供商 worker rotation 可按 A、B、A、B 分派连续 intent，同时保留任务级故障转移。"
+      "source": "Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.",
+      "zh": "可自托管、模型无关且以证据支撑结果的 AI 自主渗透测试系统",
+      "analysis_source": "26ac2d3bcc80dc8f1617413bf9323b2e7d2970c16b34e11b3c239e8db3cc3f43",
+      "analysis_zh": "ARTEX 把自主渗透测试组织成持续推进的闭环，而不是在扫描器外包一层聊天界面：planner 将目标拆成 intent，worker 领取 intent 后调用真实工具，把资产、事实、finding 和执行结果写回图中；每次图变化都会再次唤醒 planner，直到 prove_goal 关闭任务。它用两套相互关联的数据结构保存上下文：共享的 asset graph 记录 domain、subdomain、ip、service、app、endpoint 等目标实体，任务独立的 exploration graph 则以 goal、intent、fact、finding、hint 及其边保存尝试过程和推理谱系，anchors 把一次测试方向与具体资产连接起来，从而形成覆盖率和审计轨迹。recording MITM proxy 与浏览器扩展会捕获真实 HTTP 流量，使 finding、证据摘录和复测绑定到准确的 request/response。自动执行仍受 scope/deny gates、approval gates、argv-prefix rules、token 和 turn budgets 等约束。部署形态是一份嵌入 Next.js UI 的 Go binary，配合 PostgreSQL 运行，可连接 Anthropic、OpenAI compatible endpoint 或本地 Ollama；首次打开 http://localhost:8787 后，需在 /setup 输入启动时打印的一次性 token。多模型任务还能按 LLM config chain 轮换 worker intent，并在供应商不可用时回退。"
     },
     "BigPizzaV3/CodexPlusPlus": {
       "source": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服",
@@ -190,8 +190,8 @@
     "Droid-Deck/DroidDeck": {
       "source": "DroidDeck brings the SteamOS experience to Android",
       "zh": "将 SteamOS 体验带到 Android 设备",
-      "analysis_source": "6ecf8f6cb8e78df36a4c2792a75c71e599f1c95ab9e7aa8c9d7b4b4e80c2f9b0",
-      "analysis_zh": "在兼容的 Android 设备上安装 APK 和 Linux runtime，按下 Play 并登录 Steam，DroidDeck 就会提供类似 SteamOS 的 Steam Gaming Mode，同时带来完整 Linux desktop，并连接 GOG、Epic Games、Xbox 等商店以及 Steam VR。它不要求 root，主要支持 Android 9 及以上、Adreno 730 或更新 GPU，也支持其他 8xx；Adreno 6xx、Mali、Xclipse 和 PowerVR 尚属实验范围，Adreno 710 当前不支持。运行时约占 3 GB，桌面与模拟器另需约 1.1 GB；Android 14 以上还要在开发者选项打开 Disable child process restrictions。兼容性依赖设备，桌面合成采用软件渲染，proot 环境下 Firefox sandboxing 会有所降低。自行构建需要 Docker、Java 17、Android SDK/NDK、Rust、Go、MinGW-w64 等工具，产物位于 app/build/outputs/apk/release/，可用 tools/deploy_local.sh 安装；单元测试命令为 ./gradlew -PskipRust=true :app:testDebugUnitTest。项目明确坚持无广告、无遥测、无专有组件和完整开放源码，错误反馈则应附上 Share logs 导出的压缩包。"
+      "analysis_source": "466358d0d3fbab676445656743ff5353a292a7cba6013721122d10678f52654a",
+      "analysis_zh": "把 APK 装到兼容的 Android 设备后，DroidDeck 的操作路径很接近掌机系统：安装 Linux runtime，按下 Play，登录 Steam，随后进入 Steam Gaming Mode；同时还提供完整 Linux desktop，并整合 GOG、Epic Games、Xbox、Steam VR 等入口。整个方案不要求 root，明确承诺 100% open source、无广告、无遥测和无专有组件。硬件起点是 Android 9 与 Adreno 730 或更新型号，或任意 8xx；Adreno 6xx、Mali、Xclipse、PowerVR 仍属实验支持，Adreno 710 暂不支持。运行时约占 3 GB，桌面与模拟器另需约 1.1 GB；Android 14 以上还要在开发者选项启用 Disable child process restrictions，而 Android 12、13 的 Steam 首次启动会提供 Fix it for me 引导。它不只是启动器界面，底层组合了 Linux 运行环境、Wine、Proton、FEX、proot、图形转译以及控制器输入等大量兼容层，让 x86 程序、Windows 游戏和 AppImage 等内容能够在 ARM Android 环境中运转；代价是不同设备的兼容性与性能会变化，desktop compositing 采用软件渲染，proot 下 Firefox sandboxing 也有所降低。自行构建需要 Docker、Java 17、Android SDK/NDK、Rust、Go、MinGW 等工具，产物位于 app/build/outputs/apk/release/，可用 tools/deploy_local.sh 安装；单元测试则通过 ./gradlew -PskipRust=true :app:testDebugUnitTest 运行。"
     },
     "DuarteSantos8/openGym": {
       "source": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
@@ -208,8 +208,8 @@
     "Ebony-Vinyl/dsh-our-free-model": {
       "source": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
       "zh": "为dsh提供免登录、免API Key且不限量的免费前沿模型插件。",
-      "analysis_source": "209b3e06914f4b808c5ab61cd7adf3ae8dff60f93c5ca6fed928cdbc091b7724",
-      "analysis_zh": "装进 dsh 后，模型会直接出现在选择器中，不要求登录、注册或填写 API Key；免费清单随上游刷新，并依据当前机器的网络出口探测可用性，DeepSeek V4.1 Flash、Kimi K3 等模型因此可能按出口状态分组。插件以纯挂载方式工作，不改内核、没有构建步骤，并能在 dsh-tui 这类没有 Web Server 的组合中启动。它不只提供免费车道：OpenAI 兼容转发端口允许本机其他工具调用模型，POST /v1/messages 又补上 Anthropic 风格接口；聚合渠道可接入 OpenRouter、Groq、Gemini、Ollama 等提供商，路由功能还能把多个模型组成 combo: 降级链。控制台集中展示 Token 热力图、首字延迟、输出速度和逐次请求记录，数据保留在本机。升级流程会依次下载、执行 SHA-256 校验、备份、原子替换和热重载，失败则自动回滚。思考强度不是提示词模拟：有原生档位的模型下发 reasoning_effort，其他模型按输出 token 预算控制。免费额度遇到真实 429 后还会开启本地断路窗口，避免继续向已经受限的出口重复请求。"
+      "analysis_source": "4f06eb59324ce6ee0b761f34602bce6534080605972ea70d5a0f06512a451a60",
+      "analysis_zh": "dsh-our-free-model 以纯插件方式给 dsh 增加模型车道，不改内核、没有构建步骤，也不要求登录或填写 API Key。模型清单不是写死的快照，而会跟随上游刷新，再依据当前机器的网络出口实测路由状态：明确返回 Model is unavailable 或 404 的条目不进入选择器，地区受限项归到 region-limited，5xx、429、超时和断网则不会被误判为模型永久不可用。不同模型的思考控制也会真实下发：有原生档位菜单的模型传递 reasoning_effort，没有菜单的模型以输出 Token 预算实现 Light、Balanced、Deep。插件同时提供 OpenAI 兼容转发端口与 Anthropic 的 POST /v1/messages，其他本地工具可复用这些车道；路由功能还能把多个模型组成 combo: 降级链，在正文输出前发生失败时无感切换。设置界面集中展示 Token 热力图、首字延迟、生成速度和请求日志，数据留在本机；应用内升级按“下载、SHA-256 校验、备份、原子替换、回读、热重载”执行，任何一步失败都会自动回滚。免费服务仍受上游出口 IP 配额和数据政策约束，Kilo 免费池已明确提示 prompt 可能被记录，因此不应发送敏感内容。"
     },
     "Edge0-AI/Edge0": {
       "source": "Device-native foundation models: 145B on a laptop, 35B on a phone. Latent MoE, SSD-streamed weights, a router that predicts loads a step ahead. Mac, iPhone, Android, Windows.",
@@ -262,8 +262,8 @@
     "Gathin23/cleanyourtv": {
       "source": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
       "zh": "通过 Wi-Fi 精简 Android 与 Google TV，并换用 Apple TV 风格首页",
-      "analysis_source": "c96ff08a175010cc57c15ba1e05696c74a700550d7a6f7037c3d9249e2c17f33",
-      "analysis_zh": "CleanYourTV 利用 Android TV 与 Android 手机共有的调试桥，通过同一 Wi‑Fi 连接电视，先备份已安装包和设置，再用 pm disable-user 停用厂商遥测、广告服务、内容推荐行及预装冗余，最后构建并安装一个原生 launcher 作为默认首页。整个过程不要求 root，也不会卸载软件，仓库生成的恢复脚本可以撤销每一步。用户可把仓库克隆到电脑后交给编码助手，按清单确认常用应用、Dock 大小与顺序，以及是否保留语音助手、Chromecast 和系统更新；助手会复用 tools/disable.sh 与 launcher/build-and-install.sh，并通过电视截图逐步核验。新首页采用 Apple TV 式布局：纯黑背景、四个常用应用组成的圆角 Dock、会随焦点应用取色的 top shelf、向下展开的应用网格，以及 Inputs、网络和 Settings 三个磨砂按钮；主题可在不重新构建的情况下调整颜色、壁纸、Dock 与列数。Android TV 和 Google TV 可同时使用精简与 launcher，Fire TV 通常只能执行精简部分，而 Samsung Tizen、LG webOS、Roku、Vizio 和 Hisense VIDAA 因没有 ADB 不受支持。"
+      "analysis_source": "13b3869acfbf8bdeac4f99e7fe7eb3220c4e72bc002de52fd22678af5eedc4ce",
+      "analysis_zh": "CleanYourTV 利用 Android TV 与 Android 手机共有的调试桥，在同一 Wi Fi 下完成备份、精简和首页替换。电视端先进入开发者选项并打开 USB debugging，电脑克隆仓库后把型号和使用偏好交给编码助手；助手会读取实际安装包，询问常用应用、Dock 顺序、语音助手、Chromecast 与更新是否保留，再调用 tools/disable.sh 和 launcher/build-and-install.sh。精简阶段使用 pm disable-user 关闭厂商遥测、广告服务、内容行和预装冗余，不卸载软件，因此生成的 restore script 能逐项撤销；随后构建并安装一个原生 launcher，设为默认 Home，并通过从电视拉取截图检查各步骤。新首页以纯黑背景承载四个常用应用的圆角 Dock，焦点应用会在 top shelf 显示名称和取自封面的环境光，按 Down 可拉起完整应用网格；输入源、网络与设置被做成三个磨砂按钮，时钟屏保会缓慢漂移以避免烧屏。主题可直接改变颜色、壁纸、Dock 和列数，不必重新构建。Android TV 和 Google TV 可同时使用精简与 launcher，Fire TV 通常只能做精简；Samsung Tizen、LG webOS、Roku、Vizio 和 Hisense VIDAA 因没有 ADB 而不受支持。所有修改都强调 no root、no cable、nothing uninstalled，并保留一行恢复路径。"
     },
     "Gitlawb/openclaude": {
       "source": "runs anywhere. uses anything",
@@ -424,8 +424,8 @@
     "KnifeLemon/Filee": {
       "source": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
       "zh": "免费开源的离线文件转换器，拖放即可转换 263 种格式",
-      "analysis_source": "dbce5d1d7dcebea79beccd74987b8d13a401ae67b5f0cd416bb94599a8f5e915",
-      "analysis_zh": "拖动文件时按住 Ctrl，macOS 上按 Option，Filee 会直接在光标旁展开一个圆环，只显示与当前文件匹配的输出格式；把文件放到相应扇区即可转换，不必先打开传统应用窗口。处理完全离线，结果默认保存在原文件旁边，图片、PDF、Word、Excel、PowerPoint、HWP、电子书、压缩包、字体、CAD、3D 模型和地理空间数据等可在没有 Office、Hancom Office 或 LibreOffice 的环境中工作。圆环可通过 Tab 或鼠标滚轮翻到另一面，显示较少使用的格式和工具；不同文件类型还能分别设置质量、尺寸、DPI、PDF 页面与压缩、音视频参数、输出目录和文件名。它支持批量并行转换，并会自动寻找 HWP → HWPX → DOCX 这类多步路线，也能用 Watch folders 自动处理新放入目录的文件。浏览器中的图片、下载或文件链接同样可以直接拖入；此外还提供右键菜单、快捷键、drop zone 和 filee 命令。Windows、macOS 与 Linux 的交互有所区别，例如 Wayland 下应使用 drop zone 或文件管理器右键菜单。"
+      "analysis_source": "fd28d1cc1374d08332debb337c2313e4726496f4131ceaeca44053c92372d52c",
+      "analysis_zh": "Filee 把文件转换入口放在鼠标当前位置：按住 Ctrl（macOS 上为 Option）拖动文件，光标旁会展开一个 donut，只显示与当前文件匹配的格式，松手即可转换；按 Tab 或滚动鼠标还能翻到较少使用的格式和工具。图片、PDF、Word、Excel、PowerPoint、HWP、电子书、压缩包、字体、CAD 与地理数据等都可在本机处理，不依赖 Office，结果默认保存在原文件旁边，也不会上传。它支持一次并行处理多个文件，并能自动寻找 HWP → HWPX → DOCX 这类多步路线；Crop 可在转换图片前逐张裁切，watch folders 则会自动处理落入指定目录的文件。每种文件类型都有可拖动排序的工具栏，质量、尺寸、DPI、压缩方式、输出目录和文件名均可保存为预设，也能从 Preset gallery 安装他人分享的配置。除拖放手势外，还可从浏览器直接拖出图片、下载链接，通过右键菜单、快捷键、drop zone 或 filee 命令发起任务；Home 会保留带缩略图的最近转换记录，也可先收集文件、调整顺序后统一执行。Windows、macOS 与 Linux 均有安装方案，但 Linux 的拖动手势依赖 X11，Wayland 环境需改用 drop zone 或文件管理器右键菜单。"
     },
     "Kruk2/jasna": {
       "source": "Video restoration tool",
@@ -452,8 +452,8 @@
       "analysis_zh": "飞鼠格式把常见办公、多媒体与归档转换集中到带有鼠鼠状态动画的桌面界面中，拖入文件、选择目标格式、执行转换并保存即可；软件会按源扩展名记住目标格式，也会保留上次保存目录。转换在本地完成，安装包内置 FFmpeg、LibreOffice、Poppler、Tesseract 和 AVS3 解码器，可处理图片、Word/WPS、Excel/WPS、PPT/WPS、PDF、普通音视频与 ZIP，并展示批量任务的逐文件进度、结果和失败原因。PDF 工具覆盖 OCR、智能表格提取、版式还原、拆分以及 AES 256 加解密，结果还能在侧边抽屉或窄屏底部面板预览。CLI 支持查询能力、单个或批量转换、图片合并 PDF 与 PDF 合并，界面中的“接入 Agent”可向已有 Codex、Claude 或通用 Agent 技能目录安装配套 skill。源码未包含体积较大的转换引擎，完整开发运行需自行准备 bin/ 资源；普通用户更适合下载 Release 安装包。加密音乐平台格式不受支持，Windows 7 兼容构建也仅宜离线处理可信文件。"
     },
     "Lee-xeo/Claude-Cage": {
-      "analysis_source": "2a0ed96750423d636676d12d71a1519075e43b5ef63fc0456085f5009c2c5c9a",
-      "analysis_zh": "Claude Cage 选择把 Claude Code、Claude Desktop、浏览器和相关程序放进统一的轻量化 Debian 13 环境，再通过标准 MCP 把必要的主机能力有边界地开放出来。macOS、Windows 和 Linux 使用相同环境，终端、浏览器、编辑器、Claude Desktop 与插件市场集中在一个工作台中；用户导入 Clash/Mihomo YAML 配置、选择节点并应用代理，首次启动时指定虚拟磁盘位置，随后打开本机项目文件夹，在终端输入 claude 完成授权。环境自行接管内部网络流量，代理不可用时不会直连回退，关键网络与隔离检查失败或证据不足时会暂停外网。默认只共享工作区及用户明确打开的目录，主机的登录信息、浏览器配置和 SSH 密钥不会自动带入，但共享目录中的修改会直接作用于本机文件。插件 = MCP + 扩展：前者让 Claude 在权限声明和弹窗确认下调用桌面键鼠、Office、Blender 或命令行工具，后者用于定制工作台页面；此外还支持多个 Claude Code 订阅、手机接续审批，以及通过 SSH 部署或连接自己的 VPS。"
+      "analysis_source": "b1fe2d7fae580c669cf66d31d30b527a1827ca1c73684391e2b004fec9e86394",
+      "analysis_zh": "Claude Cage 把 Claude Code、Claude Desktop、浏览器和相关工具放进统一的轻量化 Debian 13 环境，让可能接触网页、邮件及环境信号的运行外壳与主机分开，同时通过标准 MCP 插件按权限调用主机能力。macOS、Windows 和 Linux 使用相同工作台，终端、编辑器、Cage 浏览器与插件市场集中在一个窗口；默认只共享工作区和用户明确打开的项目文件夹，主机上的登录信息、浏览器配置及 SSH 密钥不会自动带入。网络由 Cage 独立接管，可导入 Clash/Mihomo YAML，选择代理节点或配置链式代理；关键网络与隔离检查失败、证据不完整或代理不可用时会维持离线，不会直连回退。首次使用时选择虚拟磁盘位置并下载系统镜像，之后环境、工具、文件和登录状态都能复用，关闭窗口也可保留后台任务。典型流程是先“应用代理”，再“启动 Cage 环境”，随后打开本机项目，在终端输入 claude 并通过内置浏览器完成账户授权。插件市场采用“插件 = MCP + 扩展”的结构：MCP 为环境内的 Claude 提供桌面键鼠、Office、Blender 或命令行等受控能力，扩展则以沙箱页面定制工作台，主机调用默认受权限声明和弹窗确认保护。它还支持多订阅额度管理、手机接续审批与远程界面、通过 SSH 部署到 Linux VPS，以及在环境内使用 Tailscale 访问私网设备。共享项目的修改会直接落到本机原文件，同一份配置中的多个项目也共用一个 Debian 环境，并非彼此隔离。"
     },
     "Leonxlnx/earshot": {
       "source": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
@@ -464,8 +464,8 @@
     "Leonxlnx/taste-skill": {
       "source": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "zh": "以艺术指导、参考图和浏览器检查提升编程智能体的设计品味",
-      "analysis_source": "ef0c7539bfbc6bdf4337f5ee0b7ae025e20f30f77439af61e676c19ffe5141c7",
-      "analysis_zh": "Taste Skill 把“做一个公司网站”的模糊要求拆成一条有约束、可检查的视觉生产线，而不是让编程智能体随手拼出常见的渐变落地页。开始时，scripts/start.mjs 会按 software、gaming、tech、product、service 或 place 分类，为业务抽取配色与 Google Fonts；assets/layout/deal.mjs 再从十一种经过测试的首屏布局中选择一种。页面统一从 assets/starter.html 出发，以 1440×900 桌面视口下“一屏一节”、左右边缘对齐、固定导航和单屏收尾页脚为基础。软件与科技页面会组合真实产品 UI、节点图和本地解析的品牌图标；酒店、商店等类型则以经过筛选并附来源署名的真实照片与排版为主。WebGL、shader 和滚动场景只分配给科技、软件及游戏页面，手机与 reduced motion 环境保留静态降级。完成后并非靠肉眼草草验收：scripts/consistency.mjs 在 headless Chrome 中以多个宽度检查空视觉、对比度、列错位、占位文案和图片加载缺口，scripts/perf.mjs 检查重量与速度，scripts/gate.mjs 最多执行三轮并阻止仍含可修复 FAIL 的页面交付。整套工具由 Node 22+ 脚本组成，不安装额外依赖，也不要求 API key。"
+      "analysis_source": "7001b6a5316bf52bf45ba85ba541e640b2dc07ec9b82f73fe6527e10f7c8e6e6",
+      "analysis_zh": "Taste Skill 把网站生成约束成一套可检查的设计流程，而不是让编码智能体自由拼装通用落地页。收到公司网站的新建或改版需求后，它先判断业务属于 software、gaming、tech、product、service 或 place，再逐屏规划页面；scripts/start.mjs 根据行业分配色板与 Google Fonts，assets/layout/deal.mjs 从十一种经过测试的首屏布局中选择一种。页面由 assets/starter.html、assets/system.css 和布局样式起步，在 1440×900 桌面视口中坚持一屏一节、左右边缘对齐、固定导航与单屏收尾页脚。软件和科技页面会使用真实产品 UI、品牌图标、节点连线图及适量 shader 或滚动场景，餐馆、酒店、商店和服务类页面则以真实照片、字体与平面色彩为主，并保持零 WebGL；照片来自整理过的开放档案，来源集中写入页脚。交付前，scripts/consistency.mjs 会让 headless Chrome 通过 HTTP 在多个宽度渲染页面，检查空白视觉、着色器故障、对比度、列对齐、占位文字和网络图片空档，scripts/perf.mjs 负责页面重量与速度，scripts/shoot.mjs 输出整页及分区截图。最后由 scripts/gate.mjs 最多执行三轮 finish gate，直到不存在可修复的 FAIL。整套工具是 Node 22+ 脚本，需要本机装有 Chrome、Edge 或 Chromium，但不会自行安装依赖，也不要求 API key。"
     },
     "LiamGvchi/gc-minimal-zine-poster": {
       "source": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images.",
@@ -508,6 +508,12 @@
       "zh": "用一个 YAML 微调 LLM，并以层流式训练在 4GB 显存上训练 8B 模型",
       "analysis_source": "2afef6e45ed63b19ec036c04391cf90006997728067d92368956e6412685c34a",
       "analysis_zh": "Soup 把大模型微调压缩成“一份 YAML、一个命令”的本地工作流：它会自动处理 GPU 检测、批大小和量化，可用 QLoRA 在自己的显卡上训练，无需连接云端 GPU 主机。最有辨识度的是仍处于 BETA 的 Layer streaming：启用 stream layers: true 后，冻结的基础模型不会整体常驻显存，而是逐个 decoder layer 送入 GPU；README 给出的 RTX 3050 Laptop 4 GB 实测中，Llama 3.1 8B Instruct 配合 NF4、LoRA、batch 1 和 seq 512，峰值显存为 3.32 GB。流式路径除 SFT 外也覆盖 DPO、ORPO、SimPO 和 KTO，并通过关闭同一基础模型的 adapters 来充当 DPO 参考模型，避免再复制一套权重；GRPO 与 PPO 则被明确排除。另一个较特别的流程是 soup reward synth：输入参考输出 JSONL 后，它会推断确定性 verifier、生成可读且可提交的 Python reward function，并用强制校准报告确认规则能区分参考答案与错误答案。当前安装仅支持 Python 3.10–3.12；README 还记录了流式适配器、精度加载及依赖版本等历史修复，便于判断旧训练产物是否需要重跑。"
+    },
+    "Marvisak/VIctory": {
+      "source": "An attempt at running GTA VI on PC",
+      "zh": "尝试在 PC 上运行 GTA VI",
+      "analysis_source": "6ed2e671bc707c97cdf54797d33bfb27d51953b23472a5b8c564b39d1232ddee",
+      "analysis_zh": "VIctory 正在尝试把用户自行提供的 Grand Theft Auto VI（Xbox Series X|S）文件直接带到 Windows：游戏原有的 x86-64 代码不经改写地运行在同一进程中，底层平台服务、数据转换和主机图形接口适配则由它补齐。当前成果离可玩仍很远，但已经能以 30 fps 走过首次启动、菜单、个人资料和存档界面，播放带声音的开场视频，并在约 50 秒后载入世界；首个任务中的街道、建筑、车辆与角色可以显示，只是每帧需要 1–2 秒，表面没有光照，远处几何体和部分角色画面也存在缺陷。其 Loader 负责装载程序与 DLL，Runtime services 提供离线用户、许可、软件包和持久化存档，网络则刻意保持离线；资源流可并行解码 zlib 与 BCPack，主机端通过 D3D12 执行绘制、计算和呈现。控制台着色器会预先或首次使用时重编译为 DXIL，并连同管线缓存到磁盘。实际启动前可运行 translate --cache，生成约 1.3 GB 的着色器缓存，再预建约 27,000 条管线，避免游玩过程中临时编译。运行环境要求 Windows 10/11 x64、AVX2、支持 shader model 6.6 的 Direct3D 12 GPU；进入世界还需要 mesh shaders。它目前只在 Windows 11 与 AMD RX 6700 XT 上测试过，真实 GPU 运行仍可能触发 GPU fault 或显示驱动重置；VICTORY_D3D12_WARP=1 可改用软件适配器进行诊断，但速度极慢。"
     },
     "MemPalace/mempalace": {
       "source": "The best-benchmarked open-source AI memory system. And it's free.",
@@ -604,8 +610,8 @@
     "Niko1221/Strata": {
       "source": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
       "zh": "在消费级硬件运行Qwen3.8-Flash-Next的一键式推理引擎。",
-      "analysis_source": "abc6dfdb456150febe6f07e2131db222168e108b121e8e7f162da35e5a3ac86d",
-      "analysis_zh": "在桌面应用里选择模型后即可开始本地聊天、处理代码和图片；首次启动时，Strata 会按显卡下载对应推理引擎，不要求账户。偏爱终端的用户安装后运行 strata launch，跟随提示下载并启动模型，再通过运行界面观察模型与硬件状态。README 将模型包与内存条件直接对应：Qwen3.8-Flash-Next 推荐先选 ISTA-DASLab 的量化版本，Inkling 2 Mini 的 SQ-20、SQ-15、SQ-10 分别为 24 GiB、16 GiB、12 GiB 显卡准备，最低 4 GiB 显卡也能启动；Tencent Hy4-Flash Pack 则按系统 RAM 标出 SQ-64、SQ-96 和 SQ-128。硬件覆盖 NVIDIA GeForce RTX 20 至 50 系列、多款 AMD Radeon、Linux 下的 Intel Arc、Apple Silicon 与 Ryzen AI Max，其中部分组合仍属实验支持。引擎在 localhost 提供 OpenAI 和 Anthropic compatible APIs，因此 Claude Code、Codex CLI、OpenCode 等工具可直接复用本地模型；运行 strata connect 会根据所选工具显示接入配置。桌面端把聊天、文件和 live preview 放在同一窗口，适合不想手动管理服务参数的使用方式。"
+      "analysis_source": "3520c7d92d68084c42815afc5730927590d57527d4bc493e89f575250642c48f",
+      "analysis_zh": "Strata 让本地大模型同时以桌面聊天工具、终端程序和兼容 API 的形式运行。桌面端安装后选择模型即可聊天，首次启动会按显卡下载对应推理引擎，并把对话、文件和 live preview 放在同一窗口；偏好命令行时，安装后运行 strata launch，跟随提示下载并启动模型，还能在运行期间观察模型与硬件状态。README 将模型选择和内存预算放在显著位置：Qwen3.8-Flash-Next 优先推荐 ISTA-DASLab 的多种低位量化，Inkling 2 Mini 则提供从 SQ-20、SQ-15 到 SQ-10 的显存档位，腾讯 Hy4-Flash Pack 也按 64、96、128 GiB 内存区分包。硬件覆盖 NVIDIA GeForce RTX 20 至 50 系、部分 AMD Radeon、Linux 上的 Intel Arc、Apple Silicon、Ryzen AI Max 与 DGX Spark，不同平台和显卡的支持程度并不相同。除自带界面外，Strata 还在 localhost 提供 OpenAI and Anthropic compatible APIs，可接入 Claude Code、Codex CLI、OpenCode 等工具；运行 strata connect 会显示针对所选工具的配置方法。整个过程不要求账户，聊天、编码和图片工作都留在自己的电脑上。"
     },
     "NotRexed/Hookshot": {
       "source": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
@@ -874,8 +880,8 @@
     "ZhuLinsen/daily_stock_analysis": {
       "source": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "zh": "LLM 驱动的多市场股票分析系统，支持多源行情、实时新闻、看板、推送及免费定时运行。",
-      "analysis_source": "bdc06e0433c694ff130611d4c00517ac5a613a202381d58ce7b9b14a21fdc220",
-      "analysis_zh": "从自选股代码出发，系统会聚合 A股、港股、美股、日股、韩股、台股及 ETF 的行情、K 线、技术指标、新闻、公告和基本面辅助数据，再交给大模型生成带有评分、趋势、买卖点位、风险警报、催化因素和操作检查清单的 AI 决策报告。结果既能在 Web / 桌面工作台中查看任务进度、历史报告、完整 Markdown、回测和持仓，也可推送到企业微信、飞书、Telegram、Discord、Slack 或邮箱；Agent 策略问股还提供均线、缠论、波浪、热点、事件等 15 种策略并支持多轮追问。最快的部署路径是 Fork 仓库，在 GitHub Actions 的 Secrets 中至少配置一个模型 API Key、一个通知渠道和 STOCK_LIST，然后启用“每日股票分析”工作流并手动测试；默认在每个工作日北京时间 18:00 执行，非交易日跳过。行情默认可用 AkShare、Baostock、YFinance 等免费源，长期批量运行则可配置 Tushare 或 Longbridge。除自动任务外，也支持 Docker、本地定时任务、FastAPI 服务和只读 MCP；所有报告仅供学习研究，不构成投资建议。"
+      "analysis_source": "c72c25d72c61ddbcaf099ebde9530b23a415727b422524cce9b510b05ac47d24",
+      "analysis_zh": "从自选股清单出发，这套股票智能分析系统会汇集 A股、港股、美股、日股、韩股、台股和 ETF 的行情、K 线、技术指标、新闻、公告与基本面资料，再交给大模型生成带有结论、评分、趋势、买卖点位、风险警报和操作检查清单的决策仪表盘。结果既能在 Web / 桌面工作台中查看任务进度、历史报告、回测与持仓，也可自动推送到企业微信、飞书、Telegram、Discord、Slack 或邮箱。最快的运行方式是 Fork 仓库，在 GitHub Actions Secrets 中至少配置一个模型 API Key、一个通知渠道及 STOCK_LIST，然后启用“每日股票分析”工作流并手动测试；默认在每个工作日北京时间 18:00 执行，非交易日不运行。行情层内置 AkShare、Baostock、YFinance 等免费源，可零配置起步，但批量或长期任务可补充 Tushare、Longbridge 等 token 数据源；新闻可接 SerpAPI、Tavily、Bocha、Brave、MiniMax 或自建 SearXNG。除了自动报告，Agent 策略问股还支持多轮追问，并提供均线、缠论、波浪、趋势、热点、事件和成长等 15 种策略；图片、CSV/Excel 与剪贴板也可用于导入股票。系统能通过 Docker、本地定时任务或 FastAPI 服务部署，还提供 stock-analyzer 技能与只读 MCP 入口，但插件本身不携带 src/ 运行时，使用前仍需已有并配置好的 DSA 检出或服务。分析内容只用于学习研究，不构成投资建议。"
     },
     "abi/screenshot-to-code": {
       "source": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
@@ -974,8 +980,8 @@
     "alibaba/open-code-review": {
       "source": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "zh": "结合确定性流水线与 LLM 智能体的多语言代码审查工具",
-      "analysis_source": "620a7cff646d55c6a5fba5349a981b0c318ea3a827bd2fb21a827313c43fd2df",
-      "analysis_zh": "Open Code Review 从 Git diff 出发，把变更文件交给具备工具调用能力的专用审查 agent：它能读取完整文件、搜索 codebase、检查其他变更获取上下文，最终生成精确到行的 structured review comments；没有有效 diff 时，还可用 ocr scan 审计整个文件或目录。它最鲜明的取舍是 Deterministic Engineering × Agent Hybrid：工程流水线负责精确选择文件、过滤无关内容、把关联文件组成 bundle、按文件特征匹配规则，并通过独立的定位与反思模块约束评论位置和质量；agent 则负责动态判断、检索上下文和使用针对审查优化的提示与工具。每个 bundle 都以隔离上下文运行 sub agent，因此大变更可以分治并发处理，避免通用 agent 漏看文件或出现 position drift。使用前需要 Git 2.41 及 ocr CLI，可在 Claude Code、Codex、Cursor 等支持 Agent Skills 的宿主中安装技能；Native mode 使用 OCR 自己配置的模型端点和完整流水线，Delegation mode 则复用当前编码 agent 的模型与认证。基准说明其设计主动偏向 Precision，以较低 Recall 换取更少误报，并减少审查 token 与耗时。"
+      "analysis_source": "dacddd2ee59095b39e25c9039f8bab8ad8ba239e84ac609f3adc18a544559c60",
+      "analysis_zh": "Open Code Review 将容易漂移的自然语言审查拆成“确定性工程约束”和智能体判断两部分。ocr CLI 先读取 Git diff，精确选择待审文件、过滤无关内容，并用 Smart file bundling 把相关文件组成审查单元；每个单元由隔离上下文的子智能体处理，因此大型变更也能并发覆盖。规则模板会按文件特征匹配检查项，随后智能体读取完整文件、搜索仓库并查看其他改动以补足上下文，独立的定位与反思模块再校正评论位置和内容，最终产出行级结构化意见。除了差异审查，ocr scan 还能扫描完整文件或目录，适合没有有效 diff 的代码审计。安装 Agent Skills 后可选择 Native mode，让 OCR 自己的模型端点和专用流水线执行审查；也可选 Delegation mode，由当前 Claude Code、Codex 或 Cursor 等宿主智能体沿用 OCR 的流程与护栏。其取舍明确偏向 Precision，以较少误报和更低 Token 消耗换取低于通用智能体的 Recall。"
     },
     "alsk1992/CloddsBot": {
       "source": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
@@ -1010,8 +1016,8 @@
     "anefzaoui/misterdownloadmanager": {
       "source": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
       "zh": "使用纯 Rust 从零开发的开源下载管理器，支持 Windows、Mac 和 Linux。",
-      "analysis_source": "d17a45246a7dc56170648254a94f6c66bcfc70d5b2083113b3f78749bac56eb6",
-      "analysis_zh": "熟悉 IDM 窗口的人几乎不用重新学习：工具栏、分类、下载列表、进度窗口和浏览器按钮仍在预期位置，但程序以纯 Rust 重写，并覆盖 Windows、Linux 与实验性的 macOS 构建。普通文件会被拆成多个部分并行获取，连接份额持续重新平衡到最后一个字节；崩溃、重启或断线后可以续传。浏览器扩展能够接管 Firefox、Chrome、Edge、Brave、Opera、Vivaldi 和 Helium 的下载，MDM 未运行时则把任务交还浏览器。除链接下载外，它还能处理 torrents and magnet links、网页视频、播放列表、字幕、纯音频以及由 gallery-dl 获取的图片库；视频下载过程中可查看速度和剩余时间，Torrent 页面则按文件、peers、trackers 和 pieces 展示状态。Windows 提供 setup.exe、portable.zip 和无安装器压缩包，Linux 提供 .deb、.rpm、AppImage 与 tar.gz；portable.zip 会把数据留在自身目录。界面支持 86 languages，首次启动可选择语言，阿拉伯语、希伯来语等使用完整的从右到左布局。定时队列可以安排夜间开始和停止下载，全程没有广告、试用期或注册要求。"
+      "analysis_source": "bd19e993e94919e77641fcc35f7e84cfc533389db5b9c55f4b26bb6cf795fe60",
+      "analysis_zh": "熟悉 IDM 的人打开 Mister Download Manager 几乎不用重新适应：工具栏、分类、下载列表、进度窗口和浏览器按钮都放在预期位置，但软件免费、无广告、无试用期，也不要求注册。下载时它会并行抓取文件的不同部分，并持续重新分配任务直到最后一个字节；遇到崩溃、重启或断线还能恢复。除普通链接外，它完整支持 magnet links、.torrent files 与 seeding，可选择种子中的文件并查看 peers、trackers 和 pieces；视频任务可由 yt-dlp 处理，浏览器扩展能捕获链接，YouTube 页面上还会出现 Download video 按钮。队列可以定时开始和停止，实时进度会显示每条连接的份额、速度和剩余时间。Windows 提供 setup.exe、portable.zip 和纯程序压缩包，并覆盖 x64、ARM64 与 32 bit；Linux 提供 .deb、.rpm、AppImage 和 tar.gz，macOS 的 Apple Silicon、Intel 构建仍标为 experimental。界面包含 87 languages，可在首次启动或 View → Language 中切换，Arabic、Hebrew、Persian、Urdu 与 Uyghur 使用完整的 right to left 布局。早期 Windows 构建可能因尚未签名而触发 Windows protected your PC 提示，Linux 目前也尚未支持 Orca 读取窗口，Flatpak 浏览器则无法连接其浏览器集成。"
     },
     "angular/angular": {
       "source": "Deliver web apps with confidence 🚀",
@@ -1286,8 +1292,8 @@
     "career-ops-hq/career-ops": {
       "source": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
       "zh": "开源 AI 求职助手，支持职位匹配评分、简历与求职信定制、面试准备和申请跟踪。",
-      "analysis_source": "1c410218516bd3b187c506a62e1b4cd64b12d9410bfdd1fb8ed43aaf0b29ef8c",
-      "analysis_zh": "先粘贴一个准备申请的职位，career-ops 会确认招聘页面是否仍然有效，再依据真实 CV 评估匹配度；如果结论是 do not apply，用户可以及时放弃低价值申请，若值得投入，则继续生成有针对性的 CV、cover letter、表单回答、公司研究、联系人线索和面试准备。评分并非只给一个数字：它会解释职位要求各自的重要程度，以及权重来自 JD 原文、结构判断还是估算；明确写着不提供签证赞助的职位还会被 Work-Auth 信号标成硬性阻碍。系统默认不鼓励申请低于 4.0/5 的岗位，但允许用户覆盖判断。所有流程都运行在本地的 AI CLI 中，首次启动会通过对话询问履历、目标与拒绝条件，申请记录保留在用户机器上；CV 只会发送给用户选择的 AI provider，而不会上传到项目自己的后端。它坚持 Human-in-the-Loop：可以为每个字段起草答案，却不会自动提交，prepare-application.mjs 不执行 POST；可以生成不超过 300 字符的 LinkedIn 消息和正式邮件草稿，却没有发送邮件的传输模块。ATS PDF Generation 使用用户已有经历针对 JD 重组内容，并用 HTML 与 Playwright 流程输出 PDF；代码还会阻止数字或事实既未出现在原始 CV、也未出现在资料摘要中的成品，但改写仍需本人逐项审阅，最终由用户按下 Submit。"
+      "analysis_source": "484ca4ae1343aba73063f2174b01933bcabcf1d11c0ca5704583e000ffa3e706",
+      "analysis_zh": "把一条招聘信息交给 career-ops，它先确认职位是否仍然开放，再结合真实 CV 评估匹配度；弱匹配会得到“不要申请”的结论，达到值得投入的程度后才继续生成针对职位的 CV、求职信、申请字段答案、公司研究与面试准备。评分不只罗列关键词，还会说明每项要求在招聘信息中的权重，以及权重来自原文、结构还是估计；Block G 会检查职位是否仍在发布、是否疑似重复刊登，Work Auth 则把明确拒绝签证担保的描述识别为硬性阻碍。生成的 ATS PDF 使用候选人已有经历，求职信要经过聊天中的确认门槛，再通过 HTML + Playwright 流程输出 A4 PDF。工具也能寻找值得联系的招聘经理、招聘人员或团队成员，并起草不超过 300 字符的 LinkedIn 消息，但不会代替用户发送。它坚持 Human in the Loop：脚本不会自动提交申请，不会发送邮件，也没有遥测或自有后端；所有申请记录保留在本机，用户阅读材料后亲自点击 Submit。代码还会阻止输出含有 CV 或文章摘要中不存在的数字和事实，不过无法判断每一种改写，因此成品仍需逐份审阅。首次启动会通过对话了解用户的履历、目标和拒绝条件，无需手工配置；它可在 Codex、OpenCode 等本地 AI CLI 中运行，也能作为 Claude Code 插件使用，并支持免费本地模型。"
     },
     "cathrynlavery/diagram-design": {
       "source": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
@@ -1580,10 +1586,10 @@
       "analysis_zh": "向智能体描述零件需求后，text-to-cad 会在本地运行 CAD 工作流，生成 STEP, GLB, STL or 3MF files，并继续完成 design for manufacturing checks、工程图制作，以及对接常见 3D 打印、钣金和 CNC 加工服务。插件不仅带来建模技能，也启动 cadgen mcp 本地服务；支持应用视图的客户端可直接在对话里显示可旋转的模型卡片，终端类宿主则返回一个浏览器 CAD Viewer 链接。运行环境由 uv 管理，首次启动需要联网下载 CAD runtime，之后技能与服务端共用同一版本的 cadgen。Claude Code、Codex、Cursor、Gemini 和 Grok 各有对应安装或更新方式，不支持插件的智能体也可单独通过 Skills CLI 安装工作流，但同一应用不应同时装插件和独立技能，以免每项能力重复出现。默认遥测只发送随机 ID 标记的使用统计和崩溃报告，不包含文件、路径或提示词；若不希望启用，可执行 uvx cadgen telemetry off。"
     },
     "elementalsouls/Claude-BugHunter": {
-      "source": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "zh": "面向漏洞挖掘与外部红队工作的 Claude Code 技能包，涵盖 24 类核心漏洞",
-      "analysis_source": "d4cdf7b41245cab69a2b99de3aa192c755e20523b698460db1757f6f7a7ee8be",
-      "analysis_zh": "把测试目标用普通英语告诉 Claude Code，claude-bughunter 会按主题自动载入相关知识，而不要求操作者记住技能名称。整套内容由 84 skills、15 slash commands 和 681 disclosed report patterns 组成，覆盖 24 类主要漏洞，并按四层组织工作：先用 bb-methodology 与 redteam-mindset 建立五阶段非线性流程，再从公开 HackerOne 报告提炼的模式中寻找 Web 与 API 缺陷，随后处理 M365/Entra、Okta、vCenter、SSL VPN、SharePoint 和 cloud IAM 等外部边界，最后通过 7-Question Gate、VRT 严重度、证据整理及 PII redaction 完成验证与报告。安装可选 Claude Code plugin，也可复制到用户技能目录；cbh CLI 和 engagement scaffolder 则用于终端运行与建立任务文件夹。知识层还能复制到 OpenCode、OpenAI Codex CLI、Hermes Agent 与 Google AntiGravity，Burp MCP integration 可同步接入各宿主，但 slash commands 和 /hunt 引擎仍只保留在 Claude Code。它明确限定于获得授权的外部攻击面，不覆盖内部 Active Directory、C2 框架以及持久化、横向移动等后渗透活动。"
+      "source": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "zh": "面向漏洞搜寻与外部红队测试的 Claude Code 技能包",
+      "analysis_source": "690a34112c7893f5b31d216282acdb6443a1ddd6cc08b261acce759e1d266d7c",
+      "analysis_zh": "Claude-BugHunter 把漏洞搜寻与外部红队工作的知识直接装进 Claude Code：84 skills、15 slash commands，以及从 681 disclosed report patterns 整理出的 24 类漏洞方法，共同覆盖思考、Web 应用测试、企业边界攻击和报告交付四层流程。使用者安装插件后，只需用自然语言描述测试对象，系统便会按主题自动加载相应技能，无须记住技能名称；也可以复制到不同智能体的技能目录，供 OpenCode、OpenAI Codex CLI、Hermes Agent 与 Google AntiGravity 使用。知识层不仅提供检测模式、payload、绕过表和攻击链模板，还纳入 M365/Entra、Okta、vCenter、SSL-VPN、SharePoint 与云 IAM 等外部入口，并通过 7-Question Gate、VRT 严重度映射、PII 脱敏和证据规范约束交付质量。Burp MCP integration 可接入代理工具，hunt engagement scaffolder 则负责建立任务目录。它有意把内部 Active Directory、C2、持久化和横向移动排除在外，边界始终限定在无需先攻陷内网终端即可触达的外部攻击面与获授权的测试活动。"
     },
     "embabel/embabel-agent": {
       "source": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
@@ -1606,14 +1612,14 @@
     "erkamyaman/rust-anything": {
       "source": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
       "zh": "逐步用 Rust 重写应用，并与原始行为记录逐步校验。",
-      "analysis_source": "0314951dae7cced83a34e7c5351708aade7ce961582312ae90f0873242c6aedf",
-      "analysis_zh": "rust-anything 的重点不是逐句翻译源码，而是先把旧程序的行为记录下来，再让人或编码智能体逐块编写 Rust，并以录制结果约束每一步迁移。record 会用生成的边界输入、语义陷阱和自备样例运行原实现，保存返回值或异常；Port bridge 创建 Rust crate 与兼容包装层，使原调用方继续使用既有 API；Check diff 重放全部案例，只有结果匹配且 gate 通过才会继续。尚未迁移的部分可以回退到原实现，等重放无回退且所有单元都通过后，再用 app lift 得到纯 Rust 应用。它可处理 CLI、HTTP 服务和库，也能通过 go 分析一次慢命令，选择值得跨语言边界搬运的外层循环，而不是频繁调用的小函数。README 以 Prettier 和 json-server 展示字节级一致性与整应用迁移，同时明确提醒录制和重放会反复执行文件、数据库或网络副作用，应在项目副本、测试数据库和无生产凭据的环境中运行。"
+      "analysis_source": "e850b8cde6d11f6a3954ecd29cb46a6f44c23d64dd2698f48f49a54eb4568318",
+      "analysis_zh": "rust-anything 不把旧代码逐句翻译成 Rust，而是先记录可观察行为，再用这些记录证明新实现仍然一致。record 会用生成的边界输入、语义陷阱和用户样例运行原程序，保存返回值或异常；port bridge 创建 Rust crate 和包装层，让现有调用者继续沿用原 API；开发者或 coding agent 分块填写 Rust 实现后，diff 重放全部样例，只有结果匹配且 gate 通过才启用对应部分，最终可用 app lift 去掉 fallback，得到 pure Rust app，原工程本身不会被改写。它覆盖 TypeScript/JavaScript、Python、C、Go、Ruby、Java 和 Kotlin 的 CLI、HTTP server 与 library，也能只处理热点：go 会先 profile 一条慢命令，选择值得迁移的外层循环而非零碎小函数，并把任务交给 claude、codex 或任何能从 stdin 读取 prompt 的命令；未配置代理时则生成 TASK.md。Prettier 和 json-server 的实例展示了逐步替换及逐字节对比的做法，但准确性只限于 recording 覆盖到的行为。由于 record、app record、diff、gate 和 app replay 会多次执行原程序与迁移版本，具有写文件、访问数据库或联网副作用的代码应在项目副本、测试数据库和不含生产凭据的环境中运行。"
     },
     "ersinkoc/phonebox": {
       "source": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
       "zh": "将旧 Android 手机变成跨平台可定制桌面面板和触控台。",
-      "analysis_source": "8ff81107237138fdfdbcfa5ba4d49bb665501dead38984e4add59f9bf690b2c9",
-      "analysis_zh": "一部闲置 Android 手机可以通过 USB 或 Wi Fi 变成电脑旁的全屏信息板和触控台：手机运行 Android 应用，Windows、Linux 或 macOS 上运行小型 desktop agent，布局则在浏览器里的可视化编辑器完成。编辑器提供 131 widgets、30 templates、多页面和 Live preview，可在 12 × 6 网格中拖放、缩放组件；同一台电脑能连接多部手机并分配不同布局，一部手机也能在已配对电脑之间切换。面板既能显示 CPU、GPU、内存、网络和进程，也能跟踪 Claude、Codex、OpenCode 会话、额度、重置时间及消耗预测；用户主动开启后，还可直接在手机上处理 Allow、Deny 等权限提示。触控部分覆盖快捷键、宏、应用音量、麦克风、媒体、OBS、Home Assistant 和 webhook 自动化。快速连接时，USB 方案要求启用 USB debugging；纯 Wi Fi 配对则在 http://127.0.0.1:8765 开启选项，扫描二维码并核对验证码，不需要 adb。保存布局后，手机可通过滑动、页点或音量键换页；Smart Stack 还能在一个位置叠放最多 12 个组件。整个过程不要求 root、PhoneBox 账户或云服务。"
+      "analysis_source": "7153b3d51fb34a364d0d516d94dd4d40dc418c3b7ef16a7e157eb59c2bc46d0c",
+      "analysis_zh": "PhoneBox 将一台 Android 5+ 旧手机变成电脑旁的全屏信息面板和触控控制台，由手机应用与轻量 desktop agent 配合工作，覆盖 Windows、Linux 和 macOS，不需要 root、PhoneBox 账户或云服务。浏览器里的可视化编辑器提供 133 widgets、30 templates、多页面和 live preview，可在 12 × 6 网格中拖动、缩放组件，也能用 Smart Stack 在一个位置叠放最多 12 个组件；保存后，手机可通过滑动、页码点或音量键切页。面板既能显示 CPU、GPU、内存、磁盘、网络与进程，也能呈现 Claude、Codex、Antigravity 配额、重置时间、消耗预测以及本地编码会话；用户主动开启后，还可直接在手机上处理 Codex、Claude Code 或 OpenCode 的 Allow、Deny 权限提示。控制功能覆盖快捷键、宏、应用音量、麦克风、媒体、OBS、Home Assistant、Webhook 与自动化规则。连接可走 USB 或 Wi Fi：USB 需要数据线和 USB debugging，Wi Fi 则在 http://127.0.0.1:8765 开启后，通过二维码与校验码配对，无需 adb 或开发者选项；同一台电脑可连接多部手机，各用自己的布局，一部手机也能在已配对电脑之间切换。安装脚本会下载最新 release、校验 SHA-256、处理依赖和开机启动，重复运行可在保留设置及配对信息的前提下更新或修复。"
     },
     "esengine/DeepSeek-Reasonix": {
       "source": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
@@ -2672,8 +2678,8 @@
     "pingdotgg/t3code": {
       "source": "The best way to control Claude Code, Codex and more from any computer or phone",
       "zh": "通过任意电脑或手机控制 Claude Code、Codex 等工具",
-      "analysis_source": "824e5a33531d374fc41d545e29effc457d544245ceb927070bcae13927d90853",
-      "analysis_zh": "T3 Code 把本机已经安装并登录的编程智能体集中到同一个控制界面：在桌面发起 thread 后，可以换到手机批准下一步，而桌面、网页、iOS 与 Android 客户端会通过同一台 server 显示相同会话。它不转售 token，而是调用用户现有订阅，可控制 Claude Code、Codex、Cursor、OpenCode 等工具，并允许在会话中途更换模型，甚至让 Claude 把任务交给 Codex。远程连接可走本地网络或 Tailscale；Git 工作流也直接嵌入其中，每个 thread 能使用独立 worktree，用户可查看 diff，再一键 commit、push 并创建 pull request。安装桌面应用后即可使用，也可安装 t3 命令，运行 t3 启动服务器并打开 Web 应用；临时体验则可执行 npx t3@latest。开始前至少要有一个已完成登录的智能体，例如运行 claude auth login 或 codex login。"
+      "analysis_source": "b2479d2af0c846584066445afaccb158d628a896e6457ce131a17788fbf7db32",
+      "analysis_zh": "在书桌前开启一条编程任务，离开电脑后再从手机批准下一步，T3 Code 把这种跨设备协作变成统一工作流。它在用户自己的机器上运行已经安装并登录的 Claude Code、Codex、Cursor、OpenCode 等代理，不转售 token，也不接管原有订阅；同一台服务器会把相同的线程同步到桌面端、Web、iOS 和 Android，模型还能在任务中途切换，甚至让 Claude 把工作交给 Codex。每条线程可以使用独立 worktree，界面内可审查 diff，并完成 commit、push 和创建 pull request。远程连接可走局域网或 Tailscale。安装桌面应用后即可使用，也可安装 t3 命令并运行 t3 启动服务器和 Web 应用；临时体验则执行 npx t3@latest。开始前至少要准备一个已登录的代理，例如运行 claude auth login 或 codex login。源码采用 MIT 许可，但公开分发 fork 时须替换 T3 Code 的名称、标识、图标与品牌元素，并明确说明其非官方身份。"
     },
     "pollen-robotics/microduck": {
       "source": "A Tiny biped duck robot 🦆",
@@ -2922,8 +2928,8 @@
     "storytold/craft-anything": {
       "source": "Craft Anything: understand how any software works, and craft your own.",
       "zh": "理解任意软件的工作原理，并打造自己的软件。",
-      "analysis_source": "0c293a2e66005a1d0360ef2c956fc7714a0a0b095352a27d567489146c531d2f",
-      "analysis_zh": "Craft Anything 让用户选定网站、桌面应用、手机应用、游戏或文件，描述想做的版本，然后按 Study → Build → Check → Ready 四步推进：先用真实检查工具研究目标，再由 coding agent 按指定技术栈创建新工程，随后把构建结果与原作比较、列出差异并继续修正，最后直接打开、试玩或预览，也可以在底部继续提出修改。默认的 Clean room 不读取原作代码、文件或页面源码，只依据截图、可见文字、布局测量、颜色、字体、间距和获准获取的窗口图像工作；切到 Deep 后，才会读取程序文件和代码、网站 JavaScript，并使用内置引擎及已安装的 Ghidra。简单模式用项目页展示进度、问题、审批卡片和相似程度，高级工作台则暴露 pseudo-C、disassembly、hex、call graphs、日志和 evidence。底层是 pure Rust 逆向工程引擎，提供 320 tools，每项能力同时作为 CLI subcommand 和 MCP tool；检查本身不要求 AI，但自动构建需要本机 coding agent，README 目前首先支持 Claude Code，并说明 Codex adapter 尚未经过真实安装验证。"
+      "analysis_source": "2cc54c8156f3958c9b1c4da8a25d964fd23a1b441d5b22c19847a27cae5319e9",
+      "analysis_zh": "把网站、桌面应用、手机应用、游戏或文件交给 Craft Anything，再描述“重做这个网站”之类的目标，它会沿着 Study → Build → Check → Ready 推进：先用真实检查工具研究原作，再让本机 coding agent 按指定技术栈新建工程，随后把页面、运行结果或自测表现与原作比较，列出差异并继续修正。默认的 Clean room 不读取原始代码、文件或页面源码，只依据截图、可见文字、布局、颜色、字体、间距及获准取得的窗口画面工作；切换到 Deep 后，才会读取程序代码和文件，并可结合内置引擎及已安装的 Ghidra 深入分析。简单模式用项目页展示进度、审批卡片、相似度和结果入口，Advanced 则开放函数、pseudo C、disassembly、hex、call graphs、证据、日志与 agent console。“Just look inside”还允许只研究和提问而不构建。底层是 pure Rust 引擎，提供 320 tools，每项既是 CLI command 也是 MCP tool，因此应用界面与外部代理能驱动同一套能力；检查本身不依赖 AI，构建阶段则可调用用户已登录的 Claude Code，或配置其他兼容代理与模型服务。"
     },
     "storytold/craft-launcher": {
       "source": "The Craft App Launcher",
@@ -3015,6 +3021,12 @@
       "analysis_source": "aa162f4e7814c1877599bd05944259aa7eb1e199c540b0c26e536fdd73fa6a06",
       "analysis_zh": "Svelte 把 Web 界面的构建重点放在编译阶段：开发者编写 declarative components，编译器再将它们转换成高效的 JavaScript，由生成代码对 DOM 进行精确更新。它与主要依赖浏览器运行时解释组件的方案不同，README 将其概括为一种构建 Web applications 的新方式，最有辨识度的设计也正是“组件先编译、页面后更新”这条路径。仓库本身由志愿者持续维护，相关学习资料、社区交流入口、Roadmap 与贡献说明分别承担入门、讨论、了解当前工作和参与开发的作用；如果官网暂时无法访问，README 还提醒读者先确认是否所有 .dev 站点都无法打开，以区分 Svelte 服务故障和本地网络问题。"
     },
+    "sybil-solutions/inference-optimisation-skill": {
+      "source": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "zh": "在任意硬件和量化方案上逐步优化本地 LLM 推理速度的智能体技能",
+      "analysis_source": "4ee40a2a866f096554c7a36b57dc1607caef42972eab66f734a5f6ae210598f3",
+      "analysis_zh": "与其罗列一堆可能有效的启动参数，inference-optimisation 把本地 LLM 服务调优整理成一套可复现的爬山流程：先依据实测带宽、FLOPs 和模型组件尺寸计算理论上限，再一次只改一个变量，以 control/candidate/control 交错实验和中位数过滤约 ±5–10% 的运行漂移；失败结果也必须记录，候选方案还要通过长上下文检索、完整 KV 压测和干净固定版本构建，才有资格发布。它覆盖单用户及并发 decode、speculative decoding、prefill、KV cache、startup time 与 TTFT，并始终受内存上限约束。工具层由标准库 Python 和 bash 组成：bench.py 可测试任意 OpenAI compatible server，测量短提示首字延迟、c1 与 cN 解码、多个长度的冷预填充、needle retrieval 和峰值内存；ceiling.py 计算性能天花板；queue.sh 串行安排可脱离终端的交错实验；mem.sh 补足统一内存 GPU 上 cgroups 看不到的驱动驻留。所有结果写入 ledger.jsonl，token 数取自服务端 usage，而不是把流式数据块误当 token。技能还汇总 vLLM、SGLang、llama.cpp、ExLlama 及 Intel、NVIDIA、Apple、AMD 硬件上的已知陷阱和实测杠杆，既可由 Claude Code 加载 SKILL.md，也能让其他智能体直接遵循。其辨识度在于先判断目标是否违反硬件物理边界，再谈优化；例如 B390 的 256K prefill 达到 628 tok/s，而测得上限仅为 670–684 tok/s，这比孤立地展示一次“加速”更能说明结果质量。"
+    },
     "t8y2/dbx": {
       "source": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "zh": "仅 20 MB 的跨平台数据库客户端，支持 90 多种数据库及 AI、MCP。",
@@ -3078,8 +3090,8 @@
     "toeverything/AFFiNE": {
       "source": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "zh": "隐私优先、可定制且开箱即用的新一代开源知识库。",
-      "analysis_source": "fed6741a26ac9d7317c47ca9f2610f60055281ef7b24e409e7950ac36454abd4",
-      "analysis_zh": "在 AFFiNE 里，文档、白板与表格不是彼此分离的工具，而是可以落在同一块 edgeless canvas 上的 building blocks：富文本、便签、嵌入网页、多视图数据库、关联页面、图形乃至幻灯片都能自由组合，因此记录、绘图、规划和演示可以在一个工作区连续完成。AFFiNE AI 进一步处理报告撰写、由提纲生成幻灯片、把文章整理成思维导图、安排任务积压，以及通过提示词绘制或编写应用原型。数据策略强调 local first，内容首先由用户保存在本地磁盘，同时仍支持 Web 与跨平台客户端的实时同步和多人协作，也允许自行托管、派生和构建定制版本。底层由 BlockSuite 提供协作编辑能力，y-octo 以高性能、线程安全的 YJS CRDT 实现支撑客户端和服务端的本地优先机制，Rust 编写的 OctoBase 则承担可扩展数据引擎、状态管理与同步。产品还提供预制 templates，并计划借助插件社区和第三方 blocks 扩展工作区。"
+      "analysis_source": "d087c6b29bac4de85d9c318ab041d572f630388108c2376324e36df160a5b9d4",
+      "analysis_zh": "AFFiNE 试图把文档、白板与数据库从彼此割裂的工具中重新拼成一个连续工作空间。它以 edgeless canvas 承载 rich text、sticky notes、嵌入网页、multi-view databases、linked pages、图形和幻灯片，文档里的块可以自然进入画布，而不是在笔记与绘图应用之间来回搬运。内置的 multimodal AI partner 能把提纲整理成演示文稿、把文章归纳为思维导图，也能协助规划任务、绘制或编写应用原型。数据策略强调 local first：内容保存在用户自己的磁盘上，不依赖云端仍可掌控，同时 Web 与跨平台客户端又支持 real time sync 和协作；需要完全控制部署方式时，也可以 self host、fork 或自行构建。底层由 BlockSuite 提供协作编辑能力，y-octo 以线程安全的 YJS CRDT 实现支撑客户端与服务端的本地优先同步，OctoBase 则承担可扩展的数据引擎角色。"
     },
     "togg53192-cmd/jailbreaks": {
       "source": "LIST OF ALL MY JAILBREAKS",
@@ -3189,6 +3201,12 @@
       "analysis_source": "ed93287b14eeb96021792bf0a4611e9beb2e482c5d9e2577ccacab74e8e81086",
       "analysis_zh": "离开终端和编辑器扩展后，编码智能体在 PI Desktop 中拥有一套独立桌面工作区：本地项目、会话、文件、预览、通知、审查和扩展都集中在一起，同时没有 PI Desktop 账号、强制中继或编辑器绑定。首次使用可在 Settings → Model configuration 连接 OpenAI、Anthropic、本地模型、托管网关或 OpenAI compatible API，再从侧栏打开任意本地目录并选择 Agent、Plan 或 Goal。Agent 直接读取、编辑、执行命令和测试；Plan 先研究仓库并生成冻结计划，得到批准才实施；Goal 则先锁定目标与验收标准，由智能体自行选择路径。无论哪种模式，特权工具都经过 permission layer，结果可在 Review panel 检查差异、命令输出和应用预览。长任务还能拆给独立上下文中的 Subagents，主会话可跨多个项目运行、排队提示、分支或归档对话，并通过 checkpoint 尽量从重启和运行故障中恢复流式内容。扩展体系分为 Skills、MCP、Subagents 和可安装 Plugins，插件可以贡献工具、命令、面板、主题、服务与新的工作区体验；外部本地智能体也能在显式设置 PI DESKTOP MCP CONTROL=1 后，通过仅绑定 loopback 的受控端点操作项目和会话。"
     },
+    "vectorize-io/hindsight": {
+      "source": "Hindsight: Agent Memory That Learns",
+      "zh": "能够持续学习的智能体记忆系统",
+      "analysis_source": "bf9889f9bf72ed8f2bbe28d38952ebe71c81c016628eac10204a24370aa8ae35",
+      "analysis_zh": "Hindsight 关注的不是把聊天记录简单搜回来，而是让智能体随使用持续形成可复用的认识。记忆保存在 banks 中，并沿两条路径接收内容：world facts 记录外部事实，experiences 保存智能体自身经历；系统再从多条记忆中整合出有证据支撑的 observations，并进一步合成 mental models。底层会同时表示实体、关系、时间序列以及稀疏和稠密向量，因此其组织方式不局限于普通 RAG 或单纯知识图谱。使用者可先用 Docker 启动服务，在 http://localhost:8888 访问 API、http://localhost:9999 打开 UI，也可采用 bare metal、Kubernetes、嵌入式 Python 或托管服务；后端兼容 25 种以上 LLM provider，包括 openai、anthropic、gemini、ollama、lmstudio、llamacpp 及任意 OpenAI compatible endpoint。接入已有智能体时，LLM Wrapper 是最短路径：替换原有客户端后，每次调用会自动存储和检索记忆；需要精细控制时，则可直接调用三项操作 retain、recall 和 reflect。内置 MCP Server 会按 bank 暴露同名工具，便于 MCP 客户端调用。对编码智能体，它还能按仓库自动从 git history 和历史会话建立长期记忆，并在开始工作时注入架构、约定和进行中事项，无须额外执行初始化命令。项目也以 LongMemEval 展示长期记忆准确率，并提供持续更新的模型准确率、延迟与成本结果。"
+    },
     "vercel-labs/agent-browser": {
       "source": "Browser automation CLI for AI agents",
       "zh": "面向 AI 智能体的浏览器自动化命令行工具。",
@@ -3214,10 +3232,10 @@
       "analysis_zh": "一条 npx skills 命令把可复用的 Agent Skills 带到 OpenCode、Claude Code、Codex、Cursor 等编码智能体中。技能以带有 YAML frontmatter 的 SKILL.md 保存，其中声明 name 和 description，可承载生成发布说明、按团队规范创建 PR、集成外部工具等专门流程。常规安装使用 skills add 的来源解析机制，可按技能名和目标 agent 选择安装范围；项目级内容随仓库共享，全局安装则放进用户目录。默认推荐 Symlink，让多个智能体指向同一份规范副本并便于更新；不支持符号链接时也能选择 Copy，让各目录保留独立文件。若只想临时调用而不安装，可运行 npx skills use：它把选中的技能写入临时目录，默认只将生成的 prompt 输出到 stdout；提供 agent 参数后，则会带着该 prompt 交互式启动受支持的智能体。来源既可以是公开或私有仓库，也可以是单个 SKILL.md、zip、tar、tar.gz 或 tgz 的直接下载地址。访问私有 GitHub 仓库时，CLI 会依次利用常规 Git 凭据、已认证的 GitHub CLI 和 SSH，并且不会执行 gh auth token 或把已保存凭据复制进 Node.js 进程。配套命令还包括 npx skills list、npx skills find、npx skills update、npx skills remove 与 npx skills init，分别处理查看、搜索、升级、移除和创建模板。"
     },
     "vercel-labs/ui": {
-      "source": "A library of behaviors for agents to build the next generation of user interfaces.",
-      "zh": "供智能体构建新一代用户界面的行为库",
-      "analysis_source": "83fff97aef86ee509d00bb58f79862bd384324e983e060c1f032a95e2829f46c",
-      "analysis_zh": "UI SDK 把 Keyboard navigation、focus、selection、dismissal、popups、drag and drop 以及配套 ARIA 规则封装进 @ui-sdk/core，再通过 React、Vue、Svelte、Solid 和 Web Components 适配器呈现。组件并非从固定视觉模板开始，而是先组合 behaviors 创建 primitive，随后在所选框架中用 createParts 渲染；五种框架共享相同的 parts，因此交互语义能够跨实现保持一致。使用时安装 core 与对应适配器，例如 React 选择 @ui-sdk/react，其他框架可换成 @ui-sdk/vue、@ui-sdk/svelte、@ui-sdk/solid 或 @ui-sdk/web，然后把 UI SDK skill 提供给智能体，让智能体据此构建和驱动界面。Web Components 路径还需为每个 part 注册 custom element，再在 HTML 中使用。当前版本仍处于 beta，framework、API、文档和 behavior 在正式发布前都可能变化；安全漏洞应按负责披露流程提交，而不是创建公开 issue。"
+      "source": "A library of behaviors for agents to build and drive the next generation of user interfaces.",
+      "zh": "帮助智能体构建并驱动下一代用户界面的行为库",
+      "analysis_source": "6859f31d2a1c8060c42a2233c37077fc5969af9aca50d6a3ace450c3e524203a",
+      "analysis_zh": "UI SDK 把组件交互拆成可组合的 behaviors，让智能体先描述并创建交互原语，再由具体框架负责渲染。键盘导航、焦点、选择、关闭、弹出层、拖放以及相应 ARIA 语义都集中在 @ui-sdk/core；项目另外提供 React、Vue、Svelte、Solid 和 Web Components 适配器，因此同一组交互逻辑不必跟某一种视图框架绑定。安装时先加入 core，再选择当前框架的适配包，例如 @ui-sdk/react，也可以换成 Vue、Svelte、Solid 或 Web Components 版本，并把 UI SDK skill 提供给智能体。组件从 behaviors 创建 primitive，随后通过 createParts 渲染；五种框架获得的 parts 保持一致，Web Components 用法则为每个 part 注册自定义元素，再在 HTML 中组合。这样的设计把无障碍语义和容易出错的交互状态留在共享核心中，同时允许应用按自身框架决定最终标签和呈现方式。UI SDK 目前仍处于 beta，框架、API、文档和 behavior 在正式发布前都可能变化。"
     },
     "vercel/next.js": {
       "source": "The React Framework",
@@ -3396,8 +3414,8 @@
     "zhouxiaoka/autoclip": {
       "source": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "zh": "将长视频自动剪成短视频并生成字幕、封面和发布文案。",
-      "analysis_source": "281cec33ef67bbffb113780c6bc8b4830ee83063b0552b7e11e2cf98312a67eb",
-      "analysis_zh": "粘贴一条访谈、播客、课程或口播视频链接，选择目标平台后，AutoClip 会按对应画幅和时长规则筛选片段，并为每条成片配好字幕、封面、标题、简介、话题与 ZIP 发布包。抖音和小红书默认采用访谈式，TikTok、Reels、YouTube Shorts 默认采用满屏播客式，B 站与 YouTube 保留横版；人物取景会跟随说话人，无人镜头则保留完整画面。候选按评分最多自动制作 10 条，其余可在编辑器里点“生成这条”继续处理。剪辑、取景与渲染均在本机完成，字幕来源可选作者字幕、本地 Whisper、SenseVoice 或云端转写；Ollama 与 LM Studio 可承担本地分析，使用云端模型时才会发送相应字幕、文案、音频或抽样画面。桌面安装包覆盖 macOS Apple Silicon 和 Windows x64，并内置 Python 与 FFmpeg；Linux、自建 Web 服务可走 Docker，批处理和 Agent 集成则使用 CLI / MCP。MCP 新流程通过 start_quick_output 发起任务，再用 get_quick_output_status 查询进度，桌面、CLI 与 MCP 共用同一条出片链路。完成后应在预览中检查字幕、取景和内容完整性，再下载发布包或连接账号投稿。"
+      "analysis_source": "e286b52f2ec8ff9a9936fdb7f6e949190bb5ac4c9ea8618ee7056e943d5b03f1",
+      "analysis_zh": "把视频链接、本地文件或直播回放交给 AutoClip 后，它会寻找值得截取的片段、追踪说话者、烧录字幕、生成封面和标题，再导出适配 TikTok、Shorts、Reels、抖音、小红书与 Bilibili 的成片。剪辑和渲染坚持 local first，既可自带云端 API Key，也能组合 Ollama / LM Studio 与 Whisper / SenseVoice 实现离线处理。桌面端的操作路径很直接：在 Settings 选择模型服务并测试连接，粘贴链接或拖入文件，选择发布平台后点击 Generate；Live Replay 页面还可接入 OBS Studio、Twitch、YouTube、Kick、Discord 和本地录像，其中 OBS WebSocket 使用 4455 端口，直播结束后能够无损裁切并自动排队。完成页提供 9:16 裁切、字幕预览以及 Download / Publish / Redo。除了打包了 Python 与 FFmpeg 的 macOS、Windows 安装器，还能通过 uvx autoclip-mcp 接入智能体，或执行 docker compose up -d --build 后在本地 Web 界面使用。"
     },
     "zhu1090093659/dsh-web": {
       "source": "DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop",
