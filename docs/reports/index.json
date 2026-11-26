@@ -9856,8 +9856,303 @@
     {
       "id": "hot-rising",
       "name": "GitHub 热门增长仓库",
-      "latest": "2026-11-25",
+      "latest": "2026-11-26",
       "reports": [
+        {
+          "report_type": "hot-rising",
+          "date": "2026-11-26",
+          "generated_at": "2026-11-26T09:05:18+08:00",
+          "discovered_count": 988,
+          "candidate_count": 100,
+          "item_count": 100,
+          "analysis_count": 100,
+          "daily_trending": [
+            {
+              "rank": 1,
+              "name": "mvanhorn/last30days-skill",
+              "trending_rank": 10,
+              "stars_today": 945
+            },
+            {
+              "rank": 2,
+              "name": "google-labs-code/stitch-skills",
+              "trending_rank": 11,
+              "stars_today": 355
+            },
+            {
+              "rank": 3,
+              "name": "obra/superpowers",
+              "trending_rank": 2,
+              "stars_today": 903
+            },
+            {
+              "rank": 4,
+              "name": "firecrawl/firecrawl",
+              "trending_rank": 6,
+              "stars_today": 1135
+            },
+            {
+              "rank": 5,
+              "name": "cathrynlavery/diagram-design",
+              "trending_rank": 9,
+              "stars_today": 1141
+            },
+            {
+              "rank": 6,
+              "name": "HKUDS/CLI-Anything",
+              "trending_rank": 3,
+              "stars_today": 1106
+            },
+            {
+              "rank": 7,
+              "name": "jingyaogong/minimind",
+              "trending_rank": 4,
+              "stars_today": 826
+            },
+            {
+              "rank": 8,
+              "name": "cursor/plugins",
+              "trending_rank": 5,
+              "stars_today": 416
+            },
+            {
+              "rank": 10,
+              "name": "elementalsouls/Claude-BugHunter",
+              "trending_rank": 1,
+              "stars_today": 1652
+            },
+            {
+              "rank": 16,
+              "name": "openvinotoolkit/openvino",
+              "trending_rank": 8,
+              "stars_today": 191
+            },
+            {
+              "rank": 20,
+              "name": "zhouxiaoka/autoclip",
+              "trending_rank": 16,
+              "stars_today": 880
+            },
+            {
+              "rank": 21,
+              "name": "mjmirza/app-store-compliance",
+              "trending_rank": 12,
+              "stars_today": 858
+            },
+            {
+              "rank": 22,
+              "name": "toeverything/AFFiNE",
+              "trending_rank": 14,
+              "stars_today": 574
+            },
+            {
+              "rank": 24,
+              "name": "XiaoYouChR/Ghost-Downloader-3",
+              "trending_rank": 15,
+              "stars_today": 951
+            },
+            {
+              "rank": 25,
+              "name": "Tracer-Cloud/opensre",
+              "trending_rank": 13,
+              "stars_today": 348
+            },
+            {
+              "rank": 35,
+              "name": "nginx/nginx",
+              "trending_rank": 7,
+              "stars_today": 176
+            }
+          ],
+          "weekly_trending": [
+            {
+              "rank": 1,
+              "name": "mvanhorn/last30days-skill",
+              "trending_rank": 6,
+              "stars_today": 5302
+            },
+            {
+              "rank": 2,
+              "name": "google-labs-code/stitch-skills",
+              "trending_rank": 2,
+              "stars_today": 2616
+            },
+            {
+              "rank": 9,
+              "name": "alibaba/open-code-review",
+              "trending_rank": 5,
+              "stars_today": 2259
+            },
+            {
+              "rank": 11,
+              "name": "kajisho5/ffmpeg-skill",
+              "trending_rank": 14,
+              "stars_today": 3048
+            },
+            {
+              "rank": 12,
+              "name": "meta/astryx",
+              "trending_rank": 10,
+              "stars_today": 2635
+            },
+            {
+              "rank": 13,
+              "name": "GoogleChrome/modern-web-guidance-src",
+              "trending_rank": 3,
+              "stars_today": 2309
+            },
+            {
+              "rank": 14,
+              "name": "ChromeDevTools/chrome-devtools-mcp",
+              "trending_rank": 7,
+              "stars_today": 1203
+            },
+            {
+              "rank": 15,
+              "name": "backnotprop/plannotator",
+              "trending_rank": 1,
+              "stars_today": 1764
+            },
+            {
+              "rank": 17,
+              "name": "ag-ui-protocol/ag-ui",
+              "trending_rank": 9,
+              "stars_today": 1421
+            },
+            {
+              "rank": 18,
+              "name": "dream-num/univer",
+              "trending_rank": 13,
+              "stars_today": 2319
+            },
+            {
+              "rank": 19,
+              "name": "we-promise/sure",
+              "trending_rank": 12,
+              "stars_today": 1509
+            },
+            {
+              "rank": 23,
+              "name": "tradermonty/claude-trading-skills",
+              "trending_rank": 8,
+              "stars_today": 1422
+            }
+          ],
+          "new_projects": [
+            {
+              "rank": 88,
+              "name": "vorssaint/vorssaint-utils"
+            },
+            {
+              "rank": 90,
+              "name": "guillaumemeyer/watermarks-remover"
+            }
+          ],
+          "warnings_count": 0,
+          "item_names": [
+            "mvanhorn/last30days-skill",
+            "google-labs-code/stitch-skills",
+            "obra/superpowers",
+            "firecrawl/firecrawl",
+            "cathrynlavery/diagram-design",
+            "HKUDS/CLI-Anything",
+            "jingyaogong/minimind",
+            "cursor/plugins",
+            "alibaba/open-code-review",
+            "elementalsouls/Claude-BugHunter",
+            "kajisho5/ffmpeg-skill",
+            "meta/astryx",
+            "GoogleChrome/modern-web-guidance-src",
+            "ChromeDevTools/chrome-devtools-mcp",
+            "backnotprop/plannotator",
+            "openvinotoolkit/openvino",
+            "ag-ui-protocol/ag-ui",
+            "dream-num/univer",
+            "we-promise/sure",
+            "zhouxiaoka/autoclip",
+            "mjmirza/app-store-compliance",
+            "toeverything/AFFiNE",
+            "tradermonty/claude-trading-skills",
+            "XiaoYouChR/Ghost-Downloader-3",
+            "Tracer-Cloud/opensre",
+            "morluto/rea",
+            "Ebony-Vinyl/dsh-our-free-model",
+            "stablyai/orca",
+            "pingdotgg/t3code",
+            "storytold/craft-anything",
+            "BaaRai/ARTEX",
+            "mattpocock/skills",
+            "deepseek-ai/deepseek-harness",
+            "DietrichGebert/ponytail",
+            "nginx/nginx",
+            "ccch1mneyyy/dsh-Go",
+            "affaan-m/ECC",
+            "erkamyaman/rust-anything",
+            "debpalash/VoiceStudio",
+            "anefzaoui/misterdownloadmanager",
+            "Graphify-Labs/graphify",
+            "yetone/magpie",
+            "pbakaus/impeccable",
+            "heygen-com/hyperframes",
+            "Leonxlnx/taste-skill",
+            "Niko1221/Strata",
+            "nextlevelbuilder/ui-ux-pro-max-skill",
+            "anthropics/skills",
+            "mdiri-ai/SoduWork",
+            "heydamir/unslop",
+            "Gathin23/cleanyourtv",
+            "KnifeLemon/Filee",
+            "libracoder/kiri",
+            "boykopovar/AnyPS5",
+            "ersinkoc/phonebox",
+            "tt-a1i/archify",
+            "JuneYaooo/rea-video",
+            "Hut-hzf/ung220z-tool",
+            "paperclipai/paperclip",
+            "storytold/photocraft",
+            "lemomo-ai/lemo-opuscar",
+            "anhao/ai-pose-gallery-zh",
+            "NousResearch/hermes-agent",
+            "cloudflare/security-audit-skill",
+            "amosblomqvist/learnharness",
+            "milind-soni/OpenMausBot",
+            "JuliusBrussee/caveman",
+            "blader/humanizer",
+            "eternity4719/HowToLiveBetter",
+            "Egonex-AI/Understand-Anything",
+            "google/elephant-goldfish-model",
+            "farion1231/cc-switch",
+            "Panniantong/Agent-Reach",
+            "addyosmani/agent-skills",
+            "anomalyco/opencode",
+            "career-ops-hq/career-ops",
+            "nexu-io/open-design",
+            "kingcharleslzy-ai/dsh-purge",
+            "Lee-xeo/Claude-Cage",
+            "cheaper-inference/OmniRoute",
+            "Minireel/HGhub",
+            "OpenMontageInc/OpenMontage",
+            "hugohe3/ppt-master",
+            "thedotmack/claude-mem",
+            "janestreet/agent_skills",
+            "vercel-labs/ui",
+            "JustVugg/colibri",
+            "vorssaint/vorssaint-utils",
+            "sherlock-project/sherlock",
+            "guillaumemeyer/watermarks-remover",
+            "bilawalsidhu/gods-eye-view",
+            "ZhuLinsen/daily_stock_analysis",
+            "codecrafters-io/build-your-own-x",
+            "ai-job-search-dev/ai-job-search",
+            "Droid-Deck/DroidDeck",
+            "clash-verge-rev/clash-verge-rev",
+            "RoutineMiku/apkstart",
+            "dataelement/dsh-desktop",
+            "tangency-labs/solidcraft",
+            "Alishahryar1/free-claude-code"
+          ],
+          "report_path": "reports/hot-rising/2026-11-26.md"
+        },
         {
           "report_type": "hot-rising",
           "date": "2026-11-25",
@@ -33033,127 +33328,6 @@
         "YILS-LIN/short-video-factory"
       ],
       "report_path": "reports/2026-11-19.md"
-    },
-    {
-      "report_type": "cross-platform",
-      "date": "2026-11-18",
-      "generated_at": "2026-11-18T09:00:57+08:00",
-      "discovered_count": 1000,
-      "candidate_count": 600,
-      "item_count": 100,
-      "analysis_count": 100,
-      "daily_trending": [],
-      "weekly_trending": [],
-      "new_projects": [
-        {
-          "rank": 99,
-          "name": "caamer20/Telegram-Drive"
-        }
-      ],
-      "warnings_count": 0,
-      "item_names": [
-        "farion1231/cc-switch",
-        "stablyai/orca",
-        "rustdesk/rustdesk",
-        "nexu-io/open-design",
-        "OpenHands/OpenHands",
-        "toeverything/AFFiNE",
-        "Eugeny/tabby",
-        "marktext/marktext",
-        "tw93/Pake",
-        "laurent22/joplin",
-        "agalwood/Motrix",
-        "WerWolv/ImHex",
-        "team-spotube/spotube",
-        "cli/cli",
-        "usebruno/bruno",
-        "siyuan-note/siyuan",
-        "SunshineStream/Sunshine",
-        "janhq/jan",
-        "GyulyVGC/sniffnet",
-        "TriliumNext/Trilium",
-        "tinyhumansai/openhuman",
-        "DayuanJiang/next-ai-draw-io",
-        "lyswhut/lx-music-desktop",
-        "pear-devs/pear-desktop",
-        "cjpais/Handy",
-        "flameshot-org/flameshot",
-        "t8y2/dbx",
-        "keepassxreboot/keepassxc",
-        "Devolutions/UniGetUI",
-        "Wox-launcher/Wox",
-        "milind-soni/OpenMausBot",
-        "getpaseo/paseo",
-        "alacritty/alacritty",
-        "super-productivity/super-productivity",
-        "beekeeper-studio/beekeeper-studio",
-        "GopeedLab/gopeed",
-        "mountain-loop/yaak",
-        "nukeop/nuclear",
-        "audacity/audacity",
-        "rowboatlabs/rowboat",
-        "Automattic/harper",
-        "wavetermdev/waveterm",
-        "algerkong/AlgerMusicPlayer",
-        "amir1376/ab-download-manager",
-        "ActivityWatch/activitywatch",
-        "Termix-SSH/Termix",
-        "electerm/electerm",
-        "NanmiCoder/cc-haha",
-        "OrchestratorInc/agent-orchestrator",
-        "MetrolistGroup/Metrolist",
-        "mltframework/shotcut",
-        "bitwarden/clients",
-        "dail8859/NotepadNext",
-        "streetwriters/notesnook",
-        "elie222/inbox-zero",
-        "Zettlr/Zettlr",
-        "chthollyphile/folia-major",
-        "hluk/CopyQ",
-        "anefzaoui/misterdownloadmanager",
-        "OpenWhispr/openwhispr",
-        "genspark-ai/genoffice",
-        "XiaoYouChR/Ghost-Downloader-3",
-        "espanso/espanso",
-        "CyberTimon/RapidRAW",
-        "zhouxiaoka/autoclip",
-        "vicinaehq/vicinae",
-        "tonhowtf/omniget",
-        "open-pencil/open-pencil",
-        "aandrew-me/ytDownloader",
-        "HarnessMD/munder-difflin",
-        "l0ng-ai/openidea",
-        "webtorrent/webtorrent-desktop",
-        "elie222/rakazo",
-        "jeffvli/feishin",
-        "nightly-labs/openbot",
-        "lightningpixel/modly",
-        "crynta/terax-ai",
-        "getagentseal/codeburn",
-        "raphamorim/rio",
-        "4gray/iptvnator",
-        "vastsa/PI-Desktop",
-        "rancher-sandbox/rancher-desktop",
-        "EcoPasteHub/EcoPaste",
-        "mg-chao/snow-shot",
-        "binaricat/Netcatty",
-        "codexu/note-gen",
-        "mockoon/mockoon",
-        "MoeKoeMusic/MoeKoeMusic",
-        "luckjiawei/frpc-desktop",
-        "mediago-dev/mediago",
-        "VSCodium/vscodium",
-        "evolus/pencil",
-        "dbgate/dbgate",
-        "rullerzhou-afk/clawd-on-desk",
-        "thewh1teagle/vibe",
-        "Sylinko/Everywhere",
-        "netease-youdao/LobsterAI",
-        "pbek/QOwnNotes",
-        "caamer20/Telegram-Drive",
-        "ThinkInAIXYZ/deepchat"
-      ],
-      "report_path": "reports/2026-11-18.md"
     },
     {
       "report_type": "cross-platform",
